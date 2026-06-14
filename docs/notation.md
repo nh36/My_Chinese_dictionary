@@ -46,6 +46,7 @@ The current packet workflow gathers evidence for items 1-4 and some of 5. It doe
    - identify candidate semantic component(s);
    - map them onto the inventory abbreviations;
    - choose or defer left/right/above/below placement.
+   - if the semantic component is known but the inventory still has no settled Latin abbreviation, use the component itself in superscript temporarily and flag it for later abbreviation review.
 3. Add explicit fields in curation JSON for:
    - `semantic_assignment.abbreviation`
    - `semantic_assignment.position`

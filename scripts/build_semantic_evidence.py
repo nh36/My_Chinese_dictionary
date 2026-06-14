@@ -317,10 +317,10 @@ def resolve_semantic_from_ids(
         return None
 
     inventory_matches = graph_lookup.get(semantic_component, [])
-    resolved_abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else None
+    resolved_abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
 
     return {
-        "source": "ids_top_level",
+        "source": "ids_top_level" if inventory_matches else "ids_component_literal_fallback",
         "character": character,
         "ids": ids,
         "phonetic_component": phonetic_component,
@@ -346,9 +346,6 @@ def resolve_semantic_from_wiktionary_template(
 
     semantic_component = normalize_component_graph(semantic_components[0])
     phonetic_component = normalize_component_graph(phonetic_components[0])
-    if semantic_component not in graph_lookup:
-        return None
-
     semantic_index = None
     phonetic_index = None
     for index, component in enumerate(positional):
@@ -380,12 +377,12 @@ def resolve_semantic_from_wiktionary_template(
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
 
     inventory_matches = graph_lookup.get(semantic_component, [])
-    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else None
-    if not abbreviation or not position:
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
+    if not position:
         return None
 
     return {
-        "source": "wiktionary_han_compound",
+        "source": "wiktionary_han_compound" if inventory_matches else "wiktionary_component_literal_fallback",
         "character": character,
         "semantic_component": semantic_component,
         "phonetic_component": phonetic_component,
@@ -447,9 +444,7 @@ def resolve_semantic_from_packet_family(
 
     semantic_component = subtree_head(right if left_match else left)
     inventory_matches = graph_lookup.get(semantic_component, [])
-    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else None
-    if not abbreviation:
-        return None
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
 
     operator = tree["op"]
     if operator == "⿰":
@@ -464,7 +459,7 @@ def resolve_semantic_from_packet_family(
         return None
 
     return {
-        "source": "packet_family_ids",
+        "source": "packet_family_ids" if inventory_matches else "packet_family_component_literal_fallback",
         "character": character,
         "ids": ids,
         "semantic_component": semantic_component,

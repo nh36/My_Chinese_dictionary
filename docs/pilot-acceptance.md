@@ -24,6 +24,8 @@ A future pilot should be considered review-ready only when proposed additions ha
 7. GSR/source provenance preserved in comments or structured fields;
 8. rendering in a block whose formatting can be compared directly to an existing entry.
 
+If the semantic component is identified but the abbreviation inventory does not yet contain a settled Latin label for it, render the component itself in superscript temporarily instead of halting the pilot. That fallback only applies after the semantic/phonetic roles are understood.
+
 ## Current readiness check
 
 Run:

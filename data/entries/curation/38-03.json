@@ -1424,30 +1424,25 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "pluv",
+        "abbreviation": "雲",
         "position": "prefix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "雨",
-            "label_token": "pluv(ia)",
-            "abbreviation": "pluv",
-            "start_line": 305
-          },
-          {
-            "graph_raw": "雨",
-            "label_token": "pluv",
-            "abbreviation": "pluv",
-            "learned": true,
-            "evidence_count": 1
-          }
-        ],
-        "source": "ids_top_level",
-        "semantic_component": "雨"
+        "inventory_matches": [],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "雲"
       },
       "wiktionary_semantic_validation": {
         "semantic_component": "雲",
         "phonetic_component": "今",
-        "resolved_assignment": null
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "𩃬",
+          "semantic_component": "雲",
+          "phonetic_component": "今",
+          "position": "prefix-colon",
+          "abbreviation": "雲",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|雲|今|ls=psc|c1=s|c2=p}}"
+        }
       },
       "transliteration_latex": null,
       "render_latex": null
@@ -2150,18 +2145,26 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_top_level",
+          "source": "ids_component_literal_fallback",
           "character": "韽",
           "ids": "⿰酓音",
           "phonetic_component": "今",
           "semantic_component": "音",
           "position": "suffix-dot",
-          "abbreviation": null,
+          "abbreviation": "音",
           "inventory_matches": []
         }
       ],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "音",
+        "position": "suffix-dot",
+        "inventory_matches": [],
+        "source": "ids_component_literal_fallback",
+        "semantic_component": "音"
+      }
     },
     {
       "character": "坅",
@@ -4081,7 +4084,15 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "云",
+        "position": "suffix-colon",
+        "inventory_matches": [],
+        "source": "packet_family_component_literal_fallback",
+        "semantic_component": "云"
+      }
     },
     {
       "character": "陰",
@@ -4410,10 +4421,27 @@
       "wiktionary_semantic_validation": {
         "semantic_component": "帛",
         "phonetic_component": "金",
-        "resolved_assignment": null
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "錦",
+          "semantic_component": "帛",
+          "phonetic_component": "金",
+          "position": "suffix-dot",
+          "abbreviation": "帛",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|金|帛|c1=p|c2=s|ls=psc}}"
+        }
       },
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "帛",
+        "position": "suffix-dot",
+        "inventory_matches": [],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "帛"
+      }
     },
     {
       "character": "欽",
