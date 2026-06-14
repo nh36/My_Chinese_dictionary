@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:39:02.286675+00:00",
+  "generated_at": "2026-06-14T19:29:13.615326+00:00",
   "id": "18-18",
   "status": "machine-curated-pilot",
   "packet_kind": "existing_addendum",
@@ -333,6 +333,24 @@
           "oc_syllable": "kʳa̠ls"
         }
       ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|力|口|t1=strength|t2=mouth|ls=ic|nocap=1}}",
+          "positional_components": [
+            "力",
+            "口"
+          ],
+          "named_args": {
+            "t1": "strength",
+            "t2": "mouth",
+            "ls": "ic",
+            "nocap": "1"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        }
+      },
       "tex_occurrence_candidates": [
         {
           "character": "加",
@@ -353,13 +371,9 @@
           ]
         }
       ],
-      "transliteration_latex": "%加\t%jia1",
       "render_latex": "%加\t%jia1\t\n\\textit{kae};\t%kae\t%0015a",
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null
     },
     {
       "character": "枷",
@@ -403,6 +417,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [
         {
           "character": "枷",
@@ -464,6 +482,7 @@
           }
         ]
       },
+      "transliteration_latex": "{\\large{{\\textsuperscript{arb·}}kay}},",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -490,11 +509,7 @@
           ]
         }
       ],
-      "transliteration_latex": "{\\large{{\\textsuperscript{arb·}}kay}},",
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "render_latex": "枷\t%jia1\n{\\large{{\\textsuperscript{arb·}}kay}},\n\\textit{kae};\t%0015c\n\\textit{kaeH};"
     },
     {
       "character": "珈",
@@ -530,6 +545,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}",
+          "positional_components": [
+            "玉",
+            "加"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "jade",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "玉"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [
         {
           "character": "珈",
@@ -562,16 +599,26 @@
         }
       ],
       "semantic_assignment": {
-        "token": "gem·",
+        "token": null,
         "abbreviation": "gem",
         "position": "prefix-dot",
         "inventory_matches": [
           {
             "graph_raw": "玉",
             "label_token": "gem(ma)",
+            "abbreviation": "gem",
             "start_line": 254
+          },
+          {
+            "graph_raw": "玉",
+            "label_token": "gem",
+            "abbreviation": "gem",
+            "learned": true,
+            "evidence_count": 7
           }
-        ]
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "玉"
       },
       "transliteration_latex": "{\\large{{\\textsuperscript{gem·}}kay}},",
       "render_latex": "珈\t%jia1\t\n{\\large{{\\textsuperscript{gem·}}kay}},\n\\textit{kae};\t%kae\t%0015d",
@@ -601,9 +648,33 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
+      "wiktionary_semantic_validation": {
+        "semantic_component": "玉",
+        "phonetic_component": "加",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "珈",
+          "semantic_component": "玉",
+          "phonetic_component": "加",
+          "position": "prefix-dot",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ],
+          "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}"
+        }
       }
     },
     {
@@ -652,6 +723,27 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "加",
+            "馬"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "馬"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [
         {
           "character": "駕",
@@ -684,16 +776,26 @@
         }
       ],
       "semantic_assignment": {
-        "token": ":equ",
+        "token": null,
         "abbreviation": "equ",
         "position": "suffix-colon",
         "inventory_matches": [
           {
             "graph_raw": "馬",
             "label_token": "equ(us)",
+            "abbreviation": "equ",
             "start_line": 243
+          },
+          {
+            "graph_raw": "馬",
+            "label_token": "equ",
+            "abbreviation": "equ",
+            "learned": true,
+            "evidence_count": 8
           }
-        ]
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "馬"
       },
       "transliteration_latex": "{\\large{kay{\\textsuperscript{:equ}}}},",
       "render_latex": "駕\t%jia4\t\n{\\large{kay{\\textsuperscript{:equ}}}},\n\\textit{kaeH};\t%kaeH\t%0015e",
@@ -723,9 +825,33 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
+      "wiktionary_semantic_validation": {
+        "semantic_component": "馬",
+        "phonetic_component": "加",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "駕",
+          "semantic_component": "馬",
+          "phonetic_component": "加",
+          "position": "suffix-colon",
+          "abbreviation": "equ",
+          "inventory_matches": [
+            {
+              "graph_raw": "馬",
+              "label_token": "equ(us)",
+              "abbreviation": "equ",
+              "start_line": 243
+            },
+            {
+              "graph_raw": "馬",
+              "label_token": "equ",
+              "abbreviation": "equ",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ],
+          "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}"
+        }
       }
     },
     {
@@ -774,6 +900,27 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "壴",
+            "加"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "壴"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [
         {
           "character": "嘉",
@@ -806,16 +953,26 @@
         }
       ],
       "semantic_assignment": {
-        "token": "tympan:",
+        "token": null,
         "abbreviation": "tympan",
         "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "壴",
             "label_token": "tympan(um)",
+            "abbreviation": "tympan",
             "start_line": 351
+          },
+          {
+            "graph_raw": "壴",
+            "label_token": "tympan",
+            "abbreviation": "tympan",
+            "learned": true,
+            "evidence_count": 1
           }
-        ]
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "壴"
       },
       "transliteration_latex": "{\\large{{\\textsuperscript{tympan:}}kay}},",
       "render_latex": "嘉\t%jia1\t\n{\\large{{\\textsuperscript{tympan:}}kay}},\n\\textit{kae};\t%kae\t%0015g",
@@ -845,9 +1002,33 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
+      "wiktionary_semantic_validation": {
+        "semantic_component": "壴",
+        "phonetic_component": "加",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "嘉",
+          "semantic_component": "壴",
+          "phonetic_component": "加",
+          "position": "prefix-colon",
+          "abbreviation": "tympan",
+          "inventory_matches": [
+            {
+              "graph_raw": "壴",
+              "label_token": "tympan(um)",
+              "abbreviation": "tympan",
+              "start_line": 351
+            },
+            {
+              "graph_raw": "壴",
+              "label_token": "tympan",
+              "abbreviation": "tympan",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}"
+        }
       }
     },
     {
@@ -884,6 +1065,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [
         {
           "character": "哿",
@@ -948,11 +1133,7 @@
             }
           ]
         }
-      ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      ]
     },
     {
       "character": "賀",
@@ -988,6 +1169,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}",
+          "positional_components": [
+            "加",
+            "貝"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "shellfish money",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "貝"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [
         {
           "character": "賀",
@@ -1020,16 +1223,26 @@
         }
       ],
       "semantic_assignment": {
-        "token": ":conch",
+        "token": null,
         "abbreviation": "conch",
         "position": "suffix-colon",
         "inventory_matches": [
           {
             "graph_raw": "貝",
             "label_token": "conch(a)",
+            "abbreviation": "conch",
             "start_line": 218
+          },
+          {
+            "graph_raw": "貝",
+            "label_token": "conch",
+            "abbreviation": "conch",
+            "learned": true,
+            "evidence_count": 5
           }
-        ]
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "貝"
       },
       "transliteration_latex": "{\\large{kay{\\textsuperscript{:conch}}}},",
       "render_latex": "賀\t%he4\t\n{\\large{kay{\\textsuperscript{:conch}}}},\n\\textit{ḫaH};\t%haH\t%0015j",
@@ -1059,9 +1272,33 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
+      "wiktionary_semantic_validation": {
+        "semantic_component": "貝",
+        "phonetic_component": "加",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "賀",
+          "semantic_component": "貝",
+          "phonetic_component": "加",
+          "position": "suffix-colon",
+          "abbreviation": "conch",
+          "inventory_matches": [
+            {
+              "graph_raw": "貝",
+              "label_token": "conch(a)",
+              "abbreviation": "conch",
+              "start_line": 218
+            },
+            {
+              "graph_raw": "貝",
+              "label_token": "conch",
+              "abbreviation": "conch",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ],
+          "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}"
+        }
       }
     }
   ],

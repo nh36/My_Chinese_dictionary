@@ -50,6 +50,15 @@ def normalize_gsr(value: str | None) -> str | None:
     return cleaned
 
 
+def recover_character(character: str, unicode_hex: str) -> str:
+    if character != "�":
+        return character
+    try:
+        return chr(int(unicode_hex, 16))
+    except Exception:
+        return character
+
+
 def parse_bs_gsr_line(line: str) -> dict[str, Any] | None:
     match = ROW_RE.match(line.rstrip())
     if not match:
@@ -73,7 +82,7 @@ def parse_bs_gsr_line(line: str) -> dict[str, Any] | None:
     gsr_raw = match.group("gsr_raw")
 
     return {
-        "character": match.group("character"),
+        "character": recover_character(match.group("character"), match.group("unicode")),
         "pinyin": match.group("pinyin"),
         "mc_bs": match.group("mc"),
         "mc_analyzed": match.group("mc_analyzed"),

@@ -12,4 +12,4 @@
 | `04-30` | `missing_series` | no | 33 |
 | `18-18` | `existing_addendum` | yes | 7 |
 | `01-01` | `existing_addendum` | yes | 4 |
-| `01-43` | `existing_addendum` | yes | 3 |
+| `01-43` | `existing_addendum` | yes | 2 |

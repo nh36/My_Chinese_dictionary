@@ -78,6 +78,10 @@ def collect_candidate_gsr_values(candidate: dict[str, Any]) -> list[str]:
 
 
 def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
+    render_latex = candidate.get("render_latex")
+    if render_latex:
+        return [line.rstrip() for line in render_latex.splitlines() if line.strip()]
+
     character = candidate["character"]
     pinyins = collect_candidate_pinyins(candidate)
     mc_forms = collect_candidate_mc_forms(candidate)

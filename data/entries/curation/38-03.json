@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:39:02.283816+00:00",
+  "generated_at": "2026-06-14T19:29:13.612526+00:00",
   "id": "38-03",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1323,12 +1323,14 @@
           "oc_syllable": "kʰams"
         }
       ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "𩃬",
@@ -1364,6 +1366,27 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|雲|今|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "雲",
+            "今"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "雲"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1401,15 +1424,25 @@
             "label_token": "pluv(ia)",
             "abbreviation": "pluv",
             "start_line": 305
+          },
+          {
+            "graph_raw": "雨",
+            "label_token": "pluv",
+            "abbreviation": "pluv",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "雨"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "雲",
+        "phonetic_component": "今",
+        "resolved_assignment": null
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "蔭",
@@ -1457,6 +1490,31 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|陰|alt1=艹|ls=psc|ls2=ic|c1=s|c2=p|t1=grass|t2=shade}}",
+          "positional_components": [
+            "艸",
+            "陰"
+          ],
+          "named_args": {
+            "alt1": "艹",
+            "ls": "psc",
+            "ls2": "ic",
+            "c1": "s",
+            "c2": "p",
+            "t1": "grass",
+            "t2": "shade"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "陰"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1494,15 +1552,48 @@
             "label_token": "herb(a)",
             "abbreviation": "herb",
             "start_line": 261
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "陰",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蔭",
+          "semantic_component": "艸",
+          "phonetic_component": "陰",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ],
+          "template_raw": "{{Han compound|艸|陰|alt1=艹|ls=psc|ls2=ic|c1=s|c2=p|t1=grass|t2=shade}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "廕",
@@ -1538,6 +1629,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1575,15 +1670,20 @@
             "label_token": "lax(us)",
             "abbreviation": "lax",
             "start_line": 268
+          },
+          {
+            "graph_raw": "广",
+            "label_token": "lax",
+            "abbreviation": "lax",
+            "learned": true,
+            "evidence_count": 3
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "广"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "酓",
@@ -1631,6 +1731,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1668,15 +1772,20 @@
             "label_token": "vin(um)",
             "abbreviation": "vin",
             "start_line": 366
+          },
+          {
+            "graph_raw": "酉",
+            "label_token": "vin",
+            "abbreviation": "vin",
+            "learned": true,
+            "evidence_count": 3
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "酉"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "紟",
@@ -1712,6 +1821,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1733,10 +1846,6 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      },
       "semantic_assignment": {
         "token": null,
         "abbreviation": "ser",
@@ -1752,7 +1861,9 @@
         ],
         "source": "ids_top_level",
         "semantic_component": "糹"
-      }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "衿",
@@ -1808,6 +1919,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1845,15 +1960,20 @@
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
             "start_line": 362
+          },
+          {
+            "graph_raw": "衣",
+            "label_token": "vest",
+            "abbreviation": "vest",
+            "learned": true,
+            "evidence_count": 7
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "衣"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "衾",
@@ -1901,6 +2021,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1938,15 +2062,20 @@
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
             "start_line": 362
+          },
+          {
+            "graph_raw": "衣",
+            "label_token": "vest",
+            "abbreviation": "vest",
+            "learned": true,
+            "evidence_count": 7
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "衣"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "韽",
@@ -2006,6 +2135,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2019,10 +2152,8 @@
           "inventory_matches": []
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "坅",
@@ -2066,6 +2197,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2103,15 +2238,20 @@
             "label_token": "terr(a)",
             "abbreviation": "terr",
             "start_line": 336
+          },
+          {
+            "graph_raw": "土",
+            "label_token": "terr",
+            "abbreviation": "terr",
+            "learned": true,
+            "evidence_count": 5
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "土"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "飲",
@@ -2147,12 +2287,30 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|酉|人|口|ls=ic|t1=bottle (of alcoholic beverages)|t2=person|t3=mouth (occasionally with the tongue protruding)|nocap=1}}",
+          "positional_components": [
+            "酉",
+            "人",
+            "口"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "bottle (of alcoholic beverages)",
+            "t2": "person",
+            "t3": "mouth (occasionally with the tongue protruding)",
+            "nocap": "1"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "㱃",
@@ -2188,6 +2346,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2225,15 +2387,20 @@
             "label_token": "dehab(eo)",
             "abbreviation": "dehab",
             "start_line": 229
+          },
+          {
+            "graph_raw": "欠",
+            "label_token": "dehab",
+            "abbreviation": "dehab",
+            "learned": true,
+            "evidence_count": 2
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "欠"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "禽",
@@ -2292,12 +2459,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "㜝",
@@ -2369,6 +2538,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2406,15 +2579,20 @@
             "label_token": "fem(ina)",
             "abbreviation": "fem",
             "start_line": 246
+          },
+          {
+            "graph_raw": "女",
+            "label_token": "fem",
+            "abbreviation": "fem",
+            "learned": true,
+            "evidence_count": 13
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "女"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "含",
@@ -2481,6 +2659,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|今|口|c1=p|c2=s|t2=mouth|ls=psc}}",
+          "positional_components": [
+            "今",
+            "口"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "mouth",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2518,15 +2718,48 @@
             "label_token": "(os,)",
             "abbreviation": "or",
             "start_line": 292
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 14
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "口"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "今",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "含",
+          "semantic_component": "口",
+          "phonetic_component": "今",
+          "position": "suffix-colon",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,)",
+              "abbreviation": "or",
+              "start_line": 292
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|今|口|c1=p|c2=s|t2=mouth|ls=psc}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "唅",
@@ -2586,6 +2819,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2623,15 +2860,20 @@
             "label_token": "(os,)",
             "abbreviation": "or",
             "start_line": 292
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 14
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "口"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "擒",
@@ -2679,12 +2921,82 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|alt1=扌|禽|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "手",
+            "禽"
+          ],
+          "named_args": {
+            "alt1": "扌",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "禽"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "禽",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "擒",
+          "semantic_component": "手",
+          "phonetic_component": "禽",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 274
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 17
+            }
+          ],
+          "template_raw": "{{Han compound|手|alt1=扌|禽|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "man",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "手",
+            "label_token": "man(us)",
+            "abbreviation": "man",
+            "start_line": 274
+          },
+          {
+            "graph_raw": "手",
+            "label_token": "man",
+            "abbreviation": "man",
+            "learned": true,
+            "evidence_count": 17
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "手"
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "頷",
@@ -2752,6 +3064,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|含|頁|ls=psc|c1=p|c2=s|t2=head}}",
+          "positional_components": [
+            "含",
+            "頁"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "head"
+          },
+          "semantic_components": [
+            "頁"
+          ],
+          "phonetic_components": [
+            "含"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2789,15 +3123,48 @@
             "label_token": "fac(ies)",
             "abbreviation": "fac",
             "start_line": 245
+          },
+          {
+            "graph_raw": "頁",
+            "label_token": "fac",
+            "abbreviation": "fac",
+            "learned": true,
+            "evidence_count": 3
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "頁"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "頁",
+        "phonetic_component": "含",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "頷",
+          "semantic_component": "頁",
+          "phonetic_component": "含",
+          "position": "suffix-dot",
+          "abbreviation": "fac",
+          "inventory_matches": [
+            {
+              "graph_raw": "頁",
+              "label_token": "fac(ies)",
+              "abbreviation": "fac",
+              "start_line": 245
+            },
+            {
+              "graph_raw": "頁",
+              "label_token": "fac",
+              "abbreviation": "fac",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ],
+          "template_raw": "{{Han compound|含|頁|ls=psc|c1=p|c2=s|t2=head}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "芩",
@@ -2833,6 +3200,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2870,15 +3241,20 @@
             "label_token": "herb(a)",
             "abbreviation": "herb",
             "start_line": 261
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "靲",
@@ -2914,6 +3290,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2951,15 +3331,20 @@
             "label_token": "cori(um)",
             "abbreviation": "cori",
             "start_line": 220
+          },
+          {
+            "graph_raw": "革",
+            "label_token": "cori",
+            "abbreviation": "cori",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "革"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "琴",
@@ -3007,6 +3392,27 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=psc|珡|c1=s|今|c2=p}}",
+          "positional_components": [
+            "珡",
+            "今"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "珡"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3014,16 +3420,78 @@
           "character": "琴",
           "ids": "⿱玨今",
           "phonetic_component": "今",
-          "semantic_component": "玨",
+          "semantic_component": "玉",
           "position": "prefix-colon",
-          "abbreviation": null,
-          "inventory_matches": []
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "gem",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "玉",
+            "label_token": "gem(ma)",
+            "abbreviation": "gem",
+            "start_line": 254
+          },
+          {
+            "graph_raw": "玉",
+            "label_token": "gem",
+            "abbreviation": "gem",
+            "learned": true,
+            "evidence_count": 7
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "玉"
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "珡",
+        "phonetic_component": "今",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "琴",
+          "semantic_component": "玉",
+          "phonetic_component": "今",
+          "position": "prefix-colon",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ],
+          "template_raw": "{{Han compound|ls=psc|珡|c1=s|今|c2=p}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "黔",
@@ -3079,6 +3547,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|黑|今|t1=black|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "黑",
+            "今"
+          ],
+          "named_args": {
+            "t1": "black",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "黑"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3111,13 +3601,32 @@
             "start_line": 285
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "黑"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "黑",
+        "phonetic_component": "今",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "黔",
+          "semantic_component": "黑",
+          "phonetic_component": "今",
+          "position": "prefix-dot",
+          "abbreviation": "niger",
+          "inventory_matches": [
+            {
+              "graph_raw": "黑",
+              "label_token": "niger",
+              "abbreviation": "niger",
+              "start_line": 285
+            }
+          ],
+          "template_raw": "{{Han compound|黑|今|t1=black|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "吟",
@@ -3177,6 +3686,27 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|今|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "口",
+            "今"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3214,15 +3744,48 @@
             "label_token": "(os,)",
             "abbreviation": "or",
             "start_line": 292
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 14
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "口"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "今",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "吟",
+          "semantic_component": "口",
+          "phonetic_component": "今",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,)",
+              "abbreviation": "or",
+              "start_line": 292
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|口|今|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "岑",
@@ -3258,6 +3821,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3295,15 +3862,20 @@
             "label_token": "mon(s)",
             "abbreviation": "mon",
             "start_line": 280
+          },
+          {
+            "graph_raw": "山",
+            "label_token": "mon",
+            "abbreviation": "mon",
+            "learned": true,
+            "evidence_count": 3
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "山"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "趻",
@@ -3339,6 +3911,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3360,10 +3936,6 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      },
       "semantic_assignment": {
         "token": null,
         "abbreviation": "ped",
@@ -3379,7 +3951,9 @@
         ],
         "source": "ids_top_level",
         "semantic_component": "𧾷"
-      }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "𢦟",
@@ -3415,6 +3989,10 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3452,15 +4030,20 @@
             "label_token": "hallebard(a)",
             "abbreviation": "hallebard",
             "start_line": 260
+          },
+          {
+            "graph_raw": "戈",
+            "label_token": "hallebard",
+            "abbreviation": "hallebard",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "戈"
       },
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "侌",
@@ -3483,12 +4066,14 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "陰",
@@ -3544,6 +4129,28 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|阜|侌|ls=psc|c1=s|c2=p|nocap=1}}",
+          "positional_components": [
+            "阜",
+            "侌"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "nocap": "1"
+          },
+          "semantic_components": [
+            "阜"
+          ],
+          "phonetic_components": [
+            "侌"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3565,26 +4172,44 @@
           ]
         }
       ],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      },
       "semantic_assignment": {
         "token": null,
         "abbreviation": "tum",
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "阝",
-            "label_token": "tum",
+            "graph_raw": "阜",
+            "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "learned": true,
-            "evidence_count": 7
+            "start_line": 350
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "阝"
-      }
+        "source": "wiktionary_han_compound",
+        "semantic_component": "阜"
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "阜",
+        "phonetic_component": "侌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "陰",
+          "semantic_component": "阜",
+          "phonetic_component": "侌",
+          "position": "prefix-dot",
+          "abbreviation": "tum",
+          "inventory_matches": [
+            {
+              "graph_raw": "阜",
+              "label_token": "tum(ulus)",
+              "abbreviation": "tum",
+              "start_line": 350
+            }
+          ],
+          "template_raw": "{{Han compound|阜|侌|ls=psc|c1=s|c2=p|nocap=1}}"
+        }
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "金",
@@ -3632,12 +4257,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "䘳",
@@ -3672,12 +4299,14 @@
       ],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "錦",
@@ -3725,12 +4354,36 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|金|帛|c1=p|c2=s|ls=psc}}",
+          "positional_components": [
+            "金",
+            "帛"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "帛"
+          ],
+          "phonetic_components": [
+            "金"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "帛",
+        "phonetic_component": "金",
+        "resolved_assignment": null
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "欽",
@@ -3766,12 +4419,84 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|nocap=1|ls=psc|金|欠|t1=gold; precious|c1=p|c2=s|t2=beg for}}",
+          "positional_components": [
+            "金",
+            "欠"
+          ],
+          "named_args": {
+            "nocap": "1",
+            "ls": "psc",
+            "t1": "gold; precious",
+            "c1": "p",
+            "c2": "s",
+            "t2": "beg for"
+          },
+          "semantic_components": [
+            "欠"
+          ],
+          "phonetic_components": [
+            "金"
+          ]
+        }
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "wiktionary_semantic_validation": {
+        "semantic_component": "欠",
+        "phonetic_component": "金",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "欽",
+          "semantic_component": "欠",
+          "phonetic_component": "金",
+          "position": "suffix-dot",
+          "abbreviation": "dehab",
+          "inventory_matches": [
+            {
+              "graph_raw": "欠",
+              "label_token": "dehab(eo)",
+              "abbreviation": "dehab",
+              "start_line": 229
+            },
+            {
+              "graph_raw": "欠",
+              "label_token": "dehab",
+              "abbreviation": "dehab",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|nocap=1|ls=psc|金|欠|t1=gold; precious|c1=p|c2=s|t2=beg for}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dehab",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "欠",
+            "label_token": "dehab(eo)",
+            "abbreviation": "dehab",
+            "start_line": 229
+          },
+          {
+            "graph_raw": "欠",
+            "label_token": "dehab",
+            "abbreviation": "dehab",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "欠"
+      },
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "唫",
@@ -3835,12 +4560,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "趛",
@@ -3876,12 +4603,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "顉",
@@ -3941,12 +4670,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "嶔",
@@ -3982,12 +4713,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "廞",
@@ -4035,12 +4768,14 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null
-      }
+      "transliteration_latex": null,
+      "render_latex": null
     }
   ],
   "all_candidates": [

@@ -24,8 +24,11 @@ TEXTSUP_RE = re.compile(r"\\textsuperscript\{([^}]*)\}")
 BINARY_IDS = {"⿰", "⿱", "⿴", "⿵", "⿶", "⿷", "⿸", "⿹", "⿺", "⿻"}
 TRINARY_IDS = {"⿲", "⿳"}
 IDS_NOTE_RE = re.compile(r"\[[^]]*\]")
+IMAGE_CODEPOINT_RE = re.compile(r"U\+([0-9A-F]{4,6})\.png", re.IGNORECASE)
 COMPONENT_ALIASES = {
     "王": "玉",
+    "玨": "玉",
+    "珡": "玉",
     "礻": "示",
     "衤": "衣",
     "忄": "心",
@@ -125,7 +128,15 @@ def parse_occurrence_block(
     if first_comment:
         pinyins.extend(inventory_tex.PINYIN_RE.findall(first_comment))
 
-    characters = dedupe_preserve(CHINESE_CHAR_RE.findall(character_line))
+    characters = CHINESE_CHAR_RE.findall(character_line)
+    for image_name in inventory_tex.find_macro_arguments(character_line, "includegraphics", has_optional_arg=True):
+        match = IMAGE_CODEPOINT_RE.search(image_name)
+        if match:
+            try:
+                characters.append(chr(int(match.group(1), 16)))
+            except Exception:
+                pass
+    characters = dedupe_preserve(characters)
     occurrences = []
     for character in characters:
         occurrences.append(
@@ -320,6 +331,71 @@ def resolve_semantic_from_ids(
     }
 
 
+def resolve_semantic_from_wiktionary_template(
+    *,
+    character: str,
+    han_compound: dict[str, Any],
+    ids_map: dict[str, str],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any] | None:
+    semantic_components = han_compound.get("semantic_components") or []
+    phonetic_components = han_compound.get("phonetic_components") or []
+    positional = han_compound.get("positional_components") or []
+    if len(semantic_components) != 1 or len(phonetic_components) != 1:
+        return None
+
+    semantic_component = normalize_component_graph(semantic_components[0])
+    phonetic_component = normalize_component_graph(phonetic_components[0])
+    if semantic_component not in graph_lookup:
+        return None
+
+    semantic_index = None
+    phonetic_index = None
+    for index, component in enumerate(positional):
+        normalized = normalize_component_graph(component)
+        if semantic_index is None and normalized == semantic_component:
+            semantic_index = index
+        if phonetic_index is None and normalized == phonetic_component:
+            phonetic_index = index
+
+    ids = ids_map.get(character)
+    operator = None
+    if ids:
+        try:
+            tree, _ = parse_ids_expression(ids)
+            if isinstance(tree, dict):
+                operator = tree["op"]
+        except Exception:
+            operator = None
+
+    position = None
+    if semantic_index is not None and phonetic_index is not None and operator:
+        if operator == "⿰":
+            position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+        elif operator == "⿱":
+            position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
+        elif operator in {"⿸", "⿷", "⿺", "⿹"}:
+            position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+        elif operator in {"⿵", "⿶"}:
+            position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
+
+    inventory_matches = graph_lookup.get(semantic_component, [])
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else None
+    if not abbreviation or not position:
+        return None
+
+    return {
+        "source": "wiktionary_han_compound",
+        "character": character,
+        "semantic_component": semantic_component,
+        "phonetic_component": phonetic_component,
+        "position": position,
+        "abbreviation": abbreviation,
+        "inventory_matches": inventory_matches,
+        "template_raw": han_compound.get("template_raw"),
+    }
+
+
 def merge_graph_lookups(*lookups: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
     merged: dict[str, list[dict[str, Any]]] = {}
     for lookup in lookups:
@@ -444,6 +520,61 @@ def unique_non_null(values: list[Any]) -> list[Any]:
     return result
 
 
+def normalize_transliteration_latex(value: str | None) -> str | None:
+    if not value:
+        return None
+    lines = []
+    for raw_line in value.splitlines():
+        stripped = raw_line.strip()
+        if not stripped or stripped.startswith("%"):
+            continue
+        lines.append(stripped)
+    return "\n".join(lines) if lines else None
+
+
+def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if len(matches) <= 1:
+        return matches
+
+    candidate_gsr = {
+        row["gsr"] for row in candidate.get("mand2mc_rows", []) if row.get("gsr")
+    } | {
+        row["gsr"] for row in candidate.get("bs_gsr_rows", []) if row.get("gsr")
+    }
+    if candidate_gsr:
+        exact = [match for match in matches if set(match.get("gsr_markers", [])) & candidate_gsr]
+        if exact:
+            return exact
+        no_gsr = [match for match in matches if not match.get("gsr_markers")]
+        mismatched = [
+            match for match in matches if match.get("gsr_markers") and not (set(match.get("gsr_markers", [])) & candidate_gsr)
+        ]
+        if no_gsr and mismatched:
+            return no_gsr
+
+    candidate_mc = {
+        row["mc_nwh"] for row in candidate.get("mand2mc_rows", []) if row.get("mc_nwh")
+    } | {
+        row["mc_bs"] for row in candidate.get("bs_gsr_rows", []) if row.get("mc_bs")
+    }
+    if candidate_mc:
+        mc_matches = [match for match in matches if set(match.get("mc_forms", [])) & candidate_mc]
+        if mc_matches:
+            return mc_matches
+
+    candidate_pinyin = {
+        row["pinyin"] for row in candidate.get("mand2mc_rows", []) if row.get("pinyin")
+    } | {
+        row["pinyin"] for row in candidate.get("bs_gsr_rows", []) if row.get("pinyin")
+    }
+    if candidate_pinyin:
+        pinyin_matches = [match for match in matches if set(match.get("pinyins", [])) & candidate_pinyin]
+        if pinyin_matches:
+            return pinyin_matches
+
+    return matches
+
+
 def extract_series_root_latex(raw_block: str) -> str | None:
     for line in raw_block.splitlines()[1:]:
         stripped = line.strip()
@@ -482,6 +613,43 @@ def compose_transliteration_from_root(root: str, semantic_assignment: dict[str, 
     return None
 
 
+def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
+    transliteration_latex = normalize_transliteration_latex(candidate.get("transliteration_latex"))
+    if not transliteration_latex:
+        return None
+
+    first_line = candidate["character"]
+    pinyins = dedupe_preserve(
+        [row["pinyin"] for row in candidate.get("mand2mc_rows", []) if row.get("pinyin")]
+        + [row["pinyin"] for row in candidate.get("bs_gsr_rows", []) if row.get("pinyin")]
+    )
+    if pinyins:
+        first_line += "\t%" + " / ".join(pinyins)
+
+    gsr_values = dedupe_preserve(
+        [row["gsr"] for row in candidate.get("mand2mc_rows", []) if row.get("gsr")]
+        + [row["gsr"] for row in candidate.get("bs_gsr_rows", []) if row.get("gsr")]
+    )
+    mc_forms = dedupe_preserve(
+        [row["mc_nwh"] for row in candidate.get("mand2mc_rows", []) if row.get("mc_nwh")]
+    )
+    if not mc_forms:
+        mc_forms = dedupe_preserve(
+            [row["mc_bs"] for row in candidate.get("bs_gsr_rows", []) if row.get("mc_bs")]
+        )
+
+    lines = [first_line]
+    lines.extend(transliteration_latex.splitlines())
+    for index, mc_form in enumerate(mc_forms):
+        suffix = ""
+        if index == 0 and gsr_values:
+            suffix = "\t%" + ", ".join(gsr_values)
+        lines.append(f"\\textit{{{mc_form}}};{suffix}")
+    if candidate.get("mand_bs_mc_disagreement"):
+        lines.append("{\\footnotesize[MC disagreement among imported sources]}")
+    return "\n".join(lines)
+
+
 def enrich_curated_entry(entry: dict[str, Any], evidence: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     raise RuntimeError("Use enrich_curated_entry_with_ids instead.")
 
@@ -493,7 +661,7 @@ def enrich_curated_entry_with_ids(
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any]:
     for candidate in entry.get("proposed_additions", []):
-        matches = evidence.get(candidate["character"], [])
+        matches = disambiguate_occurrences(candidate, evidence.get(candidate["character"], []))
         candidate["tex_occurrence_candidates"] = matches
 
         semantic_assignments = unique_non_null(
@@ -542,21 +710,22 @@ def enrich_curated_entry_with_ids(
                     root,
                     candidate["semantic_assignment"],
                 )
+        candidate["transliteration_latex"] = normalize_transliteration_latex(candidate.get("transliteration_latex"))
+        if candidate.get("render_latex") is None:
+            candidate["render_latex"] = synthesize_render_latex(candidate)
 
         han_compound = (candidate.get("wiktionary_validation") or {}).get("han_compound")
         if han_compound and han_compound.get("semantic_components") and han_compound.get("phonetic_components"):
-            explicit_semantic = normalize_component_graph(han_compound["semantic_components"][0])
-            explicit_phonetic = han_compound["phonetic_components"][0]
-            explicit_candidate = resolve_semantic_from_ids(
+            explicit_candidate = resolve_semantic_from_wiktionary_template(
                 character=candidate["character"],
-                phonetic_component=explicit_phonetic,
+                han_compound=han_compound,
                 ids_map=ids_map,
                 graph_lookup=graph_lookup,
             )
             candidate["wiktionary_semantic_validation"] = {
-                "semantic_component": explicit_semantic,
-                "phonetic_component": explicit_phonetic,
-                "resolved_from_ids": explicit_candidate,
+                "semantic_component": han_compound["semantic_components"][0],
+                "phonetic_component": han_compound["phonetic_components"][0],
+                "resolved_assignment": explicit_candidate,
             }
             if explicit_candidate and explicit_candidate.get("abbreviation"):
                 candidate["semantic_assignment"] = {

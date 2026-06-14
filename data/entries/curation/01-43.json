@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:39:02.288714+00:00",
+  "generated_at": "2026-06-14T19:29:13.617290+00:00",
   "id": "01-43",
   "status": "machine-curated-pilot",
   "packet_kind": "existing_addendum",
@@ -28,8 +28,8 @@
     "mand2mc_characters_sample": "予; 𨑦; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野",
     "bs_gsr_row_count": "12",
     "bs_gsr_character_count": "9",
-    "bs_gsr_characters_sample": "予; 豫; 抒; 序; 紓; 舒; 野; �; 埜",
-    "combined_source_character_count": "13",
+    "bs_gsr_characters_sample": "予; 豫; 抒; 序; 紓; 舒; 野; 𡐨; 埜",
+    "combined_source_character_count": "12",
     "combined_source_characters_sample": "予; 𨑦; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野"
   },
   "tex_entry": {
@@ -130,18 +130,20 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
-      "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
       "wiktionary_validation": {
         "available": false,
         "han_compound": null
-      }
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": null,
+      "render_latex": null
     },
     {
       "character": "𡐨",
       "in_tex": false,
       "mand2mc_count": 1,
-      "bs_gsr_count": 0,
+      "bs_gsr_count": 1,
       "shengfu_character_count": 0,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
@@ -155,29 +157,10 @@
           "gsr": "0083m"
         }
       ],
-      "bs_gsr_rows": [],
-      "shengfu_character_rows": [],
-      "shengfu_component_rows": [],
-      "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null
-      }
-    },
-    {
-      "character": "�",
-      "in_tex": false,
-      "mand2mc_count": 0,
-      "bs_gsr_count": 1,
-      "shengfu_character_count": 0,
-      "shengfu_component_count": 0,
-      "mand_bs_mc_disagreement": false,
-      "mand2mc_rows": [],
       "bs_gsr_rows": [
         {
           "source_page_number": "19",
-          "character": "�",
+          "character": "𡐨",
           "pinyin": "yě",
           "mc_bs": "yaeX",
           "mc_analyzed": "(y- + -jae B)",
@@ -189,12 +172,38 @@
       ],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
-      "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null
-      }
+      },
+      "tex_occurrence_candidates": [
+        {
+          "character": "𡐨",
+          "entry_id": "01-43",
+          "source_line_number": 2585,
+          "character_line_raw": "{\\includegraphics[width=4mm]{U+21428.png}}",
+          "raw_block": "{\\includegraphics[width=4mm]{U+21428.png}}\n{\\large{\\textsuperscript{xxx·}la}},\n\t%ye3",
+          "transliteration_latex": "{\\large{\\textsuperscript{xxx·}la}},\n%ye3",
+          "semantic_assignment": {
+            "token": "xxx·",
+            "abbreviation": "xxx",
+            "position": "prefix-dot",
+            "inventory_matches": []
+          },
+          "mc_forms": [],
+          "gsr_markers": [],
+          "pinyins": []
+        }
+      ],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": "xxx·",
+        "abbreviation": "xxx",
+        "position": "prefix-dot",
+        "inventory_matches": []
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{xxx·}la}},",
+      "render_latex": "{\\includegraphics[width=4mm]{U+21428.png}}\n{\\large{\\textsuperscript{xxx·}la}},\n\t%ye3"
     }
   ],
   "all_candidates": [
@@ -748,7 +757,7 @@
       "character": "𡐨",
       "in_tex": false,
       "mand2mc_count": 1,
-      "bs_gsr_count": 0,
+      "bs_gsr_count": 1,
       "shengfu_character_count": 0,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
@@ -762,7 +771,19 @@
           "gsr": "0083m"
         }
       ],
-      "bs_gsr_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "19",
+          "character": "𡐨",
+          "pinyin": "yě",
+          "mc_bs": "yaeX",
+          "mc_analyzed": "(y- + -jae B)",
+          "oc_bs": "*laʔ {*lAʔ}",
+          "gloss": "open country",
+          "gsr": "0083m",
+          "unicode_utf16": "U+21428"
+        }
+      ],
       "shengfu_character_rows": [],
       "shengfu_component_rows": []
     },
@@ -795,31 +816,6 @@
           "gloss": "open country",
           "gsr": "0083n",
           "unicode_utf16": "U+57DC"
-        }
-      ],
-      "shengfu_character_rows": [],
-      "shengfu_component_rows": []
-    },
-    {
-      "character": "�",
-      "in_tex": false,
-      "mand2mc_count": 0,
-      "bs_gsr_count": 1,
-      "shengfu_character_count": 0,
-      "shengfu_component_count": 0,
-      "mand_bs_mc_disagreement": false,
-      "mand2mc_rows": [],
-      "bs_gsr_rows": [
-        {
-          "source_page_number": "19",
-          "character": "�",
-          "pinyin": "yě",
-          "mc_bs": "yaeX",
-          "mc_analyzed": "(y- + -jae B)",
-          "oc_bs": "*laʔ {*lAʔ}",
-          "gloss": "open country",
-          "gsr": "0083m",
-          "unicode_utf16": "U+21428"
         }
       ],
       "shengfu_character_rows": [],

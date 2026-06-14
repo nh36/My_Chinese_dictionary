@@ -82,6 +82,27 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             r"{\large{ka\textsuperscript{:conch}}},",
         )
 
+    def test_resolve_semantic_from_wiktionary_template(self) -> None:
+        ids_map = {"台": "⿱厶口", "錦": "⿰金帛", "琴": "⿱玨今"}
+        graph_lookup = {
+            "口": [{"graph_raw": "口", "label_token": "or(is)", "abbreviation": "or"}],
+            "玉": [{"graph_raw": "玉", "label_token": "gem(ma)", "abbreviation": "gem"}],
+        }
+        template = {
+            "semantic_components": ["口"],
+            "phonetic_components": ["㠯"],
+            "positional_components": ["㠯", "口"],
+            "template_raw": "{{Han compound|㠯|口|c1=p|c2=s|ls=psc}}",
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_wiktionary_template(
+            character="台",
+            han_compound=template,
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        self.assertEqual(resolved["abbreviation"], "or")
+        self.assertEqual(resolved["position"], "suffix-colon")
+
     def test_build_learned_graph_lookup(self) -> None:
         evidence = {
             "痢": [

@@ -2,14 +2,14 @@
 
 - Overall status: **not ready**
 - Curated packet count: 6
-- Proposed additions under review: 121
+- Proposed additions under review: 120
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 64 | 121 |
-| Semantic placement present | 64 | 121 |
-| Transliteration LaTeX present | 10 | 121 |
-| Candidate render LaTeX present | 6 | 121 |
+| Semantic assignment present | 81 | 120 |
+| Semantic placement present | 81 | 120 |
+| Transliteration LaTeX present | 10 | 120 |
+| Candidate render LaTeX present | 11 | 120 |
 
 ## Render markers
 

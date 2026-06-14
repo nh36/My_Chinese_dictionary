@@ -19,21 +19,21 @@ def fetch_wiktionary_wikitext(character: str, cache_dir: Path) -> str | None:
     cache_path = cache_dir / f"{ord(character):05X}.json"
     if cache_path.exists():
         payload = json.loads(cache_path.read_text(encoding="utf-8"))
-        return payload.get("wikitext")
+        if payload.get("wikitext"):
+            return payload.get("wikitext")
 
     url = (
-        "https://en.wiktionary.org/w/api.php?action=parse&prop=wikitext&formatversion=2&format=json&page="
+        "https://en.wiktionary.org/w/index.php?title="
         + urllib.parse.quote(character)
+        + "&action=raw"
     )
     request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 CopilotCLI/1.0"})
     try:
         with urllib.request.urlopen(request, timeout=20) as response:
-            payload = json.load(response)
+            wikitext = response.read().decode("utf-8", "replace")
     except Exception:
         cache_path.write_text(json.dumps({"character": character, "wikitext": None}, ensure_ascii=False), encoding="utf-8")
         return None
-
-    wikitext = payload.get("parse", {}).get("wikitext")
     cache_path.write_text(json.dumps({"character": character, "wikitext": wikitext}, ensure_ascii=False), encoding="utf-8")
     time.sleep(0.1)
     return wikitext

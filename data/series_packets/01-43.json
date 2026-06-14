@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:39:02.177380+00:00",
+  "generated_at": "2026-06-14T19:29:13.505451+00:00",
   "gsc_id": "01-43",
   "packet_kind": "existing_addendum",
   "candidate_source_strategy": "tex_gsr_prefixes",
@@ -31,8 +31,8 @@
     "mand2mc_characters_sample": "予; 𨑦; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野",
     "bs_gsr_row_count": "12",
     "bs_gsr_character_count": "9",
-    "bs_gsr_characters_sample": "予; 豫; 抒; 序; 紓; 舒; 野; �; 埜",
-    "combined_source_character_count": "13",
+    "bs_gsr_characters_sample": "予; 豫; 抒; 序; 紓; 舒; 野; 𡐨; 埜",
+    "combined_source_character_count": "12",
     "combined_source_characters_sample": "予; 𨑦; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野"
   },
   "tex_entry": {
@@ -627,7 +627,19 @@
           "gsr": "0083m"
         }
       ],
-      "bs_gsr_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "19",
+          "character": "𡐨",
+          "pinyin": "yě",
+          "mc_bs": "yaeX",
+          "mc_analyzed": "(y- + -jae B)",
+          "oc_bs": "*laʔ {*lAʔ}",
+          "gloss": "open country",
+          "gsr": "0083m",
+          "unicode_utf16": "U+21428"
+        }
+      ],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "mand_bs_mc_disagreement": false
@@ -656,27 +668,6 @@
           "gloss": "open country",
           "gsr": "0083n",
           "unicode_utf16": "U+57DC"
-        }
-      ],
-      "shengfu_character_rows": [],
-      "shengfu_component_rows": [],
-      "mand_bs_mc_disagreement": false
-    },
-    {
-      "character": "�",
-      "in_tex": false,
-      "mand2mc_rows": [],
-      "bs_gsr_rows": [
-        {
-          "source_page_number": "19",
-          "character": "�",
-          "pinyin": "yě",
-          "mc_bs": "yaeX",
-          "mc_analyzed": "(y- + -jae B)",
-          "oc_bs": "*laʔ {*lAʔ}",
-          "gloss": "open country",
-          "gsr": "0083m",
-          "unicode_utf16": "U+21428"
         }
       ],
       "shengfu_character_rows": [],
@@ -928,7 +919,7 @@
       },
       {
         "source_page_number": "19",
-        "character": "�",
+        "character": "𡐨",
         "pinyin": "yě",
         "mc_bs": "yaeX",
         "mc_analyzed": "(y- + -jae B)",
