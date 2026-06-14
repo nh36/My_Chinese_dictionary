@@ -1,0 +1,198 @@
+\documentclass[]{book}
+
+
+\usepackage{svg}
+\usepackage{changepage} % Include in the preamble
+\usepackage{multicol} % 
+\usepackage{enumitem} % 
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{polyglossia}
+\usepackage{epigraph}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setmainfont[Mapping=tex-text,Scale=1.0]{FreeSerif}
+\setsansfont[Mapping=tex-text,Scale=1.0]{FreeSans}
+\setmonofont{FreeMono}
+\usepackage{booktabs}
+\usepackage{xeCJK}
+\usepackage{longtable}
+\setCJKmainfont{BabelStone Han}
+\newfontfamily\zh{BabelStoneHan.ttf}
+\newfontfamily\zhpua{BabelStoneHanPUA.ttf}
+
+\setdefaultlanguage[variant=american]{english}
+% biblatex is used for bibtex rendering, style author-year
+\usepackage[
+    backend=bibtex,
+    bibstyle=authoryear,
+    giveninits=true,
+    ibidtracker=strict,
+    isbn=false,doi=false,url=false,
+    labelnumber=true,
+    loccittracker=strict,
+    maxbibnames=10,
+    maxcitenames=2,
+    natbib=true,
+    opcittracker=strict,
+    sortcites=true,
+    sorting=nyt,
+    style=authoryear-ibid,
+    alldates=terse,
+    terseinits=false
+   ]{biblatex}
+\usepackage{graphicx}
+
+\newcommand*{\img}[1]{%
+    \raisebox{-.3\baselineskip}{%
+        \includegraphics[
+        height=\baselineskip,
+        width=\baselineskip,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+
+\usepackage{csquotes}
+
+\usepackage{gb4e}
+\noautomath
+
+%\let\gbtmp_
+%\protected\def_{\ifincsname\string_\else\expandafter\gbtmp\fi}
+
+\usepackage{hyperref}
+
+\bibliography{asia.bib,references,extra}
+
+\usepackage{color}
+%\usepackage[top=0.7874in,bottom=0.7874in,left=0.7874in,right=0.7874in,nohead,includefoot,foot=12pt,footskip=26.148pt]{geometry}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{hhline}
+\usepackage{hyperref}
+%\usepackage{gb4e}
+\usepackage{underscore}
+\usepackage{adjustbox}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+
+
+\noautomath
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue}
+
+\newfontfamily\tib{Tibetan Machine Uni}
+\newfontfamily\burm{Padauk}
+\newfontfamily\sil{Charis SIL}
+%\newcommand{\mydot}{\sil{ꞏ}}
+\newfontfamily\grk{Galatia SIL}
+\newfontfamily\kor{UnGungseo}
+\newfontfamily\egy{[Aegyptus.otf]}
+% Text styles
+\newcommand\Bod[1]{\tibetan\textup{#1}}
+\newcommand\Rom[1]{\sil\textit{#1}}
+\newcommand\Gloss[1]{\sil\textup{#1}}
+\newcommand\Trans[1]{\textup{#1}}
+%\newcommand\Ref[1]{\textbf{\textup{#1}}}
+
+\usepackage{enumitem}
+\usepackage{setspace} 
+\newcommand{\textunderset}[2]{\begin{tabular}[t]{@{}c@{}}#2\\[-0.3em]\scriptsize#1\end{tabular}}
+\newcommand{\textoverset}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.45em]#2\end{tabular}}
+\newcommand{\textoversetlarge}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.2em]#2\end{tabular}}
+\newcommand{\textoversetnote}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-1.0em]#2\end{tabular}}
+
+
+\usepackage{chngcntr}
+
+%New Verison 
+\counterwithout{paragraph}{subsubsection}
+\setcounter{secnumdepth}{5} % Enable numbering for subparagraphs
+
+% Paragraph numbering (repeat for each paragraph)
+\renewcommand{\theparagraph}{\arabic{paragraph}}
+
+% Subparagraph numbering (include paragraph number)
+\renewcommand{\thesubparagraph}{\theparagraph\alph{subparagraph}}
+
+% Ensure subparagraph numbering resets within each paragraph
+\counterwithin*{subparagraph}{paragraph} 
+
+% Define indentation and spacing for paragraphs
+%\makeatletter
+%\renewcommand{\paragraph}{%
+%  \@startsection{paragraph}{4}{0pt}{1.5ex plus 1ex minus .2ex}{0.5ex plus .2ex}{\normalfont\normalsize\bfseries}%
+%}
+
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{0pt}{1.5ex plus 1ex minus .2ex}{-1em}{\normalfont\normalsize\bfseries}%
+}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{1.5em}{1ex plus .2ex}{-1em}{\normalfont\normalsize\bfseries}%
+}
+\makeatother
+
+
+
+
+
+\title{Chinese: a dialectical history}
+\author{Nathan W. Hill}
+
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\tableofcontents
+
+
+\mainmatter
+
+%\input{Chapter2/ChpXSprelims}
+
+%\input{Chapter2/ChpXSsec1structure}
+
+%\input{Chapter2/ChpXSsec2XSdogma}
+
+%\input{Chapter2/ChpXSsec3afterl}
+
+%\input{Chapter2/ChpXSsec4aeandea}
+
+%\input{Chapter2/ChpXSappendix}
+
+%%%%%GAP%%%%%%%
+
+%\input{Chapter3/ch3}
+
+%\input{Chapter1/ch1Marx}
+
+\input{Chapter1/ch1abstractions}
+
+
+%\input{appendices}
+
+
+%\input{Appendices/Shuowen.tex}
+
+%\input{Chapter4/ch4}
+
+%\input{Chapter5/ch5}
+
+%\input{Chapter6/ch6.tex}
+
+%\input{Chapter7/ch7.tex}
+
+%\input{Chapter8/ch8.tex}
+
+
+
+\input{chapter3pt2}
+
+\printbibliography
+
+\end{document}
