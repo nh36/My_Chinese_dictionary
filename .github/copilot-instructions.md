@@ -7,6 +7,7 @@
 - Run the current inventory tooling: `python3 scripts/inventory_tex.py`
 - Run the current entry extractor: `python3 scripts/extract_tex_entries.py`
 - Run the current TeX-derived report builder: `python3 scripts/build_tex_reports.py`
+- Extract semantic components: `python3 scripts/extract_semantic_components.py`
 - Run the Mand2MC importer: `python3 scripts/import_mand2mc.py`
 - Run the Shengfu importer: `python3 scripts/import_shengfu.py`
 - Run the BS/GSR PDF importer: `python3 scripts/import_bs_gsr_pdf.py`
@@ -15,6 +16,7 @@
 - Export hand-checkable series packets: `python3 scripts/export_series_packets.py`
 - Promote series packets into curation files: `python3 scripts/promote_series_packets.py`
 - Render curated pilot packets: `python3 scripts/render_curated_series.py`
+- Evaluate whether a pilot is structurally review-ready: `python3 scripts/evaluate_pilot_render.py`
 - Export the controlled sample entries: `python3 scripts/export_sample_entries.py`
 - Render the controlled sample entries: `python3 scripts/render_entries.py`
 - Run the current tests: `python3 -m unittest`
@@ -33,6 +35,7 @@
 - `scripts/inventory_tex.py` is the first safe inspection tool around the LaTeX source. It inventories sections, subsections, paragraph entries, image references, `\textit{...}` MC forms, GSR-like markers, commented pinyin, and nested `itemize` depth, then writes `data/current_tex_inventory.json` and `reports/current_inventory.md`.
 - `scripts/extract_tex_entries.py` builds on the inventory pass and writes `data/current_tex_entries.json`. Each extracted entry retains section/subsection context, line ranges, head data, raw LaTeX block/body, Chinese characters, commented pinyin, MC forms, GSR-like markers, image references, and itemize-depth events.
 - `scripts/build_tex_reports.py` generates report files from the extracted entry data. The current tex-only reports are `reports/tex_entries_by_gsr.md`, `reports/tex_entries_without_gsr.md`, `reports/rare_glyphs_and_images.md`, and `reports/semantic_labels_used_in_tex.md`.
+- `scripts/extract_semantic_components.py` turns the `Semantic components` section of `main.tex` into `data/current_semantic_components.json` and `reports/semantic_components_inventory.md`.
 - `scripts/import_mand2mc.py` and `scripts/import_shengfu.py` are the spreadsheet-ingestion entry points. They preserve raw sheet columns, add explicit `source_row_number` / `source_sheet_name`, append normalized helper columns, and write CSV plus Markdown import reports.
 - `scripts/import_bs_gsr_pdf.py` imports `key references/Reconstructions in GSR order.pdf` via `pdftotext -layout` into `data/derived/bs_gsr.csv` and writes `reports/import_bs_gsr_pdf.md`.
 - In the current checkout, the real spreadsheet source files live under `key references/`, and the importer defaults are pointed there.
@@ -41,6 +44,7 @@
 - `scripts/export_series_packets.py` turns one or more target GSC series into hand-checkable curation packets in `data/series_packets/` and `reports/series_packets/`.
 - `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.
+- `scripts/evaluate_pilot_render.py` is the regression gate for pilot quality. It should be run after any comparable pilot generation; if it reports `not ready`, the output is still missing key structural features like semantic superscripts, placement, or abstract phonetic forms.
 - `scripts/export_sample_entries.py` builds a curated representative sample from `data/current_tex_entries.json` and writes `data/entries/sample_entries.json`.
 - `scripts/render_entries.py` renders that sample back to `build/generated_entries_sample.tex` and `build/generated_main_sample.tex` with explicit generated-file warnings.
 - The checked-in reference PDFs and spreadsheet inputs live under `key references/`. The active importer defaults point at `key references/Mand2MC2009-06-08 copy.ods`, `key references/声符级别-2022.06.07.xlsx`, and `key references/Reconstructions in GSR order.pdf`.
@@ -60,3 +64,4 @@
 - The test suite encodes repository-specific safety rules: every referenced PNG should exist in `hard-character-images/`, and extracted Middle Chinese forms should never begin with `*`.
 - The project goal now includes expansion, not only reproduction: use the coverage outputs to target missing GSC series, missing rhyme sections, and source-backed characters not yet represented in `main.tex`.
 - The next working unit is a `series packet`, not a whole-document rewrite: gather all evidence for one GSC series, review it, then promote it into `data/entries/curation/` before attempting broader dictionary generation.
+- A visually comparable pilot is not just a compact list of characters and MC values. It should ultimately recover semantic superscripts, their side/placement logic, and abstract phonetic values in a form comparable to the hand-written entry.

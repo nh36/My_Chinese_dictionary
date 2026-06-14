@@ -21,11 +21,20 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             "candidate_source_tokens": ["766"],
             "coverage": {"schuessler_k_tokens": "766", "combined_source_character_count": 37},
             "tex_entry": None,
-            "proposed_additions": [{"character": "各", "mand2mc_count": 2, "bs_gsr_count": 1, "shengfu_character_count": 0}],
+            "proposed_additions": [{
+                "character": "各",
+                "mand2mc_count": 2,
+                "bs_gsr_count": 1,
+                "shengfu_character_count": 0,
+                "mand2mc_rows": [{"pinyin": "ge4", "mc_nwh": "kak", "gsr": "0766a"}],
+                "bs_gsr_rows": [{"pinyin": "gè", "mc_bs": "kak", "gsr": "0766a"}],
+                "mand_bs_mc_disagreement": False,
+            }],
         }
         rendered = render_curated_series.render_curated_entry(entry)
-        self.assertIn("\\section*{02-01 candidate packet}", rendered)
-        self.assertIn("\\item 各", rendered)
+        self.assertIn("\\paragraph{\\textoversetlarge{02-01}{\\huge{各}}}", rendered)
+        self.assertIn("\\begin{multicols}{2}", rendered)
+        self.assertIn("\\textit{kak};", rendered)
 
     def test_render_document(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -45,7 +54,7 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                 ],
                 main_tex,
             )
-            self.assertIn("\\section*{Curated pilot series packets}", doc)
+            self.assertIn("\\section*{Curated pilot series in comparable format}", doc)
             self.assertIn("\\end{document}", doc)
 
 

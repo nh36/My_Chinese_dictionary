@@ -75,12 +75,19 @@ Generate the current TeX-derived reports:
 python3 scripts/build_tex_reports.py
 ```
 
+Extract the `Semantic components` section into machine-readable form:
+
+```sh
+python3 scripts/extract_semantic_components.py
+```
+
 This writes:
 
 - `reports/tex_entries_by_gsr.md`
 - `reports/tex_entries_without_gsr.md`
 - `reports/rare_glyphs_and_images.md`
 - `reports/semantic_labels_used_in_tex.md`
+- `reports/semantic_components_inventory.md`
 
 ## Spreadsheet import tooling
 
@@ -164,6 +171,12 @@ The curation-packet scripts write:
 - `build/generated_curated_series_sample.pdf`
 - `reports/generated_curated_series_sample.md`
 
+The pilot-quality scripts write:
+
+- `data/current_semantic_components.json`
+- `reports/semantic_components_inventory.md`
+- `reports/pilot_render_readiness.md`
+
 ### Python package requirements for imports
 
 The import scripts rely on:
@@ -246,3 +259,14 @@ The current data artifacts generated from those source tables are:
 - `reports/expansion_work_queue.md`
 - `reports/series_packets/`
 - `reports/generated_curated_series_sample.md`
+- `reports/pilot_render_readiness.md`
+
+## Pilot readiness check
+
+After generating a new pilot, run:
+
+```sh
+python3 scripts/evaluate_pilot_render.py
+```
+
+If the report still says **not ready**, the pilot should be treated as an internal draft rather than a review-ready approximation of `main.tex`.

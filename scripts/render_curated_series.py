@@ -28,57 +28,151 @@ def extract_preamble(main_tex_path: Path) -> str:
     return source.split(marker, 1)[0].rstrip() + "\n"
 
 
-def render_curated_entry(entry: dict[str, Any]) -> str:
-    packet_kind_tex = entry["packet_kind"].replace("_", r"\_")
-    lines = [
-        f"\\section*{{{entry['id']} candidate packet}}",
-        "\\textbf{Status:} machine-curated pilot.\\\\",
-        f"\\textbf{{Packet kind:}} {packet_kind_tex}\\\\",
-        f"\\textbf{{Schuessler K tokens:}} {entry['coverage']['schuessler_k_tokens']}\\\\",
-        f"\\textbf{{Combined source character count:}} {entry['coverage']['combined_source_character_count']}",
-        "",
-    ]
+def dedupe_preserve(values: list[str]) -> list[str]:
+    result: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        if value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
 
-    if entry.get("tex_entry") is not None:
-        wrapped_tex_entry = render_entries.wrap_entry_with_context(
-            {
-                "raw_latex": entry["tex_entry"]["raw_block"],
-                "context_environments": entry["tex_entry"].get("context_environments", []),
-            }
-        )
-        lines.extend(
-            [
-                "\\subsection*{Existing TeX baseline}",
-                wrapped_tex_entry.rstrip(),
-                "",
-            ]
-        )
 
-    lines.extend(
-        [
-            "\\subsection*{Candidate additions / review targets}",
-            "\\begin{itemize}",
-        ]
-    )
-    for candidate in entry["proposed_additions"]:
-        lines.append(
-            f"\\item {candidate['character']} (Mand2MC rows: {candidate['mand2mc_count']}, "
-            f"BS/GSR rows: {candidate['bs_gsr_count']}, Shengfu rows: {candidate['shengfu_character_count']})"
-        )
-    lines.append("\\end{itemize}")
-    lines.append("")
+def render_context_wrapped_block(context_environments: list[dict[str, str]], body_lines: list[str]) -> str:
+    lines: list[str] = []
+    for environment in context_environments:
+        lines.append(f"\\begin{{{environment['name']}}}{{{environment['arg']}}}")
+    lines.extend(body_lines)
+    for environment in reversed(context_environments):
+        lines.append(f"\\end{{{environment['name']}}}")
     return "\n".join(lines)
+
+
+def build_existing_heading_line(entry: dict[str, Any]) -> str:
+    tex_entry = entry["tex_entry"]
+    return (
+        f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{{tex_entry['head']['raw']}}}}}"
+        f"{tex_entry['head'].get('heading_extra_raw', '')}"
+    )
+
+
+def collect_candidate_pinyins(candidate: dict[str, Any]) -> list[str]:
+    return dedupe_preserve(
+        [row["pinyin"] for row in candidate["mand2mc_rows"] if row.get("pinyin")]
+        + [row["pinyin"] for row in candidate["bs_gsr_rows"] if row.get("pinyin")]
+    )
+
+
+def collect_candidate_mc_forms(candidate: dict[str, Any]) -> list[str]:
+    mand_forms = [row["mc_nwh"] for row in candidate["mand2mc_rows"] if row.get("mc_nwh")]
+    if mand_forms:
+        return dedupe_preserve(mand_forms)
+    return dedupe_preserve([row["mc_bs"] for row in candidate["bs_gsr_rows"] if row.get("mc_bs")])
+
+
+def collect_candidate_gsr_values(candidate: dict[str, Any]) -> list[str]:
+    return dedupe_preserve(
+        [row["gsr"] for row in candidate["mand2mc_rows"] if row.get("gsr")]
+        + [row["gsr"] for row in candidate["bs_gsr_rows"] if row.get("gsr")]
+    )
+
+
+def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
+    character = candidate["character"]
+    pinyins = collect_candidate_pinyins(candidate)
+    mc_forms = collect_candidate_mc_forms(candidate)
+    gsr_values = collect_candidate_gsr_values(candidate)
+
+    first_line = character
+    if pinyins:
+        first_line += f"\t%{' / '.join(pinyins)}"
+    lines = [first_line]
+
+    if mc_forms:
+        for index, mc_form in enumerate(mc_forms):
+            comment = ""
+            if index == 0 and gsr_values:
+                comment = "\t%" + ", ".join(gsr_values)
+            lines.append(f"\\textit{{{mc_form}}};{comment}")
+    elif gsr_values:
+        lines.append("% no MC extracted\t%" + ", ".join(gsr_values))
+
+    if candidate["mand_bs_mc_disagreement"]:
+        lines.append("{\\footnotesize[MC disagreement among imported sources]}")
+
+    return lines
+
+
+def render_missing_series_entry(entry: dict[str, Any]) -> str:
+    head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
+    body_lines = [
+        f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{head_character}}}}}}}",
+        "{\\small\\itshape[provisional draft for a missing series; transliteration and semantic analysis still to review]}",
+    ]
+    for candidate in entry["proposed_additions"]:
+        body_lines.extend(render_candidate_lines(candidate))
+    return render_context_wrapped_block(
+        [{"name": "multicols", "arg": "2"}, {"name": "spacing", "arg": "0.7"}],
+        body_lines,
+    )
+
+
+def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
+    tex_entry = entry["tex_entry"]
+    body_lines = [
+        build_existing_heading_line(entry),
+        "{\\small\\itshape[proposed additions from imported sources]}",
+    ]
+    for candidate in entry["proposed_additions"]:
+        body_lines.extend(render_candidate_lines(candidate))
+    return render_context_wrapped_block(tex_entry.get("context_environments", []), body_lines)
+
+
+def render_curated_entry(entry: dict[str, Any]) -> str:
+    if entry["packet_kind"] == "missing_series":
+        return render_missing_series_entry(entry)
+
+    wrapped_tex_entry = render_entries.wrap_entry_with_context(
+        {
+            "raw_latex": entry["tex_entry"]["raw_block"],
+            "context_environments": entry["tex_entry"].get("context_environments", []),
+        }
+    ).rstrip()
+    addition_block = render_existing_addendum_entry(entry).rstrip()
+    return wrapped_tex_entry + "\n\n" + addition_block
 
 
 def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
-        "\\section*{Curated pilot series packets}",
+        "\\section*{Curated pilot series in comparable format}",
         "",
     ]
-    for entry in entries:
-        body.append(render_curated_entry(entry))
+    missing_entries = [entry for entry in entries if entry["packet_kind"] == "missing_series"]
+    existing_entries = [entry for entry in entries if entry["packet_kind"] != "missing_series"]
+
+    if missing_entries:
+        body.extend(
+            [
+                "\\subsection*{Pilot missing series drafts}",
+                "",
+            ]
+        )
+        for entry in missing_entries:
+            body.append(render_curated_entry(entry))
+            body.append("")
+
+    if existing_entries:
+        body.extend(
+            [
+                "\\subsection*{Pilot addenda to existing series}",
+                "",
+            ]
+        )
+        for entry in existing_entries:
+            body.append(render_curated_entry(entry))
+            body.append("")
     body.append("\\end{document}")
     return extract_preamble(main_tex_path) + "\n".join(body) + "\n"
 
@@ -89,6 +183,8 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "",
         f"- Generated TeX file: `{tex_path}`",
         "- This file is a review document, not final dictionary output.",
+        "- Missing-series packets are rendered as provisional dictionary-style draft entries.",
+        "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "",
         "| GSC | Packet kind | Existing TeX baseline | Proposed additions |",
         "| --- | --- | --- | ---: |",
