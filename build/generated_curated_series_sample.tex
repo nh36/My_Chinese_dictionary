@@ -1,0 +1,568 @@
+\clubpenalty100000000
+\widowpenalty100000000
+\documentclass[xetex, svgnames, 12pt]{scrartcl}
+
+\usepackage{xeCJK}
+\setCJKmainfont{BabelStone Han}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+% XeLaTeX settings
+\usepackage{xltxtra,polyglossia}
+\setmainfont[Mapping=tex-text,Scale=1.0]{FreeSerif}
+\setsansfont[Mapping=tex-text,Scale=1.0]{FreeSans}
+\setmonofont{FreeMono}
+\setmainlanguage{english}
+\usepackage{makecell}
+\usepackage{tabu}
+
+
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\newfontfamily\sil{Charis SIL}
+% Text styles
+\newcommand\Bod[1]{\tibetan\textup{#1}}
+
+\newcommand{\textunderset}[2]{\begin{tabular}[t]{@{}c@{}}#2\\[-0.3em]\scriptsize#1\end{tabular}}
+\newcommand{\textoverset}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.38em]#2\end{tabular}}
+\newcommand{\textoversetlarge}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.2em]#2\end{tabular}}
+
+
+
+\newfontfamily\burm{Padauk}
+\usepackage{scrlayer-scrpage}
+\usepackage[
+    colorlinks,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=CornflowerBlue,
+    filecolor=black,
+    linktocpage=true,
+    %dvipdfm
+    ]{hyperref}
+
+% more packages needed
+\usepackage{tikz-cd}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor, color, colortbl, multirow}
+% biblatex is used for bibtex rendering, style author-year
+\usepackage[
+    backend=bibtex,
+    bibstyle=authoryear,
+    giveninits=true,
+    ibidtracker=strict,
+    isbn=false,doi=false,url=false,
+    labelnumber=true,
+    loccittracker=strict,
+    maxbibnames=10,
+    maxcitenames=2,
+    natbib=true,
+    opcittracker=strict,
+    sortcites=true,
+    sorting=nyt,
+    style=authoryear-ibid,
+    alldates=terse,
+    terseinits=false
+    ]{biblatex}
+
+\renewcommand*{\nameyeardelim}{\addspace}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
+\renewcommand\bibfont{\footnotesize}
+
+
+% pagestyle settings
+\pagestyle{scrheadings}
+\ihead{%Hill
+}
+\chead{Chinese Dictionary}
+\ohead{}
+\ifoot{}
+\cfoot{\pagemark}
+\ofoot{}
+
+\bibliography{asia}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage[]{tikz}
+\graphicspath{{hard-character-images/}{images/}{../images/}}
+
+\usetikzlibrary{calc,arrows,positioning,shapes}
+
+\newcommand{\SET}[1]  {\ensuremath{\mathcal{#1}}}
+\newcommand{\MAT}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\VEC}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\Video}{\SET{V}}
+\newcommand{\video}{\VEC{f}}
+\newcommand{\track}{x}
+\newcommand{\Track}{\SET T}
+\newcommand{\LMs}{\SET L}
+\newcommand{\lm}{l}
+\newcommand{\PosE}{\SET P}
+\newcommand{\posE}{\VEC p}
+\newcommand{\negE}{\VEC n}
+\newcommand{\NegE}{\SET N}
+\newcommand{\Occluded}{\SET O}
+\newcommand{\occluded}{o}
+%\definecolor{amazongreen}{cmyk}{0.83,0.24,0,0.12}
+\definecolor{blue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{red}{rgb}{0.75, 0.0, 0.2}
+\definecolor{violet}{RGB}{153,153,255}
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84}
+\definecolor{amazongreen}{RGB}{0,153,153}
+
+%\newfontfamily\burm{Padauk}
+\newfontfamily\tib{Tibetan Machine Uni}
+
+
+%Define boxes
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=4.2cm, minimum height=1cm,text centered, draw=amazongreen, text=white, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=4.2cm, minimum height=1cm, text centered, draw=amazongreen, fill=orange!30, text=white]
+%\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{decision} = [rectangle, rounded corners,minimum width=4cm, minimum height=1cm, text centered, text width=3cm, text=white, fill=amazongreen]
+
+% Draw a video
+\newlength{\FSZ}
+\newcommand{\drawvideo}[3]{% [0 0.25 0.5 0.75 1 1.25 1.5]
+   \noindent\pgfmathsetlength{\FSZ}{\linewidth/#2}
+   \begin{tikzpicture}[outer sep=0pt,inner sep=0pt,x=\FSZ,y=\FSZ]
+   \draw[color=amazongreen!50!black] (0,0) node[outer sep=0pt,inner sep=0pt,text width=\linewidth,minimum height=0] (video) {\noindent#3};
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     (video.north west) rectangle ([yshift=\FSZ] video.north east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.north west)+(-0.7,0.8)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     ([yshift=-1\FSZ] video.south west) rectangle (video.south east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.south west)+(-0.7,-0.2)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \foreach \x in {1,...,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1] video.north west) -- ([xshift=\x\linewidth/#1] video.south west);
+   }
+   \foreach \x in {0,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1,yshift=1\FSZ] video.north west) -- ([xshift=\x\linewidth/#1,yshift=-1\FSZ] video.south west);
+   }
+   \end{tikzpicture}
+}
+
+\title{A dictionary of Chinese characteres in transliteration}
+\author{Nathan W. Hill}
+\begin{document}
+% GENERATED FILE - DO NOT EDIT BY HAND.
+\section*{Curated pilot series packets}
+
+\section*{02-01 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} missing\_series\\
+\textbf{Schuessler K tokens:} 766\\
+\textbf{Combined source character count:} 37
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 各 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 觡 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 骼 (Mand2MC rows: 3, BS/GSR rows: 0, Shengfu rows: 1)
+\item 胳 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 1)
+\item 客 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 袼 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 2)
+\item 閣 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 恪 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 垎 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 貉 (Mand2MC rows: 3, BS/GSR rows: 1, Shengfu rows: 2)
+\item 詻 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 狢 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 頟 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 洛 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 賂 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 路 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 烙 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 輅 (Mand2MC rows: 3, BS/GSR rows: 0, Shengfu rows: 1)
+\item 絡 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 喀 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 酪 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 愙 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 雒 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 落 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 𩊚 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 璐 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 駱 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 簬 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 鴼 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 露 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 珞 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 1)
+\item 潞 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 略 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 鷺 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 𢓜 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 簵 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 格 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 2)
+\end{itemize}
+
+\section*{38-03 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} missing\_series\\
+\textbf{Schuessler K tokens:} 651; 652\\
+\textbf{Combined source character count:} 37
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 今 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 𩃬 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 蔭 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 廕 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 酓 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 2)
+\item 紟 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 衿 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 2)
+\item 衾 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 韽 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 3)
+\item 坅 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 1)
+\item 飲 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 㱃 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 禽 (Mand2MC rows: 1, BS/GSR rows: 2, Shengfu rows: 1)
+\item 㜝 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 4)
+\item 含 (Mand2MC rows: 2, BS/GSR rows: 2, Shengfu rows: 1)
+\item 唅 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 2)
+\item 擒 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 2)
+\item 頷 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 2)
+\item 芩 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 靲 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 琴 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 黔 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 2)
+\item 吟 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 2)
+\item 岑 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 趻 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 𢦟 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 侌 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 陰 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 1)
+\item 金 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 䘳 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 0)
+\item 錦 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 欽 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 唫 (Mand2MC rows: 3, BS/GSR rows: 0, Shengfu rows: 2)
+\item 趛 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 顉 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 3)
+\item 嶔 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 廞 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 2)
+\end{itemize}
+
+\section*{04-30 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} missing\_series\\
+\textbf{Schuessler K tokens:} 976\\
+\textbf{Combined source character count:} 33
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 㠯 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 0)
+\item 眙 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 2)
+\item 以 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 笞 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 鈶 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 枲 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 始 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 苢 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 苡 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 似 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 胎 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 姒 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 炱 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 駘 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 2)
+\item 耜 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 怠 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 矣 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 殆 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 俟 (Mand2MC rows: 2, BS/GSR rows: 2, Shengfu rows: 2)
+\item 紿 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 竢 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 迨 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 涘 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 𨽿 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 台 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 2)
+\item 冶 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 箈 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 佁 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 2)
+\item 怡 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 詒 (Mand2MC rows: 2, BS/GSR rows: 2, Shengfu rows: 2)
+\item 貽 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 飴 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 治 (Mand2MC rows: 2, BS/GSR rows: 1, Shengfu rows: 3)
+\end{itemize}
+
+\section*{18-18 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} existing\_addendum\\
+\textbf{Schuessler K tokens:} 17\\
+\textbf{Combined source character count:} 9
+
+\subsection*{Existing TeX baseline}
+\begin{multicols}{2}
+\begin{spacing}{0.7}
+\paragraph{\textoversetlarge{18-18}{\huge{麻}}}
+{\large{may}},
+\textit{mae},	%kae	%0015a
+%麻	%ma2	
+\textit{mae},	%mae	0017a
+%塺	%mo4	
+\textit{maH};	%maH	0017c
+麽 
+{\large{may{\textsuperscript{:parv}}}},
+%mo3	
+\textit{maX};	%maX	0017d
+摩	%mo2	
+{\large{may{\textsuperscript{:man}}}},
+\textit{ma};	%ma	0017e
+磨	%mo2	
+{\large{may{\textsuperscript{:lap}}}},
+\textit{ma};	%ma	0017f
+糜	%mi2	
+{\large{may{\textsuperscript{:oryz}}}},
+\textit{mie};	%mje	0017g
+麾	%hui1	
+{\large{may{\textsuperscript{:pil}}}},
+\textit{hiwe};	%xjwe	0017i
+\begin{itemize}[noitemsep]
+    \item 靡
+{\large{may{\textsuperscript{:ne}}}} = 
+{\large{m\textoverset{b}ay}},
+%mi2	
+\textit{mie},	%mje	0017h
+%靡	%mi3	
+\textit{mieX};	%mjeX	0017h
+攠	%mi2	
+\textit{mie}.	%mje	0017j
+\end{itemize}
+\end{spacing}
+\end{multicols}
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 加 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 枷 (Mand2MC rows: 2, BS/GSR rows: 0, Shengfu rows: 1)
+\item 珈 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 駕 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 嘉 (Mand2MC rows: 1, BS/GSR rows: 1, Shengfu rows: 1)
+\item 哿 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\item 賀 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 1)
+\end{itemize}
+
+\section*{01-01 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} existing\_addendum\\
+\textbf{Schuessler K tokens:} 49; 1258a\\
+\textbf{Combined source character count:} 40
+
+\subsection*{Existing TeX baseline}
+\begin{multicols}{2}
+\begin{spacing}{0.7}
+\paragraph{\textoversetlarge{01-01}{\huge{古}}}	
+%古	%gu3	
+{\large{ka}},
+\textit{kuX};	%kuX	0049a
+姑	%gu1	
+{\large{{\textsuperscript{fem·}}ka}},
+\textit{ku};	%ku	0049g
+沽	%gu1	
+{\large{{\textsuperscript{aq·}}ka}},
+\textit{ku};	%ku	0049k
+罟	%gu3	
+{\large{{\textsuperscript{nass:}}ka}},
+\textit{kuX};	%kuX	0049m
+蛄	%gu1	
+{\large{{\textsuperscript{serp·}}ka}},
+\textit{ku};	%ku	0049o
+盬	%gu3	
+{\large{{\textsuperscript{observ·}}ka}}
+\textit{kuX};	%kuX	0049q
+䀇 \footnote{SWJZ: 从皿从缶，古聲。, but I have my doubts.}	%gu3	
+\textit{kuX};	%kuX	0049r
+枯	%ku1	
+{\large{{\textsuperscript{arb·}}ka}},
+\textit{khu};	%khu	0049t
+岵	%hu4	
+{\large{{\textsuperscript{mon·}}ka}},
+\textit{huX};	%huX	0049v
+怙	%hu4	
+{\large{{\textsuperscript{cor·}}ka}},
+\textit{huX};	%huX	0049x
+祜	%hu4	
+{\large{{\textsuperscript{spirit·}}ka}},
+\textit{huX};	%huX	0049y
+酤	%gu1	
+{\large{{\textsuperscript{vin·}}ka}},
+\textit{ḫuX};	%huX	0049b'
+故	%gu4	
+{\large{ka{\textsuperscript{·fer}}}},
+\textit{kuH};	%kuH	0049i
+\begin{itemize}[noitemsep]
+    \item {\Large{固}}	%gu4	
+{\large{{\textsuperscript{claχ}}ka}}
+= {\large{k\textoverset{a}{a}}},
+\textit{kuH};	%kuH	0049f
+錮	%gu4	
+{\large{{\textsuperscript{met·}}k\textoverset{a}{a}}},
+\textit{kuH};	%kuH	0049e'
+箇	%ge4	
+{\large{{\textsuperscript{bamb:}}k\textoverset{a}{a}}},
+\textit{kaH};	%kaH	0049f'
+\item {\Large{胡}}	%hu2	
+{\large{ka{\textsuperscript{·carn}}}} = {\large{g\textoverset{a}{a}}},
+\textit{ḫu};	%hu	0049a'
+瑚	%hu2	
+{\large{{\textsuperscript{gem·}}g\textoverset{a}{a}}},
+\textit{ḫu};	%hu	0049i'
+湖	%hu2	
+{\large{{\textsuperscript{aq·}}g\textoverset{a}{a}}},
+\textit{ḫu};	%hu	0049j'
+葫	%hu2	
+{\large{{\textsuperscript{herb:}}g\textoverset{a}{a}}},
+\textit{ḫu};	%hu	0049k'
+餬	%hu2	
+{\large{{\textsuperscript{ed·}}g\textoverset{a}{a}}},
+\textit{ḫu};	%hu	0049l'
+鶘	%hu2	
+{\large{g\textoverset{a}{a}{\textsuperscript{·av}}}},
+\textit{ḫu};	%hu	0049m'
+    \item  {\Large{居}}	%ju1	
+{\large{{\textsuperscript{cadaver·}}ka}}
+= 
+{\large{k\textoverset{b}{a}}},
+\textit{kiə},	%kjo	0049c'
+%居	%ju1	
+\textit{kiəH};	%kjoH	0049c'
+倨	%ju4	
+{\large{{\textsuperscript{hom·}}k\textoverset{b}{a}}},
+\textit{kiəH};	%kjoH	0049n'
+据	%ju1	
+{\large{{\textsuperscript{man·}}k\textoverset{b}{a}}},
+\textit{kiə};	%kjo	0049o'
+琚	%ju1	
+{\large{{\textsuperscript{gem·}}k\textoverset{b}{a}}},
+\textit{kiə};	%kjo	0049p'
+裾	%ju1	
+{\large{{\textsuperscript{vest·}}k\textoverset{b}{a}}},
+\textit{kiə};	%kjo	0049q'
+踞	%ju4	
+{\large{{\textsuperscript{ped·}}k\textoverset{b}{a}}},
+\textit{kiəH};	%kjoH	0049r'
+鋸	%ju4	
+{\large{{\textsuperscript{met·}}k\textoverset{b}{a}}},
+\textit{kiəH};	%kjoH	0049s'
+椐	%ju1	
+{\large{{\textsuperscript{arb·}}k\textoverset{b}{a}}},
+\textit{khiə},	%khjo	0049t'
+%椐	%ju1	
+\textit{kiəH};	%kjoH	0049t'
+腒	%ju1	
+{\large{{\textsuperscript{carn·}}k\textoverset{b}{a}}},
+\textit{giə},	%gjo	0049u'
+%腒	%ju1	
+\textit{kiə};	%kjo	0049u'
+\item {\Large{辜}}	%gu1	
+{\large{ka{\textsuperscript{:辛}}}}
+= {\large{k\textoverset{a}{a}₂}},
+\textit{ku};	%ku	0049p
+橭	%gu1	
+{\large{{\textsuperscript{arb·}}k\textoverset{a}{a}₂}},
+\textit{khu},	%khu	0049g'
+%橭	%gu1	
+\textit{ku};	%ku	0049g'
+\item {\Large{苦}}	%ku3	
+{\large{{\textsuperscript{herb·}}ka}} = {\large{k\textoverset{a}{a}₃}},
+\textit{khuX},	%khuX	0049u %苦	%gu3	
+\textit{kuX};	%kuX	0049u
+楛	%hu4	
+{\large{{\textsuperscript{arb·}}k\textoverset{a}{a}₃}},
+\textit{ḫuX}.	%huX	0049h'
+\end{itemize}
+\end{spacing}
+
+
+
+\begin{spacing}{0.7}
+\end{spacing}
+\end{multicols}
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 糊 (Mand2MC rows: 0, BS/GSR rows: 1, Shengfu rows: 0)
+\item 菇 (Mand2MC rows: 0, BS/GSR rows: 1, Shengfu rows: 1)
+\item 痼 (Mand2MC rows: 0, BS/GSR rows: 1, Shengfu rows: 1)
+\item 個 (Mand2MC rows: 0, BS/GSR rows: 1, Shengfu rows: 1)
+\end{itemize}
+
+\section*{01-43 candidate packet}
+\textbf{Status:} machine-curated pilot.\\
+\textbf{Packet kind:} existing\_addendum\\
+\textbf{Schuessler K tokens:} 83\\
+\textbf{Combined source character count:} 13
+
+\subsection*{Existing TeX baseline}
+\begin{multicols}{2}
+\paragraph{\textoversetlarge{01-43}{\huge{予}}}	
+{\large{la}},
+%予	%yu2	
+\textit{yiə},	%yo	0083a
+%予	%yu3	
+\textit{yiəX};	%yoX	0083a
+{\includegraphics[width=4mm]{U+24282.png}}	
+{\large{\textsuperscript{amb·}la}},
+\textit{ziə},
+豫	 %yu4	
+{\large{la\textsuperscript{·elephant}}},
+\textit{yiəH};	%yoH	0083e
+杼	%zhu4
+{\large{\textsuperscript{arb·}la}},
+\textit{ḍiəX},	%drjoX	0083f
+%杼	%shu4	
+\textit{jiəH},	%dzyoH	0083f
+%杼	%shu4	
+\textit{jiəX};	%dzyoX	0083f
+抒	%shu1	
+{\large{\textsuperscript{man·}la}},
+\textit{jiəX};	%dzyoX	0083g
+序	%xu4	
+{\large{\textsuperscript{lax·}la}},
+\textit{ziəX};	%zjoX	0083h
+芧	%xu4	
+{\large{\textsuperscript{herb·}la}},
+\textit{ziəX};	%zjoX	0083i
+紓	%shu1
+{\large{\textsuperscript{ser·}la}},
+\textit{śiə},	%syo	0083j
+%紓	%shu1	
+\textit{jiəX};	%dzyoX	0083j
+舒	%shu1	
+{\large{\textsuperscript{dom·}la}},
+\textit{śiə};	%syo	0083k
+野\footnote{I need to look into the relationship among 
+野, {\includegraphics[width=4mm]{U+21428.png}}, and 埜.}	%ye3	
+{\large{\textsuperscript{vic·}la}},
+\textit{yiaeX};	%yaeX	0083l
+{\includegraphics[width=4mm]{U+21428.png}}
+{\large{\textsuperscript{xxx·}la}},
+	%ye3	
+%⿱㮊土
+\textit{yiaeX};	%yaeX	0083m
+埜	%ye3	
+{\large{\textsuperscript{xxx·}la}},
+\textit{yiaeX}.	%yaeX	0083n
+\end{multicols}
+
+\subsection*{Candidate additions / review targets}
+\begin{itemize}
+\item 𨑦 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item 𡐨 (Mand2MC rows: 1, BS/GSR rows: 0, Shengfu rows: 0)
+\item � (Mand2MC rows: 0, BS/GSR rows: 1, Shengfu rows: 0)
+\end{itemize}
+
+\end{document}
