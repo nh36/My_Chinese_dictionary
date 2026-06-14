@@ -828,7 +828,25 @@
           "oc_rhyme": "a̠ɡs",
           "oc_syllable": "kʰʳa̠ɡs"
         }
-      ]
+      ],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|夂|口|ls=ic|t1=sole of foot}}",
+          "positional_components": [
+            "夂",
+            "口"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "sole of foot"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        }
+      }
     },
     {
       "character": "觡",
@@ -863,7 +881,53 @@
           "oc_syllable": "kʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "觡",
+          "ids": "⿰角各",
+          "phonetic_component": "各",
+          "semantic_component": "角",
+          "position": "prefix-dot",
+          "abbreviation": "corn",
+          "inventory_matches": [
+            {
+              "graph_raw": "角",
+              "label_token": "corn(u)",
+              "abbreviation": "corn",
+              "start_line": 224
+            },
+            {
+              "graph_raw": "角",
+              "label_token": "corn",
+              "abbreviation": "corn",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "corn",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "角",
+            "label_token": "corn(u)",
+            "abbreviation": "corn",
+            "start_line": 224
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "角"
+      },
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      }
     },
     {
       "character": "骼",
@@ -914,7 +978,106 @@
           "oc_syllable": "kʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "骼",
+          "ids": "⿰骨各",
+          "phonetic_component": "各",
+          "semantic_component": "骨",
+          "position": "prefix-dot",
+          "abbreviation": "oss",
+          "inventory_matches": [
+            {
+              "graph_raw": "骨",
+              "label_token": "(os,)",
+              "abbreviation": "oss",
+              "start_line": 293
+            },
+            {
+              "graph_raw": "骨",
+              "label_token": "xxx",
+              "abbreviation": "xxx",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "oss",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "骨",
+            "label_token": "(os,)",
+            "abbreviation": "oss",
+            "start_line": 293
+          },
+          {
+            "graph_raw": "骨",
+            "label_token": "xxx",
+            "abbreviation": "xxx",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "骨"
+      },
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}",
+          "positional_components": [
+            "骨",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "t1": "bone",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "骨"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        }
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "骨",
+        "phonetic_component": "各",
+        "resolved_from_ids": {
+          "source": "ids_top_level",
+          "character": "骼",
+          "ids": "⿰骨各",
+          "phonetic_component": "各",
+          "semantic_component": "骨",
+          "position": "prefix-dot",
+          "abbreviation": "oss",
+          "inventory_matches": [
+            {
+              "graph_raw": "骨",
+              "label_token": "(os,)",
+              "abbreviation": "oss",
+              "start_line": 293
+            },
+            {
+              "graph_raw": "骨",
+              "label_token": "xxx",
+              "abbreviation": "xxx",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      }
     },
     {
       "character": "胳",
@@ -969,7 +1132,53 @@
           "oc_syllable": "ka̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "胳",
+          "ids": "⿰月各",
+          "phonetic_component": "各",
+          "semantic_component": "月",
+          "position": "prefix-dot",
+          "abbreviation": "luna",
+          "inventory_matches": [
+            {
+              "graph_raw": "月",
+              "label_token": "luna",
+              "abbreviation": "luna",
+              "start_line": 271
+            },
+            {
+              "graph_raw": "月",
+              "label_token": "carn",
+              "abbreviation": "carn",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "luna",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "月",
+            "label_token": "luna",
+            "abbreviation": "luna",
+            "start_line": 271
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "月"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "客",
@@ -1016,7 +1225,46 @@
           "oc_syllable": "kʰʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "客",
+          "ids": "⿱宀各",
+          "phonetic_component": "各",
+          "semantic_component": "宀",
+          "position": "prefix-colon",
+          "abbreviation": "tect",
+          "inventory_matches": [
+            {
+              "graph_raw": "宀",
+              "label_token": "tect(um)",
+              "abbreviation": "tect",
+              "start_line": 332
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "tect",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "宀",
+            "label_token": "tect(um)",
+            "abbreviation": "tect",
+            "start_line": 332
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "宀"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "袼",
@@ -1083,7 +1331,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "袼",
+          "ids": "⿰衤各",
+          "phonetic_component": "各",
+          "semantic_component": "衣",
+          "position": "prefix-dot",
+          "abbreviation": "vest",
+          "inventory_matches": [
+            {
+              "graph_raw": "衣",
+              "label_token": "vest(imentum)",
+              "abbreviation": "vest",
+              "start_line": 362
+            },
+            {
+              "graph_raw": "衣",
+              "label_token": "vest",
+              "abbreviation": "vest",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vest",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "衣",
+            "label_token": "vest(imentum)",
+            "abbreviation": "vest",
+            "start_line": 362
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "衣"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "閣",
@@ -1130,7 +1424,53 @@
           "oc_syllable": "ka̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "閣",
+          "ids": "⿵門各",
+          "phonetic_component": "各",
+          "semantic_component": "門",
+          "position": "prefix-colon",
+          "abbreviation": "port",
+          "inventory_matches": [
+            {
+              "graph_raw": "門",
+              "label_token": "port(a)",
+              "abbreviation": "port",
+              "start_line": 307
+            },
+            {
+              "graph_raw": "門",
+              "label_token": "port",
+              "abbreviation": "port",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "port",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "門",
+            "label_token": "port(a)",
+            "abbreviation": "port",
+            "start_line": 307
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "門"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "恪",
@@ -1165,7 +1505,53 @@
           "oc_syllable": "kʰa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "恪",
+          "ids": "⿰忄各",
+          "phonetic_component": "各",
+          "semantic_component": "心",
+          "position": "prefix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 219
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 12
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cor",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 219
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "心"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "垎",
@@ -1200,7 +1586,53 @@
           "oc_syllable": "ɡʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "垎",
+          "ids": "⿰土各",
+          "phonetic_component": "各",
+          "semantic_component": "土",
+          "position": "prefix-dot",
+          "abbreviation": "terr",
+          "inventory_matches": [
+            {
+              "graph_raw": "土",
+              "label_token": "terr(a)",
+              "abbreviation": "terr",
+              "start_line": 336
+            },
+            {
+              "graph_raw": "土",
+              "label_token": "terr",
+              "abbreviation": "terr",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "terr",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "土",
+            "label_token": "terr(a)",
+            "abbreviation": "terr",
+            "start_line": 336
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "土"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "貉",
@@ -1275,7 +1707,46 @@
           "oc_syllable": "mɡʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "貉",
+          "ids": "⿰豸各",
+          "phonetic_component": "各",
+          "semantic_component": "豸",
+          "position": "prefix-dot",
+          "abbreviation": "best",
+          "inventory_matches": [
+            {
+              "graph_raw": "豸",
+              "label_token": "best(ia)",
+              "abbreviation": "best",
+              "start_line": 199
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "best",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "豸",
+            "label_token": "best(ia)",
+            "abbreviation": "best",
+            "start_line": 199
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "豸"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "詻",
@@ -1310,7 +1781,53 @@
           "oc_syllable": "ŋɡʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "詻",
+          "ids": "⿰言各",
+          "phonetic_component": "各",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 233
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 233
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "言"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "狢",
@@ -1332,7 +1849,13 @@
       ],
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "頟",
@@ -1354,7 +1877,13 @@
       ],
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "洛",
@@ -1389,7 +1918,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "洛",
+          "ids": "⿰氵各",
+          "phonetic_component": "各",
+          "semantic_component": "水",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 188
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 188
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "水"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "賂",
@@ -1436,7 +2011,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "賂",
+          "ids": "⿰貝各",
+          "phonetic_component": "各",
+          "semantic_component": "貝",
+          "position": "prefix-dot",
+          "abbreviation": "conch",
+          "inventory_matches": [
+            {
+              "graph_raw": "貝",
+              "label_token": "conch(a)",
+              "abbreviation": "conch",
+              "start_line": 218
+            },
+            {
+              "graph_raw": "貝",
+              "label_token": "conch",
+              "abbreviation": "conch",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "conch",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "貝",
+            "label_token": "conch(a)",
+            "abbreviation": "conch",
+            "start_line": 218
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "貝"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "路",
@@ -1483,7 +2104,48 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "路",
+          "ids": "⿰𧾷各",
+          "phonetic_component": "各",
+          "semantic_component": "𧾷",
+          "position": "prefix-dot",
+          "abbreviation": "ped",
+          "inventory_matches": [
+            {
+              "graph_raw": "𧾷",
+              "label_token": "ped",
+              "abbreviation": "ped",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ped",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "𧾷",
+            "label_token": "ped",
+            "abbreviation": "ped",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "𧾷"
+      }
     },
     {
       "character": "烙",
@@ -1518,7 +2180,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "烙",
+          "ids": "⿰火各",
+          "phonetic_component": "各",
+          "semantic_component": "火",
+          "position": "prefix-dot",
+          "abbreviation": "ign",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 263
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ign",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "火",
+            "label_token": "ign(is)",
+            "abbreviation": "ign",
+            "start_line": 263
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "火"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "輅",
@@ -1569,7 +2277,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "輅",
+          "ids": "⿰車各",
+          "phonetic_component": "各",
+          "semantic_component": "車",
+          "position": "prefix-dot",
+          "abbreviation": "vehic",
+          "inventory_matches": [
+            {
+              "graph_raw": "車",
+              "label_token": "vehic(ulum)",
+              "abbreviation": "vehic",
+              "start_line": 358
+            },
+            {
+              "graph_raw": "車",
+              "label_token": "vehic",
+              "abbreviation": "vehic",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vehic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "車",
+            "label_token": "vehic(ulum)",
+            "abbreviation": "vehic",
+            "start_line": 358
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "車"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "絡",
@@ -1604,7 +2358,48 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "絡",
+          "ids": "⿰糹各",
+          "phonetic_component": "各",
+          "semantic_component": "糹",
+          "position": "prefix-dot",
+          "abbreviation": "ser",
+          "inventory_matches": [
+            {
+              "graph_raw": "糹",
+              "label_token": "ser",
+              "abbreviation": "ser",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ser",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "糹",
+            "label_token": "ser",
+            "abbreviation": "ser",
+            "learned": true,
+            "evidence_count": 8
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "糹"
+      }
     },
     {
       "character": "喀",
@@ -1639,7 +2434,53 @@
           "oc_syllable": "kʰʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "喀",
+          "ids": "⿰口客",
+          "phonetic_component": "各",
+          "semantic_component": "口",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,)",
+              "abbreviation": "or",
+              "start_line": 292
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "or",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,)",
+            "abbreviation": "or",
+            "start_line": 292
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "口"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "酪",
@@ -1674,7 +2515,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "酪",
+          "ids": "⿰酉各",
+          "phonetic_component": "各",
+          "semantic_component": "酉",
+          "position": "prefix-dot",
+          "abbreviation": "vin",
+          "inventory_matches": [
+            {
+              "graph_raw": "酉",
+              "label_token": "vin(um)",
+              "abbreviation": "vin",
+              "start_line": 366
+            },
+            {
+              "graph_raw": "酉",
+              "label_token": "vin",
+              "abbreviation": "vin",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vin",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "酉",
+            "label_token": "vin(um)",
+            "abbreviation": "vin",
+            "start_line": 366
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "酉"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "愙",
@@ -1696,7 +2583,13 @@
       ],
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "雒",
@@ -1731,7 +2624,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "雒",
+          "ids": "⿰各隹",
+          "phonetic_component": "各",
+          "semantic_component": "隹",
+          "position": "suffix-dot",
+          "abbreviation": "passer",
+          "inventory_matches": [
+            {
+              "graph_raw": "隹",
+              "label_token": "passer",
+              "abbreviation": "passer",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "隹",
+              "label_token": "passer",
+              "abbreviation": "passer",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "passer",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "隹",
+            "label_token": "passer",
+            "abbreviation": "passer",
+            "start_line": 298
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "隹"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "落",
@@ -1778,7 +2717,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "落",
+          "ids": "⿱艹洛",
+          "phonetic_component": "各",
+          "semantic_component": "艸",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "herb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "艸",
+            "label_token": "herb(a)",
+            "abbreviation": "herb",
+            "start_line": 261
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "艸"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "𩊚",
@@ -1813,7 +2798,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "𩊚",
+          "ids": "⿰革各",
+          "phonetic_component": "各",
+          "semantic_component": "革",
+          "position": "prefix-dot",
+          "abbreviation": "cori",
+          "inventory_matches": [
+            {
+              "graph_raw": "革",
+              "label_token": "cori(um)",
+              "abbreviation": "cori",
+              "start_line": 220
+            },
+            {
+              "graph_raw": "革",
+              "label_token": "cori",
+              "abbreviation": "cori",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cori",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "革",
+            "label_token": "cori(um)",
+            "abbreviation": "cori",
+            "start_line": 220
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "革"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "璐",
@@ -1848,7 +2879,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "璐",
+          "ids": "⿰王路",
+          "phonetic_component": "各",
+          "semantic_component": "玉",
+          "position": "prefix-dot",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "gem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "玉",
+            "label_token": "gem(ma)",
+            "abbreviation": "gem",
+            "start_line": 254
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "玉"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "駱",
@@ -1883,7 +2960,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "駱",
+          "ids": "⿰馬各",
+          "phonetic_component": "各",
+          "semantic_component": "馬",
+          "position": "prefix-dot",
+          "abbreviation": "equ",
+          "inventory_matches": [
+            {
+              "graph_raw": "馬",
+              "label_token": "equ(us)",
+              "abbreviation": "equ",
+              "start_line": 243
+            },
+            {
+              "graph_raw": "馬",
+              "label_token": "equ",
+              "abbreviation": "equ",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "equ",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "馬",
+            "label_token": "equ(us)",
+            "abbreviation": "equ",
+            "start_line": 243
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "馬"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "簬",
@@ -1918,7 +3041,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "簬",
+          "ids": "⿱竹路",
+          "phonetic_component": "各",
+          "semantic_component": "竹",
+          "position": "prefix-colon",
+          "abbreviation": "bamb",
+          "inventory_matches": [
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb(us)",
+              "abbreviation": "bamb",
+              "start_line": 196
+            },
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb",
+              "abbreviation": "bamb",
+              "learned": true,
+              "evidence_count": 10
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "bamb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "竹",
+            "label_token": "bamb(us)",
+            "abbreviation": "bamb",
+            "start_line": 196
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "竹"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "鴼",
@@ -1940,7 +3109,13 @@
       ],
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "露",
@@ -1987,7 +3162,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "露",
+          "ids": "⿱雨路",
+          "phonetic_component": "各",
+          "semantic_component": "雨",
+          "position": "prefix-colon",
+          "abbreviation": "pluv",
+          "inventory_matches": [
+            {
+              "graph_raw": "雨",
+              "label_token": "pluv(ia)",
+              "abbreviation": "pluv",
+              "start_line": 305
+            },
+            {
+              "graph_raw": "雨",
+              "label_token": "pluv",
+              "abbreviation": "pluv",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "pluv",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "雨",
+            "label_token": "pluv(ia)",
+            "abbreviation": "pluv",
+            "start_line": 305
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "雨"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "珞",
@@ -2030,7 +3251,53 @@
           "oc_syllable": "k‧ra̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "珞",
+          "ids": "⿰王各",
+          "phonetic_component": "各",
+          "semantic_component": "玉",
+          "position": "prefix-dot",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "gem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "玉",
+            "label_token": "gem(ma)",
+            "abbreviation": "gem",
+            "start_line": 254
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "玉"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "潞",
@@ -2065,7 +3332,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "潞",
+          "ids": "⿰氵路",
+          "phonetic_component": "各",
+          "semantic_component": "水",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 188
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 188
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "水"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "略",
@@ -2112,7 +3425,65 @@
           "oc_syllable": "k‧raɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "略",
+          "ids": "⿰田各",
+          "phonetic_component": "各",
+          "semantic_component": "田",
+          "position": "prefix-dot",
+          "abbreviation": "ager",
+          "inventory_matches": [
+            {
+              "graph_raw": "田",
+              "label_token": "ager",
+              "abbreviation": "ager",
+              "start_line": 176
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "forn(us)",
+              "abbreviation": "forn",
+              "start_line": 250
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "ag",
+              "abbreviation": "ag",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ager",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "田",
+            "label_token": "ager",
+            "abbreviation": "ager",
+            "start_line": 176
+          },
+          {
+            "graph_raw": "田",
+            "label_token": "forn(us)",
+            "abbreviation": "forn",
+            "start_line": 250
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "田"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "鷺",
@@ -2147,7 +3518,53 @@
           "oc_syllable": "k‧ra̠ɡs"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鷺",
+          "ids": "⿱路鳥",
+          "phonetic_component": "各",
+          "semantic_component": "鳥",
+          "position": "suffix-colon",
+          "abbreviation": "av",
+          "inventory_matches": [
+            {
+              "graph_raw": "鳥",
+              "label_token": "av(is)",
+              "abbreviation": "av",
+              "start_line": 195
+            },
+            {
+              "graph_raw": "鳥",
+              "label_token": "av",
+              "abbreviation": "av",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "av",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "鳥",
+            "label_token": "av(is)",
+            "abbreviation": "av",
+            "start_line": 195
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "鳥"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "𢓜",
@@ -2182,7 +3599,48 @@
           "oc_syllable": "kʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "𢓜",
+          "ids": "⿰彳各",
+          "phonetic_component": "各",
+          "semantic_component": "彳",
+          "position": "prefix-dot",
+          "abbreviation": "eo",
+          "inventory_matches": [
+            {
+              "graph_raw": "彳",
+              "label_token": "eo",
+              "abbreviation": "eo",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "eo",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "彳",
+            "label_token": "eo",
+            "abbreviation": "eo",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "彳"
+      }
     },
     {
       "character": "簵",
@@ -2204,7 +3662,13 @@
       ],
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "格",
@@ -2271,7 +3735,53 @@
           "oc_syllable": "kʳa̠ɡ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "格",
+          "ids": "⿰木各",
+          "phonetic_component": "各",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 193
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 193
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "木"
+      },
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     }
   ],
   "all_candidates": [

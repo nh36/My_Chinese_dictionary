@@ -182,7 +182,13 @@
         }
       ],
       "shengfu_character_rows": [],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null
+      }
     },
     {
       "character": "菇",
@@ -220,7 +226,106 @@
           "oc_syllable": "ka̠"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "菇",
+          "ids": "⿱艹姑",
+          "phonetic_component": "古",
+          "semantic_component": "艸",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "herb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "艸",
+            "label_token": "herb(a)",
+            "abbreviation": "herb",
+            "start_line": 261
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "艸"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{herb:}ka}},",
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "艸",
+            "姑"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "姑"
+          ]
+        }
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "姑",
+        "resolved_from_ids": {
+          "source": "ids_top_level",
+          "character": "菇",
+          "ids": "⿱艹姑",
+          "phonetic_component": "姑",
+          "semantic_component": "艸",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ]
+        }
+      }
     },
     {
       "character": "痼",
@@ -258,7 +363,89 @@
           "oc_syllable": "ka̠s"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "痼",
+          "ids": "⿸疒固",
+          "phonetic_component": "古",
+          "semantic_component": "疒",
+          "position": "prefix-dot",
+          "abbreviation": "infirm",
+          "inventory_matches": [
+            {
+              "graph_raw": "疒",
+              "label_token": "infirm",
+              "abbreviation": "infirm",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
+          "positional_components": [
+            "疒",
+            "固"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "illness",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "疒"
+          ],
+          "phonetic_components": [
+            "固"
+          ]
+        }
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "疒",
+        "phonetic_component": "固",
+        "resolved_from_ids": {
+          "source": "ids_top_level",
+          "character": "痼",
+          "ids": "⿸疒固",
+          "phonetic_component": "固",
+          "semantic_component": "疒",
+          "position": "prefix-dot",
+          "abbreviation": "infirm",
+          "inventory_matches": [
+            {
+              "graph_raw": "疒",
+              "label_token": "infirm",
+              "abbreviation": "infirm",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ]
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "infirm",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "疒",
+            "label_token": "infirm",
+            "abbreviation": "infirm",
+            "learned": true,
+            "evidence_count": 6
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "疒"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{infirm·}ka}},"
     },
     {
       "character": "個",
@@ -296,7 +483,108 @@
           "oc_syllable": "ka̠s"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "個",
+          "ids": "⿰亻固",
+          "phonetic_component": "古",
+          "semantic_component": "人",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 262
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
+          "positional_components": [
+            "人",
+            "固"
+          ],
+          "named_args": {
+            "alt1": "亻",
+            "c1": "s",
+            "c2": "p",
+            "t1": "person",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "固"
+          ]
+        }
+      },
+      "wiktionary_semantic_validation": {
+        "semantic_component": "人",
+        "phonetic_component": "固",
+        "resolved_from_ids": {
+          "source": "ids_top_level",
+          "character": "個",
+          "ids": "⿰亻固",
+          "phonetic_component": "固",
+          "semantic_component": "人",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 262
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ]
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 262
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 16
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "人"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ka}},"
     }
   ],
   "all_candidates": [

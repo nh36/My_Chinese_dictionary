@@ -26,6 +26,7 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                 "mand2mc_count": 2,
                 "bs_gsr_count": 1,
                 "shengfu_character_count": 0,
+                "transliteration_latex": r"{\large{\textsuperscript{arb·}kay}},",
                 "mand2mc_rows": [{"pinyin": "ge4", "mc_nwh": "kak", "gsr": "0766a"}],
                 "bs_gsr_rows": [{"pinyin": "gè", "mc_bs": "kak", "gsr": "0766a"}],
                 "mand_bs_mc_disagreement": False,
@@ -34,6 +35,7 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         rendered = render_curated_series.render_curated_entry(entry)
         self.assertIn("\\paragraph{\\textoversetlarge{02-01}{\\huge{各}}}", rendered)
         self.assertIn("\\begin{multicols}{2}", rendered)
+        self.assertIn("\\textsuperscript{arb·}kay", rendered)
         self.assertIn("\\textit{kak};", rendered)
 
     def test_render_document(self) -> None:

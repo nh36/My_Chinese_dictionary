@@ -82,11 +82,15 @@ def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
     pinyins = collect_candidate_pinyins(candidate)
     mc_forms = collect_candidate_mc_forms(candidate)
     gsr_values = collect_candidate_gsr_values(candidate)
+    transliteration_latex = candidate.get("transliteration_latex")
 
     first_line = character
     if pinyins:
         first_line += f"\t%{' / '.join(pinyins)}"
     lines = [first_line]
+
+    if transliteration_latex:
+        lines.extend(line.rstrip() for line in transliteration_latex.splitlines() if line.strip())
 
     if mc_forms:
         for index, mc_form in enumerate(mc_forms):

@@ -2,8 +2,8 @@
 
 - Source: `main.tex`
 - Items: 162
-- Unique abbreviations: 155
-- Unresolved items: 7
+- Unique abbreviations: 161
+- Unresolved items: 0
 
 | Lines | Graph | Abbreviation | Label token | Notes | Comments |
 | --- | --- | --- | --- | --- | --- |
@@ -48,12 +48,12 @@
 | 228-228 | `鬼` | `daemon` | `daemon` |  |  |
 | 229-229 | `欠` | `dehab` | `dehab(eo)` |  |  |
 | 230-230 | `去` | `depart` | `depart(ire)` |  |  |
-| 231-231 | `齒` | `` | `(dens),` | dent(is) |  |
+| 231-231 | `齒` | `dent` | `(dens),` | dent(is) |  |
 | 232-232 | `又` | `dextr` | `dextr(a)` |  |  |
 | 233-233 | `言` | `dic` | `dic(o)` |  |  |
 | 234-234 | `寸` | `digit` | `digit(us)` |  |  |
 | 235-235 | `舍` | `dom` | `dom(us)` |  |  |
-| 236-236 | `龍` | `` | `(draco),` | dracon(is) (in 龏) |  |
+| 236-236 | `龍` | `dracon` | `(draco),` | dracon(is) (in 龏) |  |
 | 237-237 | `甘` | `dulc` | `dulc(is)` | (in 甞) |  |
 | 238-238 | `食` | `ed` | `ed(o)` |  |  |
 | 239-239 | `行` | `eo` | `eo` |  |  |
@@ -67,7 +67,7 @@
 | 249-249 | `子` | `fili` | `fili(us)` |  |  |
 | 250-250 | `田` | `forn` | `forn(us)` | (only in 盧) |  |
 | 251-251 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) |  |
-| 252-252 | `黃 \makebox[0pt][l]{galb(inus)` | `` | `(only` | in 黈?)} |  |
+| 252-252 | `黃 \makebox[0pt][l]{galb(inus)` | `in` | `(only` | in 黈?)} |  |
 | 253-253 | `仌` | `glac` | `glac(ies)` |  |  |
 | 254-254 | `玉` | `gem` | `gem(ma)` |  |  |
 | 255-255 | `屮` | `germ` | `germ(en)` |  |  |
@@ -93,7 +93,7 @@
 | 275-275 | `男` | `masc` | `masc(ulus)` |  |  |
 | 276-276 | `午` | `meridi` | `meridi(es)` |  |  |
 | 277-277 | `金` | `met` | `met(allum)` |  |  |
-| 278-278 | `黍 \makebox[0pt][l]{mil(ium)` | `` | `(only` | in 黎?)} |  |
+| 278-278 | `黍 \makebox[0pt][l]{mil(ium)` | `in` | `(only` | in 黎?)} |  |
 | 279-279 | `牙` | `molar` | `molar(is` | dens) |  |
 | 280-280 | `山` | `mon` | `mon(s)` |  |  |
 | 281-281 | `鼻` | `nas` | `nas(um)` |  |  |
@@ -107,14 +107,14 @@
 | 289-289 | `目` | `ocul` | `ocul(us)` |  |  |
 | 290-290 | `鬲` | `olla` | `olla` |  |  |
 | 291-291 | `米` | `oryz` | `oryz(a)` |  |  |
-| 292-292 | `口` | `` | `(os,)` | or(is) |  |
-| 293-293 | `骨` | `` | `(os,)` | oss(is) |  |
+| 292-292 | `口` | `or` | `(os,)` | or(is) |  |
+| 293-293 | `骨` | `oss` | `(os,)` | oss(is) |  |
 | 294-294 | `戶` | `ost` | `ost(ium)` |  |  |
 | 295-295 | `羊` | `ov` | `ov(is)` |  |  |
 | 296-296 | `幺` | `parv` | `parv(us)` |  |  |
 | 297-297 | `步` | `pass` | `pass(us)` |  |  |
 | 298-298 | `隹` | `passer` | `passer` |  |  |
-| 299-299 | `足` | `` | `(pes,)` | ped(is) |  |
+| 299-299 | `足` | `ped` | `(pes,)` | ped(is) |  |
 | 300-300 | `皮` | `pell` | `pell(is)` | (in 皽) |  |
 | 301-301 | `毛` | `pil` | `pil(us)` |  |  |
 | 302-302 | `聿` | `pincern` | `pincern(a)` |  |  |

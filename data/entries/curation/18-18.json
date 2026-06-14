@@ -332,7 +332,34 @@
           "oc_rhyme": "a̠ls",
           "oc_syllable": "kʳa̠ls"
         }
-      ]
+      ],
+      "tex_occurrence_candidates": [
+        {
+          "character": "加",
+          "entry_id": "18-04",
+          "source_line_number": 559,
+          "character_line_raw": "%加\t%jia1\t",
+          "raw_block": "%加\t%jia1\t\n\\textit{kae};\t%kae\t%0015a",
+          "transliteration_latex": null,
+          "semantic_assignment": null,
+          "mc_forms": [
+            "kae"
+          ],
+          "gsr_markers": [
+            "0015a"
+          ],
+          "pinyins": [
+            "jia1"
+          ]
+        }
+      ],
+      "transliteration_latex": "%加\t%jia1",
+      "render_latex": "%加\t%jia1\t\n\\textit{kae};\t%kae\t%0015a",
+      "semantic_candidates_from_ids": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "枷",
@@ -375,7 +402,99 @@
           "oc_syllable": "kʳa̠l"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "枷",
+          "entry_id": "18-04",
+          "source_line_number": 561,
+          "character_line_raw": "枷\t%jia1\t",
+          "raw_block": "枷\t%jia1\t\n{\\large{{\\textsuperscript{arb·}}kay}},\n\\textit{kae};\t%kae\t%0015c",
+          "transliteration_latex": "{\\large{{\\textsuperscript{arb·}}kay}},",
+          "semantic_assignment": {
+            "token": "arb·",
+            "abbreviation": "arb",
+            "position": "prefix-dot",
+            "inventory_matches": [
+              {
+                "graph_raw": "木",
+                "label_token": "arb(or)",
+                "start_line": 193
+              }
+            ]
+          },
+          "mc_forms": [
+            "kae"
+          ],
+          "gsr_markers": [
+            "0015c"
+          ],
+          "pinyins": [
+            "jia1"
+          ]
+        },
+        {
+          "character": "枷",
+          "entry_id": "18-04",
+          "source_line_number": 564,
+          "character_line_raw": "%枷\t%jia1\t",
+          "raw_block": "%枷\t%jia1\t\n\\textit{kaeH};\t%kaeH\t%0015c",
+          "transliteration_latex": null,
+          "semantic_assignment": null,
+          "mc_forms": [
+            "kaeH"
+          ],
+          "gsr_markers": [
+            "0015c"
+          ],
+          "pinyins": [
+            "jia1"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": "arb·",
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "start_line": 193
+          }
+        ]
+      },
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "枷",
+          "ids": "⿰木加",
+          "phonetic_component": "加",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 193
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "transliteration_latex": "{\\large{{\\textsuperscript{arb·}}kay}},",
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "珈",
@@ -410,7 +529,82 @@
           "oc_syllable": "kʳa̠l"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "珈",
+          "entry_id": "18-04",
+          "source_line_number": 566,
+          "character_line_raw": "珈\t%jia1\t",
+          "raw_block": "珈\t%jia1\t\n{\\large{{\\textsuperscript{gem·}}kay}},\n\\textit{kae};\t%kae\t%0015d",
+          "transliteration_latex": "{\\large{{\\textsuperscript{gem·}}kay}},",
+          "semantic_assignment": {
+            "token": "gem·",
+            "abbreviation": "gem",
+            "position": "prefix-dot",
+            "inventory_matches": [
+              {
+                "graph_raw": "玉",
+                "label_token": "gem(ma)",
+                "start_line": 254
+              }
+            ]
+          },
+          "mc_forms": [
+            "kae"
+          ],
+          "gsr_markers": [
+            "0015d"
+          ],
+          "pinyins": [
+            "jia1"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": "gem·",
+        "abbreviation": "gem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "玉",
+            "label_token": "gem(ma)",
+            "start_line": 254
+          }
+        ]
+      },
+      "transliteration_latex": "{\\large{{\\textsuperscript{gem·}}kay}},",
+      "render_latex": "珈\t%jia1\t\n{\\large{{\\textsuperscript{gem·}}kay}},\n\\textit{kae};\t%kae\t%0015d",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "珈",
+          "ids": "⿰王加",
+          "phonetic_component": "加",
+          "semantic_component": "玉",
+          "position": "prefix-dot",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 254
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "駕",
@@ -457,7 +651,82 @@
           "oc_syllable": "kʳa̠ls"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "駕",
+          "entry_id": "18-04",
+          "source_line_number": 569,
+          "character_line_raw": "駕\t%jia4\t",
+          "raw_block": "駕\t%jia4\t\n{\\large{kay{\\textsuperscript{:equ}}}},\n\\textit{kaeH};\t%kaeH\t%0015e",
+          "transliteration_latex": "{\\large{kay{\\textsuperscript{:equ}}}},",
+          "semantic_assignment": {
+            "token": ":equ",
+            "abbreviation": "equ",
+            "position": "suffix-colon",
+            "inventory_matches": [
+              {
+                "graph_raw": "馬",
+                "label_token": "equ(us)",
+                "start_line": 243
+              }
+            ]
+          },
+          "mc_forms": [
+            "kaeH"
+          ],
+          "gsr_markers": [
+            "0015e"
+          ],
+          "pinyins": [
+            "jia4"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": ":equ",
+        "abbreviation": "equ",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "馬",
+            "label_token": "equ(us)",
+            "start_line": 243
+          }
+        ]
+      },
+      "transliteration_latex": "{\\large{kay{\\textsuperscript{:equ}}}},",
+      "render_latex": "駕\t%jia4\t\n{\\large{kay{\\textsuperscript{:equ}}}},\n\\textit{kaeH};\t%kaeH\t%0015e",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "駕",
+          "ids": "⿱加馬",
+          "phonetic_component": "加",
+          "semantic_component": "馬",
+          "position": "suffix-colon",
+          "abbreviation": "equ",
+          "inventory_matches": [
+            {
+              "graph_raw": "馬",
+              "label_token": "equ(us)",
+              "abbreviation": "equ",
+              "start_line": 243
+            },
+            {
+              "graph_raw": "馬",
+              "label_token": "equ",
+              "abbreviation": "equ",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "嘉",
@@ -504,7 +773,82 @@
           "oc_syllable": "kʳa̠l"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "嘉",
+          "entry_id": "18-04",
+          "source_line_number": 572,
+          "character_line_raw": "嘉\t%jia1\t",
+          "raw_block": "嘉\t%jia1\t\n{\\large{{\\textsuperscript{tympan:}}kay}},\n\\textit{kae};\t%kae\t%0015g",
+          "transliteration_latex": "{\\large{{\\textsuperscript{tympan:}}kay}},",
+          "semantic_assignment": {
+            "token": "tympan:",
+            "abbreviation": "tympan",
+            "position": "prefix-colon",
+            "inventory_matches": [
+              {
+                "graph_raw": "壴",
+                "label_token": "tympan(um)",
+                "start_line": 351
+              }
+            ]
+          },
+          "mc_forms": [
+            "kae"
+          ],
+          "gsr_markers": [
+            "0015g"
+          ],
+          "pinyins": [
+            "jia1"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": "tympan:",
+        "abbreviation": "tympan",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "壴",
+            "label_token": "tympan(um)",
+            "start_line": 351
+          }
+        ]
+      },
+      "transliteration_latex": "{\\large{{\\textsuperscript{tympan:}}kay}},",
+      "render_latex": "嘉\t%jia1\t\n{\\large{{\\textsuperscript{tympan:}}kay}},\n\\textit{kae};\t%kae\t%0015g",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "嘉",
+          "ids": "⿱壴加",
+          "phonetic_component": "加",
+          "semantic_component": "壴",
+          "position": "prefix-colon",
+          "abbreviation": "tympan",
+          "inventory_matches": [
+            {
+              "graph_raw": "壴",
+              "label_token": "tympan(um)",
+              "abbreviation": "tympan",
+              "start_line": 351
+            },
+            {
+              "graph_raw": "壴",
+              "label_token": "tympan",
+              "abbreviation": "tympan",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "哿",
@@ -539,7 +883,76 @@
           "oc_syllable": "ka̠lʔ"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "哿",
+          "entry_id": "18-04",
+          "source_line_number": 575,
+          "character_line_raw": "哿\t%ge3\t",
+          "raw_block": "哿\t%ge3\t\n{\\large{kay{\\textsuperscript{:poss}}}},\n\\textit{kaX};\t%kaX\t%0015i",
+          "transliteration_latex": "{\\large{kay{\\textsuperscript{:poss}}}},",
+          "semantic_assignment": {
+            "token": ":poss",
+            "abbreviation": "poss",
+            "position": "suffix-colon",
+            "inventory_matches": [
+              {
+                "graph_raw": "可",
+                "label_token": "poss(um)",
+                "start_line": 308
+              }
+            ]
+          },
+          "mc_forms": [
+            "kaX"
+          ],
+          "gsr_markers": [
+            "0015i"
+          ],
+          "pinyins": [
+            "ge3"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": ":poss",
+        "abbreviation": "poss",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "可",
+            "label_token": "poss(um)",
+            "start_line": 308
+          }
+        ]
+      },
+      "transliteration_latex": "{\\large{kay{\\textsuperscript{:poss}}}},",
+      "render_latex": "哿\t%ge3\t\n{\\large{kay{\\textsuperscript{:poss}}}},\n\\textit{kaX};\t%kaX\t%0015i",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "哿",
+          "ids": "⿱加可",
+          "phonetic_component": "可",
+          "semantic_component": "加",
+          "position": "prefix-colon",
+          "abbreviation": "poss",
+          "inventory_matches": [
+            {
+              "graph_raw": "加",
+              "label_token": "poss",
+              "abbreviation": "poss",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     },
     {
       "character": "賀",
@@ -574,7 +987,82 @@
           "oc_syllable": "ɡa̠ls"
         }
       ],
-      "shengfu_component_rows": []
+      "shengfu_component_rows": [],
+      "tex_occurrence_candidates": [
+        {
+          "character": "賀",
+          "entry_id": "18-04",
+          "source_line_number": 578,
+          "character_line_raw": "賀\t%he4\t",
+          "raw_block": "賀\t%he4\t\n{\\large{kay{\\textsuperscript{:conch}}}},\n\\textit{ḫaH};\t%haH\t%0015j",
+          "transliteration_latex": "{\\large{kay{\\textsuperscript{:conch}}}},",
+          "semantic_assignment": {
+            "token": ":conch",
+            "abbreviation": "conch",
+            "position": "suffix-colon",
+            "inventory_matches": [
+              {
+                "graph_raw": "貝",
+                "label_token": "conch(a)",
+                "start_line": 218
+              }
+            ]
+          },
+          "mc_forms": [
+            "ḫaH"
+          ],
+          "gsr_markers": [
+            "0015j"
+          ],
+          "pinyins": [
+            "he4"
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": ":conch",
+        "abbreviation": "conch",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "貝",
+            "label_token": "conch(a)",
+            "start_line": 218
+          }
+        ]
+      },
+      "transliteration_latex": "{\\large{kay{\\textsuperscript{:conch}}}},",
+      "render_latex": "賀\t%he4\t\n{\\large{kay{\\textsuperscript{:conch}}}},\n\\textit{ḫaH};\t%haH\t%0015j",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "賀",
+          "ids": "⿱加貝",
+          "phonetic_component": "加",
+          "semantic_component": "貝",
+          "position": "suffix-colon",
+          "abbreviation": "conch",
+          "inventory_matches": [
+            {
+              "graph_raw": "貝",
+              "label_token": "conch(a)",
+              "abbreviation": "conch",
+              "start_line": 218
+            },
+            {
+              "graph_raw": "貝",
+              "label_token": "conch",
+              "abbreviation": "conch",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null
+      }
     }
   ],
   "all_candidates": [

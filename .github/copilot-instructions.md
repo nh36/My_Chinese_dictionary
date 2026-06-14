@@ -8,9 +8,11 @@
 - Run the current entry extractor: `python3 scripts/extract_tex_entries.py`
 - Run the current TeX-derived report builder: `python3 scripts/build_tex_reports.py`
 - Extract semantic components: `python3 scripts/extract_semantic_components.py`
+- Build semantic evidence reuse from existing TeX plus IDS data: `python3 scripts/build_semantic_evidence.py`
 - Run the Mand2MC importer: `python3 scripts/import_mand2mc.py`
 - Run the Shengfu importer: `python3 scripts/import_shengfu.py`
 - Run the BS/GSR PDF importer: `python3 scripts/import_bs_gsr_pdf.py`
+- Fetch explicit `Han compound` validation from Wiktionary: `python3 scripts/fetch_wiktionary_component_roles.py`
 - Run the spreadsheet comparison reports: `python3 scripts/compare_sources.py`
 - Run the coverage-model builder: `python3 scripts/build_coverage_model.py`
 - Export hand-checkable series packets: `python3 scripts/export_series_packets.py`
@@ -36,6 +38,8 @@
 - `scripts/extract_tex_entries.py` builds on the inventory pass and writes `data/current_tex_entries.json`. Each extracted entry retains section/subsection context, line ranges, head data, raw LaTeX block/body, Chinese characters, commented pinyin, MC forms, GSR-like markers, image references, and itemize-depth events.
 - `scripts/build_tex_reports.py` generates report files from the extracted entry data. The current tex-only reports are `reports/tex_entries_by_gsr.md`, `reports/tex_entries_without_gsr.md`, `reports/rare_glyphs_and_images.md`, and `reports/semantic_labels_used_in_tex.md`.
 - `scripts/extract_semantic_components.py` turns the `Semantic components` section of `main.tex` into `data/current_semantic_components.json` and `reports/semantic_components_inventory.md`.
+- `scripts/build_semantic_evidence.py` enriches `data/entries/curation/*.json` with semantic/transliteration evidence reused from existing `main.tex`, IDS decomposition heuristics from `data/raw/cjkvi_ids.txt`, and learned component→abbreviation mappings from already trusted TeX entries.
+- `scripts/fetch_wiktionary_component_roles.py` caches raw Wiktionary page data under `data/raw/wiktionary/` and records explicit `Han compound` semantic/phonetic-role evidence where available.
 - `scripts/import_mand2mc.py` and `scripts/import_shengfu.py` are the spreadsheet-ingestion entry points. They preserve raw sheet columns, add explicit `source_row_number` / `source_sheet_name`, append normalized helper columns, and write CSV plus Markdown import reports.
 - `scripts/import_bs_gsr_pdf.py` imports `key references/Reconstructions in GSR order.pdf` via `pdftotext -layout` into `data/derived/bs_gsr.csv` and writes `reports/import_bs_gsr_pdf.md`.
 - In the current checkout, the real spreadsheet source files live under `key references/`, and the importer defaults are pointed there.
@@ -45,6 +49,7 @@
 - `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.
 - `scripts/evaluate_pilot_render.py` is the regression gate for pilot quality. It should be run after any comparable pilot generation; if it reports `not ready`, the output is still missing key structural features like semantic superscripts, placement, or abstract phonetic forms.
+- The current semantic layer is only partially complete: the readiness report now shows some recovered semantic assignments, but most proposed additions still lack full transliteration and render blocks, so the pilot remains an internal draft.
 - `scripts/export_sample_entries.py` builds a curated representative sample from `data/current_tex_entries.json` and writes `data/entries/sample_entries.json`.
 - `scripts/render_entries.py` renders that sample back to `build/generated_entries_sample.tex` and `build/generated_main_sample.tex` with explicit generated-file warnings.
 - The checked-in reference PDFs and spreadsheet inputs live under `key references/`. The active importer defaults point at `key references/Mand2MC2009-06-08 copy.ods`, `key references/声符级别-2022.06.07.xlsx`, and `key references/Reconstructions in GSR order.pdf`.

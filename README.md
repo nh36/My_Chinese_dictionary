@@ -81,6 +81,12 @@ Extract the `Semantic components` section into machine-readable form:
 python3 scripts/extract_semantic_components.py
 ```
 
+Reuse existing TeX analyses and IDS data to enrich curation files with semantic evidence:
+
+```sh
+python3 scripts/build_semantic_evidence.py
+```
+
 This writes:
 
 - `reports/tex_entries_by_gsr.md`
@@ -176,6 +182,14 @@ The pilot-quality scripts write:
 - `data/current_semantic_components.json`
 - `reports/semantic_components_inventory.md`
 - `reports/pilot_render_readiness.md`
+- `reports/semantic_evidence_reuse.md`
+- cached Wiktionary component evidence under `data/raw/wiktionary/`
+
+Fetch explicit `Han compound` evidence from Wiktionary for curated pilot candidates:
+
+```sh
+python3 scripts/fetch_wiktionary_component_roles.py
+```
 
 ### Python package requirements for imports
 

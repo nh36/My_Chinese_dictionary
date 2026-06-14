@@ -90,6 +90,10 @@ def parse_item(item: dict[str, Any]) -> dict[str, Any]:
         match = re.match(r"([A-Za-z]+)", label_token)
         if match:
             abbreviation = match.group(1)
+    if abbreviation is None and label_notes:
+        match = re.match(r"([A-Za-z]+)", label_notes)
+        if match:
+            abbreviation = match.group(1)
 
     return {
         "start_line": item["start_line"],
