@@ -396,6 +396,84 @@ def resolve_semantic_from_wiktionary_template(
     }
 
 
+def resolve_semantic_from_packet_family(
+    *,
+    character: str,
+    ids_map: dict[str, str],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+    packet_family: set[str],
+) -> dict[str, Any] | None:
+    ids = ids_map.get(character)
+    if not ids:
+        return None
+    try:
+        tree, _ = parse_ids_expression(ids)
+    except Exception:
+        return None
+    if not isinstance(tree, dict) or len(tree.get("children", [])) != 2:
+        return None
+
+    def subtree_has_packet_component(node: Any) -> bool:
+        if isinstance(node, str):
+            normalized = normalize_component_graph(node)
+            if normalized in packet_family:
+                return True
+            nested_ids = ids_map.get(node)
+            if nested_ids:
+                try:
+                    nested_tree, _ = parse_ids_expression(nested_ids)
+                    if isinstance(nested_tree, dict):
+                        return subtree_has_packet_component(nested_tree)
+                except Exception:
+                    return False
+            return False
+        return any(subtree_has_packet_component(child) for child in node.get("children", []))
+
+    def subtree_head(node: Any) -> str | None:
+        if isinstance(node, str):
+            return normalize_component_graph(node)
+        if node.get("children"):
+            first = node["children"][0]
+            if isinstance(first, str):
+                return normalize_component_graph(first)
+        return None
+
+    left = tree["children"][0]
+    right = tree["children"][1]
+    left_match = subtree_has_packet_component(left)
+    right_match = subtree_has_packet_component(right)
+    if left_match == right_match:
+        return None
+
+    semantic_component = subtree_head(right if left_match else left)
+    inventory_matches = graph_lookup.get(semantic_component, [])
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else None
+    if not abbreviation:
+        return None
+
+    operator = tree["op"]
+    if operator == "⿰":
+        position = "suffix-dot" if left_match else "prefix-dot"
+    elif operator == "⿱":
+        position = "suffix-colon" if left_match else "prefix-colon"
+    elif operator in {"⿸", "⿷", "⿺", "⿹"}:
+        position = "suffix-dot" if left_match else "prefix-dot"
+    elif operator in {"⿵", "⿶"}:
+        position = "suffix-colon" if left_match else "prefix-colon"
+    else:
+        return None
+
+    return {
+        "source": "packet_family_ids",
+        "character": character,
+        "ids": ids,
+        "semantic_component": semantic_component,
+        "position": position,
+        "abbreviation": abbreviation,
+        "inventory_matches": inventory_matches,
+    }
+
+
 def merge_graph_lookups(*lookups: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
     merged: dict[str, list[dict[str, Any]]] = {}
     for lookup in lookups:
@@ -472,6 +550,24 @@ def build_tex_character_evidence(
     evidence: dict[str, list[dict[str, Any]]] = {}
 
     for entry in tex_entries:
+        head_root = extract_series_root_latex(entry["raw_block"])
+        for head_character in entry.get("head", {}).get("characters", []):
+            evidence.setdefault(head_character, []).append(
+                {
+                    "character": head_character,
+                    "entry_id": entry["id"],
+                    "source_line_number": entry["start_line"],
+                    "character_line_raw": entry["paragraph_line_raw"],
+                    "raw_block": entry["raw_block"],
+                    "transliteration_latex": head_root,
+                    "semantic_assignment": None,
+                    "mc_forms": entry.get("mc_forms", []),
+                    "gsr_markers": entry.get("gsr_markers", []),
+                    "pinyins": entry.get("commented_pinyin", []),
+                    "is_head_occurrence": True,
+                }
+            )
+
         lines = entry["raw_block"].splitlines()
         i = 0
         while i < len(lines):
@@ -535,7 +631,6 @@ def normalize_transliteration_latex(value: str | None) -> str | None:
 def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if len(matches) <= 1:
         return matches
-
     candidate_gsr = {
         row["gsr"] for row in candidate.get("mand2mc_rows", []) if row.get("gsr")
     } | {
@@ -573,6 +668,41 @@ def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, 
             return pinyin_matches
 
     return matches
+
+
+def maybe_mark_base_graph(candidate: dict[str, Any], ids_map: dict[str, str]) -> dict[str, Any] | None:
+    if any(match.get("is_head_occurrence") for match in candidate.get("tex_occurrence_candidates", [])):
+        return {
+            "token": None,
+            "abbreviation": None,
+            "position": "none",
+            "inventory_matches": [],
+            "source": "existing_tex_head",
+            "semantic_component": None,
+        }
+
+    for row in candidate.get("shengfu_character_rows", []):
+        if normalize_component_graph(row.get("phonetic_component", "")) == normalize_component_graph(candidate["character"]):
+            return {
+                "token": None,
+                "abbreviation": None,
+                "position": "none",
+                "inventory_matches": [],
+                "source": "self_phonetic_base",
+                "semantic_component": None,
+            }
+
+    ids = ids_map.get(candidate["character"])
+    if ids and len(ids) == 1 and ids == candidate["character"]:
+        return {
+            "token": None,
+            "abbreviation": None,
+            "position": "none",
+            "inventory_matches": [],
+            "source": "simple_graph",
+            "semantic_component": None,
+        }
+    return None
 
 
 def extract_series_root_latex(raw_block: str) -> str | None:
@@ -660,6 +790,14 @@ def enrich_curated_entry_with_ids(
     ids_map: dict[str, str],
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any]:
+    packet_family = {
+        normalize_component_graph(candidate["character"])
+        for candidate in entry.get("proposed_additions", [])
+    }
+    if entry.get("tex_entry"):
+        packet_family.update(
+            normalize_component_graph(ch) for ch in entry["tex_entry"].get("chinese_characters", [])
+        )
     for candidate in entry.get("proposed_additions", []):
         matches = disambiguate_occurrences(candidate, evidence.get(candidate["character"], []))
         candidate["tex_occurrence_candidates"] = matches
@@ -710,6 +848,34 @@ def enrich_curated_entry_with_ids(
                     root,
                     candidate["semantic_assignment"],
                 )
+
+        if candidate.get("semantic_assignment") is None:
+            packet_candidate = resolve_semantic_from_packet_family(
+                character=candidate["character"],
+                ids_map=ids_map,
+                graph_lookup=graph_lookup,
+                packet_family=packet_family - {normalize_component_graph(candidate["character"])},
+            )
+            if packet_candidate and packet_candidate.get("abbreviation"):
+                candidate["semantic_assignment"] = {
+                    "token": None,
+                    "abbreviation": packet_candidate["abbreviation"],
+                    "position": packet_candidate["position"],
+                    "inventory_matches": packet_candidate["inventory_matches"],
+                    "source": packet_candidate["source"],
+                    "semantic_component": packet_candidate["semantic_component"],
+                }
+                if candidate.get("transliteration_latex") is None and entry.get("tex_entry") is not None:
+                    root = extract_series_root_latex(entry["tex_entry"]["raw_block"])
+                    if root:
+                        candidate["transliteration_latex"] = compose_transliteration_from_root(
+                            root,
+                            candidate["semantic_assignment"],
+                        )
+        if candidate.get("semantic_assignment") is None:
+            base_graph = maybe_mark_base_graph(candidate, ids_map)
+            if base_graph is not None:
+                candidate["semantic_assignment"] = base_graph
         candidate["transliteration_latex"] = normalize_transliteration_latex(candidate.get("transliteration_latex"))
         if candidate.get("render_latex") is None:
             candidate["render_latex"] = synthesize_render_latex(candidate)

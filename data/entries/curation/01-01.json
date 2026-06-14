@@ -189,8 +189,30 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": null,
-      "render_latex": null
+      "transliteration_latex": "{\\large{\\textsuperscript{oryz·}ka}},",
+      "render_latex": "糊\t%hú\n{\\large{\\textsuperscript{oryz·}ka}},\n\\textit{hu};\t%49",
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "oryz",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "米",
+            "label_token": "oryz(a)",
+            "abbreviation": "oryz",
+            "start_line": 291
+          },
+          {
+            "graph_raw": "米",
+            "label_token": "oryz",
+            "abbreviation": "oryz",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "米"
+      }
     },
     {
       "character": "菇",

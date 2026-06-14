@@ -6,10 +6,10 @@
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 81 | 120 |
-| Semantic placement present | 81 | 120 |
-| Transliteration LaTeX present | 10 | 120 |
-| Candidate render LaTeX present | 11 | 120 |
+| Semantic assignment present | 113 | 120 |
+| Semantic placement present | 113 | 120 |
+| Transliteration LaTeX present | 13 | 120 |
+| Candidate render LaTeX present | 13 | 120 |
 
 ## Render markers
 

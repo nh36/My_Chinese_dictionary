@@ -848,7 +848,15 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      }
     },
     {
       "character": "觡",
@@ -2092,7 +2100,23 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "can",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "犭",
+            "label_token": "can",
+            "abbreviation": "can",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "犭"
+      }
     },
     {
       "character": "頟",
@@ -3276,7 +3300,29 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cor",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 219
+          },
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "learned": true,
+            "evidence_count": 12
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "心"
+      }
     },
     {
       "character": "雒",
@@ -3995,7 +4041,29 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "av",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "鳥",
+            "label_token": "av(is)",
+            "abbreviation": "av",
+            "start_line": 195
+          },
+          {
+            "graph_raw": "鳥",
+            "label_token": "av",
+            "abbreviation": "av",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "鳥"
+      }
     },
     {
       "character": "露",
@@ -4786,7 +4854,29 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": null,
-      "render_latex": null
+      "render_latex": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "bamb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "竹",
+            "label_token": "bamb(us)",
+            "abbreviation": "bamb",
+            "start_line": 196
+          },
+          {
+            "graph_raw": "竹",
+            "label_token": "bamb",
+            "abbreviation": "bamb",
+            "learned": true,
+            "evidence_count": 10
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "竹"
+      }
     },
     {
       "character": "格",

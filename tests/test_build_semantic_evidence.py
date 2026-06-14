@@ -103,6 +103,20 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["abbreviation"], "or")
         self.assertEqual(resolved["position"], "suffix-colon")
 
+    def test_resolve_semantic_from_packet_family(self) -> None:
+        ids_map = {"眙": "⿰目台"}
+        graph_lookup = {
+            "目": [{"graph_raw": "目", "label_token": "ocul(us)", "abbreviation": "ocul"}],
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_packet_family(
+            character="眙",
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+            packet_family={"台", "以"},
+        )
+        self.assertEqual(resolved["abbreviation"], "ocul")
+        self.assertEqual(resolved["position"], "prefix-dot")
+
     def test_build_learned_graph_lookup(self) -> None:
         evidence = {
             "痢": [
