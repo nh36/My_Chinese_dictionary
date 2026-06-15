@@ -119,6 +119,12 @@ RESEARCH_BACKED_SEMANTICS = {
         "source": "research_reconciled_packet",
         "note": "Reconciled provisionally with current packet by GSR placement while keeping 皿 as semantic.",
     },
+    "駵": {
+        "semantic_component": "馬",
+        "position": "prefix-dot",
+        "source": "research_variant_of_騮",
+        "note": "Historical variant of 騮 with 馬 semantic and 丣/留 phonetic line.",
+    },
     "園": {
         "semantic_component": "囗",
         "position": "prefix-dot",

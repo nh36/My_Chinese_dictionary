@@ -14,6 +14,7 @@ GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 VOWEL_RE = re.compile(r"[aeiouəɨɯ]")
 OC_ALT_RE = re.compile(r"\s*\{.*$")
 OC_CLEAN_RE = re.compile(r"[\[\]\(\)<>]")
+OC_BRACED_ALT_RE = re.compile(r"\{([^}]*)\}")
 
 
 def split_gsr(value: str | None) -> tuple[int, str] | None:
@@ -28,7 +29,13 @@ def split_gsr(value: str | None) -> tuple[int, str] | None:
 def extract_primary_oc_form(oc_bs: str | None) -> str | None:
     if not oc_bs:
         return None
-    primary = OC_ALT_RE.sub("", str(oc_bs).strip()).lstrip("*").strip()
+    text = str(oc_bs).strip()
+    primary = OC_ALT_RE.sub("", text).lstrip("*").strip()
+    alt_match = OC_BRACED_ALT_RE.search(text)
+    if primary.startswith(("ˤ", "ʔ", "a", "e", "i", "o", "u", "ə", "ɨ", "ɯ")) and alt_match:
+        alt = alt_match.group(1).lstrip("*").strip()
+        if alt:
+            primary = alt
     primary = OC_CLEAN_RE.sub("", primary)
     return primary or None
 
