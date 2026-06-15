@@ -50,7 +50,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{\textsuperscript{herb˸}kak}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
-        self.assertEqual(rendered.count(r"\pilotentry{%"), 25)
+        self.assertEqual(rendered.count(r"\pilotentry{%"), 31)
 
     def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
