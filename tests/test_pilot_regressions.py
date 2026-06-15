@@ -41,6 +41,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
         self.assertIn(r"{\large{ly}},", rendered)
         self.assertIn(r"{\large{kym}},", rendered)
+        self.assertNotIn("ŋrrar", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
         self.assertEqual(rendered.count(r"\pilotentry{%"), 12)

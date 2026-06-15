@@ -71,7 +71,9 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
     onset = onset if mode == "node" else onset.replace("r", "")
 
     if mode == "node":
-        if onset.startswith(("ɢ", "ɡ", "g")):
+        if onset.startswith("ŋ"):
+            base = "ŋ"
+        elif onset.startswith(("ɢ", "ɡ", "g")):
             base = "g"
         elif onset.startswith(("q", "ʔ")):
             base = "q"
@@ -124,7 +126,7 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
         base = base + "u"
     if mode == "node" and aspirated and base in {"k", "q", "t", "p", "ts", "s"}:
         base = base + "h"
-    if mode == "node" and has_medial_r and base not in {"r", "l", "n", "m"}:
+    if mode == "node" and has_medial_r and not base.endswith("r") and base not in {"r", "l", "n", "m"}:
         base = base + "r"
     return base
 

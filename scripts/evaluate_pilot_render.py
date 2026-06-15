@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +12,7 @@ import hierarchy_utils
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_TEX_PATH = "build/generated_curated_series_sample.tex"
 DEFAULT_REPORT_OUT = "reports/pilot_render_readiness.md"
+TEXTSUP_RE = re.compile(r"\\textsuperscript\{[^}]*\}")
 
 
 def load_curated_entries(input_dir: Path) -> list[dict[str, Any]]:
@@ -39,6 +41,13 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
     packets_with_existing_baseline = sum(1 for entry in entries if entry.get("tex_entry"))
     provisional_marker_count = rendered_tex.count("[provisional draft")
     proposed_marker_count = rendered_tex.count("[proposed additions")
+    baseline_relation_colon_count = 0
+    for line in rendered_tex.splitlines():
+        if "{\\large" not in line and "{\\Large" not in line:
+            continue
+        stripped = TEXTSUP_RE.sub("", line)
+        if ":" in stripped:
+            baseline_relation_colon_count += stripped.count(":")
     generated_subseries_heads = []
     rendered_subseries_heads = 0
     for entry in entries:
@@ -64,6 +73,7 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
         "packets_with_existing_baseline": packets_with_existing_baseline,
         "provisional_marker_count": provisional_marker_count,
         "proposed_marker_count": proposed_marker_count,
+        "baseline_relation_colon_count": baseline_relation_colon_count,
         "generated_subseries_head_count": len(generated_subseries_heads),
         "rendered_subseries_head_count": rendered_subseries_heads,
         "overall_status": (
@@ -74,6 +84,7 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
             and transliteration_ready == total_proposed
             and render_ready == total_proposed
             and provisional_marker_count == 0
+            and baseline_relation_colon_count == 0
             and rendered_subseries_heads == len(generated_subseries_heads)
             else "not ready"
         ),
@@ -94,6 +105,7 @@ def render_report(metrics: dict[str, Any]) -> str:
         f"| Semantic placement present | {metrics['placement_ready']} | {metrics['total_proposed_additions']} |",
         f"| Transliteration LaTeX present | {metrics['transliteration_ready']} | {metrics['total_proposed_additions']} |",
         f"| Candidate render LaTeX present | {metrics['render_ready']} | {metrics['total_proposed_additions']} |",
+        f"| Relation `:` kept out of baseline text | {metrics['total_proposed_additions'] if metrics['baseline_relation_colon_count'] == 0 else 0} | {metrics['total_proposed_additions']} |",
         f"| Generated subseries heads rendered with `=` root lines | {metrics['rendered_subseries_head_count']} | {metrics['generated_subseries_head_count']} |",
         "",
         "## Render markers",
@@ -101,6 +113,7 @@ def render_report(metrics: dict[str, Any]) -> str:
         f"- Existing-baseline packets: {metrics['packets_with_existing_baseline']}",
         f"- `[provisional draft ...]` markers in rendered review TeX: {metrics['provisional_marker_count']}",
         f"- `[proposed additions ...]` markers in rendered review TeX: {metrics['proposed_marker_count']}",
+        f"- Baseline relation-colon count in rendered large-text lines: {metrics['baseline_relation_colon_count']}",
         "",
         "## Interpretation",
         "",

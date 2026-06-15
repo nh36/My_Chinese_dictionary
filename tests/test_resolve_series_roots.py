@@ -17,6 +17,7 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolve_series_roots.derive_oc_root("*kˤak"), "kak")
         self.assertEqual(resolve_series_roots.derive_oc_root("*krəm {*[k]r[ə]m}"), "kym")
         self.assertEqual(resolve_series_roots.derive_oc_root("*ləʔ"), "ly")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*ŋrar", mode="node"), "ŋrar")
 
     def test_resolve_root_single_oc_candidate(self) -> None:
         entry = {
