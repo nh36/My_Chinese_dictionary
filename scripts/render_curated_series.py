@@ -7,7 +7,6 @@ from typing import Any
 
 import hierarchy_utils
 import mc_resolution
-import render_entries
 
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
@@ -16,6 +15,14 @@ DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
+COLUMN_CONTEXT_PREFIXES = (
+    r"\begin{multicols}",
+    r"\begin{multicols*}",
+    r"\begin{spacing}",
+    r"\end{spacing}",
+    r"\end{multicols}",
+    r"\end{multicols*}",
+)
 
 
 def load_curated_entry(path: Path) -> dict[str, Any]:
@@ -38,16 +45,6 @@ def dedupe_preserve(values: list[str]) -> list[str]:
             seen.add(value)
             result.append(value)
     return result
-
-
-def render_context_wrapped_block(context_environments: list[dict[str, str]], body_lines: list[str]) -> str:
-    lines: list[str] = []
-    for environment in context_environments:
-        lines.append(f"\\begin{{{environment['name']}}}{{{environment['arg']}}}")
-    lines.extend(body_lines)
-    for environment in reversed(context_environments):
-        lines.append(f"\\end{{{environment['name']}}}")
-    return "\n".join(lines)
 
 
 def build_existing_heading_line(entry: dict[str, Any]) -> str:
@@ -169,6 +166,26 @@ def render_head_mc_lines(candidate: dict[str, Any]) -> list[str]:
     return lines
 
 
+def strip_column_context_lines(raw_block: str) -> str:
+    filtered_lines = [
+        line.rstrip()
+        for line in raw_block.splitlines()
+        if line.strip() and not any(line.strip().startswith(prefix) for prefix in COLUMN_CONTEXT_PREFIXES)
+    ]
+    return "\n".join(filtered_lines)
+
+
+def wrap_entry_samepage(rendered_entry: str) -> str:
+    body = rendered_entry.rstrip()
+    return "\n".join(
+        [
+            r"\begin{samepage}",
+            body,
+            r"\end{samepage}",
+        ]
+    )
+
+
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
     head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
     head_candidate = entry["proposed_additions"][0] if entry["proposed_additions"] else None
@@ -190,10 +207,7 @@ def render_missing_series_entry(entry: dict[str, Any]) -> str:
         not in {"assigned-to-inherited-node", "assigned-to-candidate-node"}
     ]
     body_lines.extend(render_candidate_group_lines(top_level_candidates, candidate_children))
-    return render_context_wrapped_block(
-        [{"name": "multicols", "arg": "2"}, {"name": "spacing", "arg": "0.7"}],
-        body_lines,
-    )
+    return "\n".join(body_lines)
 
 
 def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
@@ -232,21 +246,33 @@ def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
                 body_lines.append(rf"\item {node['display_line']}")
             body_lines.extend(render_candidate_group_lines(grouped_candidates, candidate_children))
         body_lines.append(r"\end{itemize}")
-    return render_context_wrapped_block(tex_entry.get("context_environments", []), body_lines)
+    return "\n".join(body_lines)
 
 
 def render_curated_entry(entry: dict[str, Any]) -> str:
     if entry["packet_kind"] == "missing_series":
         return render_missing_series_entry(entry)
 
-    wrapped_tex_entry = render_entries.wrap_entry_with_context(
-        {
-            "raw_latex": entry["tex_entry"]["raw_block"],
-            "context_environments": entry["tex_entry"].get("context_environments", []),
-        }
-    ).rstrip()
+    wrapped_tex_entry = strip_column_context_lines(entry["tex_entry"]["raw_block"]).rstrip()
     addition_block = render_existing_addendum_entry(entry).rstrip()
     return wrapped_tex_entry + "\n\n" + addition_block
+
+
+def render_section_entries(entries: list[dict[str, Any]]) -> list[str]:
+    lines = [
+        r"\begin{multicols*}{2}",
+        r"\begin{spacing}{0.7}",
+    ]
+    for entry in entries:
+        lines.append(wrap_entry_samepage(render_curated_entry(entry)))
+        lines.append("")
+    lines.extend(
+        [
+            r"\end{spacing}",
+            r"\end{multicols*}",
+        ]
+    )
+    return lines
 
 
 def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
@@ -266,9 +292,8 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
                 "",
             ]
         )
-        for entry in missing_entries:
-            body.append(render_curated_entry(entry))
-            body.append("")
+        body.extend(render_section_entries(missing_entries))
+        body.append("")
 
     if existing_entries:
         body.extend(
@@ -277,9 +302,8 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
                 "",
             ]
         )
-        for entry in existing_entries:
-            body.append(render_curated_entry(entry))
-            body.append("")
+        body.extend(render_section_entries(existing_entries))
+        body.append("")
     body.append("\\end{document}")
     return extract_preamble(main_tex_path) + "\n".join(body) + "\n"
 
