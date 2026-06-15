@@ -915,6 +915,13 @@ def enrich_curated_entry_with_ids(
                     root,
                     candidate["semantic_assignment"],
                 )
+        if candidate.get("transliteration_latex") is None and entry.get("packet_kind") == "missing_series" and candidate.get("semantic_assignment"):
+            resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+            if resolved_root:
+                candidate["transliteration_latex"] = compose_transliteration_from_root(
+                    resolved_root,
+                    candidate["semantic_assignment"],
+                )
 
         if candidate.get("semantic_assignment") is None:
             packet_candidate = resolve_semantic_from_packet_family(
@@ -937,6 +944,13 @@ def enrich_curated_entry_with_ids(
                     if root:
                         candidate["transliteration_latex"] = compose_transliteration_from_root(
                             root,
+                            candidate["semantic_assignment"],
+                        )
+                if candidate.get("transliteration_latex") is None and entry.get("packet_kind") == "missing_series":
+                    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+                    if resolved_root:
+                        candidate["transliteration_latex"] = compose_transliteration_from_root(
+                            resolved_root,
                             candidate["semantic_assignment"],
                         )
         if candidate.get("semantic_assignment") is None:
@@ -1001,10 +1015,26 @@ def enrich_curated_entry_with_ids(
                             root,
                             candidate["semantic_assignment"],
                         )
+                if candidate.get("transliteration_latex") is None and entry.get("packet_kind") == "missing_series":
+                    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+                    if resolved_root:
+                        candidate["transliteration_latex"] = compose_transliteration_from_root(
+                            resolved_root,
+                            candidate["semantic_assignment"],
+                        )
         if candidate.get("semantic_assignment") is None:
             series_head = maybe_mark_series_head(entry, candidate)
             if series_head is not None:
                 candidate["semantic_assignment"] = series_head
+        if (
+            candidate.get("transliteration_latex") is None
+            and entry.get("packet_kind") == "missing_series"
+            and candidate.get("semantic_assignment")
+            and candidate["semantic_assignment"].get("position") == "none"
+        ):
+            resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+            if resolved_root:
+                candidate["transliteration_latex"] = rf"{{\large{{{resolved_root}}}}},"
     return entry
 
 

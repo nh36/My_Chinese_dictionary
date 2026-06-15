@@ -127,6 +127,12 @@ Build the cross-source coverage model and expansion reports:
 python3 scripts/build_coverage_model.py
 ```
 
+Resolve provisional abstract roots for missing-series packets:
+
+```sh
+python3 scripts/resolve_series_roots.py
+```
+
 Export hand-checkable series packets for target GSC series:
 
 ```sh
@@ -168,6 +174,11 @@ The coverage-model script writes:
 - `reports/missing_gsc_rhymes_and_series.md`
 - `reports/expansion_work_queue.md`
 
+The root-resolution step updates:
+
+- `data/entries/curation/*.json` with `series_root_candidates` and `resolved_series_root`
+- `reports/series_root_resolution.md`
+
 The curation-packet scripts write:
 
 - `data/series_packets/*.json`
@@ -184,6 +195,7 @@ The pilot-quality scripts write:
 - `reports/pilot_render_readiness.md`
 - `reports/semantic_evidence_reuse.md`
 - cached Wiktionary component evidence under `data/raw/wiktionary/`
+- `reports/series_root_resolution.md`
 
 Fetch explicit `Han compound` evidence from Wiktionary for curated pilot candidates:
 

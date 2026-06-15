@@ -113,10 +113,12 @@ def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
 
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
     head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
+    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
     body_lines = [
         f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{head_character}}}}}}}",
-        "{\\small\\itshape[provisional draft for a missing series; transliteration and semantic analysis still to review]}",
     ]
+    if resolved_root:
+        body_lines.append(rf"{{\large{{{resolved_root}}}}},")
     for candidate in entry["proposed_additions"]:
         body_lines.extend(render_candidate_lines(candidate))
     return render_context_wrapped_block(
@@ -129,7 +131,7 @@ def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
     tex_entry = entry["tex_entry"]
     body_lines = [
         build_existing_heading_line(entry),
-        "{\\small\\itshape[proposed additions from imported sources]}",
+        f"% Proposed additions from imported sources for {entry['id']}",
     ]
     for candidate in entry["proposed_additions"]:
         body_lines.extend(render_candidate_lines(candidate))
@@ -191,7 +193,7 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "",
         f"- Generated TeX file: `{tex_path}`",
         "- This file is a review document, not final dictionary output.",
-        "- Missing-series packets are rendered as provisional dictionary-style draft entries.",
+        "- Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.",
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "",
         "| GSC | Packet kind | Existing TeX baseline | Proposed additions |",

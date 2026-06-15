@@ -1,0 +1,1924 @@
+\clubpenalty100000000
+\widowpenalty100000000
+\documentclass[xetex, svgnames, 12pt]{scrartcl}
+
+\usepackage{xeCJK}
+%\setCJKmainfont{SimSun}
+\usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+% XeLaTeX settings
+\usepackage{xltxtra,polyglossia}
+\setmainfont[Mapping=tex-text,Scale=1.0]{FreeSerif}
+\setsansfont[Mapping=tex-text,Scale=1.0]{FreeSans}
+\setmonofont{FreeMono}
+\usepackage{linguex}
+\setmainlanguage{english}
+\usepackage{makecell}
+%\setotherlanguage{german}
+\newfontfamily\sil{Charis SIL}
+\newfontfamily\burm{Padauk}
+\usepackage{scrlayer-scrpage}
+\usepackage[
+    colorlinks,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=CornflowerBlue,
+    filecolor=black,
+    linktocpage=true,
+    %dvipdfm
+    ]{hyperref}
+
+% more packages needed
+\usepackage{tikz-cd}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor, color, colortbl, multirow}
+% biblatex is used for bibtex rendering, style author-year
+\usepackage[
+    backend=bibtex,
+    bibstyle=authoryear,
+    giveninits=true,
+    ibidtracker=strict,
+    isbn=false,doi=false,url=false,
+    labelnumber=true,
+    loccittracker=strict,
+    maxbibnames=10,
+    maxcitenames=2,
+    natbib=true,
+    opcittracker=strict,
+    sortcites=true,
+    sorting=nyt,
+    style=authoryear-ibid,
+    alldates=terse,
+    terseinits=false
+    ]{biblatex}
+
+\renewcommand*{\nameyeardelim}{\addspace}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
+\newcounter{para}
+\newcommand\mypara[1]{\par\refstepcounter{para}\textbf{\thepara\space#1\space}}
+
+\renewcommand\bibfont{\footnotesize}
+
+\bibliography{asia.bib}
+
+% pagestyle settings
+\pagestyle{scrheadings}
+\ihead{Trisolde and Hill}
+\chead{Mechanizing Chi. Hist. phonology}
+\ohead{}
+\ifoot{}
+\cfoot{\pagemark}
+\ofoot{}
+
+\bibliography{asia}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage[]{tikz}
+\graphicspath{{images/}{../images/}}
+
+\usetikzlibrary{calc,arrows,positioning,shapes}
+
+\newcommand{\SET}[1]  {\ensuremath{\mathcal{#1}}}
+\newcommand{\MAT}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\VEC}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\Video}{\SET{V}}
+\newcommand{\video}{\VEC{f}}
+\newcommand{\track}{x}
+\newcommand{\Track}{\SET T}
+\newcommand{\LMs}{\SET L}
+\newcommand{\lm}{l}
+\newcommand{\PosE}{\SET P}
+\newcommand{\posE}{\VEC p}
+\newcommand{\negE}{\VEC n}
+\newcommand{\NegE}{\SET N}
+\newcommand{\Occluded}{\SET O}
+\newcommand{\occluded}{o}
+%\definecolor{amazongreen}{cmyk}{0.83,0.24,0,0.12}
+\definecolor{blue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{red}{rgb}{0.75, 0.0, 0.2}
+\definecolor{violet}{RGB}{153,153,255}
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84}
+\definecolor{amazongreen}{RGB}{0,153,153}
+
+%\newfontfamily\burm{Padauk}
+\newfontfamily\tib{Tibetan Machine Uni}
+
+
+%Define boxes
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=4.2cm, minimum height=1cm,text centered, draw=amazongreen, text=white, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=4.2cm, minimum height=1cm, text centered, draw=amazongreen, fill=orange!30, text=white]
+%\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{decision} = [rectangle, rounded corners,minimum width=4cm, minimum height=1cm, text centered, text width=3cm, text=white, fill=amazongreen]
+
+% Draw a video
+\newlength{\FSZ}
+\newcommand{\drawvideo}[3]{% [0 0.25 0.5 0.75 1 1.25 1.5]
+   \noindent\pgfmathsetlength{\FSZ}{\linewidth/#2}
+   \begin{tikzpicture}[outer sep=0pt,inner sep=0pt,x=\FSZ,y=\FSZ]
+   \draw[color=amazongreen!50!black] (0,0) node[outer sep=0pt,inner sep=0pt,text width=\linewidth,minimum height=0] (video) {\noindent#3};
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     (video.north west) rectangle ([yshift=\FSZ] video.north east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.north west)+(-0.7,0.8)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     ([yshift=-1\FSZ] video.south west) rectangle (video.south east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.south west)+(-0.7,-0.2)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \foreach \x in {1,...,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1] video.north west) -- ([xshift=\x\linewidth/#1] video.south west);
+   }
+   \foreach \x in {0,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1,yshift=1\FSZ] video.north west) -- ([xshift=\x\linewidth/#1,yshift=-1\FSZ] video.south west);
+   }
+   \end{tikzpicture}
+}
+
+\title{Mechanizing Chinese historical phonology 
+%\\ using finite state transducers
+}
+\author{Tiago Trisolde and Nathan W. Hill}
+\begin{document}
+\maketitle
+\begin{abstract}
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+Because the individual sound changes that make up the history of a language are in effect string rewriting rules, it is possible to mechanize historical phonology \citep{Sims-Williams2018mechanising}. 
+Given an ordered list of sound changes, it is easy to predict the regular outcome of a certain proto-form (`forward reconstruction'), and feasible  to predict a set of proto-forms that could result in a certain attested outcome ( `backward reconstruction'). For example, the correspondence of Latin \textit{p}- to English \textit{f}- (\textit{pes}, `foot'; \textit{primus}, `first'; \textit{plenus}, `full') points to the change *p- > \textit{f}- in Germanic (part of  `Grimm's law'). Given an ordered list of such sound changes, it is trivial to predict the regular outcome of a certain proto-form (`forward reconstruction', Indo-European *pṓds > Eng. foot), and also feasible to predict the set of proto-forms that could result in a certain attested outcome (`backward reconstruction', Eng. foot < IE *pṓds, but also incorrect *\textit{poh₁eh₁od}, *\textit{ḱompeh₂ds}, *\textit{pepeh₃ds}, etc.). Since even the most rigorous treatments of historical phonology do not have a computer-certified level of rigor, the exercise of formalizing historical phonology, even that of a well-known branch of languages, generates insights. Patrick Sims-Williams (\citeyear[9]{Sims-Williams2018mechanising}) describes his implementation of forward reconstruction with a word processor's search-and-replace function applied to Celtic languages. 
+This low-tech workflow led him to discover previously overlooked cognates of well-known Indo-European roots 
+\citep{Sims-Williams2018pierce} 
+and to identify errors in the traditionally assumed relative chronology \citep{Sims-Williams2007CommonCeltic}.
+Mechanized historical phonology started in the late 1960s, when SNOBOL became available as a way to easily encode string pattern matching for computer processing. In the early days, efforts in forward and backward mechanized historical phonology were pursued separately
+\citep{Sims-Williams2018mechanising}. 
+
+%A unified solution of forward and backward reconstruction did not come into place until Kaplan and Kay (1994). While synchronic phonological rules are usually expressed in a general rewrite system, which can itself be easily Turing-complete, 
+\citep{Johnson1972FormalAspects}
+C. Douglas Johnson (1972) observed that most phonological rules can be implemented in 
+%a much more restricted framework, that of 
+finite-state transducers (FST, henceforth `transducers'). Based on this observation, Kaplan and Kay (1994) developed a concrete mechanism for encoding phonological rules as transducers. The discoveries, with important contribution by Kimmo Koskenniemi, eventually culminated in the Xerox Finite State Toolkit (XFST, 
+\citet[]{Beesley2003FiniteSM}), which has since enjoyed wide use in synchronic phonology and morphology. When sound changes are encoded as rewrite rules, following the syntax of XFST or one of the comparable open-source systems such as foma 
+\citep{Hulden2009}, both forward and backward reconstruction can be carried out directly in negligible time. 
+In addition, transducers use a format quite similar to the sound change notation familiar from Sound Pattern of English-style 
+\citep{Chomsky1968}. 
+Alex Fink created the software package rsca (reversible sound change applier) in 2006, which rely on transducers to implement precise backward reconstruction. Kimmo Koskenniemi, one of the original creators of the transducers-for-linguistics paradigm, documented an attempt to make transducers that map between Finnish and Estonian 
+\citep{Koskenniemi2013FinitestateRB}. More recently, Jouna Pyysalo created an entire lexicon of Proto-Indo-European, which implemented his idiosyncratic vision of Indo-European historical phonology in transducers, so that every attested form can be shown in its precise way in which it derived from Proto-Indo-European.
+
+Chinese historical is beset by rival camps whose competing reconstructions baffle the non-specialist. The implementation of Chinese historical phonology with transducers would facilitate finding the exact areas of disagreement among different researchers and render trivial the problem of converting among systems to the extent that they are conceptually compatible. Thus, `mechanized historical phonology' will stimulate precision and consistency among specialists and access among non-specialists. In order to show case the benefit of transducers per se, our original intention was to implement those those changes discussed in Baxter's  \textit{Handbook} \citeyear[]{Baxter1992}. This plan turned out not to be feasible, for three reasons. First, thinking, including Baxter's own, has moved on. In 1992 Baxter extensively used medial *-j- in the conditioning environments of his proposed sound changes and reconstructed this medial *-j- all the way back to Old Chinese. Second, some changes are easier to state if we chose a different relative chronology than that implied by the order topic appear in Baxter's appendix. Third, his  appendix focuses on changes to the rimes, so does not include things like lateral fortintion (*l- > d-, in type A syllable) or retroflexation (*tr- > ʈ-) and the developments of affecting initial l-. Although of course these changes are discussed elsewhere in his book.
+
+Nonetheless, we have hewn very close to Baxter 1992, so much so that the risk of inadvertent plagiarism runs high. We hope that Baxter and the scholarly public forgives us if we, in our efforts to stick very closely to his formulations, have stuck \textit{too} closely to them. 
+
+Some readers will object to enterprise that it was doomed from the start by our decision to formalize Chinese historical phonology on the basis of the reconstructions of Baxter and Sagart. Such a reservation would misunderstand our goal. To work out as rigorously as possible the relative chronology of sound changes affecting a language is a good thing. A reader with such a reservation we encourage to formalize an alternative understanding based on, for example, Wang Li's reconstruction. Our transducers would substantially reduce the cost in labour of such an understanding and thus should be welcomed, even by Baxter and Sagart's harshest critics. 
+
+Let us belabour this point somewhat. Suppose that one does not believe in uvulars or final -r, but is on board with the six-vowel theory (e.g. Axel Schuessler). If one runs the transducer forward without putting in uvulars or -r it makes no difference. In running the transducer backwards it suffices to simply put a \# in two places to ignore the rules that treat the development of uvulars and -r, and one will get reconstructions without these features returned. 
+
+
+\section{Scraps}
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) reflect the already reflect -r > -i (\cite{Baxter2014OldChinese}a: 264-271) (see p. 43)
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) dialect had not undergone 
+ lˤ- > d- in type A syllables \citep[197]{Baxter1992}) (see comm. to 39d)
+ 
+
+
+
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) reflect the already reflect the irregular phonetic development of 存 (i.e. *dzˤən > dzən and not dzen, see (\citep[431]{Baxter1992}-432) took place in the history of the transcriptional dialect, and preceded the change of *-r > i (or -n in the dialect ancestral to MChi.); see comm. to 13a.
+
+
+\section{Defining Old Chinese phonotactics and some useful phonological classes}
+We first have to teach the computer what constitutes a valid Old Chinese syllable. We do this by listing out respectively all of the loose pre-initials, tight pre-initials, simplex onsets, vowels, and codas, and post-codas (`tones'). A regular expression models each of these syllable components. Here we only exemplify this one example. 
+
+%define OCOBSTRUENTSB [
+%  b:{*b} | p:{*p} | {pʰ}:{*pʰ} | 
+%  d:{*d} | t:{*t} | {tʰ}:{*tʰ} | 
+%  g:{*g} | k:{*k} | {kʰ}:{*kʰ} | 
+%  ɢ:{*ɢ} | q:{*q} | {qʰ}:{*qʰ} |
+%  {gʷ}:{*gʷ} | {kʷ}:{*kʷ} | {kʷʰ}:{*kʷʰ} |
+%  {ɢʷ}:{*ɢʷ} | {qʷ}:{*qʷ} | {qʰʷ}:{*qʰʷ} |
+%  {dz}:{*dz} | {ts}:{*ts} | {tsʰ}:{*tsʰ} | 
+%  s:{*s} |
+%  ʔ:{*ʔ} ];
+
+%define OCVOICEDRESONANTSB [
+%  m:{*m} | n:{*n} | ŋ:{*ŋ} | {ŋʷ}:{*ŋʷ} | r:{*r} | l:{*l} ];
+
+%define OCVOICEDRESONANTSNOTRB [
+%  m:{*m} | n:{*n} | ŋ:{*ŋ} | {ŋʷ}:{*ŋʷ} | l:{*l} ];
+
+%define OCVOICELESSRESONANTSB [
+%  {m̥}:{*m̥} | {n̥}:{*n̥} | {ŋ̊}:{*ŋ̊} | {ŋ̊ʷ}:{*ŋ̊ʷ} | {r̥}:{*r̥} | l̥:{*l̥} ];
+
+%define OCMINORSYLLALBE [
+%  {tə}:{*tə} | {kə}:{*kə} | {pə}:{*pə} | {mə}:{*mə} | {sə}:{*sə} ];
+
+%define OCPREFIX [ {t}:{*t} | {k}:{*k} | {p}:{*p} | {m}:{*m} | {s}:{*s} ];
+
+%define OCRESONANTSB [OCVOICEDRESONANTSB|OCVOICELESSRESONANTSB];
+
+%define OCINITIALB [OCOBSTRUENTSB|OCRESONANTSB];
+
+%define OCINITIALA OCINITIALB ˤ ; 
+
+%define OCMEDIAL r:{*r} ;
+
+ \begin{verbatim}
+ define OCCODA 
+    [j:{*j}|t:{*t}|p:{*p}|
+     k:{*k}|n:{*n}|r:{*r}|m:{*m}|ŋ:{*ŋ}|
+     w:{*w}|{wk}:{*wk}]; 
+ \end{verbatim}
+ 
+%define OCTONE [s:{*s}|ʔ:{*ʔ}];
+
+%define OCNUCLEUS [ a:{*a} | ᴀ:{*ᴀ} | e:{*e} | i:{*i} | o:{*o} | u:{*u} | ə:{*ə} ];
+I do need to explain how we approach dialect variation. In principle one should make a separate transducer for each variety of Old Chinese, i.e. each possible pathway from Old Chinese to Middle Chinese. But this is not practical, it is more useful if people have one transducer that they put Old Chinese in and get Middle Chinese out, or vice versa. 
+However, we want to keep the map from Old Chinese to Middle Chinese as many to one rather than many to many. 
+As a practical way of reaching this goal, we use include a few extra characters in our Old Chinese. In particular, we include a seventh vowel ᴀ to index, as Baxter 1992 did, two different pathways of 
+development for the vowel -a-, which are in need of further investigation.
+
+We find it convenient to separately define Old Chinese type A and type B syllables. We start with the type B syllables because they are unmarked. 
+
+\begin{verbatim}
+
+define OCSYLLABLEB 
+       (OCPREFIX|OCMINORSYLLALBE) OCINITIALB (OCMEDIAL)
+       OCNUCLEUS (OCCODA) (OCTONE) ; $
+
+define OCSYLLABLE [OCSYLLABLEA|OCSYLLABLEB] ;
+\end{verbatim}
+
+\subsection{
+Some sound classes that are useful for stating sound changes}
+A few words here, things like `acute' and `grave' are suseful, and we find things out like s counts as an acute onset but not as an acute coda. 
+%
+%define OCLABIOVELARS [{*kʷ}|{*kʷʰ}|{*gʷ}|{*ŋʷ}|{*ŋ̊ʷ}];
+%define OCFRONTVOWEL [{*e}|{*i}];
+%define BILABIAL [{*p}|{*pʰ}|{*b}|{*m}];
+%define ACUTEONSET [{*ts}|{*tsʰ}|{*t}|{*d}|{*n}|{*j}|
+%{*tʃ}|{*tʃʰ}|{*dʒ}|{*ɲ}|{*s}];
+%define ACUTECODA [{*t}|{*n}|{*j}|{*r}];
+
+%Because s counts as an acute onset but not as an acute %coda, we need to distinguish
+
+%the two classes.
+
+%define VELAR [{*k}|{*g}|{*kʰ}|{*ŋ}];
+%define GRAVE [VELAR|BILABIAL];
+%define NASAL [{*m}|{*n}|{*ŋ}];
+%define RETROFLEX [{*ʈ}|{*ʈʰ}|{*ɖ}|{*ʂ}];
+%define VOWEL [{*a}|{*ᴀ}|{*e}|{*i}|{*o}|{*u}|{*ə}|{*æ}|{*ɛ}|{*ʌ}|{*ɔ}|{*ɨ}];
+
+%## Book Keeping ##
+
+
+%# Asterisk utilities
+%define RemoveAsterisks {*} -> 0;
+%define RejectAsterisks [¬ [? * "*" ? *]];
+
+
+\section{Early Old Chinese}
+This basically get's us from Baxter and Sagart 2014 to Baxter 1992 / Schuessler's 2007 `minimal Old Chinese'. 
+
+\mypara{Phonotactic reanalysis (EC1).}
+In early Old Chinese it is at least conceivable that some cases of ts- were a t- prefix 
+plus root initial s-. We assume that this morphological analysis, that may have correspondend
+to a phonetic difference was reanalyzed after the prefixes ceased to be meaningful, and in this way
+t-s- develops the same as ts-. There may be other examples, but this is the one we have ran into.
+
+\begin{verbatim}
+define EarlyOChi·Phonotactic·reanaysis 
+       {*t*s} -> {*ts} || .#. _ ; 
+\end{verbatim}
+
+\subsection{Changes affecting preinitials}
+Say something in general about the affects of prefixes. 
+
+\mypara{Prefix manner assimilation before obstruents}
+In Baxter and Sagart's understanding, prefixes assimilated in manner to the following obstruents before any subsequent developments. Thus, 
+\begin{quote}
+    祥 \textit{zjang} < *zɢaŋ < *s-ɢaŋ (03-39/0732n) `auspicious'
+cf. 羊 \textit{yang} < *ɢaŋ (03-39/0732a) `sheep'
+\end{quote}
+shows *s-ɢ- > zɢ- \citep[141]{Baxter2014OldChinese}, and 
+
+\begin{quote}
+十 %shí 
+\textit{dzyip} < *dəp < *t.[g]əp (37-03a)
+`ten'
+
+針 \textasciitilde 箴
+%zhēn
+\textit{tsyim} < *təm < *t.[k]əm 
+(38-04n)
+`needle'
+
+cf. 咸 \textit{heam} < *[ɡ]ˁr[ə]m
+(38-04a)
+`all; everywhere'
+
+\end{quote}
+shows *t.g > *d.g- \citep[154]{Baxter2014OldChinese}, etc. 
+
+\begin{verbatim}
+define EarlyOChi·prefix·assimilation
+ {*s} -> {*z}, {*t} -> {*d*}, {*k*} -> {*g}, {*p} -> {*b} 
+ || _  VOICED·OBSTRUENTS ({*r}) OCNUCLEUS ;
+\end{verbatim}
+
+
+\mypara{Prefix m- voicing a following obstruent}
+
+\begin{quote}
+衍 \textit{yenH} < *ɢ(r)anʔ < *N-q(r)anʔ
+(24-29a) `overflow'
+
+愆 \textit{khjen} < *C.qʰra[n] (24-29b) `exceed, err'
+\end{quote}
+
+\mypara{The t- prefix}
+\citet[79-80]{Baxter2014OldChinese}
+Baxter and Sagart take a cluster *t.C- to simplify to *t- and develop accordingly, but it does assimilate in terms of voicing, so we can order that change even earlier as a technicality. They give the following examples. Note that, among other advantages, this tact accounts for why words for which \textit{Xiéshēng} contacts point to velar initials irregularly palatalize.  
+
+I NEED TO GIVE A TINY BIT OF EXPLANATION FOR EACH ONE WHY IT IS THAT THEY HAVE A T- PREFIX
+
+\begin{quote}
+%(217) 
+齒 
+% chǐ
+\textit{tsyhiX} < *tʰəʔ < *t-[kʰ]ə(ŋ)ʔ 
+(or *t-ŋ̊əʔ)
+(04-29l)
+`front teeth'
+\end{quote}
+\begin{quote}
+出 %chū 
+\textit{tsyhwit} < *tʰut < *t-kʰut (31-16a)
+ `go or come out'
+ 
+cf. 屈 \textit{khjut} < *[kʰ]ut (31-16k)
+`bend, subdue'
+\end{quote}
+
+\begin{quote}
+十 %shí 
+\textit{dzyip} < *dəp < *t.[g]əp (37-03a)
+`ten'
+
+針 \textasciitilde 箴
+%zhēn
+\textit{tsyim} < *təm < *t.[k]əm 
+(38-04n)
+`needle'
+
+cf. 咸 \textit{heam} < *[ɡ]ˁr[ə]m
+(38-04a)
+`all; everywhere'
+
+%Actually, these developments are not limited to velar initials; parallel examples are
+%found with uvulars also:
+%(218) 
+\end{quote}
+\begin{quote}
+妐 %zhōng
+\textit{tsyowng} < *toŋ < *t-qoŋ 
+`father-in-law'
+\end{quote}
+\begin{quote}
+杵 %chǔ
+\textit{tsyhoX} < *tʰaʔ < *t.qʰaʔ 
+`pestle'
+%(for the reconstruction of *qʰ- in 杵 chǔ, see section 4.4.2.2)
+
+%And possibly also with labials:
+\end{quote}
+\begin{quote}
+%(219) 
+箒, 帚 *[t.p]əʔ > *tuʔ > tsyuwX > zhǒu ‘broom’.
+%Preemption of a nonpharyngealized initial consonant by preinitial *t- does not always result in Middle Chinese palatals; when medial *r is present, the evolution is to a Middle Chinese retroflex consonant instead:
+\end{quote}
+\begin{quote}
+%(220) 
+䞓 %chēng
+\textit{trhjeng} < *tʰreŋ < *t-kʰreŋ
+ `red'
+
+cf. 輕 
+%qīng
+khjieng < *[kʰ]eŋ 
+`light (≠ heavy)'
+\end{quote}
+\begin{quote}
+%(221) 
+肘 %zhǒu
+ \textit{trjuwX} < *truʔ < *t-[k]<r>uʔ `elbow'; the element 寸 on the right was originally
+
+九 
+%jiǔ < 
+\textit{kjuwX} < *[k]uʔ `nine'—itself originally a depiction of an elbow 
+%(see Jì Xùshēng 2010:348–349, 991)
+\end{quote}
+\begin{quote}
+%(222) 
+耴 %zhé 
+\textit{trjep} > *trep < *t-nrep 
+ `hanging ears' % (used as N.Pr.)’
+
+Cf. 
+踂 %niè 
+nrjep < *n<r>ep `unable to walk'
+\end{quote}
+
+\subsection{Changes affecting uvulars}
+
+\begin{table}
+\label{tab:BSUvulars}
+\centering
+\caption{Deveolopment of OC uvulars according to Baxter and Sagart 2014 }
+\begin{tabular}[]{|ll|ll|} 
+\hline
+\multicolumn{2}{|l|}{Typa A}  &  \multicolumn{2}{|l|}{Type B}    \\ 
+\hline
+OChi. & MChi. & OChi. & MChi.   \\ 
+\hline
+*qˤ- > & 影 \textit{`-}  [ʔ]  & *q- > &  影 `- [ʔ] \\ 
+*qʰˤ- > & 曉 \textit{x-} &  *qʰ- > & 曉 x-  \\
+*ɢˤ- > & 匣 \textit{h-} [ɣ] & *ɢ- > & 以 y- [j] \\
+*qʷˤ- > & 影 \textit{`(w)-} [ʔ(w)] & *qʷ- > & 影 \textit{`(w)-} [ʔ(w)] \\
+*qʷʰˤ- > & 曉 \textit{x(w)-} & *qʷʰ- > & 曉 \textit{x(w)-} \\
+*ɢʷˤ- > & 匣 \textit{h(w)-} [ɣ(w)] &
+*ɢʷ- > &
+ 云 \textit{hj(w)-} [ɣj(w)] or \\ 
+&&& 以 \textit{y-} /\_\_*-e- and *-i- \\
+\hline
+\end{tabular}
+\end{table}
+
+Some \textit{xiéshēng} series mix readings with Middle Chinese velars (見 \textit{k-}, 群 \textit{g-}, 匣 \textit{h-} [ɣ], 曉 \textit{x-}) and readings with initial glottal stop (影 \textit{`-}  [ʔ]) or initial 以 \textit{y}- [j]. Following a proposal of Pan (1997), 
+\citeauthor{Baxter2014OldChinese}
+propose that the fricative (匣 \textit{h-}, 曉 \textit{x-}), glottal (影 \textit{`-}) and glide (以 y-) initials found in such series originate from uvular initials (\citeyear[43-46]{Baxter2014OldChinese} also cf. Sagart \& Baxter 2009).
+%Their explanation for the velar stops (見 k-, 群 g-) occurring in the relevant series are discussed below (§124). 
+Table \ref{tab:BSUvulars} shows the development of uvulars that they propose \citet[46]{Baxter2014OldChinese}. The developments in type A and type B syllable are almost parallel; the exceptions are that Old Chinese *ɢ- become Middle Chinese 以 \textit{y-} [j] rather than 匣 \textit{h-} [ɣ] and *ɢʷ- also becomes 以 \textit{y-}  [j] before front vowels. A succession of four changes well accounts for these distribution. First, all uvulars debuccalize (*q- > *ʔ-, qʰ- > *χ-, *ɢ- > *ʁ-). Then, substantially later, after vowel warping, *ʁʷj- > *ʁj- (giving us *ɢʷ- > 以 \textit{y-} [j] before front vowels), *ʁj- > *j- (giving us *ɢ- > *j in type B syllables), and finally *ʁ > *x-.  
+
+%*ɢʷ- becomes *ɢ-, losing its labialization, before front vowels (§\ref{par:ɢʷ⇒ɢB}). Second, *ɢ- (including some erstwhile *ɢʷ) palatalizes in type B syllables to *j- (§\ref{par:ɢ⇒jB}). Third, the uvulars are lost, in the exact same manner in both type A and type B syllables (§\ref{par:uvularlossB}). 
+\mypara{Uvular debuccalization (EC4).}
+\label{par:uvulardebuc}
+The series built on 匃 (21-01) furnishes evidence for the reconstruction of voiceless, voiceless aspirated, and voiced uvulars and the changes *q- > 影 `-, *qʰ- > 曉 x-, *ɢ- > 匣 h-. 
+\begin{quote}
+匃 \textit{kat} (21-01a)
+
+謁 \textit{'jot} < *q- (21-01x)
+
+歇 \textit{xjot} < *qʰ- (21-01u)
+
+褐 \textit{hat} < *ɢˤ- (21-01g)
+\end{quote}
+
+Actually, what I think happened was that uvulars debuccalized this gave us ʔ χ ʁ and then in type B syllables ʁ merges with j- at the time of vowel warping, and ʁ merges with χ in type A syllables.  
+
+%§101b. 
+\citeauthor[PAGES]{Baxter2014OldChinese} restrict the change *ɢ- > 匣 \textit{h-} to type A syllables; in our understanding the sound change can be seen as unrestricted. It appears conditioned for two reasons: first, *ɢ- in type B syllables before high vowels had already developed to *j-. 
+
+%§101c. 
+Baxter \& Baxter derive the Middle Chinese initial 云 hj- uniformly from Old Chinese *ɢʷ- in type B syllables (Sagart \& Baxter 2009: 233-234). This hypothesis accounts for the distribution of initial 云 hj- to (nearly) exclusively type B syllables with medial -w- (Baxter 1992: 209). The series built on 王 (03-26) furnishes evidence for the reconstruction of the voiced labio-uvular stop in type B syllables, along with the change *ɢʷ- > 云 hj-.
+\begin{quote}
+王 \textit{hjwang} < *ɢʷ- (03-26a) 
+
+匡 \textit{khjwang} (03-26m) 
+
+狂 \textit{gjwang} (03-26o) 
+
+枉 \textit{'jwangX} < *qʷ- (03-26q) 
+
+汪 \textit{'wang} < *qʷˤ- (03-26r) 
+\end{quote}
+The series built on 于 (01-23) also supports the proposal *ɢʷ- > 云 \textit{hj-}. 
+\begin{quote}
+于 \textit{hju} < *ɢʷ(r)- (01-23a)
+污 \textit{'wae} < *qʷˤr- (01-23c')
+訏 \textit{xju} < *qʷʰ(r)- (01-23v)
+\end{quote}
+
+Loss of uvulars
+Because we need another rule that reanalyzes the labialization in labiovelars as segmental
+I think it is probably best to leave the labialization raised here. The changes seem all rather
+ad hock. I think I would prefer something like this. What I would like to do is take 
+\begin{verbatim}
+define EarlyOChi·uvular·debuccalization
+{*q} -> {*ʔ}, {*qʰ} -> {*χ}, {*ɢ} -> {*ʁ},
+{*qʷ} -> {*ʔʷ}, {*qʰʷ} -> {*χʷ}, {*ɢʷ} -> {*ʁʷ} || .#. _ ({*r}) OCNUCLEUS ;
+\end{verbatim}
+
+\mypara{Uvular and velar merger (EC4).}
+\label{par:uvularmerger}
+We assume that the A versus B distinction was not originally not that of phargyngealization, and in fact this is in keeping with Baxter and Sagart when they say BLAH BLAH BLAH. The thing is that it is not really precedented to have pharyngelized and non-pharyngealized velars and uvulars. I think it is widely agreed that the velars were pronounced as uvular in type A syllables, and in fact this is good evidence for pharyngealization. What we want to say is that this all coincides very nicely. It was as the A verus B distinction \textit{became} a distinction of pharyngealized versus non-phargynealized that uvulars were fronted to velars in type B syllables and velars were backed to uvulars in type A syllable. The inherited uvular stops had already been debuccalized. 
+
+\begin{verbatim}
+define EarlyOChi·uvular·merger
+{*χ} -> {*x}, {*ʁ} -> {*ɣ},
+{*χʷ} -> {*xʷ}, {*ʁʷ} -> {*ɣʷ} || .#. _ ({*r}) OCNUCLEUS ;
+\end{verbatim}
+
+
+\section{Late Old Chinese}
+This gets us to Middle Chinese, with a possible stop along the way at Later Han Chinese. 
+
+\subsection{Changes preceding vowel warping}
+Transducer for Type B syllables 
+
+\mypara{Rounding dissimilation (LC1).}
+Although Baxter puts this sound change after velar palatalization (as his A.9). Because it requires that 
+labiovelars are still in place, it must be place before cluster simplification and rounding CROSSREF
+diphthongization (CROSSREF).  
+Baxter refers to this as a "minor change", intended to explain the following forms:
+\begin{quote}
+%%(1839) 
+逵 
+%kuí < 
+\textit{gwij} (III) < *gʷrə < *[g]ʷru (04-10a) `thoroughfare'
+%%(1840) 
+
+軌 
+%guǐ < 
+\textit{kwijX} (III) < *kʷrəʔ < *kʷruʔ (04-12k) `wheel-axle ends' \end{quote}
+
+
+Such words rhyme as *-u in the \textit{Shījīng} (see Odes 7.2B, 34.2B), but develop into Middle
+Chinese like words of the form *Kʷrə, such as
+\begin{quote}
+
+%%(1841) 
+龜 %guī < 
+\textit{kwij} (III) < *[k]ʷə (04-06a) `turtle; tortoise'.
+\end{quote}
+Baxter assumes that the rounded vowel *-u of words like 
+逵 
+%kuí 
+and 軌 
+%guǐ 
+dissimilated
+to *-ə under the influence of labiovelar initials: *Kʷ(r)u > *Kʷ(r)ə. For maximum
+generality, rounding dissimilation can be assumed to apply not only to syllables such as
+the examples above, which have medial *-r-, but also to syllables of the form *Kʷu (e.g.
+九 
+%jiǔ < 
+\textit{kjuwX} < *kʷuʔ (04-12a) `nine'); but in the latter case the original dissimilation was soon reversed
+by the independently motivated change rounding assimilation (see below):
+\begin{quote}
+% %(1842)  < 
+\textit{kjuwX} < *k(ʷ)uʔ < *kʷəʔ < *kʷuʔ
+\end{quote}
+
+Rounding dissimilation must have preceded *r-color in order for this formulation to work.
+This change is reflected in rhyming already by Western Han (206 B.C. to A.D. 23; 
+see Luó \& Zhou 1958: 13). For further discussion, see section 10.2.13.
+We are only applying this to to labiovelars and not the labio-uvulars, since we assume these were 
+already lost. 
+\begin{verbatim}
+define LateOChi·RoundingDissimilationB 
+       {*u} -> {*ə} || OCLABIOVELARS ({*r}) _ ;     
+\end{verbatim}
+
+BILL BAXTER: We don't reconstruct things like *kʷon" (at any rate, it's not clear what evidence would distinguish *kon from *kʷon), so I'm not worried about things like *kʷwan. It looks like the only final with a rounded vowel that we need to reconstruct after labialized initials is *-u. We did release a word with *kʷ before *-uj:
+
+壞 huài < kweajH < *[k]ʷˤ<r>ujʔ-s ‘destroy’
+
+but I think this is a mistake; the reconstruction should just be *[k]ˤ<r>ujʔ-s. (I'll check this with Laurent before adding it to our errata.)
+
+My inclination is to believe that what happened with *kʷ- etc. was that since rounding diphthongization (A.3) created syllables like *twan, there was a reanalysis of the syllable canon to allow a medial *w after initials of all kinds, and that *kʷan would have been reanalyzed as *kwan as a result. So in a sense maybe the change should be considered as part of rounding diphthongization; or I think it will work if you insert *kʷ > *kw right after A.3. The existence of syllables like *twan would motivate the reanalysis. If you put *kʷ- > *kw before A.3, it will work too (and you could say that this is what allowed syllables like *twan). But I think it makes more sense to see the reanalysis of *kʷ as *kw as the result of rounding diphthongization.
+
+A.9 as stated does assume that the labiovelars are still labiovelars. But I think that's wrong; it should probably be revised to say that the dissimilation takes place after medial *-w-; then I think everything works out.
+
+\mypara{LC2. Loss of labio-velars (Type B)}
+
+\begin{verbatim}
+define LateOchiLabiovelarLossBmain
+   {*kʷ} -> {*k*w} , 
+   {*kʷʰ} -> {kʰ*w} , 
+   {*gʷ} -> {*g*w} , 
+   {*ŋʷ} -> {*ŋ*w} , 
+   {*xʷ} -> {*x*w} ,
+   {*ɣʷ} -> {*ɣ*w} ;
+define LateOchiLabiovelarLossBcleanup
+   {*w*r} -> {*r*w} || _ OCNUCLEUS ;
+define LateOchiLabiovelarLossB
+   LateOchiLabiovelarLossBmain .o.
+   LateOchiLabiovelarLossBcleanup
+   ;
+\end{verbatim}
+
+\mypara{LC3. Initial cluster simplification (Type B)}
+We cannot say the change applied the voiced resonants, because it does not apply to r-. 
+The correct formulation is probably then `the voiced resonants other than r'. 
+Thus, as a matter of good practice, we leave ŋʷ within the theoretical application of the change
+although it is quite necesary that it not exist at this point. In other words, as formulated 
+this change only works if it applied after the loss of labiovelars. 
+THIS IS SOMETHING OF A HACK, WHERE I HAVE DEFINED A CATEGORY OF VOICED RESONANTS OTHER THAN R
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) dialect had not undergone 
+ sə.l- > zy- (\cite{Baxter2014OldChinese}a: 191) (see comm. to 39d)
+BUT IT HAD UNDERGONE SNG- > S-, SO WE NEED TO PROPOSE TWO CHANGES HERE
+
+\begin{verbatim}
+define LateOChi·ClusterSimpB 
+     {*s} OCVOICEDRESONANTSNOTRB -> {*s} 
+     ||  _ ({*r}) ({*w}) OCNUCLEUS ;
+\end{verbatim}
+
+\mypara{LC3. -ps to -ts} 
+(Baxter 1992: A 01, 565-566) (Type B)
+
+\begin{verbatim}
+define LateOChi·PS⇒TSB {*p*s} -> {*t*s} || _ .#. ;
+\end{verbatim}
+ 
+\mypara{LC4. *P(r)o > *P(r)ə  (Type B)}
+Baxter (1992: A.2, pages) 
+ I assume that original labial-initial syllables of the form *P(r)o became *P(r)ə in some early
+ dialects, including one or more dialects represented in the \textit{Shījīing}. (Medial •-r- is included
+ in parentheses because the Old Chinese finals •-o and •-ro generally cannot be distinguished
+ after grave initials; see section 10.2.10.) As a result, words of the form *P(r)o
+ typically rhyme as *-ə in the \textit{Shījīing}, and are traditionally included in the Z Zh1 rhyme
+ group rather than the 侯 Hóu rhyme group:
+ \begin{quote}
+  %%(1811) 
+ 母 *m(r)əʔ (in \textit{\textit{Shījīing}}) < *m(r)oʔ `mother'
+ \end{quote}
+ However, the dialect directly ancestral to Middle Chinese was evidently unaffected by this
+ change, since in Middle Chinese *P(r)o became Puw as expected, not the Pwoj which
+ would reflect original *Pi (or the Pɛj which would reflect *Pri):
+ %%(1812) 
+ 母 %mu < 
+ \textit{muwX} < *məʔ (4-64/0947a) `mother'
+ Compare the following word with original*Pi:
+ %(1813) 
+ 每 %mei < 
+ \textit{mwojX} < *miʔ (04-64i) `every'
+ In spite of the \textit{Shījīng} rhymes, the reconstruction of fi.l: m1l with •-o is supported not only
+ by the Middle Chinese form muwx, but also by xiesheng and loan characters where fi.l: m1l
+ is used as a phonetic for words in *-o, e.g.
+ %(1814) 
+ 侮 %wu < 
+ \textit{mjux} < *m(r)oʔ (04-64/0138a)  `offend, insult'
+ %(1815) 
+ 毋 %wu < 
+ \textit{mju} < *m(r)o (04-64/0107a) `don't'.
+ But there are also xiisheng characters which reflect the change *P(r)o > *P(r)i; in this case,
+ too, paleographic research may clarify the situation. For further discussion, see section
+ 10.2.1.1.
+ \begin{verbatim}
+define LateOChi·Po⇒PəB 
+       {*o} -> {*ə} || BILABIAL ({*r}) _ ;
+ \end{verbatim}
+ 
+\mypara{LC5. Rounding dipthongization (Type B)}
+\citet[A03, 566-567]{Baxter1992}
+\begin{quote}
+ "A few irregular rhymes in the \textit{Shījīng} suggest that rounding dipthongization 
+ may have occurred early enough in some dialects to affect Shījīng rhyming-
+ perhaps during the Spring and Autumn period (770-476 B.c.). By Han times, at 
+ any rate, rhymes between original rounded and unrounded vowels before acute 
+ codas became common. Further research on Han rhyming may reveal whether 
+ there were Han dialects where the original rounding distinction was 
+ preserved. For further discussion, see sections 7 .1.1 and 10.1." (Baxter  1992: 567).
+\end{quote}
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) reflect the already reflect `rounding diphthongization' \citep[566]{Baxter1992}-567) \citep{Hill2017Bailang}
+ (see p. 7)
+
+
+\begin{verbatim}
+define LateOChi·RoundingDipthongizationo⇒waB 
+      {*o} -> {*w*a} || _ ACUTECODA ;
+
+define LateOChi·RoundingDipthongizationu⇒wəB 
+      {*u} -> {*w*ə} || _ ACUTECODA ;
+
+define LateOChi·RoundingDipthongizationCleanupB 
+      {*w*w} -> {*w} || _ OCNUCLEUS ; 
+
+define LateOChi·RoundingDipthongizationB
+      LateOChi·RoundingDipthongizationo⇒waB .o.
+      LateOChi·RoundingDipthongizationu⇒wəB .o.
+      LateOChi·RoundingDipthongizationCleanupB
+      ;
+\end{verbatim} 
+
+\mypara{LC6 *w-neutralization}
+Baxter 1992: A.4, pages.  
+ The change *w-neutralization caused the medial *-w- resulting from 
+ rounding dipbtbongization to become nondistinctive after labial initials; 
+ for example, original *Pan and *Pon merged as MC Pan, and original *Pin 
+ and *Pun merged as MC Pwon. Baxter says these examples suggest, it is unclear whether 
+ such mergers involved the deletion of *-w- or its insertion. He suspects the situation 
+ may have differed from dialect to dialect or from one phonological environment
+ to another. However, I think that we have to go with insertion, in order to be 
+ able to feed `rounding assimilation' correctly, given that, I think it is necessary
+ that we have already deleted labiovelars.
+ A near-minimal pair which illustrates the mergers due to 
+ *w-neutralization is
+ \begin{quote}
+ %(1823) 
+ 蠻 %mán < 
+ \textit{maen} < *mran < *mrwan < *mˤro[n] (25-31p) `southern barbarian' 
+ (rhymes as *-on in Ode 261.6A)
+ %(1824) 
+ 
+ 慢 
+ %màn < 
+ \textit{maenH} < *mˤra[n]-s (24-56h) `slow, negligent' 
+ (rhymes as *-an( s) in Ode 78.3B).
+  \end{quote}
+ Since *w-neutralization presumably did not affect rhyming, 
+ it is difficult to date, except of course that it must have followed 
+ rounding dipthongization, which produced *-w- in
+ this environment in the first place.
+\begin{verbatim}
+define LateOChi·wneutralizationB 
+       [..] -> {*w} || BILABIAL ({*r}) _ OCNUCLEUS  ;
+\end{verbatim}
+
+\mypara{LC7, Labial neutralization}
+A.5. 
+ Labial neutralization is the process which eliminated the contrasts 
+ between rounded and unrounded vowels before labial codas. 
+ As explained in section 10.3, there is evidence that
+ all six Old Chinese vowels originally contrasted before labial codas; 
+ but many of these contrasts were lost by Middle Chinese times. 
+ As with •w-neutralization, it is not always clear whether the mergers 
+ involved were assimilatory or dissimilatory; for example, the
+ Middle Chinese final -om, which can reflect OC *-əm, *-um, or *-om, 
+ may have been phonetically [om] in some Middle Chinese dialects and [ʌm] 
+ in others. Labial neutralization appears to have occurred after the 
+ change •-ps > •-ts, for items in original *-ps usually preserve the 
+ original rounding distinction (as a contrast between presence and 
+ absence of -w-):
+\begin{quote}
+%(1825) 
+蓋 %gài < 
+\textit{kajH} < *kats < *kaps (35-01q) `cover' (unrounded vowel)
+% (1826) 
+
+會 %huì < 
+\textit{hwajH} < *gwats < *gots < *gops (22-03a) `come together' (rounded vowel)
+\end{quote}
+ But labial neutralization may have occurred earlier in some dialects; 
+ this would explain cases where the reading tradition seems to vacillate 
+ between \textit{kāikŏu} and \textit{hékŏu} readings in some words with original *-ps:
+ \begin{quote}
+%(1827) 
+棣 %dì < 
+\textit{dejH} \textasciitilde  \textit{dojH} \textasciitilde \textit{dwojH} < *ləps/*lups (30-11f) `wild plum'.
+ \end{quote}
+If this was originally *ləps (as Baxter suspects), then the reading dwojH 
+(preserved in the Jīngdiănshìwén's note on Ode 164) could reflect a dialect in which labial neutralization changed 
+original *ə to *u, and preceded *-ps > *-ts: *ləps > *lups> *luts > *lwəts> MC dwojH. If
+it was originally *ləps, then the reading dojH could  reflect a dialect in which labial neutralization
+ changed original *u to *ə, and preceded *-ps > *-ts: *lups > *ləps > *ləts > MC
+ dojH. See section 10.3.4 for further discussion.
+ \begin{verbatim}
+define LateOChi·LabialNeutralizationB 
+       {*u} -> {*ə}, {*o} -> {*a} || _ BILABIAL ;
+ \end{verbatim}
+
+\subsection{Vowel warping and its aftermath}
+Some commments here to serve as the introduction to this section. 
+\mypara{LC8 a-backing}
+This is a bookkeeping rule, we need a to back to feed Schuessler's formulation of vowel warping
+define LateOchia⇒ɑ {*a} -> {*ɑ};
+
+SCHUESSLER'S TABLE
+
+\begin{table}
+\centering
+\caption{Vowel warping (inherited vowels enclosed, after \cite[87]{Schuessler2006warping})}
+\begin{tabular}{lc|cccc|c} 
+\cline{2-2} \cline{7-7}
+\multicolumn{1}{l|}{Type B} &  i & je & jə & ɰɑ & ɰo & \multicolumn{1}{l|}{u} \\ 
+\cline{2-7}
+Type A & ej & e & ə & ɑ & o & ow \\ 
+\cline{3-6}
+\end{tabular}
+\end{table}
+
+\mypara{LC9 Schuessler's vowel warping (Schuessler 2006)}
+Vowel warping part 1
+ Type B fronting 
+ \begin{verbatim}
+define LateOChi·VowelWarp1B
+ {*i} -> {*j*i},
+ {*e} -> {*j*e},
+ {*ə} -> {*j*ə},
+ {*ɑ} -> {*ɰ*ɑ},
+ {*o} -> {*ɰ*o},
+ {*ə*j} -> {*ɨ*j};
+
+define LateOChi·VowelWarp1A
+ {*u} -> {*o*w},
+ \end{verbatim}
+ 
+Baxter sees this next one as part of hi > mid
+ {*i} -> {*e*j}, 
+ {*ɑ*w} -> {*e*w};
+
+Schuessler presents there as being a second wave of vowe warping later, that gives us these changes. 
+define LateOChi·VowelWarp2A
+ {*e} -> {*e*j},
+ {*ə} -> {*ɑ*j},
+ {*ɑ} -> {*ɔ};
+
+define LateOChi·VowelWarp2B
+ {*e} -> {*e*j},
+ {*j*ə} -> {*ɨ},
+ {*ɑ} -> {*ɔ};
+ There are a few other changes that he doesn't mention, which I assume come out in the wash somehow, so I omit. 
+ We have the impression that this formulation of vowel warping makes Baxter's A.26. j-insertion (Type A) 
+ and  A.13. *-u(K) > -aw(K) (Type A) redundant. We still need A.28. *j-backing but for a much more limited
+ purpose.
+ 
+Let's look first at A.26. j-insertion (Type A)
+In Baxter's formulation this change inserts a coda -j after mid unrounded vowels [e], [ʌ], and [ɛ] in
+ syllables with zero coda. As a result, original *-e merged with -ej (< *-ij 
+ by hi > mid); and [-ʌ] (< *-ə by hi > mid) merged with [-ʌj] (< *-əj). He cites the following r
+ examples:
+ \begin{quote}
+ %(1901) 
+ 雞 %jī < 
+ \textit{kej} < *ke (07-01n) `chicken'
+ \end{quote}
+ became a homonym of
+ %(1902) 
+  \begin{quote}
+ 稽 %jī < 
+ \textit{kej} < *kej < *kij (26-06o) `search, examine',
+ \end{quote}
+ and
+\begin{quote}
+ %(1903) 
+ 梅 %méi < 
+ \textit{mwoj} [m(w)ʌj] < [m(w)ʌ] < C.mˤə (04-64l) `Prunus mume'
+\end{quote}
+ became a homonym of
+ %(1904) 
+ \begin{quote}
+ 枚 %méi < 
+ \textit{mwoj} [m(w)ʌj] < *mˤəj (27-13a) `branch, board'.
+ \end{quote}
+ Similarly, *-rə merged with *-rəj:
+ %(1905) 
+ \begin{quote}
+ 埋 %mái < 
+ \textit{meaj} < [mrɛj] < [mrɛ] < [mrι] < *mrə (04-35n) `bury'
+ \end{quote}
+ This has the same Middle Chinese final as
+ %(1906) 
+\begin{quote}
+ 排 %pái < 
+ \textit{beaj} < [brɛj] < [brιj] < *brəj (27-08x) `push away'.
+\end{quote}
+ These mergers due to j-insertion are reflected in rhyming by the time of the Nán-bei cháo
+ period (A.D. 420-581; see Ting Pang-hsin 1975: 238, 240).
+ According to Baxter the development of original *-re probably differed according to dialect. We would
+ expect *-re > [rɛ] (*r-color) > [rɛj] (j-insertion) > MC -ɛj (*r-Ioss), merging with original
+ *-rij, *-rəj, and *-rə, and this probably did happen in some dialects; but in other dialects,
+ perhaps *-re merged early with original *-raj and *-ra, becoming MC -ae. (This would
+ happen in a dialect where *r-color changed *re to [ræ] rather than [rɛ].) The \textit{Qièyùn} treats
+ -eaɨ < *-re as separate from both -ae and -eaj, but this could be a dialect compromise on the
+ part of the \textit{Qièyùn} authors; in modern dialects, -eaɨ has developed like MC -ae in some cases,
+ and like MC -ɛj in others. For further discussion, see sections 10.2.1.3 and 10.2.7.1.
+ \begin{verbatim}
+ define jinsertione⇒ejA {*e} -> {*e*j} || (OCTONE) _ .#. ; 
+ define jinsertionʌ⇒ʌjA {*ʌ} -> {*ʌ*j} || (OCTONE) _ .#. ; 
+ define jinsertionɛ⇒ɛjA {*ɛ} -> {*ɛ*j} || (OCTONE) _ .#. ; 
+ define jinsertionA
+    jinsertione⇒ejA .o.
+    jinsertionʌ⇒ʌjA .o.
+    jinsertionɛ⇒ɛjA
+    ;
+ \end{verbatim}
+TRY A MORE ELEGANT FORMULATION, WHICH SHOULD WORK
+\begin{verbatim}
+ define jinsertione⇒ejA [..] -> {*j} 
+        || [*e|*ʌ|*ɛ] (OCTONE) _ .#. ; 
+\end{verbatim}
+
+\mypara{A.13. *-u(K) > -aw(K) (Type A)}
+ The change *-u(K) > -aw(K) diphthongized original *-u to •-aw before velar codas and
+ zero, in type A syllable. 
+ \begin{quote}
+ %(1859) 
+ 
+ 道 %dào < 
+ \textit{dawX} < *lˤuʔ (13-38a) `way' (cf. Tib. lugs)
+ %(1860) 
+ 
+ 包 %bāo < 
+ \textit{paew} < *praw < *pˤ<r>u (13-72a) `wrap, bundle'
+ %(1861) 
+ 
+ 告 %gào < 
+ \textit{kawH} < *kˤuk-s (14-01a) `tell, report', also read \textit{kowk} < *kˤuk 
+ %(1862) 
+
+ 冬 %dōng < 
+ \textit{towng} (/tawŋ/ ?) < *tˤuŋ (15-03a) `winter'
+  \end{quote}
+ This analysis suggests that the Middle Chinese finals I transcribe as -owk and -owng should
+ be phonologically analyzed as /-awk/ and /-awŋ/.
+ Type B syllables were not affected by this change: original *-u (type B), 
+ *-uk (type B), *-uŋ (type B)
+ became MC -juw, -juw, -juwng.
+ It is likely that *-u(K) > *-aw(K) actually occurred in more than one stage, perhaps *-u(K)
+ > *-əw(K) > -aw(K). Original *-u came to rhyme generally with original *-aw by the Wèi-Jìn 
+ period (A.D. 220-420; see Ting Pang-hsin 1975: 238), but shangshēng *-uʔ had already
+ begun to rhyme with •-awl in Him times (Luó \& Zhōu 1958: 19-20). Also, since I assume
+ that *r-color did not affect rounded vowels, it is easiest to account for items like 包 bāo <
+ paew < *pru (13-72a) if we assume that the change *-u(K) > -aw(K) preceded *r-color. For further
+ discussion, see sections 10.2.13, 10.2.14, and 10.2.15.
+ \begin{verbatim}
+ define LateOChi·u⇒awA 
+        {*u} -> {*a*w} || _ (VELAR) (OCTONE) .#. ;
+  \end{verbatim}
+ SCHUESSLER HAS *u BECOMING *OW, I WONDER HOW FAR THAT WILL GET US
+
+\mypara{A.28. *j-backing}
+ Schuessler's formulation of vowel warping means that we already have *ɰ and not *-j
+ before the back vowels. So, the element of Baxter's j-backing that we have not accounted 
+ for is to change j- to ɰ- after medial *-r. The work that j-backing (combined with
+ Schuessler's approach to vowel warping) does for us is to give an account for the Middle
+ Chinese chóngniu distinctions with a distinction of medials. 
+ \begin{verbatim}
+define LateOChi·jBacking·j⇒ɰB {*j} -> {*ɰ} || {*r} ({*w}) _ ; 
+ \end{verbatim}
+ 
+\mypara{*ɣwj- > *ɣj- (EC2).}
+\label{par:
+ɣʷj-⇒*ɣj}
+%§101d. 
+A series such as that based on 肙 (23-17)  points to the development *ɢʷ- > 以 \textit{y}- before front vowels, which we think is a result of this change *ɢʷ- > *ɢ- feeding the change *ɢ- > *j- \ref{par:ɢ⇒jB} . 
+
+\begin{quote}
+肙 \textit{'wen} < *qʷˤen (23-17a)
+
+駽 \textit{xwen} < *qʷʰˤen (23-17k)
+
+捐 \textit{ywen} < *ɣʷjen < *ɢʷen (23-17g)
+
+鞙 \textit{hwenX} < *ɢʷˤenʔ (23-17j)
+\end{quote}
+ 
+ 
+\mypara{A.6. Final cluster simplification}
+ Final cluster simplification simplified final •-ks, *-wks, and *-ts to *-s, *-ws, and *-js respectively. (Original *-ps had already become •-ts.) 
+ The change of *-ks to *-s appears to have occurred early enough to 
+ affect \textit{Shījīng} rhyming. For example, 
+ %(1828) 
+ 路 %lù < 
+ \textit{luH} < *Cə.rˤas < *Cə.rˤak-s (02-01l') `road; great'
+ rhymes with *-as in Ode 241.20.
+ Final cluster simplification seems to have preceded the change 
+ *-ja > -jo, which affected original *-jas and *-jas from *-jaks the same way:
+ \begin{quote}
+ %(1829) 
+ 絮 %xù < 
+ \textit{sjoH} < *snas (01-56u) `coarse raw silk, floss'
+
+ %(1830) 
+ 據 %jù < 
+ \textit{kjoH} < *k(r)as <  *k(r)a(k)-s (01-09f) `grasp, depend on'
+ \end{quote}
+ Compare the following word with *-ak, where *-ja > -jo did not apply:
+ \begin{quote}
+ %(1831) 
+ 臄 %juè < 
+ \textit{gjak} < *gak `tongue (as food)'
+  \end{quote}
+ The various parts of this change did not necessarily occur simultaneously; there seems to be
+ no tendency in the \textit{Shījīng} for *-ats to be confused with *-ajs, for example, so the change of
+ *-ts to *-js may have been rather late. See section 8.2.2 for further discussion.
+ 
+ \citet[23]{Schuessler2009minimal}
+ Schuessler objects to the blanket treatment of 去聲 \textit{qùshēng} as -s on the basis of foreign transcriptions,
+ pointing out that all of the examples of -s for foreign transcriptions are cases of -jH < *-ts. 
+ The Sino-Korean evidence is also of the same type. He finds use of characters with 
+ non-dental final 去聲 \textit{qùshēng} readings, in the rare cases they are used in foreign transcriptions, 
+ correspond to -h, -x, or an omission of a final syllable in the foreign original (2009: 23). 
+ Schuessler consequently reconstructs *-(t)s and *h as two distinct sources of 去聲 qùshēng, 
+ albeit in complementary distribution. For velar final words, Schuessler's *-kh is implausible, 
+ since it posits the unlikely series of changes -ks > -kʰ > -h rather than the more 
+ straightforward -ks > -s > -h. My tentative proposal is that phonetically -k assimilated
+ in the manner of articulation to the -s, so /-ks/ at the time of the relevant transcriptions 
+ wold have been pronounced [-xs].
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) reflect the already reflect `final cluster simplification' \citep[568]{Baxter1992}) \citep{Hill2017Bailang}
+  (see comm. to 4b)
+
+
+\begin{verbatim}
+define LateOChi·ks⇒sB 
+       {*k*s} -> {*s} || _ .#. ;
+
+define LateOChi·wks⇒wsB 
+       {*wk*s} -> {*w*s} || _ .#. ;
+define LateOChi·ts⇒jsB 
+       {*t*s} -> {*j*s} || _ .#. ;
+
+\end{verbatim} 
+
+\mypara{A. 7. Dental palatalization (Type B)}
+ Dental palatalization may be summarized by the formula *T- > TSy-; the original dental
+ initials *t, *th, *d, and *n palatalized to MC tsy-, tsyh-, dzy-, and ny- respectively when
+ in type B syllables:
+ %(1832) 
+ 終 %zhōng < 
+ \textit{tsyuwng} < *tuŋ `end' 
+ (probably cognate to 冬 dōng < towng < *tuŋ `winter').
+ This change probably occurred at some point during the Han period; Coblin (1983: 54-60)
+ argues on the basis of sound glosses that by Eastern Han times, this change had affected
+ some dialects but not others. See section 6.1.2 for further discussion and examples.
+ \begin{verbatim}
+define LateOChi·dentalpalatalizationB 
+   {*t} -> {*tʃ}, {*tʰ} -> {*tʃʰ}, 
+   {*d} -> {*dʒ}, {*n} -> {*ɲ} 
+   ||  _ ({*r}) ({*w}) [{*j}|{*ɰ}] ; 
+ \end{verbatim}
+
+\mypara{A.8. Velar palatalization (Type B)}
+Velar palatalization is one of the more tricky businesses in Chinese historical phonology. 
+\citeauthor[]{Baxter1992} says that velars ``palatalize to Middle Chinese palatal affricates
+ and fricatives TSy- under conditions which are not entirely clear and must have varied from
+ dialect to dialect'', but the formulation for the change that he uses (following \citet[100]{Pulleyblank1962}) is that velars palatalized before immediately before front vowels, i.e. with no intervening -r-. He gives the following examples \citep[PAGES]{Baxter1992}.
+ \begin{quote}
+ %(1833) 
+ 支 \textasciitilde 枝 %zhī < 
+ \textit{tsye} < *ke `branch'
+ %(1834) 
+% 熱 %re < 
+% \textit{nyet} < *C.nat `hot'
+ The following case shows that the change did not happen before -r-:
+ %(1835) 
+ 技 %ji < 
+ \textit{gjeX} (III) < *greʔ `ability, talent'
+ \end{quote}
+Baxter draws attention to the following cases where palatalization should not have taken places but does 
+\begin{quote}
+ %(1836) 
+ 車 \textit{tsyhae} < C.q(r)a (irregular) `vehicle' (also read jū < kjo < *k(r)a)
+ %(1837) 
+ 鍼 %zhēn < 
+ \textit{tsyim} < *kim or *kəm `needle'
+\end{quote} 
+He also points out cases where palalization should have happened and it did not: 
+\begin{quote}
+ %(1838) 
+ 吉 % jí < 
+ \textit{kjit} (IV) < *C.qi[t] `auspicious, lucky' (cf. Tib. skyid)
+\end{quote}
+\citet[]{Schuessler1996palatalization}
+gives a very nuanced conditioning. \citep[78]{Baxter2014OldChinese} accept his proposal that the change did not apply to *kʰ-. They also stipulate that it did not take place before velar codas, which appears to be a new proposal of theirs. THEY DISCUSS IT IN SECTION 5.4, APPARENTLY.\footnote{Schuessler also says that *g- did not palatalize in open syllable  \textit{píngshēng}, a conditioning that seems quite ad hoc, and which \citeauthor[]{Baxter2014OldChinese} appear not to accept.} 
+\begin{quote}
+
+%(208) 
+遣 %qiǎn <
+\textit{khjienX} < *[k]ʰe[n]ʔ 
+‘send’
+
+%(209) 
+棄 %qì
+\textit{khjijH} < *[kʰ]i[t]-s ‘throw away, abandon’
+
+%(210) 
+勁 %jìng
+\textit{kjiengH} < *keŋ-s 
+ ‘strong’
+\end{quote}
+
+They apply velar palatalisation to x- (< χ < *qʰ). 
+\begin{quote}
+%(211) 
+屎 %shǐ 
+\textit{syijX} < *xijʔ *[qʰ]ijʔ  
+‘excrement’ %(see discussion of this item in sections 4.3.2 and 5.5.5.1).
+\end{quote}
+
+Bizarrely, whereas *-w- blocks the development for *k, *g-, and *x- (<*qʰ) it does not do so for *ɣ (< *ɢʷ-). We were tempted to introduce a phonetically plausible change *ɣwj- > *ɣj- just prior to velar palatalization to account for this fact, but the -w- maintained into Middle Chinese. This is a mystery that still requires solution.
+
+\begin{quote}
+
+%(213) 
+惟 %wéi 
+\textit{ywij} < *ɢʷij
+‘(copula); namely’.
+
+營 %yíng 
+\textit{yweng} > *[ɢ]ʷeŋ
+‘demarcate, encamp’
+\end{quote}
+
+Velar palatalization, like dental palatalization, evidently occurred at least as early as Han times in some dialects (Coblin 1983: 57-60).
+
+\begin{verbatim}
+define LateOChi·velarpalatalizationB 
+   {*k} -> {*tʃ}, {*g} -> {*dʒ}, {*ŋ} -> {*ɲ}, {*x} -> {*ʃ} ||  _ {*j} VOWEL ; 
+define LateOChi·ɣw⇒jw
+   {*ɣ} -> {*j} || _ ({*w}) {*j} VOWEL ; 
+\end{verbatim} 
+
+\mypara{Velar fricative palatalization (EC3).}
+\label{par:ɢ⇒jB}
+The change *ɢ- > *j-  happened in type B syllables with no further conditioning. \citeauthor[]{Baxter2014OldChinese} point to the series on 舁 (01-45) to show *ɢ- changes to \textit{y}- before back vowels \citeyear[77]{Baxter2014OldChinese}.
+
+\begin{quote}
+舁 \textit{yoX} < *ɢ(r)aʔ < *m-q(r)aʔ (01-45/0089a) `give' 
+
+舉 \textit{kjoX} < *C.q(r)aʔ (01-45/0075a) `lift, rise'
+
+與 \textit{yoH} < *ɢ(r)aʔ-s (01-45/0089b) `participate'
+\end{quote}
+They similarly point to the series on 羊, which \citeauthor[PAGE]{Schuessler2009minimal} divides among 03-05, 03-06 and 03-39, following Karlgren,  but they unite follwowing the 說文解字 \textit{Shuōwén jiězì} \citep[77,106, 141]{Baxter2014OldChinese}.
+
+\begin{quote}
+    羊 \textit{yang} < *ɢaŋ (03-39/0732a) `sheep'
+   
+    祥 \textit{zjang} < *zɢaŋ < *s-ɢaŋ (03-39/0732n) `auspicious'
+    
+    姜 \textit{kjang} < *C.qaŋ (03-05/0711a) `a family name'
+    
+    羌 \textit{khjang} < *C.qʰaŋ (03-06/0712a) `Western tribe'
+\end{quote}
+A series such as that built on 衍 (24-29), shows that the same change happened before front vowels.
+\begin{quote}
+衍 \textit{yenH} < *ɢ(r)anʔ < *N-q(r)anʔ
+(24-29a) `overflow'
+
+愆 \textit{khjen} < *C.qʰra[n] (24-29b) `exceed, err'
+%餰 \textit{khjen} (24-29c)
+%WIKTIONARY HAS tsyen < *t-qa[n] `gruel'
+
+\end{quote}
+
+\begin{verbatim}
+define EarlyOChi·ɢ⇒jB
+{*ɢ} -> {*j} || _ [{*j}|{*ɰ}] VOWEL ;  
+\end{verbatim}
+
+\mypara{l > j in type B syllables}
+MENTION Alexandria as 烏弋山離 \textit{'u-yik-srean-lje} (< *ʔâ-lək-srân-rai, in Schuessler’s system)
+DISCUSS ON THE BASIS OF BAXTER 1992 AND BAXTER AND SAGART 2014
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) reflect the already reflect *l- > j- in type B syllables \citep[197]{Baxter1992}) \citep{Hill2017Bailang}
+(see comm. to 39d)
+
+\begin{verbatim}
+define LateOChi·l⇒jB 
+   {*l} -> {*j} ||  _ {*j|ɰ} ; 
+\end{verbatim} 
+
+
+\mypara{A.l0. *-aj monophthongization (Type B)}
+ There is considerable evidence that the words of the traditional 歌 Gē rhyme group
+ originally had an acute coda of some kind, which I reconstruct as *-j. However, by Middle
+ Chinese times this coda was gone in most dialects. This development is accounted for by
+ the change *-aj monophthongization:
+ \begin{quote}
+ %(1843) 
+ 多 %duō < 
+ \textit{ta} < *tæ < *[t.l]ˤaj `many'
+
+ %(1844) 
+ 和 %hé < 
+ \textit{hwa} < *gwæ < *gwaj < *[ɢ]ˤoj `harmonious'
+ \end{quote}
+ The first stage of this monophthongization was probably a change of *-aj to a low front
+ vowel [æ]; by Middle Chinese times, this [æ] had changed to [a]. But original *-aj cannot
+ have merged generally with original *-a, for the Old Chinese finals *-aj and *-a remained
+ distinct as MC -a and -u respectively. But by Eastern Han times (A.D. 25-220), there was a
+ merger of original *-aj and *-a in those cases where *-a had been fronted to [æ] by other
+ changes (see the discussion of *-jᴀ(k) fronting and •r-color below). This suggests that we
+ should date the first stage of monopbtbongization (*-aj > [a:]) at some time before
+ Eastern Han. Note, however, that the coda *-j often remains in the Min dialects (and
+ sporadically elsewhere in the southeast), so these dialects were probably unaffected by •-aj
+ monopthongization. For further details, see sections 8.1.1 and 10.1.3.
+\begin{verbatim}
+define LateOChi·aj⇒æ 
+       {*ɑ*j} -> {*æ} || _ (OCTONE) .#. ; 
+\end{verbatim} 
+
+\subsection{Changes succeeding vowel warping}
+
+\mypara{A.ll. *-ᴀ(k) fronting (Type B)}
+ The change *-ᴀ(k) fronting caused the vowels of original *-jᴀ and *-jᴀk to be fronted,
+ probably to a low front [æ]. As a result, we have MC -jae < *-jᴀ and -jek (< -jæk) < *-jᴀk.
+ Examples include
+ \begin{quote}
+ %(1845) 
+ 罝 %jiē < 
+ \textit{tsjae} < *tsᴀ `rabbit net' (also read jū < tsjo < *tsa)
+ 
+ %(1846) 
+ 社 %shè < 
+ \textit{dzyaeX} < *dᴀʔ `altar of the soil'
+ 
+ %(1847) 
+ 車 %chē < 
+ \textit{tsyhae} < *kʰᴀ C.q(r)a `vehicle' (also read jū < kjo < *k(r)a) \footnote{IT SEEMS LIKE THEY DON'T REGARD THIS AS IRREGULAR ANYMORE, NEED TO THINK ABOUT THAT, AND CHECK THEIR BOOK}
+ 
+ %(1848) 
+ 石 %shí < 
+ dzyek < *dᴀk `stone'
+ 
+ %(1849) 
+ 舄 %xì < 
+ sjek < *s.qʰak `slipper'\footnote{In 1992 he reconstructed *sᴀk, so I guess he has come up with an explanation for the alternative development, need to look into this.}
+ \end{quote}
+ The capital *ᴀ here is simply a notational device for distinguishing those cases of *-a (type B) 
+ and *-ak (type B) which become from from those which do not; 
+ the exact conditions of the change are
+ unclear, though only syllables with acute initials (at the time of the change) appear to be
+ involved. The apparent irregularities are probably due to dialect mixture or textual problems
+ or both. By Middle Chinese times, *-ᴀk (type B) and original *-ek (type B) had merged as MC -jek:
+ %(1850) 
+ 易 %yì < 
+ \textit{yek} < *lek `change'
+ %(1851) 
+ 液 %[yè] < 
+ \textit{yek} < *(l)ᴀk `fluid, liquid'
+ However, *-ᴀks and *-eks remained distinct in Middle Chinese, and are distinct even to
+ the present day:
+ %(1852) 
+ 易 %yì < 
+ \textit{yek} < *leks `easy'
+ %(1853) 
+ 夜 %yè < 
+ \textit{yaeH} < *(l)ᴀks `night'
+ This probably indicates that the process of *-jᴀ(k) fronting took place in at least two
+ stages: an early stage which affected *-ᴀ, *-ᴀk, and *-ᴀks, and a later stage which
+ affected only *-ᴀk.
+ In the colloquial layer of the Min dialects, *-ᴀk did not merge with *-jek as in Middle
+ Chinese; rather, *-ᴀk has the same reflex as *-ak. This is clear proof of the commonly held
+ belief that the Min dialects cannot be descended from Middle Chinese. For further
+ discussion, see sections 10.2.4 and 10.2.5.
+\begin{verbatim}
+define LateOChi·ᴀk⇒æKB 
+       {*ᴀ} -> {*æ}  || ACUTEONSET _ ({*k}) (OCTONE) .#. ; 
+\end{verbatim} 
+
+\mypara{A.12. *-a > -ʌ (Type B)}
+ The change *-a > -ʌ (Type B) is part of a general rounding and raising process which applied to
+ original *-a before a zero coda. The other part is the change *-a > -u (Type A), described below.
+ The precise phonetic details of these changes are elusive; 
+ the labels *-a > -ʌ (Type B) and *-a > -u (Type A)
+ are based on my Middle Chinese transcription of the resulting Middle Chinese finals. In
+ fact, the vowels of MC -ʌ < *-a and -u < *-a were probably the same in most Middle
+ Chinese dialects, though dialects around the mouth of the Yangtze distinguished them in
+ rhyming (Luó Chángpéi 1931a). Examples of *-a > -ʌ include
+ \begin{quote}
+ %(1854) 
+ 魚 %yú < 
+ \textit{ngjo} < *[r.ŋ]a `fish'
+
+ %(1855) 
+ 女 %nǚ < 
+ \textit{nrjoX} < *nraʔ'female'.
+\end{quote}
+
+After labial or labiovelar initials, *-(r)a (Type B) became -ju rather than -jo [-jʌ]:
+
+\begin{quote}
+ %(1856)
+ 虞 %yú < 
+ \textit{ngju} < *[ŋ]ʷ(r)a `anxious'
+
+ %(1857) 
+ 雨 %yǚ < 
+ \textit{hjuX} < *C.ɢʷ(r)aʔ `rain'
+
+ %(1858) 
+ 腐 %fū < 
+ \textit{pju} < *pra `human skin'
+ \end{quote}
+ The reason for separating this rounding and raising process into two parts (*-a > -jo [-jʌ] and
+ *-a > -u [Type A]) is that *-a (Type B) and *-a (Type A) were differently affected 
+ by a preceding medial *-r-: *-ra (Type B)
+ appears to have been unaffected (as in 腐 %fū < 
+ \textit{pju} < *pra above), while *-ra (type A) 
+ was fronted to [ræ]
+ and thus escaped the effects of *-a > -u (discussed below). These facts can be accounted
+ for by ordering *-a (Type B) > -jo before *r-color and *-a > -u after *r-color, and by assuming that
+ *r-color did not affect rounded vowels. See section 10.2.4 for further discussion.
+ It seems like Baxter does want to apply this after labials, but this is something to watch.
+ 
+\begin{verbatim}
+define LateOChi·a⇒ʌB 
+{*ɑ} -> {*ʌ} || [ACUTEONSET|VELAR] {*ɰ} _ (OCTONE) .#. ;
+\end{verbatim} 
+
+\mypara{A.22. *-iw(k) > -uw(k) (Type B)}
+ This change accounts for the development of MC -juw and -juwk from OC *-iw and *-iwk
+ in type B syllables: 
+ \begin{quote}
+ %(1890) 
+ 秋 %< 
+ \textit{tshjuw} < *tsʰiw `autumn'
+
+ %(1891) 
+ 淑 %< 
+ \textit{dzyuwk} < *[d]iwk `good'
+ \end{quote}
+In the Middle Chinese of the Qièyùn, this change applied generally to OC *-iwk, but *-jiw
+ was affected only in syllables with acute initials; *-iw after grave initials remained (in at
+ least some cases) as MC -jiw. But MC -jiw and -juw are often confused, so there were
+ probably dialects where this change applied more generally, and perhaps some in which it
+ did not occur at all. Some Shījīng rhymes appear to show words in *-iw rhyming with *-u;
+ these could reflect dialects where *-iw > -uw (in type B) occurred very early. See sections 10.2.13.2
+ and 10.2.14.2 for further discussion and examples.
+ I think it is more elegant if this change proceeds *-wk > -k, because then we don't have to
+ except -i- from the environment of that change. 
+
+\begin{verbatim}
+define LateOChi·iwk⇒uwk 
+{*i*wk} -> {*u*wk} || _ (OCTONE) .#. ;
+
+define LateOChi·iw⇒uw 
+{*i*w} -> {*u*w} || ACUTEONSET ({*r}) ({*w}) {*j} _ (OCTONE) .#. ;
+\end{verbatim}
+
+\mypara{A.21. *-wk > -k}
+ According to Baxter "*-wk normally became -k in Middle Chinese". He claims that 
+ "Middle Chinese -wk does not usually reflect Old Chinese *-wk" but instead is part
+ of what we here call `vowel warping' following Schuessler. NOT ENTIRELY CLEAR TO 
+ ME THAT BAXTER'S *-u(K) > -aw(K) AND *-o(K) > -uw(K) ARE COVERED BY VOWEL WARPING.
+ This account would lead one to think that *-wk proceeds vowel warping. However, 
+ 淑 < dzyuwk < *diwk `good' shows that some -wk are inherited directly from OC to MC. 
+ Thus, the best course of action to me seems to be to restrict the environment of this
+ change to only be after unrounded vowels, so in principle *i, *e, and *a, except that 
+ if we put this change after *-iwk > *uwk, then *i does not practically arise. Baxter's 
+ examples of innovative -wk, namely 
+ \begin{quote}
+ %(1888) 
+ 毒 %dú < 
+ \textit{dowk} < *[d]ˤuk `poison'
+
+ %(1889) 
+ 族 %zú < 
+ \textit{dzuwk} < *[dz]ˤok `clan'
+ \end{quote}
+ avoid the change for phonological and not chronological reasons. In turn, his only 
+ positive examples are with *e and *a, namely-- 
+ %(1885) 
+ 的 dì < tek < *tewk `mark in a target'
+ %(1886) 
+ 鶴 hè < hak < *gawk `crane'
+ %(1887) 
+ 藥 yào < yak< *rawk `to give medicine; cure'
+ 
+\begin{verbatim}
+define LateOChi·wk⇒kB 
+       {*wk} -> {*k} || [{*e}|{*a}]_ (OCTONE) .#. ;
+ \end{verbatim}
+ 
+\mypara{A.l4. *-o(K) > -uw(K) (Type A)}
+The change •-o(K) > -uw(K) changed original •-o- to -uw- in syllables with velar or zero
+ codas in type A syllable. The exact phonetic details are unclear:
+ %(1863) 
+ 斗 dou < tuwX < *toʔ `ladle, dipper'
+ %(1864) 
+ 東 dōng < tuwng < *toŋ `east'
+ %(1865) 
+ 速 sù < suwk < *s(t)ok `rapid, quick'
+ Like the change *-u(K) > -aw(K), *-o(K) > -uw(K) was limited to Type A syllables 
+ ; the finals Type B finals *-o, *-oŋ, and *-jok became MC -ju, -jowng, and -jowk respectively.
+ I assume that this change may have applied differently to open syllables than to syllables
+ with the velar codas *-ŋ and *-k. Original *-roŋ and *-rok gave rise to the division-II
+ finals -aewng and -aewk; this suggests that these finals at the time •r-color applied, -ong and
+ -ok had perhaps become [ʌwng] and [ʌwk], with unrounded main vowels, and were thus
+ subject to *r-color:
+\begin{quote}
+ %(1866) 
+ 江 %jiāng < 
+ \textit{kaewng} < *kroŋ `(Yangtze) river'
+
+ %(1867) 
+ 角 %jiǎo < 
+ \textit{kaewk} < *C.[k]ˤrok `horn'
+\end{quote}
+ But there are no division-II syllables in the open-syllable 侯 Hóu rhyme group, suggesting
+ that syllables like *Kro simply merged with original *Ko, perhaps because such syllables
+ still had a rounded main vowel and were thus not affected by *r-color. Thus after grave
+ initials it is usually impossible to distinguish the finals *-o and *-ro:
+ \begin{quote}
+ %(1868) 
+ 口 %kǒu < 
+ \textit{khuwX} < *kʰˤ(r)oʔ 'mouth'.
+ \end{quote}
+ It would appear that original •-roks developed like *-ros, not like *-rok, suggesting that the
+ relevant stages of •-o(K) > -uw(K) followed final cluster simplification:
+ \begin{quote}
+  %(1869) 
+ 喔 %wò < 
+ \textit{ʔaewk} < *ʔrok `moisten, smear', also read ʔuwH < *ʔroks `soak'.
+  \end{quote}
+ 
+ \begin{verbatim}
+define LateOChi·oK⇒uwKA 
+       {*o} -> {*u*w} || _ (VELAR) (OCTONE) .#. ;
+ \end{verbatim}
+
+\mypara{A 20. Voiceless Resonant Loss (Type B) \citep[576]{Baxter1992})}
+ Baxter calls this change `Denasalization', but since something analygous affected the 
+ voiceless lateral and rhotic, I think `voiceless resonant loss' is a more appropriate name. 
+ had probably occurred in some dialects by 
+ the Eastern Han period (Coblin 1983: 43-76). See sections 5.2, 6.1,
+ and 9.2 for discussion and examples.
+ In order for this change to feed the formation of the retroflexes, I think it should be move 
+ before them.
+\begin{verbatim}
+define LateOChi·voicelessresonantlossB
+   {*m̥} -> {*x}, {*ŋ̊} -> {*x},
+   {*l̥} -> {*ʃ}, {*n̥} -> {*ʃ}, {*r̥} -> {*tʰ*r}
+   || _ ({*r}) ({*w}) ([{*j}|{*ɰ}]) VOWEL ;
+ \end{verbatim}
+
+\mypara{A 15. r-color (Type B)}
+\citet[543-544]{Baxter1992}
+uses the name "*r-color" for a far-reaching change by which a medial *-r- influenced the
+ pronunciation of a following main vowel. As I formulate this change, it applied only to
+ unrounded vowels, and caused them to become front and (in at least some cases) lax. The
+ full phonological consequences of *r-color did not appear until medial *-r- was lost,
+ around A.D. 500; as long as the *-r- was still present, the features it contributed to the
+ following vowel were usually subphonemic. I assume that an item like
+ \begin{quote}
+%%(1870) 
+姦 %jiān < 
+\textit{kaen} (/kæn/) < kræn (/kran/) < *kran `wicked'
+ \end{quote}
+ was probably pronounced with a front [ae] as early as Han times; but until medial *-r- was
+ lost, this [ae] was just an allophone of /a/. This is supported (though not proved
+ conclusively; see Chapter 3) by the fact that words with MC -a:n and -an rhymed with each
+ other through the Wèi-Jìn period (Ting Pang-hsin 1975: 246). I assume that [ae] and [a]
+ became separate phonemes as a result of *r-loss (see below).
+ In some cases, however, *r-color had earlier phonological consequences. For example,
+ by Eastern Him, *-ra had separated in rhyming from *-a and rhymed instead with *-aj and
+ *-raj (see *-aj-dipthongization above). This and other evidence suggests that we should
+ date *r-color to some time in the Western Han period (206 B.c to A.D. 23). For further
+ discussion, see sections 7.2 and 7.3.
+
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) dialect had not undergone 
+ `r-color' (see p. 8). 
+
+\begin{verbatim}
+define LateOChi·RcolorB
+   {*ɑ} -> {*æ}, {*e} -> {*ɛ}, {*ə} -> {*ɛ} 
+   || r ({*w}) ([{*j}|{*ɰ}]) _ ;
+\end{verbatim} 
+
+\mypara{A.16. Acute fronting (type B)}
+According to Baxter this change fronted the main vowel in type B acute-initial syllables and non back codas. He contrasts
+ \begin{quote}
+ %(1871) 
+ 然 %rán < 
+ \textit{nyen} < *[n]a[n] (24-36a) `like that'
+ \end{quote} 
+with 
+\begin{quote}
+  %(1872) 
+ 言 %yán < 
+ \textit{ngjon} ([ŋjʌn]) < *ŋa[r] (24-16a) `speak; words'.
+\end{quote}
+He points out that words like  然 %rán < 
+ \textit{nyen} < *[n]a[n] `like that' rhymed with Type A *-an in the
+ \textit{Shījīng}, but Type A *-an and Type B *-an no longer rhyme in 
+ the Wèi-Jìn period  (Ting Pang-hsin 1975: 246). Thus far in his discussion it is unclear whether he envisions only *a or other vowels as targeted by the change. A parenthetical remark also makes his envisioned outcome for the change unclear, namely that the ``change from *-an to *-en should perhaps be factored into a fronting *-an > -æn and a raising -æn > -en; perhaps this latter step is to be identified with *a-raising,
+ described below'' \citep[PAGE]{Baxter1992}. 
+ We first took this to mean that that he thinks merely that acute fronting per se changed those examples of *-an that escaped r-coloring to -æn, to merge with their r-colored brethren, but this is not the whole story.\footnote{Baxter includes some addition interesting remarks: ``The Middle Chinese finals -jon and -jɨn are restricted to syllables with grave initials.
+ account for this by assuming that acute fronting applied only to syllables with acute
+ initials, at least in the dialect(s) ancestral to Middle Chinese. On the other hand, words in
+ Middle Chinese -jon and -jɨn appear to rhyme with front vowels during the Wèi-Jìn period;
+ this rhyming practice could represent a dialect where acute fronting applied more
+ generally. Notice that *ɨ-fronting (described below) is similar to acute fronting, but has a
+ slightly different environment; the relationship between these two processes probably
+ differed from dialect to dialect.
+ I argue in Chapter 9 that acute fronting (and possibly *a-raising) created many cases
+ where [a] and [e] occurred in the same xiesheng series, weakening the conditions for
+ "xiéshēng similarity" in characters of late origin; see Chapter 9 for further discussion.''}  
+%\begin{quote}
+ %(1873) 
+% 忍 %rěn < 
+% \textit{nyinX} < *nə[n]ʔ'be unfeeling'  
+%and %(1874) 
+% 垠 %yín < 
+% \textit{ngjɨn} < *ŋən `raised border, dyke'
+%  \end{quote}
+%in addition to contrasting the aforementioned 
+%\begin{quote}
+%然 %rán < 
+% \textit{nyen} < *[n]a[n] `like that'
+%\end{quote}
+% with
+%Thus it seems he has *TəT > *TiT as much in mind as *TaT > -TæT.
+He describes *a-raising as ``the raising of original *a to a mid [ʌ]'' in type B syllables with an acute coda. It is easy to miss the implication that this change should also take -æT- to -eT- and indeed on 11 July 2020 our transducer took Old Chinese *ɢranʔ to Middle Chinese *jænX rather than \textit{yenX}.\footnote{Trisolde, Tiago, \& Hill, Nathan. (2020). A Finite State Tranducer that models Chinese Historical Phonology (Version 0.5) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3940620}
+
+\begin{verbatim}
+define LateOChi·AcuteFrontinga⇒æB 
+       {*ɑ} -> {*æ} || ACUTEONSET _ ACUTECODA ;
+\end{verbatim} 
+
+\mypara{A.17. Rounding assimilation (type B)}
+ This change rounded the vowel of the final Type B *-ə after labial and labiovelar initials in
+ syllables without medial *-r- which have a velar or zero coda:
+ I have already gotten rid of labiovelars and with good reason. So, what I presume now is that 
+ *w-neutralization led to the insersion of -w- after bilabial initials, 
+ and that this change can be formulated as a grave consonant
+ plus a -w-. 
+ \begin{quote}
+ %(1875) 
+ 福 %fú < 
+\textit{pjuwk} < *pək `good fortune'
+
+ %(1876) 
+ 弓 %gōng < 
+ \textit{kjuwng} < *kʷəŋ `(archer's) bow'
+ \end{quote}
+ As a result of this change, some words of the traditional 之 Zhī rhyme group came to have
+ the final -juw in Middle Chinese:
+ \begin{quote}
+ %(1877) 
+ 久 %jiǔ < 
+ \textit{kjuwX} < *[k]ʷəʔ `1ong time'
+ 
+ %(1878) 
+ 有 %yǒu < 
+ \textit{hjuwx} < *[ɢ]ʷəʔ `have'
+ 
+ %(1879) 
+ 謀 %móu < 
+ \textit{muw} < mjuw < *mə `to plan'
+ \end{quote}
+ If the *-u in items like 九 jiǔ < *kʷuʔ `nine' was unrounded to *ə by the earlier change
+ rounding dissimilation (see above), then we can assume that rounding assimilation
+ changed it back to *-u. But note that rounding assimilation, unlike rounding dissimilation,
+ is blocked by medial *-r-, so that the vowel was not rounded in items like
+ \begin{quote}
+ %(1880) 
+ 龜 %guī < 
+ \textit{kwij} (III) < *[k]ʷə `turtle, tortoise'
+
+ %(1881) 
+ 逵 %kuí < 
+ \textit{gwij} (III) < *gʷrə < *[g]ʷru `thoroughfare'.
+  \end{quote}
+ We can account for this by assuming that rounding dissimilation preceded •r-color, while
+ rounding assimilation followed it. See section 10.2.1.2 and 10.2.13.1, and the discussion
+ of rounding dissimilation above.
+
+\begin{verbatim}
+define LateOChi·RoundingAssimilationə⇒uB 
+       {*ə} -> {*u} || GRAVE {*w} _ (VELAR) (OCTONE) .#. ;
+\end{verbatim}
+
+\mypara{A 18. *-a > -u (type A)}
+  This is the second part of the rounding and raising process which applied to final *-a (see
+  discussion under *-a > *-o above):
+  \begin{quote}
+  %(1882) 
+  五 %wu < 
+  \textit{nguX} < *C.ŋˤaʔ'five'
+  \end{quote}
+  This process doubtless occurred in several steps: [a] > [ɔ] > [o] > [u]. It is possible that the
+  Middle Chinese final I transcribe as -u was still phonetically [o] in Early or even Late
+  Middle Chinese. For further discussion, see section 10.2.4.
+  
+\begin{verbatim}
+define LateOChi·a⇒uA {*ɑ} -> {*u} || _ (OCTONE) .#. ;
+\end{verbatim}  
+
+\mypara{A.l9. Labial dissimilation}
+ The change labial dissimilation is a dissimilation of labial codas to velars under the
+ influence of labial or labialized initials. Examples include
+\begin{quote}
+ %(1883) 
+ 風 %fēng < 
+ \textit{pjuwng} < *prəm `wind'
+ %(1884) 
+ 熊 %xióng < 
+ \textit{hjuwng} < *w(r)um/*w(r)əm `bear'.
+\end{quote}
+ The exact conditions of this change are not clear, however, for Middle Chinese still has
+ some syllables with labials in both initial and coda positions:
+ \begin{quote}
+ %(1884) 
+ 凡 %fán < 
+ \textit{bjom} < *brom `every, all'
+ \end{quote}
+ Labial dissimilation had evidently occurred in some dialects in the Eastern Han period
+ (Coblin 1983: 119). See sections 8.1.2, 10.3.1.3, 10.3.3.2, and 10.3.4.1 for discussion.
+ SINCE THE TWO EXAMPLES HE GIVES ARE WITH -um/əm, AND HIS COUNTER EXAMPLE IS -om, I WILL 
+ ASSUME THAT HAS SOMETHING TO DO WITH THE CONDITIONING ENVIRONMENT
+\begin{verbatim}
+define LateOChi·LabialDissimilationəm⇒əŋ 
+       {*ə*m} -> {*ə*ŋ} || GRAVE ({*r}) {*w} _ (OCTONE) .#. ;
+\end{verbatim}
+
+\mypara{A.23. *ə-fronting}
+ This change fronted original *i to i in syllables where both initial and 
+ coda were acute. In type A syllables [i] was lowered to [e] 
+ by the change hi > mid.
+ This change had certainly happened by the Wei-Tin period; it may have 
+ happened somewhat earlier, but it is difficult to judge 
+ from the rhyme data, for during the Han period
+ the rhyme groups Wén 文 and 微 Wēi (which include *-ən and *-əj respectively) 
+ became confused generally with the 真 Zhēn and 脂 Zhī groups 
+ (*-in and *-ij). For further discussion, see sections 7.1.3, 
+ 10.1.5, and 10.1.8.
+ N.B. Tonogenesis must preceed this if we don't want final -s to feed it. 
+ \begin{verbatim}
+define LateOChi·JəfrontingB {*ə} -> {*i} || ACUTE _ ACUTE ;
+ \end{verbatim}
+
+\mypara{A.24. Hi > mid (Type A)}
+ The change hi > mid lowered high vowels to mid height in type A syllables.
+ When *i lowered, it merged with *e; thus *-in and *-en merged as MC -en, *-iw and *-ew
+ merged as MC -ew, and so forth:
+ \begin{quote}
+ %(1897) 
+ 堅 %jiān < 
+ \textit{ken} < * kˤi[ŋ] `hard, solid, firm'
+
+ %(1898) 
+ 肩 %jiān < 
+ ken < *[k]ˤe[n] `shoulder'
+
+ %(1899) 
+ 蓼 %liǎo < 
+ \textit{lewX} < *C-riwʔ `Polygonum plant'
+
+ %(1900) 
+ 瞭 %liǎo < 
+ \textit{lewX} < *C-rewʔ `clear-eyed'
+ \end{quote}
+ These changes were reflected in rhyming by the Wèi-Jìn period Ting Pang-hsin 1975: 238,
+ 246). In type B syllables, on the other hand, these vowels remained distinct; Type B *jin
+ and *jen remained as MC -(j)in and -j(i)en, for example.
+ The lowering of *ə to mid height produced a mid unrounded [ʌ] which may have begun as
+ an allophone of /ə/, but eventually became a separate phoneme; at any rate, by the Jìn period
+ (A.D. 265-420), original Type A *-ən had ceased to rhyme with Type B *-ən, 
+ and original Type A *-əŋ had ceased
+ to rhyme with Type B *-əŋ (Ting Pang-hsin 1975: 244, 246). This change plays a role in
+ explaining how words in MC -on < *-ən (the Qièyùn's 痕 Hén rhyme) came to rhyme in
+ Early Middle Chinese with words in MC -jon < *-an (the Qièyùn's 元 Yuán rhyme); see
+ *a-raising below. For further discussion of the change hi > mid, see Chapter 7.
+\begin{verbatim}
+define LateOChi·Hi⇒Midi⇒eA {*i} -> {*e} ; 
+define LateOChi·Hi⇒Midi⇒eA {*ə} -> {*ʌ} ; 
+define LateOChi·Hi⇒MidA
+     LateOChi·Hi⇒Midi⇒eA .o.
+     LateOChi·Hi⇒Midi⇒eA 
+     ; 
+\end{verbatim} 
+
+\mypara{A.25. Qùshēng formation}
+ Qùshēng formation is the name Baxter gives to the process by which the post-coda *-s was lost
+ and replaced by a distinctive tone. It is difficult to date this process precisely. Pulleyblank
+ (1973a, 1984: 223-24) argues that the final -s of qùshēng remained until the early sixth
+ century in some southern dialects. See section 8.2 for further discussion.
+## THIS IS ONLY WORKING IF I DO IT WITH OCNUCLEUS. I WOULD PREFER TO DO IT WITH VOWEL
+## IN FACT, I WOULD LIKE TO JUST SAY `AT THE END OF A WORD' BUT THAT SEEMED TO OVER PRODUCE SOMEHOW
+\begin{verbatim}
+define LateOChi·QùshēngB {*s} -> {*H} || _ .#. ;
+\end{verbatim}
+
+\mypara{Shăngshēng formation}
+Baxter seems not to have put this in his list. Not very profound. 
+\begin{verbatim}
+define LateOChi·ShăngshēngB {*ʔ} -> {*X} || _ .#. ;
+\end{verbatim}
+
+\mypara{A.27. *a-raising (Type B)}
+According to Baxter this change entails the raising of *a to a mid [ʌ] in type B syllables with an acute coda. He uses the change to account for why a word like 
+\begin{quote}
+ %(1907) 
+ 言 %yán < 
+ \textit{ngjon} [ŋjʌn] < *ŋa[r] `speak; words'.
+\end{quote}
+stopped rhyming with a word like  
+\begin{quote}
+ %gān < 
+ 干 \textit{kan} < *kˤar `shield')     
+\end{quote}
+and instead by Early Middle Chinese times came to rhyme with words like 
+\begin{quote}
+痕 
+ %hén < 
+ \textit{hon} < *gˤən `scar')
+ \end{quote}
+He explains this by assuming that the change hi > mid, lowered original Type A *-ən to [ʌn]. while *a-raising raised original Type B *-an to [ʌn]. 
+
+``This sequence of events was
+ probably limited to certain dialects, however. See section 7.3.3 for discussion.''
+ This change only applies after grave initials, but not as a conditioned change, but 
+ simply because an earlier sound change had already changed a after acutes to something else. 
+ \begin{verbatim}
+define LateOChi·ARaisinga⇒ʌ {*ɑ} -> {*ʌ} || _ ACUTECODA ; 
+ \end{verbatim}
+ 
+\mypara{Retroflection (Type B)}
+
+\begin{verbatim}
+define LateOChi·tr⇒ʈB {*t*r} -> {*ʈ} ; 
+define LateOChi·tr⇒ʈʰB {*tʰ*r} -> {*ʈʰ} ; 
+define LateOChi·dr⇒ɖB {*d*r} -> {*ɖ} ; 
+define LateOChi·sr⇒ʂB {*s*r} -> {*ʂ} ; 
+define LateOChi·tsr⇒tʂB {*ts*r} -> {*tʂ} ; 
+define LateOChi·tshr⇒tʂʰB {*tsʰ*r} -> {*tʂʰ} ; 
+define LateOChi·RetroflexB
+       LateOChi·tr⇒ʈB
+   .o. LateOChi·tr⇒ʈʰB
+   .o. LateOChi·dr⇒ɖB
+   .o. LateOChi·tsr⇒tʂB 
+   .o. LateOChi·tshr⇒tʂʰB
+   .o. LateOChi·sr⇒ʂB
+   ;
+\end{verbatim}
+
+\mypara{Initial r changes to l (Type B)}
+The transcriptional Chinese dialect of the `Song of Bailang' (白狼歌, 58-75 CE) dialect had not undergone 
+ r > l- in both type A and type B syllables (\cite{Baxter2014OldChinese}a: 110) (see comm. to 11a-b)
+
+\begin{verbatim}
+define LateOChi·r⇒lB {*r} -> {*l} || .#. _  ;    
+\end{verbatim}
+
+
+\mypara{A.29. *r-loss (Type B)}
+ By ordering this after initial r changes to l we do not have to specify that it only applies to medials. 
+ There is going to be a better way to formulate this 
+
+ IN ORDER TO STOP THE BACKWARD PROJECTION FROM GIVING US R WHERE WE DON'T WANT
+ WE NEED TO OMIT THOSE PLACES WHERE WE ALREADY DELETED R,
+ DO NOT APPLY AFTER RETROFLEX INITIALS 
+ The change •r-loss caused medial •-r- to be lost in syllables with grave initials. In
+ syllables with acute initials, medial •-r- remained as a feature of retroflexion, perhaps
+ reanalyzed as part of the initial consonant. As a result of *r-loss, the special vowel features
+ which resulted from the earlier change •r-color were phonologized; low front [re] and mid
+ front lax [e], which had hitherto been allophones of /a/ and /e/ conditioned by medial *-r-,
+ became independent phonemes:
+ \begin{quote}
+ %(1908) 
+ 干 %gān < 
+ \textit{kan} < *kˤar `shield'
+
+ %(1909) 
+ 姦 %jiān < 
+ \textit{kaen} < [kræn] (/kran/) < *kran `wicked'
+
+ %(1910) 
+ 肩 %jiān < 
+ \textit{ken} < *[k]ˤe[n] `shoulder'
+
+ %(1911) 
+ 間 %jiān < 
+ \textit{kean} < [krɛn] (/kren/) < *kˤre[n] `between'
+ \end{quote}
+ These changes are reflected in rhyming by the Nán-bei cháo period, when the division-11
+ finals of Middle Chinese become separate rhyme categories.
+ The details of how *r-loss applied in type B syllables are unclear. Baxter assumes that
+ such syllables are the major source of the so-called division-III chóngniu syllables, but as
+ pointed out in section 7.3.3, the chóngniu distinctions can be accounted for in at least two
+ ways: a medial solution, which attributes the contrast to the medial position, and a mainvowel
+ solution, which attributes it to the main vowel. See sections 7.2 and 7.3 for further
+ discussion of medial •-r- and its development in various contexts.
+ 
+ \begin{verbatim}
+define LateOChi·MedialRLossB 
+{*r}  -> 0 || ¬RETROFLEX _ ({*w}) ({*j}|{*ɰ}) VOWEL ;
+\end{verbatim}
+
+
+\mypara{A.30. *-jɨ(K) > -i(K) (Type B)}
+The minor change *-jɨ(K) > -i(K) is intended to account for the fact that syllables of the
+ forms *Kjɨ, *Kjɨŋ, and *Kjɨk merged in Middle Chinese with *Krjɨ, *Krjɨŋ, and *Krjɨk
+ respectively. This could result from a general fronting of those cases of [ɨ] which remained
+ after the change hi > mid. See sections 10.2.1, 10.2.2, and 10.2.3 for further discussion.
+ I AM NOT SURE HOW TO PHRASE THIS ONE. SHOULD I ONLY APPLY IT AFTER GRAVES? NO, I THINK DO LIKE HE SAYS
+ \begin{verbatim}
+define LateOChi·jɨK⇒-iKB {*ɨ} -> {*i} || {*j} _ VELAR ;
+ \end{verbatim}
+
+\mypara{A.31. TSrj- > TSr-}
+ The change TSrj- > TSr-, which probably occurred during or just before the Early Middle
+ Chinese period, caused medial -j- to be lost after retroflex initials TSr-:
+ \begin{quote}
+ %(1912) 
+ 生 %shēng < 
+ \textit{sraeng} < srjæng < *sreŋ `live, be born'
+ 
+ %(1913) 
+ 產 %[chǎn] < 
+ \textit{sreanX} < srjenX < *sŋranʔ `breed, bear'
+ \end{quote}
+
+\begin{verbatim}
+define LateOChi·TSrj⇒TSrB 
+       {*ɰ} -> 0, {*j} -> 0 
+       || [{*ʂ}|{*tʂ}|{*tʂʰ}]  ({*w}) _ ;
+\end{verbatim}
+
+\mypara{A.32. je > je}
+This is a minor change assumed in one analysis of the development of the chóngniu finals;
+for discussion see section 7.3.3.
+
+\mypara{A.33. mjuw(K) > muw(K)}
+This is a minor change which deleted medial -j- from syllables beginning with the sequence
+\textit{mjuw}-. It took place during the Middle Chinese period, and gives rise to a number of
+apparent irregularities. For example, the Guǎngyùn gives the reading muwH for
+\begin{quote}
+%(1914) 
+貿 %[mào] < 
+\textit{muwH} < mjuwH < *m(r)us `barter, exchange'.
+\end{quote}
+ Normally, the Middle Chinese division-I final -uwH would reflect OC *-(r)o(k)s; but the
+ reconstruction of *u in this word is supported by the rhyming of other words in the same
+ phonetic series, such as
+ \begin{quote}
+ %(1915) 
+ 卯 %mao < 
+ \textit{mrewX} < *mˤruʔ `cyclical sign (4th earthly branch)',
+  \end{quote}
+ which rhymes as *-uʔ in Ode 193.1A.
+
+%Summing all changes to Han
+%define LateOChi·B
+%      OCSYLLABLEB
+%      .o. EarlyOChi·Phonotactic·reanaysis
+%      .o. LateOChi·RoundingDissimilationB
+%      .o. LateOchiLabiovelarLossB
+%      .o. LateOChi·ClusterSimpB
+%      .o. LateOChi·PS⇒TSB
+%      .o. LateOChi·RoundingDipthongizationB
+%      .o. LateOChi·wneutralizationB
+%      .o. LateOChi·LabialNeutralizationB
+%      .o. LateOchia⇒ɑ
+%      .o. LateOChi·VowelWarp1B
+%      .o. LateOChi·jBacking·j⇒ɰB
+%      .o. LateOChi·ks⇒sB
+%      .o. LateOChi·wks⇒wsB
+%      .o. LateOChi·ts⇒jsB
+%      .o. LateOChi·dentalpalatalizationB
+%      .o. LateOChi·velarpalatalizationB
+%      .o. LateOChi·aj⇒æ
+%      .o. LateOChi·ᴀk⇒æKB
+%      .o. LateOChi·a⇒ʌB
+%      .o. LateOChi·iwk⇒uwk
+%      .o. LateOChi·iw⇒uw
+%      .o. LateOChi·wk⇒kB
+%      .o. LateOChi·voicelessresonantlossB
+%      .o. LateOChi·RcolorB
+%      .o. LateOChi·AcuteFrontinga⇒æB
+%      .o. LateOChi·RoundingAssimilationə⇒uB
+%      .o. LateOChi·LabialDissimilationəm⇒əŋ
+%      .o. LateOChi·QùshēngB
+%      .o. LateOChi·ShăngshēngB
+%      .o. LateOChi·ARaisinga⇒ʌ
+%      .o. LateOChi·r⇒lB
+%      .o. LateOChi·JəfrontingB
+%      .o. LateOChi·RetroflexB
+%      .o. LateOChi·MedialRLossB
+%      .o. LateOChi·TSrj⇒TSrB 
+%#      .o. Bax92syllable
+%      ; 
+
+%regex LateOChi·B
+% ;
+
+%# Print a separator, definitions, separator, and network info
+%# echo "====================="
+%# print defined
+%# echo "====================="
+%# print net
+
+%# Apply the string down the top stack network
+%apply down preks
+
+\citet[]{Schuessler2010yod}
+
+\section{BUGS}
+
+\printbibliography
+
+
+
+
+
+
+
+
+\end{document}

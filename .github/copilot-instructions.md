@@ -15,6 +15,7 @@
 - Fetch explicit `Han compound` validation from Wiktionary: `python3 scripts/fetch_wiktionary_component_roles.py`
 - Run the spreadsheet comparison reports: `python3 scripts/compare_sources.py`
 - Run the coverage-model builder: `python3 scripts/build_coverage_model.py`
+- Resolve provisional roots for missing-series packets: `python3 scripts/resolve_series_roots.py`
 - Export hand-checkable series packets: `python3 scripts/export_series_packets.py`
 - Promote series packets into curation files: `python3 scripts/promote_series_packets.py`
 - Render curated pilot packets: `python3 scripts/render_curated_series.py`
@@ -45,10 +46,12 @@
 - In the current checkout, the real spreadsheet source files live under `key references/`, and the importer defaults are pointed there.
 - `scripts/compare_sources.py` consumes `data/current_tex_entries.json` plus derived CSVs and generates spreadsheet-backed comparison reports (`mand2mc_rows_not_in_tex.md`, `tex_forms_conflicting_with_mand2mc.md`, and `shengfu_groups_missing_from_tex.md`).
 - `scripts/build_coverage_model.py` combines TeX entries, Mand2MC, Shengfu, BS/GSR, and the Schuessler PDF series universe to produce `data/derived/character_coverage.csv`, `data/derived/gsc_series_coverage.csv`, and the expansion reports `gsc_series_coverage.md`, `missing_gsc_rhymes_and_series.md`, and `expansion_work_queue.md`.
+- `scripts/resolve_series_roots.py` derives provisional packet-level roots for missing GSC series from head/base graphs and inherited MC evidence, then stores those roots back into `data/entries/curation/*.json`.
 - `scripts/export_series_packets.py` turns one or more target GSC series into hand-checkable curation packets in `data/series_packets/` and `reports/series_packets/`.
 - `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.
 - `scripts/evaluate_pilot_render.py` is the regression gate for pilot quality. It should be run after any comparable pilot generation; if it reports `not ready`, the output is still missing key structural features like semantic superscripts, placement, or abstract phonetic forms.
+- The current pilot now passes the structural readiness gate for the six pilot packets, but broader expansion still needs more regression coverage and then packet-by-packet scholarly review.
 - The current semantic layer is only partially complete: the readiness report now shows some recovered semantic assignments, but most proposed additions still lack full transliteration and render blocks, so the pilot remains an internal draft.
 - `scripts/export_sample_entries.py` builds a curated representative sample from `data/current_tex_entries.json` and writes `data/entries/sample_entries.json`.
 - `scripts/render_entries.py` renders that sample back to `build/generated_entries_sample.tex` and `build/generated_main_sample.tex` with explicit generated-file warnings.
