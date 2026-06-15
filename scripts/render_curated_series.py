@@ -142,17 +142,20 @@ def render_candidate_group_lines(
     candidate_children: dict[str, list[dict[str, Any]]],
 ) -> list[str]:
     lines: list[str] = []
-    parent_candidates: list[dict[str, Any]] = []
+    in_itemize = False
     for candidate in candidates:
         if candidate_children.get(candidate["character"]):
-            parent_candidates.append(candidate)
+            if not in_itemize:
+                lines.append(r"\begin{itemize}[noitemsep]")
+                in_itemize = True
+            lines.extend(render_candidate_node(candidate, candidate_children))
             continue
+        if in_itemize:
+            lines.append(r"\end{itemize}")
+            in_itemize = False
         lines.extend(render_candidate_lines(candidate))
 
-    if parent_candidates:
-        lines.append(r"\begin{itemize}[noitemsep]")
-        for candidate in parent_candidates:
-            lines.extend(render_candidate_node(candidate, candidate_children))
+    if in_itemize:
         lines.append(r"\end{itemize}")
     return lines
 
