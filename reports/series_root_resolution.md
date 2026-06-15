@@ -1,11 +1,12 @@
 # Series root resolution
 
-- Missing-series packets inspected: 45
-- Packets with at least one root candidate: 43
-- Packets with a single resolved provisional root: 45
+- Missing-series packets inspected: 51
+- Packets with at least one root candidate: 49
+- Packets with a single resolved provisional root: 51
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
+| `01-51` | 𧆨→ra [*rˤa {*[r]ˤa}] (0069a) | `ra` | `head_graph_oc_bs` |
 | `02-01` | 各→kak [*kˤak] (0766a) | `kak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |
@@ -31,6 +32,7 @@
 | `12-25` |  | `poṅ` | `packet_bs_consensus` |
 | `13-32` | 攸→liw [*liw] (1077a) | `liw` | `head_graph_oc_bs` |
 | `13-45` | 翏→riw [*riw-s {*[r]iw-s}] (1069a) | `riw` | `head_graph_oc_bs` |
+| `14-18` | 尗→tuk [*s.tuk] (1031a) | `tuk` | `head_graph_oc_bs` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |
 | `16-06` | 交→kaw [*kˤraw {*[k]ˤraw}] (1166a) | `kaw` | `head_graph_oc_bs` |
 | `16-14` | 堯→ṅew [*ŋˤew {*[ŋ]ˤew}] (1164a) | `ṅew` | `head_graph_oc_bs` |
@@ -42,10 +44,14 @@
 | `24-21` | 單→tar [*dˤar {*[d]ˤar}] (0147a) | `tar` | `head_graph_oc_bs` |
 | `24-23` | 亶→tan [*tˤanʔ {*tˤa[n]ʔ}] (0148a) | `tan` | `head_graph_oc_bs` |
 | `25-15` | 袁→quan [*ɢʷan {*[ɢ]ʷa[n]}] (0256a) | `quan` | `head_graph_oc_bs` |
+| `25-19` | 元→ṅon [*ŋon {*[ŋ]o[n]} (< nasal + uvular)] (0257a) | `ṅon` | `head_graph_oc_bs` |
+| `26-27` | 齊→tsyy [*dzˤəj {*[dz]ˤəj}] (0593a) | `tsyy` | `head_graph_oc_bs` |
 | `26-38` | 匕→piy [*pijʔ] (0566a) | `piy` | `head_graph_oc_bs` |
 | `27-08` | 非→pyy [*pəj] (0579a) | `pyy` | `head_graph_oc_bs` |
 | `28-11` | 隹→tur [*tur] (0575a) | `tur` | `head_graph_oc_bs` |
+| `29-41` | 必→pi [*pit {*pi[t]}] (0405a) | `pi` | `head_graph_oc_bs` |
 | `32-16` | 真→tin [*tin {*ti[n]}] (0375a) | `tin` | `head_graph_oc_bs` |
+| `32-40` | 民→miṅ [*miŋ {*mi[ŋ]}] (0457a) | `miṅ` | `head_graph_oc_bs` |
 | `33-30` | 分→pyn [*m-pən-s {*[m]-pə[n]-s}] (0471a) | `pyn` | `head_graph_oc_bs` |
 | `34-23` | 允→lur [*lurʔ {*[l]u[r]ʔ}] (0468a) | `lur` | `head_graph_oc_bs` |
 | `35-01` | 去→ka [*kʰaʔ-s {*[k]ʰ(r)aʔ-s}] (0642a) | `ka` | `head_graph_oc_bs` |
