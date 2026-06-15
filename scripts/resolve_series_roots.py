@@ -35,6 +35,8 @@ def extract_primary_oc_form(oc_bs: str | None) -> str | None:
 
 def strip_oc_prefixes(oc_form: str) -> str:
     form = oc_form.split(".")[-1]
+    while form.startswith(("C", "N")) and len(form) > 1:
+        form = form[1:]
     match = VOWEL_RE.search(form)
     if match is None:
         return form
@@ -52,18 +54,48 @@ def split_onset_rhyme(oc_form: str) -> tuple[str, str] | None:
     return oc_form[: match.start()], oc_form[match.start() :]
 
 
-def normalize_onset(onset: str) -> str:
+def normalize_onset(onset: str, *, mode: str = "broad") -> str:
     if not onset:
         return ""
-    onset = onset.replace("ˤ", "").replace("ʰ", "").replace("̥", "")
+    original = onset
+    onset = onset.replace("ʳ", "r").replace("ˡ", "l")
+    onset = onset.replace("ˤ", "").replace("̥", "")
+    aspirated = "ʰ" in onset or "ʰ" in original
+    onset = onset.replace("ʰ", "")
     if "ʷ" in onset:
         labialized = True
         onset = onset.replace("ʷ", "")
     else:
         labialized = False
-    onset = onset.replace("r", "")
+    has_medial_r = "r" in onset[1:] if len(onset) > 1 else False
+    onset = onset if mode == "node" else onset.replace("r", "")
 
-    if "ŋ" in onset:
+    if mode == "node":
+        if onset.startswith(("ɢ", "ɡ", "g")):
+            base = "g"
+        elif onset.startswith(("q", "ʔ")):
+            base = "q"
+        elif onset.startswith(("k", "x")):
+            base = "k"
+        elif onset.startswith(("t", "d")):
+            base = "t"
+        elif onset.startswith("n"):
+            base = "n"
+        elif onset.startswith("m"):
+            base = "m"
+        elif onset.startswith(("p", "b")):
+            base = "p"
+        elif onset.startswith(("ts", "dz")):
+            base = "ts"
+        elif onset.startswith(("s", "z", "ś", "ʃ")):
+            base = "s"
+        elif onset.startswith("l"):
+            base = "l"
+        elif onset.startswith("r"):
+            base = "r"
+        else:
+            base = onset
+    elif "ŋ" in onset:
         base = "ṅ"
     elif "ts" in onset or "dz" in onset:
         base = "ts"
@@ -89,13 +121,17 @@ def normalize_onset(onset: str) -> str:
         base = onset
 
     if labialized and base in {"k", "q"}:
-        return base + "u"
+        base = base + "u"
+    if mode == "node" and aspirated and base in {"k", "q", "t", "p", "ts", "s"}:
+        base = base + "h"
+    if mode == "node" and has_medial_r and base not in {"r", "l", "n", "m"}:
+        base = base + "r"
     return base
 
 
-def normalize_rhyme(rhyme: str) -> tuple[str, str]:
+def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     broad = rhyme.rstrip("ʔs")
-    broad = broad.replace("ˤ", "")
+    broad = broad.replace("ˤ", "").replace("̠", "")
     if not broad:
         return "", ""
     if broad.endswith("j"):
@@ -111,6 +147,15 @@ def normalize_rhyme(rhyme: str) -> tuple[str, str]:
     if broad.endswith("ŋ"):
         broad = broad[:-1]
         coda = "ṅ"
+    elif broad.endswith("ɡ"):
+        broad = broad[:-1]
+        coda = "k"
+    elif broad.endswith("b"):
+        broad = broad[:-1]
+        coda = "p"
+    elif broad.endswith("d"):
+        broad = broad[:-1]
+        coda = "t"
     elif broad.endswith(("k", "m", "n", "r")):
         coda = broad[-1]
         broad = broad[:-1]
@@ -135,7 +180,7 @@ def normalize_rhyme(rhyme: str) -> tuple[str, str]:
     return vowel, coda
 
 
-def derive_oc_root(oc_bs: str | None) -> str | None:
+def derive_oc_root(oc_bs: str | None, *, mode: str = "broad") -> str | None:
     primary = extract_primary_oc_form(oc_bs)
     if primary is None:
         return None
@@ -144,8 +189,8 @@ def derive_oc_root(oc_bs: str | None) -> str | None:
     if parts is None:
         return None
     onset, rhyme = parts
-    normalized_onset = normalize_onset(onset)
-    normalized_vowel, normalized_coda = normalize_rhyme(rhyme)
+    normalized_onset = normalize_onset(onset, mode=mode)
+    normalized_vowel, normalized_coda = normalize_rhyme(rhyme, mode=mode)
     root = normalized_onset + normalized_vowel + normalized_coda
     return root or None
 
@@ -172,7 +217,7 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
                 continue
 
             oc_bs = row.get("oc_bs")
-            root = derive_oc_root(oc_bs)
+            root = derive_oc_root(oc_bs, mode="broad")
             if not root:
                 continue
             candidates.append(

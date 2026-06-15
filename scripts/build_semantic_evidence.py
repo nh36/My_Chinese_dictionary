@@ -9,6 +9,7 @@ from typing import Any
 import hierarchy_utils
 import inventory_tex
 import mc_resolution
+import resolve_series_roots
 
 
 DEFAULT_TEX_ENTRIES = "data/current_tex_entries.json"
@@ -852,6 +853,92 @@ def derive_missing_series_transliteration(entry: dict[str, Any], candidate: dict
     return compose_transliteration_from_root(resolved_root, semantic_assignment)
 
 
+def derive_transliteration_from_resolved_root(root: str | None, candidate: dict[str, Any]) -> str | None:
+    if not root:
+        return candidate.get("transliteration_latex")
+    semantic_assignment = candidate.get("semantic_assignment") or {}
+    if semantic_assignment.get("position") == "none":
+        return rf"{{\large{{{root}}}}},"
+    return compose_transliteration_from_root(root, semantic_assignment)
+
+
+def derive_candidate_oc_roots(candidate: dict[str, Any], *, mode: str) -> list[str]:
+    roots: list[str] = []
+    for row in candidate.get("bs_gsr_rows", []):
+        root = resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode=mode)
+        if root:
+            roots.append(root)
+    for row in candidate.get("shengfu_character_rows", []):
+        oc_syllable = row.get("oc_syllable")
+        if oc_syllable:
+            root = resolve_series_roots.derive_oc_root(f"*{oc_syllable}", mode=mode)
+            if root:
+                roots.append(root)
+    return dedupe_preserve(roots)
+
+
+def resolve_generated_node_root(
+    candidate: dict[str, Any],
+    candidate_children: dict[str, list[dict[str, Any]]],
+    candidate_map: dict[str, dict[str, Any]],
+) -> dict[str, Any] | None:
+    descendant_characters = hierarchy_utils.collect_descendant_characters(candidate["character"], candidate_children)
+    relevant_candidates = [candidate] + [
+        candidate_map[character]
+        for character in descendant_characters
+        if character in candidate_map
+    ]
+    roots = dedupe_preserve(
+        root
+        for item in relevant_candidates
+        for root in derive_candidate_oc_roots(item, mode="node")
+        if root
+    )
+    head_roots = derive_candidate_oc_roots(candidate, mode="node")
+    resolved_root = None
+    source = None
+    if len(roots) == 1:
+        resolved_root = roots[0]
+        source = "node_oc_consensus"
+    elif head_roots:
+        resolved_root = sorted(head_roots, key=len, reverse=True)[0]
+        source = "node_head_oc"
+    else:
+        fallback = hierarchy_utils.extract_large_content(candidate.get("transliteration_latex"))
+        if fallback:
+            resolved_root = re.sub(TEXTSUP_RE, "", fallback).replace("{", "").replace("}", "")
+            source = "node_transliteration_fallback"
+    if not resolved_root:
+        return None
+    return {
+        "root": resolved_root,
+        "source": source,
+        "descendant_count": len(descendant_characters),
+    }
+
+
+def resolve_parent_root_for_candidate(
+    entry: dict[str, Any],
+    candidate: dict[str, Any],
+    candidate_map: dict[str, dict[str, Any]],
+) -> str | None:
+    assignment = candidate.get("hierarchy_assignment") or {}
+    status = assignment.get("status")
+    if status == "assigned-to-inherited-node":
+        return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
+    if status == "assigned-to-candidate-node":
+        parent = candidate_map.get(assignment.get("parent_character"))
+        if parent:
+            node_root = (parent.get("resolved_node_root") or {}).get("root")
+            if node_root:
+                return node_root
+    if entry.get("packet_kind") == "missing_series":
+        return (entry.get("resolved_series_root") or {}).get("root")
+    if entry.get("tex_entry") is not None:
+        return extract_series_root_latex(entry["tex_entry"]["raw_block"])
+    return None
+
+
 def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
     transliteration_latex = normalize_transliteration_latex(candidate.get("transliteration_latex"))
     if not transliteration_latex:
@@ -1099,6 +1186,7 @@ def enrich_curated_entry_with_ids(
                 top_level_head,
             )
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
+    candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
     for candidate in entry.get("proposed_additions", []):
         if candidate.get("semantic_assignment") is None and candidate_children.get(candidate["character"]):
             candidate["semantic_assignment"] = {
@@ -1109,9 +1197,20 @@ def enrich_curated_entry_with_ids(
                 "source": "generated_subseries_head",
                 "semantic_component": None,
             }
-            if entry.get("packet_kind") == "missing_series":
-                candidate["transliteration_latex"] = derive_missing_series_transliteration(entry, candidate)
-                candidate["render_latex"] = synthesize_render_latex(candidate)
+    for candidate in entry.get("proposed_additions", []):
+        if candidate_children.get(candidate["character"]):
+            candidate["resolved_node_root"] = resolve_generated_node_root(
+                candidate,
+                candidate_children,
+                candidate_map,
+            )
+        else:
+            candidate["resolved_node_root"] = None
+    for candidate in entry.get("proposed_additions", []):
+        parent_root = resolve_parent_root_for_candidate(entry, candidate, candidate_map)
+        if parent_root:
+            candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(parent_root, candidate)
+            candidate["render_latex"] = synthesize_render_latex(candidate)
     return entry
 
 

@@ -6,6 +6,7 @@ from typing import Any
 
 CHAR_RE = re.compile(r"[\u3400-\u9fff\U00020000-\U0002ceaf]")
 RHS_RE = re.compile(r"=\s*(\{\\large\{.*)", re.DOTALL)
+LARGE_CONTENT_RE = re.compile(r"^\{\\(?:large|Large)\{(.+)\}\},?$")
 HINT_SOURCE_ORDER = {
     "wiktionary_semantic_validation": 0,
     "wiktionary_han_compound": 1,
@@ -165,3 +166,23 @@ def collect_candidate_children(entry: dict[str, Any]) -> dict[str, list[dict[str
         if parent_character:
             children.setdefault(parent_character, []).append(candidate)
     return children
+
+
+def collect_descendant_characters(
+    root_character: str,
+    candidate_children: dict[str, list[dict[str, Any]]],
+) -> list[str]:
+    result: list[str] = []
+    for child in candidate_children.get(root_character, []):
+        result.append(child["character"])
+        result.extend(collect_descendant_characters(child["character"], candidate_children))
+    return result
+
+
+def extract_large_content(latex_snippet: str | None) -> str | None:
+    if not latex_snippet:
+        return None
+    match = LARGE_CONTENT_RE.match(latex_snippet.strip())
+    if match:
+        return match.group(1)
+    return None

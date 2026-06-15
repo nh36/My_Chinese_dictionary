@@ -159,7 +159,19 @@ def render_candidate_node(
     candidate_children: dict[str, list[dict[str, Any]]],
 ) -> list[str]:
     lines = [r"\item " + build_candidate_heading_line(candidate)]
-    lines.extend(render_candidate_body_lines(candidate))
+    body_lines = render_candidate_body_lines(candidate)
+    transliteration_lines: list[str] = []
+    mc_lines: list[str] = []
+    for line in body_lines:
+        if line.startswith(r"\textit{") or line.startswith("% no MC"):
+            mc_lines.append(line)
+        else:
+            transliteration_lines.append(line)
+    lines.extend(transliteration_lines)
+    resolved_node_root = (candidate.get("resolved_node_root") or {}).get("root")
+    if resolved_node_root:
+        lines.append(rf"= {{\large{{{resolved_node_root}}}}},")
+    lines.extend(mc_lines)
     children = candidate_children.get(candidate["character"], [])
     if children:
         lines.extend(render_candidate_group_lines(children, candidate_children))

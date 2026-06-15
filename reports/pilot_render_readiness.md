@@ -10,6 +10,7 @@
 | Semantic placement present | 292 | 292 |
 | Transliteration LaTeX present | 292 | 292 |
 | Candidate render LaTeX present | 292 | 292 |
+| Generated subseries heads rendered with `=` root lines | 24 | 24 |
 
 ## Render markers
 

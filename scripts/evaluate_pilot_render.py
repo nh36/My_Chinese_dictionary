@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+import hierarchy_utils
+
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_TEX_PATH = "build/generated_curated_series_sample.tex"
@@ -37,6 +39,20 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
     packets_with_existing_baseline = sum(1 for entry in entries if entry.get("tex_entry"))
     provisional_marker_count = rendered_tex.count("[provisional draft")
     proposed_marker_count = rendered_tex.count("[proposed additions")
+    generated_subseries_heads = []
+    rendered_subseries_heads = 0
+    for entry in entries:
+        candidate_children = hierarchy_utils.collect_candidate_children(entry)
+        for candidate in entry.get("proposed_additions", []):
+            resolved_node_root = (candidate.get("resolved_node_root") or {}).get("root")
+            if not candidate_children.get(candidate["character"]) or not resolved_node_root:
+                continue
+            generated_subseries_heads.append(candidate["character"])
+            item_token = rf"\item {{\Large{{{candidate['character']}}}"
+            equals_token = rf"= {{\large{{{resolved_node_root}}}}},"
+            position = rendered_tex.find(item_token)
+            if position != -1 and equals_token in rendered_tex[position : position + 500]:
+                rendered_subseries_heads += 1
 
     return {
         "packet_count": len(entries),
@@ -48,6 +64,8 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
         "packets_with_existing_baseline": packets_with_existing_baseline,
         "provisional_marker_count": provisional_marker_count,
         "proposed_marker_count": proposed_marker_count,
+        "generated_subseries_head_count": len(generated_subseries_heads),
+        "rendered_subseries_head_count": rendered_subseries_heads,
         "overall_status": (
             "ready"
             if total_proposed
@@ -56,6 +74,7 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
             and transliteration_ready == total_proposed
             and render_ready == total_proposed
             and provisional_marker_count == 0
+            and rendered_subseries_heads == len(generated_subseries_heads)
             else "not ready"
         ),
     }
@@ -75,6 +94,7 @@ def render_report(metrics: dict[str, Any]) -> str:
         f"| Semantic placement present | {metrics['placement_ready']} | {metrics['total_proposed_additions']} |",
         f"| Transliteration LaTeX present | {metrics['transliteration_ready']} | {metrics['total_proposed_additions']} |",
         f"| Candidate render LaTeX present | {metrics['render_ready']} | {metrics['total_proposed_additions']} |",
+        f"| Generated subseries heads rendered with `=` root lines | {metrics['rendered_subseries_head_count']} | {metrics['generated_subseries_head_count']} |",
         "",
         "## Render markers",
         "",
