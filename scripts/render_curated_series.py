@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+import mc_resolution
 import render_entries
 
 
@@ -64,10 +65,8 @@ def collect_candidate_pinyins(candidate: dict[str, Any]) -> list[str]:
 
 
 def collect_candidate_mc_forms(candidate: dict[str, Any]) -> list[str]:
-    mand_forms = [row["mc_nwh"] for row in candidate["mand2mc_rows"] if row.get("mc_nwh")]
-    if mand_forms:
-        return dedupe_preserve(mand_forms)
-    return dedupe_preserve([row["mc_bs"] for row in candidate["bs_gsr_rows"] if row.get("mc_bs")])
+    resolution = candidate.get("mc_resolution") or mc_resolution.resolve_candidate_mc(candidate)
+    return resolution["display_forms"]
 
 
 def collect_candidate_gsr_values(candidate: dict[str, Any]) -> list[str]:
@@ -80,7 +79,11 @@ def collect_candidate_gsr_values(candidate: dict[str, Any]) -> list[str]:
 def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
     render_latex = candidate.get("render_latex")
     if render_latex:
-        return [line.rstrip() for line in render_latex.splitlines() if line.strip()]
+        return [
+            line.rstrip()
+            for line in render_latex.splitlines()
+            if line.strip() and "[MC disagreement among imported sources]" not in line
+        ]
 
     character = candidate["character"]
     pinyins = collect_candidate_pinyins(candidate)
@@ -104,9 +107,6 @@ def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
             lines.append(f"\\textit{{{mc_form}}};{comment}")
     elif gsr_values:
         lines.append("% no MC extracted\t%" + ", ".join(gsr_values))
-
-    if candidate["mand_bs_mc_disagreement"]:
-        lines.append("{\\footnotesize[MC disagreement among imported sources]}")
 
     return lines
 
@@ -133,8 +133,34 @@ def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
         build_existing_heading_line(entry),
         f"% Proposed additions from imported sources for {entry['id']}",
     ]
+    hierarchy = entry.get("entry_hierarchy") or {}
+    hierarchy_nodes = hierarchy.get("nodes") or []
+    grouped_by_parent: dict[str, list[dict[str, Any]]] = {}
+    top_level_candidates: list[dict[str, Any]] = []
+
     for candidate in entry["proposed_additions"]:
+        assignment = candidate.get("hierarchy_assignment") or {}
+        if assignment.get("status") == "assigned-to-node" and assignment.get("parent_character"):
+            grouped_by_parent.setdefault(assignment["parent_character"], []).append(candidate)
+            continue
+        top_level_candidates.append(candidate)
+
+    for candidate in top_level_candidates:
         body_lines.extend(render_candidate_lines(candidate))
+    if grouped_by_parent:
+        body_lines.append(r"\begin{itemize}[noitemsep]")
+        for node in hierarchy_nodes:
+            parent = node.get("key_character")
+            grouped_candidates = grouped_by_parent.get(parent) or []
+            if not grouped_candidates:
+                continue
+            if node.get("rhs_snippet"):
+                body_lines.append(rf"\item {node['display_line']} = {node['rhs_snippet']}")
+            else:
+                body_lines.append(rf"\item {node['display_line']}")
+            for candidate in grouped_candidates:
+                body_lines.extend(render_candidate_lines(candidate))
+        body_lines.append(r"\end{itemize}")
     return render_context_wrapped_block(tex_entry.get("context_environments", []), body_lines)
 
 

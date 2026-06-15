@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Any
 
 import build_coverage_model
+import hierarchy_utils
+import mc_resolution
 
 
 DEFAULT_TEX_ENTRIES = "data/current_tex_entries.json"
@@ -102,25 +104,17 @@ def build_candidate_rows(
             if row.get("normalized_phonetic_component") == character
         ]
 
-        mand_bs_mc_disagreement = False
-        mand_bs_values = {
-            row["mc_bs"] for row in mand_rows_for_char if row.get("mc_bs")
+        candidate = {
+            "character": character,
+            "in_tex": character in tex_characters,
+            "mand2mc_rows": mand_rows_for_char,
+            "bs_gsr_rows": bs_rows_for_char,
+            "shengfu_character_rows": shengfu_char_rows,
+            "shengfu_component_rows": shengfu_component_rows,
         }
-        bs_values = {row["mc_bs"] for row in bs_rows_for_char if row.get("mc_bs")}
-        if mand_bs_values and bs_values and mand_bs_values != bs_values:
-            mand_bs_mc_disagreement = True
-
-        candidate_rows.append(
-            {
-                "character": character,
-                "in_tex": character in tex_characters,
-                "mand2mc_rows": mand_rows_for_char,
-                "bs_gsr_rows": bs_rows_for_char,
-                "shengfu_character_rows": shengfu_char_rows,
-                "shengfu_component_rows": shengfu_component_rows,
-                "mand_bs_mc_disagreement": mand_bs_mc_disagreement,
-            }
-        )
+        candidate["mc_resolution"] = mc_resolution.resolve_candidate_mc(candidate)
+        candidate["mand_bs_mc_disagreement"] = candidate["mc_resolution"]["needs_investigation"]
+        candidate_rows.append(candidate)
 
     return candidate_rows
 
@@ -194,6 +188,12 @@ def build_series_packet(
             "mc_forms": tex_entry["mc_forms"],
             "gsr_markers": tex_entry["gsr_markers"],
             "raw_block": tex_entry["raw_block"],
+        }
+        if tex_entry
+        else None,
+        "entry_hierarchy": {
+            "top_level_head": hierarchy_utils.extract_head_character(tex_entry["head"]),
+            "nodes": hierarchy_utils.extract_hierarchy_nodes(tex_entry["raw_block"]),
         }
         if tex_entry
         else None,

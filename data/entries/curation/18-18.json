@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T19:29:13.615326+00:00",
+  "generated_at": "2026-06-15T07:29:43.826641+00:00",
   "id": "18-18",
   "status": "machine-curated-pilot",
   "packet_kind": "existing_addendum",
@@ -100,6 +100,10 @@
     ],
     "raw_block": "\\paragraph{\\textoversetlarge{18-18}{\\huge{麻}}}\n{\\large{may}},\n\\textit{mae},\t%kae\t%0015a\n%麻\t%ma2\t\n\\textit{mae},\t%mae\t0017a\n%塺\t%mo4\t\n\\textit{maH};\t%maH\t0017c\n麽 \n{\\large{may{\\textsuperscript{:parv}}}},\n%mo3\t\n\\textit{maX};\t%maX\t0017d\n摩\t%mo2\t\n{\\large{may{\\textsuperscript{:man}}}},\n\\textit{ma};\t%ma\t0017e\n磨\t%mo2\t\n{\\large{may{\\textsuperscript{:lap}}}},\n\\textit{ma};\t%ma\t0017f\n糜\t%mi2\t\n{\\large{may{\\textsuperscript{:oryz}}}},\n\\textit{mie};\t%mje\t0017g\n麾\t%hui1\t\n{\\large{may{\\textsuperscript{:pil}}}},\n\\textit{hiwe};\t%xjwe\t0017i\n\\begin{itemize}[noitemsep]\n    \\item 靡\n{\\large{may{\\textsuperscript{:ne}}}} = \n{\\large{m\\textoverset{b}ay}},\n%mi2\t\n\\textit{mie},\t%mje\t0017h\n%靡\t%mi3\t\n\\textit{mieX};\t%mjeX\t0017h\n攠\t%mi2\t\n\\textit{mie}.\t%mje\t0017j\n\\end{itemize}\n\\end{spacing}\n\n\n\n\n\n"
   },
+  "entry_hierarchy": {
+    "top_level_head": "麻",
+    "nodes": []
+  },
   "candidate_source_strategy": "tex_gsr_prefixes",
   "candidate_source_tokens": [
     "15",
@@ -114,6 +118,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 15,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [
+          "kae"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "188",
@@ -333,56 +356,6 @@
           "oc_syllable": "kʳa̠ls"
         }
       ],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|力|口|t1=strength|t2=mouth|ls=ic|nocap=1}}",
-          "positional_components": [
-            "力",
-            "口"
-          ],
-          "named_args": {
-            "t1": "strength",
-            "t2": "mouth",
-            "ls": "ic",
-            "nocap": "1"
-          },
-          "semantic_components": [],
-          "phonetic_components": []
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|力|口|t1=strength|t2=mouth|ls=ic|nocap=1}}",
-            "positional_components": [
-              "力",
-              "口"
-            ],
-            "named_args": {
-              "t1": "strength",
-              "t2": "mouth",
-              "ls": "ic",
-              "nocap": "1"
-            },
-            "semantic_components": [],
-            "phonetic_components": []
-          },
-          {
-            "template_raw": "{{Han compound|力|口|t1=plowing|t2=mouth|ls=ic|nocap=1}}",
-            "positional_components": [
-              "力",
-              "口"
-            ],
-            "named_args": {
-              "t1": "plowing",
-              "t2": "mouth",
-              "ls": "ic",
-              "nocap": "1"
-            },
-            "semantic_components": [],
-            "phonetic_components": []
-          }
-        ]
-      },
       "tex_occurrence_candidates": [
         {
           "character": "加",
@@ -434,9 +407,8 @@
           ]
         }
       ],
-      "render_latex": "%加\t%jia1\t\n\\textit{kae};\t%kae\t%0015a",
-      "semantic_candidates_from_ids": [],
       "transliteration_latex": "kay",
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
         "abbreviation": null,
@@ -445,7 +417,59 @@
         "source": "existing_tex_head",
         "semantic_component": null
       },
-      "wiktionary_semantic_validation": null
+      "render_latex": "加\t%jia1 / jiā\nkay\n\\textit{kae};\t%0015a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|力|口|t1=strength|t2=mouth|ls=ic|nocap=1}}",
+          "positional_components": [
+            "力",
+            "口"
+          ],
+          "named_args": {
+            "t1": "strength",
+            "t2": "mouth",
+            "ls": "ic",
+            "nocap": "1"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|力|口|t1=strength|t2=mouth|ls=ic|nocap=1}}",
+            "positional_components": [
+              "力",
+              "口"
+            ],
+            "named_args": {
+              "t1": "strength",
+              "t2": "mouth",
+              "ls": "ic",
+              "nocap": "1"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|力|口|t1=plowing|t2=mouth|ls=ic|nocap=1}}",
+            "positional_components": [
+              "力",
+              "口"
+            ],
+            "named_args": {
+              "t1": "plowing",
+              "t2": "mouth",
+              "ls": "ic",
+              "nocap": "1"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      }
     },
     {
       "character": "枷",
@@ -455,6 +479,26 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "189",
@@ -489,11 +533,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      },
       "tex_occurrence_candidates": [
         {
           "character": "枷",
@@ -583,7 +622,13 @@
         }
       ],
       "render_latex": "枷\t%jia1\n{\\large{{\\textsuperscript{arb·}}kay}},\n\\textit{kae};\t%0015c\n\\textit{kaeH};",
-      "wiktionary_semantic_validation": null
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      }
     },
     {
       "character": "珈",
@@ -593,6 +638,23 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "191",
@@ -619,49 +681,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}",
-          "positional_components": [
-            "玉",
-            "加"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "t1": "jade",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "玉"
-          ],
-          "phonetic_components": [
-            "加"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}",
-            "positional_components": [
-              "玉",
-              "加"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "t1": "jade",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "玉"
-            ],
-            "phonetic_components": [
-              "加"
-            ]
-          }
-        ]
-      },
       "tex_occurrence_candidates": [
         {
           "character": "珈",
@@ -716,7 +735,7 @@
         "semantic_component": "玉"
       },
       "transliteration_latex": "{\\large{{\\textsuperscript{gem·}}kay}},",
-      "render_latex": "珈\t%jia1\t\n{\\large{{\\textsuperscript{gem·}}kay}},\n\\textit{kae};\t%kae\t%0015d",
+      "render_latex": "珈\t%jia1\n{\\large{{\\textsuperscript{gem·}}kay}},\n\\textit{kae};\t%kae\t%0015d",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -770,6 +789,50 @@
           ],
           "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}"
         }
+      },
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}",
+          "positional_components": [
+            "玉",
+            "加"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "jade",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "玉"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|玉|加|c1=s|c2=p|t1=jade|ls=psc}}",
+            "positional_components": [
+              "玉",
+              "加"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "jade",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "玉"
+            ],
+            "phonetic_components": [
+              "加"
+            ]
+          }
+        ]
       }
     },
     {
@@ -780,6 +843,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "kaeH"
+        ],
+        "bs_gsr_forms": [
+          "kaeH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "192",
@@ -818,47 +900,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}",
-          "positional_components": [
-            "加",
-            "馬"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "p",
-            "c2": "s"
-          },
-          "semantic_components": [
-            "馬"
-          ],
-          "phonetic_components": [
-            "加"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}",
-            "positional_components": [
-              "加",
-              "馬"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "p",
-              "c2": "s"
-            },
-            "semantic_components": [
-              "馬"
-            ],
-            "phonetic_components": [
-              "加"
-            ]
-          }
-        ]
-      },
       "tex_occurrence_candidates": [
         {
           "character": "駕",
@@ -913,7 +954,7 @@
         "semantic_component": "馬"
       },
       "transliteration_latex": "{\\large{kay{\\textsuperscript{:equ}}}},",
-      "render_latex": "駕\t%jia4\t\n{\\large{kay{\\textsuperscript{:equ}}}},\n\\textit{kaeH};\t%kaeH\t%0015e",
+      "render_latex": "駕\t%jia4\n{\\large{kay{\\textsuperscript{:equ}}}},\n\\textit{kaeH};\t%kaeH\t%0015e",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -967,6 +1008,48 @@
           ],
           "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}"
         }
+      },
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "加",
+            "馬"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "馬"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|加|馬|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "加",
+              "馬"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "馬"
+            ],
+            "phonetic_components": [
+              "加"
+            ]
+          }
+        ]
       }
     },
     {
@@ -977,6 +1060,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [
+          "kae"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "193",
@@ -1015,47 +1117,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}",
-          "positional_components": [
-            "壴",
-            "加"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "壴"
-          ],
-          "phonetic_components": [
-            "加"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}",
-            "positional_components": [
-              "壴",
-              "加"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "壴"
-            ],
-            "phonetic_components": [
-              "加"
-            ]
-          }
-        ]
-      },
       "tex_occurrence_candidates": [
         {
           "character": "嘉",
@@ -1110,7 +1171,7 @@
         "semantic_component": "壴"
       },
       "transliteration_latex": "{\\large{{\\textsuperscript{tympan:}}kay}},",
-      "render_latex": "嘉\t%jia1\t\n{\\large{{\\textsuperscript{tympan:}}kay}},\n\\textit{kae};\t%kae\t%0015g",
+      "render_latex": "嘉\t%jia1\n{\\large{{\\textsuperscript{tympan:}}kay}},\n\\textit{kae};\t%kae\t%0015g",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -1164,6 +1225,48 @@
           ],
           "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}"
         }
+      },
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "壴",
+            "加"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "壴"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|壴|加|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "壴",
+              "加"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "壴"
+            ],
+            "phonetic_components": [
+              "加"
+            ]
+          }
+        ]
       }
     },
     {
@@ -1174,6 +1277,23 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaX"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaX"
+        ],
+        "mand2mc_bs_forms": [
+          "kaX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "194",
@@ -1200,11 +1320,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      },
       "tex_occurrence_candidates": [
         {
           "character": "哿",
@@ -1249,7 +1364,7 @@
         ]
       },
       "transliteration_latex": "{\\large{kay{\\textsuperscript{:poss}}}},",
-      "render_latex": "哿\t%ge3\t\n{\\large{kay{\\textsuperscript{:poss}}}},\n\\textit{kaX};\t%kaX\t%0015i",
+      "render_latex": "哿\t%ge3\n{\\large{kay{\\textsuperscript{:poss}}}},\n\\textit{kaX};\t%kaX\t%0015i",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -1270,7 +1385,13 @@
           ]
         }
       ],
-      "wiktionary_semantic_validation": null
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      }
     },
     {
       "character": "賀",
@@ -1280,6 +1401,23 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫaH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫaH"
+        ],
+        "mand2mc_bs_forms": [
+          "haH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "195",
@@ -1306,49 +1444,6 @@
         }
       ],
       "shengfu_component_rows": [],
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}",
-          "positional_components": [
-            "加",
-            "貝"
-          ],
-          "named_args": {
-            "c1": "p",
-            "c2": "s",
-            "t2": "shellfish money",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "貝"
-          ],
-          "phonetic_components": [
-            "加"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}",
-            "positional_components": [
-              "加",
-              "貝"
-            ],
-            "named_args": {
-              "c1": "p",
-              "c2": "s",
-              "t2": "shellfish money",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "貝"
-            ],
-            "phonetic_components": [
-              "加"
-            ]
-          }
-        ]
-      },
       "tex_occurrence_candidates": [
         {
           "character": "賀",
@@ -1403,7 +1498,7 @@
         "semantic_component": "貝"
       },
       "transliteration_latex": "{\\large{kay{\\textsuperscript{:conch}}}},",
-      "render_latex": "賀\t%he4\t\n{\\large{kay{\\textsuperscript{:conch}}}},\n\\textit{ḫaH};\t%haH\t%0015j",
+      "render_latex": "賀\t%he4\n{\\large{kay{\\textsuperscript{:conch}}}},\n\\textit{ḫaH};\t%haH\t%0015j",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -1457,6 +1552,50 @@
           ],
           "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}"
         }
+      },
+      "hierarchy_assignment": null,
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}",
+          "positional_components": [
+            "加",
+            "貝"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "shellfish money",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "貝"
+          ],
+          "phonetic_components": [
+            "加"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|加|貝|c1=p|c2=s|t2=shellfish money|ls=psc}}",
+            "positional_components": [
+              "加",
+              "貝"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "shellfish money",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "貝"
+            ],
+            "phonetic_components": [
+              "加"
+            ]
+          }
+        ]
       }
     }
   ],
@@ -1469,6 +1608,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 15,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [
+          "kae"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "188",
@@ -1697,6 +1855,29 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "kae",
+          "kaeH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "kae",
+          "kaeH"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "189",
@@ -1740,6 +1921,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "kae"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "191",
@@ -1775,6 +1975,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "kaeH"
+        ],
+        "bs_gsr_forms": [
+          "kaeH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "192",
@@ -1822,6 +2041,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kae"
+        ],
+        "mand2mc_nwh_forms": [
+          "kae"
+        ],
+        "mand2mc_bs_forms": [
+          "kae"
+        ],
+        "bs_gsr_forms": [
+          "kae"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "193",
@@ -1869,6 +2107,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaX"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaX"
+        ],
+        "mand2mc_bs_forms": [
+          "kaX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "kaX"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "194",
@@ -1904,6 +2161,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫaH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫaH"
+        ],
+        "mand2mc_bs_forms": [
+          "haH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "haH"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "195",
@@ -1939,6 +2215,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 38,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mae"
+        ],
+        "mand2mc_nwh_forms": [
+          "mae"
+        ],
+        "mand2mc_bs_forms": [
+          "mae"
+        ],
+        "bs_gsr_forms": [
+          "mae"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "201",
@@ -2443,6 +2738,25 @@
       "shengfu_character_count": 2,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "maH"
+        ],
+        "mand2mc_nwh_forms": [
+          "maH"
+        ],
+        "mand2mc_bs_forms": [
+          "maH"
+        ],
+        "bs_gsr_forms": [
+          "maH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "202",
@@ -2502,6 +2816,25 @@
       "shengfu_character_count": 0,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "maX"
+        ],
+        "mand2mc_nwh_forms": [
+          "maX"
+        ],
+        "mand2mc_bs_forms": [
+          "maX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "maX"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "203",
@@ -2524,6 +2857,25 @@
       "shengfu_character_count": 2,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ma"
+        ],
+        "mand2mc_nwh_forms": [
+          "ma"
+        ],
+        "mand2mc_bs_forms": [
+          "ma"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "ma"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "204",
@@ -2571,6 +2923,28 @@
       "shengfu_character_count": 2,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ma"
+        ],
+        "mand2mc_nwh_forms": [
+          "ma"
+        ],
+        "mand2mc_bs_forms": [
+          "ma"
+        ],
+        "bs_gsr_forms": [
+          "ma",
+          "maH"
+        ],
+        "bs_not_in_mand2mc": [
+          "maH"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "205",
@@ -2641,6 +3015,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mie"
+        ],
+        "mand2mc_nwh_forms": [
+          "mie"
+        ],
+        "mand2mc_bs_forms": [
+          "mje"
+        ],
+        "bs_gsr_forms": [
+          "mje"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "206",
@@ -2688,6 +3081,29 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mie",
+          "mieX"
+        ],
+        "mand2mc_nwh_forms": [
+          "mie",
+          "mieX"
+        ],
+        "mand2mc_bs_forms": [
+          "mje",
+          "mjeX"
+        ],
+        "bs_gsr_forms": [
+          "mje",
+          "mjeX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "207",
@@ -2787,6 +3203,25 @@
       "shengfu_character_count": 1,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwe"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwe"
+        ],
+        "mand2mc_bs_forms": [
+          "xjwe"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "xjwe"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "209",
@@ -2822,6 +3257,25 @@
       "shengfu_character_count": 2,
       "shengfu_component_count": 0,
       "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mie"
+        ],
+        "mand2mc_nwh_forms": [
+          "mie"
+        ],
+        "mand2mc_bs_forms": [
+          "mje"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "mje"
+        ],
+        "needs_investigation": false
+      },
       "mand2mc_rows": [
         {
           "source_row_number": "210",

@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 from typing import Any
+
+import hierarchy_utils
 
 DEFAULT_TEX_ENTRIES = "data/current_tex_entries.json"
 DEFAULT_GSC_IDS = ["18-01", "01-01", "01-67"]
@@ -13,33 +14,14 @@ DEFAULT_CURATION_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/hierarchy_gap_analysis.md"
 
 
-CHAR_LINE_RE = re.compile(r"[\u3400-\u9fff\U00020000-\U0002ceaf]")
-RHS_RE = re.compile(r"=\s*(\{\\large\{.*)", re.DOTALL)
-
-
 def extract_intermediate_nodes(raw_block: str) -> list[dict[str, str]]:
-    lines = raw_block.splitlines()
-    nodes: list[dict[str, str]] = []
-    for index, line in enumerate(lines):
-        stripped = line.strip()
-        if not stripped or stripped.startswith("%"):
-            continue
-        normalized = stripped.replace(r"\item", "").strip()
-        if r"{\Large{" not in normalized or normalized.startswith(r"\paragraph{"):
-            continue
-        if not CHAR_LINE_RE.search(normalized):
-            continue
-        window = "\n".join(lines[index : index + 4])
-        rhs_match = RHS_RE.search(window)
-        if rhs_match:
-            rhs = rhs_match.group(1).strip().splitlines()[0]
-            nodes.append(
-                {
-                    "character_line": normalized,
-                    "rhs_snippet": rhs[:120],
-                }
-            )
-    return nodes
+    return [
+        {
+            "character_line": node["display_line"],
+            "rhs_snippet": node["rhs_snippet"],
+        }
+        for node in hierarchy_utils.extract_hierarchy_nodes(raw_block)
+    ]
 
 
 def load_packet_lookup(
@@ -76,7 +58,9 @@ def packet_candidate_summary(packet_wrapper: dict[str, Any] | None) -> tuple[int
     else:
         candidates = payload.get("candidate_characters", [])
     candidate_keys = sorted(candidates[0].keys()) if candidates else []
-    has_parent_field = any("parent" in key or "subseries" in key for key in candidate_keys)
+    has_parent_field = any(
+        "parent" in key or "subseries" in key or "hierarchy" in key for key in candidate_keys
+    )
     return len(candidates), candidate_keys, has_parent_field
 
 
@@ -138,7 +122,7 @@ def render_report(
                 (
                     "This entry is not yet represented by a packet file, so the current pipeline cannot even attempt a like-for-like reproduction of its hierarchy."
                     if packet is None
-                    else "The current packet schema keeps all candidates as direct siblings of the packet root. It does not yet encode intermediate phonetic nodes, derived subseries heads, or parent-child relations among candidate characters."
+                    else "The packet layer can now preserve extracted subgroup heads and candidate-to-parent assignments where evidence allows, but it still needs broader packetization and better assignment coverage before every hand-done series can be reproduced like-for-like."
                 ),
                 "",
             ]

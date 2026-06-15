@@ -87,6 +87,12 @@ Reuse existing TeX analyses and IDS data to enrich curation files with semantic 
 python3 scripts/build_semantic_evidence.py
 ```
 
+Fetch cached Wiktionary `Han compound` analyses into the curation files:
+
+```sh
+python3 scripts/fetch_wiktionary_component_roles.py
+```
+
 This writes:
 
 - `reports/tex_entries_by_gsr.md`
@@ -145,11 +151,35 @@ Promote those packets into working curation files:
 python3 scripts/promote_series_packets.py
 ```
 
+Refresh the full pilot curation layer in the current safe order:
+
+```sh
+python3 scripts/export_series_packets.py
+python3 scripts/promote_series_packets.py
+python3 scripts/fetch_wiktionary_component_roles.py
+python3 scripts/resolve_series_roots.py
+python3 scripts/build_semantic_evidence.py
+python3 scripts/render_curated_series.py
+```
+
+Analyze MC-source conflicts and hierarchy coverage for the current pilot:
+
+```sh
+python3 scripts/analyze_mc_disagreements.py
+python3 scripts/analyze_hierarchy_gap.py
+```
+
 Render the curated pilot packets into a review PDF:
 
 ```sh
 python3 scripts/render_curated_series.py
 ```
+
+Current MC policy in the pilot pipeline:
+
+- render Mand2MC-derived MC forms when Mand2MC has them;
+- preserve BS/GSR MC evidence in the packet JSON and reports;
+- investigate only the cases where a BS/GSR MC reading is absent from Mand2MC.
 
 The import scripts write:
 

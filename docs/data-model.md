@@ -30,3 +30,18 @@ The repository now also has a working `series packet` layer for expansion work:
 - `build/generated_curated_series_sample.tex` / `.pdf` — a review document built from those curated packets.
 
 These curation files are still explicitly pre-editorial. They preserve source evidence and proposed additions, but they are not yet final dictionary entries and should not be merged into `main.tex` without scholarly review.
+
+The current curation schema now carries two additional structural layers that are meant to survive regeneration:
+
+- `mc_resolution` on each proposed addition:
+  - preserves the Mand2MC and BS/GSR MC form sets separately;
+  - records whether BS/GSR has any reading absent from Mand2MC;
+  - provides the `display_forms` that the pilot renderer should use.
+- `entry_hierarchy` on promoted entries with existing TeX baselines:
+  - stores extracted subgroup heads from nested `itemize` structure, including the inherited intermediate phonetic line;
+  - provides `top_level_head` and ordered `nodes`.
+- `hierarchy_assignment` on proposed additions where the current evidence is strong enough:
+  - links a proposed addition to an inherited subgroup head when Shengfu or Wiktionary phonetic evidence points to that intermediate node;
+  - leaves the addition top-level or unassigned when that evidence is not yet strong enough.
+
+This is still an interim representation, but it is now rich enough for the renderer to keep some hand-authored hierarchy visible instead of flattening every proposed addition back to the top-level packet head.

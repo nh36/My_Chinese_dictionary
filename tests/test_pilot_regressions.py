@@ -27,10 +27,11 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertTrue(all(c.get("semantic_assignment") for c in proposed))
         self.assertTrue(all(c.get("transliteration_latex") for c in proposed))
         self.assertTrue(all(c.get("render_latex") for c in proposed))
+        self.assertTrue(all(c.get("mc_resolution") for c in proposed))
 
-    def test_generated_sample_retains_warning_and_semantic_superscript_markers(self) -> None:
+    def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
-        self.assertIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)
+        self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:
@@ -40,6 +41,12 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertEqual(len(nodes), 5)
         for character in ["固", "胡", "居", "辜", "苦"]:
             self.assertTrue(any(character in node["character_line"] for node in nodes))
+
+    def test_current_01_01_additions_use_inherited_hierarchy(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/01-01.json").read_text(encoding="utf-8"))
+        by_character = {candidate["character"]: candidate for candidate in entry["proposed_additions"]}
+        self.assertEqual(by_character["痼"]["hierarchy_assignment"]["parent_character"], "固")
+        self.assertEqual(by_character["個"]["hierarchy_assignment"]["parent_character"], "固")
 
 
 if __name__ == "__main__":

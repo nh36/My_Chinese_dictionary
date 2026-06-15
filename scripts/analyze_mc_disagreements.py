@@ -6,25 +6,18 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+import mc_resolution
+
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/mc_disagreement_analysis.md"
 
 
-def dedupe(values: list[str]) -> list[str]:
-    result: list[str] = []
-    seen: set[str] = set()
-    for value in values:
-        if value and value not in seen:
-            seen.add(value)
-            result.append(value)
-    return result
-
-
 def classify_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
-    mand_forms = dedupe([row.get("mc_nwh") for row in candidate.get("mand2mc_rows", []) if row.get("mc_nwh")])
-    bs_forms = dedupe([row.get("mc_bs") for row in candidate.get("bs_gsr_rows", []) if row.get("mc_bs")])
-    gsr_values = dedupe(
+    resolution = candidate.get("mc_resolution") or mc_resolution.resolve_candidate_mc(candidate)
+    mand_forms = resolution["mand2mc_nwh_forms"]
+    bs_forms = resolution["bs_gsr_forms"]
+    gsr_values = mc_resolution.dedupe(
         [row.get("gsr") for row in candidate.get("mand2mc_rows", []) if row.get("gsr")]
         + [row.get("gsr") for row in candidate.get("bs_gsr_rows", []) if row.get("gsr")]
     )
@@ -34,10 +27,10 @@ def classify_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
         categories.append("mand2mc-multiple")
     if len(bs_forms) > 1:
         categories.append("bs-gsr-multiple")
-    if mand_forms and bs_forms and set(mand_forms) != set(bs_forms):
-        categories.append("cross-source-mismatch")
-    if len(gsr_values) > 1:
-        categories.append("multiple-gsr")
+    if resolution["bs_not_in_mand2mc"]:
+        categories.append("bs-not-in-mand2mc")
+    if resolution["mand2mc_not_in_bs_gsr"]:
+        categories.append("mand2mc-extra-vs-bs")
 
     return {
         "character": candidate["character"],
@@ -45,6 +38,7 @@ def classify_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
         "mand_forms": mand_forms,
         "bs_forms": bs_forms,
         "gsr_values": gsr_values,
+        "mc_resolution": resolution,
     }
 
 
@@ -81,31 +75,32 @@ def render_report(results: list[dict[str, Any]]) -> str:
             "",
             "## Current interpretation",
             "",
-            "- The rendered warning `[MC disagreement among imported sources]` is currently triggered only by the boolean `mand_bs_mc_disagreement` field.",
-            "- That boolean is set when the Mand2MC `mc_bs` set and the BS/GSR `mc_bs` set for a candidate are both non-empty and not exactly equal.",
-            "- So the current warning is deliberately coarse: it conflates true cross-source conflict with cases where one source preserves only one reading of a graph that is polyphonic in the other source.",
+            "- The pilot should now render Mand2MC-derived MC forms without a visible inline warning.",
+            "- `bs-not-in-mand2mc` is the only case that should force investigation: it means BS/GSR has an MC reading whose Baxter-Sagart form is absent from Mand2MC.",
+            "- `mand2mc-extra-vs-bs` is not by itself a conflict; it means Mand2MC preserves extra readings not reflected in the BS/GSR extraction.",
             "- `mand2mc-multiple` usually means Mand2MC contains multiple MC readings for the same graph, which may reflect real polyphony rather than an error.",
             "- `bs-gsr-multiple` means the BS/GSR PDF lists multiple MC values for the same graph.",
-            "- `cross-source-mismatch` means the Mand2MC and BS/GSR form sets are not identical for the current character packet.",
-            "- `multiple-gsr` means the same graph is tied to more than one GSR item in the imported evidence.",
             "",
             "## Suggested resolution workflow",
             "",
-            "1. Check whether the disagreement is between multiple legitimate readings of the same graph or between truly conflicting analyses.",
-            "2. Where the disagreement matters for promotion into dictionary output, check the relevant Guangyun fanqie / entry rather than trusting either imported source blindly.",
-            "3. Preserve unresolved polyphony explicitly instead of collapsing it into one reading too early.",
+            "1. Render from Mand2MC when it provides an MC form.",
+            "2. Preserve all BS/GSR rows in packet evidence even when they do not affect rendering.",
+            "3. Investigate only the cases where BS/GSR has a reading absent from Mand2MC, using Guangyun / fanqie where the discrepancy matters editorially.",
             "",
             "## Detailed cases",
             "",
-            "| GSC | Character | Categories | Mand2MC MC | BS/GSR MC | GSR values |",
-            "| --- | --- | --- | --- | --- | --- |",
+            "| GSC | Character | Categories | Mand2MC MC | BS/GSR MC | BS not in Mand2MC | Mand2MC extra vs BS | GSR values |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
         ]
     )
 
     for item in results:
         lines.append(
             f"| `{item['gsc_id']}` | {item['character']} | `{', '.join(item['categories'])}` | "
-            f"{'; '.join(item['mand_forms'])} | {'; '.join(item['bs_forms'])} | {', '.join(item['gsr_values'])} |"
+            f"{'; '.join(item['mand_forms'])} | {'; '.join(item['bs_forms'])} | "
+            f"{'; '.join(item['mc_resolution']['bs_not_in_mand2mc'])} | "
+            f"{'; '.join(item['mc_resolution']['mand2mc_not_in_bs_gsr'])} | "
+            f"{', '.join(item['gsr_values'])} |"
         )
 
     return "\n".join(lines) + "\n"

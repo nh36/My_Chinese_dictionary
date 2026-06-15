@@ -29,7 +29,7 @@ This entry is not yet represented by a packet file, so the current pipeline cann
 - Current packet available for direct comparison: yes
 - Current packet candidate count: 4
 - Packet source layer: `curation`
-- Packet candidates have explicit parent/subseries fields: no
+- Packet candidates have explicit parent/subseries fields: yes
 
 ### Detected intermediate nodes in the hand-done entry
 
@@ -41,7 +41,7 @@ This entry is not yet represented by a packet file, so the current pipeline cann
 
 ### Current packet-model limitation
 
-The current packet schema keeps all candidates as direct siblings of the packet root. It does not yet encode intermediate phonetic nodes, derived subseries heads, or parent-child relations among candidate characters.
+The packet layer can now preserve extracted subgroup heads and candidate-to-parent assignments where evidence allows, but it still needs broader packetization and better assignment coverage before every hand-done series can be reproduced like-for-like.
 
 ## `01-67`
 

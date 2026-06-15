@@ -18,6 +18,8 @@
 - Resolve provisional roots for missing-series packets: `python3 scripts/resolve_series_roots.py`
 - Export hand-checkable series packets: `python3 scripts/export_series_packets.py`
 - Promote series packets into curation files: `python3 scripts/promote_series_packets.py`
+- Analyze MC-source conflicts in the current curation layer: `python3 scripts/analyze_mc_disagreements.py`
+- Analyze hierarchy gaps against hand-done entries: `python3 scripts/analyze_hierarchy_gap.py`
 - Render curated pilot packets: `python3 scripts/render_curated_series.py`
 - Evaluate whether a pilot is structurally review-ready: `python3 scripts/evaluate_pilot_render.py`
 - Export the controlled sample entries: `python3 scripts/export_sample_entries.py`
@@ -39,7 +41,7 @@
 - `scripts/extract_tex_entries.py` builds on the inventory pass and writes `data/current_tex_entries.json`. Each extracted entry retains section/subsection context, line ranges, head data, raw LaTeX block/body, Chinese characters, commented pinyin, MC forms, GSR-like markers, image references, and itemize-depth events.
 - `scripts/build_tex_reports.py` generates report files from the extracted entry data. The current tex-only reports are `reports/tex_entries_by_gsr.md`, `reports/tex_entries_without_gsr.md`, `reports/rare_glyphs_and_images.md`, and `reports/semantic_labels_used_in_tex.md`.
 - `scripts/extract_semantic_components.py` turns the `Semantic components` section of `main.tex` into `data/current_semantic_components.json` and `reports/semantic_components_inventory.md`.
-- `scripts/build_semantic_evidence.py` enriches `data/entries/curation/*.json` with semantic/transliteration evidence reused from existing `main.tex`, IDS decomposition heuristics from `data/raw/cjkvi_ids.txt`, and learned component→abbreviation mappings from already trusted TeX entries.
+- `scripts/build_semantic_evidence.py` enriches `data/entries/curation/*.json` with semantic/transliteration evidence reused from existing `main.tex`, IDS decomposition heuristics from `data/raw/cjkvi_ids.txt`, learned component→abbreviation mappings from already trusted TeX entries, structured MC-resolution metadata, and hierarchy assignments where the evidence supports them.
 - `scripts/fetch_wiktionary_component_roles.py` caches raw Wiktionary page data under `data/raw/wiktionary/` and records explicit `Han compound` semantic/phonetic-role evidence where available.
 - `scripts/import_mand2mc.py` and `scripts/import_shengfu.py` are the spreadsheet-ingestion entry points. They preserve raw sheet columns, add explicit `source_row_number` / `source_sheet_name`, append normalized helper columns, and write CSV plus Markdown import reports.
 - `scripts/import_bs_gsr_pdf.py` imports `key references/Reconstructions in GSR order.pdf` via `pdftotext -layout` into `data/derived/bs_gsr.csv` and writes `reports/import_bs_gsr_pdf.md`.
@@ -48,7 +50,7 @@
 - `scripts/build_coverage_model.py` combines TeX entries, Mand2MC, Shengfu, BS/GSR, and the Schuessler PDF series universe to produce `data/derived/character_coverage.csv`, `data/derived/gsc_series_coverage.csv`, and the expansion reports `gsc_series_coverage.md`, `missing_gsc_rhymes_and_series.md`, and `expansion_work_queue.md`.
 - `scripts/resolve_series_roots.py` derives provisional packet-level roots for missing GSC series from head/base graphs and inherited MC evidence, then stores those roots back into `data/entries/curation/*.json`.
 - `scripts/export_series_packets.py` turns one or more target GSC series into hand-checkable curation packets in `data/series_packets/` and `reports/series_packets/`.
-- `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`.
+- `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`, carrying through extracted entry hierarchy for existing TeX baselines.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.
 - `scripts/evaluate_pilot_render.py` is the regression gate for pilot quality. It should be run after any comparable pilot generation; if it reports `not ready`, the output is still missing key structural features like semantic superscripts, placement, or abstract phonetic forms.
 - The current pilot now passes the structural readiness gate for the six pilot packets, but broader expansion still needs more regression coverage and then packet-by-packet scholarly review.
@@ -62,6 +64,7 @@
 
 - Treat `main.tex` as the source of truth for Nathan Hill's hand-checked editorial decisions. Do not silently overwrite its forms, labels, or structure from external data.
 - Preserve Nathan Hill's transcription systems exactly. Middle Chinese forms normally appear in `\textit{...}` and are attested/transcribed forms, so they should **not** be starred. If other systems appear in comments or future imports, keep them in separate fields instead of normalizing over Nathan's form.
+- For MC-source conflicts in the pilot pipeline, treat Mand2MC as the authoritative source for rendered MC forms. Preserve BS/GSR evidence in packet data and reports, and escalate only the cases where BS/GSR has a reading absent from Mand2MC.
 - Preserve Unicode and specialist diacritics exactly, especially non-BMP Chinese characters and forms such as `ṅ`, `ḫ`, `ṭ`, `ḍ`, `ṇ`, `ś`, `ź`, and `ñ`. Do not replace rare-glyph PNGs with Unicode or a different font automatically.
 - Treat LaTeX comments as data. In `main.tex`, `%` comments frequently carry pinyin, Baxter-style Middle Chinese, GSR numbers, and editorial notes that future tooling must preserve.
 - Keep identifier types distinct. A paragraph heading like `18-01` or `01-67` is a GSC series number; inline values such as `0001a` or `0102n` are GSR-style item identifiers; future spreadsheet row numbers or Unicode code points should remain separate fields.
@@ -73,3 +76,4 @@
 - The project goal now includes expansion, not only reproduction: use the coverage outputs to target missing GSC series, missing rhyme sections, and source-backed characters not yet represented in `main.tex`.
 - The next working unit is a `series packet`, not a whole-document rewrite: gather all evidence for one GSC series, review it, then promote it into `data/entries/curation/` before attempting broader dictionary generation.
 - A visually comparable pilot is not just a compact list of characters and MC values. It should ultimately recover semantic superscripts, their side/placement logic, and abstract phonetic values in a form comparable to the hand-written entry.
+- The current safe refresh order for curated pilot packets is: export packets → promote packets → fetch Wiktionary component roles → resolve missing-series roots → build semantic evidence → render the curated sample. Running root resolution after evidence synthesis leaves missing-series transliterations incomplete.

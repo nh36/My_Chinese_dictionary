@@ -6,7 +6,9 @@ import re
 from pathlib import Path
 from typing import Any
 
+import hierarchy_utils
 import inventory_tex
+import mc_resolution
 
 
 DEFAULT_TEX_ENTRIES = "data/current_tex_entries.json"
@@ -668,6 +670,17 @@ def normalize_transliteration_latex(value: str | None) -> str | None:
     return "\n".join(lines) if lines else None
 
 
+def strip_visible_mc_warning(render_latex: str | None) -> str | None:
+    if not render_latex:
+        return None
+    lines = [
+        line.rstrip()
+        for line in render_latex.splitlines()
+        if line.strip() and "[MC disagreement among imported sources]" not in line
+    ]
+    return "\n".join(lines) if lines else None
+
+
 def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if len(matches) <= 1:
         return matches
@@ -827,13 +840,8 @@ def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
         [row["gsr"] for row in candidate.get("mand2mc_rows", []) if row.get("gsr")]
         + [row["gsr"] for row in candidate.get("bs_gsr_rows", []) if row.get("gsr")]
     )
-    mc_forms = dedupe_preserve(
-        [row["mc_nwh"] for row in candidate.get("mand2mc_rows", []) if row.get("mc_nwh")]
-    )
-    if not mc_forms:
-        mc_forms = dedupe_preserve(
-            [row["mc_bs"] for row in candidate.get("bs_gsr_rows", []) if row.get("mc_bs")]
-        )
+    resolution = candidate.get("mc_resolution") or mc_resolution.resolve_candidate_mc(candidate)
+    mc_forms = resolution["display_forms"]
 
     lines = [first_line]
     lines.extend(transliteration_latex.splitlines())
@@ -842,8 +850,6 @@ def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
         if index == 0 and gsr_values:
             suffix = "\t%" + ", ".join(gsr_values)
         lines.append(f"\\textit{{{mc_form}}};{suffix}")
-    if candidate.get("mand_bs_mc_disagreement"):
-        lines.append("{\\footnotesize[MC disagreement among imported sources]}")
     return "\n".join(lines)
 
 
@@ -861,11 +867,17 @@ def enrich_curated_entry_with_ids(
         normalize_component_graph(candidate["character"])
         for candidate in entry.get("proposed_additions", [])
     }
+    if entry.get("tex_entry") is not None and entry.get("entry_hierarchy") is None:
+        entry["entry_hierarchy"] = {
+            "top_level_head": hierarchy_utils.extract_head_character(entry["tex_entry"].get("head")),
+            "nodes": hierarchy_utils.extract_hierarchy_nodes(entry["tex_entry"]["raw_block"]),
+        }
     if entry.get("tex_entry"):
         packet_family.update(
             normalize_component_graph(ch) for ch in entry["tex_entry"].get("chinese_characters", [])
         )
     for candidate in entry.get("proposed_additions", []):
+        candidate["mc_resolution"] = mc_resolution.resolve_candidate_mc(candidate)
         matches = disambiguate_occurrences(candidate, evidence.get(candidate["character"], []))
         candidate["tex_occurrence_candidates"] = matches
 
@@ -958,6 +970,7 @@ def enrich_curated_entry_with_ids(
             if base_graph is not None:
                 candidate["semantic_assignment"] = base_graph
         candidate["transliteration_latex"] = normalize_transliteration_latex(candidate.get("transliteration_latex"))
+        candidate["render_latex"] = strip_visible_mc_warning(candidate.get("render_latex"))
         if candidate.get("render_latex") is None:
             candidate["render_latex"] = synthesize_render_latex(candidate)
 
@@ -1035,6 +1048,17 @@ def enrich_curated_entry_with_ids(
             resolved_root = (entry.get("resolved_series_root") or {}).get("root")
             if resolved_root:
                 candidate["transliteration_latex"] = rf"{{\large{{{resolved_root}}}}},"
+        candidate["hierarchy_assignment"] = None
+    hierarchy = entry.get("entry_hierarchy") or {}
+    hierarchy_nodes = hierarchy.get("nodes") or []
+    top_level_head = hierarchy.get("top_level_head")
+    if hierarchy_nodes:
+        for candidate in entry.get("proposed_additions", []):
+            candidate["hierarchy_assignment"] = hierarchy_utils.assign_candidate_hierarchy(
+                candidate,
+                hierarchy_nodes,
+                top_level_head,
+            )
     return entry
 
 
@@ -1064,6 +1088,8 @@ def render_report(entries: list[dict[str, Any]]) -> str:
         f"- Additions with reusable render block from existing TeX: {render_ready}",
         f"- Additions with IDS-derived semantic candidates: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if c.get('semantic_candidates_from_ids'))}",
         f"- Additions with explicit Wiktionary Han-compound support: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if c.get('wiktionary_semantic_validation'))}",
+        f"- Additions assigned to inherited hierarchy nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-node')}",
+        f"- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('mc_resolution') or {}).get('needs_investigation'))}",
         "",
         "| GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |",
         "| --- | ---: | ---: | ---: | ---: |",
