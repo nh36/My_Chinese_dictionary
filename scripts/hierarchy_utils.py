@@ -6,6 +6,12 @@ from typing import Any
 
 CHAR_RE = re.compile(r"[\u3400-\u9fff\U00020000-\U0002ceaf]")
 RHS_RE = re.compile(r"=\s*(\{\\large\{.*)", re.DOTALL)
+HINT_SOURCE_ORDER = {
+    "wiktionary_semantic_validation": 0,
+    "wiktionary_han_compound": 1,
+    "shengfu_secondary_component": 2,
+    "shengfu_phonetic_component": 3,
+}
 
 
 def dedupe(values: list[str]) -> list[str]:
@@ -71,14 +77,14 @@ def iter_phonetic_hints(candidate: dict[str, Any]) -> list[dict[str, str]]:
             hints.append({"value": component, "source": "wiktionary_han_compound"})
 
     for row in candidate.get("shengfu_character_rows", []):
-        if row.get("phonetic_component"):
-            hints.append({"value": row["phonetic_component"], "source": "shengfu_phonetic_component"})
         if row.get("secondary_component"):
             hints.append({"value": row["secondary_component"], "source": "shengfu_secondary_component"})
+        if row.get("phonetic_component"):
+            hints.append({"value": row["phonetic_component"], "source": "shengfu_phonetic_component"})
 
     deduped: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
-    for hint in hints:
+    for hint in sorted(hints, key=lambda hint: HINT_SOURCE_ORDER.get(hint["source"], 999)):
         key = (hint["value"], hint["source"])
         if hint["value"] and key not in seen:
             seen.add(key)
@@ -86,7 +92,7 @@ def iter_phonetic_hints(candidate: dict[str, Any]) -> list[dict[str, str]]:
     return deduped
 
 
-def assign_candidate_hierarchy(
+def assign_candidate_to_inherited_hierarchy(
     candidate: dict[str, Any],
     hierarchy_nodes: list[dict[str, Any]],
     top_level_head: str | None,
@@ -96,10 +102,11 @@ def assign_candidate_hierarchy(
         for node in hierarchy_nodes:
             if hint["value"] and hint["value"] in node.get("key_characters", []):
                 return {
-                    "status": "assigned-to-node",
+                    "status": "assigned-to-inherited-node",
                     "parent_character": node.get("key_character"),
                     "parent_display_line": node.get("display_line"),
                     "parent_rhs_snippet": node.get("rhs_snippet"),
+                    "parent_kind": "inherited_node",
                     "source": hint["source"],
                     "phonetic_hint": hint["value"],
                 }
@@ -109,7 +116,52 @@ def assign_candidate_hierarchy(
                 "parent_character": top_level_head,
                 "parent_display_line": None,
                 "parent_rhs_snippet": None,
+                "parent_kind": "top_level",
                 "source": hint["source"],
                 "phonetic_hint": hint["value"],
             }
     return None
+
+
+def assign_candidate_to_candidate(
+    candidate: dict[str, Any],
+    candidate_characters: set[str],
+    top_level_head: str | None,
+) -> dict[str, Any] | None:
+    hints = iter_phonetic_hints(candidate)
+    for hint in hints:
+        if top_level_head and hint["value"] == top_level_head:
+            return {
+                "status": "assigned-to-top-level",
+                "parent_character": top_level_head,
+                "parent_display_line": None,
+                "parent_rhs_snippet": None,
+                "parent_kind": "top_level",
+                "source": hint["source"],
+                "phonetic_hint": hint["value"],
+            }
+        if hint["value"] == candidate["character"]:
+            continue
+        if hint["value"] in candidate_characters:
+            return {
+                "status": "assigned-to-candidate-node",
+                "parent_character": hint["value"],
+                "parent_display_line": None,
+                "parent_rhs_snippet": None,
+                "parent_kind": "candidate",
+                "source": hint["source"],
+                "phonetic_hint": hint["value"],
+            }
+    return None
+
+
+def collect_candidate_children(entry: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
+    children: dict[str, list[dict[str, Any]]] = {}
+    for candidate in entry.get("proposed_additions", []):
+        assignment = candidate.get("hierarchy_assignment") or {}
+        if assignment.get("status") != "assigned-to-candidate-node":
+            continue
+        parent_character = assignment.get("parent_character")
+        if parent_character:
+            children.setdefault(parent_character, []).append(candidate)
+    return children

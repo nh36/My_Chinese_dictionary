@@ -48,6 +48,17 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertEqual(by_character["痼"]["hierarchy_assignment"]["parent_character"], "固")
         self.assertEqual(by_character["個"]["hierarchy_assignment"]["parent_character"], "固")
 
+    def test_missing_series_additions_use_generated_hierarchy(self) -> None:
+        entry_0201 = json.loads((ROOT / "data/entries/curation/02-01.json").read_text(encoding="utf-8"))
+        by_character_0201 = {candidate["character"]: candidate for candidate in entry_0201["proposed_additions"]}
+        self.assertEqual(by_character_0201["喀"]["hierarchy_assignment"]["parent_character"], "客")
+        self.assertEqual(by_character_0201["露"]["hierarchy_assignment"]["parent_character"], "路")
+
+        entry_3803 = json.loads((ROOT / "data/entries/curation/38-03.json").read_text(encoding="utf-8"))
+        by_character_3803 = {candidate["character"]: candidate for candidate in entry_3803["proposed_additions"]}
+        self.assertEqual(by_character_3803["飲"]["hierarchy_assignment"]["parent_character"], "酓")
+        self.assertEqual(by_character_3803["錦"]["hierarchy_assignment"]["parent_character"], "金")
+
 
 if __name__ == "__main__":
     unittest.main()

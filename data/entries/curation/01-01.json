@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T07:29:43.828492+00:00",
+  "generated_at": "2026-06-15T07:51:37.390713+00:00",
   "id": "01-01",
   "status": "machine-curated-pilot",
   "packet_kind": "existing_addendum",
@@ -245,6 +245,11 @@
       ],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -272,12 +277,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{oryz·}ka}},",
       "render_latex": "糊\t%hú\n{\\large{\\textsuperscript{oryz·}ka}},\n\\textit{hu};\t%49",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      }
+      "hierarchy_assignment": null
     },
     {
       "character": "菇",
@@ -333,6 +333,47 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "艸",
+            "姑"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "姑"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "艸",
+              "姑"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "姑"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -417,49 +458,9 @@
         "parent_character": "古",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "古"
-      },
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "艸",
-            "姑"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "艸"
-          ],
-          "phonetic_components": [
-            "姑"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "艸",
-              "姑"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "艸"
-            ],
-            "phonetic_components": [
-              "姑"
-            ]
-          }
-        ]
       }
     },
     {
@@ -516,6 +517,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
+          "positional_components": [
+            "疒",
+            "固"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "illness",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "疒"
+          ],
+          "phonetic_components": [
+            "固"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
+            "positional_components": [
+              "疒",
+              "固"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "illness",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "疒"
+            ],
+            "phonetic_components": [
+              "固"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -578,55 +622,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-node",
+        "status": "assigned-to-inherited-node",
         "parent_character": "固",
         "parent_display_line": "{\\Large{固}}\t%gu4",
         "parent_rhs_snippet": "{\\large{k\\textoverset{a}{a}}},",
+        "parent_kind": "inherited_node",
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "固"
-      },
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
-          "positional_components": [
-            "疒",
-            "固"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "t1": "illness",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "疒"
-          ],
-          "phonetic_components": [
-            "固"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
-            "positional_components": [
-              "疒",
-              "固"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "t1": "illness",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "疒"
-            ],
-            "phonetic_components": [
-              "固"
-            ]
-          }
-        ]
       }
     },
     {
@@ -683,6 +685,51 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
+          "positional_components": [
+            "人",
+            "固"
+          ],
+          "named_args": {
+            "alt1": "亻",
+            "c1": "s",
+            "c2": "p",
+            "t1": "person",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "固"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
+            "positional_components": [
+              "人",
+              "固"
+            ],
+            "named_args": {
+              "alt1": "亻",
+              "c1": "s",
+              "c2": "p",
+              "t1": "person",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "固"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -763,57 +810,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-node",
+        "status": "assigned-to-inherited-node",
         "parent_character": "固",
         "parent_display_line": "{\\Large{固}}\t%gu4",
         "parent_rhs_snippet": "{\\large{k\\textoverset{a}{a}}},",
+        "parent_kind": "inherited_node",
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "固"
-      },
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
-          "positional_components": [
-            "人",
-            "固"
-          ],
-          "named_args": {
-            "alt1": "亻",
-            "c1": "s",
-            "c2": "p",
-            "t1": "person",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "人"
-          ],
-          "phonetic_components": [
-            "固"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
-            "positional_components": [
-              "人",
-              "固"
-            ],
-            "named_args": {
-              "alt1": "亻",
-              "c1": "s",
-              "c2": "p",
-              "t1": "person",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "人"
-            ],
-            "phonetic_components": [
-              "固"
-            ]
-          }
-        ]
       }
     }
   ],
@@ -1885,9 +1888,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "huX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2207,9 +2208,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kaH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2330,10 +2329,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khu",
-          "ku"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2405,9 +2401,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "huX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2536,9 +2530,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "hu"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2590,9 +2582,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "hu"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2644,9 +2634,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "ku"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2854,9 +2842,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kuX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2908,9 +2894,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "hu"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -2962,9 +2946,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kjoH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3016,9 +2998,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "ku"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3070,9 +3050,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kjo"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3124,9 +3102,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "ku"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3178,9 +3154,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kjo"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3232,9 +3206,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kuX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3298,9 +3270,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kjo"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3352,9 +3322,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kuX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3406,9 +3374,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kjoH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3526,9 +3492,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khu"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3583,10 +3547,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khjo",
-          "kjoH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3764,10 +3725,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "gjo",
-          "kjo"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3839,9 +3797,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "huX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -3893,9 +3849,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "huX"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T07:29:43.820417+00:00",
+  "generated_at": "2026-06-15T07:51:37.383207+00:00",
   "id": "02-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -849,20 +849,6 @@
           "oc_syllable": "kʰʳa̠ɡs"
         }
       ],
-      "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
-      },
-      "transliteration_latex": "{\\large{kak}},",
-      "render_latex": "各\t%ge4 / gè\n{\\large{kak}},\n\\textit{kak};\t%0766a",
-      "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
       "wiktionary_validation": {
         "available": true,
         "han_compound": {
@@ -893,6 +879,28 @@
             "phonetic_components": []
           }
         ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{kak}},",
+      "render_latex": "各\t%ge4 / gè\n{\\large{kak}},\n\\textit{kak};\t%0766a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -946,6 +954,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -998,11 +1011,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{corn·}kak}},",
       "render_latex": "觡\t%ge2\n{\\large{\\textsuperscript{corn·}kak}},\n\\textit{kaek};\t%0766b'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1078,6 +1094,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}",
+          "positional_components": [
+            "骨",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "t1": "bone",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "骨"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}",
+            "positional_components": [
+              "骨",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "t1": "bone",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "骨"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1157,49 +1216,14 @@
           "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}",
-          "positional_components": [
-            "骨",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "t1": "bone",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "骨"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|骨|各|ls=psc|t1=bone|c1=s|c2=p}}",
-            "positional_components": [
-              "骨",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "t1": "bone",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "骨"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1280,6 +1304,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|肉|各|ls=psc|c1=s|t1=flesh|c2=p}}",
+          "positional_components": [
+            "肉",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "t1": "flesh",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|肉|各|ls=psc|c1=s|t1=flesh|c2=p}}",
+            "positional_components": [
+              "肉",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "t1": "flesh",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1345,49 +1412,14 @@
           "template_raw": "{{Han compound|肉|各|ls=psc|c1=s|t1=flesh|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|肉|各|ls=psc|c1=s|t1=flesh|c2=p}}",
-          "positional_components": [
-            "肉",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "t1": "flesh",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "肉"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|肉|各|ls=psc|c1=s|t1=flesh|c2=p}}",
-            "positional_components": [
-              "肉",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "t1": "flesh",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "肉"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1455,6 +1487,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|宀|t1=roof|各|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "宀",
+            "各"
+          ],
+          "named_args": {
+            "t1": "roof",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "宀"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|宀|t1=roof|各|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "宀",
+              "各"
+            ],
+            "named_args": {
+              "t1": "roof",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "宀"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1513,49 +1588,14 @@
           "template_raw": "{{Han compound|宀|t1=roof|各|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|宀|t1=roof|各|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "宀",
-            "各"
-          ],
-          "named_args": {
-            "t1": "roof",
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "宀"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|宀|t1=roof|各|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "宀",
-              "各"
-            ],
-            "named_args": {
-              "t1": "roof",
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "宀"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1648,6 +1688,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1700,11 +1745,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{vest·}kak}},",
       "render_latex": "袼\t%ge1 / gē\n{\\large{\\textsuperscript{vest·}kak}},\n\\textit{kaek};\t%0766e\n\\textit{kak};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1772,6 +1820,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|門|各|ls=psc|c1=s|c2=p|t1=gate}}",
+          "positional_components": [
+            "門",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "gate"
+          },
+          "semantic_components": [
+            "門"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|門|各|ls=psc|c1=s|c2=p|t1=gate}}",
+            "positional_components": [
+              "門",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "gate"
+            },
+            "semantic_components": [
+              "門"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -1851,49 +1942,14 @@
           "template_raw": "{{Han compound|門|各|ls=psc|c1=s|c2=p|t1=gate}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|門|各|ls=psc|c1=s|c2=p|t1=gate}}",
-          "positional_components": [
-            "門",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p",
-            "t1": "gate"
-          },
-          "semantic_components": [
-            "門"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|門|各|ls=psc|c1=s|c2=p|t1=gate}}",
-            "positional_components": [
-              "門",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p",
-              "t1": "gate"
-            },
-            "semantic_components": [
-              "門"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -1947,6 +2003,51 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|心|alt1=忄|各|ls=psc|c1=s|t1=heart|c2=p}}",
+          "positional_components": [
+            "心",
+            "各"
+          ],
+          "named_args": {
+            "alt1": "忄",
+            "ls": "psc",
+            "c1": "s",
+            "t1": "heart",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "心"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|心|alt1=忄|各|ls=psc|c1=s|t1=heart|c2=p}}",
+            "positional_components": [
+              "心",
+              "各"
+            ],
+            "named_args": {
+              "alt1": "忄",
+              "ls": "psc",
+              "c1": "s",
+              "t1": "heart",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "心"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2026,51 +2127,14 @@
           "template_raw": "{{Han compound|心|alt1=忄|各|ls=psc|c1=s|t1=heart|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|心|alt1=忄|各|ls=psc|c1=s|t1=heart|c2=p}}",
-          "positional_components": [
-            "心",
-            "各"
-          ],
-          "named_args": {
-            "alt1": "忄",
-            "ls": "psc",
-            "c1": "s",
-            "t1": "heart",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "心"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|心|alt1=忄|各|ls=psc|c1=s|t1=heart|c2=p}}",
-            "positional_components": [
-              "心",
-              "各"
-            ],
-            "named_args": {
-              "alt1": "忄",
-              "ls": "psc",
-              "c1": "s",
-              "t1": "heart",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "心"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2124,6 +2188,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2176,11 +2245,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{terr·}kak}},",
       "render_latex": "垎\t%ke4\n{\\large{\\textsuperscript{terr·}kak}},\n\\textit{haek};\t%0766g'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2285,6 +2357,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2323,11 +2400,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{best·}kak}},",
       "render_latex": "貉\t%he2 / ma4 / mo4 / mò\n{\\large{\\textsuperscript{best·}kak}},\n\\textit{hak};\t%0766h\n\\textit{maeH};\n\\textit{maek};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2381,6 +2461,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2433,11 +2518,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}kak}},",
       "render_latex": "詻\t%e4\n{\\large{\\textsuperscript{dic·}kak}},\n\\textit{ṅaek};\t%0766h'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2478,6 +2566,11 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -2499,12 +2592,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{can·}kak}},",
       "render_latex": "狢\t%mo4\n{\\large{\\textsuperscript{can·}kak}},\n\\textit{maek};\t%0766j",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      }
+      "hierarchy_assignment": null
     },
     {
       "character": "頟",
@@ -2544,6 +2632,49 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|各|頁|ls=psc|c1=p|c2=s|t2=head}}",
+          "positional_components": [
+            "各",
+            "頁"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "head"
+          },
+          "semantic_components": [
+            "頁"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|各|頁|ls=psc|c1=p|c2=s|t2=head}}",
+            "positional_components": [
+              "各",
+              "頁"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "head"
+            },
+            "semantic_components": [
+              "頁"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -2598,49 +2729,14 @@
           "template_raw": "{{Han compound|各|頁|ls=psc|c1=p|c2=s|t2=head}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|各|頁|ls=psc|c1=p|c2=s|t2=head}}",
-          "positional_components": [
-            "各",
-            "頁"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "p",
-            "c2": "s",
-            "t2": "head"
-          },
-          "semantic_components": [
-            "頁"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|各|頁|ls=psc|c1=p|c2=s|t2=head}}",
-            "positional_components": [
-              "各",
-              "頁"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "p",
-              "c2": "s",
-              "t2": "head"
-            },
-            "semantic_components": [
-              "頁"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2694,6 +2790,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|各|ls=psc|c1=s|c2=p|t1=water}}",
+          "positional_components": [
+            "水",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "water"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|各|ls=psc|c1=s|c2=p|t1=water}}",
+            "positional_components": [
+              "水",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "water"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2773,49 +2912,14 @@
           "template_raw": "{{Han compound|水|各|ls=psc|c1=s|c2=p|t1=water}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|水|各|ls=psc|c1=s|c2=p|t1=water}}",
-          "positional_components": [
-            "水",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p",
-            "t1": "water"
-          },
-          "semantic_components": [
-            "水"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|水|各|ls=psc|c1=s|c2=p|t1=water}}",
-            "positional_components": [
-              "水",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p",
-              "t1": "water"
-            },
-            "semantic_components": [
-              "水"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -2883,6 +2987,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|貝|各|ls=psc|c1=s|c2=p|t1=shell; money}}",
+          "positional_components": [
+            "貝",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "shell; money"
+          },
+          "semantic_components": [
+            "貝"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|貝|各|ls=psc|c1=s|c2=p|t1=shell; money}}",
+            "positional_components": [
+              "貝",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "shell; money"
+            },
+            "semantic_components": [
+              "貝"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -2962,49 +3109,14 @@
           "template_raw": "{{Han compound|貝|各|ls=psc|c1=s|c2=p|t1=shell; money}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|貝|各|ls=psc|c1=s|c2=p|t1=shell; money}}",
-          "positional_components": [
-            "貝",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p",
-            "t1": "shell; money"
-          },
-          "semantic_components": [
-            "貝"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|貝|各|ls=psc|c1=s|c2=p|t1=shell; money}}",
-            "positional_components": [
-              "貝",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p",
-              "t1": "shell; money"
-            },
-            "semantic_components": [
-              "貝"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -3072,6 +3184,47 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|足|各|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "足",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "足"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|足|各|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "足",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "足"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3131,47 +3284,14 @@
           "template_raw": "{{Han compound|足|各|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|足|各|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "足",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "足"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|足|各|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "足",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "足"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -3225,6 +3345,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|火|各|c1=s|c2=p|t1=fire|ls=psc}}",
+          "positional_components": [
+            "火",
+            "各"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "fire",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "火"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|火|各|c1=s|c2=p|t1=fire|ls=psc}}",
+            "positional_components": [
+              "火",
+              "各"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "fire",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "火"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3304,49 +3467,14 @@
           "template_raw": "{{Han compound|火|各|c1=s|c2=p|t1=fire|ls=psc}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|火|各|c1=s|c2=p|t1=fire|ls=psc}}",
-          "positional_components": [
-            "火",
-            "各"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "t1": "fire",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "火"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|火|各|c1=s|c2=p|t1=fire|ls=psc}}",
-            "positional_components": [
-              "火",
-              "各"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "t1": "fire",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "火"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -3422,6 +3550,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3474,11 +3607,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{vehic·}kak}},",
       "render_latex": "輅\t%he4 / lu4 / ya4\n{\\large{\\textsuperscript{vehic·}kak}},\n\\textit{haek};\t%0766n'\n\\textit{luH};\n\\textit{ṅaeH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -3532,6 +3668,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|糸|t1=thread|各|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "糸",
+            "各"
+          ],
+          "named_args": {
+            "t1": "thread",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "糸"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|糸|t1=thread|各|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "糸",
+              "各"
+            ],
+            "named_args": {
+              "t1": "thread",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "糸"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3605,49 +3784,14 @@
           "template_raw": "{{Han compound|糸|t1=thread|各|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|糸|t1=thread|各|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "糸",
-            "各"
-          ],
-          "named_args": {
-            "t1": "thread",
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "糸"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|糸|t1=thread|各|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "糸",
-              "各"
-            ],
-            "named_args": {
-              "t1": "thread",
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "糸"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -3701,6 +3845,51 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|客|ls=psc|c1=s|c2=p|t1=mouth|}}",
+          "positional_components": [
+            "口",
+            "客",
+            ""
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "mouth"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "客"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|口|客|ls=psc|c1=s|c2=p|t1=mouth|}}",
+            "positional_components": [
+              "口",
+              "客",
+              ""
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "mouth"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "客"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3780,51 +3969,14 @@
           "template_raw": "{{Han compound|口|客|ls=psc|c1=s|c2=p|t1=mouth|}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|口|客|ls=psc|c1=s|c2=p|t1=mouth|}}",
-          "positional_components": [
-            "口",
-            "客",
-            ""
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p",
-            "t1": "mouth"
-          },
-          "semantic_components": [
-            "口"
-          ],
-          "phonetic_components": [
-            "客"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|口|客|ls=psc|c1=s|c2=p|t1=mouth|}}",
-            "positional_components": [
-              "口",
-              "客",
-              ""
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p",
-              "t1": "mouth"
-            },
-            "semantic_components": [
-              "口"
-            ],
-            "phonetic_components": [
-              "客"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "客",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "客"
       }
     },
     {
@@ -3878,6 +4030,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=psc|各|酉|c1=p|c2=s|t2=alcohol; fermented drink}}",
+          "positional_components": [
+            "各",
+            "酉"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "alcohol; fermented drink"
+          },
+          "semantic_components": [
+            "酉"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=psc|各|酉|c1=p|c2=s|t2=alcohol; fermented drink}}",
+            "positional_components": [
+              "各",
+              "酉"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "alcohol; fermented drink"
+            },
+            "semantic_components": [
+              "酉"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -3957,49 +4152,14 @@
           "template_raw": "{{Han compound|ls=psc|各|酉|c1=p|c2=s|t2=alcohol; fermented drink}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|ls=psc|各|酉|c1=p|c2=s|t2=alcohol; fermented drink}}",
-          "positional_components": [
-            "各",
-            "酉"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "p",
-            "c2": "s",
-            "t2": "alcohol; fermented drink"
-          },
-          "semantic_components": [
-            "酉"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|ls=psc|各|酉|c1=p|c2=s|t2=alcohol; fermented drink}}",
-            "positional_components": [
-              "各",
-              "酉"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "p",
-              "c2": "s",
-              "t2": "alcohol; fermented drink"
-            },
-            "semantic_components": [
-              "酉"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -4040,6 +4200,11 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -4067,12 +4232,7 @@
       "transliteration_latex": "{\\large{kak\\textsuperscript{:cor}}},",
       "render_latex": "愙\t%ke4\n{\\large{kak\\textsuperscript{:cor}}},\n\\textit{khak};\t%0766p'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      }
+      "hierarchy_assignment": null
     },
     {
       "character": "雒",
@@ -4125,6 +4285,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4177,11 +4342,14 @@
       "transliteration_latex": "{\\large{kak\\textsuperscript{·passer}}},",
       "render_latex": "雒\t%luo4\n{\\large{kak\\textsuperscript{·passer}}},\n\\textit{lak};\t%0766q",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -4249,6 +4417,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|alt1=艹|洛|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "艸",
+            "洛"
+          ],
+          "named_args": {
+            "alt1": "艹",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "洛"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|alt1=艹|洛|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "艸",
+              "洛"
+            ],
+            "named_args": {
+              "alt1": "艹",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "洛"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4328,49 +4539,14 @@
           "template_raw": "{{Han compound|艸|alt1=艹|洛|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|艸|alt1=艹|洛|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "艸",
-            "洛"
-          ],
-          "named_args": {
-            "alt1": "艹",
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "艸"
-          ],
-          "phonetic_components": [
-            "洛"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|艸|alt1=艹|洛|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "艸",
-              "洛"
-            ],
-            "named_args": {
-              "alt1": "艹",
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "艸"
-            ],
-            "phonetic_components": [
-              "洛"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "洛",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "洛"
       }
     },
     {
@@ -4424,6 +4600,47 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|革|c1=s|各|c2=p|ls=psc}}",
+          "positional_components": [
+            "革",
+            "各"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "革"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|革|c1=s|各|c2=p|ls=psc}}",
+            "positional_components": [
+              "革",
+              "各"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "革"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4503,47 +4720,14 @@
           "template_raw": "{{Han compound|革|c1=s|各|c2=p|ls=psc}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|革|c1=s|各|c2=p|ls=psc}}",
-          "positional_components": [
-            "革",
-            "各"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "革"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|革|c1=s|各|c2=p|ls=psc}}",
-            "positional_components": [
-              "革",
-              "各"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "革"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -4597,6 +4781,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4649,11 +4838,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{gem·}kak}},",
       "render_latex": "璐\t%lu4\n{\\large{\\textsuperscript{gem·}kak}},\n\\textit{luH};\t%0766r'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "路",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "路"
       }
     },
     {
@@ -4707,6 +4899,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|馬|各|ls=psc|c1=s|c2=p|t1=horse}}",
+          "positional_components": [
+            "馬",
+            "各"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "horse"
+          },
+          "semantic_components": [
+            "馬"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|馬|各|ls=psc|c1=s|c2=p|t1=horse}}",
+            "positional_components": [
+              "馬",
+              "各"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "horse"
+            },
+            "semantic_components": [
+              "馬"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4786,49 +5021,14 @@
           "template_raw": "{{Han compound|馬|各|ls=psc|c1=s|c2=p|t1=horse}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|馬|各|ls=psc|c1=s|c2=p|t1=horse}}",
-          "positional_components": [
-            "馬",
-            "各"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p",
-            "t1": "horse"
-          },
-          "semantic_components": [
-            "馬"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|馬|各|ls=psc|c1=s|c2=p|t1=horse}}",
-            "positional_components": [
-              "馬",
-              "各"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p",
-              "t1": "horse"
-            },
-            "semantic_components": [
-              "馬"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -4882,6 +5082,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -4934,11 +5139,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{bamb:}kak}},",
       "render_latex": "簬\t%lu4\n{\\large{\\textsuperscript{bamb:}kak}},\n\\textit{luH};\t%0766s'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "路",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "路"
       }
     },
     {
@@ -4979,6 +5187,11 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -5006,12 +5219,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{av·}kak}},",
       "render_latex": "鴼\t%luo4\n{\\large{\\textsuperscript{av·}kak}},\n\\textit{lak};\t%0766t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      }
+      "hierarchy_assignment": null
     },
     {
       "character": "露",
@@ -5078,6 +5286,47 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|雨|路|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "雨",
+            "路"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "雨"
+          ],
+          "phonetic_components": [
+            "路"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|雨|路|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "雨",
+              "路"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "雨"
+            ],
+            "phonetic_components": [
+              "路"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5157,47 +5406,14 @@
           "template_raw": "{{Han compound|雨|路|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|雨|路|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "雨",
-            "路"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "雨"
-          ],
-          "phonetic_components": [
-            "路"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|雨|路|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "雨",
-              "路"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "雨"
-            ],
-            "phonetic_components": [
-              "路"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "路",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "路"
       }
     },
     {
@@ -5262,6 +5478,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|王|各|c1=s|c2=p|t1=jade|ls=psc}}",
+          "positional_components": [
+            "王",
+            "各"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "jade",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "王"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|王|各|c1=s|c2=p|t1=jade|ls=psc}}",
+            "positional_components": [
+              "王",
+              "各"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "jade",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "王"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5341,49 +5600,14 @@
           "template_raw": "{{Han compound|王|各|c1=s|c2=p|t1=jade|ls=psc}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|王|各|c1=s|c2=p|t1=jade|ls=psc}}",
-          "positional_components": [
-            "王",
-            "各"
-          ],
-          "named_args": {
-            "c1": "s",
-            "c2": "p",
-            "t1": "jade",
-            "ls": "psc"
-          },
-          "semantic_components": [
-            "王"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|王|各|c1=s|c2=p|t1=jade|ls=psc}}",
-            "positional_components": [
-              "王",
-              "各"
-            ],
-            "named_args": {
-              "c1": "s",
-              "c2": "p",
-              "t1": "jade",
-              "ls": "psc"
-            },
-            "semantic_components": [
-              "王"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -5437,6 +5661,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5489,11 +5718,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{aq·}kak}},",
       "render_latex": "潞\t%lu4\n{\\large{\\textsuperscript{aq·}kak}},\n\\textit{luH};\t%0766u'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "路",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "路"
       }
     },
     {
@@ -5561,6 +5793,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|田|t1=field|各|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "田",
+            "各"
+          ],
+          "named_args": {
+            "t1": "field",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "田"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|田|t1=field|各|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "田",
+              "各"
+            ],
+            "named_args": {
+              "t1": "field",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "田"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5658,49 +5933,14 @@
           "template_raw": "{{Han compound|田|t1=field|各|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|田|t1=field|各|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "田",
-            "各"
-          ],
-          "named_args": {
-            "t1": "field",
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "田"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|田|t1=field|各|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "田",
-              "各"
-            ],
-            "named_args": {
-              "t1": "field",
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "田"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -5754,6 +5994,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|路|鳥|ls=psc|c1=p|c2=s|t2=bird}}",
+          "positional_components": [
+            "路",
+            "鳥"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "bird"
+          },
+          "semantic_components": [
+            "鳥"
+          ],
+          "phonetic_components": [
+            "路"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|路|鳥|ls=psc|c1=p|c2=s|t2=bird}}",
+            "positional_components": [
+              "路",
+              "鳥"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "bird"
+            },
+            "semantic_components": [
+              "鳥"
+            ],
+            "phonetic_components": [
+              "路"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5833,49 +6116,14 @@
           "template_raw": "{{Han compound|路|鳥|ls=psc|c1=p|c2=s|t2=bird}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|路|鳥|ls=psc|c1=p|c2=s|t2=bird}}",
-          "positional_components": [
-            "路",
-            "鳥"
-          ],
-          "named_args": {
-            "ls": "psc",
-            "c1": "p",
-            "c2": "s",
-            "t2": "bird"
-          },
-          "semantic_components": [
-            "鳥"
-          ],
-          "phonetic_components": [
-            "路"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|路|鳥|ls=psc|c1=p|c2=s|t2=bird}}",
-            "positional_components": [
-              "路",
-              "鳥"
-            ],
-            "named_args": {
-              "ls": "psc",
-              "c1": "p",
-              "c2": "s",
-              "t2": "bird"
-            },
-            "semantic_components": [
-              "鳥"
-            ],
-            "phonetic_components": [
-              "路"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "路",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "路"
       }
     },
     {
@@ -5929,6 +6177,11 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -5969,11 +6222,14 @@
       "transliteration_latex": "{\\large{\\textsuperscript{eo·}kak}},",
       "render_latex": "𢓜\t%ge2\n{\\large{\\textsuperscript{eo·}kak}},\n\\textit{kaek};\t%0766x",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "各"
       }
     },
     {
@@ -6014,6 +6270,11 @@
       "bs_gsr_rows": [],
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
@@ -6041,12 +6302,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{bamb:}kak}},",
       "render_latex": "簵\t%lu4\n{\\large{\\textsuperscript{bamb:}kak}},\n\\textit{luH};\t%0766x'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": null,
-        "han_compounds": []
-      }
+      "hierarchy_assignment": null
     },
     {
       "character": "格",
@@ -6138,6 +6394,49 @@
         }
       ],
       "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|木|t1=wood|各|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "木",
+            "各"
+          ],
+          "named_args": {
+            "t1": "wood",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "各"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|木|t1=wood|各|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "木",
+              "各"
+            ],
+            "named_args": {
+              "t1": "wood",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "各"
+            ]
+          }
+        ]
+      },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
@@ -6217,49 +6516,14 @@
           "template_raw": "{{Han compound|木|t1=wood|各|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
-      "wiktionary_validation": {
-        "available": true,
-        "han_compound": {
-          "template_raw": "{{Han compound|木|t1=wood|各|ls=psc|c1=s|c2=p}}",
-          "positional_components": [
-            "木",
-            "各"
-          ],
-          "named_args": {
-            "t1": "wood",
-            "ls": "psc",
-            "c1": "s",
-            "c2": "p"
-          },
-          "semantic_components": [
-            "木"
-          ],
-          "phonetic_components": [
-            "各"
-          ]
-        },
-        "han_compounds": [
-          {
-            "template_raw": "{{Han compound|木|t1=wood|各|ls=psc|c1=s|c2=p}}",
-            "positional_components": [
-              "木",
-              "各"
-            ],
-            "named_args": {
-              "t1": "wood",
-              "ls": "psc",
-              "c1": "s",
-              "c2": "p"
-            },
-            "semantic_components": [
-              "木"
-            ],
-            "phonetic_components": [
-              "各"
-            ]
-          }
-        ]
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "各"
       }
     }
   ],
@@ -7097,9 +7361,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kaek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7157,11 +7419,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kaek",
-          "kak",
-          "khaeH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7531,9 +7789,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7585,9 +7841,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "haek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7742,9 +7996,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "ngaek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7796,9 +8048,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "maek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7837,9 +8087,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "ngaek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -7878,9 +8126,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8064,9 +8310,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8124,11 +8368,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "haek",
-          "luH",
-          "ngaeH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8196,9 +8436,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8250,9 +8488,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khaek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8304,9 +8540,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8358,9 +8592,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "khak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8399,9 +8631,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8519,9 +8749,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8573,9 +8801,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "luH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8627,9 +8853,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8681,9 +8905,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "luH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8735,9 +8957,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8845,10 +9065,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "lak",
-          "lek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -8908,9 +9125,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "luH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -9028,9 +9243,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "luH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -9082,9 +9295,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "kaek"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
@@ -9136,9 +9347,7 @@
         ],
         "bs_gsr_forms": [],
         "bs_not_in_mand2mc": [],
-        "mand2mc_not_in_bs_gsr": [
-          "luH"
-        ],
+        "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [

@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+import hierarchy_utils
 import mc_resolution
 import render_entries
 
@@ -111,16 +112,86 @@ def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
     return lines
 
 
+def render_candidate_body_lines(candidate: dict[str, Any]) -> list[str]:
+    lines = render_candidate_lines(candidate)
+    return lines[1:] if len(lines) > 1 else []
+
+
+def build_candidate_heading_line(candidate: dict[str, Any]) -> str:
+    line = rf"{{\Large{{{candidate['character']}}}}}"
+    pinyins = collect_candidate_pinyins(candidate)
+    if pinyins:
+        line += f"\t%{' / '.join(pinyins)}"
+    return line
+
+
+def render_candidate_node(
+    candidate: dict[str, Any],
+    candidate_children: dict[str, list[dict[str, Any]]],
+) -> list[str]:
+    lines = [r"\item " + build_candidate_heading_line(candidate)]
+    lines.extend(render_candidate_body_lines(candidate))
+    children = candidate_children.get(candidate["character"], [])
+    if children:
+        lines.extend(render_candidate_group_lines(children, candidate_children))
+    return lines
+
+
+def render_candidate_group_lines(
+    candidates: list[dict[str, Any]],
+    candidate_children: dict[str, list[dict[str, Any]]],
+) -> list[str]:
+    lines: list[str] = []
+    in_itemize = False
+    for candidate in candidates:
+        if candidate_children.get(candidate["character"]):
+            if not in_itemize:
+                lines.append(r"\begin{itemize}[noitemsep]")
+                in_itemize = True
+            lines.extend(render_candidate_node(candidate, candidate_children))
+            continue
+        if in_itemize:
+            lines.append(r"\end{itemize}")
+            in_itemize = False
+        lines.extend(render_candidate_lines(candidate))
+    if in_itemize:
+        lines.append(r"\end{itemize}")
+    return lines
+
+
+def render_head_mc_lines(candidate: dict[str, Any]) -> list[str]:
+    mc_forms = collect_candidate_mc_forms(candidate)
+    gsr_values = collect_candidate_gsr_values(candidate)
+    lines: list[str] = []
+    for index, mc_form in enumerate(mc_forms):
+        comment = ""
+        if index == 0 and gsr_values:
+            comment = "\t%" + ", ".join(gsr_values)
+        lines.append(f"\\textit{{{mc_form}}};{comment}")
+    return lines
+
+
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
     head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
+    head_candidate = entry["proposed_additions"][0] if entry["proposed_additions"] else None
     resolved_root = (entry.get("resolved_series_root") or {}).get("root")
     body_lines = [
         f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{head_character}}}}}}}",
     ]
     if resolved_root:
         body_lines.append(rf"{{\large{{{resolved_root}}}}},")
-    for candidate in entry["proposed_additions"]:
-        body_lines.extend(render_candidate_lines(candidate))
+    if head_candidate is not None:
+        body_lines.extend(render_head_mc_lines(head_candidate))
+
+    candidate_children = hierarchy_utils.collect_candidate_children(entry)
+    top_level_candidates = [
+        candidate
+        for index, candidate in enumerate(entry["proposed_additions"])
+        if index != 0
+        and (candidate.get("hierarchy_assignment") or {}).get("status")
+        not in {"assigned-to-inherited-node", "assigned-to-candidate-node"}
+    ]
+    body_lines.extend(render_candidate_group_lines(top_level_candidates, candidate_children))
     return render_context_wrapped_block(
         [{"name": "multicols", "arg": "2"}, {"name": "spacing", "arg": "0.7"}],
         body_lines,
@@ -135,18 +206,21 @@ def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
     ]
     hierarchy = entry.get("entry_hierarchy") or {}
     hierarchy_nodes = hierarchy.get("nodes") or []
+    candidate_children = hierarchy_utils.collect_candidate_children(entry)
     grouped_by_parent: dict[str, list[dict[str, Any]]] = {}
-    top_level_candidates: list[dict[str, Any]] = []
+    top_level_candidates = [
+        candidate
+        for candidate in entry["proposed_additions"]
+        if (candidate.get("hierarchy_assignment") or {}).get("status")
+        not in {"assigned-to-inherited-node", "assigned-to-candidate-node"}
+    ]
 
     for candidate in entry["proposed_additions"]:
         assignment = candidate.get("hierarchy_assignment") or {}
-        if assignment.get("status") == "assigned-to-node" and assignment.get("parent_character"):
+        if assignment.get("status") == "assigned-to-inherited-node" and assignment.get("parent_character"):
             grouped_by_parent.setdefault(assignment["parent_character"], []).append(candidate)
-            continue
-        top_level_candidates.append(candidate)
 
-    for candidate in top_level_candidates:
-        body_lines.extend(render_candidate_lines(candidate))
+    body_lines.extend(render_candidate_group_lines(top_level_candidates, candidate_children))
     if grouped_by_parent:
         body_lines.append(r"\begin{itemize}[noitemsep]")
         for node in hierarchy_nodes:
@@ -158,8 +232,7 @@ def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
                 body_lines.append(rf"\item {node['display_line']} = {node['rhs_snippet']}")
             else:
                 body_lines.append(rf"\item {node['display_line']}")
-            for candidate in grouped_candidates:
-                body_lines.extend(render_candidate_lines(candidate))
+            body_lines.extend(render_candidate_group_lines(grouped_candidates, candidate_children))
         body_lines.append(r"\end{itemize}")
     return render_context_wrapped_block(tex_entry.get("context_environments", []), body_lines)
 
@@ -222,13 +295,19 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "- Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.",
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "",
-        "| GSC | Packet kind | Existing TeX baseline | Proposed additions |",
-        "| --- | --- | --- | ---: |",
+        "| GSC | Packet kind | Existing TeX baseline | Proposed additions | Hierarchy-linked additions |",
+        "| --- | --- | --- | ---: | ---: |",
     ]
     for entry in entries:
+        hierarchy_linked = sum(
+            1
+            for candidate in entry.get("proposed_additions", [])
+            if (candidate.get("hierarchy_assignment") or {}).get("status")
+            in {"assigned-to-inherited-node", "assigned-to-candidate-node"}
+        )
         lines.append(
             f"| `{entry['id']}` | `{entry['packet_kind']}` | "
-            f"{'yes' if entry.get('tex_entry') else 'no'} | {len(entry['proposed_additions'])} |"
+            f"{'yes' if entry.get('tex_entry') else 'no'} | {len(entry['proposed_additions'])} | {hierarchy_linked} |"
         )
     return "\n".join(lines) + "\n"
 

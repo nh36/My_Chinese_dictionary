@@ -8,6 +8,7 @@
 - Additions with IDS-derived semantic candidates: 66
 - Additions with explicit Wiktionary Han-compound support: 53
 - Additions assigned to inherited hierarchy nodes: 2
+- Additions assigned under generated candidate nodes: 44
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 4
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |

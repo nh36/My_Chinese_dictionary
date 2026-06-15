@@ -41,7 +41,7 @@ The current curation schema now carries two additional structural layers that ar
   - stores extracted subgroup heads from nested `itemize` structure, including the inherited intermediate phonetic line;
   - provides `top_level_head` and ordered `nodes`.
 - `hierarchy_assignment` on proposed additions where the current evidence is strong enough:
-  - links a proposed addition to an inherited subgroup head when Shengfu or Wiktionary phonetic evidence points to that intermediate node;
+  - links a proposed addition either to an inherited subgroup head from `main.tex` or to another machine-generated candidate node when Shengfu or Wiktionary phonetic evidence points there;
   - leaves the addition top-level or unassigned when that evidence is not yet strong enough.
 
 This is still an interim representation, but it is now rich enough for the renderer to keep some hand-authored hierarchy visible instead of flattening every proposed addition back to the top-level packet head.

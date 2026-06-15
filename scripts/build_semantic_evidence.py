@@ -1008,6 +1008,13 @@ def enrich_curated_entry_with_ids(
                         root,
                         candidate["semantic_assignment"],
                     )
+            if candidate.get("transliteration_latex") is None and entry.get("packet_kind") == "missing_series":
+                resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+                if resolved_root:
+                    candidate["transliteration_latex"] = compose_transliteration_from_root(
+                        resolved_root,
+                        candidate["semantic_assignment"],
+                    )
         elif candidate.get("semantic_assignment") is None:
             historical_candidate = resolve_historical_wiktionary_note(
                 candidate["character"], ids_map, graph_lookup
@@ -1052,11 +1059,20 @@ def enrich_curated_entry_with_ids(
     hierarchy = entry.get("entry_hierarchy") or {}
     hierarchy_nodes = hierarchy.get("nodes") or []
     top_level_head = hierarchy.get("top_level_head")
-    if hierarchy_nodes:
-        for candidate in entry.get("proposed_additions", []):
-            candidate["hierarchy_assignment"] = hierarchy_utils.assign_candidate_hierarchy(
+    if top_level_head is None and entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
+        top_level_head = entry["proposed_additions"][0]["character"]
+    candidate_characters = {candidate["character"] for candidate in entry.get("proposed_additions", [])}
+    for candidate in entry.get("proposed_additions", []):
+        if hierarchy_nodes:
+            candidate["hierarchy_assignment"] = hierarchy_utils.assign_candidate_to_inherited_hierarchy(
                 candidate,
                 hierarchy_nodes,
+                top_level_head,
+            )
+        if candidate.get("hierarchy_assignment") is None:
+            candidate["hierarchy_assignment"] = hierarchy_utils.assign_candidate_to_candidate(
+                candidate,
+                candidate_characters,
                 top_level_head,
             )
     return entry
@@ -1088,7 +1104,8 @@ def render_report(entries: list[dict[str, Any]]) -> str:
         f"- Additions with reusable render block from existing TeX: {render_ready}",
         f"- Additions with IDS-derived semantic candidates: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if c.get('semantic_candidates_from_ids'))}",
         f"- Additions with explicit Wiktionary Han-compound support: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if c.get('wiktionary_semantic_validation'))}",
-        f"- Additions assigned to inherited hierarchy nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-node')}",
+        f"- Additions assigned to inherited hierarchy nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-inherited-node')}",
+        f"- Additions assigned under generated candidate nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-candidate-node')}",
         f"- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('mc_resolution') or {}).get('needs_investigation'))}",
         "",
         "| GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |",
