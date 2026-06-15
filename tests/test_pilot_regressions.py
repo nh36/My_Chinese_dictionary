@@ -39,6 +39,8 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
+        self.assertIn(r"{\large{ly}},", rendered)
+        self.assertIn(r"{\large{kym}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\pilotentry{%"), 6)
 

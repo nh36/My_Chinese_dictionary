@@ -823,6 +823,16 @@ def compose_transliteration_from_root(root: str, semantic_assignment: dict[str, 
     return None
 
 
+def derive_missing_series_transliteration(entry: dict[str, Any], candidate: dict[str, Any]) -> str | None:
+    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+    if not resolved_root:
+        return candidate.get("transliteration_latex")
+    semantic_assignment = candidate.get("semantic_assignment") or {}
+    if semantic_assignment.get("position") == "none":
+        return rf"{{\large{{{resolved_root}}}}},"
+    return compose_transliteration_from_root(resolved_root, semantic_assignment)
+
+
 def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
     transliteration_latex = normalize_transliteration_latex(candidate.get("transliteration_latex"))
     if not transliteration_latex:
@@ -1046,15 +1056,9 @@ def enrich_curated_entry_with_ids(
             series_head = maybe_mark_series_head(entry, candidate)
             if series_head is not None:
                 candidate["semantic_assignment"] = series_head
-        if (
-            candidate.get("transliteration_latex") is None
-            and entry.get("packet_kind") == "missing_series"
-            and candidate.get("semantic_assignment")
-            and candidate["semantic_assignment"].get("position") == "none"
-        ):
-            resolved_root = (entry.get("resolved_series_root") or {}).get("root")
-            if resolved_root:
-                candidate["transliteration_latex"] = rf"{{\large{{{resolved_root}}}}},"
+        if entry.get("packet_kind") == "missing_series":
+            candidate["transliteration_latex"] = derive_missing_series_transliteration(entry, candidate)
+            candidate["render_latex"] = synthesize_render_latex(candidate)
         candidate["hierarchy_assignment"] = None
     hierarchy = entry.get("entry_hierarchy") or {}
     hierarchy_nodes = hierarchy.get("nodes") or []

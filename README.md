@@ -139,6 +139,12 @@ Resolve provisional abstract roots for missing-series packets:
 python3 scripts/resolve_series_roots.py
 ```
 
+The current root resolver is **Old-Chinese-first**:
+
+- it derives missing-series packet roots from `oc_bs` in `data/derived/bs_gsr.csv`;
+- it follows Nathan's transcription conventions from *Hill ar 2015 Transcription of Chinese*, including `ə → y`;
+- it abstracts away from prefixes, voicing/manner contrasts, and final `-ʔ / -s` in the broad packet root.
+
 Export hand-checkable series packets for target GSC series:
 
 ```sh

@@ -48,7 +48,7 @@
 - In the current checkout, the real spreadsheet source files live under `key references/`, and the importer defaults are pointed there.
 - `scripts/compare_sources.py` consumes `data/current_tex_entries.json` plus derived CSVs and generates spreadsheet-backed comparison reports (`mand2mc_rows_not_in_tex.md`, `tex_forms_conflicting_with_mand2mc.md`, and `shengfu_groups_missing_from_tex.md`).
 - `scripts/build_coverage_model.py` combines TeX entries, Mand2MC, Shengfu, BS/GSR, and the Schuessler PDF series universe to produce `data/derived/character_coverage.csv`, `data/derived/gsc_series_coverage.csv`, and the expansion reports `gsc_series_coverage.md`, `missing_gsc_rhymes_and_series.md`, and `expansion_work_queue.md`.
-- `scripts/resolve_series_roots.py` derives provisional packet-level roots for missing GSC series from head/base graphs and inherited MC evidence, then stores those roots back into `data/entries/curation/*.json`.
+- `scripts/resolve_series_roots.py` derives provisional packet-level roots for missing GSC series from BS/GSR Old Chinese reconstructions, following Nathan's transcription conventions such as `ə → y`, then stores those roots back into `data/entries/curation/*.json`.
 - `scripts/export_series_packets.py` turns one or more target GSC series into hand-checkable curation packets in `data/series_packets/` and `reports/series_packets/`.
 - `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`, carrying through extracted entry hierarchy for existing TeX baselines.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.

@@ -43,5 +43,8 @@ The current curation schema now carries two additional structural layers that ar
 - `hierarchy_assignment` on proposed additions where the current evidence is strong enough:
   - links a proposed addition either to an inherited subgroup head from `main.tex` or to another machine-generated candidate node when Shengfu or Wiktionary phonetic evidence points there;
   - leaves the addition top-level or unassigned when that evidence is not yet strong enough.
+- `resolved_series_root` on missing-series packets:
+  - is now derived from BS/GSR `oc_bs` evidence rather than by stripping an MC form;
+  - currently follows Nathan's transcription conventions from *Hill ar 2015 Transcription of Chinese*, including `ə → y` and abstraction away from prefixes and final `-ʔ / -s` in the broad packet root.
 
 This is still an interim representation, but it is now rich enough for the renderer to keep some hand-authored hierarchy visible instead of flattening every proposed addition back to the top-level packet head.

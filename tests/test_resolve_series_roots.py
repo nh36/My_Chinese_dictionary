@@ -1,54 +1,51 @@
 from __future__ import annotations
 
+import json
 import sys
 import unittest
+from pathlib import Path
 
 
-ROOT = __import__("pathlib").Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import resolve_series_roots  # noqa: E402
 
 
 class ResolveSeriesRootsTests(unittest.TestCase):
-    def test_strip_tone(self) -> None:
-        self.assertEqual(resolve_series_roots.strip_tone("qimX"), "qim")
-        self.assertEqual(resolve_series_roots.strip_tone("kak"), "kak")
+    def test_derive_oc_root_examples(self) -> None:
+        self.assertEqual(resolve_series_roots.derive_oc_root("*kˤak"), "kak")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*krəm {*[k]r[ə]m}"), "kym")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*ləʔ"), "ly")
 
-    def test_resolve_root_single_candidate(self) -> None:
+    def test_resolve_root_single_oc_candidate(self) -> None:
         entry = {
             "packet_kind": "missing_series",
             "schuessler": {"k_tokens": ["766"]},
             "proposed_additions": [
                 {
                     "character": "各",
-                    "mand2mc_rows": [{"gsr": "0766a", "mc_nwh": "kak"}],
-                    "bs_gsr_rows": [],
+                    "mand2mc_rows": [],
+                    "bs_gsr_rows": [{"gsr": "0766a", "oc_bs": "*kˤak"}],
                 }
             ],
         }
         resolved = resolve_series_roots.resolve_root(entry)
         self.assertEqual(resolved["root"], "kak")
         self.assertEqual(resolved["character"], "各")
+        self.assertEqual(resolved["source"], "head_graph_oc_bs")
 
-    def test_resolve_root_multiple_candidates_unresolved(self) -> None:
-        entry = {
-            "packet_kind": "missing_series",
-            "schuessler": {"k_tokens": ["651", "652"]},
-            "proposed_additions": [
-                {
-                    "character": "今",
-                    "mand2mc_rows": [{"gsr": "0651a", "mc_nwh": "kim"}],
-                    "bs_gsr_rows": [],
-                },
-                {
-                    "character": "甲",
-                    "mand2mc_rows": [{"gsr": "0652a", "mc_nwh": "kam"}],
-                    "bs_gsr_rows": [],
-                },
-            ],
+    def test_current_missing_series_roots_are_oc_driven(self) -> None:
+        expectations = {
+            "02-01": "kak",
+            "04-30": "ly",
+            "38-03": "kym",
         }
-        self.assertIsNone(resolve_series_roots.resolve_root(entry))
+        for entry_id, expected_root in expectations.items():
+            entry = json.loads((ROOT / "data/entries/curation" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            resolved = resolve_series_roots.apply_root_resolution(entry)["resolved_series_root"]
+            self.assertEqual(resolved["root"], expected_root)
+            self.assertEqual(resolved["source"], "head_graph_oc_bs")
 
 
 if __name__ == "__main__":

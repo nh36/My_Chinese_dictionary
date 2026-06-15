@@ -6,6 +6,6 @@
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
-| `02-01` | 各→kak (0766a) | `kak` | `head_graph_mc` |
-| `04-30` | 㠯→yi (0976a) | `yi` | `head_graph_mc` |
-| `38-03` | 今→kim (0651a) | `kim` | `head_graph_mc` |
+| `02-01` | 各→kak [*kˤak] (0766a) | `kak` | `head_graph_oc_bs` |
+| `04-30` | 㠯→ly [*ləʔ] (0976a) | `ly` | `head_graph_oc_bs` |
+| `38-03` | 今→kym [*krəm {*[k]r[ə]m}] (0651a) | `kym` | `head_graph_oc_bs` |
