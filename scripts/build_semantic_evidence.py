@@ -119,6 +119,18 @@ RESEARCH_BACKED_SEMANTICS = {
         "source": "research_reconciled_packet",
         "note": "Reconciled provisionally with current packet by GSR placement while keeping 皿 as semantic.",
     },
+    "鏑": {
+        "semantic_component": "金",
+        "position": "prefix-dot",
+        "source": "research_secondary_phonetic_layer",
+        "note": "Metal semantic shell over the 帝/啇 phonetic line.",
+    },
+    "謫": {
+        "semantic_component": "言",
+        "position": "prefix-dot",
+        "source": "research_secondary_phonetic_layer",
+        "note": "Speech semantic shell over the 帝/啇 phonetic line.",
+    },
     "駵": {
         "semantic_component": "馬",
         "position": "prefix-dot",
