@@ -77,6 +77,12 @@ RESEARCH_BACKED_SEMANTICS = {
         "source": "research_explicit_phonosemantic",
         "note": "Chinese sources support 巾 semantic + 㠩 phonetic.",
     },
+    "旹": {
+        "semantic_component": "日",
+        "position": "suffix-colon",
+        "source": "research_old_form_of_時",
+        "note": "Old form of 時 with temporal semantic 日.",
+    },
     "墻": {
         "semantic_component": "土",
         "position": "prefix-dot",
@@ -95,6 +101,12 @@ RESEARCH_BACKED_SEMANTICS = {
         "source": "research_explicit_phonosemantic",
         "note": "Chinese and local sources agree on 高 phonetic + 毛 semantic.",
     },
+    "翛": {
+        "semantic_component": "羽",
+        "position": "suffix-dot",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese sources support 羽 semantic + 攸 phonetic.",
+    },
     "聽": {
         "semantic_component": "耳",
         "position": "prefix-dot",
@@ -106,6 +118,18 @@ RESEARCH_BACKED_SEMANTICS = {
         "position": "suffix-colon",
         "source": "research_reconciled_packet",
         "note": "Reconciled provisionally with current packet by GSR placement while keeping 皿 as semantic.",
+    },
+    "園": {
+        "semantic_component": "囗",
+        "position": "prefix-dot",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese sources support 囗 semantic + 袁 phonetic.",
+    },
+    "圜": {
+        "semantic_component": "囗",
+        "position": "prefix-dot",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese sources support 囗 semantic + 睘 phonetic.",
     },
 }
 

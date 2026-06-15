@@ -1,15 +1,15 @@
 # MC disagreement analysis
 
-- Candidate additions with at least one MC-disagreement signal: 236
+- Candidate additions with at least one MC-disagreement signal: 269
 
 ## Category counts
 
 | Category | Count |
 | --- | ---: |
-| `mand2mc-multiple` | 222 |
-| `mand2mc-extra-vs-bs` | 59 |
-| `bs-gsr-multiple` | 43 |
-| `bs-not-in-mand2mc` | 16 |
+| `mand2mc-multiple` | 254 |
+| `mand2mc-extra-vs-bs` | 70 |
+| `bs-gsr-multiple` | 52 |
+| `bs-not-in-mand2mc` | 17 |
 
 ## Current interpretation
 
@@ -78,6 +78,8 @@
 | `04-04` | 諆 | `mand2mc-multiple` | khi; ki |  |  |  | 0952n |
 | `04-04` | 綦 | `mand2mc-multiple, bs-gsr-multiple` | gi; giH | gi; giH |  |  | 0952z |
 | `04-04` | 丌 | `bs-not-in-mand2mc` |  | gi | gi |  | 0952a |
+| `04-26` | 等 | `mand2mc-multiple, mand2mc-extra-vs-bs` | təyX; təṅX | tongX |  | tojX | 0961i' |
+| `04-29` | 等 | `mand2mc-multiple, mand2mc-extra-vs-bs` | təyX; təṅX | tongX |  | tojX | 0961i' |
 | `04-30` | 眙 | `mand2mc-multiple` | ḍiṅH; ṭhiH |  |  |  | 0976a' |
 | `04-30` | 駘 | `mand2mc-multiple` | dəy; dəyX |  |  |  | 0976j' |
 | `04-30` | 俟 | `mand2mc-multiple, mand2mc-extra-vs-bs` | dẓiX; ẓiX | zriX |  | dzriX | 0976m |
@@ -113,6 +115,10 @@
 | `07-29` | 埤 | `mand2mc-multiple` | byie; byieX |  |  |  | 0874k |
 | `07-29` | 蠯 | `mand2mc-multiple` | beaṅX; byie |  |  |  | 0874v |
 | `07-29` | 鞞 | `mand2mc-multiple` | peṅX; pyieX |  |  |  | 0874x |
+| `09-01` | 頸 | `mand2mc-multiple, bs-gsr-multiple` | gyieṅ; kyieṅX | gjieng; kjiengX |  |  | 0831n |
+| `09-01` | 輕 | `mand2mc-multiple, mand2mc-extra-vs-bs` | khyieṅ; khyieṅH | khjieng |  | khjiengH | 0831o |
+| `09-01` | 鑋 | `mand2mc-multiple` | kheṅH; khyieṅ |  |  |  | 0831p |
+| `09-01` | 牼 | `mand2mc-multiple, bs-gsr-multiple` | heaṅ; kheaṅ | heang; kheang |  |  | 0831q |
 | `09-17` | 廷 | `mand2mc-multiple` | deṅ; deṅH |  |  |  | 0835d |
 | `09-17` | 聽 | `mand2mc-multiple, bs-gsr-multiple` | theṅ; theṅH | theng; thengH |  |  | 0835d' |
 | `09-17` | 庭 | `mand2mc-multiple` | deṅ; theṅH |  |  |  | 0835h |
@@ -153,6 +159,16 @@
 | `12-25` | 逢 | `mand2mc-multiple, mand2mc-extra-vs-bs` | biəwṅ; buwṅ | bjowng |  | buwng | 1197o |
 | `12-25` | 縫 | `mand2mc-multiple, bs-gsr-multiple` | biəwṅ; biəwṅH | bjowng; bjowngH |  |  | 1197x |
 | `12-25` | 奉 | `mand2mc-multiple, bs-gsr-multiple` | biəwṅX; phiəwṅX | bjowngX; phjowngX |  |  | 1197z |
+| `13-32` | 脩 | `mand2mc-multiple, mand2mc-extra-vs-bs` | siuw; yuw; yuwX | sjuw |  | yuw; yuwX | 1077e |
+| `13-32` | 條 | `mand2mc-multiple, mand2mc-extra-vs-bs` | dew; thew | dew |  | thew | 1077f |
+| `13-32` | 翛 | `mand2mc-multiple` | sew; śiuwk |  |  |  | 1077l |
+| `13-45` | 翏 | `mand2mc-multiple, mand2mc-extra-vs-bs` | liewH; lyiwH; liuwH | ljuwH |  | ljewH; ljiwH | 1069a |
+| `13-45` | 鏐 | `mand2mc-multiple` | lyiw; liuw |  |  |  | 1069b |
+| `13-45` | 摎 | `mand2mc-multiple, bs-gsr-multiple` | kyiw; liuw | kjiw; ljuw |  |  | 1069g |
+| `13-45` | 勠 | `mand2mc-multiple` | liuw; liuwH; liuwk |  |  |  | 1069j |
+| `13-45` | 瘳 | `mand2mc-multiple, mand2mc-extra-vs-bs` | lew; ṭhiuw | trhjuw |  | lew | 1069k |
+| `13-45` | 蓼 | `mand2mc-multiple` | lewX; liuwk |  |  |  | 1069p |
+| `13-45` | 膠 | `mand2mc-multiple, bs-gsr-multiple` | kaew; kaewX | kaew; kaewX |  |  | 1069s |
 | `16-01` | 嚆 | `mand2mc-multiple` | haew; haewH |  |  |  | 1129b' |
 | `16-01` | 藃 | `mand2mc-multiple` | haewk; hawH |  |  |  | 1129c' |
 | `16-01` | 膏 | `mand2mc-multiple, bs-gsr-multiple` | kaw; kawH | kaw; kawH |  |  | 1129i |
@@ -167,6 +183,13 @@
 | `16-06` | 校 | `mand2mc-multiple` | ḫaew; ḫaewH; ḫaewX; kaewH; kaewX |  |  |  | 1166i |
 | `16-06` | 絞 | `mand2mc-multiple, mand2mc-extra-vs-bs` | ḫaew; kaewX | kaewX |  | haew | 1166k |
 | `16-06` | 鉸 | `bs-not-in-mand2mc` |  | kaewX | kaewX |  | 1166 |
+| `16-14` | 僥 | `mand2mc-multiple` | kewX; ṅew |  |  |  | 1164b |
+| `16-14` | 膮 | `mand2mc-multiple` | hew; hewX |  |  |  | 1164g |
+| `16-14` | 磽 | `mand2mc-multiple` | khaew; khewX |  |  |  | 1164i |
+| `16-14` | 墝 | `mand2mc-multiple` | khaew; khewX |  |  |  | 1164j |
+| `16-14` | 繞 | `mand2mc-multiple, bs-gsr-multiple` | ñiewH; ñiewX | nyewH; nyewX |  |  | 1164k |
+| `16-14` | 橈 | `mand2mc-multiple, bs-gsr-multiple` | ṇaewH; ñiew | nraewH; nyew |  |  | 1164p |
+| `16-14` | 撓 | `mand2mc-multiple, mand2mc-extra-vs-bs` | ṇaewX; haw | nraewX |  | xaw | 1164s |
 | `16-15` | 刀 | `mand2mc-multiple, mand2mc-extra-vs-bs` | taw; tew | taw |  | tew | 1131a |
 | `16-15` | 召 | `mand2mc-multiple, bs-gsr-multiple` | ḍiewH; jiewX | drjewH; dzyewX |  |  | 1131e |
 | `16-15` | 怊 | `mand2mc-multiple` | ṭhiew; chiew |  |  |  | 1131i |
@@ -207,6 +230,16 @@
 | `24-21` | 彈 | `mand2mc-multiple, bs-gsr-multiple` | dan; danH | dan; danH |  |  | 0147n |
 | `24-21` | 樿 | `mand2mc-multiple` | jienH; cienX |  |  |  | 0147s |
 | `24-21` | 燀 | `mand2mc-multiple` | cienX; chienX |  |  |  | 0147t |
+| `24-23` | 儃 | `mand2mc-multiple` | jien; thanX |  |  |  | 0148c |
+| `24-23` | 襢 | `mand2mc-multiple, bs-gsr-multiple, mand2mc-extra-vs-bs` | danX; ṭienH; ṭienX | trjenH; trjenX |  | danX | 0148g |
+| `24-23` | 皽 | `mand2mc-multiple` | ṭienX; cienX |  |  |  | 0148h |
+| `24-23` | 邅 | `mand2mc-multiple` | ḍienX; ṭienX |  |  |  | 0148i |
+| `24-23` | 饘 | `mand2mc-multiple, bs-gsr-multiple` | cien; cienX | tsyen; tsyenX |  |  | 0148m |
+| `24-23` | 羴 | `bs-not-in-mand2mc` |  | syen | syen |  | 0148q |
+| `25-15` | 遠 | `mand2mc-multiple, mand2mc-extra-vs-bs` | ḫiwənH; ḫiwənX | hjwonX |  | hjwonH | 0256f |
+| `25-15` | 睘 | `mand2mc-multiple, mand2mc-extra-vs-bs` | giwieṅ; hwaen | hwaen |  | gjwieng | 0256h |
+| `25-15` | 還 | `mand2mc-multiple, bs-gsr-multiple` | hwaen; ziwen | hwaen; zjwen |  |  | 0256k |
+| `25-15` | 懁 | `mand2mc-multiple` | ḫwaen; hiwien; hwenH |  |  |  | 0256x |
 | `26-38` | 匕 | `bs-not-in-mand2mc, mand2mc-extra-vs-bs` | pyiyH | pjijX | pjijX | pjijH | 0566a |
 | `26-38` | 批 | `mand2mc-multiple` | bet; phey |  |  |  | 0566a' |
 | `26-38` | 膍 | `mand2mc-multiple` | bey; byiy |  |  |  | 0566f' |
