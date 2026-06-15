@@ -10,6 +10,12 @@
 | `02-01` | `missing_series` | no | 37 | 7 |
 | `38-03` | `missing_series` | no | 37 | 7 |
 | `04-30` | `missing_series` | no | 33 | 25 |
+| `03-57` | `missing_series` | no | 32 | 7 |
+| `24-01` | `missing_series` | no | 31 | 1 |
+| `09-25` | `missing_series` | no | 29 | 28 |
+| `03-38` | `missing_series` | no | 27 | 1 |
+| `07-08` | `missing_series` | no | 27 | 4 |
+| `04-61` | `missing_series` | no | 26 | 15 |
 | `18-18` | `existing_addendum` | yes | 7 | 5 |
 | `01-01` | `existing_addendum` | yes | 4 | 2 |
 | `01-43` | `existing_addendum` | yes | 2 | 0 |

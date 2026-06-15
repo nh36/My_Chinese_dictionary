@@ -10,7 +10,20 @@ import mc_resolution
 
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
-DEFAULT_IDS = ["02-01", "38-03", "04-30", "18-18", "01-01", "01-43"]
+DEFAULT_IDS = [
+    "02-01",
+    "38-03",
+    "04-30",
+    "03-57",
+    "24-01",
+    "09-25",
+    "03-38",
+    "07-08",
+    "04-61",
+    "18-18",
+    "01-01",
+    "01-43",
+]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"

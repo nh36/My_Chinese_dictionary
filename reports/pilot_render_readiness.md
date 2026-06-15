@@ -1,15 +1,15 @@
 # Pilot render readiness
 
 - Overall status: **ready**
-- Curated packet count: 6
-- Proposed additions under review: 120
+- Curated packet count: 12
+- Proposed additions under review: 292
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 120 | 120 |
-| Semantic placement present | 120 | 120 |
-| Transliteration LaTeX present | 120 | 120 |
-| Candidate render LaTeX present | 120 | 120 |
+| Semantic assignment present | 292 | 292 |
+| Semantic placement present | 292 | 292 |
+| Transliteration LaTeX present | 292 | 292 |
+| Candidate render LaTeX present | 292 | 292 |
 
 ## Render markers
 

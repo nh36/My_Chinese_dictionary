@@ -9,7 +9,20 @@ from typing import Any
 
 DEFAULT_PACKET_DIR = "data/series_packets"
 DEFAULT_OUTPUT_DIR = "data/entries/curation"
-DEFAULT_IDS = ["02-01", "38-03", "04-30", "18-18", "01-01", "01-43"]
+DEFAULT_IDS = [
+    "02-01",
+    "38-03",
+    "04-30",
+    "03-57",
+    "24-01",
+    "09-25",
+    "03-38",
+    "07-08",
+    "04-61",
+    "18-18",
+    "01-01",
+    "01-43",
+]
 
 
 def load_packet(path: Path) -> dict[str, Any]:

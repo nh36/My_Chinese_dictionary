@@ -355,6 +355,14 @@ def resolve_semantic_from_wiktionary_template(
     semantic_components = han_compound.get("semantic_components") or []
     phonetic_components = han_compound.get("phonetic_components") or []
     positional = han_compound.get("positional_components") or []
+    if not semantic_components and len(phonetic_components) == 1 and len(positional) == 2:
+        other = [component for component in positional if normalize_component_graph(component) != normalize_component_graph(phonetic_components[0])]
+        if len(other) == 1:
+            semantic_components = [other[0]]
+    if not phonetic_components and len(semantic_components) == 1 and len(positional) == 2:
+        other = [component for component in positional if normalize_component_graph(component) != normalize_component_graph(semantic_components[0])]
+        if len(other) == 1:
+            phonetic_components = [other[0]]
     if len(semantic_components) != 1 or len(phonetic_components) != 1:
         return None
 
@@ -385,10 +393,21 @@ def resolve_semantic_from_wiktionary_template(
             position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
         elif operator == "⿱":
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
+        elif operator == "⿲":
+            position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+        elif operator == "⿳":
+            position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
         elif operator in {"⿸", "⿷", "⿺", "⿹"}:
             position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
         elif operator in {"⿵", "⿶"}:
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
+
+    if position is None and semantic_index is not None and phonetic_index is not None:
+        named_args = han_compound.get("named_args") or {}
+        if named_args.get("c1") == "s" and named_args.get("c2") == "p":
+            position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+        elif named_args.get("c1") == "p" and named_args.get("c2") == "s":
+            position = "suffix-dot" if semantic_index > phonetic_index else "prefix-dot"
 
     inventory_matches = graph_lookup.get(semantic_component, [])
     abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
@@ -987,7 +1006,7 @@ def enrich_curated_entry_with_ids(
         han_templates = (candidate.get("wiktionary_validation") or {}).get("han_compounds") or []
         explicit_candidate = None
         for han_compound in han_templates:
-            if han_compound.get("semantic_components") and han_compound.get("phonetic_components"):
+            if han_compound.get("semantic_components") or han_compound.get("phonetic_components"):
                 explicit_candidate = resolve_semantic_from_wiktionary_template(
                     character=candidate["character"],
                     han_compound=han_compound,
@@ -1079,6 +1098,20 @@ def enrich_curated_entry_with_ids(
                 candidate_characters,
                 top_level_head,
             )
+    candidate_children = hierarchy_utils.collect_candidate_children(entry)
+    for candidate in entry.get("proposed_additions", []):
+        if candidate.get("semantic_assignment") is None and candidate_children.get(candidate["character"]):
+            candidate["semantic_assignment"] = {
+                "token": None,
+                "abbreviation": None,
+                "position": "none",
+                "inventory_matches": [],
+                "source": "generated_subseries_head",
+                "semantic_component": None,
+            }
+            if entry.get("packet_kind") == "missing_series":
+                candidate["transliteration_latex"] = derive_missing_series_transliteration(entry, candidate)
+                candidate["render_latex"] = synthesize_render_latex(candidate)
     return entry
 
 

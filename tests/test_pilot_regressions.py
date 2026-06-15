@@ -42,7 +42,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{ly}},", rendered)
         self.assertIn(r"{\large{kym}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
-        self.assertEqual(rendered.count(r"\pilotentry{%"), 6)
+        self.assertEqual(rendered.count(r"\pilotentry{%"), 12)
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:
         entries = json.loads((ROOT / "data/current_tex_entries.json").read_text(encoding="utf-8"))["entries"]

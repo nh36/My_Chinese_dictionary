@@ -18,7 +18,20 @@ DEFAULT_BS_GSR = "data/derived/bs_gsr.csv"
 DEFAULT_SCHUESSLER_PDF = "key references/Schuessler, Axel 2009/Schuessler 2009.pdf"
 DEFAULT_OUTPUT_DIR = "data/series_packets"
 DEFAULT_REPORT_DIR = "reports/series_packets"
-DEFAULT_PILOT_IDS = ["02-01", "38-03", "04-30", "18-18", "01-01", "01-43"]
+DEFAULT_PILOT_IDS = [
+    "02-01",
+    "38-03",
+    "04-30",
+    "03-57",
+    "24-01",
+    "09-25",
+    "03-38",
+    "07-08",
+    "04-61",
+    "18-18",
+    "01-01",
+    "01-43",
+]
 
 
 def sanitize_mand_row(row: dict[str, Any]) -> dict[str, Any]:

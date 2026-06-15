@@ -188,7 +188,14 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
     deduped: dict[str, dict[str, Any]] = {}
     for item in candidates:
         deduped.setdefault(item["root"], item)
-    return list(deduped.values())
+    values = list(deduped.values())
+    if any(item["gsr"] and split_gsr(item["gsr"]) and split_gsr(item["gsr"])[1] == "a" for item in values):
+        values = [
+            item
+            for item in values
+            if item["gsr"] and split_gsr(item["gsr"]) and split_gsr(item["gsr"])[1] == "a"
+        ]
+    return values
 
 
 def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
