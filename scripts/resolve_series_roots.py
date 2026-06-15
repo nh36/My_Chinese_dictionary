@@ -133,8 +133,9 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
 
 
 def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
-    broad = rhyme.rstrip("ʔs")
-    broad = broad.replace("ˤ", "").replace("̠", "").replace("-", "")
+    broad = rhyme.replace("-", "")
+    broad = broad.rstrip("ʔs")
+    broad = broad.replace("ˤ", "").replace("̠", "")
     if not broad:
         return "", ""
     if broad.endswith("j"):
@@ -246,10 +247,39 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
     return values
 
 
+def derive_packet_root_consensus(entry: dict[str, Any]) -> dict[str, Any] | None:
+    roots_by_character: dict[str, list[tuple[str | None, str]]] = {}
+    for candidate in entry.get("proposed_additions", []):
+        values: list[tuple[str | None, str]] = []
+        for row in candidate.get("bs_gsr_rows", []):
+            root = derive_oc_root(row.get("oc_bs"), mode="broad")
+            if root:
+                values.append((row.get("oc_bs"), root))
+        if values:
+            roots_by_character[candidate["character"]] = values
+    if len(roots_by_character) < 2:
+        return None
+    deduped_roots: dict[str, tuple[str | None, str]] = {}
+    for values in roots_by_character.values():
+        for oc_bs, root in values:
+            deduped_roots.setdefault(root, (oc_bs, root))
+    if len(deduped_roots) != 1:
+        return None
+    oc_bs, root = next(iter(deduped_roots.values()))
+    return {
+        "root": root,
+        "source": "packet_bs_consensus",
+        "character": None,
+        "oc_bs": oc_bs,
+        "confidence": "provisional-oc",
+        "supporting_characters": len(roots_by_character),
+    }
+
+
 def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
     candidates = derive_root_candidates(entry)
     if not candidates:
-        return None
+        return derive_packet_root_consensus(entry)
     if len(candidates) == 1:
         candidate = candidates[0]
         return {
@@ -259,7 +289,7 @@ def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
             "oc_bs": candidate.get("oc_bs"),
             "confidence": "provisional-oc",
         }
-    return None
+    return derive_packet_root_consensus(entry)
 
 
 def apply_root_resolution(entry: dict[str, Any]) -> dict[str, Any]:

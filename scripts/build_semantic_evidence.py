@@ -52,6 +52,62 @@ COMPONENT_ALIASES = {
 WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 SUPERSCRIPT_RELATION_COLON = "˸"
+RESEARCH_BACKED_SEMANTICS = {
+    "甞": {
+        "semantic_component": "甘",
+        "position": "suffix-colon",
+        "source": "research_layered_variant",
+        "note": "Earlier layer related to 嘗; treat variant as separate graph.",
+    },
+    "𣥺": {
+        "semantic_component": "止",
+        "position": "suffix-colon",
+        "source": "research_ids_support",
+        "note": "Top component aligns with the 甞-layer phonetic line; 止 functions as semantic.",
+    },
+    "詤": {
+        "semantic_component": "言",
+        "position": "prefix-dot",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese sources support 言 semantic + 㠩 phonetic.",
+    },
+    "㡃": {
+        "semantic_component": "巾",
+        "position": "prefix-dot",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese sources support 巾 semantic + 㠩 phonetic.",
+    },
+    "墻": {
+        "semantic_component": "土",
+        "position": "prefix-dot",
+        "source": "research_variant_of_牆",
+        "note": "Variant of 牆 with 爿 replaced by 土.",
+    },
+    "廧": {
+        "semantic_component": "广",
+        "position": "prefix-dot",
+        "source": "research_variant_of_牆",
+        "note": "Variant of 牆 with 广 semantic shell.",
+    },
+    "毫": {
+        "semantic_component": "毛",
+        "position": "suffix-colon",
+        "source": "research_explicit_phonosemantic",
+        "note": "Chinese and local sources agree on 高 phonetic + 毛 semantic.",
+    },
+    "聽": {
+        "semantic_component": "耳",
+        "position": "prefix-dot",
+        "source": "research_layered_character",
+        "note": "Treat 聽 as layered: ear semantic with later added material, not two co-equal semantics.",
+    },
+    "盇": {
+        "semantic_component": "皿",
+        "position": "suffix-colon",
+        "source": "research_reconciled_packet",
+        "note": "Reconciled provisionally with current packet by GSR placement while keeping 皿 as semantic.",
+    },
+}
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -715,6 +771,27 @@ def strip_visible_mc_warning(render_latex: str | None) -> str | None:
     return normalize_superscript_relation_punctuation("\n".join(lines) if lines else None)
 
 
+def apply_research_backed_semantic(
+    candidate: dict[str, Any],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any] | None:
+    override = RESEARCH_BACKED_SEMANTICS.get(candidate["character"])
+    if override is None:
+        return None
+    semantic_component = normalize_component_graph(override["semantic_component"])
+    inventory_matches = graph_lookup.get(semantic_component, [])
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
+    return {
+        "token": None,
+        "abbreviation": abbreviation,
+        "position": override["position"],
+        "inventory_matches": inventory_matches,
+        "source": override["source"],
+        "semantic_component": semantic_component,
+        "research_note": override["note"],
+    }
+
+
 def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if len(matches) <= 1:
         return matches
@@ -1100,6 +1177,10 @@ def enrich_curated_entry_with_ids(
                     candidate["semantic_assignment"],
                 )
 
+        if candidate.get("semantic_assignment") is None:
+            research_assignment = apply_research_backed_semantic(candidate, graph_lookup)
+            if research_assignment is not None:
+                candidate["semantic_assignment"] = research_assignment
         if candidate.get("semantic_assignment") is None:
             packet_candidate = resolve_semantic_from_packet_family(
                 character=candidate["character"],
