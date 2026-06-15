@@ -6,8 +6,8 @@
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 117 | 120 |
-| Semantic placement present | 117 | 120 |
+| Semantic assignment present | 120 | 120 |
+| Semantic placement present | 120 | 120 |
 | Transliteration LaTeX present | 13 | 120 |
 | Candidate render LaTeX present | 13 | 120 |
 

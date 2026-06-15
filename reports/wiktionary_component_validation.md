@@ -2,7 +2,7 @@
 
 - Proposed additions checked: 120
 - Pages fetched / cached successfully: 118
-- Additions with explicit Han-compound semantic/phonetic roles: 52
+- Additions with explicit Han-compound semantic/phonetic roles: 53
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -99,7 +99,7 @@
 | `38-03` | 衾 | yes | no |  |  |
 | `38-03` | 韽 | yes | no |  |  |
 | `38-03` | 坅 | yes | no |  |  |
-| `38-03` | 飲 | yes | no |  |  |
+| `38-03` | 飲 | yes | yes | 欠 | 酓 |
 | `38-03` | 㱃 | yes | no |  |  |
 | `38-03` | 禽 | yes | no |  |  |
 | `38-03` | 㜝 | yes | no |  |  |

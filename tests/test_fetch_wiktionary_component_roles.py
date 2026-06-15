@@ -27,6 +27,12 @@ class FetchWiktionaryComponentRolesTests(unittest.TestCase):
         self.assertEqual(parsed["semantic_components"], [])
         self.assertEqual(parsed["phonetic_components"], [])
 
+    def test_parse_all_han_compounds(self) -> None:
+        text = "{{Han compound|夂|口|ls=ic}}{{Han compound|酓|欠|ls=psc|c1=p|c2=s}}"
+        parsed = fetch_wiktionary_component_roles.parse_all_han_compound_templates(text)
+        self.assertEqual(len(parsed), 2)
+        self.assertEqual(parsed[1]["semantic_components"], ["欠"])
+
 
 if __name__ == "__main__":
     unittest.main()

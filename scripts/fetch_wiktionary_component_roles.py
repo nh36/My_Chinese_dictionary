@@ -81,13 +81,42 @@ def parse_han_compound_template(wikitext: str | None) -> dict[str, Any] | None:
     }
 
 
+def parse_all_han_compound_templates(wikitext: str | None) -> list[dict[str, Any]]:
+    if not wikitext:
+        return []
+    results: list[dict[str, Any]] = []
+    marker = "{{Han compound|"
+    start = 0
+    while True:
+        index = wikitext.find(marker, start)
+        if index == -1:
+            break
+        end = wikitext.find("}}", index)
+        if end == -1:
+            break
+        parsed = parse_han_compound_template(wikitext[index:end + 2])
+        if parsed:
+            results.append(parsed)
+        start = end + 2
+    return results
+
+
 def enrich_entry(entry: dict[str, Any], cache_dir: Path) -> dict[str, Any]:
     for candidate in entry.get("proposed_additions", []):
         wikitext = fetch_wiktionary_wikitext(candidate["character"], cache_dir)
-        han_compound = parse_han_compound_template(wikitext)
+        han_compounds = parse_all_han_compound_templates(wikitext)
+        han_compound = next(
+            (
+                compound
+                for compound in han_compounds
+                if compound.get("semantic_components") and compound.get("phonetic_components")
+            ),
+            han_compounds[0] if han_compounds else None,
+        )
         candidate["wiktionary_validation"] = {
             "available": wikitext is not None,
             "han_compound": han_compound,
+            "han_compounds": han_compounds,
         }
     return entry
 

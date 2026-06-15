@@ -185,7 +185,8 @@
       "shengfu_component_rows": [],
       "wiktionary_validation": {
         "available": true,
-        "han_compound": null
+        "han_compound": null,
+        "han_compounds": []
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -212,7 +213,8 @@
         ],
         "source": "packet_family_ids",
         "semantic_component": "米"
-      }
+      },
+      "wiktionary_semantic_validation": null
     },
     {
       "character": "菇",
@@ -270,7 +272,27 @@
           "phonetic_components": [
             "姑"
           ]
-        }
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|姑|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "艸",
+              "姑"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "姑"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -409,7 +431,28 @@
           "phonetic_components": [
             "固"
           ]
-        }
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|疒|固|c1=s|c2=p|t1=illness|ls=psc}}",
+            "positional_components": [
+              "疒",
+              "固"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "illness",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "疒"
+            ],
+            "phonetic_components": [
+              "固"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -531,7 +574,29 @@
           "phonetic_components": [
             "固"
           ]
-        }
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|alt1=亻|固|c1=s|c2=p|t1=person|ls=psc}}",
+            "positional_components": [
+              "人",
+              "固"
+            ],
+            "named_args": {
+              "alt1": "亻",
+              "c1": "s",
+              "c2": "p",
+              "t1": "person",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "固"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [

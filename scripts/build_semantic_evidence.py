@@ -38,12 +38,15 @@ COMPONENT_ALIASES = {
     "釒": "金",
     "艹": "艸",
     "亻": "人",
+    "𠦒": "网",
     "⺮": "竹",
     "飠": "食",
     "饣": "食",
     "訁": "言",
     "疒": "疒",
 }
+WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
+GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -198,6 +201,15 @@ def load_csv_records(path: Path) -> list[dict[str, Any]]:
 
 def normalize_component_graph(component: str) -> str:
     return COMPONENT_ALIASES.get(component, component)
+
+
+def split_gsr_base(value: str | None) -> tuple[int, str] | None:
+    if not value:
+        return None
+    match = GSR_BASE_RE.match(str(value).strip())
+    if not match:
+        return None
+    return int(match.group(1)), (match.group(2) or "").lower()
 
 
 def load_ids_map(path: Path) -> dict[str, str]:
@@ -391,6 +403,39 @@ def resolve_semantic_from_wiktionary_template(
         "inventory_matches": inventory_matches,
         "template_raw": han_compound.get("template_raw"),
     }
+
+
+def load_wiktionary_wikitext_from_cache(character: str) -> str | None:
+    cache_path = WIKTIONARY_CACHE_DIR / f"{ord(character):05X}.json"
+    if not cache_path.exists():
+        return None
+    payload = json.loads(cache_path.read_text(encoding="utf-8"))
+    return payload.get("wikitext")
+
+
+def resolve_historical_wiktionary_note(
+    character: str,
+    ids_map: dict[str, str],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any] | None:
+    wikitext = load_wiktionary_wikitext_from_cache(character)
+    if not wikitext:
+        return None
+
+    if character == "禽" and "{{zh-l|*𠦒}}" in wikitext and "phonetic component {{och-l|今}} was added" in wikitext:
+        semantic_component = normalize_component_graph("𠦒")
+        inventory_matches = graph_lookup.get(semantic_component, [])
+        abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
+        return {
+            "source": "wiktionary_historical_stage",
+            "character": character,
+            "semantic_component": semantic_component,
+            "phonetic_component": "今",
+            "position": "suffix-colon",
+            "abbreviation": abbreviation,
+            "inventory_matches": inventory_matches,
+        }
+    return None
 
 
 def resolve_semantic_from_packet_family(
@@ -700,6 +745,33 @@ def maybe_mark_base_graph(candidate: dict[str, Any], ids_map: dict[str, str]) ->
     return None
 
 
+def maybe_mark_series_head(entry: dict[str, Any], candidate: dict[str, Any]) -> dict[str, Any] | None:
+    if entry.get("packet_kind") != "missing_series":
+        return None
+    header_tokens = {
+        int(token)
+        for token in entry.get("schuessler", {}).get("k_tokens", [])
+        if str(token).isdigit()
+    }
+    if not header_tokens:
+        return None
+    for row in candidate.get("mand2mc_rows", []) + candidate.get("bs_gsr_rows", []):
+        parsed = split_gsr_base(row.get("gsr"))
+        if parsed is None:
+            continue
+        digits, suffix = parsed
+        if digits in header_tokens and suffix in {"", "a"}:
+            return {
+                "token": None,
+                "abbreviation": None,
+                "position": "none",
+                "inventory_matches": [],
+                "source": "schuessler_series_head",
+                "semantic_component": None,
+            }
+    return None
+
+
 def extract_series_root_latex(raw_block: str) -> str | None:
     for line in raw_block.splitlines()[1:]:
         stripped = line.strip()
@@ -875,27 +947,52 @@ def enrich_curated_entry_with_ids(
         if candidate.get("render_latex") is None:
             candidate["render_latex"] = synthesize_render_latex(candidate)
 
-        han_compound = (candidate.get("wiktionary_validation") or {}).get("han_compound")
-        if han_compound and han_compound.get("semantic_components") and han_compound.get("phonetic_components"):
-            explicit_candidate = resolve_semantic_from_wiktionary_template(
-                character=candidate["character"],
-                han_compound=han_compound,
-                ids_map=ids_map,
-                graph_lookup=graph_lookup,
-            )
+        han_templates = (candidate.get("wiktionary_validation") or {}).get("han_compounds") or []
+        explicit_candidate = None
+        for han_compound in han_templates:
+            if han_compound.get("semantic_components") and han_compound.get("phonetic_components"):
+                explicit_candidate = resolve_semantic_from_wiktionary_template(
+                    character=candidate["character"],
+                    han_compound=han_compound,
+                    ids_map=ids_map,
+                    graph_lookup=graph_lookup,
+                )
+                if explicit_candidate:
+                    break
+        candidate["wiktionary_semantic_validation"] = None
+        if explicit_candidate:
             candidate["wiktionary_semantic_validation"] = {
-                "semantic_component": han_compound["semantic_components"][0],
-                "phonetic_component": han_compound["phonetic_components"][0],
+                "semantic_component": explicit_candidate["semantic_component"],
+                "phonetic_component": explicit_candidate["phonetic_component"],
                 "resolved_assignment": explicit_candidate,
             }
-            if explicit_candidate and explicit_candidate.get("abbreviation"):
+            candidate["semantic_assignment"] = {
+                "token": None,
+                "abbreviation": explicit_candidate["abbreviation"],
+                "position": explicit_candidate["position"],
+                "inventory_matches": explicit_candidate["inventory_matches"],
+                "source": explicit_candidate["source"],
+                "semantic_component": explicit_candidate["semantic_component"],
+            }
+            if candidate.get("transliteration_latex") is None and entry.get("tex_entry") is not None:
+                root = extract_series_root_latex(entry["tex_entry"]["raw_block"])
+                if root:
+                    candidate["transliteration_latex"] = compose_transliteration_from_root(
+                        root,
+                        candidate["semantic_assignment"],
+                    )
+        elif candidate.get("semantic_assignment") is None:
+            historical_candidate = resolve_historical_wiktionary_note(
+                candidate["character"], ids_map, graph_lookup
+            )
+            if historical_candidate is not None:
                 candidate["semantic_assignment"] = {
                     "token": None,
-                    "abbreviation": explicit_candidate["abbreviation"],
-                    "position": explicit_candidate["position"],
-                    "inventory_matches": explicit_candidate["inventory_matches"],
-                    "source": "wiktionary_han_compound",
-                    "semantic_component": explicit_candidate["semantic_component"],
+                    "abbreviation": historical_candidate["abbreviation"],
+                    "position": historical_candidate["position"],
+                    "inventory_matches": historical_candidate["inventory_matches"],
+                    "source": historical_candidate["source"],
+                    "semantic_component": historical_candidate["semantic_component"],
                 }
                 if candidate.get("transliteration_latex") is None and entry.get("tex_entry") is not None:
                     root = extract_series_root_latex(entry["tex_entry"]["raw_block"])
@@ -904,6 +1001,10 @@ def enrich_curated_entry_with_ids(
                             root,
                             candidate["semantic_assignment"],
                         )
+        if candidate.get("semantic_assignment") is None:
+            series_head = maybe_mark_series_head(entry, candidate)
+            if series_head is not None:
+                candidate["semantic_assignment"] = series_head
     return entry
 
 
