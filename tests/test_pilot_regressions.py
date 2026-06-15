@@ -65,22 +65,23 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertEqual(by_character_3803["飲"]["hierarchy_assignment"]["parent_character"], "酓")
         self.assertEqual(by_character_3803["錦"]["hierarchy_assignment"]["parent_character"], "金")
 
-    def test_generated_sample_places_each_subseries_directly_under_its_parent(self) -> None:
+    def test_generated_sample_gathers_subseries_at_the_end_of_each_level(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
 
         block_0201 = self.extract_entry_block(rendered, "02-01")
-        self.assertLess(block_0201.index(r"\item {\Large{客}}"), block_0201.index("袼\t%"))
-        self.assertLess(block_0201.index(r"\item {\Large{洛}}"), block_0201.index("賂\t%"))
-        self.assertLess(block_0201.index(r"\item {\Large{路}}"), block_0201.index("烙\t%"))
+        self.assertLess(block_0201.index("格\t%"), block_0201.index(r"\begin{itemize}[noitemsep]"))
+        self.assertIn(r"\item {\Large{客}}", block_0201)
+        self.assertIn(r"\item {\Large{洛}}", block_0201)
+        self.assertIn(r"\item {\Large{路}}", block_0201)
 
         block_0430 = self.extract_entry_block(rendered, "04-30")
-        self.assertLess(block_0430.index(r"\item {\Large{以}}"), block_0430.index("苢\t%"))
-        self.assertLess(block_0430.index(r"\item {\Large{矣}}"), block_0430.index("殆\t%"))
-        self.assertLess(block_0430.index(r"\item {\Large{台}}"), block_0430.index("冶\t%"))
+        self.assertLess(block_0430.index("𨽿\t%"), block_0430.index(r"\begin{itemize}[noitemsep]"))
+        self.assertLess(block_0430.index("飴\t%"), block_0430.index(r"\item {\Large{矣}}"))
+        self.assertLess(block_0430.index(r"\item {\Large{矣}}"), block_0430.index(r"\item {\Large{台}}"))
 
         block_3803 = self.extract_entry_block(rendered, "38-03")
-        self.assertLess(block_3803.index(r"\item {\Large{酓}}"), block_3803.index("紟\t%"))
-        self.assertLess(block_3803.index(r"\item {\Large{禽}}"), block_3803.index("㜝\t%"))
+        self.assertLess(block_3803.index("廞\t%"), block_3803.index(r"\begin{itemize}[noitemsep]"))
+        self.assertLess(block_3803.index(r"\item {\Large{侌}}"), block_3803.index(r"\item {\Large{陰}}"))
         self.assertLess(block_3803.index(r"\item {\Large{金}}"), block_3803.index("錦\t%"))
 
 
