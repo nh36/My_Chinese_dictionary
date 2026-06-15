@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 1485
-- Pages fetched / cached successfully: 1461
-- Additions with explicit Han-compound semantic/phonetic roles: 747
+- Proposed additions checked: 1503
+- Pages fetched / cached successfully: 1479
+- Additions with explicit Han-compound semantic/phonetic roles: 758
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1261,6 +1261,24 @@
 | `27-08` | 悲 | yes | yes | 心 | 非 |
 | `27-08` | 俳 | yes | yes | 人 | 非 |
 | `27-08` | 排 | yes | yes | 手 | 非 |
+| `28-05` | 韋 | yes | no |  |  |
+| `28-05` | 違 | yes | yes | 辵 | 韋 |
+| `28-05` | 偉 | yes | yes | 人 | 韋 |
+| `28-05` | 圍 | yes | yes | 囗 | 韋 |
+| `28-05` | 幃 | yes | yes | 巾 | 韋 |
+| `28-05` | 煒 | yes | no |  |  |
+| `28-05` | 瑋 | yes | yes | 玉 | 韋 |
+| `28-05` | 禕 | yes | yes | 示 | 韋 |
+| `28-05` | 緯 | yes | yes | 糸 | 韋 |
+| `28-05` | 葦 | yes | yes | 艸 | 韋 |
+| `28-05` | 闈 | yes | no |  |  |
+| `28-05` | 韙 | yes | no |  |  |
+| `28-05` | 韡 | yes | no |  |  |
+| `28-05` | 褘 | yes | yes | 衣 | 韋 |
+| `28-05` | 諱 | yes | yes | 言 | 韋 |
+| `28-05` | 衛 | yes | yes | 行 | 韋 |
+| `28-05` | 讆 | yes | no |  |  |
+| `28-05` | 躗 | yes | no |  |  |
 | `28-11` | 隹 | yes | no |  |  |
 | `28-11` | 推 | yes | yes | 手 | 隹 |
 | `28-11` | 陮 | yes | no |  |  |
