@@ -24,6 +24,7 @@ BEGIN_END_RE = re.compile(r"^\\(begin|end)\{")
 ITEM_RE = re.compile(r"^\\item\b")
 PARAGRAPH_RE = re.compile(r"^\\paragraph\b")
 TEXTSUP_RE = re.compile(r"\\textsuperscript\{([^}]*)\}")
+TEXTSUP_CONTENT_RE = re.compile(r"(\\textsuperscript\{)([^}]*)(\})")
 BINARY_IDS = {"⿰", "⿱", "⿴", "⿵", "⿶", "⿷", "⿸", "⿹", "⿺", "⿻"}
 TRINARY_IDS = {"⿲", "⿳"}
 IDS_NOTE_RE = re.compile(r"\[[^]]*\]")
@@ -50,6 +51,7 @@ COMPONENT_ALIASES = {
 }
 WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
+SUPERSCRIPT_RELATION_COLON = "˸"
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -687,7 +689,19 @@ def normalize_transliteration_latex(value: str | None) -> str | None:
         if not stripped or stripped.startswith("%"):
             continue
         lines.append(stripped)
-    return "\n".join(lines) if lines else None
+    normalized = "\n".join(lines) if lines else None
+    return normalize_superscript_relation_punctuation(normalized)
+
+
+def normalize_superscript_relation_punctuation(value: str | None) -> str | None:
+    if not value:
+        return value
+
+    def replace(match: re.Match[str]) -> str:
+        content = match.group(2).replace(":", SUPERSCRIPT_RELATION_COLON)
+        return match.group(1) + content + match.group(3)
+
+    return TEXTSUP_CONTENT_RE.sub(replace, value)
 
 
 def strip_visible_mc_warning(render_latex: str | None) -> str | None:
@@ -698,7 +712,7 @@ def strip_visible_mc_warning(render_latex: str | None) -> str | None:
         for line in render_latex.splitlines()
         if line.strip() and "[MC disagreement among imported sources]" not in line
     ]
-    return "\n".join(lines) if lines else None
+    return normalize_superscript_relation_punctuation("\n".join(lines) if lines else None)
 
 
 def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -835,11 +849,11 @@ def compose_transliteration_from_root(root: str, semantic_assignment: dict[str, 
     if position == "prefix-dot":
         return rf"{{\large{{\textsuperscript{{{abbreviation}·}}{root}}}}},"
     if position == "prefix-colon":
-        return rf"{{\large{{\textsuperscript{{{abbreviation}:}}{root}}}}},"
+        return rf"{{\large{{\textsuperscript{{{abbreviation}{SUPERSCRIPT_RELATION_COLON}}}{root}}}}},"
     if position == "suffix-dot":
         return rf"{{\large{{{root}\textsuperscript{{·{abbreviation}}}}}}},"
     if position == "suffix-colon":
-        return rf"{{\large{{{root}\textsuperscript{{:{abbreviation}}}}}}},"
+        return rf"{{\large{{{root}\textsuperscript{{{SUPERSCRIPT_RELATION_COLON}{abbreviation}}}}}}},"
     return None
 
 
