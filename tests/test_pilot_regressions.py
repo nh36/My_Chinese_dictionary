@@ -41,9 +41,13 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
         self.assertIn(r"{\large{ly}},", rendered)
         self.assertIn(r"{\large{kym}},", rendered)
+        self.assertIn(r"= {\large{laṅ}},", rendered)
+        self.assertIn(r"= {\large{ly}},", rendered)
+        self.assertIn(r"= {\large{py}},", rendered)
+        self.assertIn(r"= {\large{seṅ}},", rendered)
         self.assertNotIn("ŋrrar", rendered)
         self.assertIn(r"{\large{\textsuperscript{bamb˸}kak}},", rendered)
-        self.assertIn(r"{\large{\textsuperscript{herb˸}krak}},", rendered)
+        self.assertIn(r"{\large{\textsuperscript{herb˸}kak}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
         self.assertEqual(rendered.count(r"\pilotentry{%"), 20)
@@ -107,6 +111,21 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertLess(block_3803.index("廞\t%"), block_3803.index(r"\begin{itemize}[noitemsep]"))
         self.assertLess(block_3803.index(r"\item {\Large{侌}}"), block_3803.index(r"\item {\Large{陰}}"))
         self.assertLess(block_3803.index(r"\item {\Large{金}}"), block_3803.index("錦\t%"))
+
+    def test_bad_subseries_roots_are_replaced_by_conservative_values(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        self.assertIn(r"\item {\Large{湯}}", rendered)
+        self.assertIn(r"= {\large{laṅ}},", rendered)
+        self.assertIn(r"\item {\Large{台}}", rendered)
+        self.assertIn(r"= {\large{ly}},", rendered)
+        self.assertIn(r"\item {\Large{咅}}", rendered)
+        self.assertIn(r"= {\large{py}},", rendered)
+        self.assertIn(r"\item {\Large{星}}", rendered)
+        self.assertIn(r"= {\large{seṅ}},", rendered)
+        self.assertNotIn(r"= {\large{khaṅ}},", rendered)
+        self.assertNotIn(r"= {\large{khy}},", rendered)
+        self.assertNotIn(r"= {\large{phy}},", rendered)
+        self.assertNotIn(r"= {\large{theṅ}},", rendered)
 
 
 if __name__ == "__main__":

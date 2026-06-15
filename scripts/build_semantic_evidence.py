@@ -895,6 +895,7 @@ def resolve_generated_node_root(
     candidate: dict[str, Any],
     candidate_children: dict[str, list[dict[str, Any]]],
     candidate_map: dict[str, dict[str, Any]],
+    parent_root: str | None,
 ) -> dict[str, Any] | None:
     descendant_characters = hierarchy_utils.collect_descendant_characters(candidate["character"], candidate_children)
     relevant_candidates = [candidate] + [
@@ -902,21 +903,52 @@ def resolve_generated_node_root(
         for character in descendant_characters
         if character in candidate_map
     ]
-    roots = dedupe_preserve(
+    bs_broad_roots_by_character: dict[str, list[str]] = {}
+    bs_node_roots_by_character: dict[str, list[str]] = {}
+    for item in relevant_candidates:
+        broad_roots = dedupe_preserve(
+            resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="broad")
+            for row in item.get("bs_gsr_rows", [])
+            if resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="broad")
+        )
+        node_roots = dedupe_preserve(
+            resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="node")
+            for row in item.get("bs_gsr_rows", [])
+            if resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="node")
+        )
+        if broad_roots:
+            bs_broad_roots_by_character[item["character"]] = broad_roots
+        if node_roots:
+            bs_node_roots_by_character[item["character"]] = node_roots
+
+    all_bs_broad_roots = dedupe_preserve(
         root
-        for item in relevant_candidates
-        for root in derive_candidate_oc_roots(item, mode="node")
+        for roots in bs_broad_roots_by_character.values()
+        for root in roots
         if root
     )
-    head_roots = derive_candidate_oc_roots(candidate, mode="node")
+    all_bs_node_roots = dedupe_preserve(
+        root
+        for roots in bs_node_roots_by_character.values()
+        for root in roots
+        if root
+    )
+
     resolved_root = None
     source = None
-    if len(roots) == 1:
-        resolved_root = roots[0]
-        source = "node_oc_consensus"
-    elif head_roots:
-        resolved_root = sorted(head_roots, key=len, reverse=True)[0]
-        source = "node_head_oc"
+    bs_support_count = len(bs_broad_roots_by_character)
+    if bs_support_count >= 2 and len(all_bs_node_roots) == 1:
+        resolved_root = all_bs_node_roots[0]
+        source = "node_bs_consensus"
+    elif bs_support_count >= 2 and len(all_bs_broad_roots) == 1:
+        resolved_root = all_bs_broad_roots[0]
+        source = "node_bs_broad_consensus"
+    elif bs_support_count >= 1 and parent_root:
+        resolved_root = parent_root
+        source = "node_inherit_parent"
+    elif len(all_bs_broad_roots) == 1:
+        resolved_root = all_bs_broad_roots[0]
+        source = "node_single_bs_head"
     else:
         fallback = hierarchy_utils.extract_large_content(candidate.get("transliteration_latex"))
         if fallback:
@@ -928,6 +960,9 @@ def resolve_generated_node_root(
         "root": resolved_root,
         "source": source,
         "descendant_count": len(descendant_characters),
+        "bs_support_count": bs_support_count,
+        "bs_broad_roots": all_bs_broad_roots,
+        "bs_node_roots": all_bs_node_roots,
     }
 
 
@@ -1212,14 +1247,36 @@ def enrich_curated_entry_with_ids(
                 "semantic_component": None,
             }
     for candidate in entry.get("proposed_additions", []):
-        if candidate_children.get(candidate["character"]):
+        candidate["resolved_node_root"] = None
+    unresolved = {candidate["character"] for candidate in entry.get("proposed_additions", []) if candidate_children.get(candidate["character"])}
+    while unresolved:
+        progressed = False
+        for character in list(unresolved):
+            candidate = candidate_map[character]
+            parent_root = resolve_parent_root_for_candidate(entry, candidate, candidate_map)
+            if (candidate.get("hierarchy_assignment") or {}).get("status") == "assigned-to-candidate-node":
+                parent_character = (candidate.get("hierarchy_assignment") or {}).get("parent_character")
+                if parent_character and parent_character in unresolved:
+                    continue
             candidate["resolved_node_root"] = resolve_generated_node_root(
                 candidate,
                 candidate_children,
                 candidate_map,
+                parent_root,
             )
-        else:
-            candidate["resolved_node_root"] = None
+            unresolved.remove(character)
+            progressed = True
+        if not progressed:
+            for character in list(unresolved):
+                candidate = candidate_map[character]
+                parent_root = (entry.get("resolved_series_root") or {}).get("root")
+                candidate["resolved_node_root"] = resolve_generated_node_root(
+                    candidate,
+                    candidate_children,
+                    candidate_map,
+                    parent_root,
+                )
+                unresolved.remove(character)
     for candidate in entry.get("proposed_additions", []):
         parent_root = resolve_parent_root_for_candidate(entry, candidate, candidate_map)
         if parent_root:

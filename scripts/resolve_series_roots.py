@@ -68,7 +68,8 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
     else:
         labialized = False
     has_medial_r = "r" in onset[1:] if len(onset) > 1 else False
-    onset = onset if mode == "node" else onset.replace("r", "")
+    if mode != "node" and len(onset) > 1:
+        onset = onset[0] + onset[1:].replace("r", "")
 
     if mode == "node":
         if onset.startswith("ŋ"):
@@ -133,7 +134,7 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
 
 def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     broad = rhyme.rstrip("ʔs")
-    broad = broad.replace("ˤ", "").replace("̠", "")
+    broad = broad.replace("ˤ", "").replace("̠", "").replace("-", "")
     if not broad:
         return "", ""
     if broad.endswith("j"):

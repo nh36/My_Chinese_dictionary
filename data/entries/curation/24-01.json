@@ -3329,8 +3329,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}gar}},",
-      "render_latex": "捍\t%han4\n{\\large{\\textsuperscript{man·}gar}},\n\\textit{hanH};\t%0139i'",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}kar}},",
+      "render_latex": "捍\t%han4\n{\\large{\\textsuperscript{man·}kar}},\n\\textit{hanH};\t%0139i'",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "旱",
@@ -4902,9 +4902,16 @@
         "phonetic_hint": "干"
       },
       "resolved_node_root": {
-        "root": "gar",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "kar",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kar"
+        ],
+        "bs_node_roots": [
+          "gar"
+        ]
       }
     },
     {

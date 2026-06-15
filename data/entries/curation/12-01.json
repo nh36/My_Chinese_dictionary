@@ -2857,8 +2857,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "鳥"
       },
-      "transliteration_latex": "{\\large{kroṅ\\textsuperscript{·av}}},",
-      "render_latex": "鴻\t%hong2 / hóng\n{\\large{kroṅ\\textsuperscript{·av}}},\n\\textit{ḫuwṅ};\t%1172g'",
+      "transliteration_latex": "{\\large{koṅ\\textsuperscript{·av}}},",
+      "render_latex": "鴻\t%hong2 / hóng\n{\\large{koṅ\\textsuperscript{·av}}},\n\\textit{ḫuwṅ};\t%1172g'",
       "wiktionary_semantic_validation": {
         "semantic_component": "鳥",
         "phonetic_component": "江",
@@ -3123,8 +3123,15 @@
       },
       "resolved_node_root": {
         "root": "khoṅ",
-        "source": "node_head_oc",
-        "descendant_count": 3
+        "source": "node_bs_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "koṅ"
+        ],
+        "bs_node_roots": [
+          "khoṅ"
+        ]
       }
     },
     {
@@ -4074,8 +4081,16 @@
       },
       "resolved_node_root": {
         "root": "koṅ",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "koṅ"
+        ],
+        "bs_node_roots": [
+          "koṅ",
+          "khoṅ"
+        ]
       }
     },
     {
@@ -4568,9 +4583,17 @@
         "phonetic_hint": "工"
       },
       "resolved_node_root": {
-        "root": "kroṅ",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "koṅ",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "koṅ"
+        ],
+        "bs_node_roots": [
+          "kroṅ",
+          "goṅ"
+        ]
       }
     },
     {

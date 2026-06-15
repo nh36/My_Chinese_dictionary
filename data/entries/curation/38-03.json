@@ -1689,8 +1689,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}qrym}},",
-      "render_latex": "蔭\t%yin4 / yìn\n{\\large{\\textsuperscript{herb˸}qrym}},\n\\textit{qimH};\t%0651b'",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kym}},",
+      "render_latex": "蔭\t%yin4 / yìn\n{\\large{\\textsuperscript{herb˸}kym}},\n\\textit{qimH};\t%0651b'",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "陰",
@@ -1979,9 +1979,12 @@
         "phonetic_hint": "今"
       },
       "resolved_node_root": {
-        "root": "qym",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "kym",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": []
       }
     },
     {
@@ -2726,8 +2729,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{qym\\textsuperscript{·dehab}}},",
-      "render_latex": "飲\t%yin3\n{\\large{qym\\textsuperscript{·dehab}}},\n\\textit{qimX};\t%0651i'",
+      "transliteration_latex": "{\\large{kym\\textsuperscript{·dehab}}},",
+      "render_latex": "飲\t%yin3\n{\\large{kym\\textsuperscript{·dehab}}},\n\\textit{qimX};\t%0651i'",
       "wiktionary_semantic_validation": {
         "semantic_component": "欠",
         "phonetic_component": "酓",
@@ -3019,9 +3022,16 @@
         "phonetic_hint": "今"
       },
       "resolved_node_root": {
-        "root": "grym",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "kym",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "qym"
+        ],
+        "bs_node_roots": [
+          "gym"
+        ]
       }
     },
     {
@@ -3399,9 +3409,18 @@
         "phonetic_hint": "今"
       },
       "resolved_node_root": {
-        "root": "gym",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "kym",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ym",
+          "qym"
+        ],
+        "bs_node_roots": [
+          "ym",
+          "gym"
+        ]
       }
     },
     {
@@ -3679,8 +3698,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}grym}},",
-      "render_latex": "擒\t%qin2\n{\\large{\\textsuperscript{man·}grym}},\n\\textit{gim};\t%0651n",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}kym}},",
+      "render_latex": "擒\t%qin2\n{\\large{\\textsuperscript{man·}kym}},\n\\textit{gim};\t%0651n",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "禽",
@@ -3902,8 +3921,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "頁"
       },
-      "transliteration_latex": "{\\large{gym\\textsuperscript{·fac}}},",
-      "render_latex": "頷\t%han4 / hàn\n{\\large{gym\\textsuperscript{·fac}}},\n\\textit{homX};\t%0651n'\n\\textit{ṅomX};",
+      "transliteration_latex": "{\\large{kym\\textsuperscript{·fac}}},",
+      "render_latex": "頷\t%han4 / hàn\n{\\large{kym\\textsuperscript{·fac}}},\n\\textit{homX};\t%0651n'\n\\textit{ṅomX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "頁",
         "phonetic_component": "含",
@@ -5175,8 +5194,17 @@
       "hierarchy_assignment": null,
       "resolved_node_root": {
         "root": "kym",
-        "source": "node_transliteration_fallback",
-        "descendant_count": 2
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "qum",
+          "qym"
+        ],
+        "bs_node_roots": [
+          "qum",
+          "qym"
+        ]
       }
     },
     {
@@ -5369,9 +5397,18 @@
         "phonetic_hint": "侌"
       },
       "resolved_node_root": {
-        "root": "qrym",
-        "source": "node_head_oc",
-        "descendant_count": 1
+        "root": "kym",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "qum",
+          "qym"
+        ],
+        "bs_node_roots": [
+          "qum",
+          "qym"
+        ]
       }
     },
     {
@@ -5467,9 +5504,16 @@
         "phonetic_hint": "今"
       },
       "resolved_node_root": {
-        "root": "krym",
-        "source": "node_head_oc",
-        "descendant_count": 2
+        "root": "kym",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "kym"
+        ],
+        "bs_node_roots": [
+          "kym"
+        ]
       }
     },
     {
@@ -5675,8 +5719,8 @@
         "source": "wiktionary_component_literal_fallback",
         "semantic_component": "帛"
       },
-      "transliteration_latex": "{\\large{krym\\textsuperscript{·帛}}},",
-      "render_latex": "錦\t%jin3 / jǐn\n{\\large{krym\\textsuperscript{·帛}}},\n\\textit{kimX};\t%0652e",
+      "transliteration_latex": "{\\large{kym\\textsuperscript{·帛}}},",
+      "render_latex": "錦\t%jin3 / jǐn\n{\\large{kym\\textsuperscript{·帛}}},\n\\textit{kimX};\t%0652e",
       "wiktionary_semantic_validation": {
         "semantic_component": "帛",
         "phonetic_component": "金",
@@ -5824,8 +5868,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "欠"
       },
-      "transliteration_latex": "{\\large{krym\\textsuperscript{·dehab}}},",
-      "render_latex": "欽\t%qin1\n{\\large{krym\\textsuperscript{·dehab}}},\n\\textit{khim};\t%0652f",
+      "transliteration_latex": "{\\large{kym\\textsuperscript{·dehab}}},",
+      "render_latex": "欽\t%qin1\n{\\large{kym\\textsuperscript{·dehab}}},\n\\textit{khim};\t%0652f",
       "wiktionary_semantic_validation": {
         "semantic_component": "欠",
         "phonetic_component": "金",
