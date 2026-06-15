@@ -114,3 +114,90 @@ research buckets:
 
 That means the next tranche of expansion work should focus less on bulk
 throughput and more on these specific resolver capabilities.
+
+## Research update
+
+Additional Chinese-source and local-source research clarifies several of the
+blocked characters.
+
+### Probably resolved or nearly resolved
+
+#### `甞` in `03-32`
+
+- Chinese etymological material strongly treats `甞` as an older or variant
+  layer related to `嘗`.
+- The research picture is:
+  - `尚` is the phonetic;
+  - the lower element is semantic;
+  - `嘗` is a later layer adding `口` as an explicit semantic marker.
+- This fits the two-layer rule: `甞` and `嘗` should probably be handled as
+  historically related stages rather than as a simultaneous two-semantic
+  compound.
+
+#### `詤` and `㡃` in `03-65`
+
+- Chinese-source analysis points to:
+  - `詤` = semantic `言` + phonetic `㠩`
+  - `㡃` = semantic `巾` + phonetic `㠩`
+- So these no longer look like mysterious graph failures; they need the
+  resolver to trust this `㠩`-phonetic analysis.
+
+#### `毫` in `16-01`
+
+- Chinese sources and the local Shengfu table agree that:
+  - semantic = `毛`
+  - phonetic = `高`
+- This looks like a parser/normalization issue rather than a true scholarly
+  uncertainty.
+
+#### `聽` in `09-17`
+
+- Chinese sources reinforce that the historical phonetic is the right-side
+  element (older `𦣻` / 斤-family analysis in some dictionaries), while `耳`
+  is semantic.
+- The local Shengfu table points to `聖` as the phonetic component in the
+  later graph.
+- This is best understood as a **layered character**, not a true
+  simultaneously two-semantic graph:
+  - earlier stage: ear + phonetic;
+  - later stage: additional semantic/interpretive material.
+- So this should be solvable once the resolver can privilege one semantic
+  layer and treat the extra material as a later layer.
+
+### Still genuinely blocked
+
+#### `盇` in `35-01` / `35-21`
+
+- Chinese-source material points to semantic `皿` with a 合-like upper
+  phonetic analysis.
+- That does **not** line up neatly with the current packeting under K. 642 / 去.
+- So `盇` still needs explicit reconciliation of:
+  - its Chinese graph analysis,
+  - its GSR/BS placement,
+  - and whether the current packet grouping is historically right.
+
+#### `03-49`, `12-08`, `12-25`
+
+- Extra web research does **not** remove the core bottleneck here.
+- The main problem remains:
+  - many characters already have plausible semantics,
+  - but the top-level root and subgroup structure are not yet stable enough to
+    generate trustworthy transliterations.
+
+## Net effect
+
+This extra research reduces uncertainty for the skipped set in a meaningful
+way:
+
+- **Resolved or nearly resolved in principle:** `甞`, `詤`, `㡃`, `毫`, `聽`
+- **Still blocked by root/packet or classification issues:** `盇`, `03-49`,
+  `12-08`, `12-25`
+
+So the remaining work is now more clearly split:
+
+1. **resolver upgrades** for layered or variant-aware semantic analysis,
+   which should unlock `甞`, `詤`, `㡃`, `毫`, and `聽`;
+2. **packet/root redesign** for the genuinely mixed large series
+   `03-49`, `12-08`, and `12-25`;
+3. **explicit reconciliation** for `盇`, where graph analysis and current
+   packet placement may not yet agree.
