@@ -161,11 +161,29 @@
 % GENERATED FILE - DO NOT EDIT BY HAND.
 \section*{Curated pilot series in comparable format}
 
+\newsavebox{\pilotentrybox}
+\newlength{\pilotentryheight}
+\makeatletter
+\long\def\pilotentry#1{%
+  \par\smallskip
+  \sbox{\pilotentrybox}{\begin{minipage}{\columnwidth}#1\end{minipage}}%
+  \setlength{\pilotentryheight}{\dimexpr\ht\pilotentrybox+\dp\pilotentrybox\relax}%
+  \ifdim\pagetotal>\topskip
+    \dimen@=\pagegoal\relax
+    \advance\dimen@ by -\pagetotal\relax
+    \ifdim\dimen@<\pilotentryheight
+      \columnbreak
+    \fi
+  \fi
+  \usebox{\pilotentrybox}\par\smallskip
+}
+\makeatother
+
 \subsection*{Pilot missing series drafts}
 
 \begin{multicols*}{2}
 \begin{spacing}{0.7}
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{02-01}{\huge{各}}}
 {\large{kak}},
 \textit{kak};	%0766a
@@ -289,9 +307,9 @@
 {\large{kak\textsuperscript{:av}}},
 \textit{luH};	%0766v'
 \end{itemize}
-\end{samepage}
+}
 
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{38-03}{\huge{今}}}
 {\large{kim}},
 \textit{kim};	%0651a
@@ -415,9 +433,9 @@
 {\large{kim\textsuperscript{·dehab}}},
 \textit{khim};	%0652f
 \end{itemize}
-\end{samepage}
+}
 
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{04-30}{\huge{㠯}}}
 {\large{yi}},
 \textit{yiX};	%0976a
@@ -528,7 +546,7 @@
 \textit{ḍi};	%0976z
 \textit{ḍiH};
 \end{itemize}
-\end{samepage}
+}
 
 \end{spacing}
 \end{multicols*}
@@ -537,7 +555,7 @@
 
 \begin{multicols*}{2}
 \begin{spacing}{0.7}
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{18-18}{\huge{麻}}}
 {\large{may}},
 \textit{mae},	%kae	%0015a
@@ -599,9 +617,9 @@ kay
 {\large{kay{\textsuperscript{:conch}}}},
 \textit{ḫaH};	%haH	%0015j
 \end{itemize}
-\end{samepage}
+}
 
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{01-01}{\huge{古}}}
 %古	%gu3
 {\large{ka}},
@@ -740,9 +758,9 @@ kay
 {\large{\textsuperscript{hom·}ka}},
 \textit{kaH};	%0049f'
 \end{itemize}
-\end{samepage}
+}
 
-\begin{samepage}
+\pilotentry{%
 \paragraph{\textoversetlarge{01-43}{\huge{予}}}
 {\large{la}},
 %予	%yu2
@@ -799,7 +817,7 @@ kay
 {\includegraphics[width=4mm]{U+21428.png}}
 {\large{\textsuperscript{xxx·}la}},
 	%ye3
-\end{samepage}
+}
 
 \end{spacing}
 \end{multicols*}

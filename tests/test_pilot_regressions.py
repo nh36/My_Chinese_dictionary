@@ -40,7 +40,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
-        self.assertEqual(rendered.count(r"\begin{samepage}"), 6)
+        self.assertEqual(rendered.count(r"\pilotentry{%"), 6)
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:
         entries = json.loads((ROOT / "data/current_tex_entries.json").read_text(encoding="utf-8"))["entries"]

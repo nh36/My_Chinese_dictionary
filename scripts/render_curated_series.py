@@ -15,6 +15,25 @@ DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
+COLUMN_GUARDRAIL_MACROS = [
+    r"\newsavebox{\pilotentrybox}",
+    r"\newlength{\pilotentryheight}",
+    r"\makeatletter",
+    r"\long\def\pilotentry#1{%",
+    r"  \par\smallskip",
+    r"  \sbox{\pilotentrybox}{\begin{minipage}{\columnwidth}#1\end{minipage}}%",
+    r"  \setlength{\pilotentryheight}{\dimexpr\ht\pilotentrybox+\dp\pilotentrybox\relax}%",
+    r"  \ifdim\pagetotal>\topskip",
+    r"    \dimen@=\pagegoal\relax",
+    r"    \advance\dimen@ by -\pagetotal\relax",
+    r"    \ifdim\dimen@<\pilotentryheight",
+    r"      \columnbreak",
+    r"    \fi",
+    r"  \fi",
+    r"  \usebox{\pilotentrybox}\par\smallskip",
+    r"}",
+    r"\makeatother",
+]
 COLUMN_CONTEXT_PREFIXES = (
     r"\begin{multicols}",
     r"\begin{multicols*}",
@@ -175,13 +194,13 @@ def strip_column_context_lines(raw_block: str) -> str:
     return "\n".join(filtered_lines)
 
 
-def wrap_entry_samepage(rendered_entry: str) -> str:
+def wrap_entry_guardrail(rendered_entry: str) -> str:
     body = rendered_entry.rstrip()
     return "\n".join(
         [
-            r"\begin{samepage}",
+            r"\pilotentry{%",
             body,
-            r"\end{samepage}",
+            r"}",
         ]
     )
 
@@ -264,7 +283,7 @@ def render_section_entries(entries: list[dict[str, Any]]) -> list[str]:
         r"\begin{spacing}{0.7}",
     ]
     for entry in entries:
-        lines.append(wrap_entry_samepage(render_curated_entry(entry)))
+        lines.append(wrap_entry_guardrail(render_curated_entry(entry)))
         lines.append("")
     lines.extend(
         [
@@ -282,6 +301,8 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
         "\\section*{Curated pilot series in comparable format}",
         "",
     ]
+    body.extend(COLUMN_GUARDRAIL_MACROS)
+    body.append("")
     missing_entries = [entry for entry in entries if entry["packet_kind"] == "missing_series"]
     existing_entries = [entry for entry in entries if entry["packet_kind"] != "missing_series"]
 
