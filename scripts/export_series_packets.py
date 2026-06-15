@@ -19,16 +19,24 @@ DEFAULT_SCHUESSLER_PDF = "key references/Schuessler, Axel 2009/Schuessler 2009.p
 DEFAULT_OUTPUT_DIR = "data/series_packets"
 DEFAULT_REPORT_DIR = "reports/series_packets"
 DEFAULT_PILOT_IDS = [
+    "04-04",
     "02-01",
     "38-03",
     "04-30",
     "03-57",
+    "12-01",
+    "24-21",
+    "28-11",
     "24-01",
     "09-25",
+    "16-06",
+    "16-33",
     "03-38",
     "07-08",
     "04-61",
+    "34-23",
     "18-18",
+    "21-01",
     "01-01",
     "01-43",
 ]

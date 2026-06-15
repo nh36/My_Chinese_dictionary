@@ -158,12 +158,27 @@ def assign_candidate_to_candidate(
 
 def collect_candidate_children(entry: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     children: dict[str, list[dict[str, Any]]] = {}
+
+    def has_path(start: str, target: str, visited: set[str] | None = None) -> bool:
+        visited = visited or set()
+        if start == target:
+            return True
+        if start in visited:
+            return False
+        visited.add(start)
+        for child in children.get(start, []):
+            if has_path(child["character"], target, visited.copy()):
+                return True
+        return False
+
     for candidate in entry.get("proposed_additions", []):
         assignment = candidate.get("hierarchy_assignment") or {}
         if assignment.get("status") != "assigned-to-candidate-node":
             continue
         parent_character = assignment.get("parent_character")
         if parent_character:
+            if has_path(candidate["character"], parent_character):
+                continue
             children.setdefault(parent_character, []).append(candidate)
     return children
 
@@ -171,11 +186,16 @@ def collect_candidate_children(entry: dict[str, Any]) -> dict[str, list[dict[str
 def collect_descendant_characters(
     root_character: str,
     candidate_children: dict[str, list[dict[str, Any]]],
+    visited: set[str] | None = None,
 ) -> list[str]:
+    visited = visited or set()
+    if root_character in visited:
+        return []
+    visited.add(root_character)
     result: list[str] = []
     for child in candidate_children.get(root_character, []):
         result.append(child["character"])
-        result.extend(collect_descendant_characters(child["character"], candidate_children))
+        result.extend(collect_descendant_characters(child["character"], candidate_children, visited.copy()))
     return result
 
 
