@@ -181,6 +181,12 @@ Render the curated pilot packets into a review PDF:
 python3 scripts/render_curated_series.py
 ```
 
+The current pilot renderer:
+
+- sorts entries in **Schuessler order**;
+- keeps a fixed inter-entry gap within columns instead of letting column balancing stretch the white space;
+- measures each whole entry and moves it to the next column only when it no longer fits in the current one.
+
 Current MC policy in the pilot pipeline:
 
 - render Mand2MC-derived MC forms when Mand2MC has them;

@@ -52,6 +52,7 @@
 - `scripts/export_series_packets.py` turns one or more target GSC series into hand-checkable curation packets in `data/series_packets/` and `reports/series_packets/`.
 - `scripts/promote_series_packets.py` promotes those packets into working series files under `data/entries/curation/`, carrying through extracted entry hierarchy for existing TeX baselines.
 - `scripts/render_curated_series.py` renders curated pilot packets into a review document in `build/generated_curated_series_sample.tex` / `.pdf`.
+- The pilot renderer should keep entries in Schuessler order and use fixed-gap, measured-entry column flow so whole entries stay within a column whenever possible and white space between large entries does not stretch unpredictably.
 - `scripts/evaluate_pilot_render.py` is the regression gate for pilot quality. It should be run after any comparable pilot generation; if it reports `not ready`, the output is still missing key structural features like semantic superscripts, placement, or abstract phonetic forms.
 - The current pilot now passes the structural readiness gate for the six pilot packets, but broader expansion still needs more regression coverage and then packet-by-packet scholarly review.
 - The current semantic layer is only partially complete: the readiness report now shows some recovered semantic assignments, but most proposed additions still lack full transliteration and render blocks, so the pilot remains an internal draft.

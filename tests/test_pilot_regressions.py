@@ -42,7 +42,24 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{ly}},", rendered)
         self.assertIn(r"{\large{kym}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
+        self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
         self.assertEqual(rendered.count(r"\pilotentry{%"), 12)
+
+    def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        ordered_ids = [
+            "02-01",
+            "03-38",
+            "03-57",
+            "04-30",
+            "04-61",
+            "07-08",
+            "09-25",
+            "24-01",
+            "38-03",
+        ]
+        positions = [rendered.index(rf"\paragraph{{\textoversetlarge{{{entry_id}}}") for entry_id in ordered_ids]
+        self.assertEqual(positions, sorted(positions))
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:
         entries = json.loads((ROOT / "data/current_tex_entries.json").read_text(encoding="utf-8"))["entries"]

@@ -31,19 +31,22 @@ DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
 COLUMN_GUARDRAIL_MACROS = [
     r"\newsavebox{\pilotentrybox}",
     r"\newlength{\pilotentryheight}",
+    r"\newlength{\pilotentrygap}",
+    r"\setlength{\pilotentrygap}{0.75\baselineskip}",
     r"\makeatletter",
     r"\long\def\pilotentry#1{%",
-    r"  \par\smallskip",
     r"  \sbox{\pilotentrybox}{\begin{minipage}{\columnwidth}#1\end{minipage}}%",
     r"  \setlength{\pilotentryheight}{\dimexpr\ht\pilotentrybox+\dp\pilotentrybox\relax}%",
     r"  \ifdim\pagetotal>\topskip",
     r"    \dimen@=\pagegoal\relax",
     r"    \advance\dimen@ by -\pagetotal\relax",
-    r"    \ifdim\dimen@<\pilotentryheight",
+    r"    \ifdim\dimen@<\dimexpr\pilotentryheight+\pilotentrygap\relax",
     r"      \columnbreak",
+    r"    \else",
+    r"      \vspace{\pilotentrygap}",
     r"    \fi",
     r"  \fi",
-    r"  \usebox{\pilotentrybox}\par\smallskip",
+    r"  \usebox{\pilotentrybox}\par",
     r"}",
     r"\makeatother",
 ]
@@ -77,6 +80,23 @@ def dedupe_preserve(values: list[str]) -> list[str]:
             seen.add(value)
             result.append(value)
     return result
+
+
+def entry_sort_key(entry: dict[str, Any]) -> tuple[int, int, str]:
+    schuessler = entry.get("schuessler") or {}
+    rhyme_section = schuessler.get("rhyme_section")
+    series_number = schuessler.get("series_number")
+    if rhyme_section is not None and series_number is not None:
+        return (int(rhyme_section), int(series_number), entry["id"])
+    left, _, right = entry["id"].partition("-")
+    try:
+        return (int(left), int(right), entry["id"])
+    except ValueError:
+        return (9999, 9999, entry["id"])
+
+
+def sort_entries(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(entries, key=entry_sort_key)
 
 
 def build_existing_heading_line(entry: dict[str, Any]) -> str:
@@ -305,6 +325,7 @@ def render_curated_entry(entry: dict[str, Any]) -> str:
 def render_section_entries(entries: list[dict[str, Any]]) -> list[str]:
     lines = [
         r"\begin{multicols*}{2}",
+        r"\raggedcolumns",
         r"\begin{spacing}{0.7}",
     ]
     for entry in entries:
@@ -320,6 +341,7 @@ def render_section_entries(entries: list[dict[str, Any]]) -> list[str]:
 
 
 def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
+    entries = sort_entries(entries)
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
@@ -355,6 +377,7 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
 
 
 def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
+    entries = sort_entries(entries)
     lines = [
         "# Generated curated series sample",
         "",
