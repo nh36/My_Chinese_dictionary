@@ -14,6 +14,12 @@ import analyze_hierarchy_gap  # noqa: E402
 
 
 class PilotRegressionTests(unittest.TestCase):
+    def extract_entry_block(self, rendered: str, entry_id: str) -> str:
+        marker = rf"\paragraph{{\textoversetlarge{{{entry_id}}}"
+        start = rendered.index(marker)
+        next_start = rendered.find(r"\paragraph{\textoversetlarge{", start + 1)
+        return rendered[start : next_start if next_start != -1 else len(rendered)]
+
     def test_current_pilot_readiness_is_ready(self) -> None:
         entries = evaluate_pilot_render.load_curated_entries(ROOT / "data/entries/curation")
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
@@ -58,6 +64,21 @@ class PilotRegressionTests(unittest.TestCase):
         by_character_3803 = {candidate["character"]: candidate for candidate in entry_3803["proposed_additions"]}
         self.assertEqual(by_character_3803["飲"]["hierarchy_assignment"]["parent_character"], "酓")
         self.assertEqual(by_character_3803["錦"]["hierarchy_assignment"]["parent_character"], "金")
+
+    def test_generated_sample_gathers_subseries_after_main_series(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+
+        block_0201 = self.extract_entry_block(rendered, "02-01")
+        self.assertLess(block_0201.index("格\t%"), block_0201.index(r"\begin{itemize}[noitemsep]"))
+        self.assertIn(r"\item {\Large{客}}", block_0201)
+
+        block_0430 = self.extract_entry_block(rendered, "04-30")
+        self.assertLess(block_0430.index("箈\t%"), block_0430.index(r"\begin{itemize}[noitemsep]"))
+        self.assertIn(r"\item {\Large{以}}", block_0430)
+
+        block_3803 = self.extract_entry_block(rendered, "38-03")
+        self.assertLess(block_3803.index("廞\t%"), block_3803.index(r"\begin{itemize}[noitemsep]"))
+        self.assertIn(r"\item {\Large{酓}}", block_3803)
 
 
 if __name__ == "__main__":
