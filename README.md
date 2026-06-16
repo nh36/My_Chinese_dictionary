@@ -106,6 +106,17 @@ This step now also classifies generated subgroup heads for handwritten-style `a/
 - `reports/semantic_evidence_reuse.md`
 - `reports/ab_subseries_classification.md`
 
+Recalculate document-wide duplicate phonetic transcriptions after semantic/root resolution:
+
+```sh
+python3 scripts/number_phonetic_transcriptions.py
+```
+
+This assigns dynamic subscripts such as `ka₂`, `ka₃`, etc. across the current generated document order for both full series and sub-series, then refreshes:
+
+- `reports/transcription_numbering.md`
+- `reports/ab_subseries_classification.md`
+
 Fetch cached Wiktionary `Han compound` analyses into the curation files:
 
 ```sh
@@ -184,6 +195,7 @@ python3 scripts/promote_series_packets.py
 python3 scripts/fetch_wiktionary_component_roles.py
 python3 scripts/resolve_series_roots.py
 python3 scripts/build_semantic_evidence.py
+python3 scripts/number_phonetic_transcriptions.py
 python3 scripts/render_curated_series.py
 ```
 

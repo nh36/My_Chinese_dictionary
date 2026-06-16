@@ -1220,7 +1220,7 @@
         "bs_node_roots": [
           "kuru"
         ],
-        "display_root": "ku",
+        "display_root": "ku₂",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
@@ -1234,7 +1234,10 @@
             "class": "b",
             "reason": "explicit_i_medial"
           }
-        ]
+        ],
+        "base_root": "ku",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -1314,8 +1317,8 @@
         "source": "ids_component_literal_fallback",
         "semantic_component": "匚"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{匚·}ku}},",
-      "render_latex": "匭\t%gui3\n{\\large{\\textsuperscript{匚·}ku}},\n\\textit{kwiyX};\t%0992l",
+      "transliteration_latex": "{\\large{\\textsuperscript{匚·}ku₂}},",
+      "render_latex": "匭\t%gui3\n{\\large{\\textsuperscript{匚·}ku₂}},\n\\textit{kwiyX};\t%0992l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4275,6 +4278,9 @@
     "character": "九",
     "oc_bs": "*kuʔ {*[k]uʔ}",
     "confidence": "provisional-oc",
-    "display_root": "ku"
+    "display_root": "ku",
+    "base_root": "ku",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
   }
 }

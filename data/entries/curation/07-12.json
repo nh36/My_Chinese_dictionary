@@ -1766,7 +1766,7 @@
           "tek",
           "tsek"
         ],
-        "display_root": "tek",
+        "display_root": "tek₂",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -1822,7 +1822,10 @@
             "class": "a",
             "reason": "no_i_medial"
           }
-        ]
+        ],
+        "base_root": "tek",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -2598,8 +2601,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tek\\textsuperscript{·fer}}},",
-      "render_latex": "敵\t%di2 / dí\n{\\large{tek\\textsuperscript{·fer}}},\n\\textit{dek};\t%0877q",
+      "transliteration_latex": "{\\large{tek₂\\textsuperscript{·fer}}},",
+      "render_latex": "敵\t%di2 / dí\n{\\large{tek₂\\textsuperscript{·fer}}},\n\\textit{dek};\t%0877q",
       "wiktionary_semantic_validation": {
         "semantic_component": "攴",
         "phonetic_component": "啻",
@@ -2959,8 +2962,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{amb·}tek}},",
-      "render_latex": "適\t%shi4 / shì\n{\\large{\\textsuperscript{amb·}tek}},\n\\textit{śiek};\t%0877s\n\\textit{ciek};",
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}tek₂}},",
+      "render_latex": "適\t%shi4 / shì\n{\\large{\\textsuperscript{amb·}tek₂}},\n\\textit{śiek};\t%0877s\n\\textit{ciek};",
       "wiktionary_semantic_validation": {
         "semantic_component": "辵",
         "phonetic_component": "啻",
@@ -3018,7 +3021,7 @@
           "tsek",
           "tek"
         ],
-        "display_root": "tek",
+        "display_root": "tek₃",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -3060,7 +3063,10 @@
             "class": "a",
             "reason": "no_i_medial"
           }
-        ]
+        ],
+        "base_root": "tek",
+        "ordinal": 3,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -3167,8 +3173,8 @@
         "source": "packet_family_ids",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}tek}},",
-      "render_latex": "擿\t%zhi4\n{\\large{\\textsuperscript{man·}tek}},\n\\textit{ḍiek};\t%0877t",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}tek₃}},",
+      "render_latex": "擿\t%zhi4\n{\\large{\\textsuperscript{man·}tek₃}},\n\\textit{ḍiek};\t%0877t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3259,8 +3265,8 @@
         "source": "packet_family_ids",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}tek}},",
-      "render_latex": "讁\t%zhe2\n{\\large{\\textsuperscript{dic·}tek}},\n\\textit{ḍeak};\t%0877u\n\\textit{ṭeak};",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}tek₃}},",
+      "render_latex": "讁\t%zhe2\n{\\large{\\textsuperscript{dic·}tek₃}},\n\\textit{ḍeak};\t%0877u\n\\textit{ṭeak};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4932,6 +4938,9 @@
     "character": "帝",
     "oc_bs": "*tˤek-s",
     "confidence": "provisional-oc",
-    "display_root": "tek"
+    "display_root": "tek",
+    "base_root": "tek",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
   }
 }

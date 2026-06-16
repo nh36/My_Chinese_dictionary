@@ -346,8 +346,8 @@
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "刂"
       },
-      "transliteration_latex": "{\\large{toṅ\\textsuperscript{·刂}}},",
-      "render_latex": "𠟍\t%chong1\n{\\large{toṅ\\textsuperscript{·刂}}},\n\\textit{chiəwṅ};\t%1188a'",
+      "transliteration_latex": "{\\large{toṅ₂\\textsuperscript{·刂}}},",
+      "render_latex": "𠟍\t%chong1\n{\\large{toṅ₂\\textsuperscript{·刂}}},\n\\textit{chiəwṅ};\t%1188a'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -597,8 +597,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}toṅ}},",
-      "render_latex": "憧\t%chong1\n{\\large{\\textsuperscript{cor·}toṅ}},\n\\textit{ḍaewṅH};\t%1188b'\n\\textit{chiəwṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}toṅ₂}},",
+      "render_latex": "憧\t%chong1\n{\\large{\\textsuperscript{cor·}toṅ₂}},\n\\textit{ḍaewṅH};\t%1188b'\n\\textit{chiəwṅ};",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "童",
@@ -864,8 +864,8 @@
         "source": "packet_family_ids",
         "semantic_component": "罒"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{nass˸}toṅ}},",
-      "render_latex": "罿\t%tong2 / chong1\n{\\large{\\textsuperscript{nass˸}toṅ}},\n\\textit{duwṅ};\t%1188c'\n\\textit{chiəwṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{nass˸}toṅ₂}},",
+      "render_latex": "罿\t%tong2 / chong1\n{\\large{\\textsuperscript{nass˸}toṅ₂}},\n\\textit{duwṅ};\t%1188c'\n\\textit{chiəwṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1158,8 +1158,8 @@
         "source": "packet_family_ids",
         "semantic_component": "疒"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{infirm·}toṅ}},",
-      "render_latex": "𤺄\t%zhong3\n{\\large{\\textsuperscript{infirm·}toṅ}},\n\\textit{jiəwṅX};\t%1188d'",
+      "transliteration_latex": "{\\large{\\textsuperscript{infirm·}toṅ₂}},",
+      "render_latex": "𤺄\t%zhong3\n{\\large{\\textsuperscript{infirm·}toṅ₂}},\n\\textit{jiəwṅX};\t%1188d'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1423,8 +1423,8 @@
         "source": "packet_family_ids",
         "semantic_component": "巾"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lint·}toṅ}},",
-      "render_latex": "幢\t%chuang2\n{\\large{\\textsuperscript{lint·}toṅ}},\n\\textit{ḍaewṅ};\t%1188e'",
+      "transliteration_latex": "{\\large{\\textsuperscript{lint·}toṅ₂}},",
+      "render_latex": "幢\t%chuang2\n{\\large{\\textsuperscript{lint·}toṅ₂}},\n\\textit{ḍaewṅ};\t%1188e'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1749,8 +1749,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}toṅ}},",
-      "render_latex": "撞\t%chuang2 / zhuang4 / chuáng / zhuàng\n{\\large{\\textsuperscript{man·}toṅ}},\n\\textit{ḍaewṅ};\t%1188f'\n\\textit{ḍaewṅH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}toṅ₂}},",
+      "render_latex": "撞\t%chuang2 / zhuang4 / chuáng / zhuàng\n{\\large{\\textsuperscript{man·}toṅ₂}},\n\\textit{ḍaewṅ};\t%1188f'\n\\textit{ḍaewṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "童",
@@ -2510,7 +2510,10 @@
             "class": "a",
             "reason": "no_i_medial"
           }
-        ]
+        ],
+        "base_root": "t\\textoverset{a}{o}ṅ",
+        "ordinal": 1,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -2747,7 +2750,7 @@
           "toṅ",
           "troṅ"
         ],
-        "display_root": "toṅ",
+        "display_root": "toṅ₂",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -2817,7 +2820,10 @@
             "class": "b",
             "reason": "palatal_initial"
           }
-        ]
+        ],
+        "base_root": "toṅ",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -2940,8 +2946,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}toṅ}},",
-      "render_latex": "僮\t%tong2\n{\\large{\\textsuperscript{hom·}toṅ}},\n\\textit{duwṅ};\t%1188r",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}toṅ₂}},",
+      "render_latex": "僮\t%tong2\n{\\large{\\textsuperscript{hom·}toṅ₂}},\n\\textit{duwṅ};\t%1188r",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "童",
@@ -3097,8 +3103,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "目"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}toṅ}},",
-      "render_latex": "瞳\t%tong1\n{\\large{\\textsuperscript{ocul·}toṅ}},\n\\textit{thuwṅ};\t%1188s",
+      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}toṅ₂}},",
+      "render_latex": "瞳\t%tong1\n{\\large{\\textsuperscript{ocul·}toṅ₂}},\n\\textit{thuwṅ};\t%1188s",
       "wiktionary_semantic_validation": {
         "semantic_component": "目",
         "phonetic_component": "童",
@@ -3279,8 +3285,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "禾"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{gran·}toṅ}},",
-      "render_latex": "穜\t%tong2\n{\\large{\\textsuperscript{gran·}toṅ}},\n\\textit{ḍiəwṅ};\t%1188t\n\\textit{duwṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{gran·}toṅ₂}},",
+      "render_latex": "穜\t%tong2\n{\\large{\\textsuperscript{gran·}toṅ₂}},\n\\textit{ḍiəwṅ};\t%1188t\n\\textit{duwṅ};",
       "wiktionary_semantic_validation": {
         "semantic_component": "禾",
         "phonetic_component": "童",
@@ -3380,8 +3386,8 @@
         "source": "packet_family_ids",
         "semantic_component": "止"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cess·}toṅ}},",
-      "render_latex": "𣦟\t%zhong3\n{\\large{\\textsuperscript{cess·}toṅ}},\n\\textit{ciəwṅX};\t%1188u",
+      "transliteration_latex": "{\\large{\\textsuperscript{cess·}toṅ₂}},",
+      "render_latex": "𣦟\t%zhong3\n{\\large{\\textsuperscript{cess·}toṅ₂}},\n\\textit{ciəwṅX};\t%1188u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3524,8 +3530,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}toṅ}},",
-      "render_latex": "鐘\t%zhong1 / zhōng\n{\\large{\\textsuperscript{met·}toṅ}},\n\\textit{ciəwṅ};\t%1188x",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}toṅ₂}},",
+      "render_latex": "鐘\t%zhong1 / zhōng\n{\\large{\\textsuperscript{met·}toṅ₂}},\n\\textit{ciəwṅ};\t%1188x",
       "wiktionary_semantic_validation": {
         "semantic_component": "金",
         "phonetic_component": "童",
@@ -5220,6 +5226,9 @@
     "character": "重",
     "oc_bs": "*m-troŋ {*[m]-troŋ}",
     "confidence": "provisional-oc",
-    "display_root": "toṅ"
+    "display_root": "toṅ",
+    "base_root": "toṅ",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
   }
 }
