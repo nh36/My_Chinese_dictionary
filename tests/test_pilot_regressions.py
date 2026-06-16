@@ -93,6 +93,24 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertEqual(by_character_3803["飲"]["hierarchy_assignment"]["parent_character"], "酓")
         self.assertEqual(by_character_3803["錦"]["hierarchy_assignment"]["parent_character"], "金")
 
+    def test_specific_hierarchy_cases_do_not_over_nest(self) -> None:
+        entry_3803 = json.loads((ROOT / "data/entries/curation/38-03.json").read_text(encoding="utf-8"))
+        by_character_3803 = {candidate["character"]: candidate for candidate in entry_3803["proposed_additions"]}
+        self.assertEqual(by_character_3803["金"]["hierarchy_assignment"]["status"], "assigned-to-top-level")
+        self.assertEqual(by_character_3803["金"]["hierarchy_assignment"]["parent_character"], "今")
+        self.assertEqual(by_character_3803["㜝"]["hierarchy_assignment"]["parent_character"], "酓")
+
+        entry_2614 = json.loads((ROOT / "data/entries/curation/26-14.json").read_text(encoding="utf-8"))
+        by_character_2614 = {candidate["character"]: candidate for candidate in entry_2614["proposed_additions"]}
+        self.assertIsNone(by_character_2614["眂"]["hierarchy_assignment"])
+        self.assertEqual(by_character_2614["低"]["hierarchy_assignment"]["parent_character"], "氐")
+
+        entry_1332 = json.loads((ROOT / "data/entries/curation/13-32.json").read_text(encoding="utf-8"))
+        by_character_1332 = {candidate["character"]: candidate for candidate in entry_1332["proposed_additions"]}
+        self.assertEqual(by_character_1332["修"]["hierarchy_assignment"]["status"], "assigned-to-top-level")
+        self.assertEqual(by_character_1332["修"]["hierarchy_assignment"]["parent_character"], "攸")
+        self.assertEqual(by_character_1332["䩦"]["hierarchy_assignment"]["parent_character"], "攸")
+
     def test_generated_sample_gathers_subseries_at_the_end_of_each_level(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
 
