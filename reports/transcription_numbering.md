@@ -1,8 +1,8 @@
 # Transcription numbering
 
-- Mutable series/subseries roots inspected: 240
-- Roots whose display label changed after document-wide renumbering: 106
-- Duplicate phonetic bases encountered in document order: 55
+- Mutable series/subseries roots inspected: 255
+- Roots whose display label changed after document-wide renumbering: 118
+- Duplicate phonetic bases encountered in document order: 59
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -16,6 +16,8 @@
 | `02-01` | `subseries-root` | 輅 | `k\textoverset{a}{a}k` | 3 | `k\textoverset{a}{a}k₃` | yes |
 | `02-25` | `series-root` | 睪 | `lak` | 1 | `lak` | yes |
 | `02-25` | `subseries-root` | 擇 | `l\textoverset{a}{a}k` | 1 | `l\textoverset{a}{a}k` | yes |
+| `02-31` | `series-root` | 乍 | `tsak` | 1 | `tsak` | yes |
+| `02-31` | `subseries-root` | 作 | `ts\textoverset{a}{a}k` | 1 | `ts\textoverset{a}{a}k` | yes |
 | `02-32` | `series-root` | 昔 | `sak` | 1 | `sak` | yes |
 | `02-32` | `subseries-root` | 耤 | `ts\textoverset{b}{a}k` | 1 | `ts\textoverset{b}{a}k` | yes |
 | `02-32` | `subseries-root` | 措 | `s\textoverset{a}{a}k` | 1 | `s\textoverset{a}{a}k` | yes |
@@ -30,6 +32,9 @@
 | `03-38` | `series-root` | 昜 | `laṅ` | 1 | `laṅ` | yes |
 | `03-38` | `subseries-root` | 傷 | `l\textoverset{b}{a}ṅ` | 1 | `l\textoverset{b}{a}ṅ` | yes |
 | `03-38` | `subseries-root` | 湯 | `laṅ` | 2 | `laṅ₂` | yes |
+| `03-39` | `series-root` | 羊 | `qaṅ` | 1 | `qaṅ` | yes |
+| `03-39` | `subseries-root` | 養 | `g\textoverset{b}{a}ṅ` | 1 | `g\textoverset{b}{a}ṅ` | yes |
+| `03-39` | `subseries-root` | 羕 | `q\textoverset{b}{a}ṅ` | 1 | `q\textoverset{b}{a}ṅ` | yes |
 | `03-43` | `series-root` | 良 | `raṅ` | 1 | `raṅ` | yes |
 | `03-43` | `subseries-root` | 郎 | `r\textoverset{a}{a}ṅ` | 1 | `r\textoverset{a}{a}ṅ` | yes |
 | `03-49` | `series-root` | 爿 | `tsaṅ` | 1 | `tsaṅ` | yes |
@@ -161,6 +166,8 @@
 | `16-15` | `subseries-root` | 召 | `taw` | 2 | `taw₂` | yes |
 | `16-15` | `subseries-root` | 昭 | `t\textoverset{b}{a}w` | 1 | `t\textoverset{b}{a}w` | yes |
 | `16-20` | `series-root` | 兆 | `law` | 1 | `law` | yes |
+| `16-21` | `series-root` | 䍃 | `law` | 2 | `law₂` | yes |
+| `16-21` | `subseries-root` | 繇 | `l\textoverset{b}{a}w` | 1 | `l\textoverset{b}{a}w` | yes |
 | `16-24` | `subseries-root` | 尞 | `rew` | 1 | `rew` | yes |
 | `16-33` | `series-root` | 小 | `sew` | 1 | `sew` | yes |
 | `16-33` | `subseries-root` | 肖 | `sew` | 2 | `sew₂` | yes |
@@ -185,6 +192,9 @@
 | `25-17` | `subseries-root` | 宛 | `qor` | 2 | `qor₂` | yes |
 | `25-19` | `series-root` | 元 | `ṅon` | 1 | `ṅon` | yes |
 | `25-19` | `subseries-root` | 完 | `ṅon` | 2 | `ṅon₂` | yes |
+| `26-05` | `series-root` | 計 | `kiy` | 1 | `kiy` | yes |
+| `26-05` | `subseries-root` | 兮 | `kiy` | 2 | `kiy₂` | yes |
+| `26-05` | `subseries-root` | 替 | `kiy` | 3 | `kiy₃` | yes |
 | `26-14` | `series-root` | 氐 | `tiy` | 1 | `tiy` | yes |
 | `26-27` | `series-root` | 齊 | `tsy` | 1 | `tsy` | yes |
 | `26-38` | `series-root` | 匕 | `piy` | 1 | `piy` | yes |
@@ -213,6 +223,8 @@
 | `31-02` | `subseries-root` | 貴 | `kuy` | 2 | `kuy₂` | yes |
 | `31-02` | `subseries-root` | 匱 | `gruy` | 1 | `gruy` | yes |
 | `31-02` | `subseries-root` | 遺 | `guy` | 1 | `guy` | yes |
+| `31-16` | `series-root` | 出 | `kut` | 1 | `kut` | yes |
+| `31-16` | `subseries-root` | 屈 | `kut` | 2 | `kut₂` | yes |
 | `31-20` | `series-root` | 卒 | `tsut` | 1 | `tsut` | yes |
 | `32-08` | `series-root` | 旬 | `quin` | 1 | `quin` | yes |
 | `32-08` | `subseries-root` | 筍 | `sin` | 1 | `sin` | yes |
@@ -236,6 +248,7 @@
 | `35-21` | `subseries-root` | 盇 | `k\textoverset{a}{a}p` | 1 | `k\textoverset{a}{a}p` | yes |
 | `36-12` | `series-root` | 占 | `tem` | 1 | `tem` | yes |
 | `36-12` | `subseries-root` | 沾 | `tem` | 2 | `tem₂` | yes |
+| `36-14` | `series-root` | 炎 | `ram` | 1 | `ram` | yes |
 | `37-01` | `series-root` | 合 | `kop` | 1 | `kop` | yes |
 | `37-01` | `subseries-root` | 翕 | `qhyp` | 1 | `qhyp` | yes |
 | `38-03` | `series-root` | 今 | `kym` | 1 | `kym` | yes |
@@ -245,6 +258,8 @@
 | `38-03` | `subseries-root` | 侌 | `kym` | 5 | `kym₅` | yes |
 | `38-03` | `subseries-root` | 陰 | `kym` | 6 | `kym₆` | yes |
 | `38-03` | `subseries-root` | 金 | `kym` | 7 | `kym₇` | yes |
+| `38-11` | `series-root` | 甚 | `qym` | 1 | `qym` | yes |
+| `38-11` | `subseries-root` | 戡 | `qym` | 2 | `qym₂` | yes |
 | `01-01` | `baseline-series-root` | 古 | `ka` | 1 | `ka` | no |
 | `01-01` | `baseline-subseries-root` | 固 | `k\textoverset{a}{a}` | 1 | `k\textoverset{a}{a}` | no |
 | `01-01` | `baseline-subseries-root` | 胡 | `g\textoverset{a}{a}` | 1 | `g\textoverset{a}{a}` | no |

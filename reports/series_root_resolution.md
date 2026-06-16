@@ -2,17 +2,19 @@
 
 - Missing-series packets inspected: 94
 - Packets with at least one root candidate: 83
-- Packets with a single resolved provisional root: 92
+- Packets with a single resolved provisional root: 93
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
 | `01-51` | 𧆨→ra [*rˤa {*[r]ˤa}] (0069a) | `ra` | `head_graph_oc_bs` |
 | `02-01` | 各→kak [*kˤak] (0766a) | `kak` | `head_graph_oc_bs` |
 | `02-25` |  | `lak` | `packet_bs_consensus` |
+| `02-31` | 乍→tsak [*dzˤrak-s {*[dz]ˤrak-s}] (0806a) | `tsak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-40` | 莫→mak [*mˤak] (0802a) | `mak` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |
 | `03-38` | 昜→laṅ [*laŋ] (0720a) | `laṅ` | `head_graph_oc_bs` |
+| `03-39` | 羊→qaṅ [*ɢaŋ] (0732a) | `qaṅ` | `head_graph_oc_bs` |
 | `03-43` | 良→raṅ [*raŋ {*[r]aŋ}] (0735a) | `raṅ` | `head_graph_oc_bs` |
 | `03-49` |  | `tsaṅ` | `packet_bs_consensus` |
 | `03-57` | 方→paṅ [*C.paŋ] (0740a) | `paṅ` | `head_graph_oc_bs` |
@@ -23,9 +25,7 @@
 | `04-26` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-29` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-30` | 㠯→ly [*ləʔ] (0976a) | `ly` | `head_graph_oc_bs` |
-| `04-45` | 才→tsy [*dzˤə {*(Cə.)[dz]ˤə}] (0943a) | `tsy` | `head_graph_oc_bs` |
 | `04-61` | 不→py [*pə] (0999a) | `py` | `head_graph_oc_bs` |
-| `05-06` | 或→quyk [*ɢʷrək {*[ɢ]ʷrək}] (0929a) | `quyk` | `head_graph_oc_bs` |
 | `05-16` | 弋→lyk [*lək] (0918a) | `lyk` | `head_graph_oc_bs` |
 | `07-08` | 圭→kue [*kʷˤe {*[k]ʷˤe}] (0879a) | `kue` | `head_graph_oc_bs` |
 | `07-12` | 帝→tek [*tˤek-s] (0877a) | `tek` | `head_graph_oc_bs` |
@@ -43,12 +43,10 @@
 | `10-39` |  | `po` | `packet_bs_consensus` |
 | `11-12` | 蜀→tok [*dok {*[d]ok}] (1224a) | `tok` | `head_graph_oc_bs` |
 | `12-01` | 工→koṅ [*kˤoŋ] (1172a) | `koṅ` | `head_graph_oc_bs` |
-| `12-03` | 廾→koṅ [*koŋʔ {*k(r)oŋʔ}] (1182a) | `koṅ` | `head_graph_oc_bs` |
 | `12-08` | 重→toṅ [*m-troŋ {*[m]-troŋ}] (1188a) | `toṅ` | `head_graph_oc_bs` |
 | `12-10` | 用→loṅ [*m.loŋ-s] (1185a) | `loṅ` | `head_graph_oc_bs` |
 | `12-25` |  | `poṅ` | `packet_bs_consensus` |
 | `13-22` |  | `tu` | `packet_bs_consensus` |
-| `13-30` | 由→lu [*lu {*l[u]}] (1079a) | `lu` | `head_graph_oc_bs` |
 | `13-32` | 攸→liw [*liw] (1077a) | `liw` | `head_graph_oc_bs` |
 | `13-36` | 酉→ru [*m.ruʔ {*[m].ruʔ}] (1096a) | `ru` | `head_graph_oc_bs` |
 | `13-45` | 翏→riw [*riw-s {*[r]iw-s}] (1069a) | `riw` | `head_graph_oc_bs` |
@@ -72,10 +70,10 @@
 | `24-41` | 戔→tsan [*dzˤan {*[dz]ˤa[n]}] (0155a) | `tsan` | `head_graph_oc_bs` |
 | `24-54` | 釆→per [*bˤrer-s {*[b]ˤre[r]-s}] (0195a) | `per` | `head_graph_oc_bs` |
 | `25-02` | 雚→quar [*C.qʷˤar-s] (0158a) | `quar` | `head_graph_oc_bs` |
-| `25-11` | 卷→kuen [*gʷren {*[g]ʷren}] (0226a); 卷→kor [*krorʔ {*[k]rorʔ}] (0226a) | `` | `` |
 | `25-15` | 袁→quan [*ɢʷan {*[ɢ]ʷa[n]}] (0256a) | `quan` | `head_graph_oc_bs` |
 | `25-17` | 夗→ʔor [*ʔorʔ {*ʔo[r]ʔ}] (0260a) | `ʔor` | `head_graph_oc_bs` |
 | `25-19` | 元→ṅon [*ŋon {*[ŋ]o[n]} (< nasal + uvular)] (0257a) | `ṅon` | `head_graph_oc_bs` |
+| `26-05` | 計→kiy [*kˤij-s] (1241a) | `kiy` | `head_graph_oc_bs` |
 | `26-14` | 氐→tiy [*tˤij] (0590a) | `tiy` | `head_graph_oc_bs` |
 | `26-27` | 齊→tsy [*dzˤəj {*[dz]ˤəj}] (0593a) | `tsy` | `head_graph_oc_bs` |
 | `26-38` | 匕→piy [*pijʔ] (0566a) | `piy` | `head_graph_oc_bs` |
@@ -87,6 +85,7 @@
 | `29-41` | 必→pit [*pit {*pi[t]}] (0405a) | `pit` | `head_graph_oc_bs` |
 | `30-14` | 弗→put [*put] (0500a) | `put` | `head_graph_oc_bs` |
 | `31-02` | 㬰→kuy [*gruj-s {*[g]ruj-s}] (0540a) | `kuy` | `head_graph_oc_bs` |
+| `31-16` | 出→kut [*t.kʰut-s] (0496a) | `kut` | `head_graph_oc_bs` |
 | `31-20` | 卒→tsut [*tsut {*[ts]ut}] (0490a) | `tsut` | `head_graph_oc_bs` |
 | `32-08` | 旬→quin [*s-ɢʷin {*s-[ɢ]ʷi[n]}] (0392a) | `quin` | `head_graph_oc_bs` |
 | `32-16` | 真→tin [*tin {*ti[n]}] (0375a) | `tin` | `head_graph_oc_bs` |
@@ -94,9 +93,10 @@
 | `33-02` | 斤→kyr [*kər {*[k]ər}] (0443a) | `kyr` | `head_graph_oc_bs` |
 | `33-05` | 𡏳→kyr [*kˤrər {*kˤrə[r]}] (0480a) | `kyr` | `head_graph_oc_bs` |
 | `33-30` | 分→pyn [*m-pən-s {*[m]-pə[n]-s}] (0471a) | `pyn` | `head_graph_oc_bs` |
-| `34-18` |  | `tur` | `packet_bs_consensus` |
 | `34-23` | 允→lur [*lurʔ {*[l]u[r]ʔ}] (0468a) | `lur` | `head_graph_oc_bs` |
 | `35-21` |  | `kap` | `packet_bs_majority` |
 | `36-12` | 占→tem [*tem] (0618a) | `tem` | `head_graph_oc_bs` |
+| `36-14` |  | `ram` | `packet_bs_consensus` |
 | `37-01` | 合→kop [*m-kˤop] (0675a); 拾→typ [*dəp {*[d][ə]p}] (0687a) | `kop` | `merged_packet_primary_head` |
 | `38-03` | 今→kym [*krəm {*[k]r[ə]m}] (0651a) | `kym` | `head_graph_oc_bs` |
+| `38-11` | 甚→qym [*t.ɢəmʔ-s {*[t.ɢ][ə]mʔ-s}] (0658a) | `qym` | `head_graph_oc_bs` |
