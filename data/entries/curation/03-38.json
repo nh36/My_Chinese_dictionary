@@ -2707,8 +2707,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}l\\textoverset{b}{a}ṅ}},",
-      "render_latex": "傷\t%shang1 / shāng\n{\\large{\\textsuperscript{hom·}l\\textoverset{b}{a}ṅ}},\n\\textit{śiaṅ};\t%0720j'",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}laṅ}},",
+      "render_latex": "傷\t%shang1 / shāng\n{\\large{\\textsuperscript{hom·}laṅ}},\n\\textit{śiaṅ};\t%0720j'",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "𥏻",
@@ -2738,19 +2738,19 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "場",
+        "status": "assigned-to-top-level",
+        "parent_character": "昜",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "場"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "昜"
       },
       "resolved_node_root": {
         "root": "laṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 2,
-        "bs_support_count": 2,
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
         "bs_broad_roots": [
           "laṅ"
         ],
@@ -3012,17 +3012,17 @@
         "source": "ids_top_level",
         "semantic_component": "角"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{corn·}l\\textoverset{b}{a}ṅ}},",
-      "render_latex": "觴\t%shang1 / shāng\n{\\large{\\textsuperscript{corn·}l\\textoverset{b}{a}ṅ}},\n\\textit{śiaṅ};\t%0720l'",
+      "transliteration_latex": "{\\large{\\textsuperscript{corn·}laṅ}},",
+      "render_latex": "觴\t%shang1 / shāng\n{\\large{\\textsuperscript{corn·}laṅ}},\n\\textit{śiaṅ};\t%0720l'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "傷",
+        "status": "assigned-to-top-level",
+        "parent_character": "昜",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "傷"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "昜"
       },
       "resolved_node_root": null
     },
@@ -4815,40 +4815,7 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "昜"
       },
-      "resolved_node_root": {
-        "root": "laṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 3,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "laṅ"
-        ],
-        "bs_node_roots": [
-          "laṅ"
-        ],
-        "display_root": "l\\textoverset{b}{a}ṅ",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
-        "mc_forms": [
-          "ḍiaṅ",
-          "śiaṅ"
-        ],
-        "form_analyses": [
-          {
-            "form": "ḍiaṅ",
-            "normalized": "ḍiaṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "śiaṅ",
-            "normalized": "śiaṅ",
-            "class": "b",
-            "reason": "palatal_initial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "腸",

@@ -1967,77 +1967,7 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "畾"
       },
-      "resolved_node_root": {
-        "root": "roy",
-        "source": "node_inherit_parent",
-        "descendant_count": 5,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "ruy",
-          "roy"
-        ],
-        "bs_node_roots": [
-          "ruy",
-          "roy"
-        ],
-        "display_root": "roy",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "lwəy",
-          "lwəyX",
-          "liweH",
-          "liweX",
-          "lwaX",
-          "lwiy",
-          "lwa"
-        ],
-        "form_analyses": [
-          {
-            "form": "lwəy",
-            "normalized": "lwəy",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "lwəyX",
-            "normalized": "lwəy",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "liweH",
-            "normalized": "liwe",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "liweX",
-            "normalized": "liwe",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "lwaX",
-            "normalized": "lwa",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "lwiy",
-            "normalized": "lwiy",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "lwa",
-            "normalized": "lwa",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "礨",
@@ -2525,13 +2455,13 @@
         "semantic_component": "雨"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "儡",
+        "status": "assigned-to-top-level",
+        "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "儡"
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "畾"
       },
       "resolved_node_root": null
     },
@@ -2993,13 +2923,13 @@
       "render_latex": "累\t%lei4 / lei3 / luo3 / lěi\n{\\large{roy\\textsuperscript{˸ser}}},\n\\textit{liweH};\t%0577r\n\\textit{liweX};\n\\textit{lwaX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "儡",
+        "status": "assigned-to-top-level",
+        "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "儡"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "畾"
       },
       "semantic_assignment": {
         "token": null,

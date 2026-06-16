@@ -476,7 +476,7 @@
       "resolved_node_root": {
         "root": "kray",
         "source": "node_bs_consensus",
-        "descendant_count": 5,
+        "descendant_count": 6,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "kay"
@@ -491,6 +491,7 @@
         "mc_forms": [
           "kae",
           "kaeH",
+          "kaX",
           "ḫaH"
         ],
         "form_analyses": [
@@ -503,6 +504,12 @@
           {
             "form": "kaeH",
             "normalized": "kae",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kaX",
+            "normalized": "ka",
             "class": "a",
             "reason": "no_i_medial"
           },
@@ -1448,8 +1455,8 @@
           }
         ]
       },
-      "transliteration_latex": "{\\large{may\\textsuperscript{˸poss}}},",
-      "render_latex": "哿\t%ge3\n{\\large{may\\textsuperscript{˸poss}}},\n\\textit{kaX};\t%0015i",
+      "transliteration_latex": "{\\large{kr\\textoverset{a}{a}y\\textsuperscript{˸poss}}},",
+      "render_latex": "哿\t%ge3\n{\\large{kr\\textoverset{a}{a}y\\textsuperscript{˸poss}}},\n\\textit{kaX};\t%0015i",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -1471,7 +1478,15 @@
         }
       ],
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "加",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "加"
+      },
       "resolved_node_root": null
     },
     {

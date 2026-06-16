@@ -1203,17 +1203,17 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}w}},",
-      "render_latex": "藃\t%xiao1 / hao4\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}w}},\n\\textit{haewk};\t%1129c'\n\\textit{hawH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kaw}},",
+      "render_latex": "藃\t%xiao1 / hao4\n{\\large{\\textsuperscript{herb˸}kaw}},\n\\textit{haewk};\t%1129c'\n\\textit{hawH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "㪣",
+        "status": "assigned-to-top-level",
+        "parent_character": "高",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "㪣"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "高"
       },
       "resolved_node_root": null
     },
@@ -3421,50 +3421,7 @@
       "render_latex": "㪣\t%qiao4\n{\\large{kaw\\textsuperscript{·fer}}},\n\\textit{khaew};\t%1129s\n\\textit{khaewH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
-      "resolved_node_root": {
-        "root": "kaw",
-        "source": "node_transliteration_fallback",
-        "descendant_count": 1,
-        "bs_support_count": 0,
-        "bs_broad_roots": [],
-        "bs_node_roots": [],
-        "display_root": "k\\textoverset{a}{a}w",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "khaew",
-          "khaewH",
-          "haewk",
-          "hawH"
-        ],
-        "form_analyses": [
-          {
-            "form": "khaew",
-            "normalized": "khaew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khaewH",
-            "normalized": "khaew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "haewk",
-            "normalized": "haewk",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "hawH",
-            "normalized": "haw",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "謞",

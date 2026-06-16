@@ -2322,7 +2322,7 @@
       "resolved_node_root": {
         "root": "tsaṅ",
         "source": "node_transliteration_fallback",
-        "descendant_count": 1,
+        "descendant_count": 3,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
@@ -2533,7 +2533,29 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "牆"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tsaṅ",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 2,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "ts\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "dziaṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "dziaṅ",
+            "normalized": "dziaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "墻",
@@ -2603,10 +2625,18 @@
         "semantic_component": "土",
         "research_note": "Variant of 牆 with 爿 replaced by 土."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{terr·}tsaṅ}},",
-      "render_latex": "墻\t%qiang2\n{\\large{\\textsuperscript{terr·}tsaṅ}},\n\\textit{dziaṅ};\t%0727l",
+      "transliteration_latex": "{\\large{\\textsuperscript{terr·}ts\\textoverset{b}{a}ṅ}},",
+      "render_latex": "墻\t%qiang2\n{\\large{\\textsuperscript{terr·}ts\\textoverset{b}{a}ṅ}},\n\\textit{dziaṅ};\t%0727l",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "嬙",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "嬙"
+      },
       "resolved_node_root": {
         "root": "tsaṅ",
         "source": "node_transliteration_fallback",

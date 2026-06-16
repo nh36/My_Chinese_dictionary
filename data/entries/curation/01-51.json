@@ -112,7 +112,15 @@
         "source": "schuessler_series_head",
         "semantic_component": null
       },
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "慮",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "慮"
+      },
       "resolved_node_root": null
     },
     {
@@ -244,7 +252,7 @@
       "resolved_node_root": {
         "root": "ra",
         "source": "node_inherit_parent",
-        "descendant_count": 9,
+        "descendant_count": 10,
         "bs_support_count": 4,
         "bs_broad_roots": [
           "pa",
@@ -589,20 +597,21 @@
       "resolved_node_root": {
         "root": "ra",
         "source": "node_bs_consensus",
-        "descendant_count": 4,
-        "bs_support_count": 4,
+        "descendant_count": 5,
+        "bs_support_count": 5,
         "bs_broad_roots": [
           "ra"
         ],
         "bs_node_roots": [
           "ra"
         ],
-        "display_root": "r\\textoverset{b}{a}",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
+        "display_root": "ra",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
         "mc_forms": [
           "liəH",
+          "lu",
           "liəX",
           "liə",
           "ṭhiə"
@@ -613,6 +622,12 @@
             "normalized": "liə",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lu",
+            "normalized": "lu",
+            "class": "a",
+            "reason": "no_i_medial"
           },
           {
             "form": "liəX",
@@ -1824,13 +1839,13 @@
       ],
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "𧆨",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "盧",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_secondary_component",
-        "phonetic_hint": "𧆨"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "盧"
       },
       "resolved_node_root": null
     },
@@ -2528,8 +2543,8 @@
           }
         ]
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}r\\textoverset{b}{a}}},",
-      "render_latex": "儢\t%lü3 / lǚ\n{\\large{\\textsuperscript{hom·}r\\textoverset{b}{a}}},\n\\textit{liəX};\t%0069t",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ra}},",
+      "render_latex": "儢\t%lü3 / lǚ\n{\\large{\\textsuperscript{hom·}ra}},\n\\textit{liəX};\t%0069t",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -2681,8 +2696,8 @@
           }
         ]
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb·}r\\textoverset{b}{a}}},",
-      "render_latex": "藘\t%lü2 / lǘ\n{\\large{\\textsuperscript{herb·}r\\textoverset{b}{a}}},\n\\textit{liə};\t%0069u",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb·}ra}},",
+      "render_latex": "藘\t%lü2 / lǘ\n{\\large{\\textsuperscript{herb·}ra}},\n\\textit{liə};\t%0069u",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -2868,8 +2883,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}r\\textoverset{b}{a}}},",
-      "render_latex": "鑢\t%lü4\n{\\large{\\textsuperscript{met·}r\\textoverset{b}{a}}},\n\\textit{liəH};\t%0069v",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}ra}},",
+      "render_latex": "鑢\t%lü4\n{\\large{\\textsuperscript{met·}ra}},\n\\textit{liəH};\t%0069v",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -3098,8 +3113,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}r\\textoverset{b}{a}}},",
-      "render_latex": "攄\t%shu1 / shū\n{\\large{\\textsuperscript{man·}r\\textoverset{b}{a}}},\n\\textit{ṭhiə};\t%0069x",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}ra}},",
+      "render_latex": "攄\t%shu1 / shū\n{\\large{\\textsuperscript{man·}ra}},\n\\textit{ṭhiə};\t%0069x",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",

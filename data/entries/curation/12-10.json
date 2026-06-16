@@ -519,17 +519,17 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{l\\textoverset{b}{o}ṅ}},",
-      "render_latex": "用\t%yong4 / yòng\n{\\large{l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅH};\t%1185a",
+      "transliteration_latex": "{\\large{loṅ}},",
+      "render_latex": "用\t%yong4 / yòng\n{\\large{loṅ}},\n\\textit{yiəwṅH};\t%1185a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "傭",
+        "status": "assigned-to-top-level",
+        "parent_character": "用",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "傭"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "用"
       },
       "resolved_node_root": null
     },
@@ -857,8 +857,8 @@
       "resolved_node_root": {
         "root": "loṅ",
         "source": "node_inherit_parent",
-        "descendant_count": 16,
-        "bs_support_count": 8,
+        "descendant_count": 11,
+        "bs_support_count": 6,
         "bs_broad_roots": [
           "loṅ",
           "syṅ"
@@ -873,9 +873,6 @@
         "mark_required": false,
         "mc_forms": [
           "yiəwṅX",
-          "yiəwṅ",
-          "ṭhiəwṅ",
-          "yiəwṅH",
           "ziəwṅH",
           "thuwṅX",
           "thuwṅH",
@@ -885,24 +882,6 @@
         "form_analyses": [
           {
             "form": "yiəwṅX",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅ",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ṭhiəwṅ",
-            "normalized": "ṭhiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅH",
             "normalized": "yiəwṅ",
             "class": "b",
             "reason": "explicit_i_medial"
@@ -1148,54 +1127,7 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "甬"
       },
-      "resolved_node_root": {
-        "root": "loṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 5,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "loṅ"
-        ],
-        "bs_node_roots": [
-          "loṅ"
-        ],
-        "display_root": "l\\textoverset{b}{o}ṅ",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
-        "mc_forms": [
-          "yiəwṅX",
-          "yiəwṅ",
-          "ṭhiəwṅ",
-          "yiəwṅH"
-        ],
-        "form_analyses": [
-          {
-            "form": "yiəwṅX",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅ",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ṭhiəwṅ",
-            "normalized": "ṭhiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅH",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "勇",
@@ -2954,8 +2886,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{庚·}l\\textoverset{b}{o}ṅ}},",
-      "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{庚·}l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅ};\t%1185x",
+      "transliteration_latex": "{\\large{\\textsuperscript{庚·}loṅ}},",
+      "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{庚·}loṅ}},\n\\textit{yiəwṅ};\t%1185x",
       "wiktionary_semantic_validation": {
         "semantic_component": "庚",
         "phonetic_component": "同",
@@ -2979,19 +2911,19 @@
         "semantic_component": "庚"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "俑",
+        "status": "assigned-to-top-level",
+        "parent_character": "用",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "俑"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "用"
       },
       "resolved_node_root": {
         "root": "loṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 4,
-        "bs_support_count": 2,
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 1,
         "bs_broad_roots": [
           "loṅ"
         ],
@@ -3004,8 +2936,7 @@
         "mark_required": true,
         "mc_forms": [
           "yiəwṅ",
-          "ṭhiəwṅ",
-          "yiəwṅH"
+          "ṭhiəwṅ"
         ],
         "form_analyses": [
           {
@@ -3017,12 +2948,6 @@
           {
             "form": "ṭhiəwṅ",
             "normalized": "ṭhiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅH",
-            "normalized": "yiəwṅ",
             "class": "b",
             "reason": "explicit_i_medial"
           }
@@ -3160,47 +3085,7 @@
         "source": "shengfu_secondary_component",
         "phonetic_hint": "庸"
       },
-      "resolved_node_root": {
-        "root": "loṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "loṅ"
-        ],
-        "bs_node_roots": [
-          "loṅ"
-        ],
-        "display_root": "l\\textoverset{b}{o}ṅ",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
-        "mc_forms": [
-          "ṭhiəwṅ",
-          "yiəwṅ",
-          "yiəwṅH"
-        ],
-        "form_analyses": [
-          {
-            "form": "ṭhiəwṅ",
-            "normalized": "ṭhiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅ",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiəwṅH",
-            "normalized": "yiəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "墉",

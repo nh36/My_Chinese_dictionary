@@ -134,6 +134,46 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["abbreviation"], "cult")
         self.assertEqual(resolved["position"], "suffix-dot")
 
+    def test_resolve_semantic_from_parent_ids_does_not_overreach_nested_relations(self) -> None:
+        ids_map = {
+            "㜝": "⿰女酓",
+            "酓": "⿱今酉",
+            "金": "⿱人⿻王丷",
+            "低": "⿰亻氐",
+            "眂": "⿰目氏",
+            "䩦": "⿱攸革",
+            "修": "⿰⿰亻丨⿱夂彡",
+        }
+        graph_lookup = {
+            "女": [{"graph_raw": "女", "label_token": "fem(ina)", "abbreviation": "fem"}],
+            "目": [{"graph_raw": "目", "label_token": "ocul(us)", "abbreviation": "ocul"}],
+            "革": [{"graph_raw": "革", "label_token": "cori(um)", "abbreviation": "cori"}],
+        }
+        self.assertIsNone(
+            build_semantic_evidence.resolve_semantic_from_parent_ids(
+                character="金",
+                parent_character="㜝",
+                ids_map=ids_map,
+                graph_lookup=graph_lookup,
+            )
+        )
+        self.assertIsNone(
+            build_semantic_evidence.resolve_semantic_from_parent_ids(
+                character="眂",
+                parent_character="低",
+                ids_map=ids_map,
+                graph_lookup=graph_lookup,
+            )
+        )
+        self.assertIsNone(
+            build_semantic_evidence.resolve_semantic_from_parent_ids(
+                character="修",
+                parent_character="䩦",
+                ids_map=ids_map,
+                graph_lookup=graph_lookup,
+            )
+        )
+
     def test_build_learned_graph_lookup(self) -> None:
         evidence = {
             "痢": [

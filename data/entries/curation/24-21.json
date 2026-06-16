@@ -1904,8 +1904,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{t\\textoverset{a}{a}r\\textsuperscript{˸黽}}},",
-      "render_latex": "鼉\t%tuo2\n{\\large{t\\textoverset{a}{a}r\\textsuperscript{˸黽}}},\n\\textit{da};\t%0147e'\n\\textit{dan};",
+      "transliteration_latex": "{\\large{tar\\textsuperscript{˸黽}}},",
+      "render_latex": "鼉\t%tuo2\n{\\large{tar\\textsuperscript{˸黽}}},\n\\textit{da};\t%0147e'\n\\textit{dan};",
       "wiktionary_semantic_validation": {
         "semantic_component": "黽",
         "phonetic_component": "單",
@@ -1929,13 +1929,13 @@
         "semantic_component": "黽"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "㺗",
+        "status": "assigned-to-top-level",
+        "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "㺗"
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "單"
       },
       "resolved_node_root": null
     },
@@ -3551,43 +3551,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "單"
       },
-      "resolved_node_root": {
-        "root": "tar",
-        "source": "node_transliteration_fallback",
-        "descendant_count": 1,
-        "bs_support_count": 0,
-        "bs_broad_roots": [],
-        "bs_node_roots": [],
-        "display_root": "t\\textoverset{a}{a}r",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "ṭhean",
-          "da",
-          "dan"
-        ],
-        "form_analyses": [
-          {
-            "form": "ṭhean",
-            "normalized": "ṭhean",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "da",
-            "normalized": "da",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "dan",
-            "normalized": "dan",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "戰",

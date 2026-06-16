@@ -799,13 +799,13 @@
       "render_latex": "允\t%yun3 / yǔn\n{\\large{lur}},\n\\textit{yiwinX};\t%0468a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "㕙",
+        "status": "assigned-to-top-level",
+        "parent_character": "允",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "㕙"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "允"
       },
       "resolved_node_root": null
     },
@@ -2490,15 +2490,13 @@
       "resolved_node_root": {
         "root": "lur",
         "source": "node_inherit_parent",
-        "descendant_count": 18,
-        "bs_support_count": 2,
+        "descendant_count": 17,
+        "bs_support_count": 1,
         "bs_broad_roots": [
-          "sor",
-          "lur"
+          "sor"
         ],
         "bs_node_roots": [
-          "sor",
-          "lur"
+          "sor"
         ],
         "display_root": "lur",
         "division_class": "mixed",
@@ -2513,8 +2511,7 @@
           "tswəyH",
           "tswonH",
           "tswəy",
-          "tswinH",
-          "yiwinX"
+          "tswinH"
         ],
         "form_analyses": [
           {
@@ -2568,12 +2565,6 @@
           {
             "form": "tswinH",
             "normalized": "tswin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiwinX",
-            "normalized": "yiwin",
             "class": "b",
             "reason": "explicit_i_medial"
           }
@@ -2926,47 +2917,7 @@
         "source": "shengfu_secondary_component",
         "phonetic_hint": "夋"
       },
-      "resolved_node_root": {
-        "root": "lur",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "lur"
-        ],
-        "bs_node_roots": [
-          "lur"
-        ],
-        "display_root": "lur",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "tshwin",
-          "tswinH",
-          "yiwinX"
-        ],
-        "form_analyses": [
-          {
-            "form": "tshwin",
-            "normalized": "tshwin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "tswinH",
-            "normalized": "tswin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "yiwinX",
-            "normalized": "yiwin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "俊",

@@ -1388,13 +1388,13 @@
       "render_latex": "不\t%bu4 / fou3 / bù\n{\\large{py}},\n\\textit{piuw};\t%0999a\n\\textit{piuwX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "倍",
+        "status": "assigned-to-top-level",
+        "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "倍"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "不"
       },
       "resolved_node_root": null
     },
@@ -1738,47 +1738,7 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "咅"
       },
-      "resolved_node_root": {
-        "root": "py",
-        "source": "node_bs_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "py"
-        ],
-        "bs_node_roots": [
-          "py"
-        ],
-        "display_root": "py",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "bwəyX",
-          "piuw",
-          "piuwX"
-        ],
-        "form_analyses": [
-          {
-            "form": "bwəyX",
-            "normalized": "bwəy",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "piuw",
-            "normalized": "piuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "piuwX",
-            "normalized": "piuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "掊",
@@ -2159,8 +2119,8 @@
       "resolved_node_root": {
         "root": "py",
         "source": "node_inherit_parent",
-        "descendant_count": 14,
-        "bs_support_count": 4,
+        "descendant_count": 13,
+        "bs_support_count": 3,
         "bs_broad_roots": [
           "py",
           "po"
@@ -2181,7 +2141,6 @@
           "phuwH",
           "bwəy",
           "bwəyX",
-          "piuw",
           "phuwX",
           "puwX",
           "bok",
@@ -2231,12 +2190,6 @@
             "normalized": "bwəy",
             "class": "a",
             "reason": "no_i_medial"
-          },
-          {
-            "form": "piuw",
-            "normalized": "piuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
           },
           {
             "form": "phuwX",
@@ -4602,8 +4555,8 @@
       "resolved_node_root": {
         "root": "py",
         "source": "node_inherit_parent",
-        "descendant_count": 11,
-        "bs_support_count": 3,
+        "descendant_count": 10,
+        "bs_support_count": 2,
         "bs_broad_roots": [
           "py",
           "po"
@@ -4613,15 +4566,13 @@
           "po"
         ],
         "display_root": "py",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "phuwH",
           "bwəy",
           "bwəyX",
-          "piuw",
-          "piuwX",
           "phuwX",
           "puwX",
           "bok",
@@ -4647,18 +4598,6 @@
             "normalized": "bwəy",
             "class": "a",
             "reason": "no_i_medial"
-          },
-          {
-            "form": "piuw",
-            "normalized": "piuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "piuwX",
-            "normalized": "piuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
           },
           {
             "form": "phuwX",

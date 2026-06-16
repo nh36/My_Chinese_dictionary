@@ -591,17 +591,17 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{gy}},",
-      "render_latex": "其\t%qi2 / ji1 / ji4 / qí\n{\\large{gy}},\n\\textit{gi};\t%0952a\n\\textit{ki};\n\\textit{kiH};",
+      "transliteration_latex": "{\\large{ky}},",
+      "render_latex": "其\t%qi2 / ji1 / ji4 / qí\n{\\large{ky}},\n\\textit{gi};\t%0952a\n\\textit{ki};\n\\textit{kiH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "丌",
+        "status": "assigned-to-top-level",
+        "parent_character": "其",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "丌"
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "其"
       },
       "resolved_node_root": null
     },
@@ -2628,54 +2628,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "其"
       },
-      "resolved_node_root": {
-        "root": "gy",
-        "source": "node_bs_consensus",
-        "descendant_count": 2,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "ky"
-        ],
-        "bs_node_roots": [
-          "gy"
-        ],
-        "display_root": "gy",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "khi",
-          "gi",
-          "ki",
-          "kiH"
-        ],
-        "form_analyses": [
-          {
-            "form": "khi",
-            "normalized": "khi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "gi",
-            "normalized": "gi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ki",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "kiH",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "欺",
@@ -3991,59 +3944,11 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{gy}},",
-      "render_latex": "丌\t%qí\n{\\large{gy}},\n\\textit{gi};\t%0952a",
+      "transliteration_latex": "{\\large{ky}},",
+      "render_latex": "丌\t%qí\n{\\large{ky}},\n\\textit{gi};\t%0952a",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "倛",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "倛"
-      },
-      "resolved_node_root": {
-        "root": "gy",
-        "source": "node_bs_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "ky"
-        ],
-        "bs_node_roots": [
-          "gy"
-        ],
-        "display_root": "gy",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "gi",
-          "ki",
-          "kiH"
-        ],
-        "form_analyses": [
-          {
-            "form": "gi",
-            "normalized": "gi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ki",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "kiH",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
     }
   ],
   "all_candidates": [

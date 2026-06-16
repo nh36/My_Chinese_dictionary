@@ -641,13 +641,8 @@ def resolve_semantic_from_packet_family(
 def collect_ids_component_family(
     character: str,
     ids_map: dict[str, str],
-    visited: set[str] | None = None,
 ) -> set[str]:
     normalized = normalize_component_graph(character)
-    visited = visited or set()
-    if normalized in visited:
-        return {normalized}
-    visited.add(normalized)
     family = {normalized}
     ids = ids_map.get(character)
     if not ids:
@@ -661,8 +656,6 @@ def collect_ids_component_family(
         if isinstance(node, str):
             child_normalized = normalize_component_graph(node)
             family.add(child_normalized)
-            if child_normalized not in visited and node in ids_map:
-                family.update(collect_ids_component_family(node, ids_map, visited.copy()))
             return
         for child in node.get("children", []):
             walk(child)
@@ -670,6 +663,29 @@ def collect_ids_component_family(
     if isinstance(tree, dict):
         walk(tree)
     return family
+
+
+def collect_direct_ids_components(character: str, ids_map: dict[str, str]) -> set[str]:
+    ids = ids_map.get(character)
+    if not ids:
+        return {normalize_component_graph(character)}
+    try:
+        tree, _ = parse_ids_expression(ids)
+    except Exception:
+        return {normalize_component_graph(character)}
+
+    components: set[str] = set()
+
+    def walk(node: Any) -> None:
+        if isinstance(node, str):
+            components.add(normalize_component_graph(node))
+            return
+        for child in node.get("children", []):
+            walk(child)
+
+    if isinstance(tree, dict):
+        walk(tree)
+    return components or {normalize_component_graph(character)}
 
 
 def resolve_semantic_from_parent_ids(
@@ -694,17 +710,7 @@ def resolve_semantic_from_parent_ids(
     def subtree_matches_parent(node: Any) -> bool:
         if isinstance(node, str):
             normalized = normalize_component_graph(node)
-            if normalized in parent_family:
-                return True
-            nested_ids = ids_map.get(node)
-            if nested_ids:
-                try:
-                    nested_tree, _ = parse_ids_expression(nested_ids)
-                    if isinstance(nested_tree, dict):
-                        return subtree_matches_parent(nested_tree)
-                except Exception:
-                    return False
-            return False
+            return normalized in parent_family
         return any(subtree_matches_parent(child) for child in node.get("children", []))
 
     def subtree_head(node: Any) -> str | None:
@@ -756,13 +762,28 @@ def infer_parent_from_ids_family(
     candidate_characters: set[str],
     ids_map: dict[str, str],
     graph_lookup: dict[str, list[dict[str, Any]]],
+    candidate_map: dict[str, dict[str, Any]],
 ) -> tuple[str | None, dict[str, Any] | None]:
     ids = ids_map.get(character) or ""
+    character_components = collect_direct_ids_components(character, ids_map)
+    target_candidate = candidate_map.get(character) or {}
+    explicit_hints = hierarchy_utils.iter_phonetic_hints(target_candidate)
     ordered_candidates = sorted(
         (candidate for candidate in candidate_characters if candidate != character),
         key=lambda candidate: (candidate not in ids, candidate),
     )
     for parent_character in ordered_candidates:
+        if parent_character not in ids and explicit_hints:
+            continue
+        parent_candidate = candidate_map.get(parent_character) or {}
+        parent_semantic = normalize_component_graph(
+            (parent_candidate.get("semantic_assignment") or {}).get("semantic_component")
+        )
+        direct_parent_family = collect_ids_component_family(parent_character, ids_map)
+        if parent_semantic:
+            direct_parent_family = direct_parent_family - {parent_semantic}
+        if not (character_components & direct_parent_family):
+            continue
         semantic_candidate = resolve_semantic_from_parent_ids(
             character=character,
             parent_character=parent_character,
@@ -1573,6 +1594,7 @@ def enrich_curated_entry_with_ids(
     if top_level_head is None and entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
         top_level_head = entry["proposed_additions"][0]["character"]
     candidate_characters = {candidate["character"] for candidate in entry.get("proposed_additions", [])}
+    candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
     for candidate in entry.get("proposed_additions", []):
         if hierarchy_nodes:
             candidate["hierarchy_assignment"] = hierarchy_utils.assign_candidate_to_inherited_hierarchy(
@@ -1607,6 +1629,7 @@ def enrich_curated_entry_with_ids(
                 candidate_characters=candidate_characters,
                 ids_map=ids_map,
                 graph_lookup=graph_lookup,
+                candidate_map=candidate_map,
             )
             if parent_from_ids_family and parent_from_ids_family != top_level_head:
                 candidate["hierarchy_assignment"] = {
@@ -1648,7 +1671,6 @@ def enrich_curated_entry_with_ids(
                         "semantic_component": parent_ids_candidate["semantic_component"],
                     }
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
-    candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
     packet_tokens = {
         int(token)
         for token in entry.get("schuessler", {}).get("k_tokens", [])

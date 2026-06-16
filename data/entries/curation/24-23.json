@@ -2224,17 +2224,17 @@
         "source": "ids_top_level",
         "semantic_component": "食"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ed·}t\\textoverset{b}{a}n}},",
-      "render_latex": "饘\t%zhan1 / zhān\n{\\large{\\textsuperscript{ed·}t\\textoverset{b}{a}n}},\n\\textit{cien};\t%0148m\n\\textit{cienX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{ed·}tan}},",
+      "render_latex": "饘\t%zhan1 / zhān\n{\\large{\\textsuperscript{ed·}tan}},\n\\textit{cien};\t%0148m\n\\textit{cienX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "羴",
+        "status": "assigned-to-top-level",
+        "parent_character": "亶",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "羴"
+        "parent_kind": "top_level",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "亶"
       },
       "resolved_node_root": null
     },
@@ -3341,49 +3341,7 @@
       "render_latex": "羴\t%shān\n{\\large{tan}},\n\\textit{syen};\t%0148q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
-      "resolved_node_root": {
-        "root": "tan",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "tan",
-          "qan"
-        ],
-        "bs_node_roots": [
-          "tsan",
-          "qan"
-        ],
-        "display_root": "t\\textoverset{b}{a}n",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
-        "mc_forms": [
-          "syen",
-          "cien",
-          "cienX"
-        ],
-        "form_analyses": [
-          {
-            "form": "syen",
-            "normalized": "syen",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "cien",
-            "normalized": "cien",
-            "class": "b",
-            "reason": "palatal_initial"
-          },
-          {
-            "form": "cienX",
-            "normalized": "cien",
-            "class": "b",
-            "reason": "palatal_initial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     }
   ],
   "all_candidates": [
