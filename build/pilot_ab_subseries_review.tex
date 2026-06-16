@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\setmainfont{Charis SIL}
+\newfontfamily\hanfont{BabelStone Han}
+\newcommand{\han}[1]{{\hanfont #1}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\begin{document}
+\section*{Pilot a/b subseries detection}
+This pilot infers handwritten subgroup `a/b' labels from the Middle Chinese forms attached to each subgroup in the hand-written \texttt{main.tex}. It uses the subgroup head's own MC forms as the primary signal.
+\begin{enumerate}[nosep]
+\item Treat a subgroup as type `b' when its extracted MC forms show an `i'-medial after the onset, for example \texttt{gie}, \texttt{phiu}, or \texttt{ṅiəH}.
+\item Treat a subgroup as type `a' when the extracted forms lack that `i'-medial, for example \texttt{ka} or \texttt{puH}.
+\item Leave bare zero-onset \texttt{i-} forms unresolved; this ambiguity does not arise in the selected pilot entries.
+\end{enumerate}
+Pilot entries reviewed: \texttt{18-01}, \texttt{01-67}.
+Matched handwritten label in 8/8 inspected subgroups.
+
+\subsection*{18-01 (\han{可})}
+Source lines 385--512.
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.4cm}cc>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Head & Hand & Pred & MC forms & Handwritten RHS LaTeX \\
+\midrule
+\han{何} & \texttt{a} & \texttt{a} & ḫa, ḫaX & g\textbackslash\{\}textoverset\{a\}\{a\}y \\
+\han{哥} & \texttt{a} & \texttt{a} & ka & k\textbackslash\{\}textoverset\{a\}\{a\}y \\
+\han{奇} & \texttt{b} & \texttt{b} & gie, kie & q\textbackslash\{\}textoverset\{b\}\{a\}y \\
+\bottomrule
+\end{tabularx}
+}
+\begin{itemize}[nosep]
+\item \han{何}: all extracted forms lack an i-medial after the onset.
+\item \han{哥}: all extracted forms lack an i-medial after the onset.
+\item \han{奇}: all extracted forms show an i-medial or a dedicated palatal onset.
+\end{itemize}
+
+\subsection*{01-67 (\han{父})}
+Source lines 3036--3159.
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.4cm}cc>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Head & Hand & Pred & MC forms & Handwritten RHS LaTeX \\
+\midrule
+\han{布} & \texttt{a} & \texttt{a} & puH & p\textbackslash\{\}textoverset\{a\}\{a\} \\
+\han{浦} & \texttt{a} & \texttt{a} & phuX & p\textbackslash\{\}textoverset\{a\}\{a\}₂ \\
+\han{捕} & \texttt{a} & \texttt{a} & buH & p\textbackslash\{\}textoverset\{a\}\{a\}₃ \\
+\han{尃} & \texttt{b} & \texttt{b} & phiu & p\textbackslash\{\}textoverset\{b\}\{a\} \\
+\han{旉} & \texttt{b} & \texttt{b} & phiu & p\textbackslash\{\}textoverset\{b\}\{a\}₂ \\
+\bottomrule
+\end{tabularx}
+}
+\begin{itemize}[nosep]
+\item \han{布}: all extracted forms lack an i-medial after the onset.
+\item \han{浦}: all extracted forms lack an i-medial after the onset.
+\item \han{捕}: all extracted forms lack an i-medial after the onset.
+\item \han{尃}: all extracted forms show an i-medial or a dedicated palatal onset.
+\item \han{旉}: all extracted forms show an i-medial or a dedicated palatal onset.
+\end{itemize}
+
+\end{document}

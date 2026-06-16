@@ -81,6 +81,13 @@ Extract the `Semantic components` section into machine-readable form:
 python3 scripts/extract_semantic_components.py
 ```
 
+Pilot handwritten `a/b` subgroup detection for selected entries:
+
+```sh
+python3 scripts/pilot_ab_subseries.py
+latexmk -xelatex -outdir=build build/pilot_ab_subseries_review.tex
+```
+
 Reuse existing TeX analyses and IDS data to enrich curation files with semantic evidence:
 
 ```sh
