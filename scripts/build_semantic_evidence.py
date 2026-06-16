@@ -1010,11 +1010,22 @@ def derive_candidate_oc_roots(candidate: dict[str, Any], *, mode: str) -> list[s
     return dedupe_preserve(roots)
 
 
+def candidate_gsr_bases(candidate: dict[str, Any]) -> set[int]:
+    bases: set[int] = set()
+    for row in candidate.get("mand2mc_rows", []) + candidate.get("bs_gsr_rows", []):
+        parts = resolve_series_roots.split_gsr(row.get("gsr"))
+        if parts is not None:
+            bases.add(parts[0])
+    return bases
+
+
 def resolve_generated_node_root(
     candidate: dict[str, Any],
     candidate_children: dict[str, list[dict[str, Any]]],
     candidate_map: dict[str, dict[str, Any]],
     parent_root: str | None,
+    primary_packet_token: int | None,
+    packet_tokens: set[int],
 ) -> dict[str, Any] | None:
     descendant_characters = hierarchy_utils.collect_descendant_characters(candidate["character"], candidate_children)
     relevant_candidates = [candidate] + [
@@ -1062,6 +1073,19 @@ def resolve_generated_node_root(
     elif bs_support_count >= 2 and len(all_bs_broad_roots) == 1:
         resolved_root = all_bs_broad_roots[0]
         source = "node_bs_broad_consensus"
+    elif (
+        len(packet_tokens) > 1
+        and primary_packet_token is not None
+        and any(base != primary_packet_token and base in packet_tokens for base in candidate_gsr_bases(candidate))
+    ):
+        head_broad_roots = dedupe_preserve(
+            resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="broad")
+            for row in candidate.get("bs_gsr_rows", [])
+            if resolve_series_roots.derive_oc_root(row.get("oc_bs"), mode="broad")
+        )
+        if len(head_broad_roots) == 1:
+            resolved_root = head_broad_roots[0]
+            source = "node_merged_k_token_head"
     elif bs_support_count >= 1 and parent_root:
         resolved_root = parent_root
         source = "node_inherit_parent"
@@ -1104,6 +1128,30 @@ def resolve_parent_root_for_candidate(
         return (entry.get("resolved_series_root") or {}).get("root")
     if entry.get("tex_entry") is not None:
         return extract_series_root_latex(entry["tex_entry"]["raw_block"])
+    return None
+
+
+def infer_parent_from_semantic_and_ids(
+    candidate: dict[str, Any],
+    ids_map: dict[str, str],
+    candidate_characters: set[str],
+) -> str | None:
+    semantic_component = normalize_component_graph((candidate.get("semantic_assignment") or {}).get("semantic_component"))
+    ids = ids_map.get(candidate["character"])
+    if not ids or not semantic_component:
+        return None
+    try:
+        tree, _ = parse_ids_expression(ids)
+    except Exception:
+        return None
+    if not isinstance(tree, dict):
+        return None
+    for child in tree.get("children", []):
+        if isinstance(child, str) and child in candidate_characters and child != candidate["character"]:
+            others = [c for c in tree.get("children", []) if c is not child]
+            for other in others:
+                if isinstance(other, str) and normalize_component_graph(other) == semantic_component:
+                    return child
     return None
 
 
@@ -1357,8 +1405,33 @@ def enrich_curated_entry_with_ids(
                 candidate_characters,
                 top_level_head,
             )
+        if candidate.get("hierarchy_assignment") is None:
+            inferred_parent = infer_parent_from_semantic_and_ids(candidate, ids_map, candidate_characters)
+            if inferred_parent:
+                candidate["hierarchy_assignment"] = {
+                    "status": "assigned-to-candidate-node",
+                    "parent_character": inferred_parent,
+                    "parent_display_line": None,
+                    "parent_rhs_snippet": None,
+                    "parent_kind": "candidate",
+                    "source": "ids_inferred_phonetic_parent",
+                    "phonetic_hint": inferred_parent,
+                }
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
     candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
+    packet_tokens = {
+        int(token)
+        for token in entry.get("schuessler", {}).get("k_tokens", [])
+        if str(token).isdigit()
+    }
+    primary_packet_token = None
+    primary_character = (entry.get("resolved_series_root") or {}).get("character")
+    if primary_character and primary_character in candidate_map:
+        bases = candidate_gsr_bases(candidate_map[primary_character])
+        if bases:
+            primary_packet_token = sorted(bases)[0]
+    if primary_packet_token is None and packet_tokens:
+        primary_packet_token = sorted(packet_tokens)[0]
     for candidate in entry.get("proposed_additions", []):
         if candidate.get("semantic_assignment") is None and candidate_children.get(candidate["character"]):
             candidate["semantic_assignment"] = {
@@ -1386,6 +1459,8 @@ def enrich_curated_entry_with_ids(
                 candidate_children,
                 candidate_map,
                 parent_root,
+                primary_packet_token,
+                packet_tokens,
             )
             unresolved.remove(character)
             progressed = True
@@ -1398,6 +1473,8 @@ def enrich_curated_entry_with_ids(
                     candidate_children,
                     candidate_map,
                     parent_root,
+                    primary_packet_token,
+                    packet_tokens,
                 )
                 unresolved.remove(character)
     for candidate in entry.get("proposed_additions", []):

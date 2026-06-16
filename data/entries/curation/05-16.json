@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.074747+00:00",
+  "generated_at": "2026-06-15T22:41:07.199141+00:00",
   "id": "05-16",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1377,7 +1377,7 @@
       "resolved_node_root": {
         "root": "lyk",
         "source": "node_bs_consensus",
-        "descendant_count": 4,
+        "descendant_count": 5,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "lyk"
@@ -2440,7 +2440,18 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "代"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lyk",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "lyk"
+        ],
+        "bs_node_roots": [
+          "lyk"
+        ]
+      }
     },
     {
       "character": "岱",
@@ -2859,7 +2870,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{serp·}lyk}},",
       "render_latex": "蟘\t%te4\n{\\large{\\textsuperscript{serp·}lyk}},\n\\textit{dək};\t%0918s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "貸",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "貸"
+      },
       "resolved_node_root": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.076857+00:00",
+  "generated_at": "2026-06-15T22:41:07.201434+00:00",
   "id": "08-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -792,7 +792,19 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "朿"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tsek",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "tsek"
+        ],
+        "bs_node_roots": [
+          "thek",
+          "tek"
+        ]
+      }
     },
     {
       "character": "刺",
@@ -1317,7 +1329,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{amb·}tsek}},",
       "render_latex": "𨒪\t%ji4 / jì\n{\\large{\\textsuperscript{amb·}tsek}},\n\\textit{tsiek};\t%0868h",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "朿",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "朿"
+      },
       "resolved_node_root": null
     },
     {

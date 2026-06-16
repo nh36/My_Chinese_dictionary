@@ -54,6 +54,7 @@ DEFAULT_IDS = [
     "25-19",
     "26-27",
     "26-14",
+    "28-05",
     "28-11",
     "28-15",
     "29-41",
@@ -320,14 +321,37 @@ def render_missing_series_entry(entry: dict[str, Any]) -> str:
         body_lines.extend(render_head_mc_lines(head_candidate))
 
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
-    top_level_candidates = [
-        candidate
-        for index, candidate in enumerate(entry["proposed_additions"])
-        if index != 0
-        and (candidate.get("hierarchy_assignment") or {}).get("status")
-        not in {"assigned-to-inherited-node", "assigned-to-candidate-node"}
-    ]
-    body_lines.extend(render_candidate_group_lines(top_level_candidates, candidate_children))
+    direct_candidates: list[dict[str, Any]] = []
+    head_child_candidates: list[dict[str, Any]] = []
+    for index, candidate in enumerate(entry["proposed_additions"]):
+        if index == 0:
+            continue
+        assignment = candidate.get("hierarchy_assignment") or {}
+        status = assignment.get("status")
+        parent_character = assignment.get("parent_character")
+        if status == "assigned-to-inherited-node":
+            continue
+        if status == "assigned-to-top-level":
+            if candidate_children.get(candidate["character"]):
+                head_child_candidates.append(candidate)
+            else:
+                direct_candidates.append(candidate)
+            continue
+        if status == "assigned-to-candidate-node":
+            if head_character and parent_character == head_character:
+                if candidate_children.get(candidate["character"]):
+                    head_child_candidates.append(candidate)
+                else:
+                    direct_candidates.append(candidate)
+            continue
+        direct_candidates.append(candidate)
+
+    body_lines.extend(render_candidate_group_lines(direct_candidates, candidate_children))
+    if head_child_candidates:
+        body_lines.append(r"\begin{itemize}[noitemsep]")
+        for candidate in head_child_candidates:
+            body_lines.extend(render_candidate_node(candidate, candidate_children))
+        body_lines.append(r"\end{itemize}")
     return "\n".join(body_lines)
 
 

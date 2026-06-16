@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.068753+00:00",
+  "generated_at": "2026-06-15T22:41:07.192933+00:00",
   "id": "03-57",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1103,7 +1103,15 @@
       "transliteration_latex": "{\\large{paṅ\\textsuperscript{˸terr}}},",
       "render_latex": "埅\t%fang2\n{\\large{paṅ\\textsuperscript{˸terr}}},\n\\textit{biaṅ};\t%0740a'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "防",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "防"
+      },
       "resolved_node_root": null
     },
     {
@@ -6182,7 +6190,18 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "方"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "paṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "paṅ"
+        ],
+        "bs_node_roots": [
+          "paṅ"
+        ]
+      }
     }
   ],
   "all_candidates": [

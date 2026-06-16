@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.135795+00:00",
+  "generated_at": "2026-06-15T22:41:07.263589+00:00",
   "id": "35-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -468,7 +468,21 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "去"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ka",
+        "source": "node_inherit_parent",
+        "descendant_count": 14,
+        "bs_support_count": 5,
+        "bs_broad_roots": [
+          "ka",
+          "pa"
+        ],
+        "bs_node_roots": [
+          "kha",
+          "ka",
+          "pa"
+        ]
+      }
     },
     {
       "character": "呿",
@@ -1304,7 +1318,15 @@
       "transliteration_latex": "{\\large{ka\\textsuperscript{·cult}}},",
       "render_latex": "刧\t%jie2\n{\\large{ka\\textsuperscript{·cult}}},\n\\textit{kiaep};\t%0642i",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "去",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "去"
+      },
       "resolved_node_root": null
     },
     {
@@ -2299,7 +2321,15 @@
       "transliteration_latex": "{\\large{ka\\textsuperscript{˸vas}}},",
       "render_latex": "盍\t%he2 / hé\n{\\large{ka\\textsuperscript{˸vas}}},\n\\textit{hap};\t%0642n",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "去",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "去"
+      },
       "resolved_node_root": {
         "root": "ka",
         "source": "node_inherit_parent",
@@ -2380,7 +2410,14 @@
       "render_latex": "盇\t%he2\n{\\large{ka\\textsuperscript{˸vas}}},\n\\textit{hap};\t%0642o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ka",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": []
+      }
     },
     {
       "character": "嗑",
@@ -2817,7 +2854,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ka}},",
       "render_latex": "葢\t%he2 / gai4\n{\\large{\\textsuperscript{herb˸}ka}},\n\\textit{hap};\t%0642r\n\\textit{kayH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "盇",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "盇"
+      },
       "resolved_node_root": null
     },
     {

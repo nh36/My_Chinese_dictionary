@@ -52,9 +52,14 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
     rendered_subseries_heads = 0
     for entry in entries:
         candidate_children = hierarchy_utils.collect_candidate_children(entry)
+        packet_head_character = None
+        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
+            packet_head_character = entry["proposed_additions"][0]["character"]
         for candidate in entry.get("proposed_additions", []):
             resolved_node_root = (candidate.get("resolved_node_root") or {}).get("root")
             if not candidate_children.get(candidate["character"]) or not resolved_node_root:
+                continue
+            if packet_head_character and candidate["character"] == packet_head_character:
                 continue
             generated_subseries_heads.append(candidate["character"])
             item_token = rf"\item {{\Large{{{candidate['character']}}}"

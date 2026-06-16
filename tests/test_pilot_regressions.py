@@ -50,7 +50,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"{\large{\textsuperscript{herb˸}kak}},", rendered)
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
-        self.assertEqual(rendered.count(r"\pilotentry{%"), 69)
+        self.assertEqual(rendered.count(r"\pilotentry{%"), 70)
 
     def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
@@ -103,13 +103,26 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"\item {\Large{路}}", block_0201)
 
         block_0430 = self.extract_entry_block(rendered, "04-30")
-        self.assertLess(block_0430.index("𨽿\t%"), block_0430.index(r"\begin{itemize}[noitemsep]"))
-        self.assertLess(block_0430.index("飴\t%"), block_0430.index(r"\item {\Large{矣}}"))
+        self.assertLess(block_0430.index("耜\t%"), block_0430.index(r"\item {\Large{以}}"))
+        self.assertLess(block_0430.index("飴\t%"), block_0430.index(r"\item {\Large{枲}}"))
+        self.assertLess(block_0430.index(r"\item {\Large{枲}}"), block_0430.index(r"\item {\Large{矣}}"))
         self.assertLess(block_0430.index(r"\item {\Large{矣}}"), block_0430.index(r"\item {\Large{台}}"))
+
+        block_2805 = self.extract_entry_block(rendered, "28-05")
+        self.assertLess(block_2805.index("諱\t%"), block_2805.index(r"\item {\Large{衛}}"))
+
+        block_3240 = self.extract_entry_block(rendered, "32-40")
+        self.assertLess(block_3240.index("愍\t%"), block_3240.index(r"\item {\Large{昏}}"))
+        self.assertLess(block_3240.index("愍\t%"), block_3240.index(r"\item {\Large{昬}}"))
+
+        block_3501 = self.extract_entry_block(rendered, "35-01")
+        self.assertLess(block_3501.index("劫\t%"), block_3501.index(r"\item {\Large{盍}}"))
+        self.assertLess(block_3501.index("劫\t%"), block_3501.index(r"\item {\Large{盇}}"))
 
         block_3803 = self.extract_entry_block(rendered, "38-03")
         self.assertLess(block_3803.index("廞\t%"), block_3803.index(r"\begin{itemize}[noitemsep]"))
         self.assertLess(block_3803.index(r"\item {\Large{侌}}"), block_3803.index(r"\item {\Large{陰}}"))
+        self.assertLess(block_3803.index(r"\item {\Large{酓}}"), block_3803.index(r"\item {\Large{金}}"))
         self.assertLess(block_3803.index(r"\item {\Large{金}}"), block_3803.index("錦\t%"))
 
     def test_bad_subseries_roots_are_replaced_by_conservative_values(self) -> None:

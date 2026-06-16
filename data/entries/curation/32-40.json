@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.134594+00:00",
+  "generated_at": "2026-06-15T22:41:07.262420+00:00",
   "id": "32-40",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -300,7 +300,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "民"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "miṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "miṅ"
+        ],
+        "bs_node_roots": [
+          "miṅ"
+        ]
+      }
     },
     {
       "character": "泯",
@@ -992,7 +1003,15 @@
       "transliteration_latex": "{\\large{miṅ\\textsuperscript{·fer}}},",
       "render_latex": "敃\t%min3\n{\\large{miṅ\\textsuperscript{·fer}}},\n\\textit{minX};\t%0457g",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "民",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "民"
+      },
       "resolved_node_root": null
     },
     {
@@ -1065,8 +1084,23 @@
       "transliteration_latex": "{\\large{miṅ\\textsuperscript{˸sol}}},",
       "render_latex": "昬\t%hun1\n{\\large{miṅ\\textsuperscript{˸sol}}},\n\\textit{hwon};\t%0457j",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "民",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "民"
+      },
+      "resolved_node_root": {
+        "root": "miṅ",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": []
+      }
     },
     {
       "character": "昏",
@@ -2511,7 +2545,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{lap·}miṅ}},",
       "render_latex": "䃉\t%min2\n{\\large{\\textsuperscript{lap·}miṅ}},\n\\textit{min};\t%0457v",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "昬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "昬"
+      },
       "resolved_node_root": null
     },
     {

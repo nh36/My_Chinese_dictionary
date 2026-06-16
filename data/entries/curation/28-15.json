@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.111478+00:00",
+  "generated_at": "2026-06-15T22:41:07.239568+00:00",
   "id": "28-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -813,7 +813,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "畾"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "roy",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ruy"
+        ],
+        "bs_node_roots": [
+          "ruy"
+        ]
+      }
     },
     {
       "character": "壘",
@@ -1329,7 +1340,7 @@
       "resolved_node_root": {
         "root": "roy",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "ruy"
@@ -1712,7 +1723,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}roy}},",
       "render_latex": "𧮢\t%lei3\n{\\large{\\textsuperscript{dic·}roy}},\n\\textit{lwiyX};\t%0577i",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "纍",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "纍"
+      },
       "resolved_node_root": null
     },
     {
@@ -2240,7 +2259,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{pluv˸}roy}},",
       "render_latex": "靁\t%lei2 / léi\n{\\large{\\textsuperscript{pluv˸}roy}},\n\\textit{lwəy};\t%0577n",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "畾",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "畾"
+      },
       "resolved_node_root": null
     },
     {

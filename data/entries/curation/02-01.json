@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.055443+00:00",
+  "generated_at": "2026-06-15T22:41:07.181725+00:00",
   "id": "02-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -902,7 +902,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "各"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kak",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kak"
+        ],
+        "bs_node_roots": [
+          "kak"
+        ]
+      }
     },
     {
       "character": "觡",
@@ -1604,7 +1615,7 @@
       "resolved_node_root": {
         "root": "kak",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "kak"
@@ -2614,7 +2625,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{can·}kak}},",
       "render_latex": "狢\t%mo4\n{\\large{\\textsuperscript{can·}kak}},\n\\textit{maek};\t%0766j",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "各"
+      },
       "resolved_node_root": null
     },
     {
@@ -3666,7 +3685,14 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "各"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kak",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": []
+      }
     },
     {
       "character": "絡",
@@ -4286,7 +4312,15 @@
       "transliteration_latex": "{\\large{kak\\textsuperscript{˸cor}}},",
       "render_latex": "愙\t%ke4\n{\\large{kak\\textsuperscript{˸cor}}},\n\\textit{khak};\t%0766p'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "客",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "客"
+      },
       "resolved_node_root": null
     },
     {
@@ -5280,7 +5314,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{av·}kak}},",
       "render_latex": "鴼\t%luo4\n{\\large{\\textsuperscript{av·}kak}},\n\\textit{lak};\t%0766t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "各",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "各"
+      },
       "resolved_node_root": null
     },
     {
@@ -6370,7 +6412,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}kak}},",
       "render_latex": "簵\t%lu4\n{\\large{\\textsuperscript{bamb˸}kak}},\n\\textit{luH};\t%0766x'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "輅",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "輅"
+      },
       "resolved_node_root": null
     },
     {

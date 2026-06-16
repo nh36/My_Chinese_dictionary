@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.129477+00:00",
+  "generated_at": "2026-06-15T22:41:07.257447+00:00",
   "id": "07-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1754,7 +1754,7 @@
       "resolved_node_root": {
         "root": "tek",
         "source": "node_bs_consensus",
-        "descendant_count": 2,
+        "descendant_count": 3,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "tek"
@@ -2945,7 +2945,18 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "啻"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tek",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tek"
+        ],
+        "bs_node_roots": [
+          "tek"
+        ]
+      }
     },
     {
       "character": "擿",
@@ -3146,7 +3157,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}tek}},",
       "render_latex": "讁\t%zhe2\n{\\large{\\textsuperscript{dic·}tek}},\n\\textit{ḍeak};\t%0877u\n\\textit{ṭeak};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "適",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "適"
+      },
       "resolved_node_root": null
     }
   ],

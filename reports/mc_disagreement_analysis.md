@@ -1,15 +1,15 @@
 # MC disagreement analysis
 
-- Candidate additions with at least one MC-disagreement signal: 350
+- Candidate additions with at least one MC-disagreement signal: 354
 
 ## Category counts
 
 | Category | Count |
 | --- | ---: |
-| `mand2mc-multiple` | 328 |
-| `mand2mc-extra-vs-bs` | 89 |
+| `mand2mc-multiple` | 329 |
+| `mand2mc-extra-vs-bs` | 92 |
 | `bs-gsr-multiple` | 63 |
-| `bs-not-in-mand2mc` | 25 |
+| `bs-not-in-mand2mc` | 28 |
 
 ## Current interpretation
 
@@ -324,6 +324,10 @@
 | `27-08` | 菲 | `mand2mc-multiple` | biɨyH; phiɨy; phiɨyX |  |  |  | 0579l |
 | `27-08` | 蜚 | `mand2mc-multiple, mand2mc-extra-vs-bs` | biɨyH; piɨyX | pj+jX |  | bj+jH | 0579r |
 | `27-08` | 陫 | `mand2mc-multiple` | biɨyH; biɨyX |  |  |  | 0579s |
+| `28-05` | 韋 | `bs-not-in-mand2mc, mand2mc-extra-vs-bs` | hiwɨy | hjw+j | hjw+j | hjwɨj | 0571a |
+| `28-05` | 違 | `bs-not-in-mand2mc, mand2mc-extra-vs-bs` | hiwɨy | hjw+j | hjw+j | hjwɨj | 0571d |
+| `28-05` | 圍 | `bs-not-in-mand2mc, mand2mc-extra-vs-bs` | hiwɨy | hjw+j | hjw+j | hjwɨj | 0571g |
+| `28-05` | 緯 | `mand2mc-multiple` | hiwɨyH; hiwɨyX |  |  |  | 0571m |
 | `28-11` | 推 | `mand2mc-multiple, mand2mc-extra-vs-bs` | thwəy; chiwiy | thwoj |  | tsyhwij | 0575a' |
 | `28-11` | 唯 | `mand2mc-multiple` | tshwiyX; yiwiy; yiwiyX |  |  |  | 0575i |
 | `28-11` | 蓷 | `mand2mc-multiple` | thwəy; chiwiy |  |  |  | 0575i' |

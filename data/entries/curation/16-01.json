@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.094587+00:00",
+  "generated_at": "2026-06-15T22:41:07.220075+00:00",
   "id": "16-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -756,7 +756,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "高"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kaw",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kaw"
+        ],
+        "bs_node_roots": [
+          "kaw"
+        ]
+      }
     },
     {
       "character": "薧",
@@ -1277,7 +1288,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{alb·}kaw}},",
       "render_latex": "皜\t%hao3\n{\\large{\\textsuperscript{alb·}kaw}},\n\\textit{kawX};\t%1129d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "高",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "高"
+      },
       "resolved_node_root": null
     },
     {
@@ -1678,7 +1697,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kaw}},",
       "render_latex": "藁\t%gao3\n{\\large{\\textsuperscript{herb˸}kaw}},\n\\textit{kawX};\t%1129g",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "槀",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "槀"
+      },
       "resolved_node_root": null
     },
     {
@@ -2425,7 +2452,14 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "高"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kaw",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": []
+      }
     },
     {
       "character": "犒",
@@ -3329,7 +3363,15 @@
       "transliteration_latex": "{\\large{kaw\\textsuperscript{·fer}}},",
       "render_latex": "㪣\t%qiao4\n{\\large{kaw\\textsuperscript{·fer}}},\n\\textit{khaew};\t%1129s\n\\textit{khaewH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "高",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "高"
+      },
       "resolved_node_root": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.075811+00:00",
+  "generated_at": "2026-06-15T22:41:07.200196+00:00",
   "id": "07-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -768,7 +768,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "是"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "te",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "te"
+        ],
+        "bs_node_roots": [
+          "te"
+        ]
+      }
     },
     {
       "character": "諟",
@@ -2242,7 +2253,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{hom·}te}},",
       "render_latex": "偍\t%ti\n{\\large{\\textsuperscript{hom·}te}},\n\\textit{dey};\t%0866m",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "是",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "是"
+      },
       "resolved_node_root": null
     },
     {

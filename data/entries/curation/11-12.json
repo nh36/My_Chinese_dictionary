@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.084921+00:00",
+  "generated_at": "2026-06-15T22:41:07.209619+00:00",
   "id": "11-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -744,7 +744,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "蜀"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tok",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tok"
+        ],
+        "bs_node_roots": [
+          "tok"
+        ]
+      }
     },
     {
       "character": "蠋",
@@ -2168,7 +2179,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{cori·}tok}},",
       "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}tok}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "蜀",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "蜀"
+      },
       "resolved_node_root": null
     },
     {

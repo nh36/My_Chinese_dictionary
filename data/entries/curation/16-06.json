@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.119503+00:00",
+  "generated_at": "2026-06-15T22:41:07.247443+00:00",
   "id": "16-06",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -708,7 +708,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "交"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kaw",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kaw"
+        ],
+        "bs_node_roots": [
+          "kraw"
+        ]
+      }
     },
     {
       "character": "窔",
@@ -3902,7 +3913,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{sol·}kaw}},",
       "render_latex": "晈\t%jiao3\n{\\large{\\textsuperscript{sol·}kaw}},\n\\textit{kewX};\t%1166x",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "交",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "交"
+      },
       "resolved_node_root": null
     },
     {
@@ -4073,7 +4092,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{tect˸}kaw}},",
       "render_latex": "㝔\t%yao1\n{\\large{\\textsuperscript{tect˸}kaw}},\n\\textit{qew};\t%1166z",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "交",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "交"
+      },
       "resolved_node_root": null
     },
     {

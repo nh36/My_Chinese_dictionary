@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.122632+00:00",
+  "generated_at": "2026-06-15T22:41:07.250660+00:00",
   "id": "03-38",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -961,7 +961,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "昜"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "laṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "laṅ"
+        ],
+        "bs_node_roots": [
+          "laṅ"
+        ]
+      }
     },
     {
       "character": "餳",
@@ -1060,7 +1071,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{ed·}laṅ}},",
       "render_latex": "餳\t%tang2 / táng\n{\\large{\\textsuperscript{ed·}laṅ}},\n\\textit{daṅ};\t%0720c'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "昜",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "昜"
+      },
       "resolved_node_root": null
     },
     {

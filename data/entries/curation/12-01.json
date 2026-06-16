@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.073382+00:00",
+  "generated_at": "2026-06-15T22:41:07.197853+00:00",
   "id": "12-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1079,7 +1079,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "工"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "koṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "koṅ"
+        ],
+        "bs_node_roots": [
+          "koṅ"
+        ]
+      }
     },
     {
       "character": "控",
@@ -3752,7 +3763,15 @@
       "transliteration_latex": "{\\large{koṅ\\textsuperscript{·av}}},",
       "render_latex": "䲨\t%hong2\n{\\large{koṅ\\textsuperscript{·av}}},\n\\textit{ḫuwṅ};\t%1172l",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "工",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "工"
+      },
       "resolved_node_root": null
     },
     {

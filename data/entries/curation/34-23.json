@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.133378+00:00",
+  "generated_at": "2026-06-15T22:41:07.261208+00:00",
   "id": "34-23",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -804,7 +804,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "允"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lur",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "lur"
+        ],
+        "bs_node_roots": [
+          "lur"
+        ]
+      }
     },
     {
       "character": "浚",
@@ -1223,7 +1234,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{ager·}lur}},",
       "render_latex": "㽙\t%yun3\n{\\large{\\textsuperscript{ager·}lur}},\n\\textit{yiwinX};\t%0468d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "允",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "允"
+      },
       "resolved_node_root": null
     },
     {
@@ -1842,7 +1861,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{血·}lur}},",
       "render_latex": "䘒\t%zui1\n{\\large{\\textsuperscript{血·}lur}},\n\\textit{tswəy};\t%0468g'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "夋",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "夋"
+      },
       "resolved_node_root": null
     },
     {
@@ -2479,7 +2506,7 @@
       "resolved_node_root": {
         "root": "lur",
         "source": "node_inherit_parent",
-        "descendant_count": 16,
+        "descendant_count": 17,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "sor"

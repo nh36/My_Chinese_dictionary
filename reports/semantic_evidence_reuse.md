@@ -3,12 +3,12 @@
 - Curated entries inspected: 70
 - Proposed additions inspected: 1503
 - Additions with reusable semantic assignment from existing TeX: 1503
-- Additions with reusable transliteration LaTeX from existing TeX: 1486
-- Additions with reusable render block from existing TeX: 1486
+- Additions with reusable transliteration LaTeX from existing TeX: 1503
+- Additions with reusable render block from existing TeX: 1503
 - Additions with IDS-derived semantic candidates: 999
 - Additions with explicit Wiktionary Han-compound support: 748
 - Additions assigned to inherited hierarchy nodes: 2
-- Additions assigned under generated candidate nodes: 420
+- Additions assigned under generated candidate nodes: 501
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 28
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -72,7 +72,7 @@
 | `26-27` | 19 | 19 | 19 | 19 |
 | `26-38` | 23 | 23 | 23 | 23 |
 | `27-08` | 22 | 22 | 22 | 22 |
-| `28-05` | 18 | 18 | 1 | 1 |
+| `28-05` | 18 | 18 | 18 | 18 |
 | `28-11` | 26 | 26 | 26 | 26 |
 | `28-15` | 18 | 18 | 18 | 18 |
 | `29-41` | 19 | 19 | 19 | 19 |

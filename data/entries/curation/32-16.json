@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.099643+00:00",
+  "generated_at": "2026-06-15T22:41:07.225110+00:00",
   "id": "32-16",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -779,7 +779,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "真"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tin",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tin"
+        ],
+        "bs_node_roots": [
+          "tin"
+        ]
+      }
     },
     {
       "character": "稹",
@@ -4050,7 +4061,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{mon·}tin}},",
       "render_latex": "嵮\t%tian2\n{\\large{\\textsuperscript{mon·}tin}},\n\\textit{den};\t%0375v",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "真",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "真"
+      },
       "resolved_node_root": null
     },
     {

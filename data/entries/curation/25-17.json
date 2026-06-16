@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.105481+00:00",
+  "generated_at": "2026-06-15T22:41:07.231521+00:00",
   "id": "25-17",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -224,7 +224,18 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "夗"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "qor",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ʔor"
+        ],
+        "bs_node_roots": [
+          "qor"
+        ]
+      }
     },
     {
       "character": "怨",
@@ -2366,10 +2377,18 @@
         "source": "packet_family_ids",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}ʔor}},",
-      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}ʔor}},\n\\textit{qwanX};\t%0260o",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}qor}},",
+      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}qor}},\n\\textit{qwanX};\t%0260o",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "宛",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "宛"
+      },
       "resolved_node_root": null
     },
     {
@@ -3561,7 +3580,7 @@
       "resolved_node_root": {
         "root": "qor",
         "source": "node_bs_consensus",
-        "descendant_count": 12,
+        "descendant_count": 13,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "ʔor"

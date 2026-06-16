@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.110146+00:00",
+  "generated_at": "2026-06-15T22:41:07.238231+00:00",
   "id": "28-11",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -480,7 +480,20 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "隹"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tur",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "tur",
+          "ly"
+        ],
+        "bs_node_roots": [
+          "tur",
+          "ly"
+        ]
+      }
     },
     {
       "character": "推",
@@ -1215,7 +1228,15 @@
       "transliteration_latex": "{\\large{tur\\textsuperscript{·av}}},",
       "render_latex": "䳡\t%zhui1\n{\\large{tur\\textsuperscript{·av}}},\n\\textit{ciwiy};\t%0575e",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "隹",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "隹"
+      },
       "resolved_node_root": null
     },
     {
@@ -4590,7 +4611,15 @@
           "template_raw": "{{Han compound|禾|t1=rice|屖|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "隹",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "隹"
+      },
       "resolved_node_root": null
     },
     {

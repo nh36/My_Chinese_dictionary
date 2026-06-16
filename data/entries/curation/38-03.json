@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.064007+00:00",
+  "generated_at": "2026-06-15T22:41:07.187913+00:00",
   "id": "38-03",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1370,7 +1370,22 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "今"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kym",
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "kym",
+          "qum",
+          "qym"
+        ],
+        "bs_node_roots": [
+          "krym",
+          "qum",
+          "qym"
+        ]
+      }
     },
     {
       "character": "𩃬",
@@ -5191,7 +5206,15 @@
       "transliteration_latex": "{\\large{kym\\textsuperscript{˸云}}},",
       "render_latex": "侌\t%yin1\n{\\large{kym\\textsuperscript{˸云}}},\n\\textit{qim};\t%0651x",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "今",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "今"
+      },
       "resolved_node_root": {
         "root": "kym",
         "source": "node_inherit_parent",
@@ -5505,14 +5528,15 @@
       },
       "resolved_node_root": {
         "root": "kym",
-        "source": "node_bs_consensus",
-        "descendant_count": 2,
-        "bs_support_count": 2,
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 3,
         "bs_broad_roots": [
           "kym"
         ],
         "bs_node_roots": [
-          "kym"
+          "kym",
+          "krym"
         ]
       }
     },
@@ -5600,7 +5624,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{vest·}kym}},",
       "render_latex": "䘳\t%jin1 / jīn\n{\\large{\\textsuperscript{vest·}kym}},\n\\textit{kim};\t%0652d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "金",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "金"
+      },
       "resolved_node_root": null
     },
     {

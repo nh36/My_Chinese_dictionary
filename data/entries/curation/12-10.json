@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.078722+00:00",
+  "generated_at": "2026-06-15T22:41:07.203332+00:00",
   "id": "12-10",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -528,7 +528,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "用"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "loṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "loṅ"
+        ],
+        "bs_node_roots": [
+          "loṅ"
+        ]
+      }
     },
     {
       "character": "鏞",
@@ -759,7 +770,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{hallebard·}loṅ}},",
       "render_latex": "𢦨\t%yong3\n{\\large{\\textsuperscript{hallebard·}loṅ}},\n\\textit{yiəwṅX};\t%1185f",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "用",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "用"
+      },
       "resolved_node_root": null
     },
     {

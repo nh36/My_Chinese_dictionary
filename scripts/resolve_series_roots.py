@@ -167,7 +167,7 @@ def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     elif broad.endswith("d"):
         broad = broad[:-1]
         coda = "t"
-    elif broad.endswith(("k", "m", "n", "r")):
+    elif broad.endswith(("k", "m", "n", "r", "t")):
         coda = broad[-1]
         broad = broad[:-1]
 
@@ -186,6 +186,8 @@ def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     else:
         vowel = broad or ""
 
+    if glide and vowel == "y" and glide == "y":
+        return vowel, coda
     if glide:
         return vowel + glide, coda
     return vowel, coda
@@ -296,6 +298,23 @@ def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
             "oc_bs": candidate.get("oc_bs"),
             "confidence": "provisional-oc",
         }
+    schuessler_tokens = [
+        int(token)
+        for token in entry.get("schuessler", {}).get("k_tokens", [])
+        if str(token).isdigit()
+    ]
+    if len(schuessler_tokens) > 1:
+        primary_token = schuessler_tokens[0]
+        for candidate in candidates:
+            parts = split_gsr(candidate.get("gsr"))
+            if parts and parts[0] == primary_token:
+                return {
+                    "root": candidate["root"],
+                    "source": "merged_packet_primary_head",
+                    "character": candidate["character"],
+                    "oc_bs": candidate.get("oc_bs"),
+                    "confidence": "provisional-oc",
+                }
     return derive_packet_root_consensus(entry)
 
 

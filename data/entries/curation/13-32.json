@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.123824+00:00",
+  "generated_at": "2026-06-15T22:41:07.251969+00:00",
   "id": "13-32",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -576,7 +576,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "攸"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "liw",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "liw"
+        ],
+        "bs_node_roots": [
+          "liw"
+        ]
+      }
     },
     {
       "character": "悠",
@@ -774,7 +785,18 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "攸"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "liw",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "liw"
+        ],
+        "bs_node_roots": [
+          "liw"
+        ]
+      }
     },
     {
       "character": "修",
@@ -1872,7 +1894,15 @@
       "transliteration_latex": "{\\large{liw\\textsuperscript{˸ign}}},",
       "render_latex": "焂\t%shu2\n{\\large{liw\\textsuperscript{˸ign}}},\n\\textit{jiuwk};\t%1077m",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "攸",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "攸"
+      },
       "resolved_node_root": null
     },
     {
@@ -2249,7 +2279,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{aq·}liw}},",
       "render_latex": "滺\t%you2\n{\\large{\\textsuperscript{aq·}liw}},\n\\textit{yuw};\t%1077q",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "悠",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "悠"
+      },
       "resolved_node_root": null
     },
     {

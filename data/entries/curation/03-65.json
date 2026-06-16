@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:12:31.070276+00:00",
+  "generated_at": "2026-06-15T22:41:07.194501+00:00",
   "id": "03-65",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -876,7 +876,18 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "亡"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "maṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "maṅ"
+        ],
+        "bs_node_roots": [
+          "maṅ"
+        ]
+      }
     },
     {
       "character": "網",
@@ -1800,7 +1811,7 @@
       "resolved_node_root": {
         "root": "maṅ",
         "source": "node_bs_consensus",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "maṅ"
@@ -2707,7 +2718,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{lint·}maṅ}},",
       "render_latex": "㡛\t%mang2\n{\\large{\\textsuperscript{lint·}maṅ}},\n\\textit{maṅ};\t%0742i'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "荒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "荒"
+      },
       "resolved_node_root": null
     },
     {
@@ -4225,7 +4244,15 @@
       "transliteration_latex": "{\\large{maṅ\\textsuperscript{˸serp}}},",
       "render_latex": "䖟\t%meng2 / méng\n{\\large{maṅ\\textsuperscript{˸serp}}},\n\\textit{maeṅ};\t%0742s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "亡",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "亡"
+      },
       "resolved_node_root": null
     },
     {
@@ -4630,7 +4657,7 @@
       "resolved_node_root": {
         "root": "maṅ",
         "source": "node_bs_consensus",
-        "descendant_count": 2,
+        "descendant_count": 3,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "maṅ"
