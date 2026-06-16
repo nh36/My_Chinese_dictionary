@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.223951+00:00",
+  "generated_at": "2026-06-16T08:34:25.280733+00:00",
   "id": "27-08",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "579"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC           LHan          OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 312,
     "source_line_number": 32,
     "source_line_raw": "27-8 = K. 579         Man d.       MC           LHan          OCM"
@@ -912,7 +915,33 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "非"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "py",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "py"
+        ],
+        "bs_node_roots": [
+          "py"
+        ],
+        "display_root": "py",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "piɨyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "piɨyX",
+            "normalized": "piɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "扉",
@@ -1310,13 +1339,13 @@
       "render_latex": "篚\t%fei3\n{\\large{\\textsuperscript{bamb˸}py}},\n\\textit{piɨyX};\t%0579f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "非",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "匪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "非"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "匪"
       },
       "resolved_node_root": null
     },

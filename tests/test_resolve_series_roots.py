@@ -18,6 +18,9 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolve_series_roots.derive_oc_root("*krəm {*[k]r[ə]m}"), "kym")
         self.assertEqual(resolve_series_roots.derive_oc_root("*ləʔ"), "ly")
         self.assertEqual(resolve_series_roots.derive_oc_root("*ŋrar", mode="node"), "ŋrar")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*kap {*k(r)ap}"), "kap")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*tsraŋ {*[ts]raŋ}", mode="node"), "tsraṅ")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*s.tʰˤiwk", mode="node"), "tsik")
 
     def test_resolve_root_single_oc_candidate(self) -> None:
         entry = {
@@ -47,6 +50,19 @@ class ResolveSeriesRootsTests(unittest.TestCase):
             resolved = resolve_series_roots.apply_root_resolution(entry)["resolved_series_root"]
             self.assertEqual(resolved["root"], expected_root)
             self.assertEqual(resolved["source"], "head_graph_oc_bs")
+
+    def test_packet_root_majority_fallback(self) -> None:
+        entry = {
+            "packet_kind": "missing_series",
+            "proposed_additions": [
+                {"character": "A", "bs_gsr_rows": [{"oc_bs": "*kap"}]},
+                {"character": "B", "bs_gsr_rows": [{"oc_bs": "*kap"}]},
+                {"character": "C", "bs_gsr_rows": [{"oc_bs": "*pap"}]},
+            ],
+        }
+        resolved = resolve_series_roots.derive_packet_root_consensus(entry)
+        self.assertEqual(resolved["root"], "kap")
+        self.assertEqual(resolved["source"], "packet_bs_majority")
 
 
 if __name__ == "__main__":

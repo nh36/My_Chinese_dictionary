@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 67
-- Packets with at least one root candidate: 61
-- Packets with a single resolved provisional root: 67
+- Missing-series packets inspected: 66
+- Packets with at least one root candidate: 59
+- Packets with a single resolved provisional root: 66
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -70,6 +70,5 @@
 | `32-40` | 民→miṅ [*miŋ {*mi[ŋ]}] (0457a) | `miṅ` | `head_graph_oc_bs` |
 | `33-30` | 分→pyn [*m-pən-s {*[m]-pə[n]-s}] (0471a) | `pyn` | `head_graph_oc_bs` |
 | `34-23` | 允→lur [*lurʔ {*[l]u[r]ʔ}] (0468a) | `lur` | `head_graph_oc_bs` |
-| `35-01` | 去→ka [*kʰaʔ-s {*[k]ʰ(r)aʔ-s}] (0642a) | `ka` | `head_graph_oc_bs` |
-| `35-21` | 去→ka [*kʰaʔ-s {*[k]ʰ(r)aʔ-s}] (0642a) | `ka` | `head_graph_oc_bs` |
+| `35-21` |  | `kap` | `packet_bs_majority` |
 | `38-03` | 今→kym [*krəm {*[k]r[ə]m}] (0651a) | `kym` | `head_graph_oc_bs` |

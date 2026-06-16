@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.231521+00:00",
+  "generated_at": "2026-06-16T08:34:25.287946+00:00",
   "id": "25-17",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "260"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Provisionally I assume OC *?on because this syllable is probably more",
+    "is_cross_reference_only": false,
     "source_page_number": 293,
     "source_line_number": 31,
     "source_line_raw": "25-17 = K. 260          Provisionally I assume OC *?on because this syllable is probably more"
@@ -224,40 +227,7 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "夗"
       },
-      "resolved_node_root": {
-        "root": "qor",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "ʔor"
-        ],
-        "bs_node_roots": [
-          "qor"
-        ],
-        "display_root": "qor",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "qiwənX",
-          "qwanX"
-        ],
-        "form_analyses": [
-          {
-            "form": "qiwənX",
-            "normalized": "qiwən",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "qwanX",
-            "normalized": "qwan",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "怨",
@@ -2399,18 +2369,10 @@
         "source": "packet_family_ids",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}qor}},",
-      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}qor}},\n\\textit{qwanX};\t%0260o",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}ʔor}},",
+      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}ʔor}},\n\\textit{qwanX};\t%0260o",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "宛",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "宛"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3602,7 +3564,7 @@
       "resolved_node_root": {
         "root": "qor",
         "source": "node_bs_consensus",
-        "descendant_count": 13,
+        "descendant_count": 12,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "ʔor"
@@ -3617,7 +3579,6 @@
         "mc_forms": [
           "'jwonX",
           "qiwənX",
-          "qwanX",
           "qiwən",
           "qiwənH",
           "qiut",
@@ -3639,12 +3600,6 @@
             "normalized": "qiwən",
             "class": "b",
             "reason": "explicit_i_medial"
-          },
-          {
-            "form": "qwanX",
-            "normalized": "qwan",
-            "class": "a",
-            "reason": "no_i_medial"
           },
           {
             "form": "qiwən",

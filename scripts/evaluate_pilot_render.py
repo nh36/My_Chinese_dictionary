@@ -22,6 +22,15 @@ def load_curated_entries(input_dir: Path) -> list[dict[str, Any]]:
     ]
 
 
+def extract_entry_block(rendered_tex: str, entry_id: str) -> str | None:
+    marker = rf"\paragraph{{\textoversetlarge{{{entry_id}}}"
+    start = rendered_tex.find(marker)
+    if start == -1:
+        return None
+    next_start = rendered_tex.find(r"\paragraph{\textoversetlarge{", start + 1)
+    return rendered_tex[start : next_start if next_start != -1 else len(rendered_tex)]
+
+
 def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[str, Any]:
     proposed_additions = [
         candidate
@@ -51,6 +60,7 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
     generated_subseries_heads = []
     rendered_subseries_heads = 0
     for entry in entries:
+        entry_block = extract_entry_block(rendered_tex, entry["id"]) or ""
         candidate_children = hierarchy_utils.collect_candidate_children(entry)
         packet_head_character = None
         if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
@@ -65,8 +75,8 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
             generated_subseries_heads.append(candidate["character"])
             item_token = rf"\item {{\Large{{{candidate['character']}}}"
             equals_token = rf"= {{\large{{{resolved_node_root}}}}},"
-            position = rendered_tex.find(item_token)
-            if position != -1 and equals_token in rendered_tex[position : position + 500]:
+            position = entry_block.find(item_token)
+            if position != -1 and equals_token in entry_block[position : position + 500]:
                 rendered_subseries_heads += 1
 
     return {

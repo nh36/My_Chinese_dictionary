@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.185033+00:00",
+  "generated_at": "2026-06-16T08:34:25.245749+00:00",
   "id": "02-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "790"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.       MC       LHan           OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 95,
     "source_line_number": 22,
     "source_line_raw": "2-25 = K. 790        Mand.       MC       LHan           OCM"
@@ -2540,7 +2543,36 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "睪"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lak",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "l\\textoverset{a}{a}k",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "ḍaek",
+          "thak"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḍaek",
+            "normalized": "ḍaek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thak",
+            "normalized": "thak",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "澤",
@@ -3222,17 +3254,17 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}lak}},",
-      "render_latex": "蘀\t%tuo4\n{\\large{\\textsuperscript{herb˸}lak}},\n\\textit{thak};\t%0790r",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}k}},",
+      "render_latex": "蘀\t%tuo4\n{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}k}},\n\\textit{thak};\t%0790r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "睪",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "擇",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "睪"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "擇"
       },
       "resolved_node_root": null
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.241892+00:00",
+  "generated_at": "2026-06-16T08:34:25.296925+00:00",
   "id": "24-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "139"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC            LHan               OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 276,
     "source_line_number": 16,
     "source_line_raw": "24-1 = K. 139            Mand.           MC            LHan               OCM"
@@ -1103,33 +1106,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "干"
       },
-      "resolved_node_root": {
-        "root": "kar",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "kar"
-        ],
-        "bs_node_roots": [
-          "kar"
-        ],
-        "display_root": "k\\textoverset{a}{a}r",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "kan"
-        ],
-        "form_analyses": [
-          {
-            "form": "kan",
-            "normalized": "kan",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "馯",
@@ -1687,18 +1664,10 @@
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "㚣"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{㚣·}k\\textoverset{a}{a}r}},",
-      "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}k\\textoverset{a}{a}r}},\n\\textit{kan};\t%0139d",
+      "transliteration_latex": "{\\large{\\textsuperscript{㚣·}kar}},",
+      "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}kar}},\n\\textit{kan};\t%0139d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "干",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "干"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -2118,8 +2087,8 @@
         "source": "wiktionary_component_literal_fallback",
         "semantic_component": "屵"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{屵˸}kar}},",
-      "render_latex": "岸\t%an4 / àn\n{\\large{\\textsuperscript{屵˸}kar}},\n\\textit{ṅanH};\t%0139e'",
+      "transliteration_latex": "{\\large{\\textsuperscript{屵˸}k\\textoverset{a}{a}r}},",
+      "render_latex": "岸\t%an4 / àn\n{\\large{\\textsuperscript{屵˸}k\\textoverset{a}{a}r}},\n\\textit{ṅanH};\t%0139e'",
       "wiktionary_semantic_validation": {
         "semantic_component": "屵",
         "phonetic_component": "干",
@@ -2135,13 +2104,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "干",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "刊",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "干"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "刊"
       },
       "resolved_node_root": null
     },
@@ -2984,17 +2953,17 @@
         "source": "ids_top_level",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}kar}},",
-      "render_latex": "悍\t%han4\n{\\large{\\textsuperscript{cor·}kar}},\n\\textit{ḫanH};\t%0139h'",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}k\\textoverset{a}{a}r}},",
+      "render_latex": "悍\t%han4\n{\\large{\\textsuperscript{cor·}k\\textoverset{a}{a}r}},\n\\textit{ḫanH};\t%0139h'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "干",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "旱",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "干"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "旱"
       },
       "resolved_node_root": null
     },
@@ -3642,17 +3611,17 @@
         "source": "ids_top_level",
         "semantic_component": "目"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}kar}},",
-      "render_latex": "睅\t%han4\n{\\large{\\textsuperscript{ocul·}kar}},\n\\textit{hwaenX};\t%0139j'",
+      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}r}},",
+      "render_latex": "睅\t%han4\n{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}r}},\n\\textit{hwaenX};\t%0139j'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "干",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "旱",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "干"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "旱"
       },
       "resolved_node_root": null
     },
@@ -4340,7 +4309,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "干"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kar",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ṅar"
+        ],
+        "bs_node_roots": [
+          "ŋar"
+        ],
+        "display_root": "k\\textoverset{a}{a}r",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "khan",
+          "ṅanH"
+        ],
+        "form_analyses": [
+          {
+            "form": "khan",
+            "normalized": "khan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅanH",
+            "normalized": "ṅan",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "栞",
@@ -4447,10 +4449,18 @@
         "source": "ids_top_level",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{kar\\textsuperscript{˸arb}}},",
-      "render_latex": "栞\t%kan1\n{\\large{kar\\textsuperscript{˸arb}}},\n\\textit{khan};\t%0139o",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}r\\textsuperscript{˸arb}}},",
+      "render_latex": "栞\t%kan1\n{\\large{k\\textoverset{a}{a}r\\textsuperscript{˸arb}}},\n\\textit{khan};\t%0139o",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "刊",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "刊"
+      },
       "resolved_node_root": null
     },
     {
@@ -4938,7 +4948,7 @@
       "resolved_node_root": {
         "root": "kar",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 3,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "kar"
@@ -4952,7 +4962,9 @@
         "mark_required": true,
         "mc_forms": [
           "hanX",
-          "hanH"
+          "ḫanH",
+          "hanH",
+          "hwaenX"
         ],
         "form_analyses": [
           {
@@ -4962,8 +4974,20 @@
             "reason": "no_i_medial"
           },
           {
+            "form": "ḫanH",
+            "normalized": "ḫan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
             "form": "hanH",
             "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hwaenX",
+            "normalized": "hwaen",
             "class": "a",
             "reason": "no_i_medial"
           }

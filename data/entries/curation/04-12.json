@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.196813+00:00",
+  "generated_at": "2026-06-16T08:34:25.256601+00:00",
   "id": "04-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "992"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC       LHan               OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 119,
     "source_line_number": 25,
     "source_line_raw": "4-12   = K. 992           Mand.        MC       LHan               OCM"
@@ -516,40 +519,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "九"
       },
-      "resolved_node_root": {
-        "root": "ku",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "ku"
-        ],
-        "bs_node_roots": [
-          "ku"
-        ],
-        "display_root": "ku",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "kiuwX",
-          "giuw"
-        ],
-        "form_analyses": [
-          {
-            "form": "kiuwX",
-            "normalized": "kiuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "giuw",
-            "normalized": "giuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "頄",
@@ -1239,7 +1209,33 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "九"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ku",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kuu"
+        ],
+        "bs_node_roots": [
+          "kuru"
+        ],
+        "display_root": "ku",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kwiyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "kwiyX",
+            "normalized": "kwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "匭",
@@ -1322,13 +1318,13 @@
       "render_latex": "匭\t%gui3\n{\\large{\\textsuperscript{匚·}ku}},\n\\textit{kwiyX};\t%0992l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "九",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "軌",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "九"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "軌"
       },
       "resolved_node_root": null
     },
@@ -2048,15 +2044,7 @@
       "transliteration_latex": "{\\large{ku\\textsuperscript{˸厶}}},",
       "render_latex": "厹\t%qiu2\n{\\large{ku\\textsuperscript{˸厶}}},\n\\textit{giuw};\t%0992q",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "九",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "九"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

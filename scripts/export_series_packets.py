@@ -82,7 +82,6 @@ DEFAULT_PILOT_IDS = [
     "10-39",
     "34-23",
     "32-40",
-    "35-01",
     "35-21",
     "18-18",
     "21-01",
@@ -203,6 +202,10 @@ def build_series_packet(
     tex_entry = entries_by_id.get(gsc_id)
     coverage_row = gsc_coverage_rows[gsc_id]
     header = next(header for header in schuessler_headers if header["gsc_id"] == gsc_id)
+    if tex_entry is None and header.get("is_cross_reference_only"):
+        raise ValueError(
+            f"{gsc_id} is a Schuessler cross-reference note, not a standalone series header: {header['source_line_raw']}"
+        )
     mand_index = build_coverage_model.index_rows_by_gsr(mand_rows, "normalized_gsr")
     bs_index = build_coverage_model.index_rows_by_gsr(bs_rows, "normalized_gsr")
     if tex_entry is None:
@@ -218,12 +221,20 @@ def build_series_packet(
         )
         source_token_strategy = "tex_gsr_prefixes"
 
-    matched_mand_rows = build_coverage_model.rows_for_gsr_tokens(
-        source_tokens, mand_index, "normalized_gsr"
-    )
-    matched_bs_rows = build_coverage_model.rows_for_gsr_tokens(
-        source_tokens, bs_index, "normalized_gsr"
-    )
+    if tex_entry is None:
+        matched_mand_rows = build_coverage_model.rows_for_header_tokens(
+            header, schuessler_headers, mand_index, "normalized_gsr"
+        )
+        matched_bs_rows = build_coverage_model.rows_for_header_tokens(
+            header, schuessler_headers, bs_index, "normalized_gsr"
+        )
+    else:
+        matched_mand_rows = build_coverage_model.rows_for_gsr_tokens(
+            source_tokens, mand_index, "normalized_gsr"
+        )
+        matched_bs_rows = build_coverage_model.rows_for_gsr_tokens(
+            source_tokens, bs_index, "normalized_gsr"
+        )
     candidate_characters = build_coverage_model.dedupe_preserve(
         [row["normalized_character"] for row in matched_mand_rows if row.get("normalized_character")]
         + [row["character"] for row in matched_bs_rows if row.get("character")]

@@ -1,17 +1,17 @@
 # Pilot render readiness
 
-- Overall status: **ready**
-- Curated packet count: 70
-- Proposed additions under review: 1503
+- Overall status: **not ready**
+- Curated packet count: 69
+- Proposed additions under review: 1476
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 1503 | 1503 |
-| Semantic placement present | 1503 | 1503 |
-| Transliteration LaTeX present | 1503 | 1503 |
-| Candidate render LaTeX present | 1503 | 1503 |
-| Relation `:` kept out of baseline text | 1503 | 1503 |
-| Generated subseries heads rendered with `=` root lines | 108 | 108 |
+| Semantic assignment present | 1476 | 1476 |
+| Semantic placement present | 1476 | 1476 |
+| Transliteration LaTeX present | 1476 | 1476 |
+| Candidate render LaTeX present | 1476 | 1476 |
+| Relation `:` kept out of baseline text | 1476 | 1476 |
+| Generated subseries heads rendered with `=` root lines | 141 | 166 |
 
 ## Render markers
 
@@ -22,4 +22,5 @@
 
 ## Interpretation
 
-- The current pilot meets the structural readiness checks encoded by this evaluator.
+- The current pilot is still structurally incomplete for side-by-side scholarly review.
+- In particular, the proposed additions still need explicit semantic assignments, side/position decisions, abstract transliteration forms, and rendered LaTeX blocks comparable to `main.tex`.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.240621+00:00",
+  "generated_at": "2026-06-16T08:34:25.295709+00:00",
   "id": "29-41",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "405"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Most graphs ending in -it are in Div. 3/4, but all tone C counterparts fall",
+    "is_cross_reference_only": false,
     "source_page_number": 328,
     "source_line_number": 42,
     "source_line_raw": "29-41 = K. 405         Most graphs ending in -it are in Div. 3/4, but all tone C counterparts fall"
@@ -3389,7 +3392,33 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "必"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "mit",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "mit"
+        ],
+        "bs_node_roots": [
+          "mit"
+        ],
+        "display_root": "mit",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "myit"
+        ],
+        "form_analyses": [
+          {
+            "form": "myit",
+            "normalized": "myit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "謐",
@@ -3510,17 +3539,17 @@
         "source": "ids_top_level",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}pit}},",
-      "render_latex": "謐\t%mi4 / mì\n{\\large{\\textsuperscript{dic·}pit}},\n\\textit{myit};\t%0405t",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}mit}},",
+      "render_latex": "謐\t%mi4 / mì\n{\\large{\\textsuperscript{dic·}mit}},\n\\textit{myit};\t%0405t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "必",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "𥁑",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "必"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "𥁑"
       },
       "resolved_node_root": null
     },

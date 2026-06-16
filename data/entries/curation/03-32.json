@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.186347+00:00",
+  "generated_at": "2026-06-16T08:34:25.247079+00:00",
   "id": "03-32",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "725"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Since TB cognates to words in this series have root initial *j-, some OC",
+    "is_cross_reference_only": false,
     "source_page_number": 106,
     "source_line_number": 19,
     "source_line_raw": "3-32 = K. 725         Since TB cognates to words in this series have root initial *j-, some OC"
@@ -1349,13 +1352,13 @@
         "semantic_component": "衣"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },
@@ -1616,13 +1619,13 @@
         "semantic_component": "巾"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },
@@ -1883,13 +1886,13 @@
         "semantic_component": "旨"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": {
         "root": "taṅ",
@@ -2154,7 +2157,15 @@
       "transliteration_latex": "{\\large{taṅ\\textsuperscript{˸dulc}}},",
       "render_latex": "甞\t%chang2\n{\\large{taṅ\\textsuperscript{˸dulc}}},\n\\textit{jiaṅ};\t%0725i",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
+      },
       "resolved_node_root": null
     },
     {
@@ -2318,13 +2329,13 @@
         "semantic_component": "手"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },
@@ -2558,7 +2569,128 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "尚"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "taṅ",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 20,
+        "bs_support_count": 14,
+        "bs_broad_roots": [
+          "taṅ"
+        ],
+        "bs_node_roots": [
+          "taṅ",
+          "tsaṅ",
+          "thaṅ",
+          "thraṅ",
+          "traṅ"
+        ],
+        "display_root": "taṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "thaṅ",
+          "thaṅX",
+          "chiaṅX",
+          "jiaṅ",
+          "ciaṅX",
+          "śiaṅ",
+          "śiaṅX",
+          "jiaṅH",
+          "taṅ",
+          "taṅH",
+          "taṅX",
+          "daṅ",
+          "ṭhaeṅ",
+          "ḍaeṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "thaṅ",
+            "normalized": "thaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thaṅX",
+            "normalized": "thaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "chiaṅX",
+            "normalized": "chiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "jiaṅ",
+            "normalized": "jiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciaṅX",
+            "normalized": "ciaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "śiaṅX",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiaṅH",
+            "normalized": "jiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "taṅ",
+            "normalized": "taṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "taṅH",
+            "normalized": "taṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "taṅX",
+            "normalized": "taṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daṅ",
+            "normalized": "daṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭhaeṅ",
+            "normalized": "ṭhaeṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍaeṅ",
+            "normalized": "ḍaeṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "惝",
@@ -3016,13 +3148,13 @@
         "semantic_component": "貝"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": {
         "root": "taṅ",
@@ -3033,7 +3165,7 @@
           "taṅ"
         ],
         "bs_node_roots": [
-          "taṅ"
+          "tsaṅ"
         ],
         "display_root": "t\\textoverset{b}{a}ṅ",
         "division_class": "b",
@@ -3283,13 +3415,13 @@
         "semantic_component": "田"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },
@@ -3442,13 +3574,13 @@
         "semantic_component": "黑"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": {
         "root": "taṅ",
@@ -3647,13 +3779,13 @@
         "semantic_component": "土"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": {
         "root": "taṅ",
@@ -3862,13 +3994,13 @@
         "semantic_component": "木"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },
@@ -3964,13 +4096,13 @@
       "render_latex": "𣥺\t%cheng2 / chéng\n{\\large{taṅ\\textsuperscript{˸cess}}},\n\\textit{ḍaeṅ};\t%0725u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尚",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倘",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "尚"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倘"
       },
       "resolved_node_root": null
     },

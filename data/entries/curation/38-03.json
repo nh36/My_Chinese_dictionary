@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.187913+00:00",
+  "generated_at": "2026-06-16T08:34:25.248587+00:00",
   "id": "38-03",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -11,6 +11,9 @@
       "651",
       "652"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "I suspect that the graph 6l;- was originally invented for him $i 1",
+    "is_cross_reference_only": false,
     "source_page_number": 385,
     "source_line_number": 23,
     "source_line_raw": "38-3 = K. 651, 652              I suspect that the graph 6l;- was originally invented for him $i 1"
@@ -1358,63 +1361,19 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{kym}},",
-      "render_latex": "今\t%jin1 / jīn\n{\\large{kym}},\n\\textit{kim};\t%0651a",
+      "transliteration_latex": "{\\large{krym}},",
+      "render_latex": "今\t%jin1 / jīn\n{\\large{krym}},\n\\textit{kim};\t%0651a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "䘳",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "䘳"
       },
-      "resolved_node_root": {
-        "root": "kym",
-        "source": "node_inherit_parent",
-        "descendant_count": 3,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "kym",
-          "qum",
-          "qym"
-        ],
-        "bs_node_roots": [
-          "krym",
-          "qum",
-          "qym"
-        ],
-        "display_root": "kym",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "kim",
-          "qim",
-          "qimH"
-        ],
-        "form_analyses": [
-          {
-            "form": "kim",
-            "normalized": "kim",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "qim",
-            "normalized": "qim",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "qimH",
-            "normalized": "qim",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "𩃬",
@@ -1883,13 +1842,13 @@
       "render_latex": "廕\t%yin4\n{\\large{\\textsuperscript{lax·}kym}},\n\\textit{qimH};\t%0651c'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "陰",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "陰"
       },
       "resolved_node_root": null
     },
@@ -2024,18 +1983,34 @@
       },
       "resolved_node_root": {
         "root": "kym",
-        "source": "node_transliteration_fallback",
-        "descendant_count": 1,
-        "bs_support_count": 0,
-        "bs_broad_roots": [],
-        "bs_node_roots": [],
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 15,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "kym"
+        ],
+        "bs_node_roots": [
+          "kym",
+          "krym"
+        ],
         "display_root": "kym",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "qyiemX",
-          "qimX"
+          "qom",
+          "qimX",
+          "ṅomX",
+          "kim",
+          "gimH",
+          "kimX",
+          "khim",
+          "xim",
+          "gimX",
+          "ṅim",
+          "ṅimX",
+          "ṅom"
         ],
         "form_analyses": [
           {
@@ -2045,10 +2020,76 @@
             "reason": "explicit_i_medial"
           },
           {
+            "form": "qom",
+            "normalized": "qom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
             "form": "qimX",
             "normalized": "qim",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅomX",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kim",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimH",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kimX",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khim",
+            "normalized": "khim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xim",
+            "normalized": "xim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimX",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅim",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅimX",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅom",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
           }
         ]
       }
@@ -2146,17 +2187,17 @@
         "source": "ids_top_level",
         "semantic_component": "糹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}kym}},",
-      "render_latex": "紟\t%jin4\n{\\large{\\textsuperscript{ser·}kym}},\n\\textit{gimH};\t%0651f",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}krym}},",
+      "render_latex": "紟\t%jin4\n{\\large{\\textsuperscript{ser·}krym}},\n\\textit{gimH};\t%0651f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "䘳",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "䘳"
       },
       "resolved_node_root": null
     },
@@ -2540,13 +2581,13 @@
       "render_latex": "韽\t%an1\n{\\large{kym\\textsuperscript{·音}}},\n\\textit{qom};\t%0651h'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "酓",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "酓"
       },
       "resolved_node_root": null
     },
@@ -2967,13 +3008,13 @@
       "render_latex": "㱃\t%yin3\n{\\large{kym\\textsuperscript{·dehab}}},\n\\textit{qimX};\t%0651i'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "酓",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "酓"
       },
       "resolved_node_root": null
     },
@@ -3260,15 +3301,105 @@
       "render_latex": "㜝\t%an3\n{\\large{\\textsuperscript{fem·}kym}},\n\\textit{ṅomX};\t%0651k'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "酓",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "酓"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kym",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 11,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "kym"
+        ],
+        "bs_node_roots": [
+          "kym",
+          "krym"
+        ],
+        "display_root": "kym",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ṅomX",
+          "kim",
+          "gimH",
+          "kimX",
+          "khim",
+          "xim",
+          "gimX",
+          "ṅim",
+          "ṅimX",
+          "ṅom"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṅomX",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kim",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimH",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kimX",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khim",
+            "normalized": "khim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xim",
+            "normalized": "xim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimX",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅim",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅimX",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅom",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "含",
@@ -3492,8 +3623,8 @@
       "resolved_node_root": {
         "root": "kym",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 2,
+        "descendant_count": 2,
+        "bs_support_count": 3,
         "bs_broad_roots": [
           "ym",
           "qym"
@@ -3675,13 +3806,13 @@
       "render_latex": "唅\t%han2 / hán\n{\\large{\\textsuperscript{or·}kym}},\n\\textit{hom};\t%0651m'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "含",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "含"
       },
       "resolved_node_root": null
     },
@@ -5308,19 +5439,11 @@
       "transliteration_latex": "{\\large{kym\\textsuperscript{˸云}}},",
       "render_latex": "侌\t%yin1\n{\\large{kym\\textsuperscript{˸云}}},\n\\textit{qim};\t%0651x",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "今",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "今"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": {
         "root": "kym",
         "source": "node_inherit_parent",
-        "descendant_count": 2,
+        "descendant_count": 3,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "qum",
@@ -5546,7 +5669,7 @@
       "resolved_node_root": {
         "root": "kym",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "qum",
@@ -5664,19 +5787,19 @@
         "semantic_component": null
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㜝",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㜝"
       },
       "resolved_node_root": {
         "root": "kym",
         "source": "node_bs_broad_consensus",
-        "descendant_count": 3,
-        "bs_support_count": 3,
+        "descendant_count": 10,
+        "bs_support_count": 4,
         "bs_broad_roots": [
           "kym"
         ],
@@ -5685,18 +5808,30 @@
           "krym"
         ],
         "display_root": "kym",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kim",
+          "gimH",
           "kimX",
-          "khim"
+          "khim",
+          "xim",
+          "gimX",
+          "ṅim",
+          "ṅimX",
+          "ṅom"
         ],
         "form_analyses": [
           {
             "form": "kim",
             "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimH",
+            "normalized": "gim",
             "class": "b",
             "reason": "explicit_i_medial"
           },
@@ -5711,6 +5846,36 @@
             "normalized": "khim",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xim",
+            "normalized": "xim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimX",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅim",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅimX",
+            "normalized": "ṅim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅom",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
           }
         ]
       }
@@ -5808,7 +5973,40 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "金"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "krym",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "kym"
+        ],
+        "bs_node_roots": [
+          "krym"
+        ],
+        "display_root": "krym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kim",
+          "gimH"
+        ],
+        "form_analyses": [
+          {
+            "form": "kim",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gimH",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "錦",
@@ -6234,13 +6432,13 @@
       "render_latex": "唫\t%yin2\n{\\large{\\textsuperscript{or·}kym}},\n\\textit{gimX};\t%0652g\n\\textit{khim};\n\\textit{ṅim};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "金",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "金"
       },
       "resolved_node_root": null
     },
@@ -6328,13 +6526,13 @@
       "render_latex": "趛\t%yin3\n{\\large{\\textsuperscript{curr·}kym}},\n\\textit{ṅimX};\t%0652h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "金",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "金"
       },
       "resolved_node_root": null
     },
@@ -6446,13 +6644,13 @@
       "render_latex": "顉\t%qin1\n{\\large{kym\\textsuperscript{·fac}}},\n\\textit{ṅom};\t%0652j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "金",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "金"
       },
       "resolved_node_root": null
     },
@@ -6540,13 +6738,13 @@
       "render_latex": "嶔\t%qin1\n{\\large{\\textsuperscript{mon˸}kym}},\n\\textit{khim};\t%0652k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "欽",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "欽"
       },
       "resolved_node_root": null
     },
@@ -6646,13 +6844,13 @@
       "render_latex": "廞\t%xin1\n{\\large{\\textsuperscript{lax·}kym}},\n\\textit{xim};\t%0652l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "今",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "欽",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "今"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "欽"
       },
       "resolved_node_root": null
     }

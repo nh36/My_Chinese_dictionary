@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.247443+00:00",
+  "generated_at": "2026-06-16T08:34:25.302351+00:00",
   "id": "16-06",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1166"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Most or all words in this XS series could have had the OCM rime *-iau.",
+    "is_cross_reference_only": false,
     "source_page_number": 220,
     "source_line_number": 22,
     "source_line_raw": "16-6 = K. 1166        Most or all words in this XS series could have had the OCM rime *-iau."
@@ -708,47 +711,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "交"
       },
-      "resolved_node_root": {
-        "root": "kaw",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "kaw"
-        ],
-        "bs_node_roots": [
-          "kraw"
-        ],
-        "display_root": "k\\textoverset{a}{a}w",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "kaew",
-          "kewX",
-          "qew"
-        ],
-        "form_analyses": [
-          {
-            "form": "kaew",
-            "normalized": "kaew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "kewX",
-            "normalized": "kew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "qew",
-            "normalized": "qew",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "窔",
@@ -3607,7 +3570,33 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "交"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kaw",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kaw"
+        ],
+        "bs_node_roots": [
+          "kraw"
+        ],
+        "display_root": "k\\textoverset{a}{a}w",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "ḫaewH"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḫaewH",
+            "normalized": "ḫaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "傚",
@@ -3714,17 +3703,17 @@
         "source": "ids_top_level",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}kaw}},",
-      "render_latex": "傚\t%xiao4\n{\\large{\\textsuperscript{hom·}kaw}},\n\\textit{ḫaewH};\t%1166u",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}k\\textoverset{a}{a}w}},",
+      "render_latex": "傚\t%xiao4\n{\\large{\\textsuperscript{hom·}k\\textoverset{a}{a}w}},\n\\textit{ḫaewH};\t%1166u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "交",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "效",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "交"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "效"
       },
       "resolved_node_root": null
     },
@@ -3939,18 +3928,10 @@
         "source": "packet_family_ids",
         "semantic_component": "日"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{sol·}k\\textoverset{a}{a}w}},",
-      "render_latex": "晈\t%jiao3\n{\\large{\\textsuperscript{sol·}k\\textoverset{a}{a}w}},\n\\textit{kewX};\t%1166x",
+      "transliteration_latex": "{\\large{\\textsuperscript{sol·}kaw}},",
+      "render_latex": "晈\t%jiao3\n{\\large{\\textsuperscript{sol·}kaw}},\n\\textit{kewX};\t%1166x",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "交",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "交"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -4118,18 +4099,10 @@
         "source": "packet_family_ids",
         "semantic_component": "宀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}k\\textoverset{a}{a}w}},",
-      "render_latex": "㝔\t%yao1\n{\\large{\\textsuperscript{tect˸}k\\textoverset{a}{a}w}},\n\\textit{qew};\t%1166z",
+      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}kaw}},",
+      "render_latex": "㝔\t%yao1\n{\\large{\\textsuperscript{tect˸}kaw}},\n\\textit{qew};\t%1166z",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "交",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "交"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

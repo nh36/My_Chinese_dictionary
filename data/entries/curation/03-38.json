@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.250660+00:00",
+  "generated_at": "2026-06-16T08:34:25.305275+00:00",
   "id": "03-38",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "720"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "This phonetic ~originally wrote OC 1-initial words, the series $ 3-391732",
+    "is_cross_reference_only": false,
     "source_page_number": 107,
     "source_line_number": 60,
     "source_line_raw": "3-38 = K. 720       This phonetic ~originally wrote OC 1-initial words, the series $ 3-391732"
@@ -961,40 +964,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "昜"
       },
-      "resolved_node_root": {
-        "root": "laṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "laṅ"
-        ],
-        "bs_node_roots": [
-          "laṅ"
-        ],
-        "display_root": "laṅ",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "yaṅ",
-          "daṅ"
-        ],
-        "form_analyses": [
-          {
-            "form": "yaṅ",
-            "normalized": "yaṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "daṅ",
-            "normalized": "daṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "餳",
@@ -1093,15 +1063,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{ed·}laṅ}},",
       "render_latex": "餳\t%tang2 / táng\n{\\large{\\textsuperscript{ed·}laṅ}},\n\\textit{daṅ};\t%0720c'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "昜",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "昜"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -2032,10 +1994,18 @@
         "source": "packet_family_ids",
         "semantic_component": "示"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{spirit·}laṅ}},",
-      "render_latex": "𥛙\t%shang1\n{\\large{\\textsuperscript{spirit·}laṅ}},\n\\textit{śiaṅ};\t%0720h'",
+      "transliteration_latex": "{\\large{\\textsuperscript{spirit·}l\\textoverset{b}{a}ṅ}},",
+      "render_latex": "𥛙\t%shang1\n{\\large{\\textsuperscript{spirit·}l\\textoverset{b}{a}ṅ}},\n\\textit{śiaṅ};\t%0720h'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "傷",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "傷"
+      },
       "resolved_node_root": null
     },
     {
@@ -2737,8 +2707,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}laṅ}},",
-      "render_latex": "傷\t%shang1 / shāng\n{\\large{\\textsuperscript{hom·}laṅ}},\n\\textit{śiaṅ};\t%0720j'",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}l\\textoverset{b}{a}ṅ}},",
+      "render_latex": "傷\t%shang1 / shāng\n{\\large{\\textsuperscript{hom·}l\\textoverset{b}{a}ṅ}},\n\\textit{śiaṅ};\t%0720j'",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "𥏻",
@@ -2768,15 +2738,41 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昜",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "場",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昜"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "場"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "laṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "laṅ"
+        ],
+        "bs_node_roots": [
+          "laṅ"
+        ],
+        "display_root": "l\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "śiaṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "殤",
@@ -3016,17 +3012,17 @@
         "source": "ids_top_level",
         "semantic_component": "角"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{corn·}laṅ}},",
-      "render_latex": "觴\t%shang1 / shāng\n{\\large{\\textsuperscript{corn·}laṅ}},\n\\textit{śiaṅ};\t%0720l'",
+      "transliteration_latex": "{\\large{\\textsuperscript{corn·}l\\textoverset{b}{a}ṅ}},",
+      "render_latex": "觴\t%shang1 / shāng\n{\\large{\\textsuperscript{corn·}l\\textoverset{b}{a}ṅ}},\n\\textit{śiaṅ};\t%0720l'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昜",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "傷",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昜"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "傷"
       },
       "resolved_node_root": null
     },
@@ -3139,13 +3135,13 @@
       "render_latex": "璗\t%dang4\n{\\large{laṅ\\textsuperscript{˸gem}}},\n\\textit{daṅX};\t%0720m'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昜",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "湯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昜"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "湯"
       },
       "resolved_node_root": null
     },
@@ -3279,13 +3275,13 @@
       "render_latex": "盪\t%dang4\n{\\large{laṅ\\textsuperscript{˸vas}}},\n\\textit{daṅX};\t%0720n'\n\\textit{thaṅH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昜",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "湯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昜"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "湯"
       },
       "resolved_node_root": null
     },
@@ -3398,13 +3394,13 @@
       "render_latex": "簜\t%dang4\n{\\large{\\textsuperscript{bamb˸}laṅ}},\n\\textit{daṅX};\t%0720o'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昜",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "湯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昜"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "湯"
       },
       "resolved_node_root": null
     },
@@ -4819,7 +4815,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "昜"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "laṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "laṅ"
+        ],
+        "bs_node_roots": [
+          "laṅ"
+        ],
+        "display_root": "l\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "ḍiaṅ",
+          "śiaṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḍiaṅ",
+            "normalized": "ḍiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "腸",
@@ -5264,7 +5293,7 @@
       "resolved_node_root": {
         "root": "laṅ",
         "source": "node_bs_consensus",
-        "descendant_count": 1,
+        "descendant_count": 4,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "laṅ"
@@ -5279,8 +5308,9 @@
         "mc_forms": [
           "śiaṅ",
           "thaṅ",
-          "daṅH",
-          "daṅX"
+          "daṅX",
+          "thaṅH",
+          "daṅH"
         ],
         "form_analyses": [
           {
@@ -5296,13 +5326,19 @@
             "reason": "no_i_medial"
           },
           {
-            "form": "daṅH",
+            "form": "daṅX",
             "normalized": "daṅ",
             "class": "a",
             "reason": "no_i_medial"
           },
           {
-            "form": "daṅX",
+            "form": "thaṅH",
+            "normalized": "thaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daṅH",
             "normalized": "daṅ",
             "class": "a",
             "reason": "no_i_medial"

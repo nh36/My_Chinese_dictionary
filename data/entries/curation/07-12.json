@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.257447+00:00",
+  "generated_at": "2026-06-16T08:34:25.311555+00:00",
   "id": "07-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "877"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC               LHan         OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 148,
     "source_line_number": 31,
     "source_line_raw": "7-12   = K. 877         Man d.       MC               LHan         OCM"
@@ -621,13 +624,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "帝",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "嫡",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "帝"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "嫡"
       },
       "resolved_node_root": null
     },
@@ -1753,14 +1756,18 @@
       },
       "resolved_node_root": {
         "root": "tek",
-        "source": "node_bs_consensus",
-        "descendant_count": 3,
-        "bs_support_count": 2,
+        "source": "node_inherit_parent",
+        "descendant_count": 8,
+        "bs_support_count": 6,
         "bs_broad_roots": [
-          "tek"
+          "tek",
+          "myk"
         ],
         "bs_node_roots": [
-          "tek"
+          "tek",
+          "myk",
+          "trek",
+          "tsek"
         ],
         "display_root": "tek",
         "division_class": "mixed",
@@ -1768,11 +1775,15 @@
         "mark_required": false,
         "mc_forms": [
           "śieH",
+          "tek",
+          "teyH",
+          "thek",
+          "ṭeak",
           "dek",
+          "ḍeak",
           "śiek",
           "ciek",
-          "ḍeak",
-          "ṭeak"
+          "ḍiek"
         ],
         "form_analyses": [
           {
@@ -1782,8 +1793,38 @@
             "reason": "palatal_initial"
           },
           {
+            "form": "tek",
+            "normalized": "tek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "teyH",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thek",
+            "normalized": "thek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭeak",
+            "normalized": "ṭeak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
             "form": "dek",
             "normalized": "dek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍeak",
+            "normalized": "ḍeak",
             "class": "a",
             "reason": "no_i_medial"
           },
@@ -1800,16 +1841,10 @@
             "reason": "palatal_initial"
           },
           {
-            "form": "ḍeak",
-            "normalized": "ḍeak",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "ṭeak",
-            "normalized": "ṭeak",
-            "class": "a",
-            "reason": "no_i_medial"
+            "form": "ḍiek",
+            "normalized": "ḍiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
           }
         ]
       }
@@ -1989,15 +2024,48 @@
         "semantic_component": "女"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "帝",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "啻",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "帝"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "啻"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tek",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "tek"
+        ],
+        "bs_node_roots": [
+          "tek"
+        ],
+        "display_root": "tek",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "tek",
+          "teyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "tek",
+            "normalized": "tek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "teyH",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "鏑",
@@ -2467,13 +2535,13 @@
         "semantic_component": "手"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "帝",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "啻",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "帝"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "啻"
       },
       "resolved_node_root": null
     },
@@ -2770,13 +2838,13 @@
       "render_latex": "謫\t%zhe2 / zhé\n{\\large{\\textsuperscript{dic·}tek}},\n\\textit{ḍeak};\t%0877r\n\\textit{ṭeak};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "帝",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "啻",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "帝"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "啻"
       },
       "resolved_node_root": null
     },
@@ -2998,12 +3066,13 @@
       "resolved_node_root": {
         "root": "tek",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "tek"
         ],
         "bs_node_roots": [
+          "tsek",
           "tek"
         ],
         "display_root": "tek",
@@ -3013,6 +3082,7 @@
         "mc_forms": [
           "śiek",
           "ciek",
+          "ḍiek",
           "ḍeak",
           "ṭeak"
         ],
@@ -3028,6 +3098,12 @@
             "normalized": "ciek",
             "class": "b",
             "reason": "palatal_initial"
+          },
+          {
+            "form": "ḍiek",
+            "normalized": "ḍiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
           },
           {
             "form": "ḍeak",
@@ -3152,13 +3228,13 @@
       "render_latex": "擿\t%zhi4\n{\\large{\\textsuperscript{man·}tek}},\n\\textit{ḍiek};\t%0877t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "帝",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "適",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "帝"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "適"
       },
       "resolved_node_root": null
     },

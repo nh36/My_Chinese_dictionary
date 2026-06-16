@@ -638,6 +638,142 @@ def resolve_semantic_from_packet_family(
     }
 
 
+def collect_ids_component_family(
+    character: str,
+    ids_map: dict[str, str],
+    visited: set[str] | None = None,
+) -> set[str]:
+    normalized = normalize_component_graph(character)
+    visited = visited or set()
+    if normalized in visited:
+        return {normalized}
+    visited.add(normalized)
+    family = {normalized}
+    ids = ids_map.get(character)
+    if not ids:
+        return family
+    try:
+        tree, _ = parse_ids_expression(ids)
+    except Exception:
+        return family
+
+    def walk(node: Any) -> None:
+        if isinstance(node, str):
+            child_normalized = normalize_component_graph(node)
+            family.add(child_normalized)
+            if child_normalized not in visited and node in ids_map:
+                family.update(collect_ids_component_family(node, ids_map, visited.copy()))
+            return
+        for child in node.get("children", []):
+            walk(child)
+
+    if isinstance(tree, dict):
+        walk(tree)
+    return family
+
+
+def resolve_semantic_from_parent_ids(
+    *,
+    character: str,
+    parent_character: str,
+    ids_map: dict[str, str],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any] | None:
+    ids = ids_map.get(character)
+    if not ids:
+        return None
+    try:
+        tree, _ = parse_ids_expression(ids)
+    except Exception:
+        return None
+    if not isinstance(tree, dict) or len(tree.get("children", [])) != 2:
+        return None
+
+    parent_family = collect_ids_component_family(parent_character, ids_map)
+
+    def subtree_matches_parent(node: Any) -> bool:
+        if isinstance(node, str):
+            normalized = normalize_component_graph(node)
+            if normalized in parent_family:
+                return True
+            nested_ids = ids_map.get(node)
+            if nested_ids:
+                try:
+                    nested_tree, _ = parse_ids_expression(nested_ids)
+                    if isinstance(nested_tree, dict):
+                        return subtree_matches_parent(nested_tree)
+                except Exception:
+                    return False
+            return False
+        return any(subtree_matches_parent(child) for child in node.get("children", []))
+
+    def subtree_head(node: Any) -> str | None:
+        if isinstance(node, str):
+            return normalize_component_graph(node)
+        if node.get("children"):
+            first = node["children"][0]
+            if isinstance(first, str):
+                return normalize_component_graph(first)
+        return None
+
+    left = tree["children"][0]
+    right = tree["children"][1]
+    left_match = subtree_matches_parent(left)
+    right_match = subtree_matches_parent(right)
+    if left_match == right_match:
+        return None
+
+    semantic_component = subtree_head(right if left_match else left)
+    inventory_matches = graph_lookup.get(semantic_component, [])
+    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
+    operator = tree["op"]
+    if operator == "⿰":
+        position = "suffix-dot" if left_match else "prefix-dot"
+    elif operator == "⿱":
+        position = "suffix-colon" if left_match else "prefix-colon"
+    elif operator in {"⿸", "⿷", "⿺", "⿹"}:
+        position = "suffix-dot" if left_match else "prefix-dot"
+    elif operator in {"⿵", "⿶"}:
+        position = "suffix-colon" if left_match else "prefix-colon"
+    else:
+        return None
+
+    return {
+        "source": "parent_ids_semantic" if inventory_matches else "parent_ids_component_literal_fallback",
+        "character": character,
+        "ids": ids,
+        "semantic_component": semantic_component,
+        "position": position,
+        "abbreviation": abbreviation,
+        "inventory_matches": inventory_matches,
+        "phonetic_component": parent_character,
+    }
+
+
+def infer_parent_from_ids_family(
+    *,
+    character: str,
+    candidate_characters: set[str],
+    ids_map: dict[str, str],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> tuple[str | None, dict[str, Any] | None]:
+    ids = ids_map.get(character) or ""
+    ordered_candidates = sorted(
+        (candidate for candidate in candidate_characters if candidate != character),
+        key=lambda candidate: (candidate not in ids, candidate),
+    )
+    for parent_character in ordered_candidates:
+        semantic_candidate = resolve_semantic_from_parent_ids(
+            character=character,
+            parent_character=parent_character,
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        if semantic_candidate is not None:
+            return parent_character, semantic_candidate
+    return None, None
+
+
 def merge_graph_lookups(*lookups: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
     merged: dict[str, list[dict[str, Any]]] = {}
     for lookup in lookups:
@@ -1450,9 +1586,10 @@ def enrich_curated_entry_with_ids(
                 candidate_characters,
                 top_level_head,
             )
-        if candidate.get("hierarchy_assignment") is None:
-            inferred_parent = infer_parent_from_semantic_and_ids(candidate, ids_map, candidate_characters)
-            if inferred_parent:
+        inferred_parent = infer_parent_from_semantic_and_ids(candidate, ids_map, candidate_characters)
+        if inferred_parent:
+            current_assignment = candidate.get("hierarchy_assignment") or {}
+            if current_assignment.get("status") in {None, "assigned-to-top-level"} and inferred_parent != top_level_head:
                 candidate["hierarchy_assignment"] = {
                     "status": "assigned-to-candidate-node",
                     "parent_character": inferred_parent,
@@ -1462,6 +1599,54 @@ def enrich_curated_entry_with_ids(
                     "source": "ids_inferred_phonetic_parent",
                     "phonetic_hint": inferred_parent,
                 }
+        if candidate.get("hierarchy_assignment") is None or (
+            (candidate.get("hierarchy_assignment") or {}).get("status") == "assigned-to-top-level"
+        ):
+            parent_from_ids_family, semantic_from_parent_ids = infer_parent_from_ids_family(
+                character=candidate["character"],
+                candidate_characters=candidate_characters,
+                ids_map=ids_map,
+                graph_lookup=graph_lookup,
+            )
+            if parent_from_ids_family and parent_from_ids_family != top_level_head:
+                candidate["hierarchy_assignment"] = {
+                    "status": "assigned-to-candidate-node",
+                    "parent_character": parent_from_ids_family,
+                    "parent_display_line": None,
+                    "parent_rhs_snippet": None,
+                    "parent_kind": "candidate",
+                    "source": "ids_parent_family_inference",
+                    "phonetic_hint": parent_from_ids_family,
+                }
+                if candidate.get("semantic_assignment") is None and semantic_from_parent_ids is not None:
+                    candidate["semantic_assignment"] = {
+                        "token": None,
+                        "abbreviation": semantic_from_parent_ids["abbreviation"],
+                        "position": semantic_from_parent_ids["position"],
+                        "inventory_matches": semantic_from_parent_ids["inventory_matches"],
+                        "source": semantic_from_parent_ids["source"],
+                        "semantic_component": semantic_from_parent_ids["semantic_component"],
+                    }
+    for candidate in entry.get("proposed_additions", []):
+        assignment = candidate.get("hierarchy_assignment") or {}
+        if candidate.get("semantic_assignment") is None and assignment.get("status") == "assigned-to-candidate-node":
+            parent_character = assignment.get("parent_character")
+            if parent_character:
+                parent_ids_candidate = resolve_semantic_from_parent_ids(
+                    character=candidate["character"],
+                    parent_character=parent_character,
+                    ids_map=ids_map,
+                    graph_lookup=graph_lookup,
+                )
+                if parent_ids_candidate is not None:
+                    candidate["semantic_assignment"] = {
+                        "token": None,
+                        "abbreviation": parent_ids_candidate["abbreviation"],
+                        "position": parent_ids_candidate["position"],
+                        "inventory_matches": parent_ids_candidate["inventory_matches"],
+                        "source": parent_ids_candidate["source"],
+                        "semantic_component": parent_ids_candidate["semantic_component"],
+                    }
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
     candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
     packet_tokens = {
@@ -1477,6 +1662,9 @@ def enrich_curated_entry_with_ids(
             primary_packet_token = sorted(bases)[0]
     if primary_packet_token is None and packet_tokens:
         primary_packet_token = sorted(packet_tokens)[0]
+    packet_head_character = None
+    if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
+        packet_head_character = entry["proposed_additions"][0]["character"]
     for candidate in entry.get("proposed_additions", []):
         if candidate.get("semantic_assignment") is None and candidate_children.get(candidate["character"]):
             candidate["semantic_assignment"] = {
@@ -1522,6 +1710,12 @@ def enrich_curated_entry_with_ids(
                     packet_tokens,
                 )
                 unresolved.remove(character)
+    if packet_head_character and packet_head_character in candidate_map:
+        root_data = candidate_map[packet_head_character].get("resolved_node_root")
+        if root_data:
+            root_data["display_root"] = root_data.get("root")
+            root_data["mark_required"] = False
+            root_data["division_note"] = "top-level series head left unmarked"
     if entry.get("packet_kind") == "missing_series" and entry.get("resolved_series_root"):
         entry["resolved_series_root"].setdefault("display_root", entry["resolved_series_root"].get("root"))
     for candidate in entry.get("proposed_additions", []):

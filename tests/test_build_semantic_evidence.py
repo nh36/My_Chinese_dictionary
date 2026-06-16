@@ -117,6 +117,23 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["abbreviation"], "ocul")
         self.assertEqual(resolved["position"], "prefix-dot")
 
+    def test_resolve_semantic_from_parent_ids(self) -> None:
+        ids_map = {
+            "盍": "⿱去皿",
+            "刧": "⿰去刀",
+        }
+        graph_lookup = {
+            "刀": [{"graph_raw": "刀", "label_token": "cult(er)", "abbreviation": "cult"}],
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_parent_ids(
+            character="刧",
+            parent_character="盍",
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        self.assertEqual(resolved["abbreviation"], "cult")
+        self.assertEqual(resolved["position"], "suffix-dot")
+
     def test_build_learned_graph_lookup(self) -> None:
         evidence = {
             "痢": [

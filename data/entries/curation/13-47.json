@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.211577+00:00",
+  "generated_at": "2026-06-16T08:34:25.270342+00:00",
   "id": "13-47",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1114"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC             LHan          OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 204,
     "source_line_number": 27,
     "source_line_raw": "13-47 = K. 1114         Mand.          MC             LHan          OCM"
@@ -720,40 +723,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "卯"
       },
-      "resolved_node_root": {
-        "root": "mu",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "mu"
-        ],
-        "bs_node_roots": [
-          "mu"
-        ],
-        "display_root": "mu",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "maewX",
-          "liuw"
-        ],
-        "form_analyses": [
-          {
-            "form": "maewX",
-            "normalized": "maew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "liuw",
-            "normalized": "liuw",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "劉",
@@ -875,44 +845,49 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{mu}},",
-      "render_latex": "劉\t%liu2 / liú\n{\\large{mu}},\n\\textit{liuw};\t%1114a'",
+      "transliteration_latex": "{\\large{mu\\textsuperscript{·刂}}},",
+      "render_latex": "劉\t%liu2 / liú\n{\\large{mu\\textsuperscript{·刂}}},\n\\textit{liuw};\t%1114a'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "卯",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "溜",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_han_compound",
-        "phonetic_hint": "卯"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "溜"
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "刂",
+        "position": "suffix-dot",
         "inventory_matches": [],
-        "source": "generated_subseries_head",
-        "semantic_component": null
+        "source": "parent_ids_component_literal_fallback",
+        "semantic_component": "刂"
       },
       "resolved_node_root": {
         "root": "mu",
         "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 1,
+        "descendant_count": 7,
+        "bs_support_count": 2,
         "bs_broad_roots": [
-          "my"
+          "my",
+          "ru"
         ],
         "bs_node_roots": [
-          "my"
+          "my",
+          "ru"
         ],
         "display_root": "mu",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "liuw",
-          "liuwX"
+          "liuwX",
+          "miuwH",
+          "muwH",
+          "liuwH"
         ],
         "form_analyses": [
           {
@@ -923,6 +898,24 @@
           },
           {
             "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "miuwH",
+            "normalized": "miuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "muwH",
+            "normalized": "muw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "liuwH",
             "normalized": "liuw",
             "class": "b",
             "reason": "explicit_i_medial"
@@ -1811,13 +1804,13 @@
         "semantic_component": "貝"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "卯",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "劉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "卯"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "劉"
       },
       "resolved_node_root": null
     },
@@ -2032,7 +2025,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "卯"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "mu",
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ru"
+        ],
+        "bs_node_roots": [
+          "ru"
+        ],
+        "display_root": "mu",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "liuwX",
+          "liuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "桺",
@@ -2167,8 +2193,45 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柳",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柳"
+      },
+      "resolved_node_root": {
+        "root": "mu",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 2,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "mu",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "liuwX",
+          "liuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "留",
@@ -2377,13 +2440,13 @@
         "semantic_component": "田"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "卯",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "劉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "卯"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "劉"
       },
       "resolved_node_root": {
         "root": "mu",
@@ -2402,11 +2465,18 @@
         "mark_required": false,
         "mc_forms": [
           "liuw",
+          "liuwX",
           "liuwH"
         ],
         "form_analyses": [
           {
             "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuwX",
             "normalized": "liuw",
             "class": "b",
             "reason": "explicit_i_medial"
@@ -2567,7 +2637,15 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "田"
       },
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "桺",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "桺"
+      },
       "resolved_node_root": null
     },
     {
@@ -2640,15 +2718,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{equ·}mu}},",
       "render_latex": "駠\t%liu2\n{\\large{\\textsuperscript{equ·}mu}},\n\\textit{liuw};\t%1114s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "卯",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "卯"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -2722,7 +2792,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{equ·}mu}},",
       "render_latex": "駵\t%liu2\n{\\large{\\textsuperscript{equ·}mu}},\n\\textit{liuw};\t%1114t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "桺",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "桺"
+      },
       "resolved_node_root": null
     },
     {
@@ -3061,7 +3139,63 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "留"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "mu",
+        "source": "node_inherit_parent",
+        "descendant_count": 8,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "my",
+          "ru"
+        ],
+        "bs_node_roots": [
+          "my",
+          "ru"
+        ],
+        "display_root": "mu",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "liuwH",
+          "liuw",
+          "liuwX",
+          "miuwH",
+          "muwH"
+        ],
+        "form_analyses": [
+          {
+            "form": "liuwH",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "miuwH",
+            "normalized": "miuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "muwH",
+            "normalized": "muw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "罶",
@@ -3141,13 +3275,13 @@
       "render_latex": "罶\t%liu3\n{\\large{\\textsuperscript{nass˸}mu}},\n\\textit{liuwX};\t%1114x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "卯",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "留",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "卯"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "留"
       },
       "resolved_node_root": null
     },

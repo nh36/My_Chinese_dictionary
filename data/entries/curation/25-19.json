@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.232669+00:00",
+  "generated_at": "2026-06-16T08:34:25.289017+00:00",
   "id": "25-19",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "257"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "After initials? and IJ the MC rime :iwiin does not occur, therefore J]jwun",
+    "is_cross_reference_only": false,
     "source_page_number": 294,
     "source_line_number": 20,
     "source_line_raw": "25-19 = K. 257       After initials? and IJ the MC rime :iwiin does not occur, therefore J]jwun"
@@ -2470,14 +2473,16 @@
       "resolved_node_root": {
         "root": "ṅon",
         "source": "node_inherit_parent",
-        "descendant_count": 4,
-        "bs_support_count": 2,
+        "descendant_count": 8,
+        "bs_support_count": 3,
         "bs_broad_roots": [
           "qon",
+          "kon",
           "quan"
         ],
         "bs_node_roots": [
           "gon",
+          "kon",
           "gran"
         ],
         "display_root": "ṅon",
@@ -2487,7 +2492,13 @@
         "mc_forms": [
           "hwan",
           "hwanX",
+          "hwanH",
+          "ṅwanH",
+          "ṅwanX",
           "kwan",
+          "kwanX",
+          "khwanX",
+          "hwaenX",
           "ḫiwenH"
         ],
         "form_analyses": [
@@ -2504,8 +2515,44 @@
             "reason": "no_i_medial"
           },
           {
+            "form": "hwanH",
+            "normalized": "hwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅwanH",
+            "normalized": "ṅwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅwanX",
+            "normalized": "ṅwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
             "form": "kwan",
             "normalized": "kwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kwanX",
+            "normalized": "kwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khwanX",
+            "normalized": "khwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hwaenX",
+            "normalized": "hwaen",
             "class": "a",
             "reason": "no_i_medial"
           },
@@ -3077,13 +3124,13 @@
       "render_latex": "輐\t%wan4\n{\\large{\\textsuperscript{vehic·}ṅon}},\n\\textit{hwanH};\t%0257p\n\\textit{ṅwanH};\n\\textit{ṅwanX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "元",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "完",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "元"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "完"
       },
       "resolved_node_root": null
     },
@@ -3416,13 +3463,13 @@
       "render_latex": "筦\t%guan3 / guǎn\n{\\large{\\textsuperscript{bamb˸}ṅon}},\n\\textit{kwanX};\t%0257r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "元",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "完",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "元"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "完"
       },
       "resolved_node_root": null
     },
@@ -3559,13 +3606,13 @@
       "render_latex": "梡\t%kuan3\n{\\large{\\textsuperscript{arb·}ṅon}},\n\\textit{khwanX};\t%0257s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "元",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "完",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "元"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "完"
       },
       "resolved_node_root": null
     },
@@ -3678,13 +3725,13 @@
       "render_latex": "睆\t%huan3\n{\\large{\\textsuperscript{ocul·}ṅon}},\n\\textit{hwaenX};\t%0257t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "元",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "完",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "元"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "完"
       },
       "resolved_node_root": null
     },

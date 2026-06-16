@@ -40,8 +40,14 @@ def extract_primary_oc_form(oc_bs: str | None) -> str | None:
     return primary or None
 
 
-def strip_oc_prefixes(oc_form: str) -> str:
-    form = oc_form.split(".")[-1]
+def strip_oc_prefixes(oc_form: str, *, mode: str = "broad") -> str:
+    form = oc_form
+    if mode == "node":
+        if "." in form:
+            prefix, stem = form.rsplit(".", 1)
+            form = ("s" if prefix.rstrip().endswith(("s", "S")) else "") + stem
+    else:
+        form = form.split(".")[-1]
     while form.startswith(("C", "N")) and len(form) > 1:
         form = form[1:]
     match = VOWEL_RE.search(form)
@@ -50,7 +56,11 @@ def strip_oc_prefixes(oc_form: str) -> str:
     onset = form[: match.start()]
     rhyme = form[match.start() :]
     if "-" in onset:
-        onset = onset.split("-")[-1]
+        if mode == "node":
+            prefix, stem = onset.rsplit("-", 1)
+            onset = ("s" if prefix.rstrip().endswith(("s", "S")) else "") + stem
+        else:
+            onset = onset.split("-")[-1]
     return onset + rhyme
 
 
@@ -78,9 +88,13 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
     if mode != "node" and len(onset) > 1:
         onset = onset[0] + onset[1:].replace("r", "")
 
+    s_prefix_affricate = False
     if mode == "node":
+        s_prefix_affricate = onset.startswith(("st", "sd"))
         if onset.startswith("ŋ"):
             base = "ŋ"
+        elif onset.startswith(("ts", "dz")) or s_prefix_affricate:
+            base = "ts"
         elif onset.startswith(("ɢ", "ɡ", "g")):
             base = "g"
         elif onset.startswith(("q", "ʔ")):
@@ -95,8 +109,6 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
             base = "m"
         elif onset.startswith(("p", "b")):
             base = "p"
-        elif onset.startswith(("ts", "dz")):
-            base = "ts"
         elif onset.startswith(("s", "z", "ś", "ʃ")):
             base = "s"
         elif onset.startswith("l"):
@@ -132,7 +144,7 @@ def normalize_onset(onset: str, *, mode: str = "broad") -> str:
 
     if labialized and base in {"k", "q"}:
         base = base + "u"
-    if mode == "node" and aspirated and base in {"k", "q", "t", "p", "ts", "s"}:
+    if mode == "node" and aspirated and base in {"k", "q", "t", "p", "ts", "s"} and not (s_prefix_affricate and base == "ts"):
         base = base + "h"
     if mode == "node" and has_medial_r and not base.endswith("r") and base not in {"r", "l", "n", "m"}:
         base = base + "r"
@@ -167,7 +179,7 @@ def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     elif broad.endswith("d"):
         broad = broad[:-1]
         coda = "t"
-    elif broad.endswith(("k", "m", "n", "r", "t")):
+    elif broad.endswith(("k", "m", "n", "r", "t", "p")):
         coda = broad[-1]
         broad = broad[:-1]
 
@@ -197,7 +209,7 @@ def derive_oc_root(oc_bs: str | None, *, mode: str = "broad") -> str | None:
     primary = extract_primary_oc_form(oc_bs)
     if primary is None:
         return None
-    stripped = strip_oc_prefixes(primary)
+    stripped = strip_oc_prefixes(primary, mode=mode)
     parts = split_onset_rhyme(stripped)
     if parts is None:
         return None
@@ -273,6 +285,24 @@ def derive_packet_root_consensus(entry: dict[str, Any]) -> dict[str, Any] | None
         for oc_bs, root in values:
             deduped_roots.setdefault(root, (oc_bs, root))
     if len(deduped_roots) != 1:
+        root_counts: dict[str, int] = {}
+        root_examples: dict[str, str | None] = {}
+        for values in roots_by_character.values():
+            local_roots = {root for _, root in values}
+            for root in local_roots:
+                root_counts[root] = root_counts.get(root, 0) + 1
+                root_examples.setdefault(root, next((oc for oc, candidate_root in values if candidate_root == root), None))
+        ranked = sorted(root_counts.items(), key=lambda item: (-item[1], item[0]))
+        if ranked and ranked[0][1] > 1 and (len(ranked) == 1 or ranked[0][1] > ranked[1][1]):
+            root = ranked[0][0]
+            return {
+                "root": root,
+                "source": "packet_bs_majority",
+                "character": None,
+                "oc_bs": root_examples.get(root),
+                "confidence": "provisional-oc",
+                "supporting_characters": ranked[0][1],
+            }
         return None
     oc_bs, root = next(iter(deduped_roots.values()))
     return {

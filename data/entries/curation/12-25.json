@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.208344+00:00",
+  "generated_at": "2026-06-16T08:34:25.267361+00:00",
   "id": "12-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1197"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.         MC          LHan             OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 193,
     "source_line_number": 47,
     "source_line_raw": "12-25   =K.1197          Man d.         MC          LHan             OCM"
@@ -720,13 +723,13 @@
       "render_latex": "捧\t%feng3\n{\\large{\\textsuperscript{man·}poṅ}},\n\\textit{phiəwṅX};\t%1197b'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "奉"
       },
       "resolved_node_root": null
     },
@@ -862,8 +865,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}p\\textoverset{b}{o}ṅ}},",
-      "render_latex": "俸\t%feng4\n{\\large{\\textsuperscript{hom·}p\\textoverset{b}{o}ṅ}},\n\\textit{biəwṅH};\t%1197c'",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}poṅ}},",
+      "render_latex": "俸\t%feng4\n{\\large{\\textsuperscript{hom·}poṅ}},\n\\textit{biəwṅH};\t%1197c'",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "奉",
@@ -1143,13 +1146,13 @@
       "render_latex": "唪\t%beng3\n{\\large{\\textsuperscript{or·}poṅ}},\n\\textit{buwṅX};\t%1197d'\n\\textit{puwṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "奉"
       },
       "resolved_node_root": null
     },
@@ -1415,13 +1418,13 @@
       "render_latex": "琫\t%beng3\n{\\large{\\textsuperscript{gem·}poṅ}},\n\\textit{puwṅX};\t%1197e'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "奉"
       },
       "resolved_node_root": null
     },
@@ -1521,13 +1524,13 @@
       "render_latex": "菶\t%beng3\n{\\large{\\textsuperscript{herb˸}poṅ}},\n\\textit{puwṅX};\t%1197f'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "奉"
       },
       "resolved_node_root": null
     },
@@ -1629,13 +1632,13 @@
       "render_latex": "蜯\t%bang4 / bàng\n{\\large{\\textsuperscript{serp·}poṅ}},\n\\textit{baewṅX};\t%1197g'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奉",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "奉"
       },
       "resolved_node_root": null
     },
@@ -1798,7 +1801,7 @@
       "resolved_node_root": {
         "root": "poṅ",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "poṅ"
@@ -1812,6 +1815,7 @@
         "mark_required": false,
         "mc_forms": [
           "piəwṅ",
+          "phiəwṅ",
           "paewṅX",
           "puwṅX"
         ],
@@ -1819,6 +1823,12 @@
           {
             "form": "piəwṅ",
             "normalized": "piəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiəwṅ",
+            "normalized": "phiəwṅ",
             "class": "b",
             "reason": "explicit_i_medial"
           },
@@ -1933,13 +1943,13 @@
       "render_latex": "葑\t%feng1\n{\\large{\\textsuperscript{herb˸}poṅ}},\n\\textit{phiəwṅ};\t%1197k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "封",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "封"
       },
       "resolved_node_root": null
     },
@@ -2299,7 +2309,7 @@
       "resolved_node_root": {
         "root": "poṅ",
         "source": "node_bs_broad_consensus",
-        "descendant_count": 7,
+        "descendant_count": 9,
         "bs_support_count": 4,
         "bs_broad_roots": [
           "poṅ"
@@ -2550,7 +2560,7 @@
       "resolved_node_root": {
         "root": "poṅ",
         "source": "node_bs_consensus",
-        "descendant_count": 2,
+        "descendant_count": 3,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "poṅ"
@@ -2686,13 +2696,13 @@
       "render_latex": "𢓱\t%feng2\n{\\large{\\textsuperscript{eo·}poṅ}},\n\\textit{biəwṅ};\t%1197p",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "夆",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "夆"
       },
       "resolved_node_root": null
     },
@@ -3462,13 +3472,13 @@
       "render_latex": "摓\t%feng2\n{\\large{\\textsuperscript{man·}poṅ}},\n\\textit{biəwṅ};\t%1197v",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "丰",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "逢",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "丰"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "逢"
       },
       "resolved_node_root": null
     },
@@ -4053,23 +4063,27 @@
       },
       "resolved_node_root": {
         "root": "poṅ",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 6,
+        "bs_support_count": 2,
         "bs_broad_roots": [
           "poṅ"
         ],
         "bs_node_roots": [
-          "phoṅ"
+          "phoṅ",
+          "proṅ"
         ],
-        "display_root": "p\\textoverset{b}{o}ṅ",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
+        "display_root": "poṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
         "mc_forms": [
           "biəwṅX",
           "phiəwṅX",
-          "biəwṅH"
+          "biəwṅH",
+          "buwṅX",
+          "puwṅX",
+          "baewṅX"
         ],
         "form_analyses": [
           {
@@ -4089,6 +4103,24 @@
             "normalized": "biəwṅ",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "buwṅX",
+            "normalized": "buwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwṅX",
+            "normalized": "puwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "baewṅX",
+            "normalized": "baewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
           }
         ]
       }

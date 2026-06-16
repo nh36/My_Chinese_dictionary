@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.194501+00:00",
+  "generated_at": "2026-06-16T08:34:25.254573+00:00",
   "id": "03-65",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "742"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.         MC        LHan             OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 114,
     "source_line_number": 23,
     "source_line_raw": "3-65 = K. 742            Man d.         MC        LHan             OCM"
@@ -868,48 +871,15 @@
       "render_latex": "亡\t%wang2 / wáng\n{\\large{maṅ}},\n\\textit{miaṅ};\t%0742a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "亡",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㡃",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "亡"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㡃"
       },
-      "resolved_node_root": {
-        "root": "maṅ",
-        "source": "node_bs_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "maṅ"
-        ],
-        "bs_node_roots": [
-          "maṅ"
-        ],
-        "display_root": "maṅ",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "miaṅ",
-          "maeṅ"
-        ],
-        "form_analyses": [
-          {
-            "form": "miaṅ",
-            "normalized": "miaṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "maeṅ",
-            "normalized": "maeṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "網",
@@ -1424,13 +1394,13 @@
       "render_latex": "鋩\t%mang2 / máng\n{\\large{\\textsuperscript{met·}maṅ}},\n\\textit{miaṅ};\t%0742c'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "亡",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "芒",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "亡"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "芒"
       },
       "resolved_node_root": null
     },
@@ -1980,7 +1950,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}maṅ}},",
       "render_latex": "詤\t%huang3 / huǎng\n{\\large{\\textsuperscript{dic·}maṅ}},\n\\textit{xwaṅ};\t%0742f'\n\\textit{xwaṅX};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㡃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㡃"
+      },
       "resolved_node_root": null
     },
     {
@@ -2463,8 +2441,77 @@
       "transliteration_latex": "{\\large{\\textsuperscript{lint·}maṅ}},",
       "render_latex": "㡃\t%mang2? / huang1\n{\\large{\\textsuperscript{lint·}maṅ}},\n\\textit{maṅ};\t%0742h'\n\\textit{xwaṅ};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "䖟",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "䖟"
+      },
+      "resolved_node_root": {
+        "root": "maṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 6,
+        "bs_support_count": 6,
+        "bs_broad_roots": [
+          "maṅ"
+        ],
+        "bs_node_roots": [
+          "maṅ"
+        ],
+        "display_root": "maṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "maṅ",
+          "xwaṅ",
+          "miaṅ",
+          "xwaṅX",
+          "miaṅX",
+          "miaṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅ",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "miaṅ",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xwaṅX",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "miaṅX",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "miaṅH",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "忘",
@@ -3038,7 +3085,54 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "亡"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "maṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "maṅ"
+        ],
+        "bs_node_roots": [
+          "maṅ"
+        ],
+        "display_root": "maṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "maṅ",
+          "miaṅ",
+          "xwaṅ",
+          "xwaṅX"
+        ],
+        "form_analyses": [
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "miaṅ",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xwaṅ",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅX",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "罔",
@@ -3200,13 +3294,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "亡",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㡃",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "亡"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㡃"
       },
       "resolved_node_root": {
         "root": "maṅ",
@@ -3448,13 +3542,13 @@
       "render_latex": "望\t%wang4 / wàng\n{\\large{maṅ\\textsuperscript{˸gem}}},\n\\textit{miaṅH};\t%0742m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "亡",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㡃",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_han_compound",
-        "phonetic_hint": "亡"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㡃"
       },
       "resolved_node_root": null
     },
@@ -4325,16 +4419,76 @@
       "transliteration_latex": "{\\large{maṅ\\textsuperscript{˸serp}}},",
       "render_latex": "䖟\t%meng2 / méng\n{\\large{maṅ\\textsuperscript{˸serp}}},\n\\textit{maeṅ};\t%0742s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "亡",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "亡"
-      },
-      "resolved_node_root": null
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "maṅ",
+        "source": "node_bs_consensus",
+        "descendant_count": 7,
+        "bs_support_count": 7,
+        "bs_broad_roots": [
+          "maṅ"
+        ],
+        "bs_node_roots": [
+          "maṅ"
+        ],
+        "display_root": "maṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "maeṅ",
+          "maṅ",
+          "xwaṅ",
+          "miaṅ",
+          "xwaṅX",
+          "miaṅX",
+          "miaṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "maeṅ",
+            "normalized": "maeṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅ",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "miaṅ",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "xwaṅX",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "miaṅX",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "miaṅH",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "蝱",

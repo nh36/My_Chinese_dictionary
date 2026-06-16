@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.233810+00:00",
+  "generated_at": "2026-06-16T08:34:25.290068+00:00",
   "id": "26-27",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "593"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.     MC              LHan            OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 306,
     "source_line_number": 44,
     "source_line_raw": "26-27 = K. 593        Mand.     MC              LHan            OCM"
@@ -673,54 +676,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "齊"
       },
-      "resolved_node_root": {
-        "root": "tsy",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "tsy"
-        ],
-        "bs_node_roots": [
-          "ty"
-        ],
-        "display_root": "tsy",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "dzey",
-          "tsiy",
-          "tsey",
-          "tseyH"
-        ],
-        "form_analyses": [
-          {
-            "form": "dzey",
-            "normalized": "dzey",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "tsiy",
-            "normalized": "tsiy",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "tsey",
-            "normalized": "tsey",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "tseyH",
-            "normalized": "tsey",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "臍",
@@ -2727,15 +2683,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{tum·}tsy}},",
       "render_latex": "隮\t%ji1\n{\\large{\\textsuperscript{tum·}tsy}},\n\\textit{tsey};\t%0593r\n\\textit{tseyH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "齊",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "齊"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.181725+00:00",
+  "generated_at": "2026-06-16T08:34:25.243014+00:00",
   "id": "02-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "766"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.     MC           LHan        OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 90,
     "source_line_number": 16,
     "source_line_raw": "2-1   = K. 766             Mand.     MC           LHan        OCM"
@@ -902,47 +905,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "各"
       },
-      "resolved_node_root": {
-        "root": "kak",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "kak"
-        ],
-        "bs_node_roots": [
-          "kak"
-        ],
-        "display_root": "k\\textoverset{a}{a}k",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "kak",
-          "maek",
-          "lak"
-        ],
-        "form_analyses": [
-          {
-            "form": "kak",
-            "normalized": "kak",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "maek",
-            "normalized": "maek",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "lak",
-            "normalized": "lak",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "觡",
@@ -2673,18 +2636,10 @@
         "source": "packet_family_ids",
         "semantic_component": "犭"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{can·}k\\textoverset{a}{a}k}},",
-      "render_latex": "狢\t%mo4\n{\\large{\\textsuperscript{can·}k\\textoverset{a}{a}k}},\n\\textit{maek};\t%0766j",
+      "transliteration_latex": "{\\large{\\textsuperscript{can·}kak}},",
+      "render_latex": "狢\t%mo4\n{\\large{\\textsuperscript{can·}kak}},\n\\textit{maek};\t%0766j",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "各",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "各"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -5421,18 +5376,10 @@
         "source": "packet_family_ids",
         "semantic_component": "鳥"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{av·}k\\textoverset{a}{a}k}},",
-      "render_latex": "鴼\t%luo4\n{\\large{\\textsuperscript{av·}k\\textoverset{a}{a}k}},\n\\textit{lak};\t%0766t",
+      "transliteration_latex": "{\\large{\\textsuperscript{av·}kak}},",
+      "render_latex": "鴼\t%luo4\n{\\large{\\textsuperscript{av·}kak}},\n\\textit{lak};\t%0766t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "各",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "各"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

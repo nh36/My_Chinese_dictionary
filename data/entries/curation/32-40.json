@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.262420+00:00",
+  "generated_at": "2026-06-16T08:34:25.316369+00:00",
   "id": "32-40",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "457"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "According to Baxter, MC mjen 3 derives from an OC medial *r syllable. But",
+    "is_cross_reference_only": false,
     "source_page_number": 348,
     "source_line_number": 47,
     "source_line_raw": "32-40 = K. 457 According to Baxter, MC mjen 3 derives from an OC medial *r syllable. But"
@@ -300,47 +303,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "民"
       },
-      "resolved_node_root": {
-        "root": "miṅ",
-        "source": "node_inherit_parent",
-        "descendant_count": 3,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "miṅ"
-        ],
-        "bs_node_roots": [
-          "miṅ"
-        ],
-        "display_root": "miṅ",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "min",
-          "minX",
-          "hwon"
-        ],
-        "form_analyses": [
-          {
-            "form": "min",
-            "normalized": "min",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "minX",
-            "normalized": "min",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "hwon",
-            "normalized": "hwon",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "泯",
@@ -1032,16 +995,30 @@
       "transliteration_latex": "{\\large{miṅ\\textsuperscript{·fer}}},",
       "render_latex": "敃\t%min3\n{\\large{miṅ\\textsuperscript{·fer}}},\n\\textit{minX};\t%0457g",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "民",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "民"
-      },
-      "resolved_node_root": null
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "miṅ",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "miṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "minX"
+        ],
+        "form_analyses": [
+          {
+            "form": "minX",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "昬",
@@ -1113,15 +1090,7 @@
       "transliteration_latex": "{\\large{miṅ\\textsuperscript{˸sol}}},",
       "render_latex": "昬\t%hun1\n{\\large{miṅ\\textsuperscript{˸sol}}},\n\\textit{hwon};\t%0457j",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "民",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "民"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": {
         "root": "miṅ",
         "source": "node_transliteration_fallback",
@@ -1651,11 +1620,19 @@
       "transliteration_latex": "{\\large{miṅ}},",
       "render_latex": "昏\t%hun1 / hūn\n{\\large{miṅ}},\n\\textit{hwon};\t%0457k",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㨉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㨉"
+      },
       "resolved_node_root": {
         "root": "miṅ",
         "source": "node_inherit_parent",
-        "descendant_count": 10,
+        "descendant_count": 9,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "mun",
@@ -2461,7 +2438,65 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "昏"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "miṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 10,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "mun",
+          "myn",
+          "  *mun"
+        ],
+        "bs_node_roots": [
+          "mun",
+          "myn",
+          "  *mrun"
+        ],
+        "display_root": "miṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "min",
+          "hwon",
+          "menX",
+          "mwon",
+          "minX"
+        ],
+        "form_analyses": [
+          {
+            "form": "min",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwon",
+            "normalized": "hwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "menX",
+            "normalized": "men",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "mwon",
+            "normalized": "mwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "minX",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "瑉",
@@ -3025,13 +3060,13 @@
       "render_latex": "愍\t%min3\n{\\large{miṅ\\textsuperscript{˸cor}}},\n\\textit{minX};\t%0457z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "民",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "敃",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "民"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "敃"
       },
       "resolved_node_root": null
     }

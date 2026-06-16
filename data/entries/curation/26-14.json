@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.234979+00:00",
+  "generated_at": "2026-06-16T08:34:25.291149+00:00",
   "id": "26-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "590"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d . MC                LHan         OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 303,
     "source_line_number": 20,
     "source_line_raw": "26-14 = K. 590          Man d . MC                LHan         OCM"
@@ -749,13 +752,13 @@
       "render_latex": "氐\t%di1 / di3 / dī / dǐ\n{\\large{tiy}},\n\\textit{tey};\t%0590a\n\\textit{teyX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "氐",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "眂",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "氐"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "眂"
       },
       "resolved_node_root": null
     },
@@ -1292,7 +1295,54 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "氐"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tiy",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tiy"
+        ],
+        "bs_node_roots": [
+          "tiy"
+        ],
+        "display_root": "tiy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tey",
+          "jiyH",
+          "jiyX",
+          "teyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "tey",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "jiyH",
+            "normalized": "jiy",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiyX",
+            "normalized": "jiy",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "teyX",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "弤",
@@ -3338,8 +3388,63 @@
       "transliteration_latex": "{\\large{\\textsuperscript{ocul·}tiy}},",
       "render_latex": "眂\t%shi4\n{\\large{\\textsuperscript{ocul·}tiy}},\n\\textit{jiyH};\t%0590r\n\\textit{jiyX};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "低",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "低"
+      },
+      "resolved_node_root": {
+        "root": "tiy",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tiy"
+        ],
+        "bs_node_roots": [
+          "tiy"
+        ],
+        "display_root": "tiy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "jiyH",
+          "jiyX",
+          "tey",
+          "teyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiyH",
+            "normalized": "jiy",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiyX",
+            "normalized": "jiy",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "tey",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "teyX",
+            "normalized": "tey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "鴟",

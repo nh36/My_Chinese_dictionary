@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.183847+00:00",
+  "generated_at": "2026-06-16T08:34:25.244607+00:00",
   "id": "02-32",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "798"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC        LHan      OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 97,
     "source_line_number": 17,
     "source_line_raw": "2-32   = K. 798         Man d.       MC        LHan      OCM"
@@ -962,8 +965,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "竹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}s\\textoverset{b}{a}k}},",
-      "render_latex": "籍\t%ji2 / jí\n{\\large{\\textsuperscript{bamb˸}s\\textoverset{b}{a}k}},\n\\textit{dziek};\t%0798a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}ts\\textoverset{b}{a}k}},",
+      "render_latex": "籍\t%ji2 / jí\n{\\large{\\textsuperscript{bamb˸}ts\\textoverset{b}{a}k}},\n\\textit{dziek};\t%0798a'",
       "wiktionary_semantic_validation": {
         "semantic_component": "竹",
         "phonetic_component": "耤",
@@ -1168,17 +1171,17 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}sak}},",
-      "render_latex": "藉\t%jie4 / ji2 / jiè / jí\n{\\large{\\textsuperscript{herb˸}sak}},\n\\textit{dziaeH};\t%0798b'\n\\textit{dziek};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ts\\textoverset{b}{a}k}},",
+      "render_latex": "藉\t%jie4 / ji2 / jiè / jí\n{\\large{\\textsuperscript{herb˸}ts\\textoverset{b}{a}k}},\n\\textit{dziaeH};\t%0798b'\n\\textit{dziek};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昔",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "耤",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昔"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "耤"
       },
       "resolved_node_root": null
     },
@@ -1311,17 +1314,17 @@
         "source": "ids_top_level",
         "semantic_component": "竹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}sak}},",
-      "render_latex": "簎\t%zha4\n{\\large{\\textsuperscript{bamb˸}sak}},\n\\textit{tṣhaek};\t%0798c'",
+      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}s\\textoverset{a}{a}k}},",
+      "render_latex": "簎\t%zha4\n{\\large{\\textsuperscript{bamb˸}s\\textoverset{a}{a}k}},\n\\textit{tṣhaek};\t%0798c'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "昔",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "措",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "昔"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "措"
       },
       "resolved_node_root": null
     },
@@ -1878,27 +1881,34 @@
         "phonetic_hint": "昔"
       },
       "resolved_node_root": {
-        "root": "sak",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
+        "root": "tsak",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
         "bs_broad_roots": [
           "tsak"
         ],
         "bs_node_roots": [
-          "tak"
+          "tsak"
         ],
-        "display_root": "s\\textoverset{b}{a}k",
+        "display_root": "ts\\textoverset{b}{a}k",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": true,
         "mc_forms": [
-          "dziek"
+          "dziek",
+          "dziaeH"
         ],
         "form_analyses": [
           {
             "form": "dziek",
             "normalized": "dziek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dziaeH",
+            "normalized": "dziae",
             "class": "b",
             "reason": "explicit_i_medial"
           }
@@ -3700,7 +3710,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "昔"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "sak",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tsak"
+        ],
+        "bs_node_roots": [
+          "tshak"
+        ],
+        "display_root": "s\\textoverset{a}{a}k",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "tshuH",
+          "tṣhaek"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshuH",
+            "normalized": "tshu",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣhaek",
+            "normalized": "tṣhaek",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "蜡",

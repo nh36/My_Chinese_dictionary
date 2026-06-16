@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.214698+00:00",
+  "generated_at": "2026-06-16T08:34:25.273238+00:00",
   "id": "14-18",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1031"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC            LHan           OCM          All -ek < -euk",
+    "is_cross_reference_only": false,
     "source_page_number": 213,
     "source_line_number": 25,
     "source_line_raw": "14-18 =K.1031           Man d.       MC            LHan           OCM          All -ek < -euk"
@@ -591,15 +594,19 @@
       "resolved_node_root": {
         "root": "tuk",
         "source": "node_inherit_parent",
-        "descendant_count": 7,
-        "bs_support_count": 3,
+        "descendant_count": 8,
+        "bs_support_count": 4,
         "bs_broad_roots": [
           "tik",
-          "tuk"
+          "tuk",
+          "tiw",
+          "tew"
         ],
         "bs_node_roots": [
-          "tik",
-          "thuk"
+          "tsik",
+          "thuk",
+          "tsiw",
+          "tsew"
         ],
         "display_root": "tuk",
         "division_class": "mixed",
@@ -611,7 +618,9 @@
           "dzek",
           "təwk",
           "səwk",
-          "nek"
+          "nek",
+          "tsew",
+          "tsiew"
         ],
         "form_analyses": [
           {
@@ -649,6 +658,18 @@
             "normalized": "nek",
             "class": "a",
             "reason": "no_i_medial"
+          },
+          {
+            "form": "tsew",
+            "normalized": "tsew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsiew",
+            "normalized": "tsiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
           }
         ]
       }
@@ -733,8 +754,8 @@
         "source": "packet_family_ids",
         "semantic_component": "欠"
       },
-      "transliteration_latex": "{\\large{thik\\textsuperscript{·dehab}}},",
-      "render_latex": "𣢰\t%zu2\n{\\large{thik\\textsuperscript{·dehab}}},\n\\textit{tsiuwk};\t%1031e",
+      "transliteration_latex": "{\\large{tsik\\textsuperscript{·dehab}}},",
+      "render_latex": "𣢰\t%zu2\n{\\large{tsik\\textsuperscript{·dehab}}},\n\\textit{tsiuwk};\t%1031e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1143,17 +1164,17 @@
         "phonetic_hint": "尗"
       },
       "resolved_node_root": {
-        "root": "thik",
+        "root": "tsik",
         "source": "node_bs_consensus",
-        "descendant_count": 7,
+        "descendant_count": 8,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "tik"
         ],
         "bs_node_roots": [
-          "thik"
+          "tsik"
         ],
-        "display_root": "thik",
+        "display_root": "tsik",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -1798,8 +1819,8 @@
         "source": "packet_family_ids",
         "semantic_component": "𧾷"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ped·}thik}},",
-      "render_latex": "踧\t%di2 / cu4\n{\\large{\\textsuperscript{ped·}thik}},\n\\textit{dek};\t%1031k\n\\textit{tsiuwk};",
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}tsik}},",
+      "render_latex": "踧\t%di2 / cu4\n{\\large{\\textsuperscript{ped·}tsik}},\n\\textit{dek};\t%1031k\n\\textit{tsiuwk};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2580,13 +2601,13 @@
       "render_latex": "椒\t%jiao1 / jiāo\n{\\large{\\textsuperscript{arb·}tuk}},\n\\textit{tsew};\t%1031q\n\\textit{tsiew};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "尗",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "叔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "尗"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "叔"
       },
       "resolved_node_root": null
     },
@@ -2660,7 +2681,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}tuk}},",
       "render_latex": "蔋\t%di2\n{\\large{\\textsuperscript{herb˸}tuk}},\n\\textit{dek};\t%1031s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "䠞",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "䠞"
+      },
       "resolved_node_root": null
     },
     {
@@ -2754,8 +2783,8 @@
         "source": "ids_top_level",
         "semantic_component": "足"
       },
-      "transliteration_latex": "{\\large{thik\\textsuperscript{˸ped}}},",
-      "render_latex": "蹙\t%cu4\n{\\large{thik\\textsuperscript{˸ped}}},\n\\textit{tsiuwk};\t%1031t",
+      "transliteration_latex": "{\\large{tsik\\textsuperscript{˸ped}}},",
+      "render_latex": "蹙\t%cu4\n{\\large{tsik\\textsuperscript{˸ped}}},\n\\textit{tsiuwk};\t%1031t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2829,8 +2858,8 @@
         "source": "packet_family_ids",
         "semantic_component": "𧾷"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ped·}thik}},",
-      "render_latex": "䠞\t%cu4\n{\\large{\\textsuperscript{ped·}thik}},\n\\textit{tsiuwk};\t%1031u",
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}tsik}},",
+      "render_latex": "䠞\t%cu4\n{\\large{\\textsuperscript{ped·}tsik}},\n\\textit{tsiuwk};\t%1031u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2841,7 +2870,36 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "戚"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tuk",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "tuk",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tsiuwk",
+          "dek"
+        ],
+        "form_analyses": [
+          {
+            "form": "tsiuwk",
+            "normalized": "tsiuwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dek",
+            "normalized": "dek",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "顣",
@@ -2959,8 +3017,8 @@
         "source": "ids_top_level",
         "semantic_component": "頁"
       },
-      "transliteration_latex": "{\\large{thik\\textsuperscript{·fac}}},",
-      "render_latex": "顣\t%qi1 / cu4\n{\\large{thik\\textsuperscript{·fac}}},\n\\textit{tshek};\t%1031v\n\\textit{tsiuwk};",
+      "transliteration_latex": "{\\large{tsik\\textsuperscript{·fac}}},",
+      "render_latex": "顣\t%qi1 / cu4\n{\\large{tsik\\textsuperscript{·fac}}},\n\\textit{tshek};\t%1031v\n\\textit{tsiuwk};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3092,8 +3150,8 @@
         "source": "ids_top_level",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{thik\\textsuperscript{˸cor}}},",
-      "render_latex": "慼\t%qo1 / qī\n{\\large{thik\\textsuperscript{˸cor}}},\n\\textit{tshek};\t%1031x",
+      "transliteration_latex": "{\\large{tsik\\textsuperscript{˸cor}}},",
+      "render_latex": "慼\t%qo1 / qī\n{\\large{tsik\\textsuperscript{˸cor}}},\n\\textit{tshek};\t%1031x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3225,8 +3283,8 @@
         "source": "ids_top_level",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}thik}},",
-      "render_latex": "鏚\t%qi1 / qī\n{\\large{\\textsuperscript{met·}thik}},\n\\textit{tshek};\t%1031y",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}tsik}},",
+      "render_latex": "鏚\t%qi1 / qī\n{\\large{\\textsuperscript{met·}tsik}},\n\\textit{tshek};\t%1031y",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

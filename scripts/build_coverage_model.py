@@ -24,8 +24,30 @@ DEFAULT_REPORTS_DIR = "reports"
 SCHUESSLER_HEADER_RE = re.compile(
     r"^\s*(?P<gsc_id>\d{1,2}-\d{1,2})-?\s*=\s*K\.\s*(?P<rest>.+)$"
 )
-K_TOKEN_BLOB_RE = re.compile(r"^\s*(?P<blob>(?:\d+[a-z]?(?:')?(?:\s*,\s*|\s+)?)*)")
+K_TOKEN_BLOB_RE = re.compile(r"^\s*(?P<blob>(?:\d+[a-z]?(?:-[a-z])?(?:')?(?:\s*,\s*|\s+)?)*)")
+K_TOKEN_RANGE_RE = re.compile(r"^(?P<digits>\d+)(?P<start>[a-z])-(?P<end>[a-z])$", re.IGNORECASE)
 GSR_TOKEN_RE = re.compile(r"^(?P<digits>\d+)(?P<suffix>[a-z]?(?:')?)?$", re.IGNORECASE)
+
+
+def expand_k_token_blob(blob: str) -> tuple[list[str], bool]:
+    tokens: list[str] = []
+    has_explicit_range = False
+    for raw_token in re.split(r"[\s,]+", blob.strip()):
+        if not raw_token:
+            continue
+        range_match = K_TOKEN_RANGE_RE.match(raw_token)
+        if range_match:
+            digits = range_match.group("digits")
+            start = range_match.group("start").lower()
+            end = range_match.group("end").lower()
+            has_explicit_range = True
+            for codepoint in range(ord(start), ord(end) + 1):
+                tokens.append(f"{digits}{chr(codepoint)}")
+            continue
+        token_match = re.match(r"\d+[a-z]?(?:')?", raw_token, flags=re.IGNORECASE)
+        if token_match:
+            tokens.append(token_match.group(0).lower())
+    return tokens, has_explicit_range
 
 
 def extract_schuessler_text(pdf_path: Path) -> str:
@@ -55,9 +77,10 @@ def parse_schuessler_headers(pdf_path: Path) -> list[dict[str, Any]]:
             rest = match.group("rest")
             blob_match = K_TOKEN_BLOB_RE.match(rest)
             blob = blob_match.group("blob").strip() if blob_match else ""
-            k_tokens = re.findall(r"\d+[a-z]?(?:')?", blob, flags=re.IGNORECASE)
+            k_tokens, has_explicit_range = expand_k_token_blob(blob)
             if not k_tokens:
                 continue
+            remainder = rest[blob_match.end() :].strip() if blob_match else ""
 
             raw_gsc_id = match.group("gsc_id")
             rhyme_section, series_number = [int(part) for part in raw_gsc_id.split("-", 1)]
@@ -68,6 +91,9 @@ def parse_schuessler_headers(pdf_path: Path) -> list[dict[str, Any]]:
                     "rhyme_section": rhyme_section,
                     "series_number": series_number,
                     "k_tokens": k_tokens,
+                    "has_explicit_k_range": has_explicit_range,
+                    "source_remainder_raw": remainder,
+                    "is_cross_reference_only": remainder.lower().startswith("for "),
                     "source_page_number": page_number,
                     "source_line_number": line_number,
                     "source_line_raw": line.rstrip(),
@@ -116,6 +142,42 @@ def gsr_matches(source_token: str | None, target_token: str) -> bool:
     if not target_suffix:
         return True
     return source_suffix.startswith(target_suffix)
+
+
+def explicit_range_exclusions(header: dict[str, Any], schuessler_headers: list[dict[str, Any]]) -> list[str]:
+    if header.get("has_explicit_k_range"):
+        return []
+    bare_bases = {
+        parts[0]
+        for token in header.get("k_tokens", [])
+        if (parts := split_gsr_token(token)) is not None and parts[1] == ""
+    }
+    exclusions: list[str] = []
+    for other in schuessler_headers:
+        if other["gsc_id"] == header["gsc_id"] or not other.get("has_explicit_k_range"):
+            continue
+        for token in other.get("k_tokens", []):
+            parts = split_gsr_token(token)
+            if parts is not None and parts[0] in bare_bases:
+                exclusions.append(token)
+    return dedupe_preserve(exclusions)
+
+
+def rows_for_header_tokens(
+    header: dict[str, Any],
+    schuessler_headers: list[dict[str, Any]],
+    index: dict[int, list[dict[str, Any]]],
+    field_name: str,
+) -> list[dict[str, Any]]:
+    rows = rows_for_gsr_tokens(header["k_tokens"], index, field_name)
+    exclusions = explicit_range_exclusions(header, schuessler_headers)
+    if not exclusions:
+        return rows
+    return [
+        row
+        for row in rows
+        if not any(gsr_matches(token, row.get(field_name)) for token in exclusions)
+    ]
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -280,8 +342,8 @@ def build_gsc_series_coverage(
 
     for header in schuessler_headers:
         entry = entry_by_id.get(header["gsc_id"])
-        matched_mand = rows_for_gsr_tokens(header["k_tokens"], mand_index, "normalized_gsr")
-        matched_bs = rows_for_gsr_tokens(header["k_tokens"], bs_index, "normalized_gsr")
+        matched_mand = rows_for_header_tokens(header, schuessler_headers, mand_index, "normalized_gsr")
+        matched_bs = rows_for_header_tokens(header, schuessler_headers, bs_index, "normalized_gsr")
         mand_characters = dedupe_preserve(
             [row["normalized_character"] for row in matched_mand if row.get("normalized_character")]
         )
@@ -297,6 +359,7 @@ def build_gsc_series_coverage(
                 "series_number": header["series_number"],
                 "schuessler_k_tokens": "; ".join(header["k_tokens"]),
                 "schuessler_source_page": header["source_page_number"],
+                "schuessler_cross_reference_only": "yes" if header.get("is_cross_reference_only") else "no",
                 "in_tex": "yes" if entry else "no",
                 "tex_character_count": len(entry["chinese_characters"]) if entry else 0,
                 "tex_characters_sample": "; ".join(entry["chinese_characters"][:10]) if entry else "",

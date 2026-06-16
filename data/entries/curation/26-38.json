@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.222680+00:00",
+  "generated_at": "2026-06-16T08:34:25.279551+00:00",
   "id": "26-38",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "566"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand. MC                 LHan          OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 309,
     "source_line_number": 8,
     "source_line_raw": "26-38 = K. 566          Mand. MC                 LHan          OCM"
@@ -248,13 +251,13 @@
       "render_latex": "匕\t%bi3 / bǐ\n{\\large{piy}},\n\\textit{pyiyH};\t%0566a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "匕",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "秕",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "匕"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "秕"
       },
       "resolved_node_root": null
     },
@@ -2131,8 +2134,8 @@
       "resolved_node_root": {
         "root": "piy",
         "source": "node_bs_consensus",
-        "descendant_count": 18,
-        "bs_support_count": 6,
+        "descendant_count": 19,
+        "bs_support_count": 7,
         "bs_broad_roots": [
           "piy"
         ],
@@ -3781,7 +3784,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "比"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "piy",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "piy"
+        ],
+        "bs_node_roots": [
+          "piy"
+        ],
+        "display_root": "piy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "pyiyX",
+          "pyiyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "pyiyX",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pyiyH",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "粃",

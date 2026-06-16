@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.209619+00:00",
+  "generated_at": "2026-06-16T08:34:25.268577+00:00",
   "id": "11-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1224"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC             LHan             OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 182,
     "source_line_number": 35,
     "source_line_raw": "11-12 = K. 1224 Mand.           MC             LHan             OCM"
@@ -744,40 +747,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "蜀"
       },
-      "resolved_node_root": {
-        "root": "tok",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "tok"
-        ],
-        "bs_node_roots": [
-          "tok"
-        ],
-        "display_root": "t\\textoverset{b}{o}k",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
-        "mc_forms": [
-          "jiəwk",
-          "ciəwk"
-        ],
-        "form_analyses": [
-          {
-            "form": "jiəwk",
-            "normalized": "jiəwk",
-            "class": "b",
-            "reason": "palatal_initial"
-          },
-          {
-            "form": "ciəwk",
-            "normalized": "ciəwk",
-            "class": "b",
-            "reason": "palatal_initial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "蠋",
@@ -2198,18 +2168,10 @@
         "source": "packet_family_ids",
         "semantic_component": "革"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cori·}t\\textoverset{b}{o}k}},",
-      "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}t\\textoverset{b}{o}k}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
+      "transliteration_latex": "{\\large{\\textsuperscript{cori·}tok}},",
+      "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}tok}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "蜀",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "蜀"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3391,7 +3353,54 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "蜀"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tok",
+        "source": "node_inherit_parent",
+        "descendant_count": 4,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tok"
+        ],
+        "bs_node_roots": [
+          "tok"
+        ],
+        "display_root": "t\\textoverset{b}{o}k",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "jiəwk",
+          "ciəwk",
+          "ṭiəwk",
+          "ḍiəwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiəwk",
+            "normalized": "jiəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciəwk",
+            "normalized": "ciəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭiəwk",
+            "normalized": "ṭiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḍiəwk",
+            "normalized": "ḍiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "斸",
@@ -3498,17 +3507,17 @@
         "source": "ids_top_level",
         "semantic_component": "斤"
       },
-      "transliteration_latex": "{\\large{tok\\textsuperscript{·libra}}},",
-      "render_latex": "斸\t%zhu2\n{\\large{tok\\textsuperscript{·libra}}},\n\\textit{ṭiəwk};\t%1224t",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{o}k\\textsuperscript{·libra}}},",
+      "render_latex": "斸\t%zhu2\n{\\large{t\\textoverset{b}{o}k\\textsuperscript{·libra}}},\n\\textit{ṭiəwk};\t%1224t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "蜀",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "屬",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "蜀"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "屬"
       },
       "resolved_node_root": null
     },
@@ -3629,17 +3638,17 @@
         "source": "ids_top_level",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}tok}},",
-      "render_latex": "欘\t%zhu2\n{\\large{\\textsuperscript{arb·}tok}},\n\\textit{ṭiəwk};\t%1224u",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}t\\textoverset{b}{o}k}},",
+      "render_latex": "欘\t%zhu2\n{\\large{\\textsuperscript{arb·}t\\textoverset{b}{o}k}},\n\\textit{ṭiəwk};\t%1224u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "蜀",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "屬",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "蜀"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "屬"
       },
       "resolved_node_root": null
     },
@@ -3748,17 +3757,17 @@
         "source": "ids_top_level",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}tok}},",
-      "render_latex": "钃\t%zhu2\n{\\large{\\textsuperscript{met·}tok}},\n\\textit{ṭiəwk};\t%1224v",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}t\\textoverset{b}{o}k}},",
+      "render_latex": "钃\t%zhu2\n{\\large{\\textsuperscript{met·}t\\textoverset{b}{o}k}},\n\\textit{ṭiəwk};\t%1224v",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "蜀",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "屬",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "蜀"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "屬"
       },
       "resolved_node_root": null
     },
@@ -3867,17 +3876,17 @@
         "source": "ids_top_level",
         "semantic_component": "𧾷"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ped·}tok}},",
-      "render_latex": "䠱\t%zhu2\n{\\large{\\textsuperscript{ped·}tok}},\n\\textit{ḍiəwk};\t%1224x",
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}t\\textoverset{b}{o}k}},",
+      "render_latex": "䠱\t%zhu2\n{\\large{\\textsuperscript{ped·}t\\textoverset{b}{o}k}},\n\\textit{ḍiəwk};\t%1224x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "蜀",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "屬",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "蜀"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "屬"
       },
       "resolved_node_root": null
     }

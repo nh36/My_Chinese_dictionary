@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.213742+00:00",
+  "generated_at": "2026-06-16T08:34:25.272322+00:00",
   "id": "14-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1023"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC             LHan        OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 212,
     "source_line_number": 32,
     "source_line_raw": "14-14 =K.1023           Man d.       MC             LHan        OCM"
@@ -2324,8 +2327,8 @@
         "source": "wiktionary_component_literal_fallback",
         "semantic_component": "誩"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{誩·}lok}},",
-      "render_latex": "讟\t%du2\n{\\large{\\textsuperscript{誩·}lok}},\n\\textit{duwk};\t%1023n",
+      "transliteration_latex": "{\\large{\\textsuperscript{誩·}l\\textoverset{a}{o}k}},",
+      "render_latex": "讟\t%du2\n{\\large{\\textsuperscript{誩·}l\\textoverset{a}{o}k}},\n\\textit{duwk};\t%1023n",
       "wiktionary_semantic_validation": {
         "semantic_component": "誩",
         "phonetic_component": "𧶠",
@@ -2341,13 +2344,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "賣",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "䢱",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "賣"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "䢱"
       },
       "resolved_node_root": null
     },
@@ -2456,7 +2459,29 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "賣"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lok",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "l\\textoverset{a}{o}k",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "duwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "duwk",
+            "normalized": "duwk",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "韇",

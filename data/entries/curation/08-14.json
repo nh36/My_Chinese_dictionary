@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.201434+00:00",
+  "generated_at": "2026-06-16T08:34:25.260974+00:00",
   "id": "08-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "868"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.     MC              LHan           OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 157,
     "source_line_number": 13,
     "source_line_raw": "8-14 =K. 868            Man d.     MC              LHan           OCM"
@@ -792,41 +795,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "朿"
       },
-      "resolved_node_root": {
-        "root": "tsek",
-        "source": "node_bs_broad_consensus",
-        "descendant_count": 1,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "tsek"
-        ],
-        "bs_node_roots": [
-          "thek",
-          "tek"
-        ],
-        "display_root": "tsek",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "tshieH",
-          "tsiek"
-        ],
-        "form_analyses": [
-          {
-            "form": "tshieH",
-            "normalized": "tshie",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "tsiek",
-            "normalized": "tsiek",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "刺",
@@ -1351,15 +1320,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{amb·}tsek}},",
       "render_latex": "𨒪\t%ji4 / jì\n{\\large{\\textsuperscript{amb·}tsek}},\n\\textit{tsiek};\t%0868h",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "朿",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "朿"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -1887,15 +1848,15 @@
       "resolved_node_root": {
         "root": "tsek",
         "source": "node_inherit_parent",
-        "descendant_count": 6,
+        "descendant_count": 10,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "tek",
           "tsek"
         ],
         "bs_node_roots": [
-          "trek",
-          "tek"
+          "tsrek",
+          "tsek"
         ],
         "display_root": "tsek",
         "division_class": "mixed",
@@ -1905,6 +1866,7 @@
           "tṣeaH",
           "tṣeak",
           "dẓeak",
+          "tṣheak",
           "tsieH",
           "tsiek",
           "tsek",
@@ -1927,6 +1889,12 @@
           {
             "form": "dẓeak",
             "normalized": "dẓeak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣheak",
+            "normalized": "tṣheak",
             "class": "a",
             "reason": "no_i_medial"
           },
@@ -2229,13 +2197,13 @@
       "render_latex": "幘\t%ze2\n{\\large{\\textsuperscript{lint·}tsek}},\n\\textit{tṣeak};\t%0868p\n\\textit{tṣheak};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "朿",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "責",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "朿"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "責"
       },
       "resolved_node_root": null
     },
@@ -2323,13 +2291,13 @@
       "render_latex": "簀\t%ze2\n{\\large{\\textsuperscript{bamb˸}tsek}},\n\\textit{tṣeak};\t%0868q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "朿",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "責",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "朿"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "責"
       },
       "resolved_node_root": null
     },
@@ -2410,13 +2378,13 @@
       "render_latex": "皟\t%ze2\n{\\large{\\textsuperscript{alb·}tsek}},\n\\textit{tṣheak};\t%0868r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "朿",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "責",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "朿"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "責"
       },
       "resolved_node_root": null
     },
@@ -2490,13 +2458,13 @@
       "render_latex": "賾\t%ze2\n{\\large{\\textsuperscript{𦣞·}tsek}},\n\\textit{dẓeak};\t%0868s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "朿",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "責",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "朿"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "責"
       },
       "resolved_node_root": null
     },

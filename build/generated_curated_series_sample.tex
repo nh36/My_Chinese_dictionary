@@ -6,6 +6,9 @@
 \setCJKmainfont{BabelStone Han}
 \usepackage{multicol}
 \usepackage{enumitem}
+\setlistdepth{6}
+\renewlist{itemize}{itemize}{6}
+\setlist[itemize]{label=\textbullet}
 \usepackage{setspace}
 \usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
 % XeLaTeX settings
@@ -27,6 +30,8 @@
 \newcommand{\textunderset}[2]{\begin{tabular}[t]{@{}c@{}}#2\\[-0.3em]\scriptsize#1\end{tabular}}
 \newcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise1.10ex\hbox{\fontsize{4.7}{4.7}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}
 \newcommand{\textoversetlarge}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.2em]#2\end{tabular}}
+\let\plaintextsuperscript\textsuperscript
+\renewcommand{\textsuperscript}[1]{\plaintextsuperscript{{\addfontfeatures{Ligatures=NoCommon}#1}}}
 
 
 
@@ -194,21 +199,9 @@
 虜	%lu3
 {\large{ra\textsuperscript{·masc}}},
 \textit{luX};	%0069e
-壚	%lu2
-{\large{\textsuperscript{terr·}ra}},
-\textit{lu};	%0069j
-櫨	%lu2
-{\large{\textsuperscript{arb·}ra}},
-\textit{lu};	%0069k
-籚	%lu2
-{\large{\textsuperscript{bamb·}ra}},
-\textit{lu};	%0069n
 纑	%lu2
 {\large{\textsuperscript{ser·}ra}},
 \textit{lu};	%0069o
-臚	%lu2
-{\large{\textsuperscript{carn·}ra}},
-\textit{liə};	%0069r
 \begin{itemize}[noitemsep]
 \item {\Large{慮}}	%lü4 / lǜ
 {\large{\textsuperscript{cogit·}ra}},
@@ -235,18 +228,30 @@
 膚	%fu1 / fū
 {\large{\textsuperscript{carn·}ra}},
 \textit{piu};	%0069g
+壚	%lu2
+{\large{\textsuperscript{terr·}ra}},
+\textit{lu};	%0069j
+櫨	%lu2
+{\large{\textsuperscript{arb·}ra}},
+\textit{lu};	%0069k
 爐	%lu2 / lú
 {\large{\textsuperscript{ign·}ra}},
 \textit{lu};	%0069l
 鑪	%lu2 / lú
 {\large{\textsuperscript{met·}ra}},
 \textit{lu};	%0069m
+籚	%lu2
+{\large{\textsuperscript{bamb·}ra}},
+\textit{lu};	%0069n
 顱	%lu2
 {\large{ra\textsuperscript{·fac}}},
 \textit{lu};	%0069p
 廬	%lu2 / lú
 {\large{\textsuperscript{lax·}ra}},
 \textit{liə};	%0069q
+臚	%lu2
+{\large{\textsuperscript{carn·}ra}},
+\textit{liə};	%0069r
 \end{itemize}
 }
 
@@ -288,7 +293,7 @@
 {\large{\textsuperscript{dic·}kak}},
 \textit{ṅaek};	%0766h'
 狢	%mo4
-{\large{\textsuperscript{can·}k\textoverset{a}{a}k}},
+{\large{\textsuperscript{can·}kak}},
 \textit{maek};	%0766j
 頟	%e2
 {\large{kak\textsuperscript{·fac}}},
@@ -315,7 +320,7 @@
 {\large{\textsuperscript{equ·}kak}},
 \textit{lak};	%0766s
 鴼	%luo4
-{\large{\textsuperscript{av·}k\textoverset{a}{a}k}},
+{\large{\textsuperscript{av·}kak}},
 \textit{lak};	%0766t
 珞	%luo4 / li4
 {\large{\textsuperscript{gem·}kak}},
@@ -420,9 +425,6 @@
 {\large{\textsuperscript{arb·}lak}},
 \textit{ḍaek};	%0790m
 \textit{śiek};
-擇	%ze2
-{\large{\textsuperscript{man·}lak}},
-\textit{ḍaek};	%0790n
 澤	%ze2 / shi4 / yi4 / zé
 {\large{\textsuperscript{aq·}lak}},
 \textit{ḍaek};	%0790o
@@ -434,22 +436,21 @@
 殬	%du4
 {\large{\textsuperscript{歺·}lak}},
 \textit{tuH};	%0790q
+\begin{itemize}[noitemsep]
+\item {\Large{擇}}	%ze2
+{\large{\textsuperscript{man·}lak}},
+= {\large{l\textoverset{a}{a}k}},
+\textit{ḍaek};	%0790n
 蘀	%tuo4
-{\large{\textsuperscript{herb˸}lak}},
+{\large{\textsuperscript{herb˸}l\textoverset{a}{a}k}},
 \textit{thak};	%0790r
+\end{itemize}
 }
 
 \pilotentry{%
 \paragraph{\textoversetlarge{02-32}{\huge{昔}}}
 {\large{sak}},
 \textit{siek};	%0798a
-藉	%jie4 / ji2 / jiè / jí
-{\large{\textsuperscript{herb˸}sak}},
-\textit{dziaeH};	%0798b'
-\textit{dziek};
-簎	%zha4
-{\large{\textsuperscript{bamb˸}sak}},
-\textit{tṣhaek};	%0798c'
 惜	%xi1 / xī
 {\large{\textsuperscript{cor·}sak}},
 \textit{siek};	%0798f
@@ -490,9 +491,6 @@
 唶	%jie4
 {\large{\textsuperscript{or·}sak}},
 \textit{tsiaeH};	%0798v
-措	%cuo4 / cuò
-{\large{\textsuperscript{man·}sak}},
-\textit{tshuH};	%0798x
 蜡	%zha4 / qu4
 {\large{\textsuperscript{serp·}sak}},
 \textit{dẓaeH};	%0798y
@@ -503,11 +501,22 @@
 \begin{itemize}[noitemsep]
 \item {\Large{耤}}	%ji2
 {\large{\textsuperscript{aratr·}sak}},
-= {\large{s\textoverset{b}{a}k}},
+= {\large{ts\textoverset{b}{a}k}},
 \textit{dziek};	%0798i
 籍	%ji2 / jí
-{\large{\textsuperscript{bamb˸}s\textoverset{b}{a}k}},
+{\large{\textsuperscript{bamb˸}ts\textoverset{b}{a}k}},
 \textit{dziek};	%0798a'
+藉	%jie4 / ji2 / jiè / jí
+{\large{\textsuperscript{herb˸}ts\textoverset{b}{a}k}},
+\textit{dziaeH};	%0798b'
+\textit{dziek};
+\item {\Large{措}}	%cuo4 / cuò
+{\large{\textsuperscript{man·}sak}},
+= {\large{s\textoverset{a}{a}k}},
+\textit{tshuH};	%0798x
+簎	%zha4
+{\large{\textsuperscript{bamb˸}s\textoverset{a}{a}k}},
+\textit{tṣhaek};	%0798c'
 \end{itemize}
 }
 
@@ -515,6 +524,16 @@
 \paragraph{\textoversetlarge{03-32}{\huge{尚}}}
 {\large{taṅ}},
 \textit{jiaṅH};	%0725a
+惝	%chang3 / chǎng
+{\large{\textsuperscript{cor·}taṅ}},
+\textit{chiaṅX};	%0725l
+\begin{itemize}[noitemsep]
+\item {\Large{倘}}	%tang1 / tang3 / chang2
+{\large{\textsuperscript{hom·}taṅ}},
+= {\large{taṅ}},
+\textit{thaṅ};	%0725k
+\textit{thaṅX};
+\textit{chiaṅX};
 裳	%chang2 / cháng
 {\large{taṅ\textsuperscript{˸vest}}},
 \textit{jiaṅ};	%0725d
@@ -527,14 +546,6 @@
 掌	%zhang3 / zhǎng
 {\large{taṅ\textsuperscript{˸man}}},
 \textit{ciaṅX};	%0725j
-倘	%tang1 / tang3 / chang2
-{\large{\textsuperscript{hom·}taṅ}},
-\textit{thaṅ};	%0725k
-\textit{thaṅX};
-\textit{chiaṅX};
-惝	%chang3 / chǎng
-{\large{\textsuperscript{cor·}taṅ}},
-\textit{chiaṅX};	%0725l
 當	%dang1 / dang4 / dāng / dàng
 {\large{taṅ\textsuperscript{˸ager}}},
 \textit{taṅ};	%0725q
@@ -553,13 +564,6 @@
 鱨	%chang2
 {\large{\textsuperscript{pis·}t\textoverset{b}{a}ṅ}},
 \textit{jiaṅ};	%0725v
-\item {\Large{敞}}	%chang3 / chǎng
-{\large{taṅ\textsuperscript{·fer}}},
-= {\large{t\textoverset{b}{a}ṅ}},
-\textit{chiaṅX};	%0725m
-𢠵	%chang3
-{\large{\textsuperscript{cor·}t\textoverset{b}{a}ṅ}},
-\textit{chiaṅX};	%0725x
 \item {\Large{賞}}	%shang3 / shǎng
 {\large{taṅ\textsuperscript{˸conch}}},
 = {\large{t\textoverset{b}{a}ṅ}},
@@ -599,6 +603,14 @@
 {\large{\textsuperscript{ocul·}t\textoverset{a}{a}ṅ}},
 \textit{ṭhaeṅ};	%0725f'
 \end{itemize}
+\item {\Large{敞}}	%chang3 / chǎng
+{\large{taṅ\textsuperscript{·fer}}},
+= {\large{t\textoverset{b}{a}ṅ}},
+\textit{chiaṅX};	%0725m
+𢠵	%chang3
+{\large{\textsuperscript{cor·}t\textoverset{b}{a}ṅ}},
+\textit{chiaṅX};	%0725x
+\end{itemize}
 }
 
 \pilotentry{%
@@ -624,9 +636,6 @@
 暘	%yang2
 {\large{\textsuperscript{sol·}laṅ}},
 \textit{yaṅ};	%0720h
-𥛙	%shang1
-{\large{\textsuperscript{spirit·}laṅ}},
-\textit{śiaṅ};	%0720h'
 煬	%yang4
 {\large{\textsuperscript{ign·}laṅ}},
 \textit{yaṅH};	%0720i
@@ -637,25 +646,9 @@
 揚	%yang2 / yáng
 {\large{\textsuperscript{man·}laṅ}},
 \textit{yaṅ};	%0720j
-傷	%shang1 / shāng
-{\large{\textsuperscript{hom·}laṅ}},
-\textit{śiaṅ};	%0720j'
 殤	%shang1
 {\large{\textsuperscript{mal·}laṅ}},
 \textit{śiaṅ};	%0720k'
-觴	%shang1 / shāng
-{\large{\textsuperscript{corn·}laṅ}},
-\textit{śiaṅ};	%0720l'
-璗	%dang4
-{\large{laṅ\textsuperscript{˸gem}}},
-\textit{daṅX};	%0720m'
-盪	%dang4
-{\large{laṅ\textsuperscript{˸vas}}},
-\textit{daṅX};	%0720n'
-\textit{thaṅH};
-簜	%dang4
-{\large{\textsuperscript{bamb˸}laṅ}},
-\textit{daṅX};	%0720o'
 颺	%yang2 / yáng
 {\large{\textsuperscript{vent·}laṅ}},
 \textit{yaṅ};	%0720p
@@ -674,18 +667,41 @@
 暢	%chang4
 {\large{\textsuperscript{申·}laṅ}},
 \textit{ṭhiaṅH};	%0720v
-場	%chang2 / cháng
-{\large{\textsuperscript{terr·}laṅ}},
-\textit{ḍiaṅ};	%0720x
 腸	%chang2 / cháng
 {\large{\textsuperscript{carn·}laṅ}},
 \textit{ḍiaṅ};	%0720y
 \begin{itemize}[noitemsep]
+\item {\Large{場}}	%chang2 / cháng
+{\large{\textsuperscript{terr·}laṅ}},
+= {\large{l\textoverset{b}{a}ṅ}},
+\textit{ḍiaṅ};	%0720x
+\begin{itemize}[noitemsep]
+\item {\Large{傷}}	%shang1 / shāng
+{\large{\textsuperscript{hom·}l\textoverset{b}{a}ṅ}},
+= {\large{l\textoverset{b}{a}ṅ}},
+\textit{śiaṅ};	%0720j'
+𥛙	%shang1
+{\large{\textsuperscript{spirit·}l\textoverset{b}{a}ṅ}},
+\textit{śiaṅ};	%0720h'
+觴	%shang1 / shāng
+{\large{\textsuperscript{corn·}l\textoverset{b}{a}ṅ}},
+\textit{śiaṅ};	%0720l'
+\end{itemize}
 \item {\Large{湯}}	%shang1 / tang1 / shāng / tāng
 {\large{\textsuperscript{aq·}laṅ}},
 = {\large{laṅ}},
 \textit{śiaṅ};	%0720z
 \textit{thaṅ};
+璗	%dang4
+{\large{laṅ\textsuperscript{˸gem}}},
+\textit{daṅX};	%0720m'
+盪	%dang4
+{\large{laṅ\textsuperscript{˸vas}}},
+\textit{daṅX};	%0720n'
+\textit{thaṅH};
+簜	%dang4
+{\large{\textsuperscript{bamb˸}laṅ}},
+\textit{daṅX};	%0720o'
 蕩	%dang4 / dàng
 {\large{\textsuperscript{herb˸}laṅ}},
 \textit{daṅH};	%0720p'
@@ -700,12 +716,6 @@
 斨	%qiang1
 {\large{tsaṅ\textsuperscript{·libra}}},
 \textit{tshiaṅ};	%0727d
-墻	%qiang2
-{\large{\textsuperscript{terr·}tsaṅ}},
-\textit{dziaṅ};	%0727l
-廧	%qiang2
-{\large{\textsuperscript{lax·}tsaṅ}},
-\textit{dziaṅ};	%0727m
 妝	%zhuang1 / zhuāng
 {\large{tsaṅ\textsuperscript{·fem}}},
 \textit{tṣiaṅ};	%0727o
@@ -718,31 +728,40 @@
 牂	%zang1
 {\large{tsaṅ\textsuperscript{·ov}}},
 \textit{tsaṅ};	%0727t
-鏘	%qiang1
-{\large{\textsuperscript{met·}tsaṅ}},
-\textit{tshiaṅ};	%0727z
+\begin{itemize}[noitemsep]
+\item {\Large{墻}}	%qiang2
+{\large{\textsuperscript{terr·}tsaṅ}},
+= {\large{ts\textoverset{b}{a}ṅ}},
+\textit{dziaṅ};	%0727l
+廧	%qiang2
+{\large{\textsuperscript{lax·}ts\textoverset{b}{a}ṅ}},
+\textit{dziaṅ};	%0727m
+\end{itemize}
 \begin{itemize}[noitemsep]
 \item {\Large{將}}	%qiang1 / jiang1 / jiang4 / jiāng / jiàng
 {\large{tsaṅ}},
-= {\large{t\textoverset{b}{a}ṅ}},
+= {\large{ts\textoverset{b}{a}ṅ}},
 \textit{tshiaṅ};	%0727f
 \textit{tsiaṅ};
 \textit{tsiaṅH};
 䵼	%shang1
-{\large{t\textoverset{b}{a}ṅ\textsuperscript{˸trip}}},
+{\large{ts\textoverset{b}{a}ṅ\textsuperscript{˸trip}}},
 \textit{śiaṅ};	%0727a'
 奬	%jiang3 / jiǎng
-{\large{t\textoverset{b}{a}ṅ\textsuperscript{˸magn}}},
+{\large{ts\textoverset{b}{a}ṅ\textsuperscript{˸magn}}},
 \textit{tsiaṅX};	%0727u
 漿	%jiang1 / jiāng
-{\large{t\textoverset{b}{a}ṅ\textsuperscript{˸aq}}},
+{\large{ts\textoverset{b}{a}ṅ\textsuperscript{˸aq}}},
 \textit{tsiaṅ};	%0727v
 蔣	%jiang1
-{\large{\textsuperscript{herb˸}t\textoverset{b}{a}ṅ}},
+{\large{\textsuperscript{herb˸}ts\textoverset{b}{a}ṅ}},
 \textit{tsiaṅ};	%0727x
 醬	%jiang4 / jiàng
-{\large{t\textoverset{b}{a}ṅ\textsuperscript{˸vin}}},
+{\large{ts\textoverset{b}{a}ṅ\textsuperscript{˸vin}}},
 \textit{tsiaṅH};	%0727y
+鏘	%qiang1
+{\large{\textsuperscript{met·}ts\textoverset{b}{a}ṅ}},
+\textit{tshiaṅ};	%0727z
 \item {\Large{戕}}	%qiang2
 {\large{tsaṅ\textsuperscript{·hallebard}}},
 = {\large{tsaṅ}},
@@ -769,14 +788,14 @@
 \textit{dziaṅ};	%0727j'
 \item {\Large{壯}}	%zhuang4 / zhuàng
 {\large{tsaṅ\textsuperscript{·士}}},
-= {\large{tr\textoverset{b}{a}ṅ}},
+= {\large{tsr\textoverset{b}{a}ṅ}},
 \textit{tṣiaṅH};	%0727n
 裝	%zhuang1
-{\large{tr\textoverset{b}{a}ṅ\textsuperscript{˸vest}}},
+{\large{tsr\textoverset{b}{a}ṅ\textsuperscript{˸vest}}},
 \textit{tṣiaṅ};	%0727i'
 \textit{tṣiaṅH};
 莊	%zhuang1 / zhuāng
-{\large{\textsuperscript{herb˸}tr\textoverset{b}{a}ṅ}},
+{\large{\textsuperscript{herb˸}tsr\textoverset{b}{a}ṅ}},
 \textit{tṣiaṅ};	%0727q
 \end{itemize}
 }
@@ -897,33 +916,13 @@
 \paragraph{\textoversetlarge{03-65}{\huge{亡}}}
 {\large{maṅ}},
 \textit{miaṅ};	%0742a
-鋩	%mang2 / máng
-{\large{\textsuperscript{met·}maṅ}},
-\textit{miaṅ};	%0742c'
-詤	%huang3 / huǎng
-{\large{\textsuperscript{dic·}maṅ}},
-\textit{xwaṅ};	%0742f'
-\textit{xwaṅX};
 妄	%wang4 / wàng
 {\large{maṅ\textsuperscript{˸fem}}},
 \textit{miaṅH};	%0742g
-㡃	%mang2? / huang1
-{\large{\textsuperscript{lint·}maṅ}},
-\textit{maṅ};	%0742h'
-\textit{xwaṅ};
 忘	%wang2 / wang4 / wáng / wàng
 {\large{maṅ\textsuperscript{˸cor}}},
 \textit{miaṅ};	%0742i
 \textit{miaṅH};
-芒	%mang2 / huang1 / huang3 / máng / huǎng
-{\large{\textsuperscript{herb˸}maṅ}},
-\textit{maṅ};	%0742k
-\textit{miaṅ};
-\textit{xwaṅ};
-\textit{xwaṅX};
-望	%wang4 / wàng
-{\large{maṅ\textsuperscript{˸gem}}},
-\textit{miaṅH};	%0742m
 忙	%mang2 / máng
 {\large{\textsuperscript{cor·}maṅ}},
 \textit{maṅ};	%0742o
@@ -933,9 +932,6 @@
 甿	%meng2
 {\large{\textsuperscript{ager·}maṅ}},
 \textit{meaṅ};	%0742r
-䖟	%meng2 / méng
-{\large{maṅ\textsuperscript{˸serp}}},
-\textit{maeṅ};	%0742s
 蝱	%meng2
 {\large{maṅ\textsuperscript{˸䖵}}},
 \textit{maeṅ};	%0742t
@@ -949,6 +945,27 @@
 {\large{maṅ\textsuperscript{˸血}}},
 \textit{hwaṅ};	%0742z
 \begin{itemize}[noitemsep]
+\item {\Large{䖟}}	%meng2 / méng
+{\large{maṅ\textsuperscript{˸serp}}},
+= {\large{maṅ}},
+\textit{maeṅ};	%0742s
+\begin{itemize}[noitemsep]
+\item {\Large{㡃}}	%mang2? / huang1
+{\large{\textsuperscript{lint·}maṅ}},
+= {\large{maṅ}},
+\textit{maṅ};	%0742h'
+\textit{xwaṅ};
+亡	%wang2 / wáng
+{\large{maṅ}},
+\textit{miaṅ};	%0742a
+詤	%huang3 / huǎng
+{\large{\textsuperscript{dic·}maṅ}},
+\textit{xwaṅ};	%0742f'
+\textit{xwaṅX};
+望	%wang4 / wàng
+{\large{maṅ\textsuperscript{˸gem}}},
+\textit{miaṅH};	%0742m
+\begin{itemize}[noitemsep]
 \item {\Large{罔}}	%wang3 / wǎng
 {\large{\textsuperscript{nass˸}maṅ}},
 = {\large{m\textoverset{b}{a}ṅ}},
@@ -959,6 +976,20 @@
 惘	%wang3 / wǎng
 {\large{\textsuperscript{cor·}m\textoverset{b}{a}ṅ}},
 \textit{miaṅX};	%0742b'
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\begin{itemize}[noitemsep]
+\item {\Large{芒}}	%mang2 / huang1 / huang3 / máng / huǎng
+{\large{\textsuperscript{herb˸}maṅ}},
+= {\large{maṅ}},
+\textit{maṅ};	%0742k
+\textit{miaṅ};
+\textit{xwaṅ};
+\textit{xwaṅX};
+鋩	%mang2 / máng
+{\large{\textsuperscript{met·}maṅ}},
+\textit{miaṅ};	%0742c'
 \item {\Large{汒}}	%mang2
 {\large{\textsuperscript{aq·}maṅ}},
 = {\large{m\textoverset{a}{a}ṅ}},
@@ -1062,7 +1093,7 @@
 \textit{ki};
 \textit{kiH};
 騏	%qi2 / qí
-{\large{\textsuperscript{equ·}gy}},
+{\large{\textsuperscript{equ·}ky}},
 \textit{gi};	%0952a'
 麒	%qi2
 {\large{\textsuperscript{cerv·}ky}},
@@ -1076,9 +1107,6 @@
 箕	%ji1 / jī
 {\large{\textsuperscript{bamb˸}ky}},
 \textit{ki};	%0952f
-僛	%qi1
-{\large{\textsuperscript{hom·}ky}},
-\textit{khi};	%0952f'
 朞	%ji1
 {\large{ky\textsuperscript{˸luna}}},
 \textit{ki};	%0952j
@@ -1096,17 +1124,11 @@
 {\large{\textsuperscript{dic·}ky}},
 \textit{khi};	%0952n
 \textit{ki};
-倛	%qi1
-{\large{\textsuperscript{hom·}ky}},
-\textit{khi};	%0952p
-欺	%qi1 / qī
-{\large{ky\textsuperscript{·dehab}}},
-\textit{khi};	%0952q
 𣇳	%qi2
-{\large{\textsuperscript{sol˸}gy}},
+{\large{\textsuperscript{sol˸}ky}},
 \textit{gi};	%0952r
 棊	%qi2
-{\large{gy\textsuperscript{˸arb}}},
+{\large{ky\textsuperscript{˸arb}}},
 \textit{gi};	%0952t
 棋	%qi2 / qí
 {\large{\textsuperscript{arb·}ky}},
@@ -1121,12 +1143,9 @@
 {\large{\textsuperscript{spirit·}ky}},
 \textit{gi};	%0952y
 綦	%qi2 / qí
-{\large{gy\textsuperscript{˸ser}}},
+{\large{ky\textsuperscript{˸ser}}},
 \textit{gi};	%0952z
 \textit{giH};
-丌	%qí
-{\large{ky}},
-\textit{gi};	%0952a
 \begin{itemize}[noitemsep]
 \item {\Large{基}}	%ji1 / jī
 {\large{ky\textsuperscript{˸terr}}},
@@ -1135,6 +1154,28 @@
 璂	%qi2
 {\large{\textsuperscript{gem·}ky}},
 \textit{gi};	%0952e'
+\item {\Large{倛}}	%qi1
+{\large{\textsuperscript{hom·}ky}},
+= {\large{gy}},
+\textit{khi};	%0952p
+\begin{itemize}[noitemsep]
+\item {\Large{丌}}	%qí
+{\large{gy}},
+= {\large{gy}},
+\textit{gi};	%0952a
+其	%qi2 / ji1 / ji4 / qí
+{\large{gy}},
+\textit{gi};	%0952a
+\textit{ki};
+\textit{kiH};
+\end{itemize}
+\item {\Large{欺}}	%qi1 / qī
+{\large{ky\textsuperscript{·dehab}}},
+= {\large{ky}},
+\textit{khi};	%0952q
+僛	%qi1
+{\large{\textsuperscript{hom·}ky}},
+\textit{khi};	%0952f'
 \end{itemize}
 }
 
@@ -1151,12 +1192,6 @@
 氿	%gui3
 {\large{\textsuperscript{aq·}ku}},
 \textit{kwiyX};	%0992j
-軌	%gui3 / guǐ
-{\large{\textsuperscript{vehic·}ku}},
-\textit{kwiyX};	%0992k
-匭	%gui3
-{\large{\textsuperscript{匚·}ku}},
-\textit{kwiyX};	%0992l
 馗	%kui2
 {\large{ku\textsuperscript{·cap}}},
 \textit{gwiy};	%0992m
@@ -1190,18 +1225,21 @@
 旭	%xu4
 {\large{ku\textsuperscript{·sol}}},
 \textit{xiowk};	%0992x
+\begin{itemize}[noitemsep]
+\item {\Large{軌}}	%gui3 / guǐ
+{\large{\textsuperscript{vehic·}ku}},
+= {\large{ku}},
+\textit{kwiyX};	%0992k
+匭	%gui3
+{\large{\textsuperscript{匚·}ku}},
+\textit{kwiyX};	%0992l
+\end{itemize}
 }
 
 \pilotentry{%
 \paragraph{\textoversetlarge{04-26}{\huge{止}}}
 {\large{ty}},
 \textit{ciX};	%0961a
-旹	%shi2
-{\large{ty\textsuperscript{˸sol}}},
-\textit{ji};	%0961b'
-邿	%shi1
-{\large{ty\textsuperscript{·tum}}},
-\textit{śi};	%0961e'
 趾	%zhi3 / zhǐ
 {\large{\textsuperscript{ped·}ty}},
 \textit{ciX};	%0961g
@@ -1211,79 +1249,18 @@
 芷	%zhi3
 {\large{\textsuperscript{herb˸}ty}},
 \textit{ciX};	%0961j
-塒	%shi2
-{\large{\textsuperscript{terr·}ty}},
-\textit{ji};	%0961j'
 祉	%zhi3 / zhǐ
 {\large{\textsuperscript{spirit·}ty}},
 \textit{ṭhiX};	%0961k
-偫	%zhi4
-{\large{\textsuperscript{hom·}ty}},
-\textit{ḍiX};	%0961k'
 齒	%chi3 / chǐ
 {\large{ty\textsuperscript{˸𠚕}}},
 \textit{chiX};	%0961l
-畤	%zhi4
-{\large{\textsuperscript{ager·}ty}},
-\textit{ḍiX};	%0961r
-時	%shi2 / shí
-{\large{\textsuperscript{sol·}ty}},
-\textit{ji};	%0961z
-\begin{itemize}[noitemsep]
-\item {\Large{寺}}	%si4 / sì
-{\large{ty\textsuperscript{˸dextr}}},
-= {\large{ty}},
-\textit{ziH};	%0961m
-詩	%shi1 / shī
-{\large{\textsuperscript{dic·}ty}},
-\textit{śi};	%0961d'
-待	%dai4 / dài
-{\large{\textsuperscript{eo·}ty}},
-\textit{dəyX};	%0961g'
-特	%te4 / tè
-{\large{\textsuperscript{bos·}ty}},
-\textit{dok};	%0961h'
-等	%deng3 / děng
-{\large{\textsuperscript{bamb˸}ty}},
-\textit{təyX};	%0961i'
-\textit{təṅX};
-持	%chi2 / chí
-{\large{\textsuperscript{man·}ty}},
-\textit{ḍi};	%0961p
-峙	%zhi4
-{\large{\textsuperscript{mon·}ty}},
-\textit{ḍiX};	%0961q
-庤	%zhi4
-{\large{\textsuperscript{lax·}ty}},
-\textit{ḍiX};	%0961s
-痔	%zhi4
-{\large{\textsuperscript{infirm·}ty}},
-\textit{ḍiX};	%0961t
-跱	%zhi4
-{\large{\textsuperscript{ped·}ty}},
-\textit{ḍiX};	%0961u
-洔	%zhi3
-{\large{\textsuperscript{aq·}ty}},
-\textit{ciX};	%0961v
-侍	%shi4 / shì
-{\large{\textsuperscript{hom·}ty}},
-\textit{jiH};	%0961x
-恃	%shi4 / shì
-{\large{\textsuperscript{cor·}ty}},
-\textit{jiX};	%0961y
-\end{itemize}
 }
 
 \pilotentry{%
 \paragraph{\textoversetlarge{04-29}{\huge{止}}}
 {\large{ty}},
 \textit{ciX};	%0961a
-旹	%shi2
-{\large{ty\textsuperscript{˸sol}}},
-\textit{ji};	%0961b'
-邿	%shi1
-{\large{ty\textsuperscript{·tum}}},
-\textit{śi};	%0961e'
 趾	%zhi3 / zhǐ
 {\large{\textsuperscript{ped·}ty}},
 \textit{ciX};	%0961g
@@ -1293,67 +1270,12 @@
 芷	%zhi3
 {\large{\textsuperscript{herb˸}ty}},
 \textit{ciX};	%0961j
-塒	%shi2
-{\large{\textsuperscript{terr·}ty}},
-\textit{ji};	%0961j'
 祉	%zhi3 / zhǐ
 {\large{\textsuperscript{spirit·}ty}},
 \textit{ṭhiX};	%0961k
-偫	%zhi4
-{\large{\textsuperscript{hom·}ty}},
-\textit{ḍiX};	%0961k'
 齒	%chi3 / chǐ
 {\large{ty\textsuperscript{˸𠚕}}},
 \textit{chiX};	%0961l
-畤	%zhi4
-{\large{\textsuperscript{ager·}ty}},
-\textit{ḍiX};	%0961r
-時	%shi2 / shí
-{\large{\textsuperscript{sol·}ty}},
-\textit{ji};	%0961z
-\begin{itemize}[noitemsep]
-\item {\Large{寺}}	%si4 / sì
-{\large{ty\textsuperscript{˸dextr}}},
-= {\large{ty}},
-\textit{ziH};	%0961m
-詩	%shi1 / shī
-{\large{\textsuperscript{dic·}ty}},
-\textit{śi};	%0961d'
-待	%dai4 / dài
-{\large{\textsuperscript{eo·}ty}},
-\textit{dəyX};	%0961g'
-特	%te4 / tè
-{\large{\textsuperscript{bos·}ty}},
-\textit{dok};	%0961h'
-等	%deng3 / děng
-{\large{\textsuperscript{bamb˸}ty}},
-\textit{təyX};	%0961i'
-\textit{təṅX};
-持	%chi2 / chí
-{\large{\textsuperscript{man·}ty}},
-\textit{ḍi};	%0961p
-峙	%zhi4
-{\large{\textsuperscript{mon·}ty}},
-\textit{ḍiX};	%0961q
-庤	%zhi4
-{\large{\textsuperscript{lax·}ty}},
-\textit{ḍiX};	%0961s
-痔	%zhi4
-{\large{\textsuperscript{infirm·}ty}},
-\textit{ḍiX};	%0961t
-跱	%zhi4
-{\large{\textsuperscript{ped·}ty}},
-\textit{ḍiX};	%0961u
-洔	%zhi3
-{\large{\textsuperscript{aq·}ty}},
-\textit{ciX};	%0961v
-侍	%shi4 / shì
-{\large{\textsuperscript{hom·}ty}},
-\textit{jiH};	%0961x
-恃	%shi4 / shì
-{\large{\textsuperscript{cor·}ty}},
-\textit{jiX};	%0961y
-\end{itemize}
 }
 
 \pilotentry{%
@@ -1424,20 +1346,20 @@
 \textit{dəyH};	%0976o'
 \item {\Large{矣}}	%yi3 / yǐ
 {\large{ly\textsuperscript{˸sagit}}},
-= {\large{qy}},
+= {\large{ly}},
 \textit{hiX};	%0976l
-俟	%si4 / sì
-{\large{\textsuperscript{hom·}qy}},
-\textit{dẓiX};	%0976m
-\textit{ẓiX};
 竢	%si4
-{\large{\textsuperscript{sto·}qy}},
+{\large{\textsuperscript{sto·}ly}},
 \textit{dẓiX};	%0976n
 涘	%si4
-{\large{\textsuperscript{aq·}qy}},
+{\large{\textsuperscript{aq·}ly}},
 \textit{dẓiX};	%0976o
-\end{itemize}
-\end{itemize}
+\begin{itemize}[noitemsep]
+\item {\Large{俟}}	%si4 / sì
+{\large{\textsuperscript{hom·}ly}},
+= {\large{ly}},
+\textit{dẓiX};	%0976m
+\textit{ẓiX};
 \begin{itemize}[noitemsep]
 \item {\Large{台}}	%tai1 / yi2 / yí
 {\large{ly\textsuperscript{˸or}}},
@@ -1474,6 +1396,9 @@
 箈	%dai4
 {\large{\textsuperscript{bamb˸}ly}},
 \textit{dəyX};	%0976q'
+\end{itemize}
+\end{itemize}
+\end{itemize}
 \end{itemize}
 \end{itemize}
 }
@@ -1526,9 +1451,6 @@
 培	%pei2
 {\large{\textsuperscript{terr·}py}},
 \textit{bwəy};	%0999a'
-倍	%bei4 / bèi
-{\large{\textsuperscript{hom·}py}},
-\textit{bwəyX};	%0999c'
 掊	%pou3
 {\large{\textsuperscript{man·}py}},
 \textit{phuwX};	%0999d'
@@ -1557,6 +1479,16 @@
 部	%bu4 / bù
 {\large{py\textsuperscript{·urb}}},
 \textit{buwX};	%0999z
+\begin{itemize}[noitemsep]
+\item {\Large{倍}}	%bei4 / bèi
+{\large{\textsuperscript{hom·}py}},
+= {\large{py}},
+\textit{bwəyX};	%0999c'
+不	%bu4 / fou3 / bù
+{\large{py}},
+\textit{piuw};	%0999a
+\textit{piuwX};
+\end{itemize}
 \end{itemize}
 \item {\Large{丕}}	%pi1 / pī
 {\large{py\textsuperscript{˸一}}},
@@ -1592,9 +1524,6 @@
 {\large{lyk\textsuperscript{˸conch}}},
 \textit{dək};	%0918h
 \textit{thək};
-侙	%chi4
-{\large{\textsuperscript{hom·}lyk}},
-\textit{ṭhik};	%0918m
 \begin{itemize}[noitemsep]
 \item {\Large{式}}	%shi4 / shì
 {\large{lyk\textsuperscript{·工}}},
@@ -1606,6 +1535,9 @@
 軾	%shi4
 {\large{\textsuperscript{vehic·}lyk}},
 \textit{śik};	%0918l
+侙	%chi4
+{\large{\textsuperscript{hom·}lyk}},
+\textit{ṭhik};	%0918m
 試	%shi4 / shì
 {\large{\textsuperscript{dic·}lyk}},
 \textit{śiH};	%0918n
@@ -1641,9 +1573,6 @@
 \paragraph{\textoversetlarge{07-08}{\huge{圭}}}
 {\large{kue}},
 \textit{kwey};	%0879a
-窪	%wa1
-{\large{\textsuperscript{cav˸}kue}},
-\textit{qwae};	%0879b'
 珪	%gui1
 {\large{\textsuperscript{gem·}kue}},
 \textit{kwey};	%0879c
@@ -1671,9 +1600,6 @@
 畦	%qi2
 {\large{\textsuperscript{ager·}kue}},
 \textit{hwey};	%0879j
-洼	%wa1
-{\large{\textsuperscript{aq·}kue}},
-\textit{qwey};	%0879k
 跬	%kui3
 {\large{\textsuperscript{ped·}kue}},
 \textit{khiwieX};	%0879l
@@ -1709,6 +1635,13 @@
 {\large{\textsuperscript{cori·}kue}},
 \textit{hea};	%879
 \begin{itemize}[noitemsep]
+\item {\Large{洼}}	%wa1
+{\large{\textsuperscript{aq·}kue}},
+= {\large{kue}},
+\textit{qwey};	%0879k
+窪	%wa1
+{\large{\textsuperscript{cav˸}kue}},
+\textit{qwae};	%0879b'
 \item {\Large{厓}}	%ya2 / yá
 {\large{\textsuperscript{caut·}kue}},
 = {\large{ŋr\textoverset{a}{a}r}},
@@ -1757,9 +1690,6 @@
 {\large{\textsuperscript{ser·}tek}},
 \textit{dey};	%0877j
 \textit{deyH};
-嫡	%di2 / dí
-{\large{\textsuperscript{fem·}tek}},
-\textit{tek};	%0877m
 鏑	%di2
 {\large{\textsuperscript{met·}tek}},
 \textit{tek};	%0877n
@@ -1767,31 +1697,38 @@
 {\large{\textsuperscript{ped·}tek}},
 \textit{ḍiek};	%0877o
 \textit{tek};
-摘	%zhai1 / zhāi
-{\large{\textsuperscript{man·}tek}},
-\textit{thek};	%0877p
-\textit{ṭeak};
-謫	%zhe2 / zhé
-{\large{\textsuperscript{dic·}tek}},
-\textit{ḍeak};	%0877r
-\textit{ṭeak};
-擿	%zhi4
-{\large{\textsuperscript{man·}tek}},
-\textit{ḍiek};	%0877t
 \begin{itemize}[noitemsep]
 \item {\Large{啻}}	%shi4
 {\large{tek\textsuperscript{˸or}}},
 = {\large{tek}},
 \textit{śieH};	%0877k
+摘	%zhai1 / zhāi
+{\large{\textsuperscript{man·}tek}},
+\textit{thek};	%0877p
+\textit{ṭeak};
 敵	%di2 / dí
 {\large{tek\textsuperscript{·fer}}},
 \textit{dek};	%0877q
+謫	%zhe2 / zhé
+{\large{\textsuperscript{dic·}tek}},
+\textit{ḍeak};	%0877r
+\textit{ṭeak};
 \begin{itemize}[noitemsep]
+\item {\Large{嫡}}	%di2 / dí
+{\large{\textsuperscript{fem·}tek}},
+= {\large{tek}},
+\textit{tek};	%0877m
+帝	%di4 / dì
+{\large{\textsuperscript{丄˸}tek}},
+\textit{teyH};	%0877a
 \item {\Large{適}}	%shi4 / shì
 {\large{\textsuperscript{amb·}tek}},
 = {\large{tek}},
 \textit{śiek};	%0877s
 \textit{ciek};
+擿	%zhi4
+{\large{\textsuperscript{man·}tek}},
+\textit{ḍiek};	%0877t
 讁	%zhe2
 {\large{\textsuperscript{dic·}tek}},
 \textit{ḍeak};	%0877u
@@ -2046,6 +1983,15 @@
 策	%ce4 / cè
 {\large{\textsuperscript{bamb˸}tsek}},
 \textit{tṣheak};	%0868l
+\begin{itemize}[noitemsep]
+\item {\Large{責}}	%zhai4 / ze2 / zhài / zé
+{\large{tsek\textsuperscript{˸conch}}},
+= {\large{tsek}},
+\textit{tṣeaH};	%0868m
+\textit{tṣeak};
+嘖	%ze2
+{\large{\textsuperscript{or·}tsek}},
+\textit{dẓeak};	%0868o
 幘	%ze2
 {\large{\textsuperscript{lint·}tsek}},
 \textit{tṣeak};	%0868p
@@ -2059,15 +2005,6 @@
 賾	%ze2
 {\large{\textsuperscript{𦣞·}tsek}},
 \textit{dẓeak};	%0868s
-\begin{itemize}[noitemsep]
-\item {\Large{責}}	%zhai4 / ze2 / zhài / zé
-{\large{tsek\textsuperscript{˸conch}}},
-= {\large{tsek}},
-\textit{tṣeaH};	%0868m
-\textit{tṣeak};
-嘖	%ze2
-{\large{\textsuperscript{or·}tsek}},
-\textit{dẓeak};	%0868o
 積	%ji1 / jī
 {\large{\textsuperscript{gran·}tsek}},
 \textit{tsieH};	%0868t
@@ -2179,14 +2116,6 @@
 {\large{leṅ\textsuperscript{·fac}}},
 \textit{gyieṅ};	%0831n
 \textit{kyieṅX};
-輕	%qing1 / qīng
-{\large{\textsuperscript{vehic·}leṅ}},
-\textit{khyieṅ};	%0831o
-\textit{khyieṅH};
-鑋	%qing4 / qing1
-{\large{leṅ\textsuperscript{˸met}}},
-\textit{kheṅH};	%0831p
-\textit{khyieṅ};
 牼	%keng1 / kēng
 {\large{\textsuperscript{bos·}leṅ}},
 \textit{heaṅ};	%0831q
@@ -2206,6 +2135,17 @@
 䞓	%cheng1 / chēng
 {\large{\textsuperscript{ruf·}leṅ}},
 \textit{ṭhieṅ};	%0831x
+\begin{itemize}[noitemsep]
+\item {\Large{輕}}	%qing1 / qīng
+{\large{\textsuperscript{vehic·}leṅ}},
+= {\large{leṅ}},
+\textit{khyieṅ};	%0831o
+\textit{khyieṅH};
+鑋	%qing4 / qing1
+{\large{leṅ\textsuperscript{˸met}}},
+\textit{kheṅH};	%0831p
+\textit{khyieṅ};
+\end{itemize}
 }
 
 \pilotentry{%
@@ -2216,82 +2156,6 @@
 {\large{\textsuperscript{aur·}leṅ}},
 \textit{theṅ};	%0835d'
 \textit{theṅH};
-\begin{itemize}[noitemsep]
-\item {\Large{廷}}	%ting2
-{\large{\textsuperscript{progred·}leṅ}},
-= {\large{leṅ}},
-\textit{deṅ};	%0835d
-\textit{deṅH};
-庭	%ting2 / ting4
-{\large{\textsuperscript{lax·}leṅ}},
-\textit{deṅ};	%0835h
-\textit{theṅH};
-挺	%ting3
-{\large{\textsuperscript{man·}leṅ}},
-\textit{deṅX};	%0835i
-\textit{theṅX};
-梃	%ting3
-{\large{\textsuperscript{arb·}leṅ}},
-\textit{deṅX};	%0835j
-筳	%ting2
-{\large{\textsuperscript{bamb˸}leṅ}},
-\textit{deṅ};	%0835k
-莛	%ting2
-{\large{\textsuperscript{herb˸}leṅ}},
-\textit{deṅ};	%0835l
-霆	%ting2
-{\large{\textsuperscript{pluv˸}leṅ}},
-\textit{deṅ};	%0835m
-蜓	%ting2 / dian4
-{\large{\textsuperscript{serp·}leṅ}},
-\textit{deṅX};	%0835n
-\textit{denX};
-鋌	%ting3
-{\large{\textsuperscript{met·}leṅ}},
-\textit{theṅX};	%0835o
-珽	%ting3
-{\large{\textsuperscript{gem·}leṅ}},
-\textit{theṅ};	%0835p
-\textit{theṅX};
-脡	%ting3
-{\large{\textsuperscript{luna·}leṅ}},
-\textit{theṅX};	%0835q
-\item {\Large{呈}}	%cheng2 / chéng
-{\large{\textsuperscript{or˸}leṅ}},
-= {\large{leṅ}},
-\textit{ḍieṅ};	%0835r
-珵	%cheng2
-{\large{\textsuperscript{gem·}leṅ}},
-\textit{ḍieṅ};	%0835s
-程	%cheng2 / chéng
-{\large{\textsuperscript{gran·}leṅ}},
-\textit{ḍieṅ};	%0835t
-裎	%cheng2
-{\large{\textsuperscript{vest·}leṅ}},
-\textit{ḍieṅ};	%0835u
-酲	%cheng2
-{\large{\textsuperscript{vin·}leṅ}},
-\textit{ḍieṅ};	%0835v
-\textit{ṭhieṅ};
-逞	%cheng3 / chěng
-{\large{\textsuperscript{amb·}leṅ}},
-\textit{ṭhieṅX};	%0835x
-桯	%ying2
-{\large{\textsuperscript{arb·}leṅ}},
-\textit{yieṅ};	%0835y
-郢	%yǐng
-{\large{leṅ\textsuperscript{·urb}}},
-\textit{yengX};	%835
-\begin{itemize}[noitemsep]
-\item {\Large{聖}}	%sheng4 / shèng
-{\large{\textsuperscript{aur˸}leṅ}},
-= {\large{leṅ}},
-\textit{śieṅH};	%0835z
-檉	%cheng1
-{\large{\textsuperscript{arb·}leṅ}},
-\textit{ṭhieṅ};	%0835c'
-\end{itemize}
-\end{itemize}
 }
 
 \pilotentry{%
@@ -2493,7 +2357,7 @@
 \textit{jiəwk};
 \textit{ciəwk};
 䪅	%du2
-{\large{\textsuperscript{cori·}t\textoverset{b}{o}k}},
+{\large{\textsuperscript{cori·}tok}},
 \textit{jiəwk};	%1224l
 \textit{ciəwk};
 髑	%du2
@@ -2514,44 +2378,37 @@
 擉	%chuo4
 {\large{\textsuperscript{man·}tok}},
 \textit{tṣhaewk};	%1224r
-屬	%shu3 / zhu3 / shǔ / zhǔ
+\begin{itemize}[noitemsep]
+\item {\Large{屬}}	%shu3 / zhu3 / shǔ / zhǔ
 {\large{\textsuperscript{尾·}tok}},
+= {\large{t\textoverset{b}{o}k}},
 \textit{jiəwk};	%1224s
 \textit{ciəwk};
 斸	%zhu2
-{\large{tok\textsuperscript{·libra}}},
+{\large{t\textoverset{b}{o}k\textsuperscript{·libra}}},
 \textit{ṭiəwk};	%1224t
 欘	%zhu2
-{\large{\textsuperscript{arb·}tok}},
+{\large{\textsuperscript{arb·}t\textoverset{b}{o}k}},
 \textit{ṭiəwk};	%1224u
 钃	%zhu2
-{\large{\textsuperscript{met·}tok}},
+{\large{\textsuperscript{met·}t\textoverset{b}{o}k}},
 \textit{ṭiəwk};	%1224v
 䠱	%zhu2
-{\large{\textsuperscript{ped·}tok}},
+{\large{\textsuperscript{ped·}t\textoverset{b}{o}k}},
 \textit{ḍiəwk};	%1224x
+\end{itemize}
 }
 
 \pilotentry{%
 \paragraph{\textoversetlarge{12-01}{\huge{工}}}
 {\large{koṅ}},
 \textit{kuwṅ};	%1172a
-鞏	%gong3 / gǒng
-{\large{koṅ\textsuperscript{˸cori}}},
-\textit{kiəwṅX};	%1172c'
 功	%gong1 / gōng
 {\large{koṅ\textsuperscript{·virt}}},
 \textit{kuwṅ};	%1172d
 攻	%gong1 / gōng
 {\large{koṅ\textsuperscript{·fer}}},
 \textit{kuwṅ};	%1172e
-蛩	%qiong2
-{\large{koṅ\textsuperscript{˸serp}}},
-\textit{giəwṅ};	%1172e'
-跫	%qiong2 / qiang1
-{\large{koṅ\textsuperscript{˸ped}}},
-\textit{giəwṅ};	%1172f'
-\textit{khaewṅ};
 貢	%gong4 / gòng
 {\large{koṅ\textsuperscript{˸conch}}},
 \textit{kuwṅH};	%1172g
@@ -2565,9 +2422,6 @@
 訌	%hong2
 {\large{\textsuperscript{dic·}koṅ}},
 \textit{ḫuwṅ};	%1172k
-䲨	%hong2
-{\large{k\textoverset{a}{o}ṅ\textsuperscript{·av}}},
-\textit{ḫuwṅ};	%1172l
 𨾊	%hong2
 {\large{koṅ\textsuperscript{·passer}}},
 \textit{ḫuwṅ};	%1172m
@@ -2584,6 +2438,22 @@
 項	%xiang4 / xiàng
 {\large{koṅ\textsuperscript{·fac}}},
 \textit{haewṅX};	%1172y
+\begin{itemize}[noitemsep]
+\item {\Large{䲨}}	%hong2
+{\large{koṅ\textsuperscript{·av}}},
+= {\large{koṅ}},
+\textit{ḫuwṅ};	%1172l
+鞏	%gong3 / gǒng
+{\large{koṅ\textsuperscript{˸cori}}},
+\textit{kiəwṅX};	%1172c'
+蛩	%qiong2
+{\large{koṅ\textsuperscript{˸serp}}},
+\textit{giəwṅ};	%1172e'
+跫	%qiong2 / qiang1
+{\large{koṅ\textsuperscript{˸ped}}},
+\textit{giəwṅ};	%1172f'
+\textit{khaewṅ};
+\end{itemize}
 \begin{itemize}[noitemsep]
 \item {\Large{空}}	%kong1 / kong4 / kong3 / kōng / kǒng
 {\large{\textsuperscript{cav˸}koṅ}},
@@ -2713,11 +2583,8 @@
 {\large{loṅ}},
 \textit{yiəwṅH};	%1185a
 𢦨	%yong3
-{\large{\textsuperscript{hallebard·}l\textoverset{b}{o}ṅ}},
+{\large{\textsuperscript{hallebard·}loṅ}},
 \textit{yiəwṅX};	%1185f
-俑	%yong3 / yǒng
-{\large{\textsuperscript{hom·}loṅ}},
-\textit{yiəwṅX};	%1185j
 \begin{itemize}[noitemsep]
 \item {\Large{甬}}	%yong3
 {\large{\textsuperscript{龴˸}loṅ}},
@@ -2748,6 +2615,32 @@
 {\large{\textsuperscript{bamb˸}loṅ}},
 \textit{duwṅ};	%1185t
 \begin{itemize}[noitemsep]
+\item {\Large{俑}}	%yong3 / yǒng
+{\large{\textsuperscript{hom·}loṅ}},
+= {\large{l\textoverset{b}{o}ṅ}},
+\textit{yiəwṅX};	%1185j
+\begin{itemize}[noitemsep]
+\item {\Large{庸}}	%yong1
+{\large{\textsuperscript{庚·}l\textoverset{b}{o}ṅ}},
+= {\large{l\textoverset{b}{o}ṅ}},
+\textit{yiəwṅ};	%1185x
+鏞	%yong1
+{\large{\textsuperscript{met·}l\textoverset{b}{o}ṅ}},
+\textit{yiəwṅ};	%1185a'
+墉	%yong1
+{\large{\textsuperscript{terr·}l\textoverset{b}{o}ṅ}},
+\textit{yiəwṅ};	%1185z
+\begin{itemize}[noitemsep]
+\item {\Large{傭}}	%chong1 / yong1 / yōng
+{\large{\textsuperscript{hom·}l\textoverset{b}{o}ṅ}},
+= {\large{l\textoverset{b}{o}ṅ}},
+\textit{ṭhiəwṅ};	%1185y
+\textit{yiəwṅ};
+用	%yong4 / yòng
+{\large{l\textoverset{b}{o}ṅ}},
+\textit{yiəwṅH};	%1185a
+\end{itemize}
+\end{itemize}
 \item {\Large{勇}}	%yong3 / yǒng
 {\large{loṅ\textsuperscript{˸virt}}},
 = {\large{l\textoverset{b}{o}ṅ}},
@@ -2756,20 +2649,6 @@
 {\large{\textsuperscript{aq·}l\textoverset{b}{o}ṅ}},
 \textit{yiəwṅX};	%1185u
 \end{itemize}
-\item {\Large{庸}}	%yong1
-{\large{\textsuperscript{庚·}loṅ}},
-= {\large{l\textoverset{b}{o}ṅ}},
-\textit{yiəwṅ};	%1185x
-鏞	%yong1
-{\large{\textsuperscript{met·}l\textoverset{b}{o}ṅ}},
-\textit{yiəwṅ};	%1185a'
-傭	%chong1 / yong1 / yōng
-{\large{\textsuperscript{hom·}l\textoverset{b}{o}ṅ}},
-\textit{ṭhiəwṅ};	%1185y
-\textit{yiəwṅ};
-墉	%yong1
-{\large{\textsuperscript{terr·}l\textoverset{b}{o}ṅ}},
-\textit{yiəwṅ};	%1185z
 \end{itemize}
 }
 
@@ -2777,42 +2656,20 @@
 \paragraph{\textoversetlarge{12-25}{\huge{丰}}}
 {\large{poṅ}},
 \textit{phiəwṅ};	%1197a
-捧	%feng3
-{\large{\textsuperscript{man·}poṅ}},
-\textit{phiəwṅX};	%1197b'
 蚌	%bang4 / bàng
 {\large{\textsuperscript{serp·}poṅ}},
 \textit{baewṅX};	%1197d
-唪	%beng3
-{\large{\textsuperscript{or·}poṅ}},
-\textit{buwṅX};	%1197d'
-\textit{puwṅX};
 邦	%bang1 / bāng
 {\large{poṅ\textsuperscript{·urb}}},
 \textit{paewṅ};	%1197e
-琫	%beng3
-{\large{\textsuperscript{gem·}poṅ}},
-\textit{puwṅX};	%1197e'
-菶	%beng3
-{\large{\textsuperscript{herb˸}poṅ}},
-\textit{puwṅX};	%1197f'
-蜯	%bang4 / bàng
-{\large{\textsuperscript{serp·}poṅ}},
-\textit{baewṅX};	%1197g'
-葑	%feng1
-{\large{\textsuperscript{herb˸}poṅ}},
-\textit{phiəwṅ};	%1197k
-𢓱	%feng2
-{\large{\textsuperscript{eo·}poṅ}},
-\textit{biəwṅ};	%1197p
-摓	%feng2
-{\large{\textsuperscript{man·}poṅ}},
-\textit{biəwṅ};	%1197v
 \begin{itemize}[noitemsep]
 \item {\Large{封}}	%feng1 / fēng
 {\large{poṅ}},
 = {\large{poṅ}},
 \textit{piəwṅ};	%1197i
+葑	%feng1
+{\large{\textsuperscript{herb˸}poṅ}},
+\textit{phiəwṅ};	%1197k
 䋽	%beng3
 {\large{\textsuperscript{ser·}poṅ}},
 \textit{paewṅX};	%1197l
@@ -2822,6 +2679,9 @@
 = {\large{poṅ}},
 \textit{biəwṅ};	%1197m
 \textit{phiəwṅ};
+𢓱	%feng2
+{\large{\textsuperscript{eo·}poṅ}},
+\textit{biəwṅ};	%1197p
 烽	%feng1
 {\large{\textsuperscript{ign·}poṅ}},
 \textit{phiəwṅ};	%1197r
@@ -2840,6 +2700,9 @@
 = {\large{poṅ}},
 \textit{biəwṅ};	%1197o
 \textit{buwṅ};
+摓	%feng2
+{\large{\textsuperscript{man·}poṅ}},
+\textit{biəwṅ};	%1197v
 縫	%feng2 / feng4 / féng / fèng
 {\large{\textsuperscript{ser·}poṅ}},
 \textit{biəwṅ};	%1197x
@@ -2850,12 +2713,28 @@
 \end{itemize}
 \item {\Large{奉}}	%feng4 / fèng
 {\large{poṅ\textsuperscript{˸廾}}},
-= {\large{p\textoverset{b}{o}ṅ}},
+= {\large{poṅ}},
 \textit{biəwṅX};	%1197z
 \textit{phiəwṅX};
+捧	%feng3
+{\large{\textsuperscript{man·}poṅ}},
+\textit{phiəwṅX};	%1197b'
 俸	%feng4
-{\large{\textsuperscript{hom·}p\textoverset{b}{o}ṅ}},
+{\large{\textsuperscript{hom·}poṅ}},
 \textit{biəwṅH};	%1197c'
+唪	%beng3
+{\large{\textsuperscript{or·}poṅ}},
+\textit{buwṅX};	%1197d'
+\textit{puwṅX};
+琫	%beng3
+{\large{\textsuperscript{gem·}poṅ}},
+\textit{puwṅX};	%1197e'
+菶	%beng3
+{\large{\textsuperscript{herb˸}poṅ}},
+\textit{puwṅX};	%1197f'
+蜯	%bang4 / bàng
+{\large{\textsuperscript{serp·}poṅ}},
+\textit{baewṅX};	%1197g'
 \end{itemize}
 }
 
@@ -2935,45 +2814,15 @@
 \paragraph{\textoversetlarge{13-32}{\huge{攸}}}
 {\large{liw}},
 \textit{yuw};	%1077a
-修	%xiu1 / xiū
-{\large{liw\textsuperscript{·cri}}},
-\textit{siuw};	%1077d
-脩	%xiu1 / you2 / you3 / xiū
-{\large{liw\textsuperscript{·carn}}},
-\textit{siuw};	%1077e
-\textit{yuw};
-\textit{yuwX};
-䩦	%tiao2
-{\large{liw\textsuperscript{˸cori}}},
-\textit{dew};	%1077g
 鋚	%tiao2
 {\large{liw\textsuperscript{˸met}}},
 \textit{dew};	%1077h
 莜	%diao4
 {\large{\textsuperscript{herb˸}liw}},
 \textit{dewH};	%1077k
-翛	%xiao1 / shu4
-{\large{liw\textsuperscript{·plum}}},
-\textit{sew};	%1077l
-\textit{śiuwk};
 焂	%shu2
 {\large{liw\textsuperscript{˸ign}}},
 \textit{jiuwk};	%1077m
-儵	%shu1
-{\large{liw\textsuperscript{·niger}}},
-\textit{jiuwk};	%1077o
-倏	%shu1 / shū
-{\large{liw\textsuperscript{·can}}},
-\textit{jiuwk};	%1077p
-滫	%xiu3
-{\large{\textsuperscript{aq·}liw}},
-\textit{siuwX};	%1077r
-蓨	%ti1
-{\large{\textsuperscript{herb˸}liw}},
-\textit{thek};	%1077s
-蓧	%di2
-{\large{\textsuperscript{herb˸}liw}},
-\textit{dek};	%1077v
 \begin{itemize}[noitemsep]
 \item {\Large{悠}}	%you1 / yōu
 {\large{liw\textsuperscript{˸cor}}},
@@ -2982,6 +2831,40 @@
 滺	%you2
 {\large{\textsuperscript{aq·}liw}},
 \textit{yuw};	%1077q
+\item {\Large{䩦}}	%tiao2
+{\large{liw\textsuperscript{˸cori}}},
+= {\large{liw}},
+\textit{dew};	%1077g
+翛	%xiao1 / shu4
+{\large{liw\textsuperscript{·plum}}},
+\textit{sew};	%1077l
+\textit{śiuwk};
+儵	%shu1
+{\large{liw\textsuperscript{·niger}}},
+\textit{jiuwk};	%1077o
+倏	%shu1 / shū
+{\large{liw\textsuperscript{·can}}},
+\textit{jiuwk};	%1077p
+\begin{itemize}[noitemsep]
+\item {\Large{修}}	%xiu1 / xiū
+{\large{liw\textsuperscript{·cri}}},
+= {\large{liw}},
+\textit{siuw};	%1077d
+攸	%you1 / yōu
+{\large{liw}},
+\textit{yuw};	%1077a
+\item {\Large{脩}}	%xiu1 / you2 / you3 / xiū
+{\large{liw\textsuperscript{·carn}}},
+= {\large{liw}},
+\textit{siuw};	%1077e
+\textit{yuw};
+\textit{yuwX};
+滫	%xiu3
+{\large{\textsuperscript{aq·}liw}},
+\textit{siuwX};	%1077r
+蓨	%ti1
+{\large{\textsuperscript{herb˸}liw}},
+\textit{thek};	%1077s
 \item {\Large{條}}	%tiao2 / tiáo
 {\large{liw\textsuperscript{·arb}}},
 = {\large{liw}},
@@ -2993,9 +2876,13 @@
 篠	%xiao3
 {\large{\textsuperscript{bamb˸}liw}},
 \textit{sewX};	%1077u
+蓧	%di2
+{\large{\textsuperscript{herb˸}liw}},
+\textit{dek};	%1077v
 滌	%di2 / dí
 {\large{\textsuperscript{aq·}liw}},
 \textit{dek};	%1077x
+\end{itemize}
 \end{itemize}
 }
 
@@ -3086,56 +2973,29 @@
 {\large{\textsuperscript{cav˸}mu}},
 \textit{kaewH};	%1114i
 \textit{phaewH};
-貿	%mao4
-{\large{mu\textsuperscript{˸conch}}},
-\textit{miuwH};	%1114j
-\textit{muwH};
-柳	%liu3 / liǔ
+駠	%liu2
+{\large{\textsuperscript{equ·}mu}},
+\textit{liuw};	%1114s
+聊	%liao2 / liáo
+{\large{\textsuperscript{aur·}mu}},
+\textit{lew};	%1114u
+\begin{itemize}[noitemsep]
+\item {\Large{柳}}	%liu3 / liǔ
 {\large{\textsuperscript{arb·}mu}},
+= {\large{mu}},
 \textit{liuwX};	%1114l
-桺	%liu3
+\begin{itemize}[noitemsep]
+\item {\Large{桺}}	%liu3
 {\large{\textsuperscript{arb·}mu}},
+= {\large{mu}},
 \textit{liuwX};	%1114m
 畱	%liu2
 {\large{mu\textsuperscript{˸ager}}},
 \textit{liuw};	%1114q
-駠	%liu2
-{\large{\textsuperscript{equ·}mu}},
-\textit{liuw};	%1114s
 駵	%liu2
 {\large{\textsuperscript{equ·}mu}},
 \textit{liuw};	%1114t
-聊	%liao2 / liáo
-{\large{\textsuperscript{aur·}mu}},
-\textit{lew};	%1114u
-罶	%liu3
-{\large{\textsuperscript{nass˸}mu}},
-\textit{liuwX};	%1114x
-\begin{itemize}[noitemsep]
-\item {\Large{劉}}	%liu2 / liú
-{\large{mu}},
-= {\large{mu}},
-\textit{liuw};	%1114a'
-懰	%liu2
-{\large{\textsuperscript{cor·}mu}},
-\textit{liuwX};	%1114b'
-瀏	%liu2
-{\large{\textsuperscript{aq·}mu}},
-\textit{liuw};	%1114c'
-\textit{liuwX};
-\item {\Large{留}}	%liu2 / liú
-{\large{mu\textsuperscript{˸ager}}},
-= {\large{mu}},
-\textit{liuw};	%1114p
-溜	%liu4
-{\large{\textsuperscript{aq·}mu}},
-\textit{liuwH};	%1114v
-霤	%liu4
-{\large{\textsuperscript{pluv˸}mu}},
-\textit{liuwH};	%1114y
-騮	%liu2
-{\large{\textsuperscript{equ·}mu}},
-\textit{liuw};	%1114z
+\end{itemize}
 \end{itemize}
 }
 
@@ -3173,12 +3033,6 @@
 讀	%du2 / dú
 {\large{\textsuperscript{dic·}lok}},
 \textit{duwk};	%1023m
-讟	%du2
-{\large{\textsuperscript{誩·}lok}},
-\textit{duwk};	%1023n
-䢱	%du2
-{\large{\textsuperscript{amb·}lok}},
-\textit{duwk};	%1023o
 韇	%du2
 {\large{\textsuperscript{cori·}lok}},
 \textit{duwk};	%1023q
@@ -3197,19 +3051,21 @@
 藚	%xu4 / xù
 {\large{\textsuperscript{herb˸}lok}},
 \textit{ziəwk};	%1023v
+\begin{itemize}[noitemsep]
+\item {\Large{䢱}}	%du2
+{\large{\textsuperscript{amb·}lok}},
+= {\large{l\textoverset{a}{o}k}},
+\textit{duwk};	%1023o
+讟	%du2
+{\large{\textsuperscript{誩·}l\textoverset{a}{o}k}},
+\textit{duwk};	%1023n
+\end{itemize}
 }
 
 \pilotentry{%
 \paragraph{\textoversetlarge{14-18}{\huge{尗}}}
 {\large{tuk}},
 \textit{śiuwk};	%1031a
-椒	%jiao1 / jiāo
-{\large{\textsuperscript{arb·}tuk}},
-\textit{tsew};	%1031q
-\textit{tsiew};
-蔋	%di2
-{\large{\textsuperscript{herb˸}tuk}},
-\textit{dek};	%1031s
 \begin{itemize}[noitemsep]
 \item {\Large{叔}}	%shu1 / shū
 {\large{tuk\textsuperscript{·dextr}}},
@@ -3237,33 +3093,43 @@
 惄	%ni4
 {\large{tuk\textsuperscript{˸cor}}},
 \textit{nek};	%1031p
+椒	%jiao1 / jiāo
+{\large{\textsuperscript{arb·}tuk}},
+\textit{tsew};	%1031q
+\textit{tsiew};
 \item {\Large{戚}}	%qi1 / qī
 {\large{\textsuperscript{secur˸}tuk}},
-= {\large{thik}},
+= {\large{tsik}},
 \textit{tshek};	%1031f
 𣢰	%zu2
-{\large{thik\textsuperscript{·dehab}}},
+{\large{tsik\textsuperscript{·dehab}}},
 \textit{tsiuwk};	%1031e
 踧	%di2 / cu4
-{\large{\textsuperscript{ped·}thik}},
+{\large{\textsuperscript{ped·}tsik}},
 \textit{dek};	%1031k
 \textit{tsiuwk};
 蹙	%cu4
-{\large{thik\textsuperscript{˸ped}}},
+{\large{tsik\textsuperscript{˸ped}}},
 \textit{tsiuwk};	%1031t
-䠞	%cu4
-{\large{\textsuperscript{ped·}thik}},
-\textit{tsiuwk};	%1031u
 顣	%qi1 / cu4
-{\large{thik\textsuperscript{·fac}}},
+{\large{tsik\textsuperscript{·fac}}},
 \textit{tshek};	%1031v
 \textit{tsiuwk};
 慼	%qo1 / qī
-{\large{thik\textsuperscript{˸cor}}},
+{\large{tsik\textsuperscript{˸cor}}},
 \textit{tshek};	%1031x
 鏚	%qi1 / qī
-{\large{\textsuperscript{met·}thik}},
+{\large{\textsuperscript{met·}tsik}},
 \textit{tshek};	%1031y
+\begin{itemize}[noitemsep]
+\item {\Large{䠞}}	%cu4
+{\large{\textsuperscript{ped·}tsik}},
+= {\large{tuk}},
+\textit{tsiuwk};	%1031u
+蔋	%di2
+{\large{\textsuperscript{herb˸}tuk}},
+\textit{dek};	%1031s
+\end{itemize}
 \end{itemize}
 }
 
@@ -3271,12 +3137,8 @@
 \paragraph{\textoversetlarge{16-01}{\huge{高}}}
 {\large{kaw}},
 \textit{kaw};	%1129a
-藃	%xiao1 / hao4
-{\large{\textsuperscript{herb˸}kaw}},
-\textit{haewk};	%1129c'
-\textit{hawH};
 皜	%hao3
-{\large{\textsuperscript{alb·}k\textoverset{a}{a}w}},
+{\large{\textsuperscript{alb·}kaw}},
 \textit{kawX};	%1129d
 暠	%gao3
 {\large{\textsuperscript{sol˸}kaw}},
@@ -3304,10 +3166,6 @@
 鎬	%hao4
 {\large{\textsuperscript{met·}kaw}},
 \textit{ḫawX};	%1129o
-㪣	%qiao4
-{\large{k\textoverset{a}{a}w\textsuperscript{·fer}}},
-\textit{khaew};	%1129s
-\textit{khaewH};
 謞	%xiao4
 {\large{\textsuperscript{dic·}kaw}},
 \textit{haewH};	%1129t
@@ -3323,12 +3181,20 @@
 {\large{\textsuperscript{or·}kaw}},
 \textit{haewk};	%1129x
 \textit{ḫak};
-譹	%hao2
-{\large{\textsuperscript{dic·}kaw}},
-\textit{ḫaw};	%1129z
 稿	%gǎo
 {\large{\textsuperscript{gran·}kaw}},
 \textit{kawX};	%1129f
+\begin{itemize}[noitemsep]
+\item {\Large{㪣}}	%qiao4
+{\large{kaw\textsuperscript{·fer}}},
+= {\large{k\textoverset{a}{a}w}},
+\textit{khaew};	%1129s
+\textit{khaewH};
+藃	%xiao1 / hao4
+{\large{\textsuperscript{herb˸}k\textoverset{a}{a}w}},
+\textit{haewk};	%1129c'
+\textit{hawH};
+\end{itemize}
 \begin{itemize}[noitemsep]
 \item {\Large{槀}}	%gao3 / kao3
 {\large{kaw\textsuperscript{˸arb}}},
@@ -3345,6 +3211,9 @@
 壕	%hao2
 {\large{\textsuperscript{terr·}k\textoverset{a}{a}w}},
 \textit{ḫaw};	%1129y
+譹	%hao2
+{\large{\textsuperscript{dic·}k\textoverset{a}{a}w}},
+\textit{ḫaw};	%1129z
 \item {\Large{蒿}}	%hao1
 {\large{\textsuperscript{herb˸}kaw}},
 = {\large{k\textoverset{a}{a}w}},
@@ -3418,27 +3287,30 @@
 恔	%xiao4
 {\large{\textsuperscript{cor·}kaw}},
 \textit{ḫaewH};	%1166q
-效	%xiao4 / xiào
-{\large{kaw\textsuperscript{·fer}}},
-\textit{ḫaewH};	%1166r
-傚	%xiao4
-{\large{\textsuperscript{hom·}kaw}},
-\textit{ḫaewH};	%1166u
 効	%xiao4
 {\large{kaw\textsuperscript{·virt}}},
 \textit{ḫaewH};	%1166v
 晈	%jiao3
-{\large{\textsuperscript{sol·}k\textoverset{a}{a}w}},
+{\large{\textsuperscript{sol·}kaw}},
 \textit{kewX};	%1166x
 皎	%jiao3
 {\large{\textsuperscript{alb·}kaw}},
 \textit{kewX};	%1166y
 㝔	%yao1
-{\large{\textsuperscript{tect˸}k\textoverset{a}{a}w}},
+{\large{\textsuperscript{tect˸}kaw}},
 \textit{qew};	%1166z
 鉸	%jiǎo
 {\large{\textsuperscript{met·}kaw}},
 \textit{kaewX};	%1166
+\begin{itemize}[noitemsep]
+\item {\Large{效}}	%xiao4 / xiào
+{\large{kaw\textsuperscript{·fer}}},
+= {\large{k\textoverset{a}{a}w}},
+\textit{ḫaewH};	%1166r
+傚	%xiao4
+{\large{\textsuperscript{hom·}k\textoverset{a}{a}w}},
+\textit{ḫaewH};	%1166u
+\end{itemize}
 }
 
 \pilotentry{%
@@ -3522,9 +3394,6 @@
 叨	%tao1
 {\large{\textsuperscript{or·}taw}},
 \textit{thaw};	%1131d
-鞀	%tao2
-{\large{\textsuperscript{cori·}taw}},
-\textit{daw};	%1131e'
 \begin{itemize}[noitemsep]
 \item {\Large{召}}	%zhao4 / shao4 / zhào / shào
 {\large{taw\textsuperscript{˸or}}},
@@ -3543,6 +3412,9 @@
 苕	%tiao2
 {\large{\textsuperscript{herb˸}taw}},
 \textit{dew};	%1131d'
+鞀	%tao2
+{\large{\textsuperscript{cori·}taw}},
+\textit{daw};	%1131e'
 怊	%chao1
 {\large{\textsuperscript{cor·}taw}},
 \textit{ṭhiew};	%1131i
@@ -3677,55 +3549,22 @@
 \paragraph{\textoversetlarge{16-33}{\huge{小}}}
 {\large{sew}},
 \textit{siewX};	%1149a
-筲	%shao1
-{\large{\textsuperscript{bamb˸}sew}},
-\textit{ṣaew};	%1149a'
-揱	%xiao1 / shao1? / shuo4
-{\large{sew\textsuperscript{˸man}}},
-\textit{sew};	%1149d'
-\textit{ṣaew};
-\textit{ṣaewk};
 少	%shao4 / shao3 / shào / shǎo
 {\large{sew\textsuperscript{˸丿}}},
 \textit{śiewH};	%1149e
 \textit{śiewX};
-箾	%xiao1 / shuo4
-{\large{\textsuperscript{bamb˸}sew}},
-\textit{sew};	%1149e'
-\textit{ṣaewk};
-綃	%xiao1
-{\large{\textsuperscript{ser·}sew}},
-\textit{sew};	%1149l
-\textit{siew};
-逍	%xiao1 / xiāo
-{\large{\textsuperscript{amb·}sew}},
-\textit{siew};	%1149m
-俏	%qiao4
-{\large{\textsuperscript{hom·}sew}},
-\textit{tshiewH};	%1149p
-哨	%shao4
-{\large{\textsuperscript{or·}sew}},
-\textit{tshiewH};	%1149q
-誚	%qiao4
-{\large{\textsuperscript{dic·}sew}},
-\textit{dziewH};	%1149t
-捎	%shao1
-{\large{\textsuperscript{man·}sew}},
-\textit{sew};	%1149x
 \begin{itemize}[noitemsep]
 \item {\Large{肖}}	%xiao1 / xiao4 / xiāo / xiào
 {\large{sew\textsuperscript{˸luna}}},
 = {\large{sew}},
 \textit{siew};	%1149g
 \textit{siewH};
+筲	%shao1
+{\large{\textsuperscript{bamb˸}sew}},
+\textit{ṣaew};	%1149a'
 蛸	%shao1
 {\large{\textsuperscript{serp·}sew}},
 \textit{ṣaew};	%1149b'
-削	%xiao1 / xiao4 / shao4 / xiào
-{\large{sew\textsuperscript{·cult}}},
-\textit{siak};	%1149c'
-\textit{siewH};
-\textit{ṣaewH};
 宵	%xiao1 / xiāo
 {\large{\textsuperscript{tect˸}sew}},
 \textit{siew};	%1149h
@@ -3735,28 +3574,64 @@
 痟	%xiao1
 {\large{\textsuperscript{infirm·}sew}},
 \textit{siew};	%1149k
+綃	%xiao1
+{\large{\textsuperscript{ser·}sew}},
+\textit{sew};	%1149l
+\textit{siew};
+逍	%xiao1 / xiāo
+{\large{\textsuperscript{amb·}sew}},
+\textit{siew};	%1149m
 銷	%xiao1
 {\large{\textsuperscript{met·}sew}},
 \textit{siew};	%1149n
 霄	%xiao1 / xiāo
 {\large{\textsuperscript{pluv˸}sew}},
 \textit{siew};	%1149o
+俏	%qiao4
+{\large{\textsuperscript{hom·}sew}},
+\textit{tshiewH};	%1149p
+哨	%shao4
+{\large{\textsuperscript{or·}sew}},
+\textit{tshiewH};	%1149q
 峭	%qiao4
 {\large{\textsuperscript{tum·}sew}},
 \textit{tshiewH};	%1149r
 悄	%qiao3
 {\large{\textsuperscript{cor·}sew}},
 \textit{tshiewX};	%1149s
+誚	%qiao4
+{\large{\textsuperscript{dic·}sew}},
+\textit{dziewH};	%1149t
 趙	%diao4 / zhao4
 {\large{\textsuperscript{curr·}sew}},
 \textit{dewX};	%1149u
 \textit{ḍiewX};
+捎	%shao1
+{\large{\textsuperscript{man·}sew}},
+\textit{sew};	%1149x
 梢	%shao1
 {\large{\textsuperscript{arb·}sew}},
 \textit{ṣaew};	%1149y
 稍	%shao4 / shào
 {\large{\textsuperscript{gran·}sew}},
 \textit{ṣaewH};	%1149z
+\begin{itemize}[noitemsep]
+\item {\Large{削}}	%xiao1 / xiao4 / shao4 / xiào
+{\large{sew\textsuperscript{·cult}}},
+= {\large{sew}},
+\textit{siak};	%1149c'
+\textit{siewH};
+\textit{ṣaewH};
+揱	%xiao1 / shao1? / shuo4
+{\large{sew\textsuperscript{˸man}}},
+\textit{sew};	%1149d'
+\textit{ṣaew};
+\textit{ṣaewk};
+箾	%xiao1 / shuo4
+{\large{\textsuperscript{bamb˸}sew}},
+\textit{sew};	%1149e'
+\textit{ṣaewk};
+\end{itemize}
 \end{itemize}
 }
 
@@ -3869,7 +3744,7 @@
 {\large{\textsuperscript{can·}kar}},
 \textit{ṅanH};	%0139c'
 姧	%gan1
-{\large{\textsuperscript{㚣·}k\textoverset{a}{a}r}},
+{\large{\textsuperscript{㚣·}kar}},
 \textit{kan};	%0139d
 豻	%an4 / àn
 {\large{\textsuperscript{best·}kar}},
@@ -3877,9 +3752,6 @@
 忓	%gan1
 {\large{\textsuperscript{cor·}kar}},
 \textit{kan};	%0139e
-岸	%an4 / àn
-{\large{\textsuperscript{屵˸}kar}},
-\textit{ṅanH};	%0139e'
 旰	%gan4
 {\large{\textsuperscript{sol·}kar}},
 \textit{kanH};	%0139f
@@ -3895,18 +3767,12 @@
 皯	%gan3
 {\large{\textsuperscript{pell·}kar}},
 \textit{kanX};	%0139h
-悍	%han4
-{\large{\textsuperscript{cor·}kar}},
-\textit{ḫanH};	%0139h'
 矸	%gan1
 {\large{\textsuperscript{lap·}kar}},
 \textit{kan};	%0139i
 秆	%gan3 / gǎn
 {\large{\textsuperscript{gran·}kar}},
 \textit{kanX};	%0139j
-睅	%han4
-{\large{\textsuperscript{ocul·}kar}},
-\textit{hwaenX};	%0139j'
 竿	%gan1 / gān
 {\large{\textsuperscript{bamb˸}kar}},
 \textit{kan};	%0139k
@@ -3917,12 +3783,6 @@
 {\large{\textsuperscript{ed·}kar}},
 \textit{kan};	%0139m
 \textit{kiən};
-刊	%kan1
-{\large{kar\textsuperscript{·cult}}},
-\textit{khan};	%0139n
-栞	%kan1
-{\large{kar\textsuperscript{˸arb}}},
-\textit{khan};	%0139o
 衎	%kan4
 {\large{\textsuperscript{eo·}kar}},
 \textit{khanH};	%0139p
@@ -3946,13 +3806,29 @@
 {\large{\textsuperscript{port˸}kar}},
 \textit{hanH};	%0139z
 \begin{itemize}[noitemsep]
+\item {\Large{刊}}	%kan1
+{\large{kar\textsuperscript{·cult}}},
+= {\large{k\textoverset{a}{a}r}},
+\textit{khan};	%0139n
+岸	%an4 / àn
+{\large{\textsuperscript{屵˸}k\textoverset{a}{a}r}},
+\textit{ṅanH};	%0139e'
+栞	%kan1
+{\large{k\textoverset{a}{a}r\textsuperscript{˸arb}}},
+\textit{khan};	%0139o
 \item {\Large{旱}}	%han4 / hàn
 {\large{\textsuperscript{sol˸}kar}},
 = {\large{k\textoverset{a}{a}r}},
 \textit{hanX};	%0139s
+悍	%han4
+{\large{\textsuperscript{cor·}k\textoverset{a}{a}r}},
+\textit{ḫanH};	%0139h'
 捍	%han4
 {\large{\textsuperscript{man·}k\textoverset{a}{a}r}},
 \textit{hanH};	%0139i'
+睅	%han4
+{\large{\textsuperscript{ocul·}k\textoverset{a}{a}r}},
+\textit{hwaenX};	%0139j'
 \end{itemize}
 }
 
@@ -3979,10 +3855,6 @@
 僤	%dan3
 {\large{\textsuperscript{hom·}tar}},
 \textit{tanX};	%0147e
-鼉	%tuo2
-{\large{tar\textsuperscript{˸黽}}},
-\textit{da};	%0147e'
-\textit{dan};
 匰	%dan1
 {\large{\textsuperscript{匚·}tar}},
 \textit{tan};	%0147f
@@ -4017,9 +3889,6 @@
 憚	%dan4
 {\large{\textsuperscript{cor·}tar}},
 \textit{danH};	%0147o
-㺗	%chan1
-{\large{\textsuperscript{can·}tar}},
-\textit{ṭhean};	%0147p
 戰	%zhan4 / zhàn
 {\large{tar\textsuperscript{·hallebard}}},
 \textit{cienH};	%0147r
@@ -4046,6 +3915,16 @@
 蟬	%chan2 / chán
 {\large{\textsuperscript{serp·}tar}},
 \textit{jien};	%0147z
+\begin{itemize}[noitemsep]
+\item {\Large{㺗}}	%chan1
+{\large{\textsuperscript{can·}tar}},
+= {\large{t\textoverset{a}{a}r}},
+\textit{ṭhean};	%0147p
+鼉	%tuo2
+{\large{t\textoverset{a}{a}r\textsuperscript{˸黽}}},
+\textit{da};	%0147e'
+\textit{dan};
+\end{itemize}
 }
 
 \pilotentry{%
@@ -4090,10 +3969,6 @@
 氈	%zhan1 / zhān
 {\large{tan\textsuperscript{·pil}}},
 \textit{cien};	%0148l
-饘	%zhan1 / zhān
-{\large{\textsuperscript{ed·}tan}},
-\textit{cien};	%0148m
-\textit{cienX};
 鸇	%zhan1 / zhān
 {\large{tan\textsuperscript{·av}}},
 \textit{cien};	%0148n
@@ -4112,9 +3987,16 @@
 顫	%shan1
 {\large{tan\textsuperscript{·fac}}},
 \textit{śien};	%0148s
-羴	%shān
+\begin{itemize}[noitemsep]
+\item {\Large{羴}}	%shān
 {\large{tan}},
+= {\large{t\textoverset{b}{a}n}},
 \textit{syen};	%0148q
+饘	%zhan1 / zhān
+{\large{\textsuperscript{ed·}t\textoverset{b}{a}n}},
+\textit{cien};	%0148m
+\textit{cienX};
+\end{itemize}
 }
 
 \pilotentry{%
@@ -4206,13 +4088,16 @@
 {\large{\textsuperscript{carn·}ʔor}},
 \textit{qwanH};	%0260n
 椀	%wan3
-{\large{\textsuperscript{arb·}qor}},
+{\large{\textsuperscript{arb·}ʔor}},
 \textit{qwanX};	%0260o
 \begin{itemize}[noitemsep]
 \item {\Large{夗}}	%wǎn
 {\large{ʔor}},
 = {\large{qor}},
 \textit{'jwonX};	%0260a
+宛	%wan3 / wǎn
+{\large{\textsuperscript{tect˸}qor}},
+\textit{qiwənX};	%0260b
 怨	%yuan4 / yuàn
 {\large{qor\textsuperscript{˸cor}}},
 \textit{qiwən};	%0260c
@@ -4250,15 +4135,6 @@
 𩜌	%yu4
 {\large{\textsuperscript{ed·}qor}},
 \textit{qiut};	%0260r
-\begin{itemize}[noitemsep]
-\item {\Large{宛}}	%wan3 / wǎn
-{\large{\textsuperscript{tect˸}qor}},
-= {\large{qor}},
-\textit{qiwənX};	%0260b
-椀	%wan3
-{\large{\textsuperscript{arb·}qor}},
-\textit{qwanX};	%0260o
-\end{itemize}
 \end{itemize}
 }
 
@@ -4297,20 +4173,6 @@
 翫	%wan4 / wàn
 {\large{\textsuperscript{習·}ṅon}},
 \textit{ṅwanH};	%0257l
-輐	%wan4
-{\large{\textsuperscript{vehic·}ṅon}},
-\textit{hwanH};	%0257p
-\textit{ṅwanH};
-\textit{ṅwanX};
-筦	%guan3 / guǎn
-{\large{\textsuperscript{bamb˸}ṅon}},
-\textit{kwanX};	%0257r
-梡	%kuan3
-{\large{\textsuperscript{arb·}ṅon}},
-\textit{khwanX};	%0257s
-睆	%huan3
-{\large{\textsuperscript{ocul·}ṅon}},
-\textit{hwaenX};	%0257t
 \begin{itemize}[noitemsep]
 \item {\Large{完}}	%wan2 / wán
 {\large{\textsuperscript{tect˸}ṅon}},
@@ -4322,9 +4184,23 @@
 浣	%huan4
 {\large{\textsuperscript{aq·}ṅon}},
 \textit{hwanX};	%0257o
+輐	%wan4
+{\large{\textsuperscript{vehic·}ṅon}},
+\textit{hwanH};	%0257p
+\textit{ṅwanH};
+\textit{ṅwanX};
 莞	%guan1
 {\large{\textsuperscript{herb˸}ṅon}},
 \textit{kwan};	%0257q
+筦	%guan3 / guǎn
+{\large{\textsuperscript{bamb˸}ṅon}},
+\textit{kwanX};	%0257r
+梡	%kuan3
+{\large{\textsuperscript{arb·}ṅon}},
+\textit{khwanX};	%0257s
+睆	%huan3
+{\large{\textsuperscript{ocul·}ṅon}},
+\textit{hwaenX};	%0257t
 院	%yuan4 / yuàn
 {\large{\textsuperscript{tum·}ṅon}},
 \textit{ḫiwenH};	%0257u
@@ -4344,9 +4220,6 @@
 \textit{tey};	%0590d
 \textit{teyH};
 \textit{teyX};
-低	%di1
-{\large{\textsuperscript{hom·}tiy}},
-\textit{tey};	%0590e
 弤	%di3
 {\large{\textsuperscript{arc·}tiy}},
 \textit{teyX};	%0590f
@@ -4385,13 +4258,26 @@
 {\large{\textsuperscript{ocul·}tiy}},
 \textit{jiyH};	%0590q
 \textit{jiyX};
-眂	%shi4
-{\large{\textsuperscript{ocul·}tiy}},
-\textit{jiyH};	%0590r
-\textit{jiyX};
 鴟	%chi1 / chī
 {\large{tiy\textsuperscript{·av}}},
 \textit{chiy};	%0590s
+\begin{itemize}[noitemsep]
+\item {\Large{低}}	%di1
+{\large{\textsuperscript{hom·}tiy}},
+= {\large{tiy}},
+\textit{tey};	%0590e
+\begin{itemize}[noitemsep]
+\item {\Large{眂}}	%shi4
+{\large{\textsuperscript{ocul·}tiy}},
+= {\large{tiy}},
+\textit{jiyH};	%0590r
+\textit{jiyX};
+氐	%di1 / di3 / dī / dǐ
+{\large{tiy}},
+\textit{tey};	%0590a
+\textit{teyX};
+\end{itemize}
+\end{itemize}
 }
 
 \pilotentry{%
@@ -4515,9 +4401,6 @@
 {\large{\textsuperscript{lax·}piy}},
 \textit{pyiy};	%0566p
 \textit{pyiyH};
-秕	%bi3 / bǐ
-{\large{\textsuperscript{gran·}piy}},
-\textit{pyiyX};	%0566q
 粃	%bi3
 {\large{\textsuperscript{oryz·}piy}},
 \textit{pyiyX};	%0566r
@@ -4550,6 +4433,13 @@
 貔	%pi2 / pí
 {\large{\textsuperscript{best·}piy}},
 \textit{byiy};	%0566h'
+\item {\Large{秕}}	%bi3 / bǐ
+{\large{\textsuperscript{gran·}piy}},
+= {\large{piy}},
+\textit{pyiyX};	%0566q
+匕	%bi3 / bǐ
+{\large{piy}},
+\textit{pyiyH};	%0566a
 \item {\Large{坒}}	%bi4
 {\large{piy\textsuperscript{˸terr}}},
 = {\large{piy}},
@@ -4565,18 +4455,12 @@
 \paragraph{\textoversetlarge{27-08}{\huge{非}}}
 {\large{py}},
 \textit{piɨy};	%0579a
-匪	%fei3 / fěi
-{\large{\textsuperscript{匚·}py}},
-\textit{piɨyX};	%0579c
 扉	%fei1 / fēi
 {\large{\textsuperscript{ost·}py}},
 \textit{piɨy};	%0579d
 棐	%fei3
 {\large{py\textsuperscript{˸arb}}},
 \textit{piɨyX};	%0579e
-篚	%fei3
-{\large{\textsuperscript{bamb˸}py}},
-\textit{piɨyX};	%0579f
 誹	%fei3 / fěi
 {\large{\textsuperscript{dic·}py}},
 \textit{piɨy};	%0579g
@@ -4634,6 +4518,15 @@
 排	%pai2 / pái
 {\large{\textsuperscript{man·}py}},
 \textit{beay};	%0579x
+\begin{itemize}[noitemsep]
+\item {\Large{匪}}	%fei3 / fěi
+{\large{\textsuperscript{匚·}py}},
+= {\large{py}},
+\textit{piɨyX};	%0579c
+篚	%fei3
+{\large{\textsuperscript{bamb˸}py}},
+\textit{piɨyX};	%0579f
+\end{itemize}
 }
 
 \pilotentry{%
@@ -4701,10 +4594,6 @@
 \paragraph{\textoversetlarge{28-11}{\huge{隹}}}
 {\large{tur}},
 \textit{ciwiy};	%0575a
-推	%tui1 / tuī
-{\large{\textsuperscript{man·}tur}},
-\textit{thwəy};	%0575a'
-\textit{chiwiy};
 陮	%dui3
 {\large{\textsuperscript{tum·}tur}},
 \textit{dwəyX};	%0575b'
@@ -4723,13 +4612,6 @@
 騅	%zhui1
 {\large{\textsuperscript{equ·}tur}},
 \textit{ciwiy};	%0575h
-蓷	%tui1
-{\large{\textsuperscript{herb˸}tur}},
-\textit{thwəy};	%0575i'
-\textit{chiwiy};
-漼	%cui3
-{\large{\textsuperscript{aq·}tur}},
-\textit{tshwəyX};	%0575k'
 蜼	%wei4
 {\large{\textsuperscript{serp·}tur}},
 \textit{lwiyX};	%0575q
@@ -4750,15 +4632,27 @@
 {\large{\textsuperscript{terr·}tur}},
 \textit{twəy};	%0575z
 \begin{itemize}[noitemsep]
+\item {\Large{推}}	%tui1 / tuī
+{\large{\textsuperscript{man·}tur}},
+= {\large{tur}},
+\textit{thwəy};	%0575a'
+\textit{chiwiy};
+蓷	%tui1
+{\large{\textsuperscript{herb˸}tur}},
+\textit{thwəy};	%0575i'
+\textit{chiwiy};
 \item {\Large{崔}}	%cui1 / cuī
 {\large{\textsuperscript{mon˸}tur}},
-= {\large{tur}},
+= {\large{tsuy}},
 \textit{dzwəy};	%0575d'
 催	%cui1 / cuī
-{\large{\textsuperscript{hom·}tur}},
+{\large{\textsuperscript{hom·}tsuy}},
 \textit{tshwəy};	%0575j'
+漼	%cui3
+{\large{\textsuperscript{aq·}tsuy}},
+\textit{tshwəyX};	%0575k'
 摧	%cui1
-{\large{\textsuperscript{man·}tur}},
+{\large{\textsuperscript{man·}tsuy}},
 \textit{dzwəy};	%0575l'
 \item {\Large{唯}}	%cui3? / wei2 / wei3
 {\large{\textsuperscript{or·}tur}},
@@ -4807,10 +4701,6 @@
 讄	%lei3
 {\large{\textsuperscript{dic·}roy}},
 \textit{lwiyX};	%0577h
-儡	%lei3
-{\large{\textsuperscript{hom·}roy}},
-\textit{lwəy};	%0577j
-\textit{lwəyX};
 礨	%lei3
 {\large{roy\textsuperscript{˸lap}}},
 \textit{lwəyX};	%0577k
@@ -4820,15 +4710,6 @@
 靁	%lei2 / léi
 {\large{\textsuperscript{pluv˸}roy}},
 \textit{lwəy};	%0577n
-雷	%lei2 / léi
-{\large{\textsuperscript{pluv˸}roy}},
-\textit{lwəy};	%0577o
-虆	%lei2
-{\large{\textsuperscript{herb˸}roy}},
-\textit{lwa};	%0577q
-縲	%lei2
-{\large{\textsuperscript{ser·}roy}},
-\textit{lwiy};	%0577s
 \begin{itemize}[noitemsep]
 \item {\Large{纍}}	%lei2
 {\large{roy\textsuperscript{˸ser}}},
@@ -4840,18 +4721,34 @@
 儽	%lei3 / lèi
 {\large{\textsuperscript{hom·}roy}},
 \textit{lwəyH};	%0577p
+虆	%lei2
+{\large{\textsuperscript{herb˸}roy}},
+\textit{lwa};	%0577q
+\item {\Large{儡}}	%lei3
+{\large{\textsuperscript{hom·}roy}},
+= {\large{roy}},
+\textit{lwəy};	%0577j
+\textit{lwəyX};
+雷	%lei2 / léi
+{\large{\textsuperscript{pluv˸}roy}},
+\textit{lwəy};	%0577o
+\begin{itemize}[noitemsep]
 \item {\Large{累}}	%lei4 / lei3 / luo3 / lěi
-{\large{roy}},
+{\large{roy\textsuperscript{˸ser}}},
 = {\large{roy}},
 \textit{liweH};	%0577r
 \textit{liweX};
 \textit{lwaX};
+縲	%lei2
+{\large{\textsuperscript{ser·}roy}},
+\textit{lwiy};	%0577s
 騾	%luo2
 {\large{\textsuperscript{equ·}roy}},
 \textit{lwa};	%0577t
 螺	%luó
 {\large{\textsuperscript{serp·}roy}},
 \textit{lwa};	%577
+\end{itemize}
 \end{itemize}
 }
 
@@ -4898,12 +4795,6 @@
 閟	%bi4
 {\large{\textsuperscript{port˸}pit}},
 \textit{piyH};	%0405n
-𥁑	%mi4 / mì
-{\large{pit\textsuperscript{˸vas}}},
-\textit{myit};	%0405s
-謐	%mi4 / mì
-{\large{\textsuperscript{dic·}pit}},
-\textit{myit};	%0405t
 邲	%bì
 {\large{pit\textsuperscript{·urb}}},
 \textit{bit};	%405
@@ -4919,6 +4810,13 @@
 蜜	%mi4 / mì
 {\large{mit\textsuperscript{˸serp}}},
 \textit{myit};	%0405r
+\item {\Large{𥁑}}	%mi4 / mì
+{\large{pit\textsuperscript{˸vas}}},
+= {\large{mit}},
+\textit{myit};	%0405s
+謐	%mi4 / mì
+{\large{\textsuperscript{dic·}mit}},
+\textit{myit};	%0405t
 \end{itemize}
 }
 
@@ -5020,55 +4918,14 @@
 {\large{\textsuperscript{ocul·}miṅ}},
 \textit{men};	%0457e
 \textit{menX};
-敃	%min3
+\begin{itemize}[noitemsep]
+\item {\Large{敃}}	%min3
 {\large{miṅ\textsuperscript{·fer}}},
+= {\large{miṅ}},
 \textit{minX};	%0457g
 愍	%min3
 {\large{miṅ\textsuperscript{˸cor}}},
 \textit{minX};	%0457z
-\begin{itemize}[noitemsep]
-\item {\Large{昏}}	%hun1 / hūn
-{\large{miṅ}},
-= {\large{miṅ}},
-\textit{hwon};	%0457k
-痻	%min2
-{\large{\textsuperscript{infirm·}miṅ}},
-\textit{menX};	%0457f, 0457r
-\textit{mwon};
-\textit{min};
-\textit{hwon};
-婚	%hun1
-{\large{\textsuperscript{fem·}miṅ}},
-\textit{hwon};	%0457m
-惛	%hun1
-{\large{\textsuperscript{cor·}miṅ}},
-\textit{hwon};	%0457n
-惽	%hun1
-{\large{\textsuperscript{cor·}miṅ}},
-\textit{hwon};	%0457o
-涽	%hun1
-{\large{\textsuperscript{aq·}miṅ}},
-\textit{hwon};	%0457p
-閽	%hun1
-{\large{\textsuperscript{port˸}miṅ}},
-\textit{hwon};	%0457q
-㨉	%min3
-{\large{\textsuperscript{man·}miṅ}},
-\textit{min};	%0457t
-瑉	%min2
-{\large{\textsuperscript{gem·}miṅ}},
-\textit{min};	%0457u
-緡	%min2 / min3 / mín
-{\large{\textsuperscript{ser·}miṅ}},
-\textit{min};	%0457x
-\textit{minX};
-暋	%min2 / min3 / hun1
-{\large{miṅ\textsuperscript{˸sol}}},
-\textit{min};	%0457y
-\textit{minX};
-\textit{hwon};
-\end{itemize}
-\begin{itemize}[noitemsep]
 \item {\Large{昬}}	%hun1
 {\large{miṅ\textsuperscript{˸sol}}},
 = {\large{miṅ}},
@@ -5208,10 +5065,6 @@
 逡	%xun4
 {\large{\textsuperscript{amb·}lur}},
 \textit{swinH};	%0468r
-㕙	%jun4
-{\large{lur\textsuperscript{·兔}}},
-\textit{tshwin};	%0468s
-\textit{tswinH};
 俊	%jun4
 {\large{\textsuperscript{hom·}lur}},
 \textit{tswinH};	%0468t
@@ -5231,167 +5084,23 @@
 峻	%jun4
 {\large{\textsuperscript{mon·}lur}},
 \textit{swinH};	%0468z
+\begin{itemize}[noitemsep]
+\item {\Large{㕙}}	%jun4
+{\large{lur\textsuperscript{·兔}}},
+= {\large{lur}},
+\textit{tshwin};	%0468s
+\textit{tswinH};
+允	%yun3 / yǔn
+{\large{lur}},
+\textit{yiwinX};	%0468a
+\end{itemize}
 \end{itemize}
 }
 
 \pilotentry{%
-\paragraph{\textoversetlarge{35-01}{\huge{去}}}
-{\large{ka}},
-\textit{khiəH};	%0642a
-\textit{khiəX};
-祛	%qu1
-{\large{\textsuperscript{spirit·}ka}},
-\textit{khiə};	%0642d
-袪	%qu1
-{\large{\textsuperscript{vest·}ka}},
-\textit{khiə};	%0642e
-麮	%qu4
-{\large{\textsuperscript{麥·}ka}},
-\textit{khiəH};	%0642f
-\textit{khiəX};
-劫	%jie2 / jié
-{\large{ka\textsuperscript{·virt}}},
+\paragraph{\textoversetlarge{35-21}{\huge{劫}}}
+{\large{kap}},
 \textit{kiaep};	%0642h
-刧	%jie2
-{\large{ka\textsuperscript{·cult}}},
-\textit{kiaep};	%0642i
-\begin{itemize}[noitemsep]
-\item {\Large{盇}}	%he2
-{\large{ka\textsuperscript{˸vas}}},
-= {\large{k\textoverset{a}{a}}},
-\textit{hap};	%0642o
-葢	%he2 / gai4
-{\large{\textsuperscript{herb˸}k\textoverset{a}{a}}},
-\textit{hap};	%0642r
-\textit{kayH};
-\end{itemize}
-\begin{itemize}[noitemsep]
-\item {\Large{盍}}	%he2 / hé
-{\large{ka\textsuperscript{˸vas}}},
-= {\large{ka}},
-\textit{hap};	%0642n
-呿	%qu1
-{\large{\textsuperscript{or·}ka}},
-\textit{khiə};	%0642c
-\textit{khiəH};
-胠	%qu1
-{\large{\textsuperscript{luna·}ka}},
-\textit{khiaep};	%0642g
-\textit{khiə};
-怯	%qie4
-{\large{\textsuperscript{cor·}ka}},
-\textit{khiaep};	%0642j
-法	%fa3 / fǎ
-{\large{\textsuperscript{aq·}ka}},
-\textit{piəp};	%0642k
-灋	%fa3 / fǎ
-{\large{\textsuperscript{aq·}ka}},
-\textit{piəp};	%0642l
-嗑	%he2
-{\large{\textsuperscript{or·}ka}},
-\textit{xaep};	%0642p
-蓋	%he2 / gai4 / gài
-{\large{\textsuperscript{herb˸}ka}},
-\textit{hap};	%0642q
-\textit{kayH};
-闔	%he2
-{\large{\textsuperscript{port˸}ka}},
-\textit{hap};	%0642s
-榼	%ke4
-{\large{\textsuperscript{arb·}ka}},
-\textit{khap};	%0642t
-溘	%ke4
-{\large{\textsuperscript{aq·}ka}},
-\textit{khap};	%0642u
-\textit{khop};
-磕	%ke1
-{\large{\textsuperscript{lap·}ka}},
-\textit{khaeyH};	%0642v
-\textit{khap};
-饁	%ye4
-{\large{\textsuperscript{ed·}ka}},
-\textit{hiep};	%0642x
-\end{itemize}
-}
-
-\pilotentry{%
-\paragraph{\textoversetlarge{35-21}{\huge{去}}}
-{\large{ka}},
-\textit{khiəH};	%0642a
-\textit{khiəX};
-祛	%qu1
-{\large{\textsuperscript{spirit·}ka}},
-\textit{khiə};	%0642d
-袪	%qu1
-{\large{\textsuperscript{vest·}ka}},
-\textit{khiə};	%0642e
-麮	%qu4
-{\large{\textsuperscript{麥·}ka}},
-\textit{khiəH};	%0642f
-\textit{khiəX};
-劫	%jie2 / jié
-{\large{ka\textsuperscript{·virt}}},
-\textit{kiaep};	%0642h
-刧	%jie2
-{\large{ka\textsuperscript{·cult}}},
-\textit{kiaep};	%0642i
-\begin{itemize}[noitemsep]
-\item {\Large{盇}}	%he2
-{\large{ka\textsuperscript{˸vas}}},
-= {\large{k\textoverset{a}{a}}},
-\textit{hap};	%0642o
-葢	%he2 / gai4
-{\large{\textsuperscript{herb˸}k\textoverset{a}{a}}},
-\textit{hap};	%0642r
-\textit{kayH};
-\end{itemize}
-\begin{itemize}[noitemsep]
-\item {\Large{盍}}	%he2 / hé
-{\large{ka\textsuperscript{˸vas}}},
-= {\large{ka}},
-\textit{hap};	%0642n
-呿	%qu1
-{\large{\textsuperscript{or·}ka}},
-\textit{khiə};	%0642c
-\textit{khiəH};
-胠	%qu1
-{\large{\textsuperscript{luna·}ka}},
-\textit{khiaep};	%0642g
-\textit{khiə};
-怯	%qie4
-{\large{\textsuperscript{cor·}ka}},
-\textit{khiaep};	%0642j
-法	%fa3 / fǎ
-{\large{\textsuperscript{aq·}ka}},
-\textit{piəp};	%0642k
-灋	%fa3 / fǎ
-{\large{\textsuperscript{aq·}ka}},
-\textit{piəp};	%0642l
-嗑	%he2
-{\large{\textsuperscript{or·}ka}},
-\textit{xaep};	%0642p
-蓋	%he2 / gai4 / gài
-{\large{\textsuperscript{herb˸}ka}},
-\textit{hap};	%0642q
-\textit{kayH};
-闔	%he2
-{\large{\textsuperscript{port˸}ka}},
-\textit{hap};	%0642s
-榼	%ke4
-{\large{\textsuperscript{arb·}ka}},
-\textit{khap};	%0642t
-溘	%ke4
-{\large{\textsuperscript{aq·}ka}},
-\textit{khap};	%0642u
-\textit{khop};
-磕	%ke1
-{\large{\textsuperscript{lap·}ka}},
-\textit{khaeyH};	%0642v
-\textit{khap};
-饁	%ye4
-{\large{\textsuperscript{ed·}ka}},
-\textit{hiep};	%0642x
-\end{itemize}
 }
 
 \pilotentry{%
@@ -5401,12 +5110,6 @@
 𩃬	%yin1
 {\large{\textsuperscript{雲˸}kym}},
 \textit{qim};	%0651a'
-廕	%yin4
-{\large{\textsuperscript{lax·}kym}},
-\textit{qimH};	%0651c'
-紟	%jin4
-{\large{\textsuperscript{ser·}kym}},
-\textit{gimH};	%0651f
 衿	%qin4 / jin1
 {\large{\textsuperscript{vest·}kym}},
 \textit{gimH};	%0651g
@@ -5414,22 +5117,10 @@
 衾	%qin1 / qīn
 {\large{kym\textsuperscript{˸vest}}},
 \textit{khim};	%0651h
-韽	%an1
-{\large{kym\textsuperscript{·音}}},
-\textit{qom};	%0651h'
 坅	%qin3
 {\large{\textsuperscript{terr·}kym}},
 \textit{khimX};	%0651i
 \textit{ṅimX};
-㱃	%yin3
-{\large{kym\textsuperscript{·dehab}}},
-\textit{qimX};	%0651i'
-㜝	%an3
-{\large{\textsuperscript{fem·}kym}},
-\textit{ṅomX};	%0651k'
-唅	%han2 / hán
-{\large{\textsuperscript{or·}kym}},
-\textit{hom};	%0651m'
 芩	%qin2
 {\large{\textsuperscript{herb˸}kym}},
 \textit{gim};	%0651o
@@ -5455,47 +5146,7 @@
 𢦟	%kan1
 {\large{\textsuperscript{hallebard·}kym}},
 \textit{khom};	%0651v
-唫	%yin2
-{\large{\textsuperscript{or·}kym}},
-\textit{gimX};	%0652g
-\textit{khim};
-\textit{ṅim};
-趛	%yin3
-{\large{\textsuperscript{curr·}kym}},
-\textit{ṅimX};	%0652h
-顉	%qin1
-{\large{kym\textsuperscript{·fac}}},
-\textit{ṅom};	%0652j
-嶔	%qin1
-{\large{\textsuperscript{mon˸}kym}},
-\textit{khim};	%0652k
-廞	%xin1
-{\large{\textsuperscript{lax·}kym}},
-\textit{xim};	%0652l
 \begin{itemize}[noitemsep]
-\item {\Large{酓}}	%yan3
-{\large{kym\textsuperscript{˸vin}}},
-= {\large{kym}},
-\textit{qyiemX};	%0651d'
-飲	%yin3
-{\large{kym\textsuperscript{·dehab}}},
-\textit{qimX};	%0651i'
-\item {\Large{禽}}	%qin2 / qín
-{\large{kym\textsuperscript{˸nass}}},
-= {\large{kym}},
-\textit{gim};	%0651j
-擒	%qin2
-{\large{\textsuperscript{man·}kym}},
-\textit{gim};	%0651n
-\item {\Large{含}}	%han2 / hán
-{\large{kym\textsuperscript{˸or}}},
-= {\large{kym}},
-\textit{hom};	%0651l'
-\textit{homH};
-頷	%han4 / hàn
-{\large{kym\textsuperscript{·fac}}},
-\textit{homX};	%0651n'
-\textit{ṅomX};
 \item {\Large{侌}}	%yin1
 {\large{kym\textsuperscript{˸云}}},
 = {\large{kym}},
@@ -5509,20 +5160,91 @@
 蔭	%yin4 / yìn
 {\large{\textsuperscript{herb˸}kym}},
 \textit{qimH};	%0651b'
+廕	%yin4
+{\large{\textsuperscript{lax·}kym}},
+\textit{qimH};	%0651c'
 \end{itemize}
+\end{itemize}
+\begin{itemize}[noitemsep]
+\item {\Large{酓}}	%yan3
+{\large{kym\textsuperscript{˸vin}}},
+= {\large{kym}},
+\textit{qyiemX};	%0651d'
+韽	%an1
+{\large{kym\textsuperscript{·音}}},
+\textit{qom};	%0651h'
+飲	%yin3
+{\large{kym\textsuperscript{·dehab}}},
+\textit{qimX};	%0651i'
+㱃	%yin3
+{\large{kym\textsuperscript{·dehab}}},
+\textit{qimX};	%0651i'
+\begin{itemize}[noitemsep]
+\item {\Large{㜝}}	%an3
+{\large{\textsuperscript{fem·}kym}},
+= {\large{kym}},
+\textit{ṅomX};	%0651k'
+\begin{itemize}[noitemsep]
 \item {\Large{金}}	%jin1 / jīn
 {\large{kym}},
 = {\large{kym}},
 \textit{kim};	%0652a
-䘳	%jin1 / jīn
-{\large{\textsuperscript{vest·}kym}},
-\textit{kim};	%0652d
 錦	%jin3 / jǐn
 {\large{kym\textsuperscript{·帛}}},
 \textit{kimX};	%0652e
-欽	%qin1
+唫	%yin2
+{\large{\textsuperscript{or·}kym}},
+\textit{gimX};	%0652g
+\textit{khim};
+\textit{ṅim};
+趛	%yin3
+{\large{\textsuperscript{curr·}kym}},
+\textit{ṅimX};	%0652h
+顉	%qin1
+{\large{kym\textsuperscript{·fac}}},
+\textit{ṅom};	%0652j
+\begin{itemize}[noitemsep]
+\item {\Large{䘳}}	%jin1 / jīn
+{\large{\textsuperscript{vest·}kym}},
+= {\large{krym}},
+\textit{kim};	%0652d
+今	%jin1 / jīn
+{\large{krym}},
+\textit{kim};	%0651a
+紟	%jin4
+{\large{\textsuperscript{ser·}krym}},
+\textit{gimH};	%0651f
+\item {\Large{欽}}	%qin1
 {\large{kym\textsuperscript{·dehab}}},
 \textit{khim};	%0652f
+嶔	%qin1
+{\large{\textsuperscript{mon˸}kym}},
+\textit{khim};	%0652k
+廞	%xin1
+{\large{\textsuperscript{lax·}kym}},
+\textit{xim};	%0652l
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\item {\Large{禽}}	%qin2 / qín
+{\large{kym\textsuperscript{˸nass}}},
+= {\large{kym}},
+\textit{gim};	%0651j
+擒	%qin2
+{\large{\textsuperscript{man·}kym}},
+\textit{gim};	%0651n
+\item {\Large{含}}	%han2 / hán
+{\large{kym\textsuperscript{˸or}}},
+= {\large{kym}},
+\textit{hom};	%0651l'
+\textit{homH};
+唅	%han2 / hán
+{\large{\textsuperscript{or·}kym}},
+\textit{hom};	%0651m'
+頷	%han4 / hàn
+{\large{kym\textsuperscript{·fac}}},
+\textit{homX};	%0651n'
+\textit{ṅomX};
 \end{itemize}
 }
 
@@ -5658,9 +5380,6 @@
 
 \paragraph{\textoversetlarge{01-01}{\huge{古}}}
 % Proposed additions from imported sources for 01-01
-糊	%hú
-{\large{\textsuperscript{oryz·}ka}},
-\textit{hu};	%49
 菇	%gū
 {\large{\textsuperscript{herb˸}ka}},
 \textit{ku};	%49
@@ -5669,9 +5388,15 @@
 痼	%gù
 {\large{\textsuperscript{infirm·}k\textoverset{a}{a}}},
 \textit{kuH};	%49
-個	%gè
+\begin{itemize}[noitemsep]
+\item {\Large{個}}	%gè
 {\large{\textsuperscript{hom·}k\textoverset{a}{a}}},
+= {\large{k\textoverset{a}{a}}},
 \textit{kaH};	%0049f'
+糊	%hú
+{\large{\textsuperscript{oryz·}k\textoverset{a}{a}}},
+\textit{hu};	%49
+\end{itemize}
 \end{itemize}
 }
 
@@ -5727,11 +5452,6 @@
 
 \paragraph{\textoversetlarge{01-43}{\huge{予}}}
 % Proposed additions from imported sources for 01-43
-𨑦
-{\large{\textsuperscript{amb·}la}},
-𡐨	%ye3 / yě
-{\large{\textsuperscript{xxx·}la}},
-\textit{yaeX};	%0083m
 }
 
 \pilotentry{%

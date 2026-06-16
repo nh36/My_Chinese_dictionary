@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.238231+00:00",
+  "generated_at": "2026-06-16T08:34:25.293469+00:00",
   "id": "28-11",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "575"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.           MC             LHan              OCM             See Intro. 9.2.6.",
+    "is_cross_reference_only": false,
     "source_page_number": 318,
     "source_line_number": 20,
     "source_line_raw": "28-11 = K. 575         Man d.           MC             LHan              OCM             See Intro. 9.2.6."
@@ -480,42 +483,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "隹"
       },
-      "resolved_node_root": {
-        "root": "tur",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "tur",
-          "ly"
-        ],
-        "bs_node_roots": [
-          "tur",
-          "ly"
-        ],
-        "display_root": "tur",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "ciwiy",
-          "ḍiyH"
-        ],
-        "form_analyses": [
-          {
-            "form": "ciwiy",
-            "normalized": "ciwiy",
-            "class": "b",
-            "reason": "palatal_initial"
-          },
-          {
-            "form": "ḍiyH",
-            "normalized": "ḍiy",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "推",
@@ -740,7 +708,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "隹"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tur",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tuy"
+        ],
+        "bs_node_roots": [
+          "thuy"
+        ],
+        "display_root": "tur",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "thwəy",
+          "chiwiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "thwəy",
+            "normalized": "thwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "chiwiy",
+            "normalized": "chiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "陮",
@@ -1166,25 +1167,25 @@
         "phonetic_hint": "隹"
       },
       "resolved_node_root": {
-        "root": "tur",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
+        "root": "tsuy",
+        "source": "node_bs_consensus",
+        "descendant_count": 3,
         "bs_support_count": 2,
         "bs_broad_roots": [
           "tsuy",
           "tuy"
         ],
         "bs_node_roots": [
-          "tuy",
-          "thuy"
+          "tsuy"
         ],
-        "display_root": "tur",
+        "display_root": "tsuy",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "dzwəy",
-          "tshwəy"
+          "tshwəy",
+          "tshwəyX"
         ],
         "form_analyses": [
           {
@@ -1195,6 +1196,12 @@
           },
           {
             "form": "tshwəy",
+            "normalized": "tshwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tshwəyX",
             "normalized": "tshwəy",
             "class": "a",
             "reason": "no_i_medial"
@@ -1272,15 +1279,7 @@
       "transliteration_latex": "{\\large{tur\\textsuperscript{·av}}},",
       "render_latex": "䳡\t%zhui1\n{\\large{tur\\textsuperscript{·av}}},\n\\textit{ciwiy};\t%0575e",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "隹",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "隹"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -2603,7 +2602,7 @@
         "bs_node_roots": [
           "griy",
           "giy",
-          "quiy"
+          "siy"
         ],
         "display_root": "quiy",
         "division_class": "b",
@@ -2789,13 +2788,13 @@
       "render_latex": "蓷\t%tui1\n{\\large{\\textsuperscript{herb˸}tur}},\n\\textit{thwəy};\t%0575i'\n\\textit{chiwiy};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "隹",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "推",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "隹"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "推"
       },
       "resolved_node_root": null
     },
@@ -2958,8 +2957,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}tur}},",
-      "render_latex": "催\t%cui1 / cuī\n{\\large{\\textsuperscript{hom·}tur}},\n\\textit{tshwəy};\t%0575j'",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}tsuy}},",
+      "render_latex": "催\t%cui1 / cuī\n{\\large{\\textsuperscript{hom·}tsuy}},\n\\textit{tshwəy};\t%0575j'",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "崔",
@@ -3104,17 +3103,17 @@
         "source": "ids_top_level",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}tur}},",
-      "render_latex": "漼\t%cui3\n{\\large{\\textsuperscript{aq·}tur}},\n\\textit{tshwəyX};\t%0575k'",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}tsuy}},",
+      "render_latex": "漼\t%cui3\n{\\large{\\textsuperscript{aq·}tsuy}},\n\\textit{tshwəyX};\t%0575k'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "隹",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "崔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "隹"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "崔"
       },
       "resolved_node_root": null
     },
@@ -3261,8 +3260,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}tur}},",
-      "render_latex": "摧\t%cui1\n{\\large{\\textsuperscript{man·}tur}},\n\\textit{dzwəy};\t%0575l'",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}tsuy}},",
+      "render_latex": "摧\t%cui1\n{\\large{\\textsuperscript{man·}tsuy}},\n\\textit{dzwəy};\t%0575l'",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "崔",
@@ -4741,15 +4740,7 @@
           "template_raw": "{{Han compound|禾|t1=rice|屖|ls=psc|c1=s|c2=p}}"
         }
       },
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "隹",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "隹"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

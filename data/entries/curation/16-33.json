@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.248997+00:00",
+  "generated_at": "2026-06-16T08:34:25.303775+00:00",
   "id": "16-33",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1149"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "In some words, the rime could be OC *-au. See also 16-22/1149e :';!r.",
+    "is_cross_reference_only": false,
     "source_page_number": 227,
     "source_line_number": 27,
     "source_line_raw": "16-33 = K. 1149     In some words, the rime could be OC *-au. See also 16-22/1149e :';!r."
@@ -1076,13 +1079,13 @@
       "render_latex": "筲\t%shao1\n{\\large{\\textsuperscript{bamb˸}sew}},\n\\textit{ṣaew};\t%1149a'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -1437,7 +1440,68 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "肖"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "sew",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "sek"
+        ],
+        "bs_node_roots": [
+          "sek"
+        ],
+        "display_root": "sew",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "siak",
+          "siewH",
+          "ṣaewH",
+          "sew",
+          "ṣaew",
+          "ṣaewk"
+        ],
+        "form_analyses": [
+          {
+            "form": "siak",
+            "normalized": "siak",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "siewH",
+            "normalized": "siew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṣaewH",
+            "normalized": "ṣaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "sew",
+            "normalized": "sew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṣaew",
+            "normalized": "ṣaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṣaewk",
+            "normalized": "ṣaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "揱",
@@ -1569,13 +1633,13 @@
       "render_latex": "揱\t%xiao1 / shao1? / shuo4\n{\\large{sew\\textsuperscript{˸man}}},\n\\textit{sew};\t%1149d'\n\\textit{ṣaew};\n\\textit{ṣaewk};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "削",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "削"
       },
       "resolved_node_root": null
     },
@@ -1826,13 +1890,13 @@
       "render_latex": "箾\t%xiao1 / shuo4\n{\\large{\\textsuperscript{bamb˸}sew}},\n\\textit{sew};\t%1149e'\n\\textit{ṣaewk};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "削",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "削"
       },
       "resolved_node_root": null
     },
@@ -2053,8 +2117,8 @@
       "resolved_node_root": {
         "root": "sew",
         "source": "node_inherit_parent",
-        "descendant_count": 12,
-        "bs_support_count": 6,
+        "descendant_count": 21,
+        "bs_support_count": 7,
         "bs_broad_roots": [
           "sew",
           "sek"
@@ -2074,8 +2138,11 @@
           "ṣaew",
           "siak",
           "ṣaewH",
+          "sew",
+          "ṣaewk",
           "tshiewH",
           "tshiewX",
+          "dziewH",
           "dewX",
           "ḍiewX"
         ],
@@ -2111,6 +2178,18 @@
             "reason": "no_i_medial"
           },
           {
+            "form": "sew",
+            "normalized": "sew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṣaewk",
+            "normalized": "ṣaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
             "form": "tshiewH",
             "normalized": "tshiew",
             "class": "b",
@@ -2119,6 +2198,12 @@
           {
             "form": "tshiewX",
             "normalized": "tshiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dziewH",
+            "normalized": "dziew",
             "class": "b",
             "reason": "explicit_i_medial"
           },
@@ -2719,13 +2804,13 @@
       "render_latex": "綃\t%xiao1\n{\\large{\\textsuperscript{ser·}sew}},\n\\textit{sew};\t%1149l\n\\textit{siew};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -2821,13 +2906,13 @@
       "render_latex": "逍\t%xiao1 / xiāo\n{\\large{\\textsuperscript{amb·}sew}},\n\\textit{siew};\t%1149m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -3245,13 +3330,13 @@
       "render_latex": "俏\t%qiao4\n{\\large{\\textsuperscript{hom·}sew}},\n\\textit{tshiewH};\t%1149p",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -3351,13 +3436,13 @@
       "render_latex": "哨\t%shao4\n{\\large{\\textsuperscript{or·}sew}},\n\\textit{tshiewH};\t%1149q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -3770,13 +3855,13 @@
       "render_latex": "誚\t%qiao4\n{\\large{\\textsuperscript{dic·}sew}},\n\\textit{dziewH};\t%1149t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },
@@ -4044,13 +4129,13 @@
       "render_latex": "捎\t%shao1\n{\\large{\\textsuperscript{man·}sew}},\n\\textit{sew};\t%1149x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "小",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "肖",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "小"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "肖"
       },
       "resolved_node_root": null
     },

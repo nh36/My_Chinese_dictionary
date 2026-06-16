@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.243272+00:00",
+  "generated_at": "2026-06-16T08:34:25.298269+00:00",
   "id": "09-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "831"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.       MC           LHan            OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 160,
     "source_line_number": 17,
     "source_line_raw": "9-1   = K. 831       Mand.       MC           LHan            OCM"
@@ -2621,7 +2624,47 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "巠"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "leṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "keṅ"
+        ],
+        "bs_node_roots": [
+          "kheṅ"
+        ],
+        "display_root": "leṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "khyieṅ",
+          "khyieṅH",
+          "kheṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "khyieṅ",
+            "normalized": "khyieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khyieṅH",
+            "normalized": "khyieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kheṅH",
+            "normalized": "kheṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "鑋",
@@ -2755,13 +2798,13 @@
       "render_latex": "鑋\t%qing4 / qing1\n{\\large{leṅ\\textsuperscript{˸met}}},\n\\textit{kheṅH};\t%0831p\n\\textit{khyieṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "巠",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "輕",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "巠"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "輕"
       },
       "resolved_node_root": null
     },

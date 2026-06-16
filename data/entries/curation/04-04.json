@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.180022+00:00",
+  "generated_at": "2026-06-16T08:34:25.241230+00:00",
   "id": "04-04",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "952"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC           LHan               OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 117,
     "source_line_number": 45,
     "source_line_raw": "4-4   = K. 952         Mand.        MC           LHan               OCM"
@@ -588,66 +591,19 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{ky}},",
-      "render_latex": "其\t%qi2 / ji1 / ji4 / qí\n{\\large{ky}},\n\\textit{gi};\t%0952a\n\\textit{ki};\n\\textit{kiH};",
+      "transliteration_latex": "{\\large{gy}},",
+      "render_latex": "其\t%qi2 / ji1 / ji4 / qí\n{\\large{gy}},\n\\textit{gi};\t%0952a\n\\textit{ki};\n\\textit{kiH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "其",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "丌",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "其"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "丌"
       },
-      "resolved_node_root": {
-        "root": "gy",
-        "source": "node_bs_consensus",
-        "descendant_count": 4,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "ky"
-        ],
-        "bs_node_roots": [
-          "gy"
-        ],
-        "display_root": "gy",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": false,
-        "mc_forms": [
-          "gi",
-          "ki",
-          "kiH",
-          "giH"
-        ],
-        "form_analyses": [
-          {
-            "form": "gi",
-            "normalized": "gi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ki",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "kiH",
-            "normalized": "ki",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "giH",
-            "normalized": "gi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "騏",
@@ -743,18 +699,10 @@
         "source": "packet_family_ids",
         "semantic_component": "馬"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{equ·}gy}},",
-      "render_latex": "騏\t%qi2 / qí\n{\\large{\\textsuperscript{equ·}gy}},\n\\textit{gi};\t%0952a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{equ·}ky}},",
+      "render_latex": "騏\t%qi2 / qí\n{\\large{\\textsuperscript{equ·}ky}},\n\\textit{gi};\t%0952a'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "其",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "其"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -1500,13 +1448,13 @@
       "render_latex": "僛\t%qi1\n{\\large{\\textsuperscript{hom·}ky}},\n\\textit{khi};\t%0952f'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "其",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "欺",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "其"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "欺"
       },
       "resolved_node_root": null
     },
@@ -2680,7 +2628,54 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "其"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "gy",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ky"
+        ],
+        "bs_node_roots": [
+          "gy"
+        ],
+        "display_root": "gy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "khi",
+          "gi",
+          "ki",
+          "kiH"
+        ],
+        "form_analyses": [
+          {
+            "form": "khi",
+            "normalized": "khi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gi",
+            "normalized": "gi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ki",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiH",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "欺",
@@ -2878,7 +2873,33 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "其"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ky",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ky"
+        ],
+        "bs_node_roots": [
+          "khy"
+        ],
+        "display_root": "ky",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "khi"
+        ],
+        "form_analyses": [
+          {
+            "form": "khi",
+            "normalized": "khi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "𣇳",
@@ -2947,18 +2968,10 @@
         "source": "packet_family_ids",
         "semantic_component": "日"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{sol˸}gy}},",
-      "render_latex": "𣇳\t%qi2\n{\\large{\\textsuperscript{sol˸}gy}},\n\\textit{gi};\t%0952r",
+      "transliteration_latex": "{\\large{\\textsuperscript{sol˸}ky}},",
+      "render_latex": "𣇳\t%qi2\n{\\large{\\textsuperscript{sol˸}ky}},\n\\textit{gi};\t%0952r",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "其",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "其"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3041,18 +3054,10 @@
         "source": "packet_family_ids",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{gy\\textsuperscript{˸arb}}},",
-      "render_latex": "棊\t%qi2\n{\\large{gy\\textsuperscript{˸arb}}},\n\\textit{gi};\t%0952t",
+      "transliteration_latex": "{\\large{ky\\textsuperscript{˸arb}}},",
+      "render_latex": "棊\t%qi2\n{\\large{ky\\textsuperscript{˸arb}}},\n\\textit{gi};\t%0952t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "其",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "其"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3886,18 +3891,10 @@
         "source": "packet_family_ids",
         "semantic_component": "糸"
       },
-      "transliteration_latex": "{\\large{gy\\textsuperscript{˸ser}}},",
-      "render_latex": "綦\t%qi2 / qí\n{\\large{gy\\textsuperscript{˸ser}}},\n\\textit{gi};\t%0952z\n\\textit{giH};",
+      "transliteration_latex": "{\\large{ky\\textsuperscript{˸ser}}},",
+      "render_latex": "綦\t%qi2 / qí\n{\\large{ky\\textsuperscript{˸ser}}},\n\\textit{gi};\t%0952z\n\\textit{giH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "其",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "其"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3994,11 +3991,59 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{ky}},",
-      "render_latex": "丌\t%qí\n{\\large{ky}},\n\\textit{gi};\t%0952a",
+      "transliteration_latex": "{\\large{gy}},",
+      "render_latex": "丌\t%qí\n{\\large{gy}},\n\\textit{gi};\t%0952a",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "倛",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "倛"
+      },
+      "resolved_node_root": {
+        "root": "gy",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ky"
+        ],
+        "bs_node_roots": [
+          "gy"
+        ],
+        "display_root": "gy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "gi",
+          "ki",
+          "kiH"
+        ],
+        "form_analyses": [
+          {
+            "form": "gi",
+            "normalized": "gi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ki",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiH",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     }
   ],
   "all_candidates": [

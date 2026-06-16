@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.220075+00:00",
+  "generated_at": "2026-06-16T08:34:25.277061+00:00",
   "id": "16-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1129"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC               LHan                  OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 218,
     "source_line_number": 46,
     "source_line_raw": "16-1 = K. 1129           Mand.           MC               LHan                  OCM"
@@ -756,54 +759,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "高"
       },
-      "resolved_node_root": {
-        "root": "kaw",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "kaw"
-        ],
-        "bs_node_roots": [
-          "kaw"
-        ],
-        "display_root": "k\\textoverset{a}{a}w",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "kaw",
-          "kawX",
-          "khaew",
-          "khaewH"
-        ],
-        "form_analyses": [
-          {
-            "form": "kaw",
-            "normalized": "kaw",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "kawX",
-            "normalized": "kaw",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khaew",
-            "normalized": "khaew",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khaewH",
-            "normalized": "khaew",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "薧",
@@ -1247,17 +1203,17 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kaw}},",
-      "render_latex": "藃\t%xiao1 / hao4\n{\\large{\\textsuperscript{herb˸}kaw}},\n\\textit{haewk};\t%1129c'\n\\textit{hawH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}w}},",
+      "render_latex": "藃\t%xiao1 / hao4\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}w}},\n\\textit{haewk};\t%1129c'\n\\textit{hawH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "高",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㪣",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "高"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㪣"
       },
       "resolved_node_root": null
     },
@@ -1321,18 +1277,10 @@
         "source": "packet_family_ids",
         "semantic_component": "白"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{alb·}k\\textoverset{a}{a}w}},",
-      "render_latex": "皜\t%hao3\n{\\large{\\textsuperscript{alb·}k\\textoverset{a}{a}w}},\n\\textit{kawX};\t%1129d",
+      "transliteration_latex": "{\\large{\\textsuperscript{alb·}kaw}},",
+      "render_latex": "皜\t%hao3\n{\\large{\\textsuperscript{alb·}kaw}},\n\\textit{kawX};\t%1129d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "高",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "高"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -3000,7 +2948,7 @@
       "resolved_node_root": {
         "root": "kaw",
         "source": "node_inherit_parent",
-        "descendant_count": 1,
+        "descendant_count": 2,
         "bs_support_count": 1,
         "bs_broad_roots": [
           "kaw"
@@ -3469,19 +3417,54 @@
         "source": "packet_family_ids",
         "semantic_component": "攵"
       },
-      "transliteration_latex": "{\\large{k\\textoverset{a}{a}w\\textsuperscript{·fer}}},",
-      "render_latex": "㪣\t%qiao4\n{\\large{k\\textoverset{a}{a}w\\textsuperscript{·fer}}},\n\\textit{khaew};\t%1129s\n\\textit{khaewH};",
+      "transliteration_latex": "{\\large{kaw\\textsuperscript{·fer}}},",
+      "render_latex": "㪣\t%qiao4\n{\\large{kaw\\textsuperscript{·fer}}},\n\\textit{khaew};\t%1129s\n\\textit{khaewH};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "高",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "高"
-      },
-      "resolved_node_root": null
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "kaw",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "k\\textoverset{a}{a}w",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "khaew",
+          "khaewH",
+          "haewk",
+          "hawH"
+        ],
+        "form_analyses": [
+          {
+            "form": "khaew",
+            "normalized": "khaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khaewH",
+            "normalized": "khaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "haewk",
+            "normalized": "haewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hawH",
+            "normalized": "haw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "謞",
@@ -4467,17 +4450,17 @@
         "source": "packet_family_ids",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}kaw}},",
-      "render_latex": "譹\t%hao2\n{\\large{\\textsuperscript{dic·}kaw}},\n\\textit{ḫaw};\t%1129z",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}k\\textoverset{a}{a}w}},",
+      "render_latex": "譹\t%hao2\n{\\large{\\textsuperscript{dic·}k\\textoverset{a}{a}w}},\n\\textit{ḫaw};\t%1129z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "高",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "豪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "高"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "豪"
       },
       "resolved_node_root": null
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.195687+00:00",
+  "generated_at": "2026-06-16T08:34:25.255735+00:00",
   "id": "04-02",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "937"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC           LHan               OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 117,
     "source_line_number": 9,
     "source_line_raw": "4-2   = K. 937         Man d.       MC           LHan               OCM"
@@ -588,40 +591,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "亥"
       },
-      "resolved_node_root": {
-        "root": "ky",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "ky"
-        ],
-        "bs_node_roots": [
-          "gy"
-        ],
-        "display_root": "ky",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": false,
-        "mc_forms": [
-          "həyX",
-          "ṅəyH"
-        ],
-        "form_analyses": [
-          {
-            "form": "həyX",
-            "normalized": "həy",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "ṅəyH",
-            "normalized": "ṅəy",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "核",
@@ -2813,15 +2783,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{lap·}ky}},",
       "render_latex": "硋\t%ai4\n{\\large{\\textsuperscript{lap·}ky}},\n\\textit{ṅəyH};\t%0937t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "亥",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "亥"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {

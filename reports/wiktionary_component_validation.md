@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 1503
-- Pages fetched / cached successfully: 1479
-- Additions with explicit Han-compound semantic/phonetic roles: 758
+- Proposed additions checked: 1476
+- Pages fetched / cached successfully: 1452
+- Additions with explicit Han-compound semantic/phonetic roles: 751
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1430,33 +1430,6 @@
 | `34-23` | 餕 | yes | no |  |  |
 | `34-23` | 駿 | yes | no |  |  |
 | `34-23` | 峻 | yes | yes | 山 | 夋 |
-| `35-01` | 去 | yes | yes | 大 | 𠙴 |
-| `35-01` | 呿 | yes | no |  |  |
-| `35-01` | 祛 | yes | no |  |  |
-| `35-01` | 袪 | yes | no |  |  |
-| `35-01` | 麮 | yes | no |  |  |
-| `35-01` | 胠 | yes | no |  |  |
-| `35-01` | 劫 | yes | yes | 力 | 去 |
-| `35-01` | 刧 | yes | no |  |  |
-| `35-01` | 怯 | yes | no |  |  |
-| `35-01` | 法 | yes | yes | 水, 廌 | 盍 |
-| `35-01` | 灋 | yes | yes | 水, 廌 | 盍 |
-| `35-01` | 盍 | yes | no |  |  |
-| `35-01` | 盇 | yes | no |  |  |
-| `35-01` | 嗑 | yes | no |  |  |
-| `35-01` | 蓋 | yes | yes | 艸 | 盍 |
-| `35-01` | 葢 | yes | no |  |  |
-| `35-01` | 闔 | yes | no |  |  |
-| `35-01` | 榼 | yes | no |  |  |
-| `35-01` | 溘 | yes | no |  |  |
-| `35-01` | 磕 | yes | yes | 石 | 盍 |
-| `35-01` | 饁 | yes | no |  |  |
-| `35-21` | 去 | yes | yes | 大 | 𠙴 |
-| `35-21` | 呿 | yes | no |  |  |
-| `35-21` | 祛 | yes | no |  |  |
-| `35-21` | 袪 | yes | no |  |  |
-| `35-21` | 麮 | yes | no |  |  |
-| `35-21` | 胠 | yes | no |  |  |
 | `35-21` | 劫 | yes | yes | 力 | 去 |
 | `35-21` | 刧 | yes | no |  |  |
 | `35-21` | 怯 | yes | no |  |  |

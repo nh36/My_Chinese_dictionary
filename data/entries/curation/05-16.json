@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.199141+00:00",
+  "generated_at": "2026-06-16T08:34:25.258962+00:00",
   "id": "05-16",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "918"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.            MC                LHan            OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 134,
     "source_line_number": 41,
     "source_line_raw": "5-16   = K. 918          Mand.            MC                LHan            OCM"
@@ -853,7 +856,7 @@
       "resolved_node_root": {
         "root": "lyk",
         "source": "node_bs_consensus",
-        "descendant_count": 4,
+        "descendant_count": 5,
         "bs_support_count": 4,
         "bs_broad_roots": [
           "lyk"
@@ -867,6 +870,7 @@
         "mark_required": false,
         "mc_forms": [
           "śik",
+          "ṭhik",
           "śiH"
         ],
         "form_analyses": [
@@ -875,6 +879,12 @@
             "normalized": "śik",
             "class": "b",
             "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭhik",
+            "normalized": "ṭhik",
+            "class": "b",
+            "reason": "explicit_i_medial"
           },
           {
             "form": "śiH",
@@ -1938,13 +1948,13 @@
       "render_latex": "侙\t%chi4\n{\\large{\\textsuperscript{hom·}lyk}},\n\\textit{ṭhik};\t%0918m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "弋",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "式",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "弋"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "式"
       },
       "resolved_node_root": null
     },

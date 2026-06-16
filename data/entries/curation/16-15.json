@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.216245+00:00",
+  "generated_at": "2026-06-16T08:34:25.274582+00:00",
   "id": "16-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "1131"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "/2 Mand.                 MC              LHan                 OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 223,
     "source_line_number": 9,
     "source_line_raw": "16-15 = K. 1131/2 Mand.                 MC              LHan                 OCM"
@@ -1875,7 +1878,7 @@
       "resolved_node_root": {
         "root": "taw",
         "source": "node_bs_broad_consensus",
-        "descendant_count": 17,
+        "descendant_count": 18,
         "bs_support_count": 7,
         "bs_broad_roots": [
           "taw"
@@ -1895,6 +1898,7 @@
           "jiew",
           "tew",
           "dew",
+          "daw",
           "ṭhiew",
           "chiew",
           "yiew",
@@ -1931,6 +1935,12 @@
           {
             "form": "dew",
             "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daw",
+            "normalized": "daw",
             "class": "a",
             "reason": "no_i_medial"
           },
@@ -2088,13 +2098,13 @@
       "render_latex": "鞀\t%tao2\n{\\large{\\textsuperscript{cori·}taw}},\n\\textit{daw};\t%1131e'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "刀",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "召",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "刀"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "召"
       },
       "resolved_node_root": null
     },

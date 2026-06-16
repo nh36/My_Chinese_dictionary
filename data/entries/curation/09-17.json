@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.246092+00:00",
+  "generated_at": "2026-06-16T08:34:25.300991+00:00",
   "id": "09-17",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "835"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC              LHan              OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 164,
     "source_line_number": 23,
     "source_line_raw": "9-17 = K. 835          Mand.         MC              LHan              OCM"
@@ -136,13 +139,13 @@
       "render_latex": "𡈼\t%ting3 / tǐng\n{\\large{leṅ}},\n\\textit{theṅX};\t%0835a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "𡈼",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "呈",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "𡈼"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "呈"
       },
       "resolved_node_root": null
     },
@@ -859,13 +862,13 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "𡈼",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "呈",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "𡈼"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "呈"
       },
       "resolved_node_root": {
         "root": "leṅ",
@@ -3107,19 +3110,19 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "𡈼",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "庭",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
-        "phonetic_hint": "𡈼"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "庭"
       },
       "resolved_node_root": {
         "root": "leṅ",
         "source": "node_bs_consensus",
-        "descendant_count": 9,
-        "bs_support_count": 5,
+        "descendant_count": 21,
+        "bs_support_count": 6,
         "bs_broad_roots": [
           "leṅ"
         ],
@@ -3127,11 +3130,18 @@
           "leṅ"
         ],
         "display_root": "leṅ",
-        "division_class": "b",
-        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ḍieṅ",
+          "theṅX",
+          "deṅ",
+          "deṅH",
+          "theṅH",
+          "deṅX",
+          "denX",
+          "theṅ",
           "ṭhieṅ",
           "ṭhieṅX",
           "yieṅ",
@@ -3144,6 +3154,48 @@
             "normalized": "ḍieṅ",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "theṅX",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅ",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅH",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "theṅH",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅX",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "denX",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "theṅ",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
           },
           {
             "form": "ṭhieṅ",

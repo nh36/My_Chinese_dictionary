@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.226430+00:00",
+  "generated_at": "2026-06-16T08:34:25.282902+00:00",
   "id": "33-30",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "471"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.       MC             LHan           OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 356,
     "source_line_number": 9,
     "source_line_raw": "33-30 = K. 471          Mand.       MC             LHan           OCM"
@@ -987,56 +990,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "分"
       },
-      "resolved_node_root": {
-        "root": "pyn",
-        "source": "node_inherit_parent",
-        "descendant_count": 2,
-        "bs_support_count": 2,
-        "bs_broad_roots": [
-          "pyn",
-          "pyr"
-        ],
-        "bs_node_roots": [
-          "pyn",
-          "pyr"
-        ],
-        "display_root": "pyn",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
-        "mc_forms": [
-          "biunH",
-          "piun",
-          "biun",
-          "paen"
-        ],
-        "form_analyses": [
-          {
-            "form": "biunH",
-            "normalized": "biun",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "piun",
-            "normalized": "piun",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "biun",
-            "normalized": "biun",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "paen",
-            "normalized": "paen",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "粉",
@@ -1320,15 +1274,7 @@
       "transliteration_latex": "{\\large{pyn\\textsuperscript{˸plum}}},",
       "render_latex": "𦐈\t%fen1 / fēn\n{\\large{pyn\\textsuperscript{˸plum}}},\n\\textit{piun};\t%0471e",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "分",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "分"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -4172,15 +4118,7 @@
       "transliteration_latex": "{\\large{\\textsuperscript{⺼·}pyn}},",
       "render_latex": "肦\t%fen2 / ban1\n{\\large{\\textsuperscript{⺼·}pyn}},\n\\textit{biun};\t%0471y\n\\textit{paen};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "分",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "分"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     }
   ],

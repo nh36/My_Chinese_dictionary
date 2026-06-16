@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:41:07.206023+00:00",
+  "generated_at": "2026-06-16T08:34:25.265189+00:00",
   "id": "04-29",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -10,6 +10,9 @@
     "k_tokens": [
       "961"
     ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "-1 Mand.            MC            LHan                OCM",
+    "is_cross_reference_only": false,
     "source_page_number": 123,
     "source_line_number": 28,
     "source_line_raw": "4-29 = K. 961-1 Mand.            MC            LHan                OCM"
@@ -805,8 +808,118 @@
       "transliteration_latex": "{\\large{ty\\textsuperscript{˸sol}}},",
       "render_latex": "旹\t%shi2\n{\\large{ty\\textsuperscript{˸sol}}},\n\\textit{ji};\t%0961b'",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "侍",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "侍"
+      },
+      "resolved_node_root": {
+        "root": "ty",
+        "source": "node_inherit_parent",
+        "descendant_count": 17,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "ty",
+          "tyk",
+          "tyṅ"
+        ],
+        "bs_node_roots": [
+          "tsy",
+          "ty",
+          "tyk",
+          "tyṅ",
+          "try"
+        ],
+        "display_root": "ty",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ji",
+          "ziH",
+          "śi",
+          "dəyX",
+          "ḍiX",
+          "dok",
+          "təyX",
+          "təṅX",
+          "ḍi",
+          "ciX",
+          "jiX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ji",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ziH",
+            "normalized": "zi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śi",
+            "normalized": "śi",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "dəyX",
+            "normalized": "dəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiX",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dok",
+            "normalized": "dok",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "təyX",
+            "normalized": "təy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "təṅX",
+            "normalized": "təṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍi",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ciX",
+            "normalized": "ci",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiX",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "詩",
@@ -1059,13 +1172,13 @@
       "render_latex": "邿\t%shi1\n{\\large{ty\\textsuperscript{·tum}}},\n\\textit{śi};\t%0961e'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "寺",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "寺"
       },
       "resolved_node_root": null
     },
@@ -1389,7 +1502,40 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "寺"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ty",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ty"
+        ],
+        "bs_node_roots": [
+          "ty"
+        ],
+        "display_root": "ty",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "dəyX",
+          "ḍiX"
+        ],
+        "form_analyses": [
+          {
+            "form": "dəyX",
+            "normalized": "dəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiX",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "沚",
@@ -2070,13 +2216,13 @@
       "render_latex": "塒\t%shi2\n{\\large{\\textsuperscript{terr·}ty}},\n\\textit{ji};\t%0961j'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "時",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "時"
       },
       "resolved_node_root": null
     },
@@ -2362,13 +2508,13 @@
       "render_latex": "偫\t%zhi4\n{\\large{\\textsuperscript{hom·}ty}},\n\\textit{ḍiX};\t%0961k'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "待",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "待"
       },
       "resolved_node_root": null
     },
@@ -2644,18 +2790,18 @@
         "semantic_component": "又"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "旹",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "旹"
       },
       "resolved_node_root": {
         "root": "ty",
         "source": "node_inherit_parent",
-        "descendant_count": 12,
+        "descendant_count": 16,
         "bs_support_count": 8,
         "bs_broad_roots": [
           "ty",
@@ -2663,6 +2809,7 @@
           "tyṅ"
         ],
         "bs_node_roots": [
+          "tsy",
           "ty",
           "tyk",
           "tyṅ",
@@ -2676,14 +2823,14 @@
           "ziH",
           "śi",
           "dəyX",
+          "ḍiX",
           "dok",
           "təyX",
           "təṅX",
           "ḍi",
-          "ḍiX",
           "ciX",
-          "jiH",
-          "jiX"
+          "jiX",
+          "ji"
         ],
         "form_analyses": [
           {
@@ -2703,6 +2850,12 @@
             "normalized": "dəy",
             "class": "a",
             "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiX",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
           },
           {
             "form": "dok",
@@ -2729,25 +2882,19 @@
             "reason": "explicit_i_medial"
           },
           {
-            "form": "ḍiX",
-            "normalized": "ḍi",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
             "form": "ciX",
             "normalized": "ci",
             "class": "b",
             "reason": "palatal_initial"
           },
           {
-            "form": "jiH",
+            "form": "jiX",
             "normalized": "ji",
             "class": "b",
             "reason": "palatal_initial"
           },
           {
-            "form": "jiX",
+            "form": "ji",
             "normalized": "ji",
             "class": "b",
             "reason": "palatal_initial"
@@ -3187,13 +3334,13 @@
       "render_latex": "畤\t%zhi4\n{\\large{\\textsuperscript{ager·}ty}},\n\\textit{ḍiX};\t%0961r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "寺",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "寺"
       },
       "resolved_node_root": null
     },
@@ -3965,7 +4112,116 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "寺"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ty",
+        "source": "node_inherit_parent",
+        "descendant_count": 18,
+        "bs_support_count": 9,
+        "bs_broad_roots": [
+          "ty",
+          "tyk",
+          "tyṅ"
+        ],
+        "bs_node_roots": [
+          "ty",
+          "tsy",
+          "tyk",
+          "tyṅ",
+          "try"
+        ],
+        "display_root": "ty",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "jiH",
+          "ji",
+          "ziH",
+          "śi",
+          "dəyX",
+          "ḍiX",
+          "dok",
+          "təyX",
+          "təṅX",
+          "ḍi",
+          "ciX",
+          "jiX"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiH",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ji",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ziH",
+            "normalized": "zi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śi",
+            "normalized": "śi",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "dəyX",
+            "normalized": "dəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiX",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dok",
+            "normalized": "dok",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "təyX",
+            "normalized": "təy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "təṅX",
+            "normalized": "təṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍi",
+            "normalized": "ḍi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ciX",
+            "normalized": "ci",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiX",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "恃",
@@ -4305,15 +4561,41 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "止",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "寺",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "止"
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "寺"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ty",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ty"
+        ],
+        "bs_node_roots": [
+          "ty"
+        ],
+        "display_root": "ty",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "ji"
+        ],
+        "form_analyses": [
+          {
+            "form": "ji",
+            "normalized": "ji",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     }
   ],
   "all_candidates": [
