@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 from typing import Any
 
+import mc_orthography
 import spreadsheet_import
 
 
@@ -50,6 +51,7 @@ def transform_mand2mc(frame):
         "normalized_guangyun",
         ["廣韻"],
     )
+    mc_orthography.normalize_mand2mc_frame(transformed)
     return transformed
 
 
@@ -61,6 +63,15 @@ def render_report(
     raw_columns: list[str],
     sheet_summaries: list[dict[str, Any]],
 ) -> str:
+    mc_summary = transformed_frame.attrs.get(
+        "mc_orthography_summary",
+        {
+            "auto_corrected_count": 0,
+            "anomaly_count": 0,
+            "auto_corrected_rows": [],
+            "anomaly_rows": [],
+        },
+    )
     normalized_columns = [
         "normalized_character",
         "normalized_pinyin",
@@ -78,6 +89,8 @@ def render_report(
         f"- Imported sheet: `{source_sheet_name}`",
         f"- Data rows: {len(transformed_frame)}",
         f"- Raw column count: {len(raw_columns)}",
+        f"- Auto-corrected NWH MC rows (`o → ə` when Baxter MC also has `o`): {mc_summary['auto_corrected_count']}",
+        f"- Remaining anomalous NWH MC rows with `o`: {mc_summary['anomaly_count']}",
         "",
         "## Key normalized-column coverage",
         "",
@@ -113,6 +126,43 @@ def render_report(
         lines.append(
             f"| `{summary['sheet_name']}` | {summary['data_row_count']} | {summary['column_count']} |"
         )
+
+    lines.extend(
+        [
+            "",
+            "## MC orthography corrections",
+            "",
+            "| Row | Character | NWH before | NWH after | Baxter MC |",
+            "| ---: | --- | --- | --- | --- |",
+        ]
+    )
+    if mc_summary["auto_corrected_rows"]:
+        for row in mc_summary["auto_corrected_rows"][:40]:
+            lines.append(
+                f"| {row['source_row_number']} | {row['character'] or ''} | "
+                f"`{row['normalized_mc_nwh_before'] or ''}` | "
+                f"`{row['normalized_mc_nwh_after'] or ''}` | "
+                f"`{row['normalized_mc_bs'] or ''}` |"
+            )
+    else:
+        lines.append("|  |  |  |  |  |")
+
+    if mc_summary["anomaly_rows"]:
+        lines.extend(
+            [
+                "",
+                "## Remaining anomalous NWH MC rows",
+                "",
+                "| Row | Character | NWH | Baxter MC |",
+                "| ---: | --- | --- | --- |",
+            ]
+        )
+        for row in mc_summary["anomaly_rows"][:40]:
+            lines.append(
+                f"| {row['source_row_number']} | {row['character'] or ''} | "
+                f"`{row['normalized_mc_nwh_before'] or ''}` | "
+                f"`{row['normalized_mc_bs'] or ''}` |"
+            )
 
     return "\n".join(lines) + "\n"
 

@@ -40,6 +40,27 @@ class ImportMand2MCTests(unittest.TestCase):
         self.assertEqual(transformed["normalized_hanyu_dazidian"].tolist(), ["12", None])
         self.assertEqual(transformed["normalized_guangyun"].tolist(), ["甲", "乙"])
 
+    def test_transform_mand2mc_corrects_o_to_schwa_against_bs(self) -> None:
+        frame = pd.DataFrame(
+            {
+                "source_row_number": [2],
+                "source_sheet_name": ["Feuil1"],
+                "character": ["圈"],
+                "pinyin": ["juan4"],
+                "MC (NWH)": ["qwonH"],
+                "MC (B&S)": ["'wonH"],
+                "GSR": ["0200a"],
+                "漢語大字典": ["12"],
+                "廣韻": ["甲"],
+            }
+        )
+        transformed = import_mand2mc.transform_mand2mc(frame)
+        self.assertEqual(transformed["normalized_mc_nwh"].tolist(), ["qwənH"])
+        self.assertEqual(
+            transformed.attrs["mc_orthography_summary"]["auto_corrected_count"],
+            1,
+        )
+
     def test_transform_mand2mc_uses_blank_character_column(self) -> None:
         frame = pd.DataFrame(
             {
@@ -87,6 +108,7 @@ class ImportMand2MCTests(unittest.TestCase):
         self.assertIn("# Mand2MC import report", report)
         self.assertIn("`Feuil2`", report)
         self.assertIn("(blank column name)", report)
+        self.assertIn("Auto-corrected NWH MC rows", report)
 
 
 if __name__ == "__main__":

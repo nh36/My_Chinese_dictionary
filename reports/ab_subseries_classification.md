@@ -44,19 +44,19 @@
 | `04-04` | 欺 | `ky` | `ky₄` | `b` | no | `khi` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-12` | 軌 | `ku` | `ku₂` | `b` | no | `kwiyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-26` | 待 | `ty` | `ty₃` | `mixed` | no | `dəyX, ḍiX` | the extracted forms point to both type a and type b |
-| `04-26` | 寺 | `ty` | `ty₂` | `mixed` | no | `ziH, śi, dəyX, ḍiX, dok, təyX, təṅX, ḍi, ciX, jiH, jiX, ji` | the extracted forms point to both type a and type b |
+| `04-26` | 寺 | `ty` | `ty₂` | `mixed` | no | `ziH, śi, dəyX, ḍiX, dək, təyX, təṅX, ḍi, ciX, jiH, jiX, ji` | the extracted forms point to both type a and type b |
 | `04-26` | 時 | `ty` | `ty₄` | `b` | no | `ji` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-29` | 待 | `ty` | `ty₇` | `mixed` | no | `dəyX, ḍiX` | the extracted forms point to both type a and type b |
-| `04-29` | 寺 | `ty` | `ty₆` | `mixed` | no | `ziH, śi, dəyX, ḍiX, dok, təyX, təṅX, ḍi, ciX, jiH, jiX, ji` | the extracted forms point to both type a and type b |
+| `04-29` | 寺 | `ty` | `ty₆` | `mixed` | no | `ziH, śi, dəyX, ḍiX, dək, təyX, təṅX, ḍi, ciX, jiH, jiX, ji` | the extracted forms point to both type a and type b |
 | `04-29` | 時 | `ty` | `ty₈` | `b` | no | `ji` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-30` | 以 | `ly` | `ly₂` | `mixed` | no | `yiX, ḍiṅH, ṭhiH, ṭhi, ziX, siX, dəyH, dəy, dəyX, hiX, dẓiX, ẓiX, yi` | the extracted forms point to both type a and type b |
 | `04-30` | 枲 | `ly` | `ly₃` | `mixed` | no | `siX, dəyH` | the extracted forms point to both type a and type b |
 | `04-30` | 矣 | `qy` | `qy` | `b` | no | `hiX, dẓiX, ẓiX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-30` | 台 | `ly` | `ly₄` | `mixed` | no | `thəy, yi, śiX, dəy, dəyX, yaeX, ḍi, ḍiH` | the extracted forms point to both type a and type b |
 | `04-30` | 治 | `ly` | `ly₅` | `mixed` | no | `ḍi, ḍiH, dəyX` | the extracted forms point to both type a and type b |
-| `04-61` | 否 | `py` | `py₂` | `mixed` | no | `biyX, piyX, piuwX, pwəy, phuwH, bwəy, bwəyX, phuwX, puwX, bok, puwṅX, buwX, buw` | the extracted forms point to both type a and type b |
+| `04-61` | 否 | `py` | `py₂` | `mixed` | no | `biyX, piyX, piuwX, pwəy, phuwH, bwəy, bwəyX, phuwX, puwX, bək, puwṅX, buwX, buw` | the extracted forms point to both type a and type b |
 | `04-61` | 丕 | `py` | `py₄` | `b` | no | `phiy, phiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `04-61` | 咅 | `py` | `py₃` | `a` | no | `phuwH, bwəy, bwəyX, phuwX, puwX, bok, puwṅX, buwX, buw` | all extracted forms lack an i-medial after the onset |
+| `04-61` | 咅 | `py` | `py₃` | `a` | no | `phuwH, bwəy, bwəyX, phuwX, puwX, bək, puwṅX, buwX, buw` | all extracted forms lack an i-medial after the onset |
 | `05-16` | 式 | `lyk` | `lyk₂` | `b` | no | `śik, ṭhik, śiH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-16` | 代 | `lyk` | `lyk₃` | `a` | no | `dəyH, thəyH, dək, dojH` | all extracted forms lack an i-medial after the onset |
 | `05-16` | 貸 | `lyk` | `lyk₄` | `a` | no | `thəyH, dək` | all extracted forms lack an i-medial after the onset |
@@ -111,7 +111,7 @@
 | `21-01` | 葛 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `kat, qayH` | all extracted forms lack an i-medial after the onset |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `25-15` | 睘 | `quen` | `quen` | `mixed` | no | `giwieṅ, hwaen, hyiwen, kwenH, qwenH, ziwen, hwenX, hwaenH, ḫwaen, hiwien, hwenH, ḫiwen` | the extracted forms point to both type a and type b |
-| `25-17` | 夗 | `qor` | `qor` | `mixed` | no | `'jwonX, qiwənX, qiwən, qiwənH, qiut, hiunX, qwan, qwanH, qiun, qiwon` | the extracted forms point to both type a and type b |
+| `25-17` | 夗 | `qor` | `qor` | `mixed` | no | `'jwonX, qiwənX, qiwən, qiwənH, qiut, hiunX, qwan, qwanH, qiun` | the extracted forms point to both type a and type b |
 | `25-19` | 完 | `ṅon` | `ṅon₂` | `mixed` | no | `hwan, hwanX, hwanH, ṅwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | the extracted forms point to both type a and type b |
 | `26-38` | 𣬉 | `piy` | `piy₃` | `b` | no | `byiy` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `26-38` | 比 | `piy` | `piy₂` | `mixed` | no | `byiy, byiyH, pyiyH, pyiyX, bet, phey, beyX, phyieX, bey, pyiy, biyX, phyiyX, byie, pey, phyie, phyiy` | the extracted forms point to both type a and type b |
@@ -128,15 +128,15 @@
 | `29-41` | 𥁑 | `mit` | `mit₂` | `b` | no | `myit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-16` | 顛 | `tin` | `tin₂` | `a` | no | `den, ten` | all extracted forms lack an i-medial after the onset |
 | `32-40` | 敃 | `miṅ` | `miṅ₂` | `b` | no | `minX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `32-40` | 昬 | `miṅ` | `miṅ₃` | `mixed` | no | `hwon, min` | the extracted forms point to both type a and type b |
-| `32-40` | 昏 | `miṅ` | `miṅ₄` | `mixed` | no | `hwon, menX, mwon, min, minX` | the extracted forms point to both type a and type b |
-| `34-23` | 夋 | `lur` | `lur₂` | `mixed` | no | `tshwin, swinH, dzwon, tshiwen, swan, tswəyH, tswonH, tswəy, tswinH` | the extracted forms point to both type a and type b |
-| `35-21` | 盍 | `kap` | `kap₂` | `mixed` | no | `hap, kiaep, khiaep, piəp, kayH, xaep, khap, khop, khaeyH, hiep` | the extracted forms point to both type a and type b |
+| `32-40` | 昬 | `miṅ` | `miṅ₃` | `mixed` | no | `hwən, min` | the extracted forms point to both type a and type b |
+| `32-40` | 昏 | `miṅ` | `miṅ₄` | `mixed` | no | `hwən, menX, mwən, min, minX` | the extracted forms point to both type a and type b |
+| `34-23` | 夋 | `lur` | `lur₂` | `mixed` | no | `tshwin, swinH, dzwən, tshiwen, swan, tswəyH, tswənH, tswəy, tswinH` | the extracted forms point to both type a and type b |
+| `35-21` | 盍 | `kap` | `kap₂` | `mixed` | no | `hap, kiaep, khiaep, piəp, kayH, xaep, khap, khəp, khaeyH, hiep` | the extracted forms point to both type a and type b |
 | `35-21` | 盇 | `kap` | `k\textoverset{a}{a}p` | `a` | yes | `hap, kayH` | all extracted forms lack an i-medial after the onset |
-| `38-03` | 酓 | `kym` | `kym₄` | `mixed` | no | `qyiemX, qom, qimX, ṅomX` | the extracted forms point to both type a and type b |
+| `38-03` | 酓 | `kym` | `kym₄` | `mixed` | no | `qyiemX, qəm, qimX, ṅəmX` | the extracted forms point to both type a and type b |
 | `38-03` | 禽 | `kym` | `kym₅` | `b` | no | `gim` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `38-03` | 含 | `kym` | `kym₆` | `a` | no | `hom, homH, homX, ṅomX` | all extracted forms lack an i-medial after the onset |
+| `38-03` | 含 | `kym` | `kym₆` | `a` | no | `həm, həmH, həmX, ṅəmX` | all extracted forms lack an i-medial after the onset |
 | `38-03` | 侌 | `kym` | `kym₂` | `b` | no | `qim, qimH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-03` | 陰 | `kym` | `kym₃` | `b` | no | `qim, qimH` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `38-03` | 金 | `kym` | `kym₇` | `mixed` | no | `kim, kimX, khim, xim, gimX, ṅim, ṅimX, ṅom` | the extracted forms point to both type a and type b |
+| `38-03` | 金 | `kym` | `kym₇` | `mixed` | no | `kim, kimX, khim, xim, gimX, ṅim, ṅimX, ṅəm` | the extracted forms point to both type a and type b |
 | `38-03` | 欽 | `` | `` | `unknown` | no | `` |  |

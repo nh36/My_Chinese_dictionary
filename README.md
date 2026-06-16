@@ -139,6 +139,14 @@ Import the Mand2MC spreadsheet:
 python3 scripts/import_mand2mc.py
 ```
 
+The Mand2MC import now auto-corrects NWH Middle Chinese `o` to `ə` whenever the corresponding Baxter MC form also contains `o`, and reports any remaining anomalous NWH `o` values separately.
+
+Clean previously generated Mand2MC data with the same rule:
+
+```sh
+python3 scripts/cleanup_mand2mc_mc.py
+```
+
 Import the Shengfu spreadsheet:
 
 ```sh

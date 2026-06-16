@@ -6,10 +6,10 @@
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 1476 | 1476 |
-| Semantic placement present | 1476 | 1476 |
-| Transliteration LaTeX present | 1476 | 1476 |
-| Candidate render LaTeX present | 1476 | 1476 |
+| Semantic assignment present | 1475 | 1476 |
+| Semantic placement present | 1475 | 1476 |
+| Transliteration LaTeX present | 1475 | 1476 |
+| Candidate render LaTeX present | 1475 | 1476 |
 | Relation `:` kept out of baseline text | 1476 | 1476 |
 | Generated subseries heads rendered with `=` root lines | 128 | 130 |
 

@@ -2,9 +2,9 @@
 
 - Curated entries inspected: 69
 - Proposed additions inspected: 1476
-- Additions with reusable semantic assignment from existing TeX: 1476
-- Additions with reusable transliteration LaTeX from existing TeX: 1476
-- Additions with reusable render block from existing TeX: 1476
+- Additions with reusable semantic assignment from existing TeX: 1475
+- Additions with reusable transliteration LaTeX from existing TeX: 1475
+- Additions with reusable render block from existing TeX: 1475
 - Additions with IDS-derived semantic candidates: 986
 - Additions with explicit Wiktionary Han-compound support: 743
 - Additions assigned to inherited hierarchy nodes: 2
@@ -80,5 +80,5 @@
 | `32-40` | 19 | 19 | 19 | 19 |
 | `33-30` | 21 | 21 | 21 | 21 |
 | `34-23` | 25 | 25 | 25 | 25 |
-| `35-21` | 15 | 15 | 15 | 15 |
+| `35-21` | 15 | 14 | 14 | 14 |
 | `38-03` | 37 | 37 | 37 | 37 |
