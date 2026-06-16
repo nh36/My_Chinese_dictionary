@@ -1463,9 +1463,47 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|魚|專|c1=s|c2=p|t1=fish|ls=psc}}",
+          "positional_components": [
+            "魚",
+            "專"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "fish",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "魚"
+          ],
+          "phonetic_components": [
+            "專"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|魚|專|c1=s|c2=p|t1=fish|ls=psc}}",
+            "positional_components": [
+              "魚",
+              "專"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "fish",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "魚"
+            ],
+            "phonetic_components": [
+              "專"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -1488,12 +1526,39 @@
             "evidence_count": 1
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "魚"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{pis·}ton}},",
       "render_latex": "鱄\t%zhuan4? / zhuan1\n{\\large{\\textsuperscript{pis·}ton}},\n\\textit{jiwenX};\t%0231l\n\\textit{ciwen};\n\\textit{ciwenX};",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "魚",
+        "phonetic_component": "專",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鱄",
+          "semantic_component": "魚",
+          "phonetic_component": "專",
+          "position": "prefix-dot",
+          "abbreviation": "pis",
+          "inventory_matches": [
+            {
+              "graph_raw": "魚",
+              "label_token": "pis(cis)",
+              "abbreviation": "pis",
+              "start_line": 303
+            },
+            {
+              "graph_raw": "魚",
+              "label_token": "pis",
+              "abbreviation": "pis",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|魚|專|c1=s|c2=p|t1=fish|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "專",
@@ -1739,15 +1804,71 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|囗|專|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "囗",
+            "專"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "囗"
+          ],
+          "phonetic_components": [
+            "專"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|囗|專|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "囗",
+              "專"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "囗"
+            ],
+            "phonetic_components": [
+              "專"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "transliteration_latex": "{\\large{\\textsuperscript{cla˸}ton}},",
       "render_latex": "團\t%tuan2\n{\\large{\\textsuperscript{cla˸}ton}},\n\\textit{dwan};\t%0231n",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "囗",
+        "phonetic_component": "專",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "團",
+          "semantic_component": "囗",
+          "phonetic_component": "專",
+          "position": "prefix-colon",
+          "abbreviation": "cla",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 212
+            }
+          ],
+          "template_raw": "{{Han compound|囗|專|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "專",
@@ -1770,7 +1891,7 @@
             "start_line": 212
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "囗"
       }
     },
@@ -1932,9 +2053,47 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|專|c1=s|c2=p|t1=hand|ls=psc}}",
+          "positional_components": [
+            "手",
+            "專"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "hand",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "專"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|手|專|c1=s|c2=p|t1=hand|ls=psc}}",
+            "positional_components": [
+              "手",
+              "專"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "hand",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "專"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -1957,12 +2116,39 @@
             "evidence_count": 17
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{man·}ton}},",
       "render_latex": "摶\t%tuan2\n{\\large{\\textsuperscript{man·}ton}},\n\\textit{dwan};\t%0231p",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "專",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "摶",
+          "semantic_component": "手",
+          "phonetic_component": "專",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 274
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 17
+            }
+          ],
+          "template_raw": "{{Han compound|手|專|c1=s|c2=p|t1=hand|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "專",

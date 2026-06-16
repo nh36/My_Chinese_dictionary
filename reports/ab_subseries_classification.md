@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 292
+- Generated subgroup heads inspected: 300
 - Subgroups newly marked with `a`: 33
 - Subgroups newly marked with `b`: 25
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 77
-- Mixed subgroups left unmarked: 156
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 80
+- Mixed subgroups left unmarked: 161
 - Unresolved subgroups left unmarked: 1
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -25,6 +25,7 @@
 | `02-32` | 昔 | `sak` | `sak` | `mixed` | no | `siek, dziek, dziaeH, tshiak, tshiek, tsiek, tṣiak, tshak, dzak, tsiaeH, tshuH, tṣhaek, dẓaeH, tshiəH, dẓeak` | top-level series head left unmarked |
 | `02-32` | 耤 | `tsak` | `ts\textoverset{b}{a}k` | `b` | yes | `dziek, dziaeH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `02-32` | 措 | `sak` | `s\textoverset{a}{a}k` | `a` | yes | `tshuH, tṣhaek` | all extracted forms lack an i-medial after the onset |
+| `02-38` | 白 | `pak` | `pak` | `a` | no | `baek, paek, phaeH, phaek, pak, phak, bak` | top-level series head left unmarked |
 | `02-40` | 莫 | `mak` | `mak` | `a` | no | `maek, mak, muH, mu, mae, mek` | top-level series head left unmarked |
 | `02-40` | 幕 | `mak` | `m\textoverset{a}{a}k` | `a` | yes | `mak, mek` | all extracted forms lack an i-medial after the onset |
 | `03-26` | 王 | `quaṅ` | `quaṅ` | `mixed` | no | `hiwaṅ, hiwaṅH, hiwaṅX, khiwaṅ, giwaṅ, giwaṅX, qiwaṅX, qwaṅ, kiwaṅH, kiwaṅX` | top-level series head left unmarked |
@@ -49,9 +50,9 @@
 | `03-49` | 將 | `tsaṅ` | `ts\textoverset{b}{a}ṅ` | `b` | yes | `tshiaṅ, tsiaṅ, tsiaṅH, śiaṅ, tsiaṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-49` | 臧 | `tsaṅ` | `ts\textoverset{a}{a}ṅ` | `a` | yes | `tsaṅ, dzaṅ, dzaṅH` | all extracted forms lack an i-medial after the onset |
 | `03-49` | 戕 | `tsaṅ` | `tsaṅ₃` | `mixed` | no | `dziaṅ, tsaṅ, dzaṅ, dzaṅH` | the extracted forms point to both type a and type b |
-| `03-49` | 牆 | `tsaṅ₂` | `ts\textoverset{b}{a}ṅ₂` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `03-49` | 嬙 | `tsaṅ₂` | `ts\textoverset{b}{a}ṅ₃` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `03-49` | 墻 | `tsaṅ₂` | `ts\textoverset{b}{a}ṅ₄` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `03-49` | 牆 | `tsaṅ` | `ts\textoverset{b}{a}ṅ₂` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `03-49` | 嬙 | `tsaṅ` | `ts\textoverset{b}{a}ṅ₃` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `03-49` | 墻 | `tsaṅ` | `ts\textoverset{b}{a}ṅ₄` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-49` | 壯 | `tsraṅ` | `tsr\textoverset{b}{a}ṅ` | `b` | yes | `tṣiaṅH, tṣiaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-57` | 方 | `paṅ` | `paṅ` | `mixed` | no | `baṅ, piaṅ, piaṅX, biaṅ, phaṅ, paṅH, piaṅH, paeṅ, piaeṅH, phiaṅ, phiaṅX, phiaṅH` | top-level series head left unmarked |
 | `03-57` | 旁 | `paṅ` | `p\textoverset{a}{a}ṅ` | `a` | yes | `baṅ, paeṅ, paṅH, phaṅ, baṅH, baeṅ, paeṅH` | all extracted forms lack an i-medial after the onset |
@@ -113,7 +114,7 @@
 | `09-11` | 丁 | `teṅ` | `teṅ` | `a` | no | `teṅ, ṭeaṅ, teṅX, theṅ, deṅX, theṅX, deṅ` | top-level series head left unmarked |
 | `09-11` | 亭 | `teṅ` | `teṅ₂` | `a` | no | `deṅ` | all extracted forms lack an i-medial after the onset |
 | `09-11` | 正 | `teṅ` | `teṅ₃` | `mixed` | no | `cieṅ, cieṅH, cieṅX, ṭhieṅ, deṅH, teṅH` | the extracted forms point to both type a and type b |
-| `09-17` | 廷 | `leṅ₃` | `leṅ₄` | `a` | no | `deṅ, deṅH, theṅH, deṅX, theṅX, denX, theṅ` | all extracted forms lack an i-medial after the onset |
+| `09-17` | 廷 | `leṅ` | `leṅ₄` | `a` | no | `deṅ, deṅH, theṅH, deṅX, theṅX, denX, theṅ` | all extracted forms lack an i-medial after the onset |
 | `09-17` | 呈 | `leṅ` | `leṅ₅` | `b` | no | `ḍieṅ, ṭhieṅ, ṭhieṅX, yieṅ, śieṅH, yengX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-17` | 聖 | `leṅ` | `leṅ₆` | `b` | no | `śieṅH, ṭhieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-19` | 令 | `riṅ` | `riṅ` | `mixed` | no | `lieṅ, lieṅH, lieṅX, leṅ, leṅX` | top-level series head left unmarked |
@@ -164,7 +165,7 @@
 | `13-47` | 留 | `mu` | `mu₄` | `b` | no | `liuw, liuwH, liuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-72` | 包 | `pu` | `pu` | `mixed` | no | `paew, phaew, biewX, paewX, baew, baewX, baw, bawH, bawX, biuw, baewH, phaewk, baewk` | top-level series head left unmarked |
 | `13-76` | 矛 | `mu` | `mu` | `mixed` | no | `miuw, muw, maew, miuH, miuX, maewk, muwH, muwk` | top-level series head left unmarked |
-| `13-76` | 楙 | `mu₅` | `mu₆` | `a` | no | `maw, muwH` | all extracted forms lack an i-medial after the onset |
+| `13-76` | 楙 | `mu` | `mu₆` | `a` | no | `maw, muwH` | all extracted forms lack an i-medial after the onset |
 | `13-76` | 敄 | `mu` | `mu₇` | `mixed` | no | `miuH, miuX, miuw, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
 | `13-76` | 務 | `mu` | `mu₈` | `b` | no | `miuH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-14` | 賣 | `lok` | `lok` | `mixed` | no | `yuwk, dek, duwk, duwH, jiəwk, ziəwk` | top-level series head left unmarked |
@@ -184,7 +185,7 @@
 | `16-15` | 昭 | `taw` | `t\textoverset{b}{a}w` | `b` | yes | `jiew, ciew, ciewX, ciewH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-20` | 兆 | `law` | `law` | `mixed` | no | `ḍiewX, yiew, dew, thew, tshiew, thewH, dewX, thaw, daw, dawX` | top-level series head left unmarked |
 | `16-21` | 䍃 | `law` | `law` | `b` | no | `yiew, yiewH, ḍiuwH, yuw` | top-level series head left unmarked |
-| `16-21` | 繇 | `law₂` | `l\textoverset{b}{a}w` | `b` | yes | `ḍiuwH, yiew, yuw` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `16-21` | 繇 | `law` | `l\textoverset{b}{a}w` | `b` | yes | `ḍiuwH, yiew, yuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-24` | 尞 | `rew` | `rew` | `mixed` | no | `liewH, liew, lewH, lewX, liewX, lew, lawX, law` | the extracted forms point to both type a and type b |
 | `16-31` | 焦 | `tsek` | `tsek` | `mixed` | no | `tsiew, tsiak, tṣaewk, dziew, tsiewH, dziewH, tsiuw` | top-level series head left unmarked |
 | `16-33` | 小 | `sew` | `sew` | `b` | no | `siewX, śiewH, śiewX` | top-level series head left unmarked |
@@ -223,6 +224,7 @@
 | `25-19` | 完 | `ṅon` | `ṅon₂` | `mixed` | no | `hwan, hwanX, hwanH, ṅwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | the extracted forms point to both type a and type b |
 | `25-24` | 耑 | `tor` | `tor` | `mixed` | no | `twan, ciwenX, thwan, chiwenX, jiwen, chiwenH, ciweH, jiweH, tṣhiweX, twaX` | top-level series head left unmarked |
 | `25-25` | 專 | `ton` | `ton` | `mixed` | no | `ciwen, dwan, ṭiwenX, ḍiwen, ḍiwenH, ṭiwenH, ḍiwenX, jiwen, jiwenX, jiwin, ciwinX, ciwenX, twan` | top-level series head left unmarked |
+| `25-31` | 䜌 | `ron` | `ron` | `mixed` | no | `lwan, liwenX, liwenH, liwen, pienH, maen, ṣiwenH, ṣwaenH` | top-level series head left unmarked |
 | `26-05` | 兮 | `kiy` | `kiy₂` | `a` | no | `ḫey, ḫeyH, ṅeyH` | all extracted forms lack an i-medial after the onset |
 | `26-05` | 替 | `kiy` | `kiy₃` | `a` | no | `theyH` | all extracted forms lack an i-medial after the onset |
 | `26-14` | 氐 | `tiy` | `tiy` | `mixed` | no | `tey, teyX, teyH, dey, ṭiy, ḍiy, ciyX, ciy, jiyH, jiyX, chiy` | top-level series head left unmarked |
@@ -248,6 +250,7 @@
 | `29-01` | 吉 | `kit` | `kit` | `mixed` | no | `kyit, khyit, git, ket, keat, ḫet, keyH, ḫeat, kheat` | top-level series head left unmarked |
 | `29-01` | 頡 | `kit` | `kit₂` | `a` | no | `ḫet` | all extracted forms lack an i-medial after the onset |
 | `29-11` | 矞 | `quit` | `quit` | `mixed` | no | `yiwit, kiwit, giwit, kweat, kwet, xwet, hwiyH` | top-level series head left unmarked |
+| `29-15` | 至 | `tit` | `tit` | `mixed` | no | `ciyH, ṭiyH, ṭit, det, tet, cit, śit, ḍit` | top-level series head left unmarked |
 | `29-41` | 必 | `pit` | `pit` | `mixed` | no | `pyit, bit, bet, byit, piyH, pit, mit, myit, bjit` | top-level series head left unmarked |
 | `29-41` | 宓 | `mit` | `mit` | `b` | no | `mit, myit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `29-41` | 𥁑 | `mit` | `mit₂` | `b` | no | `myit` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -265,6 +268,7 @@
 | `32-08` | 筍 | `sin` | `sin` | `b` | no | `swinX, swin, ṭhwin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-16` | 真 | `tin` | `tin` | `mixed` | no | `cin, denH, cinX, ṭin, ṭinH, ṭinX, chin, jinH, ten, den, thenH, denX, cieH` | top-level series head left unmarked |
 | `32-16` | 顛 | `tin` | `tin₂` | `a` | no | `den, ten` | all extracted forms lack an i-medial after the onset |
+| `32-38` | 賓 | `pin` | `pin₂` | `mixed` | no | `pjin, pyin, pyinH, phin, byin, ben, byinX, binX` | the extracted forms point to both type a and type b |
 | `32-40` | 民 | `miṅ` | `miṅ` | `mixed` | no | `min, minX, men, menX, hwən` | top-level series head left unmarked |
 | `32-40` | 敃 | `miṅ` | `miṅ₃` | `b` | no | `minX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-40` | 昬 | `miṅ` | `miṅ₄` | `mixed` | no | `hwən, min` | the extracted forms point to both type a and type b |
@@ -279,9 +283,12 @@
 | `34-13` | 軍 | `kuyr` | `kuyr` | `mixed` | no | `kiun, hwən, hiunH, hiwənH, hiun, hiwɨy, hiwɨyH` | top-level series head left unmarked |
 | `34-23` | 允 | `lur` | `lur` | `b` | no | `yiwinX, źiwinX, yiwenX` | top-level series head left unmarked |
 | `34-23` | 夋 | `lur` | `lur₂` | `mixed` | no | `tshwin, swinH, dzwən, tshiwen, swan, tswəyH, tswənH, tswəy, tswinH` | the extracted forms point to both type a and type b |
+| `35-03` | 夾 | `kep` | `kep` | `a` | no | `keap, kep, heap, kaep, khep, hep, tsep` | top-level series head left unmarked |
+| `35-03` | 匧 | `kep` | `kep₂` | `a` | no | `khep` | all extracted forms lack an i-medial after the onset |
 | `35-21` | 劫 | `kap` | `kap₃` | `b` | no | `kiaep` | top-level series head left unmarked |
 | `35-21` | 盍 | `kap` | `kap₂` | `mixed` | no | `hap, kiaep, khiaep, piəp, kayH, xaep, khap, khəp, khaeyH, hiep` | the extracted forms point to both type a and type b |
 | `35-21` | 盇 | `kap` | `k\textoverset{a}{a}p` | `a` | yes | `hap, kayH` | all extracted forms lack an i-medial after the onset |
+| `36-07` | 兼 | `kem` | `kem` | `mixed` | no | `kem, kemH, hemX, khemX, khep, kheamH, kheamX, khem, lem, ṇiem, liem, hem` | top-level series head left unmarked |
 | `36-11` | 詹 | `tam` | `tam₃` | `mixed` | no | `ciem, chiem, chiemH, jiemH, yiem, tam, jiem, tamH, tamX, damH, damX` | top-level series head left unmarked |
 | `36-11` | 厃 | `tam` | `tam₂` | `mixed` | no | `tsyem, ciem, chiem, chiemH, jiemH, yiem, tam, jiem, tamH, tamX, damH, damX` | the extracted forms point to both type a and type b |
 | `36-12` | 占 | `tem` | `tem` | `mixed` | no | `ciem, ṭiem, yiem, ṭhiem, ṭhiemH, thep, chiem, śiem, śiemH, temH, temX, nem` | top-level series head left unmarked |
@@ -301,3 +308,4 @@
 | `38-05` | 閻 | `kom` | `k\textoverset{b}{o}m` | `b` | yes | `yiem, yiemH, zim, ṭhiemX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-11` | 甚 | `qym` | `qym` | `mixed` | no | `jimH, jimX, jim, ṭimH, ṭim, ṭhimX, cim, təm, ḍeamX, ḍim, tsiem, dəmX, thəmX, səmX, khəm, kheam, ṅəm` | top-level series head left unmarked |
 | `38-11` | 戡 | `qym` | `qym₂` | `a` | no | `khəm, kheam, ṅəm` | all extracted forms lack an i-medial after the onset |
+| `38-14` | 冘 | `lym` | `lym` | `mixed` | no | `yim, ḍim, ḍimH, śimX, chimX, cimH, cimX, jim, təmX, təm, tamX, dəmX, thəmX` | top-level series head left unmarked |
