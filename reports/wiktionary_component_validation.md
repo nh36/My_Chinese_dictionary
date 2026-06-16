@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 1916
-- Pages fetched / cached successfully: 1889
-- Additions with explicit Han-compound semantic/phonetic roles: 969
+- Proposed additions checked: 2014
+- Pages fetched / cached successfully: 1985
+- Additions with explicit Han-compound semantic/phonetic roles: 1020
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -642,6 +642,20 @@
 | `09-01` | 莖 | yes | yes | 艸 | 巠 |
 | `09-01` | 俓 | yes | no |  |  |
 | `09-01` | 䞓 | yes | no |  |  |
+| `09-11` | 丁 | yes | no |  |  |
+| `09-11` | 頂 | yes | yes | 頁 | 丁 |
+| `09-11` | 汀 | yes | yes | 水 | 丁 |
+| `09-11` | 町 | yes | yes | 田 | 丁 |
+| `09-11` | 亭 | yes | no |  |  |
+| `09-11` | 停 | yes | yes | 人 | 亭 |
+| `09-11` | 正 | yes | yes | 止 | 丁 |
+| `09-11` | 征 | yes | yes | 彳 | 正 |
+| `09-11` | 政 | yes | yes | 攴 | 正 |
+| `09-11` | 整 | yes | yes | 敕 | 正 |
+| `09-11` | 証 | yes | yes | 言 | 正 |
+| `09-11` | 鉦 | yes | no |  |  |
+| `09-11` | 竀 | yes | no |  |  |
+| `09-11` | 定 | yes | yes | 宀 | 正 |
 | `09-17` | 𡈼 | yes | no |  |  |
 | `09-17` | 檉 | yes | yes | 木 | 聖 |
 | `09-17` | 廷 | yes | yes | 廴 | 𡈼 |
@@ -741,6 +755,20 @@
 | `10-35` | 蕞 | yes | no |  |  |
 | `10-35` | 嘬 | yes | no |  |  |
 | `10-35` | 撮 | yes | yes | 手 | 最 |
+| `10-37` | 叜 | yes | no |  |  |
+| `10-37` | 叟 | yes | no |  |  |
+| `10-37` | 𡨙 | no | no |  |  |
+| `10-37` | 搜 | yes | yes | 手 | 叟 |
+| `10-37` | 廋 | yes | no |  |  |
+| `10-37` | 𣸈 | no | no |  |  |
+| `10-37` | 溲 | yes | no |  |  |
+| `10-37` | 獀 | yes | no |  |  |
+| `10-37` | 瘦 | yes | yes | 疒 | 叟 |
+| `10-37` | 醙 | yes | no |  |  |
+| `10-37` | 嫂 | yes | yes | 女 | 叟 |
+| `10-37` | 謏 | yes | no |  |  |
+| `10-37` | 傁 | yes | no |  |  |
+| `10-37` | 瞍 | yes | yes | 目 | 叟 |
 | `10-39` | 付 | yes | no |  |  |
 | `10-39` | 府 | yes | yes | 广 | 付 |
 | `10-39` | 柎 | yes | no |  |  |
@@ -959,6 +987,20 @@
 | `13-47` | 罶 | yes | no |  |  |
 | `13-47` | 霤 | yes | no |  |  |
 | `13-47` | 騮 | yes | no |  |  |
+| `13-72` | 包 | yes | no |  |  |
+| `13-72` | 胞 | yes | yes | 肉 | 包 |
+| `13-72` | 苞 | yes | yes | 艸 | 包 |
+| `13-72` | 飽 | yes | yes | 食 | 包 |
+| `13-72` | 庖 | yes | yes | 广 | 包 |
+| `13-72` | 匏 | yes | no |  |  |
+| `13-72` | 炮 | yes | yes | 火 | 包 |
+| `13-72` | 鮑 | yes | no |  |  |
+| `13-72` | 袍 | yes | yes | 衣 | 包 |
+| `13-72` | 抱 | yes | yes | 手 | 包 |
+| `13-72` | 枹 | yes | yes | 木 | 包 |
+| `13-72` | 䍖 | yes | no |  |  |
+| `13-72` | 鞄 | yes | yes | 革 | 包 |
+| `13-72` | 雹 | yes | yes | 雨 | 包 |
 | `13-76` | 矛 | yes | no |  |  |
 | `13-76` | 茅 | yes | yes | 艸 | 矛 |
 | `13-76` | 楙 | yes | no |  |  |
@@ -1199,6 +1241,34 @@
 | `16-33` | 捎 | yes | no |  |  |
 | `16-33` | 梢 | yes | yes | 木 | 肖 |
 | `16-33` | 稍 | yes | yes | 禾 | 肖 |
+| `17-05` | 勺 | yes | no |  |  |
+| `17-05` | 杓 | yes | no |  |  |
+| `17-05` | 汋 | yes | no |  |  |
+| `17-05` | 酌 | yes | yes | 酉 | 勺 |
+| `17-05` | 妁 | yes | no |  |  |
+| `17-05` | 灼 | yes | yes | 火 | 勺 |
+| `17-05` | 礿 | yes | no |  |  |
+| `17-05` | 旳 | yes | yes | 日 | 勺 |
+| `17-05` | 靮 | yes | no |  |  |
+| `17-05` | 釣 | yes | yes | 金 | 勺 |
+| `17-05` | 魡 | yes | no |  |  |
+| `17-05` | 約 | yes | yes | 糸 | 勺 |
+| `17-05` | 葯 | yes | yes | 艸 | 約 |
+| `17-05` | 的 | yes | yes | 白 | 勺 |
+| `17-07` | 翟 | yes | no |  |  |
+| `17-07` | 糴 | yes | yes | 入 | 䊮 |
+| `17-07` | 籊 | yes | yes | 竹 | 翟 |
+| `17-07` | 趯 | yes | no |  |  |
+| `17-07` | 躍 | yes | yes | 足 | 翟 |
+| `17-07` | 擢 | yes | no |  |  |
+| `17-07` | 濯 | yes | yes | 水 | 翟 |
+| `17-07` | 曜 | yes | yes | 日 | 翟 |
+| `17-07` | 燿 | yes | yes | 火 | 翟 |
+| `17-07` | 耀 | yes | yes | 光 | 翟 |
+| `17-07` | 糶 | yes | yes | 出 | 䊮 |
+| `17-07` | 藋 | yes | no |  |  |
+| `17-07` | 鑃 | yes | no |  |  |
+| `17-07` | 櫂 | yes | yes | 木 | 翟 |
 | `18-18` | 加 | yes | no |  |  |
 | `18-18` | 枷 | yes | no |  |  |
 | `18-18` | 珈 | yes | yes | 玉 | 加 |
@@ -1357,6 +1427,20 @@
 | `25-02` | 䟒 | yes | yes | 走 | 雚 |
 | `25-02` | 勸 | yes | yes | 力 | 雚 |
 | `25-02` | 吅 | yes | no |  |  |
+| `25-12` | 亘 | yes | no |  |  |
+| `25-12` | 桓 | yes | yes | 木 | 亘 |
+| `25-12` | 洹 | yes | yes | 水 | 亘 |
+| `25-12` | 狟 | yes | no |  |  |
+| `25-12` | 荁 | yes | no |  |  |
+| `25-12` | 貆 | yes | no |  |  |
+| `25-12` | 垣 | yes | yes | 土 | 亘 |
+| `25-12` | 咺 | yes | no |  |  |
+| `25-12` | 晅 | yes | no |  |  |
+| `25-12` | 烜 | yes | no |  |  |
+| `25-12` | 宣 | yes | yes | 宀 | 亘 |
+| `25-12` | 喧 | yes | yes | 口 | 宣 |
+| `25-12` | 愃 | yes | no |  |  |
+| `25-12` | 諠 | yes | yes | 言 | 宣 |
 | `25-15` | 袁 | yes | no |  |  |
 | `25-15` | 翾 | yes | yes | 羽 | 睘 |
 | `25-15` | 園 | yes | yes | 囗 | 袁 |
@@ -1508,6 +1592,20 @@
 | `27-08` | 悲 | yes | yes | 心 | 非 |
 | `27-08` | 俳 | yes | yes | 人 | 非 |
 | `27-08` | 排 | yes | yes | 手 | 非 |
+| `28-01` | 鬼 | yes | no |  |  |
+| `28-01` | 傀 | yes | yes | 人 | 鬼 |
+| `28-01` | 瑰 | yes | yes | 玉 | 鬼 |
+| `28-01` | 魁 | yes | yes | 斗 | 鬼 |
+| `28-01` | 塊 | yes | yes | 土 | 鬼 |
+| `28-01` | 瘣 | yes | no |  |  |
+| `28-01` | 槐 | yes | no |  |  |
+| `28-01` | 嵬 | yes | no |  |  |
+| `28-01` | 魏 | yes | no |  | 委, 鬼 |
+| `28-01` | 愧 | yes | yes | 心 | 鬼 |
+| `28-01` | 媿 | yes | no |  |  |
+| `28-01` | 螝 | yes | no |  |  |
+| `28-01` | 餽 | yes | no |  |  |
+| `28-01` | 巍 | yes | no |  |  |
 | `28-05` | 韋 | yes | no |  |  |
 | `28-05` | 違 | yes | yes | 辵 | 韋 |
 | `28-05` | 偉 | yes | yes | 人 | 韋 |

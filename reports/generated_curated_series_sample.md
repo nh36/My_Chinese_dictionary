@@ -38,11 +38,13 @@
 | `08-14` | `missing_series` | no | 18 | 16 |
 | `08-19` | `missing_series` | no | 17 | 16 |
 | `09-01` | `missing_series` | no | 19 | 18 |
+| `09-11` | `missing_series` | no | 14 | 12 |
 | `09-17` | `missing_series` | no | 23 | 19 |
 | `09-19` | `missing_series` | no | 16 | 14 |
 | `09-25` | `missing_series` | no | 29 | 28 |
 | `09-29` | `missing_series` | no | 15 | 14 |
 | `10-35` | `missing_series` | no | 16 | 15 |
+| `10-37` | `missing_series` | no | 14 | 11 |
 | `10-39` | `missing_series` | no | 17 | 16 |
 | `11-12` | `missing_series` | no | 21 | 20 |
 | `12-01` | `missing_series` | no | 24 | 20 |
@@ -54,6 +56,7 @@
 | `13-36` | `missing_series` | no | 15 | 14 |
 | `13-45` | `missing_series` | no | 20 | 19 |
 | `13-47` | `missing_series` | no | 19 | 13 |
+| `13-72` | `missing_series` | no | 14 | 13 |
 | `13-76` | `missing_series` | no | 16 | 14 |
 | `14-14` | `missing_series` | no | 19 | 17 |
 | `14-18` | `missing_series` | no | 19 | 17 |
@@ -66,6 +69,8 @@
 | `16-21` | `missing_series` | no | 15 | 13 |
 | `16-24` | `missing_series` | no | 17 | 16 |
 | `16-33` | `missing_series` | no | 24 | 22 |
+| `17-05` | `missing_series` | no | 14 | 13 |
+| `17-07` | `missing_series` | no | 14 | 13 |
 | `18-18` | `existing_addendum` | yes | 7 | 6 |
 | `21-01` | `missing_series` | no | 24 | 23 |
 | `24-01` | `missing_series` | no | 31 | 27 |
@@ -74,6 +79,7 @@
 | `24-41` | `missing_series` | no | 17 | 16 |
 | `24-54` | `missing_series` | no | 17 | 16 |
 | `25-02` | `missing_series` | no | 16 | 14 |
+| `25-12` | `missing_series` | no | 14 | 13 |
 | `25-15` | `missing_series` | no | 20 | 17 |
 | `25-17` | `missing_series` | no | 18 | 17 |
 | `25-19` | `missing_series` | no | 19 | 17 |
@@ -82,6 +88,7 @@
 | `26-27` | `missing_series` | no | 19 | 18 |
 | `26-38` | `missing_series` | no | 23 | 21 |
 | `27-08` | `missing_series` | no | 22 | 21 |
+| `28-01` | `missing_series` | no | 14 | 13 |
 | `28-05` | `missing_series` | no | 18 | 15 |
 | `28-11` | `missing_series` | no | 26 | 25 |
 | `28-15` | `missing_series` | no | 18 | 15 |
