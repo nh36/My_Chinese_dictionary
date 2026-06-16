@@ -18,6 +18,8 @@
 ## Reason
 
 - The current tabular stack sits too high above the vowel and makes the `a/b` marker feel detached from the letter.
-- `overlay-compact` is closer, but a little too small and easy to miss.
-- `overlay-airy` is clearer than the current stack, but still slightly too elevated.
-- `overlay-balanced` keeps the mark legible while holding it close enough to the vowel that it reads as part of the phonetic form rather than as a separate annotation.
+- The first lower overlay pass still let the small letter touch the main vowel visually.
+- The current chosen pass raises it further than that first overlay and trims the letter slightly so it clears the vowel more decisively.
+- `overlay-compact` lifts the mark, but shrinks it a little too much.
+- `overlay-airy` clears the vowel, but starts to drift away from it.
+- `overlay-balanced` now raises the mark enough to avoid overlap while keeping it close enough to read as part of the phonetic form rather than as a detached annotation.

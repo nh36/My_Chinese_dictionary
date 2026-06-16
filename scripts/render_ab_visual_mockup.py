@@ -14,9 +14,9 @@ BODY_SNIPPETS = [
 
 VARIANT_MACROS = {
     "current-tabular": r"\renewcommand{\textoverset}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.38em]#2\end{tabular}}",
-    "overlay-compact": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise0.74ex\hbox{\fontsize{4.8}{4.8}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
-    "overlay-balanced": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise0.82ex\hbox{\fontsize{5.0}{5.0}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
-    "overlay-airy": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise0.90ex\hbox{\fontsize{5.2}{5.2}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
+    "overlay-compact": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise0.90ex\hbox{\fontsize{4.6}{4.6}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
+    "overlay-balanced": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise1.10ex\hbox{\fontsize{4.7}{4.7}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
+    "overlay-airy": r"\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise1.18ex\hbox{\fontsize{4.9}{4.9}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}",
 }
 
 
