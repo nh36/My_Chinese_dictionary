@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:54:37.678310+00:00",
+  "generated_at": "2026-06-16T15:05:46.608989+00:00",
   "id": "03-65",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -2027,17 +2027,17 @@
         "semantic_component": "言",
         "research_note": "Chinese sources support 言 semantic + 㠩 phonetic."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}m\\textoverset{a}{a}ṅ}},",
-      "render_latex": "詤\t%huang3 / huǎng\n{\\large{\\textsuperscript{dic·}m\\textoverset{a}{a}ṅ}},\n\\textit{xwaṅ};\t%0742f'\n\\textit{xwaṅX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}maṅ}},",
+      "render_latex": "詤\t%huang3 / huǎng\n{\\large{\\textsuperscript{dic·}maṅ}},\n\\textit{xwaṅ};\t%0742f'\n\\textit{xwaṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "㡃",
+        "status": "assigned-to-top-level",
+        "parent_character": "亡",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "㡃"
+        "parent_kind": "top_level",
+        "source": "cycle_repair_top_level_fallback",
+        "phonetic_hint": "亡"
       },
       "resolved_node_root": null
     },
@@ -2518,59 +2518,19 @@
         "semantic_component": "巾",
         "research_note": "Chinese sources support 巾 semantic + 㠩 phonetic."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lint·}m\\textoverset{a}{a}ṅ}},",
-      "render_latex": "㡃\t%mang2? / huang1\n{\\large{\\textsuperscript{lint·}m\\textoverset{a}{a}ṅ}},\n\\textit{maṅ};\t%0742h'\n\\textit{xwaṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{lint·}maṅ}},",
+      "render_latex": "㡃\t%mang2? / huang1\n{\\large{\\textsuperscript{lint·}maṅ}},\n\\textit{maṅ};\t%0742h'\n\\textit{xwaṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "詤",
+        "status": "assigned-to-top-level",
+        "parent_character": "亡",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "詤"
+        "parent_kind": "top_level",
+        "source": "cycle_repair_top_level_fallback",
+        "phonetic_hint": "亡"
       },
-      "resolved_node_root": {
-        "root": "maṅ",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "maṅ"
-        ],
-        "bs_node_roots": [
-          "maṅ"
-        ],
-        "display_root": "m\\textoverset{a}{a}ṅ",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "maṅ",
-          "xwaṅ",
-          "xwaṅX"
-        ],
-        "form_analyses": [
-          {
-            "form": "maṅ",
-            "normalized": "maṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "xwaṅ",
-            "normalized": "xwaṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "xwaṅX",
-            "normalized": "xwaṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "忘",

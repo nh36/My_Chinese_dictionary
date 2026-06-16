@@ -13,6 +13,7 @@ DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_TEX_PATH = "build/generated_curated_series_sample.tex"
 DEFAULT_REPORT_OUT = "reports/pilot_render_readiness.md"
 TEXTSUP_RE = re.compile(r"\\textsuperscript\{[^}]*\}")
+ENTRY_MARKER_RE = re.compile(r"\\paragraph\{\\textoversetlarge\{([^}]+)\}")
 
 
 def load_curated_entries(input_dir: Path) -> list[dict[str, Any]]:
@@ -23,12 +24,16 @@ def load_curated_entries(input_dir: Path) -> list[dict[str, Any]]:
 
 
 def extract_entry_block(rendered_tex: str, entry_id: str) -> str | None:
-    marker = rf"\paragraph{{\textoversetlarge{{{entry_id}}}"
-    start = rendered_tex.find(marker)
-    if start == -1:
-        return None
-    next_start = rendered_tex.find(r"\paragraph{\textoversetlarge{", start + 1)
-    return rendered_tex[start : next_start if next_start != -1 else len(rendered_tex)]
+    matches = list(ENTRY_MARKER_RE.finditer(rendered_tex))
+    for index, match in enumerate(matches):
+        if match.group(1) != entry_id:
+            continue
+        end_index = index + 1
+        while end_index < len(matches) and matches[end_index].group(1) == entry_id:
+            end_index += 1
+        end = matches[end_index].start() if end_index < len(matches) else len(rendered_tex)
+        return rendered_tex[match.start() : end]
+    return None
 
 
 def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[str, Any]:
@@ -60,7 +65,9 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
     generated_subseries_heads = []
     rendered_subseries_heads = 0
     for entry in entries:
-        entry_block = extract_entry_block(rendered_tex, entry["id"]) or ""
+        entry_id = entry.get("id") or (entry.get("tex_entry") or {}).get("id")
+        entry_block = extract_entry_block(rendered_tex, entry_id) if entry_id else rendered_tex
+        entry_block = entry_block or ""
         candidate_children = hierarchy_utils.collect_candidate_children(entry)
         packet_head_character = None
         if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):

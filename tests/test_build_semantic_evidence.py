@@ -213,6 +213,53 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["division_class"], "a")
         self.assertEqual(resolved["display_root"], r"p\textoverset{a}{a}")
 
+    def test_repair_candidate_parent_cycles_demotes_mutual_cycle_to_top_level(self) -> None:
+        entry = {
+            "proposed_additions": [
+                {
+                    "character": "亡",
+                    "hierarchy_assignment": {
+                        "status": "assigned-to-top-level",
+                        "parent_character": "亡",
+                    },
+                },
+                {
+                    "character": "詤",
+                    "hierarchy_assignment": {
+                        "status": "assigned-to-candidate-node",
+                        "parent_character": "㡃",
+                    },
+                },
+                {
+                    "character": "㡃",
+                    "hierarchy_assignment": {
+                        "status": "assigned-to-candidate-node",
+                        "parent_character": "詤",
+                    },
+                },
+            ]
+        }
+
+        build_semantic_evidence.repair_candidate_parent_cycles(entry, "亡")
+
+        by_character = {candidate["character"]: candidate for candidate in entry["proposed_additions"]}
+        self.assertEqual(
+            by_character["詤"]["hierarchy_assignment"]["status"],
+            "assigned-to-top-level",
+        )
+        self.assertEqual(
+            by_character["詤"]["hierarchy_assignment"]["parent_character"],
+            "亡",
+        )
+        self.assertEqual(
+            by_character["㡃"]["hierarchy_assignment"]["status"],
+            "assigned-to-top-level",
+        )
+        self.assertEqual(
+            by_character["㡃"]["hierarchy_assignment"]["parent_character"],
+            "亡",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

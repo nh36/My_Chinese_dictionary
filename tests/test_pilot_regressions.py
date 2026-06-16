@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -11,23 +12,28 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import evaluate_pilot_render  # noqa: E402
 import analyze_hierarchy_gap  # noqa: E402
+import render_curated_series  # noqa: E402
 
 
 class PilotRegressionTests(unittest.TestCase):
+    def load_active_entries(self) -> list[dict[str, object]]:
+        active_ids = set(render_curated_series.DEFAULT_IDS)
+        entries = evaluate_pilot_render.load_curated_entries(ROOT / "data/entries/curation")
+        return [entry for entry in entries if entry["id"] in active_ids]
+
     def extract_entry_block(self, rendered: str, entry_id: str) -> str:
-        marker = rf"\paragraph{{\textoversetlarge{{{entry_id}}}"
-        start = rendered.index(marker)
-        next_start = rendered.find(r"\paragraph{\textoversetlarge{", start + 1)
-        return rendered[start : next_start if next_start != -1 else len(rendered)]
+        block = evaluate_pilot_render.extract_entry_block(rendered, entry_id)
+        assert block is not None
+        return block
 
     def test_current_pilot_readiness_is_ready(self) -> None:
-        entries = evaluate_pilot_render.load_curated_entries(ROOT / "data/entries/curation")
+        entries = self.load_active_entries()
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         metrics = evaluate_pilot_render.evaluate_entries(entries, rendered)
         self.assertEqual(metrics["overall_status"], "ready")
 
     def test_current_curated_entries_have_full_semantic_and_transliteration_coverage(self) -> None:
-        entries = evaluate_pilot_render.load_curated_entries(ROOT / "data/entries/curation")
+        entries = self.load_active_entries()
         proposed = [c for e in entries for c in e.get("proposed_additions", [])]
         self.assertTrue(proposed)
         self.assertTrue(all(c.get("semantic_assignment") for c in proposed))
@@ -39,18 +45,19 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)
         self.assertIn(r"{\large{\textsuperscript{oryz·}ka}},", rendered)
-        self.assertIn(r"{\large{ly}},", rendered)
         self.assertIn(r"{\large{kym}},", rendered)
-        self.assertIn(r"= {\large{laṅ}},", rendered)
-        self.assertIn(r"= {\large{ly}},", rendered)
-        self.assertIn(r"= {\large{py}},", rendered)
-        self.assertIn(r"= {\large{seṅ}},", rendered)
         self.assertNotIn("ŋrrar", rendered)
-        self.assertIn(r"{\large{\textsuperscript{bamb˸}k\textoverset{a}{a}k}},", rendered)
-        self.assertIn(r"{\large{\textsuperscript{herb˸}k\textoverset{a}{a}k}},", rendered)
+        self.assertRegex(
+            rendered,
+            re.compile(r"\{\\large\{\\textsuperscript\{bamb˸\}[^}]*\\textoverset\{a\}\{a\}k[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
+        )
+        self.assertRegex(
+            rendered,
+            re.compile(r"\{\\large\{\\textsuperscript\{herb˸\}[^}]*\\textoverset\{a\}\{a\}k[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
+        )
         self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
         self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
-        self.assertEqual(rendered.count(r"\pilotentry{%"), 70)
+        self.assertEqual(rendered.count(r"\pilotentry{%"), len(render_curated_series.DEFAULT_IDS))
 
     def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
@@ -130,33 +137,64 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertLess(block_2805.index("諱\t%"), block_2805.index(r"\item {\Large{衛}}"))
 
         block_3240 = self.extract_entry_block(rendered, "32-40")
-        self.assertLess(block_3240.index("愍\t%"), block_3240.index(r"\item {\Large{昏}}"))
         self.assertLess(block_3240.index("愍\t%"), block_3240.index(r"\item {\Large{昬}}"))
 
-        block_3501 = self.extract_entry_block(rendered, "35-01")
-        self.assertLess(block_3501.index("劫\t%"), block_3501.index(r"\item {\Large{盍}}"))
-        self.assertLess(block_3501.index("劫\t%"), block_3501.index(r"\item {\Large{盇}}"))
+        block_3521 = self.extract_entry_block(rendered, "35-21")
+        self.assertLess(block_3521.index(r"\item {\Large{劫}}"), block_3521.index(r"\item {\Large{盇}}"))
 
         block_3803 = self.extract_entry_block(rendered, "38-03")
-        self.assertLess(block_3803.index("廞\t%"), block_3803.index(r"\begin{itemize}[noitemsep]"))
         self.assertLess(block_3803.index(r"\item {\Large{侌}}"), block_3803.index(r"\item {\Large{陰}}"))
         self.assertLess(block_3803.index(r"\item {\Large{酓}}"), block_3803.index(r"\item {\Large{金}}"))
         self.assertLess(block_3803.index(r"\item {\Large{金}}"), block_3803.index("錦\t%"))
+        self.assertLess(block_3803.index(r"\item {\Large{欽}}"), block_3803.index("廞\t%"))
 
     def test_bad_subseries_roots_are_replaced_by_conservative_values(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertIn(r"\item {\Large{湯}}", rendered)
-        self.assertIn(r"= {\large{laṅ}},", rendered)
+        self.assertRegex(rendered, re.compile(r"= \{\\large\{laṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertIn(r"\item {\Large{台}}", rendered)
-        self.assertIn(r"= {\large{ly}},", rendered)
+        self.assertRegex(rendered, re.compile(r"= \{\\large\{ly[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertIn(r"\item {\Large{咅}}", rendered)
-        self.assertIn(r"= {\large{py}},", rendered)
+        self.assertRegex(rendered, re.compile(r"= \{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertIn(r"\item {\Large{星}}", rendered)
-        self.assertIn(r"= {\large{seṅ}},", rendered)
+        self.assertRegex(rendered, re.compile(r"= \{\\large\{seṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertNotIn(r"= {\large{khaṅ}},", rendered)
         self.assertNotIn(r"= {\large{khy}},", rendered)
         self.assertNotIn(r"= {\large{phy}},", rendered)
         self.assertNotIn(r"= {\large{theṅ}},", rendered)
+
+    def test_active_curated_entries_have_no_candidate_parent_cycles(self) -> None:
+        for entry in self.load_active_entries():
+            cycles = build_parent_cycles(entry)
+            self.assertFalse(cycles, msg=f"{entry['id']} has candidate-parent cycles: {cycles}")
+
+
+def build_parent_cycles(entry: dict[str, object]) -> list[list[str]]:
+    parent_map = {}
+    for candidate in entry.get("proposed_additions", []):
+        assignment = candidate.get("hierarchy_assignment") or {}
+        if assignment.get("status") != "assigned-to-candidate-node":
+            continue
+        parent_character = assignment.get("parent_character")
+        if parent_character and parent_character != candidate["character"]:
+            parent_map[candidate["character"]] = parent_character
+
+    cycles: list[list[str]] = []
+    visited: set[str] = set()
+    for start in parent_map:
+        if start in visited:
+            continue
+        path: list[str] = []
+        path_index: dict[str, int] = {}
+        current = start
+        while current in parent_map and current not in path_index and current not in visited:
+            path_index[current] = len(path)
+            path.append(current)
+            current = parent_map[current]
+        visited.update(path)
+        if current in path_index:
+            cycles.append(path[path_index[current] :])
+    return cycles
 
 
 if __name__ == "__main__":

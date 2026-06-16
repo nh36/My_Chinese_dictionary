@@ -815,6 +815,52 @@ def infer_parent_from_ids_family(
     return None, None
 
 
+def find_candidate_parent_cycles(entry: dict[str, Any]) -> list[list[str]]:
+    parent_map: dict[str, str] = {}
+    for candidate in entry.get("proposed_additions", []):
+        assignment = candidate.get("hierarchy_assignment") or {}
+        if assignment.get("status") != "assigned-to-candidate-node":
+            continue
+        parent_character = assignment.get("parent_character")
+        if parent_character and parent_character != candidate["character"]:
+            parent_map[candidate["character"]] = parent_character
+
+    cycles: list[list[str]] = []
+    visited: set[str] = set()
+    for start in parent_map:
+        if start in visited:
+            continue
+        path: list[str] = []
+        path_index: dict[str, int] = {}
+        current = start
+        while current in parent_map and current not in path_index and current not in visited:
+            path_index[current] = len(path)
+            path.append(current)
+            current = parent_map[current]
+        visited.update(path)
+        if current in path_index:
+            cycles.append(path[path_index[current] :])
+    return cycles
+
+
+def repair_candidate_parent_cycles(entry: dict[str, Any], top_level_head: str | None) -> None:
+    candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
+    for cycle in find_candidate_parent_cycles(entry):
+        for character in cycle:
+            if top_level_head and character != top_level_head:
+                candidate_map[character]["hierarchy_assignment"] = {
+                    "status": "assigned-to-top-level",
+                    "parent_character": top_level_head,
+                    "parent_display_line": None,
+                    "parent_rhs_snippet": None,
+                    "parent_kind": "top_level",
+                    "source": "cycle_repair_top_level_fallback",
+                    "phonetic_hint": top_level_head,
+                }
+            else:
+                candidate_map[character]["hierarchy_assignment"] = None
+
+
 def merge_graph_lookups(*lookups: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
     merged: dict[str, list[dict[str, Any]]] = {}
     for lookup in lookups:
@@ -1676,6 +1722,7 @@ def enrich_curated_entry_with_ids(
                         "source": semantic_from_parent_ids["source"],
                         "semantic_component": semantic_from_parent_ids["semantic_component"],
                     }
+    repair_candidate_parent_cycles(entry, top_level_head)
     for candidate in entry.get("proposed_additions", []):
         assignment = candidate.get("hierarchy_assignment") or {}
         if candidate.get("semantic_assignment") is None and assignment.get("status") == "assigned-to-candidate-node":
