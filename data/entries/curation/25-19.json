@@ -930,7 +930,7 @@
       "resolved_node_root": {
         "root": "ṅon",
         "source": "node_inherit_parent",
-        "descendant_count": 17,
+        "descendant_count": 18,
         "bs_support_count": 6,
         "bs_broad_roots": [
           "ṅon",
@@ -1924,8 +1924,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{cla·}ṅon}},",
-      "render_latex": "园\t%wan2\n{\\large{\\textsuperscript{cla·}ṅon}},\n\\textit{ṅwan};\t%0257i",
+      "transliteration_latex": "{\\large{\\textsuperscript{cla˸}ṅon}},",
+      "render_latex": "园\t%wan2\n{\\large{\\textsuperscript{cla˸}ṅon}},\n\\textit{ṅwan};\t%0257i",
       "wiktionary_semantic_validation": {
         "semantic_component": "囗",
         "phonetic_component": "元",
@@ -1934,7 +1934,7 @@
           "character": "园",
           "semantic_component": "囗",
           "phonetic_component": "元",
-          "position": "prefix-dot",
+          "position": "prefix-colon",
           "abbreviation": "cla",
           "inventory_matches": [
             {
@@ -1950,7 +1950,7 @@
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cla",
-        "position": "prefix-dot",
+        "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "囗",
@@ -1963,12 +1963,12 @@
         "semantic_component": "囗"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "元",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "元"
       },
       "resolved_node_root": null

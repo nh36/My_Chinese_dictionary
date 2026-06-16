@@ -1,14 +1,14 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 118
-- Proposed additions inspected: 2202
-- Additions with reusable semantic assignment from existing TeX: 2202
-- Additions with reusable transliteration LaTeX from existing TeX: 2202
-- Additions with reusable render block from existing TeX: 2202
-- Additions with IDS-derived semantic candidates: 1538
-- Additions with explicit Wiktionary Han-compound support: 1090
+- Curated entries inspected: 125
+- Proposed additions inspected: 2293
+- Additions with reusable semantic assignment from existing TeX: 2293
+- Additions with reusable transliteration LaTeX from existing TeX: 2293
+- Additions with reusable render block from existing TeX: 2293
+- Additions with IDS-derived semantic candidates: 1610
+- Additions with explicit Wiktionary Han-compound support: 1133
 - Additions assigned to inherited hierarchy nodes: 2
-- Additions assigned under generated candidate nodes: 1964
+- Additions assigned under generated candidate nodes: 2052
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 48
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -82,21 +82,28 @@
 | `16-20` | 23 | 23 | 23 | 23 |
 | `16-21` | 15 | 15 | 15 | 15 |
 | `16-24` | 17 | 17 | 17 | 17 |
+| `16-31` | 13 | 13 | 13 | 13 |
 | `16-33` | 24 | 24 | 24 | 24 |
 | `17-05` | 14 | 14 | 14 | 14 |
 | `17-07` | 14 | 14 | 14 | 14 |
 | `18-18` | 7 | 7 | 7 | 7 |
+| `19-02` | 13 | 13 | 13 | 13 |
 | `21-01` | 24 | 24 | 24 | 24 |
+| `23-07` | 13 | 13 | 13 | 13 |
+| `23-27` | 13 | 13 | 13 | 13 |
 | `24-01` | 31 | 31 | 31 | 31 |
 | `24-21` | 26 | 26 | 26 | 26 |
 | `24-23` | 20 | 20 | 20 | 20 |
 | `24-41` | 17 | 17 | 17 | 17 |
+| `24-47` | 13 | 13 | 13 | 13 |
 | `24-54` | 17 | 17 | 17 | 17 |
 | `25-02` | 16 | 16 | 16 | 16 |
 | `25-12` | 14 | 14 | 14 | 14 |
 | `25-15` | 20 | 20 | 20 | 20 |
 | `25-17` | 18 | 18 | 18 | 18 |
 | `25-19` | 19 | 19 | 19 | 19 |
+| `25-24` | 13 | 13 | 13 | 13 |
+| `25-25` | 13 | 13 | 13 | 13 |
 | `26-05` | 12 | 12 | 12 | 12 |
 | `26-14` | 18 | 18 | 18 | 18 |
 | `26-27` | 19 | 19 | 19 | 19 |

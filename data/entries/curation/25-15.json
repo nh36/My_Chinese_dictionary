@@ -240,8 +240,8 @@
       "resolved_node_root": {
         "root": "gan",
         "source": "node_bs_consensus",
-        "descendant_count": 4,
-        "bs_support_count": 3,
+        "descendant_count": 5,
+        "bs_support_count": 4,
         "bs_broad_roots": [
           "quan"
         ],
@@ -593,11 +593,29 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "園",
+          "ids": "⿴囗袁",
+          "phonetic_component": "袁",
+          "semantic_component": "囗",
+          "position": "prefix-colon",
+          "abbreviation": "cla",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 212
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cla",
-        "position": "prefix-dot",
+        "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "囗",
@@ -609,8 +627,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "囗"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cla·}quan}},",
-      "render_latex": "園\t%yuan2 / yuán\n{\\large{\\textsuperscript{cla·}quan}},\n\\textit{ḫiwən};\t%0256b",
+      "transliteration_latex": "{\\large{\\textsuperscript{cla˸}gan}},",
+      "render_latex": "園\t%yuan2 / yuán\n{\\large{\\textsuperscript{cla˸}gan}},\n\\textit{ḫiwən};\t%0256b",
       "wiktionary_semantic_validation": {
         "semantic_component": "囗",
         "phonetic_component": "袁",
@@ -619,7 +637,7 @@
           "character": "園",
           "semantic_component": "囗",
           "phonetic_component": "袁",
-          "position": "prefix-dot",
+          "position": "prefix-colon",
           "abbreviation": "cla",
           "inventory_matches": [
             {
@@ -633,12 +651,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "袁",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "袁"
       },
       "resolved_node_root": null
@@ -4096,11 +4114,29 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "圜",
+          "ids": "⿴囗睘",
+          "phonetic_component": "睘",
+          "semantic_component": "囗",
+          "position": "prefix-colon",
+          "abbreviation": "cla",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 212
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cla",
-        "position": "prefix-dot",
+        "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "囗",
@@ -4112,8 +4148,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "囗"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cla·}quen}},",
-      "render_latex": "圜\t%yuan2 / yuán\n{\\large{\\textsuperscript{cla·}quen}},\n\\textit{ḫiwen};\t%0256y",
+      "transliteration_latex": "{\\large{\\textsuperscript{cla˸}quen}},",
+      "render_latex": "圜\t%yuan2 / yuán\n{\\large{\\textsuperscript{cla˸}quen}},\n\\textit{ḫiwen};\t%0256y",
       "wiktionary_semantic_validation": {
         "semantic_component": "囗",
         "phonetic_component": "睘",
@@ -4122,7 +4158,7 @@
           "character": "圜",
           "semantic_component": "囗",
           "phonetic_component": "睘",
-          "position": "prefix-dot",
+          "position": "prefix-colon",
           "abbreviation": "cla",
           "inventory_matches": [
             {

@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 115
-- Packets with at least one root candidate: 103
-- Packets with a single resolved provisional root: 114
+- Missing-series packets inspected: 122
+- Packets with at least one root candidate: 109
+- Packets with a single resolved provisional root: 120
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -73,20 +73,27 @@
 | `16-20` | 兆→law [*lrawʔ {*lr[a]wʔ}] (1145a) | `law` | `head_graph_oc_bs` |
 | `16-21` | 䍃→law [*law] (1144a) | `law` | `head_graph_oc_bs` |
 | `16-24` |  | `` | `` |
+| `16-31` |  | `` | `` |
 | `16-33` | 小→sew [*sewʔ {*[s]ewʔ}] (1149a) | `sew` | `head_graph_oc_bs` |
 | `17-05` | 勺→qek [*m-t-qewk] (1120a) | `qek` | `head_graph_oc_bs` |
 | `17-07` | 翟→lek [*lˤewk] (1124a) | `lek` | `head_graph_oc_bs` |
+| `19-02` | 果→kor [*kˤorʔ {*[k]ˤo[r]ʔ}] (0351a) | `kor` | `head_graph_oc_bs` |
 | `21-01` | 匃→kat [*kˤat-s {*[k]ˤat-s}] (0313a) | `kat` | `head_graph_oc_bs` |
+| `23-07` | 柬→kan [*kˤranʔ {*kˤr[a]nʔ}] (0185a) | `kan` | `head_graph_oc_bs` |
+| `23-27` | 扁→pen [*pˤenʔ {*pˤe[n]ʔ}] (0246a) | `pen` | `head_graph_oc_bs` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-21` | 單→tar [*dˤar {*[d]ˤar}] (0147a) | `tar` | `head_graph_oc_bs` |
 | `24-23` | 亶→tan [*tˤanʔ {*tˤa[n]ʔ}] (0148a) | `tan` | `head_graph_oc_bs` |
 | `24-41` | 戔→tsan [*dzˤan {*[dz]ˤa[n]}] (0155a) | `tsan` | `head_graph_oc_bs` |
+| `24-47` | 半→pan [*pˤan-s] (0181a) | `pan` | `head_graph_oc_bs` |
 | `24-54` | 釆→per [*bˤrer-s {*[b]ˤre[r]-s}] (0195a) | `per` | `head_graph_oc_bs` |
 | `25-02` | 雚→quar [*C.qʷˤar-s] (0158a) | `quar` | `head_graph_oc_bs` |
 | `25-12` | 亘→quar [*ɢʷˤar {*[ɢ]ʷˤar}] (0164a) | `quar` | `head_graph_oc_bs` |
 | `25-15` | 袁→quan [*ɢʷan {*[ɢ]ʷa[n]}] (0256a) | `quan` | `head_graph_oc_bs` |
 | `25-17` | 夗→ʔor [*ʔorʔ {*ʔo[r]ʔ}] (0260a) | `ʔor` | `head_graph_oc_bs` |
 | `25-19` | 元→ṅon [*ŋon {*[ŋ]o[n]} (< nasal + uvular)] (0257a) | `ṅon` | `head_graph_oc_bs` |
+| `25-24` | 耑→tor [*tˤor] (0168a) | `tor` | `head_graph_oc_bs` |
+| `25-25` | 專→ton [*ton] (0231a) | `ton` | `head_graph_oc_bs` |
 | `26-05` | 計→kiy [*kˤij-s] (1241a) | `kiy` | `head_graph_oc_bs` |
 | `26-14` | 氐→tiy [*tˤij] (0590a) | `tiy` | `head_graph_oc_bs` |
 | `26-27` | 齊→tsy [*dzˤəj {*[dz]ˤəj}] (0593a) | `tsy` | `head_graph_oc_bs` |

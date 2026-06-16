@@ -425,7 +425,7 @@ def resolve_semantic_from_ids(
         if right_matches and not left_matches:
             semantic_component = subtree_head(children[0])
             position = "prefix-dot"
-    elif operator in {"⿵", "⿶"}:
+    elif operator in {"⿴", "⿵", "⿶"}:
         if right_matches and not left_matches:
             semantic_component = subtree_head(children[0])
             position = "prefix-colon"
@@ -502,7 +502,7 @@ def resolve_semantic_from_wiktionary_template(
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
         elif operator in {"⿸", "⿷", "⿺", "⿹"}:
             position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
-        elif operator in {"⿵", "⿶"}:
+        elif operator in {"⿴", "⿵", "⿶"}:
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
 
     if position is None and semantic_index is not None and phonetic_index is not None:
@@ -632,7 +632,7 @@ def resolve_semantic_from_packet_family(
         position = "suffix-colon" if left_match else "prefix-colon"
     elif operator in {"⿸", "⿷", "⿺", "⿹"}:
         position = "suffix-dot" if left_match else "prefix-dot"
-    elif operator in {"⿵", "⿶"}:
+    elif operator in {"⿴", "⿵", "⿶"}:
         position = "suffix-colon" if left_match else "prefix-colon"
     else:
         return None
@@ -759,7 +759,7 @@ def resolve_semantic_from_parent_ids(
         position = "suffix-colon" if left_match else "prefix-colon"
     elif operator in {"⿸", "⿷", "⿺", "⿹"}:
         position = "suffix-dot" if left_match else "prefix-dot"
-    elif operator in {"⿵", "⿶"}:
+    elif operator in {"⿴", "⿵", "⿶"}:
         position = "suffix-colon" if left_match else "prefix-colon"
     else:
         return None

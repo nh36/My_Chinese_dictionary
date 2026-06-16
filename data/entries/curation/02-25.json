@@ -539,7 +539,7 @@
       "resolved_node_root": {
         "root": "lak",
         "source": "node_bs_consensus",
-        "descendant_count": 15,
+        "descendant_count": 16,
         "bs_support_count": 7,
         "bs_broad_roots": [
           "lak"
@@ -699,9 +699,27 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{cla·}lak}},",
-      "render_latex": "圛\t%yi4\n{\\large{\\textsuperscript{cla·}lak}},\n\\textit{yiek};\t%0790b",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "圛",
+          "ids": "⿴囗睪",
+          "phonetic_component": "睪",
+          "semantic_component": "囗",
+          "position": "prefix-colon",
+          "abbreviation": "cla",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 212
+            }
+          ]
+        }
+      ],
+      "transliteration_latex": "{\\large{\\textsuperscript{cla˸}lak}},",
+      "render_latex": "圛\t%yi4\n{\\large{\\textsuperscript{cla˸}lak}},\n\\textit{yiek};\t%0790b",
       "wiktionary_semantic_validation": {
         "semantic_component": "囗",
         "phonetic_component": "睪",
@@ -710,7 +728,7 @@
           "character": "圛",
           "semantic_component": "囗",
           "phonetic_component": "睪",
-          "position": "prefix-dot",
+          "position": "prefix-colon",
           "abbreviation": "cla",
           "inventory_matches": [
             {
@@ -726,7 +744,7 @@
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cla",
-        "position": "prefix-dot",
+        "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "囗",
@@ -739,12 +757,12 @@
         "semantic_component": "囗"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null

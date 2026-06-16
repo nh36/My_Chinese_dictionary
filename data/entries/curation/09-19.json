@@ -725,7 +725,7 @@
       "resolved_node_root": {
         "root": "riṅ",
         "source": "node_inherit_parent",
-        "descendant_count": 14,
+        "descendant_count": 15,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "riṅ",
@@ -1445,9 +1445,27 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{cla·}riṅ}},",
-      "render_latex": "囹\t%ling2\n{\\large{\\textsuperscript{cla·}riṅ}},\n\\textit{leṅ};\t%0823i",
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "囹",
+          "ids": "⿴囗令",
+          "phonetic_component": "令",
+          "semantic_component": "囗",
+          "position": "prefix-colon",
+          "abbreviation": "cla",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 212
+            }
+          ]
+        }
+      ],
+      "transliteration_latex": "{\\large{\\textsuperscript{cla˸}riṅ}},",
+      "render_latex": "囹\t%ling2\n{\\large{\\textsuperscript{cla˸}riṅ}},\n\\textit{leṅ};\t%0823i",
       "wiktionary_semantic_validation": {
         "semantic_component": "囗",
         "phonetic_component": "令",
@@ -1456,7 +1474,7 @@
           "character": "囹",
           "semantic_component": "囗",
           "phonetic_component": "令",
-          "position": "prefix-dot",
+          "position": "prefix-colon",
           "abbreviation": "cla",
           "inventory_matches": [
             {
@@ -1472,7 +1490,7 @@
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cla",
-        "position": "prefix-dot",
+        "position": "prefix-colon",
         "inventory_matches": [
           {
             "graph_raw": "囗",
@@ -1485,12 +1503,12 @@
         "semantic_component": "囗"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "令",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "令"
       },
       "resolved_node_root": null

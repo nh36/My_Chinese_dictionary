@@ -1,0 +1,4074 @@
+{
+  "generated_at": "2026-06-16T21:44:08.415828+00:00",
+  "id": "23-07",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "23-07",
+    "rhyme_section": 23,
+    "series_number": 7,
+    "k_tokens": [
+      "185"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC               LHan     OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 270,
+    "source_line_number": 39,
+    "source_line_raw": "23-7 =K.185          Man d.       MC               LHan     OCM"
+  },
+  "coverage": {
+    "gsc_id": "23-07",
+    "rhyme_section": "23",
+    "series_number": "7",
+    "schuessler_k_tokens": "185",
+    "schuessler_source_page": "270",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "15",
+    "mand2mc_character_count": "13",
+    "mand2mc_characters_sample": "柬; 諫; 揀; 闌; 湅; 練; 鍊; 瀾; 爛; 爤",
+    "bs_gsr_row_count": "8",
+    "bs_gsr_character_count": "8",
+    "bs_gsr_characters_sample": "柬; 諫; 揀; 闌; 練; 爛; 爤; 蘭",
+    "combined_source_character_count": "13",
+    "combined_source_characters_sample": "柬; 諫; 揀; 闌; 湅; 練; 鍊; 瀾; 爛; 爤"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "185"
+  ],
+  "proposed_additions": [
+    {
+      "character": "柬",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 28,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "keanX"
+        ],
+        "mand2mc_bs_forms": [
+          "keanX"
+        ],
+        "bs_gsr_forms": [
+          "keanX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1555",
+          "character": "柬",
+          "pinyin": "jian3",
+          "mc_nwh": "keanX",
+          "mc_bs": "keanX",
+          "gsr": "0185a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "柬",
+          "pinyin": "jiǎn",
+          "mc_bs": "keanX",
+          "mc_analyzed": "(k- + -ean B)",
+          "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+          "gloss": "select, distinguish",
+          "gsr": "0185a",
+          "unicode_utf16": "U+67EC"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6643",
+          "character": "柬",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "6625",
+          "character": "蘭",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6626",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6627",
+          "character": "闌",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6628",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6629",
+          "character": "籣",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6630",
+          "character": "欄",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6631",
+          "character": "㘓",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6632",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎干",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6633",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落旱",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6634",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "魯旱",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6635",
+          "character": "爛",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6636",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6637",
+          "character": "糷",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6638",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6639",
+          "character": "煉",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6640",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6641",
+          "character": "䃹",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6642",
+          "character": "諫",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古晏",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʳa̠ns"
+        },
+        {
+          "source_row_number": "6643",
+          "character": "柬",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6644",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6645",
+          "character": "練",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6646",
+          "character": "鍊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6647",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6648",
+          "character": "楝",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6649",
+          "character": "萰",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6650",
+          "character": "湅",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6651",
+          "character": "𣿊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6652",
+          "character": "煉",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|束|八|t1=tie|t2=division, individually|ls=ic}}",
+          "positional_components": [
+            "束",
+            "八"
+          ],
+          "named_args": {
+            "t1": "tie",
+            "t2": "division, individually",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|束|八|t1=tie|t2=division, individually|ls=ic}}",
+            "positional_components": [
+              "束",
+              "八"
+            ],
+            "named_args": {
+              "t1": "tie",
+              "t2": "division, individually",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{kan}},",
+      "render_latex": "柬\t%jian3 / jiǎn\n{\\large{kan}},\n\\textit{keanX};\t%0185a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": {
+        "root": "kan",
+        "source": "node_inherit_parent",
+        "descendant_count": 12,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "kan",
+          "ran",
+          "ren"
+        ],
+        "bs_node_roots": [
+          "kran",
+          "ran",
+          "ren"
+        ],
+        "display_root": "kan",
+        "division_class": "a",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "keanX",
+          "kaenH",
+          "lan",
+          "lanH",
+          "lanX",
+          "lenH"
+        ],
+        "form_analyses": [
+          {
+            "form": "keanX",
+            "normalized": "kean",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kaenH",
+            "normalized": "kaen",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lan",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lanH",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lanX",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lenH",
+            "normalized": "len",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "諫",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "kaenH"
+        ],
+        "bs_gsr_forms": [
+          "kaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1556",
+          "character": "諫",
+          "pinyin": "jian4",
+          "mc_nwh": "kaenH",
+          "mc_bs": "kaenH",
+          "gsr": "0185b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "諫",
+          "pinyin": "jiàn",
+          "mc_bs": "kaenH",
+          "mc_analyzed": "(k- + -aen C)",
+          "oc_bs": "*kˤranʔ-s ~ *kˤranʔ",
+          "gloss": "admonish",
+          "gsr": "0185b",
+          "unicode_utf16": "U+8AEB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6642",
+          "character": "諫",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古晏",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|柬|t1=say|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "言",
+            "柬"
+          ],
+          "named_args": {
+            "t1": "say",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "柬"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|柬|t1=say|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "言",
+              "柬"
+            ],
+            "named_args": {
+              "t1": "say",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "柬"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "諫",
+          "ids": "⿰言柬",
+          "phonetic_component": "柬",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 233
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 233
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}kan}},",
+      "render_latex": "諫\t%jian4 / jiàn\n{\\large{\\textsuperscript{dic·}kan}},\n\\textit{kaenH};\t%0185b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "柬",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "諫",
+          "semantic_component": "言",
+          "phonetic_component": "柬",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 233
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|言|柬|t1=say|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "揀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "keanX"
+        ],
+        "mand2mc_bs_forms": [
+          "keanX"
+        ],
+        "bs_gsr_forms": [
+          "keanX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1557",
+          "character": "揀",
+          "pinyin": "jian3",
+          "mc_nwh": "keanX",
+          "mc_bs": "keanX",
+          "gsr": "0185e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "揀",
+          "pinyin": "jiǎn",
+          "mc_bs": "keanX",
+          "mc_analyzed": "(k- + -ean B)",
+          "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+          "gloss": "select",
+          "gsr": "0185e",
+          "unicode_utf16": "U+63C0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6644",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6647",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|alt1=扌|柬|c1=s|c2=p|t1=hands|t2=to choose|ls=psc}}",
+          "positional_components": [
+            "手",
+            "柬"
+          ],
+          "named_args": {
+            "alt1": "扌",
+            "c1": "s",
+            "c2": "p",
+            "t1": "hands",
+            "t2": "to choose",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "柬"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|手|alt1=扌|柬|c1=s|c2=p|t1=hands|t2=to choose|ls=psc}}",
+            "positional_components": [
+              "手",
+              "柬"
+            ],
+            "named_args": {
+              "alt1": "扌",
+              "c1": "s",
+              "c2": "p",
+              "t1": "hands",
+              "t2": "to choose",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "柬"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "揀",
+          "ids": "⿰扌柬",
+          "phonetic_component": "柬",
+          "semantic_component": "手",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 274
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 17
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "man",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "手",
+            "label_token": "man(us)",
+            "abbreviation": "man",
+            "start_line": 274
+          },
+          {
+            "graph_raw": "手",
+            "label_token": "man",
+            "abbreviation": "man",
+            "learned": true,
+            "evidence_count": 17
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "手"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}kan}},",
+      "render_latex": "揀\t%jian3 / jiǎn\n{\\large{\\textsuperscript{man·}kan}},\n\\textit{keanX};\t%0185e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "柬",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "揀",
+          "semantic_component": "手",
+          "phonetic_component": "柬",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 274
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 17
+            }
+          ],
+          "template_raw": "{{Han compound|手|alt1=扌|柬|c1=s|c2=p|t1=hands|t2=to choose|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "闌",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan"
+        ],
+        "mand2mc_bs_forms": [
+          "lan"
+        ],
+        "bs_gsr_forms": [
+          "lan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1558",
+          "character": "闌",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185f"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "闌",
+          "pinyin": "lán",
+          "mc_bs": "lan",
+          "mc_analyzed": "(l- + -an A)",
+          "oc_bs": "*kə.rˤan",
+          "gloss": "railing",
+          "gsr": "0185f",
+          "unicode_utf16": "U+95CC"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6627",
+          "character": "闌",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|門|柬|t1=door|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "門",
+            "柬"
+          ],
+          "named_args": {
+            "t1": "door",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "門"
+          ],
+          "phonetic_components": [
+            "柬"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|門|柬|t1=door|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "門",
+              "柬"
+            ],
+            "named_args": {
+              "t1": "door",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "門"
+            ],
+            "phonetic_components": [
+              "柬"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "闌",
+          "ids": "⿵門柬",
+          "phonetic_component": "柬",
+          "semantic_component": "門",
+          "position": "prefix-colon",
+          "abbreviation": "port",
+          "inventory_matches": [
+            {
+              "graph_raw": "門",
+              "label_token": "port(a)",
+              "abbreviation": "port",
+              "start_line": 307
+            },
+            {
+              "graph_raw": "門",
+              "label_token": "port",
+              "abbreviation": "port",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "port",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "門",
+            "label_token": "port(a)",
+            "abbreviation": "port",
+            "start_line": 307
+          },
+          {
+            "graph_raw": "門",
+            "label_token": "port",
+            "abbreviation": "port",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "門"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{port˸}kan}},",
+      "render_latex": "闌\t%lan2 / lán\n{\\large{\\textsuperscript{port˸}kan}},\n\\textit{lan};\t%0185f",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "門",
+        "phonetic_component": "柬",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "闌",
+          "semantic_component": "門",
+          "phonetic_component": "柬",
+          "position": "prefix-colon",
+          "abbreviation": "port",
+          "inventory_matches": [
+            {
+              "graph_raw": "門",
+              "label_token": "port(a)",
+              "abbreviation": "port",
+              "start_line": 307
+            },
+            {
+              "graph_raw": "門",
+              "label_token": "port",
+              "abbreviation": "port",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|門|柬|t1=door|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": {
+        "root": "ran",
+        "source": "node_bs_consensus",
+        "descendant_count": 6,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "ran"
+        ],
+        "bs_node_roots": [
+          "ran"
+        ],
+        "display_root": "r\\textoverset{a}{a}n",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "lan",
+          "lanH",
+          "lanX",
+          "lenH"
+        ],
+        "form_analyses": [
+          {
+            "form": "lan",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lanH",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lanX",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lenH",
+            "normalized": "len",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "r\\textoverset{a}{a}n",
+        "ordinal": 1,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "湅",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1559",
+          "character": "湅",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6650",
+          "character": "湅",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "湅",
+          "ids": "⿰氵柬",
+          "phonetic_component": "柬",
+          "semantic_component": "水",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 188
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 188
+          },
+          {
+            "graph_raw": "水",
+            "label_token": "aq",
+            "abbreviation": "aq",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "水"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}kan}},",
+      "render_latex": "湅\t%lian4\n{\\large{\\textsuperscript{aq·}kan}},\n\\textit{lenH};\t%0185h",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "練",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [
+          "lenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1560",
+          "character": "練",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185i"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "練",
+          "pinyin": "liàn",
+          "mc_bs": "lenH",
+          "mc_analyzed": "(l- + -en C)",
+          "oc_bs": "*rˤen-s {*[r]ˤen-s}",
+          "gloss": "sized white silk",
+          "gsr": "0185i",
+          "unicode_utf16": "U+7DF4"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6645",
+          "character": "練",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|糸|柬|t1=silk|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "糸",
+            "柬"
+          ],
+          "named_args": {
+            "t1": "silk",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "糸"
+          ],
+          "phonetic_components": [
+            "柬"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|糸|柬|t1=silk|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "糸",
+              "柬"
+            ],
+            "named_args": {
+              "t1": "silk",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "糸"
+            ],
+            "phonetic_components": [
+              "柬"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "練",
+          "ids": "⿰糹柬",
+          "phonetic_component": "柬",
+          "semantic_component": "糹",
+          "position": "prefix-dot",
+          "abbreviation": "ser",
+          "inventory_matches": [
+            {
+              "graph_raw": "糹",
+              "label_token": "ser",
+              "abbreviation": "ser",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ser",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "糸",
+            "label_token": "ser(icum)",
+            "abbreviation": "ser",
+            "start_line": 320
+          },
+          {
+            "graph_raw": "糸",
+            "label_token": "ser",
+            "abbreviation": "ser",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "糸"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}kan}},",
+      "render_latex": "練\t%lian4 / liàn\n{\\large{\\textsuperscript{ser·}kan}},\n\\textit{lenH};\t%0185i",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "糸",
+        "phonetic_component": "柬",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "練",
+          "semantic_component": "糸",
+          "phonetic_component": "柬",
+          "position": "prefix-dot",
+          "abbreviation": "ser",
+          "inventory_matches": [
+            {
+              "graph_raw": "糸",
+              "label_token": "ser(icum)",
+              "abbreviation": "ser",
+              "start_line": 320
+            },
+            {
+              "graph_raw": "糸",
+              "label_token": "ser",
+              "abbreviation": "ser",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|糸|柬|t1=silk|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "鍊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1561",
+          "character": "鍊",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185j"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6646",
+          "character": "鍊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|金|柬|t1=metal|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "金",
+            "柬"
+          ],
+          "named_args": {
+            "t1": "metal",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "金"
+          ],
+          "phonetic_components": [
+            "柬"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|金|柬|t1=metal|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "金",
+              "柬"
+            ],
+            "named_args": {
+              "t1": "metal",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "金"
+            ],
+            "phonetic_components": [
+              "柬"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鍊",
+          "ids": "⿰金柬",
+          "phonetic_component": "柬",
+          "semantic_component": "金",
+          "position": "prefix-dot",
+          "abbreviation": "met",
+          "inventory_matches": [
+            {
+              "graph_raw": "金",
+              "label_token": "met(allum)",
+              "abbreviation": "met",
+              "start_line": 277
+            },
+            {
+              "graph_raw": "金",
+              "label_token": "met",
+              "abbreviation": "met",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "met",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "金",
+            "label_token": "met(allum)",
+            "abbreviation": "met",
+            "start_line": 277
+          },
+          {
+            "graph_raw": "金",
+            "label_token": "met",
+            "abbreviation": "met",
+            "learned": true,
+            "evidence_count": 16
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "金"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}kan}},",
+      "render_latex": "鍊\t%lian4\n{\\large{\\textsuperscript{met·}kan}},\n\\textit{lenH};\t%0185j",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "金",
+        "phonetic_component": "柬",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鍊",
+          "semantic_component": "金",
+          "phonetic_component": "柬",
+          "position": "prefix-dot",
+          "abbreviation": "met",
+          "inventory_matches": [
+            {
+              "graph_raw": "金",
+              "label_token": "met(allum)",
+              "abbreviation": "met",
+              "start_line": 277
+            },
+            {
+              "graph_raw": "金",
+              "label_token": "met",
+              "abbreviation": "met",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ],
+          "template_raw": "{{Han compound|金|柬|t1=metal|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "柬",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "柬"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "瀾",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan",
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan",
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lan",
+          "lanH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1562",
+          "character": "瀾",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185k"
+        },
+        {
+          "source_row_number": "1563",
+          "character": "瀾",
+          "pinyin": "lan2",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185k"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6626",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6636",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|alt1=氵|闌|ls=psc|t1=water|c1=s|c2=p}}",
+          "positional_components": [
+            "水",
+            "闌"
+          ],
+          "named_args": {
+            "alt1": "氵",
+            "ls": "psc",
+            "t1": "water",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "闌"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|alt1=氵|闌|ls=psc|t1=water|c1=s|c2=p}}",
+            "positional_components": [
+              "水",
+              "闌"
+            ],
+            "named_args": {
+              "alt1": "氵",
+              "ls": "psc",
+              "t1": "water",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "闌"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "瀾",
+          "ids": "⿰氵闌",
+          "phonetic_component": "柬",
+          "semantic_component": "水",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 188
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 188
+          },
+          {
+            "graph_raw": "水",
+            "label_token": "aq",
+            "abbreviation": "aq",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "水"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}r\\textoverset{a}{a}n}},",
+      "render_latex": "瀾\t%lan2\n{\\large{\\textsuperscript{aq·}r\\textoverset{a}{a}n}},\n\\textit{lan};\t%0185k\n\\textit{lanH};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "闌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "瀾",
+          "semantic_component": "水",
+          "phonetic_component": "闌",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 188
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ],
+          "template_raw": "{{Han compound|水|alt1=氵|闌|ls=psc|t1=water|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "闌",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "闌"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "爛",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lanH"
+        ],
+        "bs_gsr_forms": [
+          "lanH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1564",
+          "character": "爛",
+          "pinyin": "lan4",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185l"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "爛",
+          "pinyin": "làn",
+          "mc_bs": "lanH",
+          "mc_analyzed": "(l- + -an C)",
+          "oc_bs": "*rˤan-s {*[r]ˤan-s}",
+          "gloss": "cooked until soft",
+          "gsr": "0185l",
+          "unicode_utf16": "U+721B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6635",
+          "character": "爛",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|火|闌|t1=fire|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "火",
+            "闌"
+          ],
+          "named_args": {
+            "t1": "fire",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "火"
+          ],
+          "phonetic_components": [
+            "闌"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|火|闌|t1=fire|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "火",
+              "闌"
+            ],
+            "named_args": {
+              "t1": "fire",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "火"
+            ],
+            "phonetic_components": [
+              "闌"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "爛",
+          "ids": "⿰火闌",
+          "phonetic_component": "柬",
+          "semantic_component": "火",
+          "position": "prefix-dot",
+          "abbreviation": "ign",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 263
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ign",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "火",
+            "label_token": "ign(is)",
+            "abbreviation": "ign",
+            "start_line": 263
+          },
+          {
+            "graph_raw": "火",
+            "label_token": "ign",
+            "abbreviation": "ign",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "火"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ign·}r\\textoverset{a}{a}n}},",
+      "render_latex": "爛\t%lan4 / làn\n{\\large{\\textsuperscript{ign·}r\\textoverset{a}{a}n}},\n\\textit{lanH};\t%0185l",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "火",
+        "phonetic_component": "闌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "爛",
+          "semantic_component": "火",
+          "phonetic_component": "闌",
+          "position": "prefix-dot",
+          "abbreviation": "ign",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 263
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|火|闌|t1=fire|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "闌",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "闌"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "爤",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lanH"
+        ],
+        "bs_gsr_forms": [
+          "lanH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1565",
+          "character": "爤",
+          "pinyin": "lan4",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "爤",
+          "pinyin": "làn",
+          "mc_bs": "lanH",
+          "mc_analyzed": "(l- + -an C)",
+          "oc_bs": "*rˤan-s {*[r]ˤan-s}",
+          "gloss": "cooked until soft",
+          "gsr": "0185m",
+          "unicode_utf16": "U+7224"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ign",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "火",
+            "label_token": "ign(is)",
+            "abbreviation": "ign",
+            "start_line": 263
+          },
+          {
+            "graph_raw": "火",
+            "label_token": "ign",
+            "abbreviation": "ign",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "火"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ign·}r\\textoverset{a}{a}n₂}},",
+      "render_latex": "爤\t%lan4 / làn\n{\\large{\\textsuperscript{ign·}r\\textoverset{a}{a}n₂}},\n\\textit{lanH};\t%0185m",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "蘭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_inferred_phonetic_parent",
+        "phonetic_hint": "蘭"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "蘭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan"
+        ],
+        "mand2mc_bs_forms": [
+          "lan"
+        ],
+        "bs_gsr_forms": [
+          "lan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1566",
+          "character": "蘭",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185n"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "蘭",
+          "pinyin": "lán",
+          "mc_bs": "lan",
+          "mc_analyzed": "(l- + -an A)",
+          "oc_bs": "*k.rˤan",
+          "gloss": "orchid",
+          "gsr": "0185n",
+          "unicode_utf16": "U+862D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6625",
+          "character": "蘭",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|alt1=艹|闌|t1=plant|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "艸",
+            "闌"
+          ],
+          "named_args": {
+            "alt1": "艹",
+            "t1": "plant",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "闌"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|alt1=艹|闌|t1=plant|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "艸",
+              "闌"
+            ],
+            "named_args": {
+              "alt1": "艹",
+              "t1": "plant",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "闌"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "蘭",
+          "ids": "⿱艹闌",
+          "phonetic_component": "柬",
+          "semantic_component": "艸",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "herb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "艸",
+            "label_token": "herb(a)",
+            "abbreviation": "herb",
+            "start_line": 261
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "艸"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}r\\textoverset{a}{a}n}},",
+      "render_latex": "蘭\t%lan2 / lán\n{\\large{\\textsuperscript{herb˸}r\\textoverset{a}{a}n}},\n\\textit{lan};\t%0185n",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "闌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蘭",
+          "semantic_component": "艸",
+          "phonetic_component": "闌",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 261
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ],
+          "template_raw": "{{Han compound|艸|alt1=艹|闌|t1=plant|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "闌",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "闌"
+      },
+      "resolved_node_root": {
+        "root": "ran",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ran"
+        ],
+        "bs_node_roots": [
+          "ran"
+        ],
+        "display_root": "r\\textoverset{a}{a}n₂",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "lan",
+          "lanH"
+        ],
+        "form_analyses": [
+          {
+            "form": "lan",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lanH",
+            "normalized": "lan",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "r\\textoverset{a}{a}n",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "讕",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan",
+          "lanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan",
+          "lanX"
+        ],
+        "mand2mc_bs_forms": [
+          "lan",
+          "lanX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1567",
+          "character": "讕",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185o"
+        },
+        {
+          "source_row_number": "1568",
+          "character": "讕",
+          "pinyin": "lan2",
+          "mc_nwh": "lanX",
+          "mc_bs": "lanX",
+          "gsr": "0185o"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6628",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6633",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落旱",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6638",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|闌|t1=speech|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "言",
+            "闌"
+          ],
+          "named_args": {
+            "t1": "speech",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "闌"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|闌|t1=speech|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "言",
+              "闌"
+            ],
+            "named_args": {
+              "t1": "speech",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "闌"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "讕",
+          "ids": "⿰言闌",
+          "phonetic_component": "柬",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 233
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 233
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}r\\textoverset{a}{a}n}},",
+      "render_latex": "讕\t%lan2\n{\\large{\\textsuperscript{dic·}r\\textoverset{a}{a}n}},\n\\textit{lan};\t%0185o\n\\textit{lanX};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "闌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "讕",
+          "semantic_component": "言",
+          "phonetic_component": "闌",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 233
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|言|闌|t1=speech|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "闌",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "闌"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "欄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1569",
+          "character": "欄",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185q"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6630",
+          "character": "欄",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|木|闌|c1=s|c2=p|t1=wood|ls=psc}}",
+          "positional_components": [
+            "木",
+            "闌"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "wood",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "闌"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|木|闌|c1=s|c2=p|t1=wood|ls=psc}}",
+            "positional_components": [
+              "木",
+              "闌"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "wood",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "闌"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "欄",
+          "ids": "⿰木闌",
+          "phonetic_component": "柬",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 193
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 193
+          },
+          {
+            "graph_raw": "木",
+            "label_token": "arb",
+            "abbreviation": "arb",
+            "learned": true,
+            "evidence_count": 22
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "木"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}r\\textoverset{a}{a}n}},",
+      "render_latex": "欄\t%lian4\n{\\large{\\textsuperscript{arb·}r\\textoverset{a}{a}n}},\n\\textit{lenH};\t%0185q",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "木",
+        "phonetic_component": "闌",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "欄",
+          "semantic_component": "木",
+          "phonetic_component": "闌",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 193
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "template_raw": "{{Han compound|木|闌|c1=s|c2=p|t1=wood|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "闌",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "闌"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "柬",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 28,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "keanX"
+        ],
+        "mand2mc_bs_forms": [
+          "keanX"
+        ],
+        "bs_gsr_forms": [
+          "keanX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1555",
+          "character": "柬",
+          "pinyin": "jian3",
+          "mc_nwh": "keanX",
+          "mc_bs": "keanX",
+          "gsr": "0185a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "柬",
+          "pinyin": "jiǎn",
+          "mc_bs": "keanX",
+          "mc_analyzed": "(k- + -ean B)",
+          "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+          "gloss": "select, distinguish",
+          "gsr": "0185a",
+          "unicode_utf16": "U+67EC"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6643",
+          "character": "柬",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "6625",
+          "character": "蘭",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6626",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6627",
+          "character": "闌",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6628",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6629",
+          "character": "籣",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6630",
+          "character": "欄",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6631",
+          "character": "㘓",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6632",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎干",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6633",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落旱",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6634",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "魯旱",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6635",
+          "character": "爛",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6636",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6637",
+          "character": "糷",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6638",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6639",
+          "character": "煉",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6640",
+          "character": "灡",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6641",
+          "character": "䃹",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        },
+        {
+          "source_row_number": "6642",
+          "character": "諫",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古晏",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʳa̠ns"
+        },
+        {
+          "source_row_number": "6643",
+          "character": "柬",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6644",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6645",
+          "character": "練",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6646",
+          "character": "鍊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6647",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6648",
+          "character": "楝",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6649",
+          "character": "萰",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6650",
+          "character": "湅",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6651",
+          "character": "𣿊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        },
+        {
+          "source_row_number": "6652",
+          "character": "煉",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "集韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ]
+    },
+    {
+      "character": "諫",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "kaenH"
+        ],
+        "bs_gsr_forms": [
+          "kaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1556",
+          "character": "諫",
+          "pinyin": "jian4",
+          "mc_nwh": "kaenH",
+          "mc_bs": "kaenH",
+          "gsr": "0185b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "諫",
+          "pinyin": "jiàn",
+          "mc_bs": "kaenH",
+          "mc_analyzed": "(k- + -aen C)",
+          "oc_bs": "*kˤranʔ-s ~ *kˤranʔ",
+          "gloss": "admonish",
+          "gsr": "0185b",
+          "unicode_utf16": "U+8AEB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6642",
+          "character": "諫",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古晏",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "揀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "keanX"
+        ],
+        "mand2mc_bs_forms": [
+          "keanX"
+        ],
+        "bs_gsr_forms": [
+          "keanX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1557",
+          "character": "揀",
+          "pinyin": "jian3",
+          "mc_nwh": "keanX",
+          "mc_bs": "keanX",
+          "gsr": "0185e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "揀",
+          "pinyin": "jiǎn",
+          "mc_bs": "keanX",
+          "mc_analyzed": "(k- + -ean B)",
+          "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+          "gloss": "select",
+          "gsr": "0185e",
+          "unicode_utf16": "U+63C0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6644",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古限",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "kʳe̠nʔ"
+        },
+        {
+          "source_row_number": "6647",
+          "character": "揀",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "闌",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan"
+        ],
+        "mand2mc_bs_forms": [
+          "lan"
+        ],
+        "bs_gsr_forms": [
+          "lan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1558",
+          "character": "闌",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185f"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "闌",
+          "pinyin": "lán",
+          "mc_bs": "lan",
+          "mc_analyzed": "(l- + -an A)",
+          "oc_bs": "*kə.rˤan",
+          "gloss": "railing",
+          "gsr": "0185f",
+          "unicode_utf16": "U+95CC"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6627",
+          "character": "闌",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "湅",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1559",
+          "character": "湅",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6650",
+          "character": "湅",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "練",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [
+          "lenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1560",
+          "character": "練",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185i"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "練",
+          "pinyin": "liàn",
+          "mc_bs": "lenH",
+          "mc_analyzed": "(l- + -en C)",
+          "oc_bs": "*rˤen-s {*[r]ˤen-s}",
+          "gloss": "sized white silk",
+          "gsr": "0185i",
+          "unicode_utf16": "U+7DF4"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6645",
+          "character": "練",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "鍊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1561",
+          "character": "鍊",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185j"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6646",
+          "character": "鍊",
+          "phonetic_component": "柬",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "郎甸",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "k‧re̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "瀾",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan",
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan",
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lan",
+          "lanH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1562",
+          "character": "瀾",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185k"
+        },
+        {
+          "source_row_number": "1563",
+          "character": "瀾",
+          "pinyin": "lan2",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185k"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6626",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6636",
+          "character": "瀾",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "爛",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lanH"
+        ],
+        "bs_gsr_forms": [
+          "lanH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1564",
+          "character": "爛",
+          "pinyin": "lan4",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185l"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "爛",
+          "pinyin": "làn",
+          "mc_bs": "lanH",
+          "mc_analyzed": "(l- + -an C)",
+          "oc_bs": "*rˤan-s {*[r]ˤan-s}",
+          "gloss": "cooked until soft",
+          "gsr": "0185l",
+          "unicode_utf16": "U+721B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6635",
+          "character": "爛",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "爤",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lanH"
+        ],
+        "mand2mc_bs_forms": [
+          "lanH"
+        ],
+        "bs_gsr_forms": [
+          "lanH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1565",
+          "character": "爤",
+          "pinyin": "lan4",
+          "mc_nwh": "lanH",
+          "mc_bs": "lanH",
+          "gsr": "0185m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "爤",
+          "pinyin": "làn",
+          "mc_bs": "lanH",
+          "mc_analyzed": "(l- + -an C)",
+          "oc_bs": "*rˤan-s {*[r]ˤan-s}",
+          "gloss": "cooked until soft",
+          "gsr": "0185m",
+          "unicode_utf16": "U+7224"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "蘭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan"
+        ],
+        "mand2mc_bs_forms": [
+          "lan"
+        ],
+        "bs_gsr_forms": [
+          "lan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1566",
+          "character": "蘭",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185n"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "36",
+          "character": "蘭",
+          "pinyin": "lán",
+          "mc_bs": "lan",
+          "mc_analyzed": "(l- + -an A)",
+          "oc_bs": "*k.rˤan",
+          "gloss": "orchid",
+          "gsr": "0185n",
+          "unicode_utf16": "U+862D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6625",
+          "character": "蘭",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "讕",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lan",
+          "lanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "lan",
+          "lanX"
+        ],
+        "mand2mc_bs_forms": [
+          "lan",
+          "lanX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1567",
+          "character": "讕",
+          "pinyin": "lan2",
+          "mc_nwh": "lan",
+          "mc_bs": "lan",
+          "gsr": "0185o"
+        },
+        {
+          "source_row_number": "1568",
+          "character": "讕",
+          "pinyin": "lan2",
+          "mc_nwh": "lanX",
+          "mc_bs": "lanX",
+          "gsr": "0185o"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6628",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        },
+        {
+          "source_row_number": "6633",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落旱",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "k‧ra̠nʔ"
+        },
+        {
+          "source_row_number": "6638",
+          "character": "讕",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "郎旰",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "k‧ra̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "欄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "lenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "lenH"
+        ],
+        "mand2mc_bs_forms": [
+          "lenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1569",
+          "character": "欄",
+          "pinyin": "lian4",
+          "mc_nwh": "lenH",
+          "mc_bs": "lenH",
+          "gsr": "0185q"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6630",
+          "character": "欄",
+          "phonetic_component": "柬",
+          "component_level": "2",
+          "secondary_component": "闌",
+          "fanqie": "落干",
+          "source": "广韵",
+          "oc_initial": "k‧r",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "k‧ra̠n"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "柬",
+      "gsr": "0185a",
+      "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+      "root": "kan",
+      "source": "head_graph_oc_bs"
+    }
+  ],
+  "resolved_series_root": {
+    "root": "kan",
+    "source": "head_graph_oc_bs",
+    "character": "柬",
+    "oc_bs": "*kˤranʔ {*kˤr[a]nʔ}",
+    "confidence": "provisional-oc",
+    "display_root": "kan",
+    "base_root": "kan",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}
