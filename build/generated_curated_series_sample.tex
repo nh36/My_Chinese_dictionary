@@ -167,21 +167,13 @@
 \section*{Curated pilot series in comparable format}
 
 \newsavebox{\pilotentrybox}
-\newlength{\pilotentryheight}
 \newlength{\pilotentrygap}
 \setlength{\pilotentrygap}{0.75\baselineskip}
 \makeatletter
 \long\def\pilotentry#1{%
   \sbox{\pilotentrybox}{\begin{minipage}{\columnwidth}#1\end{minipage}}%
-  \setlength{\pilotentryheight}{\dimexpr\ht\pilotentrybox+\dp\pilotentrybox\relax}%
   \ifdim\pagetotal>\topskip
-    \dimen@=\pagegoal\relax
-    \advance\dimen@ by -\pagetotal\relax
-    \ifdim\dimen@<\dimexpr\pilotentryheight+\pilotentrygap\relax
-      \columnbreak
-    \else
-      \vspace{\pilotentrygap}
-    \fi
+    \vspace{\pilotentrygap}
   \fi
   \usebox{\pilotentrybox}\par
 }

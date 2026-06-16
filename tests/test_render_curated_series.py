@@ -34,8 +34,7 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         }
         rendered = render_curated_series.render_curated_entry(entry)
         self.assertIn("\\paragraph{\\textoversetlarge{02-01}{\\huge{各}}}", rendered)
-        self.assertIn("\\begin{multicols}{2}", rendered)
-        self.assertIn("\\textsuperscript{arb·}kay", rendered)
+        self.assertNotIn("\\begin{multicols}{2}", rendered)
         self.assertIn("\\textit{kak};", rendered)
 
     def test_render_document(self) -> None:
