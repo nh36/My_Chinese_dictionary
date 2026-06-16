@@ -1,0 +1,359 @@
+\clubpenalty100000000
+\widowpenalty100000000
+\documentclass[xetex, svgnames, 12pt]{scrartcl}
+
+\usepackage{xeCJK}
+\setCJKmainfont{BabelStone Han}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+% XeLaTeX settings
+\usepackage{xltxtra,polyglossia}
+\setmainfont[Mapping=tex-text,Scale=1.0]{FreeSerif}
+\setsansfont[Mapping=tex-text,Scale=1.0]{FreeSans}
+\setmonofont{FreeMono}
+\setmainlanguage{english}
+\usepackage{makecell}
+\usepackage{tabu}
+
+
+
+\newfontfamily\tibetan{Tibetan Machine Uni}
+\newfontfamily\sil{Charis SIL}
+% Text styles
+\newcommand\Bod[1]{\tibetan\textup{#1}}
+
+\newcommand{\textunderset}[2]{\begin{tabular}[t]{@{}c@{}}#2\\[-0.3em]\scriptsize#1\end{tabular}}
+\newcommand{\textoverset}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.38em]#2\end{tabular}}
+\newcommand{\textoversetlarge}[2]{\begin{tabular}[b]{@{}c@{}}\scriptsize#1\\[-0.2em]#2\end{tabular}}
+
+
+
+\newfontfamily\burm{Padauk}
+\usepackage{scrlayer-scrpage}
+\usepackage[
+    colorlinks,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=CornflowerBlue,
+    filecolor=black,
+    linktocpage=true,
+    %dvipdfm
+    ]{hyperref}
+
+% more packages needed
+\usepackage{tikz-cd}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor, color, colortbl, multirow}
+% biblatex is used for bibtex rendering, style author-year
+\usepackage[
+    backend=bibtex,
+    bibstyle=authoryear,
+    giveninits=true,
+    ibidtracker=strict,
+    isbn=false,doi=false,url=false,
+    labelnumber=true,
+    loccittracker=strict,
+    maxbibnames=10,
+    maxcitenames=2,
+    natbib=true,
+    opcittracker=strict,
+    sortcites=true,
+    sorting=nyt,
+    style=authoryear-ibid,
+    alldates=terse,
+    terseinits=false
+    ]{biblatex}
+
+\renewcommand*{\nameyeardelim}{\addspace}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
+\renewcommand\bibfont{\footnotesize}
+
+
+% pagestyle settings
+\pagestyle{scrheadings}
+\ihead{%Hill
+}
+\chead{Chinese Dictionary}
+\ohead{}
+\ifoot{}
+\cfoot{\pagemark}
+\ofoot{}
+
+\bibliography{asia}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage[]{tikz}
+\graphicspath{{hard-character-images/}{images/}{../images/}}
+
+\usetikzlibrary{calc,arrows,positioning,shapes}
+
+\newcommand{\SET}[1]  {\ensuremath{\mathcal{#1}}}
+\newcommand{\MAT}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\VEC}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\Video}{\SET{V}}
+\newcommand{\video}{\VEC{f}}
+\newcommand{\track}{x}
+\newcommand{\Track}{\SET T}
+\newcommand{\LMs}{\SET L}
+\newcommand{\lm}{l}
+\newcommand{\PosE}{\SET P}
+\newcommand{\posE}{\VEC p}
+\newcommand{\negE}{\VEC n}
+\newcommand{\NegE}{\SET N}
+\newcommand{\Occluded}{\SET O}
+\newcommand{\occluded}{o}
+%\definecolor{amazongreen}{cmyk}{0.83,0.24,0,0.12}
+\definecolor{blue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{red}{rgb}{0.75, 0.0, 0.2}
+\definecolor{violet}{RGB}{153,153,255}
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84}
+\definecolor{amazongreen}{RGB}{0,153,153}
+
+%\newfontfamily\burm{Padauk}
+\newfontfamily\tib{Tibetan Machine Uni}
+
+
+%Define boxes
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=4.2cm, minimum height=1cm,text centered, draw=amazongreen, text=white, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=4.2cm, minimum height=1cm, text centered, draw=amazongreen, fill=orange!30, text=white]
+%\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{decision} = [rectangle, rounded corners,minimum width=4cm, minimum height=1cm, text centered, text width=3cm, text=white, fill=amazongreen]
+
+% Draw a video
+\newlength{\FSZ}
+\newcommand{\drawvideo}[3]{% [0 0.25 0.5 0.75 1 1.25 1.5]
+   \noindent\pgfmathsetlength{\FSZ}{\linewidth/#2}
+   \begin{tikzpicture}[outer sep=0pt,inner sep=0pt,x=\FSZ,y=\FSZ]
+   \draw[color=amazongreen!50!black] (0,0) node[outer sep=0pt,inner sep=0pt,text width=\linewidth,minimum height=0] (video) {\noindent#3};
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     (video.north west) rectangle ([yshift=\FSZ] video.north east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.north west)+(-0.7,0.8)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \path [fill=amazongreen!50!black,line width=0pt] 
+     ([yshift=-1\FSZ] video.south west) rectangle (video.south east) 
+    \foreach \x in {1,2,...,#2} {
+      {[rounded corners=0.6] ($(video.south west)+(-0.7,-0.2)+(\x,0)$) rectangle +(0.4,-0.6)}
+    }
+;
+   \foreach \x in {1,...,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1] video.north west) -- ([xshift=\x\linewidth/#1] video.south west);
+   }
+   \foreach \x in {0,#1} {
+     \draw[color=amazongreen!50!black] ([xshift=\x\linewidth/#1,yshift=1\FSZ] video.north west) -- ([xshift=\x\linewidth/#1,yshift=-1\FSZ] video.south west);
+   }
+   \end{tikzpicture}
+}
+
+\title{A dictionary of Chinese characteres in transliteration}
+\author{Nathan W. Hill}
+\renewcommand{\textoverset}[2]{\leavevmode\hbox{\ooalign{\hfil\smash{\raise0.82ex\hbox{\fontsize{5.0}{5.0}\selectfont #1}}\hfil\crcr\hfil#2\hfil\crcr}}}
+
+\begin{document}
+% GENERATED FILE - DO NOT EDIT BY HAND.
+\section*{a/b superscript visual mockup}
+This mockup reuses handwritten dictionary material from \texttt{18-01}, \texttt{01-67} with a candidate \texttt{\textoverset} definition.
+Variant under review: \texttt{overlay-balanced}.
+\begin{multicols*}{2}
+\raggedcolumns
+\paragraph{\textoversetlarge{18-01}{\huge{可}}}
+{\Large{qay}}, 
+%ke3	
+\textit{khaX};	%0001a
+柯	%ke1	
+{\large{{\textsuperscript{arb·}}
+qay}}, 
+\textit{ka};		%0001d
+笴	%gan3	
+{\large{\textsuperscript{bamb:}qay}},
+\textit{kanX},		%0001e
+%笴	%ge3	
+\textit{kaX};		%0001e
+河	%he2	
+{\large{\textsuperscript{aq·}qay}},
+\textit{ḫa};		%0001g
+苛	%ke1	
+{\large{\textsuperscript{herb:}qay}},
+\textit{ḫa};		%0001i
+呵	%he1	
+{\large{\textsuperscript{or·}qay}},
+\textit{ḫa};		%0001j
+訶	%he1	
+{\large{\textsuperscript{dic·}qay}},
+\textit{ḫa};		%0001k
+阿	%e1	
+{\large{\textsuperscript{tum·}qay}},
+\textit{{\sil{ꞏ}}a};		%0001m
+㫊	%yi3	
+\textit{{\sil{ꞏ}}aX},		%0001n
+%㫊	%yi3	
+\textit{{\sil{ꞏ}}ieX};		%0001n
+\begin{itemize}[noitemsep]
+\begin{spacing}{0.7} 
+
+\item 
+{\Large{何}}	%he2	
+{\large{\textsuperscript{hom·}qay}}
+= 
+{\large{g\textoverset{a}{a}y}},
+\textit{ḫa},		%0001f
+%何	%he2	
+\textit{ḫaX};		%0001f
+荷	%he2	
+{\large{{\textsuperscript{bamb:}}g\textoverset{a}{a}y}}, 
+\textit{ḫa};		%0001o
+    \item 
+{\Large{哥}}	%ge1	
+{\large{qay:qay}} = {\large{k\textoverset{a}{a}y}},
+\textit{ka};		%0001p
+歌	%ge1	
+{\large{k\textoverset{a}{a}}y{\textsuperscript{·dehab}}}, 
+\textit{ka};		%0001q
+謌	%ge1	
+{\large{{\textsuperscript{dic·}}k\textoverset{a}{a}y}}, 
+\textit{ka};		%0001r
+\item
+{\Large{奇}}	%qi2	
+{\large{\textsuperscript{magn:}qay}}
+= {\large{q\textoverset{b}{a}y}},
+\textit{gie},		%0001s
+%奇	%ji1	
+\textit{kie};		%0001s
+琦	%qi2	
+{\large{\textsuperscript{gem·}q\textoverset{b}{a}y}},
+\textit{gie};		%0001t
+
+\vspace{0.8\baselineskip}
+
+\paragraph{\textoversetlarge{01-67}{\huge{父}}}{\huge{(}}{\includegraphics[width=6mm]{父.png}}{\huge{)}}
+%父	%fu4	
+{\large{pa}}, 
+\textit{biuX},	%bjuX	0102a
+%父	%fu3	
+\textit{piuX};	%pjuX	0102a
+釜	%fu3	
+{\large{pa{\textsuperscript{:met}}}},
+\textit{biuX};	%bjuX	0102f
+斧	%fu3	
+{\large{pa{\textsuperscript{:libra}}}},
+\textit{piuX};	%pjuX	0102h
+\begin{itemize}[noitemsep]
+    \item 
+{\Large{布}}({\includegraphics[width=5mm]{布.png}})	%bu4	
+{\large{pa{\textsuperscript{:lint}}}} = {\large{p\textoverset{a}{a}}},
+\textit{puH};	%puH	0102j
+怖	%bu4	
+{{\textsuperscript{cor·}}p\textoverset{a}{a}}, 
+\textit{phuH};	%phuH	0102m
+    \item {\Large{甫}}({\includegraphics[width=5mm]{甫.png}})	%bu4	
+{\large{pa{\textsuperscript{:ager}}}} = {\large{pa₂}},
+%fu3	
+\textit{piuX};	%pjuX	0102n
+脯	%fu3	
+{\large{{\textsuperscript{carn·}}pa₂}},
+\textit{piuX};	%pjuX	0102r
+莆	%fu3	
+{\large{{\textsuperscript{herb:}}pa₂}},
+\textit{piuX};	%pjuX	0102s
+黼	%fu3	
+{\large{{\textsuperscript{acu·}}pa₂}},
+\textit{piuX};	%pjuX	0102t
+簠	%fu3	
+{\large{{\textsuperscript{xxx·}}pa₂}},
+\textit{piu}, %pju	0102u
+%簠	%fu3	
+\textit{piuH},	%pjuH	0102u
+%簠	%fu3	
+\textit{piuX};	%pjuX	0102u
+輔	%fu3	
+{\large{{\textsuperscript{vehic·}}pa₂}},
+\textit{biuX};	%bjuX	0102v
+鬴	%fu3	
+{\large{{\textsuperscript{olla·}}pa₂}},
+\textit{biuX};	%bjuX	0102y
+圃	%pu3	
+{\large{{\textsuperscript{cla·}}pa₂}},
+\textit{puH},	%puH	0102z
+%圃	%pu3	
+\textit{puX};	%puX	0102z
+補	%bu3	
+{\large{{\textsuperscript{vest·}}pa₂}},
+\textit{puX};	%puX	0102c'
+逋	%bu1	
+{\large{{\textsuperscript{amb·}}pa₂}},
+\textit{pu};	%pu	0102d'
+餔	%bu1	
+{\large{{\textsuperscript{ed·}}pa₂}},
+\textit{pu};	%pu	0102e'
+痡	%pu1	
+{\large{{\textsuperscript{infirm·}}pa₂}},
+\textit{phiu},	%phju	0102g'
+%痡	%pu1	
+\textit{phu};	%phu	0102g'
+鋪	%fu1	
+{\large{{\textsuperscript{met·}}pa₂}},
+\textit{phiu},	%phju	0102h'
+%鋪	%pu1	
+\textit{phu};	%phu	0102h'
+哺	%bu3	
+{\large{{\textsuperscript{or·}}pa₂}},
+\textit{buH},	%buH	0102i'
+酺	%pu2	
+{\large{{\textsuperscript{vin·}}pa₂}},
+\textit{bu},	%bu	0102k'
+%酺	%pu2	
+\textit{buH};	%buH	0102k'
+匍	%pu2	
+{\large{pa₂{\textsuperscript{·flect}}}},
+\textit{bu};	%bu	0102l'
+\begin{itemize}
+\item 
+{\Large{浦}}	
+{\large{{\textsuperscript{aq·}}pa₂}} = {\large{p\textoverset{a}{a}₂}},
+%pu3	
+\textit{phuX};	%phuX	0102f'
+蒲	%pu2	
+{\large{{\textsuperscript{herb:}}p\textoverset{a}{a}₂}},
+\textit{bu};	%bu	0102n'
+\item 
+{\Large{捕}}	%bu3	
+{\large{{\textsuperscript{man·}}pa₂}} = {\large{p\textoverset{a}{a}₃}},
+\textit{buH};	%buH	0102j'
+蒱	%pu2	
+{\large{\textsuperscript{herb:}p\textoverset{a}{a}₃}},
+\textit{bu};	%bu	0102o'
+\item {\Large{尃}}	%fu1	
+{\large{pa₂{\textsuperscript{:digit}}}} = {\large{p\textoverset{b}{a}}},
+\textit{phiu};	%phju	0102p'
+傅	%fu4	
+{\large{{\textsuperscript{hom·}}p\textoverset{b}{a}}}, 
+\textit{biuH},	%bjuH	0102u'
+%傅	%fu4	
+\textit{piuH};	%pjuH	0102u'
+榑	%fu2	
+{\large{{\textsuperscript{arb·}}p\textoverset{b}{a}}}, 
+\textit{biu};	%bju	0102v'
+賻	%fu4	
+{\large{{\textsuperscript{conch·}}p\textoverset{b}{a}}}, 
+\textit{biuH}.	%bjuH	0102x'
+\item 旉	%fu1	
+{\large{pa₂{\textsuperscript{:quadr}}}} = {\large{p\textoverset{b}{a}₂}},
+\textit{phiu};	%phju	0102q'
+敷	%fu1	
+{\large{p\textoverset{b}{a}₂}{\textsuperscript{·fer}}}, 
+\textit{phiu};	%phju	0102t'
+
+\vspace{0.8\baselineskip}
+
+\end{multicols*}
+\end{document}

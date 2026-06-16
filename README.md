@@ -88,6 +88,13 @@ python3 scripts/pilot_ab_subseries.py
 latexmk -xelatex -outdir=build build/pilot_ab_subseries_review.tex
 ```
 
+Visual mockup of the handwritten `a/b` overset in dictionary-style layout:
+
+```sh
+python3 scripts/render_ab_visual_mockup.py
+latexmk -xelatex -f -outdir=build build/ab_visual_mockup.tex
+```
+
 Reuse existing TeX analyses and IDS data to enrich curation files with semantic evidence:
 
 ```sh
