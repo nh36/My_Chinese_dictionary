@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.560846+00:00",
+  "generated_at": "2026-06-16T14:37:22.245448+00:00",
   "id": "16-33",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -993,7 +993,49 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "小"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "sew",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "sew",
+          "tew"
+        ],
+        "bs_node_roots": [
+          "sew",
+          "tsew"
+        ],
+        "display_root": "sew",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "siewX",
+          "śiewH",
+          "śiewX"
+        ],
+        "form_analyses": [
+          {
+            "form": "siewX",
+            "normalized": "siew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śiewH",
+            "normalized": "śiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "śiewX",
+            "normalized": "śiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "筲",
@@ -1776,12 +1818,12 @@
       "render_latex": "少\t%shao4 / shao3 / shào / shǎo\n{\\large{sew\\textsuperscript{˸丿}}},\n\\textit{śiewH};\t%1149e\n\\textit{śiewX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "小",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "小"
       },
       "resolved_node_root": null

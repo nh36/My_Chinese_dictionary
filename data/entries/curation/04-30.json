@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.503339+00:00",
+  "generated_at": "2026-06-16T14:37:22.179973+00:00",
   "id": "04-30",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -113,7 +113,42 @@
       "render_latex": "㠯\t%yi3 / yǐ\n{\\large{ly}},\n\\textit{yiX};\t%0976a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ly",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ly",
+          "sy"
+        ],
+        "bs_node_roots": [
+          "ly",
+          "sy"
+        ],
+        "display_root": "ly",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "yiX",
+          "ziX"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiX",
+            "normalized": "yi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ziX",
+            "normalized": "zi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "眙",
@@ -1601,7 +1636,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ly}},",
       "render_latex": "苢\t%yi3\n{\\large{\\textsuperscript{herb˸}ly}},\n\\textit{yiX};\t%0976f",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "㠯",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "㠯"
+      },
       "resolved_node_root": null
     },
     {
@@ -2640,12 +2683,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "㠯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "㠯"
       },
       "resolved_node_root": null

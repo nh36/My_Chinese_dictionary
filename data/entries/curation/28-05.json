@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.549015+00:00",
+  "generated_at": "2026-06-16T14:37:22.233421+00:00",
   "id": "28-05",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -537,7 +537,61 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "韋"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "gy",
+        "source": "node_bs_consensus",
+        "descendant_count": 13,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "quy"
+        ],
+        "bs_node_roots": [
+          "gy"
+        ],
+        "display_root": "gy",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "hiwɨy",
+          "hiwɨyX",
+          "hwiɨyX",
+          "qie",
+          "hiwɨyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hiwɨy",
+            "normalized": "hiwɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hiwɨyX",
+            "normalized": "hiwɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwiɨyX",
+            "normalized": "hwiɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qie",
+            "normalized": "qie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hiwɨyH",
+            "normalized": "hiwɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "違",
@@ -687,8 +741,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "辵"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{amb·}quy}},",
-      "render_latex": "違\t%wei2 / wéi\n{\\large{\\textsuperscript{amb·}quy}},\n\\textit{hiwɨy};\t%0571d",
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}gy}},",
+      "render_latex": "違\t%wei2 / wéi\n{\\large{\\textsuperscript{amb·}gy}},\n\\textit{hiwɨy};\t%0571d",
       "wiktionary_semantic_validation": {
         "semantic_component": "辵",
         "phonetic_component": "韋",
@@ -711,12 +765,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -864,8 +918,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}quy}},",
-      "render_latex": "偉\t%wei3\n{\\large{\\textsuperscript{hom·}quy}},\n\\textit{hiwɨyX};\t%0571f",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}gy}},",
+      "render_latex": "偉\t%wei3\n{\\large{\\textsuperscript{hom·}gy}},\n\\textit{hiwɨyX};\t%0571f",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "韋",
@@ -895,12 +949,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -1223,8 +1277,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "巾"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lint·}quy}},",
-      "render_latex": "幃\t%wei2\n{\\large{\\textsuperscript{lint·}quy}},\n\\textit{hiwɨy};\t%0571h",
+      "transliteration_latex": "{\\large{\\textsuperscript{lint·}gy}},",
+      "render_latex": "幃\t%wei2\n{\\large{\\textsuperscript{lint·}gy}},\n\\textit{hiwɨy};\t%0571h",
       "wiktionary_semantic_validation": {
         "semantic_component": "巾",
         "phonetic_component": "韋",
@@ -1254,12 +1308,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -1369,16 +1423,16 @@
         "source": "ids_top_level",
         "semantic_component": "火"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ign·}quy}},",
-      "render_latex": "煒\t%wei3\n{\\large{\\textsuperscript{ign·}quy}},\n\\textit{hiwɨyX};\t%0571j",
+      "transliteration_latex": "{\\large{\\textsuperscript{ign·}gy}},",
+      "render_latex": "煒\t%wei3\n{\\large{\\textsuperscript{ign·}gy}},\n\\textit{hiwɨyX};\t%0571j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -1528,8 +1582,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "玉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{gem·}quy}},",
-      "render_latex": "瑋\t%wei3\n{\\large{\\textsuperscript{gem·}quy}},\n\\textit{hwiɨyX};\t%0571k",
+      "transliteration_latex": "{\\large{\\textsuperscript{gem·}gy}},",
+      "render_latex": "瑋\t%wei3\n{\\large{\\textsuperscript{gem·}gy}},\n\\textit{hwiɨyX};\t%0571k",
       "wiktionary_semantic_validation": {
         "semantic_component": "玉",
         "phonetic_component": "韋",
@@ -1559,12 +1613,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -1710,8 +1764,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "示"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{spirit·}quy}},",
-      "render_latex": "禕\t%yi1\n{\\large{\\textsuperscript{spirit·}quy}},\n\\textit{qie};\t%0571l",
+      "transliteration_latex": "{\\large{\\textsuperscript{spirit·}gy}},",
+      "render_latex": "禕\t%yi1\n{\\large{\\textsuperscript{spirit·}gy}},\n\\textit{qie};\t%0571l",
       "wiktionary_semantic_validation": {
         "semantic_component": "示",
         "phonetic_component": "韋",
@@ -1741,12 +1795,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -1899,8 +1953,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "糸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}quy}},",
-      "render_latex": "緯\t%wei3\n{\\large{\\textsuperscript{ser·}quy}},\n\\textit{hiwɨyH};\t%0571m\n\\textit{hiwɨyX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}gy}},",
+      "render_latex": "緯\t%wei3\n{\\large{\\textsuperscript{ser·}gy}},\n\\textit{hiwɨyH};\t%0571m\n\\textit{hiwɨyX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "糸",
         "phonetic_component": "韋",
@@ -1930,12 +1984,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2083,8 +2137,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}quy}},",
-      "render_latex": "葦\t%wei3\n{\\large{\\textsuperscript{herb˸}quy}},\n\\textit{hiwɨyX};\t%0571n",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}gy}},",
+      "render_latex": "葦\t%wei3\n{\\large{\\textsuperscript{herb˸}gy}},\n\\textit{hiwɨyX};\t%0571n",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "韋",
@@ -2114,12 +2168,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2229,16 +2283,16 @@
         "source": "ids_top_level",
         "semantic_component": "門"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{port˸}quy}},",
-      "render_latex": "闈\t%wei2\n{\\large{\\textsuperscript{port˸}quy}},\n\\textit{hiwɨy};\t%0571o",
+      "transliteration_latex": "{\\large{\\textsuperscript{port˸}gy}},",
+      "render_latex": "闈\t%wei2\n{\\large{\\textsuperscript{port˸}gy}},\n\\textit{hiwɨy};\t%0571o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2320,16 +2374,16 @@
         "source": "ids_component_literal_fallback",
         "semantic_component": "是"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{是·}quy}},",
-      "render_latex": "韙\t%wei3\n{\\large{\\textsuperscript{是·}quy}},\n\\textit{hiwɨyX};\t%0571p",
+      "transliteration_latex": "{\\large{\\textsuperscript{是·}gy}},",
+      "render_latex": "韙\t%wei3\n{\\large{\\textsuperscript{是·}gy}},\n\\textit{hiwɨyX};\t%0571p",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2411,16 +2465,16 @@
         "source": "ids_component_literal_fallback",
         "semantic_component": "華"
       },
-      "transliteration_latex": "{\\large{quy\\textsuperscript{·華}}},",
-      "render_latex": "韡\t%wei3\n{\\large{quy\\textsuperscript{·華}}},\n\\textit{hiwɨyX};\t%0571q",
+      "transliteration_latex": "{\\large{gy\\textsuperscript{·華}}},",
+      "render_latex": "韡\t%wei3\n{\\large{gy\\textsuperscript{·華}}},\n\\textit{hiwɨyX};\t%0571q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2587,8 +2641,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "衣"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{vest·}quy}},",
-      "render_latex": "褘\t%hui1\n{\\large{\\textsuperscript{vest·}quy}},\n\\textit{hiwɨy};\t%0571r",
+      "transliteration_latex": "{\\large{\\textsuperscript{vest·}gy}},",
+      "render_latex": "褘\t%hui1\n{\\large{\\textsuperscript{vest·}gy}},\n\\textit{hiwɨy};\t%0571r",
       "wiktionary_semantic_validation": {
         "semantic_component": "衣",
         "phonetic_component": "韋",
@@ -2618,12 +2672,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null
@@ -2769,8 +2823,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}quy}},",
-      "render_latex": "諱\t%hui4\n{\\large{\\textsuperscript{dic·}quy}},\n\\textit{hiwɨyH};\t%0571s",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}gy}},",
+      "render_latex": "諱\t%hui4\n{\\large{\\textsuperscript{dic·}gy}},\n\\textit{hiwɨyH};\t%0571s",
       "wiktionary_semantic_validation": {
         "semantic_component": "言",
         "phonetic_component": "韋",
@@ -2800,12 +2854,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "韋",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "韋"
       },
       "resolved_node_root": null

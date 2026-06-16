@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.527330+00:00",
+  "generated_at": "2026-06-16T14:37:22.208188+00:00",
   "id": "13-47",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -723,7 +723,72 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "卯"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "mu",
+        "source": "node_inherit_parent",
+        "descendant_count": 6,
+        "bs_support_count": 5,
+        "bs_broad_roots": [
+          "mu",
+          "ru",
+          "riw"
+        ],
+        "bs_node_roots": [
+          "mu",
+          "ru",
+          "riw"
+        ],
+        "display_root": "mu",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "maewX",
+          "liuwX",
+          "kaewH",
+          "phaewH",
+          "liuw",
+          "lew"
+        ],
+        "form_analyses": [
+          {
+            "form": "maewX",
+            "normalized": "maew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kaewH",
+            "normalized": "kaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phaewH",
+            "normalized": "phaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lew",
+            "normalized": "lew",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "劉",
@@ -1341,12 +1406,12 @@
       "render_latex": "茆\t%mao3 / mǎo\n{\\large{\\textsuperscript{herb˸}mu}},\n\\textit{liuwX};\t%1114f\n\\textit{maewX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "卯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "卯"
       },
       "resolved_node_root": null
@@ -1474,12 +1539,12 @@
       "render_latex": "昴\t%mao3 / mǎo\n{\\large{\\textsuperscript{sol˸}mu}},\n\\textit{maewX};\t%1114g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "卯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "卯"
       },
       "resolved_node_root": null
@@ -1614,12 +1679,12 @@
       "render_latex": "窌\t%jiao4\n{\\large{\\textsuperscript{cav˸}mu}},\n\\textit{kaewH};\t%1114i\n\\textit{phaewH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "卯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "卯"
       },
       "resolved_node_root": null
@@ -1997,12 +2062,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "卯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "卯"
       },
       "resolved_node_root": null
@@ -2655,7 +2720,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{equ·}mu}},",
       "render_latex": "駠\t%liu2\n{\\large{\\textsuperscript{equ·}mu}},\n\\textit{liuw};\t%1114s",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "卯",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "卯"
+      },
       "resolved_node_root": null
     },
     {
@@ -2907,12 +2980,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "卯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "卯"
       },
       "resolved_node_root": null

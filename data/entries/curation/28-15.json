@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.551660+00:00",
+  "generated_at": "2026-06-16T14:37:22.235951+00:00",
   "id": "28-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -816,7 +816,68 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "畾"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ruy",
+        "source": "node_bs_consensus",
+        "descendant_count": 12,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "ruy"
+        ],
+        "bs_node_roots": [
+          "ruy"
+        ],
+        "display_root": "ruy",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "lwiyX",
+          "lwəy",
+          "lwiy",
+          "lwəyH",
+          "lwa",
+          "lwəyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "lwiyX",
+            "normalized": "lwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwəy",
+            "normalized": "lwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lwiy",
+            "normalized": "lwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwəyH",
+            "normalized": "lwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lwa",
+            "normalized": "lwa",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lwəyX",
+            "normalized": "lwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "壘",
@@ -975,8 +1036,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "土"
       },
-      "transliteration_latex": "{\\large{roy\\textsuperscript{˸terr}}},",
-      "render_latex": "壘\t%lei3 / lěi\n{\\large{roy\\textsuperscript{˸terr}}},\n\\textit{lwiyX};\t%0577d",
+      "transliteration_latex": "{\\large{ruy\\textsuperscript{˸terr}}},",
+      "render_latex": "壘\t%lei3 / lěi\n{\\large{ruy\\textsuperscript{˸terr}}},\n\\textit{lwiyX};\t%0577d",
       "wiktionary_semantic_validation": {
         "semantic_component": "土",
         "phonetic_component": "畾",
@@ -1006,12 +1067,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -1121,16 +1182,16 @@
         "source": "ids_top_level",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{roy\\textsuperscript{˸arb}}},",
-      "render_latex": "櫐\t%lei3\n{\\large{roy\\textsuperscript{˸arb}}},\n\\textit{lwiyX};\t%0577e",
+      "transliteration_latex": "{\\large{ruy\\textsuperscript{˸arb}}},",
+      "render_latex": "櫐\t%lei3\n{\\large{ruy\\textsuperscript{˸arb}}},\n\\textit{lwiyX};\t%0577e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -1290,8 +1351,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "糸"
       },
-      "transliteration_latex": "{\\large{roy\\textsuperscript{˸ser}}},",
-      "render_latex": "纍\t%lei2\n{\\large{roy\\textsuperscript{˸ser}}},\n\\textit{lwiy};\t%0577f",
+      "transliteration_latex": "{\\large{ruy\\textsuperscript{˸ser}}},",
+      "render_latex": "纍\t%lei2\n{\\large{ruy\\textsuperscript{˸ser}}},\n\\textit{lwiy};\t%0577f",
       "wiktionary_semantic_validation": {
         "semantic_component": "糸",
         "phonetic_component": "畾",
@@ -1321,16 +1382,16 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": {
-        "root": "roy",
+        "root": "ruy",
         "source": "node_inherit_parent",
         "descendant_count": 3,
         "bs_support_count": 1,
@@ -1340,7 +1401,7 @@
         "bs_node_roots": [
           "ruy"
         ],
-        "display_root": "roy₂",
+        "display_root": "ruy",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -1376,8 +1437,8 @@
             "reason": "no_i_medial"
           }
         ],
-        "base_root": "roy",
-        "ordinal": 2,
+        "base_root": "ruy",
+        "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -1524,8 +1585,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}roy}},",
-      "render_latex": "藟\t%lei3\n{\\large{\\textsuperscript{herb˸}roy}},\n\\textit{lwiyX};\t%0577g",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ruy}},",
+      "render_latex": "藟\t%lei3\n{\\large{\\textsuperscript{herb˸}ruy}},\n\\textit{lwiyX};\t%0577g",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "畾",
@@ -1555,12 +1616,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -1670,16 +1731,16 @@
         "source": "ids_top_level",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}roy}},",
-      "render_latex": "讄\t%lei3\n{\\large{\\textsuperscript{dic·}roy}},\n\\textit{lwiyX};\t%0577h",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}ruy}},",
+      "render_latex": "讄\t%lei3\n{\\large{\\textsuperscript{dic·}ruy}},\n\\textit{lwiyX};\t%0577h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -1751,8 +1812,8 @@
         "source": "packet_family_ids",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}roy₂}},",
-      "render_latex": "𧮢\t%lei3\n{\\large{\\textsuperscript{dic·}roy₂}},\n\\textit{lwiyX};\t%0577i",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}ruy}},",
+      "render_latex": "𧮢\t%lei3\n{\\large{\\textsuperscript{dic·}ruy}},\n\\textit{lwiyX};\t%0577i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1931,8 +1992,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}roy}},",
-      "render_latex": "儡\t%lei3\n{\\large{\\textsuperscript{hom·}roy}},\n\\textit{lwəy};\t%0577j\n\\textit{lwəyX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ruy}},",
+      "render_latex": "儡\t%lei3\n{\\large{\\textsuperscript{hom·}ruy}},\n\\textit{lwəy};\t%0577j\n\\textit{lwəyX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "畾",
@@ -1962,12 +2023,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -2101,16 +2162,16 @@
         "source": "ids_top_level",
         "semantic_component": "石"
       },
-      "transliteration_latex": "{\\large{roy\\textsuperscript{˸lap}}},",
-      "render_latex": "礨\t%lei3\n{\\large{roy\\textsuperscript{˸lap}}},\n\\textit{lwəyX};\t%0577k",
+      "transliteration_latex": "{\\large{ruy\\textsuperscript{˸lap}}},",
+      "render_latex": "礨\t%lei3\n{\\large{ruy\\textsuperscript{˸lap}}},\n\\textit{lwəyX};\t%0577k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -2192,16 +2253,16 @@
         "source": "ids_component_literal_fallback",
         "semantic_component": "缶"
       },
-      "transliteration_latex": "{\\large{roy\\textsuperscript{˸缶}}},",
-      "render_latex": "罍\t%lei2\n{\\large{roy\\textsuperscript{˸缶}}},\n\\textit{lwəy};\t%0577l",
+      "transliteration_latex": "{\\large{ruy\\textsuperscript{˸缶}}},",
+      "render_latex": "罍\t%lei2\n{\\large{ruy\\textsuperscript{˸缶}}},\n\\textit{lwəy};\t%0577l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "畾",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "畾"
       },
       "resolved_node_root": null
@@ -2287,10 +2348,18 @@
         "source": "packet_family_ids",
         "semantic_component": "雨"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{pluv˸}roy}},",
-      "render_latex": "靁\t%lei2 / léi\n{\\large{\\textsuperscript{pluv˸}roy}},\n\\textit{lwəy};\t%0577n",
+      "transliteration_latex": "{\\large{\\textsuperscript{pluv˸}ruy}},",
+      "render_latex": "靁\t%lei2 / léi\n{\\large{\\textsuperscript{pluv˸}ruy}},\n\\textit{lwəy};\t%0577n",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "畾",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "畾"
+      },
       "resolved_node_root": null
     },
     {
@@ -2651,8 +2720,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}roy₂}},",
-      "render_latex": "儽\t%lei3 / lèi\n{\\large{\\textsuperscript{hom·}roy₂}},\n\\textit{lwəyH};\t%0577p",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ruy}},",
+      "render_latex": "儽\t%lei3 / lèi\n{\\large{\\textsuperscript{hom·}ruy}},\n\\textit{lwəyH};\t%0577p",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "纍",
@@ -2797,8 +2866,8 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}roy₂}},",
-      "render_latex": "虆\t%lei2\n{\\large{\\textsuperscript{herb˸}roy₂}},\n\\textit{lwa};\t%0577q",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ruy}},",
+      "render_latex": "虆\t%lei2\n{\\large{\\textsuperscript{herb˸}ruy}},\n\\textit{lwa};\t%0577q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2953,7 +3022,7 @@
         "bs_node_roots": [
           "roy"
         ],
-        "display_root": "roy₃",
+        "display_root": "roy₂",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -2997,7 +3066,7 @@
           }
         ],
         "base_root": "roy",
-        "ordinal": 3,
+        "ordinal": 2,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -3075,8 +3144,8 @@
         "source": "packet_family_ids",
         "semantic_component": "糹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}roy₃}},",
-      "render_latex": "縲\t%lei2\n{\\large{\\textsuperscript{ser·}roy₃}},\n\\textit{lwiy};\t%0577s",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}roy₂}},",
+      "render_latex": "縲\t%lei2\n{\\large{\\textsuperscript{ser·}roy₂}},\n\\textit{lwiy};\t%0577s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3207,8 +3276,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "馬"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{equ·}roy₃}},",
-      "render_latex": "騾\t%luo2\n{\\large{\\textsuperscript{equ·}roy₃}},\n\\textit{lwa};\t%0577t",
+      "transliteration_latex": "{\\large{\\textsuperscript{equ·}roy₂}},",
+      "render_latex": "騾\t%luo2\n{\\large{\\textsuperscript{equ·}roy₂}},\n\\textit{lwa};\t%0577t",
       "wiktionary_semantic_validation": {
         "semantic_component": "馬",
         "phonetic_component": "累",
@@ -3367,8 +3436,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "虫"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{serp·}roy₃}},",
-      "render_latex": "螺\t%luó\n{\\large{\\textsuperscript{serp·}roy₃}},\n\\textit{lwa};\t%577",
+      "transliteration_latex": "{\\large{\\textsuperscript{serp·}roy₂}},",
+      "render_latex": "螺\t%luó\n{\\large{\\textsuperscript{serp·}roy₂}},\n\\textit{lwa};\t%577",
       "wiktionary_semantic_validation": {
         "semantic_component": "虫",
         "phonetic_component": "累",

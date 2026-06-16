@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.535367+00:00",
+  "generated_at": "2026-06-16T14:37:22.218032+00:00",
   "id": "16-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -874,7 +874,153 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "堯"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ṅew",
+        "source": "node_inherit_parent",
+        "descendant_count": 19,
+        "bs_support_count": 9,
+        "bs_broad_roots": [
+          "ṅew",
+          "qew",
+          "kew",
+          "new",
+          "naw"
+        ],
+        "bs_node_roots": [
+          "ŋew",
+          "qhew",
+          "gew",
+          "new",
+          "naw"
+        ],
+        "display_root": "ṅew",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "ṅew",
+          "kewX",
+          "kew",
+          "khew",
+          "hew",
+          "hewX",
+          "gyiew",
+          "khaew",
+          "khewX",
+          "ñiewH",
+          "ñiewX",
+          "ñiew",
+          "ṇaewH",
+          "ṇaew",
+          "ṇaewX",
+          "haw",
+          "śiew"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṅew",
+            "normalized": "ṅew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kewX",
+            "normalized": "kew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kew",
+            "normalized": "kew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khew",
+            "normalized": "khew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hew",
+            "normalized": "hew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hewX",
+            "normalized": "hew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "gyiew",
+            "normalized": "gyiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khaew",
+            "normalized": "khaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khewX",
+            "normalized": "khew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ñiewH",
+            "normalized": "ñiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ñiewX",
+            "normalized": "ñiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ñiew",
+            "normalized": "ñiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṇaewH",
+            "normalized": "ṇaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṇaew",
+            "normalized": "ṇaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṇaewX",
+            "normalized": "ṇaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "haw",
+            "normalized": "haw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "śiew",
+            "normalized": "śiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "僥",
@@ -1063,12 +1209,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -1259,12 +1405,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -1402,12 +1548,12 @@
       "render_latex": "髐\t%qiao1?\n{\\large{\\textsuperscript{oss·}ṅew}},\n\\textit{khew};\t%1164d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -1586,12 +1732,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -1784,12 +1930,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -1977,12 +2123,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -2185,12 +2331,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -2416,12 +2562,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -2546,12 +2692,12 @@
       "render_latex": "墝\t%qiao1 / qiao3\n{\\large{\\textsuperscript{terr·}ṅew}},\n\\textit{khaew};\t%1164j\n\\textit{khewX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -2773,12 +2919,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -2957,12 +3103,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -3153,12 +3299,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -3286,12 +3432,12 @@
       "render_latex": "襓\t%rao2 / ráo\n{\\large{\\textsuperscript{vest·}ṅew}},\n\\textit{ñiew};\t%1164n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -3482,12 +3628,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -3727,12 +3873,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -3911,12 +4057,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -4109,12 +4255,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -4334,12 +4480,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null
@@ -4544,12 +4690,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "堯",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "堯"
       },
       "resolved_node_root": null

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.574461+00:00",
+  "generated_at": "2026-06-16T14:37:22.266561+00:00",
   "id": "35-21",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -213,7 +213,36 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "盍"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kap",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "kap"
+        ],
+        "bs_node_roots": [
+          "kap"
+        ],
+        "display_root": "kap₃",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "kiaep"
+        ],
+        "form_analyses": [
+          {
+            "form": "kiaep",
+            "normalized": "kiaep",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ],
+        "base_root": "kap",
+        "ordinal": 3,
+        "numbering_source": "document_order_occurrence"
+      }
     },
     {
       "character": "刧",
@@ -260,10 +289,33 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": null,
-      "render_latex": null,
+      "transliteration_latex": "{\\large{kap₃\\textsuperscript{·cult}}},",
+      "render_latex": "刧\t%jie2\n{\\large{kap₃\\textsuperscript{·cult}}},\n\\textit{kiaep};\t%0642i",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "劫",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "劫"
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cult",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "刀",
+            "label_token": "cult(er)",
+            "abbreviation": "cult",
+            "start_line": 226
+          }
+        ],
+        "source": "parent_ids_semantic",
+        "semantic_component": "刀"
+      },
       "resolved_node_root": null
     },
     {
@@ -1255,7 +1307,7 @@
       "resolved_node_root": {
         "root": "kap",
         "source": "node_inherit_parent",
-        "descendant_count": 13,
+        "descendant_count": 14,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "kap",

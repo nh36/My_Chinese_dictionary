@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.516445+00:00",
+  "generated_at": "2026-06-16T14:37:22.197987+00:00",
   "id": "12-10",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -531,7 +531,77 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "用"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "loṅ",
+        "source": "node_inherit_parent",
+        "descendant_count": 13,
+        "bs_support_count": 7,
+        "bs_broad_roots": [
+          "loṅ",
+          "syṅ"
+        ],
+        "bs_node_roots": [
+          "loṅ",
+          "syṅ"
+        ],
+        "display_root": "loṅ",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "yiəwṅH",
+          "yiəwṅX",
+          "ziəwṅH",
+          "thuwṅX",
+          "thuwṅH",
+          "thuwṅ",
+          "duwṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiəwṅH",
+            "normalized": "yiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiəwṅX",
+            "normalized": "yiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ziəwṅH",
+            "normalized": "ziəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "thuwṅX",
+            "normalized": "thuwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thuwṅH",
+            "normalized": "thuwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thuwṅ",
+            "normalized": "thuwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "duwṅ",
+            "normalized": "duwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "鏞",
@@ -762,7 +832,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{hallebard·}loṅ}},",
       "render_latex": "𢦨\t%yong3\n{\\large{\\textsuperscript{hallebard·}loṅ}},\n\\textit{yiəwṅX};\t%1185f",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "用",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "用"
+      },
       "resolved_node_root": null
     },
     {
@@ -846,12 +924,12 @@
       "render_latex": "甬\t%yong3\n{\\large{\\textsuperscript{龴˸}loṅ}},\n\\textit{yiəwṅX};\t%1185h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "用",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "用"
       },
       "resolved_node_root": {

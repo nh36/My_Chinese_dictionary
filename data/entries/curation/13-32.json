@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.563521+00:00",
+  "generated_at": "2026-06-16T14:37:22.248209+00:00",
   "id": "13-32",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -579,7 +579,54 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "攸"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "liw",
+        "source": "node_bs_consensus",
+        "descendant_count": 6,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "liw"
+        ],
+        "bs_node_roots": [
+          "liw"
+        ],
+        "display_root": "liw",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "yuw",
+          "dew",
+          "dewH",
+          "jiuwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "yuw",
+            "normalized": "yuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dew",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dewH",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "jiuwk",
+            "normalized": "jiuwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "悠",
@@ -769,12 +816,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "攸",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "攸"
       },
       "resolved_node_root": {
@@ -1564,12 +1611,12 @@
       "render_latex": "䩦\t%tiao2\n{\\large{liw\\textsuperscript{˸cori}}},\n\\textit{dew};\t%1077g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "攸",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "攸"
       },
       "resolved_node_root": null
@@ -1683,12 +1730,12 @@
       "render_latex": "鋚\t%tiao2\n{\\large{liw\\textsuperscript{˸met}}},\n\\textit{dew};\t%1077h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "攸",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "攸"
       },
       "resolved_node_root": null
@@ -1802,12 +1849,12 @@
       "render_latex": "莜\t%diao4\n{\\large{\\textsuperscript{herb˸}liw}},\n\\textit{dewH};\t%1077k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "攸",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "攸"
       },
       "resolved_node_root": null
@@ -2000,7 +2047,15 @@
       "transliteration_latex": "{\\large{liw\\textsuperscript{˸ign}}},",
       "render_latex": "焂\t%shu2\n{\\large{liw\\textsuperscript{˸ign}}},\n\\textit{jiuwk};\t%1077m",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "攸",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "攸"
+      },
       "resolved_node_root": null
     },
     {

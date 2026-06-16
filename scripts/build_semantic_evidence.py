@@ -596,13 +596,23 @@ def resolve_semantic_from_packet_family(
         return any(subtree_has_packet_component(child) for child in node.get("children", []))
 
     def subtree_head(node: Any) -> str | None:
-        if isinstance(node, str):
-            return normalize_component_graph(node)
-        if node.get("children"):
-            first = node["children"][0]
-            if isinstance(first, str):
-                return normalize_component_graph(first)
-        return None
+        preferred: list[str] = []
+        fallback: list[str] = []
+
+        def walk(value: Any) -> None:
+            if isinstance(value, str):
+                normalized = normalize_component_graph(value)
+                if graph_lookup.get(normalized):
+                    preferred.append(normalized)
+                fallback.append(normalized)
+                return
+            for child in value.get("children", []):
+                walk(child)
+
+        walk(node)
+        if preferred:
+            return preferred[0]
+        return fallback[0] if fallback else None
 
     left = tree["children"][0]
     right = tree["children"][1]
@@ -714,13 +724,23 @@ def resolve_semantic_from_parent_ids(
         return any(subtree_matches_parent(child) for child in node.get("children", []))
 
     def subtree_head(node: Any) -> str | None:
-        if isinstance(node, str):
-            return normalize_component_graph(node)
-        if node.get("children"):
-            first = node["children"][0]
-            if isinstance(first, str):
-                return normalize_component_graph(first)
-        return None
+        preferred: list[str] = []
+        fallback: list[str] = []
+
+        def walk(value: Any) -> None:
+            if isinstance(value, str):
+                normalized = normalize_component_graph(value)
+                if graph_lookup.get(normalized):
+                    preferred.append(normalized)
+                fallback.append(normalized)
+                return
+            for child in value.get("children", []):
+                walk(child)
+
+        walk(node)
+        if preferred:
+            return preferred[0]
+        return fallback[0] if fallback else None
 
     left = tree["children"][0]
     right = tree["children"][1]
@@ -1411,6 +1431,12 @@ def enrich_curated_entry_with_ids(
             normalize_component_graph(ch) for ch in entry["tex_entry"].get("chinese_characters", [])
         )
     for candidate in entry.get("proposed_additions", []):
+        existing_assignment = candidate.get("semantic_assignment") or {}
+        if (
+            existing_assignment.get("abbreviation") is None
+            and existing_assignment.get("position") not in {None, "none"}
+        ):
+            candidate["semantic_assignment"] = None
         candidate["mc_resolution"] = mc_resolution.resolve_candidate_mc(candidate)
         matches = disambiguate_occurrences(candidate, evidence.get(candidate["character"], []))
         candidate["tex_occurrence_candidates"] = matches
@@ -1631,7 +1657,7 @@ def enrich_curated_entry_with_ids(
                 graph_lookup=graph_lookup,
                 candidate_map=candidate_map,
             )
-            if parent_from_ids_family and parent_from_ids_family != top_level_head:
+            if parent_from_ids_family:
                 candidate["hierarchy_assignment"] = {
                     "status": "assigned-to-candidate-node",
                     "parent_character": parent_from_ids_family,
@@ -1744,6 +1770,12 @@ def enrich_curated_entry_with_ids(
         parent_display_root = resolve_parent_display_root_for_candidate(entry, candidate, candidate_map)
         if parent_display_root:
             candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(parent_display_root, candidate)
+            candidate["render_latex"] = synthesize_render_latex(candidate)
+            continue
+        own_root_data = candidate.get("resolved_node_root") or {}
+        own_display_root = own_root_data.get("display_root") or own_root_data.get("root")
+        if own_display_root:
+            candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(own_display_root, candidate)
             candidate["render_latex"] = synthesize_render_latex(candidate)
     return entry
 

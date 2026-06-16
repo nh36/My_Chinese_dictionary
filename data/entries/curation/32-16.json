@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.539177+00:00",
+  "generated_at": "2026-06-16T14:37:22.221761+00:00",
   "id": "32-16",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -782,7 +782,121 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "真"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tin",
+        "source": "node_inherit_parent",
+        "descendant_count": 22,
+        "bs_support_count": 9,
+        "bs_broad_roots": [
+          "tin",
+          "lin"
+        ],
+        "bs_node_roots": [
+          "tin",
+          "trin",
+          "thin",
+          "lin"
+        ],
+        "display_root": "tin",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "cin",
+          "denH",
+          "cinX",
+          "ṭin",
+          "ṭinH",
+          "ṭinX",
+          "chin",
+          "jinH",
+          "ten",
+          "den",
+          "thenH",
+          "denX",
+          "cieH"
+        ],
+        "form_analyses": [
+          {
+            "form": "cin",
+            "normalized": "cin",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "denH",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "cinX",
+            "normalized": "cin",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭin",
+            "normalized": "ṭin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭinH",
+            "normalized": "ṭin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭinX",
+            "normalized": "ṭin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "chin",
+            "normalized": "chin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "jinH",
+            "normalized": "jin",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ten",
+            "normalized": "ten",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "den",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thenH",
+            "normalized": "then",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "denX",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "cieH",
+            "normalized": "cie",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "稹",
@@ -944,12 +1058,12 @@
       "render_latex": "稹\t%zhen3 / zhen1 / zhěn\n{\\large{\\textsuperscript{gran·}tin}},\n\\textit{denH};\t%0375b\n\\textit{cin};\n\\textit{cinX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1159,12 +1273,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1278,12 +1392,12 @@
       "render_latex": "鬒\t%zhen3 / zhěn\n{\\large{\\textsuperscript{crin˸}tin}},\n\\textit{cinX};\t%0375d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1395,12 +1509,12 @@
       "render_latex": "黰\t%zhen3\n{\\large{\\textsuperscript{niger·}tin}},\n\\textit{cinX};\t%0375e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1630,12 +1744,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1763,12 +1877,12 @@
       "render_latex": "瞋\t%chen1 / chēn\n{\\large{\\textsuperscript{ocul·}tin}},\n\\textit{chin};\t%0375g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -1894,12 +2008,12 @@
       "render_latex": "磌\t%zhen1\n{\\large{\\textsuperscript{lap·}tin}},\n\\textit{cin};\t%0375h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -2094,12 +2208,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -2213,12 +2327,12 @@
       "render_latex": "傎\t%dian1\n{\\large{\\textsuperscript{hom·}tin}},\n\\textit{ten};\t%0375j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -2354,12 +2468,12 @@
       "render_latex": "蹎\t%dian1\n{\\large{\\textsuperscript{ped·}tin}},\n\\textit{ten};\t%0375k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -2461,12 +2575,12 @@
       "render_latex": "瘨\t%dian1\n{\\large{\\textsuperscript{infirm·}tin}},\n\\textit{ten};\t%0375l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -2672,12 +2786,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": {
@@ -3072,12 +3186,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3214,12 +3328,12 @@
       "render_latex": "瑱\t%tian4 / zhen4\n{\\large{\\textsuperscript{gem·}tin}},\n\\textit{thenH};\t%0375p\n\\textit{ṭinH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3333,12 +3447,12 @@
       "render_latex": "嗔\t%tian2\n{\\large{\\textsuperscript{or·}tin}},\n\\textit{den};\t%0375q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3529,12 +3643,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3648,12 +3762,12 @@
       "render_latex": "搷\t%tian2\n{\\large{\\textsuperscript{man·}tin}},\n\\textit{den};\t%0375s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3753,12 +3867,12 @@
       "render_latex": "窴\t%tian2\n{\\large{\\textsuperscript{cav˸}tin}},\n\\textit{denH};\t%0375t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -3998,12 +4112,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null
@@ -4078,7 +4192,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{mon·}tin}},",
       "render_latex": "嵮\t%tian2\n{\\large{\\textsuperscript{mon·}tin}},\n\\textit{den};\t%0375v",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "真",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "真"
+      },
       "resolved_node_root": null
     },
     {
@@ -4176,12 +4298,12 @@
       "render_latex": "寘\t%zhi4\n{\\large{\\textsuperscript{tect˸}tin}},\n\\textit{cieH};\t%0375x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "真",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "真"
       },
       "resolved_node_root": null

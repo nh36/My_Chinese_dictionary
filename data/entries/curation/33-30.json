@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.540260+00:00",
+  "generated_at": "2026-06-16T14:37:22.223060+00:00",
   "id": "33-30",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -990,7 +990,120 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "分"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "pyn",
+        "source": "node_inherit_parent",
+        "descendant_count": 20,
+        "bs_support_count": 7,
+        "bs_broad_roots": [
+          "pyn",
+          "pyr"
+        ],
+        "bs_node_roots": [
+          "pyn",
+          "pyr",
+          "pryn"
+        ],
+        "display_root": "pyn",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "biunH",
+          "piun",
+          "piunX",
+          "phiunH",
+          "phiunX",
+          "phiun",
+          "biunX",
+          "biun",
+          "paen",
+          "bwən",
+          "pin",
+          "bin",
+          "pheanH"
+        ],
+        "form_analyses": [
+          {
+            "form": "biunH",
+            "normalized": "biun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piun",
+            "normalized": "piun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piunX",
+            "normalized": "piun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiunH",
+            "normalized": "phiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiunX",
+            "normalized": "phiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiun",
+            "normalized": "phiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biunX",
+            "normalized": "biun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biun",
+            "normalized": "biun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "paen",
+            "normalized": "paen",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwən",
+            "normalized": "bwən",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "pin",
+            "normalized": "pin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bin",
+            "normalized": "bin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pheanH",
+            "normalized": "phean",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "粉",
@@ -1180,12 +1293,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -1274,7 +1387,15 @@
       "transliteration_latex": "{\\large{pyn\\textsuperscript{˸plum}}},",
       "render_latex": "𦐈\t%fen1 / fēn\n{\\large{pyn\\textsuperscript{˸plum}}},\n\\textit{piun};\t%0471e",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "分",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "分"
+      },
       "resolved_node_root": null
     },
     {
@@ -1411,12 +1532,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -1553,12 +1674,12 @@
       "render_latex": "忿\t%fen4\n{\\large{pyn\\textsuperscript{˸cor}}},\n\\textit{phiunH};\t%0471g\n\\textit{phiunX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -1729,12 +1850,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -1913,12 +2034,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2099,12 +2220,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2190,12 +2311,12 @@
       "render_latex": "弅\t%fen2\n{\\large{pyn\\textsuperscript{˸廾}}},\n\\textit{biunX};\t%0471k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2421,12 +2542,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2540,12 +2661,12 @@
       "render_latex": "枌\t%fen2\n{\\large{\\textsuperscript{arb·}pyn}},\n\\textit{biun};\t%0471m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2692,12 +2813,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -2811,12 +2932,12 @@
       "render_latex": "秎\t%fen2\n{\\large{\\textsuperscript{gran·}pyn}},\n\\textit{biunH};\t%0471o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3034,12 +3155,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3183,12 +3304,12 @@
       "render_latex": "朌\t%fen2 / bān\n{\\large{\\textsuperscript{luna·}pyn}},\n\\textit{biun};\t%0471q, 0471y",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3302,12 +3423,12 @@
       "render_latex": "棼\t%fen2\n{\\large{\\textsuperscript{silv˸}pyn}},\n\\textit{biun};\t%0471r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3477,12 +3598,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3661,12 +3782,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -3859,12 +3980,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -4041,12 +4162,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "分",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "分"
       },
       "resolved_node_root": null
@@ -4118,7 +4239,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{⺼·}pyn}},",
       "render_latex": "肦\t%fen2 / ban1\n{\\large{\\textsuperscript{⺼·}pyn}},\n\\textit{biun};\t%0471y\n\\textit{paen};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "分",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "分"
+      },
       "resolved_node_root": null
     }
   ],

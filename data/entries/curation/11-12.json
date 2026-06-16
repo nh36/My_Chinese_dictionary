@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.524038+00:00",
+  "generated_at": "2026-06-16T14:37:22.205636+00:00",
   "id": "11-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -747,7 +747,98 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "蜀"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tok",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 20,
+        "bs_support_count": 6,
+        "bs_broad_roots": [
+          "tok"
+        ],
+        "bs_node_roots": [
+          "tok",
+          "thok",
+          "trok"
+        ],
+        "display_root": "tok",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "jiəwk",
+          "ciəwk",
+          "chiəwk",
+          "ḍiəwk",
+          "duwk",
+          "tuwH",
+          "ṭaewk",
+          "ḍaewk",
+          "tṣhaewk",
+          "ṭiəwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiəwk",
+            "normalized": "jiəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciəwk",
+            "normalized": "ciəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "chiəwk",
+            "normalized": "chiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḍiəwk",
+            "normalized": "ḍiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "duwk",
+            "normalized": "duwk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tuwH",
+            "normalized": "tuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭaewk",
+            "normalized": "ṭaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍaewk",
+            "normalized": "ḍaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣhaewk",
+            "normalized": "tṣhaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭiəwk",
+            "normalized": "ṭiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "蠋",
@@ -935,12 +1026,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1054,12 +1145,12 @@
       "render_latex": "燭\t%zhu2\n{\\large{\\textsuperscript{ign·}tok}},\n\\textit{ciəwk};\t%1224e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1173,12 +1264,12 @@
       "render_latex": "臅\t%chu4\n{\\large{\\textsuperscript{luna·}tok}},\n\\textit{chiəwk};\t%1224f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1369,12 +1460,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1547,12 +1638,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1725,12 +1816,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -1892,12 +1983,12 @@
       "render_latex": "襡\t%du2\n{\\large{\\textsuperscript{vest·}tok}},\n\\textit{duwk};\t%1224j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -2080,12 +2171,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -2171,7 +2262,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{cori·}tok}},",
       "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}tok}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "蜀",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "蜀"
+      },
       "resolved_node_root": null
     },
     {
@@ -2348,12 +2447,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -2491,12 +2590,12 @@
       "render_latex": "噣\t%zhou4\n{\\large{\\textsuperscript{or·}tok}},\n\\textit{tuwH};\t%1224n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -2596,12 +2695,12 @@
       "render_latex": "斀\t%zhuo2\n{\\large{tok\\textsuperscript{·fer}}},\n\\textit{ṭaewk};\t%1224o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -2798,12 +2897,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -3007,12 +3106,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -3138,12 +3237,12 @@
       "render_latex": "擉\t%chuo4\n{\\large{\\textsuperscript{man·}tok}},\n\\textit{tṣhaewk};\t%1224r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": null
@@ -3345,12 +3444,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "蜀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "蜀"
       },
       "resolved_node_root": {

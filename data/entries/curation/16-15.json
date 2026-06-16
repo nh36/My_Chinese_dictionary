@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.531635+00:00",
+  "generated_at": "2026-06-16T14:37:22.213639+00:00",
   "id": "16-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -844,7 +844,133 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "刀"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "taw",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 21,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "taw"
+        ],
+        "bs_node_roots": [
+          "taw",
+          "traw",
+          "thraw"
+        ],
+        "display_root": "taw",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "taw",
+          "tew",
+          "thaw",
+          "ḍiewH",
+          "jiewX",
+          "jiew",
+          "dew",
+          "daw",
+          "ṭhiew",
+          "chiew",
+          "yiew",
+          "ciew",
+          "ciewX",
+          "ciewH",
+          "chiewX"
+        ],
+        "form_analyses": [
+          {
+            "form": "taw",
+            "normalized": "taw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tew",
+            "normalized": "tew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thaw",
+            "normalized": "thaw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiewH",
+            "normalized": "ḍiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "jiewX",
+            "normalized": "jiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiew",
+            "normalized": "jiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "dew",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daw",
+            "normalized": "daw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭhiew",
+            "normalized": "ṭhiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "chiew",
+            "normalized": "chiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiew",
+            "normalized": "yiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ciew",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewX",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewH",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "chiewX",
+            "normalized": "chiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "韶",
@@ -1180,12 +1306,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "刀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "刀"
       },
       "resolved_node_root": null
@@ -1527,12 +1653,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "刀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "刀"
       },
       "resolved_node_root": null
@@ -1867,12 +1993,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "刀",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "刀"
       },
       "resolved_node_root": {

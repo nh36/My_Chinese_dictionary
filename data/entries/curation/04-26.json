@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.517549+00:00",
+  "generated_at": "2026-06-16T14:37:22.199319+00:00",
   "id": "04-26",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -735,7 +735,50 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "止"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ty",
+        "source": "node_inherit_parent",
+        "descendant_count": 5,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "ty",
+          "ky"
+        ],
+        "bs_node_roots": [
+          "ty",
+          "thry",
+          "khy"
+        ],
+        "display_root": "ty",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "ciX",
+          "ṭhiX",
+          "chiX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ciX",
+            "normalized": "ci",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭhiX",
+            "normalized": "ṭhi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "chiX",
+            "normalized": "chi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "旹",
@@ -1225,12 +1268,12 @@
         "semantic_component": "足"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "止",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "止"
       },
       "resolved_node_root": null
@@ -1539,12 +1582,12 @@
       "render_latex": "沚\t%zhi3\n{\\large{\\textsuperscript{aq·}ty}},\n\\textit{ciX};\t%0961h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "止",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "止"
       },
       "resolved_node_root": null
@@ -2015,12 +2058,12 @@
       "render_latex": "芷\t%zhi3\n{\\large{\\textsuperscript{herb˸}ty}},\n\\textit{ciX};\t%0961j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "止",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "止"
       },
       "resolved_node_root": null
@@ -2307,12 +2350,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "止",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "止"
       },
       "resolved_node_root": null
@@ -2506,12 +2549,12 @@
       "render_latex": "齒\t%chi3 / chǐ\n{\\large{ty\\textsuperscript{˸𠚕}}},\n\\textit{chiX};\t%0961l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "止",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "止"
       },
       "resolved_node_root": null

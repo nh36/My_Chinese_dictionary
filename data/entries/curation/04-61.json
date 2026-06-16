@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.569907+00:00",
+  "generated_at": "2026-06-16T14:37:22.254669+00:00",
   "id": "04-61",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1396,7 +1396,154 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "不"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "py",
+        "source": "node_inherit_parent",
+        "descendant_count": 21,
+        "bs_support_count": 5,
+        "bs_broad_roots": [
+          "py",
+          "po"
+        ],
+        "bs_node_roots": [
+          "py",
+          "po"
+        ],
+        "display_root": "py",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "piuw",
+          "piuwX",
+          "biyX",
+          "piyX",
+          "pwəy",
+          "phuwH",
+          "bwəy",
+          "bwəyX",
+          "phuwX",
+          "puwX",
+          "bək",
+          "puwṅX",
+          "buwX",
+          "buw",
+          "phiuw",
+          "phiuwX",
+          "biuw",
+          "phwəy"
+        ],
+        "form_analyses": [
+          {
+            "form": "piuw",
+            "normalized": "piuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piuwX",
+            "normalized": "piuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biyX",
+            "normalized": "biy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piyX",
+            "normalized": "piy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pwəy",
+            "normalized": "pwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phuwH",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəy",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəyX",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phuwX",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwX",
+            "normalized": "puw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bək",
+            "normalized": "bək",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwṅX",
+            "normalized": "puwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buwX",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buw",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phiuw",
+            "normalized": "phiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiuwX",
+            "normalized": "phiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biuw",
+            "normalized": "biuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phwəy",
+            "normalized": "phwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "培",
@@ -2108,12 +2255,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": {
@@ -2582,12 +2729,12 @@
       "render_latex": "紑\t%fou2\n{\\large{\\textsuperscript{ser·}py}},\n\\textit{phiuw};\t%0999g\n\\textit{phiuwX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -2806,12 +2953,12 @@
       "render_latex": "罘\t%fu2\n{\\large{\\textsuperscript{nass˸}py}},\n\\textit{biuw};\t%0999h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -2990,12 +3137,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -3194,12 +3341,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -3946,12 +4093,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -4235,12 +4382,12 @@
       "render_latex": "阫\t%pei1\n{\\large{\\textsuperscript{tum·}py}},\n\\textit{phwəy};\t%0999q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null
@@ -4354,12 +4501,12 @@
       "render_latex": "坏\t%pei2\n{\\large{\\textsuperscript{terr·}py}},\n\\textit{bwəy};\t%0999s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "不",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "不"
       },
       "resolved_node_root": null

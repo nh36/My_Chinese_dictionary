@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.530502+00:00",
+  "generated_at": "2026-06-16T14:37:22.212036+00:00",
   "id": "14-18",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -186,7 +186,110 @@
         "semantic_component": null
       },
       "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tuk",
+        "source": "node_inherit_parent",
+        "descendant_count": 17,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "tuk",
+          "tik",
+          "tiw",
+          "tew"
+        ],
+        "bs_node_roots": [
+          "tsuk",
+          "tsik",
+          "thuk",
+          "tsiw",
+          "tsew"
+        ],
+        "display_root": "tuk",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "śiuwk",
+          "chiuwk",
+          "dzek",
+          "təwk",
+          "səwk",
+          "nek",
+          "tsew",
+          "tsiew",
+          "tshek",
+          "tsiuwk",
+          "dek"
+        ],
+        "form_analyses": [
+          {
+            "form": "śiuwk",
+            "normalized": "śiuwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "chiuwk",
+            "normalized": "chiuwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dzek",
+            "normalized": "dzek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "təwk",
+            "normalized": "təwk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "səwk",
+            "normalized": "səwk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "nek",
+            "normalized": "nek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsew",
+            "normalized": "tsew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsiew",
+            "normalized": "tsiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshek",
+            "normalized": "tshek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsiuwk",
+            "normalized": "tsiuwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dek",
+            "normalized": "dek",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "叔",
@@ -583,12 +686,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "尗",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "尗"
       },
       "resolved_node_root": {
@@ -1158,12 +1261,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "尗",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "尗"
       },
       "resolved_node_root": {

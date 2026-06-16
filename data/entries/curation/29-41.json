@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.552653+00:00",
+  "generated_at": "2026-06-16T14:37:22.236952+00:00",
   "id": "29-41",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -855,7 +855,92 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "必"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "pit",
+        "source": "node_inherit_parent",
+        "descendant_count": 17,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "pit",
+          "mit"
+        ],
+        "bs_node_roots": [
+          "pit",
+          "prit",
+          "mit"
+        ],
+        "display_root": "pit",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "pyit",
+          "bit",
+          "bet",
+          "byit",
+          "piyH",
+          "pit",
+          "mit",
+          "myit",
+          "bjit"
+        ],
+        "form_analyses": [
+          {
+            "form": "pyit",
+            "normalized": "pyit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bit",
+            "normalized": "bit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bet",
+            "normalized": "bet",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "byit",
+            "normalized": "byit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piyH",
+            "normalized": "piy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pit",
+            "normalized": "pit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "mit",
+            "normalized": "mit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "myit",
+            "normalized": "myit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bjit",
+            "normalized": "bjit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "珌",
@@ -966,12 +1051,12 @@
       "render_latex": "珌\t%bi4\n{\\large{\\textsuperscript{gem·}pit}},\n\\textit{pyit};\t%0405c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -1252,12 +1337,12 @@
       "render_latex": "㧙\t%bi4\n{\\large{\\textsuperscript{man·}pit}},\n\\textit{bit};\t%0405e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -1383,12 +1468,12 @@
       "render_latex": "駜\t%bi4\n{\\large{\\textsuperscript{equ·}pit}},\n\\textit{bit};\t%0405f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -1525,12 +1610,12 @@
       "render_latex": "苾\t%bi4\n{\\large{\\textsuperscript{herb˸}pit}},\n\\textit{bet};\t%0405g\n\\textit{byit};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -1667,12 +1752,12 @@
       "render_latex": "飶\t%bi4\n{\\large{\\textsuperscript{ed·}pit}},\n\\textit{bet};\t%0405h\n\\textit{byit};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -1863,12 +1948,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2045,12 +2130,12 @@
       "render_latex": "柲\t%bi4 / bì\n{\\large{\\textsuperscript{arb·}pit}},\n\\textit{piyH};\t%0405j\n\\textit{pit};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2150,12 +2235,12 @@
       "render_latex": "毖\t%bi4 / bì\n{\\large{\\textsuperscript{比˸}pit}},\n\\textit{piyH};\t%0405k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2358,12 +2443,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2542,12 +2627,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2661,12 +2746,12 @@
       "render_latex": "閟\t%bi4\n{\\large{\\textsuperscript{port˸}pit}},\n\\textit{piyH};\t%0405n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null
@@ -2836,12 +2921,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": {
@@ -3387,12 +3472,12 @@
       "render_latex": "𥁑\t%mi4 / mì\n{\\large{pit\\textsuperscript{˸vas}}},\n\\textit{myit};\t%0405s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": {
@@ -3742,12 +3827,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "必",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "必"
       },
       "resolved_node_root": null

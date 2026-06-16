@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.498598+00:00",
+  "generated_at": "2026-06-16T14:37:22.174549+00:00",
   "id": "02-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -536,7 +536,75 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "睪"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lak",
+        "source": "node_bs_consensus",
+        "descendant_count": 15,
+        "bs_support_count": 7,
+        "bs_broad_roots": [
+          "lak"
+        ],
+        "bs_node_roots": [
+          "lak"
+        ],
+        "display_root": "lak",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "yiek",
+          "duH",
+          "tuH",
+          "śiek",
+          "ḍaek",
+          "thak",
+          "dak"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiek",
+            "normalized": "yiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "duH",
+            "normalized": "du",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tuH",
+            "normalized": "tu",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "śiek",
+            "normalized": "śiek",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ḍaek",
+            "normalized": "ḍaek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thak",
+            "normalized": "thak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dak",
+            "normalized": "dak",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "圛",
@@ -855,12 +923,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1051,12 +1119,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1229,12 +1297,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1427,12 +1495,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1611,12 +1679,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1809,12 +1877,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -1900,12 +1968,12 @@
       "render_latex": "𢍰\t%yi4\n{\\large{lak\\textsuperscript{˸廾}}},\n\\textit{yiek};\t%0790i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -2033,12 +2101,12 @@
       "render_latex": "𥼶\t%shi4 / shì\n{\\large{\\textsuperscript{oryz·}lak}},\n\\textit{śiek};\t%0790k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -2193,12 +2261,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -2351,12 +2419,12 @@
       "render_latex": "檡\t%zhai2 / shi4 / shì\n{\\large{\\textsuperscript{arb·}lak}},\n\\textit{ḍaek};\t%0790m\n\\textit{śiek};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -2535,12 +2603,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": {
@@ -2790,12 +2858,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -2988,12 +3056,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null
@@ -3142,12 +3210,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "睪",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "睪"
       },
       "resolved_node_root": null

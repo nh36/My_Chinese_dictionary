@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.544757+00:00",
+  "generated_at": "2026-06-16T14:37:22.228161+00:00",
   "id": "25-17",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -227,7 +227,50 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "夗"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "qor",
+        "source": "node_inherit_parent",
+        "descendant_count": 5,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "ʔor"
+        ],
+        "bs_node_roots": [
+          "qor"
+        ],
+        "display_root": "qor₂",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "qiwənX",
+          "qwanH",
+          "qwanX"
+        ],
+        "form_analyses": [
+          {
+            "form": "qiwənX",
+            "normalized": "qiwən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qwanH",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qwanX",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "qor",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
     },
     {
       "character": "怨",
@@ -1301,8 +1344,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{ʔor\\textsuperscript{˸cor}}},",
-      "render_latex": "惌\t%wan3\n{\\large{ʔor\\textsuperscript{˸cor}}},\n\\textit{qiwənX};\t%0260h",
+      "transliteration_latex": "{\\large{qor₂\\textsuperscript{˸cor}}},",
+      "render_latex": "惌\t%wan3\n{\\large{qor₂\\textsuperscript{˸cor}}},\n\\textit{qiwənX};\t%0260h",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "宛",
@@ -1332,12 +1375,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "宛",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "宛"
       },
       "resolved_node_root": null
@@ -1616,8 +1659,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "田"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ager·}ʔor}},",
-      "render_latex": "畹\t%wan3\n{\\large{\\textsuperscript{ager·}ʔor}},\n\\textit{qiwənX};\t%0260j",
+      "transliteration_latex": "{\\large{\\textsuperscript{ager·}qor₂}},",
+      "render_latex": "畹\t%wan3\n{\\large{\\textsuperscript{ager·}qor₂}},\n\\textit{qiwənX};\t%0260j",
       "wiktionary_semantic_validation": {
         "semantic_component": "田",
         "phonetic_component": "宛",
@@ -1653,12 +1696,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "宛",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "宛"
       },
       "resolved_node_root": null
@@ -1946,8 +1989,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "玉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{gem·}ʔor}},",
-      "render_latex": "琬\t%wan3\n{\\large{\\textsuperscript{gem·}ʔor}},\n\\textit{qiwənX};\t%0260l\n\\textit{qwanH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{gem·}qor₂}},",
+      "render_latex": "琬\t%wan3\n{\\large{\\textsuperscript{gem·}qor₂}},\n\\textit{qiwənX};\t%0260l\n\\textit{qwanH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "玉",
         "phonetic_component": "宛",
@@ -1977,12 +2020,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "宛",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "宛"
       },
       "resolved_node_root": null
@@ -2268,8 +2311,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{carn·}ʔor}},",
-      "render_latex": "腕\t%wan4\n{\\large{\\textsuperscript{carn·}ʔor}},\n\\textit{qwanH};\t%0260n",
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}qor₂}},",
+      "render_latex": "腕\t%wan4\n{\\large{\\textsuperscript{carn·}qor₂}},\n\\textit{qwanH};\t%0260n",
       "wiktionary_semantic_validation": {
         "semantic_component": "肉",
         "phonetic_component": "宛",
@@ -2292,12 +2335,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "宛",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "宛"
       },
       "resolved_node_root": null
@@ -2369,10 +2412,18 @@
         "source": "packet_family_ids",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}ʔor}},",
-      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}ʔor}},\n\\textit{qwanX};\t%0260o",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}qor₂}},",
+      "render_latex": "椀\t%wan3\n{\\large{\\textsuperscript{arb·}qor₂}},\n\\textit{qwanX};\t%0260o",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "宛",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "宛"
+      },
       "resolved_node_root": null
     },
     {
@@ -3564,7 +3615,7 @@
       "resolved_node_root": {
         "root": "qor",
         "source": "node_bs_consensus",
-        "descendant_count": 12,
+        "descendant_count": 17,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "ʔor"
@@ -3579,12 +3630,13 @@
         "mc_forms": [
           "'jwonX",
           "qiwənX",
+          "qwanH",
+          "qwanX",
           "qiwən",
           "qiwənH",
           "qiut",
           "hiunX",
           "qwan",
-          "qwanH",
           "qiun"
         ],
         "form_analyses": [
@@ -3599,6 +3651,18 @@
             "normalized": "qiwən",
             "class": "b",
             "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qwanH",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qwanX",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
           },
           {
             "form": "qiwən",
@@ -3626,12 +3690,6 @@
           },
           {
             "form": "qwan",
-            "normalized": "qwan",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "qwanH",
             "normalized": "qwan",
             "class": "a",
             "reason": "no_i_medial"

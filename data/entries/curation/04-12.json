@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.509816+00:00",
+  "generated_at": "2026-06-16T14:37:22.187165+00:00",
   "id": "04-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -519,7 +519,93 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "九"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "ku",
+        "source": "node_inherit_parent",
+        "descendant_count": 16,
+        "bs_support_count": 5,
+        "bs_broad_roots": [
+          "ku",
+          "kuu"
+        ],
+        "bs_node_roots": [
+          "ku",
+          "gru",
+          "kuru",
+          "gu"
+        ],
+        "display_root": "ku",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "kiuwX",
+          "giuw",
+          "kwiyX",
+          "gwiy",
+          "kiuw",
+          "kiuwH",
+          "khaw",
+          "xaew",
+          "xiəwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "kiuwX",
+            "normalized": "kiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "giuw",
+            "normalized": "giuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kwiyX",
+            "normalized": "kwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gwiy",
+            "normalized": "gwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiuw",
+            "normalized": "kiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiuwH",
+            "normalized": "kiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khaw",
+            "normalized": "khaw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xaew",
+            "normalized": "xaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xiəwk",
+            "normalized": "xiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "頄",
@@ -660,12 +746,12 @@
       "render_latex": "頄\t%qiu2 / kuí\n{\\large{ku\\textsuperscript{·fac}}},\n\\textit{giuw};\t%0992e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -821,12 +907,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -1005,12 +1091,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -1201,12 +1287,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": {
@@ -1420,12 +1506,12 @@
       "render_latex": "馗\t%kui2\n{\\large{ku\\textsuperscript{·cap}}},\n\\textit{gwiy};\t%0992m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -1618,12 +1704,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -1781,12 +1867,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -1981,12 +2067,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2047,7 +2133,15 @@
       "transliteration_latex": "{\\large{ku\\textsuperscript{˸厶}}},",
       "render_latex": "厹\t%qiu2\n{\\large{ku\\textsuperscript{˸厶}}},\n\\textit{giuw};\t%0992q",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "九",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "九"
+      },
       "resolved_node_root": null
     },
     {
@@ -2159,12 +2253,12 @@
       "render_latex": "叴\t%qiu2\n{\\large{ku\\textsuperscript{˸or}}},\n\\textit{giuw};\t%0992r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2290,12 +2384,12 @@
       "render_latex": "艽\t%qiu2\n{\\large{\\textsuperscript{herb˸}ku}},\n\\textit{giuw};\t%0992s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2395,12 +2489,12 @@
       "render_latex": "鼽\t%qiu2\n{\\large{\\textsuperscript{nas·}ku}},\n\\textit{giuw};\t%0992t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2581,12 +2675,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2721,12 +2815,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null
@@ -2880,12 +2974,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "九",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "九"
       },
       "resolved_node_root": null

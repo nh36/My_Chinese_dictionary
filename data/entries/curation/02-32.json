@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.497446+00:00",
+  "generated_at": "2026-06-16T14:37:22.172873+00:00",
   "id": "02-32",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -804,7 +804,135 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "昔"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "sak",
+        "source": "node_inherit_parent",
+        "descendant_count": 19,
+        "bs_support_count": 9,
+        "bs_broad_roots": [
+          "sak",
+          "tsak"
+        ],
+        "bs_node_roots": [
+          "sak",
+          "tsak",
+          "tshak",
+          "tsrak"
+        ],
+        "display_root": "sak",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "siek",
+          "dziek",
+          "dziaeH",
+          "tshiak",
+          "tshiek",
+          "tsiek",
+          "tṣiak",
+          "tshak",
+          "dzak",
+          "tsiaeH",
+          "tshuH",
+          "tṣhaek",
+          "dẓaeH",
+          "tshiəH",
+          "dẓeak"
+        ],
+        "form_analyses": [
+          {
+            "form": "siek",
+            "normalized": "siek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dziek",
+            "normalized": "dziek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dziaeH",
+            "normalized": "dziae",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshiak",
+            "normalized": "tshiak",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshiek",
+            "normalized": "tshiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiek",
+            "normalized": "tsiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tṣiak",
+            "normalized": "tṣiak",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshak",
+            "normalized": "tshak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzak",
+            "normalized": "dzak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsiaeH",
+            "normalized": "tsiae",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshuH",
+            "normalized": "tshu",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣhaek",
+            "normalized": "tṣhaek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dẓaeH",
+            "normalized": "dẓae",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tshiəH",
+            "normalized": "tshiə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dẓeak",
+            "normalized": "dẓeak",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "籍",
@@ -1518,12 +1646,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -1688,12 +1816,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -1872,12 +2000,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": {
@@ -2084,12 +2212,12 @@
       "render_latex": "踖\t%ji2\n{\\large{\\textsuperscript{ped·}sak}},\n\\textit{dziek};\t%0798k\n\\textit{tshiak};\n\\textit{tshiek};\n\\textit{tsiek};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2203,12 +2331,12 @@
       "render_latex": "趞\t%que4\n{\\large{\\textsuperscript{curr·}sak}},\n\\textit{tshiak};\t%0798l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2336,12 +2464,12 @@
       "render_latex": "鵲\t%que4 / què\n{\\large{sak\\textsuperscript{·av}}},\n\\textit{tshiak};\t%0798n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2481,12 +2609,12 @@
       "render_latex": "斮\t%zhuo2 / zhuó\n{\\large{sak\\textsuperscript{·libra}}},\n\\textit{tṣiak};\t%0798o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2654,12 +2782,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2761,12 +2889,12 @@
       "render_latex": "逪\t%cuo4\n{\\large{\\textsuperscript{amb·}sak}},\n\\textit{tshak};\t%0798q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -2971,12 +3099,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -3153,12 +3281,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -3386,12 +3514,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -3505,12 +3633,12 @@
       "render_latex": "唶\t%jie4\n{\\large{\\textsuperscript{or·}sak}},\n\\textit{tsiaeH};\t%0798v",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -3705,12 +3833,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": {
@@ -3871,12 +3999,12 @@
       "render_latex": "蜡\t%zha4 / qu4\n{\\large{\\textsuperscript{serp·}sak}},\n\\textit{dẓaeH};\t%0798y\n\\textit{tshiəH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null
@@ -3974,12 +4102,12 @@
       "render_latex": "矠\t%ze2\n{\\large{\\textsuperscript{矛·}sak}},\n\\textit{dẓeak};\t%0798z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "昔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "昔"
       },
       "resolved_node_root": null

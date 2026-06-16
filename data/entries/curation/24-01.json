@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.553863+00:00",
+  "generated_at": "2026-06-16T14:37:22.238268+00:00",
   "id": "24-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -1106,7 +1106,116 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "干"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kar",
+        "source": "node_inherit_parent",
+        "descendant_count": 27,
+        "bs_support_count": 12,
+        "bs_broad_roots": [
+          "kar",
+          "qar",
+          "qan"
+        ],
+        "bs_node_roots": [
+          "kar",
+          "gar",
+          "qhar",
+          "sar",
+          "qan"
+        ],
+        "display_root": "kar",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "kan",
+          "hanH",
+          "ṅanH",
+          "kanH",
+          "hanX",
+          "hiən",
+          "kanX",
+          "kiən",
+          "khan",
+          "ḫanH",
+          "hwaenX",
+          "han"
+        ],
+        "form_analyses": [
+          {
+            "form": "kan",
+            "normalized": "kan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hanH",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅanH",
+            "normalized": "ṅan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kanH",
+            "normalized": "kan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hanX",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hiən",
+            "normalized": "hiən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kanX",
+            "normalized": "kan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kiən",
+            "normalized": "kiən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khan",
+            "normalized": "khan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḫanH",
+            "normalized": "ḫan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hwaenX",
+            "normalized": "hwaen",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "han",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "馯",
@@ -1229,12 +1338,12 @@
       "render_latex": "馯\t%han4\n{\\large{\\textsuperscript{equ·}kar}},\n\\textit{hanH};\t%0139b'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -1425,12 +1534,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -1601,12 +1710,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -1667,7 +1776,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{㚣·}kar}},",
       "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}kar}},\n\\textit{kan};\t%0139d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "干",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "干"
+      },
       "resolved_node_root": null
     },
     {
@@ -1803,12 +1920,12 @@
       "render_latex": "豻\t%an4 / àn\n{\\large{\\textsuperscript{best·}kar}},\n\\textit{ṅanH};\t%0139d'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -1934,12 +2051,12 @@
       "render_latex": "忓\t%gan1\n{\\large{\\textsuperscript{cor·}kar}},\n\\textit{kan};\t%0139e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -2223,12 +2340,12 @@
       "render_latex": "旰\t%gan4\n{\\large{\\textsuperscript{sol·}kar}},\n\\textit{kanH};\t%0139f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -2404,12 +2521,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -2523,12 +2640,12 @@
       "render_latex": "玕\t%gan1\n{\\large{\\textsuperscript{gem·}kar}},\n\\textit{kan};\t%0139g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -2721,12 +2838,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -2838,12 +2955,12 @@
       "render_latex": "皯\t%gan3\n{\\large{\\textsuperscript{pell·}kar}},\n\\textit{kanX};\t%0139h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -3165,12 +3282,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -3496,12 +3613,12 @@
       "render_latex": "秆\t%gan3 / gǎn\n{\\large{\\textsuperscript{gran·}kar}},\n\\textit{kanX};\t%0139j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -3813,12 +3930,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -3999,12 +4116,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -4145,12 +4262,12 @@
       "render_latex": "飦\t%zhan1 / zhān\n{\\large{\\textsuperscript{ed·}kar}},\n\\textit{kan};\t%0139m\n\\textit{kiən};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -4301,12 +4418,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -4763,12 +4880,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -4896,12 +5013,12 @@
       "render_latex": "旱\t%han4 / hàn\n{\\large{\\textsuperscript{sol˸}kar}},\n\\textit{hanX};\t%0139s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": {
@@ -5166,12 +5283,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -5285,12 +5402,12 @@
       "render_latex": "虷\t%han2\n{\\large{\\textsuperscript{serp·}kar}},\n\\textit{han};\t%0139u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -5404,12 +5521,12 @@
       "render_latex": "邗\t%han2\n{\\large{kar\\textsuperscript{·tum}}},\n\\textit{han};\t%0139v",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -5534,12 +5651,12 @@
       "render_latex": "釬\t%han4 / gan1\n{\\large{\\textsuperscript{met·}kar}},\n\\textit{hanH};\t%0139y\n\\textit{kan};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null
@@ -5653,12 +5770,12 @@
       "render_latex": "閈\t%han4\n{\\large{\\textsuperscript{port˸}kar}},\n\\textit{hanH};\t%0139z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "干",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "干"
       },
       "resolved_node_root": null

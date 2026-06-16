@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.572228+00:00",
+  "generated_at": "2026-06-16T14:37:22.263968+00:00",
   "id": "34-23",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -807,7 +807,47 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "允"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "lur",
+        "source": "node_inherit_parent",
+        "descendant_count": 6,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "lur"
+        ],
+        "bs_node_roots": [
+          "lur"
+        ],
+        "display_root": "lur",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "yiwinX",
+          "źiwinX",
+          "yiwenX"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiwinX",
+            "normalized": "yiwin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "źiwinX",
+            "normalized": "źiwin",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "yiwenX",
+            "normalized": "yiwen",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "浚",
@@ -1226,7 +1266,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{ager·}lur}},",
       "render_latex": "㽙\t%yun3\n{\\large{\\textsuperscript{ager·}lur}},\n\\textit{yiwinX};\t%0468d",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "允",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "允"
+      },
       "resolved_node_root": null
     },
     {
@@ -1779,12 +1827,12 @@
       "render_latex": "狁\t%yun3\n{\\large{\\textsuperscript{can·}lur}},\n\\textit{yiwinX};\t%0468g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "允",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "允"
       },
       "resolved_node_root": null
@@ -2083,12 +2131,12 @@
       "render_latex": "鈗\t%yun3\n{\\large{\\textsuperscript{met·}lur}},\n\\textit{yiwinX};\t%0468j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "允",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "允"
       },
       "resolved_node_root": null
@@ -2156,7 +2204,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{germ·}lur}},",
       "render_latex": "𡴞\t%yun3\n{\\large{\\textsuperscript{germ·}lur}},\n\\textit{yiwinX};\t%0468k",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "允",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "允"
+      },
       "resolved_node_root": null
     },
     {
@@ -2280,12 +2336,12 @@
       "render_latex": "吮\t%shun3\n{\\large{\\textsuperscript{or·}lur}},\n\\textit{źiwinX};\t%0468m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "允",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "允"
       },
       "resolved_node_root": null
@@ -2399,12 +2455,12 @@
       "render_latex": "沇\t%yan3\n{\\large{\\textsuperscript{aq·}lur}},\n\\textit{yiwenX};\t%0468n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "允",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "允"
       },
       "resolved_node_root": null

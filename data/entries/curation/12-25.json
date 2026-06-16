@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.521002+00:00",
+  "generated_at": "2026-06-16T14:37:22.203585+00:00",
   "id": "12-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -637,7 +637,70 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "丰"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "poṅ",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 12,
+        "bs_support_count": 6,
+        "bs_broad_roots": [
+          "poṅ"
+        ],
+        "bs_node_roots": [
+          "proṅ",
+          "poṅ",
+          "phoṅ"
+        ],
+        "display_root": "poṅ",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "phiəwṅ",
+          "baewṅX",
+          "paewṅ",
+          "biəwṅ",
+          "buwṅ",
+          "biəwṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "phiəwṅ",
+            "normalized": "phiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "baewṅX",
+            "normalized": "baewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "paewṅ",
+            "normalized": "paewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "biəwṅ",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "buwṅ",
+            "normalized": "buwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "biəwṅH",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "捧",
@@ -1029,12 +1092,12 @@
       "render_latex": "蚌\t%bang4 / bàng\n{\\large{\\textsuperscript{serp·}poṅ}},\n\\textit{baewṅX};\t%1197d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "丰",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "丰"
       },
       "resolved_node_root": null
@@ -1324,12 +1387,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "丰",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "丰"
       },
       "resolved_node_root": null
@@ -2301,12 +2364,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "丰",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "丰"
       },
       "resolved_node_root": {

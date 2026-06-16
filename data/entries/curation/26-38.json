@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.536624+00:00",
+  "generated_at": "2026-06-16T14:37:22.219369+00:00",
   "id": "26-38",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -259,7 +259,70 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "匕"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "piy",
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "piy",
+          "pir"
+        ],
+        "bs_node_roots": [
+          "piy",
+          "pir"
+        ],
+        "display_root": "piy",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "pyiyH",
+          "byiyX",
+          "byinX",
+          "phyieX",
+          "phyiyX",
+          "pyiyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "pyiyH",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "byiyX",
+            "normalized": "byiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "byinX",
+            "normalized": "byin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phyieX",
+            "normalized": "phyie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phyiyX",
+            "normalized": "phyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pyiyX",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "批",
@@ -2647,12 +2710,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "匕",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "匕"
       },
       "resolved_node_root": null
@@ -2777,12 +2840,12 @@
       "render_latex": "庀\t%pi3\n{\\large{\\textsuperscript{lax·}piy}},\n\\textit{phyieX};\t%0566k\n\\textit{phyiyX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "匕",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "匕"
       },
       "resolved_node_root": null
@@ -2989,12 +3052,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "匕",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "匕"
       },
       "resolved_node_root": null

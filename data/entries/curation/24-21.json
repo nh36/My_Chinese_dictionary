@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.541427+00:00",
+  "generated_at": "2026-06-16T14:37:22.224407+00:00",
   "id": "24-21",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -882,7 +882,146 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "單"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tar",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 24,
+        "bs_support_count": 8,
+        "bs_broad_roots": [
+          "tar"
+        ],
+        "bs_node_roots": [
+          "tar",
+          "thar"
+        ],
+        "display_root": "tar",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "tan",
+          "tanX",
+          "jienX",
+          "jienH",
+          "cie",
+          "cieH",
+          "da",
+          "dan",
+          "ten",
+          "taH",
+          "than",
+          "chienX",
+          "danH",
+          "ṭhean",
+          "cienH",
+          "cienX",
+          "jien"
+        ],
+        "form_analyses": [
+          {
+            "form": "tan",
+            "normalized": "tan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tanX",
+            "normalized": "tan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "jienX",
+            "normalized": "jien",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jienH",
+            "normalized": "jien",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "cie",
+            "normalized": "cie",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "cieH",
+            "normalized": "cie",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "da",
+            "normalized": "da",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dan",
+            "normalized": "dan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ten",
+            "normalized": "ten",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "taH",
+            "normalized": "ta",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "than",
+            "normalized": "than",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "chienX",
+            "normalized": "chien",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "danH",
+            "normalized": "dan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭhean",
+            "normalized": "ṭhean",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "cienH",
+            "normalized": "cien",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "cienX",
+            "normalized": "cien",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jien",
+            "normalized": "jien",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
     },
     {
       "character": "墠",
@@ -993,12 +1132,12 @@
       "render_latex": "墠\t%shan4\n{\\large{\\textsuperscript{terr·}tar}},\n\\textit{jienX};\t%0147a'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -1201,12 +1340,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -1424,12 +1563,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -1589,12 +1728,12 @@
       "render_latex": "驒\t%tuo2\n{\\large{\\textsuperscript{equ·}tar}},\n\\textit{da};\t%0147d'\n\\textit{dan};\n\\textit{ten};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -1787,12 +1926,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2020,12 +2159,12 @@
       "render_latex": "匰\t%dan1\n{\\large{\\textsuperscript{匚·}tar}},\n\\textit{tan};\t%0147f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2139,12 +2278,12 @@
       "render_latex": "殫\t%dan1\n{\\large{\\textsuperscript{mal·}tar}},\n\\textit{tan};\t%0147g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2258,12 +2397,12 @@
       "render_latex": "簞\t%dan1\n{\\large{\\textsuperscript{bamb˸}tar}},\n\\textit{tan};\t%0147h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2388,12 +2527,12 @@
       "render_latex": "鱓\t%tuo2 / shan4\n{\\large{\\textsuperscript{pis·}tar}},\n\\textit{da};\t%0147h'\n\\textit{dan};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2507,12 +2646,12 @@
       "render_latex": "襌\t%dan1\n{\\large{\\textsuperscript{vest·}tar}},\n\\textit{tan};\t%0147i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2687,12 +2826,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -2841,12 +2980,12 @@
       "render_latex": "癉\t%duo4? / dan3\n{\\large{\\textsuperscript{infirm·}tar}},\n\\textit{taH};\t%0147l\n\\textit{tanX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3021,12 +3160,12 @@
       "render_latex": "嘽\t%tan1 / chan3 / tān\n{\\large{\\textsuperscript{or·}tar}},\n\\textit{than};\t%0147m\n\\textit{chienX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3252,12 +3391,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3436,12 +3575,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3543,12 +3682,12 @@
       "render_latex": "㺗\t%chan1\n{\\large{\\textsuperscript{can·}tar}},\n\\textit{ṭhean};\t%0147p",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3741,12 +3880,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -3871,12 +4010,12 @@
       "render_latex": "樿\t%shan4 / zhan3\n{\\large{\\textsuperscript{arb·}tar}},\n\\textit{jienH};\t%0147s\n\\textit{cienX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4025,12 +4164,12 @@
       "render_latex": "燀\t%chan3\n{\\large{\\textsuperscript{ign·}tar}},\n\\textit{cienX};\t%0147t\n\\textit{chienX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4144,12 +4283,12 @@
       "render_latex": "幝\t%chan3\n{\\large{\\textsuperscript{lint·}tar}},\n\\textit{chienX};\t%0147u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4263,12 +4402,12 @@
       "render_latex": "繟\t%chan3\n{\\large{\\textsuperscript{ser·}tar}},\n\\textit{chienX};\t%0147v",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4447,12 +4586,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4631,12 +4770,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null
@@ -4829,12 +4968,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "單",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "單"
       },
       "resolved_node_root": null

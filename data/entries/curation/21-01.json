@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.576357+00:00",
+  "generated_at": "2026-06-16T14:37:22.268472+00:00",
   "id": "21-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -185,7 +185,161 @@
         "semantic_component": null
       },
       "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kat",
+        "source": "node_inherit_parent",
+        "descendant_count": 23,
+        "bs_support_count": 10,
+        "bs_broad_roots": [
+          "kat",
+          "qat",
+          "yt"
+        ],
+        "bs_node_roots": [
+          "kat",
+          "gat",
+          "yt",
+          "qat",
+          "krat",
+          "khrat",
+          "qhrat",
+          "qhat"
+        ],
+        "display_root": "kat",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "kayH",
+          "kat",
+          "hat",
+          "khat",
+          "qayH",
+          "giet",
+          "qaeyH",
+          "qat",
+          "khiet",
+          "khiət",
+          "giət",
+          "khieyH",
+          "kiət",
+          "khaet",
+          "khayH",
+          "hiət",
+          "qiət",
+          "qieyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "kayH",
+            "normalized": "kay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kat",
+            "normalized": "kat",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hat",
+            "normalized": "hat",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khat",
+            "normalized": "khat",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qayH",
+            "normalized": "qay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "giet",
+            "normalized": "giet",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qaeyH",
+            "normalized": "qaey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qat",
+            "normalized": "qat",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khiet",
+            "normalized": "khiet",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khiət",
+            "normalized": "khiət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "giət",
+            "normalized": "giət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khieyH",
+            "normalized": "khiey",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiət",
+            "normalized": "kiət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khaet",
+            "normalized": "khaet",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khayH",
+            "normalized": "khay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hiət",
+            "normalized": "hiət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiət",
+            "normalized": "qiət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qieyH",
+            "normalized": "qiey",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "藹",
@@ -1403,12 +1557,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "匃",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "匃"
       },
       "resolved_node_root": {

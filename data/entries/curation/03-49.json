@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.504678+00:00",
+  "generated_at": "2026-06-16T14:37:22.181448+00:00",
   "id": "03-49",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -604,7 +604,119 @@
       "render_latex": "爿\t%pan2\n{\\large{tsaṅ}},\n\\textit{tshiaṅ};\t%0727a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tsaṅ",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 23,
+        "bs_support_count": 12,
+        "bs_broad_roots": [
+          "tsaṅ"
+        ],
+        "bs_node_roots": [
+          "tsaṅ",
+          "tshaṅ",
+          "tsraṅ"
+        ],
+        "display_root": "tsaṅ",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "tshiaṅ",
+          "tsiaṅ",
+          "tsiaṅH",
+          "śiaṅ",
+          "tsiaṅX",
+          "dziaṅ",
+          "tsaṅ",
+          "dzaṅ",
+          "dzaṅH",
+          "tṣiaṅH",
+          "tṣiaṅ",
+          "dẓiaṅ",
+          "dẓiaṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshiaṅ",
+            "normalized": "tshiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiaṅ",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiaṅH",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "tsiaṅX",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dziaṅ",
+            "normalized": "dziaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsaṅ",
+            "normalized": "tsaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅ",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅH",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣiaṅH",
+            "normalized": "tṣiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tṣiaṅ",
+            "normalized": "tṣiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dẓiaṅ",
+            "normalized": "dẓiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dẓiaṅH",
+            "normalized": "dẓiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "䵼",
@@ -854,12 +966,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": null
@@ -1034,25 +1146,33 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tsaṅ}},",
-      "render_latex": "將\t%qiang1 / jiang1 / jiang4 / jiāng / jiàng\n{\\large{tsaṅ}},\n\\textit{tshiaṅ};\t%0727f\n\\textit{tsiaṅ};\n\\textit{tsiaṅH};",
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "glac",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "冫",
+            "label_token": "glac",
+            "abbreviation": "glac",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "冫"
+      },
+      "transliteration_latex": "{\\large{tsaṅ\\textsuperscript{·glac}}},",
+      "render_latex": "將\t%qiang1 / jiang1 / jiang4 / jiāng / jiàng\n{\\large{tsaṅ\\textsuperscript{·glac}}},\n\\textit{tshiaṅ};\t%0727f\n\\textit{tsiaṅ};\n\\textit{tsiaṅH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_han_compound",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "generated_subseries_head",
-        "semantic_component": null
       },
       "resolved_node_root": {
         "root": "tsaṅ",
@@ -1502,12 +1622,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": {
@@ -2320,12 +2440,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": {
@@ -2905,12 +3025,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": {
@@ -3139,12 +3259,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": null
@@ -3535,12 +3655,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": null
@@ -3710,12 +3830,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": null
@@ -3815,12 +3935,12 @@
       "render_latex": "牂\t%zang1\n{\\large{tsaṅ\\textsuperscript{·ov}}},\n\\textit{tsaṅ};\t%0727t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "爿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "爿"
       },
       "resolved_node_root": null

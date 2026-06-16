@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.571150+00:00",
+  "generated_at": "2026-06-16T14:37:22.255930+00:00",
   "id": "10-39",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -587,7 +587,89 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "付"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "po",
+        "source": "node_bs_consensus",
+        "descendant_count": 16,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "po"
+        ],
+        "bs_node_roots": [
+          "po"
+        ],
+        "display_root": "po",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "piuH",
+          "piuX",
+          "biuX",
+          "buwX",
+          "piu",
+          "phiuX",
+          "phiu",
+          "biuH",
+          "biu"
+        ],
+        "form_analyses": [
+          {
+            "form": "piuH",
+            "normalized": "piu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piuX",
+            "normalized": "piu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biuX",
+            "normalized": "biu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "buwX",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "piu",
+            "normalized": "piu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiuX",
+            "normalized": "phiu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiu",
+            "normalized": "phiu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biuH",
+            "normalized": "biu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biu",
+            "normalized": "biu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "府",
@@ -777,12 +859,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": {
@@ -954,12 +1036,12 @@
       "render_latex": "柎\t%fu4 / bu4? / fu1\n{\\large{\\textsuperscript{arb·}po}},\n\\textit{biuX};\t%0136d\n\\textit{buwX};\n\\textit{piu};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1073,12 +1155,12 @@
       "render_latex": "跗\t%fu1\n{\\large{\\textsuperscript{ped·}po}},\n\\textit{piu};\t%0136e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1192,12 +1274,12 @@
       "render_latex": "弣\t%fu3\n{\\large{\\textsuperscript{arc·}po}},\n\\textit{phiuX};\t%0136f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1311,12 +1393,12 @@
       "render_latex": "拊\t%fu3\n{\\large{\\textsuperscript{man·}po}},\n\\textit{phiuX};\t%0136g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1442,12 +1524,12 @@
       "render_latex": "泭\t%fu1\n{\\large{\\textsuperscript{aq·}po}},\n\\textit{phiu};\t%0136h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1573,12 +1655,12 @@
       "render_latex": "坿\t%fu4\n{\\large{\\textsuperscript{terr·}po}},\n\\textit{biuH};\t%0136i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1692,12 +1774,12 @@
       "render_latex": "祔\t%fu4\n{\\large{\\textsuperscript{spirit·}po}},\n\\textit{biuH};\t%0136j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1870,12 +1952,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -1989,12 +2071,12 @@
       "render_latex": "駙\t%fu4\n{\\large{\\textsuperscript{equ·}po}},\n\\textit{biuH};\t%0136l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -2175,12 +2257,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -2439,12 +2521,12 @@
       "render_latex": "胕\t%fu4\n{\\large{\\textsuperscript{luna·}po}},\n\\textit{biuH};\t%0136o",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -2558,12 +2640,12 @@
       "render_latex": "蚹\t%fu4\n{\\large{\\textsuperscript{serp·}po}},\n\\textit{biuH};\t%0136p",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null
@@ -2677,12 +2759,12 @@
       "render_latex": "鮒\t%fu4\n{\\large{\\textsuperscript{pis·}po}},\n\\textit{biuH};\t%0136q",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "付",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "付"
       },
       "resolved_node_root": null

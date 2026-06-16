@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:33:53.514601+00:00",
+  "generated_at": "2026-06-16T14:37:22.194368+00:00",
   "id": "08-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -795,7 +795,56 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "朿"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "tsek",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 6,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "tsek"
+        ],
+        "bs_node_roots": [
+          "tshek",
+          "tsek",
+          "tshrek"
+        ],
+        "display_root": "tsek",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "tshieH",
+          "tshiek",
+          "tsiek",
+          "tṣheak"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshieH",
+            "normalized": "tshie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshiek",
+            "normalized": "tshiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiek",
+            "normalized": "tsiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tṣheak",
+            "normalized": "tṣheak",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
     },
     {
       "character": "刺",
@@ -994,12 +1043,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "朿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "朿"
       },
       "resolved_node_root": null
@@ -1113,12 +1162,12 @@
       "render_latex": "茦\t%ci4\n{\\large{\\textsuperscript{herb˸}tsek}},\n\\textit{tshieH};\t%0868e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "朿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "朿"
       },
       "resolved_node_root": null
@@ -1232,12 +1281,12 @@
       "render_latex": "𧧒\t%ci4\n{\\large{\\textsuperscript{dic·}tsek}},\n\\textit{tshieH};\t%0868f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "朿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "朿"
       },
       "resolved_node_root": null
@@ -1320,7 +1369,15 @@
       "transliteration_latex": "{\\large{\\textsuperscript{amb·}tsek}},",
       "render_latex": "𨒪\t%ji4 / jì\n{\\large{\\textsuperscript{amb·}tsek}},\n\\textit{tsiek};\t%0868h",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "朿",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "朿"
+      },
       "resolved_node_root": null
     },
     {
@@ -1432,12 +1489,12 @@
       "render_latex": "𧻕\t%qi4\n{\\large{\\textsuperscript{curr·}tsek}},\n\\textit{tshiek};\t%0868j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "朿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "朿"
       },
       "resolved_node_root": null
@@ -1630,12 +1687,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
+        "status": "assigned-to-candidate-node",
         "parent_character": "朿",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "wiktionary_semantic_validation",
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "朿"
       },
       "resolved_node_root": null
