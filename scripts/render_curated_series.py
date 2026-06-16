@@ -117,6 +117,13 @@ DEFAULT_IDS = [
     "36-11",
     "38-05",
     "02-17",
+    "03-26",
+    "03-48",
+    "05-33",
+    "07-03",
+    "07-11",
+    "08-12",
+    "11-21",
     "18-18",
     "21-01",
     "01-01",
@@ -438,21 +445,11 @@ def render_curated_entry(entry: dict[str, Any]) -> str:
     return wrapped_tex_entry + "\n\n" + addition_block
 
 
-def render_section_entries(entries: list[dict[str, Any]]) -> list[str]:
-    lines = [
-        r"\begin{multicols*}{2}",
-        r"\raggedcolumns",
-        r"\begin{spacing}{0.7}",
-    ]
+def render_entry_blocks(entries: list[dict[str, Any]]) -> list[str]:
+    lines: list[str] = []
     for entry in entries:
         lines.append(wrap_entry_guardrail(render_curated_entry(entry)))
         lines.append("")
-    lines.extend(
-        [
-            r"\end{spacing}",
-            r"\end{multicols*}",
-        ]
-    )
     return lines
 
 
@@ -469,24 +466,47 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
     missing_entries = [entry for entry in entries if entry["packet_kind"] == "missing_series"]
     existing_entries = [entry for entry in entries if entry["packet_kind"] != "missing_series"]
 
-    if missing_entries:
-        body.extend(
-            [
-                "\\subsection*{Pilot missing series drafts}",
-                "",
-            ]
-        )
-        body.extend(render_section_entries(missing_entries))
-        body.append("")
+    if missing_entries or existing_entries:
+        if missing_entries:
+            body.extend(
+                [
+                    "\\subsection*{Pilot missing series drafts}",
+                    "",
+                ]
+            )
+        elif existing_entries:
+            body.extend(
+                [
+                    "\\subsection*{Pilot addenda to existing series}",
+                    "",
+                ]
+            )
 
-    if existing_entries:
         body.extend(
             [
-                "\\subsection*{Pilot addenda to existing series}",
-                "",
+                r"\begin{multicols*}{2}",
+                r"\raggedcolumns",
+                r"\begin{spacing}{0.7}",
             ]
         )
-        body.extend(render_section_entries(existing_entries))
+        if missing_entries:
+            body.extend(render_entry_blocks(missing_entries))
+        if existing_entries:
+            if missing_entries:
+                body.extend(
+                    [
+                        r"\medskip",
+                        r"{\large\bfseries Pilot addenda to existing series\par}",
+                        r"\smallskip",
+                    ]
+                )
+            body.extend(render_entry_blocks(existing_entries))
+        body.extend(
+            [
+                r"\end{spacing}",
+                r"\end{multicols*}",
+            ]
+        )
         body.append("")
     body.append("\\end{document}")
     return extract_preamble(main_tex_path) + "\n".join(body) + "\n"

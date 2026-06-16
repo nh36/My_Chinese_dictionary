@@ -55,8 +55,8 @@ class PilotRegressionTests(unittest.TestCase):
             rendered,
             re.compile(r"\{\\large\{\\textsuperscript\{herb˸\}[^}]*\\textoverset\{a\}\{a\}k[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
         )
-        self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
-        self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
+        self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 1)
+        self.assertEqual(rendered.count(r"\raggedcolumns"), 1)
         self.assertEqual(rendered.count(r"\pilotentry{%"), len(render_curated_series.DEFAULT_IDS))
 
     def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:

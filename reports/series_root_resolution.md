@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 108
-- Packets with at least one root candidate: 96
-- Packets with a single resolved provisional root: 107
+- Missing-series packets inspected: 115
+- Packets with at least one root candidate: 103
+- Packets with a single resolved provisional root: 114
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -13,10 +13,12 @@
 | `02-31` | 乍→tsak [*dzˤrak-s {*[dz]ˤrak-s}] (0806a) | `tsak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-40` | 莫→mak [*mˤak] (0802a) | `mak` | `head_graph_oc_bs` |
+| `03-26` | 王→quaṅ [*ɢʷaŋ] (0739a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |
 | `03-38` | 昜→laṅ [*laŋ] (0720a) | `laṅ` | `head_graph_oc_bs` |
 | `03-39` | 羊→qaṅ [*ɢaŋ] (0732a) | `qaṅ` | `head_graph_oc_bs` |
 | `03-43` | 良→raṅ [*raŋ {*[r]aŋ}] (0735a) | `raṅ` | `head_graph_oc_bs` |
+| `03-48` | 倉→raṅ [*[s.r̥]ˤaŋ] (0703a); 倉→tsaṅ [*tsʰˤaŋ {*[tsʰ]ˤaŋ}] (0703a) | `tsaṅ` | `packet_bs_majority` |
 | `03-49` |  | `tsaṅ` | `packet_bs_consensus` |
 | `03-57` | 方→paṅ [*C.paŋ] (0740a) | `paṅ` | `head_graph_oc_bs` |
 | `03-65` | 亡→maṅ [*maŋ] (0742a) | `maṅ` | `head_graph_oc_bs` |
@@ -28,11 +30,15 @@
 | `04-30` | 㠯→ly [*ləʔ] (0976a) | `ly` | `head_graph_oc_bs` |
 | `04-61` | 不→py [*pə] (0999a) | `py` | `head_graph_oc_bs` |
 | `05-16` | 弋→lyk [*lək] (0918a) | `lyk` | `head_graph_oc_bs` |
+| `05-33` | 畐→pyk [*bək {*[b]ək}] (0933a) | `pyk` | `head_graph_oc_bs` |
+| `07-03` | 支→ke [*ke] (0864a) | `ke` | `head_graph_oc_bs` |
 | `07-08` | 圭→kue [*kʷˤe {*[k]ʷˤe}] (0879a) | `kue` | `head_graph_oc_bs` |
+| `07-11` | 兒→ṅe [*ŋe] (0873a) | `ṅe` | `head_graph_oc_bs` |
 | `07-12` | 帝→tek [*tˤek-s] (0877a) | `tek` | `head_graph_oc_bs` |
 | `07-14` | 是→te [*deʔ {*[d]eʔ}] (0866a) | `te` | `head_graph_oc_bs` |
 | `07-25` | 此→tse [*tsʰeʔ {*[tsʰ]e(j)ʔ}] (0358a) | `tse` | `head_graph_oc_bs` |
 | `07-29` | 卑→pe [*pe] (0874a) | `pe` | `head_graph_oc_bs` |
+| `08-12` | 易→lek [*lek-s] (0850a) | `lek` | `head_graph_oc_bs` |
 | `08-14` | 朿→tsek [*tsʰek-s {*[tsʰ]ek-s}] (0868a) | `tsek` | `head_graph_oc_bs` |
 | `08-19` | 辟→pek [*bˤek {*[b]ˤek}] (0853a) | `pek` | `head_graph_oc_bs` |
 | `09-01` | 巠→leṅ [*k.lˤeŋ] (0831a) | `leṅ` | `head_graph_oc_bs` |
@@ -45,6 +51,7 @@
 | `10-37` | 叟→  *su [*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)] (1097a) | `  *su` | `head_graph_oc_bs` |
 | `10-39` |  | `po` | `packet_bs_consensus` |
 | `11-12` | 蜀→tok [*dok {*[d]ok}] (1224a) | `tok` | `head_graph_oc_bs` |
+| `11-21` | 束→tok [*s-tʰok] (1222a) | `tok` | `head_graph_oc_bs` |
 | `12-01` | 工→koṅ [*kˤoŋ] (1172a) | `koṅ` | `head_graph_oc_bs` |
 | `12-08` | 重→toṅ [*m-troŋ {*[m]-troŋ}] (1188a) | `toṅ` | `head_graph_oc_bs` |
 | `12-10` | 用→loṅ [*m.loŋ-s] (1185a) | `loṅ` | `head_graph_oc_bs` |

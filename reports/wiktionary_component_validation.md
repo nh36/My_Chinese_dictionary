@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2111
-- Pages fetched / cached successfully: 2082
-- Additions with explicit Han-compound semantic/phonetic roles: 1057
+- Proposed additions checked: 2202
+- Pages fetched / cached successfully: 2172
+- Additions with explicit Han-compound semantic/phonetic roles: 1098
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -147,6 +147,19 @@
 | `02-40` | 瘼 | yes | no |  |  |
 | `02-40` | 嗼 | yes | no |  |  |
 | `02-40` | 冪 | yes | yes | 巾 | 冥 |
+| `03-26` | 王 | yes | no |  |  |
+| `03-26` | 㞷 | yes | yes | 止 | 王 |
+| `03-26` | 往 | yes | yes | 止 | 王 |
+| `03-26` | 迋 | yes | no |  |  |
+| `03-26` | 匡 | yes | no |  |  |
+| `03-26` | 狂 | yes | yes | 犬 | 㞷 |
+| `03-26` | 枉 | yes | no |  |  |
+| `03-26` | 汪 | yes | yes | 水 | 㞷 |
+| `03-26` | 尪 | yes | yes | 尢 | 王 |
+| `03-26` | 眶 | yes | no |  |  |
+| `03-26` | 筐 | yes | no |  |  |
+| `03-26` | 誑 | yes | no |  |  |
+| `03-26` | 俇 | yes | yes | 人 | 狂 |
 | `03-32` | 尚 | yes | yes | 八 | 向 |
 | `03-32` | 攩 | yes | no |  |  |
 | `03-32` | 曭 | yes | no |  |  |
@@ -228,6 +241,19 @@
 | `03-43` | 郎 | yes | yes | 邑 | 良 |
 | `03-43` | 閬 | yes | no |  |  |
 | `03-43` | 廊 | yes | yes | 广 | 郎 |
+| `03-48` | 倉 | yes | no |  |  |
+| `03-48` | 凔 | yes | yes | 仌 | 倉 |
+| `03-48` | 滄 | yes | yes | 水 | 倉 |
+| `03-48` | 蒼 | yes | yes | 艸 | 倉 |
+| `03-48` | 鶬 | yes | no |  |  |
+| `03-48` | 搶 | yes | yes | 手 | 倉 |
+| `03-48` | 瑲 | yes | no |  |  |
+| `03-48` | 槍 | yes | yes | 木 | 倉 |
+| `03-48` | 蹌 | yes | no |  |  |
+| `03-48` | 牄 | yes | no |  |  |
+| `03-48` | 創 | yes | yes | 刀 | 倉 |
+| `03-48` | 愴 | yes | yes | 心 | 倉 |
+| `03-48` | 瘡 | yes | no |  |  |
 | `03-49` | 爿 | yes | no |  |  |
 | `03-49` | 䵼 | yes | no |  |  |
 | `03-49` | 斨 | yes | yes | 斤 | 爿 |
@@ -497,6 +523,32 @@
 | `05-16` | 黛 | yes | yes | 黑 | 代 |
 | `05-16` | 蟘 | yes | no |  |  |
 | `05-16` | 袋 | yes | yes | 衣 | 代 |
+| `05-33` | 畐 | yes | no |  |  |
+| `05-33` | 福 | yes | yes | 示 | 畐 |
+| `05-33` | 葍 | yes | no |  |  |
+| `05-33` | 輻 | yes | no |  |  |
+| `05-33` | 幅 | yes | yes | 巾 | 畐 |
+| `05-33` | 楅 | yes | no |  |  |
+| `05-33` | 匐 | yes | no |  |  |
+| `05-33` | 偪 | yes | yes | 人 | 畐 |
+| `05-33` | 湢 | yes | no |  |  |
+| `05-33` | 逼 | yes | yes | 辵 | 畐 |
+| `05-33` | 富 | yes | yes | 宀 | 畐 |
+| `05-33` | 副 | yes | yes | 刀 | 畐 |
+| `05-33` | 𠠦 | yes | no |  |  |
+| `07-03` | 支 | yes | no |  |  |
+| `07-03` | 枝 | yes | yes | 木 | 支 |
+| `07-03` | 肢 | yes | yes | 肉 | 支 |
+| `07-03` | 忮 | yes | yes | 心 | 支 |
+| `07-03` | 翅 | yes | yes | 羽 | 支 |
+| `07-03` | 𢺵 | no | no |  |  |
+| `07-03` | 跂 | yes | no |  |  |
+| `07-03` | 岐 | yes | yes | 山 | 支 |
+| `07-03` | 歧 | yes | no |  |  |
+| `07-03` | 伎 | yes | yes | 人 | 支 |
+| `07-03` | 技 | yes | yes | 手 | 支 |
+| `07-03` | 芰 | yes | no |  |  |
+| `07-03` | 頍 | yes | no |  |  |
 | `07-08` | 圭 | yes | no |  |  |
 | `07-08` | 睚 | yes | yes | 目 | 厓 |
 | `07-08` | 窪 | yes | no |  |  |
@@ -524,6 +576,19 @@
 | `07-08` | 鼃 | yes | yes | 黽 | 圭 |
 | `07-08` | 蛙 | yes | yes | 虫 | 圭 |
 | `07-08` | 鞋 | yes | yes | 革 | 圭 |
+| `07-11` | 兒 | yes | no |  |  |
+| `07-11` | 唲 | yes | no |  |  |
+| `07-11` | 倪 | yes | yes | 人 | 兒 |
+| `07-11` | 掜 | yes | no |  |  |
+| `07-11` | 睨 | yes | no |  |  |
+| `07-11` | 輗 | yes | no |  |  |
+| `07-11` | 郳 | yes | yes | 邑 | 兒 |
+| `07-11` | 鯢 | yes | yes | 魚 | 兒 |
+| `07-11` | 霓 | yes | yes | 雨 | 兒 |
+| `07-11` | 蜺 | yes | no |  |  |
+| `07-11` | 麑 | yes | no |  |  |
+| `07-11` | 鶂 | yes | yes | 鳥 | 兒 |
+| `07-11` | 鬩 | yes | yes | 鬥 | 兒 |
 | `07-12` | 帝 | yes | yes | 丄 | 朿 |
 | `07-12` | 揥 | yes | no |  |  |
 | `07-12` | 諦 | yes | yes | 言 | 帝 |
@@ -601,6 +666,19 @@
 | `07-29` | 蜱 | yes | no |  |  |
 | `07-29` | 蠯 | yes | no |  |  |
 | `07-29` | 鞞 | yes | no |  |  |
+| `08-12` | 易 | yes | no |  |  |
+| `08-12` | 蜴 | yes | yes | 虫 | 易 |
+| `08-12` | 埸 | yes | no |  |  |
+| `08-12` | 剔 | yes | yes | 刀 | 易 |
+| `08-12` | 惕 | yes | yes | 心 | 易 |
+| `08-12` | 逷 | yes | yes | 辵 | 易 |
+| `08-12` | 緆 | yes | no |  |  |
+| `08-12` | 裼 | yes | no |  |  |
+| `08-12` | 錫 | yes | no |  |  |
+| `08-12` | 睗 | yes | no |  |  |
+| `08-12` | 鬄 | yes | yes | 髟 | 易 |
+| `08-12` | 賜 | yes | yes | 貝 | 易 |
+| `08-12` | 舓 | yes | yes | 舌 | 易 |
 | `08-14` | 朿 | yes | no |  |  |
 | `08-14` | 刺 | yes | yes | 刀 | 朿 |
 | `08-14` | 茦 | yes | no |  |  |
@@ -820,6 +898,19 @@
 | `11-12` | 欘 | yes | no |  |  |
 | `11-12` | 钃 | yes | no |  |  |
 | `11-12` | 䠱 | yes | no |  |  |
+| `11-21` | 束 | yes | no |  |  |
+| `11-21` | 誎 | yes | no |  |  |
+| `11-21` | 速 | yes | yes | 辵 | 束 |
+| `11-21` | 餗 | yes | no |  |  |
+| `11-21` | 駷 | yes | no |  |  |
+| `11-21` | 悚 | yes | no |  |  |
+| `11-21` | 竦 | yes | no |  |  |
+| `11-21` | 欶 | yes | no |  |  |
+| `11-21` | 樕 | yes | no |  |  |
+| `11-21` | 蔌 | yes | no |  |  |
+| `11-21` | 遫 | yes | no |  |  |
+| `11-21` | 嗽 | yes | yes | 口 | 欶 |
+| `11-21` | 漱 | yes | no |  |  |
 | `12-01` | 工 | yes | no |  |  |
 | `12-01` | 控 | yes | yes | 手 | 空 |
 | `12-01` | 椌 | yes | no |  |  |
