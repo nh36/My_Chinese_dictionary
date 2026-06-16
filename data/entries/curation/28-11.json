@@ -492,6 +492,28 @@
         "bs_node_roots": [
           "tur",
           "ly"
+        ],
+        "display_root": "tur",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "ciwiy",
+          "ḍiyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "ciwiy",
+            "normalized": "ciwiy",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ḍiyH",
+            "normalized": "ḍiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1155,6 +1177,28 @@
         "bs_node_roots": [
           "tuy",
           "thuy"
+        ],
+        "display_root": "tur",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "dzwəy",
+          "tshwəy"
+        ],
+        "form_analyses": [
+          {
+            "form": "dzwəy",
+            "normalized": "dzwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tshwəy",
+            "normalized": "tshwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2101,6 +2145,42 @@
         "bs_node_roots": [
           "griy",
           "giy"
+        ],
+        "display_root": "quiy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "yiwiyX",
+          "yiwiyH",
+          "hwiy",
+          "yiwiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiwiyX",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiwiyH",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwiy",
+            "normalized": "hwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiwiy",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2524,6 +2604,56 @@
           "griy",
           "giy",
           "quiy"
+        ],
+        "display_root": "quiy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "tshwiyX",
+          "yiwiy",
+          "yiwiyX",
+          "yiwiyH",
+          "hwiy",
+          "swiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshwiyX",
+            "normalized": "tshwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiwiy",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiwiyX",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiwiyH",
+            "normalized": "yiwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwiy",
+            "normalized": "hwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "swiy",
+            "normalized": "swiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -7252,6 +7382,7 @@
     "source": "head_graph_oc_bs",
     "character": "隹",
     "oc_bs": "*tur",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "tur"
   }
 }

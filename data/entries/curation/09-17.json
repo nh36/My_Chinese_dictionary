@@ -873,7 +873,64 @@
         "descendant_count": 10,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "leṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "deṅ",
+          "deṅH",
+          "theṅH",
+          "deṅX",
+          "theṅX",
+          "denX",
+          "theṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "deṅ",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅH",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "theṅH",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅX",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "theṅX",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "denX",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "theṅ",
+            "normalized": "theṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
       }
     },
     {
@@ -3068,6 +3125,56 @@
         ],
         "bs_node_roots": [
           "leṅ"
+        ],
+        "display_root": "leṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "ḍieṅ",
+          "ṭhieṅ",
+          "ṭhieṅX",
+          "yieṅ",
+          "śieṅH",
+          "yengX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḍieṅ",
+            "normalized": "ḍieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭhieṅ",
+            "normalized": "ṭhieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭhieṅX",
+            "normalized": "ṭhieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yieṅ",
+            "normalized": "yieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śieṅH",
+            "normalized": "śieṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "yengX",
+            "normalized": "yeng",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -4198,6 +4305,28 @@
         ],
         "bs_node_roots": [
           "leṅ"
+        ],
+        "display_root": "leṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "śieṅH",
+          "ṭhieṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "śieṅH",
+            "normalized": "śieṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭhieṅ",
+            "normalized": "ṭhieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -6593,6 +6722,7 @@
     "source": "head_graph_oc_bs",
     "character": "𡈼",
     "oc_bs": "*l̥ˤeŋʔ",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "leṅ"
   }
 }

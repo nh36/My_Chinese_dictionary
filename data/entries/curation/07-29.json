@@ -2719,6 +2719,35 @@
         ],
         "bs_node_roots": [
           "pe"
+        ],
+        "display_root": "pe",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "byieX",
+          "beaṅX",
+          "byie"
+        ],
+        "form_analyses": [
+          {
+            "form": "byieX",
+            "normalized": "byie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "beaṅX",
+            "normalized": "beaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "byie",
+            "normalized": "byie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -6242,6 +6271,7 @@
     "source": "head_graph_oc_bs",
     "character": "卑",
     "oc_bs": "*pe",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "pe"
   }
 }

@@ -3057,6 +3057,28 @@
         ],
         "bs_node_roots": [
           "gat"
+        ],
+        "display_root": "quat",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ḫiweyH",
+          "hwaeyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḫiweyH",
+            "normalized": "ḫiwey",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwaeyH",
+            "normalized": "hwaey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -4746,6 +4768,7 @@
     "source": "merged_packet_primary_head",
     "character": "韋",
     "oc_bs": "*ɢʷəj {*[ɢ]ʷə[j]}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "quy"
   }
 }

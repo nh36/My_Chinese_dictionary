@@ -789,6 +789,28 @@
         ],
         "bs_node_roots": [
           "tin"
+        ],
+        "display_root": "tin",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "cin",
+          "den"
+        ],
+        "form_analyses": [
+          {
+            "form": "cin",
+            "normalized": "cin",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "den",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2698,6 +2720,28 @@
         ],
         "bs_node_roots": [
           "tin"
+        ],
+        "display_root": "tin",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "den",
+          "ten"
+        ],
+        "form_analyses": [
+          {
+            "form": "den",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ten",
+            "normalized": "ten",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -6292,6 +6336,7 @@
     "source": "head_graph_oc_bs",
     "character": "真",
     "oc_bs": "*tin {*ti[n]}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "tin"
   }
 }

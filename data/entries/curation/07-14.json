@@ -778,6 +778,28 @@
         ],
         "bs_node_roots": [
           "te"
+        ],
+        "display_root": "te",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "jieX",
+          "dey"
+        ],
+        "form_analyses": [
+          {
+            "form": "jieX",
+            "normalized": "jie",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "dey",
+            "normalized": "dey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5335,6 +5357,7 @@
     "source": "head_graph_oc_bs",
     "character": "是",
     "oc_bs": "*deʔ {*[d]eʔ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "te"
   }
 }

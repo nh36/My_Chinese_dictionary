@@ -823,6 +823,28 @@
         ],
         "bs_node_roots": [
           "ruy"
+        ],
+        "display_root": "roy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "lwiyX",
+          "lwəy"
+        ],
+        "form_analyses": [
+          {
+            "form": "lwiyX",
+            "normalized": "lwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwəy",
+            "normalized": "lwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1347,6 +1369,35 @@
         ],
         "bs_node_roots": [
           "ruy"
+        ],
+        "display_root": "roy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "lwiy",
+          "lwiyX",
+          "lwəyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "lwiy",
+            "normalized": "lwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwiyX",
+            "normalized": "lwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwəyH",
+            "normalized": "lwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2929,6 +2980,42 @@
         ],
         "bs_node_roots": [
           "roy"
+        ],
+        "display_root": "roy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "liweH",
+          "liweX",
+          "lwaX",
+          "lwa"
+        ],
+        "form_analyses": [
+          {
+            "form": "liweH",
+            "normalized": "liwe",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liweX",
+            "normalized": "liwe",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "lwaX",
+            "normalized": "lwa",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lwa",
+            "normalized": "lwa",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5161,6 +5248,7 @@
     "source": "head_graph_oc_bs",
     "character": "螺",
     "oc_bs": "*k.rˤoj",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "roy"
   }
 }

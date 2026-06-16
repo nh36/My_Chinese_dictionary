@@ -586,6 +586,28 @@
         ],
         "bs_node_roots": [
           "liw"
+        ],
+        "display_root": "liw",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "yuw",
+          "jiuwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "yuw",
+            "normalized": "yuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "jiuwk",
+            "normalized": "jiuwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
         ]
       }
     },
@@ -795,6 +817,21 @@
         ],
         "bs_node_roots": [
           "liw"
+        ],
+        "display_root": "liw",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "yuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "yuw",
+            "normalized": "yuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1346,6 +1383,42 @@
         "bs_node_roots": [
           "liw",
           "lik"
+        ],
+        "display_root": "liw",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "dew",
+          "thew",
+          "sewX",
+          "dek"
+        ],
+        "form_analyses": [
+          {
+            "form": "dew",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thew",
+            "normalized": "thew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "sewX",
+            "normalized": "sew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dek",
+            "normalized": "dek",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -4685,6 +4758,7 @@
     "source": "head_graph_oc_bs",
     "character": "攸",
     "oc_bs": "*liw",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "liw"
   }
 }

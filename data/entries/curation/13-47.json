@@ -730,6 +730,28 @@
         ],
         "bs_node_roots": [
           "mu"
+        ],
+        "display_root": "mu",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "maewX",
+          "liuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "maewX",
+            "normalized": "maew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -883,6 +905,28 @@
         ],
         "bs_node_roots": [
           "my"
+        ],
+        "display_root": "mu",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "liuw",
+          "liuwX"
+        ],
+        "form_analyses": [
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuwX",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2351,6 +2395,28 @@
         ],
         "bs_node_roots": [
           "ru"
+        ],
+        "display_root": "mu",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "liuw",
+          "liuwH"
+        ],
+        "form_analyses": [
+          {
+            "form": "liuw",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liuwH",
+            "normalized": "liuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5035,6 +5101,7 @@
     "source": "head_graph_oc_bs",
     "character": "卯",
     "oc_bs": "*mˤruʔ",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "mu"
   }
 }

@@ -862,8 +862,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}poṅ}},",
-      "render_latex": "俸\t%feng4\n{\\large{\\textsuperscript{hom·}poṅ}},\n\\textit{biəwṅH};\t%1197c'",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}p\\textoverset{b}{o}ṅ}},",
+      "render_latex": "俸\t%feng4\n{\\large{\\textsuperscript{hom·}p\\textoverset{b}{o}ṅ}},\n\\textit{biəwṅH};\t%1197c'",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "奉",
@@ -1805,6 +1805,35 @@
         ],
         "bs_node_roots": [
           "poṅ"
+        ],
+        "display_root": "poṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "piəwṅ",
+          "paewṅX",
+          "puwṅX"
+        ],
+        "form_analyses": [
+          {
+            "form": "piəwṅ",
+            "normalized": "piəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "paewṅX",
+            "normalized": "paewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwṅX",
+            "normalized": "puwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2278,6 +2307,42 @@
         "bs_node_roots": [
           "poṅ",
           "phoṅ"
+        ],
+        "display_root": "poṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "biəwṅ",
+          "phiəwṅ",
+          "buwṅ",
+          "biəwṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "biəwṅ",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiəwṅ",
+            "normalized": "phiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "buwṅ",
+            "normalized": "buwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "biəwṅH",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2492,6 +2557,35 @@
         ],
         "bs_node_roots": [
           "poṅ"
+        ],
+        "display_root": "poṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "biəwṅ",
+          "buwṅ",
+          "biəwṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "biəwṅ",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "buwṅ",
+            "normalized": "buwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "biəwṅH",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -3967,6 +4061,35 @@
         ],
         "bs_node_roots": [
           "phoṅ"
+        ],
+        "display_root": "p\\textoverset{b}{o}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "biəwṅX",
+          "phiəwṅX",
+          "biəwṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "biəwṅX",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiəwṅX",
+            "normalized": "phiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biəwṅH",
+            "normalized": "biəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     }
@@ -6010,6 +6133,7 @@
     "character": null,
     "oc_bs": "*bˤroŋʔ {*[b]ˤroŋʔ}",
     "confidence": "provisional-oc",
-    "supporting_characters": 9
+    "supporting_characters": 9,
+    "display_root": "poṅ"
   }
 }

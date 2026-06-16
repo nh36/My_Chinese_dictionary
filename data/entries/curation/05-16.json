@@ -860,6 +860,28 @@
         ],
         "bs_node_roots": [
           "lyk"
+        ],
+        "display_root": "lyk",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "śik",
+          "śiH"
+        ],
+        "form_analyses": [
+          {
+            "form": "śik",
+            "normalized": "śik",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "śiH",
+            "normalized": "śi",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
         ]
       }
     },
@@ -1384,6 +1406,42 @@
         ],
         "bs_node_roots": [
           "lyk"
+        ],
+        "display_root": "lyk",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "dəyH",
+          "thəyH",
+          "dək",
+          "dojH"
+        ],
+        "form_analyses": [
+          {
+            "form": "dəyH",
+            "normalized": "dəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thəyH",
+            "normalized": "thəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dək",
+            "normalized": "dək",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dojH",
+            "normalized": "doj",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2450,6 +2508,28 @@
         ],
         "bs_node_roots": [
           "lyk"
+        ],
+        "display_root": "lyk",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "thəyH",
+          "dək"
+        ],
+        "form_analyses": [
+          {
+            "form": "thəyH",
+            "normalized": "thəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dək",
+            "normalized": "dək",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -4434,6 +4514,7 @@
     "source": "head_graph_oc_bs",
     "character": "弋",
     "oc_bs": "*lək",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "lyk"
   }
 }

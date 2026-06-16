@@ -886,6 +886,28 @@
         ],
         "bs_node_roots": [
           "maṅ"
+        ],
+        "display_root": "maṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "miaṅ",
+          "maeṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "miaṅ",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "maeṅ",
+            "normalized": "maeṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1040,8 +1062,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "糸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}maṅ}},",
-      "render_latex": "網\t%wang3 / wǎng\n{\\large{\\textsuperscript{ser·}maṅ}},\n\\textit{miaṅX};\t%0742a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "網\t%wang3 / wǎng\n{\\large{\\textsuperscript{ser·}m\\textoverset{b}{a}ṅ}},\n\\textit{miaṅX};\t%0742a'",
       "wiktionary_semantic_validation": {
         "semantic_component": "糸",
         "phonetic_component": "罔",
@@ -1238,8 +1260,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}maṅ}},",
-      "render_latex": "惘\t%wang3 / wǎng\n{\\large{\\textsuperscript{cor·}maṅ}},\n\\textit{miaṅX};\t%0742b'",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "惘\t%wang3 / wǎng\n{\\large{\\textsuperscript{cor·}m\\textoverset{b}{a}ṅ}},\n\\textit{miaṅX};\t%0742b'",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "罔",
@@ -1557,8 +1579,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}maṅ}},",
-      "render_latex": "茫\t%mang2\n{\\large{\\textsuperscript{herb˸}maṅ}},\n\\textit{maṅ};\t%0742d'",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}m\\textoverset{a}{a}ṅ}},",
+      "render_latex": "茫\t%mang2\n{\\large{\\textsuperscript{herb˸}m\\textoverset{a}{a}ṅ}},\n\\textit{maṅ};\t%0742d'",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "汒",
@@ -1769,8 +1791,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}maṅ}},",
-      "render_latex": "荒\t%huang1 / huāng\n{\\large{\\textsuperscript{herb˸}maṅ}},\n\\textit{xwaṅ};\t%0742e'",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}m\\textoverset{a}{a}ṅ}},",
+      "render_latex": "荒\t%huang1 / huāng\n{\\large{\\textsuperscript{herb˸}m\\textoverset{a}{a}ṅ}},\n\\textit{xwaṅ};\t%0742e'",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "巟",
@@ -1818,6 +1840,35 @@
         ],
         "bs_node_roots": [
           "maṅ"
+        ],
+        "display_root": "m\\textoverset{a}{a}ṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "xwaṅ",
+          "xwaṅX",
+          "maṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "xwaṅ",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅX",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2289,8 +2340,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}maṅ}},",
-      "render_latex": "慌\t%huang3 / huǎng\n{\\large{\\textsuperscript{cor·}maṅ}},\n\\textit{xwaṅX};\t%0742g'",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}m\\textoverset{a}{a}ṅ}},",
+      "render_latex": "慌\t%huang3 / huǎng\n{\\large{\\textsuperscript{cor·}m\\textoverset{a}{a}ṅ}},\n\\textit{xwaṅX};\t%0742g'",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "荒",
@@ -2715,8 +2766,8 @@
         "source": "packet_family_ids",
         "semantic_component": "巾"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lint·}maṅ}},",
-      "render_latex": "㡛\t%mang2\n{\\large{\\textsuperscript{lint·}maṅ}},\n\\textit{maṅ};\t%0742i'",
+      "transliteration_latex": "{\\large{\\textsuperscript{lint·}m\\textoverset{a}{a}ṅ}},",
+      "render_latex": "㡛\t%mang2\n{\\large{\\textsuperscript{lint·}m\\textoverset{a}{a}ṅ}},\n\\textit{maṅ};\t%0742i'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3167,6 +3218,21 @@
         ],
         "bs_node_roots": [
           "maṅ"
+        ],
+        "display_root": "m\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "miaṅX"
+        ],
+        "form_analyses": [
+          {
+            "form": "miaṅX",
+            "normalized": "miaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -3792,7 +3858,22 @@
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "m\\textoverset{a}{a}ṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "maṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
       }
     },
     {
@@ -4664,6 +4745,42 @@
         ],
         "bs_node_roots": [
           "maṅ"
+        ],
+        "display_root": "m\\textoverset{a}{a}ṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "hwaṅ",
+          "xwaṅ",
+          "xwaṅX",
+          "maṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "hwaṅ",
+            "normalized": "hwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅ",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "xwaṅX",
+            "normalized": "xwaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "maṅ",
+            "normalized": "maṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -7423,6 +7540,7 @@
     "source": "head_graph_oc_bs",
     "character": "亡",
     "oc_bs": "*maŋ",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "maṅ"
   }
 }

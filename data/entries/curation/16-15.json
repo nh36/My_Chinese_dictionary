@@ -1884,6 +1884,98 @@
           "traw",
           "taw",
           "thraw"
+        ],
+        "display_root": "taw",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ḍiewH",
+          "jiewX",
+          "jiew",
+          "tew",
+          "dew",
+          "ṭhiew",
+          "chiew",
+          "yiew",
+          "ciew",
+          "ciewX",
+          "ciewH",
+          "chiewX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḍiewH",
+            "normalized": "ḍiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "jiewX",
+            "normalized": "jiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jiew",
+            "normalized": "jiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "tew",
+            "normalized": "tew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dew",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṭhiew",
+            "normalized": "ṭhiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "chiew",
+            "normalized": "chiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "yiew",
+            "normalized": "yiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ciew",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewX",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewH",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "chiewX",
+            "normalized": "chiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2894,6 +2986,42 @@
         ],
         "bs_node_roots": [
           "taw"
+        ],
+        "display_root": "t\\textoverset{b}{a}w",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "jiew",
+          "ciew",
+          "ciewX",
+          "ciewH"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiew",
+            "normalized": "jiew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciew",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewX",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciewH",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
         ]
       }
     },
@@ -3252,8 +3380,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "火"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ign˸}taw}},",
-      "render_latex": "照\t%zhao4 / zhào\n{\\large{\\textsuperscript{ign˸}taw}},\n\\textit{ciewH};\t%1131o",
+      "transliteration_latex": "{\\large{\\textsuperscript{ign˸}t\\textoverset{b}{a}w}},",
+      "render_latex": "照\t%zhao4 / zhào\n{\\large{\\textsuperscript{ign˸}t\\textoverset{b}{a}w}},\n\\textit{ciewH};\t%1131o",
       "wiktionary_semantic_validation": {
         "semantic_component": "火",
         "phonetic_component": "昭",
@@ -6410,6 +6538,7 @@
     "source": "head_graph_oc_bs",
     "character": "刀",
     "oc_bs": "*C.tˤaw",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "taw"
   }
 }

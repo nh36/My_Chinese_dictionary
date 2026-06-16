@@ -1275,8 +1275,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "目"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}ŋrar}},",
-      "render_latex": "睚\t%ya2\n{\\large{\\textsuperscript{ocul·}ŋrar}},\n\\textit{ṅeaH};\t%0879a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}ŋr\\textoverset{a}{a}r}},",
+      "render_latex": "睚\t%ya2\n{\\large{\\textsuperscript{ocul·}ŋr\\textoverset{a}{a}r}},\n\\textit{ṅeaH};\t%0879a'",
       "wiktionary_semantic_validation": {
         "semantic_component": "目",
         "phonetic_component": "厓",
@@ -3706,6 +3706,35 @@
         ],
         "bs_node_roots": [
           "ŋrar"
+        ],
+        "display_root": "ŋr\\textoverset{a}{a}r",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "kweaH",
+          "ṅea",
+          "ṅeaH"
+        ],
+        "form_analyses": [
+          {
+            "form": "kweaH",
+            "normalized": "kwea",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅea",
+            "normalized": "ṅea",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅeaH",
+            "normalized": "ṅea",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -3899,8 +3928,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "山"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{mon˸}ŋrar}},",
-      "render_latex": "崖\t%ya2 / yá\n{\\large{\\textsuperscript{mon˸}ŋrar}},\n\\textit{ṅea};\t%0879q",
+      "transliteration_latex": "{\\large{\\textsuperscript{mon˸}ŋr\\textoverset{a}{a}r}},",
+      "render_latex": "崖\t%ya2 / yá\n{\\large{\\textsuperscript{mon˸}ŋr\\textoverset{a}{a}r}},\n\\textit{ṅea};\t%0879q",
       "wiktionary_semantic_validation": {
         "semantic_component": "山",
         "phonetic_component": "厓",
@@ -4115,8 +4144,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}ŋrar}},",
-      "render_latex": "涯\t%ya2 / yá\n{\\large{\\textsuperscript{aq·}ŋrar}},\n\\textit{ṅea};\t%0879r",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}ŋr\\textoverset{a}{a}r}},",
+      "render_latex": "涯\t%ya2 / yá\n{\\large{\\textsuperscript{aq·}ŋr\\textoverset{a}{a}r}},\n\\textit{ṅea};\t%0879r",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "厓",
@@ -4339,6 +4368,21 @@
         ],
         "bs_node_roots": [
           "kure"
+        ],
+        "display_root": "kue",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kweaH"
+        ],
+        "form_analyses": [
+          {
+            "form": "kweaH",
+            "normalized": "kwea",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -8410,6 +8454,7 @@
     "source": "head_graph_oc_bs",
     "character": "圭",
     "oc_bs": "*kʷˤe {*[k]ʷˤe}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "kue"
   }
 }

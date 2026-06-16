@@ -310,6 +310,35 @@
         ],
         "bs_node_roots": [
           "miṅ"
+        ],
+        "display_root": "miṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "min",
+          "minX",
+          "hwon"
+        ],
+        "form_analyses": [
+          {
+            "form": "min",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "minX",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hwon",
+            "normalized": "hwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1099,7 +1128,29 @@
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "miṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "hwon",
+          "min"
+        ],
+        "form_analyses": [
+          {
+            "form": "hwon",
+            "normalized": "hwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "min",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
       }
     },
     {
@@ -1615,6 +1666,49 @@
           "mun",
           "myn",
           "  *mrun"
+        ],
+        "display_root": "miṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "hwon",
+          "menX",
+          "mwon",
+          "min",
+          "minX"
+        ],
+        "form_analyses": [
+          {
+            "form": "hwon",
+            "normalized": "hwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "menX",
+            "normalized": "men",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "mwon",
+            "normalized": "mwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "min",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "minX",
+            "normalized": "min",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -4698,6 +4792,7 @@
     "source": "head_graph_oc_bs",
     "character": "民",
     "oc_bs": "*miŋ {*mi[ŋ]}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "miṅ"
   }
 }

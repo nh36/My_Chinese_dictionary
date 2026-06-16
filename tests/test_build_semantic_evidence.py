@@ -79,7 +79,7 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         )
         self.assertEqual(
             build_semantic_evidence.compose_transliteration_from_root("ka", {"abbreviation": "conch", "position": "suffix-colon"}),
-            r"{\large{ka\textsuperscript{:conch}}},",
+            r"{\large{ka\textsuperscript{˸conch}}},",
         )
 
     def test_resolve_semantic_from_wiktionary_template(self) -> None:
@@ -131,6 +131,30 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         ids_map = {"痢": "⿸疒利"}
         learned = build_semantic_evidence.build_learned_graph_lookup(evidence, shengfu_rows, ids_map)
         self.assertEqual(learned["疒"][0]["abbreviation"], "infirm")
+
+    def test_resolve_generated_node_root_adds_ab_display_root(self) -> None:
+        candidate = {
+            "character": "布",
+            "mc_resolution": {"display_forms": ["puH"]},
+            "bs_gsr_rows": [],
+            "transliteration_latex": r"{\large{pa\textsuperscript{˸lint}}},",
+        }
+        child = {
+            "character": "怖",
+            "mc_resolution": {"display_forms": ["phuH"]},
+            "bs_gsr_rows": [],
+            "transliteration_latex": r"{\large{\textsuperscript{cor·}pa}},",
+        }
+        resolved = build_semantic_evidence.resolve_generated_node_root(
+            candidate,
+            {"布": [child]},
+            {"布": candidate, "怖": child},
+            parent_root="pa",
+            primary_packet_token=None,
+            packet_tokens=set(),
+        )
+        self.assertEqual(resolved["division_class"], "a")
+        self.assertEqual(resolved["display_root"], r"p\textoverset{a}{a}")
 
 
 if __name__ == "__main__":

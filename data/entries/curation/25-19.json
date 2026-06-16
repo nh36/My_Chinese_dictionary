@@ -2479,6 +2479,42 @@
         "bs_node_roots": [
           "gon",
           "gran"
+        ],
+        "display_root": "ṅon",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "hwan",
+          "hwanX",
+          "kwan",
+          "ḫiwenH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hwan",
+            "normalized": "hwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hwanX",
+            "normalized": "hwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kwan",
+            "normalized": "kwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḫiwenH",
+            "normalized": "ḫiwen",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5925,6 +5961,7 @@
     "source": "head_graph_oc_bs",
     "character": "元",
     "oc_bs": "*ŋon {*[ŋ]o[n]} (< nasal + uvular)",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "ṅon"
   }
 }

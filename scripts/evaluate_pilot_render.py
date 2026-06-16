@@ -56,7 +56,8 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
         if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
             packet_head_character = entry["proposed_additions"][0]["character"]
         for candidate in entry.get("proposed_additions", []):
-            resolved_node_root = (candidate.get("resolved_node_root") or {}).get("root")
+            root_data = candidate.get("resolved_node_root") or {}
+            resolved_node_root = root_data.get("display_root") or root_data.get("root")
             if not candidate_children.get(candidate["character"]) or not resolved_node_root:
                 continue
             if packet_head_character and candidate["character"] == packet_head_character:

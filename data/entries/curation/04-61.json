@@ -2125,6 +2125,105 @@
         "bs_node_roots": [
           "py",
           "po"
+        ],
+        "display_root": "py",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "biyX",
+          "piyX",
+          "piuwX",
+          "pwəy",
+          "phuwH",
+          "bwəy",
+          "bwəyX",
+          "phuwX",
+          "puwX",
+          "bok",
+          "puwṅX",
+          "buwX",
+          "buw"
+        ],
+        "form_analyses": [
+          {
+            "form": "biyX",
+            "normalized": "biy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piyX",
+            "normalized": "piy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piuwX",
+            "normalized": "piuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pwəy",
+            "normalized": "pwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phuwH",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəy",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəyX",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phuwX",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwX",
+            "normalized": "puw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bok",
+            "normalized": "bok",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwṅX",
+            "normalized": "puwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buwX",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buw",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -3261,6 +3360,28 @@
         ],
         "bs_node_roots": [
           "phry"
+        ],
+        "display_root": "py",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "phiy",
+          "phiuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "phiy",
+            "normalized": "phiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phiuw",
+            "normalized": "phiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -4440,6 +4561,77 @@
         "bs_node_roots": [
           "py",
           "po"
+        ],
+        "display_root": "py",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "phuwH",
+          "bwəy",
+          "bwəyX",
+          "phuwX",
+          "puwX",
+          "bok",
+          "puwṅX",
+          "buwX",
+          "buw"
+        ],
+        "form_analyses": [
+          {
+            "form": "phuwH",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəy",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bwəyX",
+            "normalized": "bwəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phuwX",
+            "normalized": "phuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwX",
+            "normalized": "puw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "bok",
+            "normalized": "bok",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "puwṅX",
+            "normalized": "puwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buwX",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "buw",
+            "normalized": "buw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -8059,6 +8251,7 @@
     "source": "head_graph_oc_bs",
     "character": "不",
     "oc_bs": "*pə",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "py"
   }
 }

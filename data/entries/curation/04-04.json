@@ -610,6 +610,42 @@
         ],
         "bs_node_roots": [
           "gy"
+        ],
+        "display_root": "gy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "gi",
+          "ki",
+          "kiH",
+          "giH"
+        ],
+        "form_analyses": [
+          {
+            "form": "gi",
+            "normalized": "gi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ki",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kiH",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "giH",
+            "normalized": "gi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1680,6 +1716,28 @@
         ],
         "bs_node_roots": [
           "ky"
+        ],
+        "display_root": "ky",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "ki",
+          "gi"
+        ],
+        "form_analyses": [
+          {
+            "form": "ki",
+            "normalized": "ki",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "gi",
+            "normalized": "gi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5886,6 +5944,7 @@
     "source": "head_graph_oc_bs",
     "character": "其",
     "oc_bs": "*gə",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "ky"
   }
 }

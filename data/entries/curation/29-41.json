@@ -2851,6 +2851,28 @@
         ],
         "bs_node_roots": [
           "mit"
+        ],
+        "display_root": "mit",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "mit",
+          "myit"
+        ],
+        "form_analyses": [
+          {
+            "form": "mit",
+            "normalized": "mit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "myit",
+            "normalized": "myit",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5755,6 +5777,7 @@
     "source": "head_graph_oc_bs",
     "character": "必",
     "oc_bs": "*pit {*pi[t]}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "pit"
   }
 }

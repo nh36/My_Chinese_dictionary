@@ -814,6 +814,21 @@
         ],
         "bs_node_roots": [
           "lur"
+        ],
+        "display_root": "lur",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "yiwinX"
+        ],
+        "form_analyses": [
+          {
+            "form": "yiwinX",
+            "normalized": "yiwin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2513,6 +2528,77 @@
         ],
         "bs_node_roots": [
           "sor"
+        ],
+        "display_root": "lur",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tshwin",
+          "swinH",
+          "dzwon",
+          "tshiwen",
+          "swan",
+          "tswəyH",
+          "tswonH",
+          "tswəy",
+          "tswinH"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshwin",
+            "normalized": "tshwin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "swinH",
+            "normalized": "swin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dzwon",
+            "normalized": "dzwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tshiwen",
+            "normalized": "tshiwen",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "swan",
+            "normalized": "swan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tswəyH",
+            "normalized": "tswəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tswonH",
+            "normalized": "tswon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tswəy",
+            "normalized": "tswəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tswinH",
+            "normalized": "tswin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5713,6 +5799,7 @@
     "source": "head_graph_oc_bs",
     "character": "允",
     "oc_bs": "*lurʔ {*[l]u[r]ʔ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "lur"
   }
 }

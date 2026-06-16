@@ -2063,6 +2063,77 @@
           "sew",
           "sek",
           "srew"
+        ],
+        "display_root": "sew",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "siew",
+          "siewH",
+          "ṣaew",
+          "siak",
+          "ṣaewH",
+          "tshiewH",
+          "tshiewX",
+          "dewX",
+          "ḍiewX"
+        ],
+        "form_analyses": [
+          {
+            "form": "siew",
+            "normalized": "siew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "siewH",
+            "normalized": "siew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṣaew",
+            "normalized": "ṣaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "siak",
+            "normalized": "siak",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṣaewH",
+            "normalized": "ṣaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tshiewH",
+            "normalized": "tshiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tshiewX",
+            "normalized": "tshiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "dewX",
+            "normalized": "dew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiewX",
+            "normalized": "ḍiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -6759,6 +6830,7 @@
     "source": "head_graph_oc_bs",
     "character": "小",
     "oc_bs": "*sewʔ {*[s]ewʔ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "sew"
   }
 }

@@ -999,6 +999,42 @@
         "bs_node_roots": [
           "pyn",
           "pyr"
+        ],
+        "display_root": "pyn",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "biunH",
+          "piun",
+          "biun",
+          "paen"
+        ],
+        "form_analyses": [
+          {
+            "form": "biunH",
+            "normalized": "biun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "piun",
+            "normalized": "piun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biun",
+            "normalized": "biun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "paen",
+            "normalized": "paen",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -6281,6 +6317,7 @@
     "source": "head_graph_oc_bs",
     "character": "分",
     "oc_bs": "*m-pən-s {*[m]-pə[n]-s}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "pyn"
   }
 }

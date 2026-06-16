@@ -663,8 +663,8 @@
         "source": "packet_family_ids",
         "semantic_component": "鼎"
       },
-      "transliteration_latex": "{\\large{taṅ\\textsuperscript{˸trip}}},",
-      "render_latex": "䵼\t%shang1\n{\\large{taṅ\\textsuperscript{˸trip}}},\n\\textit{śiaṅ};\t%0727a'",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸trip}}},",
+      "render_latex": "䵼\t%shang1\n{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸trip}}},\n\\textit{śiaṅ};\t%0727a'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1061,6 +1061,49 @@
         ],
         "bs_node_roots": [
           "taṅ"
+        ],
+        "display_root": "t\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "tshiaṅ",
+          "tsiaṅ",
+          "tsiaṅH",
+          "śiaṅ",
+          "tsiaṅX"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshiaṅ",
+            "normalized": "tshiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiaṅ",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiaṅH",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "tsiaṅX",
+            "normalized": "tsiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1232,6 +1275,35 @@
         "bs_node_roots": [
           "taṅ",
           "thaṅ"
+        ],
+        "display_root": "ts\\textoverset{a}{a}ṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "tsaṅ",
+          "dzaṅ",
+          "dzaṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "tsaṅ",
+            "normalized": "tsaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅ",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅH",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1440,6 +1512,42 @@
         "bs_node_roots": [
           "taṅ",
           "thaṅ"
+        ],
+        "display_root": "tsaṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "dziaṅ",
+          "tsaṅ",
+          "dzaṅ",
+          "dzaṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "dziaṅ",
+            "normalized": "dziaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsaṅ",
+            "normalized": "tsaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅ",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzaṅH",
+            "normalized": "dzaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1635,8 +1743,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}tsaṅ}},",
-      "render_latex": "藏\t%cang2 / zang4 / cáng / zàng\n{\\large{\\textsuperscript{herb˸}tsaṅ}},\n\\textit{dzaṅ};\t%0727g'\n\\textit{dzaṅH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ts\\textoverset{a}{a}ṅ}},",
+      "render_latex": "藏\t%cang2 / zang4 / cáng / zàng\n{\\large{\\textsuperscript{herb˸}ts\\textoverset{a}{a}ṅ}},\n\\textit{dzaṅ};\t%0727g'\n\\textit{dzaṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "臧",
@@ -1831,8 +1939,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "貝"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{conch·}tsaṅ}},",
-      "render_latex": "贓\t%zang1 / zāng\n{\\large{\\textsuperscript{conch·}tsaṅ}},\n\\textit{tsaṅ};\t%0727h'",
+      "transliteration_latex": "{\\large{\\textsuperscript{conch·}ts\\textoverset{a}{a}ṅ}},",
+      "render_latex": "贓\t%zang1 / zāng\n{\\large{\\textsuperscript{conch·}ts\\textoverset{a}{a}ṅ}},\n\\textit{tsaṅ};\t%0727h'",
       "wiktionary_semantic_validation": {
         "semantic_component": "貝",
         "phonetic_component": "臧",
@@ -2038,8 +2146,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "衣"
       },
-      "transliteration_latex": "{\\large{traṅ\\textsuperscript{˸vest}}},",
-      "render_latex": "裝\t%zhuang1\n{\\large{traṅ\\textsuperscript{˸vest}}},\n\\textit{tṣiaṅ};\t%0727i'\n\\textit{tṣiaṅH};",
+      "transliteration_latex": "{\\large{tr\\textoverset{b}{a}ṅ\\textsuperscript{˸vest}}},",
+      "render_latex": "裝\t%zhuang1\n{\\large{tr\\textoverset{b}{a}ṅ\\textsuperscript{˸vest}}},\n\\textit{tṣiaṅ};\t%0727i'\n\\textit{tṣiaṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "衣",
         "phonetic_component": "壯",
@@ -2214,7 +2322,22 @@
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "ts\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "dziaṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "dziaṅ",
+            "normalized": "dziaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
       }
     },
     {
@@ -2346,8 +2469,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{fem·}tsaṅ}},",
-      "render_latex": "嬙\t%qiang2\n{\\large{\\textsuperscript{fem·}tsaṅ}},\n\\textit{dziaṅ};\t%0727j'",
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}ts\\textoverset{b}{a}ṅ}},",
+      "render_latex": "嬙\t%qiang2\n{\\large{\\textsuperscript{fem·}ts\\textoverset{b}{a}ṅ}},\n\\textit{dziaṅ};\t%0727j'",
       "wiktionary_semantic_validation": {
         "semantic_component": "女",
         "phonetic_component": "牆",
@@ -2719,6 +2842,28 @@
         ],
         "bs_node_roots": [
           "traṅ"
+        ],
+        "display_root": "tr\\textoverset{b}{a}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "tṣiaṅH",
+          "tṣiaṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "tṣiaṅH",
+            "normalized": "tṣiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tṣiaṅ",
+            "normalized": "tṣiaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -3075,8 +3220,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}traṅ}},",
-      "render_latex": "莊\t%zhuang1 / zhuāng\n{\\large{\\textsuperscript{herb˸}traṅ}},\n\\textit{tṣiaṅ};\t%0727q",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}tr\\textoverset{b}{a}ṅ}},",
+      "render_latex": "莊\t%zhuang1 / zhuāng\n{\\large{\\textsuperscript{herb˸}tr\\textoverset{b}{a}ṅ}},\n\\textit{tṣiaṅ};\t%0727q",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "壯",
@@ -3677,8 +3822,8 @@
         "source": "packet_family_ids",
         "semantic_component": "大"
       },
-      "transliteration_latex": "{\\large{taṅ\\textsuperscript{˸magn}}},",
-      "render_latex": "奬\t%jiang3 / jiǎng\n{\\large{taṅ\\textsuperscript{˸magn}}},\n\\textit{tsiaṅX};\t%0727u",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸magn}}},",
+      "render_latex": "奬\t%jiang3 / jiǎng\n{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸magn}}},\n\\textit{tsiaṅX};\t%0727u",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3848,8 +3993,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{taṅ\\textsuperscript{˸aq}}},",
-      "render_latex": "漿\t%jiang1 / jiāng\n{\\large{taṅ\\textsuperscript{˸aq}}},\n\\textit{tsiaṅ};\t%0727v",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸aq}}},",
+      "render_latex": "漿\t%jiang1 / jiāng\n{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸aq}}},\n\\textit{tsiaṅ};\t%0727v",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "將",
@@ -4044,8 +4189,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}taṅ}},",
-      "render_latex": "蔣\t%jiang1\n{\\large{\\textsuperscript{herb˸}taṅ}},\n\\textit{tsiaṅ};\t%0727x",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}t\\textoverset{b}{a}ṅ}},",
+      "render_latex": "蔣\t%jiang1\n{\\large{\\textsuperscript{herb˸}t\\textoverset{b}{a}ṅ}},\n\\textit{tsiaṅ};\t%0727x",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "將",
@@ -4242,8 +4387,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "酉"
       },
-      "transliteration_latex": "{\\large{taṅ\\textsuperscript{˸vin}}},",
-      "render_latex": "醬\t%jiang4 / jiàng\n{\\large{taṅ\\textsuperscript{˸vin}}},\n\\textit{tsiaṅH};\t%0727y",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸vin}}},",
+      "render_latex": "醬\t%jiang4 / jiàng\n{\\large{t\\textoverset{b}{a}ṅ\\textsuperscript{˸vin}}},\n\\textit{tsiaṅH};\t%0727y",
       "wiktionary_semantic_validation": {
         "semantic_component": "酉",
         "phonetic_component": "將",
@@ -6414,6 +6559,7 @@
     "character": null,
     "oc_bs": "*tsaŋ {*[ts]aŋ}",
     "confidence": "provisional-oc",
-    "supporting_characters": 12
+    "supporting_characters": 12,
+    "display_root": "tsaṅ"
   }
 }

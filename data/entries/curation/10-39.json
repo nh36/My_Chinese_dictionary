@@ -792,6 +792,28 @@
         ],
         "bs_node_roots": [
           "po"
+        ],
+        "display_root": "p\\textoverset{b}{o}",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "piuX",
+          "biuX"
+        ],
+        "form_analyses": [
+          {
+            "form": "piuX",
+            "normalized": "piu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biuX",
+            "normalized": "biu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2268,8 +2290,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{po\\textsuperscript{·carn}}},",
-      "render_latex": "腐\t%fu3\n{\\large{po\\textsuperscript{·carn}}},\n\\textit{biuX};\t%0136n",
+      "transliteration_latex": "{\\large{p\\textoverset{b}{o}\\textsuperscript{·carn}}},",
+      "render_latex": "腐\t%fu3\n{\\large{p\\textoverset{b}{o}\\textsuperscript{·carn}}},\n\\textit{biuX};\t%0136n",
       "wiktionary_semantic_validation": {
         "semantic_component": "肉",
         "phonetic_component": "府",
@@ -2804,8 +2826,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "勹"
       },
-      "transliteration_latex": "{\\large{po\\textsuperscript{·flect}}},",
-      "render_latex": "俯\t%fu3\n{\\large{po\\textsuperscript{·flect}}},\n\\textit{piuX};\t%0136r",
+      "transliteration_latex": "{\\large{p\\textoverset{b}{o}\\textsuperscript{·flect}}},",
+      "render_latex": "俯\t%fu3\n{\\large{p\\textoverset{b}{o}\\textsuperscript{·flect}}},\n\\textit{piuX};\t%0136r",
       "wiktionary_semantic_validation": {
         "semantic_component": "勹",
         "phonetic_component": "府",
@@ -4250,6 +4272,7 @@
     "character": null,
     "oc_bs": "*poʔ {*p(r)oʔ}",
     "confidence": "provisional-oc",
-    "supporting_characters": 2
+    "supporting_characters": 2,
+    "display_root": "po"
   }
 }

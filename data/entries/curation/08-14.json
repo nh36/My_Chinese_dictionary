@@ -803,6 +803,28 @@
         "bs_node_roots": [
           "thek",
           "tek"
+        ],
+        "display_root": "tsek",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "tshieH",
+          "tsiek"
+        ],
+        "form_analyses": [
+          {
+            "form": "tshieH",
+            "normalized": "tshie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiek",
+            "normalized": "tsiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1874,6 +1896,70 @@
         "bs_node_roots": [
           "trek",
           "tek"
+        ],
+        "display_root": "tsek",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tṣeaH",
+          "tṣeak",
+          "dẓeak",
+          "tsieH",
+          "tsiek",
+          "tsek",
+          "dzieH",
+          "tsreaH"
+        ],
+        "form_analyses": [
+          {
+            "form": "tṣeaH",
+            "normalized": "tṣea",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tṣeak",
+            "normalized": "tṣeak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dẓeak",
+            "normalized": "dẓeak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsieH",
+            "normalized": "tsie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsiek",
+            "normalized": "tsiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsek",
+            "normalized": "tsek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dzieH",
+            "normalized": "dzie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsreaH",
+            "normalized": "tsrea",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5148,6 +5234,7 @@
     "source": "head_graph_oc_bs",
     "character": "朿",
     "oc_bs": "*tsʰek-s {*[tsʰ]ek-s}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "tsek"
   }
 }

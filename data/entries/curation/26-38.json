@@ -954,6 +954,21 @@
         ],
         "bs_node_roots": [
           "piy"
+        ],
+        "display_root": "piy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "byiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "byiy",
+            "normalized": "byiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2123,6 +2138,126 @@
         ],
         "bs_node_roots": [
           "piy"
+        ],
+        "display_root": "piy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "byiy",
+          "byiyH",
+          "pyiyH",
+          "pyiyX",
+          "bet",
+          "phey",
+          "beyX",
+          "phyieX",
+          "bey",
+          "pyiy",
+          "biyX",
+          "phyiyX",
+          "byie",
+          "pey",
+          "phyie",
+          "phyiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "byiy",
+            "normalized": "byiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "byiyH",
+            "normalized": "byiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pyiyH",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pyiyX",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bet",
+            "normalized": "bet",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phey",
+            "normalized": "phey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "beyX",
+            "normalized": "bey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phyieX",
+            "normalized": "phyie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "bey",
+            "normalized": "bey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "pyiy",
+            "normalized": "pyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "biyX",
+            "normalized": "biy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phyiyX",
+            "normalized": "phyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "byie",
+            "normalized": "byie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "pey",
+            "normalized": "pey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "phyie",
+            "normalized": "phyie",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "phyiy",
+            "normalized": "phyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -4648,7 +4783,29 @@
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "piy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "byiyH",
+          "beyX"
+        ],
+        "form_analyses": [
+          {
+            "form": "byiyH",
+            "normalized": "byiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "beyX",
+            "normalized": "bey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
       }
     },
     {
@@ -7465,6 +7622,7 @@
     "source": "head_graph_oc_bs",
     "character": "匕",
     "oc_bs": "*pijʔ",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "piy"
   }
 }

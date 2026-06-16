@@ -234,6 +234,28 @@
         ],
         "bs_node_roots": [
           "qor"
+        ],
+        "display_root": "qor",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "qiwənX",
+          "qwanX"
+        ],
+        "form_analyses": [
+          {
+            "form": "qiwənX",
+            "normalized": "qiwən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qwanX",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -3587,6 +3609,91 @@
         ],
         "bs_node_roots": [
           "qor"
+        ],
+        "display_root": "qor",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "'jwonX",
+          "qiwənX",
+          "qwanX",
+          "qiwən",
+          "qiwənH",
+          "qiut",
+          "hiunX",
+          "qwan",
+          "qwanH",
+          "qiun",
+          "qiwon"
+        ],
+        "form_analyses": [
+          {
+            "form": "'jwonX",
+            "normalized": "'jwon",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qiwənX",
+            "normalized": "qiwən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qwanX",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qiwən",
+            "normalized": "qiwən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiwənH",
+            "normalized": "qiwən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiut",
+            "normalized": "qiut",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "hiunX",
+            "normalized": "hiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qwan",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qwanH",
+            "normalized": "qwan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qiun",
+            "normalized": "qiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiwon",
+            "normalized": "qiwon",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     }
@@ -5505,6 +5612,7 @@
     "source": "head_graph_oc_bs",
     "character": "夗",
     "oc_bs": "*ʔorʔ {*ʔo[r]ʔ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "ʔor"
   }
 }

@@ -250,6 +250,35 @@
         "bs_node_roots": [
           "pra",
           "ra"
+        ],
+        "display_root": "ra",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "lu",
+          "piu",
+          "liə"
+        ],
+        "form_analyses": [
+          {
+            "form": "lu",
+            "normalized": "lu",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "piu",
+            "normalized": "piu",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liə",
+            "normalized": "liə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -564,6 +593,42 @@
         ],
         "bs_node_roots": [
           "ra"
+        ],
+        "display_root": "r\\textoverset{b}{a}",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "liəH",
+          "liəX",
+          "liə",
+          "ṭhiə"
+        ],
+        "form_analyses": [
+          {
+            "form": "liəH",
+            "normalized": "liə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liəX",
+            "normalized": "liə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "liə",
+            "normalized": "liə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭhiə",
+            "normalized": "ṭhiə",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -2460,8 +2525,8 @@
           }
         ]
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ra}},",
-      "render_latex": "儢\t%lü3 / lǚ\n{\\large{\\textsuperscript{hom·}ra}},\n\\textit{liəX};\t%0069t",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}r\\textoverset{b}{a}}},",
+      "render_latex": "儢\t%lü3 / lǚ\n{\\large{\\textsuperscript{hom·}r\\textoverset{b}{a}}},\n\\textit{liəX};\t%0069t",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -2613,8 +2678,8 @@
           }
         ]
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb·}ra}},",
-      "render_latex": "藘\t%lü2 / lǘ\n{\\large{\\textsuperscript{herb·}ra}},\n\\textit{liə};\t%0069u",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb·}r\\textoverset{b}{a}}},",
+      "render_latex": "藘\t%lü2 / lǘ\n{\\large{\\textsuperscript{herb·}r\\textoverset{b}{a}}},\n\\textit{liə};\t%0069u",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -2800,8 +2865,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}ra}},",
-      "render_latex": "鑢\t%lü4\n{\\large{\\textsuperscript{met·}ra}},\n\\textit{liəH};\t%0069v",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}r\\textoverset{b}{a}}},",
+      "render_latex": "鑢\t%lü4\n{\\large{\\textsuperscript{met·}r\\textoverset{b}{a}}},\n\\textit{liəH};\t%0069v",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -3030,8 +3095,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}ra}},",
-      "render_latex": "攄\t%shu1 / shū\n{\\large{\\textsuperscript{man·}ra}},\n\\textit{ṭhiə};\t%0069x",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}r\\textoverset{b}{a}}},",
+      "render_latex": "攄\t%shu1 / shū\n{\\large{\\textsuperscript{man·}r\\textoverset{b}{a}}},\n\\textit{ṭhiə};\t%0069x",
       "semantic_candidates_from_ids": [
         {
           "source": "ids_top_level",
@@ -4167,6 +4232,7 @@
     "source": "head_graph_oc_bs",
     "character": "𧆨",
     "oc_bs": "*rˤa {*[r]ˤa}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "ra"
   }
 }

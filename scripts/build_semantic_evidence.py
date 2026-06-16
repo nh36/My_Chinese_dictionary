@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+import ab_division
 import hierarchy_utils
 import inventory_tex
 import mc_resolution
@@ -17,6 +18,7 @@ DEFAULT_SEMANTIC_INVENTORY = "data/current_semantic_components.json"
 DEFAULT_SHENGFU = "data/derived/shengfu.csv"
 DEFAULT_CURATION_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/semantic_evidence_reuse.md"
+DEFAULT_AB_REPORT_OUT = "reports/ab_subseries_classification.md"
 DEFAULT_IDS_PATH = "data/raw/cjkvi_ids.txt"
 
 CHINESE_CHAR_RE = inventory_tex.CHINESE_CHAR_RE
@@ -977,7 +979,8 @@ def compose_transliteration_from_root(root: str, semantic_assignment: dict[str, 
 
 
 def derive_missing_series_transliteration(entry: dict[str, Any], candidate: dict[str, Any]) -> str | None:
-    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+    resolved = entry.get("resolved_series_root") or {}
+    resolved_root = resolved.get("display_root") or resolved.get("root")
     if not resolved_root:
         return candidate.get("transliteration_latex")
     semantic_assignment = candidate.get("semantic_assignment") or {}
@@ -1017,6 +1020,19 @@ def candidate_gsr_bases(candidate: dict[str, Any]) -> set[int]:
         if parts is not None:
             bases.add(parts[0])
     return bases
+
+
+def collect_subgroup_display_forms(
+    candidate: dict[str, Any],
+    candidate_children: dict[str, list[dict[str, Any]]],
+    candidate_map: dict[str, dict[str, Any]],
+) -> list[str]:
+    relevant_candidates = [candidate] + [
+        candidate_map[character]
+        for character in hierarchy_utils.collect_descendant_characters(candidate["character"], candidate_children)
+        if character in candidate_map
+    ]
+    return ab_division.collect_group_display_forms(relevant_candidates)
 
 
 def resolve_generated_node_root(
@@ -1099,7 +1115,7 @@ def resolve_generated_node_root(
             source = "node_transliteration_fallback"
     if not resolved_root:
         return None
-    return {
+    root_resolution = {
         "root": resolved_root,
         "source": source,
         "descendant_count": len(descendant_characters),
@@ -1107,6 +1123,13 @@ def resolve_generated_node_root(
         "bs_broad_roots": all_bs_broad_roots,
         "bs_node_roots": all_bs_node_roots,
     }
+    root_resolution.update(
+        ab_division.resolve_root_display(
+            resolved_root,
+            collect_subgroup_display_forms(candidate, candidate_children, candidate_map),
+        )
+    )
+    return root_resolution
 
 
 def resolve_parent_root_for_candidate(
@@ -1126,6 +1149,28 @@ def resolve_parent_root_for_candidate(
                 return node_root
     if entry.get("packet_kind") == "missing_series":
         return (entry.get("resolved_series_root") or {}).get("root")
+    if entry.get("tex_entry") is not None:
+        return extract_series_root_latex(entry["tex_entry"]["raw_block"])
+    return None
+
+
+def resolve_parent_display_root_for_candidate(
+    entry: dict[str, Any],
+    candidate: dict[str, Any],
+    candidate_map: dict[str, dict[str, Any]],
+) -> str | None:
+    assignment = candidate.get("hierarchy_assignment") or {}
+    status = assignment.get("status")
+    if status == "assigned-to-inherited-node":
+        return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
+    if status == "assigned-to-candidate-node":
+        parent = candidate_map.get(assignment.get("parent_character"))
+        if parent:
+            node_root = parent.get("resolved_node_root") or {}
+            return node_root.get("display_root") or node_root.get("root")
+    if entry.get("packet_kind") == "missing_series":
+        resolved = entry.get("resolved_series_root") or {}
+        return resolved.get("display_root") or resolved.get("root")
     if entry.get("tex_entry") is not None:
         return extract_series_root_latex(entry["tex_entry"]["raw_block"])
     return None
@@ -1477,10 +1522,12 @@ def enrich_curated_entry_with_ids(
                     packet_tokens,
                 )
                 unresolved.remove(character)
+    if entry.get("packet_kind") == "missing_series" and entry.get("resolved_series_root"):
+        entry["resolved_series_root"].setdefault("display_root", entry["resolved_series_root"].get("root"))
     for candidate in entry.get("proposed_additions", []):
-        parent_root = resolve_parent_root_for_candidate(entry, candidate, candidate_map)
-        if parent_root:
-            candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(parent_root, candidate)
+        parent_display_root = resolve_parent_display_root_for_candidate(entry, candidate, candidate_map)
+        if parent_display_root:
+            candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(parent_display_root, candidate)
             candidate["render_latex"] = synthesize_render_latex(candidate)
     return entry
 
@@ -1531,6 +1578,57 @@ def render_report(entries: list[dict[str, Any]]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def render_ab_subseries_report(entries: list[dict[str, Any]]) -> str:
+    subgroup_rows: list[dict[str, Any]] = []
+    for entry in entries:
+        candidate_children = hierarchy_utils.collect_candidate_children(entry)
+        for candidate in entry.get("proposed_additions", []):
+            if not candidate_children.get(candidate["character"]):
+                continue
+            resolved = candidate.get("resolved_node_root") or {}
+            subgroup_rows.append(
+                {
+                    "entry_id": entry["id"],
+                    "character": candidate["character"],
+                    "root": resolved.get("root"),
+                    "display_root": resolved.get("display_root") or resolved.get("root"),
+                    "division_class": resolved.get("division_class") or "unknown",
+                    "mark_required": bool(resolved.get("mark_required")),
+                    "mc_forms": resolved.get("mc_forms") or [],
+                    "division_note": resolved.get("division_note") or "",
+                }
+            )
+
+    marked_a = sum(1 for row in subgroup_rows if row["division_class"] == "a" and row["mark_required"])
+    marked_b = sum(1 for row in subgroup_rows if row["division_class"] == "b" and row["mark_required"])
+    uniform_unmarked = sum(
+        1 for row in subgroup_rows if row["division_class"] in {"a", "b"} and not row["mark_required"]
+    )
+    mixed = sum(1 for row in subgroup_rows if row["division_class"] == "mixed")
+    unknown = sum(1 for row in subgroup_rows if row["division_class"] == "unknown")
+
+    lines = [
+        "# a/b subseries classification",
+        "",
+        f"- Generated subgroup heads inspected: {len(subgroup_rows)}",
+        f"- Subgroups newly marked with `a`: {marked_a}",
+        f"- Subgroups newly marked with `b`: {marked_b}",
+        f"- Uniform subgroups left unmarked because the root already signals the quality clearly: {uniform_unmarked}",
+        f"- Mixed subgroups left unmarked: {mixed}",
+        f"- Unresolved subgroups left unmarked: {unknown}",
+        "",
+        "| GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for row in subgroup_rows:
+        lines.append(
+            f"| `{row['entry_id']}` | {row['character']} | `{row['root'] or ''}` | `{row['display_root'] or ''}` | "
+            f"`{row['division_class']}` | {'yes' if row['mark_required'] else 'no'} | "
+            f"`{', '.join(row['mc_forms'])}` | {row['division_note']} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Reuse existing TeX character analyses as semantic evidence for curated packets.")
     parser.add_argument("--tex-entries", default=DEFAULT_TEX_ENTRIES)
@@ -1539,6 +1637,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--shengfu", default=DEFAULT_SHENGFU)
     parser.add_argument("--ids-path", default=DEFAULT_IDS_PATH)
     parser.add_argument("--report-out", default=DEFAULT_REPORT_OUT)
+    parser.add_argument("--ab-report-out", default=DEFAULT_AB_REPORT_OUT)
     return parser
 
 
@@ -1548,6 +1647,7 @@ def main() -> int:
     semantic_inventory = json.loads(Path(args.semantic_inventory).read_text(encoding="utf-8"))
     curation_dir = Path(args.curation_dir)
     report_path = Path(args.report_out)
+    ab_report_path = Path(args.ab_report_out)
 
     inventory_lookup = build_inventory_lookup(semantic_inventory)
     graph_lookup = build_inventory_graph_lookup(semantic_inventory)
@@ -1565,6 +1665,8 @@ def main() -> int:
 
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(render_report(enriched_entries), encoding="utf-8")
+    ab_report_path.parent.mkdir(parents=True, exist_ok=True)
+    ab_report_path.write_text(render_ab_subseries_report(enriched_entries), encoding="utf-8")
     return 0
 
 

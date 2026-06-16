@@ -3,10 +3,10 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from collections import Counter
 from pathlib import Path
 from typing import Any
 
+import ab_division
 import extract_tex_entries
 import inventory_tex
 
@@ -21,10 +21,6 @@ DEFAULT_TEX_OUT = "build/pilot_ab_subseries_review.tex"
 TEXTOVERSET_RE = re.compile(r"\\textoverset\{([ab])\}")
 LARGE_RE = re.compile(r"\{\\Large\{([^}]*)\}\}")
 CHAR_RE = re.compile(r"[\u3400-\u9fff\U00020000-\U0002ceaf]")
-VOWEL_RE = re.compile(r"[aeiouyəɨɛɔ]")
-PALATAL_ONLY_ONSETS = {"c", "j", "ś", "ź"}
-
-
 def dedupe_preserve(values: list[str]) -> list[str]:
     result: list[str] = []
     seen: set[str] = set()
@@ -135,71 +131,19 @@ def extract_head_mc_forms(block_lines: list[str], head_character: str | None) ->
 
 
 def normalize_mc_form(form: str) -> str:
-    normalized = form.strip().rstrip(".,;")
-    normalized = re.sub(r"[0-9]+$", "", normalized)
-    normalized = re.sub(r"[HX]$", "", normalized)
-    return normalized
+    return ab_division.normalize_mc_form(form)
 
 
 def split_onset_and_rhyme(form: str) -> tuple[str, str]:
-    match = VOWEL_RE.search(form)
-    if not match:
-        return form, ""
-    return form[: match.start()], form[match.start() :]
+    return ab_division.split_onset_and_rhyme(form)
 
 
 def classify_mc_form(form: str) -> dict[str, str]:
-    normalized = normalize_mc_form(form)
-    onset, rhyme = split_onset_and_rhyme(normalized)
-    if not rhyme:
-        return {
-            "form": form,
-            "normalized": normalized,
-            "class": "unknown",
-            "reason": "no_vowel_detected",
-        }
-    if onset in PALATAL_ONLY_ONSETS:
-        return {
-            "form": form,
-            "normalized": normalized,
-            "class": "b",
-            "reason": "palatal_initial",
-        }
-    if not onset and rhyme.startswith("i"):
-        return {
-            "form": form,
-            "normalized": normalized,
-            "class": "unknown",
-            "reason": "zero_onset_bare_i",
-        }
-    if rhyme.startswith(("i", "y")):
-        return {
-            "form": form,
-            "normalized": normalized,
-            "class": "b",
-            "reason": "explicit_i_medial",
-        }
-    return {
-        "form": form,
-        "normalized": normalized,
-        "class": "a",
-        "reason": "no_i_medial",
-    }
+    return ab_division.classify_mc_form(form)
 
 
 def summarize_group_class(form_analyses: list[dict[str, str]]) -> tuple[str, str]:
-    counts = Counter(analysis["class"] for analysis in form_analyses)
-    if counts["a"] and not counts["b"]:
-        if counts["unknown"]:
-            return "a", "known forms point to type a; ambiguous forms remain"
-        return "a", "all extracted forms lack an i-medial after the onset"
-    if counts["b"] and not counts["a"]:
-        if counts["unknown"]:
-            return "b", "known forms point to type b; ambiguous forms remain"
-        return "b", "all extracted forms show an i-medial or a dedicated palatal onset"
-    if counts["a"] and counts["b"]:
-        return "mixed", "the extracted forms point to both type a and type b"
-    return "unknown", "the extracted forms are too ambiguous for this pilot rule"
+    return ab_division.summarize_group_class(form_analyses)
 
 
 def analyze_entry(entry: dict[str, Any]) -> dict[str, Any]:

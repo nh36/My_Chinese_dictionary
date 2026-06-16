@@ -962,8 +962,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "竹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}sak}},",
-      "render_latex": "籍\t%ji2 / jí\n{\\large{\\textsuperscript{bamb˸}sak}},\n\\textit{dziek};\t%0798a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}s\\textoverset{b}{a}k}},",
+      "render_latex": "籍\t%ji2 / jí\n{\\large{\\textsuperscript{bamb˸}s\\textoverset{b}{a}k}},\n\\textit{dziek};\t%0798a'",
       "wiktionary_semantic_validation": {
         "semantic_component": "竹",
         "phonetic_component": "耤",
@@ -1887,6 +1887,21 @@
         ],
         "bs_node_roots": [
           "tak"
+        ],
+        "display_root": "s\\textoverset{b}{a}k",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "dziek"
+        ],
+        "form_analyses": [
+          {
+            "form": "dziek",
+            "normalized": "dziek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5917,6 +5932,7 @@
     "source": "head_graph_oc_bs",
     "character": "昔",
     "oc_bs": "*sak {*[s]Ak}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "sak"
   }
 }

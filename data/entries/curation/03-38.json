@@ -971,6 +971,28 @@
         ],
         "bs_node_roots": [
           "laṅ"
+        ],
+        "display_root": "laṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "yaṅ",
+          "daṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "yaṅ",
+            "normalized": "yaṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "daṅ",
+            "normalized": "daṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5249,6 +5271,42 @@
         ],
         "bs_node_roots": [
           "laṅ"
+        ],
+        "display_root": "laṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "śiaṅ",
+          "thaṅ",
+          "daṅH",
+          "daṅX"
+        ],
+        "form_analyses": [
+          {
+            "form": "śiaṅ",
+            "normalized": "śiaṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "thaṅ",
+            "normalized": "thaṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daṅH",
+            "normalized": "daṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "daṅX",
+            "normalized": "daṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     }
@@ -7869,6 +7927,7 @@
     "source": "head_graph_oc_bs",
     "character": "昜",
     "oc_bs": "*laŋ",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "laṅ"
   }
 }

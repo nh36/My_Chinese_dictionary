@@ -754,6 +754,28 @@
         ],
         "bs_node_roots": [
           "tok"
+        ],
+        "display_root": "t\\textoverset{b}{o}k",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "jiəwk",
+          "ciəwk"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiəwk",
+            "normalized": "jiəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciəwk",
+            "normalized": "ciəwk",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
         ]
       }
     },
@@ -2176,8 +2198,8 @@
         "source": "packet_family_ids",
         "semantic_component": "革"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cori·}tok}},",
-      "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}tok}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
+      "transliteration_latex": "{\\large{\\textsuperscript{cori·}t\\textoverset{b}{o}k}},",
+      "render_latex": "䪅\t%du2\n{\\large{\\textsuperscript{cori·}t\\textoverset{b}{o}k}},\n\\textit{jiəwk};\t%1224l\n\\textit{ciəwk};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -5884,6 +5906,7 @@
     "source": "head_graph_oc_bs",
     "character": "蜀",
     "oc_bs": "*dok {*[d]ok}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "tok"
   }
 }

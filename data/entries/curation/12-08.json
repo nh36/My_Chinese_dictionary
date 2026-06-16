@@ -2485,6 +2485,28 @@
         "bs_node_roots": [
           "yṅ",
           "toṅ"
+        ],
+        "display_root": "t\\textoverset{a}{o}ṅ",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "duwṅX",
+          "duwṅH"
+        ],
+        "form_analyses": [
+          {
+            "form": "duwṅX",
+            "normalized": "duwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "duwṅH",
+            "normalized": "duwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -2582,8 +2604,8 @@
         "source": "packet_family_ids",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}toṅ}},",
-      "render_latex": "慟\t%tong4 / tòng\n{\\large{\\textsuperscript{cor·}toṅ}},\n\\textit{duwṅH};\t%1188n",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}t\\textoverset{a}{o}ṅ}},",
+      "render_latex": "慟\t%tong4 / tòng\n{\\large{\\textsuperscript{cor·}t\\textoverset{a}{o}ṅ}},\n\\textit{duwṅH};\t%1188n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2721,6 +2743,77 @@
         "bs_node_roots": [
           "toṅ",
           "troṅ"
+        ],
+        "display_root": "toṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "duwṅ",
+          "chiəwṅ",
+          "ḍaewṅH",
+          "jiəwṅX",
+          "ḍaewṅ",
+          "thuwṅ",
+          "ḍiəwṅ",
+          "ciəwṅX",
+          "ciəwṅ"
+        ],
+        "form_analyses": [
+          {
+            "form": "duwṅ",
+            "normalized": "duwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "chiəwṅ",
+            "normalized": "chiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḍaewṅH",
+            "normalized": "ḍaewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "jiəwṅX",
+            "normalized": "jiəwṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ḍaewṅ",
+            "normalized": "ḍaewṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "thuwṅ",
+            "normalized": "thuwṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍiəwṅ",
+            "normalized": "ḍiəwṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ciəwṅX",
+            "normalized": "ciəwṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciəwṅ",
+            "normalized": "ciəwṅ",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
         ]
       }
     },
@@ -5123,6 +5216,7 @@
     "source": "head_graph_oc_bs",
     "character": "重",
     "oc_bs": "*m-troŋ {*[m]-troŋ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "toṅ"
   }
 }

@@ -1384,6 +1384,35 @@
           "krym",
           "qum",
           "qym"
+        ],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kim",
+          "qim",
+          "qimH"
+        ],
+        "form_analyses": [
+          {
+            "form": "kim",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qim",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qimH",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -1999,7 +2028,29 @@
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
-        "bs_node_roots": []
+        "bs_node_roots": [],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "qyiemX",
+          "qimX"
+        ],
+        "form_analyses": [
+          {
+            "form": "qyiemX",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qimX",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
       }
     },
     {
@@ -3046,6 +3097,21 @@
         ],
         "bs_node_roots": [
           "gym"
+        ],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "gim"
+        ],
+        "form_analyses": [
+          {
+            "form": "gim",
+            "normalized": "gim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -3435,6 +3501,42 @@
         "bs_node_roots": [
           "ym",
           "gym"
+        ],
+        "display_root": "kym",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "hom",
+          "homH",
+          "homX",
+          "ṅomX"
+        ],
+        "form_analyses": [
+          {
+            "form": "hom",
+            "normalized": "hom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "homH",
+            "normalized": "hom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "homX",
+            "normalized": "hom",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅomX",
+            "normalized": "ṅom",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5227,6 +5329,28 @@
         "bs_node_roots": [
           "qum",
           "qym"
+        ],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "qim",
+          "qimH"
+        ],
+        "form_analyses": [
+          {
+            "form": "qim",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qimH",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5431,6 +5555,28 @@
         "bs_node_roots": [
           "qum",
           "qym"
+        ],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "qim",
+          "qimH"
+        ],
+        "form_analyses": [
+          {
+            "form": "qim",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qimH",
+            "normalized": "qim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -5537,6 +5683,35 @@
         "bs_node_roots": [
           "kym",
           "krym"
+        ],
+        "display_root": "kym",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kim",
+          "kimX",
+          "khim"
+        ],
+        "form_analyses": [
+          {
+            "form": "kim",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "kimX",
+            "normalized": "kim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khim",
+            "normalized": "khim",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -10126,6 +10301,7 @@
     "source": "head_graph_oc_bs",
     "character": "今",
     "oc_bs": "*krəm {*[k]r[ə]m}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "kym"
   }
 }

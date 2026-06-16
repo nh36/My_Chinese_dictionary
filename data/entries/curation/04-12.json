@@ -526,6 +526,28 @@
         ],
         "bs_node_roots": [
           "ku"
+        ],
+        "display_root": "ku",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "kiuwX",
+          "giuw"
+        ],
+        "form_analyses": [
+          {
+            "form": "kiuwX",
+            "normalized": "kiuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "giuw",
+            "normalized": "giuw",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
         ]
       }
     },
@@ -4264,6 +4286,7 @@
     "source": "head_graph_oc_bs",
     "character": "九",
     "oc_bs": "*kuʔ {*[k]uʔ}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "ku"
   }
 }

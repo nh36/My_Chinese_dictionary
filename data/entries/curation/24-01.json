@@ -1113,6 +1113,21 @@
         ],
         "bs_node_roots": [
           "kar"
+        ],
+        "display_root": "k\\textoverset{a}{a}r",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "kan"
+        ],
+        "form_analyses": [
+          {
+            "form": "kan",
+            "normalized": "kan",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -1672,8 +1687,8 @@
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "㚣"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{㚣·}kar}},",
-      "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}kar}},\n\\textit{kan};\t%0139d",
+      "transliteration_latex": "{\\large{\\textsuperscript{㚣·}k\\textoverset{a}{a}r}},",
+      "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}k\\textoverset{a}{a}r}},\n\\textit{kan};\t%0139d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3348,8 +3363,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}kar}},",
-      "render_latex": "捍\t%han4\n{\\large{\\textsuperscript{man·}kar}},\n\\textit{hanH};\t%0139i'",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}r}},",
+      "render_latex": "捍\t%han4\n{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}r}},\n\\textit{hanH};\t%0139i'",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "旱",
@@ -4930,6 +4945,28 @@
         ],
         "bs_node_roots": [
           "gar"
+        ],
+        "display_root": "k\\textoverset{a}{a}r",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "hanX",
+          "hanH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hanX",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "hanH",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -8605,6 +8642,7 @@
     "source": "head_graph_oc_bs",
     "character": "干",
     "oc_bs": "*kˤar {*kˤa[r]}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "kar"
   }
 }

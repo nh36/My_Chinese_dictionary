@@ -683,6 +683,42 @@
         ],
         "bs_node_roots": [
           "ty"
+        ],
+        "display_root": "tsy",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "dzey",
+          "tsiy",
+          "tsey",
+          "tseyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "dzey",
+            "normalized": "dzey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsiy",
+            "normalized": "tsiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsey",
+            "normalized": "tsey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tseyH",
+            "normalized": "tsey",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -5590,6 +5626,7 @@
     "source": "head_graph_oc_bs",
     "character": "齊",
     "oc_bs": "*dzˤəj {*[dz]ˤəj}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "tsy"
   }
 }

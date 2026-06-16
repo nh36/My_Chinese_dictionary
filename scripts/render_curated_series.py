@@ -246,7 +246,8 @@ def render_candidate_node(
         else:
             transliteration_lines.append(line)
     lines.extend(transliteration_lines)
-    resolved_node_root = (candidate.get("resolved_node_root") or {}).get("root")
+    root_data = candidate.get("resolved_node_root") or {}
+    resolved_node_root = root_data.get("display_root") or root_data.get("root")
     if resolved_node_root:
         lines.append(rf"= {{\large{{{resolved_node_root}}}}},")
     lines.extend(mc_lines)
@@ -311,7 +312,8 @@ def wrap_entry_guardrail(rendered_entry: str) -> str:
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
     head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
     head_candidate = entry["proposed_additions"][0] if entry["proposed_additions"] else None
-    resolved_root = (entry.get("resolved_series_root") or {}).get("root")
+    resolved_root_data = entry.get("resolved_series_root") or {}
+    resolved_root = resolved_root_data.get("display_root") or resolved_root_data.get("root")
     body_lines = [
         f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{head_character}}}}}}}",
     ]

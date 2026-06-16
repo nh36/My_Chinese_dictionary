@@ -718,6 +718,35 @@
         ],
         "bs_node_roots": [
           "kraw"
+        ],
+        "display_root": "k\\textoverset{a}{a}w",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "kaew",
+          "kewX",
+          "qew"
+        ],
+        "form_analyses": [
+          {
+            "form": "kaew",
+            "normalized": "kaew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kewX",
+            "normalized": "kew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qew",
+            "normalized": "qew",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
         ]
       }
     },
@@ -3910,8 +3939,8 @@
         "source": "packet_family_ids",
         "semantic_component": "日"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{sol·}kaw}},",
-      "render_latex": "晈\t%jiao3\n{\\large{\\textsuperscript{sol·}kaw}},\n\\textit{kewX};\t%1166x",
+      "transliteration_latex": "{\\large{\\textsuperscript{sol·}k\\textoverset{a}{a}w}},",
+      "render_latex": "晈\t%jiao3\n{\\large{\\textsuperscript{sol·}k\\textoverset{a}{a}w}},\n\\textit{kewX};\t%1166x",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4089,8 +4118,8 @@
         "source": "packet_family_ids",
         "semantic_component": "宀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}kaw}},",
-      "render_latex": "㝔\t%yao1\n{\\large{\\textsuperscript{tect˸}kaw}},\n\\textit{qew};\t%1166z",
+      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}k\\textoverset{a}{a}w}},",
+      "render_latex": "㝔\t%yao1\n{\\large{\\textsuperscript{tect˸}k\\textoverset{a}{a}w}},\n\\textit{qew};\t%1166z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -6454,6 +6483,7 @@
     "source": "head_graph_oc_bs",
     "character": "交",
     "oc_bs": "*kˤraw {*[k]ˤraw}",
-    "confidence": "provisional-oc"
+    "confidence": "provisional-oc",
+    "display_root": "kaw"
   }
 }
