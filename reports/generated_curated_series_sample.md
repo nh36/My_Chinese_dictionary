@@ -8,9 +8,12 @@
 | GSC | Packet kind | Existing TeX baseline | Proposed additions | Hierarchy-linked additions |
 | --- | --- | --- | ---: | ---: |
 | `01-01` | `existing_addendum` | yes | 4 | 2 |
+| `01-18` | `existing_addendum` | yes | 0 | 0 |
+| `01-42` | `existing_addendum` | yes | 1 | 0 |
 | `01-43` | `existing_addendum` | yes | 2 | 0 |
 | `01-51` | `missing_series` | no | 18 | 15 |
 | `01-57` | `existing_addendum` | yes | 2 | 1 |
+| `01-62` | `existing_addendum` | yes | 1 | 1 |
 | `02-01` | `missing_series` | no | 37 | 36 |
 | `02-17` | `missing_series` | no | 13 | 10 |
 | `02-25` | `missing_series` | no | 17 | 16 |
@@ -18,6 +21,7 @@
 | `02-32` | `missing_series` | no | 20 | 19 |
 | `02-38` | `missing_series` | no | 12 | 10 |
 | `02-40` | `missing_series` | no | 16 | 15 |
+| `03-23` | `missing_series` | no | 13 | 8 |
 | `03-24` | `missing_series` | no | 12 | 11 |
 | `03-26` | `missing_series` | no | 13 | 11 |
 | `03-32` | `missing_series` | no | 25 | 14 |
@@ -87,8 +91,11 @@
 | `17-05` | `missing_series` | no | 14 | 13 |
 | `17-07` | `missing_series` | no | 14 | 13 |
 | `18-18` | `existing_addendum` | yes | 7 | 6 |
+| `19-01` | `existing_addendum` | yes | 1 | 0 |
 | `19-02` | `missing_series` | no | 13 | 11 |
 | `19-04` | `existing_addendum` | yes | 2 | 0 |
+| `19-06` | `existing_addendum` | yes | 1 | 0 |
+| `19-21` | `existing_addendum` | yes | 1 | 0 |
 | `19-22` | `existing_addendum` | yes | 2 | 1 |
 | `21-01` | `missing_series` | no | 24 | 23 |
 | `23-07` | `missing_series` | no | 13 | 12 |

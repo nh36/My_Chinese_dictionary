@@ -42,12 +42,20 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertIn("render_latex", candidate)
 
     def test_resolve_semantic_from_ids(self) -> None:
-        ids_map = {"枷": "⿰木加", "嘉": "⿱壴加", "菇": "⿱艹姑", "姑": "⿰女古", "團": "⿴囗專"}
+        ids_map = {
+            "枷": "⿰木加",
+            "嘉": "⿱壴加",
+            "菇": "⿱艹姑",
+            "姑": "⿰女古",
+            "團": "⿴囗專",
+            "簧": "⿱竹黄",
+        }
         inventory_lookup = {
             "木": [{"graph_raw": "木", "label_token": "arb(or)", "abbreviation": "arb"}],
             "壴": [{"graph_raw": "壴", "label_token": "tympan(um)", "abbreviation": "tympan"}],
             "艸": [{"graph_raw": "艸", "label_token": "herb(a)", "abbreviation": "herb"}],
             "囗": [{"graph_raw": "囗", "label_token": "cla(usum)", "abbreviation": "cla"}],
+            "竹": [{"graph_raw": "竹", "label_token": "bamb(us)", "abbreviation": "bamb"}],
         }
         left = build_semantic_evidence.resolve_semantic_from_ids(
             character="枷",
@@ -73,6 +81,12 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             ids_map=ids_map,
             graph_lookup=inventory_lookup,
         )
+        normalized_component = build_semantic_evidence.resolve_semantic_from_ids(
+            character="簧",
+            phonetic_component="黃",
+            ids_map=ids_map,
+            graph_lookup=inventory_lookup,
+        )
         self.assertEqual(left["position"], "prefix-dot")
         self.assertEqual(left["abbreviation"], "arb")
         self.assertEqual(above["position"], "prefix-colon")
@@ -80,6 +94,8 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(recursive["abbreviation"], "herb")
         self.assertEqual(enclosure["position"], "prefix-colon")
         self.assertEqual(enclosure["abbreviation"], "cla")
+        self.assertEqual(normalized_component["position"], "prefix-colon")
+        self.assertEqual(normalized_component["abbreviation"], "bamb")
 
     def test_compose_transliteration_from_root(self) -> None:
         self.assertEqual(

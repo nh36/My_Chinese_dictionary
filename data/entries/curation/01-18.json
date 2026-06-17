@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-06-17T06:24:06.804103+00:00",
+  "id": "01-18",
+  "status": "machine-curated-pilot",
+  "packet_kind": "existing_addendum",
+  "schuessler": {
+    "gsc_id": "01-18",
+    "rhyme_section": 1,
+    "series_number": 18,
+    "k_tokens": [
+      "57",
+      "78",
+      "85"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.            MC           LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 74,
+    "source_line_number": 19,
+    "source_line_raw": "1-18   = K. 57, 78,85    Mand.            MC           LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "01-18",
+    "rhyme_section": "1",
+    "series_number": "18",
+    "schuessler_k_tokens": "57; 78; 85",
+    "schuessler_source_page": "74",
+    "in_tex": "yes",
+    "tex_character_count": "1",
+    "tex_characters_sample": "處",
+    "mand2mc_row_count": "14",
+    "mand2mc_character_count": "10",
+    "mand2mc_characters_sample": "虍; 虎; 琥; 虛; 墟; 歔; 噓; 虡; 𥲤; 處",
+    "bs_gsr_row_count": "7",
+    "bs_gsr_character_count": "5",
+    "bs_gsr_characters_sample": "虍; 虎; 虛; 墟; 處",
+    "combined_source_character_count": "10",
+    "combined_source_characters_sample": "虍; 虎; 琥; 虛; 墟; 歔; 噓; 虡; 𥲤; 處"
+  },
+  "tex_entry": {
+    "id": "01-18",
+    "section": "The dictionary itself",
+    "subsection": "-a",
+    "head": {
+      "type": "character",
+      "raw": "\\huge{處}",
+      "heading_extra_raw": "",
+      "characters": [
+        "處"
+      ],
+      "image_refs": []
+    },
+    "context_environments": [
+      {
+        "name": "multicols",
+        "arg": "2"
+      }
+    ],
+    "start_line": 1832,
+    "end_line": 1841,
+    "chinese_characters": [
+      "處"
+    ],
+    "commented_pinyin": [
+      "chu4",
+      "chu3"
+    ],
+    "mc_forms": [
+      "chiəH",
+      "chiəX"
+    ],
+    "gsr_markers": [
+      "0085a"
+    ],
+    "raw_block": "\\paragraph{\\textoversetlarge{01-18}{\\huge{處}}}\t\n%處\t%chu4\t\n\\textit{chiəH},\t%tsyhoH\t0085a\n%處\t%chu3\t\n\\textit{chiəX};\t%tsyhoX\t0085a\n\n\n\n\n\\begin{spacing}{0.7} "
+  },
+  "entry_hierarchy": {
+    "top_level_head": "處",
+    "nodes": []
+  },
+  "candidate_source_strategy": "tex_gsr_prefixes",
+  "candidate_source_tokens": [
+    "85"
+  ],
+  "proposed_additions": [],
+  "all_candidates": [
+    {
+      "character": "處",
+      "in_tex": true,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "chiəH",
+          "chiəX"
+        ],
+        "mand2mc_nwh_forms": [
+          "chiəH",
+          "chiəX"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyhoH",
+          "tsyhoX"
+        ],
+        "bs_gsr_forms": [
+          "tsyhoH",
+          "tsyhoX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "685",
+          "character": "處",
+          "pinyin": "chu4",
+          "mc_nwh": "chiəH",
+          "mc_bs": "tsyhoH",
+          "gsr": "0085a"
+        },
+        {
+          "source_row_number": "686",
+          "character": "處",
+          "pinyin": "chu3",
+          "mc_nwh": "chiəX",
+          "mc_bs": "tsyhoX",
+          "gsr": "0085a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "19",
+          "character": "處",
+          "pinyin": "chù",
+          "mc_bs": "tsyhoH",
+          "mc_analyzed": "(tsyh- + -jo C)",
+          "oc_bs": "*t.qʰaʔ-s",
+          "gloss": "place (n.)",
+          "gsr": "0085a",
+          "unicode_utf16": "U+8655"
+        },
+        {
+          "source_page_number": "19",
+          "character": "處",
+          "pinyin": "chǔ",
+          "mc_bs": "tsyhoX",
+          "mc_analyzed": "(tsyh- + -jo B)",
+          "oc_bs": "*t.qʰaʔ",
+          "gloss": "be at",
+          "gsr": "0085a",
+          "unicode_utf16": "U+8655"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5569",
+          "character": "處",
+          "phonetic_component": "虍",
+          "component_level": "2",
+          "secondary_component": "處",
+          "fanqie": "昌與",
+          "source": "广韵",
+          "oc_initial": "kʰlʲ",
+          "oc_rhyme": "aʔ",
+          "oc_syllable": "kʰlʲaʔ"
+        },
+        {
+          "source_row_number": "5587",
+          "character": "處",
+          "phonetic_component": "虍",
+          "component_level": "2",
+          "secondary_component": "處",
+          "fanqie": "昌據",
+          "source": "广韵",
+          "oc_initial": "kʰlʲ",
+          "oc_rhyme": "as",
+          "oc_syllable": "kʰlʲas"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [],
+  "resolved_series_root": null
+}

@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 133
-- Packets with at least one root candidate: 119
-- Packets with a single resolved provisional root: 131
+- Missing-series packets inspected: 134
+- Packets with at least one root candidate: 120
+- Packets with a single resolved provisional root: 132
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-38` | 白→pak [*bˤrak] (0782a) | `pak` | `head_graph_oc_bs` |
 | `02-40` | 莫→mak [*mˤak] (0802a) | `mak` | `head_graph_oc_bs` |
+| `03-23` | 黃→kuaṅ [*N-kʷˤaŋ] (0707a) | `kuaṅ` | `head_graph_oc_bs` |
 | `03-24` | 皇→quaṅ [*ɢʷˤaŋ {*[ɢ]ʷˤaŋ}] (0708a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-26` | 王→quaṅ [*ɢʷaŋ] (0739a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |

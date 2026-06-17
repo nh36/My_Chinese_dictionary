@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2439
-- Pages fetched / cached successfully: 2408
-- Additions with explicit Han-compound semantic/phonetic roles: 1209
+- Proposed additions checked: 2457
+- Pages fetched / cached successfully: 2425
+- Additions with explicit Han-compound semantic/phonetic roles: 1222
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -10,6 +10,7 @@
 | `01-01` | 菇 | yes | yes | 艸 | 姑 |
 | `01-01` | 痼 | yes | yes | 疒 | 固 |
 | `01-01` | 個 | yes | yes | 人 | 固 |
+| `01-42` | 徐 | yes | yes | 彳 | 余 |
 | `01-43` | 𨑦 | no | no |  |  |
 | `01-43` | 𡐨 | yes | no |  |  |
 | `01-51` | 𧆨 | no | no |  |  |
@@ -32,6 +33,7 @@
 | `01-51` | 攄 | yes | yes | 手 | 慮 |
 | `01-57` | 𪓐 | yes | no |  |  |
 | `01-57` | 𠭯 | no | no |  |  |
+| `01-62` | 梳 | yes | yes | 木 | 疏 |
 | `02-01` | 各 | yes | no |  |  |
 | `02-01` | 觡 | yes | no |  |  |
 | `02-01` | 骼 | yes | yes | 骨 | 各 |
@@ -161,6 +163,19 @@
 | `02-40` | 瘼 | yes | no |  |  |
 | `02-40` | 嗼 | yes | no |  |  |
 | `02-40` | 冪 | yes | yes | 巾 | 冥 |
+| `03-23` | 黃 | yes | yes | 田 | 炗 |
+| `03-23` | 璜 | yes | yes | 玉 | 黃 |
+| `03-23` | 潢 | yes | yes | 水 | 黄 |
+| `03-23` | 簧 | yes | no |  |  |
+| `03-23` | 廣 | yes | yes | 广 | 黃 |
+| `03-23` | 觵 | yes | no |  |  |
+| `03-23` | 橫 | yes | yes | 木 | 黃 |
+| `03-23` | 壙 | yes | yes | 土 | 廣 |
+| `03-23` | 曠 | yes | yes | 日 | 廣 |
+| `03-23` | 纊 | yes | no |  |  |
+| `03-23` | 懬 | yes | yes | 心 | 廣 |
+| `03-23` | 獷 | yes | no |  |  |
+| `03-23` | 擴 | yes | yes | 手 | 廣 |
 | `03-24` | 皇 | yes | yes | 𤼽 | 王 |
 | `03-24` | 徨 | yes | no |  |  |
 | `03-24` | 偟 | yes | no |  |  |
@@ -1457,6 +1472,7 @@
 | `18-18` | 嘉 | yes | yes | 壴 | 加 |
 | `18-18` | 哿 | yes | no |  |  |
 | `18-18` | 賀 | yes | yes | 貝 | 加 |
+| `19-01` | 𢦚 | no | no |  |  |
 | `19-02` | 果 | yes | no |  |  |
 | `19-02` | 蜾 | yes | no |  |  |
 | `19-02` | 裹 | yes | yes | 衣 | 果 |
@@ -1472,6 +1488,8 @@
 | `19-02` | 婐 | yes | no |  |  |
 | `19-04` | 腡 | yes | yes | 肉 | 咼 |
 | `19-04` | 冎 | yes | no |  |  |
+| `19-06` | 媯 | yes | yes | 女 | 為 |
+| `19-21` | 座 | yes | yes | 广 | 坐 |
 | `19-22` | 𧴪 | yes | no |  |  |
 | `19-22` | 鎖 | yes | yes | 金 | 𧴪 |
 | `21-01` | 匃 | yes | no |  |  |

@@ -1,22 +1,25 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 139
-- Proposed additions inspected: 2439
-- Additions with reusable semantic assignment from existing TeX: 2439
-- Additions with reusable transliteration LaTeX from existing TeX: 2439
-- Additions with reusable render block from existing TeX: 2439
-- Additions with IDS-derived semantic candidates: 1702
-- Additions with explicit Wiktionary Han-compound support: 1200
-- Additions assigned to inherited hierarchy nodes: 2
-- Additions assigned under generated candidate nodes: 2176
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 52
+- Curated entries inspected: 146
+- Proposed additions inspected: 2457
+- Additions with reusable semantic assignment from existing TeX: 2457
+- Additions with reusable transliteration LaTeX from existing TeX: 2457
+- Additions with reusable render block from existing TeX: 2457
+- Additions with IDS-derived semantic candidates: 1714
+- Additions with explicit Wiktionary Han-compound support: 1213
+- Additions assigned to inherited hierarchy nodes: 3
+- Additions assigned under generated candidate nodes: 2184
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 56
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
 | `01-01` | 4 | 4 | 4 | 4 |
+| `01-18` | 0 | 0 | 0 | 0 |
+| `01-42` | 1 | 1 | 1 | 1 |
 | `01-43` | 2 | 2 | 2 | 2 |
 | `01-51` | 18 | 18 | 18 | 18 |
 | `01-57` | 2 | 2 | 2 | 2 |
+| `01-62` | 1 | 1 | 1 | 1 |
 | `02-01` | 37 | 37 | 37 | 37 |
 | `02-17` | 13 | 13 | 13 | 13 |
 | `02-25` | 17 | 17 | 17 | 17 |
@@ -24,6 +27,7 @@
 | `02-32` | 20 | 20 | 20 | 20 |
 | `02-38` | 12 | 12 | 12 | 12 |
 | `02-40` | 16 | 16 | 16 | 16 |
+| `03-23` | 13 | 13 | 13 | 13 |
 | `03-24` | 12 | 12 | 12 | 12 |
 | `03-26` | 13 | 13 | 13 | 13 |
 | `03-32` | 25 | 25 | 25 | 25 |
@@ -93,8 +97,11 @@
 | `17-05` | 14 | 14 | 14 | 14 |
 | `17-07` | 14 | 14 | 14 | 14 |
 | `18-18` | 7 | 7 | 7 | 7 |
+| `19-01` | 1 | 1 | 1 | 1 |
 | `19-02` | 13 | 13 | 13 | 13 |
 | `19-04` | 2 | 2 | 2 | 2 |
+| `19-06` | 1 | 1 | 1 | 1 |
+| `19-21` | 1 | 1 | 1 | 1 |
 | `19-22` | 2 | 2 | 2 | 2 |
 | `21-01` | 24 | 24 | 24 | 24 |
 | `23-07` | 13 | 13 | 13 | 13 |

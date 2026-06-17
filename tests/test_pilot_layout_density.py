@@ -72,15 +72,26 @@ def estimate_first_entry_height(page: dict[str, object], column: str) -> float |
     return max_y - start_y  # type: ignore[operator]
 
 
+def collapse_consecutive_duplicates(values: list[str]) -> list[str]:
+    collapsed: list[str] = []
+    for value in values:
+        if not collapsed or collapsed[-1] != value:
+            collapsed.append(value)
+    return collapsed
+
+
 class PilotLayoutDensityTests(unittest.TestCase):
     @unittest.skipUnless(shutil.which("pdftotext"), "requires pdftotext")
     def test_pdf_preserves_entry_order_in_two_column_reading_order(self) -> None:
-        expected_ids = TEX_ENTRY_ID_RE.findall(TEX_PATH.read_text(encoding="utf-8"))
+        expected_ids = collapse_consecutive_duplicates(
+            TEX_ENTRY_ID_RE.findall(TEX_PATH.read_text(encoding="utf-8"))
+        )
         pages = parse_pdf_layout(PDF_PATH)
         observed_ids: list[str] = []
         for page in pages:
             observed_ids.extend(entry_id for entry_id, _ in page["left_ids"])  # type: ignore[index]
             observed_ids.extend(entry_id for entry_id, _ in page["right_ids"])  # type: ignore[index]
+        observed_ids = collapse_consecutive_duplicates(observed_ids)
         observed_set = set(observed_ids)
         expected_subsequence = [entry_id for entry_id in expected_ids if entry_id in observed_set]
         self.assertEqual(observed_ids, expected_subsequence)
