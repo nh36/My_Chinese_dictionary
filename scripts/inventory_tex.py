@@ -25,6 +25,7 @@ CHINESE_CHAR_RE = re.compile(
     "\U0002CEB0-\U0002EBEF"
     "]"
 )
+IMAGE_CODEPOINT_RE = re.compile(r"U\+([0-9A-Fa-f]{4,6})\.png")
 
 
 def parse_braced(text: str, start_index: int) -> tuple[str, int]:
@@ -99,6 +100,19 @@ def find_macro_arguments(text: str, macro_name: str, has_optional_arg: bool = Fa
             cursor += 1
 
         search_from = cursor
+
+
+def image_argument_characters(arguments: list[str]) -> list[str]:
+    characters: list[str] = []
+    for argument in arguments:
+        match = IMAGE_CODEPOINT_RE.search(argument)
+        if not match:
+            continue
+        try:
+            characters.append(chr(int(match.group(1), 16)))
+        except ValueError:
+            continue
+    return characters
 
 
 def extract_paragraph_metadata(line: str) -> dict[str, Any] | None:
@@ -239,6 +253,7 @@ def collect_inventory(source_text: str, source_path: str = "main.tex") -> dict[s
         line_gsr_markers = GSR_RE.findall(comment or "")
         line_commented_pinyin = PINYIN_RE.findall(comment or "")
         line_chinese_characters = CHINESE_CHAR_RE.findall(line)
+        line_chinese_characters.extend(image_argument_characters(line_images))
 
         for image_file in line_images:
             image_refs.append({"file": image_file, "line_number": line_number})

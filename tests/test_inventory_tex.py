@@ -51,6 +51,7 @@ class InventoryTexTests(unittest.TestCase):
         self.assertEqual(first_entry["subsection"], "-ay")
         self.assertEqual(first_entry["max_itemize_depth"], 1)
         self.assertIn("U+26760.png", first_entry["image_refs"])
+        self.assertIn(chr(int("26760", 16)), first_entry["chinese_characters"])
         self.assertIn("khaX", first_entry["mc_forms"])
         self.assertIn("ke3", first_entry["commented_pinyin"])
 

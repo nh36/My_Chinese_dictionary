@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2538
-- Pages fetched / cached successfully: 2505
-- Additions with explicit Han-compound semantic/phonetic roles: 1259
+- Proposed additions checked: 2595
+- Pages fetched / cached successfully: 2562
+- Additions with explicit Han-compound semantic/phonetic roles: 1279
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -812,6 +812,20 @@
 | `09-01` | 莖 | yes | yes | 艸 | 巠 |
 | `09-01` | 俓 | yes | no |  |  |
 | `09-01` | 䞓 | yes | no |  |  |
+| `09-09` | 熒 | yes | no |  |  |
+| `09-09` | 檾 | yes | no |  |  |
+| `09-09` | 塋 | yes | no |  |  |
+| `09-09` | 榮 | yes | yes | 木 | 熒 |
+| `09-09` | 禜 | yes | yes | 示 | 榮 |
+| `09-09` | 營 | yes | yes | 宮 | 熒 |
+| `09-09` | 煢 | yes | no |  |  |
+| `09-09` | 縈 | yes | no |  |  |
+| `09-09` | 螢 | yes | no |  |  |
+| `09-09` | 謍 | yes | no |  |  |
+| `09-09` | 瑩 | yes | yes | 玉 | 熒 |
+| `09-09` | 鶯 | yes | no |  |  |
+| `09-09` | 嶸 | yes | yes | 山 | 榮 |
+| `09-09` | 罃 | yes | no |  |  |
 | `09-11` | 丁 | yes | no |  |  |
 | `09-11` | 頂 | yes | yes | 頁 | 丁 |
 | `09-11` | 汀 | yes | yes | 水 | 丁 |
@@ -1570,6 +1584,20 @@
 | `21-31` | 黻 | yes | no |  |  |
 | `21-31` | 帗 | yes | no |  |  |
 | `21-31` | 祓 | yes | no |  |  |
+| `22-13` | 兌 | yes | yes | 儿 | 㕣 |
+| `22-13` | 駾 | yes | no |  |  |
+| `22-13` | 蛻 | yes | no |  |  |
+| `22-13` | 銳 | yes | yes | 釒 | 兌 |
+| `22-13` | 帨 | yes | no |  |  |
+| `22-13` | 涗 | yes | no |  |  |
+| `22-13` | 稅 | yes | yes | 禾 | 兌 |
+| `22-13` | 敓 | yes | no |  |  |
+| `22-13` | 挩 | yes | no |  |  |
+| `22-13` | 脫 | yes | yes | 肉 | 兌 |
+| `22-13` | 梲 | yes | no |  |  |
+| `22-13` | 悅 | yes | yes | 心 | 兌 |
+| `22-13` | 閱 | yes | yes | 門 | 兌 |
+| `22-13` | 說 | yes | yes | 言 | 兌 |
 | `23-07` | 柬 | yes | no |  |  |
 | `23-07` | 諫 | yes | yes | 言 | 柬 |
 | `23-07` | 揀 | yes | yes | 手 | 柬 |
@@ -2310,6 +2338,22 @@
 | `34-13` | 輝 | yes | yes | 光 | 軍 |
 | `34-13` | 楎 | yes | no |  |  |
 | `34-13` | 翬 | yes | no |  |  |
+| `34-18` | 𦎧 | yes | no |  |  |
+| `34-18` | 淳 | yes | yes | 水 | 𦎧 |
+| `34-18` | 醇 | yes | yes | 酉 | 𦎧 |
+| `34-18` | 錞 | yes | no |  |  |
+| `34-18` | 鐓 | yes | no |  |  |
+| `34-18` | 鶉 | yes | no |  |  |
+| `34-18` | 諄 | yes | yes | 言 | 𦎧 |
+| `34-18` | 犉 | yes | no |  |  |
+| `34-18` | 惇 | yes | no |  |  |
+| `34-18` | 蜳 | yes | no |  |  |
+| `34-18` | 敦 | yes | yes | 攴 | 𦎫 |
+| `34-18` | 焞 | yes | no |  |  |
+| `34-18` | 暾 | yes | no |  |  |
+| `34-18` | 啍 | yes | no |  |  |
+| `34-18` | 憝 | yes | no |  |  |
+| `34-18` | 譈 | yes | no |  |  |
 | `34-23` | 允 | yes | no |  |  |
 | `34-23` | 浚 | yes | yes | 水 | 夋 |
 | `34-23` | 踆 | yes | no |  |  |
@@ -2465,6 +2509,19 @@
 | `37-01` | 潝 | yes | no |  |  |
 | `37-01` | 闟 | yes | yes | 門 | 翕 |
 | `37-01` | 拾 | yes | yes | 手 | 合 |
+| `37-16` | 入 | yes | no |  |  |
+| `37-16` | 內 | yes | no |  |  |
+| `37-16` | 納 | yes | yes | 糸 | 内 |
+| `37-16` | 軜 | yes | no |  |  |
+| `37-16` | 訥 | yes | yes | 言 | 內 |
+| `37-16` | 吶 | yes | no | 口 |  |
+| `37-16` | 㕯 | yes | no |  |  |
+| `37-16` | 枘 | yes | no |  |  |
+| `37-16` | 汭 | yes | no |  |  |
+| `37-16` | 蚋 | yes | yes | 虫 | 內 |
+| `37-16` | 芮 | yes | yes | 艸 | 內 |
+| `37-16` | 焫 | yes | no |  |  |
+| `37-16` | 蜹 | yes | no |  |  |
 | `38-03` | 今 | yes | no |  |  |
 | `38-03` | 𩃬 | yes | yes | 雲 | 今 |
 | `38-03` | 蔭 | yes | yes | 艸 | 陰 |

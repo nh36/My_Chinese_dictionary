@@ -73,6 +73,7 @@ def extract_head_data(entry: dict[str, Any]) -> dict[str, Any]:
         heading_extra_raw, "includegraphics", has_optional_arg=True
     )
     head_characters = inventory_tex.CHINESE_CHAR_RE.findall(head_raw + heading_extra_raw)
+    head_characters.extend(inventory_tex.image_argument_characters(head_images + extra_images))
 
     if head_images:
         head_type = "image"

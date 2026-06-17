@@ -1384,7 +1384,39 @@
         "source": "generated_subseries_head",
         "semantic_component": null
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "kam",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "k\\textoverset{a}{a}m",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "ḫaemX",
+          "lamX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḫaemX",
+            "normalized": "ḫaem",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "lamX",
+            "normalized": "lam",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "k\\textoverset{a}{a}m",
+        "ordinal": 1,
+        "numbering_source": "document_order_occurrence"
+      }
     },
     {
       "character": "檻",
@@ -1780,8 +1812,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kam\\textsuperscript{˸man}}},",
-      "render_latex": "擥\t%lan3\n{\\large{kam\\textsuperscript{˸man}}},\n\\textit{lamX};\t%0609i",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸man}}},",
+      "render_latex": "擥\t%lan3\n{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸man}}},\n\\textit{lamX};\t%0609i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2385,7 +2417,7 @@
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "k\\textoverset{a}{a}m",
+        "display_root": "k\\textoverset{a}{a}m₂",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": true,
@@ -2401,7 +2433,7 @@
           }
         ],
         "base_root": "k\\textoverset{a}{a}m",
-        "ordinal": 1,
+        "ordinal": 2,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -2839,8 +2871,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m}},",
-      "render_latex": "攬\t%lan3\n{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m}},\n\\textit{lamX};\t%0609o",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m₂}},",
+      "render_latex": "攬\t%lan3\n{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m₂}},\n\\textit{lamX};\t%0609o",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "覽",

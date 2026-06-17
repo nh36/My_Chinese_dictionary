@@ -21,6 +21,7 @@ SAMPLE_TEX = r"""
 \textit{khaX};	%0001a
 \begin{itemize}[noitemsep]
 \item {\Large{何}} \textit{ḫa};	%0001f
+\item {\includegraphics[width=5mm]{U+26760.png}}
 \end{itemize}
 \paragraph{\textoversetlarge{01-67}{\huge{父}}}{\huge{(}}{\includegraphics[width=6mm]{父.png}}{\huge{)}}
 {\large{pa}},
@@ -44,6 +45,7 @@ class ExtractTexEntriesTests(unittest.TestCase):
         self.assertIn("\\textit{khaX}", first_entry["raw_block"])
         self.assertIn("{\\Large{qay}},", first_entry["raw_body"])
         self.assertEqual(first_entry["context_environments"], [])
+        self.assertIn(chr(int("26760", 16)), first_entry["chinese_characters"])
 
         self.assertEqual(second_entry["id"], "01-67")
         self.assertEqual(second_entry["head"]["type"], "character_with_image")
