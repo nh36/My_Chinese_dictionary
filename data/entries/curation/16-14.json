@@ -2277,7 +2277,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "翹",
+          "ids": "⿺堯羽",
+          "phonetic_component": "堯",
+          "semantic_component": "羽",
+          "position": "suffix-dot",
+          "abbreviation": "plum",
+          "inventory_matches": [
+            {
+              "graph_raw": "羽",
+              "label_token": "plum(a)",
+              "abbreviation": "plum",
+              "start_line": 304
+            },
+            {
+              "graph_raw": "羽",
+              "label_token": "plum",
+              "abbreviation": "plum",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "plum",
@@ -2504,7 +2529,7 @@
               "label_token": "lap",
               "abbreviation": "lap",
               "learned": true,
-              "evidence_count": 4
+              "evidence_count": 5
             }
           ]
         }
@@ -2525,7 +2550,7 @@
             "label_token": "lap",
             "abbreviation": "lap",
             "learned": true,
-            "evidence_count": 4
+            "evidence_count": 5
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2555,7 +2580,7 @@
               "label_token": "lap",
               "abbreviation": "lap",
               "learned": true,
-              "evidence_count": 4
+              "evidence_count": 5
             }
           ],
           "template_raw": "{{Han compound|石|堯|c1=s|c2=p|t1=stone|ls=psc}}"
@@ -4422,7 +4447,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -4443,7 +4468,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -4473,7 +4498,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|ls=psc|手|alt1=扌|堯|c1=s|c2=p|t1=hand}}"

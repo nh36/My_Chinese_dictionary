@@ -36,6 +36,8 @@ COMPONENT_ALIASES = {
     "玨": "玉",
     "珡": "玉",
     "黄": "黃",
+    "㐌": "它",
+    "𧘇": "衣",
     "礻": "示",
     "衤": "衣",
     "忄": "心",
@@ -368,7 +370,7 @@ def resolve_semantic_from_ids(
     if not isinstance(tree, dict):
         return None
     children = tree["children"]
-    if len(children) != 2:
+    if len(children) < 2:
         return None
 
     phonetic_norm = normalize_component_graph(phonetic_component)
@@ -403,33 +405,37 @@ def resolve_semantic_from_ids(
                 return normalize_component_graph(first_child)
         return None
 
-    left_matches = subtree_contains(children[0], phonetic_norm)
-    right_matches = subtree_contains(children[1], phonetic_norm)
+    matches = [subtree_contains(child, phonetic_norm) for child in children]
+    if sum(1 for matched in matches if matched) != 1:
+        return None
+    phonetic_index = matches.index(True)
 
-    semantic_component = None
+    semantic_candidates: list[tuple[int, str]] = []
+    preferred_semantic_candidates: list[tuple[int, str]] = []
+    for index, child in enumerate(children):
+        if index == phonetic_index:
+            continue
+        head = subtree_head(child)
+        if not head:
+            continue
+        semantic_candidates.append((index, head))
+        if graph_lookup.get(head):
+            preferred_semantic_candidates.append((index, head))
+
+    chosen_candidates = preferred_semantic_candidates or semantic_candidates
+    if len(chosen_candidates) != 1:
+        return None
+    semantic_index, semantic_component = chosen_candidates[0]
+
     position = None
-    if operator == "⿰":
-        if right_matches and not left_matches:
-            semantic_component = subtree_head(children[0])
-            position = "prefix-dot"
-        elif left_matches and not right_matches:
-            semantic_component = subtree_head(children[1])
-            position = "suffix-dot"
-    elif operator == "⿱":
-        if right_matches and not left_matches:
-            semantic_component = subtree_head(children[0])
-            position = "prefix-colon"
-        elif left_matches and not right_matches:
-            semantic_component = subtree_head(children[1])
-            position = "suffix-colon"
+    if operator in {"⿰", "⿲"}:
+        position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+    elif operator in {"⿱", "⿳"}:
+        position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
     elif operator in {"⿸", "⿷", "⿺", "⿹"}:
-        if right_matches and not left_matches:
-            semantic_component = subtree_head(children[0])
-            position = "prefix-dot"
+        position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
     elif operator in {"⿴", "⿵", "⿶"}:
-        if right_matches and not left_matches:
-            semantic_component = subtree_head(children[0])
-            position = "prefix-colon"
+        position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
 
     if semantic_component is None or position is None:
         return None
@@ -577,7 +583,7 @@ def resolve_semantic_from_packet_family(
         tree, _ = parse_ids_expression(ids)
     except Exception:
         return None
-    if not isinstance(tree, dict) or len(tree.get("children", [])) != 2:
+    if not isinstance(tree, dict) or len(tree.get("children", [])) < 2:
         return None
 
     def subtree_has_packet_component(node: Any) -> bool:
@@ -615,26 +621,40 @@ def resolve_semantic_from_packet_family(
             return preferred[0]
         return fallback[0] if fallback else None
 
-    left = tree["children"][0]
-    right = tree["children"][1]
-    left_match = subtree_has_packet_component(left)
-    right_match = subtree_has_packet_component(right)
-    if left_match == right_match:
+    children = tree["children"]
+    matches = [subtree_has_packet_component(child) for child in children]
+    if sum(1 for matched in matches if matched) != 1:
         return None
+    phonetic_index = matches.index(True)
 
-    semantic_component = subtree_head(right if left_match else left)
+    semantic_candidates: list[tuple[int, str]] = []
+    preferred_semantic_candidates: list[tuple[int, str]] = []
+    for index, child in enumerate(children):
+        if index == phonetic_index:
+            continue
+        head = subtree_head(child)
+        if not head:
+            continue
+        semantic_candidates.append((index, head))
+        if graph_lookup.get(head):
+            preferred_semantic_candidates.append((index, head))
+
+    chosen_candidates = preferred_semantic_candidates or semantic_candidates
+    if len(chosen_candidates) != 1:
+        return None
+    semantic_index, semantic_component = chosen_candidates[0]
     inventory_matches = graph_lookup.get(semantic_component, [])
     abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
 
     operator = tree["op"]
-    if operator == "⿰":
-        position = "suffix-dot" if left_match else "prefix-dot"
-    elif operator == "⿱":
-        position = "suffix-colon" if left_match else "prefix-colon"
+    if operator in {"⿰", "⿲"}:
+        position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
+    elif operator in {"⿱", "⿳"}:
+        position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
     elif operator in {"⿸", "⿷", "⿺", "⿹"}:
-        position = "suffix-dot" if left_match else "prefix-dot"
+        position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
     elif operator in {"⿴", "⿵", "⿶"}:
-        position = "suffix-colon" if left_match else "prefix-colon"
+        position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
     else:
         return None
 
@@ -1391,7 +1411,8 @@ def resolve_parent_display_root_for_candidate(
         parent = candidate_map.get(assignment.get("parent_character"))
         if parent:
             node_root = parent.get("resolved_node_root") or {}
-            return node_root.get("display_root") or node_root.get("root")
+            if node_root.get("display_root") or node_root.get("root"):
+                return node_root.get("display_root") or node_root.get("root")
     if entry.get("packet_kind") == "missing_series":
         resolved = entry.get("resolved_series_root") or {}
         return resolved.get("display_root") or resolved.get("root")

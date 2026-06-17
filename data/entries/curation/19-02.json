@@ -1001,7 +1001,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "裹",
+          "ids": "⿳亠果𧘇",
+          "phonetic_component": "果",
+          "semantic_component": "衣",
+          "position": "suffix-colon",
+          "abbreviation": "vest",
+          "inventory_matches": [
+            {
+              "graph_raw": "衣",
+              "label_token": "vest(imentum)",
+              "abbreviation": "vest",
+              "start_line": 362
+            },
+            {
+              "graph_raw": "衣",
+              "label_token": "vest",
+              "abbreviation": "vest",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
       "transliteration_latex": "{\\large{\\textsuperscript{vest˸}kor}},",
       "render_latex": "裹\t%guo3 / guǒ\n{\\large{\\textsuperscript{vest˸}kor}},\n\\textit{kwaX};\t%0351d",
       "wiktionary_semantic_validation": {

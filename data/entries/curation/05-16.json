@@ -901,7 +901,18 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "式",
+          "ids": "⿹弋工",
+          "phonetic_component": "弋",
+          "semantic_component": "工",
+          "position": "suffix-dot",
+          "abbreviation": "工",
+          "inventory_matches": []
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "工",
@@ -1087,7 +1098,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "忒",
+          "ids": "⿹弋心",
+          "phonetic_component": "弋",
+          "semantic_component": "心",
+          "position": "suffix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 219
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 12
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cor",
@@ -1675,7 +1711,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -1696,7 +1732,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1726,7 +1762,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=⺘|式|ls=psc|c1=s|c2=p|t1=hand}}"

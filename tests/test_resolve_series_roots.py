@@ -64,6 +64,24 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved["root"], "kap")
         self.assertEqual(resolved["source"], "packet_bs_majority")
 
+    def test_resolve_root_shengfu_head_fallback(self) -> None:
+        entry = {
+            "packet_kind": "missing_series",
+            "schuessler": {"k_tokens": ["1182"]},
+            "proposed_additions": [
+                {
+                    "character": "廾",
+                    "mand2mc_rows": [{"gsr": "1182a"}],
+                    "bs_gsr_rows": [],
+                    "shengfu_character_rows": [{"oc_syllable": "koŋ"}],
+                }
+            ],
+        }
+        resolved = resolve_series_roots.resolve_root(entry)
+        self.assertEqual(resolved["root"], "koṅ")
+        self.assertEqual(resolved["character"], "廾")
+        self.assertEqual(resolved["source"], "head_graph_oc_shengfu")
+
 
 if __name__ == "__main__":
     unittest.main()

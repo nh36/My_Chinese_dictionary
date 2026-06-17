@@ -603,8 +603,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{ram}},",
-      "render_latex": "炎\t%tan2 / yan2 / yan4\n{\\large{ram}},\n\\textit{dam};\t%0617a\n\\textit{hiem};\n\\textit{yiemH};",
+      "transliteration_latex": "{\\large{qam}},",
+      "render_latex": "炎\t%tan2 / yan2 / yan4\n{\\large{qam}},\n\\textit{dam};\t%0617a\n\\textit{hiem};\n\\textit{yiemH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -1166,7 +1166,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -1187,7 +1187,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1217,7 +1217,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|炎|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -4361,16 +4361,23 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "炎",
+      "gsr": null,
+      "oc_bs": "*ɢʳam",
+      "root": "qam",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
-    "root": "ram",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*N-r[a]mʔ",
+    "root": "qam",
+    "source": "head_graph_oc_shengfu",
+    "character": "炎",
+    "oc_bs": "*ɢʳam",
     "confidence": "provisional-oc",
-    "supporting_characters": 2,
-    "display_root": "ram",
-    "base_root": "ram",
+    "display_root": "qam",
+    "base_root": "qam",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

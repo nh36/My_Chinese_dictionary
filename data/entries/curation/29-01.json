@@ -1350,7 +1350,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -1371,7 +1371,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1401,7 +1401,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|吉|lang=vi|alt1=扌|c1=s|c2=p|t1=[[hand]]|tr2={{vi-l|cát}}"
@@ -2999,7 +2999,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -4499,14 +4499,21 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "吉",
+      "gsr": null,
+      "oc_bs": "*kid",
+      "root": "kit",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
     "root": "kit",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*kʰit {*[kʰ]i[t]}",
+    "source": "head_graph_oc_shengfu",
+    "character": "吉",
+    "oc_bs": "*kid",
     "confidence": "provisional-oc",
-    "supporting_characters": 8,
     "display_root": "kit",
     "base_root": "kit",
     "ordinal": 1,

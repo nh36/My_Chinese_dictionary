@@ -2598,7 +2598,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "懬",
+          "ids": "⿸廣心",
+          "phonetic_component": "黃",
+          "semantic_component": "心",
+          "position": "suffix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 219
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 12
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "cor",
@@ -2961,7 +2986,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2982,7 +3007,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3012,7 +3037,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|廣|alt1=扌|c1=s|c2=p|t1=hand|ls=psc}}"

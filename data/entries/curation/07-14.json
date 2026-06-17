@@ -2535,7 +2535,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2556,7 +2556,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2586,7 +2586,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|t1=hand|是|ls=psc|c1=s|c2=p}}"
@@ -2852,7 +2852,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "題",
+          "ids": "⿺是頁",
+          "phonetic_component": "是",
+          "semantic_component": "頁",
+          "position": "suffix-dot",
+          "abbreviation": "fac",
+          "inventory_matches": [
+            {
+              "graph_raw": "頁",
+              "label_token": "fac(ies)",
+              "abbreviation": "fac",
+              "start_line": 245
+            },
+            {
+              "graph_raw": "頁",
+              "label_token": "fac",
+              "abbreviation": "fac",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "fac",

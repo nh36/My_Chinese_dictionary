@@ -1519,7 +1519,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "翅",
+          "ids": "⿺支羽",
+          "phonetic_component": "支",
+          "semantic_component": "羽",
+          "position": "suffix-dot",
+          "abbreviation": "plum",
+          "inventory_matches": [
+            {
+              "graph_raw": "羽",
+              "label_token": "plum(a)",
+              "abbreviation": "plum",
+              "start_line": 304
+            },
+            {
+              "graph_raw": "羽",
+              "label_token": "plum",
+              "abbreviation": "plum",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "plum",
@@ -2486,7 +2511,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2507,7 +2532,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2537,7 +2562,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|t1=hand|支|ls=psc|c1=s|c2=p}}"

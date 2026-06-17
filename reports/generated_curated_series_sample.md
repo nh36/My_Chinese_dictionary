@@ -69,7 +69,9 @@
 | `12-08` | `missing_series` | no | 24 | 21 |
 | `12-10` | `missing_series` | no | 18 | 16 |
 | `12-25` | `missing_series` | no | 23 | 20 |
+| `13-03` | `missing_series` | no | 9 | 6 |
 | `13-22` | `missing_series` | no | 18 | 17 |
+| `13-30` | `missing_series` | no | 15 | 12 |
 | `13-32` | `missing_series` | no | 19 | 12 |
 | `13-36` | `missing_series` | no | 15 | 14 |
 | `13-45` | `missing_series` | no | 20 | 19 |
@@ -86,10 +88,12 @@
 | `16-20` | `missing_series` | no | 23 | 22 |
 | `16-21` | `missing_series` | no | 15 | 13 |
 | `16-24` | `missing_series` | no | 17 | 16 |
+| `16-30` | `missing_series` | no | 13 | 12 |
 | `16-31` | `missing_series` | no | 13 | 12 |
 | `16-33` | `missing_series` | no | 24 | 22 |
 | `17-05` | `missing_series` | no | 14 | 13 |
 | `17-07` | `missing_series` | no | 14 | 13 |
+| `18-09` | `existing_addendum` | yes | 2 | 0 |
 | `18-18` | `existing_addendum` | yes | 7 | 6 |
 | `19-01` | `existing_addendum` | yes | 1 | 0 |
 | `19-02` | `missing_series` | no | 13 | 11 |
@@ -98,6 +102,7 @@
 | `19-21` | `existing_addendum` | yes | 1 | 0 |
 | `19-22` | `existing_addendum` | yes | 2 | 1 |
 | `21-01` | `missing_series` | no | 24 | 23 |
+| `21-31` | `missing_series` | no | 15 | 14 |
 | `23-07` | `missing_series` | no | 13 | 12 |
 | `23-27` | `missing_series` | no | 13 | 12 |
 | `24-01` | `missing_series` | no | 31 | 27 |
@@ -143,7 +148,9 @@
 | `34-13` | `missing_series` | no | 14 | 13 |
 | `34-23` | `missing_series` | no | 25 | 23 |
 | `35-03` | `missing_series` | no | 13 | 12 |
+| `35-10` | `missing_series` | no | 13 | 12 |
 | `35-21` | `missing_series` | no | 15 | 14 |
+| `36-05` | `missing_series` | no | 14 | 10 |
 | `36-07` | `missing_series` | no | 13 | 12 |
 | `36-11` | `missing_series` | no | 14 | 13 |
 | `36-12` | `missing_series` | no | 16 | 14 |

@@ -49,6 +49,8 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             "姑": "⿰女古",
             "團": "⿴囗專",
             "簧": "⿱竹黄",
+            "𨠑": "⿰酉㐌",
+            "褏": "⿳亠⿰③由𧘇",
         }
         inventory_lookup = {
             "木": [{"graph_raw": "木", "label_token": "arb(or)", "abbreviation": "arb"}],
@@ -56,6 +58,8 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             "艸": [{"graph_raw": "艸", "label_token": "herb(a)", "abbreviation": "herb"}],
             "囗": [{"graph_raw": "囗", "label_token": "cla(usum)", "abbreviation": "cla"}],
             "竹": [{"graph_raw": "竹", "label_token": "bamb(us)", "abbreviation": "bamb"}],
+            "酉": [{"graph_raw": "酉", "label_token": "vin(um)", "abbreviation": "vin"}],
+            "衣": [{"graph_raw": "衣", "label_token": "vest(imentum)", "abbreviation": "vest"}],
         }
         left = build_semantic_evidence.resolve_semantic_from_ids(
             character="枷",
@@ -87,6 +91,18 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             ids_map=ids_map,
             graph_lookup=inventory_lookup,
         )
+        component_alias = build_semantic_evidence.resolve_semantic_from_ids(
+            character="𨠑",
+            phonetic_component="它",
+            ids_map=ids_map,
+            graph_lookup=inventory_lookup,
+        )
+        trinary = build_semantic_evidence.resolve_semantic_from_ids(
+            character="褏",
+            phonetic_component="由",
+            ids_map=ids_map,
+            graph_lookup=inventory_lookup,
+        )
         self.assertEqual(left["position"], "prefix-dot")
         self.assertEqual(left["abbreviation"], "arb")
         self.assertEqual(above["position"], "prefix-colon")
@@ -96,6 +112,10 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(enclosure["abbreviation"], "cla")
         self.assertEqual(normalized_component["position"], "prefix-colon")
         self.assertEqual(normalized_component["abbreviation"], "bamb")
+        self.assertEqual(component_alias["position"], "prefix-dot")
+        self.assertEqual(component_alias["abbreviation"], "vin")
+        self.assertEqual(trinary["position"], "suffix-colon")
+        self.assertEqual(trinary["abbreviation"], "vest")
 
     def test_compose_transliteration_from_root(self) -> None:
         self.assertEqual(
@@ -129,9 +149,10 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["position"], "suffix-colon")
 
     def test_resolve_semantic_from_packet_family(self) -> None:
-        ids_map = {"眙": "⿰目台"}
+        ids_map = {"眙": "⿰目台", "褏": "⿳亠⿰③由𧘇"}
         graph_lookup = {
             "目": [{"graph_raw": "目", "label_token": "ocul(us)", "abbreviation": "ocul"}],
+            "衣": [{"graph_raw": "衣", "label_token": "vest(imentum)", "abbreviation": "vest"}],
         }
         resolved = build_semantic_evidence.resolve_semantic_from_packet_family(
             character="眙",
@@ -139,8 +160,16 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             graph_lookup=graph_lookup,
             packet_family={"台", "以"},
         )
+        trinary = build_semantic_evidence.resolve_semantic_from_packet_family(
+            character="褏",
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+            packet_family={"由", "柚", "油"},
+        )
         self.assertEqual(resolved["abbreviation"], "ocul")
         self.assertEqual(resolved["position"], "prefix-dot")
+        self.assertEqual(trinary["abbreviation"], "vest")
+        self.assertEqual(trinary["position"], "suffix-colon")
 
     def test_resolve_semantic_from_parent_ids(self) -> None:
         ids_map = {
@@ -284,6 +313,26 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             by_character["㡃"]["hierarchy_assignment"]["parent_character"],
             "亡",
         )
+
+    def test_resolve_parent_display_root_falls_back_to_series_root_when_parent_node_root_missing(self) -> None:
+        entry = {
+            "packet_kind": "missing_series",
+            "resolved_series_root": {"root": "koṅ", "display_root": "koṅ"},
+        }
+        parent = {"character": "廾", "resolved_node_root": None}
+        child = {
+            "character": "共",
+            "hierarchy_assignment": {
+                "status": "assigned-to-candidate-node",
+                "parent_character": "廾",
+            },
+        }
+        root = build_semantic_evidence.resolve_parent_display_root_for_candidate(
+            entry,
+            child,
+            {"廾": parent, "共": child},
+        )
+        self.assertEqual(root, "koṅ")
 
 
 if __name__ == "__main__":

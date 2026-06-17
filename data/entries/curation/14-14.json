@@ -411,9 +411,9 @@
           "pinyins": []
         }
       ],
-      "render_latex": "賣\t%mai4\n{\\large{\\textsuperscript{ex˸}lok}},\n\\textit{yuwk};\t%1023a",
+      "render_latex": "賣\t%mai4\n{\\large{\\textsuperscript{ex˸}me}},\n\\textit{yuwk};\t%1023a",
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{ex˸}lok}},",
+      "transliteration_latex": "{\\large{\\textsuperscript{ex˸}me}},",
       "wiktionary_semantic_validation": {
         "semantic_component": "出",
         "phonetic_component": "買",
@@ -2388,8 +2388,8 @@
         "source": "wiktionary_component_literal_fallback",
         "semantic_component": "誩"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{誩·}lok}},",
-      "render_latex": "讟\t%du2\n{\\large{\\textsuperscript{誩·}lok}},\n\\textit{duwk};\t%1023n",
+      "transliteration_latex": "{\\large{\\textsuperscript{誩·}me}},",
+      "render_latex": "讟\t%du2\n{\\large{\\textsuperscript{誩·}me}},\n\\textit{duwk};\t%1023n",
       "wiktionary_semantic_validation": {
         "semantic_component": "誩",
         "phonetic_component": "𧶠",
@@ -4988,16 +4988,23 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "賣",
+      "gsr": null,
+      "oc_bs": "*mʳe̠s",
+      "root": "me",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
-    "root": "lok",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*ˤok {*lˤok}",
+    "root": "me",
+    "source": "head_graph_oc_shengfu",
+    "character": "賣",
+    "oc_bs": "*mʳe̠s",
     "confidence": "provisional-oc",
-    "supporting_characters": 6,
-    "display_root": "lok",
-    "base_root": "lok",
+    "display_root": "me",
+    "base_root": "me",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

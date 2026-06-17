@@ -1482,7 +1482,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "魁",
+          "ids": "⿺鬼斗",
+          "phonetic_component": "鬼",
+          "semantic_component": "斗",
+          "position": "suffix-dot",
+          "abbreviation": "trull",
+          "inventory_matches": [
+            {
+              "graph_raw": "斗",
+              "label_token": "trull(a)",
+              "abbreviation": "trull",
+              "start_line": 343
+            },
+            {
+              "graph_raw": "斗",
+              "label_token": "trull",
+              "abbreviation": "trull",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "trull",

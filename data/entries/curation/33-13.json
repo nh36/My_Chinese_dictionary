@@ -1315,7 +1315,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "蜃",
+          "ids": "⿸辰虫",
+          "phonetic_component": "辰",
+          "semantic_component": "虫",
+          "position": "suffix-dot",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 321
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "serp",
@@ -1740,7 +1765,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -1761,7 +1786,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1791,7 +1816,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|辰|ls=psc|c1=s|c2=p}}"
@@ -2676,7 +2701,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "脣",
+          "ids": "⿸辰月",
+          "phonetic_component": "辰",
+          "semantic_component": "月",
+          "position": "suffix-dot",
+          "abbreviation": "luna",
+          "inventory_matches": [
+            {
+              "graph_raw": "月",
+              "label_token": "luna",
+              "abbreviation": "luna",
+              "start_line": 271
+            },
+            {
+              "graph_raw": "月",
+              "label_token": "carn",
+              "abbreviation": "carn",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "carn",

@@ -233,6 +233,7 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
 
     for candidate in entry.get("proposed_additions", []):
         rows = candidate.get("mand2mc_rows", []) + candidate.get("bs_gsr_rows", [])
+        matched_header_token = False
         for row in rows:
             parts = split_gsr(row.get("gsr"))
             if parts is None:
@@ -240,6 +241,7 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
             digits, suffix = parts
             if digits not in header_tokens or suffix not in {"", "a"}:
                 continue
+            matched_header_token = True
 
             oc_bs = row.get("oc_bs")
             root = derive_oc_root(oc_bs, mode="broad")
@@ -252,6 +254,24 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
                     "oc_bs": oc_bs,
                     "root": root,
                     "source": "head_graph_oc_bs",
+                }
+            )
+        if not matched_header_token:
+            continue
+        for row in candidate.get("shengfu_character_rows", []):
+            oc_syllable = row.get("oc_syllable")
+            if not oc_syllable:
+                continue
+            root = derive_oc_root(f"*{oc_syllable}", mode="broad")
+            if not root:
+                continue
+            candidates.append(
+                {
+                    "character": candidate["character"],
+                    "gsr": None,
+                    "oc_bs": f"*{oc_syllable}",
+                    "root": root,
+                    "source": "head_graph_oc_shengfu",
                 }
             )
 

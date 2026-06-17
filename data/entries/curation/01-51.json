@@ -228,7 +228,38 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "盧",
+          "ids": "⿸虍⿱田皿",
+          "phonetic_component": "虍",
+          "semantic_component": "田",
+          "position": "suffix-dot",
+          "abbreviation": "ager",
+          "inventory_matches": [
+            {
+              "graph_raw": "田",
+              "label_token": "ager",
+              "abbreviation": "ager",
+              "start_line": 176
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "forn(us)",
+              "abbreviation": "forn",
+              "start_line": 250
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "ag",
+              "abbreviation": "ag",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ]
+        }
+      ],
       "transliteration_latex": "{\\large{ra}},",
       "render_latex": "盧\t%lu2\n{\\large{ra}},\n\\textit{lu};\t%0069d",
       "wiktionary_semantic_validation": null,
@@ -443,7 +474,32 @@
       },
       "transliteration_latex": "{\\large{ra\\textsuperscript{·masc}}},",
       "render_latex": "虜\t%lu3\n{\\large{ra\\textsuperscript{·masc}}},\n\\textit{luX};\t%0069e",
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "虜",
+          "ids": "⿸虍男",
+          "phonetic_component": "虍",
+          "semantic_component": "男",
+          "position": "suffix-dot",
+          "abbreviation": "masc",
+          "inventory_matches": [
+            {
+              "graph_raw": "男",
+              "label_token": "masc(ulus)",
+              "abbreviation": "masc",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "男",
+              "label_token": "masc",
+              "abbreviation": "masc",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null
@@ -557,7 +613,25 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "慮",
+          "ids": "⿸虍思",
+          "phonetic_component": "虍",
+          "semantic_component": "思",
+          "position": "suffix-dot",
+          "abbreviation": "cogit",
+          "inventory_matches": [
+            {
+              "graph_raw": "思",
+              "label_token": "cogit(o)",
+              "abbreviation": "cogit",
+              "start_line": 213
+            }
+          ]
+        }
+      ],
       "transliteration_latex": "{\\large{\\textsuperscript{cogit·}ra}},",
       "render_latex": "慮\t%lü4 / lǜ\n{\\large{\\textsuperscript{cogit·}ra}},\n\\textit{liəH};\t%0069f",
       "wiktionary_semantic_validation": {
@@ -816,7 +890,32 @@
       },
       "transliteration_latex": "{\\large{\\textsuperscript{carn·}ra₃}},",
       "render_latex": "膚\t%fu1 / fū\n{\\large{\\textsuperscript{carn·}ra₃}},\n\\textit{piu};\t%0069g",
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "膚",
+          "ids": "⿸虍胃",
+          "phonetic_component": "虍",
+          "semantic_component": "胃",
+          "position": "suffix-dot",
+          "abbreviation": "ventri",
+          "inventory_matches": [
+            {
+              "graph_raw": "胃",
+              "label_token": "ventri(culus)",
+              "abbreviation": "ventri",
+              "start_line": 360
+            },
+            {
+              "graph_raw": "胃",
+              "label_token": "ventri",
+              "abbreviation": "ventri",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "wiktionary_semantic_validation": {
         "semantic_component": "肉",
         "phonetic_component": "盧",
@@ -3113,7 +3212,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3142,7 +3241,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -3169,7 +3268,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|慮|ls=psc|c1=s|c2=p}}"

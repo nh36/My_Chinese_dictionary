@@ -524,8 +524,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{lak}},",
-      "render_latex": "睪\t%yi4\n{\\large{lak}},\n\\textit{yiek};\t%0790a",
+      "transliteration_latex": "{\\large{ɡ‧lak}},",
+      "render_latex": "睪\t%yi4\n{\\large{ɡ‧lak}},\n\\textit{yiek};\t%0790a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -2088,7 +2088,7 @@
               "label_token": "oryz",
               "abbreviation": "oryz",
               "learned": true,
-              "evidence_count": 2
+              "evidence_count": 3
             }
           ]
         }
@@ -2563,7 +2563,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2584,7 +2584,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2614,7 +2614,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|睪|c1=s|c2=p|t1=hand|ls=psc}}"
@@ -2630,13 +2630,13 @@
         "phonetic_hint": "睪"
       },
       "resolved_node_root": {
-        "root": "lak",
+        "root": "ɡ‧lak",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "l\\textoverset{a}{a}k",
+        "display_root": "ɡ‧l\\textoverset{a}{a}k",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": true,
@@ -2658,7 +2658,7 @@
             "reason": "no_i_medial"
           }
         ],
-        "base_root": "l\\textoverset{a}{a}k",
+        "base_root": "ɡ‧l\\textoverset{a}{a}k",
         "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
@@ -3343,8 +3343,8 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}k}},",
-      "render_latex": "蘀\t%tuo4\n{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}k}},\n\\textit{thak};\t%0790r",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ɡ‧l\\textoverset{a}{a}k}},",
+      "render_latex": "蘀\t%tuo4\n{\\large{\\textsuperscript{herb˸}ɡ‧l\\textoverset{a}{a}k}},\n\\textit{thak};\t%0790r",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4791,16 +4791,23 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "睪",
+      "gsr": null,
+      "oc_bs": "*ɡ‧laɡ",
+      "root": "ɡ‧lak",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
-    "root": "lak",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*lak {*lAk}",
+    "root": "ɡ‧lak",
+    "source": "head_graph_oc_shengfu",
+    "character": "睪",
+    "oc_bs": "*ɡ‧laɡ",
     "confidence": "provisional-oc",
-    "supporting_characters": 7,
-    "display_root": "lak",
-    "base_root": "lak",
+    "display_root": "ɡ‧lak",
+    "base_root": "ɡ‧lak",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

@@ -1362,7 +1362,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2362,7 +2362,25 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "腐",
+          "ids": "⿸府肉",
+          "phonetic_component": "付",
+          "semantic_component": "肉",
+          "position": "suffix-dot",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 204
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "carn",
@@ -4353,14 +4371,21 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "付",
+      "gsr": null,
+      "oc_bs": "*pos",
+      "root": "po",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
     "root": "po",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*poʔ {*p(r)oʔ}",
+    "source": "head_graph_oc_shengfu",
+    "character": "付",
+    "oc_bs": "*pos",
     "confidence": "provisional-oc",
-    "supporting_characters": 2,
     "display_root": "po",
     "base_root": "po",
     "ordinal": 1,

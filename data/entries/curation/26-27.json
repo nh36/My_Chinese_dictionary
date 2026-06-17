@@ -2231,7 +2231,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -2252,7 +2252,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 17
+            "evidence_count": 18
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2282,7 +2282,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|齊|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -3067,7 +3067,18 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "齏",
+          "ids": "⿵齊韭",
+          "phonetic_component": "齊",
+          "semantic_component": "韭",
+          "position": "suffix-colon",
+          "abbreviation": "韭",
+          "inventory_matches": []
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "韭",
@@ -3210,7 +3221,32 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "齎",
+          "ids": "⿵齊貝",
+          "phonetic_component": "齊",
+          "semantic_component": "貝",
+          "position": "suffix-colon",
+          "abbreviation": "conch",
+          "inventory_matches": [
+            {
+              "graph_raw": "貝",
+              "label_token": "conch(a)",
+              "abbreviation": "conch",
+              "start_line": 218
+            },
+            {
+              "graph_raw": "貝",
+              "label_token": "conch",
+              "abbreviation": "conch",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "conch",
@@ -3502,7 +3538,18 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "齋",
+          "ids": "⿵齊小",
+          "phonetic_component": "齊",
+          "semantic_component": "小",
+          "position": "suffix-colon",
+          "abbreviation": "小",
+          "inventory_matches": []
+        }
+      ],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "spirit",

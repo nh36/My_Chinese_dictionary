@@ -3513,7 +3513,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 17
+              "evidence_count": 18
             }
           ]
         }
@@ -6233,14 +6233,21 @@
     "Machine-promoted from a series packet; not yet hand-checked.",
     "Use this file as the staging area for editorial decisions before any merge into main.tex."
   ],
-  "series_root_candidates": [],
+  "series_root_candidates": [
+    {
+      "character": "丰",
+      "gsr": null,
+      "oc_bs": "*pʰoŋ",
+      "root": "poṅ",
+      "source": "head_graph_oc_shengfu"
+    }
+  ],
   "resolved_series_root": {
     "root": "poṅ",
-    "source": "packet_bs_consensus",
-    "character": null,
-    "oc_bs": "*bˤroŋʔ {*[b]ˤroŋʔ}",
+    "source": "head_graph_oc_shengfu",
+    "character": "丰",
+    "oc_bs": "*pʰoŋ",
     "confidence": "provisional-oc",
-    "supporting_characters": 9,
     "display_root": "poṅ",
     "base_root": "poṅ",
     "ordinal": 1,
