@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 129
-- Packets with at least one root candidate: 115
-- Packets with a single resolved provisional root: 127
+- Missing-series packets inspected: 133
+- Packets with at least one root candidate: 119
+- Packets with a single resolved provisional root: 131
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -14,10 +14,12 @@
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-38` | 白→pak [*bˤrak] (0782a) | `pak` | `head_graph_oc_bs` |
 | `02-40` | 莫→mak [*mˤak] (0802a) | `mak` | `head_graph_oc_bs` |
+| `03-24` | 皇→quaṅ [*ɢʷˤaŋ {*[ɢ]ʷˤaŋ}] (0708a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-26` | 王→quaṅ [*ɢʷaŋ] (0739a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |
 | `03-38` | 昜→laṅ [*laŋ] (0720a) | `laṅ` | `head_graph_oc_bs` |
 | `03-39` | 羊→qaṅ [*ɢaŋ] (0732a) | `qaṅ` | `head_graph_oc_bs` |
+| `03-42` | 襄→naṅ [*s-naŋ] (0730a) | `naṅ` | `head_graph_oc_bs` |
 | `03-43` | 良→raṅ [*raŋ {*[r]aŋ}] (0735a) | `raṅ` | `head_graph_oc_bs` |
 | `03-48` | 倉→raṅ [*[s.r̥]ˤaŋ] (0703a); 倉→tsaṅ [*tsʰˤaŋ {*[tsʰ]ˤaŋ}] (0703a) | `tsaṅ` | `packet_bs_majority` |
 | `03-49` |  | `tsaṅ` | `packet_bs_consensus` |
@@ -25,7 +27,9 @@
 | `03-65` | 亡→maṅ [*maŋ] (0742a) | `maṅ` | `head_graph_oc_bs` |
 | `04-02` | 亥→ky [*gˤəʔ {*[g]ˤəʔ}] (0937a) | `ky` | `head_graph_oc_bs` |
 | `04-04` | 其→ky [*gə] (0952a) | `ky` | `head_graph_oc_bs` |
+| `04-05` | 己→ky [*kəʔ {*k(r)əʔ}] (0953a) | `ky` | `head_graph_oc_bs` |
 | `04-12` | 九→ku [*kuʔ {*[k]uʔ}] (0992a) | `ku` | `head_graph_oc_bs` |
+| `04-17` | 又→quy [*ɢʷəʔ-s {*[ɢ]ʷəʔ-s}] (0995a) | `quy` | `head_graph_oc_bs` |
 | `04-26` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-29` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-30` | 㠯→ly [*ləʔ] (0976a) | `ly` | `head_graph_oc_bs` |

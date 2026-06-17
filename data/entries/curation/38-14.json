@@ -1942,7 +1942,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -2063,9 +2063,45 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|耳|冘|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "耳",
+            "冘"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "耳"
+          ],
+          "phonetic_components": [
+            "冘"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|耳|冘|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "耳",
+              "冘"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "耳"
+            ],
+            "phonetic_components": [
+              "冘"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -2099,12 +2135,32 @@
             "start_line": 194
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "耳"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{aur·}lym}},",
       "render_latex": "耽\t%dan1 / dān\n{\\large{\\textsuperscript{aur·}lym}},\n\\textit{təm};\t%0656l",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "耳",
+        "phonetic_component": "冘",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "耽",
+          "semantic_component": "耳",
+          "phonetic_component": "冘",
+          "position": "prefix-dot",
+          "abbreviation": "aur",
+          "inventory_matches": [
+            {
+              "graph_raw": "耳",
+              "label_token": "aur(is)",
+              "abbreviation": "aur",
+              "start_line": 194
+            }
+          ],
+          "template_raw": "{{Han compound|耳|冘|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "冘",
@@ -2273,7 +2329,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

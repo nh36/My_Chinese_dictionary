@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2383
-- Pages fetched / cached successfully: 2350
-- Additions with explicit Han-compound semantic/phonetic roles: 1185
+- Proposed additions checked: 2439
+- Pages fetched / cached successfully: 2408
+- Additions with explicit Han-compound semantic/phonetic roles: 1209
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -30,6 +30,8 @@
 | `01-51` | 藘 | yes | no |  |  |
 | `01-51` | 鑢 | yes | yes | 金 | 慮 |
 | `01-51` | 攄 | yes | yes | 手 | 慮 |
+| `01-57` | 𪓐 | yes | no |  |  |
+| `01-57` | 𠭯 | no | no |  |  |
 | `02-01` | 各 | yes | no |  |  |
 | `02-01` | 觡 | yes | no |  |  |
 | `02-01` | 骼 | yes | yes | 骨 | 各 |
@@ -159,6 +161,18 @@
 | `02-40` | 瘼 | yes | no |  |  |
 | `02-40` | 嗼 | yes | no |  |  |
 | `02-40` | 冪 | yes | yes | 巾 | 冥 |
+| `03-24` | 皇 | yes | yes | 𤼽 | 王 |
+| `03-24` | 徨 | yes | no |  |  |
+| `03-24` | 偟 | yes | no |  |  |
+| `03-24` | 湟 | yes | no |  |  |
+| `03-24` | 煌 | yes | yes | 火 | 皇 |
+| `03-24` | 篁 | yes | no |  |  |
+| `03-24` | 遑 | yes | no |  |  |
+| `03-24` | 隍 | yes | yes | 阜 | 皇 |
+| `03-24` | 餭 | yes | no |  |  |
+| `03-24` | 凰 | yes | no |  |  |
+| `03-24` | 蝗 | yes | yes | 虫 | 皇 |
+| `03-24` | 喤 | yes | no |  |  |
 | `03-26` | 王 | yes | no |  |  |
 | `03-26` | 㞷 | yes | yes | 止 | 王 |
 | `03-26` | 往 | yes | yes | 止 | 王 |
@@ -238,6 +252,18 @@
 | `03-39` | 詳 | yes | yes | 言 | 羊 |
 | `03-39` | 癢 | yes | yes | 疒 | 養 |
 | `03-39` | 漾 | yes | yes | 水 | 羕 |
+| `03-42` | 襄 | yes | yes | 衣 | 𤕦 |
+| `03-42` | 纕 | yes | no |  |  |
+| `03-42` | 饟 | yes | yes | 食 | 襄 |
+| `03-42` | 壤 | yes | yes | 土 | 襄 |
+| `03-42` | 攘 | yes | no |  |  |
+| `03-42` | 瀼 | yes | yes | 水 | 襄 |
+| `03-42` | 禳 | yes | no |  |  |
+| `03-42` | 穰 | yes | no |  |  |
+| `03-42` | 讓 | yes | yes | 言 | 襄 |
+| `03-42` | 釀 | yes | no |  |  |
+| `03-42` | 曩 | yes | no |  |  |
+| `03-42` | 囊 | yes | yes | 㯻 | 襄 |
 | `03-43` | 良 | yes | no |  |  |
 | `03-43` | 粮 | yes | yes | 米 | 良 |
 | `03-43` | 俍 | yes | yes | 人 | 良 |
@@ -392,6 +418,18 @@
 | `04-04` | 祺 | yes | yes | 示 | 其 |
 | `04-04` | 綦 | yes | no |  |  |
 | `04-04` | 丌 | yes | no |  |  |
+| `04-05` | 己 | yes | no |  |  |
+| `04-05` | 妀 | yes | no |  |  |
+| `04-05` | 紀 | yes | yes | 糸 | 己 |
+| `04-05` | 記 | yes | yes | 言 | 己 |
+| `04-05` | 屺 | yes | yes | 山 | 己 |
+| `04-05` | 杞 | yes | no |  |  |
+| `04-05` | 芑 | yes | no |  |  |
+| `04-05` | 起 | yes | yes | 走 | 巳 |
+| `04-05` | 忌 | yes | yes | 心 | 己 |
+| `04-05` | 誋 | yes | no |  |  |
+| `04-05` | 跽 | yes | no |  |  |
+| `04-05` | 㠱 | yes | no |  |  |
 | `04-12` | 九 | yes | no |  |  |
 | `04-12` | 頄 | yes | no |  |  |
 | `04-12` | 宄 | yes | yes | 宀 | 九 |
@@ -409,6 +447,20 @@
 | `04-12` | 尻 | yes | yes | 尸 | 九 |
 | `04-12` | 虓 | yes | yes | 虎 | 九 |
 | `04-12` | 旭 | yes | yes | 日 | 九 |
+| `04-17` | 又 | yes | no |  |  |
+| `04-17` | 郁 | yes | yes | 邑 | 有 |
+| `04-17` | 友 | yes | no |  | 又, 又 |
+| `04-17` | 右 | yes | yes | 口 | 又 |
+| `04-17` | 佑 | yes | yes | 人 | 右 |
+| `04-17` | 祐 | yes | yes | 示 | 右 |
+| `04-17` | 醢 | yes | no |  |  |
+| `04-17` | 有 | yes | yes | 肉 | 又 |
+| `04-17` | 侑 | yes | no |  |  |
+| `04-17` | 宥 | yes | no |  |  |
+| `04-17` | 囿 | yes | no |  |  |
+| `04-17` | 痏 | yes | no |  |  |
+| `04-17` | 鮪 | yes | no |  |  |
+| `04-17` | 賄 | yes | yes | 貝 | 有 |
 | `04-26` | 止 | yes | no |  |  |
 | `04-26` | 旹 | yes | no |  |  |
 | `04-26` | 詩 | yes | yes | 言 | 寺 |
@@ -1418,6 +1470,10 @@
 | `19-02` | 輠 | yes | no |  |  |
 | `19-02` | 祼 | yes | yes | 示 | 果 |
 | `19-02` | 婐 | yes | no |  |  |
+| `19-04` | 腡 | yes | yes | 肉 | 咼 |
+| `19-04` | 冎 | yes | no |  |  |
+| `19-22` | 𧴪 | yes | no |  |  |
+| `19-22` | 鎖 | yes | yes | 金 | 𧴪 |
 | `21-01` | 匃 | yes | no |  |  |
 | `21-01` | 藹 | yes | yes | 言 | 葛 |
 | `21-01` | 曷 | yes | yes | 曰 | 匃 |
@@ -2384,8 +2440,8 @@
 | `38-14` | 忱 | yes | no |  |  |
 | `38-14` | 抌 | yes | no |  |  |
 | `38-14` | 眈 | yes | yes | 目 | 冘 |
-| `38-14` | 紞 | no | no |  |  |
-| `38-14` | 耽 | no | no |  |  |
+| `38-14` | 紞 | yes | no |  |  |
+| `38-14` | 耽 | yes | yes | 耳 | 冘 |
 | `38-14` | 髧 | yes | no |  |  |
-| `38-14` | 黕 | no | no |  |  |
+| `38-14` | 黕 | yes | no |  |  |
 | `38-14` | 醓 | yes | no |  |  |
