@@ -13,6 +13,11 @@ import inventory_tex
 SECTION_START = r"\section{Semantic components}"
 SECTION_HEADER_RE = re.compile(r"\\section\{([^}]*)\}")
 ITEM_START_RE = re.compile(r"^\s*\\item(?:\s|$)")
+STRUCTURAL_END_RE = re.compile(r"^\s*\\end\{(?:itemize|multicols\*?|spacing)\}\s*$")
+MAKEBOX_RE = re.compile(r"\\makebox(?:\[[^\]]*\])+\{([^}]*)\}")
+INLINE_NOTE_RE = re.compile(r"\((?:only in|in)\s+[^)]*\)$")
+NON_LABEL_TOKENS = {"(only", "(in"}
+LABEL_STEM_RE = re.compile(r"([A-Za-z]+)(?=\()")
 
 
 def finalize_item(current: dict[str, Any] | None, items: list[dict[str, Any]]) -> None:
@@ -51,6 +56,11 @@ def collect_semantic_component_items(source_text: str) -> list[dict[str, Any]]:
             }
             continue
 
+        if current is not None and STRUCTURAL_END_RE.match(code):
+            finalize_item(current, items)
+            current = None
+            continue
+
         if current is not None:
             current["raw_lines"].append(line)
             if comment:
@@ -76,24 +86,53 @@ def parse_item(item: dict[str, Any]) -> dict[str, Any]:
     tokens = joined.split()
     label_index = None
     for index, token in enumerate(tokens):
+        if token.startswith("\\makebox") and index > 0:
+            label_index = index
+            break
         if token.startswith("\\"):
             continue
         if re.search(r"[A-Za-z]", token):
+            if token in NON_LABEL_TOKENS:
+                continue
             label_index = index
             break
 
     graph_raw = " ".join(tokens[:label_index]).strip() if label_index is not None else joined
-    label_token = tokens[label_index] if label_index is not None else None
-    label_notes = " ".join(tokens[label_index + 1 :]).strip() if label_index is not None else ""
+    label_raw = " ".join(tokens[label_index:]).strip() if label_index is not None else ""
+    label_raw = label_raw.replace(r"\\", " ")
+    label_raw = MAKEBOX_RE.sub(r"\1", label_raw)
+    label_raw = " ".join(label_raw.split())
+
+    note_parts: list[str] = []
+    while label_raw:
+        note_match = INLINE_NOTE_RE.search(label_raw)
+        if note_match is None:
+            break
+        note_parts.append(note_match.group(0))
+        label_raw = label_raw[: note_match.start()].rstrip(" ,")
+
+    label_token = label_raw or None
+    label_notes = " ".join(reversed(note_parts))
     abbreviation = None
     if label_token is not None:
-        match = re.match(r"([A-Za-z]+)", label_token)
-        if match:
-            abbreviation = match.group(1)
+        stems = LABEL_STEM_RE.findall(label_token)
+        if stems:
+            if label_token.lstrip().startswith("(") and len(stems) > 1:
+                abbreviation = stems[1]
+            else:
+                abbreviation = stems[0]
+        else:
+            match = re.match(r"([A-Za-z]+)", label_token)
+            if match:
+                abbreviation = match.group(1)
     if abbreviation is None and label_notes:
-        match = re.match(r"([A-Za-z]+)", label_notes)
-        if match:
-            abbreviation = match.group(1)
+        stems = LABEL_STEM_RE.findall(label_notes)
+        if stems:
+            abbreviation = stems[0]
+        else:
+            match = re.match(r"([A-Za-z]+)", label_notes)
+            if match:
+                abbreviation = match.group(1)
 
     return {
         "start_line": item["start_line"],
