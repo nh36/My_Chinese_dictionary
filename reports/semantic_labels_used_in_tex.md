@@ -1,90 +1,91 @@
 # Semantic labels used in TeX
 
 - Total `\textsuperscript{...}` occurrences in extracted entries: 618
-- Unique superscript tokens: 190
+- Unique superscript tokens: 185
 
 ## Token shapes
 
 | Shape | Unique tokens |
 | --- | ---: |
 | prefix-dot | 82 |
-| prefix-colon | 16 |
+| prefix-colon | 17 |
 | suffix-dot | 33 |
-| suffix-colon | 35 |
-| bare | 24 |
+| suffix-colon | 34 |
+| bare | 19 |
 
 ## Tokens
 
 | Token | Shape | Occurrences | Entries | Example entry |
 | --- | --- | ---: | ---: | --- |
 | `arb·` | prefix-dot | 28 | 24 | `18-01` |
-| `dic·` | prefix-dot | 25 | 23 | `18-01` |
+| `dic·` | prefix-dot | 26 | 24 | `18-01` |
 | `herb:` | prefix-colon | 24 | 16 | `18-01` |
-| `hom·` | prefix-dot | 21 | 18 | `18-01` |
-| `man·` | prefix-dot | 20 | 19 | `18-01` |
-| `xxx·` | prefix-dot | 20 | 4 | `01-43` |
-| `aq·` | prefix-dot | 19 | 16 | `18-01` |
-| `or·` | prefix-dot | 18 | 17 | `18-01` |
+| `hom·` | prefix-dot | 23 | 20 | `18-01` |
+| `man·` | prefix-dot | 21 | 20 | `18-01` |
+| `aq·` | prefix-dot | 20 | 17 | `18-01` |
+| `or·` | prefix-dot | 20 | 19 | `18-01` |
 | `met·` | prefix-dot | 16 | 14 | `18-01` |
-| `fem·` | prefix-dot | 13 | 13 | `18-05` |
+| `fem·` | prefix-dot | 14 | 14 | `18-05` |
 | `herb·` | prefix-dot | 13 | 13 | `18-11` |
 | `amb·` | prefix-dot | 12 | 12 | `18-08` |
 | `ser·` | prefix-dot | 11 | 11 | `18-01` |
 | `cor·` | prefix-dot | 11 | 11 | `18-08` |
+| `bamb:` | prefix-colon | 10 | 9 | `18-01` |
+| `tum·` | prefix-dot | 10 | 9 | `18-01` |
 | `serp·` | prefix-dot | 10 | 9 | `18-05` |
 | `ˤ` | bare | 10 | 1 | `13-26` |
-| `tum·` | prefix-dot | 9 | 8 | `18-01` |
 | `gem·` | prefix-dot | 9 | 8 | `18-01` |
 | `infirm·` | prefix-dot | 9 | 9 | `18-08` |
 | `vest·` | prefix-dot | 9 | 9 | `18-16` |
-| `bamb:` | prefix-colon | 8 | 7 | `18-01` |
-| `equ·` | prefix-dot | 7 | 7 | `18-01` |
+| `equ·` | prefix-dot | 8 | 8 | `18-01` |
 | `·av` | suffix-dot | 7 | 7 | `18-05` |
 | `terr·` | prefix-dot | 7 | 6 | `18-09` |
 | `ped·` | prefix-dot | 6 | 6 | `18-01` |
+| `ed·` | prefix-dot | 6 | 6 | `18-05` |
 | `·passer` | suffix-dot | 6 | 6 | `18-11` |
+| `carn·` | prefix-dot | 6 | 6 | `01-01` |
 | `can·` | prefix-dot | 5 | 5 | `18-01` |
 | `vehic·` | prefix-dot | 5 | 5 | `18-01` |
-| `ed·` | prefix-dot | 5 | 5 | `18-05` |
 | `gran·` | prefix-dot | 5 | 5 | `18-08` |
+| `·fac` | suffix-dot | 5 | 5 | `18-16` |
 | `spirit·` | prefix-dot | 5 | 5 | `19-04` |
-| `carn·` | prefix-dot | 5 | 5 | `01-01` |
+| `·fer` | suffix-dot | 5 | 5 | `01-01` |
 | `·urb` | suffix-dot | 5 | 5 | `01-06` |
 | `sol·` | prefix-dot | 5 | 5 | `01-12` |
 | `bamb·` | prefix-dot | 5 | 4 | `01-18` |
 | `conch·` | prefix-dot | 5 | 5 | `01-39` |
+| `mon·` | prefix-dot | 4 | 4 | `18-05` |
 | `lax·` | prefix-dot | 4 | 4 | `18-08` |
 | `vin·` | prefix-dot | 4 | 4 | `18-09` |
 | `lap·` | prefix-dot | 4 | 4 | `18-13` |
 | `:fem` | suffix-colon | 4 | 3 | `18-15` |
-| `·fac` | suffix-dot | 4 | 4 | `18-16` |
 | `nass:` | prefix-colon | 4 | 4 | `01-01` |
-| `·fer` | suffix-dot | 4 | 4 | `01-01` |
-| `·xxx` | suffix-dot | 4 | 2 | `10-10` |
+| `:cor` | suffix-colon | 4 | 4 | `01-42` |
 | `magn:` | prefix-colon | 3 | 3 | `18-01` |
-| `mon·` | prefix-dot | 3 | 3 | `18-05` |
 | `ocul·` | prefix-dot | 3 | 3 | `18-05` |
+| `oss·` | prefix-dot | 3 | 3 | `18-13` |
+| `eo·` | prefix-dot | 3 | 3 | `18-16` |
+| `port:` | prefix-colon | 3 | 3 | `19-06` |
+| `·teg` | suffix-dot | 3 | 3 | `19-17` |
 | `porc·` | prefix-dot | 3 | 3 | `01-12` |
 | `tigr·` | prefix-dot | 3 | 3 | `01-17` |
-| `:cor` | suffix-colon | 3 | 3 | `01-42` |
+| `vic·` | prefix-dot | 3 | 1 | `01-43` |
 | `·dehab` | suffix-dot | 2 | 2 | `18-01` |
+| `tect:` | prefix-colon | 2 | 2 | `18-01` |
 | `corn·` | prefix-dot | 2 | 2 | `18-01` |
 | `:conch` | suffix-colon | 2 | 2 | `18-04` |
 | `:av` | suffix-colon | 2 | 2 | `18-05` |
 | `ov:` | prefix-colon | 2 | 2 | `18-05` |
 | `arc·` | prefix-dot | 2 | 2 | `18-09` |
 | `crin·` | prefix-dot | 2 | 2 | `18-09` |
-| `oss·` | prefix-dot | 2 | 2 | `18-13` |
-| `eo·` | prefix-dot | 2 | 2 | `18-16` |
 | `·cul` | suffix-dot | 2 | 2 | `19-01` |
-| `port:` | prefix-colon | 2 | 2 | `19-06` |
 | `·or` | suffix-dot | 2 | 2 | `19-07` |
 | `:vas` | suffix-colon | 2 | 2 | `19-07` |
 | `ign·` | prefix-dot | 2 | 2 | `19-15` |
 | `·carn` | suffix-dot | 2 | 2 | `19-16` |
 | `:ter` | suffix-colon | 2 | 2 | `19-16` |
-| `·teg` | suffix-dot | 2 | 2 | `19-17` |
 | `luna·` | prefix-dot | 2 | 2 | `19-21` |
+| `cla:` | prefix-colon | 2 | 2 | `01-01` |
 | `lint·` | prefix-dot | 2 | 2 | `01-38` |
 | `·vid` | suffix-dot | 2 | 2 | `01-38` |
 | `:ign` | suffix-colon | 2 | 1 | `01-38` |
@@ -94,10 +95,10 @@
 | `·dextr` | suffix-dot | 2 | 2 | `01-56` |
 | `·virt` | suffix-dot | 2 | 2 | `01-57` |
 | `acu·` | prefix-dot | 2 | 2 | `01-57` |
+| `aratr·` | prefix-dot | 2 | 2 | `01-68` |
 | `dic.` | bare | 2 | 1 | `13-26` |
 | `aq.` | bare | 2 | 1 | `13-26` |
 | `ign.` | bare | 2 | 1 | `13-26` |
-| `tect:` | prefix-colon | 1 | 1 | `18-01` |
 | `ag·` | prefix-dot | 1 | 1 | `18-01` |
 | `·ram` | suffix-dot | 1 | 1 | `18-01` |
 | `:equ` | suffix-colon | 1 | 1 | `18-04` |
@@ -108,10 +109,9 @@
 | `adhuc:` | prefix-colon | 1 | 1 | `18-08` |
 | `curr·` | prefix-dot | 1 | 1 | `18-08` |
 | `daemon` | bare | 1 | 1 | `18-11` |
-| `den·` | prefix-dot | 1 | 1 | `18-13` |
+| `sal·` | prefix-dot | 1 | 1 | `18-13` |
 | `:pis` | suffix-colon | 1 | 1 | `18-15` |
 | `cori·` | prefix-dot | 1 | 1 | `18-16` |
-| `vannχ` | bare | 1 | 1 | `18-16` |
 | `:parv` | suffix-colon | 1 | 1 | `18-18` |
 | `:man` | suffix-colon | 1 | 1 | `18-18` |
 | `:lap` | suffix-colon | 1 | 1 | `18-18` |
@@ -128,7 +128,6 @@
 | `:serp` | suffix-colon | 1 | 1 | `19-18` |
 | `:ov` | suffix-colon | 1 | 1 | `19-18` |
 | `observ·` | prefix-dot | 1 | 1 | `01-01` |
-| `claχ` | bare | 1 | 1 | `01-01` |
 | `cadaver·` | prefix-dot | 1 | 1 | `01-01` |
 | `:辛` | suffix-colon | 1 | 1 | `01-01` |
 | `:ocul` | suffix-colon | 1 | 1 | `01-02` |
@@ -144,16 +143,13 @@
 | `:or` | suffix-colon | 1 | 1 | `01-29` |
 | `somn·` | prefix-dot | 1 | 1 | `01-29` |
 | `meridi·` | prefix-dot | 1 | 1 | `01-29` |
-| `claχ·` | prefix-dot | 1 | 1 | `01-29` |
-| `eoχ` | bare | 1 | 1 | `01-29` |
 | `:spir` | suffix-colon | 1 | 1 | `01-30` |
 | `·gran` | suffix-dot | 1 | 1 | `01-31` |
 | `aur·` | prefix-dot | 1 | 1 | `01-34` |
-| `vestχ` | bare | 1 | 1 | `01-34` |
+| `vest:` | prefix-colon | 1 | 1 | `01-34` |
 | `cerv·` | prefix-dot | 1 | 1 | `01-35` |
 | `ruf·` | prefix-dot | 1 | 1 | `01-38` |
 | `ost·` | prefix-dot | 1 | 1 | `01-38` |
-| `portχ` | bare | 1 | 1 | `01-38` |
 | `urb·` | prefix-dot | 1 | 1 | `01-38` |
 | `pincern:` | prefix-colon | 1 | 1 | `01-38` |
 | `sol:` | prefix-colon | 1 | 1 | `01-38` |
@@ -163,7 +159,6 @@
 | `nav·` | prefix-dot | 1 | 1 | `01-42` |
 | `·elephant` | suffix-dot | 1 | 1 | `01-43` |
 | `dom·` | prefix-dot | 1 | 1 | `01-43` |
-| `vic·` | prefix-dot | 1 | 1 | `01-43` |
 | `χmolar` | bare | 1 | 1 | `01-45` |
 | `·tum` | suffix-dot | 1 | 1 | `01-54` |
 | `:carn` | suffix-colon | 1 | 1 | `01-55` |
@@ -186,7 +181,6 @@
 | `·flect` | suffix-dot | 1 | 1 | `01-67` |
 | `:digit` | suffix-colon | 1 | 1 | `01-67` |
 | `:quadr` | suffix-colon | 1 | 1 | `01-67` |
-| `aratr·` | prefix-dot | 1 | 1 | `01-68` |
 | `caut·` | prefix-dot | 1 | 1 | `01-69` |
 | `·舛` | suffix-dot | 1 | 1 | `01-69` |
 | `nass·` | prefix-dot | 1 | 1 | `01-73` |
@@ -196,8 +190,9 @@
 | `·ign` | suffix-dot | 1 | 1 | `10-01` |
 | `·sign` | suffix-dot | 1 | 1 | `10-03` |
 | `plum·` | prefix-dot | 1 | 1 | `10-06` |
-| `xxx:` | prefix-colon | 1 | 1 | `10-11` |
-| `:xxx` | suffix-colon | 1 | 1 | `10-11` |
+| `corp·` | prefix-dot | 1 | 1 | `10-10` |
+| `·hast` | suffix-dot | 1 | 1 | `10-10` |
+| `dent·` | prefix-dot | 1 | 1 | `10-11` |
 | `臤:` | prefix-colon | 1 | 1 | `10-16` |
 | `latebrχ` | bare | 1 | 1 | `02-30` |
 | `glac·` | prefix-dot | 1 | 1 | `13-26` |

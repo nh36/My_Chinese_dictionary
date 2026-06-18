@@ -3,15 +3,15 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 165
-- Items present in both sources: 163
+- Integrated items: 166
+- Items present in both sources: 166
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
 - Blocked ambiguous aliases configured: 4
-- Blocked ambiguous aliases used in entries: 1
+- Blocked ambiguous aliases used in entries: 0
 - Needs-review labels used in entries: 0
-- Placeholder labels used in entries: 1
+- Placeholder labels used in entries: 0
 - Duplicate abbreviations with multiple graphs: 0
 - Duplicate graphs with true conflicts: 0
 - Intentional scoped duplicate graphs: 1
@@ -30,18 +30,6 @@
 | `den` | `dent`, `molar` | Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. |
 | `dens` | `dent`, `molar` | Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. |
 | `os` | `or`, `oss` | Blocked because it can refer to 口/or or 骨/oss. |
-
-## Blocked ambiguous aliases used in entries
-
-| Alias | Candidate canonical labels | Used in current TeX | Used in curated series | Reason |
-| --- | --- | --- | --- | --- |
-| `den` | `dent`, `molar` | yes | no | Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. |
-
-## Placeholder labels used in entries
-
-| Label | Used in current TeX | Used in curated series |
-| --- | --- | --- |
-| `xxx` | yes | yes |
 
 ## Intentional scoped duplicate graphs
 
@@ -88,6 +76,7 @@
 | `心` | `cor` | `cor` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `革` | `cori` | `cori(um)` | (gé) - / (leather, to reform, to revolutionize) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `身` | `corp` | `corp(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `髟` | `crin` | `crin(is)` |  | general |  |  |  | `cri` | yes | current_main_tex, earlier_pilot |
 | `刀` | `cult` | `cult(er)` |  | general |  |  |  | `cul` | yes | current_main_tex, earlier_pilot |
 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -122,10 +111,11 @@
 | `犛` | `grunn` | `(bos) grunn(iens)` | (only in 斄) | only_in | 斄 |  |  |  | no | current_main_tex, earlier_pilot |
 | `旨` | `gust` | `gust(us)` | (in 嘗) | only_in | 嘗 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戈` | `hallebard` | `hallebard(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `殳` | `hast` | `hast(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `艸` | `herb` | `herb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `人` | `hom` | `hom(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `疒` | `infirm` | `infirm(us) (recovered from entry usage; confirm expansion)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `疒` | `infirm` | `infirm(itas)` | (recovered from entry usage) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `兮` | `io` | `io` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `石` | `lap` | `lap(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -177,7 +167,8 @@
 | `方` | `quadr` | `quadr(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `支` | `ram` | `ram(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `赤` | `ruf` | `ruf(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `矢` | `sagit` | `sagit(ta)` | \item 章 sculp(ō) (in 贛) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `矢` | `sagit` | `sagit(ta)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `鹵` | `sal` | `sal(is)` | \item 章 sculp(ō) (in 贛) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戊` | `secur` | `secur(is)` | (in 戚) | only_in | 戚 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `片` | `segm` | `segm(entum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `老` | `sen` | `sen(ex)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -216,5 +207,3 @@
 | `見` | `vid` | `vid(eo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `酉` | `vin` | `vin(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `力` | `virt` | `virt(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `` | `den` | `` | Blocked ambiguous alias used in dictionary entries. Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. Candidate canonical targets: dent, molar. | general |  |  |  | `den` | yes | current-usage |
-| `` | `xxx` | `` | Unresolved placeholder semantic label used in dictionary entries. | general |  |  |  | `xxx` | yes | current-usage, curated-usage |

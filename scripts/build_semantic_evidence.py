@@ -1016,6 +1016,29 @@ def build_tex_character_evidence(
     return evidence
 
 
+def build_tex_entry_index(tex_entries: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    return {
+        entry["id"]: entry
+        for entry in tex_entries
+        if entry.get("id")
+    }
+
+
+def refresh_curated_tex_entry_from_current_tex(
+    entry: dict[str, Any],
+    tex_entry_index: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    current_tex_entry = tex_entry_index.get(entry.get("id"))
+    if current_tex_entry is None:
+        return entry
+    entry["tex_entry"] = current_tex_entry
+    entry["entry_hierarchy"] = {
+        "top_level_head": hierarchy_utils.extract_head_character(current_tex_entry.get("head")),
+        "nodes": hierarchy_utils.extract_hierarchy_nodes(current_tex_entry["raw_block"]),
+    }
+    return entry
+
+
 def unique_non_null(values: list[Any]) -> list[Any]:
     result: list[Any] = []
     seen: set[str] = set()
@@ -1524,7 +1547,7 @@ def enrich_curated_entry_with_ids(
         normalize_component_graph(candidate["character"])
         for candidate in entry.get("proposed_additions", [])
     }
-    if entry.get("tex_entry") is not None and entry.get("entry_hierarchy") is None:
+    if entry.get("tex_entry") is not None:
         entry["entry_hierarchy"] = {
             "top_level_head": hierarchy_utils.extract_head_character(entry["tex_entry"].get("head")),
             "nodes": hierarchy_utils.extract_hierarchy_nodes(entry["tex_entry"]["raw_block"]),
@@ -2007,6 +2030,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = build_parser().parse_args()
     tex_entries = json.loads(Path(args.tex_entries).read_text(encoding="utf-8"))["entries"]
+    tex_entry_index = build_tex_entry_index(tex_entries)
     semantic_inventory = json.loads(Path(args.semantic_inventory).read_text(encoding="utf-8"))
     curation_dir = Path(args.curation_dir)
     report_path = Path(args.report_out)
@@ -2022,6 +2046,7 @@ def main() -> int:
     enriched_entries: list[dict[str, Any]] = []
     for path in sorted(curation_dir.glob("*.json")):
         entry = json.loads(path.read_text(encoding="utf-8"))
+        entry = refresh_curated_tex_entry_from_current_tex(entry, tex_entry_index)
         entry = enrich_curated_entry_with_ids(entry, evidence, ids_map, merged_graph_lookup)
         write_curated_entry(entry, path)
         enriched_entries.append(entry)

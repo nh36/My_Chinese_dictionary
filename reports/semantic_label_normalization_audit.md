@@ -1,6 +1,6 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-18T10:51:15.977603+00:00
+- Generated at: 2026-06-18T20:07:19.879784+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
 - Total occurrences audited: 12981
 
@@ -8,11 +8,9 @@
 
 | Classification | Count |
 | --- | --- |
-| `blocked_ambiguous_alias` | 5 |
-| `canonical` | 12208 |
+| `canonical` | 12379 |
 | `explicit_alias` | 63 |
-| `needs_review` | 569 |
-| `placeholder` | 136 |
+| `needs_review` | 539 |
 
 ## Blocked ambiguous aliases
 
@@ -36,12 +34,12 @@
 | `田` | `ager` | `ager` | `ag` | `explicit_alias` | yes |
 | `髟` | `crin` | `crin(is)` | `cri` | `explicit_alias` | yes |
 | `刀` | `cult` | `cult(er)` | `cul` | `explicit_alias` | yes |
-| `齒` | `dent` | `(dens), dent(is)` | `den` | `blocked_ambiguous_alias` | yes |
+| `齒` | `dent` | `(dens), dent(is)` | `den` | `blocked_ambiguous_alias` | no |
 | `齒` | `dent` | `(dens), dent(is)` | `dens` | `blocked_ambiguous_alias` | no |
 | `龍` | `dracon` | `(draco), dracon(is)` | `draco` | `unsafe_candidate` | no |
 | `犛` | `grunn` | `(bos) grunn(iens)` | `bos` | `blocked_ambiguous_alias` | yes |
 | `手` | `man` | `man(us)` | `manu` | `explicit_alias` | yes |
-| `牙` | `molar` | `molar(is dens)` | `den` | `blocked_ambiguous_alias` | yes |
+| `牙` | `molar` | `molar(is dens)` | `den` | `blocked_ambiguous_alias` | no |
 | `牙` | `molar` | `molar(is dens)` | `dens` | `blocked_ambiguous_alias` | no |
 | `口` | `or` | `(os,) or(is)` | `os` | `blocked_ambiguous_alias` | no |
 | `骨` | `oss` | `(os,) oss(is)` | `os` | `blocked_ambiguous_alias` | no |
@@ -420,43 +418,18 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}piy}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tur₃}},` |
 
-## Blocked ambiguous labels in use
-
-| Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| `current_main_tex` | `18-13` | `鹺` | `den` | raw_block | `` | `⿰鹵差` | `{\large{{\textsuperscript{den·}}tsay₂}},` |
-| `earlier_pilot_tex` | `18-13` | `鹺` | `den` | raw_block | `` | `⿰鹵差` | `{\large{{\textsuperscript{den·}}tsay₂}},` |
-| `current_tex_entries_json` | `18-13` | `鹺` | `den` | raw_block | `` | `⿰鹵差` | `{\large{{\textsuperscript{den·}}tsay₂}},` |
-| `integrated_series_hand_entry` | `18-13` | `鹺` | `den` | raw_block | `` | `⿰鹵差` | `{\large{{\textsuperscript{den·}}tsay₂}},` |
-| `validation_tex` | `` | `` | `den` | line | `` | `` | `{\large{{\textsuperscript{den·}}tsay₂}},` |
-
 ## Needs-review labels in use
 
 | Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `current_main_tex` | `18-16` | `簸` | `vannχ` | raw_block | `` | `⿱竹𤿺` | `{\large{\textsuperscript{vannχ}pay}},` |
 | `current_main_tex` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
 = {\large{k\textoverset{a}{a}₂}},` |
-| `current_main_tex` | `01-29` | `圄` | `claχ` | raw_block | `` | `⿴囗吾` | `{\large{{\textsuperscript{claχ·}}ṅa₂}},` |
-| `current_main_tex` | `01-29` | `衙` | `eoχ` | raw_block | `` | `⿲彳吾亍` | `{\large{{\textsuperscript{eoχ}}ṅa₂}},` |
-| `current_main_tex` | `01-34` | `衺` | `vestχ` | raw_block | `` | `⿳亠牙𧘇` | `{\large{{\textsuperscript{vestχ}}qra}},` |
-| `current_main_tex` | `01-38` | `闍` | `portχ` | raw_block | `` | `⿵門者` | `{\large{{\textsuperscript{portχ}}ta}},` |
 | `current_main_tex` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
-| `earlier_pilot_tex` | `18-16` | `簸` | `vannχ` | raw_block | `` | `⿱竹𤿺` | `{\large{\textsuperscript{vannχ}pay}},` |
 | `earlier_pilot_tex` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
 = {\large{k\textoverset{a}{a}₂}},` |
-| `earlier_pilot_tex` | `01-29` | `圄` | `claχ` | raw_block | `` | `⿴囗吾` | `{\large{{\textsuperscript{claχ·}}ṅa₂}},` |
-| `earlier_pilot_tex` | `01-29` | `衙` | `eoχ` | raw_block | `` | `⿲彳吾亍` | `{\large{{\textsuperscript{eoχ}}ṅa₂}},` |
-| `earlier_pilot_tex` | `01-34` | `衺` | `vestχ` | raw_block | `` | `⿳亠牙𧘇` | `{\large{{\textsuperscript{vestχ}}qra}},` |
-| `earlier_pilot_tex` | `01-38` | `闍` | `portχ` | raw_block | `` | `⿵門者` | `{\large{{\textsuperscript{portχ}}ta}},` |
 | `earlier_pilot_tex` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
-| `current_tex_entries_json` | `18-16` | `簸` | `vannχ` | raw_block | `` | `⿱竹𤿺` | `{\large{\textsuperscript{vannχ}pay}},` |
 | `current_tex_entries_json` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
 = {\large{k\textoverset{a}{a}₂}},` |
-| `current_tex_entries_json` | `01-29` | `圄` | `claχ` | raw_block | `` | `⿴囗吾` | `{\large{{\textsuperscript{claχ·}}ṅa₂}},` |
-| `current_tex_entries_json` | `01-29` | `衙` | `eoχ` | raw_block | `` | `⿲彳吾亍` | `{\large{{\textsuperscript{eoχ}}ṅa₂}},` |
-| `current_tex_entries_json` | `01-34` | `衺` | `vestχ` | raw_block | `` | `⿳亠牙𧘇` | `{\large{{\textsuperscript{vestχ}}qra}},` |
-| `current_tex_entries_json` | `01-38` | `闍` | `portχ` | raw_block | `` | `⿵門者` | `{\large{{\textsuperscript{portχ}}ta}},` |
 | `current_tex_entries_json` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
 | `curation_json` | `02-17` | `鼫` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠石` | `鼫	%shi2
 {\large{\textsuperscript{鼠·}tak}},
@@ -847,9 +820,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `35-10` | `韘` | `韋` | render_latex, transliteration_latex | `韋` | `⿰韋枼` | `韘	%she4
 {\large{\textsuperscript{韋·}lep}},
 \textit{śiep};	%0633o` |
-| `curation_json` | `36-05` | `鹽` | `鹵` | render_latex, transliteration_latex | `鹵` | `⿱⿰臣⿱𠂉鹵皿` | `鹽	%yan2 / yán / yàn
-{\large{kam\textsuperscript{˸鹵}}},
-\textit{yiem};	%0609n` |
 | `curation_json` | `36-07` | `鼸` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠兼` | `鼸	%xian3
 {\large{\textsuperscript{鼠·}kem}},
 \textit{hemX};	%0627k` |
@@ -882,9 +852,6 @@ Watched tokens with no current heuristic match: `can`
 \textit{kimX};	%0652e` |
 | `integrated_series_hand_entry` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
 = {\large{k\textoverset{a}{a}₂}},` |
-| `integrated_series_hand_entry` | `01-29` | `圄` | `claχ` | raw_block | `` | `⿴囗吾` | `{\large{{\textsuperscript{claχ·}}ṅa₂}},` |
-| `integrated_series_hand_entry` | `01-29` | `衙` | `eoχ` | raw_block | `` | `⿲彳吾亍` | `{\large{{\textsuperscript{eoχ}}ṅa₂}},` |
-| `integrated_series_hand_entry` | `01-38` | `闍` | `portχ` | raw_block | `` | `⿵門者` | `{\large{{\textsuperscript{portχ}}ta}},` |
 | `integrated_series_curated_entry` | `02-17` | `鼫` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠石` | `鼫	%shi2
 {\large{\textsuperscript{鼠·}tak}},
 \textit{jiek};	%0795h` |
@@ -1134,7 +1101,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `17-07` | `耀` | `光` | render_latex, transliteration_latex | `光` | `⿰光翟` | `耀	%yao4 / yào
 {\large{\textsuperscript{光·}lek₂}},
 \textit{yiewH};	%1124k` |
-| `integrated_series_hand_entry` | `18-16` | `簸` | `vannχ` | raw_block | `` | `⿱竹𤿺` | `{\large{\textsuperscript{vannχ}pay}},` |
 | `integrated_series_curated_entry` | `19-02` | `臝` | `吂` | render_latex, transliteration_latex | `吂` | `⿱吂⿲月果凡` | `臝	%luo3 / luǒ
 {\large{\textsuperscript{吂˸}kor}},
 \textit{lwaX};	%0351i` |
@@ -1276,9 +1242,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `35-10` | `韘` | `韋` | render_latex, transliteration_latex | `韋` | `⿰韋枼` | `韘	%she4
 {\large{\textsuperscript{韋·}lep}},
 \textit{śiep};	%0633o` |
-| `integrated_series_curated_entry` | `36-05` | `鹽` | `鹵` | render_latex, transliteration_latex | `鹵` | `⿱⿰臣⿱𠂉鹵皿` | `鹽	%yan2 / yán / yàn
-{\large{kam\textsuperscript{˸鹵}}},
-\textit{yiem};	%0609n` |
 | `integrated_series_curated_entry` | `36-07` | `鼸` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠兼` | `鼸	%xian3
 {\large{\textsuperscript{鼠·}kem}},
 \textit{hemX};	%0627k` |
@@ -1426,7 +1389,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `兔` | line | `` | `` | `{\large{lur\textsuperscript{·兔}}},` |
 | `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kep}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}lep}},` |
-| `validation_tex` | `` | `` | `鹵` | line | `` | `` | `{\large{kam\textsuperscript{˸鹵}}},` |
 | `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}kem}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tem\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `炎` | line | `` | `` | `{\large{qam\textsuperscript{·炎}}},` |
@@ -1436,15 +1398,9 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{kym\textsuperscript{·音}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{kym\textsuperscript{˸云}}},` |
 | `validation_tex` | `` | `` | `帛` | line | `` | `` | `{\large{kym\textsuperscript{·帛}}},` |
-| `validation_tex` | `` | `` | `claχ` | line | `` | `` | `{\large{{\textsuperscript{claχ}}ka}}` |
 | `validation_tex` | `` | `` | `辛` | line | `` | `` | `{\large{ka{\textsuperscript{:辛}}}}` |
-| `validation_tex` | `` | `` | `portχ` | line | `` | `` | `{\large{{\textsuperscript{portχ}}ta}},` |
-| `validation_tex` | `` | `` | `claχ` | line | `` | `` | `{\large{{\textsuperscript{claχ}}ka}}` |
 | `validation_tex` | `` | `` | `辛` | line | `` | `` | `{\large{ka{\textsuperscript{:辛}}}}` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
-| `validation_tex` | `` | `` | `claχ` | line | `` | `` | `{\large{{\textsuperscript{claχ·}}ṅa₂}},` |
-| `validation_tex` | `` | `` | `eoχ` | line | `` | `` | `{\large{{\textsuperscript{eoχ}}ṅa₂}},` |
-| `validation_tex` | `` | `` | `portχ` | line | `` | `` | `{\large{{\textsuperscript{portχ}}ta}},` |
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
 | `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}tak}},` |
@@ -1533,7 +1489,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `丿` | line | `` | `` | `{\large{sew₂\textsuperscript{˸丿}}},` |
 | `validation_tex` | `` | `` | `入` | line | `` | `` | `{\large{\textsuperscript{入·}lek₂}},` |
 | `validation_tex` | `` | `` | `光` | line | `` | `` | `{\large{\textsuperscript{光·}lek₂}},` |
-| `validation_tex` | `` | `` | `vannχ` | line | `` | `` | `{\large{\textsuperscript{vannχ}pay}},` |
 | `validation_tex` | `` | `` | `吂` | line | `` | `` | `{\large{\textsuperscript{吂˸}kor}},` |
 | `validation_tex` | `` | `` | `曰` | line | `` | `` | `{\large{kat\textsuperscript{˸曰}}},` |
 | `validation_tex` | `` | `` | `盾` | line | `` | `` | `{\large{\textsuperscript{盾·}pot}},` |
@@ -1577,7 +1532,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `兔` | line | `` | `` | `{\large{lur\textsuperscript{·兔}}},` |
 | `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kep}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}lep}},` |
-| `validation_tex` | `` | `` | `鹵` | line | `` | `` | `{\large{kam\textsuperscript{˸鹵}}},` |
 | `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}kem}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tem\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `炎` | line | `` | `` | `{\large{qam\textsuperscript{·炎}}},` |
@@ -1587,157 +1541,4 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{kym\textsuperscript{·音}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{kym\textsuperscript{˸云}}},` |
 | `validation_tex` | `` | `` | `帛` | line | `` | `` | `{\large{kym\textsuperscript{·帛}}},` |
-
-## Placeholder labels in use
-
-| Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| `current_main_tex` | `01-43` | `埜` | `xxx` | raw_block | `` | `⿱林土` | `{\large{\textsuperscript{xxx·}la}},` |
-| `current_main_tex` | `01-43` | `𡐨` | `xxx` | raw_block | `` | `⿱㮊土` | `{\large{\textsuperscript{xxx·}la}},
-%ye3` |
-| `current_main_tex` | `01-67` | `簠` | `xxx` | raw_block | `` | `⿱竹盙` | `{\large{{\textsuperscript{xxx·}}pa₂}},` |
-| `current_main_tex` | `10-10` | `驅` | `xxx` | raw_block | `` | `⿰馬區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `敺` | `xxx` | raw_block | `` | `⿰區攴` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_main_tex` | `10-10` | `軀` | `xxx` | raw_block | `` | `⿰身區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `摳` | `xxx` | raw_block | `` | `⿰扌區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `嘔` | `xxx` | raw_block | `` | `⿰口區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `毆` | `xxx` | raw_block | `` | `⿰區殳` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_main_tex` | `10-10` | `漚` | `xxx` | raw_block | `` | `⿰氵區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `甌` | `xxx` | raw_block | `` | `⿰區瓦` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_main_tex` | `10-10` | `謳` | `xxx` | raw_block | `` | `⿰言區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `傴` | `xxx` | raw_block | `` | `⿰亻區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `嫗` | `xxx` | raw_block | `` | `⿰女區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-10` | `饇` | `xxx` | raw_block | `` | `⿰飠區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_main_tex` | `10-11` | `寓` | `xxx` | raw_block | `` | `⿱宀禺` | `{\large{{\textsuperscript{xxx:}}ṅo}}, \textit{ṅiuH};	%ngjuH	0124c` |
-| `current_main_tex` | `10-11` | `嵎` | `xxx` | raw_block | `` | `⿰山禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124f` |
-| `current_main_tex` | `10-11` | `愚` | `xxx` | raw_block | `` | `⿱禺心` | `{\large{ṅo{\textsuperscript{:xxx}}}},` |
-| `current_main_tex` | `10-11` | `隅` | `xxx` | raw_block | `` | `⿰阝禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124i` |
-| `current_main_tex` | `10-11` | `腢` | `xxx` | raw_block | `` | `⿰月禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu},	%ngju	0124j` |
-| `current_main_tex` | `10-11` | `髃` | `xxx` | raw_block | `` | `⿰骨禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},  \textit{ṅiu},	%ngju	0124k` |
-| `current_main_tex` | `10-11` | `齵` | `xxx` | raw_block | `` | `⿰齒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_main_tex` | `10-11` | `喁` | `xxx` | raw_block | `` | `⿰口禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_main_tex` | `10-11` | `偶` | `xxx` | raw_block | `` | `⿰亻禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_main_tex` | `10-11` | `耦` | `xxx` | raw_block | `` | `⿰耒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_main_tex` | `10-11` | `顒` | `xxx` | raw_block | `` | `⿰禺頁` | `{\large{ṅo{\textsuperscript{·xxx}}}},
-The contact between open syllable and velar nasal final in this series is super weird.` |
-| `earlier_pilot_tex` | `01-43` | `埜` | `xxx` | raw_block | `` | `⿱林土` | `{\large{\textsuperscript{xxx·}la}},` |
-| `earlier_pilot_tex` | `01-43` | `𡐨` | `xxx` | raw_block | `` | `⿱㮊土` | `{\large{\textsuperscript{xxx·}la}},
-%ye3` |
-| `earlier_pilot_tex` | `01-67` | `簠` | `xxx` | raw_block | `` | `⿱竹盙` | `{\large{{\textsuperscript{xxx·}}pa₂}},` |
-| `earlier_pilot_tex` | `10-10` | `驅` | `xxx` | raw_block | `` | `⿰馬區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `敺` | `xxx` | raw_block | `` | `⿰區攴` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `earlier_pilot_tex` | `10-10` | `軀` | `xxx` | raw_block | `` | `⿰身區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `摳` | `xxx` | raw_block | `` | `⿰扌區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `嘔` | `xxx` | raw_block | `` | `⿰口區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `毆` | `xxx` | raw_block | `` | `⿰區殳` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `earlier_pilot_tex` | `10-10` | `漚` | `xxx` | raw_block | `` | `⿰氵區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `甌` | `xxx` | raw_block | `` | `⿰區瓦` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `earlier_pilot_tex` | `10-10` | `謳` | `xxx` | raw_block | `` | `⿰言區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `傴` | `xxx` | raw_block | `` | `⿰亻區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `嫗` | `xxx` | raw_block | `` | `⿰女區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-10` | `饇` | `xxx` | raw_block | `` | `⿰飠區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `earlier_pilot_tex` | `10-11` | `寓` | `xxx` | raw_block | `` | `⿱宀禺` | `{\large{{\textsuperscript{xxx:}}ṅo}}, \textit{ṅiuH};	%ngjuH	0124c` |
-| `earlier_pilot_tex` | `10-11` | `嵎` | `xxx` | raw_block | `` | `⿰山禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124f` |
-| `earlier_pilot_tex` | `10-11` | `愚` | `xxx` | raw_block | `` | `⿱禺心` | `{\large{ṅo{\textsuperscript{:xxx}}}},` |
-| `earlier_pilot_tex` | `10-11` | `隅` | `xxx` | raw_block | `` | `⿰阝禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124i` |
-| `earlier_pilot_tex` | `10-11` | `腢` | `xxx` | raw_block | `` | `⿰月禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu},	%ngju	0124j` |
-| `earlier_pilot_tex` | `10-11` | `髃` | `xxx` | raw_block | `` | `⿰骨禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},  \textit{ṅiu},	%ngju	0124k` |
-| `earlier_pilot_tex` | `10-11` | `齵` | `xxx` | raw_block | `` | `⿰齒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `earlier_pilot_tex` | `10-11` | `喁` | `xxx` | raw_block | `` | `⿰口禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `earlier_pilot_tex` | `10-11` | `偶` | `xxx` | raw_block | `` | `⿰亻禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `earlier_pilot_tex` | `10-11` | `耦` | `xxx` | raw_block | `` | `⿰耒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `earlier_pilot_tex` | `10-11` | `顒` | `xxx` | raw_block | `` | `⿰禺頁` | `{\large{ṅo{\textsuperscript{·xxx}}}},
-The contact between open syllable and velar nasal final in this series is super weird.` |
-| `current_tex_entries_json` | `01-43` | `埜` | `xxx` | raw_block | `` | `⿱林土` | `{\large{\textsuperscript{xxx·}la}},` |
-| `current_tex_entries_json` | `01-43` | `𡐨` | `xxx` | raw_block | `` | `⿱㮊土` | `{\large{\textsuperscript{xxx·}la}},
-%ye3` |
-| `current_tex_entries_json` | `01-67` | `簠` | `xxx` | raw_block | `` | `⿱竹盙` | `{\large{{\textsuperscript{xxx·}}pa₂}},` |
-| `current_tex_entries_json` | `10-10` | `驅` | `xxx` | raw_block | `` | `⿰馬區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `敺` | `xxx` | raw_block | `` | `⿰區攴` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_tex_entries_json` | `10-10` | `軀` | `xxx` | raw_block | `` | `⿰身區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `摳` | `xxx` | raw_block | `` | `⿰扌區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `嘔` | `xxx` | raw_block | `` | `⿰口區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `毆` | `xxx` | raw_block | `` | `⿰區殳` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_tex_entries_json` | `10-10` | `漚` | `xxx` | raw_block | `` | `⿰氵區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `甌` | `xxx` | raw_block | `` | `⿰區瓦` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `current_tex_entries_json` | `10-10` | `謳` | `xxx` | raw_block | `` | `⿰言區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `傴` | `xxx` | raw_block | `` | `⿰亻區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `嫗` | `xxx` | raw_block | `` | `⿰女區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-10` | `饇` | `xxx` | raw_block | `` | `⿰飠區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `current_tex_entries_json` | `10-11` | `寓` | `xxx` | raw_block | `` | `⿱宀禺` | `{\large{{\textsuperscript{xxx:}}ṅo}}, \textit{ṅiuH};	%ngjuH	0124c` |
-| `current_tex_entries_json` | `10-11` | `嵎` | `xxx` | raw_block | `` | `⿰山禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124f` |
-| `current_tex_entries_json` | `10-11` | `愚` | `xxx` | raw_block | `` | `⿱禺心` | `{\large{ṅo{\textsuperscript{:xxx}}}},` |
-| `current_tex_entries_json` | `10-11` | `隅` | `xxx` | raw_block | `` | `⿰阝禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124i` |
-| `current_tex_entries_json` | `10-11` | `腢` | `xxx` | raw_block | `` | `⿰月禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu},	%ngju	0124j` |
-| `current_tex_entries_json` | `10-11` | `髃` | `xxx` | raw_block | `` | `⿰骨禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},  \textit{ṅiu},	%ngju	0124k` |
-| `current_tex_entries_json` | `10-11` | `齵` | `xxx` | raw_block | `` | `⿰齒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_tex_entries_json` | `10-11` | `喁` | `xxx` | raw_block | `` | `⿰口禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_tex_entries_json` | `10-11` | `偶` | `xxx` | raw_block | `` | `⿰亻禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_tex_entries_json` | `10-11` | `耦` | `xxx` | raw_block | `` | `⿰耒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `current_tex_entries_json` | `10-11` | `顒` | `xxx` | raw_block | `` | `⿰禺頁` | `{\large{ṅo{\textsuperscript{·xxx}}}},
-The contact between open syllable and velar nasal final in this series is super weird.` |
-| `curation_json` | `01-43` | `𡐨` | `xxx` | render_latex, transliteration_latex | `` | `⿱㮊土` | `𡐨	%ye3 / yě
-{\large{\textsuperscript{xxx·}la}},
-\textit{yaeX};	%0083m` |
-| `integrated_series_hand_entry` | `01-43` | `埜` | `xxx` | raw_block | `` | `⿱林土` | `{\large{\textsuperscript{xxx·}la}},` |
-| `integrated_series_hand_entry` | `01-43` | `𡐨` | `xxx` | raw_block | `` | `⿱㮊土` | `{\large{\textsuperscript{xxx·}la}},
-%ye3` |
-| `integrated_series_curated_entry` | `01-43` | `𡐨` | `xxx` | render_latex, transliteration_latex | `` | `⿱㮊土` | `𡐨	%ye3 / yě
-{\large{\textsuperscript{xxx·}la}},
-\textit{yaeX};	%0083m` |
-| `integrated_series_hand_entry` | `01-67` | `簠` | `xxx` | raw_block | `` | `⿱竹盙` | `{\large{{\textsuperscript{xxx·}}pa₂}},` |
-| `integrated_series_hand_entry` | `10-10` | `驅` | `xxx` | raw_block | `` | `⿰馬區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `敺` | `xxx` | raw_block | `` | `⿰區攴` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `integrated_series_hand_entry` | `10-10` | `軀` | `xxx` | raw_block | `` | `⿰身區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `摳` | `xxx` | raw_block | `` | `⿰扌區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `嘔` | `xxx` | raw_block | `` | `⿰口區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `毆` | `xxx` | raw_block | `` | `⿰區殳` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `integrated_series_hand_entry` | `10-10` | `漚` | `xxx` | raw_block | `` | `⿰氵區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `甌` | `xxx` | raw_block | `` | `⿰區瓦` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `integrated_series_hand_entry` | `10-10` | `謳` | `xxx` | raw_block | `` | `⿰言區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `傴` | `xxx` | raw_block | `` | `⿰亻區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `嫗` | `xxx` | raw_block | `` | `⿰女區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-10` | `饇` | `xxx` | raw_block | `` | `⿰飠區` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `integrated_series_hand_entry` | `10-11` | `寓` | `xxx` | raw_block | `` | `⿱宀禺` | `{\large{{\textsuperscript{xxx:}}ṅo}}, \textit{ṅiuH};	%ngjuH	0124c` |
-| `integrated_series_hand_entry` | `10-11` | `嵎` | `xxx` | raw_block | `` | `⿰山禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124f` |
-| `integrated_series_hand_entry` | `10-11` | `愚` | `xxx` | raw_block | `` | `⿱禺心` | `{\large{ṅo{\textsuperscript{:xxx}}}},` |
-| `integrated_series_hand_entry` | `10-11` | `隅` | `xxx` | raw_block | `` | `⿰阝禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124i` |
-| `integrated_series_hand_entry` | `10-11` | `腢` | `xxx` | raw_block | `` | `⿰月禺` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu},	%ngju	0124j` |
-| `integrated_series_hand_entry` | `10-11` | `髃` | `xxx` | raw_block | `` | `⿰骨禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},  \textit{ṅiu},	%ngju	0124k` |
-| `integrated_series_hand_entry` | `10-11` | `齵` | `xxx` | raw_block | `` | `⿰齒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `integrated_series_hand_entry` | `10-11` | `喁` | `xxx` | raw_block | `` | `⿰口禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `integrated_series_hand_entry` | `10-11` | `偶` | `xxx` | raw_block | `` | `⿰亻禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `integrated_series_hand_entry` | `10-11` | `耦` | `xxx` | raw_block | `` | `⿰耒禺` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `integrated_series_hand_entry` | `10-11` | `顒` | `xxx` | raw_block | `` | `⿰禺頁` | `{\large{ṅo{\textsuperscript{·xxx}}}},
-The contact between open syllable and velar nasal final in this series is super weird.` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{\textsuperscript{xxx·}la}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}pa₂}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{q\textoverset{x}{o}}{\textsuperscript{·xxx}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}q\textoverset{x}{o}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx:}}ṅo}}, \textit{ṅiuH};	%ngjuH	0124c` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124f` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{ṅo{\textsuperscript{:xxx}}}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu};	%ngju	0124i` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}}, \textit{ṅiu},	%ngju	0124j` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}},  \textit{ṅiu},	%ngju	0124k` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{{\textsuperscript{xxx·}}ṅo}},` |
-| `validation_tex` | `` | `` | `xxx` | line | `` | `` | `{\large{ṅo{\textsuperscript{·xxx}}}},` |
 

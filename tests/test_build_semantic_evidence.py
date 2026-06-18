@@ -248,6 +248,32 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         learned = build_semantic_evidence.build_learned_graph_lookup(evidence, shengfu_rows, ids_map)
         self.assertEqual(learned["疒"][0]["abbreviation"], "infirm")
 
+    def test_refresh_curated_tex_entry_from_current_tex_replaces_stale_baseline(self) -> None:
+        tex_entries = [
+            {
+                "id": "01-43",
+                "head": {"characters": ["予"], "raw": r"\huge{予}"},
+                "raw_block": "\\paragraph{X}\n野\n{\\large{\\textsuperscript{vic·}la}},",
+            }
+        ]
+        entry = {
+            "id": "01-43",
+            "tex_entry": {
+                "id": "01-43",
+                "head": {"characters": ["予"], "raw": r"\huge{予}"},
+                "raw_block": "\\paragraph{X}\n野\n{\\large{\\textsuperscript{xxx·}la}},",
+            },
+        }
+
+        refreshed = build_semantic_evidence.refresh_curated_tex_entry_from_current_tex(
+            entry,
+            build_semantic_evidence.build_tex_entry_index(tex_entries),
+        )
+
+        self.assertIn(r"\textsuperscript{vic·}la", refreshed["tex_entry"]["raw_block"])
+        self.assertNotIn(r"\textsuperscript{xxx·}la", refreshed["tex_entry"]["raw_block"])
+        self.assertEqual(refreshed["entry_hierarchy"]["top_level_head"], "予")
+
     def test_resolve_generated_node_root_adds_ab_display_root(self) -> None:
         candidate = {
             "character": "布",
