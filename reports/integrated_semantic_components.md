@@ -41,41 +41,40 @@
 
 | Graph | Abbr. | Expanded Latin | Notes | Scope | Only in | Duplicate graph | Note | Entry-form aliases | Used in dictionary | Provenance |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `辛` | `acr` | `acr(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黹` | `acu` | `acu(laria)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尚` | `adhuc` | `adhuc` | (shàng) - / (still, yet, even, still more) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `田` | `ager` | `ager` |  | general |  |  |  | `ag` | yes | current_main_tex, earlier_pilot |
 | `白` | `alb` | `alb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `高` | `alt` | `alt(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `辵` | `amb` | `amb(ulo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `古` | `antiqu` | `antiqu(us)` | (gǔ) - / (ancient, old) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `弓` | `arc` | `arc(us)` | (gōng) - / (bow) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `水` | `aq` | `aq(ua)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `耒` | `aratr` | `aratr(um)` | (lěi) - / (plow) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `木` | `arb` | `arb(or)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `耳` | `aur` | `aur(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `臤` | `firm` | `firm(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鳥` | `av` | `av(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `竹` | `bamb` | `bamb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `須` | `barb` | `barb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `\symbol{"268DE}` | `barbil` | `barbil(ia)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `豸` | `best` | `best(ia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `牛` | `bos` | `bos` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尸` | `cadaver` | `cadaver` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `犬` | `can` | `can(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `鼠` | `mus` | `mus` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `首` | `cap` | `cap(ut)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `匚` | `caps` | `caps(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `肉` | `carn` | `carn(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `血` | `sangu` | `sangu(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `厂` | `caut` | `caut(es)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `穴` | `cav` | `cav(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鹿` | `cerv` | `cerv(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `止` | `cess` | `cess(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `申` | `tend` | `tend(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `申` | `tend` | `tend(o)` |  | general |  |  |  |  | yes | current_main_tex, current_main_tex, earlier_pilot, earlier_pilot |
 | `單` | `cicad` | `cicad(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `雚` | `ciconia` | `ciconia` | (in 飌) | only_in | 飌 |  |  |  | no | current_main_tex, earlier_pilot |
 | `丹` | `cinnabar` | `cinnabar(is)` | (in 彤) | only_in | 彤 |  |  |  | no | current_main_tex, earlier_pilot |
 | `囗` | `cla` | `cla(usum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `匚` | `caps` | `caps(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `尢` | `claud` | `claud(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `思` | `cogit` | `cogit(o)` | (sī) - / (to think, to ponder) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `丘/丠` | `coll` | `coll(is)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `貝` | `conch` | `conch(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -84,7 +83,6 @@
 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `髟` | `crin` | `crin(is)` |  | general |  |  |  | `cri` | yes | current_main_tex, earlier_pilot |
-| `須` | `barb` | `barb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `刀` | `cult` | `cult(er)` |  | general |  |  |  | `cul` | yes | current_main_tex, earlier_pilot |
 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鬼` | `daemon` | `daemon` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -93,7 +91,7 @@
 | `齒` | `dent` | `(dens), dent(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `又` | `dextr` | `dextr(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `言` | `dic` | `dic(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `音` | `son` | `son(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `音` | `son` | `son(us)` |  | general |  |  |  |  | yes | current_main_tex, current_main_tex, earlier_pilot, earlier_pilot |
 | `寸` | `digit` | `digit(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `舍` | `dom` | `dom(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `龍` | `dracon` | `(draco), dracon(is)` | (in 龏) | only_in | 龏 |  |  |  | no | current_main_tex, earlier_pilot |
@@ -108,6 +106,8 @@
 | `攴` | `fer` | `fer(io)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `勹` | `flect` | `flect(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `子` | `fili` | `fili(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `臤` | `firm` | `firm(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  | no | current_main_tex, earlier_pilot |
 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  | no | current_main_tex, earlier_pilot |
 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  | no | current_main_tex, earlier_pilot |
@@ -120,13 +120,10 @@
 | `旨` | `gust` | `gust(us)` | (in 嘗) | only_in | 嘗 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戈` | `hallebard` | `hallebard(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `殳` | `hast` | `hast(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `矛` | `iacul` | `iacul(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `鬥` | `pugn` | `pugn(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `艸` | `herb` | `herb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `人` | `hom` | `hom(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `民` | `pleb` | `pleb(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `矛` | `iacul` | `iacul(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `光` | `lux` | `lux` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `疒` | `infirm` | `infirm(itas)` | (recovered from entry usage) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `兮` | `io` | `io` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -134,11 +131,11 @@
 | `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `广` | `lax` | `lax(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `斤` | `libra` | `libra` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `舌` | `lingu` | `lingu(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `巾` | `lint` | `lint(eum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `帛` | `pann` | `pann(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `月` | `luna` | `luna` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `光` | `lux` | `lux` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `大` | `magn` | `magn(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `尢` | `claud` | `claud(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `歹` | `mal` | `mal(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `手` | `man` | `man(us)` |  | general |  |  |  | `manu` | yes | current_main_tex, earlier_pilot |
 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -147,6 +144,7 @@
 | `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  | no | current_main_tex, earlier_pilot |
 | `牙` | `molar` | `molar(is dens)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `鼠` | `mus` | `mus` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `非` | `ne` | `ne` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -159,10 +157,10 @@
 | `鬲` | `olla` | `olla` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `米` | `oryz` | `oryz(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `口` | `or` | `(os,) or(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `舌` | `lingu` | `lingu(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `骨` | `oss` | `(os,) oss(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戶` | `ost` | `ost(ium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `羊` | `ov` | `ov(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `帛` | `pann` | `pann(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `幺` | `parv` | `parv(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `步` | `pass` | `pass(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `隹` | `passer` | `passer` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -171,6 +169,7 @@
 | `毛` | `pil` | `pil(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `聿` | `pincern` | `pincern(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `魚` | `pis` | `pis(cis)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `民` | `pleb` | `pleb(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `羽` | `plum` | `plum(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `雨` | `pluv` | `pluv(ia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `豕` | `porc` | `porc(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -179,11 +178,13 @@
 | `玄` | `profund` | `profund(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `卜` | `prognosc` | `prognosc(ere)` | (in 鼑) | only_in | 鼑 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `廴` | `progred` | `progred(ior)` | (in 廷) | only_in | 廷 |  |  |  | yes | current_main_tex, earlier_pilot |
+| `鬥` | `pugn` | `pugn(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `方` | `quadr` | `quadr(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `支` | `ram` | `ram(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `赤` | `ruf` | `ruf(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `矢` | `sagit` | `sagit(ta)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `鹵` | `sal` | `sal(is)` | \item 章 sculp(ō) (in 贛) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `鹵` | `sal` | `sal(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `血` | `sangu` | `sangu(is)` | \item 章 sculp(ō) (in 贛) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戊` | `secur` | `secur(is)` | (in 戚) | only_in | 戚 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `片` | `segm` | `segm(entum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `老` | `sen` | `sen(ex)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -194,7 +195,6 @@
 | `卩` | `sign` | `sign(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `㝱` | `somn` | `somn(ium)` | (méi) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `示` | `spirit` | `spirit(us)` |  | general |  |  |  | `spir` | yes | current_main_tex, earlier_pilot |
-| `辛` | `acr` | `acr(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `立` | `sto` | `sto` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼓` | `tabur` | `tabur` | (only in 鼛?) | only_in | 鼛? |  |  |  | yes | current_main_tex, earlier_pilot |
 | `宀` | `tect` | `tect(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
