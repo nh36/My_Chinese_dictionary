@@ -129,7 +129,7 @@
 | `:ov` | suffix-colon | 1 | 1 | `19-18` |
 | `observ·` | prefix-dot | 1 | 1 | `01-01` |
 | `cadaver·` | prefix-dot | 1 | 1 | `01-01` |
-| `:辛` | suffix-colon | 1 | 1 | `01-01` |
+| `:acr` | suffix-colon | 1 | 1 | `01-01` |
 | `:ocul` | suffix-colon | 1 | 1 | `01-02` |
 | `antiqu·` | prefix-dot | 1 | 1 | `01-12` |
 | `pluv:` | prefix-colon | 1 | 1 | `01-12` |
@@ -193,7 +193,7 @@
 | `corp·` | prefix-dot | 1 | 1 | `10-10` |
 | `·hast` | suffix-dot | 1 | 1 | `10-10` |
 | `dent·` | prefix-dot | 1 | 1 | `10-11` |
-| `臤:` | prefix-colon | 1 | 1 | `10-16` |
+| `firm:` | prefix-colon | 1 | 1 | `10-16` |
 | `latebrχ` | bare | 1 | 1 | `02-30` |
 | `glac·` | prefix-dot | 1 | 1 | `13-26` |
 | `·cri` | suffix-dot | 1 | 1 | `13-26` |

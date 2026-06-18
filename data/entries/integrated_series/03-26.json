@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T20:07:18.765566+00:00",
+  "generated_at": "2026-06-18T22:10:08.307344+00:00",
   "id": "03-26",
   "schuessler": {
     "gsc_id": "03-26",
@@ -867,7 +867,7 @@
               "graph_raw": "止",
               "label_token": "cess(o)",
               "abbreviation": "cess",
-              "start_line": 213
+              "start_line": 217
             }
           ],
           "source": "wiktionary_han_compound",
@@ -890,7 +890,7 @@
                 "graph_raw": "止",
                 "label_token": "cess(o)",
                 "abbreviation": "cess",
-                "start_line": 213
+                "start_line": 217
               }
             ],
             "template_raw": "{{Han compound|止|王|ls=psc|c1=s|c2=p|t1=foot|nocap=1}}"
@@ -1131,7 +1131,7 @@
                 "graph_raw": "止",
                 "label_token": "cess(o)",
                 "abbreviation": "cess",
-                "start_line": 213
+                "start_line": 217
               }
             ],
             "template_raw": "{{Han compound|止|王|c1=s|c2=p|t1=foot|ls=psc|nocap=y}}"
@@ -1146,7 +1146,7 @@
               "graph_raw": "止",
               "label_token": "cess(o)",
               "abbreviation": "cess",
-              "start_line": 213
+              "start_line": 217
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1430,14 +1430,21 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "匚",
+          "abbreviation": "caps",
           "position": "prefix-dot",
-          "inventory_matches": [],
+          "inventory_matches": [
+            {
+              "graph_raw": "匚",
+              "label_token": "caps(a)",
+              "abbreviation": "caps",
+              "start_line": 223
+            }
+          ],
           "source": "packet_family_component_literal_fallback",
           "semantic_component": "匚"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{匚·}quaṅ}},",
-        "render_latex": "匡\t%kuang1 / kuāng\n{\\large{\\textsuperscript{匚·}quaṅ}},\n\\textit{khiwaṅ};\t%0739m",
+        "transliteration_latex": "{\\large{\\textsuperscript{caps·}quaṅ}},",
+        "render_latex": "匡\t%kuang1 / kuāng\n{\\large{\\textsuperscript{caps·}quaṅ}},\n\\textit{khiwaṅ};\t%0739m",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1583,7 +1590,7 @@
               "graph_raw": "犬",
               "label_token": "can(is)",
               "abbreviation": "can",
-              "start_line": 207
+              "start_line": 209
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1606,7 +1613,7 @@
                 "graph_raw": "犬",
                 "label_token": "can(is)",
                 "abbreviation": "can",
-                "start_line": 207
+                "start_line": 209
               }
             ],
             "template_raw": "{{Han compound|犬|alt1=犭|㞷|ls=psc|c1=s|c2=p|t1=dog}}"
@@ -1737,7 +1744,7 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 193
+              "start_line": 199
             },
             {
               "graph_raw": "木",
@@ -1907,7 +1914,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -1937,7 +1944,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -2072,37 +2079,58 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "尪",
             "ids": "⿺尢王",
             "phonetic_component": "王",
             "semantic_component": "尢",
             "position": "prefix-dot",
-            "abbreviation": "尢",
-            "inventory_matches": []
+            "abbreviation": "claud",
+            "inventory_matches": [
+              {
+                "graph_raw": "尢",
+                "label_token": "claud(us)",
+                "abbreviation": "claud",
+                "start_line": 295
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "尢",
+          "abbreviation": "claud",
           "position": "prefix-dot",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "inventory_matches": [
+            {
+              "graph_raw": "尢",
+              "label_token": "claud(us)",
+              "abbreviation": "claud",
+              "start_line": 295
+            }
+          ],
+          "source": "wiktionary_han_compound",
           "semantic_component": "尢"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{尢·}quaṅ₂}},",
-        "render_latex": "尪\t%wang1 / wāng\n{\\large{\\textsuperscript{尢·}quaṅ₂}},\n\\textit{qwaṅ};\t%0739t",
+        "transliteration_latex": "{\\large{\\textsuperscript{claud·}quaṅ₂}},",
+        "render_latex": "尪\t%wang1 / wāng\n{\\large{\\textsuperscript{claud·}quaṅ₂}},\n\\textit{qwaṅ};\t%0739t",
         "wiktionary_semantic_validation": {
           "semantic_component": "尢",
           "phonetic_component": "玉",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "尪",
             "semantic_component": "尢",
             "phonetic_component": "玉",
             "position": "prefix-dot",
-            "abbreviation": "尢",
-            "inventory_matches": [],
+            "abbreviation": "claud",
+            "inventory_matches": [
+              {
+                "graph_raw": "尢",
+                "label_token": "claud(us)",
+                "abbreviation": "claud",
+                "start_line": 295
+              }
+            ],
             "template_raw": "{{Han compound|尢|王|ls=psc|c1=s|c2=p|t1=}}"
           }
         },
@@ -2184,7 +2212,7 @@
               "graph_raw": "目",
               "label_token": "ocul(us)",
               "abbreviation": "ocul",
-              "start_line": 289
+              "start_line": 312
             },
             {
               "graph_raw": "目",
@@ -2292,14 +2320,14 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 196
+              "start_line": 203
             },
             {
               "graph_raw": "竹",
               "label_token": "bamb",
               "abbreviation": "bamb",
               "learned": true,
-              "evidence_count": 10
+              "evidence_count": 12
             }
           ],
           "source": "packet_family_ids",
@@ -2386,14 +2414,14 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 233
+              "start_line": 246
             },
             {
               "graph_raw": "言",
               "label_token": "dic",
               "abbreviation": "dic",
               "learned": true,
-              "evidence_count": 18
+              "evidence_count": 19
             }
           ],
           "source": "packet_family_ids",
@@ -2532,7 +2560,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 269
+              "start_line": 279
             },
             {
               "graph_raw": "人",
@@ -2562,7 +2590,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",

@@ -1039,6 +1039,32 @@ def refresh_curated_tex_entry_from_current_tex(
     return entry
 
 
+def canonicalize_semantic_assignment_from_inventory(
+    candidate: dict[str, Any],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> bool:
+    semantic_assignment = candidate.get("semantic_assignment") or {}
+    semantic_component = normalize_component_graph(semantic_assignment.get("semantic_component"))
+    if not semantic_component:
+        return False
+    inventory_matches = graph_lookup.get(semantic_component, [])
+    if not inventory_matches:
+        return False
+    canonical_abbreviation = inventory_matches[0].get("abbreviation")
+    if not canonical_abbreviation:
+        return False
+    if semantic_assignment.get("abbreviation") == canonical_abbreviation:
+        semantic_assignment["inventory_matches"] = inventory_matches
+        candidate["semantic_assignment"] = semantic_assignment
+        return False
+    semantic_assignment["abbreviation"] = canonical_abbreviation
+    semantic_assignment["inventory_matches"] = inventory_matches
+    candidate["semantic_assignment"] = semantic_assignment
+    candidate["transliteration_latex"] = None
+    candidate["render_latex"] = None
+    return True
+
+
 def unique_non_null(values: list[Any]) -> list[Any]:
     result: list[Any] = []
     seen: set[str] = set()
@@ -1563,6 +1589,8 @@ def enrich_curated_entry_with_ids(
             and existing_assignment.get("position") not in {None, "none"}
         ):
             candidate["semantic_assignment"] = None
+        elif existing_assignment:
+            canonicalize_semantic_assignment_from_inventory(candidate, graph_lookup)
         candidate["mc_resolution"] = mc_resolution.resolve_candidate_mc(candidate)
         matches = disambiguate_occurrences(candidate, evidence.get(candidate["character"], []))
         candidate["tex_occurrence_candidates"] = matches

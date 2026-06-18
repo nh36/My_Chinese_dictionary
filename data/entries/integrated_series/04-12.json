@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T20:07:18.765624+00:00",
+  "generated_at": "2026-06-18T22:10:08.307378+00:00",
   "id": "04-12",
   "schuessler": {
     "gsc_id": "04-12",
@@ -727,7 +727,7 @@
                 "graph_raw": "頁",
                 "label_token": "fac(ies)",
                 "abbreviation": "fac",
-                "start_line": 251
+                "start_line": 259
               },
               {
                 "graph_raw": "頁",
@@ -748,14 +748,14 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 245
+              "start_line": 259
             },
             {
               "graph_raw": "頁",
               "label_token": "fac",
               "abbreviation": "fac",
               "learned": true,
-              "evidence_count": 3
+              "evidence_count": 4
             }
           ],
           "source": "ids_top_level",
@@ -882,7 +882,7 @@
                 "graph_raw": "宀",
                 "label_token": "tect(um)",
                 "abbreviation": "tect",
-                "start_line": 342
+                "start_line": 358
               },
               {
                 "graph_raw": "宀",
@@ -903,7 +903,7 @@
               "graph_raw": "宀",
               "label_token": "tect(um)",
               "abbreviation": "tect",
-              "start_line": 342
+              "start_line": 358
             },
             {
               "graph_raw": "宀",
@@ -933,7 +933,7 @@
                 "graph_raw": "宀",
                 "label_token": "tect(um)",
                 "abbreviation": "tect",
-                "start_line": 342
+                "start_line": 358
               },
               {
                 "graph_raw": "宀",
@@ -1066,7 +1066,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -1087,7 +1087,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -1117,7 +1117,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -1262,7 +1262,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 368
+                "start_line": 384
               },
               {
                 "graph_raw": "車",
@@ -1283,7 +1283,7 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 368
+              "start_line": 384
             },
             {
               "graph_raw": "車",
@@ -1313,7 +1313,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 368
+                "start_line": 384
               },
               {
                 "graph_raw": "車",
@@ -1422,26 +1422,40 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "匭",
             "ids": "⿷匚軌",
             "phonetic_component": "九",
             "semantic_component": "匚",
             "position": "prefix-dot",
-            "abbreviation": "匚",
-            "inventory_matches": []
+            "abbreviation": "caps",
+            "inventory_matches": [
+              {
+                "graph_raw": "匚",
+                "label_token": "caps(a)",
+                "abbreviation": "caps",
+                "start_line": 223
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "匚",
+          "abbreviation": "caps",
           "position": "prefix-dot",
-          "inventory_matches": [],
+          "inventory_matches": [
+            {
+              "graph_raw": "匚",
+              "label_token": "caps(a)",
+              "abbreviation": "caps",
+              "start_line": 223
+            }
+          ],
           "source": "ids_component_literal_fallback",
           "semantic_component": "匚"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{匚·}ku}},",
-        "render_latex": "匭\t%gui3\n{\\large{\\textsuperscript{匚·}ku}},\n\\textit{kwiyX};\t%0992l",
+        "transliteration_latex": "{\\large{\\textsuperscript{caps·}ku}},",
+        "render_latex": "匭\t%gui3\n{\\large{\\textsuperscript{caps·}ku}},\n\\textit{kwiyX};\t%0992l",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1537,7 +1551,7 @@
                 "graph_raw": "首",
                 "label_token": "cap(ut)",
                 "abbreviation": "cap",
-                "start_line": 208
+                "start_line": 211
               }
             ]
           }
@@ -1551,7 +1565,7 @@
               "graph_raw": "首",
               "label_token": "cap(ut)",
               "abbreviation": "cap",
-              "start_line": 203
+              "start_line": 211
             }
           ],
           "source": "packet_family_ids",
@@ -1694,7 +1708,7 @@
                 "graph_raw": "鳥",
                 "label_token": "av(is)",
                 "abbreviation": "av",
-                "start_line": 200
+                "start_line": 202
               },
               {
                 "graph_raw": "鳥",
@@ -1715,7 +1729,7 @@
               "graph_raw": "鳥",
               "label_token": "av(is)",
               "abbreviation": "av",
-              "start_line": 200
+              "start_line": 202
             },
             {
               "graph_raw": "鳥",
@@ -1745,7 +1759,7 @@
                 "graph_raw": "鳥",
                 "label_token": "av(is)",
                 "abbreviation": "av",
-                "start_line": 200
+                "start_line": 202
               },
               {
                 "graph_raw": "鳥",
@@ -1878,7 +1892,7 @@
                 "graph_raw": "穴",
                 "label_token": "cav(us)",
                 "abbreviation": "cav",
-                "start_line": 211
+                "start_line": 215
               }
             ]
           }
@@ -1892,7 +1906,7 @@
               "graph_raw": "穴",
               "label_token": "cav(us)",
               "abbreviation": "cav",
-              "start_line": 211
+              "start_line": 215
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1915,7 +1929,7 @@
                 "graph_raw": "穴",
                 "label_token": "cav(us)",
                 "abbreviation": "cav",
-                "start_line": 211
+                "start_line": 215
               }
             ],
             "template_raw": "{{Han compound|穴|九|c1=s|c2=p|ls=psc|t1=cave}}"
@@ -2057,7 +2071,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -2078,7 +2092,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 269
+              "start_line": 279
             },
             {
               "graph_raw": "人",
@@ -2108,7 +2122,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -2270,7 +2284,7 @@
                 "graph_raw": "口",
                 "label_token": "(os,) or(is)",
                 "abbreviation": "or",
-                "start_line": 301
+                "start_line": 315
               },
               {
                 "graph_raw": "口",
@@ -2289,16 +2303,16 @@
           "inventory_matches": [
             {
               "graph_raw": "口",
-              "label_token": "(os,)",
+              "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 292
+              "start_line": 315
             },
             {
               "graph_raw": "口",
               "label_token": "or",
               "abbreviation": "or",
               "learned": true,
-              "evidence_count": 14
+              "evidence_count": 18
             }
           ],
           "source": "ids_top_level",
@@ -2401,7 +2415,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 268
+                "start_line": 278
               },
               {
                 "graph_raw": "艸",
@@ -2422,7 +2436,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 261
+              "start_line": 278
             },
             {
               "graph_raw": "艸",
@@ -2520,7 +2534,7 @@
                 "graph_raw": "鼻",
                 "label_token": "nas(um)",
                 "abbreviation": "nas",
-                "start_line": 290
+                "start_line": 304
               }
             ]
           }
@@ -2534,7 +2548,7 @@
               "graph_raw": "鼻",
               "label_token": "nas(um)",
               "abbreviation": "nas",
-              "start_line": 281
+              "start_line": 304
             }
           ],
           "source": "ids_top_level",
@@ -2665,7 +2679,7 @@
                 "graph_raw": "尸",
                 "label_token": "cadaver",
                 "abbreviation": "cadaver",
-                "start_line": 206
+                "start_line": 208
               },
               {
                 "graph_raw": "尸",
@@ -2686,7 +2700,7 @@
               "graph_raw": "尸",
               "label_token": "cadaver",
               "abbreviation": "cadaver",
-              "start_line": 206
+              "start_line": 208
             },
             {
               "graph_raw": "尸",
@@ -2716,7 +2730,7 @@
                 "graph_raw": "尸",
                 "label_token": "cadaver",
                 "abbreviation": "cadaver",
-                "start_line": 206
+                "start_line": 208
               },
               {
                 "graph_raw": "尸",
@@ -2989,7 +3003,7 @@
                 "graph_raw": "日",
                 "label_token": "sol",
                 "abbreviation": "sol",
-                "start_line": 334
+                "start_line": 349
               },
               {
                 "graph_raw": "日",
@@ -3010,7 +3024,7 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 334
+              "start_line": 349
             },
             {
               "graph_raw": "日",
@@ -3040,7 +3054,7 @@
                 "graph_raw": "日",
                 "label_token": "sol",
                 "abbreviation": "sol",
-                "start_line": 334
+                "start_line": 349
               },
               {
                 "graph_raw": "日",

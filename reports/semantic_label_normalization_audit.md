@@ -1,6 +1,6 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-18T20:07:19.879784+00:00
+- Generated at: 2026-06-18T22:10:09.342432+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
 - Total occurrences audited: 12981
 
@@ -8,9 +8,9 @@
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 12379 |
+| `canonical` | 12502 |
 | `explicit_alias` | 63 |
-| `needs_review` | 539 |
+| `needs_review` | 416 |
 
 ## Blocked ambiguous aliases
 
@@ -422,18 +422,6 @@ Watched tokens with no current heuristic match: `can`
 
 | Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `current_main_tex` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
-= {\large{k\textoverset{a}{a}₂}},` |
-| `current_main_tex` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
-| `earlier_pilot_tex` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
-= {\large{k\textoverset{a}{a}₂}},` |
-| `earlier_pilot_tex` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
-| `current_tex_entries_json` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
-= {\large{k\textoverset{a}{a}₂}},` |
-| `current_tex_entries_json` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
-| `curation_json` | `02-17` | `鼫` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠石` | `鼫	%shi2
-{\large{\textsuperscript{鼠·}tak}},
-\textit{jiek};	%0795h` |
 | `curation_json` | `02-17` | `磔` | `桀` | render_latex, transliteration_latex | `桀` | `⿰石桀` | `磔	%zhe2
 {\large{tak\textsuperscript{·桀}}},
 \textit{ṭaek};	%0795j` |
@@ -446,24 +434,12 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `02-25` | `殬` | `歺` | render_latex, transliteration_latex | `歺` | `⿰歹睪` | `殬	%du4
 {\large{\textsuperscript{歺·}lak}},
 \textit{tuH};	%0790q` |
-| `curation_json` | `02-32` | `矠` | `矛` | render_latex, transliteration_latex | `矛` | `⿰矛昔` | `矠	%ze2
-{\large{\textsuperscript{矛·}sak}},
-\textit{dẓeak};	%0798z` |
 | `curation_json` | `03-24` | `凰` | `几` | render_latex, transliteration_latex | `几` | `⿵几皇` | `凰	%huang2
 {\large{\textsuperscript{几˸}quaṅ}},
 \textit{ḫwaṅ};	%0708l` |
-| `curation_json` | `03-26` | `匡` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚王` | `匡	%kuang1 / kuāng
-{\large{\textsuperscript{匚·}quaṅ}},
-\textit{khiwaṅ};	%0739m` |
-| `curation_json` | `03-26` | `尪` | `尢` | render_latex, transliteration_latex | `尢` | `⿺尢王` | `尪	%wang1 / wāng
-{\large{\textsuperscript{尢·}quaṅ₂}},
-\textit{qwaṅ};	%0739t` |
 | `curation_json` | `03-32` | `尚` | `八` | render_latex, transliteration_latex | `八` | `⿱⺌冋` | `尚	%shang4 / shàng
 {\large{\textsuperscript{八˸}taṅ}},
 \textit{jiaṅH};	%0725a` |
-| `curation_json` | `03-38` | `暢` | `申` | render_latex, transliteration_latex | `申` | `⿰申昜` | `暢	%chang4
-{\large{\textsuperscript{申·}laṅ}},
-\textit{ṭhiaṅH};	%0720v` |
 | `curation_json` | `03-39` | `羕` | `永` | render_latex, transliteration_latex | `永` | `⿱𦍌永` | `羕	%yang4 / yàng
 {\large{qaṅ\textsuperscript{˸永}}},
 \textit{yaṅH};	%0732k` |
@@ -483,21 +459,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
 \textit{paeṅ};` |
-| `curation_json` | `03-65` | `氓` | `民` | render_latex, transliteration_latex | `民` | `⿰亡民` | `氓	%meng2 / méng
-{\large{maṅ\textsuperscript{·民}}},
-\textit{meaṅ};	%0742u` |
-| `curation_json` | `03-65` | `巟` | `川` | render_latex, transliteration_latex | `川` | `⿱亡𫶧` | `巟	%huang1 / huāng
-{\large{maṅ\textsuperscript{˸川}}},
-\textit{hwaṅ};	%0742v` |
-| `curation_json` | `03-65` | `衁` | `血` | render_latex, transliteration_latex | `血` | `⿱亡血` | `衁	%huang1 / huāng
-{\large{maṅ\textsuperscript{˸血}}},
-\textit{hwaṅ};	%0742z` |
 | `curation_json` | `04-05` | `㠱` | `己` | render_latex, transliteration_latex | `己` | `⿱己其` | `㠱	%ji4
 {\large{\textsuperscript{己˸}ky₅}},
 \textit{giX};	%0953y` |
-| `curation_json` | `04-12` | `匭` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚軌` | `匭	%gui3
-{\large{\textsuperscript{匚·}ku}},
-\textit{kwiyX};	%0992l` |
 | `curation_json` | `04-12` | `厹` | `厶` | render_latex, transliteration_latex | `厶` | `⿱九厶` | `厹	%qiu2
 {\large{ku\textsuperscript{˸厶}}},
 \textit{giuw};	%0992q` |
@@ -540,18 +504,9 @@ Watched tokens with no current heuristic match: `can`
 \textit{qwea};
 \textit{hwae};
 \textit{hwea};` |
-| `curation_json` | `07-11` | `鬩` | `鬥` | render_latex, transliteration_latex | `鬥` | `⿵鬥兒` | `鬩	%xi4 / xì
-{\large{\textsuperscript{鬥˸}ṅe}},
-\textit{xek};	%0873q` |
 | `curation_json` | `07-12` | `帝` | `丄` | render_latex, transliteration_latex | `丄` | `⿱⿱⿱亠丷冖巾` | `帝	%di4 / dì
 {\large{\textsuperscript{丄˸}tek}},
 \textit{teyH};	%0877a` |
-| `curation_json` | `07-25` | `髭` | `須` | render_latex, transliteration_latex | `須` | `⿱髟此` | `髭	%zi1
-{\large{\textsuperscript{須˸}tse}},
-\textit{tsie};	%0358n` |
-| `curation_json` | `08-12` | `舓` | `舌` | render_latex, transliteration_latex | `舌` | `⿰舌易` | `舓	%shì
-{\large{\textsuperscript{舌·}lek}},
-\textit{zyeX};	%850` |
 | `curation_json` | `09-09` | `營` | `宮` | render_latex, transliteration_latex | `宮` | `⿱𤇾呂` | `營	%ying2 / yíng
 {\large{queṅ\textsuperscript{˸宮}}},
 \textit{yiweṅ};	%0843f` |
@@ -567,9 +522,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `09-25` | `靜` | `爭` | render_latex, transliteration_latex | `爭` | `⿰青爭` | `靜	%jing4
 {\large{tseṅ\textsuperscript{·爭}}},
 \textit{dzieṅX};	%0812n'` |
-| `curation_json` | `09-25` | `鼪` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠生` | `鼪	%sheng1
-{\large{\textsuperscript{鼠·}tseṅ}},
-\textit{sieṅH};	%0812u` |
 | `curation_json` | `09-25` | `曐` | `晶` | render_latex, transliteration_latex | `晶` | `⿱晶生` | `曐	%xing1
 {\large{\textsuperscript{晶˸}tseṅ}},
 \textit{seṅ};	%0812y` |
@@ -595,19 +547,12 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `12-03` | `龔` | `共` | render_latex, transliteration_latex | `共` | `⿱龍共` | `龔	%gong1 / gōng
 {\large{koṅ\textsuperscript{˸共}}},
 \textit{kiuwṅ};	%1182k` |
-| `curation_json` | `12-03` | `鬨` | `鬥` | render_latex, transliteration_latex | `鬥` | `⿵鬥共` | `鬨	%hong4 / hòng
-{\large{\textsuperscript{鬥˸}koṅ}},
-\textit{ḫaewṅH};	%1182p
-\textit{ḫuwṅH};` |
 | `curation_json` | `12-03` | `巷` | `己` | render_latex, transliteration_latex | `己` | `⿱共巳` | `巷	%xiang4 / xiàng
 {\large{koṅ\textsuperscript{˸己}}},
 \textit{ḫaewṅH};	%1182s` |
 | `curation_json` | `12-08` | `𠟍` | `刂` | render_latex, transliteration_latex | `刂` | `⿰童刂` | `𠟍	%chong1
 {\large{toṅ\textsuperscript{·刂}}},
 \textit{chiəwṅ};	%1188a'` |
-| `curation_json` | `12-08` | `尰` | `尢` | render_latex, transliteration_latex | `尢` | `⿺尢重` | `尰	%zhong3
-{\large{\textsuperscript{尢·}toṅ}},
-\textit{jiəwṅX};	%1188k` |
 | `curation_json` | `12-10` | `甬` | `龴` | render_latex, transliteration_latex | `龴` | `⿱龴用` | `甬	%yong3
 {\large{\textsuperscript{龴˸}loṅ}},
 \textit{yiəwṅX};	%1185h` |
@@ -629,9 +574,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `13-22` | `𠼡` | `叹` | render_latex, transliteration_latex | `叹` | `⿹𢏚叹` | `𠼡	%chou2
 {\large{tu\textsuperscript{·叹}}},
 \textit{ḍiuw};	%1090f` |
-| `curation_json` | `13-30` | `鼬` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠由` | `鼬	%you4
-{\large{\textsuperscript{鼠·}lu}},
-\textit{yuwH};	%1079d` |
 | `curation_json` | `13-30` | `冑` | `帽` | render_latex, transliteration_latex | `帽` | `⿱由冃` | `冑	%zhou4 / zhòu
 {\large{\textsuperscript{帽˸}lu}},
 \textit{ḍiuwH};	%1079i` |
@@ -641,9 +583,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `13-72` | `匏` | `夸` | render_latex, transliteration_latex | `夸` | `⿰夸包` | `匏	%pao2 / páo
 {\large{\textsuperscript{夸·}pu}},
 \textit{baew};	%1113f` |
-| `curation_json` | `14-14` | `匵` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚賣` | `匵	%du2
-{\large{\textsuperscript{匚·}me}},
-\textit{duwk};	%1023f` |
 | `curation_json` | `14-14` | `讟` | `誩` | render_latex, transliteration_latex | `誩` | `⿰讀言` | `讟	%du2
 {\large{\textsuperscript{誩·}me}},
 \textit{duwk};	%1023n` |
@@ -656,9 +595,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `16-14` | `堯` | `兀` | render_latex, transliteration_latex | `兀` | `⿱垚兀` | `堯	%yao2 / yáo
 {\large{ṅew\textsuperscript{˸兀}}},
 \textit{ṅew};	%1164a` |
-| `curation_json` | `16-15` | `韶` | `音` | render_latex, transliteration_latex | `音` | `⿰音召` | `韶	%shao2
-{\large{\textsuperscript{音·}taw}},
-\textit{jiew};	%1131a'` |
 | `curation_json` | `16-15` | `㲈` | `殸` | render_latex, transliteration_latex | `殸` | `⿱殸召` | `㲈	%shao2
 {\large{\textsuperscript{殸˸}taw}},
 \textit{jiew};	%1131b'` |
@@ -676,9 +612,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `17-07` | `糴` | `入` | render_latex, transliteration_latex | `入` | `⿰籴翟` | `糴	%di2
 {\large{\textsuperscript{入·}lek₂}},
 \textit{dek};	%1124c` |
-| `curation_json` | `17-07` | `耀` | `光` | render_latex, transliteration_latex | `光` | `⿰光翟` | `耀	%yao4 / yào
-{\large{\textsuperscript{光·}lek₂}},
-\textit{yiewH};	%1124k` |
 | `curation_json` | `19-02` | `臝` | `吂` | render_latex, transliteration_latex | `吂` | `⿱吂⿲月果凡` | `臝	%luo3 / luǒ
 {\large{\textsuperscript{吂˸}kor}},
 \textit{lwaX};	%0351i` |
@@ -702,9 +635,6 @@ Watched tokens with no current heuristic match: `can`
 {\large{tar\textsuperscript{˸黽}}},
 \textit{da};	%0147e'
 \textit{dan};` |
-| `curation_json` | `24-21` | `匰` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚單` | `匰	%dan1
-{\large{\textsuperscript{匚·}tar}},
-\textit{tan};	%0147f` |
 | `curation_json` | `24-41` | `剗` | `刂` | render_latex, transliteration_latex | `刂` | `⿰戔刂` | `剗	%chan3
 {\large{tsan\textsuperscript{·刂}}},
 \textit{tṣheanX};	%0155i` |
@@ -739,9 +669,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `26-38` | `毗` | `囟` | render_latex, transliteration_latex | `囟` | `⿰田比` | `毗	%pi2 / pí
 {\large{\textsuperscript{囟·}piy}},
 \textit{byiy};	%0566u` |
-| `curation_json` | `27-08` | `匪` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚非` | `匪	%fei3 / fěi
-{\large{\textsuperscript{匚·}py₅}},
-\textit{piɨyX};	%0579c` |
 | `curation_json` | `27-08` | `斐` | `文` | render_latex, transliteration_latex | `文` | `⿱非文` | `斐	%fei3
 {\large{py₅\textsuperscript{˸文}}},
 \textit{phiɨyX};	%0579i` |
@@ -777,9 +704,6 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `31-02` | `靧` | `面` | render_latex, transliteration_latex | `面` | `⿰面貴` | `靧	%hui4 / huì
 {\large{\textsuperscript{面·}kuy}},
 \textit{hwəyH};	%0540f` |
-| `curation_json` | `31-02` | `匱` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚貴` | `匱	%gui4 / guì
-{\large{\textsuperscript{匚·}kuy}},
-\textit{gwiyH};	%0540g` |
 | `curation_json` | `31-16` | `屈` | `尾` | render_latex, transliteration_latex | `尾` | `⿸尸出` | `屈	%qu1 / qū
 {\large{kut\textsuperscript{·尾}}},
 \textit{khiut};	%0496k` |
@@ -804,25 +728,13 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{韋·}kuyr}},
 \textit{hiunH};	%0458g
 \textit{hiwənH};` |
-| `curation_json` | `34-13` | `輝` | `光` | render_latex, transliteration_latex | `光` | `⿰光軍` | `輝	%hui1 / huī
-{\large{\textsuperscript{光·}kuyr}},
-\textit{hiwɨy};	%0458l` |
-| `curation_json` | `34-23` | `䘒` | `血` | render_latex, transliteration_latex | `血` | `⿰血夋` | `䘒	%zui1
-{\large{\textsuperscript{血·}lur}},
-\textit{tswəy};	%0468g'` |
 | `curation_json` | `34-23` | `㕙` | `兔` | render_latex, transliteration_latex | `兔` | `⿰夋兔` | `㕙	%jun4
 {\large{lur\textsuperscript{·兔}}},
 \textit{tshwin};	%0468s
 \textit{tswinH};` |
-| `curation_json` | `35-03` | `匧` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚夾` | `匧	%qie4 / qiè
-{\large{\textsuperscript{匚·}kep}},
-\textit{khep};	%0630j` |
 | `curation_json` | `35-10` | `韘` | `韋` | render_latex, transliteration_latex | `韋` | `⿰韋枼` | `韘	%she4
 {\large{\textsuperscript{韋·}lep}},
 \textit{śiep};	%0633o` |
-| `curation_json` | `36-07` | `鼸` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠兼` | `鼸	%xian3
-{\large{\textsuperscript{鼠·}kem}},
-\textit{hemX};	%0627k` |
 | `curation_json` | `36-12` | `㓠` | `刂` | render_latex, transliteration_latex | `刂` | `⿰占刂` | `㓠	%dian4 / dian3 / diàn / diǎn
 {\large{tem\textsuperscript{·刂}}},
 \textit{temH};	%0618m
@@ -841,20 +753,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `38-03` | `𩃬` | `雲` | render_latex, transliteration_latex | `雲` | `⿱雨⿰云今` | `𩃬	%yin1
 {\large{\textsuperscript{雲˸}kym}},
 \textit{qim};	%0651a'` |
-| `curation_json` | `38-03` | `韽` | `音` | render_latex, transliteration_latex | `音` | `⿰酓音` | `韽	%an1
-{\large{kym\textsuperscript{·音}}},
-\textit{qəm};	%0651h'` |
 | `curation_json` | `38-03` | `侌` | `云` | render_latex, transliteration_latex | `云` | `⿱今云` | `侌	%yin1
 {\large{kym\textsuperscript{˸云}}},
 \textit{qim};	%0651x` |
-| `curation_json` | `38-03` | `錦` | `帛` | render_latex, transliteration_latex | `帛` | `⿰金帛` | `錦	%jin3 / jǐn
-{\large{kym\textsuperscript{·帛}}},
-\textit{kimX};	%0652e` |
-| `integrated_series_hand_entry` | `01-01` | `腒` | `辛` | raw_block | `` | `⿰月居` | `{\large{ka{\textsuperscript{:辛}}}}
-= {\large{k\textoverset{a}{a}₂}},` |
-| `integrated_series_curated_entry` | `02-17` | `鼫` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠石` | `鼫	%shi2
-{\large{\textsuperscript{鼠·}tak}},
-\textit{jiek};	%0795h` |
 | `integrated_series_curated_entry` | `02-17` | `磔` | `桀` | render_latex, transliteration_latex | `桀` | `⿰石桀` | `磔	%zhe2
 {\large{tak\textsuperscript{·桀}}},
 \textit{ṭaek};	%0795j` |
@@ -867,24 +768,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `02-25` | `殬` | `歺` | render_latex, transliteration_latex | `歺` | `⿰歹睪` | `殬	%du4
 {\large{\textsuperscript{歺·}lak}},
 \textit{tuH};	%0790q` |
-| `integrated_series_curated_entry` | `02-32` | `矠` | `矛` | render_latex, transliteration_latex | `矛` | `⿰矛昔` | `矠	%ze2
-{\large{\textsuperscript{矛·}sak}},
-\textit{dẓeak};	%0798z` |
 | `integrated_series_curated_entry` | `03-24` | `凰` | `几` | render_latex, transliteration_latex | `几` | `⿵几皇` | `凰	%huang2
 {\large{\textsuperscript{几˸}quaṅ}},
 \textit{ḫwaṅ};	%0708l` |
-| `integrated_series_curated_entry` | `03-26` | `匡` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚王` | `匡	%kuang1 / kuāng
-{\large{\textsuperscript{匚·}quaṅ}},
-\textit{khiwaṅ};	%0739m` |
-| `integrated_series_curated_entry` | `03-26` | `尪` | `尢` | render_latex, transliteration_latex | `尢` | `⿺尢王` | `尪	%wang1 / wāng
-{\large{\textsuperscript{尢·}quaṅ₂}},
-\textit{qwaṅ};	%0739t` |
 | `integrated_series_curated_entry` | `03-32` | `尚` | `八` | render_latex, transliteration_latex | `八` | `⿱⺌冋` | `尚	%shang4 / shàng
 {\large{\textsuperscript{八˸}taṅ}},
 \textit{jiaṅH};	%0725a` |
-| `integrated_series_curated_entry` | `03-38` | `暢` | `申` | render_latex, transliteration_latex | `申` | `⿰申昜` | `暢	%chang4
-{\large{\textsuperscript{申·}laṅ}},
-\textit{ṭhiaṅH};	%0720v` |
 | `integrated_series_curated_entry` | `03-39` | `羕` | `永` | render_latex, transliteration_latex | `永` | `⿱𦍌永` | `羕	%yang4 / yàng
 {\large{qaṅ\textsuperscript{˸永}}},
 \textit{yaṅH};	%0732k` |
@@ -904,21 +793,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
 \textit{paeṅ};` |
-| `integrated_series_curated_entry` | `03-65` | `氓` | `民` | render_latex, transliteration_latex | `民` | `⿰亡民` | `氓	%meng2 / méng
-{\large{maṅ\textsuperscript{·民}}},
-\textit{meaṅ};	%0742u` |
-| `integrated_series_curated_entry` | `03-65` | `巟` | `川` | render_latex, transliteration_latex | `川` | `⿱亡𫶧` | `巟	%huang1 / huāng
-{\large{maṅ\textsuperscript{˸川}}},
-\textit{hwaṅ};	%0742v` |
-| `integrated_series_curated_entry` | `03-65` | `衁` | `血` | render_latex, transliteration_latex | `血` | `⿱亡血` | `衁	%huang1 / huāng
-{\large{maṅ\textsuperscript{˸血}}},
-\textit{hwaṅ};	%0742z` |
 | `integrated_series_curated_entry` | `04-05` | `㠱` | `己` | render_latex, transliteration_latex | `己` | `⿱己其` | `㠱	%ji4
 {\large{\textsuperscript{己˸}ky₅}},
 \textit{giX};	%0953y` |
-| `integrated_series_curated_entry` | `04-12` | `匭` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚軌` | `匭	%gui3
-{\large{\textsuperscript{匚·}ku}},
-\textit{kwiyX};	%0992l` |
 | `integrated_series_curated_entry` | `04-12` | `厹` | `厶` | render_latex, transliteration_latex | `厶` | `⿱九厶` | `厹	%qiu2
 {\large{ku\textsuperscript{˸厶}}},
 \textit{giuw};	%0992q` |
@@ -961,18 +838,9 @@ Watched tokens with no current heuristic match: `can`
 \textit{qwea};
 \textit{hwae};
 \textit{hwea};` |
-| `integrated_series_curated_entry` | `07-11` | `鬩` | `鬥` | render_latex, transliteration_latex | `鬥` | `⿵鬥兒` | `鬩	%xi4 / xì
-{\large{\textsuperscript{鬥˸}ṅe}},
-\textit{xek};	%0873q` |
 | `integrated_series_curated_entry` | `07-12` | `帝` | `丄` | render_latex, transliteration_latex | `丄` | `⿱⿱⿱亠丷冖巾` | `帝	%di4 / dì
 {\large{\textsuperscript{丄˸}tek}},
 \textit{teyH};	%0877a` |
-| `integrated_series_curated_entry` | `07-25` | `髭` | `須` | render_latex, transliteration_latex | `須` | `⿱髟此` | `髭	%zi1
-{\large{\textsuperscript{須˸}tse}},
-\textit{tsie};	%0358n` |
-| `integrated_series_curated_entry` | `08-12` | `舓` | `舌` | render_latex, transliteration_latex | `舌` | `⿰舌易` | `舓	%shì
-{\large{\textsuperscript{舌·}lek}},
-\textit{zyeX};	%850` |
 | `integrated_series_curated_entry` | `09-09` | `營` | `宮` | render_latex, transliteration_latex | `宮` | `⿱𤇾呂` | `營	%ying2 / yíng
 {\large{queṅ\textsuperscript{˸宮}}},
 \textit{yiweṅ};	%0843f` |
@@ -988,16 +856,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `09-25` | `靜` | `爭` | render_latex, transliteration_latex | `爭` | `⿰青爭` | `靜	%jing4
 {\large{tseṅ\textsuperscript{·爭}}},
 \textit{dzieṅX};	%0812n'` |
-| `integrated_series_curated_entry` | `09-25` | `鼪` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠生` | `鼪	%sheng1
-{\large{\textsuperscript{鼠·}tseṅ}},
-\textit{sieṅH};	%0812u` |
 | `integrated_series_curated_entry` | `09-25` | `曐` | `晶` | render_latex, transliteration_latex | `晶` | `⿱晶生` | `曐	%xing1
 {\large{\textsuperscript{晶˸}tseṅ}},
 \textit{seṅ};	%0812y` |
 | `integrated_series_curated_entry` | `09-29` | `缾` | `缶` | render_latex, transliteration_latex | `缶` | `⿰缶并` | `缾	%ping2 / píng
 {\large{\textsuperscript{缶·}peṅ}},
 \textit{beṅ};	%0824i` |
-| `integrated_series_hand_entry` | `10-16` | `豎` | `臤` | raw_block | `` | `⿱臤豆` | `{\large{{\textsuperscript{臤:}}to}},` |
 | `integrated_series_curated_entry` | `10-35` | `聚` | `乑` | render_latex, transliteration_latex | `乑` | `⿱取乑` | `聚	%ju4 / jù
 {\large{tso\textsuperscript{˸乑}}},
 \textit{dziuH};	%0131k
@@ -1017,19 +881,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `12-03` | `龔` | `共` | render_latex, transliteration_latex | `共` | `⿱龍共` | `龔	%gong1 / gōng
 {\large{koṅ\textsuperscript{˸共}}},
 \textit{kiuwṅ};	%1182k` |
-| `integrated_series_curated_entry` | `12-03` | `鬨` | `鬥` | render_latex, transliteration_latex | `鬥` | `⿵鬥共` | `鬨	%hong4 / hòng
-{\large{\textsuperscript{鬥˸}koṅ}},
-\textit{ḫaewṅH};	%1182p
-\textit{ḫuwṅH};` |
 | `integrated_series_curated_entry` | `12-03` | `巷` | `己` | render_latex, transliteration_latex | `己` | `⿱共巳` | `巷	%xiang4 / xiàng
 {\large{koṅ\textsuperscript{˸己}}},
 \textit{ḫaewṅH};	%1182s` |
 | `integrated_series_curated_entry` | `12-08` | `𠟍` | `刂` | render_latex, transliteration_latex | `刂` | `⿰童刂` | `𠟍	%chong1
 {\large{toṅ\textsuperscript{·刂}}},
 \textit{chiəwṅ};	%1188a'` |
-| `integrated_series_curated_entry` | `12-08` | `尰` | `尢` | render_latex, transliteration_latex | `尢` | `⿺尢重` | `尰	%zhong3
-{\large{\textsuperscript{尢·}toṅ}},
-\textit{jiəwṅX};	%1188k` |
 | `integrated_series_curated_entry` | `12-10` | `甬` | `龴` | render_latex, transliteration_latex | `龴` | `⿱龴用` | `甬	%yong3
 {\large{\textsuperscript{龴˸}loṅ}},
 \textit{yiəwṅX};	%1185h` |
@@ -1051,9 +908,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `13-22` | `𠼡` | `叹` | render_latex, transliteration_latex | `叹` | `⿹𢏚叹` | `𠼡	%chou2
 {\large{tu\textsuperscript{·叹}}},
 \textit{ḍiuw};	%1090f` |
-| `integrated_series_curated_entry` | `13-30` | `鼬` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠由` | `鼬	%you4
-{\large{\textsuperscript{鼠·}lu}},
-\textit{yuwH};	%1079d` |
 | `integrated_series_curated_entry` | `13-30` | `冑` | `帽` | render_latex, transliteration_latex | `帽` | `⿱由冃` | `冑	%zhou4 / zhòu
 {\large{\textsuperscript{帽˸}lu}},
 \textit{ḍiuwH};	%1079i` |
@@ -1063,9 +917,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `13-72` | `匏` | `夸` | render_latex, transliteration_latex | `夸` | `⿰夸包` | `匏	%pao2 / páo
 {\large{\textsuperscript{夸·}pu}},
 \textit{baew};	%1113f` |
-| `integrated_series_curated_entry` | `14-14` | `匵` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚賣` | `匵	%du2
-{\large{\textsuperscript{匚·}me}},
-\textit{duwk};	%1023f` |
 | `integrated_series_curated_entry` | `14-14` | `讟` | `誩` | render_latex, transliteration_latex | `誩` | `⿰讀言` | `讟	%du2
 {\large{\textsuperscript{誩·}me}},
 \textit{duwk};	%1023n` |
@@ -1078,9 +929,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `16-14` | `堯` | `兀` | render_latex, transliteration_latex | `兀` | `⿱垚兀` | `堯	%yao2 / yáo
 {\large{ṅew\textsuperscript{˸兀}}},
 \textit{ṅew};	%1164a` |
-| `integrated_series_curated_entry` | `16-15` | `韶` | `音` | render_latex, transliteration_latex | `音` | `⿰音召` | `韶	%shao2
-{\large{\textsuperscript{音·}taw}},
-\textit{jiew};	%1131a'` |
 | `integrated_series_curated_entry` | `16-15` | `㲈` | `殸` | render_latex, transliteration_latex | `殸` | `⿱殸召` | `㲈	%shao2
 {\large{\textsuperscript{殸˸}taw}},
 \textit{jiew};	%1131b'` |
@@ -1098,9 +946,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `17-07` | `糴` | `入` | render_latex, transliteration_latex | `入` | `⿰籴翟` | `糴	%di2
 {\large{\textsuperscript{入·}lek₂}},
 \textit{dek};	%1124c` |
-| `integrated_series_curated_entry` | `17-07` | `耀` | `光` | render_latex, transliteration_latex | `光` | `⿰光翟` | `耀	%yao4 / yào
-{\large{\textsuperscript{光·}lek₂}},
-\textit{yiewH};	%1124k` |
 | `integrated_series_curated_entry` | `19-02` | `臝` | `吂` | render_latex, transliteration_latex | `吂` | `⿱吂⿲月果凡` | `臝	%luo3 / luǒ
 {\large{\textsuperscript{吂˸}kor}},
 \textit{lwaX};	%0351i` |
@@ -1124,9 +969,6 @@ Watched tokens with no current heuristic match: `can`
 {\large{tar\textsuperscript{˸黽}}},
 \textit{da};	%0147e'
 \textit{dan};` |
-| `integrated_series_curated_entry` | `24-21` | `匰` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚單` | `匰	%dan1
-{\large{\textsuperscript{匚·}tar}},
-\textit{tan};	%0147f` |
 | `integrated_series_curated_entry` | `24-41` | `剗` | `刂` | render_latex, transliteration_latex | `刂` | `⿰戔刂` | `剗	%chan3
 {\large{tsan\textsuperscript{·刂}}},
 \textit{tṣheanX};	%0155i` |
@@ -1161,9 +1003,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `26-38` | `毗` | `囟` | render_latex, transliteration_latex | `囟` | `⿰田比` | `毗	%pi2 / pí
 {\large{\textsuperscript{囟·}piy}},
 \textit{byiy};	%0566u` |
-| `integrated_series_curated_entry` | `27-08` | `匪` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚非` | `匪	%fei3 / fěi
-{\large{\textsuperscript{匚·}py₅}},
-\textit{piɨyX};	%0579c` |
 | `integrated_series_curated_entry` | `27-08` | `斐` | `文` | render_latex, transliteration_latex | `文` | `⿱非文` | `斐	%fei3
 {\large{py₅\textsuperscript{˸文}}},
 \textit{phiɨyX};	%0579i` |
@@ -1199,9 +1038,6 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `31-02` | `靧` | `面` | render_latex, transliteration_latex | `面` | `⿰面貴` | `靧	%hui4 / huì
 {\large{\textsuperscript{面·}kuy}},
 \textit{hwəyH};	%0540f` |
-| `integrated_series_curated_entry` | `31-02` | `匱` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚貴` | `匱	%gui4 / guì
-{\large{\textsuperscript{匚·}kuy}},
-\textit{gwiyH};	%0540g` |
 | `integrated_series_curated_entry` | `31-16` | `屈` | `尾` | render_latex, transliteration_latex | `尾` | `⿸尸出` | `屈	%qu1 / qū
 {\large{kut\textsuperscript{·尾}}},
 \textit{khiut};	%0496k` |
@@ -1226,25 +1062,13 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{韋·}kuyr}},
 \textit{hiunH};	%0458g
 \textit{hiwənH};` |
-| `integrated_series_curated_entry` | `34-13` | `輝` | `光` | render_latex, transliteration_latex | `光` | `⿰光軍` | `輝	%hui1 / huī
-{\large{\textsuperscript{光·}kuyr}},
-\textit{hiwɨy};	%0458l` |
-| `integrated_series_curated_entry` | `34-23` | `䘒` | `血` | render_latex, transliteration_latex | `血` | `⿰血夋` | `䘒	%zui1
-{\large{\textsuperscript{血·}lur}},
-\textit{tswəy};	%0468g'` |
 | `integrated_series_curated_entry` | `34-23` | `㕙` | `兔` | render_latex, transliteration_latex | `兔` | `⿰夋兔` | `㕙	%jun4
 {\large{lur\textsuperscript{·兔}}},
 \textit{tshwin};	%0468s
 \textit{tswinH};` |
-| `integrated_series_curated_entry` | `35-03` | `匧` | `匚` | render_latex, transliteration_latex | `匚` | `⿷匚夾` | `匧	%qie4 / qiè
-{\large{\textsuperscript{匚·}kep}},
-\textit{khep};	%0630j` |
 | `integrated_series_curated_entry` | `35-10` | `韘` | `韋` | render_latex, transliteration_latex | `韋` | `⿰韋枼` | `韘	%she4
 {\large{\textsuperscript{韋·}lep}},
 \textit{śiep};	%0633o` |
-| `integrated_series_curated_entry` | `36-07` | `鼸` | `鼠` | render_latex, transliteration_latex | `鼠` | `⿰鼠兼` | `鼸	%xian3
-{\large{\textsuperscript{鼠·}kem}},
-\textit{hemX};	%0627k` |
 | `integrated_series_curated_entry` | `36-12` | `㓠` | `刂` | render_latex, transliteration_latex | `刂` | `⿰占刂` | `㓠	%dian4 / dian3 / diàn / diǎn
 {\large{tem\textsuperscript{·刂}}},
 \textit{temH};	%0618m
@@ -1263,38 +1087,23 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `38-03` | `𩃬` | `雲` | render_latex, transliteration_latex | `雲` | `⿱雨⿰云今` | `𩃬	%yin1
 {\large{\textsuperscript{雲˸}kym}},
 \textit{qim};	%0651a'` |
-| `integrated_series_curated_entry` | `38-03` | `韽` | `音` | render_latex, transliteration_latex | `音` | `⿰酓音` | `韽	%an1
-{\large{kym\textsuperscript{·音}}},
-\textit{qəm};	%0651h'` |
 | `integrated_series_curated_entry` | `38-03` | `侌` | `云` | render_latex, transliteration_latex | `云` | `⿱今云` | `侌	%yin1
 {\large{kym\textsuperscript{˸云}}},
 \textit{qim};	%0651x` |
-| `integrated_series_curated_entry` | `38-03` | `錦` | `帛` | render_latex, transliteration_latex | `帛` | `⿰金帛` | `錦	%jin3 / jǐn
-{\large{kym\textsuperscript{·帛}}},
-\textit{kimX};	%0652e` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}tak}},` |
 | `validation_tex` | `` | `` | `桀` | line | `` | `` | `{\large{tak\textsuperscript{·桀}}},` |
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{lak\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `釆` | line | `` | `` | `{\large{\textsuperscript{釆·}lak}},` |
 | `validation_tex` | `` | `` | `歺` | line | `` | `` | `{\large{\textsuperscript{歺·}lak}},` |
-| `validation_tex` | `` | `` | `矛` | line | `` | `` | `{\large{\textsuperscript{矛·}sak}},` |
 | `validation_tex` | `` | `` | `几` | line | `` | `` | `{\large{\textsuperscript{几˸}quaṅ}},` |
-| `validation_tex` | `` | `` | `尢` | line | `` | `` | `{\large{\textsuperscript{尢·}quaṅ₂}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}quaṅ}},` |
-| `validation_tex` | `` | `` | `申` | line | `` | `` | `{\large{\textsuperscript{申·}laṅ}},` |
 | `validation_tex` | `` | `` | `永` | line | `` | `` | `{\large{qaṅ\textsuperscript{˸永}}},` |
 | `validation_tex` | `` | `` | `爿` | line | `` | `` | `{\large{\textsuperscript{爿·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `臣` | line | `` | `` | `{\large{tsaṅ\textsuperscript{˸臣}}},` |
 | `validation_tex` | `` | `` | `嗇` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·嗇}}},` |
 | `validation_tex` | `` | `` | `士` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·士}}},` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
-| `validation_tex` | `` | `` | `民` | line | `` | `` | `{\large{maṅ\textsuperscript{·民}}},` |
-| `validation_tex` | `` | `` | `血` | line | `` | `` | `{\large{maṅ\textsuperscript{˸血}}},` |
-| `validation_tex` | `` | `` | `川` | line | `` | `` | `{\large{maṅ\textsuperscript{˸川}}},` |
 | `validation_tex` | `` | `` | `己` | line | `` | `` | `{\large{\textsuperscript{己˸}ky₅}},` |
 | `validation_tex` | `` | `` | `厶` | line | `` | `` | `{\large{ku\textsuperscript{˸厶}}},` |
 | `validation_tex` | `` | `` | `虎` | line | `` | `` | `{\large{ku\textsuperscript{·虎}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}ku}},` |
 | `validation_tex` | `` | `` | `隶` | line | `` | `` | `{\large{ly\textsuperscript{·隶}}},` |
 | `validation_tex` | `` | `` | `異` | line | `` | `` | `{\large{tsy\textsuperscript{·異}}},` |
 | `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{\textsuperscript{丶˸}py}},` |
@@ -1306,14 +1115,10 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `匕` | line | `` | `` | `{\large{\textsuperscript{匕·}ke}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{kue\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{kue\textsuperscript{˸黽}}},` |
-| `validation_tex` | `` | `` | `鬥` | line | `` | `` | `{\large{\textsuperscript{鬥˸}ṅe}},` |
-| `validation_tex` | `` | `` | `須` | line | `` | `` | `{\large{\textsuperscript{須˸}tse}},` |
-| `validation_tex` | `` | `` | `舌` | line | `` | `` | `{\large{\textsuperscript{舌·}lek}},` |
 | `validation_tex` | `` | `` | `宮` | line | `` | `` | `{\large{queṅ\textsuperscript{˸宮}}},` |
 | `validation_tex` | `` | `` | `卂` | line | `` | `` | `{\large{queṅ\textsuperscript{˸卂}}},` |
 | `validation_tex` | `` | `` | `缶` | line | `` | `` | `{\large{queṅ\textsuperscript{˸缶}}},` |
 | `validation_tex` | `` | `` | `亠` | line | `` | `` | `{\large{\textsuperscript{亠˸}teṅ}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}tseṅ}},` |
 | `validation_tex` | `` | `` | `晶` | line | `` | `` | `{\large{\textsuperscript{晶˸}tseṅ}},` |
 | `validation_tex` | `` | `` | `爭` | line | `` | `` | `{\large{tseṅ\textsuperscript{·爭}}},` |
 | `validation_tex` | `` | `` | `缶` | line | `` | `` | `{\large{\textsuperscript{缶·}peṅ}},` |
@@ -1322,9 +1127,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `尾` | line | `` | `` | `{\large{\textsuperscript{尾·}tok}},` |
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{koṅ₂\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `共` | line | `` | `` | `{\large{koṅ\textsuperscript{˸共}}},` |
-| `validation_tex` | `` | `` | `鬥` | line | `` | `` | `{\large{\textsuperscript{鬥˸}koṅ}},` |
 | `validation_tex` | `` | `` | `己` | line | `` | `` | `{\large{koṅ\textsuperscript{˸己}}},` |
-| `validation_tex` | `` | `` | `尢` | line | `` | `` | `{\large{\textsuperscript{尢·}toṅ}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{toṅ\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `龴` | line | `` | `` | `{\large{\textsuperscript{龴˸}loṅ}},` |
 | `validation_tex` | `` | `` | `庚` | line | `` | `` | `{\large{\textsuperscript{庚·}loṅ}},` |
@@ -1332,27 +1135,22 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{poṅ\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `工` | line | `` | `` | `{\large{\textsuperscript{工·}ku₃}},` |
 | `validation_tex` | `` | `` | `叹` | line | `` | `` | `{\large{tu\textsuperscript{·叹}}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}lu}},` |
 | `validation_tex` | `` | `` | `帽` | line | `` | `` | `{\large{\textsuperscript{帽˸}lu}},` |
 | `validation_tex` | `` | `` | `丷` | line | `` | `` | `{\large{\textsuperscript{丷˸}ru}},` |
 | `validation_tex` | `` | `` | `夸` | line | `` | `` | `{\large{\textsuperscript{夸·}pu}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}me}},` |
 | `validation_tex` | `` | `` | `誩` | line | `` | `` | `{\large{\textsuperscript{誩·}me}},` |
 | `validation_tex` | `` | `` | `死` | line | `` | `` | `{\large{k\textoverset{a}{a}w\textsuperscript{˸死}}},` |
 | `validation_tex` | `` | `` | `履` | line | `` | `` | `{\large{\textsuperscript{履·}kaw₂}},` |
-| `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{\textsuperscript{音·}taw}},` |
 | `validation_tex` | `` | `` | `殸` | line | `` | `` | `{\large{\textsuperscript{殸˸}taw}},` |
 | `validation_tex` | `` | `` | `系` | line | `` | `` | `{\large{law₂\textsuperscript{·系}}},` |
 | `validation_tex` | `` | `` | `丿` | line | `` | `` | `{\large{sew₂\textsuperscript{˸丿}}},` |
 | `validation_tex` | `` | `` | `入` | line | `` | `` | `{\large{\textsuperscript{入·}lek₂}},` |
-| `validation_tex` | `` | `` | `光` | line | `` | `` | `{\large{\textsuperscript{光·}lek₂}},` |
 | `validation_tex` | `` | `` | `吂` | line | `` | `` | `{\large{\textsuperscript{吂˸}kor}},` |
 | `validation_tex` | `` | `` | `曰` | line | `` | `` | `{\large{kat\textsuperscript{˸曰}}},` |
 | `validation_tex` | `` | `` | `盾` | line | `` | `` | `{\large{\textsuperscript{盾·}pot}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}pot}},` |
 | `validation_tex` | `` | `` | `屵` | line | `` | `` | `{\large{\textsuperscript{屵˸}kar}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{tar\textsuperscript{˸黽}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}tar}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tsan\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `反` | line | `` | `` | `{\large{pan\textsuperscript{·反}}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{ṅon\textsuperscript{˸黽}}},` |
@@ -1365,7 +1163,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `囟` | line | `` | `` | `{\large{\textsuperscript{囟·}piy}},` |
 | `validation_tex` | `` | `` | `囟` | line | `` | `` | `{\large{\textsuperscript{囟˸}piy}},` |
 | `validation_tex` | `` | `` | `文` | line | `` | `` | `{\large{py₅\textsuperscript{˸文}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}py₅}},` |
 | `validation_tex` | `` | `` | `委` | line | `` | `` | `{\large{\textsuperscript{委·}ʔuy}},` |
 | `validation_tex` | `` | `` | `是` | line | `` | `` | `{\large{\textsuperscript{是·}quy₄}},` |
 | `validation_tex` | `` | `` | `華` | line | `` | `` | `{\large{quy₄\textsuperscript{·華}}},` |
@@ -1376,7 +1173,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{put\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `色` | line | `` | `` | `{\large{put\textsuperscript{·色}}},` |
 | `validation_tex` | `` | `` | `面` | line | `` | `` | `{\large{\textsuperscript{面·}kuy}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kuy}},` |
 | `validation_tex` | `` | `` | `尾` | line | `` | `` | `{\large{kut\textsuperscript{·尾}}},` |
 | `validation_tex` | `` | `` | `勻` | line | `` | `` | `{\large{quin\textsuperscript{·勻}}},` |
 | `validation_tex` | `` | `` | `喜` | line | `` | `` | `{\large{kyr\textsuperscript{·喜}}},` |
@@ -1384,49 +1180,32 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{pyn\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `气` | line | `` | `` | `{\large{\textsuperscript{气·}pyn}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}kuyr}},` |
-| `validation_tex` | `` | `` | `光` | line | `` | `` | `{\large{\textsuperscript{光·}kuyr}},` |
-| `validation_tex` | `` | `` | `血` | line | `` | `` | `{\large{\textsuperscript{血·}lur}},` |
 | `validation_tex` | `` | `` | `兔` | line | `` | `` | `{\large{lur\textsuperscript{·兔}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kep}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}lep}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}kem}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tem\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `炎` | line | `` | `` | `{\large{qam\textsuperscript{·炎}}},` |
 | `validation_tex` | `` | `` | `坴` | line | `` | `` | `{\large{\textsuperscript{坴·}qam}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}kop}},` |
 | `validation_tex` | `` | `` | `雲` | line | `` | `` | `{\large{\textsuperscript{雲˸}kym}},` |
-| `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{kym\textsuperscript{·音}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{kym\textsuperscript{˸云}}},` |
-| `validation_tex` | `` | `` | `帛` | line | `` | `` | `{\large{kym\textsuperscript{·帛}}},` |
-| `validation_tex` | `` | `` | `辛` | line | `` | `` | `{\large{ka{\textsuperscript{:辛}}}}` |
-| `validation_tex` | `` | `` | `辛` | line | `` | `` | `{\large{ka{\textsuperscript{:辛}}}}` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}tak}},` |
 | `validation_tex` | `` | `` | `桀` | line | `` | `` | `{\large{tak\textsuperscript{·桀}}},` |
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{lak\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `釆` | line | `` | `` | `{\large{\textsuperscript{釆·}lak}},` |
 | `validation_tex` | `` | `` | `歺` | line | `` | `` | `{\large{\textsuperscript{歺·}lak}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
-| `validation_tex` | `` | `` | `矛` | line | `` | `` | `{\large{\textsuperscript{矛·}sak}},` |
 | `validation_tex` | `` | `` | `几` | line | `` | `` | `{\large{\textsuperscript{几˸}quaṅ}},` |
-| `validation_tex` | `` | `` | `尢` | line | `` | `` | `{\large{\textsuperscript{尢·}quaṅ₂}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}quaṅ}},` |
-| `validation_tex` | `` | `` | `申` | line | `` | `` | `{\large{\textsuperscript{申·}laṅ}},` |
 | `validation_tex` | `` | `` | `永` | line | `` | `` | `{\large{qaṅ\textsuperscript{˸永}}},` |
 | `validation_tex` | `` | `` | `爿` | line | `` | `` | `{\large{\textsuperscript{爿·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `臣` | line | `` | `` | `{\large{tsaṅ\textsuperscript{˸臣}}},` |
 | `validation_tex` | `` | `` | `嗇` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·嗇}}},` |
 | `validation_tex` | `` | `` | `士` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·士}}},` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
-| `validation_tex` | `` | `` | `民` | line | `` | `` | `{\large{maṅ\textsuperscript{·民}}},` |
-| `validation_tex` | `` | `` | `血` | line | `` | `` | `{\large{maṅ\textsuperscript{˸血}}},` |
-| `validation_tex` | `` | `` | `川` | line | `` | `` | `{\large{maṅ\textsuperscript{˸川}}},` |
 | `validation_tex` | `` | `` | `己` | line | `` | `` | `{\large{\textsuperscript{己˸}ky₅}},` |
 | `validation_tex` | `` | `` | `厶` | line | `` | `` | `{\large{ku\textsuperscript{˸厶}}},` |
 | `validation_tex` | `` | `` | `虎` | line | `` | `` | `{\large{ku\textsuperscript{·虎}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}ku}},` |
 | `validation_tex` | `` | `` | `隶` | line | `` | `` | `{\large{ly\textsuperscript{·隶}}},` |
 | `validation_tex` | `` | `` | `異` | line | `` | `` | `{\large{tsy\textsuperscript{·異}}},` |
 | `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{\textsuperscript{丶˸}py}},` |
@@ -1438,26 +1217,19 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `匕` | line | `` | `` | `{\large{\textsuperscript{匕·}ke}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{kue\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{kue\textsuperscript{˸黽}}},` |
-| `validation_tex` | `` | `` | `鬥` | line | `` | `` | `{\large{\textsuperscript{鬥˸}ṅe}},` |
-| `validation_tex` | `` | `` | `須` | line | `` | `` | `{\large{\textsuperscript{須˸}tse}},` |
-| `validation_tex` | `` | `` | `舌` | line | `` | `` | `{\large{\textsuperscript{舌·}lek}},` |
 | `validation_tex` | `` | `` | `宮` | line | `` | `` | `{\large{queṅ\textsuperscript{˸宮}}},` |
 | `validation_tex` | `` | `` | `卂` | line | `` | `` | `{\large{queṅ\textsuperscript{˸卂}}},` |
 | `validation_tex` | `` | `` | `缶` | line | `` | `` | `{\large{queṅ\textsuperscript{˸缶}}},` |
 | `validation_tex` | `` | `` | `亠` | line | `` | `` | `{\large{\textsuperscript{亠˸}teṅ}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}tseṅ}},` |
 | `validation_tex` | `` | `` | `晶` | line | `` | `` | `{\large{\textsuperscript{晶˸}tseṅ}},` |
 | `validation_tex` | `` | `` | `爭` | line | `` | `` | `{\large{tseṅ\textsuperscript{·爭}}},` |
 | `validation_tex` | `` | `` | `缶` | line | `` | `` | `{\large{\textsuperscript{缶·}peṅ}},` |
-| `validation_tex` | `` | `` | `臤` | line | `` | `` | `{\large{{\textsuperscript{臤:}}to}},` |
 | `validation_tex` | `` | `` | `乑` | line | `` | `` | `{\large{tso\textsuperscript{˸乑}}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}tok}},` |
 | `validation_tex` | `` | `` | `尾` | line | `` | `` | `{\large{\textsuperscript{尾·}tok}},` |
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{koṅ₂\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `共` | line | `` | `` | `{\large{koṅ\textsuperscript{˸共}}},` |
-| `validation_tex` | `` | `` | `鬥` | line | `` | `` | `{\large{\textsuperscript{鬥˸}koṅ}},` |
 | `validation_tex` | `` | `` | `己` | line | `` | `` | `{\large{koṅ\textsuperscript{˸己}}},` |
-| `validation_tex` | `` | `` | `尢` | line | `` | `` | `{\large{\textsuperscript{尢·}toṅ}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{toṅ\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `龴` | line | `` | `` | `{\large{\textsuperscript{龴˸}loṅ}},` |
 | `validation_tex` | `` | `` | `庚` | line | `` | `` | `{\large{\textsuperscript{庚·}loṅ}},` |
@@ -1475,27 +1247,22 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `aq.` | line | `` | `` | `\item 湅 lenH < *g.re:ns\footnote{\textit{ibid.}} = \textsuperscript{aq.}Kren` |
 | `validation_tex` | `` | `` | `ser.` | line | `` | `` | `\item 練 lenH < *r\textsuperscript{ˤ}en-s = \textsuperscript{ser.}Kren` |
 | `validation_tex` | `` | `` | `met.` | line | `` | `` | `\item 鍊 lenH < *r\textsuperscript{ˤ}en-s = \textsuperscript{met.}Kren` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}lu}},` |
 | `validation_tex` | `` | `` | `帽` | line | `` | `` | `{\large{\textsuperscript{帽˸}lu}},` |
 | `validation_tex` | `` | `` | `丷` | line | `` | `` | `{\large{\textsuperscript{丷˸}ru}},` |
 | `validation_tex` | `` | `` | `夸` | line | `` | `` | `{\large{\textsuperscript{夸·}pu}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}me}},` |
 | `validation_tex` | `` | `` | `誩` | line | `` | `` | `{\large{\textsuperscript{誩·}me}},` |
 | `validation_tex` | `` | `` | `死` | line | `` | `` | `{\large{k\textoverset{a}{a}w\textsuperscript{˸死}}},` |
 | `validation_tex` | `` | `` | `履` | line | `` | `` | `{\large{\textsuperscript{履·}kaw₂}},` |
-| `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{\textsuperscript{音·}taw}},` |
 | `validation_tex` | `` | `` | `殸` | line | `` | `` | `{\large{\textsuperscript{殸˸}taw}},` |
 | `validation_tex` | `` | `` | `系` | line | `` | `` | `{\large{law₂\textsuperscript{·系}}},` |
 | `validation_tex` | `` | `` | `丿` | line | `` | `` | `{\large{sew₂\textsuperscript{˸丿}}},` |
 | `validation_tex` | `` | `` | `入` | line | `` | `` | `{\large{\textsuperscript{入·}lek₂}},` |
-| `validation_tex` | `` | `` | `光` | line | `` | `` | `{\large{\textsuperscript{光·}lek₂}},` |
 | `validation_tex` | `` | `` | `吂` | line | `` | `` | `{\large{\textsuperscript{吂˸}kor}},` |
 | `validation_tex` | `` | `` | `曰` | line | `` | `` | `{\large{kat\textsuperscript{˸曰}}},` |
 | `validation_tex` | `` | `` | `盾` | line | `` | `` | `{\large{\textsuperscript{盾·}pot}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}pot}},` |
 | `validation_tex` | `` | `` | `屵` | line | `` | `` | `{\large{\textsuperscript{屵˸}kar}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{tar\textsuperscript{˸黽}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}tar}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tsan\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `反` | line | `` | `` | `{\large{pan\textsuperscript{·反}}},` |
 | `validation_tex` | `` | `` | `黽` | line | `` | `` | `{\large{ṅon\textsuperscript{˸黽}}},` |
@@ -1508,7 +1275,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `囟` | line | `` | `` | `{\large{\textsuperscript{囟·}piy}},` |
 | `validation_tex` | `` | `` | `囟` | line | `` | `` | `{\large{\textsuperscript{囟˸}piy}},` |
 | `validation_tex` | `` | `` | `文` | line | `` | `` | `{\large{py₅\textsuperscript{˸文}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}py₅}},` |
 | `validation_tex` | `` | `` | `委` | line | `` | `` | `{\large{\textsuperscript{委·}ʔuy}},` |
 | `validation_tex` | `` | `` | `是` | line | `` | `` | `{\large{\textsuperscript{是·}quy₄}},` |
 | `validation_tex` | `` | `` | `華` | line | `` | `` | `{\large{quy₄\textsuperscript{·華}}},` |
@@ -1519,7 +1285,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{put\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `色` | line | `` | `` | `{\large{put\textsuperscript{·色}}},` |
 | `validation_tex` | `` | `` | `面` | line | `` | `` | `{\large{\textsuperscript{面·}kuy}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kuy}},` |
 | `validation_tex` | `` | `` | `尾` | line | `` | `` | `{\large{kut\textsuperscript{·尾}}},` |
 | `validation_tex` | `` | `` | `勻` | line | `` | `` | `{\large{quin\textsuperscript{·勻}}},` |
 | `validation_tex` | `` | `` | `喜` | line | `` | `` | `{\large{kyr\textsuperscript{·喜}}},` |
@@ -1527,18 +1292,12 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `廾` | line | `` | `` | `{\large{pyn\textsuperscript{˸廾}}},` |
 | `validation_tex` | `` | `` | `气` | line | `` | `` | `{\large{\textsuperscript{气·}pyn}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}kuyr}},` |
-| `validation_tex` | `` | `` | `光` | line | `` | `` | `{\large{\textsuperscript{光·}kuyr}},` |
-| `validation_tex` | `` | `` | `血` | line | `` | `` | `{\large{\textsuperscript{血·}lur}},` |
 | `validation_tex` | `` | `` | `兔` | line | `` | `` | `{\large{lur\textsuperscript{·兔}}},` |
-| `validation_tex` | `` | `` | `匚` | line | `` | `` | `{\large{\textsuperscript{匚·}kep}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}lep}},` |
-| `validation_tex` | `` | `` | `鼠` | line | `` | `` | `{\large{\textsuperscript{鼠·}kem}},` |
 | `validation_tex` | `` | `` | `刂` | line | `` | `` | `{\large{tem\textsuperscript{·刂}}},` |
 | `validation_tex` | `` | `` | `炎` | line | `` | `` | `{\large{qam\textsuperscript{·炎}}},` |
 | `validation_tex` | `` | `` | `坴` | line | `` | `` | `{\large{\textsuperscript{坴·}qam}},` |
 | `validation_tex` | `` | `` | `韋` | line | `` | `` | `{\large{\textsuperscript{韋·}kop}},` |
 | `validation_tex` | `` | `` | `雲` | line | `` | `` | `{\large{\textsuperscript{雲˸}kym}},` |
-| `validation_tex` | `` | `` | `音` | line | `` | `` | `{\large{kym\textsuperscript{·音}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{kym\textsuperscript{˸云}}},` |
-| `validation_tex` | `` | `` | `帛` | line | `` | `` | `{\large{kym\textsuperscript{·帛}}},` |
 

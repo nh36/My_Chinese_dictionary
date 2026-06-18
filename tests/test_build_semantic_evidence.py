@@ -274,6 +274,29 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertNotIn(r"\textsuperscript{xxx·}la", refreshed["tex_entry"]["raw_block"])
         self.assertEqual(refreshed["entry_hierarchy"]["top_level_head"], "予")
 
+    def test_canonicalize_semantic_assignment_from_inventory_rewrites_literal_component_label(self) -> None:
+        candidate = {
+            "character": "鼫",
+            "semantic_assignment": {
+                "abbreviation": "鼠",
+                "semantic_component": "鼠",
+                "position": "prefix-dot",
+                "inventory_matches": [],
+            },
+            "transliteration_latex": r"{\large{\textsuperscript{鼠·}tak}},",
+            "render_latex": r"鼫\n{\large{\textsuperscript{鼠·}tak}},",
+        }
+        graph_lookup = {
+            "鼠": [{"graph_raw": "鼠", "label_token": "mus", "abbreviation": "mus"}],
+        }
+
+        changed = build_semantic_evidence.canonicalize_semantic_assignment_from_inventory(candidate, graph_lookup)
+
+        self.assertTrue(changed)
+        self.assertEqual(candidate["semantic_assignment"]["abbreviation"], "mus")
+        self.assertEqual(candidate["transliteration_latex"], None)
+        self.assertEqual(candidate["render_latex"], None)
+
     def test_resolve_generated_node_root_adds_ab_display_root(self) -> None:
         candidate = {
             "character": "布",

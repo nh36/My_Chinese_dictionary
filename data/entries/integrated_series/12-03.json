@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T20:07:18.766161+00:00",
+  "generated_at": "2026-06-18T22:10:08.307920+00:00",
   "id": "12-03",
   "schuessler": {
     "gsc_id": "12-03",
@@ -1047,7 +1047,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 283
+                "start_line": 297
               },
               {
                 "graph_raw": "手",
@@ -1068,7 +1068,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 283
+              "start_line": 297
             },
             {
               "graph_raw": "手",
@@ -1098,7 +1098,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 283
+                "start_line": 297
               },
               {
                 "graph_raw": "手",
@@ -1272,7 +1272,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -1293,7 +1293,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 269
+              "start_line": 279
             },
             {
               "graph_raw": "人",
@@ -1323,7 +1323,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -1732,7 +1732,7 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 224
+              "start_line": 230
             },
             {
               "graph_raw": "心",
@@ -1762,7 +1762,7 @@
                 "graph_raw": "心",
                 "label_token": "cor",
                 "abbreviation": "cor",
-                "start_line": 224
+                "start_line": 230
               },
               {
                 "graph_raw": "心",
@@ -1938,7 +1938,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 283
+                "start_line": 297
               },
               {
                 "graph_raw": "手",
@@ -1959,7 +1959,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 283
+              "start_line": 297
             },
             {
               "graph_raw": "手",
@@ -1989,7 +1989,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 283
+                "start_line": 297
               },
               {
                 "graph_raw": "手",
@@ -2107,7 +2107,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 368
+                "start_line": 384
               },
               {
                 "graph_raw": "車",
@@ -2128,7 +2128,7 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 358
+              "start_line": 384
             },
             {
               "graph_raw": "車",
@@ -2264,7 +2264,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -2285,7 +2285,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -2315,7 +2315,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -2475,37 +2475,58 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "鬨",
             "ids": "⿵鬥共",
             "phonetic_component": "共",
             "semantic_component": "鬥",
             "position": "prefix-colon",
-            "abbreviation": "鬥",
-            "inventory_matches": []
+            "abbreviation": "pugn",
+            "inventory_matches": [
+              {
+                "graph_raw": "鬥",
+                "label_token": "pugn(a)",
+                "abbreviation": "pugn",
+                "start_line": 277
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "鬥",
+          "abbreviation": "pugn",
           "position": "prefix-colon",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "inventory_matches": [
+            {
+              "graph_raw": "鬥",
+              "label_token": "pugn(a)",
+              "abbreviation": "pugn",
+              "start_line": 277
+            }
+          ],
+          "source": "wiktionary_han_compound",
           "semantic_component": "鬥"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{鬥˸}koṅ}},",
-        "render_latex": "鬨\t%hong4 / hòng\n{\\large{\\textsuperscript{鬥˸}koṅ}},\n\\textit{ḫaewṅH};\t%1182p\n\\textit{ḫuwṅH};",
+        "transliteration_latex": "{\\large{\\textsuperscript{pugn˸}koṅ}},",
+        "render_latex": "鬨\t%hong4 / hòng\n{\\large{\\textsuperscript{pugn˸}koṅ}},\n\\textit{ḫaewṅH};\t%1182p\n\\textit{ḫuwṅH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "鬥",
           "phonetic_component": "共",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "鬨",
             "semantic_component": "鬥",
             "phonetic_component": "共",
             "position": "prefix-colon",
-            "abbreviation": "鬥",
-            "inventory_matches": [],
+            "abbreviation": "pugn",
+            "inventory_matches": [
+              {
+                "graph_raw": "鬥",
+                "label_token": "pugn(a)",
+                "abbreviation": "pugn",
+                "start_line": 277
+              }
+            ],
             "template_raw": "{{Han compound|鬥|共|c1=s|c2=p|t1=battle; fight|ls=psc}}"
           }
         },
@@ -2602,7 +2623,7 @@
                 "graph_raw": "門",
                 "label_token": "port(a)",
                 "abbreviation": "port",
-                "start_line": 316
+                "start_line": 331
               },
               {
                 "graph_raw": "門",
@@ -2623,14 +2644,14 @@
               "graph_raw": "門",
               "label_token": "port(a)",
               "abbreviation": "port",
-              "start_line": 307
+              "start_line": 331
             },
             {
               "graph_raw": "門",
               "label_token": "port",
               "abbreviation": "port",
               "learned": true,
-              "evidence_count": 2
+              "evidence_count": 3
             }
           ],
           "source": "ids_top_level",
@@ -2757,7 +2778,7 @@
                 "graph_raw": "火",
                 "label_token": "ign(is)",
                 "abbreviation": "ign",
-                "start_line": 270
+                "start_line": 281
               },
               {
                 "graph_raw": "火",
@@ -2778,7 +2799,7 @@
               "graph_raw": "火",
               "label_token": "ign(is)",
               "abbreviation": "ign",
-              "start_line": 263
+              "start_line": 281
             },
             {
               "graph_raw": "火",
@@ -3032,7 +3053,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 368
+                "start_line": 384
               },
               {
                 "graph_raw": "車",
@@ -3053,7 +3074,7 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 358
+              "start_line": 384
             },
             {
               "graph_raw": "車",

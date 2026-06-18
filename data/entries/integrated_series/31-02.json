@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T20:07:18.767146+00:00",
+  "generated_at": "2026-06-18T22:10:08.308874+00:00",
   "id": "31-02",
   "schuessler": {
     "gsc_id": "31-02",
@@ -606,7 +606,7 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 223
+              "start_line": 229
             },
             {
               "graph_raw": "貝",
@@ -636,7 +636,7 @@
                 "graph_raw": "貝",
                 "label_token": "conch(a)",
                 "abbreviation": "conch",
-                "start_line": 223
+                "start_line": 229
               },
               {
                 "graph_raw": "貝",
@@ -820,7 +820,7 @@
                 "graph_raw": "心",
                 "label_token": "cor",
                 "abbreviation": "cor",
-                "start_line": 224
+                "start_line": 230
               },
               {
                 "graph_raw": "心",
@@ -841,14 +841,14 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 219
+              "start_line": 230
             },
             {
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
               "learned": true,
-              "evidence_count": 12
+              "evidence_count": 13
             }
           ],
           "source": "ids_top_level",
@@ -991,7 +991,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -1012,7 +1012,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -1042,7 +1042,7 @@
                 "graph_raw": "水",
                 "label_token": "aq(ua)",
                 "abbreviation": "aq",
-                "start_line": 193
+                "start_line": 194
               },
               {
                 "graph_raw": "水",
@@ -1416,37 +1416,58 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "匱",
             "ids": "⿷匚貴",
             "phonetic_component": "貴",
             "semantic_component": "匚",
             "position": "prefix-dot",
-            "abbreviation": "匚",
-            "inventory_matches": []
+            "abbreviation": "caps",
+            "inventory_matches": [
+              {
+                "graph_raw": "匚",
+                "label_token": "caps(a)",
+                "abbreviation": "caps",
+                "start_line": 223
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "匚",
+          "abbreviation": "caps",
           "position": "prefix-dot",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "inventory_matches": [
+            {
+              "graph_raw": "匚",
+              "label_token": "caps(a)",
+              "abbreviation": "caps",
+              "start_line": 223
+            }
+          ],
+          "source": "wiktionary_han_compound",
           "semantic_component": "匚"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{匚·}kuy}},",
-        "render_latex": "匱\t%gui4 / guì\n{\\large{\\textsuperscript{匚·}kuy}},\n\\textit{gwiyH};\t%0540g",
+        "transliteration_latex": "{\\large{\\textsuperscript{caps·}kuy}},",
+        "render_latex": "匱\t%gui4 / guì\n{\\large{\\textsuperscript{caps·}kuy}},\n\\textit{gwiyH};\t%0540g",
         "wiktionary_semantic_validation": {
           "semantic_component": "匚",
           "phonetic_component": "貴",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "匱",
             "semantic_component": "匚",
             "phonetic_component": "貴",
             "position": "prefix-dot",
-            "abbreviation": "匚",
-            "inventory_matches": [],
+            "abbreviation": "caps",
+            "inventory_matches": [
+              {
+                "graph_raw": "匚",
+                "label_token": "caps(a)",
+                "abbreviation": "caps",
+                "start_line": 223
+              }
+            ],
             "template_raw": "{{Han compound|匚|貴|c1=s|c2=p|t1=cabinet|t2=valuables|ls=psc}}"
           }
         },
@@ -1612,7 +1633,7 @@
                 "graph_raw": "木",
                 "label_token": "arb(or)",
                 "abbreviation": "arb",
-                "start_line": 198
+                "start_line": 199
               },
               {
                 "graph_raw": "木",
@@ -1633,7 +1654,7 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 198
+              "start_line": 199
             },
             {
               "graph_raw": "木",
@@ -1663,7 +1684,7 @@
                 "graph_raw": "木",
                 "label_token": "arb(or)",
                 "abbreviation": "arb",
-                "start_line": 198
+                "start_line": 199
               },
               {
                 "graph_raw": "木",
@@ -1810,7 +1831,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 268
+                "start_line": 278
               },
               {
                 "graph_raw": "艸",
@@ -1831,7 +1852,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 268
+              "start_line": 278
             },
             {
               "graph_raw": "艸",
@@ -1861,7 +1882,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 268
+                "start_line": 278
               },
               {
                 "graph_raw": "艸",
@@ -2020,7 +2041,7 @@
                 "graph_raw": "竹",
                 "label_token": "bamb(us)",
                 "abbreviation": "bamb",
-                "start_line": 201
+                "start_line": 203
               },
               {
                 "graph_raw": "竹",
@@ -2041,7 +2062,7 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 201
+              "start_line": 203
             },
             {
               "graph_raw": "竹",
@@ -2071,7 +2092,7 @@
                 "graph_raw": "竹",
                 "label_token": "bamb(us)",
                 "abbreviation": "bamb",
-                "start_line": 201
+                "start_line": 203
               },
               {
                 "graph_raw": "竹",
@@ -2178,7 +2199,7 @@
                 "graph_raw": "革",
                 "label_token": "cori(um)",
                 "abbreviation": "cori",
-                "start_line": 225
+                "start_line": 231
               },
               {
                 "graph_raw": "革",
@@ -2199,7 +2220,7 @@
               "graph_raw": "革",
               "label_token": "cori(um)",
               "abbreviation": "cori",
-              "start_line": 220
+              "start_line": 231
             },
             {
               "graph_raw": "革",
@@ -2347,7 +2368,7 @@
                 "graph_raw": "食",
                 "label_token": "ed(o)",
                 "abbreviation": "ed",
-                "start_line": 244
+                "start_line": 252
               },
               {
                 "graph_raw": "食",
@@ -2368,7 +2389,7 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 244
+              "start_line": 252
             },
             {
               "graph_raw": "食",
@@ -2398,7 +2419,7 @@
                 "graph_raw": "食",
                 "label_token": "ed(o)",
                 "abbreviation": "ed",
-                "start_line": 244
+                "start_line": 252
               },
               {
                 "graph_raw": "食",
@@ -2998,7 +3019,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -3019,7 +3040,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 269
+              "start_line": 279
             },
             {
               "graph_raw": "人",
@@ -3049,7 +3070,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 269
+                "start_line": 279
               },
               {
                 "graph_raw": "人",
@@ -3196,7 +3217,7 @@
                 "graph_raw": "耳",
                 "label_token": "aur(is)",
                 "abbreviation": "aur",
-                "start_line": 199
+                "start_line": 200
               }
             ]
           }
@@ -3210,7 +3231,7 @@
               "graph_raw": "耳",
               "label_token": "aur(is)",
               "abbreviation": "aur",
-              "start_line": 199
+              "start_line": 200
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3233,7 +3254,7 @@
                 "graph_raw": "耳",
                 "label_token": "aur(is)",
                 "abbreviation": "aur",
-                "start_line": 199
+                "start_line": 200
               }
             ],
             "template_raw": "{{Han compound|耳|貴|c1=s|c2=p|t1=ear|ls=psc}}"
@@ -3360,7 +3381,7 @@
                 "graph_raw": "土",
                 "label_token": "terr(a)",
                 "abbreviation": "terr",
-                "start_line": 346
+                "start_line": 362
               },
               {
                 "graph_raw": "土",
@@ -3381,7 +3402,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 336
+              "start_line": 362
             },
             {
               "graph_raw": "土",

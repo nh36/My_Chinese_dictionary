@@ -885,7 +885,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -906,7 +906,7 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 193
+            "start_line": 194
           },
           {
             "graph_raw": "水",
@@ -936,7 +936,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 193
+              "start_line": 194
             },
             {
               "graph_raw": "水",
@@ -1071,7 +1071,7 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 334
+              "start_line": 349
             },
             {
               "graph_raw": "日",
@@ -1092,7 +1092,7 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 334
+            "start_line": 349
           },
           {
             "graph_raw": "日",
@@ -1122,7 +1122,7 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 334
+              "start_line": 349
             },
             {
               "graph_raw": "日",
@@ -1395,7 +1395,7 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 244
+              "start_line": 252
             },
             {
               "graph_raw": "食",
@@ -1416,14 +1416,14 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 238
+            "start_line": 252
           },
           {
             "graph_raw": "食",
             "label_token": "ed",
             "abbreviation": "ed",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -1508,7 +1508,7 @@
             "graph_raw": "革",
             "label_token": "cori(um)",
             "abbreviation": "cori",
-            "start_line": 220
+            "start_line": 231
           },
           {
             "graph_raw": "革",
@@ -1734,7 +1734,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 268
+              "start_line": 278
             },
             {
               "graph_raw": "艸",
@@ -1755,7 +1755,7 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 261
+            "start_line": 278
           },
           {
             "graph_raw": "艸",
@@ -1907,7 +1907,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 283
+              "start_line": 297
             },
             {
               "graph_raw": "手",
@@ -1928,7 +1928,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 283
+            "start_line": 297
           },
           {
             "graph_raw": "手",
@@ -1958,7 +1958,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 283
+              "start_line": 297
             },
             {
               "graph_raw": "手",
@@ -2105,7 +2105,7 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 334
+              "start_line": 349
             },
             {
               "graph_raw": "日",
@@ -2126,7 +2126,7 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 334
+            "start_line": 349
           },
           {
             "graph_raw": "日",
@@ -2156,7 +2156,7 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 334
+              "start_line": 349
             },
             {
               "graph_raw": "日",
@@ -2281,7 +2281,7 @@
               "graph_raw": "火",
               "label_token": "ign(is)",
               "abbreviation": "ign",
-              "start_line": 270
+              "start_line": 281
             },
             {
               "graph_raw": "火",
@@ -2302,7 +2302,7 @@
             "graph_raw": "火",
             "label_token": "ign(is)",
             "abbreviation": "ign",
-            "start_line": 263
+            "start_line": 281
           },
           {
             "graph_raw": "火",
@@ -2440,37 +2440,58 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "輝",
           "ids": "⿰光軍",
           "phonetic_component": "軍",
           "semantic_component": "光",
           "position": "prefix-dot",
-          "abbreviation": "光",
-          "inventory_matches": []
+          "abbreviation": "lux",
+          "inventory_matches": [
+            {
+              "graph_raw": "光",
+              "label_token": "lux",
+              "abbreviation": "lux",
+              "start_line": 282
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "光",
+        "abbreviation": "lux",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "光",
+            "label_token": "lux",
+            "abbreviation": "lux",
+            "start_line": 282
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "光"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{光·}kuyr}},",
-      "render_latex": "輝\t%hui1 / huī\n{\\large{\\textsuperscript{光·}kuyr}},\n\\textit{hiwɨy};\t%0458l",
+      "transliteration_latex": "{\\large{\\textsuperscript{lux·}kuyr}},",
+      "render_latex": "輝\t%hui1 / huī\n{\\large{\\textsuperscript{lux·}kuyr}},\n\\textit{hiwɨy};\t%0458l",
       "wiktionary_semantic_validation": {
         "semantic_component": "光",
         "phonetic_component": "軍",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "輝",
           "semantic_component": "光",
           "phonetic_component": "軍",
           "position": "prefix-dot",
-          "abbreviation": "光",
-          "inventory_matches": [],
+          "abbreviation": "lux",
+          "inventory_matches": [
+            {
+              "graph_raw": "光",
+              "label_token": "lux",
+              "abbreviation": "lux",
+              "start_line": 282
+            }
+          ],
           "template_raw": "{{Han compound|光|軍|ls=psc|c1=s|c2=p|t1=light; bright}}"
         }
       },
@@ -2599,7 +2620,7 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 198
+              "start_line": 199
             },
             {
               "graph_raw": "木",
@@ -2620,7 +2641,7 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 193
+            "start_line": 199
           },
           {
             "graph_raw": "木",
@@ -2718,7 +2739,7 @@
               "graph_raw": "羽",
               "label_token": "plum(a)",
               "abbreviation": "plum",
-              "start_line": 313
+              "start_line": 328
             },
             {
               "graph_raw": "羽",
@@ -2739,7 +2760,7 @@
             "graph_raw": "羽",
             "label_token": "plum(a)",
             "abbreviation": "plum",
-            "start_line": 304
+            "start_line": 328
           },
           {
             "graph_raw": "羽",
