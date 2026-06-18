@@ -21,6 +21,8 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolve_series_roots.derive_oc_root("*kap {*k(r)ap}"), "kap")
         self.assertEqual(resolve_series_roots.derive_oc_root("*tsraŋ {*[ts]raŋ}", mode="node"), "tsraṅ")
         self.assertEqual(resolve_series_roots.derive_oc_root("*s.tʰˤiwk", mode="node"), "tsik")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*ɡ‧laɡ"), "lak")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*ɡ‧leb"), "lep")
 
     def test_resolve_root_single_oc_candidate(self) -> None:
         entry = {

@@ -158,6 +158,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertRegex(rendered, re.compile(r"= \{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertIn(r"\item {\Large{星}}", rendered)
         self.assertRegex(rendered, re.compile(r"= \{\\large\{(?:seṅ|tseṅ)[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
+        self.assertNotIn("ɡ‧", rendered)
         self.assertNotIn(r"= {\large{khaṅ}},", rendered)
         self.assertNotIn(r"= {\large{khy}},", rendered)
         self.assertNotIn(r"= {\large{phy}},", rendered)

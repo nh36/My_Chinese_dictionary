@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Mutable series/subseries roots inspected: 338
-- Roots whose display label changed after document-wide renumbering: 151
-- Duplicate phonetic bases encountered in document order: 84
+- Roots whose display label changed after document-wide renumbering: 152
+- Duplicate phonetic bases encountered in document order: 85
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -16,8 +16,8 @@
 | `02-01` | `subseries-root` | 輅 | `k\textoverset{a}{a}k` | 3 | `k\textoverset{a}{a}k₃` | yes |
 | `02-17` | `series-root` | 石 | `tak` | 1 | `tak` | yes |
 | `02-17` | `subseries-root` | 橐 | `t\textoverset{a}{a}k` | 1 | `t\textoverset{a}{a}k` | yes |
-| `02-25` | `series-root` | 睪 | `ɡ‧lak` | 1 | `ɡ‧lak` | yes |
-| `02-25` | `subseries-root` | 擇 | `ɡ‧l\textoverset{a}{a}k` | 1 | `ɡ‧l\textoverset{a}{a}k` | yes |
+| `02-25` | `series-root` | 睪 | `lak` | 1 | `lak` | yes |
+| `02-25` | `subseries-root` | 擇 | `l\textoverset{a}{a}k` | 1 | `l\textoverset{a}{a}k` | yes |
 | `02-31` | `series-root` | 乍 | `tsak` | 1 | `tsak` | yes |
 | `02-31` | `subseries-root` | 作 | `ts\textoverset{a}{a}k` | 1 | `ts\textoverset{a}{a}k` | yes |
 | `02-32` | `series-root` | 昔 | `sak` | 1 | `sak` | yes |
@@ -286,7 +286,7 @@
 | `31-16` | `subseries-root` | 屈 | `kut` | 2 | `kut₂` | yes |
 | `31-20` | `series-root` | 卒 | `tsut` | 1 | `tsut` | yes |
 | `32-08` | `series-root` | 旬 | `quin` | 1 | `quin` | yes |
-| `32-08` | `subseries-root` | 筍 | `sin` | 1 | `sin` | yes |
+| `32-08` | `subseries-root` | 筍 | `quin` | 2 | `quin₂` | yes |
 | `32-16` | `series-root` | 真 | `tin` | 1 | `tin` | yes |
 | `32-16` | `subseries-root` | 顛 | `tin` | 2 | `tin₂` | yes |
 | `32-38` | `series-root` | 賓 | `pin` | 1 | `pin` | yes |
@@ -310,7 +310,7 @@
 | `34-23` | `subseries-root` | 夋 | `lur` | 2 | `lur₂` | yes |
 | `35-03` | `series-root` | 夾 | `kep` | 1 | `kep` | yes |
 | `35-03` | `subseries-root` | 匧 | `kep` | 2 | `kep₂` | yes |
-| `35-10` | `series-root` | 枼 | `ɡ‧lep` | 1 | `ɡ‧lep` | yes |
+| `35-10` | `series-root` | 枼 | `lep` | 1 | `lep` | yes |
 | `35-21` | `series-root` | 劫 | `kap` | 1 | `kap` | yes |
 | `35-21` | `subseries-root` | 盍 | `kap` | 2 | `kap₂` | yes |
 | `35-21` | `subseries-root` | 劫 | `kap` | 3 | `kap₃` | yes |

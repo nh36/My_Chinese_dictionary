@@ -61,6 +61,7 @@ COMPONENT_ALIASES = {
 WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 SUPERSCRIPT_RELATION_COLON = "˸"
+SEMANTIC_GLYPH_IMAGE_DIR = Path("hard-character-images")
 RESEARCH_BACKED_SEMANTICS = {
     "甞": {
         "semantic_component": "甘",
@@ -1212,17 +1213,31 @@ def extract_series_root_latex(raw_block: str) -> str | None:
 
 def compose_transliteration_from_root(root: str, semantic_assignment: dict[str, Any]) -> str | None:
     abbreviation = semantic_assignment.get("abbreviation")
+    semantic_component = semantic_assignment.get("semantic_component")
     position = semantic_assignment.get("position")
-    if not abbreviation or not position:
+
+    def format_semantic_marker(value: str | None) -> str | None:
+        if not value:
+            return None
+        if len(value) == 1:
+            image_path = SEMANTIC_GLYPH_IMAGE_DIR / f"U+{ord(value):05X}.png"
+            if image_path.exists():
+                return rf"\raisebox{{0.1ex}}{{\includegraphics[height=1.6ex]{{{image_path.name}}}}}"
+        return value
+
+    display_abbreviation = format_semantic_marker(abbreviation)
+    if display_abbreviation is None and semantic_component:
+        display_abbreviation = format_semantic_marker(semantic_component)
+    if not display_abbreviation or not position:
         return None
     if position == "prefix-dot":
-        return rf"{{\large{{\textsuperscript{{{abbreviation}·}}{root}}}}},"
+        return rf"{{\large{{\textsuperscript{{{display_abbreviation}·}}{root}}}}},"
     if position == "prefix-colon":
-        return rf"{{\large{{\textsuperscript{{{abbreviation}{SUPERSCRIPT_RELATION_COLON}}}{root}}}}},"
+        return rf"{{\large{{\textsuperscript{{{display_abbreviation}{SUPERSCRIPT_RELATION_COLON}}}{root}}}}},"
     if position == "suffix-dot":
-        return rf"{{\large{{{root}\textsuperscript{{·{abbreviation}}}}}}},"
+        return rf"{{\large{{{root}\textsuperscript{{·{display_abbreviation}}}}}}},"
     if position == "suffix-colon":
-        return rf"{{\large{{{root}\textsuperscript{{{SUPERSCRIPT_RELATION_COLON}{abbreviation}}}}}}},"
+        return rf"{{\large{{{root}\textsuperscript{{{SUPERSCRIPT_RELATION_COLON}{display_abbreviation}}}}}}},"
     return None
 
 
@@ -1390,6 +1405,11 @@ def resolve_parent_root_for_candidate(
     if status == "assigned-to-inherited-node":
         return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
     if status == "assigned-to-candidate-node":
+        packet_head_character = None
+        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
+            packet_head_character = entry["proposed_additions"][0]["character"]
+        if packet_head_character and assignment.get("parent_character") == packet_head_character:
+            return (entry.get("resolved_series_root") or {}).get("root")
         parent = candidate_map.get(assignment.get("parent_character"))
         if parent:
             node_root = (parent.get("resolved_node_root") or {}).get("root")
@@ -1412,6 +1432,12 @@ def resolve_parent_display_root_for_candidate(
     if status == "assigned-to-inherited-node":
         return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
     if status == "assigned-to-candidate-node":
+        packet_head_character = None
+        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
+            packet_head_character = entry["proposed_additions"][0]["character"]
+        if packet_head_character and assignment.get("parent_character") == packet_head_character:
+            resolved = entry.get("resolved_series_root") or {}
+            return resolved.get("display_root") or resolved.get("root")
         parent = candidate_map.get(assignment.get("parent_character"))
         if parent:
             node_root = parent.get("resolved_node_root") or {}

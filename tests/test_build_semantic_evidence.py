@@ -126,6 +126,11 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             build_semantic_evidence.compose_transliteration_from_root("ka", {"abbreviation": "conch", "position": "suffix-colon"}),
             r"{\large{ka\textsuperscript{˸conch}}},",
         )
+        rendered = build_semantic_evidence.compose_transliteration_from_root(
+            "tak",
+            {"abbreviation": "𣒚", "semantic_component": "𣒚", "position": "suffix-colon"},
+        )
+        self.assertIn(r"\includegraphics[height=1.6ex]{U+2349A.png}", rendered)
 
     def test_resolve_semantic_from_wiktionary_template(self) -> None:
         ids_map = {"台": "⿱厶口", "錦": "⿰金帛", "琴": "⿱玨今"}
@@ -333,6 +338,27 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
             {"廾": parent, "共": child},
         )
         self.assertEqual(root, "koṅ")
+
+    def test_resolve_parent_display_root_uses_series_root_for_packet_head_parent(self) -> None:
+        entry = {
+            "packet_kind": "missing_series",
+            "resolved_series_root": {"root": "quaṅ", "display_root": "quaṅ"},
+            "proposed_additions": [{"character": "皇"}],
+        }
+        parent = {"character": "皇", "resolved_node_root": {"root": "gaṅ", "display_root": "gaṅ"}}
+        child = {
+            "character": "徨",
+            "hierarchy_assignment": {
+                "status": "assigned-to-candidate-node",
+                "parent_character": "皇",
+            },
+        }
+        root = build_semantic_evidence.resolve_parent_display_root_for_candidate(
+            entry,
+            child,
+            {"皇": parent, "徨": child},
+        )
+        self.assertEqual(root, "quaṅ")
 
 
 if __name__ == "__main__":

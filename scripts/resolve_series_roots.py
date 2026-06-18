@@ -41,7 +41,7 @@ def extract_primary_oc_form(oc_bs: str | None) -> str | None:
 
 
 def strip_oc_prefixes(oc_form: str, *, mode: str = "broad") -> str:
-    form = oc_form
+    form = oc_form.replace("‧", ".")
     if mode == "node":
         if "." in form:
             prefix, stem = form.rsplit(".", 1)
