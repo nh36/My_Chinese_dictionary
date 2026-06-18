@@ -1515,6 +1515,11 @@ def enrich_curated_entry_with_ids(
     ids_map: dict[str, str],
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any]:
+    packet_tokens = {
+        int(token)
+        for token in entry.get("schuessler", {}).get("k_tokens", [])
+        if str(token).isdigit()
+    }
     packet_family = {
         normalize_component_graph(candidate["character"])
         for candidate in entry.get("proposed_additions", [])
@@ -1704,6 +1709,17 @@ def enrich_curated_entry_with_ids(
                             resolved_root,
                             candidate["semantic_assignment"],
                         )
+        if candidate.get("semantic_assignment") is None and entry.get("packet_kind") == "missing_series":
+            bases = candidate_gsr_bases(candidate)
+            if packet_tokens and bases & packet_tokens:
+                candidate["semantic_assignment"] = {
+                    "token": None,
+                    "abbreviation": None,
+                    "position": "none",
+                    "inventory_matches": [],
+                    "source": "same_series_variant",
+                    "semantic_component": None,
+                }
         if candidate.get("semantic_assignment") is None:
             series_head = maybe_mark_series_head(entry, candidate)
             if series_head is not None:

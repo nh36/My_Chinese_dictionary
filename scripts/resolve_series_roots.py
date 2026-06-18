@@ -335,10 +335,45 @@ def derive_packet_root_consensus(entry: dict[str, Any]) -> dict[str, Any] | None
     }
 
 
+def derive_packet_shengfu_consensus(entry: dict[str, Any]) -> dict[str, Any] | None:
+    roots_by_character: dict[str, set[str]] = {}
+    for candidate in entry.get("proposed_additions", []):
+        roots: set[str] = set()
+        for row in candidate.get("shengfu_character_rows", []):
+            oc_syllable = row.get("oc_syllable")
+            if not oc_syllable:
+                continue
+            root = derive_oc_root(f"*{oc_syllable}", mode="broad")
+            if root:
+                roots.add(root)
+        if roots:
+            roots_by_character[candidate["character"]] = roots
+    if len(roots_by_character) < 2:
+        return None
+
+    root_counts: dict[str, int] = {}
+    for roots in roots_by_character.values():
+        for root in roots:
+            root_counts[root] = root_counts.get(root, 0) + 1
+    ranked = sorted(root_counts.items(), key=lambda item: (-item[1], item[0]))
+    if not ranked:
+        return None
+    if ranked[0][1] <= 1 or (len(ranked) > 1 and ranked[0][1] <= ranked[1][1]):
+        return None
+    return {
+        "root": ranked[0][0],
+        "source": "packet_shengfu_majority",
+        "character": None,
+        "oc_bs": None,
+        "confidence": "provisional-oc",
+        "supporting_characters": ranked[0][1],
+    }
+
+
 def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
     candidates = derive_root_candidates(entry)
     if not candidates:
-        return derive_packet_root_consensus(entry)
+        return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
     if len(candidates) == 1:
         candidate = candidates[0]
         return {
@@ -365,7 +400,7 @@ def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
                     "oc_bs": candidate.get("oc_bs"),
                     "confidence": "provisional-oc",
                 }
-    return derive_packet_root_consensus(entry)
+    return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
 
 
 def apply_root_resolution(entry: dict[str, Any]) -> dict[str, Any]:

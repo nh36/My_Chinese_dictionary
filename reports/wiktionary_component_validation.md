@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2595
-- Pages fetched / cached successfully: 2562
-- Additions with explicit Han-compound semantic/phonetic roles: 1279
+- Proposed additions checked: 2674
+- Pages fetched / cached successfully: 2640
+- Additions with explicit Han-compound semantic/phonetic roles: 1319
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -559,6 +559,22 @@
 | `04-30` | 貽 | yes | yes | 貝 | 台 |
 | `04-30` | 飴 | yes | no |  |  |
 | `04-30` | 治 | yes | yes | 水 | 台 |
+| `04-45` | 才 | yes | no |  |  |
+| `04-45` | 載 | yes | yes | 車 | 𢦏 |
+| `04-45` | 裁 | yes | yes | 衣 | 𢦏 |
+| `04-45` | 胾 | yes | yes | 肉 | 𢦏 |
+| `04-45` | 戴 | yes | no |  |  |
+| `04-45` | 材 | yes | yes | 木 | 才 |
+| `04-45` | 財 | yes | yes | 貝 | 才 |
+| `04-45` | 在 | yes | no |  | 才, 士 |
+| `04-45` | 𢦒 | yes | no |  |  |
+| `04-45` | 𢦏 | yes | yes | 戈 | 才 |
+| `04-45` | 鼒 | yes | yes | 鼎 | 才 |
+| `04-45` | 䊷 | yes | yes | 糸 | 才 |
+| `04-45` | 豺 | yes | yes | 豸 | 才 |
+| `04-45` | 哉 | yes | yes | 口 | 𢦏 |
+| `04-45` | 栽 | yes | yes | 木 | 𢦏 |
+| `04-45` | 烖 | yes | yes | 火 | 𢦏 |
 | `04-61` | 不 | yes | no |  |  |
 | `04-61` | 培 | yes | yes | 土 | 咅 |
 | `04-61` | 倍 | yes | yes | 人 | 咅 |
@@ -585,6 +601,22 @@
 | `04-61` | 棓 | yes | yes | 木 | 咅 |
 | `04-61` | 瓿 | yes | no |  |  |
 | `04-61` | 部 | yes | yes | 邑 | 咅 |
+| `05-06` | 或 | yes | yes | 戈 | 員 |
+| `05-06` | 域 | yes | yes | 土 | 或 |
+| `05-06` | 棫 | yes | no |  |  |
+| `05-06` | 罭 | yes | no |  |  |
+| `05-06` | 閾 | yes | no |  |  |
+| `05-06` | 淢 | yes | no |  |  |
+| `05-06` | 窢 | yes | no |  |  |
+| `05-06` | 緎 | yes | no |  |  |
+| `05-06` | 國 | yes | yes | 囗 | 或 |
+| `05-06` | 惑 | yes | yes | 心 | 或 |
+| `05-06` | 蜮 | yes | no |  |  |
+| `05-06` | 膕 | yes | no |  |  |
+| `05-06` | 蟈 | yes | no |  |  |
+| `05-06` | 馘 | yes | yes | 首 | 或 |
+| `05-06` | 聝 | yes | yes | 耳 | 或 |
+| `05-06` | 彧 | yes | no |  |  |
 | `05-16` | 弋 | yes | no |  |  |
 | `05-16` | 㚤 | yes | no |  |  |
 | `05-16` | 杙 | yes | no |  |  |
@@ -1028,6 +1060,22 @@
 | `12-01` | 矼 | yes | yes | 石 | 工 |
 | `12-01` | 項 | yes | yes | 頁 | 工 |
 | `12-01` | 悾 | yes | no |  |  |
+| `12-03` | 廾 | yes | no |  |  |
+| `12-03` | 𠬞 | yes | no |  |  |
+| `12-03` | 共 | yes | no |  |  |
+| `12-03` | 拱 | yes | yes | 手 | 共 |
+| `12-03` | 供 | yes | yes | 人 | 共 |
+| `12-03` | 龏 | yes | no |  |  |
+| `12-03` | 龔 | yes | no |  |  |
+| `12-03` | 恭 | yes | yes | 心 | 共 |
+| `12-03` | 拲 | yes | yes | 手 | 共 |
+| `12-03` | 輁 | yes | no |  |  |
+| `12-03` | 洪 | yes | yes | 水 | 共 |
+| `12-03` | 鬨 | yes | yes | 鬥 | 共 |
+| `12-03` | 閧 | yes | no |  |  |
+| `12-03` | 烘 | yes | no |  |  |
+| `12-03` | 巷 | yes | yes | 己 | 共 |
+| `12-03` | 輂 | yes | no |  |  |
 | `12-08` | 重 | yes | yes | 人 | 東 |
 | `12-08` | 𠟍 | no | no |  |  |
 | `12-08` | 偅 | yes | no |  |  |
@@ -1764,6 +1812,22 @@
 | `25-02` | 䟒 | yes | yes | 走 | 雚 |
 | `25-02` | 勸 | yes | yes | 力 | 雚 |
 | `25-02` | 吅 | yes | no |  |  |
+| `25-11` | 卷 | yes | yes | 卩 | 𢍏 |
+| `25-11` | 睠 | yes | yes | 目 | 卷 |
+| `25-11` | 眷 | yes | yes | 目 | 龹 |
+| `25-11` | 棬 | yes | no |  |  |
+| `25-11` | 鬈 | yes | no |  |  |
+| `25-11` | 捲 | yes | yes | 手 | 卷 |
+| `25-11` | 拳 | yes | yes | 手 | 龹 |
+| `25-11` | 蜷 | yes | yes | 虫 | 卷 |
+| `25-11` | 倦 | yes | yes | 人 | 龹 |
+| `25-11` | 勌 | yes | no |  |  |
+| `25-11` | 圈 | yes | yes | 囗 | 卷 |
+| `25-11` | 券 | yes | yes | 刀 | 𠔉 |
+| `25-11` | 綣 | yes | no |  |  |
+| `25-11` | 裷 | yes | no |  |  |
+| `25-11` | 豢 | yes | no |  |  |
+| `25-11` | 㹖 | yes | no |  |  |
 | `25-12` | 亘 | yes | no |  |  |
 | `25-12` | 桓 | yes | yes | 木 | 亘 |
 | `25-12` | 洹 | yes | yes | 水 | 亘 |
@@ -2303,6 +2367,21 @@
 | `33-13` | 辴 | yes | no |  |  |
 | `33-13` | 脣 | yes | yes | 肉 | 辰 |
 | `33-13` | 漘 | yes | yes | 水 | 脣 |
+| `33-29` | 賁 | yes | yes | 貝 | 卉 |
+| `33-29` | 噴 | yes | yes | 口 | 賁 |
+| `33-29` | 歕 | yes | yes | 欠 | 賁 |
+| `33-29` | 獖 | yes | no |  |  |
+| `33-29` | 僨 | yes | no |  |  |
+| `33-29` | 𩞑 | no | no |  |  |
+| `33-29` | 饙 | yes | yes | 食 | 賁 |
+| `33-29` | 墳 | yes | yes | 土 | 賁 |
+| `33-29` | 憤 | yes | yes | 心 | 賁 |
+| `33-29` | 濆 | yes | no |  |  |
+| `33-29` | 羵 | yes | no |  |  |
+| `33-29` | 蕡 | yes | no |  |  |
+| `33-29` | 豶 | yes | no |  |  |
+| `33-29` | 轒 | yes | no |  |  |
+| `33-29` | 幩 | yes | no |  |  |
 | `33-30` | 分 | yes | no |  |  |
 | `33-30` | 粉 | yes | yes | 米 | 分 |
 | `33-30` | 𦐈 | yes | no |  |  |
