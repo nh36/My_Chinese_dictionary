@@ -47,6 +47,14 @@ PAREN_LABEL_SAMPLE_TEX = r"""
 \section{The dictionary itself}
 """.strip()
 
+SCOPED_DUPLICATE_SAMPLE_TEX = r"""
+\section{Semantic components}
+\begin{itemize}[noitemsep]
+\item 田 forn(us) (only in 盧)
+\end{itemize}
+\section{The dictionary itself}
+""".strip()
+
 
 class ExtractSemanticComponentsTests(unittest.TestCase):
     def test_build_inventory(self) -> None:
@@ -86,6 +94,14 @@ class ExtractSemanticComponentsTests(unittest.TestCase):
 
         self.assertEqual(inventory["items"][0]["abbreviation"], "or")
         self.assertEqual(inventory["items"][1]["abbreviation"], "ped")
+
+    def test_scoped_duplicate_metadata_is_recorded(self) -> None:
+        inventory = extract_semantic_components.build_inventory(SCOPED_DUPLICATE_SAMPLE_TEX, "sample.tex")
+
+        self.assertEqual(inventory["items"][0]["scope"], "only_in")
+        self.assertEqual(inventory["items"][0]["only_in"], ["盧"])
+        self.assertEqual(inventory["items"][0]["duplicate_graph_status"], "intentional_scoped_duplicate")
+        self.assertIn("Same visible graph as 田/ager", inventory["items"][0]["note"])
 
 
 if __name__ == "__main__":

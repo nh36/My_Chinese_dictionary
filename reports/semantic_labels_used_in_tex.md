@@ -78,7 +78,7 @@
 | `eo·` | prefix-dot | 2 | 2 | `18-16` |
 | `·cul` | suffix-dot | 2 | 2 | `19-01` |
 | `port:` | prefix-colon | 2 | 2 | `19-06` |
-| `·os` | suffix-dot | 2 | 2 | `19-07` |
+| `·or` | suffix-dot | 2 | 2 | `19-07` |
 | `:vas` | suffix-colon | 2 | 2 | `19-07` |
 | `ign·` | prefix-dot | 2 | 2 | `19-15` |
 | `·carn` | suffix-dot | 2 | 2 | `19-16` |
@@ -141,7 +141,7 @@
 | `fili·` | prefix-dot | 1 | 1 | `01-21` |
 | `:cul` | suffix-colon | 1 | 1 | `01-22` |
 | `·瓜` | suffix-dot | 1 | 1 | `01-22` |
-| `:os` | suffix-colon | 1 | 1 | `01-29` |
+| `:or` | suffix-colon | 1 | 1 | `01-29` |
 | `somn·` | prefix-dot | 1 | 1 | `01-29` |
 | `meridi·` | prefix-dot | 1 | 1 | `01-29` |
 | `claχ·` | prefix-dot | 1 | 1 | `01-29` |

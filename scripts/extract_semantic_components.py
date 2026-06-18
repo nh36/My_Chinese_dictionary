@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 import inventory_tex
+import semantic_label_normalization
 
 
 SECTION_START = r"\section{Semantic components}"
@@ -70,7 +71,7 @@ def collect_semantic_component_items(source_text: str) -> list[dict[str, Any]]:
     return items
 
 
-def parse_item(item: dict[str, Any]) -> dict[str, Any]:
+def parse_item(item: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     code_parts: list[str] = []
     for line in item["raw_lines"]:
         code, _ = inventory_tex.split_latex_comment(line)
@@ -134,6 +135,13 @@ def parse_item(item: dict[str, Any]) -> dict[str, Any]:
             if match:
                 abbreviation = match.group(1)
 
+    metadata = semantic_label_normalization.normalize_inventory_metadata(
+        graph=graph_raw or None,
+        abbreviation=abbreviation,
+        label_notes=label_notes or None,
+        config=config,
+    )
+
     return {
         "start_line": item["start_line"],
         "end_line": item["end_line"],
@@ -141,18 +149,24 @@ def parse_item(item: dict[str, Any]) -> dict[str, Any]:
         "label_token": label_token,
         "abbreviation": abbreviation,
         "label_notes": label_notes or None,
+        "scope": metadata["scope"],
+        "only_in": metadata["only_in"],
+        "duplicate_graph_status": metadata["duplicate_graph_status"],
+        "note": metadata["note"],
         "comments": item["comments"],
         "raw_latex": item["raw_latex"],
     }
 
 
 def build_inventory(source_text: str, source_path: str) -> dict[str, Any]:
-    parsed_items = [parse_item(item) for item in collect_semantic_component_items(source_text)]
+    config = semantic_label_normalization.load_normalization_config()
+    parsed_items = [parse_item(item, config) for item in collect_semantic_component_items(source_text)]
     abbreviations = sorted({item["abbreviation"] for item in parsed_items if item["abbreviation"]})
     unresolved = [item for item in parsed_items if not item["abbreviation"]]
 
     return {
         "source_path": source_path,
+        "normalization_config_path": config["path"],
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "summary": {
             "item_count": len(parsed_items),
@@ -168,12 +182,13 @@ def render_report(inventory: dict[str, Any]) -> str:
         "# Semantic components inventory",
         "",
         f"- Source: `{inventory['source_path']}`",
+        f"- Normalization config: `{inventory['normalization_config_path']}`",
         f"- Items: {inventory['summary']['item_count']}",
         f"- Unique abbreviations: {inventory['summary']['unique_abbreviation_count']}",
         f"- Unresolved items: {inventory['summary']['unresolved_item_count']}",
         "",
-        "| Lines | Graph | Abbreviation | Label token | Notes | Comments |",
-        "| --- | --- | --- | --- | --- | --- |",
+        "| Lines | Graph | Abbreviation | Label token | Notes | Scope | Only in | Duplicate graph | Note | Comments |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     ]
 
     for item in inventory["items"]:
@@ -183,6 +198,10 @@ def render_report(inventory: dict[str, Any]) -> str:
             f"`{item['abbreviation'] or ''}` | "
             f"`{(item['label_token'] or '').replace('`', '\\`').replace('|', '\\|')}` | "
             f"{(item['label_notes'] or '').replace('|', '\\|')} | "
+            f"{item['scope']} | "
+            f"{', '.join(item['only_in']).replace('|', '\\|')} | "
+            f"{(item['duplicate_graph_status'] or '').replace('|', '\\|')} | "
+            f"{(item['note'] or '').replace('|', '\\|')} | "
             f"{' / '.join(item['comments']).replace('|', '\\|')} |"
         )
 

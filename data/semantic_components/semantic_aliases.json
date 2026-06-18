@@ -1,0 +1,69 @@
+{
+  "aliases": {
+    "ag": "ager",
+    "cri": "crin",
+    "cul": "cult",
+    "manu": "man",
+    "spir": "spirit",
+    "ter": "terr"
+  },
+  "blocked_aliases": {
+    "os": {
+      "targets": [
+        "or",
+        "oss"
+      ],
+      "reason": "Blocked because it can refer to 口/or or 骨/oss."
+    },
+    "bos": {
+      "targets": [
+        "bos",
+        "grunn"
+      ],
+      "reason": "Blocked as an inferred alias because bos is canonical for 牛, but also appears parenthetically in 犛 grunn(iens)."
+    },
+    "den": {
+      "targets": [
+        "dent",
+        "molar"
+      ],
+      "reason": "Blocked because it can refer to dent/tooth material or surface from molar/dens explanations."
+    },
+    "dens": {
+      "targets": [
+        "dent",
+        "molar"
+      ],
+      "reason": "Blocked because it can refer to dent/tooth material or surface from molar/dens explanations."
+    }
+  },
+  "placeholder_labels": [
+    "xxx"
+  ],
+  "audit_watch_tokens": [
+    "ag",
+    "bos",
+    "can",
+    "cri",
+    "cul",
+    "den",
+    "dens",
+    "draco",
+    "manu",
+    "os",
+    "pes",
+    "spir",
+    "ter"
+  ],
+  "intentional_scoped_duplicate_graphs": [
+    {
+      "graph": "田",
+      "abbreviation": "forn",
+      "only_in": [
+        "盧"
+      ],
+      "paired_with": "ager",
+      "note": "Same visible graph as 田/ager, but different semantic label and restricted use."
+    }
+  ]
+}

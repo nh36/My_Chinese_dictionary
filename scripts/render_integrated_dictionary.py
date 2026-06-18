@@ -46,7 +46,7 @@ def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
         graph = item.get("graph_raw") or "—"
         abbreviation = item.get("abbreviation") or ""
         expanded = item.get("expanded_latin") or ""
-        note_parts = [item.get("notes")] + list(item.get("comments") or [])
+        note_parts = [item.get("notes"), item.get("note")] + list(item.get("comments") or [])
         aliases = item.get("used_abbreviation_aliases") or []
         if aliases:
             note_parts.append("entry aliases: " + ", ".join(aliases))

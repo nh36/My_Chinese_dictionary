@@ -1,10 +1,10 @@
 # Rare glyphs and images
 
 - Asset directory: `hard-character-images`
-- PNG files present: 19
+- PNG files present: 20
 - Unique image files referenced in `main.tex`: 16
 - Missing referenced assets: 0
-- Unreferenced checked-in PNG assets: 3
+- Unreferenced checked-in PNG assets: 4
 
 ## Referenced image files
 
@@ -35,4 +35,5 @@
 
 - `PhagspaBi.png`
 - `Phagspabue.png`
+- `U+2349A.png`
 - `U+24FFA.png`
