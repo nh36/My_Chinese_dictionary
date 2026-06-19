@@ -60,6 +60,8 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("匚", "caps"), rows)
         self.assertIn(("缶", "cad"), rows)
         self.assertIn(("尢", "claud"), rows)
+        self.assertIn(("尾", "caud"), rows)
+        self.assertIn(("囟", "fontan"), rows)
         self.assertIn(("申", "tend"), rows)
         self.assertIn(("民", "pleb"), rows)
         self.assertIn(("川", "fluvi"), rows)

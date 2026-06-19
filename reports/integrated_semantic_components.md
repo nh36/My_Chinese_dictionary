@@ -3,8 +3,8 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 189
-- Items present in both sources: 189
+- Integrated items: 191
+- Items present in both sources: 191
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
@@ -79,6 +79,7 @@
 | `丹` | `cinnabar` | `cinnabar(is)` | (in 彤) | only_in | 彤 |  |  |  | no | current_main_tex, earlier_pilot |
 | `囗` | `cla` | `cla(usum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尢` | `claud` | `claud(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `囟` | `fontan` | `fontan(ella)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `思` | `cogit` | `cogit(o)` | (sī) - / (to think, to ponder) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `丘/丠` | `coll` | `coll(is)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `貝` | `conch` | `conch(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -86,6 +87,7 @@
 | `革` | `cori` | `cori(um)` | (gé) - / (leather, to reform, to revolutionize) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `尾` | `caud` | `caud(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `髟` | `crin` | `crin(is)` |  | general |  |  |  | `cri` | yes | current_main_tex, earlier_pilot |
 | `刀` | `cult` | `cult(er)` |  | general |  |  |  | `cul` | yes | current_main_tex, earlier_pilot |
 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
