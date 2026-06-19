@@ -3,8 +3,8 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 186
-- Items present in both sources: 186
+- Integrated items: 189
+- Items present in both sources: 189
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
@@ -46,6 +46,7 @@
 | `尚` | `adhuc` | `adhuc` | (shàng) - / (still, yet, even, still more) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `田` | `ager` | `ager` |  | general |  |  |  | `ag` | yes | current_main_tex, earlier_pilot |
 | `白` | `alb` | `alb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `韋` | `alut` | `alut(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `高` | `alt` | `alt(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `辵` | `amb` | `amb(ulo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黽` | `amph` | `amph(ibium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -60,8 +61,10 @@
 | `須` | `barb` | `barb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `\symbol{"268DE}` | `barbil` | `barbil(ia)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `豸` | `best` | `best(ia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `廾` | `biman` | `biman(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `牛` | `bos` | `bos` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尸` | `cadaver` | `cadaver` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `缶` | `cad` | `cad(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `犬` | `can` | `can(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `首` | `cap` | `cap(ut)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `匚` | `caps` | `caps(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
