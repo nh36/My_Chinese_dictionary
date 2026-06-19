@@ -3,8 +3,8 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 184
-- Items present in both sources: 184
+- Integrated items: 186
+- Items present in both sources: 186
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
@@ -127,6 +127,7 @@
 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `疒` | `infirm` | `infirm(itas)` | (recovered from entry usage) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `兮` | `io` | `io` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `誩` | `iurg` | `iurg(ium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `石` | `lap` | `lap(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
@@ -196,6 +197,7 @@
 | `日` | `sol` | `sol` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `卩` | `sign` | `sign(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `㝱` | `somn` | `somn(ium)` | (méi) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `晶` | `splend` | `splend(or)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `示` | `spirit` | `spirit(us)` |  | general |  |  |  | `spir` | yes | current_main_tex, earlier_pilot |
 | `立` | `sto` | `sto` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼓` | `tabur` | `tabur` | (only in 鼛?) | only_in | 鼛? |  |  |  | yes | current_main_tex, earlier_pilot |

@@ -49,6 +49,8 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("身", "corp"), rows)
         self.assertIn(("殳", "hast"), rows)
         self.assertIn(("鹵", "sal"), rows)
+        self.assertIn(("誩", "iurg"), rows)
+        self.assertIn(("晶", "splend"), rows)
         self.assertIn(("辛", "acr"), rows)
         self.assertIn(("臤", "firm"), rows)
         self.assertIn(("鼠", "rod"), rows)
