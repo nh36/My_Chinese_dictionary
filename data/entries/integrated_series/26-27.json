@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T07:42:10.024920+00:00",
+  "generated_at": "2026-06-19T08:09:31.711587+00:00",
   "id": "26-27",
   "schuessler": {
     "gsc_id": "26-27",
@@ -698,7 +698,7 @@
         "resolved_node_root": {
           "root": "tsy",
           "source": "node_inherit_parent",
-          "descendant_count": 18,
+          "descendant_count": 17,
           "bs_support_count": 6,
           "bs_broad_roots": [
             "tsy",
@@ -717,7 +717,6 @@
             "dzey",
             "tsiy",
             "dzeyH",
-            "tsie",
             "dzeyX",
             "tseyH",
             "tsey",
@@ -743,12 +742,6 @@
               "normalized": "dzey",
               "class": "a",
               "reason": "no_i_medial"
-            },
-            {
-              "form": "tsie",
-              "normalized": "tsie",
-              "class": "b",
-              "reason": "explicit_i_medial"
             },
             {
               "form": "dzeyX",
@@ -1263,14 +1256,21 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "劑",
             "ids": "⿰齊刂",
             "phonetic_component": "齊",
-            "semantic_component": "刂",
+            "semantic_component": "刀",
             "position": "suffix-dot",
-            "abbreviation": "刂",
-            "inventory_matches": []
+            "abbreviation": "cult",
+            "inventory_matches": [
+              {
+                "graph_raw": "刀",
+                "label_token": "cult(er)",
+                "abbreviation": "cult",
+                "start_line": 238
+              }
+            ]
           }
         ],
         "semantic_assignment": {
@@ -1312,12 +1312,12 @@
           }
         },
         "hierarchy_assignment": {
-          "status": "assigned-to-candidate-node",
+          "status": "assigned-to-top-level",
           "parent_character": "齊",
           "parent_display_line": null,
           "parent_rhs_snippet": null,
-          "parent_kind": "candidate",
-          "source": "ids_parent_family_inference",
+          "parent_kind": "top_level",
+          "source": "wiktionary_semantic_validation",
           "phonetic_hint": "齊"
         },
         "resolved_node_root": null

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T07:42:10.024097+00:00",
+  "generated_at": "2026-06-19T08:09:31.710798+00:00",
   "id": "12-08",
   "schuessler": {
     "gsc_id": "12-08",
@@ -458,14 +458,21 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "刂",
+          "abbreviation": "cult",
           "position": "suffix-dot",
-          "inventory_matches": [],
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 238
+            }
+          ],
           "source": "packet_family_component_literal_fallback",
           "semantic_component": "刂"
         },
-        "transliteration_latex": "{\\large{toṅ\\textsuperscript{·刂}}},",
-        "render_latex": "𠟍\t%chong1\n{\\large{toṅ\\textsuperscript{·刂}}},\n\\textit{chiəwṅ};\t%1188a'",
+        "transliteration_latex": "{\\large{toṅ\\textsuperscript{·cult}}},",
+        "render_latex": "𠟍\t%chong1\n{\\large{toṅ\\textsuperscript{·cult}}},\n\\textit{chiəwṅ};\t%1188a'",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

@@ -255,7 +255,7 @@
 | `26-05` | 兮 | `kiy` | `kiy` | `a` | no | `ḫey, ḫeyH, ṅeyH` | all extracted forms lack an i-medial after the onset |
 | `26-05` | 替 | `kiy` | `kiy` | `a` | no | `theyH` | all extracted forms lack an i-medial after the onset |
 | `26-14` | 氐 | `tiy` | `tiy` | `mixed` | no | `tey, teyX, teyH, dey, ṭiy, ḍiy, ciyX, ciy, jiyH, jiyX, chiy` | top-level series head left unmarked |
-| `26-27` | 齊 | `tsy` | `tsy` | `mixed` | no | `dzey, tsiy, dzeyH, tsie, dzeyX, tseyH, tsey, tseyX, tṣeay, dẓeay` | top-level series head left unmarked |
+| `26-27` | 齊 | `tsy` | `tsy` | `mixed` | no | `dzey, tsiy, dzeyH, dzeyX, tseyH, tsey, tseyX, tṣeay, dẓeay` | top-level series head left unmarked |
 | `26-38` | 匕 | `piy` | `piy` | `b` | no | `pyiyH, byiyX, byinX, phyieX, phyiyX, pyiyX` | top-level series head left unmarked |
 | `26-38` | 𣬉 | `piy` | `piy` | `b` | no | `byiy` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `26-38` | 比 | `piy` | `piy` | `mixed` | no | `byiy, byiyH, pyiyH, pyiyX, bet, phey, beyX, phyieX, bey, pyiy, biyX, phyiyX, byie, pey, phyie, phyiy` | the extracted forms point to both type a and type b |

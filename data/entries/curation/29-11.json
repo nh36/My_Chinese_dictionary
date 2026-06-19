@@ -1685,26 +1685,40 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "劀",
           "ids": "⿰矞刂",
           "phonetic_component": "矞",
-          "semantic_component": "刂",
+          "semantic_component": "刀",
           "position": "suffix-dot",
-          "abbreviation": "刂",
-          "inventory_matches": []
+          "abbreviation": "cult",
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 238
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "刂",
+        "abbreviation": "cult",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "刀",
+            "label_token": "cult(er)",
+            "abbreviation": "cult",
+            "start_line": 238
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "刂"
       },
-      "transliteration_latex": "{\\large{qut\\textsuperscript{·刂}}},",
-      "render_latex": "劀\t%gua1\n{\\large{qut\\textsuperscript{·刂}}},\n\\textit{kweat};\t%0507k",
+      "transliteration_latex": "{\\large{qut\\textsuperscript{·cult}}},",
+      "render_latex": "劀\t%gua1\n{\\large{qut\\textsuperscript{·cult}}},\n\\textit{kweat};\t%0507k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

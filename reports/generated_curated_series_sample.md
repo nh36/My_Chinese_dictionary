@@ -130,7 +130,7 @@
 | `25-31` | `missing_series` | no | 13 | 12 |
 | `26-05` | `missing_series` | no | 12 | 2 |
 | `26-14` | `missing_series` | no | 18 | 16 |
-| `26-27` | `missing_series` | no | 19 | 18 |
+| `26-27` | `missing_series` | no | 19 | 17 |
 | `26-38` | `missing_series` | no | 23 | 21 |
 | `27-08` | `missing_series` | no | 22 | 21 |
 | `28-01` | `missing_series` | no | 14 | 13 |

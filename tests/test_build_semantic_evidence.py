@@ -11,6 +11,9 @@ import build_semantic_evidence  # noqa: E402
 
 
 class BuildSemanticEvidenceTests(unittest.TestCase):
+    def test_normalize_component_graph_maps_dao_side_form(self) -> None:
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("刂"), "刀")
+
     def test_parse_semantic_token(self) -> None:
         lookup = {"arb": [{"graph_raw": "木"}]}
         token = build_semantic_evidence.parse_semantic_token("arb·", lookup)

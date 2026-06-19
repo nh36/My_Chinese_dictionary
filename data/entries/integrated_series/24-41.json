@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T07:42:10.024870+00:00",
+  "generated_at": "2026-06-19T08:09:31.711558+00:00",
   "id": "24-41",
   "schuessler": {
     "gsc_id": "24-41",
@@ -1830,26 +1830,40 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "剗",
             "ids": "⿰戔刂",
             "phonetic_component": "戔",
-            "semantic_component": "刂",
+            "semantic_component": "刀",
             "position": "suffix-dot",
-            "abbreviation": "刂",
-            "inventory_matches": []
+            "abbreviation": "cult",
+            "inventory_matches": [
+              {
+                "graph_raw": "刀",
+                "label_token": "cult(er)",
+                "abbreviation": "cult",
+                "start_line": 238
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "刂",
+          "abbreviation": "cult",
           "position": "suffix-dot",
-          "inventory_matches": [],
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 238
+            }
+          ],
           "source": "ids_component_literal_fallback",
           "semantic_component": "刂"
         },
-        "transliteration_latex": "{\\large{tsan\\textsuperscript{·刂}}},",
-        "render_latex": "剗\t%chan3\n{\\large{tsan\\textsuperscript{·刂}}},\n\\textit{tṣheanX};\t%0155i",
+        "transliteration_latex": "{\\large{tsan\\textsuperscript{·cult}}},",
+        "render_latex": "剗\t%chan3\n{\\large{tsan\\textsuperscript{·cult}}},\n\\textit{tṣheanX};\t%0155i",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

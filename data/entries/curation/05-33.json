@@ -2611,14 +2611,21 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "副",
           "ids": "⿰畐刂",
           "phonetic_component": "畐",
-          "semantic_component": "刂",
+          "semantic_component": "刀",
           "position": "suffix-dot",
-          "abbreviation": "刂",
-          "inventory_matches": []
+          "abbreviation": "cult",
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 238
+            }
+          ]
         }
       ],
       "semantic_assignment": {
