@@ -3,8 +3,8 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 182
-- Items present in both sources: 182
+- Integrated items: 184
+- Items present in both sources: 184
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
@@ -48,6 +48,7 @@
 | `白` | `alb` | `alb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `高` | `alt` | `alt(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `辵` | `amb` | `amb(ulo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `黽` | `amph` | `amph(ibium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `古` | `antiqu` | `antiqu(us)` | (gǔ) - / (ancient, old) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `弓` | `arc` | `arc(us)` | (gōng) - / (bow) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `水` | `aq` | `aq(ua)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -144,7 +145,7 @@
 | `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  | no | current_main_tex, earlier_pilot |
 | `牙` | `molar` | `molar(is dens)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `鼠` | `mus` | `mus` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `鼠` | `rod` | `rod(entia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `非` | `ne` | `ne` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -162,6 +163,7 @@
 | `羊` | `ov` | `ov(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `帛` | `pann` | `pann(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `幺` | `parv` | `parv(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `亠` | `pav` | `pav(ilio)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `步` | `pass` | `pass(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `隹` | `passer` | `passer` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `足` | `ped` | `(pes,) ped(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
