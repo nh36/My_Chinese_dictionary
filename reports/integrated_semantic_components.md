@@ -3,8 +3,8 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 191
-- Items present in both sources: 191
+- Integrated items: 194
+- Items present in both sources: 194
 - Current-only items: 0
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
@@ -107,6 +107,7 @@
 | `象` | `elephant` | `elephant(us)` | (xiàng) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `馬` | `equ` | `equ(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `出` | `ex` | `ex(ire)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
+| `工` | `fabr` | `fabr(ica)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `頁` | `fac` | `fac(ies)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `女` | `fem` | `fem(ina)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `攴` | `fer` | `fer(io)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -131,6 +132,7 @@
 | `矛` | `iacul` | `iacul(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `疒` | `infirm` | `infirm(itas)` | (recovered from entry usage) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `己` | `ipse` | `ipse` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `兮` | `io` | `io` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `誩` | `iurg` | `iurg(ium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -154,6 +156,7 @@
 | `鼠` | `rod` | `rod(entia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `隶` | `nex` | `nex(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `非` | `ne` | `ne` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `舟` | `nav` | `nav(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黑` | `niger` | `niger` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T08:59:49.116235+00:00",
+  "generated_at": "2026-06-19T09:30:51.854996+00:00",
   "id": "05-16",
   "schuessler": {
     "gsc_id": "05-16",
@@ -633,7 +633,7 @@
                 "graph_raw": "女",
                 "label_token": "fem(ina)",
                 "abbreviation": "fem",
-                "start_line": 264
+                "start_line": 265
               },
               {
                 "graph_raw": "女",
@@ -654,7 +654,7 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 264
+              "start_line": 265
             },
             {
               "graph_raw": "女",
@@ -922,37 +922,58 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "式",
             "ids": "⿹弋工",
             "phonetic_component": "弋",
             "semantic_component": "工",
             "position": "suffix-dot",
-            "abbreviation": "工",
-            "inventory_matches": []
+            "abbreviation": "fabr",
+            "inventory_matches": [
+              {
+                "graph_raw": "工",
+                "label_token": "fabr(ica)",
+                "abbreviation": "fabr",
+                "start_line": 263
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "工",
+          "abbreviation": "fabr",
           "position": "suffix-dot",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "inventory_matches": [
+            {
+              "graph_raw": "工",
+              "label_token": "fabr(ica)",
+              "abbreviation": "fabr",
+              "start_line": 263
+            }
+          ],
+          "source": "wiktionary_han_compound",
           "semantic_component": "工"
         },
-        "transliteration_latex": "{\\large{lyk\\textsuperscript{·工}}},",
-        "render_latex": "式\t%shi4 / shì\n{\\large{lyk\\textsuperscript{·工}}},\n\\textit{śik};\t%0918f",
+        "transliteration_latex": "{\\large{lyk\\textsuperscript{·fabr}}},",
+        "render_latex": "式\t%shi4 / shì\n{\\large{lyk\\textsuperscript{·fabr}}},\n\\textit{śik};\t%0918f",
         "wiktionary_semantic_validation": {
           "semantic_component": "工",
           "phonetic_component": "弋",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "式",
             "semantic_component": "工",
             "phonetic_component": "弋",
             "position": "suffix-dot",
-            "abbreviation": "工",
-            "inventory_matches": [],
+            "abbreviation": "fabr",
+            "inventory_matches": [
+              {
+                "graph_raw": "工",
+                "label_token": "fabr(ica)",
+                "abbreviation": "fabr",
+                "start_line": 263
+              }
+            ],
             "template_raw": "{{Han compound|弋|工|c1=p|c2=s|t2=work|ls=psc}}"
           }
         },
@@ -1470,7 +1491,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 283
+                "start_line": 284
               },
               {
                 "graph_raw": "人",
@@ -1491,7 +1512,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 283
+              "start_line": 284
             },
             {
               "graph_raw": "人",
@@ -1521,7 +1542,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 283
+                "start_line": 284
               },
               {
                 "graph_raw": "人",
@@ -1717,7 +1738,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 301
+                "start_line": 303
               },
               {
                 "graph_raw": "手",
@@ -1738,7 +1759,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 301
+              "start_line": 303
             },
             {
               "graph_raw": "手",
@@ -1768,7 +1789,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 301
+                "start_line": 303
               },
               {
                 "graph_raw": "手",
@@ -1901,7 +1922,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 395
+                "start_line": 398
               },
               {
                 "graph_raw": "車",
@@ -1922,7 +1943,7 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 395
+              "start_line": 398
             },
             {
               "graph_raw": "車",
@@ -1952,7 +1973,7 @@
                 "graph_raw": "車",
                 "label_token": "vehic(ulum)",
                 "abbreviation": "vehic",
-                "start_line": 395
+                "start_line": 398
               },
               {
                 "graph_raw": "車",
@@ -2047,7 +2068,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 283
+                "start_line": 284
               },
               {
                 "graph_raw": "人",
@@ -2068,7 +2089,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 283
+              "start_line": 284
             },
             {
               "graph_raw": "人",
@@ -2789,7 +2810,7 @@
                 "graph_raw": "山",
                 "label_token": "mon(s)",
                 "abbreviation": "mon",
-                "start_line": 307
+                "start_line": 309
               },
               {
                 "graph_raw": "山",
@@ -2810,7 +2831,7 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 307
+              "start_line": 309
             },
             {
               "graph_raw": "山",
@@ -2840,7 +2861,7 @@
                 "graph_raw": "山",
                 "label_token": "mon(s)",
                 "abbreviation": "mon",
-                "start_line": 307
+                "start_line": 309
               },
               {
                 "graph_raw": "山",
@@ -2973,7 +2994,7 @@
                 "graph_raw": "黑",
                 "label_token": "niger",
                 "abbreviation": "niger",
-                "start_line": 313
+                "start_line": 316
               }
             ]
           }
@@ -2987,7 +3008,7 @@
               "graph_raw": "黑",
               "label_token": "niger",
               "abbreviation": "niger",
-              "start_line": 313
+              "start_line": 316
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3010,7 +3031,7 @@
                 "graph_raw": "黑",
                 "label_token": "niger",
                 "abbreviation": "niger",
-                "start_line": 313
+                "start_line": 316
               }
             ],
             "template_raw": "{{Han compound|代|黑|ls=psc|c1=p|c2=s|t2=black}}"
@@ -3081,7 +3102,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 355
+              "start_line": 358
             },
             {
               "graph_raw": "虫",
@@ -3220,7 +3241,7 @@
                 "graph_raw": "衣",
                 "label_token": "vest(imentum)",
                 "abbreviation": "vest",
-                "start_line": 399
+                "start_line": 402
               },
               {
                 "graph_raw": "衣",
@@ -3241,7 +3262,7 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 399
+              "start_line": 402
             },
             {
               "graph_raw": "衣",
@@ -3271,7 +3292,7 @@
                 "graph_raw": "衣",
                 "label_token": "vest(imentum)",
                 "abbreviation": "vest",
-                "start_line": 399
+                "start_line": 402
               },
               {
                 "graph_raw": "衣",

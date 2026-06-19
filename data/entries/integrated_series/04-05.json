@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T08:59:49.116205+00:00",
+  "generated_at": "2026-06-19T09:30:51.854969+00:00",
   "id": "04-05",
   "schuessler": {
     "gsc_id": "04-05",
@@ -461,7 +461,7 @@
                 "graph_raw": "女",
                 "label_token": "fem(ina)",
                 "abbreviation": "fem",
-                "start_line": 264
+                "start_line": 265
               },
               {
                 "graph_raw": "女",
@@ -482,7 +482,7 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 264
+              "start_line": 265
             },
             {
               "graph_raw": "女",
@@ -647,7 +647,7 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 354
+              "start_line": 357
             },
             {
               "graph_raw": "糸",
@@ -677,7 +677,7 @@
                 "graph_raw": "糸",
                 "label_token": "ser(icum)",
                 "abbreviation": "ser",
-                "start_line": 354
+                "start_line": 357
               },
               {
                 "graph_raw": "糸",
@@ -1019,7 +1019,7 @@
                 "graph_raw": "山",
                 "label_token": "mon(s)",
                 "abbreviation": "mon",
-                "start_line": 307
+                "start_line": 309
               },
               {
                 "graph_raw": "山",
@@ -1040,7 +1040,7 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 307
+              "start_line": 309
             },
             {
               "graph_raw": "山",
@@ -1070,7 +1070,7 @@
                 "graph_raw": "山",
                 "label_token": "mon(s)",
                 "abbreviation": "mon",
-                "start_line": 307
+                "start_line": 309
               },
               {
                 "graph_raw": "山",
@@ -1284,7 +1284,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 282
+                "start_line": 283
               },
               {
                 "graph_raw": "艸",
@@ -1305,7 +1305,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 282
+              "start_line": 283
             },
             {
               "graph_raw": "艸",
@@ -2068,26 +2068,40 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "㠱",
             "ids": "⿱己其",
             "phonetic_component": "其",
             "semantic_component": "己",
             "position": "prefix-colon",
-            "abbreviation": "己",
-            "inventory_matches": []
+            "abbreviation": "ipse",
+            "inventory_matches": [
+              {
+                "graph_raw": "己",
+                "label_token": "ipse",
+                "abbreviation": "ipse",
+                "start_line": 289
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "己",
+          "abbreviation": "ipse",
           "position": "prefix-colon",
-          "inventory_matches": [],
+          "inventory_matches": [
+            {
+              "graph_raw": "己",
+              "label_token": "ipse",
+              "abbreviation": "ipse",
+              "start_line": 289
+            }
+          ],
           "source": "ids_component_literal_fallback",
           "semantic_component": "己"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{己˸}ky₅}},",
-        "render_latex": "㠱\t%ji4\n{\\large{\\textsuperscript{己˸}ky₅}},\n\\textit{giX};\t%0953y",
+        "transliteration_latex": "{\\large{\\textsuperscript{ipse˸}ky₅}},",
+        "render_latex": "㠱\t%ji4\n{\\large{\\textsuperscript{ipse˸}ky₅}},\n\\textit{giX};\t%0953y",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
