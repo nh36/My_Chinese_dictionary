@@ -10,6 +10,7 @@
 - Additions assigned to inherited hierarchy nodes: 3
 - Additions assigned under generated candidate nodes: 2340
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 65
+- Additions whose non-Latin generated semantic markers were suppressed pending Latin labels: 81
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -178,3 +179,89 @@
 | `38-05` | 14 | 14 | 14 | 14 |
 | `38-11` | 15 | 15 | 15 | 15 |
 | `38-14` | 13 | 13 | 13 | 13 |
+
+## Suppressed non-Latin generated semantic markers
+
+| GSC | Character | Original marker | Component graph | Original source |
+| --- | --- | --- | --- | --- |
+| `02-17` | 磔 | `桀` | `桀` | `ids_component_literal_fallback` |
+| `02-17` | 橐 | `𣒚` | `𣒚` | `wiktionary_component_literal_fallback` |
+| `02-17` | 蠹 | `䖵` | `䖵` | `wiktionary_component_literal_fallback` |
+| `02-25` | 釋 | `釆` | `釆` | `wiktionary_component_literal_fallback` |
+| `02-25` | 殬 | `歺` | `歺` | `wiktionary_component_literal_fallback` |
+| `03-24` | 皇 | `𤼽` | `𤼽` | `wiktionary_component_literal_fallback` |
+| `03-24` | 凰 | `几` | `几` | `ids_component_literal_fallback` |
+| `03-32` | 尚 | `八` | `八` | `wiktionary_component_literal_fallback` |
+| `03-39` | 羕 | `永` | `永` | `wiktionary_component_literal_fallback` |
+| `03-42` | 囊 | `㯻` | `㯻` | `wiktionary_component_literal_fallback` |
+| `03-48` | 牄 | `爿` | `爿` | `ids_component_literal_fallback` |
+| `03-49` | 臧 | `臣` | `臣` | `wiktionary_component_literal_fallback` |
+| `03-49` | 牆 | `嗇` | `嗇` | `wiktionary_component_literal_fallback` |
+| `03-49` | 壯 | `士` | `士` | `wiktionary_component_literal_fallback` |
+| `03-57` | 旁 | `同` | `同` | `wiktionary_component_literal_fallback` |
+| `03-65` | 蝱 | `䖵` | `䖵` | `ids_component_literal_fallback` |
+| `04-12` | 厹 | `厶` | `厶` | `packet_family_component_literal_fallback` |
+| `04-12` | 虓 | `虎` | `虎` | `wiktionary_component_literal_fallback` |
+| `04-17` | 友 | `𠂇` | `𠂇` | `ids_component_literal_fallback` |
+| `04-26` | 齒 | `𠚕` | `𠚕` | `ids_component_literal_fallback` |
+| `04-29` | 齒 | `𠚕` | `𠚕` | `ids_component_literal_fallback` |
+| `04-45` | 戴 | `異` | `異` | `packet_family_component_literal_fallback` |
+| `04-61` | 丕 | `一` | `一` | `wiktionary_component_literal_fallback` |
+| `04-61` | 㕻 | `丶` | `丶` | `packet_family_component_literal_fallback` |
+| `04-61` | 咅 | `丶` | `丶` | `wiktionary_component_literal_fallback` |
+| `05-16` | 弒 | `殺` | `殺` | `wiktionary_component_literal_fallback` |
+| `05-33` | 𠠦 | `副` | `副` | `parent_ids_component_literal_fallback` |
+| `07-03` | 𢺵 | `匕` | `匕` | `ids_component_literal_fallback` |
+| `07-12` | 帝 | `丄` | `丄` | `wiktionary_component_literal_fallback` |
+| `07-29` | 蠯 | `䖵` | `䖵` | `packet_family_component_literal_fallback` |
+| `08-14` | 賾 | `𦣞` | `𦣞` | `packet_family_component_literal_fallback` |
+| `09-09` | 營 | `宮` | `宮` | `wiktionary_component_literal_fallback` |
+| `09-09` | 煢 | `卂` | `卂` | `ids_component_literal_fallback` |
+| `09-25` | 靜 | `爭` | `爭` | `packet_family_component_literal_fallback` |
+| `10-35` | 聚 | `乑` | `乑` | `wiktionary_component_literal_fallback` |
+| `12-03` | 龔 | `共` | `共` | `ids_component_literal_fallback` |
+| `12-10` | 甬 | `龴` | `龴` | `ids_component_literal_fallback` |
+| `12-10` | 庸 | `庚` | `庚` | `wiktionary_component_literal_fallback` |
+| `12-25` | 夆 | `夂` | `夂` | `wiktionary_component_literal_fallback` |
+| `12-25` | 𧒒 | `䖵` | `䖵` | `packet_family_component_literal_fallback` |
+| `13-22` | 𠼡 | `叹` | `叹` | `packet_family_component_literal_fallback` |
+| `13-30` | 冑 | `帽` | `帽` | `wiktionary_component_literal_fallback` |
+| `13-36` | 酋 | `丷` | `丷` | `ids_component_literal_fallback` |
+| `13-72` | 匏 | `夸` | `夸` | `ids_component_literal_fallback` |
+| `13-76` | 蟊 | `䖵` | `䖵` | `ids_component_literal_fallback` |
+| `16-01` | 薧 | `死` | `死` | `wiktionary_component_literal_fallback` |
+| `16-03` | 屩 | `履` | `履` | `wiktionary_component_literal_fallback` |
+| `16-14` | 堯 | `兀` | `兀` | `wiktionary_component_literal_fallback` |
+| `16-15` | 㲈 | `殸` | `殸` | `packet_family_component_literal_fallback` |
+| `16-21` | 繇 | `系` | `系` | `wiktionary_component_literal_fallback` |
+| `16-33` | 少 | `丿` | `丿` | `ids_component_literal_fallback` |
+| `17-07` | 糴 | `入` | `入` | `wiktionary_component_literal_fallback` |
+| `19-02` | 臝 | `吂` | `吂` | `packet_family_component_literal_fallback` |
+| `21-01` | 曷 | `曰` | `曰` | `wiktionary_component_literal_fallback` |
+| `21-31` | 瞂 | `盾` | `盾` | `ids_component_literal_fallback` |
+| `22-13` | 兌 | `儿` | `儿` | `wiktionary_component_literal_fallback` |
+| `24-01` | 姧 | `㚣` | `㚣` | `packet_family_component_literal_fallback` |
+| `24-01` | 岸 | `屵` | `屵` | `wiktionary_component_literal_fallback` |
+| `24-23` | 亶 | `㐭` | `㐭` | `wiktionary_component_literal_fallback` |
+| `24-47` | 叛 | `反` | `反` | `wiktionary_component_literal_fallback` |
+| `25-19` | 翫 | `習` | `習` | `ids_component_literal_fallback` |
+| `26-05` | 暜 | `竝` | `竝` | `parent_ids_component_literal_fallback` |
+| `26-27` | 齏 | `韭` | `韭` | `wiktionary_component_literal_fallback` |
+| `27-08` | 斐 | `文` | `文` | `ids_component_literal_fallback` |
+| `28-01` | 魏 | `委` | `委` | `ids_component_literal_fallback` |
+| `28-05` | 韙 | `是` | `是` | `ids_component_literal_fallback` |
+| `28-05` | 韡 | `華` | `華` | `ids_component_literal_fallback` |
+| `29-41` | 毖 | `比` | `比` | `ids_component_literal_fallback` |
+| `30-14` | 艴 | `色` | `色` | `ids_component_literal_fallback` |
+| `31-02` | 靧 | `面` | `面` | `wiktionary_component_literal_fallback` |
+| `32-08` | 畇 | `勻` | `勻` | `ids_component_literal_fallback` |
+| `33-05` | 艱 | `𦰩` | `𦰩` | `wiktionary_component_literal_fallback` |
+| `33-05` | 囏 | `喜` | `喜` | `parent_ids_component_literal_fallback` |
+| `33-13` | 䢅 | `臼` | `臼` | `ids_component_literal_fallback` |
+| `33-30` | 氛 | `气` | `气` | `wiktionary_component_literal_fallback` |
+| `33-30` | 肦 | `⺼` | `⺼` | `packet_family_component_literal_fallback` |
+| `34-23` | 㕙 | `兔` | `兔` | `packet_family_component_literal_fallback` |
+| `36-14` | 燄 | `炎` | `炎` | `wiktionary_component_literal_fallback` |
+| `36-14` | 燅 | `坴` | `坴` | `wiktionary_component_literal_fallback` |
+| `38-03` | 𩃬 | `雲` | `雲` | `wiktionary_component_literal_fallback` |
+| `38-03` | 侌 | `云` | `云` | `packet_family_component_literal_fallback` |

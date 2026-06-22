@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.453204+00:00",
+  "generated_at": "2026-06-22T09:15:11.122180+00:00",
   "id": "33-30",
   "schuessler": {
     "gsc_id": "33-30",
@@ -2823,14 +2823,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "气",
-          "position": "prefix-dot",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "气"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{气·}pyn}},",
-        "render_latex": "氛\t%fen1\n{\\large{\\textsuperscript{气·}pyn}},\n\\textit{biun};\t%0471n",
+        "transliteration_latex": "{\\large{pyn}},",
+        "render_latex": "氛\t%fen1\n{\\large{pyn}},\n\\textit{biun};\t%0471n",
         "wiktionary_semantic_validation": {
           "semantic_component": "气",
           "phonetic_component": "分",
@@ -2854,7 +2854,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "分"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "气",
+          "original_position": "prefix-dot",
+          "original_source": "wiktionary_component_literal_fallback",
+          "semantic_component": "气"
+        }
       },
       {
         "character": "秎",
@@ -4263,14 +4270,14 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "⺼",
-          "position": "prefix-dot",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "packet_family_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "⺼"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{⺼·}pyn}},",
-        "render_latex": "肦\t%fen2 / ban1\n{\\large{\\textsuperscript{⺼·}pyn}},\n\\textit{biun};\t%0471y\n\\textit{paen};",
+        "transliteration_latex": "{\\large{pyn}},",
+        "render_latex": "肦\t%fen2 / ban1\n{\\large{pyn}},\n\\textit{biun};\t%0471y\n\\textit{paen};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -4281,7 +4288,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "分"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "⺼",
+          "original_position": "prefix-dot",
+          "original_source": "packet_family_component_literal_fallback",
+          "semantic_component": "⺼"
+        }
       }
     ],
     "all_candidates": [
@@ -6437,5 +6451,94 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "分",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "氛",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `气` for component `气` from `wiktionary_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "朌",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: paen.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-30",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "肦",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `⺼` for component `⺼` from `packet_family_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 6,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 1,
+      "curation_semantic_review": 2,
+      "curation_mc_investigation": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 1,
+      "semantic_unresolved": 2,
+      "mc_conflict": 1
+    },
+    "by_visibility": {
+      "internal": 6
+    },
+    "by_recommended_rendering": {
+      "internal_only": 6
+    }
+  },
   "render_mode": "generated_missing_series"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.452389+00:00",
+  "generated_at": "2026-06-22T09:15:11.119159+00:00",
   "id": "13-32",
   "schuessler": {
     "gsc_id": "13-32",
@@ -4877,5 +4877,104 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "攸",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "悠",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "脩",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "條",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "翛",
+      "line_number": null,
+      "text": "Chinese sources support 羽 semantic + 攸 phonetic.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
+    }
+  ],
+  "note_summary": {
+    "total": 7,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 4,
+      "curation_research_note": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 4,
+      "semantic_analysis": 1
+    },
+    "by_visibility": {
+      "internal": 7
+    },
+    "by_recommended_rendering": {
+      "internal_only": 6,
+      "series_end_note": 1
+    }
+  },
   "render_mode": "generated_missing_series"
 }

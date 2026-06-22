@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.453158+00:00",
+  "generated_at": "2026-06-22T09:15:11.121738+00:00",
   "id": "28-05",
   "schuessler": {
     "gsc_id": "28-05",
@@ -2427,14 +2427,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "是",
-          "position": "prefix-dot",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "ids_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "是"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{是·}quy₄}},",
-        "render_latex": "韙\t%wei3\n{\\large{\\textsuperscript{是·}quy₄}},\n\\textit{hiwɨyX};\t%0571p",
+        "transliteration_latex": "{\\large{quy₄}},",
+        "render_latex": "韙\t%wei3\n{\\large{quy₄}},\n\\textit{hiwɨyX};\t%0571p",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2445,7 +2445,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "韋"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "是",
+          "original_position": "prefix-dot",
+          "original_source": "ids_component_literal_fallback",
+          "semantic_component": "是"
+        }
       },
       {
         "character": "韡",
@@ -2518,14 +2525,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "華",
-          "position": "suffix-dot",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "ids_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "華"
         },
-        "transliteration_latex": "{\\large{quy₄\\textsuperscript{·華}}},",
-        "render_latex": "韡\t%wei3\n{\\large{quy₄\\textsuperscript{·華}}},\n\\textit{hiwɨyX};\t%0571q",
+        "transliteration_latex": "{\\large{quy₄}},",
+        "render_latex": "韡\t%wei3\n{\\large{quy₄}},\n\\textit{hiwɨyX};\t%0571q",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2536,7 +2543,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "韋"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "華",
+          "original_position": "suffix-dot",
+          "original_source": "ids_component_literal_fallback",
+          "semantic_component": "華"
+        }
       },
       {
         "character": "褘",
@@ -4907,5 +4921,127 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "韋",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hjw+j.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "韋",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "違",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hjw+j.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "圍",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hjw+j.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "韙",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `是` for component `是` from `ids_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "韡",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `華` for component `華` from `ids_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-05",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "衛",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 9,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_mc_investigation": 3,
+      "curation_division_note": 2,
+      "curation_semantic_review": 2
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "mc_conflict": 3,
+      "structural_internal": 2,
+      "semantic_unresolved": 2
+    },
+    "by_visibility": {
+      "internal": 9
+    },
+    "by_recommended_rendering": {
+      "internal_only": 9
+    }
+  },
   "render_mode": "generated_missing_series"
 }

@@ -1637,14 +1637,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "夸",
-        "position": "prefix-dot",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "夸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{夸·}pu}},",
-      "render_latex": "匏\t%pao2 / páo\n{\\large{\\textsuperscript{夸·}pu}},\n\\textit{baew};\t%1113f",
+      "transliteration_latex": "{\\large{pu}},",
+      "render_latex": "匏\t%pao2 / páo\n{\\large{pu}},\n\\textit{baew};\t%1113f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1655,7 +1655,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "包"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "夸",
+        "original_position": "prefix-dot",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "夸"
+      }
     },
     {
       "character": "炮",

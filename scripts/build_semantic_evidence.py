@@ -27,6 +27,7 @@ ITEM_RE = re.compile(r"^\\item\b")
 PARAGRAPH_RE = re.compile(r"^\\paragraph\b")
 TEXTSUP_RE = re.compile(r"\\textsuperscript\{([^}]*)\}")
 TEXTSUP_CONTENT_RE = re.compile(r"(\\textsuperscript\{)([^}]*)(\})")
+LATIN_ABBREVIATION_RE = re.compile(r"^[A-Za-z]+$")
 BINARY_IDS = {"⿰", "⿱", "⿴", "⿵", "⿶", "⿷", "⿸", "⿹", "⿺", "⿻"}
 TRINARY_IDS = {"⿲", "⿳"}
 IDS_NOTE_RE = re.compile(r"\[[^]]*\]")
@@ -1069,6 +1070,51 @@ def canonicalize_semantic_assignment_from_inventory(
     return True
 
 
+def semantic_abbreviation_is_latin(abbreviation: str | None) -> bool:
+    return bool(abbreviation) and bool(LATIN_ABBREVIATION_RE.fullmatch(abbreviation))
+
+
+def suppress_nonlatin_generated_semantic_assignment(
+    entry: dict[str, Any],
+    candidate: dict[str, Any],
+) -> bool:
+    semantic_assignment = candidate.get("semantic_assignment") or {}
+    abbreviation = semantic_assignment.get("abbreviation")
+    if abbreviation is None or semantic_abbreviation_is_latin(abbreviation):
+        return False
+
+    normalized_component = normalize_component_graph(semantic_assignment.get("semantic_component"))
+    candidate["semantic_assignment_review"] = {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": abbreviation,
+        "original_position": semantic_assignment.get("position"),
+        "original_source": semantic_assignment.get("source"),
+        "semantic_component": normalized_component,
+    }
+    candidate["semantic_assignment"] = {
+        "token": None,
+        "abbreviation": None,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "nonlatin_generated_semantic_suppressed",
+        "semantic_component": normalized_component,
+    }
+    candidate["transliteration_latex"] = None
+    candidate["render_latex"] = None
+
+    root: str | None = None
+    if entry.get("tex_entry") is not None:
+        root = extract_series_root_latex(entry["tex_entry"]["raw_block"])
+    elif entry.get("packet_kind") == "missing_series":
+        resolved_root = entry.get("resolved_series_root") or {}
+        root = resolved_root.get("display_root") or resolved_root.get("root")
+
+    if root:
+        candidate["transliteration_latex"] = derive_transliteration_from_resolved_root(root, candidate)
+        candidate["render_latex"] = synthesize_render_latex(candidate)
+    return True
+
+
 def unique_non_null(values: list[Any]) -> list[Any]:
     result: list[Any] = []
     seen: set[str] = set()
@@ -1779,6 +1825,7 @@ def enrich_curated_entry_with_ids(
             series_head = maybe_mark_series_head(entry, candidate)
             if series_head is not None:
                 candidate["semantic_assignment"] = series_head
+        suppress_nonlatin_generated_semantic_assignment(entry, candidate)
         if entry.get("packet_kind") == "missing_series":
             candidate["transliteration_latex"] = derive_missing_series_transliteration(entry, candidate)
             candidate["render_latex"] = synthesize_render_latex(candidate)
@@ -1965,6 +2012,17 @@ def render_report(entries: list[dict[str, Any]]) -> str:
     render_ready = sum(
         1 for entry in entries for candidate in entry.get("proposed_additions", []) if candidate.get("render_latex")
     )
+    suppressed_nonlatin = [
+        {
+            "entry_id": entry["id"],
+            "character": candidate["character"],
+            "review": candidate.get("semantic_assignment_review") or {},
+        }
+        for entry in entries
+        for candidate in entry.get("proposed_additions", [])
+        if (candidate.get("semantic_assignment_review") or {}).get("status")
+        == "nonlatin_generated_semantic_suppressed"
+    ]
 
     lines = [
         "# Semantic evidence reuse",
@@ -1979,6 +2037,7 @@ def render_report(entries: list[dict[str, Any]]) -> str:
         f"- Additions assigned to inherited hierarchy nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-inherited-node')}",
         f"- Additions assigned under generated candidate nodes: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('hierarchy_assignment') or {}).get('status') == 'assigned-to-candidate-node')}",
         f"- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: {sum(1 for entry in entries for c in entry.get('proposed_additions', []) if (c.get('mc_resolution') or {}).get('needs_investigation'))}",
+        f"- Additions whose non-Latin generated semantic markers were suppressed pending Latin labels: {len(suppressed_nonlatin)}",
         "",
         "| GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |",
         "| --- | ---: | ---: | ---: | ---: |",
@@ -1992,6 +2051,25 @@ def render_report(entries: list[dict[str, Any]]) -> str:
             f"{sum(1 for c in candidates if c.get('transliteration_latex'))} | "
             f"{sum(1 for c in candidates if c.get('render_latex'))} |"
         )
+
+    if suppressed_nonlatin:
+        lines.extend(
+            [
+                "",
+                "## Suppressed non-Latin generated semantic markers",
+                "",
+                "| GSC | Character | Original marker | Component graph | Original source |",
+                "| --- | --- | --- | --- | --- |",
+            ]
+        )
+        for row in suppressed_nonlatin:
+            review = row["review"]
+            lines.append(
+                f"| `{row['entry_id']}` | {row['character']} | "
+                f"`{review.get('original_abbreviation') or ''}` | "
+                f"`{review.get('semantic_component') or ''}` | "
+                f"`{review.get('original_source') or ''}` |"
+            )
 
     return "\n".join(lines) + "\n"
 

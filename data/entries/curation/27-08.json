@@ -1881,14 +1881,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "文",
-        "position": "suffix-colon",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "文"
       },
-      "transliteration_latex": "{\\large{py₅\\textsuperscript{˸文}}},",
-      "render_latex": "斐\t%fei3\n{\\large{py₅\\textsuperscript{˸文}}},\n\\textit{phiɨyX};\t%0579i",
+      "transliteration_latex": "{\\large{py₅}},",
+      "render_latex": "斐\t%fei3\n{\\large{py₅}},\n\\textit{phiɨyX};\t%0579i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1899,7 +1899,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "非"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "文",
+        "original_position": "suffix-colon",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "文"
+      }
     },
     {
       "character": "霏",

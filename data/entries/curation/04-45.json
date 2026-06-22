@@ -1308,14 +1308,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "異",
-        "position": "suffix-dot",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "packet_family_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "異"
       },
-      "transliteration_latex": "{\\large{tsy₂\\textsuperscript{·異}}},",
-      "render_latex": "戴\t%dai4 / dài\n{\\large{tsy₂\\textsuperscript{·異}}},\n\\textit{təyH};\t%0943e'",
+      "transliteration_latex": "{\\large{tsy₂}},",
+      "render_latex": "戴\t%dai4 / dài\n{\\large{tsy₂}},\n\\textit{təyH};\t%0943e'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1326,7 +1326,14 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "𢦏"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "異",
+        "original_position": "suffix-dot",
+        "original_source": "packet_family_component_literal_fallback",
+        "semantic_component": "異"
+      }
     },
     {
       "character": "材",

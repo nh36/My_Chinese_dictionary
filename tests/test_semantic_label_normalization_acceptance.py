@@ -131,6 +131,18 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         for abbreviation, hits in usage.items():
             self.assertTrue(hits, msg=f"{abbreviation} is listed in the inventory but unused in curation data")
 
+    def test_generated_curation_semantics_use_latin_labels_or_none(self) -> None:
+        offenders = []
+        for path in (ROOT / "data/entries/curation").glob("*.json"):
+            entry = json.loads(path.read_text(encoding="utf-8"))
+            for candidate in entry.get("proposed_additions", []):
+                abbreviation = (candidate.get("semantic_assignment") or {}).get("abbreviation")
+                if abbreviation is None:
+                    continue
+                if not abbreviation.isascii() or not abbreviation.isalpha():
+                    offenders.append((entry["id"], candidate["character"], abbreviation))
+        self.assertEqual(offenders, [])
+
     def test_audit_output_confirms_bos_review_and_no_live_blocked_or_placeholder_usage(self) -> None:
         audit = json.loads(
             (ROOT / "data/semantic_components/semantic_label_normalization_audit.json").read_text(encoding="utf-8")

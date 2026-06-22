@@ -2436,14 +2436,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "䖵",
-        "position": "suffix-colon",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "䖵"
       },
-      "transliteration_latex": "{\\large{mu₅\\textsuperscript{˸䖵}}},",
-      "render_latex": "蟊\t%mao2\n{\\large{mu₅\\textsuperscript{˸䖵}}},\n\\textit{miuw};\t%1109n",
+      "transliteration_latex": "{\\large{mu₅}},",
+      "render_latex": "蟊\t%mao2\n{\\large{mu₅}},\n\\textit{miuw};\t%1109n",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2454,7 +2454,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "矛"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "䖵",
+        "original_position": "suffix-colon",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "䖵"
+      }
     },
     {
       "character": "鍪",

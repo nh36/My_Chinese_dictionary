@@ -1820,14 +1820,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "吂",
-        "position": "prefix-colon",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "packet_family_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "吂"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{吂˸}kor}},",
-      "render_latex": "臝\t%luo3 / luǒ\n{\\large{\\textsuperscript{吂˸}kor}},\n\\textit{lwaX};\t%0351i",
+      "transliteration_latex": "{\\large{kor}},",
+      "render_latex": "臝\t%luo3 / luǒ\n{\\large{kor}},\n\\textit{lwaX};\t%0351i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1838,7 +1838,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "果"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "吂",
+        "original_position": "prefix-colon",
+        "original_source": "packet_family_component_literal_fallback",
+        "semantic_component": "吂"
+      }
     },
     {
       "character": "踝",

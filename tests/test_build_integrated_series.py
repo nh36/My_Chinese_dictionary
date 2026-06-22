@@ -28,6 +28,8 @@ class BuildIntegratedSeriesTests(unittest.TestCase):
         )
         self.assertEqual(record["render_mode"], "generated_missing_series")
         self.assertIn("generated_candidate", record["status_flags"])
+        self.assertIn("normalized_notes", record)
+        self.assertIn("note_summary", record)
 
 
 if __name__ == "__main__":

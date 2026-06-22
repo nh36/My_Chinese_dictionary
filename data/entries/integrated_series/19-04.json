@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.452904+00:00",
+  "generated_at": "2026-06-22T09:15:11.120692+00:00",
   "id": "19-04",
   "schuessler": {
     "gsc_id": "19-04",
@@ -1781,5 +1781,68 @@
     "generated_with_hand_baseline"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "19-04",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "19-04",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "19-04",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "腡",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: lwa.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "19-04",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "冎",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: kwaeX.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 4,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_mc_investigation": 2
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "mc_conflict": 2
+    },
+    "by_visibility": {
+      "internal": 4
+    },
+    "by_recommended_rendering": {
+      "internal_only": 4
+    }
+  },
   "render_mode": "hand_with_generated_additions"
 }

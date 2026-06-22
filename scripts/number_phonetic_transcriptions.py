@@ -12,6 +12,7 @@ import render_curated_series
 
 
 DEFAULT_CURATION_DIR = "data/entries/curation"
+DEFAULT_INTEGRATED_SERIES_DIR = "data/entries/integrated_series"
 DEFAULT_REPORT_OUT = "reports/transcription_numbering.md"
 DEFAULT_AB_REPORT_OUT = "reports/ab_subseries_classification.md"
 
@@ -202,14 +203,79 @@ def iter_document_root_occurrences(entries: list[dict[str, Any]]) -> list[dict[s
     return occurrences
 
 
-def apply_numbering(entries: list[dict[str, Any]]) -> dict[str, Any]:
+def load_integrated_records(series_dir: Path) -> list[dict[str, Any]]:
+    if not series_dir.exists():
+        return []
+    return [
+        json.loads(path.read_text(encoding="utf-8"))
+        for path in sorted(series_dir.glob("*.json"), key=lambda path: render_curated_series.entry_sort_key({"id": path.stem}))
+    ]
+
+
+def iter_integrated_document_root_occurrences(
+    entries: list[dict[str, Any]],
+    integrated_records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    entry_by_id = {entry["id"]: entry for entry in entries if entry.get("id")}
+    ordered_records = sorted(integrated_records, key=render_curated_series.entry_sort_key)
+    occurrences: list[dict[str, Any]] = []
+
+    for record in ordered_records:
+        entry_id = record.get("id")
+        current_entry = entry_by_id.get(entry_id) if entry_id else None
+        render_mode = record.get("render_mode")
+        preferred_hand_entry = record.get("preferred_hand_entry")
+
+        if preferred_hand_entry is not None:
+            pseudo_hand_entry = {"id": entry_id, "tex_entry": preferred_hand_entry}
+        else:
+            pseudo_hand_entry = None
+
+        if render_mode == "generated_missing_series":
+            if current_entry is None:
+                continue
+            root_occurrence = mutable_series_root_occurrence(current_entry)
+            if root_occurrence is not None:
+                occurrences.append(root_occurrence)
+            occurrences.extend(mutable_subseries_root_occurrences(current_entry))
+            continue
+
+        if render_mode == "hand_with_generated_additions":
+            if pseudo_hand_entry is not None:
+                occurrences.extend(baseline_root_occurrences(pseudo_hand_entry))
+            if current_entry is not None:
+                occurrences.extend(mutable_subseries_root_occurrences(current_entry))
+            continue
+
+        if render_mode == "hand_only":
+            if pseudo_hand_entry is not None:
+                occurrences.extend(baseline_root_occurrences(pseudo_hand_entry))
+            continue
+
+        if current_entry is not None:
+            occurrences.extend(iter_document_root_occurrences([current_entry]))
+
+    return occurrences
+
+
+def apply_numbering(
+    entries: list[dict[str, Any]],
+    integrated_records: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
     counters: dict[str, int] = {}
     mutable_count = 0
     renumbered_count = 0
     duplicates: dict[str, int] = {}
     report_rows: list[dict[str, Any]] = []
+    order_source = "curation_order"
 
-    for occurrence in iter_document_root_occurrences(entries):
+    if integrated_records:
+        occurrences = iter_integrated_document_root_occurrences(entries, integrated_records)
+        order_source = "integrated_render_order"
+    else:
+        occurrences = iter_document_root_occurrences(entries)
+
+    for occurrence in occurrences:
         base_root, existing_ordinal = split_root_ordinal(occurrence["current_root"])
         if not base_root:
             continue
@@ -257,6 +323,7 @@ def apply_numbering(entries: list[dict[str, Any]]) -> dict[str, Any]:
 
     duplicate_roots = {root: count for root, count in duplicates.items() if count > 1}
     return {
+        "order_source": order_source,
         "mutable_root_count": mutable_count,
         "renumbered_root_count": renumbered_count,
         "duplicate_root_count": len(duplicate_roots),
@@ -269,6 +336,7 @@ def render_report(summary: dict[str, Any]) -> str:
     lines = [
         "# Transcription numbering",
         "",
+        f"- Ordering source: {summary['order_source']}",
         f"- Mutable series/subseries roots inspected: {summary['mutable_root_count']}",
         f"- Roots whose display label changed after document-wide renumbering: {summary['renumbered_root_count']}",
         f"- Duplicate phonetic bases encountered in document order: {summary['duplicate_root_count']}",
@@ -301,6 +369,7 @@ def write_entries(entries: list[dict[str, Any]], curation_dir: Path) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Assign document-wide ordinal subscripts to duplicate phonetic transcriptions.")
     parser.add_argument("--curation-dir", default=DEFAULT_CURATION_DIR)
+    parser.add_argument("--integrated-series-dir", default=DEFAULT_INTEGRATED_SERIES_DIR)
     parser.add_argument("--report-out", default=DEFAULT_REPORT_OUT)
     parser.add_argument("--ab-report-out", default=DEFAULT_AB_REPORT_OUT)
     return parser
@@ -310,7 +379,8 @@ def main() -> int:
     args = build_parser().parse_args()
     curation_dir = Path(args.curation_dir)
     entries = load_entries(curation_dir)
-    summary = apply_numbering(entries)
+    integrated_records = load_integrated_records(Path(args.integrated_series_dir))
+    summary = apply_numbering(entries, integrated_records=integrated_records or None)
     write_entries(entries, curation_dir)
     report_path = Path(args.report_out)
     report_path.parent.mkdir(parents=True, exist_ok=True)

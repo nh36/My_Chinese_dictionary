@@ -44,6 +44,18 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
             ],
         }
 
+    def make_integrated_record(self, entry_id: str, *, render_mode: str, preferred_hand_entry: dict | None = None) -> dict:
+        left, right = entry_id.split("-")
+        return {
+            "id": entry_id,
+            "render_mode": render_mode,
+            "schuessler": {
+                "rhyme_section": int(left),
+                "series_number": int(right),
+            },
+            "preferred_hand_entry": preferred_hand_entry,
+        }
+
     def test_split_and_format_root_ordinals(self) -> None:
         self.assertEqual(number_phonetic_transcriptions.split_root_ordinal("ka"), ("ka", 1))
         self.assertEqual(
@@ -83,6 +95,28 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
         self.assertEqual(inserted_entries[1]["resolved_series_root"]["display_root"], "ka₂")
         self.assertEqual(inserted_entries[2]["resolved_series_root"]["display_root"], "ka₃")
 
+    def test_integrated_order_counts_hand_baseline_before_generated_duplicate(self) -> None:
+        generated = self.make_entry("02-17", "tak")
+        integrated_records = [
+            self.make_integrated_record(
+                "01-38",
+                render_mode="hand_only",
+                preferred_hand_entry={
+                    "head": {"characters": ["著"]},
+                    "raw_block": "\\paragraph{X}\n{\\large{ta}},\n\\begin{itemize}[noitemsep]\n\\item {\\Large{著}} = {\\large{tak}},\n\\textit{tśiok};\n\\end{itemize}\n",
+                },
+            ),
+            self.make_integrated_record("02-17", render_mode="generated_missing_series"),
+        ]
+
+        summary = number_phonetic_transcriptions.apply_numbering(
+            [generated],
+            integrated_records=integrated_records,
+        )
+
+        self.assertEqual(generated["resolved_series_root"]["display_root"], "tak₂")
+        self.assertEqual(summary["order_source"], "integrated_render_order")
+
     def test_numbering_updates_descendant_transliteration_from_numbered_parent(self) -> None:
         entry = self.make_entry("02-01", "ka")
         child = {
@@ -104,7 +138,13 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
 
     def test_current_generated_root_labels_are_unique(self) -> None:
         entries = copy.deepcopy(number_phonetic_transcriptions.load_entries(ROOT / "data/entries/curation"))
-        number_phonetic_transcriptions.apply_numbering(entries)
+        integrated_records = number_phonetic_transcriptions.load_integrated_records(
+            ROOT / "data/entries/integrated_series"
+        )
+        summary = number_phonetic_transcriptions.apply_numbering(
+            entries,
+            integrated_records=integrated_records,
+        )
         seen: set[str] = set()
         duplicates: set[str] = set()
         for occurrence in number_phonetic_transcriptions.iter_document_root_occurrences(entries):
@@ -115,6 +155,7 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
                 duplicates.add(root)
             seen.add(root)
         self.assertFalse(duplicates)
+        self.assertEqual(summary["order_source"], "integrated_render_order")
 
 
 if __name__ == "__main__":

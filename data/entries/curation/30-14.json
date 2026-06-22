@@ -2441,14 +2441,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "色",
-        "position": "suffix-dot",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "色"
       },
-      "transliteration_latex": "{\\large{put\\textsuperscript{·色}}},",
-      "render_latex": "艴\t%bo2 / fu2 / bó / fú\n{\\large{put\\textsuperscript{·色}}},\n\\textit{bwət};\t%0500p\n\\textit{phiut};",
+      "transliteration_latex": "{\\large{put}},",
+      "render_latex": "艴\t%bo2 / fu2 / bó / fú\n{\\large{put}},\n\\textit{bwət};\t%0500p\n\\textit{phiut};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2459,7 +2459,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "弗"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "色",
+        "original_position": "suffix-dot",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "色"
+      }
     },
     {
       "character": "沸",

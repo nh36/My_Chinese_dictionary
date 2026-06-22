@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.451250+00:00",
+  "generated_at": "2026-06-22T09:15:11.115022+00:00",
   "id": "01-43",
   "schuessler": {
     "gsc_id": "01-43",
@@ -1288,5 +1288,58 @@
     "generated_with_hand_baseline"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "01-43",
+      "source_layer": "hand_footnote",
+      "visibility": "rendered",
+      "anchor_kind": "character",
+      "anchor_value": "野",
+      "line_number": 2613,
+      "text": "I need to look into the relationship among 野, {\\includegraphics[width=4mm]{U+21428.png}}, and 埜.",
+      "category": "workflow_internal",
+      "recommended_rendering": "footnote"
+    },
+    {
+      "entry_id": "01-43",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "01-43",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 3,
+    "by_source_layer": {
+      "hand_footnote": 1,
+      "curation_entry_note": 2
+    },
+    "by_category": {
+      "workflow_internal": 3
+    },
+    "by_visibility": {
+      "rendered": 1,
+      "internal": 2
+    },
+    "by_recommended_rendering": {
+      "footnote": 1,
+      "internal_only": 2
+    }
+  },
   "render_mode": "hand_with_generated_additions"
 }

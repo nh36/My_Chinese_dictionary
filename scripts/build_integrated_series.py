@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 import extract_tex_entries
+import note_utils
 import render_curated_series
 
 
@@ -125,6 +126,11 @@ def build_record(
         and pilot_entry is not None
         and normalize_raw_block(current_entry.get("raw_block")) == normalize_raw_block(pilot_entry.get("raw_block"))
     )
+    normalized_notes = note_utils.collect_record_notes(
+        entry_id=entry_id,
+        hand_entry=hand_entry,
+        curated_entry=curated_entry,
+    )
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -136,6 +142,8 @@ def build_record(
         "provenance": provenance,
         "status_flags": status_flags,
         "conflicts": conflicts,
+        "normalized_notes": normalized_notes,
+        "note_summary": note_utils.summarize_notes(normalized_notes),
         "render_mode": (
             "hand_with_generated_additions"
             if curated_entry and curated_entry.get("packet_kind") == "existing_addendum" and hand_entry is not None

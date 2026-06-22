@@ -950,14 +950,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "臼",
-        "position": "prefix-colon",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "臼"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{臼˸}tyr}},",
-      "render_latex": "䢅\t%chen2\n{\\large{\\textsuperscript{臼˸}tyr}},\n\\textit{jin};\t%0455i",
+      "transliteration_latex": "{\\large{tyr}},",
+      "render_latex": "䢅\t%chen2\n{\\large{tyr}},\n\\textit{jin};\t%0455i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -968,7 +968,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "辰"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "臼",
+        "original_position": "prefix-colon",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "臼"
+      }
     },
     {
       "character": "宸",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.451843+00:00",
+  "generated_at": "2026-06-22T09:15:11.116854+00:00",
   "id": "03-65",
   "schuessler": {
     "gsc_id": "03-65",
@@ -4548,14 +4548,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "䖵",
-          "position": "suffix-colon",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "ids_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "䖵"
         },
-        "transliteration_latex": "{\\large{maṅ\\textsuperscript{˸䖵}}},",
-        "render_latex": "蝱\t%meng2\n{\\large{maṅ\\textsuperscript{˸䖵}}},\n\\textit{maeṅ};\t%0742t",
+        "transliteration_latex": "{\\large{maṅ}},",
+        "render_latex": "蝱\t%meng2\n{\\large{maṅ}},\n\\textit{maeṅ};\t%0742t",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -4566,7 +4566,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "亡"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "䖵",
+          "original_position": "suffix-colon",
+          "original_source": "ids_component_literal_fallback",
+          "semantic_component": "䖵"
+        }
       },
       {
         "character": "氓",
@@ -7760,5 +7767,163 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "亡",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "荒",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "詤",
+      "line_number": null,
+      "text": "Chinese sources support 言 semantic + 㠩 phonetic.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "㡃",
+      "line_number": null,
+      "text": "Chinese sources support 巾 semantic + 㠩 phonetic.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "芒",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "罔",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "望",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: mjang.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "汒",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "蝱",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `䖵` for component `䖵` from `ids_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-65",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "巟",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 12,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 6,
+      "curation_research_note": 2,
+      "curation_mc_investigation": 1,
+      "curation_semantic_review": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 6,
+      "semantic_analysis": 2,
+      "mc_conflict": 1,
+      "semantic_unresolved": 1
+    },
+    "by_visibility": {
+      "internal": 12
+    },
+    "by_recommended_rendering": {
+      "internal_only": 10,
+      "series_end_note": 2
+    }
+  },
   "render_mode": "generated_missing_series"
 }

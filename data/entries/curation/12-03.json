@@ -1567,14 +1567,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "共",
-        "position": "suffix-colon",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "共"
       },
-      "transliteration_latex": "{\\large{koṅ₃\\textsuperscript{˸共}}},",
-      "render_latex": "龔\t%gong1 / gōng\n{\\large{koṅ₃\\textsuperscript{˸共}}},\n\\textit{kiuwṅ};\t%1182k",
+      "transliteration_latex": "{\\large{koṅ₃}},",
+      "render_latex": "龔\t%gong1 / gōng\n{\\large{koṅ₃}},\n\\textit{kiuwṅ};\t%1182k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1585,7 +1585,14 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "共"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "共",
+        "original_position": "suffix-colon",
+        "original_source": "ids_component_literal_fallback",
+        "semantic_component": "共"
+      }
     },
     {
       "character": "恭",

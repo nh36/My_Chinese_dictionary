@@ -2965,14 +2965,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "兔",
-        "position": "suffix-dot",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "packet_family_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "兔"
       },
-      "transliteration_latex": "{\\large{lur₂\\textsuperscript{·兔}}},",
-      "render_latex": "㕙\t%jun4\n{\\large{lur₂\\textsuperscript{·兔}}},\n\\textit{tshwin};\t%0468s\n\\textit{tswinH};",
+      "transliteration_latex": "{\\large{lur₂}},",
+      "render_latex": "㕙\t%jun4\n{\\large{lur₂}},\n\\textit{tshwin};\t%0468s\n\\textit{tswinH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2983,7 +2983,14 @@
         "source": "shengfu_secondary_component",
         "phonetic_hint": "夋"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "兔",
+        "original_position": "suffix-dot",
+        "original_source": "packet_family_component_literal_fallback",
+        "semantic_component": "兔"
+      }
     },
     {
       "character": "俊",

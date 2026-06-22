@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.453153+00:00",
+  "generated_at": "2026-06-22T09:15:11.121666+00:00",
   "id": "27-08",
   "schuessler": {
     "gsc_id": "27-08",
@@ -1900,14 +1900,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "文",
-          "position": "suffix-colon",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "ids_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "文"
         },
-        "transliteration_latex": "{\\large{py₅\\textsuperscript{˸文}}},",
-        "render_latex": "斐\t%fei3\n{\\large{py₅\\textsuperscript{˸文}}},\n\\textit{phiɨyX};\t%0579i",
+        "transliteration_latex": "{\\large{py₅}},",
+        "render_latex": "斐\t%fei3\n{\\large{py₅}},\n\\textit{phiɨyX};\t%0579i",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1918,7 +1918,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "非"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "文",
+          "original_position": "suffix-colon",
+          "original_source": "ids_component_literal_fallback",
+          "semantic_component": "文"
+        }
       },
       {
         "character": "霏",
@@ -6074,5 +6081,81 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "27-08",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "27-08",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "27-08",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "非",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "27-08",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "匪",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "27-08",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "斐",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `文` for component `文` from `ids_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 5,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 2,
+      "curation_semantic_review": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 2,
+      "semantic_unresolved": 1
+    },
+    "by_visibility": {
+      "internal": 5
+    },
+    "by_recommended_rendering": {
+      "internal_only": 5
+    }
+  },
   "render_mode": "generated_missing_series"
 }

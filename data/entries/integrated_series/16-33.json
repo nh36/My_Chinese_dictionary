@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.452438+00:00",
+  "generated_at": "2026-06-22T09:15:11.119619+00:00",
   "id": "16-33",
   "schuessler": {
     "gsc_id": "16-33",
@@ -1827,14 +1827,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "丿",
-          "position": "suffix-colon",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "ids_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "丿"
         },
-        "transliteration_latex": "{\\large{sew₂\\textsuperscript{˸丿}}},",
-        "render_latex": "少\t%shao4 / shao3 / shào / shǎo\n{\\large{sew₂\\textsuperscript{˸丿}}},\n\\textit{śiewH};\t%1149e\n\\textit{śiewX};",
+        "transliteration_latex": "{\\large{sew₂}},",
+        "render_latex": "少\t%shao4 / shao3 / shào / shǎo\n{\\large{sew₂}},\n\\textit{śiewH};\t%1149e\n\\textit{śiewX};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1845,7 +1845,14 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "小"
         },
-        "resolved_node_root": null
+        "resolved_node_root": null,
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "丿",
+          "original_position": "suffix-colon",
+          "original_source": "ids_component_literal_fallback",
+          "semantic_component": "丿"
+        }
       },
       {
         "character": "箾",
@@ -7028,5 +7035,92 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "小",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "削",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "少",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `丿` for component `丿` from `ids_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-33",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "肖",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 6,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 3,
+      "curation_semantic_review": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 3,
+      "semantic_unresolved": 1
+    },
+    "by_visibility": {
+      "internal": 6
+    },
+    "by_recommended_rendering": {
+      "internal_only": 6
+    }
+  },
   "render_mode": "generated_missing_series"
 }

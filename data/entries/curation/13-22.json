@@ -515,14 +515,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "叹",
-        "position": "suffix-dot",
+        "abbreviation": null,
+        "position": "none",
         "inventory_matches": [],
-        "source": "packet_family_component_literal_fallback",
+        "source": "nonlatin_generated_semantic_suppressed",
         "semantic_component": "叹"
       },
-      "transliteration_latex": "{\\large{tu₂\\textsuperscript{·叹}}},",
-      "render_latex": "𠼡\t%chou2\n{\\large{tu₂\\textsuperscript{·叹}}},\n\\textit{ḍiuw};\t%1090f",
+      "transliteration_latex": "{\\large{tu₂}},",
+      "render_latex": "𠼡\t%chou2\n{\\large{tu₂}},\n\\textit{ḍiuw};\t%1090f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -533,7 +533,14 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "𢏚"
       },
-      "resolved_node_root": null
+      "resolved_node_root": null,
+      "semantic_assignment_review": {
+        "status": "nonlatin_generated_semantic_suppressed",
+        "original_abbreviation": "叹",
+        "original_position": "suffix-dot",
+        "original_source": "packet_family_component_literal_fallback",
+        "semantic_component": "叹"
+      }
     },
     {
       "character": "壽",

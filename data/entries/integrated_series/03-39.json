@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.451826+00:00",
+  "generated_at": "2026-06-22T09:15:11.116655+00:00",
   "id": "03-39",
   "schuessler": {
     "gsc_id": "03-39",
@@ -1803,8 +1803,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{qaṅ\\textsuperscript{˸永}}},",
-        "render_latex": "羕\t%yang4 / yàng\n{\\large{qaṅ\\textsuperscript{˸永}}},\n\\textit{yaṅH};\t%0732k",
+        "transliteration_latex": "{\\large{qaṅ}},",
+        "render_latex": "羕\t%yang4 / yàng\n{\\large{qaṅ}},\n\\textit{yaṅH};\t%0732k",
         "wiktionary_semantic_validation": {
           "semantic_component": "永",
           "phonetic_component": "羊",
@@ -1821,10 +1821,10 @@
         },
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "永",
-          "position": "suffix-colon",
+          "abbreviation": null,
+          "position": "none",
           "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "永"
         },
         "hierarchy_assignment": {
@@ -1865,6 +1865,13 @@
           "base_root": "q\\textoverset{b}{a}ṅ",
           "ordinal": 1,
           "numbering_source": "document_order_occurrence"
+        },
+        "semantic_assignment_review": {
+          "status": "nonlatin_generated_semantic_suppressed",
+          "original_abbreviation": "永",
+          "original_position": "suffix-colon",
+          "original_source": "wiktionary_component_literal_fallback",
+          "semantic_component": "永"
         }
       },
       {
@@ -4377,5 +4384,92 @@
     "generated_candidate"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "羊",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "養",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_semantic_review",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "羕",
+      "line_number": null,
+      "text": "Suppressed non-Latin semantic marker `永` for component `永` from `wiktionary_component_literal_fallback`.",
+      "category": "semantic_unresolved",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-39",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "羕",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 6,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 3,
+      "curation_semantic_review": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 3,
+      "semantic_unresolved": 1
+    },
+    "by_visibility": {
+      "internal": 6
+    },
+    "by_recommended_rendering": {
+      "internal_only": 6
+    }
+  },
   "render_mode": "generated_missing_series"
 }

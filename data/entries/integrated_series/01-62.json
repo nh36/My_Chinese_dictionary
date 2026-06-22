@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:25:30.451555+00:00",
+  "generated_at": "2026-06-22T09:15:11.115793+00:00",
   "id": "01-62",
   "schuessler": {
     "gsc_id": "01-62",
@@ -1629,5 +1629,72 @@
     "generated_with_hand_baseline"
   ],
   "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "01-62",
+      "source_layer": "hand_prose_note",
+      "visibility": "rendered",
+      "anchor_kind": "series",
+      "anchor_value": null,
+      "line_number": 3014,
+      "text": "I prefer {\\large{sr\\textoverset{b}{a}}} despite 壻 %xu4",
+      "category": "editorial_uncertainty",
+      "recommended_rendering": "series_end_note"
+    },
+    {
+      "entry_id": "01-62",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "01-62",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "01-62",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "梳",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: srjo.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 4,
+    "by_source_layer": {
+      "hand_prose_note": 1,
+      "curation_entry_note": 2,
+      "curation_mc_investigation": 1
+    },
+    "by_category": {
+      "editorial_uncertainty": 1,
+      "workflow_internal": 2,
+      "mc_conflict": 1
+    },
+    "by_visibility": {
+      "rendered": 1,
+      "internal": 3
+    },
+    "by_recommended_rendering": {
+      "series_end_note": 1,
+      "internal_only": 3
+    }
+  },
   "render_mode": "hand_with_generated_additions"
 }
