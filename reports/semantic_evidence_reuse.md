@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 168
-- Proposed additions inspected: 2710
-- Additions with reusable semantic assignment from existing TeX: 2710
-- Additions with reusable transliteration LaTeX from existing TeX: 2710
-- Additions with reusable render block from existing TeX: 2710
-- Additions with IDS-derived semantic candidates: 1924
-- Additions with explicit Wiktionary Han-compound support: 1327
+- Curated entries inspected: 171
+- Proposed additions inspected: 2746
+- Additions with reusable semantic assignment from existing TeX: 2746
+- Additions with reusable transliteration LaTeX from existing TeX: 2746
+- Additions with reusable render block from existing TeX: 2746
+- Additions with IDS-derived semantic candidates: 1942
+- Additions with explicit Wiktionary Han-compound support: 1339
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 2367
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 67
+- Additions assigned under generated candidate nodes: 2395
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 68
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -98,6 +98,7 @@
 | `16-03` | 16 | 16 | 16 | 16 |
 | `16-06` | 24 | 24 | 24 | 24 |
 | `16-10` | 12 | 12 | 12 | 12 |
+| `16-13` | 12 | 12 | 12 | 12 |
 | `16-14` | 20 | 20 | 20 | 20 |
 | `16-15` | 22 | 22 | 22 | 22 |
 | `16-20` | 23 | 23 | 23 | 23 |
@@ -106,6 +107,7 @@
 | `16-30` | 13 | 13 | 13 | 13 |
 | `16-31` | 13 | 13 | 13 | 13 |
 | `16-33` | 24 | 24 | 24 | 24 |
+| `16-39` | 12 | 12 | 12 | 12 |
 | `17-05` | 14 | 14 | 14 | 14 |
 | `17-07` | 14 | 14 | 14 | 14 |
 | `18-09` | 2 | 2 | 2 | 2 |
@@ -114,6 +116,7 @@
 | `19-02` | 13 | 13 | 13 | 13 |
 | `19-04` | 2 | 2 | 2 | 2 |
 | `19-06` | 1 | 1 | 1 | 1 |
+| `19-09` | 12 | 12 | 12 | 12 |
 | `19-18` | 0 | 0 | 0 | 0 |
 | `19-21` | 1 | 1 | 1 | 1 |
 | `19-22` | 2 | 2 | 2 | 2 |

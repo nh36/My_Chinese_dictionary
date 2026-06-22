@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 341
+- Generated subgroup heads inspected: 346
 - Subgroups newly marked with `a`: 42
-- Subgroups newly marked with `b`: 25
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 94
-- Mixed subgroups left unmarked: 179
+- Subgroups newly marked with `b`: 26
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 96
+- Mixed subgroups left unmarked: 181
 - Unresolved subgroups left unmarked: 1
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -206,6 +206,7 @@
 | `16-06` | 效 | `kaw` | `k\textoverset{a}{a}w₄` | `a` | yes | `ḫaewH` | all extracted forms lack an i-medial after the onset |
 | `16-10` | 夭 | `ʔaw` | `ʔaw` | `mixed` | no | `qawX, qiewX, qiew, qewX, qew, qewH, qəwk` | top-level series head left unmarked |
 | `16-10` | 沃 | `ʔaw` | `ʔ\textoverset{a}{a}w` | `a` | yes | `qəwk` | all extracted forms lack an i-medial after the onset |
+| `16-13` | 敖 | `ṅow` | `ṅow` | `a` | no | `ṅaw, ṅawH, ṅaew` | top-level series head left unmarked |
 | `16-14` | 堯 | `ṅew` | `ṅew` | `mixed` | no | `ṅew, kewX, kew, khew, hew, hewX, gyiew, khaew, khewX, ñiewH, ñiewX, ñiew, ṇaewH, ṇaew, ṇaewX, haw, śiew` | top-level series head left unmarked |
 | `16-15` | 刀 | `taw` | `taw` | `mixed` | no | `taw, tew, thaw, ḍiewH, jiewX, jiew, dew, daw, ṭhiew, chiew, yiew, ciew, ciewX, ciewH, chiewX` | top-level series head left unmarked |
 | `16-15` | 召 | `taw` | `taw₂` | `mixed` | no | `ḍiewH, jiewX, jiew, tew, dew, daw, ṭhiew, chiew, yiew, ciew, ciewX, ciewH, chiewX` | the extracted forms point to both type a and type b |
@@ -220,11 +221,15 @@
 | `16-33` | 小 | `sew` | `sew` | `b` | no | `siewX, śiewH, śiewX` | top-level series head left unmarked |
 | `16-33` | 削 | `sew` | `sew₄` | `mixed` | no | `siak, siewH, ṣaewH, sew, ṣaew, ṣaewk` | the extracted forms point to both type a and type b |
 | `16-33` | 肖 | `sew` | `sew₃` | `mixed` | no | `siew, siewH, ṣaew, siak, ṣaewH, sew, ṣaewk, tshiewH, tshiewX, dziewH, dewX, ḍiewX` | the extracted forms point to both type a and type b |
+| `16-39` | 𤐫 | `pew` | `pew₃` | `b` | no | `phyiew, phyiewH, pyiew` | top-level series head left unmarked |
+| `16-39` | 票 | `pew` | `pew₂` | `mixed` | no | `phyiew, phyiewH, pyiew, phyiewX, byiew, byiewX, phaew, phew` | the extracted forms point to both type a and type b |
 | `17-05` | 勺 | `qek` | `qek` | `mixed` | no | `jiak, ciak, yak, tek, tewH, qiak, qyiewH, qaewk` | top-level series head left unmarked |
 | `17-05` | 約 | `qek` | `qek₂` | `mixed` | no | `qiak, qyiewH, qaewk` | the extracted forms point to both type a and type b |
 | `17-07` | 翟 | `lek` | `lek` | `mixed` | no | `dek, thek, yak, ḍaewk, ḍaewH, yiewH, thewH, dewH` | top-level series head left unmarked |
 | `18-18` | 加 | `kray` | `kr\textoverset{a}{a}y` | `a` | yes | `kae, kaeH, kaX, ḫaH` | all extracted forms lack an i-medial after the onset |
 | `19-02` | 果 | `kor` | `kor` | `a` | no | `khwaX, kwaX, khwaH, lwaX, ḫwaeX, ḫwanX, ḫwəyX, kwanH, qwaX` | top-level series head left unmarked |
+| `19-09` | 隋 | `loy` | `loy₂` | `mixed` | no | `siweH, thwaX, hiwieH, dwaX, hiwie, dwaH` | the extracted forms point to both type a and type b |
+| `19-09` | 隨 | `loy` | `l\textoverset{b}{o}y` | `b` | yes | `ziwe, siweH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `19-22` | 𧴪 | `s\textoverset{a}{o}y` | `s\textoverset{a}{o}y₂` | `a` | no | `swaX` | all extracted forms lack an i-medial after the onset |
 | `21-01` | 匃 | `kat` | `kat` | `mixed` | no | `kayH, kat, hat, khat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | top-level series head left unmarked |
 | `21-01` | 曷 | `kat` | `kat₂` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |

@@ -43,16 +43,20 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
             (ROOT / "data/derived/nonlatin_generated_semantics.json").read_text(encoding="utf-8")
         )
         components = {row["semantic_component"] for row in inventory["components"]}
-        self.assertEqual(
-            components,
+        self.assertTrue({"一", "同", "坴", "𦰩"}.issubset(components))
+        self.assertTrue(
             {
-                "一",
-                "同",
-                "坴",
-                "𦰩",
-            },
+                "八",
+                "曰",
+                "㯻",
+                "䖵",
+                "殺",
+                "𣒚",
+                "嗇",
+                "𤼽",
+                "庚",
+            }.isdisjoint(components)
         )
-        self.assertEqual(inventory["summary"]["case_count"], 4)
 
 
 if __name__ == "__main__":

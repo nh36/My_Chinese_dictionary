@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 356
-- Roots whose display label changed after document-wide renumbering: 162
-- Duplicate phonetic bases encountered in document order: 104
+- Mutable series/subseries roots inspected: 363
+- Roots whose display label changed after document-wide renumbering: 165
+- Duplicate phonetic bases encountered in document order: 105
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -286,6 +286,7 @@
 | `16-06` | `subseries-root` | 效 | `k\textoverset{a}{a}w` | 4 | `k\textoverset{a}{a}w₄` | yes |
 | `16-10` | `series-root` | 夭 | `ʔaw` | 1 | `ʔaw` | yes |
 | `16-10` | `subseries-root` | 沃 | `ʔ\textoverset{a}{a}w` | 1 | `ʔ\textoverset{a}{a}w` | yes |
+| `16-13` | `series-root` | 敖 | `ṅow` | 1 | `ṅow` | yes |
 | `16-14` | `series-root` | 堯 | `ṅew` | 1 | `ṅew` | yes |
 | `16-15` | `series-root` | 刀 | `taw` | 1 | `taw` | yes |
 | `16-15` | `subseries-root` | 召 | `taw` | 2 | `taw₂` | yes |
@@ -301,6 +302,9 @@
 | `16-33` | `series-root` | 小 | `sew` | 2 | `sew₂` | yes |
 | `16-33` | `subseries-root` | 肖 | `sew` | 3 | `sew₃` | yes |
 | `16-33` | `subseries-root` | 削 | `sew` | 4 | `sew₄` | yes |
+| `16-39` | `series-root` | 𤐫 | `pew` | 1 | `pew` | yes |
+| `16-39` | `subseries-root` | 票 | `pew` | 2 | `pew₂` | yes |
+| `16-39` | `subseries-root` | 𤐫 | `pew` | 3 | `pew₃` | yes |
 | `17-05` | `series-root` | 勺 | `qek` | 1 | `qek` | yes |
 | `17-05` | `subseries-root` | 約 | `qek` | 2 | `qek₂` | yes |
 | `17-07` | `series-root` | 翟 | `lek` | 2 | `lek₂` | yes |
@@ -331,10 +335,13 @@
 | `19-06` | `baseline-series-root` | 為 | `quay` | 1 | `quay` | no |
 | `19-07` | `baseline-series-root` | 禾 | `qoy` | 1 | `qoy` | no |
 | `19-08` | `baseline-series-root` | 化 | `kuay` | 4 | `kuay` | no |
+| `19-09` | `series-root` | 隓 | `loy` | 1 | `loy` | yes |
+| `19-09` | `subseries-root` | 隋 | `loy` | 2 | `loy₂` | yes |
+| `19-09` | `subseries-root` | 隨 | `l\textoverset{b}{o}y` | 1 | `l\textoverset{b}{o}y` | yes |
 | `19-12` | `baseline-series-root` | 危 | `koy` | 1 | `koy` | no |
 | `19-15` | `baseline-series-root` | 吹 | `th\textoverset{b}{o}y` | 1 | `th\textoverset{b}{o}y` | no |
-| `19-16` | `baseline-series-root` | 隓 | `loy` | 1 | `loy` | no |
-| `19-16` | `baseline-subseries-root` | 隋 | `loy` | 2 | `loy₂` | no |
+| `19-16` | `baseline-series-root` | 隓 | `loy` | 3 | `loy` | no |
+| `19-16` | `baseline-subseries-root` | 隋 | `loy` | 4 | `loy₂` | no |
 | `19-17` | `baseline-series-root` | 垂 | `toy` | 1 | `toy` | no |
 | `19-18` | `baseline-series-root` |  | `r\textoverset{a}{o}y` | 1 | `r\textoverset{a}{o}y` | no |
 | `19-21` | `baseline-series-root` | 坐 | `tsoy` | 1 | `tsoy` | no |

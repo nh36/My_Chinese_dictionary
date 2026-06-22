@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 152
-- Packets with at least one root candidate: 145
-- Packets with a single resolved provisional root: 152
+- Missing-series packets inspected: 155
+- Packets with at least one root candidate: 148
+- Packets with a single resolved provisional root: 155
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -83,6 +83,7 @@
 | `16-03` | 喬→kaw [*N-kaw {*[N-k](r)aw}] (1138a) | `kaw` | `head_graph_oc_bs` |
 | `16-06` | 交→kaw [*kˤraw {*[k]ˤraw}] (1166a) | `kaw` | `head_graph_oc_bs` |
 | `16-10` | 夭→ʔaw [*ʔaw {*[ʔ](r)aw}] (1141a) | `ʔaw` | `head_graph_oc_bs` |
+| `16-13` | 敖→ṅow [*ŋɡo̠w] (None) | `ṅow` | `head_graph_oc_shengfu` |
 | `16-14` | 堯→ṅew [*ŋˤew {*[ŋ]ˤew}] (1164a) | `ṅew` | `head_graph_oc_bs` |
 | `16-15` | 刀→taw [*C.tˤaw] (1131a) | `taw` | `head_graph_oc_bs` |
 | `16-20` | 兆→law [*lrawʔ {*lr[a]wʔ}] (1145a) | `law` | `head_graph_oc_bs` |
@@ -91,9 +92,11 @@
 | `16-30` | 喿→saw [*sˡa̠ws] (None) | `saw` | `head_graph_oc_shengfu` |
 | `16-31` | 焦→sew [*skew] (None) | `sew` | `head_graph_oc_shengfu` |
 | `16-33` | 小→sew [*sewʔ {*[s]ewʔ}] (1149a) | `sew` | `head_graph_oc_bs` |
+| `16-39` | 𤐫→pew [*pʰew] (None) | `pew` | `head_graph_oc_shengfu` |
 | `17-05` | 勺→qek [*m-t-qewk] (1120a) | `qek` | `head_graph_oc_bs` |
 | `17-07` | 翟→lek [*lˤewk] (1124a) | `lek` | `head_graph_oc_bs` |
 | `19-02` | 果→kor [*kˤorʔ {*[k]ˤo[r]ʔ}] (0351a) | `kor` | `head_graph_oc_bs` |
+| `19-09` | 隓→loy [*lˤojʔ] (0011a) | `loy` | `head_graph_oc_bs` |
 | `21-01` | 匃→kat [*kˤat-s {*[k]ˤat-s}] (0313a) | `kat` | `head_graph_oc_bs` |
 | `21-31` | 犮→pot [*bo̠d] (None) | `pot` | `head_graph_oc_shengfu` |
 | `22-13` | 兌→lot [*lˤot-s] (0324a) | `lot` | `head_graph_oc_bs` |

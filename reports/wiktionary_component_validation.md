@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2710
-- Pages fetched / cached successfully: 2675
-- Additions with explicit Han-compound semantic/phonetic roles: 1336
+- Proposed additions checked: 2746
+- Pages fetched / cached successfully: 2710
+- Additions with explicit Han-compound semantic/phonetic roles: 1348
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1425,6 +1425,18 @@
 | `16-10` | 䴠 | yes | no |  |  |
 | `16-10` | 沃 | yes | yes | 水 | 夭 |
 | `16-10` | 鋈 | yes | no |  |  |
+| `16-13` | 敖 | yes | no |  |  |
+| `16-13` | 遨 | yes | yes | 辵 | 敖 |
+| `16-13` | 傲 | yes | yes | 人 | 敖 |
+| `16-13` | 嗷 | yes | no |  |  |
+| `16-13` | 嗸 | yes | no |  |  |
+| `16-13` | 摮 | yes | no |  |  |
+| `16-13` | 熬 | yes | no |  |  |
+| `16-13` | 獒 | yes | no |  |  |
+| `16-13` | 螯 | yes | yes | 虫 | 敖 |
+| `16-13` | 謷 | yes | yes | 言 | 敖 |
+| `16-13` | 驁 | yes | yes | 馬 | 敖 |
+| `16-13` | 鼇 | yes | no |  |  |
 | `16-14` | 堯 | yes | yes | 兀 | 垚 |
 | `16-14` | 僥 | yes | yes | 人 | 堯 |
 | `16-14` | 澆 | yes | yes | 水 | 堯 |
@@ -1572,6 +1584,18 @@
 | `16-33` | 捎 | yes | no |  |  |
 | `16-33` | 梢 | yes | yes | 木 | 肖 |
 | `16-33` | 稍 | yes | yes | 禾 | 肖 |
+| `16-39` | 𤐫 | yes | no |  |  |
+| `16-39` | 票 | yes | no | 火, 𢍱 |  |
+| `16-39` | 𤒾 | no | no |  |  |
+| `16-39` | 標 | yes | yes | 木 | 票 |
+| `16-39` | 飄 | yes | yes | 風 | 票 |
+| `16-39` | 僄 | yes | no |  |  |
+| `16-39` | 剽 | yes | no |  |  |
+| `16-39` | 嘌 | yes | no |  |  |
+| `16-39` | 漂 | yes | yes | 水 | 票 |
+| `16-39` | 縹 | yes | no |  |  |
+| `16-39` | 瓢 | yes | no |  |  |
+| `16-39` | 摽 | yes | no |  |  |
 | `17-05` | 勺 | yes | no |  |  |
 | `17-05` | 杓 | yes | no |  |  |
 | `17-05` | 汋 | yes | no |  |  |
@@ -1626,6 +1650,18 @@
 | `19-04` | 腡 | yes | yes | 肉 | 咼 |
 | `19-04` | 冎 | yes | no |  |  |
 | `19-06` | 媯 | yes | yes | 女 | 為 |
+| `19-09` | 隓 | yes | no |  |  |
+| `19-09` | 隋 | yes | yes | 肉 | 隓 |
+| `19-09` | 橢 | yes | no |  |  |
+| `19-09` | 嶞 | yes | no |  |  |
+| `19-09` | 墮 | yes | yes | 土 | 隋 |
+| `19-09` | 隳 | yes | no |  |  |
+| `19-09` | 隨 | yes | yes | 辵 | 𡐦 |
+| `19-09` | 髓 | yes | no |  |  |
+| `19-09` | 瀡 | yes | no |  |  |
+| `19-09` | 鬌 | yes | no |  |  |
+| `19-09` | 媠 | yes | no |  |  |
+| `19-09` | 惰 | yes | yes | 心 | 隋 |
 | `19-21` | 座 | yes | yes | 广 | 坐 |
 | `19-22` | 𧴪 | yes | no |  |  |
 | `19-22` | 鎖 | yes | yes | 金 | 𧴪 |

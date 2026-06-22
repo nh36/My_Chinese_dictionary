@@ -1,0 +1,3898 @@
+{
+  "generated_at": "2026-06-22T22:45:05.771709+00:00",
+  "id": "16-39",
+  "schuessler": {
+    "gsc_id": "16-39",
+    "rhyme_section": 16,
+    "series_number": 39,
+    "k_tokens": [
+      "1157"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.",
+    "is_cross_reference_only": false,
+    "source_page_number": 228,
+    "source_line_number": 22,
+    "source_line_raw": "16-39 = K. 1157 Man d."
+  },
+  "preferred_hand_entry": null,
+  "pilot_entry": null,
+  "curated_entry": {
+    "generated_at": "2026-06-22T22:44:29.733456+00:00",
+    "id": "16-39",
+    "status": "machine-curated-pilot",
+    "packet_kind": "missing_series",
+    "schuessler": {
+      "gsc_id": "16-39",
+      "rhyme_section": 16,
+      "series_number": 39,
+      "k_tokens": [
+        "1157"
+      ],
+      "has_explicit_k_range": false,
+      "source_remainder_raw": "Man d.",
+      "is_cross_reference_only": false,
+      "source_page_number": 228,
+      "source_line_number": 22,
+      "source_line_raw": "16-39 = K. 1157 Man d."
+    },
+    "coverage": {
+      "gsc_id": "16-39",
+      "rhyme_section": "16",
+      "series_number": "39",
+      "schuessler_k_tokens": "1157",
+      "schuessler_source_page": "228",
+      "in_tex": "no",
+      "tex_character_count": "0",
+      "tex_characters_sample": null,
+      "mand2mc_row_count": "20",
+      "mand2mc_character_count": "12",
+      "mand2mc_characters_sample": "𤐫; 票; 𤒾; 標; 飄; 僄; 剽; 嘌; 漂; 縹",
+      "bs_gsr_row_count": "2",
+      "bs_gsr_character_count": "2",
+      "bs_gsr_characters_sample": "票; 瓢",
+      "combined_source_character_count": "12",
+      "combined_source_characters_sample": "𤐫; 票; 𤒾; 標; 飄; 僄; 剽; 嘌; 漂; 縹"
+    },
+    "tex_entry": null,
+    "entry_hierarchy": null,
+    "candidate_source_strategy": "schuessler_k_tokens",
+    "candidate_source_tokens": [
+      "1157"
+    ],
+    "proposed_additions": [
+      {
+        "character": "𤐫",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8453",
+            "character": "𤐫",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157a"
+          },
+          {
+            "source_row_number": "8454",
+            "character": "𤐫",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157a"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10404",
+            "character": "𤐫",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "transliteration_latex": "{\\large{pew₂}},",
+        "render_latex": "𤐫\t%piao1 / piao4\n{\\large{pew₂}},\n\\textit{phyiew};\t%1157a\n\\textit{phyiewH};",
+        "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": {
+          "root": "pew",
+          "source": "node_transliteration_fallback",
+          "descendant_count": 1,
+          "bs_support_count": 0,
+          "bs_broad_roots": [],
+          "bs_node_roots": [],
+          "display_root": "pew₃",
+          "division_class": "b",
+          "division_note": "top-level series head left unmarked",
+          "mark_required": false,
+          "mc_forms": [
+            "phyiew",
+            "phyiewH",
+            "pyiew"
+          ],
+          "form_analyses": [
+            {
+              "form": "phyiew",
+              "normalized": "phyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "phyiewH",
+              "normalized": "phyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "pyiew",
+              "normalized": "pyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            }
+          ],
+          "base_root": "pew",
+          "ordinal": 3,
+          "numbering_source": "document_order_occurrence"
+        }
+      },
+      {
+        "character": "票",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 46,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [
+            "phjiew"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8455",
+            "character": "票",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157b"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "176",
+            "character": "票",
+            "pinyin": "piào",
+            "mc_bs": "phjiew",
+            "mc_analyzed": "(ph- + -jiew A)",
+            "oc_bs": "*pʰew",
+            "gloss": "leaping flames (SW)",
+            "gsr": "1157b",
+            "unicode_utf16": "U+7968"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10430",
+            "character": "票",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "集韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "10393",
+            "character": "瓢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10394",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10395",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10396",
+            "character": "螵",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10397",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10398",
+            "character": "瘭",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10399",
+            "character": "幖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10400",
+            "character": "熛",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10401",
+            "character": "𧽤",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10402",
+            "character": "蔈",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10403",
+            "character": "䅺",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "卑遥",
+            "source": "集韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10404",
+            "character": "𤐫",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10405",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10406",
+            "character": "嫖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10407",
+            "character": "旚",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10408",
+            "character": "鏢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10409",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10410",
+            "character": "𪅃",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10411",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10412",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10413",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10414",
+            "character": "𧽤",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10415",
+            "character": "翲",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10416",
+            "character": "瞟",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10417",
+            "character": "螵",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10418",
+            "character": "嘌",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10419",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10420",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10421",
+            "character": "顠",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10422",
+            "character": "膘",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10423",
+            "character": "𧢄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          },
+          {
+            "source_row_number": "10424",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          },
+          {
+            "source_row_number": "10425",
+            "character": "縹",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10426",
+            "character": "顠",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10427",
+            "character": "瞟",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10428",
+            "character": "膘",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10429",
+            "character": "驃",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          },
+          {
+            "source_row_number": "10430",
+            "character": "票",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "集韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          },
+          {
+            "source_row_number": "10431",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10432",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10433",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10434",
+            "character": "翲",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10435",
+            "character": "勡",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10436",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10437",
+            "character": "嫖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10438",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": {
+            "template_raw": "{{Han compound|火|𢍱|ls=ic|c1=s|c2=s|t1=fire|t2=to rise high}}",
+            "positional_components": [
+              "火",
+              "𢍱"
+            ],
+            "positional_components_raw": [
+              "火",
+              "𢍱"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "c1": "s",
+              "c2": "s",
+              "t1": "fire",
+              "t2": "to rise high"
+            },
+            "semantic_components": [
+              "火",
+              "𢍱"
+            ],
+            "phonetic_components": []
+          },
+          "han_compounds": [
+            {
+              "template_raw": "{{Han compound|火|𢍱|ls=ic|c1=s|c2=s|t1=fire|t2=to rise high}}",
+              "positional_components": [
+                "火",
+                "𢍱"
+              ],
+              "positional_components_raw": [
+                "火",
+                "𢍱"
+              ],
+              "named_args": {
+                "ls": "ic",
+                "c1": "s",
+                "c2": "s",
+                "t1": "fire",
+                "t2": "to rise high"
+              },
+              "semantic_components": [
+                "火",
+                "𢍱"
+              ],
+              "phonetic_components": []
+            }
+          ]
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "self_phonetic_base",
+          "semantic_component": null
+        },
+        "transliteration_latex": "{\\large{pew}},",
+        "render_latex": "票\t%piao4 / piào\n{\\large{pew}},\n\\textit{phyiew};\t%1157b",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": null,
+        "resolved_node_root": {
+          "root": "pew",
+          "source": "node_bs_broad_consensus",
+          "descendant_count": 11,
+          "bs_support_count": 2,
+          "bs_broad_roots": [
+            "pew"
+          ],
+          "bs_node_roots": [
+            "phew",
+            "pew"
+          ],
+          "display_root": "pew₂",
+          "division_class": "mixed",
+          "division_note": "the extracted forms point to both type a and type b",
+          "mark_required": false,
+          "mc_forms": [
+            "phyiew",
+            "phyiewH",
+            "pyiew",
+            "phyiewX",
+            "byiew",
+            "byiewX",
+            "phaew",
+            "phew"
+          ],
+          "form_analyses": [
+            {
+              "form": "phyiew",
+              "normalized": "phyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "phyiewH",
+              "normalized": "phyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "pyiew",
+              "normalized": "pyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "phyiewX",
+              "normalized": "phyiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "byiew",
+              "normalized": "byiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "byiewX",
+              "normalized": "byiew",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            },
+            {
+              "form": "phaew",
+              "normalized": "phaew",
+              "class": "a",
+              "reason": "no_i_medial"
+            },
+            {
+              "form": "phew",
+              "normalized": "phew",
+              "class": "a",
+              "reason": "no_i_medial"
+            }
+          ],
+          "base_root": "pew",
+          "ordinal": 2,
+          "numbering_source": "document_order_occurrence"
+        }
+      },
+      {
+        "character": "𤒾",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8456",
+            "character": "𤒾",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157c"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": false,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "ign",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "source": "packet_family_ids",
+          "semantic_component": "火"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{ign·}pew}},",
+        "render_latex": "𤒾\t%biao1\n{\\large{\\textsuperscript{ign·}pew}},\n\\textit{pyiew};\t%1157c",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "𤐫",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "ids_parent_family_inference",
+          "phonetic_hint": "𤐫"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "標",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8457",
+            "character": "標",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157d"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10397",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10424",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": {
+            "template_raw": "{{Han compound|木|票|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "木",
+              "票"
+            ],
+            "positional_components_raw": [
+              "木",
+              "票"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "票"
+            ]
+          },
+          "han_compounds": [
+            {
+              "template_raw": "{{Han compound|木|票|c1=s|c2=p|ls=psc}}",
+              "positional_components": [
+                "木",
+                "票"
+              ],
+              "positional_components_raw": [
+                "木",
+                "票"
+              ],
+              "named_args": {
+                "c1": "s",
+                "c2": "p",
+                "ls": "psc"
+              },
+              "semantic_components": [
+                "木"
+              ],
+              "phonetic_components": [
+                "票"
+              ]
+            }
+          ]
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "標",
+            "ids": "⿰木票",
+            "phonetic_component": "票",
+            "semantic_component": "木",
+            "position": "prefix-dot",
+            "abbreviation": "arb",
+            "inventory_matches": [
+              {
+                "graph_raw": "木",
+                "label_token": "arb(or)",
+                "abbreviation": "arb",
+                "start_line": 203
+              },
+              {
+                "graph_raw": "木",
+                "label_token": "arb",
+                "abbreviation": "arb",
+                "learned": true,
+                "evidence_count": 22
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "arb",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "木"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{arb·}pew₂}},",
+        "render_latex": "標\t%biao1\n{\\large{\\textsuperscript{arb·}pew₂}},\n\\textit{pyiew};\t%1157d",
+        "wiktionary_semantic_validation": {
+          "semantic_component": "木",
+          "phonetic_component": "票",
+          "resolved_assignment": {
+            "source": "wiktionary_han_compound",
+            "character": "標",
+            "semantic_component": "木",
+            "phonetic_component": "票",
+            "position": "prefix-dot",
+            "abbreviation": "arb",
+            "inventory_matches": [
+              {
+                "graph_raw": "木",
+                "label_token": "arb(or)",
+                "abbreviation": "arb",
+                "start_line": 203
+              },
+              {
+                "graph_raw": "木",
+                "label_token": "arb",
+                "abbreviation": "arb",
+                "learned": true,
+                "evidence_count": 22
+              }
+            ],
+            "template_raw": "{{Han compound|木|票|c1=s|c2=p|ls=psc}}"
+          }
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "wiktionary_semantic_validation",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "飄",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8458",
+            "character": "飄",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157e"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10394",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10411",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": {
+            "template_raw": "{{Han compound|票|風|c1=p|c2=s|t2=wind|ls=psc}}",
+            "positional_components": [
+              "票",
+              "風"
+            ],
+            "positional_components_raw": [
+              "票",
+              "風"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "wind",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "風"
+            ],
+            "phonetic_components": [
+              "票"
+            ]
+          },
+          "han_compounds": [
+            {
+              "template_raw": "{{Han compound|票|風|c1=p|c2=s|t2=wind|ls=psc}}",
+              "positional_components": [
+                "票",
+                "風"
+              ],
+              "positional_components_raw": [
+                "票",
+                "風"
+              ],
+              "named_args": {
+                "c1": "p",
+                "c2": "s",
+                "t2": "wind",
+                "ls": "psc"
+              },
+              "semantic_components": [
+                "風"
+              ],
+              "phonetic_components": [
+                "票"
+              ]
+            }
+          ]
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "飄",
+            "ids": "⿰票風",
+            "phonetic_component": "票",
+            "semantic_component": "風",
+            "position": "suffix-dot",
+            "abbreviation": "vent",
+            "inventory_matches": [
+              {
+                "graph_raw": "風",
+                "label_token": "vent(us)",
+                "abbreviation": "vent",
+                "start_line": 428
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "vent",
+          "position": "suffix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "風",
+              "label_token": "vent(us)",
+              "abbreviation": "vent",
+              "start_line": 428
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "風"
+        },
+        "transliteration_latex": "{\\large{pew₂\\textsuperscript{·vent}}},",
+        "render_latex": "飄\t%piao1\n{\\large{pew₂\\textsuperscript{·vent}}},\n\\textit{phyiew};\t%1157e",
+        "wiktionary_semantic_validation": {
+          "semantic_component": "風",
+          "phonetic_component": "票",
+          "resolved_assignment": {
+            "source": "wiktionary_han_compound",
+            "character": "飄",
+            "semantic_component": "風",
+            "phonetic_component": "票",
+            "position": "suffix-dot",
+            "abbreviation": "vent",
+            "inventory_matches": [
+              {
+                "graph_raw": "風",
+                "label_token": "vent(us)",
+                "abbreviation": "vent",
+                "start_line": 428
+              }
+            ],
+            "template_raw": "{{Han compound|票|風|c1=p|c2=s|t2=wind|ls=psc}}"
+          }
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "wiktionary_semantic_validation",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "僄",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8459",
+            "character": "僄",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157f"
+          },
+          {
+            "source_row_number": "8460",
+            "character": "僄",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157f"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10409",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10433",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "僄",
+            "ids": "⿰亻票",
+            "phonetic_component": "票",
+            "semantic_component": "人",
+            "position": "prefix-dot",
+            "abbreviation": "hom",
+            "inventory_matches": [
+              {
+                "graph_raw": "人",
+                "label_token": "hom(o)",
+                "abbreviation": "hom",
+                "start_line": 296
+              },
+              {
+                "graph_raw": "人",
+                "label_token": "hom",
+                "abbreviation": "hom",
+                "learned": true,
+                "evidence_count": 18
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "hom",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 296
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "人"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{hom·}pew₂}},",
+        "render_latex": "僄\t%piao4\n{\\large{\\textsuperscript{hom·}pew₂}},\n\\textit{phyiew};\t%1157f\n\\textit{phyiewH};",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "剽",
+        "in_tex": false,
+        "mand2mc_count": 3,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH",
+            "phyiewX"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH",
+            "phyiewX"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH",
+            "phjiewX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8461",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157g"
+          },
+          {
+            "source_row_number": "8462",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157g"
+          },
+          {
+            "source_row_number": "8463",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewX",
+            "mc_bs": "phjiewX",
+            "gsr": "1157g"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10395",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10431",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "剽",
+            "ids": "⿰票刂",
+            "phonetic_component": "票",
+            "semantic_component": "刀",
+            "position": "suffix-dot",
+            "abbreviation": "cult",
+            "inventory_matches": [
+              {
+                "graph_raw": "刀",
+                "label_token": "cult(er)",
+                "abbreviation": "cult",
+                "start_line": 249
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "cult",
+          "position": "suffix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 249
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "刀"
+        },
+        "transliteration_latex": "{\\large{pew₂\\textsuperscript{·cult}}},",
+        "render_latex": "剽\t%piao4\n{\\large{pew₂\\textsuperscript{·cult}}},\n\\textit{phyiew};\t%1157g\n\\textit{phyiewH};\n\\textit{phyiewX};",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "嘌",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8464",
+            "character": "嘌",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157h"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10418",
+            "character": "嘌",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "嘌",
+            "ids": "⿰口票",
+            "phonetic_component": "票",
+            "semantic_component": "口",
+            "position": "prefix-dot",
+            "abbreviation": "or",
+            "inventory_matches": [
+              {
+                "graph_raw": "口",
+                "label_token": "(os,) or(is)",
+                "abbreviation": "or",
+                "start_line": 341
+              },
+              {
+                "graph_raw": "口",
+                "label_token": "or",
+                "abbreviation": "or",
+                "learned": true,
+                "evidence_count": 18
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "or",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 341
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "口"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{or·}pew₂}},",
+        "render_latex": "嘌\t%piao1\n{\\large{\\textsuperscript{or·}pew₂}},\n\\textit{phyiew};\t%1157h",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "漂",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8465",
+            "character": "漂",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157i"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10405",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10432",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": {
+            "template_raw": "{{Han compound|水|票|c1=s|c2=p|alt1=氵|t1=water|ls=psc}}",
+            "positional_components": [
+              "水",
+              "票"
+            ],
+            "positional_components_raw": [
+              "水",
+              "票"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "alt1": "氵",
+              "t1": "water",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "票"
+            ]
+          },
+          "han_compounds": [
+            {
+              "template_raw": "{{Han compound|水|票|c1=s|c2=p|alt1=氵|t1=water|ls=psc}}",
+              "positional_components": [
+                "水",
+                "票"
+              ],
+              "positional_components_raw": [
+                "水",
+                "票"
+              ],
+              "named_args": {
+                "c1": "s",
+                "c2": "p",
+                "alt1": "氵",
+                "t1": "water",
+                "ls": "psc"
+              },
+              "semantic_components": [
+                "水"
+              ],
+              "phonetic_components": [
+                "票"
+              ]
+            }
+          ]
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "漂",
+            "ids": "⿰氵票",
+            "phonetic_component": "票",
+            "semantic_component": "水",
+            "position": "prefix-dot",
+            "abbreviation": "aq",
+            "inventory_matches": [
+              {
+                "graph_raw": "水",
+                "label_token": "aq(ua)",
+                "abbreviation": "aq",
+                "start_line": 198
+              },
+              {
+                "graph_raw": "水",
+                "label_token": "aq",
+                "abbreviation": "aq",
+                "learned": true,
+                "evidence_count": 14
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "aq",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "水"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{aq·}pew₂}},",
+        "render_latex": "漂\t%piao1\n{\\large{\\textsuperscript{aq·}pew₂}},\n\\textit{phyiew};\t%1157i",
+        "wiktionary_semantic_validation": {
+          "semantic_component": "水",
+          "phonetic_component": "票",
+          "resolved_assignment": {
+            "source": "wiktionary_han_compound",
+            "character": "漂",
+            "semantic_component": "水",
+            "phonetic_component": "票",
+            "position": "prefix-dot",
+            "abbreviation": "aq",
+            "inventory_matches": [
+              {
+                "graph_raw": "水",
+                "label_token": "aq(ua)",
+                "abbreviation": "aq",
+                "start_line": 198
+              },
+              {
+                "graph_raw": "水",
+                "label_token": "aq",
+                "abbreviation": "aq",
+                "learned": true,
+                "evidence_count": 14
+              }
+            ],
+            "template_raw": "{{Han compound|水|票|c1=s|c2=p|alt1=氵|t1=water|ls=psc}}"
+          }
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "wiktionary_semantic_validation",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "縹",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiewX"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiewX"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiewX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8466",
+            "character": "縹",
+            "pinyin": "piao3",
+            "mc_nwh": "phyiewX",
+            "mc_bs": "phjiewX",
+            "gsr": "1157j"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10425",
+            "character": "縹",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "縹",
+            "ids": "⿰糹票",
+            "phonetic_component": "票",
+            "semantic_component": "糹",
+            "position": "prefix-dot",
+            "abbreviation": "ser",
+            "inventory_matches": [
+              {
+                "graph_raw": "糹",
+                "label_token": "ser",
+                "abbreviation": "ser",
+                "learned": true,
+                "evidence_count": 8
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "ser",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "糹",
+              "label_token": "ser",
+              "abbreviation": "ser",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "糹"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{ser·}pew₂}},",
+        "render_latex": "縹\t%piao3\n{\\large{\\textsuperscript{ser·}pew₂}},\n\\textit{phyiewX};\t%1157j",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "瓢",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "byiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "byiew"
+          ],
+          "mand2mc_bs_forms": [
+            "bjiew"
+          ],
+          "bs_gsr_forms": [
+            "bjiew"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8467",
+            "character": "瓢",
+            "pinyin": "piao2",
+            "mc_nwh": "byiew",
+            "mc_bs": "bjiew",
+            "gsr": "1157k"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "176",
+            "character": "瓢",
+            "pinyin": "piáo",
+            "mc_bs": "bjiew",
+            "mc_analyzed": "(b- + -jiew A)",
+            "oc_bs": "*bew {*(Cə.)[b]ew}",
+            "gloss": "gourd",
+            "gsr": "1157k",
+            "unicode_utf16": "U+74E2"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10393",
+            "character": "瓢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_component_literal_fallback",
+            "character": "瓢",
+            "ids": "⿰票瓜",
+            "phonetic_component": "票",
+            "semantic_component": "瓜",
+            "position": "suffix-dot",
+            "abbreviation": "瓜",
+            "inventory_matches": []
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "瓜",
+          "position": "suffix-dot",
+          "inventory_matches": [],
+          "source": "ids_component_literal_fallback",
+          "semantic_component": "瓜"
+        },
+        "transliteration_latex": "{\\large{pew₂\\textsuperscript{·瓜}}},",
+        "render_latex": "瓢\t%piao2 / piáo\n{\\large{pew₂\\textsuperscript{·瓜}}},\n\\textit{byiew};\t%1157k",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "摽",
+        "in_tex": false,
+        "mand2mc_count": 5,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 3,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "byiewX",
+            "phaew",
+            "phew",
+            "phyiew",
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "byiewX",
+            "phaew",
+            "phew",
+            "phyiew",
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "bjiewX",
+            "phaew",
+            "phew",
+            "phjiew",
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8468",
+            "character": "摽",
+            "pinyin": "biao4",
+            "mc_nwh": "byiewX",
+            "mc_bs": "bjiewX",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8469",
+            "character": "摽",
+            "pinyin": "pao1",
+            "mc_nwh": "phaew",
+            "mc_bs": "phaew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8470",
+            "character": "摽",
+            "pinyin": "piao1",
+            "mc_nwh": "phew",
+            "mc_bs": "phew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8471",
+            "character": "摽",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8472",
+            "character": "摽",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157l"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10413",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10419",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10436",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [
+          {
+            "source": "ids_top_level",
+            "character": "摽",
+            "ids": "⿰扌票",
+            "phonetic_component": "票",
+            "semantic_component": "手",
+            "position": "prefix-dot",
+            "abbreviation": "man",
+            "inventory_matches": [
+              {
+                "graph_raw": "手",
+                "label_token": "man(us)",
+                "abbreviation": "man",
+                "start_line": 317
+              },
+              {
+                "graph_raw": "手",
+                "label_token": "man",
+                "abbreviation": "man",
+                "learned": true,
+                "evidence_count": 19
+              }
+            ]
+          }
+        ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "man",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 317
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "手"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{man·}pew₂}},",
+        "render_latex": "摽\t%biao4 / pao1 / piao1 / biao1\n{\\large{\\textsuperscript{man·}pew₂}},\n\\textit{byiewX};\t%1157l\n\\textit{phaew};\n\\textit{phew};\n\\textit{phyiew};\n\\textit{pyiew};",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "票",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "票"
+        },
+        "resolved_node_root": null
+      }
+    ],
+    "all_candidates": [
+      {
+        "character": "𤐫",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8453",
+            "character": "𤐫",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157a"
+          },
+          {
+            "source_row_number": "8454",
+            "character": "𤐫",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157a"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10404",
+            "character": "𤐫",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "票",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 46,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [
+            "phjiew"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8455",
+            "character": "票",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157b"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "176",
+            "character": "票",
+            "pinyin": "piào",
+            "mc_bs": "phjiew",
+            "mc_analyzed": "(ph- + -jiew A)",
+            "oc_bs": "*pʰew",
+            "gloss": "leaping flames (SW)",
+            "gsr": "1157b",
+            "unicode_utf16": "U+7968"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10430",
+            "character": "票",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "集韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "10393",
+            "character": "瓢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10394",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10395",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10396",
+            "character": "螵",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10397",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10398",
+            "character": "瘭",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10399",
+            "character": "幖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10400",
+            "character": "熛",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10401",
+            "character": "𧽤",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10402",
+            "character": "蔈",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10403",
+            "character": "䅺",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "卑遥",
+            "source": "集韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10404",
+            "character": "𤐫",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10405",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10406",
+            "character": "嫖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10407",
+            "character": "旚",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10408",
+            "character": "鏢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10409",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10410",
+            "character": "𪅃",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10411",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10412",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10413",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10414",
+            "character": "𧽤",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10415",
+            "character": "翲",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10416",
+            "character": "瞟",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10417",
+            "character": "螵",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10418",
+            "character": "嘌",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10419",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10420",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10421",
+            "character": "顠",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10422",
+            "character": "膘",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10423",
+            "character": "𧢄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          },
+          {
+            "source_row_number": "10424",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          },
+          {
+            "source_row_number": "10425",
+            "character": "縹",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10426",
+            "character": "顠",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10427",
+            "character": "瞟",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10428",
+            "character": "膘",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          },
+          {
+            "source_row_number": "10429",
+            "character": "驃",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          },
+          {
+            "source_row_number": "10430",
+            "character": "票",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "毗召",
+            "source": "集韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ews",
+            "oc_syllable": "bews"
+          },
+          {
+            "source_row_number": "10431",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10432",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10433",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10434",
+            "character": "翲",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10435",
+            "character": "勡",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10436",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10437",
+            "character": "嫖",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          },
+          {
+            "source_row_number": "10438",
+            "character": "慓",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ]
+      },
+      {
+        "character": "𤒾",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8456",
+            "character": "𤒾",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157c"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "標",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8457",
+            "character": "標",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157d"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10397",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "甫遥",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pew"
+          },
+          {
+            "source_row_number": "10424",
+            "character": "標",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "方小",
+            "source": "广韵",
+            "oc_initial": "p",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pewʔ"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "飄",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8458",
+            "character": "飄",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157e"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10394",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10411",
+            "character": "飄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "僄",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8459",
+            "character": "僄",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157f"
+          },
+          {
+            "source_row_number": "8460",
+            "character": "僄",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157f"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10409",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10433",
+            "character": "僄",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "剽",
+        "in_tex": false,
+        "mand2mc_count": 3,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew",
+            "phyiewH",
+            "phyiewX"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew",
+            "phyiewH",
+            "phyiewX"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew",
+            "phjiewH",
+            "phjiewX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8461",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157g"
+          },
+          {
+            "source_row_number": "8462",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewH",
+            "mc_bs": "phjiewH",
+            "gsr": "1157g"
+          },
+          {
+            "source_row_number": "8463",
+            "character": "剽",
+            "pinyin": "piao4",
+            "mc_nwh": "phyiewX",
+            "mc_bs": "phjiewX",
+            "gsr": "1157g"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10395",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          },
+          {
+            "source_row_number": "10431",
+            "character": "剽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "嘌",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8464",
+            "character": "嘌",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157h"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10418",
+            "character": "嘌",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "漂",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8465",
+            "character": "漂",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157i"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10405",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10432",
+            "character": "漂",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "縹",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "phyiewX"
+          ],
+          "mand2mc_nwh_forms": [
+            "phyiewX"
+          ],
+          "mand2mc_bs_forms": [
+            "phjiewX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8466",
+            "character": "縹",
+            "pinyin": "piao3",
+            "mc_nwh": "phyiewX",
+            "mc_bs": "phjiewX",
+            "gsr": "1157j"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10425",
+            "character": "縹",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "敷沼",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "pʰewʔ"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "瓢",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "byiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "byiew"
+          ],
+          "mand2mc_bs_forms": [
+            "bjiew"
+          ],
+          "bs_gsr_forms": [
+            "bjiew"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8467",
+            "character": "瓢",
+            "pinyin": "piao2",
+            "mc_nwh": "byiew",
+            "mc_bs": "bjiew",
+            "gsr": "1157k"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "176",
+            "character": "瓢",
+            "pinyin": "piáo",
+            "mc_bs": "bjiew",
+            "mc_analyzed": "(b- + -jiew A)",
+            "oc_bs": "*bew {*(Cə.)[b]ew}",
+            "gloss": "gourd",
+            "gsr": "1157k",
+            "unicode_utf16": "U+74E2"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10393",
+            "character": "瓢",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "符霄",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ew",
+            "oc_syllable": "bew"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "摽",
+        "in_tex": false,
+        "mand2mc_count": 5,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 3,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "byiewX",
+            "phaew",
+            "phew",
+            "phyiew",
+            "pyiew"
+          ],
+          "mand2mc_nwh_forms": [
+            "byiewX",
+            "phaew",
+            "phew",
+            "phyiew",
+            "pyiew"
+          ],
+          "mand2mc_bs_forms": [
+            "bjiewX",
+            "phaew",
+            "phew",
+            "phjiew",
+            "pjiew"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "8468",
+            "character": "摽",
+            "pinyin": "biao4",
+            "mc_nwh": "byiewX",
+            "mc_bs": "bjiewX",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8469",
+            "character": "摽",
+            "pinyin": "pao1",
+            "mc_nwh": "phaew",
+            "mc_bs": "phaew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8470",
+            "character": "摽",
+            "pinyin": "piao1",
+            "mc_nwh": "phew",
+            "mc_bs": "phew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8471",
+            "character": "摽",
+            "pinyin": "piao1",
+            "mc_nwh": "phyiew",
+            "mc_bs": "phjiew",
+            "gsr": "1157l"
+          },
+          {
+            "source_row_number": "8472",
+            "character": "摽",
+            "pinyin": "biao1",
+            "mc_nwh": "pyiew",
+            "mc_bs": "pjiew",
+            "gsr": "1157l"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "10413",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "撫招",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ew",
+            "oc_syllable": "pʰew"
+          },
+          {
+            "source_row_number": "10419",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "苻少",
+            "source": "广韵",
+            "oc_initial": "b",
+            "oc_rhyme": "ewʔ",
+            "oc_syllable": "bewʔ"
+          },
+          {
+            "source_row_number": "10436",
+            "character": "摽",
+            "phonetic_component": "票",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "匹妙",
+            "source": "广韵",
+            "oc_initial": "pʰ",
+            "oc_rhyme": "ews",
+            "oc_syllable": "pʰews"
+          }
+        ],
+        "shengfu_component_rows": []
+      }
+    ],
+    "notes": [
+      "Machine-promoted from a series packet; not yet hand-checked.",
+      "Use this file as the staging area for editorial decisions before any merge into main.tex."
+    ],
+    "series_root_candidates": [
+      {
+        "character": "𤐫",
+        "gsr": null,
+        "oc_bs": "*pʰew",
+        "root": "pew",
+        "source": "head_graph_oc_shengfu"
+      }
+    ],
+    "resolved_series_root": {
+      "root": "pew",
+      "source": "head_graph_oc_shengfu",
+      "character": "𤐫",
+      "oc_bs": "*pʰew",
+      "confidence": "provisional-oc",
+      "display_root": "pew",
+      "base_root": "pew",
+      "ordinal": 1,
+      "numbering_source": "document_order_occurrence"
+    }
+  },
+  "provenance": [
+    {
+      "source": "current_curation",
+      "source_path": "data/entries/curation/16-39.json",
+      "packet_kind": "missing_series",
+      "status": "machine-curated-pilot"
+    }
+  ],
+  "status_flags": [
+    "needs_review",
+    "generated_candidate"
+  ],
+  "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "16-39",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-39",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-39",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "𤐫",
+      "line_number": null,
+      "text": "top-level series head left unmarked",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-39",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "票",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 4,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 2
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 2
+    },
+    "by_visibility": {
+      "internal": 4
+    },
+    "by_recommended_rendering": {
+      "internal_only": 4
+    }
+  },
+  "render_mode": "generated_missing_series"
+}
