@@ -51,15 +51,6 @@ def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
         if aliases:
             note_parts.append("entry aliases: " + ", ".join(aliases))
         notes = " / ".join(part for part in note_parts if part)
-        provenance_labels = []
-        for source_name in sorted({source["source"] for source in item.get("sources", [])}):
-            if source_name == "current_main_tex":
-                provenance_labels.append("current")
-            elif source_name == "earlier_pilot":
-                provenance_labels.append("pilot")
-            else:
-                provenance_labels.append(source_name)
-        provenance = "+".join(provenance_labels)
         body = graph
         if abbreviation:
             body += rf" \textbf{{{abbreviation}}}"
@@ -67,7 +58,6 @@ def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
             body += f" {expanded}"
         if notes:
             body += f" --- {notes}"
-        body += rf" {{\footnotesize[{provenance}]}}"
         lines.append(r"\item " + body)
     lines.extend(
         [

@@ -16,7 +16,7 @@ class RenderIntegratedDictionaryTests(unittest.TestCase):
         raw = "\\paragraph{X}\nbody\n\\end{document}\n"
         self.assertEqual(render_integrated_dictionary.sanitize_hand_entry(raw), "\\paragraph{X}\nbody")
 
-    def test_render_semantic_section_contains_provenance(self) -> None:
+    def test_render_semantic_section_omits_visible_provenance(self) -> None:
         semantic_data = {
             "items": [
                 {
@@ -30,7 +30,8 @@ class RenderIntegratedDictionaryTests(unittest.TestCase):
             ]
         }
         rendered = "\n".join(render_integrated_dictionary.render_semantic_section(semantic_data))
-        self.assertIn("current+pilot", rendered)
+        self.assertIn(r"\item 木 \textbf{arb} arb(or)", rendered)
+        self.assertNotIn("current+pilot", rendered)
 
 
 if __name__ == "__main__":
