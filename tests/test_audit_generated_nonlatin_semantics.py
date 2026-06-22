@@ -47,21 +47,15 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
             components,
             {
                 "一",
-                "八",
                 "同",
                 "坴",
                 "庚",
-                "曰",
-                "㯻",
-                "䖵",
                 "嗇",
-                "殺",
-                "𣒚",
                 "𤼽",
                 "𦰩",
             },
         )
-        self.assertEqual(inventory["summary"]["case_count"], 13)
+        self.assertEqual(inventory["summary"]["case_count"], 7)
 
 
 if __name__ == "__main__":

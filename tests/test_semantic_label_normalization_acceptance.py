@@ -66,6 +66,7 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("尢", "claud"), rows)
         self.assertIn(("尾", "caud"), rows)
         self.assertIn(("囟", "fontan"), rows)
+        self.assertIn(("𣒚", "foll"), rows)
         self.assertIn(("工", "fabr"), rows)
         self.assertIn(("㐭", "granar"), rows)
         self.assertIn(("己", "ipse"), rows)
@@ -83,11 +84,16 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("韭", "porr"), rows)
         self.assertIn(("反", "revers"), rows)
         self.assertIn(("屵", "rup"), rows)
+        self.assertIn(("㯻", "sac"), rows)
         self.assertIn(("乑", "turb"), rows)
         self.assertIn(("气", "vapor"), rows)
         self.assertIn(("夂", "vestig"), rows)
         self.assertIn(("士", "vir"), rows)
         self.assertIn(("面", "vult"), rows)
+        self.assertIn(("八", "dvid"), rows)
+        self.assertIn(("曰", "ait"), rows)
+        self.assertIn(("䖵", "insect"), rows)
+        self.assertIn(("殺", "occid"), rows)
         self.assertIn(("川", "fluvi"), rows)
         self.assertIn(("血", "sangu"), rows)
         self.assertIn(("須", "barb"), rows)
@@ -176,11 +182,17 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
             "porr": "韭",
             "revers": "反",
             "rup": "屵",
+            "sac": "㯻",
             "turb": "乑",
             "vapor": "气",
             "vestig": "夂",
             "vir": "士",
             "vult": "面",
+            "dvid": "八",
+            "ait": "曰",
+            "insect": "䖵",
+            "occid": "殺",
+            "foll": "𣒚",
         }
         for abbreviation, graph in expected_inventory.items():
             self.assertIn(abbreviation, by_abbreviation)

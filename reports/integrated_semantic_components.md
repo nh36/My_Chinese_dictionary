@@ -3,9 +3,9 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 215
+- Integrated items: 221
 - Items present in both sources: 194
-- Current-only items: 21
+- Current-only items: 27
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
 - Blocked ambiguous aliases configured: 4
@@ -44,6 +44,7 @@
 | `辛` | `acr` | `acr(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黹` | `acu` | `acu(laria)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尚` | `adhuc` | `adhuc` | (shàng) - / (still, yet, even, still more) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `曰` | `ait` | `ait` |  | general |  |  |  |  | yes | current_main_tex |
 | `永` | `aetern` | `aetern(us)` |  | general |  |  |  |  | yes | current_main_tex |
 | `田` | `ager` | `ager` |  | general |  |  |  | `ag` | yes | current_main_tex, earlier_pilot |
 | `白` | `alb` | `alb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -106,6 +107,7 @@
 | `舍` | `dom` | `dom(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `龍` | `dracon` | `(draco), dracon(is)` | (in 龏) | only_in | 龏 |  |  |  | no | current_main_tex, earlier_pilot |
 | `甘` | `dulc` | `dulc(is)` | (in 甞) | only_in | 甞 |  |  |  | yes | current_main_tex, earlier_pilot |
+| `八` | `dvid` | `dvid(o)` |  | general |  |  |  |  | yes | current_main_tex |
 | `食` | `ed` | `ed(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `行` | `eo` | `eo` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `象` | `elephant` | `elephant(us)` | (xiàng) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -120,6 +122,7 @@
 | `臤` | `firm` | `firm(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `炎` | `flamm` | `flamm(a)` |  | general |  |  |  |  | yes | current_main_tex |
 | `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `𣒚` | `foll` | `foll(is)` |  | general |  |  |  |  | yes | current_main_tex |
 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  | no | current_main_tex, earlier_pilot |
 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  | no | current_main_tex, earlier_pilot |
 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  | no | current_main_tex, earlier_pilot |
@@ -164,6 +167,7 @@
 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `死` | `mort` | `mort(uus)` |  | general |  |  |  |  | yes | current_main_tex |
 | `鼠` | `rod` | `rod(entia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `䖵` | `insect` | `insect(a)` |  | general |  |  |  |  | yes | current_main_tex |
 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `隶` | `nex` | `nex(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -199,6 +203,7 @@
 | `豕` | `porc` | `porc(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `韭` | `porr` | `porr(um)` |  | general |  |  |  |  | yes | current_main_tex |
 | `門` | `port` | `port(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `殺` | `occid` | `occid(o)` |  | general |  |  |  |  | yes | current_main_tex |
 | `可` | `poss` | `poss(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `玄` | `profund` | `profund(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `卜` | `prognosc` | `prognosc(ere)` | (in 鼑) | only_in | 鼑 |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -211,6 +216,7 @@
 | `屵` | `rup` | `rup(es)` |  | general |  |  |  |  | yes | current_main_tex |
 | `矢` | `sagit` | `sagit(ta)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鹵` | `sal` | `sal(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `㯻` | `sac` | `sac(cus)` |  | general |  |  |  |  | yes | current_main_tex |
 | `血` | `sangu` | `sangu(is)` | \item 章 sculp(ō) (in 贛) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `戊` | `secur` | `secur(is)` | (in 戚) | only_in | 戚 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `片` | `segm` | `segm(entum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

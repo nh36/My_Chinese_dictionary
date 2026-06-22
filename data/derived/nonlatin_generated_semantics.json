@@ -1,50 +1,16 @@
 {
   "summary": {
-    "case_count": 13,
-    "unique_component_count": 13,
+    "case_count": 7,
+    "unique_component_count": 7,
     "by_classification": {
-      "research_compound_graph": 7,
-      "new_latin_label_needed": 6
+      "research_compound_graph": 3,
+      "new_latin_label_needed": 4
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 13
+      "wiktionary_component_literal_fallback": 7
     }
   },
   "cases": [
-    {
-      "entry_id": "02-17",
-      "character": "橐",
-      "abbreviation": "𣒚",
-      "semantic_component": "𣒚",
-      "position": "suffix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|ls=psc|石|𣒚|c1=p|c2=s|t2=bag with a bottom}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "bag with a bottom",
-      "semantic_component_ids": "𣒚",
-      "transliteration_latex": "{\\large{tak₂\\textsuperscript{˸\\raisebox{0.1ex}{\\includegraphics[height=1.6ex]{U+2349A.png}}}}},",
-      "render_latex": "橐\t%tuo2 / tuó\n{\\large{tak₂\\textsuperscript{˸\\raisebox{0.1ex}{\\includegraphics[height=1.6ex]{U+2349A.png}}}}},\n\\textit{thak};\t%0795p",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `𣒚` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
-    {
-      "entry_id": "02-17",
-      "character": "蠹",
-      "abbreviation": "䖵",
-      "semantic_component": "䖵",
-      "position": "suffix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|ls=psc|橐|䖵|c1=p|c2=s|t2=insect}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "insect",
-      "semantic_component_ids": "⿰虫虫",
-      "transliteration_latex": "{\\large{t\\textoverset{a}{a}k\\textsuperscript{˸䖵}}},",
-      "render_latex": "蠹\t%du4 / dù\n{\\large{t\\textoverset{a}{a}k\\textsuperscript{˸䖵}}},\n\\textit{tuH};\t%0795r",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `䖵` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
     {
       "entry_id": "03-24",
       "character": "皇",
@@ -61,40 +27,6 @@
       "render_latex": "皇\t%huang2 / huáng\n{\\large{\\textsuperscript{𤼽˸}quaṅ}},\n\\textit{hwaṅ};\t%0708a",
       "classification": "research_compound_graph",
       "proposal": "Investigate whether `𤼽` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
-    {
-      "entry_id": "03-32",
-      "character": "尚",
-      "abbreviation": "八",
-      "semantic_component": "八",
-      "position": "prefix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|八|向|ls=psc|c1=s|c2=p}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "八",
-      "transliteration_latex": "{\\large{\\textsuperscript{八˸}taṅ}},",
-      "render_latex": "尚\t%shang4 / shàng\n{\\large{\\textsuperscript{八˸}taṅ}},\n\\textit{jiaṅH};\t%0725a",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `八` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
-    },
-    {
-      "entry_id": "03-42",
-      "character": "囊",
-      "abbreviation": "㯻",
-      "semantic_component": "㯻",
-      "position": "prefix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|㯻|襄|ls=psc|c1=s|c2=p|t1=bag|abb1=y|abb2=y|nocap=y}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": "bag",
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿱⿳⿻一中冖豕木",
-      "transliteration_latex": "{\\large{\\textsuperscript{㯻˸}naṅ}},",
-      "render_latex": "囊\t%nang2 / náng\n{\\large{\\textsuperscript{㯻˸}naṅ}},\n\\textit{naṅ};\t%0730l",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `㯻` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
     },
     {
       "entry_id": "03-49",
@@ -148,23 +80,6 @@
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
-      "entry_id": "05-16",
-      "character": "弒",
-      "abbreviation": "殺",
-      "semantic_component": "殺",
-      "position": "prefix-dot",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|ls=psc|殺|式|c1=s|abb1=1|t1=to kill|c2=p}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": "to kill",
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿰杀殳",
-      "transliteration_latex": "{\\large{\\textsuperscript{殺·}lyk₂}},",
-      "render_latex": "弒\t%shi4 / shì\n{\\large{\\textsuperscript{殺·}lyk₂}},\n\\textit{śiH};\t%0918o",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `殺` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
-    {
       "entry_id": "12-10",
       "character": "庸",
       "abbreviation": "庚",
@@ -180,23 +95,6 @@
       "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{庚·}loṅ}},\n\\textit{yiəwṅ};\t%1185x",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `庚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
-    },
-    {
-      "entry_id": "21-01",
-      "character": "曷",
-      "abbreviation": "曰",
-      "semantic_component": "曰",
-      "position": "suffix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|ls=psc|匃|曰|c1=p|c2=s}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "曰",
-      "transliteration_latex": "{\\large{kat\\textsuperscript{˸曰}}},",
-      "render_latex": "曷\t%he2 / hé\n{\\large{kat\\textsuperscript{˸曰}}},\n\\textit{hat};\t%0313d",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `曰` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "33-05",
@@ -235,48 +133,6 @@
   ],
   "components": [
     {
-      "semantic_component": "㯻",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `㯻` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿱⿳⿻一中冖豕木",
-      "template_alt_graph": null,
-      "template_gloss_primary": "bag",
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "03-42",
-          "character": "囊",
-          "position": "prefix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "䖵",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `䖵` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿰虫虫",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "insect",
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "02-17",
-          "character": "蠹",
-          "position": "suffix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
       "semantic_component": "一",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -293,27 +149,6 @@
           "entry_id": "04-61",
           "character": "丕",
           "position": "suffix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "八",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `八` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "八",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "03-32",
-          "character": "尚",
-          "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
@@ -398,69 +233,6 @@
           "entry_id": "12-10",
           "character": "庸",
           "position": "prefix-dot",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "曰",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `曰` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "曰",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "21-01",
-          "character": "曷",
-          "position": "suffix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "殺",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `殺` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿰杀殳",
-      "template_alt_graph": null,
-      "template_gloss_primary": "to kill",
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "05-16",
-          "character": "弒",
-          "position": "prefix-dot",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "𣒚",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `𣒚` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "𣒚",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "bag with a bottom",
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "02-17",
-          "character": "橐",
-          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
