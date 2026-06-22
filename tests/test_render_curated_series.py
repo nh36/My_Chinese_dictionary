@@ -37,6 +37,33 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         self.assertNotIn("\\begin{multicols}{2}", rendered)
         self.assertIn("\\textit{kak};", rendered)
 
+    def test_render_existing_addendum_entry_does_not_repeat_heading(self) -> None:
+        entry = {
+            "id": "01-42",
+            "packet_kind": "existing_addendum",
+            "tex_entry": {
+                "head": {"raw": r"\huge{余}"},
+                "raw_block": "\\paragraph{\\textoversetlarge{01-42}{\\huge{余}}}\n{\\large{la}},\n\\textit{yiə};\n",
+            },
+            "entry_hierarchy": {"nodes": []},
+            "proposed_additions": [
+                {
+                    "character": "敘",
+                    "mand2mc_rows": [{"pinyin": "xu4", "gsr": "0082o"}],
+                    "bs_gsr_rows": [],
+                    "mc_resolution": {"display_forms": ["ziəX"]},
+                    "transliteration_latex": r"{\large{la\textsuperscript{·fer}}},",
+                    "hierarchy_assignment": {"status": "assigned-to-top-level"},
+                }
+            ],
+        }
+
+        rendered = render_curated_series.render_curated_entry(entry)
+
+        self.assertEqual(rendered.count(r"\paragraph{\textoversetlarge{01-42}{\huge{余}}}"), 1)
+        self.assertIn("% Proposed additions from imported sources for 01-42", rendered)
+        self.assertIn("敘\t%xu4", rendered)
+
     def test_render_document(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             main_tex = Path(temp_dir) / "main.tex"

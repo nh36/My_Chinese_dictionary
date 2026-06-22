@@ -447,7 +447,6 @@ def render_missing_series_entry(entry: dict[str, Any]) -> str:
 def render_existing_addendum_entry(entry: dict[str, Any]) -> str:
     tex_entry = entry["tex_entry"]
     body_lines = [
-        build_existing_heading_line(entry),
         f"% Proposed additions from imported sources for {entry['id']}",
     ]
     hierarchy = entry.get("entry_hierarchy") or {}
