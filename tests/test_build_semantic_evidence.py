@@ -300,6 +300,30 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(candidate["transliteration_latex"], None)
         self.assertEqual(candidate["render_latex"], None)
 
+    def test_canonicalize_semantic_assignment_from_inventory_normalizes_side_form_component(self) -> None:
+        candidate = {
+            "character": "𠟍",
+            "semantic_assignment": {
+                "abbreviation": "cult",
+                "semantic_component": "刂",
+                "position": "suffix-dot",
+                "inventory_matches": [],
+            },
+            "transliteration_latex": r"{\large{toṅ\textsuperscript{·cult}}},",
+            "render_latex": r"𠟍\n{\large{toṅ\textsuperscript{·cult}}},",
+        }
+        graph_lookup = {
+            "刀": [{"graph_raw": "刀", "label_token": "cult(er)", "abbreviation": "cult"}],
+        }
+
+        changed = build_semantic_evidence.canonicalize_semantic_assignment_from_inventory(candidate, graph_lookup)
+
+        self.assertTrue(changed)
+        self.assertEqual(candidate["semantic_assignment"]["semantic_component"], "刀")
+        self.assertEqual(candidate["semantic_assignment"]["abbreviation"], "cult")
+        self.assertEqual(candidate["transliteration_latex"], r"{\large{toṅ\textsuperscript{·cult}}},")
+        self.assertEqual(candidate["render_latex"], r"𠟍\n{\large{toṅ\textsuperscript{·cult}}},")
+
     def test_resolve_generated_node_root_adds_ab_display_root(self) -> None:
         candidate = {
             "character": "布",

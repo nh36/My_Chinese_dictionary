@@ -96,6 +96,41 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertEqual(integrated["placeholder_used_abbreviations"], {})
         self.assertEqual(integrated["missing_used_abbreviations"], [])
 
+    def test_recently_added_semantic_labels_are_used_in_live_entries(self) -> None:
+        integrated = json.loads(
+            (ROOT / "data/semantic_components/integrated_semantic_components.json").read_text(encoding="utf-8")
+        )
+        by_abbreviation = {
+            item.get("abbreviation"): item for item in integrated["items"] if item.get("abbreviation")
+        }
+        expected_inventory = {
+            "alut": "韋",
+            "biman": "廾",
+            "cad": "缶",
+            "fontan": "囟",
+            "caud": "尾",
+            "fabr": "工",
+            "ipse": "己",
+            "nex": "隶",
+            "iurg": "誩",
+            "splend": "晶",
+        }
+        for abbreviation, graph in expected_inventory.items():
+            self.assertIn(abbreviation, by_abbreviation)
+            self.assertEqual(by_abbreviation[abbreviation]["graph_raw"], graph)
+            self.assertTrue(by_abbreviation[abbreviation]["used_in_integrated_dictionary"])
+
+        usage = {abbreviation: [] for abbreviation in expected_inventory}
+        for path in (ROOT / "data/entries/curation").glob("*.json"):
+            entry = json.loads(path.read_text(encoding="utf-8"))
+            for candidate in entry.get("proposed_additions", []):
+                abbreviation = (candidate.get("semantic_assignment") or {}).get("abbreviation")
+                if abbreviation in usage:
+                    usage[abbreviation].append((entry["id"], candidate["character"]))
+
+        for abbreviation, hits in usage.items():
+            self.assertTrue(hits, msg=f"{abbreviation} is listed in the inventory but unused in curation data")
+
     def test_audit_output_confirms_bos_review_and_no_live_blocked_or_placeholder_usage(self) -> None:
         audit = json.loads(
             (ROOT / "data/semantic_components/semantic_label_normalization_audit.json").read_text(encoding="utf-8")

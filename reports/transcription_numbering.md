@@ -1,7 +1,7 @@
 # Transcription numbering
 
 - Mutable series/subseries roots inspected: 348
-- Roots whose display label changed after document-wide renumbering: 158
+- Roots whose display label changed after document-wide renumbering: 137
 - Duplicate phonetic bases encountered in document order: 89
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |

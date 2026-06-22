@@ -1045,9 +1045,12 @@ def canonicalize_semantic_assignment_from_inventory(
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> bool:
     semantic_assignment = candidate.get("semantic_assignment") or {}
-    semantic_component = normalize_component_graph(semantic_assignment.get("semantic_component"))
+    raw_semantic_component = semantic_assignment.get("semantic_component")
+    semantic_component = normalize_component_graph(raw_semantic_component)
     if not semantic_component:
         return False
+    component_changed = raw_semantic_component != semantic_component
+    semantic_assignment["semantic_component"] = semantic_component
     inventory_matches = graph_lookup.get(semantic_component, [])
     if not inventory_matches:
         return False
@@ -1057,7 +1060,7 @@ def canonicalize_semantic_assignment_from_inventory(
     if semantic_assignment.get("abbreviation") == canonical_abbreviation:
         semantic_assignment["inventory_matches"] = inventory_matches
         candidate["semantic_assignment"] = semantic_assignment
-        return False
+        return component_changed
     semantic_assignment["abbreviation"] = canonical_abbreviation
     semantic_assignment["inventory_matches"] = inventory_matches
     candidate["semantic_assignment"] = semantic_assignment
