@@ -59,10 +59,13 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("晶", "splend"), rows)
         self.assertIn(("辛", "acr"), rows)
         self.assertIn(("臤", "firm"), rows)
+        self.assertIn(("庚", "flagell"), rows)
+        self.assertIn(("嗇", "frug"), rows)
         self.assertIn(("鼠", "rod"), rows)
         self.assertIn(("矛", "iacul"), rows)
         self.assertIn(("匚", "caps"), rows)
         self.assertIn(("缶", "cad"), rows)
+        self.assertIn(("𤼽", "coron"), rows)
         self.assertIn(("尢", "claud"), rows)
         self.assertIn(("尾", "caud"), rows)
         self.assertIn(("囟", "fontan"), rows)
@@ -193,6 +196,9 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
             "insect": "䖵",
             "occid": "殺",
             "foll": "𣒚",
+            "frug": "嗇",
+            "coron": "𤼽",
+            "flagell": "庚",
         }
         for abbreviation, graph in expected_inventory.items():
             self.assertIn(abbreviation, by_abbreviation)

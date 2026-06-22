@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-22T11:50:39.665288+00:00
+- Generated at: 2026-06-22T12:40:12.044225+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 12861
+- Total occurrences audited: 12863
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 12764 |
+| `canonical` | 12774 |
 | `explicit_alias` | 63 |
-| `needs_review` | 34 |
+| `needs_review` | 26 |
 
 ## Blocked ambiguous aliases
 
@@ -422,9 +422,6 @@ Watched tokens with no current heuristic match: `can`
 
 | Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `curation_json` | `03-49` | `牆` | `嗇` | render_latex, transliteration_latex | `嗇` | `⿰爿嗇` | `牆	%qiang2
-{\large{tsaṅ₂\textsuperscript{·嗇}}},
-\textit{dziaṅ};	%0727j` |
 | `curation_json` | `03-57` | `旁` | `同` | render_latex, transliteration_latex | `同` | `⿱⿱⿱亠丷冖方` | `旁	%pang2 / bang1 / páng
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
@@ -432,15 +429,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `04-61` | `丕` | `一` | render_latex, transliteration_latex | `一` | `⿱不一` | `丕	%pi1 / pī
 {\large{py\textsuperscript{˸一}}},
 \textit{phiy};	%0999k` |
-| `curation_json` | `12-10` | `庸` | `庚` | render_latex, transliteration_latex | `庚` | `⿸广𬎾` | `庸	%yong1
-{\large{\textsuperscript{庚·}loṅ}},
-\textit{yiəwṅ};	%1185x` |
 | `curation_json` | `36-14` | `燅` | `坴` | render_latex, transliteration_latex | `坴` | `⿰坴炎` | `燅	%qian2
 {\large{\textsuperscript{坴·}qam}},
 \textit{ziem};	%0617h` |
-| `integrated_series_curated_entry` | `03-49` | `牆` | `嗇` | render_latex, transliteration_latex | `嗇` | `⿰爿嗇` | `牆	%qiang2
-{\large{tsaṅ₂\textsuperscript{·嗇}}},
-\textit{dziaṅ};	%0727j` |
 | `integrated_series_curated_entry` | `03-57` | `旁` | `同` | render_latex, transliteration_latex | `同` | `⿱⿱⿱亠丷冖方` | `旁	%pang2 / bang1 / páng
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
@@ -448,25 +439,18 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `04-61` | `丕` | `一` | render_latex, transliteration_latex | `一` | `⿱不一` | `丕	%pi1 / pī
 {\large{py\textsuperscript{˸一}}},
 \textit{phiy};	%0999k` |
-| `integrated_series_curated_entry` | `12-10` | `庸` | `庚` | render_latex, transliteration_latex | `庚` | `⿸广𬎾` | `庸	%yong1
-{\large{\textsuperscript{庚·}loṅ}},
-\textit{yiəwṅ};	%1185x` |
 | `integrated_series_curated_entry` | `36-14` | `燅` | `坴` | render_latex, transliteration_latex | `坴` | `⿰坴炎` | `燅	%qian2
 {\large{\textsuperscript{坴·}qam}},
 \textit{ziem};	%0617h` |
-| `validation_tex` | `` | `` | `嗇` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·嗇}}},` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
 | `validation_tex` | `` | `` | `一` | line | `` | `` | `{\large{py\textsuperscript{˸一}}},` |
-| `validation_tex` | `` | `` | `庚` | line | `` | `` | `{\large{\textsuperscript{庚·}loṅ}},` |
 | `validation_tex` | `` | `` | `坴` | line | `` | `` | `{\large{\textsuperscript{坴·}qam}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
-| `validation_tex` | `` | `` | `嗇` | line | `` | `` | `{\large{tsaṅ₂\textsuperscript{·嗇}}},` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
 | `validation_tex` | `` | `` | `一` | line | `` | `` | `{\large{py\textsuperscript{˸一}}},` |
-| `validation_tex` | `` | `` | `庚` | line | `` | `` | `{\large{\textsuperscript{庚·}loṅ}},` |
 | `validation_tex` | `` | `` | `dic.` | line | `` | `` | `\item 諫 kaenH < *k\textsuperscript{ˤ}r[a]nʔ-s = \textsuperscript{dic.}Kren` |
 | `validation_tex` | `` | `` | `man.` | line | `` | `` | `\item 揀 keanX < *k\textsuperscript{ˤ}r[a]nʔ = \textsuperscript{man.}Kren` |
 | `validation_tex` | `` | `` | `aq.` | line | `` | `` | `\item 瀾 lan, lanH < *[r]\textsuperscript{ˤ}anʔ = \textsuperscript{aq.}ran` |

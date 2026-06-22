@@ -49,13 +49,10 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
                 "一",
                 "同",
                 "坴",
-                "庚",
-                "嗇",
-                "𤼽",
                 "𦰩",
             },
         )
-        self.assertEqual(inventory["summary"]["case_count"], 7)
+        self.assertEqual(inventory["summary"]["case_count"], 4)
 
 
 if __name__ == "__main__":

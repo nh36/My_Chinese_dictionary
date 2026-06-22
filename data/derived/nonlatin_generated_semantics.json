@@ -1,50 +1,16 @@
 {
   "summary": {
-    "case_count": 7,
-    "unique_component_count": 7,
+    "case_count": 4,
+    "unique_component_count": 4,
     "by_classification": {
-      "research_compound_graph": 3,
-      "new_latin_label_needed": 4
+      "new_latin_label_needed": 3,
+      "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 7
+      "wiktionary_component_literal_fallback": 4
     }
   },
   "cases": [
-    {
-      "entry_id": "03-24",
-      "character": "皇",
-      "abbreviation": "𤼽",
-      "semantic_component": "𤼽",
-      "position": "prefix-colon",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|𤼽|王|ls=psc|c1=s|c2=p|nocap=y|tr=*wˤaŋ|tr2=*waŋ}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿱白丨",
-      "transliteration_latex": "{\\large{\\textsuperscript{𤼽˸}quaṅ}},",
-      "render_latex": "皇\t%huang2 / huáng\n{\\large{\\textsuperscript{𤼽˸}quaṅ}},\n\\textit{hwaṅ};\t%0708a",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `𤼽` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
-    {
-      "entry_id": "03-49",
-      "character": "牆",
-      "abbreviation": "嗇",
-      "semantic_component": "嗇",
-      "position": "suffix-dot",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|爿|嗇|c1=p|c2=s|t2=wheat in a granary|ls=psc}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "wheat in a granary",
-      "semantic_component_ids": "⿱⿻土从回",
-      "transliteration_latex": "{\\large{tsaṅ₂\\textsuperscript{·嗇}}},",
-      "render_latex": "牆\t%qiang2\n{\\large{tsaṅ₂\\textsuperscript{·嗇}}},\n\\textit{dziaṅ};\t%0727j",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `嗇` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
-    },
     {
       "entry_id": "03-57",
       "character": "旁",
@@ -78,23 +44,6 @@
       "render_latex": "丕\t%pi1 / pī\n{\\large{py\\textsuperscript{˸一}}},\n\\textit{phiy};\t%0999k",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
-    },
-    {
-      "entry_id": "12-10",
-      "character": "庸",
-      "abbreviation": "庚",
-      "semantic_component": "庚",
-      "position": "prefix-dot",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|庚|同|c1=s|c2=p|abb1=y|ls=psc|ls2=ic|tr2=*lˤoŋ}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿸广⿻⿻コ一人",
-      "transliteration_latex": "{\\large{\\textsuperscript{庚·}loṅ}},",
-      "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{庚·}loṅ}},\n\\textit{yiəwṅ};\t%1185x",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `庚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "33-05",
@@ -175,27 +124,6 @@
       ]
     },
     {
-      "semantic_component": "嗇",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `嗇` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿱⿻土从回",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": "wheat in a granary",
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "03-49",
-          "character": "牆",
-          "position": "suffix-dot",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
       "semantic_component": "坴",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `坴` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -212,48 +140,6 @@
           "entry_id": "36-14",
           "character": "燅",
           "position": "prefix-dot",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "庚",
-      "classification": "new_latin_label_needed",
-      "proposal": "Keep `庚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿸广⿻⿻コ一人",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "12-10",
-          "character": "庸",
-          "position": "prefix-dot",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "𤼽",
-      "classification": "research_compound_graph",
-      "proposal": "Investigate whether `𤼽` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label.",
-      "target_graph": null,
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿱白丨",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "03-24",
-          "character": "皇",
-          "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

@@ -2,8 +2,8 @@
 
 - Source: `main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Items: 223
-- Unique abbreviations: 221
+- Items: 226
+- Unique abbreviations: 224
 - Unresolved items: 0
 
 | Lines | Graph | Abbreviation | Label token | Notes | Scope | Only in | Duplicate graph | Note | Comments |
@@ -56,178 +56,181 @@
 | 237-237 | `丘/丠` | `coll` | `coll(is)` |  | general |  |  |  |  |
 | 238-238 | `貝` | `conch` | `conch(a)` |  | general |  |  |  |  |
 | 239-239 | `心` | `cor` | `cor` |  | general |  |  |  |  |
-| 240-243 | `革` | `cori` | `cori(um)` |  | general |  |  |  | (gé) - / (leather, to reform, to revolutionize) |
-| 244-244 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  |
-| 245-245 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  |
-| 246-246 | `尾` | `caud` | `caud(a)` |  | general |  |  |  |  |
-| 247-247 | `髟` | `crin` | `crin(is)` |  | general |  |  |  |  |
-| 248-248 | `刀` | `cult` | `cult(er)` |  | general |  |  |  |  |
-| 249-249 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  |
-| 250-250 | `鬼` | `daemon` | `daemon` |  | general |  |  |  |  |
-| 251-251 | `欠` | `dehab` | `dehab(eo)` |  | general |  |  |  |  |
-| 252-252 | `去` | `depart` | `depart(ire)` |  | general |  |  |  |  |
-| 253-253 | `齒` | `dent` | `(dens), dent(is)` |  | general |  |  |  |  |
-| 254-254 | `又` | `dextr` | `dextr(a)` |  | general |  |  |  |  |
-| 255-255 | `言` | `dic` | `dic(o)` |  | general |  |  |  |  |
-| 256-256 | `音` | `son` | `son(us)` |  | general |  |  |  |  |
-| 257-257 | `寸` | `digit` | `digit(us)` |  | general |  |  |  |  |
-| 258-258 | `舍` | `dom` | `dom(us)` |  | general |  |  |  |  |
-| 259-259 | `龍` | `dracon` | `(draco), dracon(is)` | (in 龏) | only_in | 龏 |  |  |  |
-| 260-260 | `甘` | `dulc` | `dulc(is)` | (in 甞) | only_in | 甞 |  |  |  |
-| 261-261 | `八` | `dvid` | `dvid(o)` |  | general |  |  |  |  |
-| 262-262 | `食` | `ed` | `ed(o)` |  | general |  |  |  |  |
-| 263-263 | `行` | `eo` | `eo` |  | general |  |  |  |  |
-| 264-266 | `象` | `elephant` | `elephant(us)` |  | general |  |  |  | (xiàng) - |
-| 267-267 | `馬` | `equ` | `equ(us)` |  | general |  |  |  |  |
-| 268-268 | `出` | `ex` | `ex(ire)` |  | general |  |  |  |  |
-| 269-269 | `工` | `fabr` | `fabr(ica)` |  | general |  |  |  |  |
-| 270-270 | `頁` | `fac` | `fac(ies)` |  | general |  |  |  |  |
-| 271-271 | `女` | `fem` | `fem(ina)` |  | general |  |  |  |  |
-| 272-272 | `攴` | `fer` | `fer(io)` |  | general |  |  |  |  |
-| 273-273 | `勹` | `flect` | `flect(o)` |  | general |  |  |  |  |
-| 274-274 | `子` | `fili` | `fili(us)` |  | general |  |  |  |  |
-| 275-275 | `臤` | `firm` | `firm(us)` |  | general |  |  |  |  |
-| 276-276 | `炎` | `flamm` | `flamm(a)` |  | general |  |  |  |  |
-| 277-277 | `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  |
-| 278-278 | `𣒚` | `foll` | `foll(is)` |  | general |  |  |  |  |
-| 279-279 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  |
-| 280-280 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  |
-| 281-281 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  |
-| 282-282 | `仌` | `glac` | `glac(ies)` |  | general |  |  |  |  |
-| 283-283 | `玉` | `gem` | `gem(ma)` |  | general |  |  |  |  |
-| 284-284 | `屮` | `germ` | `germ(en)` |  | general |  |  |  |  |
-| 285-285 | `癶` | `grad` | `grad(us)` |  | general |  |  |  |  |
-| 286-286 | `禾` | `gran` | `gran(um)` |  | general |  |  |  |  |
-| 287-287 | `㐭` | `granar` | `granar(ium)` |  | general |  |  |  |  |
-| 288-288 | `犛` | `grunn` | `(bos) grunn(iens)` | (only in 斄) | only_in | 斄 |  |  |  |
-| 289-289 | `旨` | `gust` | `gust(us)` | (in 嘗) | only_in | 嘗 |  |  |  |
-| 290-290 | `戈` | `hallebard` | `hallebard(a)` |  | general |  |  |  |  |
-| 291-291 | `殳` | `hast` | `hast(a)` |  | general |  |  |  |  |
-| 292-292 | `艸` | `herb` | `herb(a)` |  | general |  |  |  |  |
-| 293-293 | `人` | `hom` | `hom(o)` |  | general |  |  |  |  |
-| 294-294 | `矛` | `iacul` | `iacul(um)` |  | general |  |  |  |  |
-| 295-295 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  |
-| 296-297 | `疒` | `infirm` | `infirm(itas)` |  | general |  |  |  | (recovered from entry usage) |
-| 298-298 | `入` | `intro` | `intro` |  | general |  |  |  |  |
-| 299-299 | `己` | `ipse` | `ipse` |  | general |  |  |  |  |
-| 300-300 | `兮` | `io` | `io` |  | general |  |  |  |  |
-| 301-301 | `誩` | `iurg` | `iurg(ium)` |  | general |  |  |  |  |
-| 302-302 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  |
-| 303-303 | `石` | `lap` | `lap(is)` |  | general |  |  |  |  |
-| 304-304 | `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  |
-| 305-305 | `广` | `lax` | `lax(us)` |  | general |  |  |  |  |
-| 306-306 | `斤` | `libra` | `libra` |  | general |  |  |  |  |
-| 307-307 | `系` | `lig` | `lig(amen)` |  | general |  |  |  |  |
-| 308-308 | `舌` | `lingu` | `lingu(a)` |  | general |  |  |  |  |
-| 309-309 | `巾` | `lint` | `lint(eum)` |  | general |  |  |  |  |
-| 310-310 | `月` | `luna` | `luna` |  | general |  |  |  |  |
-| 311-311 | `光` | `lux` | `lux` |  | general |  |  |  |  |
-| 312-312 | `大` | `magn` | `magn(us)` |  | general |  |  |  |  |
-| 313-313 | `歹` | `mal` | `mal(us)` |  | general |  |  |  |  |
-| 314-314 | `手` | `man` | `man(us)` |  | general |  |  |  |  |
-| 315-315 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  |
-| 316-316 | `午` | `meridi` | `meridi(es)` |  | general |  |  |  |  |
-| 317-317 | `金` | `met` | `met(allum)` |  | general |  |  |  |  |
-| 318-318 | `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  |
-| 319-319 | `臣` | `ministr` | `ministr(er)` |  | general |  |  |  |  |
-| 320-320 | `牙` | `molar` | `molar(is dens)` |  | general |  |  |  |  |
-| 321-321 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  |
-| 322-322 | `死` | `mort` | `mort(uus)` |  | general |  |  |  |  |
-| 323-323 | `鼠` | `rod` | `rod(entia)` |  | general |  |  |  |  |
-| 324-324 | `䖵` | `insect` | `insect(a)` |  | general |  |  |  |  |
-| 325-325 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  |
-| 326-326 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  |
-| 327-327 | `隶` | `nex` | `nex(us)` |  | general |  |  |  |  |
-| 328-328 | `非` | `ne` | `ne` |  | general |  |  |  |  |
-| 329-329 | `舟` | `nav` | `nav(is)` |  | general |  |  |  |  |
-| 330-330 | `黑` | `niger` | `niger` |  | general |  |  |  |  |
-| 331-331 | `雲` | `nimb` | `nimb(us)` |  | general |  |  |  |  |
-| 332-332 | `旡` | `non` | `non` |  | general |  |  |  |  |
-| 333-333 | `監` | `observ` | `observ(o)` |  | general |  |  |  |  |
-| 334-334 | `舛` | `obs` | `obs(isto)` |  | general |  |  |  |  |
-| 335-335 | `目` | `ocul` | `ocul(us)` |  | general |  |  |  |  |
-| 336-336 | `鬲` | `olla` | `olla` |  | general |  |  |  |  |
-| 337-337 | `米` | `oryz` | `oryz(a)` |  | general |  |  |  |  |
-| 338-338 | `口` | `or` | `(os,) or(is)` |  | general |  |  |  |  |
-| 339-339 | `骨` | `oss` | `(os,) oss(is)` |  | general |  |  |  |  |
-| 340-340 | `戶` | `ost` | `ost(ium)` |  | general |  |  |  |  |
-| 341-341 | `羊` | `ov` | `ov(is)` |  | general |  |  |  |  |
-| 342-342 | `帛` | `pann` | `pann(us)` |  | general |  |  |  |  |
-| 343-343 | `宮` | `palat` | `palat(ium)` |  | general |  |  |  |  |
-| 344-344 | `幺` | `parv` | `parv(us)` |  | general |  |  |  |  |
-| 345-345 | `亠` | `pav` | `pav(ilio)` |  | general |  |  |  |  |
-| 346-346 | `步` | `pass` | `pass(us)` |  | general |  |  |  |  |
-| 347-347 | `隹` | `passer` | `passer` |  | general |  |  |  |  |
-| 348-348 | `足` | `ped` | `(pes,) ped(is)` |  | general |  |  |  |  |
-| 349-349 | `皮` | `pell` | `pell(is)` | (in 皽) | only_in | 皽 |  |  |  |
-| 350-350 | `毛` | `pil` | `pil(us)` |  | general |  |  |  |  |
-| 351-351 | `冃` | `pile` | `pile(us)` |  | general |  |  |  |  |
-| 352-352 | `聿` | `pincern` | `pincern(a)` |  | general |  |  |  |  |
-| 353-353 | `魚` | `pis` | `pis(cis)` |  | general |  |  |  |  |
-| 354-354 | `民` | `pleb` | `pleb(s)` |  | general |  |  |  |  |
-| 355-355 | `羽` | `plum` | `plum(a)` |  | general |  |  |  |  |
-| 356-356 | `雨` | `pluv` | `pluv(ia)` |  | general |  |  |  |  |
-| 357-357 | `豕` | `porc` | `porc(us)` |  | general |  |  |  |  |
-| 358-358 | `韭` | `porr` | `porr(um)` |  | general |  |  |  |  |
-| 359-359 | `門` | `port` | `port(a)` |  | general |  |  |  |  |
-| 360-360 | `殺` | `occid` | `occid(o)` |  | general |  |  |  |  |
-| 361-361 | `可` | `poss` | `poss(um)` |  | general |  |  |  |  |
-| 362-362 | `玄` | `profund` | `profund(us)` |  | general |  |  |  |  |
-| 363-363 | `卜` | `prognosc` | `prognosc(ere)` | (in 鼑) | only_in | 鼑 |  |  |  |
-| 364-364 | `廴` | `progred` | `progred(ior)` | (in 廷) | only_in | 廷 |  |  |  |
-| 365-365 | `鬥` | `pugn` | `pugn(a)` |  | general |  |  |  |  |
-| 366-366 | `方` | `quadr` | `quadr(us)` |  | general |  |  |  |  |
-| 367-367 | `支` | `ram` | `ram(us)` |  | general |  |  |  |  |
-| 368-368 | `反` | `revers` | `revers(us)` |  | general |  |  |  |  |
-| 369-369 | `赤` | `ruf` | `ruf(us)` |  | general |  |  |  |  |
-| 370-370 | `屵` | `rup` | `rup(es)` |  | general |  |  |  |  |
-| 371-371 | `矢` | `sagit` | `sagit(ta)` |  | general |  |  |  |  |
-| 372-372 | `鹵` | `sal` | `sal(is)` |  | general |  |  |  |  |
-| 373-373 | `㯻` | `sac` | `sac(cus)` |  | general |  |  |  |  |
-| 374-375 | `血` | `sangu` | `sangu(is)` |  | general |  |  |  | \item 章 sculp(ō) (in 贛) |
-| 376-376 | `戊` | `secur` | `secur(is)` | (in 戚) | only_in | 戚 |  |  |  |
-| 377-377 | `片` | `segm` | `segm(entum)` |  | general |  |  |  |  |
-| 378-378 | `老` | `sen` | `sen(ex)` |  | general |  |  |  |  |
-| 379-379 | `糸` | `ser` | `ser(icum)` |  | general |  |  |  |  |
-| 380-380 | `虫` | `serp` | `serp(ens)` |  | general |  |  |  |  |
-| 381-382 | `林` | `silv` | `silv(a)` |  | general |  |  |  | (lín) - / (forest) |
-| 383-383 | `日` | `sol` | `sol` |  | general |  |  |  |  |
-| 384-384 | `卩` | `sign` | `sign(o)` |  | general |  |  |  |  |
-| 385-387 | `㝱` | `somn` | `somn(ium)` |  | general |  |  |  | (méi) - |
-| 388-388 | `晶` | `splend` | `splend(or)` |  | general |  |  |  |  |
-| 389-389 | `音` | `son` | `son(us)` |  | general |  |  |  |  |
-| 390-390 | `示` | `spirit` | `spirit(us)` |  | general |  |  |  |  |
-| 391-391 | `立` | `sto` | `sto` |  | general |  |  |  |  |
-| 392-392 | `鼓` | `tabur` | `tabur` | (only in 鼛?) | only_in | 鼛? |  |  |  |
-| 393-393 | `宀` | `tect` | `tect(um)` |  | general |  |  |  |  |
-| 394-394 | `瓦` | `teg` | `teg(ula)` |  | general |  |  |  |  |
-| 395-395 | `亯` | `templ` | `templ(um)` | (in 䈞) | only_in | 䈞 |  |  |  |
-| 396-396 | `丮` | `ten` | `ten(eo)` |  | general |  |  |  |  |
-| 397-397 | `申` | `tend` | `tend(o)` |  | general |  |  |  |  |
-| 398-398 | `土` | `terr` | `terr(a)` |  | general |  |  |  |  |
-| 399-399 | `龠` | `tibia` | `tibia` |  | general |  |  |  |  |
-| 400-403 | `虍` | `tigr` | `tigr(is)` |  | general |  |  |  | (hū) - / (tiger) |
-| 404-404 | `鼎` | `trip` | `trip(us)` |  | general |  |  |  |  |
-| 405-408 | `斗` | `trull` | `trull(a)` |  | general |  |  |  | (dǒu) - / (dipper, ladle) |
-| 409-409 | `乑` | `turb` | `turb(a)` |  | general |  |  |  |  |
-| 410-412 | `爾` | `tu` | `tu` |  | general |  |  |  | (you, your) |
-| 413-413 | `阜` | `tum` | `tum(ulus)` |  | general |  |  |  |  |
-| 414-416 | `壴` | `tympan` | `tympan(um)` |  | general |  |  |  | (zhù) - |
-| 417-417 | `邑` | `urb` | `urb(s)` |  | general |  |  |  |  |
-| 418-418 | `熊` | `urs` | `urs(us)` |  | general |  |  |  |  |
-| 419-419 | `箕` | `vann` | `vann(us)` |  | general |  |  |  |  |
-| 420-420 | `气` | `vapor` | `vapor` |  | general |  |  |  |  |
-| 421-421 | `皿` | `vas` | `vas(um)` |  | general |  |  |  |  |
-| 422-422 | `車` | `vehic` | `vehic(ulum)` |  | general |  |  |  |  |
-| 423-423 | `來` | `veni` | `veni(ō)` |  | general |  |  |  |  |
-| 424-424 | `胃` | `ventri` | `ventri(culus)` |  | general |  |  |  |  |
-| 425-425 | `風` | `vent` | `vent(us)` |  | general |  |  |  |  |
-| 426-426 | `衣` | `vest` | `vest(imentum)` |  | general |  |  |  |  |
-| 427-427 | `夂` | `vestig` | `vestig(ium)` |  | general |  |  |  |  |
-| 428-428 | `㫃` | `vex` | `vex(illum)` |  | general |  |  |  |  |
-| 429-429 | `里` | `vic` | `vic(us)` |  | general |  |  |  |  |
-| 430-430 | `見` | `vid` | `vid(eo)` |  | general |  |  |  |  |
-| 431-431 | `酉` | `vin` | `vin(um)` |  | general |  |  |  |  |
-| 432-432 | `士` | `vir` | `vir` |  | general |  |  |  |  |
-| 433-433 | `力` | `virt` | `virt(us)` |  | general |  |  |  |  |
-| 434-434 | `面` | `vult` | `vult(us)` |  | general |  |  |  |  |
+| 240-240 | `𤼽` | `coron` | `coron(a)` |  | general |  |  |  |  |
+| 241-244 | `革` | `cori` | `cori(um)` |  | general |  |  |  | (gé) - / (leather, to reform, to revolutionize) |
+| 245-245 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  |
+| 246-246 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  |
+| 247-247 | `尾` | `caud` | `caud(a)` |  | general |  |  |  |  |
+| 248-248 | `髟` | `crin` | `crin(is)` |  | general |  |  |  |  |
+| 249-249 | `刀` | `cult` | `cult(er)` |  | general |  |  |  |  |
+| 250-250 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  |
+| 251-251 | `鬼` | `daemon` | `daemon` |  | general |  |  |  |  |
+| 252-252 | `欠` | `dehab` | `dehab(eo)` |  | general |  |  |  |  |
+| 253-253 | `去` | `depart` | `depart(ire)` |  | general |  |  |  |  |
+| 254-254 | `齒` | `dent` | `(dens), dent(is)` |  | general |  |  |  |  |
+| 255-255 | `又` | `dextr` | `dextr(a)` |  | general |  |  |  |  |
+| 256-256 | `言` | `dic` | `dic(o)` |  | general |  |  |  |  |
+| 257-257 | `音` | `son` | `son(us)` |  | general |  |  |  |  |
+| 258-258 | `寸` | `digit` | `digit(us)` |  | general |  |  |  |  |
+| 259-259 | `舍` | `dom` | `dom(us)` |  | general |  |  |  |  |
+| 260-260 | `龍` | `dracon` | `(draco), dracon(is)` | (in 龏) | only_in | 龏 |  |  |  |
+| 261-261 | `甘` | `dulc` | `dulc(is)` | (in 甞) | only_in | 甞 |  |  |  |
+| 262-262 | `八` | `dvid` | `dvid(o)` |  | general |  |  |  |  |
+| 263-263 | `食` | `ed` | `ed(o)` |  | general |  |  |  |  |
+| 264-264 | `行` | `eo` | `eo` |  | general |  |  |  |  |
+| 265-267 | `象` | `elephant` | `elephant(us)` |  | general |  |  |  | (xiàng) - |
+| 268-268 | `馬` | `equ` | `equ(us)` |  | general |  |  |  |  |
+| 269-269 | `出` | `ex` | `ex(ire)` |  | general |  |  |  |  |
+| 270-270 | `工` | `fabr` | `fabr(ica)` |  | general |  |  |  |  |
+| 271-271 | `頁` | `fac` | `fac(ies)` |  | general |  |  |  |  |
+| 272-272 | `庚` | `flagell` | `flagell(um)` |  | general |  |  |  |  |
+| 273-273 | `女` | `fem` | `fem(ina)` |  | general |  |  |  |  |
+| 274-274 | `攴` | `fer` | `fer(io)` |  | general |  |  |  |  |
+| 275-275 | `勹` | `flect` | `flect(o)` |  | general |  |  |  |  |
+| 276-276 | `子` | `fili` | `fili(us)` |  | general |  |  |  |  |
+| 277-277 | `臤` | `firm` | `firm(us)` |  | general |  |  |  |  |
+| 278-278 | `炎` | `flamm` | `flamm(a)` |  | general |  |  |  |  |
+| 279-279 | `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  |
+| 280-280 | `𣒚` | `foll` | `foll(is)` |  | general |  |  |  |  |
+| 281-281 | `嗇` | `frug` | `frug(is)` |  | general |  |  |  |  |
+| 282-282 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  |
+| 283-283 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  |
+| 284-284 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  |
+| 285-285 | `仌` | `glac` | `glac(ies)` |  | general |  |  |  |  |
+| 286-286 | `玉` | `gem` | `gem(ma)` |  | general |  |  |  |  |
+| 287-287 | `屮` | `germ` | `germ(en)` |  | general |  |  |  |  |
+| 288-288 | `癶` | `grad` | `grad(us)` |  | general |  |  |  |  |
+| 289-289 | `禾` | `gran` | `gran(um)` |  | general |  |  |  |  |
+| 290-290 | `㐭` | `granar` | `granar(ium)` |  | general |  |  |  |  |
+| 291-291 | `犛` | `grunn` | `(bos) grunn(iens)` | (only in 斄) | only_in | 斄 |  |  |  |
+| 292-292 | `旨` | `gust` | `gust(us)` | (in 嘗) | only_in | 嘗 |  |  |  |
+| 293-293 | `戈` | `hallebard` | `hallebard(a)` |  | general |  |  |  |  |
+| 294-294 | `殳` | `hast` | `hast(a)` |  | general |  |  |  |  |
+| 295-295 | `艸` | `herb` | `herb(a)` |  | general |  |  |  |  |
+| 296-296 | `人` | `hom` | `hom(o)` |  | general |  |  |  |  |
+| 297-297 | `矛` | `iacul` | `iacul(um)` |  | general |  |  |  |  |
+| 298-298 | `火` | `ign` | `ign(is)` |  | general |  |  |  |  |
+| 299-300 | `疒` | `infirm` | `infirm(itas)` |  | general |  |  |  | (recovered from entry usage) |
+| 301-301 | `入` | `intro` | `intro` |  | general |  |  |  |  |
+| 302-302 | `己` | `ipse` | `ipse` |  | general |  |  |  |  |
+| 303-303 | `兮` | `io` | `io` |  | general |  |  |  |  |
+| 304-304 | `誩` | `iurg` | `iurg(ium)` |  | general |  |  |  |  |
+| 305-305 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  |
+| 306-306 | `石` | `lap` | `lap(is)` |  | general |  |  |  |  |
+| 307-307 | `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  |
+| 308-308 | `广` | `lax` | `lax(us)` |  | general |  |  |  |  |
+| 309-309 | `斤` | `libra` | `libra` |  | general |  |  |  |  |
+| 310-310 | `系` | `lig` | `lig(amen)` |  | general |  |  |  |  |
+| 311-311 | `舌` | `lingu` | `lingu(a)` |  | general |  |  |  |  |
+| 312-312 | `巾` | `lint` | `lint(eum)` |  | general |  |  |  |  |
+| 313-313 | `月` | `luna` | `luna` |  | general |  |  |  |  |
+| 314-314 | `光` | `lux` | `lux` |  | general |  |  |  |  |
+| 315-315 | `大` | `magn` | `magn(us)` |  | general |  |  |  |  |
+| 316-316 | `歹` | `mal` | `mal(us)` |  | general |  |  |  |  |
+| 317-317 | `手` | `man` | `man(us)` |  | general |  |  |  |  |
+| 318-318 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  |
+| 319-319 | `午` | `meridi` | `meridi(es)` |  | general |  |  |  |  |
+| 320-320 | `金` | `met` | `met(allum)` |  | general |  |  |  |  |
+| 321-321 | `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  |
+| 322-322 | `臣` | `ministr` | `ministr(er)` |  | general |  |  |  |  |
+| 323-323 | `牙` | `molar` | `molar(is dens)` |  | general |  |  |  |  |
+| 324-324 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  |
+| 325-325 | `死` | `mort` | `mort(uus)` |  | general |  |  |  |  |
+| 326-326 | `鼠` | `rod` | `rod(entia)` |  | general |  |  |  |  |
+| 327-327 | `䖵` | `insect` | `insect(a)` |  | general |  |  |  |  |
+| 328-328 | `鼻` | `nas` | `nas(um)` |  | general |  |  |  |  |
+| 329-329 | `网` | `nass` | `nass(a)` |  | general |  |  |  |  |
+| 330-330 | `隶` | `nex` | `nex(us)` |  | general |  |  |  |  |
+| 331-331 | `非` | `ne` | `ne` |  | general |  |  |  |  |
+| 332-332 | `舟` | `nav` | `nav(is)` |  | general |  |  |  |  |
+| 333-333 | `黑` | `niger` | `niger` |  | general |  |  |  |  |
+| 334-334 | `雲` | `nimb` | `nimb(us)` |  | general |  |  |  |  |
+| 335-335 | `旡` | `non` | `non` |  | general |  |  |  |  |
+| 336-336 | `監` | `observ` | `observ(o)` |  | general |  |  |  |  |
+| 337-337 | `舛` | `obs` | `obs(isto)` |  | general |  |  |  |  |
+| 338-338 | `目` | `ocul` | `ocul(us)` |  | general |  |  |  |  |
+| 339-339 | `鬲` | `olla` | `olla` |  | general |  |  |  |  |
+| 340-340 | `米` | `oryz` | `oryz(a)` |  | general |  |  |  |  |
+| 341-341 | `口` | `or` | `(os,) or(is)` |  | general |  |  |  |  |
+| 342-342 | `骨` | `oss` | `(os,) oss(is)` |  | general |  |  |  |  |
+| 343-343 | `戶` | `ost` | `ost(ium)` |  | general |  |  |  |  |
+| 344-344 | `羊` | `ov` | `ov(is)` |  | general |  |  |  |  |
+| 345-345 | `帛` | `pann` | `pann(us)` |  | general |  |  |  |  |
+| 346-346 | `宮` | `palat` | `palat(ium)` |  | general |  |  |  |  |
+| 347-347 | `幺` | `parv` | `parv(us)` |  | general |  |  |  |  |
+| 348-348 | `亠` | `pav` | `pav(ilio)` |  | general |  |  |  |  |
+| 349-349 | `步` | `pass` | `pass(us)` |  | general |  |  |  |  |
+| 350-350 | `隹` | `passer` | `passer` |  | general |  |  |  |  |
+| 351-351 | `足` | `ped` | `(pes,) ped(is)` |  | general |  |  |  |  |
+| 352-352 | `皮` | `pell` | `pell(is)` | (in 皽) | only_in | 皽 |  |  |  |
+| 353-353 | `毛` | `pil` | `pil(us)` |  | general |  |  |  |  |
+| 354-354 | `冃` | `pile` | `pile(us)` |  | general |  |  |  |  |
+| 355-355 | `聿` | `pincern` | `pincern(a)` |  | general |  |  |  |  |
+| 356-356 | `魚` | `pis` | `pis(cis)` |  | general |  |  |  |  |
+| 357-357 | `民` | `pleb` | `pleb(s)` |  | general |  |  |  |  |
+| 358-358 | `羽` | `plum` | `plum(a)` |  | general |  |  |  |  |
+| 359-359 | `雨` | `pluv` | `pluv(ia)` |  | general |  |  |  |  |
+| 360-360 | `豕` | `porc` | `porc(us)` |  | general |  |  |  |  |
+| 361-361 | `韭` | `porr` | `porr(um)` |  | general |  |  |  |  |
+| 362-362 | `門` | `port` | `port(a)` |  | general |  |  |  |  |
+| 363-363 | `殺` | `occid` | `occid(o)` |  | general |  |  |  |  |
+| 364-364 | `可` | `poss` | `poss(um)` |  | general |  |  |  |  |
+| 365-365 | `玄` | `profund` | `profund(us)` |  | general |  |  |  |  |
+| 366-366 | `卜` | `prognosc` | `prognosc(ere)` | (in 鼑) | only_in | 鼑 |  |  |  |
+| 367-367 | `廴` | `progred` | `progred(ior)` | (in 廷) | only_in | 廷 |  |  |  |
+| 368-368 | `鬥` | `pugn` | `pugn(a)` |  | general |  |  |  |  |
+| 369-369 | `方` | `quadr` | `quadr(us)` |  | general |  |  |  |  |
+| 370-370 | `支` | `ram` | `ram(us)` |  | general |  |  |  |  |
+| 371-371 | `反` | `revers` | `revers(us)` |  | general |  |  |  |  |
+| 372-372 | `赤` | `ruf` | `ruf(us)` |  | general |  |  |  |  |
+| 373-373 | `屵` | `rup` | `rup(es)` |  | general |  |  |  |  |
+| 374-374 | `矢` | `sagit` | `sagit(ta)` |  | general |  |  |  |  |
+| 375-375 | `鹵` | `sal` | `sal(is)` |  | general |  |  |  |  |
+| 376-376 | `㯻` | `sac` | `sac(cus)` |  | general |  |  |  |  |
+| 377-378 | `血` | `sangu` | `sangu(is)` |  | general |  |  |  | \item 章 sculp(ō) (in 贛) |
+| 379-379 | `戊` | `secur` | `secur(is)` | (in 戚) | only_in | 戚 |  |  |  |
+| 380-380 | `片` | `segm` | `segm(entum)` |  | general |  |  |  |  |
+| 381-381 | `老` | `sen` | `sen(ex)` |  | general |  |  |  |  |
+| 382-382 | `糸` | `ser` | `ser(icum)` |  | general |  |  |  |  |
+| 383-383 | `虫` | `serp` | `serp(ens)` |  | general |  |  |  |  |
+| 384-385 | `林` | `silv` | `silv(a)` |  | general |  |  |  | (lín) - / (forest) |
+| 386-386 | `日` | `sol` | `sol` |  | general |  |  |  |  |
+| 387-387 | `卩` | `sign` | `sign(o)` |  | general |  |  |  |  |
+| 388-390 | `㝱` | `somn` | `somn(ium)` |  | general |  |  |  | (méi) - |
+| 391-391 | `晶` | `splend` | `splend(or)` |  | general |  |  |  |  |
+| 392-392 | `音` | `son` | `son(us)` |  | general |  |  |  |  |
+| 393-393 | `示` | `spirit` | `spirit(us)` |  | general |  |  |  |  |
+| 394-394 | `立` | `sto` | `sto` |  | general |  |  |  |  |
+| 395-395 | `鼓` | `tabur` | `tabur` | (only in 鼛?) | only_in | 鼛? |  |  |  |
+| 396-396 | `宀` | `tect` | `tect(um)` |  | general |  |  |  |  |
+| 397-397 | `瓦` | `teg` | `teg(ula)` |  | general |  |  |  |  |
+| 398-398 | `亯` | `templ` | `templ(um)` | (in 䈞) | only_in | 䈞 |  |  |  |
+| 399-399 | `丮` | `ten` | `ten(eo)` |  | general |  |  |  |  |
+| 400-400 | `申` | `tend` | `tend(o)` |  | general |  |  |  |  |
+| 401-401 | `土` | `terr` | `terr(a)` |  | general |  |  |  |  |
+| 402-402 | `龠` | `tibia` | `tibia` |  | general |  |  |  |  |
+| 403-406 | `虍` | `tigr` | `tigr(is)` |  | general |  |  |  | (hū) - / (tiger) |
+| 407-407 | `鼎` | `trip` | `trip(us)` |  | general |  |  |  |  |
+| 408-411 | `斗` | `trull` | `trull(a)` |  | general |  |  |  | (dǒu) - / (dipper, ladle) |
+| 412-412 | `乑` | `turb` | `turb(a)` |  | general |  |  |  |  |
+| 413-415 | `爾` | `tu` | `tu` |  | general |  |  |  | (you, your) |
+| 416-416 | `阜` | `tum` | `tum(ulus)` |  | general |  |  |  |  |
+| 417-419 | `壴` | `tympan` | `tympan(um)` |  | general |  |  |  | (zhù) - |
+| 420-420 | `邑` | `urb` | `urb(s)` |  | general |  |  |  |  |
+| 421-421 | `熊` | `urs` | `urs(us)` |  | general |  |  |  |  |
+| 422-422 | `箕` | `vann` | `vann(us)` |  | general |  |  |  |  |
+| 423-423 | `气` | `vapor` | `vapor` |  | general |  |  |  |  |
+| 424-424 | `皿` | `vas` | `vas(um)` |  | general |  |  |  |  |
+| 425-425 | `車` | `vehic` | `vehic(ulum)` |  | general |  |  |  |  |
+| 426-426 | `來` | `veni` | `veni(ō)` |  | general |  |  |  |  |
+| 427-427 | `胃` | `ventri` | `ventri(culus)` |  | general |  |  |  |  |
+| 428-428 | `風` | `vent` | `vent(us)` |  | general |  |  |  |  |
+| 429-429 | `衣` | `vest` | `vest(imentum)` |  | general |  |  |  |  |
+| 430-430 | `夂` | `vestig` | `vestig(ium)` |  | general |  |  |  |  |
+| 431-431 | `㫃` | `vex` | `vex(illum)` |  | general |  |  |  |  |
+| 432-432 | `里` | `vic` | `vic(us)` |  | general |  |  |  |  |
+| 433-433 | `見` | `vid` | `vid(eo)` |  | general |  |  |  |  |
+| 434-434 | `酉` | `vin` | `vin(um)` |  | general |  |  |  |  |
+| 435-435 | `士` | `vir` | `vir` |  | general |  |  |  |  |
+| 436-436 | `力` | `virt` | `virt(us)` |  | general |  |  |  |  |
+| 437-437 | `面` | `vult` | `vult(us)` |  | general |  |  |  |  |

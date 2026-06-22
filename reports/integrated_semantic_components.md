@@ -3,9 +3,9 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 221
+- Integrated items: 224
 - Items present in both sources: 194
-- Current-only items: 27
+- Current-only items: 30
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
 - Blocked ambiguous aliases configured: 4
@@ -89,6 +89,7 @@
 | `丘/丠` | `coll` | `coll(is)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `貝` | `conch` | `conch(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `心` | `cor` | `cor` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `𤼽` | `coron` | `coron(a)` |  | general |  |  |  |  | yes | current_main_tex |
 | `革` | `cori` | `cori(um)` | (gé) - / (leather, to reform, to revolutionize) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -115,6 +116,7 @@
 | `出` | `ex` | `ex(ire)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `工` | `fabr` | `fabr(ica)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `頁` | `fac` | `fac(ies)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `庚` | `flagell` | `flagell(um)` |  | general |  |  |  |  | yes | current_main_tex |
 | `女` | `fem` | `fem(ina)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `攴` | `fer` | `fer(io)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `勹` | `flect` | `flect(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -123,6 +125,7 @@
 | `炎` | `flamm` | `flamm(a)` |  | general |  |  |  |  | yes | current_main_tex |
 | `川` | `fluvi` | `fluvi(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `𣒚` | `foll` | `foll(is)` |  | general |  |  |  |  | yes | current_main_tex |
+| `嗇` | `frug` | `frug(is)` |  | general |  |  |  |  | yes | current_main_tex |
 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  | no | current_main_tex, earlier_pilot |
 | `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  | no | current_main_tex, earlier_pilot |
 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  | no | current_main_tex, earlier_pilot |
