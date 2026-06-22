@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:34:55.791547+00:00",
+  "generated_at": "2026-06-22T09:56:27.087507+00:00",
   "id": "04-12",
   "schuessler": {
     "gsc_id": "04-12",
@@ -834,6 +834,10 @@
               "宀",
               "九"
             ],
+            "positional_components_raw": [
+              "宀",
+              "九"
+            ],
             "named_args": {
               "c1": "s",
               "c2": "p",
@@ -850,6 +854,10 @@
             {
               "template_raw": "{{Han compound|宀|九|c1=s|c2=p|ls=psc}}",
               "positional_components": [
+                "宀",
+                "九"
+              ],
+              "positional_components_raw": [
                 "宀",
                 "九"
               ],
@@ -1016,6 +1024,10 @@
               "水",
               "九"
             ],
+            "positional_components_raw": [
+              "水",
+              "九"
+            ],
             "named_args": {
               "ls": "psc",
               "c1": "s",
@@ -1033,6 +1045,10 @@
             {
               "template_raw": "{{Han compound|水|九|ls=psc|c1=s|c2=p|t1=water}}",
               "positional_components": [
+                "水",
+                "九"
+              ],
+              "positional_components_raw": [
                 "水",
                 "九"
               ],
@@ -1214,6 +1230,10 @@
               "車",
               "九"
             ],
+            "positional_components_raw": [
+              "車",
+              "九"
+            ],
             "named_args": {
               "ls": "psc",
               "c1": "s",
@@ -1230,6 +1250,10 @@
             {
               "template_raw": "{{Han compound|車|九|ls=psc|c1=s|c2=p}}",
               "positional_components": [
+                "車",
+                "九"
+              ],
+              "positional_components_raw": [
                 "車",
                 "九"
               ],
@@ -1661,6 +1685,10 @@
               "九",
               "鳥"
             ],
+            "positional_components_raw": [
+              "九",
+              "鳥"
+            ],
             "named_args": {
               "ls": "psc",
               "c1": "p",
@@ -1678,6 +1706,10 @@
             {
               "template_raw": "{{Han compound|九|鳥|ls=psc|c1=p|c2=s|t2=bird}}",
               "positional_components": [
+                "九",
+                "鳥"
+              ],
+              "positional_components_raw": [
                 "九",
                 "鳥"
               ],
@@ -1845,6 +1877,10 @@
               "穴",
               "九"
             ],
+            "positional_components_raw": [
+              "穴",
+              "九"
+            ],
             "named_args": {
               "c1": "s",
               "c2": "p",
@@ -1862,6 +1898,10 @@
             {
               "template_raw": "{{Han compound|穴|九|c1=s|c2=p|ls=psc|t1=cave}}",
               "positional_components": [
+                "穴",
+                "九"
+              ],
+              "positional_components_raw": [
                 "穴",
                 "九"
               ],
@@ -2022,6 +2062,10 @@
               "人",
               "九"
             ],
+            "positional_components_raw": [
+              "人",
+              "九"
+            ],
             "named_args": {
               "alt1": "亻",
               "ls": "psc",
@@ -2040,6 +2084,10 @@
             {
               "template_raw": "{{Han compound|人|alt1=亻|九|ls=psc|c1=s|c2=p|t1=person}}",
               "positional_components": [
+                "人",
+                "九"
+              ],
+              "positional_components_raw": [
                 "人",
                 "九"
               ],
@@ -2630,6 +2678,10 @@
               "尸",
               "九"
             ],
+            "positional_components_raw": [
+              "尸",
+              "九"
+            ],
             "named_args": {
               "ls": "psc",
               "t1": "body",
@@ -2648,6 +2700,10 @@
             {
               "template_raw": "{{Han compound|尸|九|ls=psc|t1=body|c1=s|c2=p|nocap=1}}",
               "positional_components": [
+                "尸",
+                "九"
+              ],
+              "positional_components_raw": [
                 "尸",
                 "九"
               ],
@@ -2816,6 +2872,10 @@
               "九",
               "虎"
             ],
+            "positional_components_raw": [
+              "九",
+              "虎"
+            ],
             "named_args": {
               "c1": "p",
               "c2": "s",
@@ -2832,6 +2892,10 @@
             {
               "template_raw": "{{Han compound|九|虎|c1=p|c2=s|ls=psc}}",
               "positional_components": [
+                "九",
+                "虎"
+              ],
+              "positional_components_raw": [
                 "九",
                 "虎"
               ],
@@ -2852,37 +2916,79 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "虓",
             "ids": "⿰九虎",
             "phonetic_component": "九",
-            "semantic_component": "虎",
+            "semantic_component": "虍",
             "position": "suffix-dot",
-            "abbreviation": "虎",
-            "inventory_matches": []
+            "abbreviation": "tigr",
+            "inventory_matches": [
+              {
+                "graph_raw": "虍",
+                "label_token": "tigr(is)",
+                "abbreviation": "tigr",
+                "start_line": 378
+              },
+              {
+                "graph_raw": "虍",
+                "label_token": "dextr",
+                "abbreviation": "dextr",
+                "learned": true,
+                "evidence_count": 1
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "虎",
+          "abbreviation": "tigr",
           "position": "suffix-dot",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
-          "semantic_component": "虎"
+          "inventory_matches": [
+            {
+              "graph_raw": "虍",
+              "label_token": "tigr(is)",
+              "abbreviation": "tigr",
+              "start_line": 378
+            },
+            {
+              "graph_raw": "虍",
+              "label_token": "dextr",
+              "abbreviation": "dextr",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "虍"
         },
-        "transliteration_latex": "{\\large{ku\\textsuperscript{·虎}}},",
-        "render_latex": "虓\t%xiao1\n{\\large{ku\\textsuperscript{·虎}}},\n\\textit{xaew};\t%0992v",
+        "transliteration_latex": "{\\large{ku\\textsuperscript{·tigr}}},",
+        "render_latex": "虓\t%xiao1\n{\\large{ku\\textsuperscript{·tigr}}},\n\\textit{xaew};\t%0992v",
         "wiktionary_semantic_validation": {
-          "semantic_component": "虎",
+          "semantic_component": "虍",
           "phonetic_component": "九",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "虓",
-            "semantic_component": "虎",
+            "semantic_component": "虍",
             "phonetic_component": "九",
             "position": "suffix-dot",
-            "abbreviation": "虎",
-            "inventory_matches": [],
+            "abbreviation": "tigr",
+            "inventory_matches": [
+              {
+                "graph_raw": "虍",
+                "label_token": "tigr(is)",
+                "abbreviation": "tigr",
+                "start_line": 378
+              },
+              {
+                "graph_raw": "虍",
+                "label_token": "dextr",
+                "abbreviation": "dextr",
+                "learned": true,
+                "evidence_count": 1
+              }
+            ],
             "template_raw": "{{Han compound|九|虎|c1=p|c2=s|ls=psc}}"
           }
         },
@@ -2956,6 +3062,10 @@
               "九",
               "日"
             ],
+            "positional_components_raw": [
+              "九",
+              "日"
+            ],
             "named_args": {
               "c1": "p",
               "c2": "s",
@@ -2973,6 +3083,10 @@
             {
               "template_raw": "{{Han compound|九|日|c1=p|c2=s|ls=psc|t2=sun}}",
               "positional_components": [
+                "九",
+                "日"
+              ],
+              "positional_components_raw": [
                 "九",
                 "日"
               ],

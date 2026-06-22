@@ -1,15 +1,13 @@
 {
   "summary": {
-    "case_count": 39,
-    "unique_component_count": 39,
+    "case_count": 37,
+    "unique_component_count": 37,
     "by_classification": {
       "research_compound_graph": 7,
-      "new_latin_label_needed": 29,
-      "existing_inventory_variant": 2,
-      "template_alt_graph": 1
+      "new_latin_label_needed": 30
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 39
+      "wiktionary_component_literal_fallback": 37
     }
   },
   "cases": [
@@ -63,26 +61,6 @@
       "render_latex": "釋\t%shi4 / shì\n{\\large{\\textsuperscript{釆·}lak}},\n\\textit{śiek};\t%0790l",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `釆` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
-    },
-    {
-      "entry_id": "02-25",
-      "character": "殬",
-      "abbreviation": "歺",
-      "semantic_component": "歺",
-      "position": "prefix-dot",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|歺|睪|c1=s|c2=p|ls=psc}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿱⺊夕",
-      "transliteration_latex": "{\\large{\\textsuperscript{歺·}lak}},",
-      "render_latex": "殬\t%du4\n{\\large{\\textsuperscript{歺·}lak}},\n\\textit{tuH};\t%0790q",
-      "classification": "existing_inventory_variant",
-      "proposal": "Review `歺` as a variant of `歹` and, if accepted, reuse `mal`.",
-      "target_graph": "歹",
-      "target_abbreviation": "mal",
-      "reason": "Death-radical variant that should be reviewed against the existing 歹 inventory row."
     },
     {
       "entry_id": "03-24",
@@ -219,26 +197,6 @@
       "render_latex": "旁\t%pang2 / bang1 / páng\n{\\large{\\textsuperscript{同˸}paṅ}},\n\\textit{baṅ};\t%0740f'\n\\textit{paeṅ};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `同` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
-    },
-    {
-      "entry_id": "04-12",
-      "character": "虓",
-      "abbreviation": "虎",
-      "semantic_component": "虎",
-      "position": "suffix-dot",
-      "source": "wiktionary_component_literal_fallback",
-      "template_raw": "{{Han compound|九|虎|c1=p|c2=s|ls=psc}}",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "semantic_component_ids": "⿸虍几",
-      "transliteration_latex": "{\\large{ku\\textsuperscript{·虎}}},",
-      "render_latex": "虓\t%xiao1\n{\\large{ku\\textsuperscript{·虎}}},\n\\textit{xaew};\t%0992v",
-      "classification": "existing_inventory_variant",
-      "proposal": "Review `虎` as a variant of `虍` and, if accepted, reuse `tigr`.",
-      "target_graph": "虍",
-      "target_abbreviation": "tigr",
-      "reason": "Full-form tiger graph vs the radical-form graph already labeled in the inventory."
     },
     {
       "entry_id": "04-61",
@@ -379,21 +337,19 @@
     {
       "entry_id": "13-30",
       "character": "冑",
-      "abbreviation": "帽",
-      "semantic_component": "帽",
+      "abbreviation": "冃",
+      "semantic_component": "冃",
       "position": "prefix-colon",
       "source": "wiktionary_component_literal_fallback",
       "template_raw": "{{Han compound|帽|由|alt1=冃|ls=psc|c1=s|c2=p}}",
       "template_alt_graph": "冃",
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "semantic_component_ids": "⿰巾冒",
-      "transliteration_latex": "{\\large{\\textsuperscript{帽˸}lu}},",
-      "render_latex": "冑\t%zhou4 / zhòu\n{\\large{\\textsuperscript{帽˸}lu}},\n\\textit{ḍiuwH};\t%1079i",
-      "classification": "template_alt_graph",
-      "proposal": "Prefer template alt graph `冃` over gloss-like token `帽`; it then still needs a new Latin label.",
-      "target_graph": "冃",
-      "target_abbreviation": null
+      "semantic_component_ids": "⿵冂二",
+      "transliteration_latex": "{\\large{\\textsuperscript{冃˸}lu}},",
+      "render_latex": "冑\t%zhou4 / zhòu\n{\\large{\\textsuperscript{冃˸}lu}},\n\\textit{ḍiuwH};\t%1079i",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `冃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "16-01",
@@ -918,6 +874,27 @@
       ]
     },
     {
+      "semantic_component": "冃",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `冃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿵冂二",
+      "template_alt_graph": "冃",
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "13-30",
+          "character": "冑",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "反",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `反` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -1107,27 +1084,6 @@
       ]
     },
     {
-      "semantic_component": "帽",
-      "classification": "template_alt_graph",
-      "proposal": "Prefer template alt graph `冃` over gloss-like token `帽`; it then still needs a new Latin label.",
-      "target_graph": "冃",
-      "target_abbreviation": null,
-      "reason": null,
-      "semantic_component_ids": "⿰巾冒",
-      "template_alt_graph": "冃",
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "13-30",
-          "character": "冑",
-          "position": "prefix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
       "semantic_component": "庚",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `庚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -1165,27 +1121,6 @@
           "entry_id": "21-01",
           "character": "曷",
           "position": "suffix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "歺",
-      "classification": "existing_inventory_variant",
-      "proposal": "Review `歺` as a variant of `歹` and, if accepted, reuse `mal`.",
-      "target_graph": "歹",
-      "target_abbreviation": "mal",
-      "reason": "Death-radical variant that should be reviewed against the existing 歹 inventory row.",
-      "semantic_component_ids": "⿱⺊夕",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "02-25",
-          "character": "殬",
-          "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
@@ -1333,27 +1268,6 @@
           "entry_id": "03-49",
           "character": "臧",
           "position": "suffix-colon",
-          "source": "wiktionary_component_literal_fallback"
-        }
-      ]
-    },
-    {
-      "semantic_component": "虎",
-      "classification": "existing_inventory_variant",
-      "proposal": "Review `虎` as a variant of `虍` and, if accepted, reuse `tigr`.",
-      "target_graph": "虍",
-      "target_abbreviation": "tigr",
-      "reason": "Full-form tiger graph vs the radical-form graph already labeled in the inventory.",
-      "semantic_component_ids": "⿸虍几",
-      "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
-      "examples": [
-        {
-          "entry_id": "04-12",
-          "character": "虓",
-          "position": "suffix-dot",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

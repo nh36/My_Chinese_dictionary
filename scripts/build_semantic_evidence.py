@@ -53,11 +53,21 @@ COMPONENT_ALIASES = {
     "釒": "金",
     "艹": "艸",
     "亻": "人",
+    "⺅": "人",
     "𠦒": "网",
     "⺮": "竹",
+    "𥫗": "竹",
+    "⺘": "手",
+    "⺼": "肉",
+    "⻂": "衣",
+    "㣺": "心",
+    "灬": "火",
+    "𤣩": "玉",
     "飠": "食",
     "饣": "食",
     "訁": "言",
+    "虎": "虍",
+    "歺": "歹",
     "疒": "疒",
 }
 WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
@@ -469,9 +479,31 @@ def resolve_semantic_from_wiktionary_template(
     ids_map: dict[str, str],
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any] | None:
-    semantic_components = han_compound.get("semantic_components") or []
-    phonetic_components = han_compound.get("phonetic_components") or []
-    positional = han_compound.get("positional_components") or []
+    named_args = han_compound.get("named_args") or {}
+    raw_positional = list(han_compound.get("positional_components_raw") or han_compound.get("positional_components") or [])
+    positional: list[str] = []
+    replacement_map: dict[str, str] = {}
+    for index, raw_component in enumerate(raw_positional, start=1):
+        alt_graph = named_args.get(f"alt{index}")
+        normalized_raw = normalize_component_graph(raw_component)
+        if alt_graph and not graph_lookup.get(normalized_raw):
+            positional.append(alt_graph)
+            replacement_map[raw_component] = alt_graph
+        else:
+            positional.append(raw_component)
+
+    semantic_components: list[str] = []
+    phonetic_components: list[str] = []
+    for index, component in enumerate(positional, start=1):
+        role = named_args.get(f"c{index}")
+        if role == "s":
+            semantic_components.append(component)
+        elif role == "p":
+            phonetic_components.append(component)
+    if not semantic_components:
+        semantic_components = [replacement_map.get(component, component) for component in (han_compound.get("semantic_components") or [])]
+    if not phonetic_components:
+        phonetic_components = [replacement_map.get(component, component) for component in (han_compound.get("phonetic_components") or [])]
     if not semantic_components and len(phonetic_components) == 1 and len(positional) == 2:
         other = [component for component in positional if normalize_component_graph(component) != normalize_component_graph(phonetic_components[0])]
         if len(other) == 1:
@@ -520,7 +552,6 @@ def resolve_semantic_from_wiktionary_template(
             position = "prefix-colon" if semantic_index < phonetic_index else "suffix-colon"
 
     if position is None and semantic_index is not None and phonetic_index is not None:
-        named_args = han_compound.get("named_args") or {}
         if named_args.get("c1") == "s" and named_args.get("c2") == "p":
             position = "prefix-dot" if semantic_index < phonetic_index else "suffix-dot"
         elif named_args.get("c1") == "p" and named_args.get("c2") == "s":

@@ -13,6 +13,15 @@ import build_semantic_evidence  # noqa: E402
 class BuildSemanticEvidenceTests(unittest.TestCase):
     def test_normalize_component_graph_maps_dao_side_form(self) -> None:
         self.assertEqual(build_semantic_evidence.normalize_component_graph("刂"), "刀")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("虎"), "虍")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("歺"), "歹")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("⺅"), "人")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("⺘"), "手")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("⺼"), "肉")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("⻂"), "衣")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("灬"), "火")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("𤣩"), "玉")
+        self.assertEqual(build_semantic_evidence.normalize_component_graph("𥫗"), "竹")
 
     def test_parse_semantic_token(self) -> None:
         lookup = {"arb": [{"graph_raw": "木"}]}
@@ -155,6 +164,50 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         )
         self.assertEqual(resolved["abbreviation"], "or")
         self.assertEqual(resolved["position"], "suffix-colon")
+
+    def test_resolve_semantic_from_wiktionary_template_uses_alt_graph_component(self) -> None:
+        ids_map = {"冑": "⿱冃由"}
+        graph_lookup = {
+            "冃": [{"graph_raw": "冃", "label_token": "pile(us)", "abbreviation": "pile"}],
+        }
+        template = {
+            "semantic_components": ["冃"],
+            "phonetic_components": ["由"],
+            "positional_components": ["冃", "由"],
+            "named_args": {"alt1": "冃", "c1": "s", "c2": "p"},
+            "template_raw": "{{Han compound|帽|由|alt1=冃|c1=s|c2=p|ls=psc}}",
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_wiktionary_template(
+            character="冑",
+            han_compound=template,
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        self.assertEqual(resolved["semantic_component"], "冃")
+        self.assertEqual(resolved["abbreviation"], "pile")
+        self.assertEqual(resolved["position"], "prefix-colon")
+
+    def test_resolve_semantic_from_wiktionary_template_keeps_inventory_graph_over_alt_variant(self) -> None:
+        ids_map = {"邸": "⿰氐邑"}
+        graph_lookup = {
+            "邑": [{"graph_raw": "邑", "label_token": "urb(s)", "abbreviation": "urb"}],
+        }
+        template = {
+            "semantic_components": ["邑"],
+            "phonetic_components": ["氐"],
+            "positional_components": ["邑", "氐"],
+            "positional_components_raw": ["邑", "氐"],
+            "named_args": {"alt1": "⻏", "c1": "s", "c2": "p"},
+            "template_raw": "{{Han compound|邑|alt1=⻏|氐|c1=s|c2=p|ls=psc}}",
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_wiktionary_template(
+            character="邸",
+            han_compound=template,
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        self.assertEqual(resolved["semantic_component"], "邑")
+        self.assertEqual(resolved["abbreviation"], "urb")
 
     def test_resolve_semantic_from_packet_family(self) -> None:
         ids_map = {"眙": "⿰目台", "褏": "⿳亠⿰③由𧘇"}

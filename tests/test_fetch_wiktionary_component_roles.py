@@ -33,6 +33,16 @@ class FetchWiktionaryComponentRolesTests(unittest.TestCase):
         self.assertEqual(len(parsed), 2)
         self.assertEqual(parsed[1]["semantic_components"], ["欠"])
 
+    def test_parse_han_compound_template_prefers_alt_graph(self) -> None:
+        text = "{{Han compound|帽|由|alt1=冃|c1=s|c2=p|ls=psc}}"
+        parsed = fetch_wiktionary_component_roles.parse_han_compound_template(text)
+        self.assertIsNotNone(parsed)
+        assert parsed is not None
+        self.assertEqual(parsed["positional_components"], ["帽", "由"])
+        self.assertEqual(parsed["positional_components_raw"], ["帽", "由"])
+        self.assertEqual(parsed["semantic_components"], ["帽"])
+        self.assertEqual(parsed["phonetic_components"], ["由"])
+
 
 if __name__ == "__main__":
     unittest.main()

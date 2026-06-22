@@ -75,6 +75,7 @@ def parse_han_compound_template(wikitext: str | None) -> dict[str, Any] | None:
     return {
         "template_raw": "{{" + template + "}}",
         "positional_components": positional,
+        "positional_components_raw": positional,
         "named_args": named,
         "semantic_components": semantic_components,
         "phonetic_components": phonetic_components,

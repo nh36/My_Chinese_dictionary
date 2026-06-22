@@ -2,36 +2,21 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 39
-- Unique unresolved semantic graphs/tokens: 39
+- Generated non-Latin semantic occurrences: 37
+- Unique unresolved semantic graphs/tokens: 37
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `existing_inventory_variant` | 2 |
-| `new_latin_label_needed` | 29 |
+| `new_latin_label_needed` | 30 |
 | `research_compound_graph` | 7 |
-| `template_alt_graph` | 1 |
 
 ## By source
 
 | Source | Count |
 | --- | ---: |
-| `wiktionary_component_literal_fallback` | 39 |
-
-## `existing_inventory_variant`
-
-| Component | IDS | Example characters | Target / reuse | Proposal |
-| --- | --- | --- | --- | --- |
-| `歺` | `⿱⺊夕` | `02-25`:殬 | `歹` → `mal` | Review `歺` as a variant of `歹` and, if accepted, reuse `mal`. |
-| `虎` | `⿸虍几` | `04-12`:虓 | `虍` → `tigr` | Review `虎` as a variant of `虍` and, if accepted, reuse `tigr`. |
-
-## `template_alt_graph`
-
-| Component | IDS | Example characters | Target / reuse | Proposal |
-| --- | --- | --- | --- | --- |
-| `帽` | `⿰巾冒` | `13-30`:冑 | `冃` | Prefer template alt graph `冃` over gloss-like token `帽`; it then still needs a new Latin label. |
+| `wiktionary_component_literal_fallback` | 37 |
 
 ## `new_latin_label_needed`
 
@@ -46,6 +31,7 @@
 | `兀` | `⿱一儿` | `16-14`:堯 |  | Keep `兀` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `入` | `入` | `17-07`:糴 |  | Keep `入` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `八` | `八` | `03-32`:尚 |  | Keep `八` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `冃` | `⿵冂二` | `13-30`:冑 |  | Keep `冃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `反` | `⿸𠂆又` | `24-47`:叛 |  | Keep `反` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `同` | `⿵𠔼口` | `03-57`:旁 |  | Keep `同` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `坴` | `⿱圥土` | `36-14`:燅 |  | Keep `坴` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

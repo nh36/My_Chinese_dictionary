@@ -88,7 +88,7 @@
 | `04-29` | 寺 | `ty` | `ty₆` | `mixed` | no | `ziH, śi, dəyX, ḍiX, dək, təyX, təṅX, ḍi, ciX, jiH, jiX, ji` | the extracted forms point to both type a and type b |
 | `04-29` | 時 | `ty` | `ty₈` | `b` | no | `ji` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-30` | 㠯 | `ly` | `ly` | `b` | no | `yiX, ziX` | top-level series head left unmarked |
-| `04-30` | 以 | `ly` | `ly₂` | `mixed` | no | `yiX, ḍiṅH, ṭhiH, ṭhi, ziX, siX, dəyH, dəy, dəyX, hiX, dẓiX, ẓiX, yi` | the extracted forms point to both type a and type b |
+| `04-30` | 以 | `ly` | `ly₂` | `mixed` | no | `yiX, ḍiṅH, ṭhiH, ṭhi, ziX, siX, dəyH, dəy, dəyX, yi` | the extracted forms point to both type a and type b |
 | `04-30` | 枲 | `ly` | `ly₃` | `mixed` | no | `siX, dəyH` | the extracted forms point to both type a and type b |
 | `04-30` | 矣 | `qy` | `qy` | `b` | no | `hiX, dẓiX, ẓiX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-30` | 台 | `ly` | `ly₄` | `mixed` | no | `thəy, yi, śiX, dəy, dəyX, yaeX, ḍi, ḍiH` | the extracted forms point to both type a and type b |
@@ -209,7 +209,7 @@
 | `16-24` | 尞 | `rew` | `rew₂` | `mixed` | no | `liewH, liew, lewH, lewX, liewX, lew, lawX, law` | the extracted forms point to both type a and type b |
 | `16-30` | 喿 | `saw` | `saw` | `a` | no | `sawH, sawX, saw, tsawX, tsawH, tshawX, tshawH` | top-level series head left unmarked |
 | `16-30` | 澡 | `saw` | `s\textoverset{a}{a}w` | `a` | yes | `tsawX` | all extracted forms lack an i-medial after the onset |
-| `16-31` | 焦 | `sew` | `sew` | `mixed` | no | `tsiew, tsiak, tṣaewk, dziew, tsiewH, dziewH, tsiuw` | top-level series head left unmarked |
+| `16-31` | 焦 | `sew` | `sew` | `mixed` | no | `tsiew, dziew, tsiewH, dziewH, tsiuw, tṣaewk` | top-level series head left unmarked |
 | `16-33` | 小 | `sew` | `sew` | `b` | no | `siewX, śiewH, śiewX` | top-level series head left unmarked |
 | `16-33` | 削 | `sew` | `sew₄` | `mixed` | no | `siak, siewH, ṣaewH, sew, ṣaew, ṣaewk` | the extracted forms point to both type a and type b |
 | `16-33` | 肖 | `sew` | `sew₃` | `mixed` | no | `siew, siewH, ṣaew, siak, ṣaewH, sew, ṣaewk, tshiewH, tshiewX, dziewH, dewX, ḍiewX` | the extracted forms point to both type a and type b |

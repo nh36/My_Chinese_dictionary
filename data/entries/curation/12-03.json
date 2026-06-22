@@ -164,6 +164,10 @@
             "𠂇",
             "又"
           ],
+          "positional_components_raw": [
+            "𠂇",
+            "又"
+          ],
           "named_args": {
             "t1": "left hand",
             "t2": "right hand",
@@ -176,6 +180,10 @@
           {
             "template_raw": "{{Han compound|𠂇|又|t1=left hand|t2=right hand|ls=ic}}",
             "positional_components": [
+              "𠂇",
+              "又"
+            ],
+            "positional_components_raw": [
               "𠂇",
               "又"
             ],
@@ -754,6 +762,10 @@
             "廾",
             "口"
           ],
+          "positional_components_raw": [
+            "廾",
+            "口"
+          ],
           "named_args": {
             "t1": "two hands",
             "t2": "an object",
@@ -766,6 +778,10 @@
           {
             "template_raw": "{{Han compound|廾|口|t1=two hands|t2=an object|ls=ic}}",
             "positional_components": [
+              "廾",
+              "口"
+            ],
+            "positional_components_raw": [
               "廾",
               "口"
             ],
@@ -977,6 +993,10 @@
             "手",
             "共"
           ],
+          "positional_components_raw": [
+            "手",
+            "共"
+          ],
           "named_args": {
             "alt1": "扌",
             "ls": "ic",
@@ -996,6 +1016,10 @@
           {
             "template_raw": "{{Han compound|手|alt1=扌|共|ls=ic|ls2=psc|c1=s|c2=p|t1=hand}}",
             "positional_components": [
+              "手",
+              "共"
+            ],
+            "positional_components_raw": [
               "手",
               "共"
             ],
@@ -1204,6 +1228,10 @@
             "人",
             "共"
           ],
+          "positional_components_raw": [
+            "人",
+            "共"
+          ],
           "named_args": {
             "alt1": "亻",
             "t1": "person",
@@ -1222,6 +1250,10 @@
           {
             "template_raw": "{{Han compound|人|alt1=亻|t1=person|共|ls=psc|c1=s|c2=p}}",
             "positional_components": [
+              "人",
+              "共"
+            ],
+            "positional_components_raw": [
               "人",
               "共"
             ],
@@ -1673,6 +1705,10 @@
             "共",
             "心"
           ],
+          "positional_components_raw": [
+            "共",
+            "心"
+          ],
           "named_args": {
             "ls": "psc",
             "c1": "p",
@@ -1690,6 +1726,10 @@
           {
             "template_raw": "{{Han compound|共|心|ls=psc|c1=p|c2=s|t2=heart}}",
             "positional_components": [
+              "共",
+              "心"
+            ],
+            "positional_components_raw": [
               "共",
               "心"
             ],
@@ -1711,14 +1751,28 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "恭",
           "ids": "⿱共㣺",
           "phonetic_component": "共",
-          "semantic_component": "㣺",
+          "semantic_component": "心",
           "position": "suffix-colon",
-          "abbreviation": "㣺",
-          "inventory_matches": []
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 234
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
         }
       ],
       "semantic_assignment": {
@@ -1882,6 +1936,10 @@
             "共",
             "手"
           ],
+          "positional_components_raw": [
+            "共",
+            "手"
+          ],
           "named_args": {
             "c1": "p",
             "c2": "s",
@@ -1901,6 +1959,10 @@
           {
             "template_raw": "{{Han compound|共|手|c1=p|c2=s|t1=two hands holding an object|t2=hand|ls=psc|nocap=y}}",
             "positional_components": [
+              "共",
+              "手"
+            ],
+            "positional_components_raw": [
               "共",
               "手"
             ],
@@ -2212,6 +2274,10 @@
             "水",
             "共"
           ],
+          "positional_components_raw": [
+            "水",
+            "共"
+          ],
           "named_args": {
             "t1": "water",
             "c2": "p",
@@ -2229,6 +2295,10 @@
           {
             "template_raw": "{{Han compound|水|t1=water|共|c2=p|c1=s|ls=psc}}",
             "positional_components": [
+              "水",
+              "共"
+            ],
+            "positional_components_raw": [
               "水",
               "共"
             ],
@@ -2435,6 +2505,10 @@
             "鬥",
             "共"
           ],
+          "positional_components_raw": [
+            "鬥",
+            "共"
+          ],
           "named_args": {
             "c1": "s",
             "c2": "p",
@@ -2452,6 +2526,10 @@
           {
             "template_raw": "{{Han compound|鬥|共|c1=s|c2=p|t1=battle; fight|ls=psc}}",
             "positional_components": [
+              "鬥",
+              "共"
+            ],
+            "positional_components_raw": [
               "鬥",
               "共"
             ],
@@ -2897,6 +2975,10 @@
             "共",
             "己"
           ],
+          "positional_components_raw": [
+            "共",
+            "己"
+          ],
           "named_args": {
             "c1": "p",
             "c2": "s",
@@ -2914,6 +2996,10 @@
           {
             "template_raw": "{{Han compound|共|己|c1=p|c2=s|t2=oneself|ls=psc}}",
             "positional_components": [
+              "共",
+              "己"
+            ],
+            "positional_components_raw": [
               "共",
               "己"
             ],
