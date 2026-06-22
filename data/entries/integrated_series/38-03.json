@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.122485+00:00",
+  "generated_at": "2026-06-22T09:34:55.796773+00:00",
   "id": "38-03",
   "schuessler": {
     "gsc_id": "38-03",
@@ -1677,14 +1677,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "雲",
+          "position": "prefix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "雲"
         },
-        "transliteration_latex": "{\\large{kym}},",
-        "render_latex": "𩃬\t%yin1\n{\\large{kym}},\n\\textit{qim};\t%0651a'",
+        "transliteration_latex": "{\\large{\\textsuperscript{雲˸}kym}},",
+        "render_latex": "𩃬\t%yin1\n{\\large{\\textsuperscript{雲˸}kym}},\n\\textit{qim};\t%0651a'",
         "wiktionary_semantic_validation": {
           "semantic_component": "雲",
           "phonetic_component": "今",
@@ -1708,14 +1708,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "今"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "雲",
-          "original_position": "prefix-colon",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "雲"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "蔭",
@@ -5551,13 +5544,6 @@
           "base_root": "kym",
           "ordinal": 5,
           "numbering_source": "document_order_occurrence"
-        },
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "云",
-          "original_position": "suffix-colon",
-          "original_source": "packet_family_component_literal_fallback",
-          "semantic_component": "云"
         }
       },
       {
@@ -10618,17 +10604,6 @@
     },
     {
       "entry_id": "38-03",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "𩃬",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `雲` for component `雲` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "38-03",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -10658,17 +10633,6 @@
       "line_number": null,
       "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "38-03",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "侌",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `云` for component `云` from `packet_family_component_literal_fallback`.",
-      "category": "semantic_unresolved",
       "recommended_rendering": "internal_only"
     },
     {
@@ -10706,22 +10670,20 @@
     }
   ],
   "note_summary": {
-    "total": 11,
+    "total": 9,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 7,
-      "curation_semantic_review": 2
+      "curation_division_note": 7
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 7,
-      "semantic_unresolved": 2
+      "structural_internal": 7
     },
     "by_visibility": {
-      "internal": 11
+      "internal": 9
     },
     "by_recommended_rendering": {
-      "internal_only": 11
+      "internal_only": 9
     }
   },
   "render_mode": "generated_missing_series"

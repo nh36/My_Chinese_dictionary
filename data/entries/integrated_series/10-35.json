@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.118714+00:00",
+  "generated_at": "2026-06-22T09:34:55.793051+00:00",
   "id": "10-35",
   "schuessler": {
     "gsc_id": "10-35",
@@ -2013,14 +2013,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "乑",
+          "position": "suffix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "乑"
         },
-        "transliteration_latex": "{\\large{tso}},",
-        "render_latex": "聚\t%ju4 / jù\n{\\large{tso}},\n\\textit{dziuH};\t%0131k\n\\textit{dziuX};",
+        "transliteration_latex": "{\\large{tso\\textsuperscript{˸乑}}},",
+        "render_latex": "聚\t%ju4 / jù\n{\\large{tso\\textsuperscript{˸乑}}},\n\\textit{dziuH};\t%0131k\n\\textit{dziuX};",
         "wiktionary_semantic_validation": {
           "semantic_component": "乑",
           "phonetic_component": "取",
@@ -2088,13 +2088,6 @@
           "base_root": "ts\\textoverset{b}{o}",
           "ordinal": 1,
           "numbering_source": "document_order_occurrence"
-        },
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "乑",
-          "original_position": "suffix-colon",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "乑"
         }
       },
       {
@@ -5815,17 +5808,6 @@
     },
     {
       "entry_id": "10-35",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "聚",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `乑` for component `乑` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "10-35",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -5848,24 +5830,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 3,
-      "curation_mc_investigation": 1,
-      "curation_semantic_review": 1
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 3,
-      "mc_conflict": 1,
-      "semantic_unresolved": 1
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 7
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

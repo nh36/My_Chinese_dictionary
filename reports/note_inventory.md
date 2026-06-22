@@ -2,7 +2,7 @@
 
 - Commented-out source material is excluded from this inventory.
 - Entries with at least one note: 176
-- Total notes inventoried: 845
+- Total notes inventoried: 764
 
 ## By source layer
 
@@ -12,7 +12,6 @@
 | `curation_entry_note` | 330 |
 | `curation_mc_investigation` | 65 |
 | `curation_research_note` | 15 |
-| `curation_semantic_review` | 81 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
 
@@ -24,7 +23,6 @@
 | `editorial_uncertainty` | 4 |
 | `mc_conflict` | 65 |
 | `semantic_analysis` | 15 |
-| `semantic_unresolved` | 81 |
 | `source_reference` | 10 |
 | `structural_internal` | 333 |
 | `workflow_internal` | 335 |
@@ -34,7 +32,7 @@
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 811 |
+| `internal_only` | 730 |
 | `series_end_note` | 24 |
 
 ## Examples: `analysis_note`
@@ -82,21 +80,6 @@
 | `04-29` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
 | `07-12` | `curation_research_note` | character: 鏑 | `series_end_note` | Metal semantic shell over the 帝/啇 phonetic line. |
 | `07-12` | `curation_research_note` | character: 謫 | `series_end_note` | Speech semantic shell over the 帝/啇 phonetic line. |
-
-## Examples: `semantic_unresolved`
-
-| GSC | Source layer | Anchor | Rendering | Text |
-| --- | --- | --- | --- | --- |
-| `02-17` | `curation_semantic_review` | character: 磔 | `internal_only` | Suppressed non-Latin semantic marker `桀` for component `桀` from `ids_component_literal_fallback`. |
-| `02-17` | `curation_semantic_review` | character: 橐 | `internal_only` | Suppressed non-Latin semantic marker `𣒚` for component `𣒚` from `wiktionary_component_literal_fallback`. |
-| `02-17` | `curation_semantic_review` | character: 蠹 | `internal_only` | Suppressed non-Latin semantic marker `䖵` for component `䖵` from `wiktionary_component_literal_fallback`. |
-| `02-25` | `curation_semantic_review` | character: 釋 | `internal_only` | Suppressed non-Latin semantic marker `釆` for component `釆` from `wiktionary_component_literal_fallback`. |
-| `02-25` | `curation_semantic_review` | character: 殬 | `internal_only` | Suppressed non-Latin semantic marker `歺` for component `歺` from `wiktionary_component_literal_fallback`. |
-| `03-24` | `curation_semantic_review` | character: 皇 | `internal_only` | Suppressed non-Latin semantic marker `𤼽` for component `𤼽` from `wiktionary_component_literal_fallback`. |
-| `03-24` | `curation_semantic_review` | character: 凰 | `internal_only` | Suppressed non-Latin semantic marker `几` for component `几` from `ids_component_literal_fallback`. |
-| `03-32` | `curation_semantic_review` | character: 尚 | `internal_only` | Suppressed non-Latin semantic marker `八` for component `八` from `wiktionary_component_literal_fallback`. |
-| `03-39` | `curation_semantic_review` | character: 羕 | `internal_only` | Suppressed non-Latin semantic marker `永` for component `永` from `wiktionary_component_literal_fallback`. |
-| `03-42` | `curation_semantic_review` | character: 囊 | `internal_only` | Suppressed non-Latin semantic marker `㯻` for component `㯻` from `wiktionary_component_literal_fallback`. |
 
 ## Examples: `source_reference`
 

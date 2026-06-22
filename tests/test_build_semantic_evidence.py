@@ -324,36 +324,6 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(candidate["transliteration_latex"], r"{\large{toṅ\textsuperscript{·cult}}},")
         self.assertEqual(candidate["render_latex"], r"𠟍\n{\large{toṅ\textsuperscript{·cult}}},")
 
-    def test_suppress_nonlatin_generated_semantic_assignment_demotes_to_root_only(self) -> None:
-        entry = {
-            "id": "02-17",
-            "packet_kind": "missing_series",
-            "resolved_series_root": {"root": "tak", "display_root": "tak"},
-        }
-        candidate = {
-            "character": "磔",
-            "semantic_assignment": {
-                "abbreviation": "桀",
-                "semantic_component": "桀",
-                "position": "suffix-dot",
-                "source": "ids_component_literal_fallback",
-            },
-            "transliteration_latex": r"{\large{tak\textsuperscript{·桀}}},",
-            "render_latex": "磔\n{\\large{tak\\textsuperscript{·桀}}},",
-            "mand2mc_rows": [],
-            "bs_gsr_rows": [],
-            "mc_resolution": {"display_forms": ["triak"]},
-        }
-
-        changed = build_semantic_evidence.suppress_nonlatin_generated_semantic_assignment(entry, candidate)
-
-        self.assertTrue(changed)
-        self.assertIsNone(candidate["semantic_assignment"]["abbreviation"])
-        self.assertEqual(candidate["semantic_assignment"]["position"], "none")
-        self.assertEqual(candidate["semantic_assignment"]["semantic_component"], "桀")
-        self.assertEqual(candidate["transliteration_latex"], r"{\large{tak}},")
-        self.assertIn("nonlatin_generated_semantic_suppressed", candidate["semantic_assignment_review"]["status"])
-
     def test_resolve_generated_node_root_adds_ab_display_root(self) -> None:
         candidate = {
             "character": "布",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.122111+00:00",
+  "generated_at": "2026-06-22T09:34:55.796359+00:00",
   "id": "33-05",
   "schuessler": {
     "gsc_id": "33-05",
@@ -255,14 +255,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "𦰩",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "𦰩"
         },
-        "transliteration_latex": "{\\large{kyr₃}},",
-        "render_latex": "艱\t%jian1 / jiān\n{\\large{kyr₃}},\n\\textit{kean};\t%0480c",
+        "transliteration_latex": "{\\large{\\textsuperscript{𦰩·}kyr₃}},",
+        "render_latex": "艱\t%jian1 / jiān\n{\\large{\\textsuperscript{𦰩·}kyr₃}},\n\\textit{kean};\t%0480c",
         "wiktionary_semantic_validation": {
           "semantic_component": "𦰩",
           "phonetic_component": "艮",
@@ -278,14 +278,7 @@
           }
         },
         "hierarchy_assignment": null,
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "𦰩",
-          "original_position": "prefix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "𦰩"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "堇",
@@ -942,14 +935,7 @@
           "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "喜"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "喜",
-          "original_position": "suffix-dot",
-          "original_source": "parent_ids_component_literal_fallback",
-          "semantic_component": "喜"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "僅",
@@ -4811,17 +4797,6 @@
     },
     {
       "entry_id": "33-05",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "艱",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `𦰩` for component `𦰩` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "33-05",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -4840,17 +4815,6 @@
       "line_number": null,
       "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "33-05",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "囏",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `喜` for component `喜` from `parent_ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
       "recommended_rendering": "internal_only"
     },
     {
@@ -4877,24 +4841,22 @@
     }
   ],
   "note_summary": {
-    "total": 8,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_semantic_review": 2,
       "curation_mc_investigation": 2,
       "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "semantic_unresolved": 2,
       "mc_conflict": 2,
       "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 8
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 8
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

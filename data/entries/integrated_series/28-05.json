@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.121738+00:00",
+  "generated_at": "2026-06-22T09:34:55.795960+00:00",
   "id": "28-05",
   "schuessler": {
     "gsc_id": "28-05",
@@ -2445,14 +2445,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "韋"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "是",
-          "original_position": "prefix-dot",
-          "original_source": "ids_component_literal_fallback",
-          "semantic_component": "是"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "韡",
@@ -2543,14 +2536,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "韋"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "華",
-          "original_position": "suffix-dot",
-          "original_source": "ids_component_literal_fallback",
-          "semantic_component": "華"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "褘",
@@ -4990,28 +4976,6 @@
     },
     {
       "entry_id": "28-05",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "韙",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `是` for component `是` from `ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "28-05",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "韡",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `華` for component `華` from `ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "28-05",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -5023,24 +4987,22 @@
     }
   ],
   "note_summary": {
-    "total": 9,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_mc_investigation": 3,
-      "curation_division_note": 2,
-      "curation_semantic_review": 2
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
       "mc_conflict": 3,
-      "structural_internal": 2,
-      "semantic_unresolved": 2
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 9
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 9
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

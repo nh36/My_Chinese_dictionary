@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.117245+00:00",
+  "generated_at": "2026-06-22T09:34:55.791786+00:00",
   "id": "05-33",
   "schuessler": {
     "gsc_id": "05-33",
@@ -2764,14 +2764,7 @@
           "source": "nonlatin_generated_semantic_suppressed",
           "semantic_component": "副"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "副",
-          "original_position": "prefix-dot",
-          "original_source": "parent_ids_component_literal_fallback",
-          "semantic_component": "副"
-        }
+        "resolved_node_root": null
       }
     ],
     "all_candidates": [
@@ -4335,17 +4328,6 @@
     },
     {
       "entry_id": "05-33",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "𠠦",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `副` for component `副` from `parent_ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "05-33",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -4357,24 +4339,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 1,
-      "curation_semantic_review": 1,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 1,
-      "semantic_unresolved": 1,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

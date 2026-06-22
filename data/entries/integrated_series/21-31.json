@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.121128+00:00",
+  "generated_at": "2026-06-22T09:34:55.795406+00:00",
   "id": "21-31",
   "schuessler": {
     "gsc_id": "21-31",
@@ -2058,14 +2058,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "犮"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "盾",
-          "original_position": "prefix-dot",
-          "original_source": "ids_component_literal_fallback",
-          "semantic_component": "盾"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "紱",
@@ -4198,17 +4191,6 @@
     },
     {
       "entry_id": "21-31",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "瞂",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `盾` for component `盾` from `ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "21-31",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -4220,24 +4202,22 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 1,
-      "curation_mc_investigation": 2,
-      "curation_semantic_review": 1
+      "curation_mc_investigation": 2
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 1,
-      "mc_conflict": 2,
-      "semantic_unresolved": 1
+      "mc_conflict": 2
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

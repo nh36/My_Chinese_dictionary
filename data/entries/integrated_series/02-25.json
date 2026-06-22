@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.116283+00:00",
+  "generated_at": "2026-06-22T09:34:55.790958+00:00",
   "id": "02-25",
   "schuessler": {
     "gsc_id": "02-25",
@@ -2310,14 +2310,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "釆",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "釆"
         },
-        "transliteration_latex": "{\\large{lak}},",
-        "render_latex": "釋\t%shi4 / shì\n{\\large{lak}},\n\\textit{śiek};\t%0790l",
+        "transliteration_latex": "{\\large{\\textsuperscript{釆·}lak}},",
+        "render_latex": "釋\t%shi4 / shì\n{\\large{\\textsuperscript{釆·}lak}},\n\\textit{śiek};\t%0790l",
         "wiktionary_semantic_validation": {
           "semantic_component": "釆",
           "phonetic_component": "睪",
@@ -2341,14 +2341,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "睪"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "釆",
-          "original_position": "prefix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "釆"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "檡",
@@ -3266,14 +3259,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "歺",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "歺"
         },
-        "transliteration_latex": "{\\large{lak}},",
-        "render_latex": "殬\t%du4\n{\\large{lak}},\n\\textit{tuH};\t%0790q",
+        "transliteration_latex": "{\\large{\\textsuperscript{歺·}lak}},",
+        "render_latex": "殬\t%du4\n{\\large{\\textsuperscript{歺·}lak}},\n\\textit{tuH};\t%0790q",
         "wiktionary_semantic_validation": {
           "semantic_component": "歺",
           "phonetic_component": "睪",
@@ -3297,14 +3290,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "睪"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "歺",
-          "original_position": "prefix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "歺"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "蘀",
@@ -4929,17 +4915,6 @@
     },
     {
       "entry_id": "02-25",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "釋",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `釆` for component `釆` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "02-25",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -4948,36 +4923,23 @@
       "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "02-25",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "殬",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `歺` for component `歺` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
-      "curation_semantic_review": 2
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
-      "semantic_unresolved": 2
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

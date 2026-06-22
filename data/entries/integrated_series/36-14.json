@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.122415+00:00",
+  "generated_at": "2026-06-22T09:34:55.796703+00:00",
   "id": "36-14",
   "schuessler": {
     "gsc_id": "36-14",
@@ -850,14 +850,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "炎",
+          "position": "suffix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "炎"
         },
-        "transliteration_latex": "{\\large{qam}},",
-        "render_latex": "燄\t%yan4\n{\\large{qam}},\n\\textit{yiemH};\t%0617c\n\\textit{yiemX};",
+        "transliteration_latex": "{\\large{qam\\textsuperscript{·炎}}},",
+        "render_latex": "燄\t%yan4\n{\\large{qam\\textsuperscript{·炎}}},\n\\textit{yiemH};\t%0617c\n\\textit{yiemX};",
         "wiktionary_semantic_validation": {
           "semantic_component": "炎",
           "phonetic_component": "臽",
@@ -881,14 +881,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "炎"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "炎",
-          "original_position": "suffix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "炎"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "剡",
@@ -1679,14 +1672,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "坴",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "坴"
         },
-        "transliteration_latex": "{\\large{qam}},",
-        "render_latex": "燅\t%qian2\n{\\large{qam}},\n\\textit{ziem};\t%0617h",
+        "transliteration_latex": "{\\large{\\textsuperscript{坴·}qam}},",
+        "render_latex": "燅\t%qian2\n{\\large{\\textsuperscript{坴·}qam}},\n\\textit{ziem};\t%0617h",
         "wiktionary_semantic_validation": {
           "semantic_component": "坴",
           "phonetic_component": "炎",
@@ -1710,14 +1703,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "炎"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "坴",
-          "original_position": "prefix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "坴"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "覢",
@@ -4468,47 +4454,23 @@
       "text": "top-level series head left unmarked",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "36-14",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "燄",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `炎` for component `炎` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "36-14",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "燅",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `坴` for component `坴` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 3,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1,
-      "curation_semantic_review": 2
+      "curation_division_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1,
-      "semantic_unresolved": 2
+      "structural_internal": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 3
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 3
     }
   },
   "render_mode": "generated_missing_series"

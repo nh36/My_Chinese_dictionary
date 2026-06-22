@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.121882+00:00",
+  "generated_at": "2026-06-22T09:34:55.796100+00:00",
   "id": "29-41",
   "schuessler": {
     "gsc_id": "29-41",
@@ -2262,14 +2262,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "必"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "比",
-          "original_position": "prefix-colon",
-          "original_source": "ids_component_literal_fallback",
-          "semantic_component": "比"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "泌",
@@ -6000,17 +5993,6 @@
     },
     {
       "entry_id": "29-41",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "毖",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `比` for component `比` from `ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "29-41",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -6044,24 +6026,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 3,
-      "curation_semantic_review": 1,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 3,
-      "semantic_unresolved": 1,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 7
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

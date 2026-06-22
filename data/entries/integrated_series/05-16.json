@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.117224+00:00",
+  "generated_at": "2026-06-22T09:34:55.791756+00:00",
   "id": "05-16",
   "schuessler": {
     "gsc_id": "05-16",
@@ -2443,14 +2443,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "殺",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "殺"
         },
-        "transliteration_latex": "{\\large{lyk₂}},",
-        "render_latex": "弒\t%shi4 / shì\n{\\large{lyk₂}},\n\\textit{śiH};\t%0918o",
+        "transliteration_latex": "{\\large{\\textsuperscript{殺·}lyk₂}},",
+        "render_latex": "弒\t%shi4 / shì\n{\\large{\\textsuperscript{殺·}lyk₂}},\n\\textit{śiH};\t%0918o",
         "wiktionary_semantic_validation": {
           "semantic_component": "殺",
           "phonetic_component": "式",
@@ -2474,14 +2474,7 @@
           "source": "wiktionary_semantic_validation",
           "phonetic_hint": "式"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "殺",
-          "original_position": "prefix-dot",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "殺"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "貸",
@@ -4776,17 +4769,6 @@
     },
     {
       "entry_id": "05-16",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "弒",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `殺` for component `殺` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "05-16",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -4809,24 +4791,22 @@
     }
   ],
   "note_summary": {
-    "total": 8,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 4,
-      "curation_semantic_review": 1,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 4,
-      "semantic_unresolved": 1,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 8
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 8
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

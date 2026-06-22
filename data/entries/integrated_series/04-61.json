@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.117156+00:00",
+  "generated_at": "2026-06-22T09:34:55.791700+00:00",
   "id": "04-61",
   "schuessler": {
     "gsc_id": "04-61",
@@ -3491,14 +3491,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "一",
+          "position": "suffix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "一"
         },
-        "transliteration_latex": "{\\large{py}},",
-        "render_latex": "丕\t%pi1 / pī\n{\\large{py}},\n\\textit{phiy};\t%0999k",
+        "transliteration_latex": "{\\large{py\\textsuperscript{˸一}}},",
+        "render_latex": "丕\t%pi1 / pī\n{\\large{py\\textsuperscript{˸一}}},\n\\textit{phiy};\t%0999k",
         "wiktionary_semantic_validation": {
           "semantic_component": "一",
           "phonetic_component": "不",
@@ -3558,13 +3558,6 @@
           "base_root": "py",
           "ordinal": 4,
           "numbering_source": "document_order_occurrence"
-        },
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "一",
-          "original_position": "suffix-colon",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "一"
         }
       },
       {
@@ -4602,14 +4595,7 @@
           "source": "ids_inferred_phonetic_parent",
           "phonetic_hint": "否"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "丶",
-          "original_position": "prefix-colon",
-          "original_source": "packet_family_component_literal_fallback",
-          "semantic_component": "丶"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "咅",
@@ -4705,8 +4691,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{py₂}},",
-        "render_latex": "咅\t%pou3\n{\\large{py₂}},\n\\textit{phuwH};\t%0999u",
+        "transliteration_latex": "{\\large{\\textsuperscript{丶˸}py₂}},",
+        "render_latex": "咅\t%pou3\n{\\large{\\textsuperscript{丶˸}py₂}},\n\\textit{phuwH};\t%0999u",
         "wiktionary_semantic_validation": {
           "semantic_component": "丶",
           "phonetic_component": "否",
@@ -4723,10 +4709,10 @@
         },
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "丶",
+          "position": "prefix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "wiktionary_component_literal_fallback",
           "semantic_component": "丶"
         },
         "hierarchy_assignment": {
@@ -4825,13 +4811,6 @@
           "base_root": "py",
           "ordinal": 3,
           "numbering_source": "document_order_occurrence"
-        },
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "丶",
-          "original_position": "prefix-colon",
-          "original_source": "wiktionary_component_literal_fallback",
-          "semantic_component": "丶"
         }
       },
       {
@@ -8517,17 +8496,6 @@
     },
     {
       "entry_id": "04-61",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "丕",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `一` for component `一` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "04-61",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -8535,28 +8503,6 @@
       "line_number": null,
       "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "04-61",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "㕻",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `丶` for component `丶` from `packet_family_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "04-61",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "咅",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `丶` for component `丶` from `wiktionary_component_literal_fallback`.",
-      "category": "semantic_unresolved",
       "recommended_rendering": "internal_only"
     },
     {
@@ -8572,22 +8518,20 @@
     }
   ],
   "note_summary": {
-    "total": 9,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 4,
-      "curation_semantic_review": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 4,
-      "semantic_unresolved": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 9
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 9
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

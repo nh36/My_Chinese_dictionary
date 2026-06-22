@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:15:11.116854+00:00",
+  "generated_at": "2026-06-22T09:34:55.791447+00:00",
   "id": "03-65",
   "schuessler": {
     "gsc_id": "03-65",
@@ -4566,14 +4566,7 @@
           "source": "ids_parent_family_inference",
           "phonetic_hint": "亡"
         },
-        "resolved_node_root": null,
-        "semantic_assignment_review": {
-          "status": "nonlatin_generated_semantic_suppressed",
-          "original_abbreviation": "䖵",
-          "original_position": "suffix-colon",
-          "original_source": "ids_component_literal_fallback",
-          "semantic_component": "䖵"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "氓",
@@ -7880,17 +7873,6 @@
     },
     {
       "entry_id": "03-65",
-      "source_layer": "curation_semantic_review",
-      "visibility": "internal",
-      "anchor_kind": "character",
-      "anchor_value": "蝱",
-      "line_number": null,
-      "text": "Suppressed non-Latin semantic marker `䖵` for component `䖵` from `ids_component_literal_fallback`.",
-      "category": "semantic_unresolved",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "03-65",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -7902,26 +7884,24 @@
     }
   ],
   "note_summary": {
-    "total": 12,
+    "total": 11,
     "by_source_layer": {
       "curation_entry_note": 2,
       "curation_division_note": 6,
       "curation_research_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_semantic_review": 1
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
       "structural_internal": 6,
       "semantic_analysis": 2,
-      "mc_conflict": 1,
-      "semantic_unresolved": 1
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 12
+      "internal": 11
     },
     "by_recommended_rendering": {
-      "internal_only": 10,
+      "internal_only": 9,
       "series_end_note": 2
     }
   },

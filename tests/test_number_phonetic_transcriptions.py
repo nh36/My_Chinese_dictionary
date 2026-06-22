@@ -157,6 +157,34 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
         self.assertFalse(duplicates)
         self.assertEqual(summary["order_source"], "integrated_render_order")
 
+    def test_current_integrated_order_has_no_numbering_mismatches(self) -> None:
+        entries = copy.deepcopy(number_phonetic_transcriptions.load_entries(ROOT / "data/entries/curation"))
+        integrated_records = number_phonetic_transcriptions.load_integrated_records(
+            ROOT / "data/entries/integrated_series"
+        )
+        number_phonetic_transcriptions.apply_numbering(entries, integrated_records=integrated_records)
+        counters: dict[str, int] = {}
+        mismatches = []
+        for occurrence in number_phonetic_transcriptions.iter_integrated_document_root_occurrences(
+            entries,
+            integrated_records,
+        ):
+            base_root, existing_ordinal = number_phonetic_transcriptions.split_root_ordinal(
+                occurrence["current_root"]
+            )
+            if not base_root:
+                continue
+            next_count = counters.get(base_root, 0) + 1
+            if occurrence["mutable"]:
+                current_display = occurrence["root_data"].get("display_root") or occurrence["root_data"].get("root")
+                expected_display = number_phonetic_transcriptions.format_root_ordinal(base_root, next_count)
+                counters[base_root] = next_count
+                if current_display != expected_display:
+                    mismatches.append((occurrence["entry_id"], occurrence["character"], current_display, expected_display))
+            else:
+                counters[base_root] = max(next_count, existing_ordinal)
+        self.assertEqual(mismatches, [])
+
 
 if __name__ == "__main__":
     unittest.main()
