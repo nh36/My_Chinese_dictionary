@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 348
-- Roots whose display label changed after document-wide renumbering: 137
-- Duplicate phonetic bases encountered in document order: 102
+- Mutable series/subseries roots inspected: 356
+- Roots whose display label changed after document-wide renumbering: 162
+- Duplicate phonetic bases encountered in document order: 104
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -171,6 +171,8 @@
 | `05-16` | `subseries-root` | 代 | `lyk` | 3 | `lyk₃` | yes |
 | `05-16` | `subseries-root` | 貸 | `lyk` | 4 | `lyk₄` | yes |
 | `05-33` | `series-root` | 畐 | `pyk` | 1 | `pyk` | yes |
+| `06-13` | `series-root` | 灷 | `lyṅ` | 1 | `lyṅ` | yes |
+| `06-13` | `subseries-root` | 朕 | `lyṅ` | 2 | `lyṅ₂` | yes |
 | `07-03` | `series-root` | 支 | `ke` | 1 | `ke` | yes |
 | `07-08` | `series-root` | 圭 | `kue` | 1 | `kue` | yes |
 | `07-08` | `subseries-root` | 洼 | `kue` | 2 | `kue₂` | yes |
@@ -239,6 +241,10 @@
 | `12-10` | `subseries-root` | 甬 | `loṅ` | 2 | `loṅ₂` | yes |
 | `12-10` | `subseries-root` | 勇 | `l\textoverset{b}{o}ṅ` | 1 | `l\textoverset{b}{o}ṅ` | yes |
 | `12-10` | `subseries-root` | 庸 | `l\textoverset{b}{o}ṅ` | 2 | `l\textoverset{b}{o}ṅ₂` | yes |
+| `12-19` | `series-root` | 囱 | `soṅ` | 1 | `soṅ` | yes |
+| `12-19` | `subseries-root` | 匆 | `s\textoverset{a}{o}ṅ` | 1 | `s\textoverset{a}{o}ṅ` | yes |
+| `12-19` | `subseries-root` | 怱 | `s\textoverset{a}{o}ṅ` | 2 | `s\textoverset{a}{o}ṅ₂` | yes |
+| `12-19` | `subseries-root` | 悤 | `s\textoverset{a}{o}ṅ` | 3 | `s\textoverset{a}{o}ṅ₃` | yes |
 | `12-25` | `series-root` | 丰 | `poṅ` | 1 | `poṅ` | yes |
 | `12-25` | `subseries-root` | 封 | `poṅ` | 2 | `poṅ₂` | yes |
 | `12-25` | `subseries-root` | 夆 | `poṅ` | 3 | `poṅ₃` | yes |
@@ -278,6 +284,8 @@
 | `16-03` | `series-root` | 喬 | `kaw` | 2 | `kaw₂` | yes |
 | `16-06` | `series-root` | 交 | `kaw` | 3 | `kaw₃` | yes |
 | `16-06` | `subseries-root` | 效 | `k\textoverset{a}{a}w` | 4 | `k\textoverset{a}{a}w₄` | yes |
+| `16-10` | `series-root` | 夭 | `ʔaw` | 1 | `ʔaw` | yes |
+| `16-10` | `subseries-root` | 沃 | `ʔ\textoverset{a}{a}w` | 1 | `ʔ\textoverset{a}{a}w` | yes |
 | `16-14` | `series-root` | 堯 | `ṅew` | 1 | `ṅew` | yes |
 | `16-15` | `series-root` | 刀 | `taw` | 1 | `taw` | yes |
 | `16-15` | `subseries-root` | 召 | `taw` | 2 | `taw₂` | yes |

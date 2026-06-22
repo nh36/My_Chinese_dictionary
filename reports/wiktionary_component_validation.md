@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2674
-- Pages fetched / cached successfully: 2640
-- Additions with explicit Han-compound semantic/phonetic roles: 1319
+- Proposed additions checked: 2710
+- Pages fetched / cached successfully: 2675
+- Additions with explicit Han-compound semantic/phonetic roles: 1336
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -647,6 +647,18 @@
 | `05-33` | 富 | yes | yes | 宀 | 畐 |
 | `05-33` | 副 | yes | yes | 刀 | 畐 |
 | `05-33` | 𠠦 | yes | no |  |  |
+| `06-13` | 灷 | yes | no |  |  |
+| `06-13` | 㑞 | yes | no |  |  |
+| `06-13` | 朕 | yes | no |  |  |
+| `06-13` | 栚 | yes | no |  |  |
+| `06-13` | 媵 | yes | yes | 女 | 朕 |
+| `06-13` | 賸 | yes | yes | 貝 | 朕 |
+| `06-13` | 塍 | yes | yes | 土 | 朕 |
+| `06-13` | 勝 | yes | yes | 力 | 朕 |
+| `06-13` | 滕 | yes | yes | 水 | 朕 |
+| `06-13` | 縢 | yes | no |  |  |
+| `06-13` | 螣 | yes | no |  |  |
+| `06-13` | 騰 | yes | yes | 馬 | 朕 |
 | `07-03` | 支 | yes | no |  |  |
 | `07-03` | 枝 | yes | yes | 木 | 支 |
 | `07-03` | 肢 | yes | yes | 肉 | 支 |
@@ -1118,6 +1130,18 @@
 | `12-10` | 庸 | yes | yes | 庚 | 同 |
 | `12-10` | 傭 | yes | no |  |  |
 | `12-10` | 墉 | yes | no |  |  |
+| `12-19` | 囱 | yes | no |  |  |
+| `12-19` | 匆 | yes | yes | 心 | 囪 |
+| `12-19` | 悤 | yes | no |  |  |
+| `12-19` | 怱 | yes | no |  |  |
+| `12-19` | 聰 | yes | yes | 心 | 囪 |
+| `12-19` | 蔥 | yes | yes | 艸 | 悤 |
+| `12-19` | 葱 | yes | yes | 艸 | 怱 |
+| `12-19` | 總 | yes | yes | 糸 | 悤 |
+| `12-19` | 緫 | yes | no |  |  |
+| `12-19` | 揔 | yes | yes | 手 | 怱 |
+| `12-19` | 窻 | yes | yes | 穴 | 悤 |
+| `12-19` | 䆫 | yes | yes | 穴 | 怱 |
 | `12-25` | 丰 | yes | no |  |  |
 | `12-25` | 捧 | yes | no |  |  |
 | `12-25` | 俸 | yes | yes | 人 | 奉 |
@@ -1389,6 +1413,18 @@
 | `16-06` | 皎 | yes | no |  |  |
 | `16-06` | 㝔 | yes | no |  |  |
 | `16-06` | 鉸 | yes | yes | 金 | 交 |
+| `16-10` | 夭 | yes | no |  |  |
+| `16-10` | 枖 | yes | no |  |  |
+| `16-10` | 妖 | yes | yes | 女 | 夭 |
+| `16-10` | 𡝩 | no | no |  |  |
+| `16-10` | 殀 | yes | no |  |  |
+| `16-10` | 祆 | yes | yes | 示 | 天 |
+| `16-10` | 訞 | yes | no |  |  |
+| `16-10` | 宎 | yes | no |  |  |
+| `16-10` | 穾 | yes | no |  |  |
+| `16-10` | 䴠 | yes | no |  |  |
+| `16-10` | 沃 | yes | yes | 水 | 夭 |
+| `16-10` | 鋈 | yes | no |  |  |
 | `16-14` | 堯 | yes | yes | 兀 | 垚 |
 | `16-14` | 僥 | yes | yes | 人 | 堯 |
 | `16-14` | 澆 | yes | yes | 水 | 堯 |

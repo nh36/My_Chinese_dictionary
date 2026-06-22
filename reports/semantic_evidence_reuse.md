@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 165
-- Proposed additions inspected: 2674
-- Additions with reusable semantic assignment from existing TeX: 2674
-- Additions with reusable transliteration LaTeX from existing TeX: 2674
-- Additions with reusable render block from existing TeX: 2674
-- Additions with IDS-derived semantic candidates: 1913
-- Additions with explicit Wiktionary Han-compound support: 1310
+- Curated entries inspected: 168
+- Proposed additions inspected: 2710
+- Additions with reusable semantic assignment from existing TeX: 2710
+- Additions with reusable transliteration LaTeX from existing TeX: 2710
+- Additions with reusable render block from existing TeX: 2710
+- Additions with IDS-derived semantic candidates: 1924
+- Additions with explicit Wiktionary Han-compound support: 1327
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 2338
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 65
+- Additions assigned under generated candidate nodes: 2367
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 67
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -54,6 +54,7 @@
 | `05-06` | 16 | 16 | 16 | 16 |
 | `05-16` | 17 | 17 | 17 | 17 |
 | `05-33` | 13 | 13 | 13 | 13 |
+| `06-13` | 12 | 12 | 12 | 12 |
 | `07-03` | 13 | 13 | 13 | 13 |
 | `07-08` | 27 | 27 | 27 | 27 |
 | `07-11` | 13 | 13 | 13 | 13 |
@@ -80,6 +81,7 @@
 | `12-03` | 16 | 16 | 16 | 16 |
 | `12-08` | 24 | 24 | 24 | 24 |
 | `12-10` | 18 | 18 | 18 | 18 |
+| `12-19` | 12 | 12 | 12 | 12 |
 | `12-25` | 23 | 23 | 23 | 23 |
 | `13-03` | 9 | 9 | 9 | 9 |
 | `13-22` | 18 | 18 | 18 | 18 |
@@ -95,6 +97,7 @@
 | `16-01` | 25 | 25 | 25 | 25 |
 | `16-03` | 16 | 16 | 16 | 16 |
 | `16-06` | 24 | 24 | 24 | 24 |
+| `16-10` | 12 | 12 | 12 | 12 |
 | `16-14` | 20 | 20 | 20 | 20 |
 | `16-15` | 22 | 22 | 22 | 22 |
 | `16-20` | 23 | 23 | 23 | 23 |
