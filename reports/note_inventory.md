@@ -2,7 +2,7 @@
 
 - Commented-out source material is excluded from this inventory.
 - Entries with at least one note: 176
-- Total notes inventoried: 764
+- Total notes inventoried: 767
 
 ## By source layer
 
@@ -11,7 +11,7 @@
 | `curation_division_note` | 333 |
 | `curation_entry_note` | 330 |
 | `curation_mc_investigation` | 65 |
-| `curation_research_note` | 15 |
+| `curation_research_note` | 18 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
 
@@ -22,7 +22,7 @@
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
 | `mc_conflict` | 65 |
-| `semantic_analysis` | 15 |
+| `semantic_analysis` | 18 |
 | `source_reference` | 10 |
 | `structural_internal` | 333 |
 | `workflow_internal` | 335 |
@@ -33,7 +33,7 @@
 | --- | ---: |
 | `footnote` | 10 |
 | `internal_only` | 730 |
-| `series_end_note` | 24 |
+| `series_end_note` | 27 |
 
 ## Examples: `analysis_note`
 
@@ -78,8 +78,8 @@
 | `03-65` | `curation_research_note` | character: 㡃 | `series_end_note` | Chinese sources support 巾 semantic + 㠩 phonetic. |
 | `04-26` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
 | `04-29` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
-| `07-12` | `curation_research_note` | character: 鏑 | `series_end_note` | Metal semantic shell over the 帝/啇 phonetic line. |
-| `07-12` | `curation_research_note` | character: 謫 | `series_end_note` | Speech semantic shell over the 帝/啇 phonetic line. |
+| `04-61` | `curation_research_note` | character: 咅 | `series_end_note` | Do not treat the upper dot in 咅 as a stable semantic component. |
+| `07-12` | `curation_research_note` | character: 帝 | `series_end_note` | Treat 帝 as a pictogram rather than a phono-semantic compound with 丄 as semantic. |
 
 ## Examples: `source_reference`
 

@@ -1,14 +1,14 @@
 {
   "summary": {
     "entry_count_with_notes": 176,
-    "total_notes": 764,
+    "total_notes": 767,
     "by_source_layer": {
       "hand_footnote": 10,
       "curation_entry_note": 330,
       "curation_mc_investigation": 65,
       "hand_prose_note": 11,
       "curation_division_note": 333,
-      "curation_research_note": 15
+      "curation_research_note": 18
     },
     "by_category": {
       "source_reference": 10,
@@ -17,16 +17,16 @@
       "editorial_uncertainty": 4,
       "structural_internal": 333,
       "analysis_note": 2,
-      "semantic_analysis": 15
+      "semantic_analysis": 18
     },
     "by_visibility": {
       "rendered": 21,
-      "internal": 743
+      "internal": 746
     },
     "by_recommended_rendering": {
       "footnote": 10,
       "internal_only": 730,
-      "series_end_note": 24
+      "series_end_note": 27
     }
   },
   "notes": [
@@ -2166,6 +2166,17 @@
     },
     {
       "entry_id": "04-61",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "咅",
+      "line_number": null,
+      "text": "Do not treat the upper dot in 咅 as a stable semantic component.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
+    },
+    {
+      "entry_id": "04-61",
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -2504,6 +2515,17 @@
       "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
       "category": "workflow_internal",
       "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "07-12",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "帝",
+      "line_number": null,
+      "text": "Treat 帝 as a pictogram rather than a phono-semantic compound with 丄 as semantic.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
     },
     {
       "entry_id": "07-12",
@@ -5452,6 +5474,17 @@
       "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
       "category": "workflow_internal",
       "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "22-13",
+      "source_layer": "curation_research_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "兌",
+      "line_number": null,
+      "text": "Reduce the Shuowen-era 儿 semantic in 兌 to the more basic person graph 人.",
+      "category": "semantic_analysis",
+      "recommended_rendering": "series_end_note"
     },
     {
       "entry_id": "22-13",

@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import audit_generated_nonlatin_semantics  # noqa: E402
+import json  # noqa: E402
 
 
 class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
@@ -36,6 +37,31 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
         )
         self.assertEqual(result["classification"], "template_alt_graph")
         self.assertEqual(result["target_graph"], "冃")
+
+    def test_current_unresolved_generated_semantics_match_approved_hold_set(self) -> None:
+        inventory = json.loads(
+            (ROOT / "data/derived/nonlatin_generated_semantics.json").read_text(encoding="utf-8")
+        )
+        components = {row["semantic_component"] for row in inventory["components"]}
+        self.assertEqual(
+            components,
+            {
+                "一",
+                "八",
+                "同",
+                "坴",
+                "庚",
+                "曰",
+                "㯻",
+                "䖵",
+                "嗇",
+                "殺",
+                "𣒚",
+                "𤼽",
+                "𦰩",
+            },
+        )
+        self.assertEqual(inventory["summary"]["case_count"], 13)
 
 
 if __name__ == "__main__":

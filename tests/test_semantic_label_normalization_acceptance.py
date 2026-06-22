@@ -45,9 +45,13 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("骨", "oss"), rows)
         self.assertIn(("牛", "bos"), rows)
         self.assertIn(("犛", "grunn"), rows)
+        self.assertIn(("永", "aetern"), rows)
         self.assertIn(("疒", "infirm"), rows)
         self.assertIn(("韋", "alut"), rows)
         self.assertIn(("廾", "biman"), rows)
+        self.assertIn(("履", "calce"), rows)
+        self.assertIn(("兀", "calv"), rows)
+        self.assertIn(("釆", "cern"), rows)
         self.assertIn(("身", "corp"), rows)
         self.assertIn(("殳", "hast"), rows)
         self.assertIn(("鹵", "sal"), rows)
@@ -63,10 +67,27 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("尾", "caud"), rows)
         self.assertIn(("囟", "fontan"), rows)
         self.assertIn(("工", "fabr"), rows)
+        self.assertIn(("㐭", "granar"), rows)
         self.assertIn(("己", "ipse"), rows)
+        self.assertIn(("入", "intro"), rows)
         self.assertIn(("隶", "nex"), rows)
+        self.assertIn(("系", "lig"), rows)
+        self.assertIn(("臣", "ministr"), rows)
+        self.assertIn(("死", "mort"), rows)
         self.assertIn(("申", "tend"), rows)
         self.assertIn(("民", "pleb"), rows)
+        self.assertIn(("炎", "flamm"), rows)
+        self.assertIn(("雲", "nimb"), rows)
+        self.assertIn(("宮", "palat"), rows)
+        self.assertIn(("冃", "pile"), rows)
+        self.assertIn(("韭", "porr"), rows)
+        self.assertIn(("反", "revers"), rows)
+        self.assertIn(("屵", "rup"), rows)
+        self.assertIn(("乑", "turb"), rows)
+        self.assertIn(("气", "vapor"), rows)
+        self.assertIn(("夂", "vestig"), rows)
+        self.assertIn(("士", "vir"), rows)
+        self.assertIn(("面", "vult"), rows)
         self.assertIn(("川", "fluvi"), rows)
         self.assertIn(("血", "sangu"), rows)
         self.assertIn(("須", "barb"), rows)
@@ -131,6 +152,52 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         for abbreviation, hits in usage.items():
             self.assertTrue(hits, msg=f"{abbreviation} is listed in the inventory but unused in curation data")
 
+    def test_newly_curated_semantic_labels_are_used_in_live_entries(self) -> None:
+        integrated = json.loads(
+            (ROOT / "data/semantic_components/integrated_semantic_components.json").read_text(encoding="utf-8")
+        )
+        by_abbreviation = {
+            item.get("abbreviation"): item for item in integrated["items"] if item.get("abbreviation")
+        }
+        expected_inventory = {
+            "aetern": "永",
+            "calce": "履",
+            "calv": "兀",
+            "cern": "釆",
+            "granar": "㐭",
+            "intro": "入",
+            "lig": "系",
+            "ministr": "臣",
+            "mort": "死",
+            "flamm": "炎",
+            "nimb": "雲",
+            "palat": "宮",
+            "pile": "冃",
+            "porr": "韭",
+            "revers": "反",
+            "rup": "屵",
+            "turb": "乑",
+            "vapor": "气",
+            "vestig": "夂",
+            "vir": "士",
+            "vult": "面",
+        }
+        for abbreviation, graph in expected_inventory.items():
+            self.assertIn(abbreviation, by_abbreviation)
+            self.assertEqual(by_abbreviation[abbreviation]["graph_raw"], graph)
+            self.assertTrue(by_abbreviation[abbreviation]["used_in_integrated_dictionary"])
+
+        usage = {abbreviation: [] for abbreviation in expected_inventory}
+        for path in (ROOT / "data/entries/curation").glob("*.json"):
+            entry = json.loads(path.read_text(encoding="utf-8"))
+            for candidate in entry.get("proposed_additions", []):
+                abbreviation = (candidate.get("semantic_assignment") or {}).get("abbreviation")
+                if abbreviation in usage:
+                    usage[abbreviation].append((entry["id"], candidate["character"]))
+
+        for abbreviation, hits in usage.items():
+            self.assertTrue(hits, msg=f"{abbreviation} is listed in the inventory but unused in curation data")
+
     def test_audit_output_confirms_bos_review_and_no_live_blocked_or_placeholder_usage(self) -> None:
         audit = json.loads(
             (ROOT / "data/semantic_components/semantic_label_normalization_audit.json").read_text(encoding="utf-8")
@@ -159,6 +226,22 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
             },
             audit["unsafe_alias_candidates"],
         )
+
+    def test_approved_historical_semantic_reductions_are_applied(self) -> None:
+        entry_0712 = json.loads((ROOT / "data/entries/curation/07-12.json").read_text(encoding="utf-8"))
+        by_char_0712 = {candidate["character"]: candidate for candidate in entry_0712["proposed_additions"]}
+        self.assertIsNone((by_char_0712["帝"]["semantic_assignment"] or {}).get("abbreviation"))
+        self.assertEqual((by_char_0712["帝"]["semantic_assignment"] or {}).get("position"), "none")
+
+        entry_0461 = json.loads((ROOT / "data/entries/curation/04-61.json").read_text(encoding="utf-8"))
+        by_char_0461 = {candidate["character"]: candidate for candidate in entry_0461["proposed_additions"]}
+        self.assertIsNone((by_char_0461["咅"]["semantic_assignment"] or {}).get("abbreviation"))
+        self.assertEqual((by_char_0461["咅"]["semantic_assignment"] or {}).get("position"), "none")
+
+        entry_2213 = json.loads((ROOT / "data/entries/curation/22-13.json").read_text(encoding="utf-8"))
+        by_char_2213 = {candidate["character"]: candidate for candidate in entry_2213["proposed_additions"]}
+        self.assertEqual((by_char_2213["兌"]["semantic_assignment"] or {}).get("abbreviation"), "hom")
+        self.assertEqual((by_char_2213["兌"]["semantic_assignment"] or {}).get("semantic_component"), "人")
 
 
 if __name__ == "__main__":

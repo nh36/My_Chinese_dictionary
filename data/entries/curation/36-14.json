@@ -835,37 +835,58 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "燄",
           "ids": "⿰臽炎",
           "phonetic_component": "臽",
           "semantic_component": "炎",
           "position": "suffix-dot",
-          "abbreviation": "炎",
-          "inventory_matches": []
+          "abbreviation": "flamm",
+          "inventory_matches": [
+            {
+              "graph_raw": "炎",
+              "label_token": "flamm(a)",
+              "abbreviation": "flamm",
+              "start_line": 274
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "炎",
+        "abbreviation": "flamm",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "炎",
+            "label_token": "flamm(a)",
+            "abbreviation": "flamm",
+            "start_line": 274
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "炎"
       },
-      "transliteration_latex": "{\\large{qam\\textsuperscript{·炎}}},",
-      "render_latex": "燄\t%yan4\n{\\large{qam\\textsuperscript{·炎}}},\n\\textit{yiemH};\t%0617c\n\\textit{yiemX};",
+      "transliteration_latex": "{\\large{qam\\textsuperscript{·flamm}}},",
+      "render_latex": "燄\t%yan4\n{\\large{qam\\textsuperscript{·flamm}}},\n\\textit{yiemH};\t%0617c\n\\textit{yiemX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "炎",
         "phonetic_component": "臽",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "燄",
           "semantic_component": "炎",
           "phonetic_component": "臽",
           "position": "suffix-dot",
-          "abbreviation": "炎",
-          "inventory_matches": [],
+          "abbreviation": "flamm",
+          "inventory_matches": [
+            {
+              "graph_raw": "炎",
+              "label_token": "flamm(a)",
+              "abbreviation": "flamm",
+              "start_line": 274
+            }
+          ],
           "template_raw": "{{Han compound|臽|炎|ls=psc|c1=p|c2=s}}"
         }
       },
@@ -1025,7 +1046,7 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 243
+              "start_line": 247
             }
           ]
         }
@@ -1039,7 +1060,7 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 243
+            "start_line": 247
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1062,7 +1083,7 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 243
+              "start_line": 247
             }
           ],
           "template_raw": "{{Han compound|炎|刀|alt2=刂|ls=psc|c1=p|c2=s|t2=knife}}"
@@ -1198,7 +1219,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -1219,7 +1240,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 303
+            "start_line": 311
           },
           {
             "graph_raw": "手",
@@ -1249,7 +1270,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -1390,7 +1411,7 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 275
+              "start_line": 280
             },
             {
               "graph_raw": "玉",
@@ -1411,7 +1432,7 @@
             "graph_raw": "玉",
             "label_token": "gem(ma)",
             "abbreviation": "gem",
-            "start_line": 275
+            "start_line": 280
           },
           {
             "graph_raw": "玉",
@@ -1441,7 +1462,7 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 275
+              "start_line": 280
             },
             {
               "graph_raw": "玉",
@@ -1536,7 +1557,7 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 402
+              "start_line": 420
             },
             {
               "graph_raw": "衣",
@@ -1557,7 +1578,7 @@
             "graph_raw": "衣",
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
-            "start_line": 402
+            "start_line": 420
           },
           {
             "graph_raw": "衣",
@@ -1805,7 +1826,7 @@
               "graph_raw": "見",
               "label_token": "vid(eo)",
               "abbreviation": "vid",
-              "start_line": 405
+              "start_line": 424
             },
             {
               "graph_raw": "見",
@@ -1826,7 +1847,7 @@
             "graph_raw": "見",
             "label_token": "vid(eo)",
             "abbreviation": "vid",
-            "start_line": 405
+            "start_line": 424
           },
           {
             "graph_raw": "見",
@@ -1924,7 +1945,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 283
+              "start_line": 289
             },
             {
               "graph_raw": "艸",
@@ -1945,7 +1966,7 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 283
+            "start_line": 289
           },
           {
             "graph_raw": "艸",
@@ -2043,7 +2064,7 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 234
+              "start_line": 238
             },
             {
               "graph_raw": "心",
@@ -2064,7 +2085,7 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 234
+            "start_line": 238
           },
           {
             "graph_raw": "心",
@@ -2208,7 +2229,7 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 250
+              "start_line": 254
             },
             {
               "graph_raw": "言",
@@ -2229,7 +2250,7 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 250
+            "start_line": 254
           },
           {
             "graph_raw": "言",
@@ -2259,7 +2280,7 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 250
+              "start_line": 254
             },
             {
               "graph_raw": "言",
@@ -2437,7 +2458,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 284
+              "start_line": 290
             },
             {
               "graph_raw": "人",
@@ -2458,7 +2479,7 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 284
+            "start_line": 290
           },
           {
             "graph_raw": "人",
@@ -2488,7 +2509,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 284
+              "start_line": 290
             },
             {
               "graph_raw": "人",
@@ -2610,7 +2631,7 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 323
+              "start_line": 334
             },
             {
               "graph_raw": "口",
@@ -2631,7 +2652,7 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 323
+            "start_line": 334
           },
           {
             "graph_raw": "口",
@@ -2824,7 +2845,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 196
+              "start_line": 197
             },
             {
               "graph_raw": "水",
@@ -2845,7 +2866,7 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 196
+            "start_line": 197
           },
           {
             "graph_raw": "水",
@@ -2875,7 +2896,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 196
+              "start_line": 197
             },
             {
               "graph_raw": "水",
@@ -2981,7 +3002,7 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 256
+              "start_line": 260
             },
             {
               "graph_raw": "食",
@@ -3002,7 +3023,7 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 256
+            "start_line": 260
           },
           {
             "graph_raw": "食",

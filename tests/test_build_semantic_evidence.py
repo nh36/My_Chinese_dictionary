@@ -209,6 +209,29 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["semantic_component"], "邑")
         self.assertEqual(resolved["abbreviation"], "urb")
 
+    def test_apply_approved_semantic_override_removes_bad_semantic(self) -> None:
+        graph_lookup = {
+            "人": [{"graph_raw": "人", "label_token": "hom(o)", "abbreviation": "hom"}],
+        }
+        removed = build_semantic_evidence.apply_approved_semantic_override(
+            {"character": "帝"},
+            graph_lookup,
+        )
+        reduced = build_semantic_evidence.apply_approved_semantic_override(
+            {"character": "兌"},
+            graph_lookup,
+        )
+
+        self.assertIsNotNone(removed)
+        self.assertEqual(removed["abbreviation"], None)
+        self.assertEqual(removed["position"], "none")
+        self.assertIsNone(removed["semantic_component"])
+
+        self.assertIsNotNone(reduced)
+        self.assertEqual(reduced["abbreviation"], "hom")
+        self.assertEqual(reduced["semantic_component"], "人")
+        self.assertEqual(reduced["position"], "suffix-colon")
+
     def test_resolve_semantic_from_packet_family(self) -> None:
         ids_map = {"眙": "⿰目台", "褏": "⿳亠⿰③由𧘇"}
         graph_lookup = {

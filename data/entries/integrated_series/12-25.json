@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:56:27.089290+00:00",
+  "generated_at": "2026-06-22T10:43:53.819890+00:00",
   "id": "12-25",
   "schuessler": {
     "gsc_id": "12-25",
@@ -788,7 +788,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -942,7 +942,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 284
+              "start_line": 290
             },
             {
               "graph_raw": "人",
@@ -972,7 +972,7 @@
                 "graph_raw": "人",
                 "label_token": "hom(o)",
                 "abbreviation": "hom",
-                "start_line": 284
+                "start_line": 290
               },
               {
                 "graph_raw": "人",
@@ -1081,7 +1081,7 @@
                 "graph_raw": "虫",
                 "label_token": "serp(ens)",
                 "abbreviation": "serp",
-                "start_line": 358
+                "start_line": 374
               },
               {
                 "graph_raw": "虫",
@@ -1102,7 +1102,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 358
+              "start_line": 374
             },
             {
               "graph_raw": "虫",
@@ -1219,7 +1219,7 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 323
+              "start_line": 334
             },
             {
               "graph_raw": "口",
@@ -1392,7 +1392,7 @@
               "graph_raw": "邑",
               "label_token": "urb(s)",
               "abbreviation": "urb",
-              "start_line": 394
+              "start_line": 411
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1415,7 +1415,7 @@
                 "graph_raw": "邑",
                 "label_token": "urb(s)",
                 "abbreviation": "urb",
-                "start_line": 394
+                "start_line": 411
               }
             ],
             "template_raw": "{{Han compound|丰|邑|alt2=阝|c1=p|c2=s|ls=psc}}"
@@ -1499,7 +1499,7 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 275
+              "start_line": 280
             },
             {
               "graph_raw": "玉",
@@ -1605,7 +1605,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 283
+              "start_line": 289
             },
             {
               "graph_raw": "艸",
@@ -1713,7 +1713,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 358
+              "start_line": 374
             },
             {
               "graph_raw": "虫",
@@ -2037,7 +2037,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 283
+              "start_line": 289
             },
             {
               "graph_raw": "艸",
@@ -2198,7 +2198,7 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 357
+              "start_line": 373
             },
             {
               "graph_raw": "糸",
@@ -2228,7 +2228,7 @@
                 "graph_raw": "糸",
                 "label_token": "ser(icum)",
                 "abbreviation": "ser",
-                "start_line": 357
+                "start_line": 373
               },
               {
                 "graph_raw": "糸",
@@ -2394,37 +2394,58 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "夆",
             "ids": "⿱夂丰",
             "phonetic_component": "丰",
             "semantic_component": "夂",
             "position": "prefix-colon",
-            "abbreviation": "夂",
-            "inventory_matches": []
+            "abbreviation": "vestig",
+            "inventory_matches": [
+              {
+                "graph_raw": "夂",
+                "label_token": "vestig(ium)",
+                "abbreviation": "vestig",
+                "start_line": 421
+              }
+            ]
           }
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "夂",
+          "abbreviation": "vestig",
           "position": "prefix-colon",
-          "inventory_matches": [],
-          "source": "wiktionary_component_literal_fallback",
+          "inventory_matches": [
+            {
+              "graph_raw": "夂",
+              "label_token": "vestig(ium)",
+              "abbreviation": "vestig",
+              "start_line": 421
+            }
+          ],
+          "source": "wiktionary_han_compound",
           "semantic_component": "夂"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{夂˸}poṅ}},",
-        "render_latex": "夆\t%feng1\n{\\large{\\textsuperscript{夂˸}poṅ}},\n\\textit{biəwṅ};\t%1197m\n\\textit{phiəwṅ};",
+        "transliteration_latex": "{\\large{\\textsuperscript{vestig˸}poṅ}},",
+        "render_latex": "夆\t%feng1\n{\\large{\\textsuperscript{vestig˸}poṅ}},\n\\textit{biəwṅ};\t%1197m\n\\textit{phiəwṅ};",
         "wiktionary_semantic_validation": {
           "semantic_component": "夂",
           "phonetic_component": "丰",
           "resolved_assignment": {
-            "source": "wiktionary_component_literal_fallback",
+            "source": "wiktionary_han_compound",
             "character": "夆",
             "semantic_component": "夂",
             "phonetic_component": "丰",
             "position": "prefix-colon",
-            "abbreviation": "夂",
-            "inventory_matches": [],
+            "abbreviation": "vestig",
+            "inventory_matches": [
+              {
+                "graph_raw": "夂",
+                "label_token": "vestig(ium)",
+                "abbreviation": "vestig",
+                "start_line": 421
+              }
+            ],
             "template_raw": "{{Han compound|夂|t1=footprint pointing down, walk|丰|t2=bush, brush|ls=psc|c1=s|c2=p}}"
           }
         },
@@ -2661,7 +2682,7 @@
               "graph_raw": "辵",
               "label_token": "amb(ulo)",
               "abbreviation": "amb",
-              "start_line": 186
+              "start_line": 187
             }
           ],
           "source": "wiktionary_han_compound",
@@ -2684,7 +2705,7 @@
                 "graph_raw": "辵",
                 "label_token": "amb(ulo)",
                 "abbreviation": "amb",
-                "start_line": 186
+                "start_line": 187
               }
             ],
             "template_raw": "{{Han compound|辵|alt1=辶|夆|ls=psc|c1=s|c2=p}}"
@@ -2968,7 +2989,7 @@
                 "graph_raw": "火",
                 "label_token": "ign(is)",
                 "abbreviation": "ign",
-                "start_line": 286
+                "start_line": 292
               },
               {
                 "graph_raw": "火",
@@ -2989,7 +3010,7 @@
               "graph_raw": "火",
               "label_token": "ign(is)",
               "abbreviation": "ign",
-              "start_line": 286
+              "start_line": 292
             },
             {
               "graph_raw": "火",
@@ -3019,7 +3040,7 @@
                 "graph_raw": "火",
                 "label_token": "ign(is)",
                 "abbreviation": "ign",
-                "start_line": 286
+                "start_line": 292
               },
               {
                 "graph_raw": "火",
@@ -3186,7 +3207,7 @@
                 "graph_raw": "虫",
                 "label_token": "serp(ens)",
                 "abbreviation": "serp",
-                "start_line": 358
+                "start_line": 374
               },
               {
                 "graph_raw": "虫",
@@ -3207,7 +3228,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 358
+              "start_line": 374
             },
             {
               "graph_raw": "虫",
@@ -3237,7 +3258,7 @@
                 "graph_raw": "虫",
                 "label_token": "serp(ens)",
                 "abbreviation": "serp",
-                "start_line": 358
+                "start_line": 374
               },
               {
                 "graph_raw": "虫",
@@ -3457,7 +3478,7 @@
                 "graph_raw": "金",
                 "label_token": "met(allum)",
                 "abbreviation": "met",
-                "start_line": 306
+                "start_line": 314
               },
               {
                 "graph_raw": "金",
@@ -3478,7 +3499,7 @@
               "graph_raw": "金",
               "label_token": "met(allum)",
               "abbreviation": "met",
-              "start_line": 306
+              "start_line": 314
             },
             {
               "graph_raw": "金",
@@ -3508,7 +3529,7 @@
                 "graph_raw": "金",
                 "label_token": "met(allum)",
                 "abbreviation": "met",
-                "start_line": 306
+                "start_line": 314
               },
               {
                 "graph_raw": "金",
@@ -3603,7 +3624,7 @@
                 "graph_raw": "手",
                 "label_token": "man(us)",
                 "abbreviation": "man",
-                "start_line": 303
+                "start_line": 311
               },
               {
                 "graph_raw": "手",
@@ -3624,7 +3645,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -3832,7 +3853,7 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 357
+              "start_line": 373
             },
             {
               "graph_raw": "糸",
@@ -3862,7 +3883,7 @@
                 "graph_raw": "糸",
                 "label_token": "ser(icum)",
                 "abbreviation": "ser",
-                "start_line": 357
+                "start_line": 373
               },
               {
                 "graph_raw": "糸",
@@ -4003,7 +4024,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 283
+                "start_line": 289
               },
               {
                 "graph_raw": "艸",
@@ -4024,7 +4045,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 283
+              "start_line": 289
             },
             {
               "graph_raw": "艸",
@@ -4054,7 +4075,7 @@
                 "graph_raw": "艸",
                 "label_token": "herb(a)",
                 "abbreviation": "herb",
-                "start_line": 283
+                "start_line": 289
               },
               {
                 "graph_raw": "艸",
@@ -4238,7 +4259,7 @@
                 "graph_raw": "廾",
                 "label_token": "biman(us)",
                 "abbreviation": "biman",
-                "start_line": 209
+                "start_line": 210
               }
             ],
             "template_raw": "{{Han compound|丰|廾|c1=p|c2=s|t2=two hands|ls=psc|nocap=y}}"
@@ -4253,7 +4274,7 @@
               "graph_raw": "廾",
               "label_token": "biman(us)",
               "abbreviation": "biman",
-              "start_line": 209
+              "start_line": 210
             }
           ],
           "source": "wiktionary_han_compound",

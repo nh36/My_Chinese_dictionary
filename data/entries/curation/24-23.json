@@ -178,37 +178,58 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "亶",
           "ids": "⿱㐭旦",
           "phonetic_component": "旦",
           "semantic_component": "㐭",
           "position": "prefix-colon",
-          "abbreviation": "㐭",
-          "inventory_matches": []
+          "abbreviation": "granar",
+          "inventory_matches": [
+            {
+              "graph_raw": "㐭",
+              "label_token": "granar(ium)",
+              "abbreviation": "granar",
+              "start_line": 284
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "㐭",
+        "abbreviation": "granar",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "㐭",
+            "label_token": "granar(ium)",
+            "abbreviation": "granar",
+            "start_line": 284
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "㐭"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{㐭˸}tan}},",
-      "render_latex": "亶\t%dan3 / dǎn\n{\\large{\\textsuperscript{㐭˸}tan}},\n\\textit{tanX};\t%0148a",
+      "transliteration_latex": "{\\large{\\textsuperscript{granar˸}tan}},",
+      "render_latex": "亶\t%dan3 / dǎn\n{\\large{\\textsuperscript{granar˸}tan}},\n\\textit{tanX};\t%0148a",
       "wiktionary_semantic_validation": {
         "semantic_component": "㐭",
         "phonetic_component": "旦",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "亶",
           "semantic_component": "㐭",
           "phonetic_component": "旦",
           "position": "prefix-colon",
-          "abbreviation": "㐭",
-          "inventory_matches": [],
+          "abbreviation": "granar",
+          "inventory_matches": [
+            {
+              "graph_raw": "㐭",
+              "label_token": "granar(ium)",
+              "abbreviation": "granar",
+              "start_line": 284
+            }
+          ],
           "template_raw": "{{Han compound|㐭|旦|c1=s|c2=p|ls=psc}}"
         }
       },
@@ -422,7 +443,7 @@
               "graph_raw": "疒",
               "label_token": "infirm(itas)",
               "abbreviation": "infirm",
-              "start_line": 287
+              "start_line": 293
             },
             {
               "graph_raw": "疒",
@@ -443,7 +464,7 @@
             "graph_raw": "疒",
             "label_token": "infirm(itas)",
             "abbreviation": "infirm",
-            "start_line": 287
+            "start_line": 293
           },
           {
             "graph_raw": "疒",
@@ -612,7 +633,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 284
+              "start_line": 290
             },
             {
               "graph_raw": "人",
@@ -633,7 +654,7 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 284
+            "start_line": 290
           },
           {
             "graph_raw": "人",
@@ -663,7 +684,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 284
+              "start_line": 290
             },
             {
               "graph_raw": "人",
@@ -802,7 +823,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 376
+              "start_line": 392
             },
             {
               "graph_raw": "土",
@@ -823,7 +844,7 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 376
+            "start_line": 392
           },
           {
             "graph_raw": "土",
@@ -853,7 +874,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 376
+              "start_line": 392
             },
             {
               "graph_raw": "土",
@@ -992,7 +1013,7 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 201
+              "start_line": 202
             },
             {
               "graph_raw": "木",
@@ -1013,7 +1034,7 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 201
+            "start_line": 202
           },
           {
             "graph_raw": "木",
@@ -1043,7 +1064,7 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 201
+              "start_line": 202
             },
             {
               "graph_raw": "木",
@@ -1162,7 +1183,7 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 196
+              "start_line": 197
             },
             {
               "graph_raw": "水",
@@ -1183,7 +1204,7 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 196
+            "start_line": 197
           },
           {
             "graph_raw": "水",
@@ -1402,7 +1423,7 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 402
+              "start_line": 420
             },
             {
               "graph_raw": "衣",
@@ -1423,7 +1444,7 @@
             "graph_raw": "衣",
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
-            "start_line": 402
+            "start_line": 420
           },
           {
             "graph_raw": "衣",
@@ -1453,7 +1474,7 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 402
+              "start_line": 420
             },
             {
               "graph_raw": "衣",
@@ -1583,7 +1604,7 @@
               "graph_raw": "皮",
               "label_token": "pell(is)",
               "abbreviation": "pell",
-              "start_line": 333
+              "start_line": 345
             }
           ]
         }
@@ -1597,7 +1618,7 @@
             "graph_raw": "皮",
             "label_token": "pell(is)",
             "abbreviation": "pell",
-            "start_line": 333
+            "start_line": 345
           }
         ],
         "source": "ids_top_level",
@@ -1890,7 +1911,7 @@
               "graph_raw": "魚",
               "label_token": "pis(cis)",
               "abbreviation": "pis",
-              "start_line": 336
+              "start_line": 349
             },
             {
               "graph_raw": "魚",
@@ -1911,7 +1932,7 @@
             "graph_raw": "魚",
             "label_token": "pis(cis)",
             "abbreviation": "pis",
-            "start_line": 336
+            "start_line": 349
           },
           {
             "graph_raw": "魚",
@@ -1941,7 +1962,7 @@
               "graph_raw": "魚",
               "label_token": "pis(cis)",
               "abbreviation": "pis",
-              "start_line": 336
+              "start_line": 349
             },
             {
               "graph_raw": "魚",
@@ -2065,7 +2086,7 @@
             "graph_raw": "㫃",
             "label_token": "vex(illum)",
             "abbreviation": "vex",
-            "start_line": 403
+            "start_line": 422
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2088,7 +2109,7 @@
               "graph_raw": "㫃",
               "label_token": "vex(illum)",
               "abbreviation": "vex",
-              "start_line": 403
+              "start_line": 422
             }
           ],
           "template_raw": "{{Han compound|㫃|亶|ls=psc|c1=s|c2=p|t1=flags flying}}"
@@ -2236,7 +2257,7 @@
               "graph_raw": "毛",
               "label_token": "pil(us)",
               "abbreviation": "pil",
-              "start_line": 334
+              "start_line": 346
             },
             {
               "graph_raw": "毛",
@@ -2257,7 +2278,7 @@
             "graph_raw": "毛",
             "label_token": "pil(us)",
             "abbreviation": "pil",
-            "start_line": 334
+            "start_line": 346
           },
           {
             "graph_raw": "毛",
@@ -2287,7 +2308,7 @@
               "graph_raw": "毛",
               "label_token": "pil(us)",
               "abbreviation": "pil",
-              "start_line": 334
+              "start_line": 346
             },
             {
               "graph_raw": "毛",
@@ -2419,7 +2440,7 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 256
+              "start_line": 260
             },
             {
               "graph_raw": "食",
@@ -2440,7 +2461,7 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 256
+            "start_line": 260
           },
           {
             "graph_raw": "食",
@@ -2552,7 +2573,7 @@
               "graph_raw": "鳥",
               "label_token": "av(is)",
               "abbreviation": "av",
-              "start_line": 203
+              "start_line": 204
             },
             {
               "graph_raw": "鳥",
@@ -2573,7 +2594,7 @@
             "graph_raw": "鳥",
             "label_token": "av(is)",
             "abbreviation": "av",
-            "start_line": 203
+            "start_line": 204
           },
           {
             "graph_raw": "鳥",
@@ -2731,7 +2752,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -2752,7 +2773,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 303
+            "start_line": 311
           },
           {
             "graph_raw": "手",
@@ -2782,7 +2803,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 303
+              "start_line": 311
             },
             {
               "graph_raw": "手",
@@ -2877,7 +2898,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 358
+              "start_line": 374
             },
             {
               "graph_raw": "虫",
@@ -2898,7 +2919,7 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 358
+            "start_line": 374
           },
           {
             "graph_raw": "虫",
@@ -3054,7 +3075,7 @@
               "graph_raw": "羊",
               "label_token": "ov(is)",
               "abbreviation": "ov",
-              "start_line": 326
+              "start_line": 337
             }
           ]
         }
@@ -3068,7 +3089,7 @@
             "graph_raw": "羊",
             "label_token": "ov(is)",
             "abbreviation": "ov",
-            "start_line": 326
+            "start_line": 337
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3091,7 +3112,7 @@
               "graph_raw": "羊",
               "label_token": "ov(is)",
               "abbreviation": "ov",
-              "start_line": 326
+              "start_line": 337
             }
           ],
           "template_raw": "{{Han compound|羊|亶|c1=s|c2=p|ls=psc}}"
@@ -3239,7 +3260,7 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 299
+              "start_line": 307
             },
             {
               "graph_raw": "月",
@@ -3260,7 +3281,7 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 216
+            "start_line": 219
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3283,7 +3304,7 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 216
+              "start_line": 219
             }
           ],
           "template_raw": "{{Han compound|肉|alt1=⺼|亶|c1=s|c2=p|ls=psc}}"
@@ -3417,7 +3438,7 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 264
+              "start_line": 268
             },
             {
               "graph_raw": "頁",
@@ -3438,7 +3459,7 @@
             "graph_raw": "頁",
             "label_token": "fac(ies)",
             "abbreviation": "fac",
-            "start_line": 264
+            "start_line": 268
           },
           {
             "graph_raw": "頁",
@@ -3468,7 +3489,7 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 264
+              "start_line": 268
             },
             {
               "graph_raw": "頁",

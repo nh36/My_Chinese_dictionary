@@ -172,6 +172,29 @@ RESEARCH_BACKED_SEMANTICS = {
         "note": "Chinese sources support 囗 semantic + 睘 phonetic.",
     },
 }
+APPROVED_SEMANTIC_OVERRIDES = {
+    "帝": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_pictogram",
+        "note": "Treat 帝 as a pictogram rather than a phono-semantic compound with 丄 as semantic.",
+    },
+    "咅": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_corrupted_component",
+        "note": "Do not treat the upper dot in 咅 as a stable semantic component.",
+    },
+    "兌": {
+        "abbreviation": "hom",
+        "position": "suffix-colon",
+        "semantic_component": "人",
+        "source": "approved_historical_reduction",
+        "note": "Reduce the Shuowen-era 儿 semantic in 兌 to the more basic person graph 人.",
+    },
+}
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -1174,6 +1197,31 @@ def apply_research_backed_semantic(
     }
 
 
+def apply_approved_semantic_override(
+    candidate: dict[str, Any],
+    graph_lookup: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any] | None:
+    override = APPROVED_SEMANTIC_OVERRIDES.get(candidate["character"])
+    if override is None:
+        return None
+
+    semantic_component = normalize_component_graph(override.get("semantic_component"))
+    inventory_matches = graph_lookup.get(semantic_component, []) if semantic_component else []
+    abbreviation = override.get("abbreviation")
+    if abbreviation is None and inventory_matches:
+        abbreviation = inventory_matches[0].get("abbreviation")
+
+    return {
+        "token": None,
+        "abbreviation": abbreviation,
+        "position": override["position"],
+        "inventory_matches": inventory_matches,
+        "source": override["source"],
+        "semantic_component": semantic_component,
+        "research_note": override["note"],
+    }
+
+
 def disambiguate_occurrences(candidate: dict[str, Any], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if len(matches) <= 1:
         return matches
@@ -1816,6 +1864,11 @@ def enrich_curated_entry_with_ids(
             series_head = maybe_mark_series_head(entry, candidate)
             if series_head is not None:
                 candidate["semantic_assignment"] = series_head
+        approved_override = apply_approved_semantic_override(candidate, graph_lookup)
+        if approved_override is not None:
+            candidate["semantic_assignment"] = approved_override
+            candidate["transliteration_latex"] = None
+            candidate["render_latex"] = None
         if entry.get("packet_kind") == "missing_series":
             candidate["transliteration_latex"] = derive_missing_series_transliteration(entry, candidate)
             candidate["render_latex"] = synthesize_render_latex(candidate)
