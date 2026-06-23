@@ -81,7 +81,7 @@
 | `申` | `tend` | `tend(o)` |  | general |  |  |  |  | yes | current_main_tex, current_main_tex, earlier_pilot, earlier_pilot |
 | `單` | `cicad` | `cicad(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `雚` | `ciconia` | `ciconia` | (in 飌) | only_in | 飌 |  |  |  | yes | current_main_tex, earlier_pilot |
-| `丹` | `cinnabar` | `cinnabar(is)` | (in 彤) | only_in | 彤 |  |  |  | no | current_main_tex, earlier_pilot |
+| `丹` | `cinnabar` | `cinnabar(is)` | (in 彤) | only_in | 彤 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `囗` | `cla` | `cla(usum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尢` | `claud` | `claud(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `囟` | `fontan` | `fontan(ella)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -164,7 +164,7 @@
 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `午` | `meridi` | `meridi(es)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `金` | `met` | `met(allum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  | no | current_main_tex, earlier_pilot |
+| `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  | yes | current_main_tex, earlier_pilot |
 | `臣` | `ministr` | `ministr(er)` |  | general |  |  |  |  | yes | current_main_tex |
 | `牙` | `molar` | `molar(is dens)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `山` | `mon` | `mon(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

@@ -1,18 +1,35 @@
 {
   "summary": {
-    "case_count": 17,
-    "unique_component_count": 15,
+    "case_count": 19,
+    "unique_component_count": 17,
     "by_classification": {
-      "new_latin_label_needed": 16,
+      "new_latin_label_needed": 18,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 12,
+      "wiktionary_component_literal_fallback": 14,
       "ids_component_literal_fallback": 3,
       "packet_family_component_literal_fallback": 2
     }
   },
   "cases": [
+    {
+      "entry_id": "02-08",
+      "character": "彠",
+      "abbreviation": "尋",
+      "semantic_component": "尋",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|尋|蒦|c1=s|c2=p|t1=unit of length|t2=|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "unit of length",
+      "template_gloss_secondary": "",
+      "semantic_component_ids": "⿳彐⿰工口寸",
+      "transliteration_latex": "{\\large{\\textsuperscript{尋·}quak}},",
+      "render_latex": "彠\t%huo4\n{\\large{\\textsuperscript{尋·}quak}},\n\\textit{qiwak};\t%0784f",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
     {
       "entry_id": "02-27",
       "character": "夜",
@@ -252,6 +269,23 @@
       "proposal": "Keep `旦` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "30-11",
+      "character": "肆",
+      "abbreviation": "镸",
+      "semantic_component": "镸",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|镸|隶|c1=s|c2=p|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱④𠫔",
+      "transliteration_latex": "{\\large{\\textsuperscript{镸·}ryp}},",
+      "render_latex": "肆\t%si4 / sì\n{\\large{\\textsuperscript{镸·}ryp}},\n\\textit{siyH};\t%0509h",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "32-26",
       "character": "粼",
       "abbreviation": "巜",
@@ -473,6 +507,27 @@
       ]
     },
     {
+      "semantic_component": "尋",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿳彐⿰工口寸",
+      "template_alt_graph": null,
+      "template_gloss_primary": "unit of length",
+      "template_gloss_secondary": "",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "02-08",
+          "character": "彠",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "巜",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -586,6 +641,27 @@
           "character": "豒",
           "position": "prefix-dot",
           "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "镸",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱④𠫔",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "30-11",
+          "character": "肆",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },

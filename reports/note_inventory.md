@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 245
-- Total notes inventoried: 1040
+- Entries with at least one note: 251
+- Total notes inventoried: 1064
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 445 |
-| `curation_entry_note` | 468 |
-| `curation_mc_investigation` | 88 |
+| `curation_division_note` | 455 |
+| `curation_entry_note` | 480 |
+| `curation_mc_investigation` | 90 |
 | `curation_research_note` | 18 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 88 |
+| `mc_conflict` | 90 |
 | `semantic_analysis` | 18 |
 | `source_reference` | 10 |
-| `structural_internal` | 445 |
-| `workflow_internal` | 473 |
+| `structural_internal` | 455 |
+| `workflow_internal` | 485 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 1003 |
+| `internal_only` | 1027 |
 | `series_end_note` | 27 |
 
 ## Examples: `analysis_note`
@@ -61,10 +61,10 @@
 | `01-01` | `curation_mc_investigation` | character: 個 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: kaH. |
 | `01-42` | `curation_mc_investigation` | character: 徐 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: zjo. |
 | `01-62` | `curation_mc_investigation` | character: 梳 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: srjo. |
+| `02-08` | `curation_mc_investigation` | character: 擭 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: 'waek. |
 | `02-31` | `curation_mc_investigation` | character: 作 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: tsuH. |
 | `03-01` | `curation_mc_investigation` | character: 航 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hang. |
 | `03-12` | `curation_mc_investigation` | character: 唐 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: thang. |
-| `03-65` | `curation_mc_investigation` | character: 望 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: mjang. |
 
 ## Examples: `semantic_analysis`
 
@@ -108,8 +108,8 @@
 | `02-01` | `curation_division_note` | character: 洛 | `internal_only` | all extracted forms lack an i-medial after the onset |
 | `02-01` | `curation_division_note` | character: 路 | `internal_only` | all extracted forms lack an i-medial after the onset |
 | `02-01` | `curation_division_note` | character: 輅 | `internal_only` | all extracted forms lack an i-medial after the onset |
+| `02-08` | `curation_division_note` | character: 蒦 | `internal_only` | top-level series head left unmarked |
 | `02-17` | `curation_division_note` | character: 石 | `internal_only` | top-level series head left unmarked |
-| `02-17` | `curation_division_note` | character: 橐 | `internal_only` | all extracted forms lack an i-medial after the onset |
 
 ## Examples: `workflow_internal`
 
