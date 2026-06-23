@@ -28,6 +28,7 @@
 | `03-01` | `missing_series` | no | 10 | 9 |
 | `03-10` | `missing_series` | no | 11 | 9 |
 | `03-12` | `missing_series` | no | 11 | 8 |
+| `03-16` | `missing_series` | no | 9 | 6 |
 | `03-23` | `missing_series` | no | 13 | 8 |
 | `03-24` | `missing_series` | no | 12 | 11 |
 | `03-26` | `missing_series` | no | 13 | 11 |
@@ -55,6 +56,7 @@
 | `04-45` | `missing_series` | no | 16 | 12 |
 | `04-61` | `missing_series` | no | 26 | 24 |
 | `05-06` | `missing_series` | no | 16 | 14 |
+| `05-12` | `missing_series` | no | 9 | 7 |
 | `05-16` | `missing_series` | no | 17 | 16 |
 | `05-33` | `missing_series` | no | 13 | 12 |
 | `06-05` | `missing_series` | no | 10 | 7 |
@@ -151,12 +153,14 @@
 | `22-10` | `missing_series` | no | 11 | 10 |
 | `22-13` | `missing_series` | no | 14 | 11 |
 | `23-07` | `missing_series` | no | 13 | 12 |
+| `23-10` | `missing_series` | no | 9 | 8 |
 | `23-17` | `missing_series` | no | 12 | 11 |
 | `23-27` | `missing_series` | no | 13 | 12 |
 | `24-01` | `missing_series` | no | 31 | 27 |
 | `24-02` | `missing_series` | no | 11 | 2 |
 | `24-21` | `missing_series` | no | 26 | 24 |
 | `24-23` | `missing_series` | no | 20 | 18 |
+| `24-35` | `missing_series` | no | 9 | 6 |
 | `24-39` | `missing_series` | no | 11 | 9 |
 | `24-41` | `missing_series` | no | 17 | 16 |
 | `24-47` | `missing_series` | no | 13 | 12 |
@@ -182,6 +186,7 @@
 | `26-27` | `missing_series` | no | 19 | 17 |
 | `26-29` | `missing_series` | no | 12 | 11 |
 | `26-38` | `missing_series` | no | 23 | 21 |
+| `27-02` | `missing_series` | no | 9 | 8 |
 | `27-04` | `missing_series` | no | 11 | 9 |
 | `27-08` | `missing_series` | no | 22 | 21 |
 | `28-01` | `missing_series` | no | 14 | 13 |
@@ -205,6 +210,7 @@
 | `32-08` | `missing_series` | no | 16 | 14 |
 | `32-16` | `missing_series` | no | 23 | 22 |
 | `32-26` | `missing_series` | no | 12 | 11 |
+| `32-33` | `missing_series` | no | 9 | 6 |
 | `32-38` | `missing_series` | no | 13 | 12 |
 | `32-40` | `missing_series` | no | 19 | 17 |
 | `33-02` | `missing_series` | no | 17 | 16 |
