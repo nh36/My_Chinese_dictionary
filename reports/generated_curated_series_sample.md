@@ -37,6 +37,7 @@
 | `03-23` | `missing_series` | no | 13 | 8 |
 | `03-24` | `missing_series` | no | 12 | 11 |
 | `03-26` | `missing_series` | no | 13 | 11 |
+| `03-31` | `missing_series` | no | 7 | 6 |
 | `03-32` | `missing_series` | no | 25 | 14 |
 | `03-35` | `missing_series` | no | 10 | 9 |
 | `03-38` | `missing_series` | no | 27 | 23 |
@@ -63,6 +64,7 @@
 | `04-40` | `missing_series` | no | 9 | 8 |
 | `04-41` | `missing_series` | no | 9 | 6 |
 | `04-45` | `missing_series` | no | 16 | 12 |
+| `04-49` | `missing_series` | no | 7 | 2 |
 | `04-61` | `missing_series` | no | 26 | 24 |
 | `05-06` | `missing_series` | no | 16 | 14 |
 | `05-10` | `missing_series` | no | 9 | 7 |
@@ -193,6 +195,7 @@
 | `23-27` | `missing_series` | no | 13 | 12 |
 | `24-01` | `missing_series` | no | 31 | 27 |
 | `24-02` | `missing_series` | no | 11 | 2 |
+| `24-08` | `missing_series` | no | 8 | 7 |
 | `24-11` | `missing_series` | no | 9 | 8 |
 | `24-12` | `missing_series` | no | 8 | 7 |
 | `24-21` | `missing_series` | no | 26 | 24 |
@@ -231,6 +234,7 @@
 | `26-39` | `missing_series` | no | 9 | 8 |
 | `27-02` | `missing_series` | no | 9 | 8 |
 | `27-04` | `missing_series` | no | 11 | 9 |
+| `27-06` | `missing_series` | no | 7 | 6 |
 | `27-08` | `missing_series` | no | 22 | 21 |
 | `28-01` | `missing_series` | no | 14 | 13 |
 | `28-05` | `missing_series` | no | 18 | 16 |
@@ -275,6 +279,7 @@
 | `33-30` | `missing_series` | no | 21 | 20 |
 | `33-36` | `missing_series` | no | 12 | 11 |
 | `34-01` | `missing_series` | no | 11 | 10 |
+| `34-11` | `missing_series` | no | 8 | 4 |
 | `34-12` | `missing_series` | no | 8 | 7 |
 | `34-13` | `missing_series` | no | 14 | 13 |
 | `34-15` | `missing_series` | no | 8 | 7 |
@@ -285,6 +290,7 @@
 | `34-23` | `missing_series` | no | 25 | 23 |
 | `34-24` | `missing_series` | no | 10 | 9 |
 | `34-26` | `missing_series` | no | 10 | 9 |
+| `34-30` | `missing_series` | no | 8 | 7 |
 | `35-03` | `missing_series` | no | 13 | 12 |
 | `35-10` | `missing_series` | no | 13 | 12 |
 | `35-12` | `missing_series` | no | 8 | 7 |
