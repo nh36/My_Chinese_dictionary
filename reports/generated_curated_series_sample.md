@@ -151,6 +151,7 @@
 | `28-11` | `missing_series` | no | 26 | 25 |
 | `28-15` | `missing_series` | no | 18 | 15 |
 | `29-01` | `missing_series` | no | 16 | 15 |
+| `29-09` | `missing_series` | no | 12 | 11 |
 | `29-11` | `missing_series` | no | 14 | 13 |
 | `29-15` | `missing_series` | no | 13 | 11 |
 | `29-17` | `missing_series` | no | 12 | 10 |
@@ -160,6 +161,7 @@
 | `31-02` | `missing_series` | no | 16 | 14 |
 | `31-16` | `missing_series` | no | 15 | 14 |
 | `31-20` | `missing_series` | no | 17 | 16 |
+| `32-05` | `missing_series` | no | 12 | 9 |
 | `32-08` | `missing_series` | no | 16 | 14 |
 | `32-16` | `missing_series` | no | 23 | 22 |
 | `32-26` | `missing_series` | no | 12 | 11 |
@@ -168,15 +170,19 @@
 | `33-02` | `missing_series` | no | 17 | 16 |
 | `33-05` | `missing_series` | no | 17 | 14 |
 | `33-13` | `missing_series` | no | 14 | 13 |
+| `33-15` | `missing_series` | no | 12 | 11 |
 | `33-29` | `missing_series` | no | 15 | 13 |
 | `33-30` | `missing_series` | no | 21 | 20 |
+| `33-36` | `missing_series` | no | 12 | 11 |
 | `34-13` | `missing_series` | no | 14 | 13 |
+| `34-17` | `missing_series` | no | 12 | 11 |
 | `34-18` | `missing_series` | no | 16 | 4 |
 | `34-23` | `missing_series` | no | 25 | 23 |
 | `35-03` | `missing_series` | no | 13 | 12 |
 | `35-10` | `missing_series` | no | 13 | 12 |
 | `35-21` | `missing_series` | no | 15 | 14 |
 | `36-05` | `missing_series` | no | 14 | 10 |
+| `36-06` | `missing_series` | no | 12 | 11 |
 | `36-07` | `missing_series` | no | 13 | 12 |
 | `36-11` | `missing_series` | no | 14 | 13 |
 | `36-12` | `missing_series` | no | 16 | 14 |
