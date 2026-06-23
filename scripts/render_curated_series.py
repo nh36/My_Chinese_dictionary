@@ -197,6 +197,12 @@ DEFAULT_IDS = [
     "22-01",
     "22-03",
     "23-17",
+    "38-25",
+    "38-28",
+    "03-10",
+    "04-15",
+    "13-73",
+    "20-01",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
