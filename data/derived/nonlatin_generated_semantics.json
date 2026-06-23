@@ -1,14 +1,14 @@
 {
   "summary": {
-    "case_count": 34,
-    "unique_component_count": 30,
+    "case_count": 36,
+    "unique_component_count": 32,
     "by_classification": {
-      "new_latin_label_needed": 33,
+      "new_latin_label_needed": 35,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 21,
-      "ids_component_literal_fallback": 8,
+      "wiktionary_component_literal_fallback": 22,
+      "ids_component_literal_fallback": 9,
       "packet_family_component_literal_fallback": 5
     }
   },
@@ -148,6 +148,23 @@
       "render_latex": "丞\t%cheng2 / chéng\n{\\large{kyṅ\\textsuperscript{˸一}}},\n\\textit{jiṅ};\t%0896g",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "11-06",
+      "character": "屋",
+      "abbreviation": "室",
+      "semantic_component": "室",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|𡉉|室|c1=p|c2=s|t2=room|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "room",
+      "semantic_component_ids": "⿱宀至",
+      "transliteration_latex": "{\\large{qok\\textsuperscript{·室}}},",
+      "render_latex": "屋\t%wu1\n{\\large{qok\\textsuperscript{·室}}},\n\\textit{quwk};\t%1204a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "13-08",
@@ -524,6 +541,23 @@
       "proposal": "Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "32-22",
+      "character": "𣍃",
+      "abbreviation": "柬",
+      "semantic_component": "柬",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "柬",
+      "transliteration_latex": "{\\large{\\textsuperscript{柬·}lin}},",
+      "render_latex": "𣍃\t%yin4\n{\\large{\\textsuperscript{柬·}lin}},\n\\textit{yinH};\t%0385l",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `柬` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "32-26",
       "character": "粼",
       "abbreviation": "巜",
@@ -879,6 +913,27 @@
       ]
     },
     {
+      "semantic_component": "室",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱宀至",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "room",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "11-06",
+          "character": "屋",
+          "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "尋",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -986,6 +1041,27 @@
           "character": "㮣",
           "position": "suffix-colon",
           "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "柬",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `柬` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "柬",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "32-22",
+          "character": "𣍃",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },
