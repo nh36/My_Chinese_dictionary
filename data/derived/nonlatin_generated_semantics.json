@@ -1,12 +1,12 @@
 {
   "summary": {
-    "case_count": 31,
-    "unique_component_count": 28,
+    "case_count": 32,
+    "unique_component_count": 29,
     "by_classification": {
-      "new_latin_label_needed": 31
+      "new_latin_label_needed": 32
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 18,
+      "wiktionary_component_literal_fallback": 19,
       "ids_component_literal_fallback": 9,
       "packet_family_component_literal_fallback": 4
     }
@@ -113,6 +113,23 @@
       "render_latex": "屋\t%wu1\n{\\large{qok\\textsuperscript{·室}}},\n\\textit{quwk};\t%1204a",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "11-23",
+      "character": "菐",
+      "abbreviation": "丵",
+      "semantic_component": "丵",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|丵|廾|c1=s|c2=p|ls=ic|ls2=psc|nocap=1}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱业𢆉",
+      "transliteration_latex": "{\\large{\\textsuperscript{丵˸}pok}},",
+      "render_latex": "菐\t%pu2\n{\\large{\\textsuperscript{丵˸}pok}},\n\\textit{buwk};\t%1211a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丵` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "13-08",
@@ -600,6 +617,27 @@
           "entry_id": "22-10",
           "character": "歠",
           "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "丵",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丵` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱业𢆉",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "11-23",
+          "character": "菐",
+          "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

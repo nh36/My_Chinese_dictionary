@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4024
-- Pages fetched / cached successfully: 3969
-- Additions with explicit Han-compound semantic/phonetic roles: 1930
+- Proposed additions checked: 4066
+- Pages fetched / cached successfully: 4011
+- Additions with explicit Han-compound semantic/phonetic roles: 1958
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -891,6 +891,13 @@
 | `06-13` | 縢 | yes | no |  |  |
 | `06-13` | 螣 | yes | no |  |  |
 | `06-13` | 騰 | yes | yes | 馬 | 朕 |
+| `06-17` | 夌 | yes | no | 木, 人 |  |
+| `06-17` | 陵 | yes | yes | 阜 | 夌 |
+| `06-17` | 淩 | yes | no |  |  |
+| `06-17` | 凌 | yes | yes | 仌 | 夌 |
+| `06-17` | 菱 | yes | yes | 艸 | 夌 |
+| `06-17` | 鯪 | yes | no |  |  |
+| `06-17` | 蔆 | yes | yes | 艸 | 淩 |
 | `06-19` | 曾 | yes | no |  |  |
 | `06-19` | 增 | yes | yes | 土 | 曾 |
 | `06-19` | 憎 | yes | yes | 心 | 曾 |
@@ -1128,6 +1135,13 @@
 | `09-01` | 莖 | yes | yes | 艸 | 巠 |
 | `09-01` | 俓 | yes | no |  |  |
 | `09-01` | 䞓 | yes | no |  |  |
+| `09-03` | 敬 | yes | no |  |  |
+| `09-03` | 驚 | yes | yes | 馬 | 敬 |
+| `09-03` | 儆 | yes | yes | 人 | 敬 |
+| `09-03` | 憼 | yes | no |  |  |
+| `09-03` | 警 | yes | yes | 言 | 敬 |
+| `09-03` | 擎 | yes | no |  |  |
+| `09-03` | 檠 | yes | no |  |  |
 | `09-04` | 耕 | yes | yes | 耒 | 井 |
 | `09-04` | 刑 | yes | yes | 刀 | 井 |
 | `09-04` | 形 | yes | yes | 彡 | 井 |
@@ -1150,6 +1164,13 @@
 | `09-09` | 鶯 | yes | no |  |  |
 | `09-09` | 嶸 | yes | yes | 山 | 榮 |
 | `09-09` | 罃 | yes | no |  |  |
+| `09-10` | 嬰 | yes | yes | 貝 | 癭 |
+| `09-10` | 攖 | yes | no |  |  |
+| `09-10` | 癭 | yes | yes | 病 | 嬰 |
+| `09-10` | 纓 | yes | yes | 糸 | 嬰 |
+| `09-10` | 嚶 | yes | yes | 口 | 嬰 |
+| `09-10` | 鸚 | yes | yes | 鳥 | 嬰 |
+| `09-10` | 罌 | yes | yes | 缶 | 賏 |
 | `09-11` | 丁 | yes | no |  |  |
 | `09-11` | 頂 | yes | yes | 頁 | 丁 |
 | `09-11` | 汀 | yes | yes | 水 | 丁 |
@@ -1355,6 +1376,13 @@
 | `11-21` | 遫 | yes | no |  |  |
 | `11-21` | 嗽 | yes | yes | 口 | 欶 |
 | `11-21` | 漱 | yes | no |  |  |
+| `11-23` | 菐 | yes | yes | 丵 | 廾 |
+| `11-23` | 僕 | yes | yes | 人 | 菐 |
+| `11-23` | 樸 | yes | yes | 木 | 菐 |
+| `11-23` | 轐 | yes | yes | 車 | 菐 |
+| `11-23` | 撲 | yes | yes | 手 | 菐 |
+| `11-23` | 墣 | yes | yes | 土 | 菐 |
+| `11-23` | 璞 | yes | yes | 玉 | 菐 |
 | `12-01` | 工 | yes | no |  |  |
 | `12-01` | 控 | yes | yes | 手 | 空 |
 | `12-01` | 椌 | yes | no |  |  |
@@ -1739,6 +1767,13 @@
 | `14-23` | 蝮 | yes | no |  |  |
 | `14-23` | 愎 | yes | no |  |  |
 | `14-23` | 覆 | yes | yes | 襾 | 復 |
+| `15-06` | 中 | yes | no |  |  |
+| `15-06` | 仲 | yes | yes | 人 | 中 |
+| `15-06` | 衷 | yes | yes | 衣 | 中 |
+| `15-06` | 忠 | yes | yes | 心 | 中 |
+| `15-06` | 忡 | yes | no |  |  |
+| `15-06` | 盅 | yes | yes | 皿 | 中 |
+| `15-06` | 沖 | yes | yes | 水 | 中 |
 | `15-09` | 農 | yes | no |  |  |
 | `15-09` | 辳 | yes | no |  |  |
 | `15-09` | 噥 | yes | yes | 口 | 農 |
@@ -3293,6 +3328,13 @@
 | `32-09` | 咽 | yes | yes | 口 | 因 |
 | `32-09` | 烟 | yes | no |  |  |
 | `32-09` | 恩 | yes | yes | 心 | 因 |
+| `32-10` | 垔 | yes | yes | 土 | 西 |
+| `32-10` | 陻 | yes | no |  |  |
+| `32-10` | 堙 | yes | no |  |  |
+| `32-10` | 湮 | yes | yes | 土 | 垔 |
+| `32-10` | 闉 | yes | no |  |  |
+| `32-10` | 禋 | yes | no |  |  |
+| `32-10` | 煙 | yes | yes | 火 | 垔 |
 | `32-16` | 真 | yes | yes | 貝 | 𠂈 |
 | `32-16` | 稹 | yes | no |  |  |
 | `32-16` | 縝 | yes | yes | 糸 | 真 |
