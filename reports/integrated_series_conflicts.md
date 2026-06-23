@@ -1,9 +1,9 @@
 # Integrated series conflicts
 
-- Integrated series records: 278
+- Integrated series records: 284
 - Hand-source raw mismatches: 0
 - Pilot-only entries: 0
-- Generated-only missing-series packets: 158
+- Generated-only missing-series packets: 164
 
 ## Generated-only packets
 
@@ -114,6 +114,7 @@
 | `24-41` | `missing_series` | needs_review, generated_candidate |
 | `24-47` | `missing_series` | needs_review, generated_candidate |
 | `24-54` | `missing_series` | needs_review, generated_candidate |
+| `24-58` | `missing_series` | needs_review, generated_candidate |
 | `25-02` | `missing_series` | needs_review, generated_candidate |
 | `25-11` | `missing_series` | needs_review, generated_candidate |
 | `25-12` | `missing_series` | needs_review, generated_candidate |
@@ -124,8 +125,11 @@
 | `25-25` | `missing_series` | needs_review, generated_candidate |
 | `25-31` | `missing_series` | needs_review, generated_candidate |
 | `26-05` | `missing_series` | needs_review, generated_candidate |
+| `26-06` | `missing_series` | needs_review, generated_candidate |
 | `26-14` | `missing_series` | needs_review, generated_candidate |
+| `26-15` | `missing_series` | needs_review, generated_candidate |
 | `26-27` | `missing_series` | needs_review, generated_candidate |
+| `26-29` | `missing_series` | needs_review, generated_candidate |
 | `26-38` | `missing_series` | needs_review, generated_candidate |
 | `27-08` | `missing_series` | needs_review, generated_candidate |
 | `28-01` | `missing_series` | needs_review, generated_candidate |
@@ -135,6 +139,7 @@
 | `29-01` | `missing_series` | needs_review, generated_candidate |
 | `29-11` | `missing_series` | needs_review, generated_candidate |
 | `29-15` | `missing_series` | needs_review, generated_candidate |
+| `29-17` | `missing_series` | needs_review, generated_candidate |
 | `29-41` | `missing_series` | needs_review, generated_candidate |
 | `30-01` | `missing_series` | needs_review, generated_candidate |
 | `30-14` | `missing_series` | needs_review, generated_candidate |
@@ -143,6 +148,7 @@
 | `31-20` | `missing_series` | needs_review, generated_candidate |
 | `32-08` | `missing_series` | needs_review, generated_candidate |
 | `32-16` | `missing_series` | needs_review, generated_candidate |
+| `32-26` | `missing_series` | needs_review, generated_candidate |
 | `32-38` | `missing_series` | needs_review, generated_candidate |
 | `32-40` | `missing_series` | needs_review, generated_candidate |
 | `33-02` | `missing_series` | needs_review, generated_candidate |

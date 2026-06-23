@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2782
-- Pages fetched / cached successfully: 2746
-- Additions with explicit Han-compound semantic/phonetic roles: 1364
+- Proposed additions checked: 2854
+- Pages fetched / cached successfully: 2817
+- Additions with explicit Han-compound semantic/phonetic roles: 1404
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1904,6 +1904,18 @@
 | `24-54` | 譒 | yes | no |  |  |
 | `24-54` | 皤 | yes | no |  |  |
 | `24-54` | 藩 | yes | yes | 艸 | 潘 |
+| `24-58` | 免 | yes | no |  |  |
+| `24-58` | 俛 | yes | yes | 人 | 免 |
+| `24-58` | 勉 | yes | yes | 力 | 免 |
+| `24-58` | 冕 | yes | no |  |  |
+| `24-58` | 悗 | yes | no |  |  |
+| `24-58` | 鞔 | yes | yes | 革 | 免 |
+| `24-58` | 娩 | yes | no |  |  |
+| `24-58` | 晚 | yes | yes | 日 | 免 |
+| `24-58` | 脕 | yes | no |  |  |
+| `24-58` | 輓 | yes | yes | 車 | 免 |
+| `24-58` | 絻 | yes | no |  |  |
+| `24-58` | 浼 | yes | yes | 水 | 免 |
 | `25-02` | 雚 | yes | no |  |  |
 | `25-02` | 鸛 | yes | yes | 鳥 | 雚 |
 | `25-02` | 灌 | yes | yes | 水 | 雚 |
@@ -2058,6 +2070,18 @@
 | `26-05` | 盭 | yes | no |  |  |
 | `26-05` | 荔 | yes | yes | 艸 | 劦 |
 | `26-05` | 沴 | yes | no |  |  |
+| `26-06` | 旨 | yes | yes | 甘 | 匕 |
+| `26-06` | 指 | yes | yes | 手 | 旨 |
+| `26-06` | 脂 | yes | yes | 肉 | 旨 |
+| `26-06` | 鮨 | yes | no |  |  |
+| `26-06` | 䭫 | yes | yes | 首 | 旨 |
+| `26-06` | 詣 | yes | yes | 言 | 旨 |
+| `26-06` | 耆 | yes | yes | 老 | 旨 |
+| `26-06` | 鰭 | yes | no |  |  |
+| `26-06` | 鬐 | yes | no |  |  |
+| `26-06` | 稽 | yes | yes | 頁 | 旨 |
+| `26-06` | 嗜 | yes | no |  |  |
+| `26-06` | 蓍 | yes | no |  |  |
 | `26-14` | 氐 | yes | no |  |  |
 | `26-14` | 底 | yes | yes | 广 | 氐 |
 | `26-14` | 柢 | yes | no |  |  |
@@ -2076,6 +2100,18 @@
 | `26-14` | 眡 | yes | no |  |  |
 | `26-14` | 眂 | yes | no |  |  |
 | `26-14` | 鴟 | yes | yes | 鳥 | 氐 |
+| `26-15` | 弟 | yes | no |  |  |
+| `26-15` | 娣 | yes | yes | 女 | 弟 |
+| `26-15` | 第 | yes | yes | 竹 | 弟 |
+| `26-15` | 悌 | yes | yes | 心 | 弟 |
+| `26-15` | 稊 | yes | no |  |  |
+| `26-15` | 綈 | yes | no |  |  |
+| `26-15` | 𦯔 | no | no |  |  |
+| `26-15` | 鵜 | yes | yes | 鳥 | 弟 |
+| `26-15` | 睇 | yes | no |  |  |
+| `26-15` | 梯 | yes | yes | 木 | 弟 |
+| `26-15` | 涕 | yes | yes | 水 | 弟 |
+| `26-15` | 豒 | yes | no |  |  |
 | `26-27` | 齊 | yes | no |  |  |
 | `26-27` | 臍 | yes | yes | 肉 | 齊 |
 | `26-27` | 蠐 | yes | yes | 虫 | 齊 |
@@ -2095,6 +2131,18 @@
 | `26-27` | 齍 | yes | no |  |  |
 | `26-27` | 齋 | yes | yes | 示 | 齊 |
 | `26-27` | 儕 | yes | yes | 人 | 齊 |
+| `26-29` | 次 | yes | no |  |  |
+| `26-29` | 佽 | yes | no |  |  |
+| `26-29` | 絘 | yes | no |  |  |
+| `26-29` | 咨 | yes | yes | 口 | 次 |
+| `26-29` | 恣 | yes | yes | 心 | 次 |
+| `26-29` | 粢 | yes | no |  |  |
+| `26-29` | 資 | yes | yes | 貝 | 次 |
+| `26-29` | 茨 | yes | yes | 艸 | 次 |
+| `26-29` | 餈 | yes | no |  |  |
+| `26-29` | 諮 | yes | yes | 言 | 咨 |
+| `26-29` | 䆅 | yes | no |  |  |
+| `26-29` | 薋 | yes | no |  |  |
 | `26-38` | 匕 | yes | no |  |  |
 | `26-38` | 批 | yes | yes | 手 | 比 |
 | `26-38` | 梐 | yes | no |  |  |
@@ -2259,6 +2307,18 @@
 | `29-15` | 姪 | yes | yes | 女 | 至 |
 | `29-15` | 絰 | yes | no |  |  |
 | `29-15` | 耊 | yes | no |  |  |
+| `29-17` | 失 | yes | no |  |  |
+| `29-17` | 佚 | yes | yes | 人 | 失 |
+| `29-17` | 泆 | yes | yes | 水 | 失 |
+| `29-17` | 軼 | yes | yes | 車 | 失 |
+| `29-17` | 抶 | yes | yes | 手 | 失 |
+| `29-17` | 秩 | yes | yes | 禾 | 失 |
+| `29-17` | 袠 | yes | no |  |  |
+| `29-17` | 翐 | yes | no |  |  |
+| `29-17` | 瓞 | yes | yes | 瓜 | 失 |
+| `29-17` | 跌 | yes | yes | 足 | 失 |
+| `29-17` | 迭 | yes | yes | 辵 | 失 |
+| `29-17` | 眣 | yes | no |  |  |
 | `29-41` | 必 | yes | no |  |  |
 | `29-41` | 珌 | yes | no |  |  |
 | `29-41` | 怭 | yes | no |  |  |
@@ -2395,6 +2455,18 @@
 | `32-16` | 填 | yes | yes | 土 | 真 |
 | `32-16` | 嵮 | yes | no |  |  |
 | `32-16` | 寘 | yes | no |  |  |
+| `32-26` | 粦 | yes | no |  |  |
+| `32-26` | 燐 | yes | no |  |  |
+| `32-26` | 粼 | yes | yes | 巜 | 粦 |
+| `32-26` | 獜 | yes | yes | 犬 | 粦 |
+| `32-26` | 甐 | yes | no |  |  |
+| `32-26` | 磷 | yes | yes | 石 | 粦 |
+| `32-26` | 轔 | yes | yes | 車 | 粦 |
+| `32-26` | 遴 | yes | no |  |  |
+| `32-26` | 鄰 | yes | yes | 邑 | 粦 |
+| `32-26` | 麟 | yes | yes | 鹿 | 粦 |
+| `32-26` | 鱗 | yes | yes | 魚 | 粦 |
+| `32-26` | 憐 | yes | yes | 心 | 粦 |
 | `32-38` | 賔 | yes | no |  |  |
 | `32-38` | 儐 | yes | no |  |  |
 | `32-38` | 擯 | yes | yes | 手 | 賓 |

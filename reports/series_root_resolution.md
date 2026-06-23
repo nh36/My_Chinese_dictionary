@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 158
-- Packets with at least one root candidate: 151
-- Packets with a single resolved provisional root: 158
+- Missing-series packets inspected: 164
+- Packets with at least one root candidate: 157
+- Packets with a single resolved provisional root: 164
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -111,6 +111,7 @@
 | `24-41` | 戔→tsan [*dzˤan {*[dz]ˤa[n]}] (0155a) | `tsan` | `head_graph_oc_bs` |
 | `24-47` | 半→pan [*pˤan-s] (0181a) | `pan` | `head_graph_oc_bs` |
 | `24-54` | 釆→per [*bˤrer-s {*[b]ˤre[r]-s}] (0195a) | `per` | `head_graph_oc_bs` |
+| `24-58` | 免→mor [*mrorʔ {*mr[o][r]ʔ}] (0222a) | `mor` | `head_graph_oc_bs` |
 | `25-02` | 雚→quar [*C.qʷˤar-s] (0158a) | `quar` | `head_graph_oc_bs` |
 | `25-11` | 卷→kuen [*gʷren {*[g]ʷren}] (0226a); 卷→kor [*krorʔ {*[k]rorʔ}] (0226a) | `kon` | `packet_shengfu_majority` |
 | `25-12` | 亘→quar [*ɢʷˤar {*[ɢ]ʷˤar}] (0164a) | `quar` | `head_graph_oc_bs` |
@@ -121,8 +122,11 @@
 | `25-25` | 專→ton [*ton] (0231a) | `ton` | `head_graph_oc_bs` |
 | `25-31` | 䜌→ron [*mə.rˤon {*mə.rˤo[n]}] (0178a) | `ron` | `head_graph_oc_bs` |
 | `26-05` | 計→kiy [*kˤij-s] (1241a) | `kiy` | `head_graph_oc_bs` |
+| `26-06` | 旨→kiy [*kijʔ] (0552a) | `kiy` | `head_graph_oc_bs` |
 | `26-14` | 氐→tiy [*tˤij] (0590a) | `tiy` | `head_graph_oc_bs` |
+| `26-15` | 弟→ly [*lˤəjʔ] (0591a) | `ly` | `head_graph_oc_bs` |
 | `26-27` | 齊→tsy [*dzˤəj {*[dz]ˤəj}] (0593a) | `tsy` | `head_graph_oc_bs` |
+| `26-29` | 次→niy [*s-n̥ij-s {*[s-n̥]i[j]-s}] (0555a) | `niy` | `head_graph_oc_bs` |
 | `26-38` | 匕→piy [*pijʔ] (0566a) | `piy` | `head_graph_oc_bs` |
 | `27-08` | 非→py [*pəj] (0579a) | `py` | `head_graph_oc_bs` |
 | `28-01` | 鬼→ʔuy [*k-ʔujʔ] (0569a) | `ʔuy` | `head_graph_oc_bs` |
@@ -132,6 +136,7 @@
 | `29-01` | 吉→kit [*kid] (None) | `kit` | `head_graph_oc_shengfu` |
 | `29-11` | 矞→qut [*ɢud] (None) | `qut` | `head_graph_oc_shengfu` |
 | `29-15` | 至→tit [*tit-s {*ti[t]-s}] (0413a) | `tit` | `head_graph_oc_bs` |
+| `29-17` | 失→lit [*l̥it {*l̥i[t]}] (0402a) | `lit` | `head_graph_oc_bs` |
 | `29-41` | 必→pit [*pit {*pi[t]}] (0405a) | `pit` | `head_graph_oc_bs` |
 | `30-01` | 气→qyp [*C.qʰəp-s] (0517a) | `qyp` | `head_graph_oc_bs` |
 | `30-14` | 弗→put [*put] (0500a) | `put` | `head_graph_oc_bs` |
@@ -140,6 +145,7 @@
 | `31-20` | 卒→tsut [*tsut {*[ts]ut}] (0490a) | `tsut` | `head_graph_oc_bs` |
 | `32-08` | 旬→quin [*s-ɢʷin {*s-[ɢ]ʷi[n]}] (0392a) | `quin` | `head_graph_oc_bs` |
 | `32-16` | 真→tin [*tin {*ti[n]}] (0375a) | `tin` | `head_graph_oc_bs` |
+| `32-26` | 粦→ryn [*rən {*[r]ə[n]}] (0387a) | `ryn` | `head_graph_oc_bs` |
 | `32-38` | 賓→pin [*pin {*pi[n]}] (0389a) | `pin` | `head_graph_oc_bs` |
 | `32-40` | 民→miṅ [*miŋ {*mi[ŋ]}] (0457a) | `miṅ` | `head_graph_oc_bs` |
 | `33-02` | 斤→kyr [*kər {*[k]ər}] (0443a) | `kyr` | `head_graph_oc_bs` |

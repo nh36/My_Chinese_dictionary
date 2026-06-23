@@ -1,14 +1,15 @@
 {
   "summary": {
-    "case_count": 5,
-    "unique_component_count": 5,
+    "case_count": 8,
+    "unique_component_count": 7,
     "by_classification": {
-      "new_latin_label_needed": 4,
+      "new_latin_label_needed": 7,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 4,
-      "ids_component_literal_fallback": 1
+      "wiktionary_component_literal_fallback": 6,
+      "ids_component_literal_fallback": 1,
+      "packet_family_component_literal_fallback": 1
     }
   },
   "cases": [
@@ -62,6 +63,57 @@
       "render_latex": "瓢\t%piao2 / piáo\n{\\large{pew₂\\textsuperscript{·瓜}}},\n\\textit{byiew};\t%1157k",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `瓜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "26-15",
+      "character": "豒",
+      "abbreviation": "豐",
+      "semantic_component": "豐",
+      "position": "prefix-dot",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱𠁳豆",
+      "transliteration_latex": "{\\large{\\textsuperscript{豐·}ly₆}},",
+      "render_latex": "豒\t%zhi4\n{\\large{\\textsuperscript{豐·}ly₆}},\n\\textit{ḍit};\t%0591n",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `豐` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "29-17",
+      "character": "瓞",
+      "abbreviation": "瓜",
+      "semantic_component": "瓜",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|瓜|失|ls=psc|c1=s|t1=melon|c2=p}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "melon",
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "瓜",
+      "transliteration_latex": "{\\large{\\textsuperscript{瓜·}lit}},",
+      "render_latex": "瓞\t%die2\n{\\large{\\textsuperscript{瓜·}lit}},\n\\textit{det};\t%0402i",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `瓜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "32-26",
+      "character": "粼",
+      "abbreviation": "巜",
+      "semantic_component": "巜",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|粦|巜|c1=p|c2=s|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿰𡿨𡿨",
+      "transliteration_latex": "{\\large{ryn\\textsuperscript{·巜}}},",
+      "render_latex": "粼\t%lin2 / lin4\n{\\large{ryn\\textsuperscript{·巜}}},\n\\textit{lin};\t%0387c\n\\textit{linH};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "33-05",
@@ -163,6 +215,27 @@
       ]
     },
     {
+      "semantic_component": "巜",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰𡿨𡿨",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "32-26",
+          "character": "粼",
+          "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "瓜",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `瓜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -173,13 +246,40 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "16-39",
           "character": "瓢",
           "position": "suffix-dot",
           "source": "ids_component_literal_fallback"
+        },
+        {
+          "entry_id": "29-17",
+          "character": "瓞",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "豐",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `豐` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱𠁳豆",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "26-15",
+          "character": "豒",
+          "position": "prefix-dot",
+          "source": "packet_family_component_literal_fallback"
         }
       ]
     },
