@@ -116,8 +116,11 @@
 | `19-22` | `existing_addendum` | yes | 2 | 1 |
 | `21-01` | `missing_series` | no | 24 | 23 |
 | `21-31` | `missing_series` | no | 15 | 14 |
+| `22-01` | `missing_series` | no | 12 | 9 |
+| `22-03` | `missing_series` | no | 12 | 11 |
 | `22-13` | `missing_series` | no | 14 | 11 |
 | `23-07` | `missing_series` | no | 13 | 12 |
+| `23-17` | `missing_series` | no | 12 | 11 |
 | `23-27` | `missing_series` | no | 13 | 12 |
 | `24-01` | `missing_series` | no | 31 | 27 |
 | `24-21` | `missing_series` | no | 26 | 24 |

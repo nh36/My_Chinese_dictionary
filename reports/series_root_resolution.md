@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 155
-- Packets with at least one root candidate: 148
-- Packets with a single resolved provisional root: 155
+- Missing-series packets inspected: 158
+- Packets with at least one root candidate: 151
+- Packets with a single resolved provisional root: 158
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -99,8 +99,11 @@
 | `19-09` | 隓→loy [*lˤojʔ] (0011a) | `loy` | `head_graph_oc_bs` |
 | `21-01` | 匃→kat [*kˤat-s {*[k]ˤat-s}] (0313a) | `kat` | `head_graph_oc_bs` |
 | `21-31` | 犮→pot [*bo̠d] (None) | `pot` | `head_graph_oc_shengfu` |
+| `22-01` | 氒→kot [*kod] (None) | `kot` | `head_graph_oc_shengfu` |
+| `22-03` | 會→kop [*m-kˤop-s] (0321a) | `kop` | `head_graph_oc_bs` |
 | `22-13` | 兌→lot [*lˤot-s] (0324a) | `lot` | `head_graph_oc_bs` |
 | `23-07` | 柬→kan [*kˤranʔ {*kˤr[a]nʔ}] (0185a) | `kan` | `head_graph_oc_bs` |
+| `23-17` | 肙→quen [*qʷˤen] (0228a) | `quen` | `head_graph_oc_bs` |
 | `23-27` | 扁→pen [*pˤenʔ {*pˤe[n]ʔ}] (0246a) | `pen` | `head_graph_oc_bs` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-21` | 單→tar [*dˤar {*[d]ˤar}] (0147a) | `tar` | `head_graph_oc_bs` |

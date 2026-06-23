@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 363
-- Roots whose display label changed after document-wide renumbering: 165
-- Duplicate phonetic bases encountered in document order: 105
+- Mutable series/subseries roots inspected: 368
+- Roots whose display label changed after document-wide renumbering: 168
+- Duplicate phonetic bases encountered in document order: 108
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -352,10 +352,15 @@
 | `21-01` | `subseries-root` | 曷 | `kat` | 2 | `kat₂` | yes |
 | `21-01` | `subseries-root` | 葛 | `k\textoverset{a}{a}t` | 1 | `k\textoverset{a}{a}t` | yes |
 | `21-31` | `series-root` | 犮 | `pot` | 1 | `pot` | yes |
+| `22-01` | `series-root` | 氒 | `kot` | 1 | `kot` | yes |
+| `22-01` | `subseries-root` | 舌 | `k\textoverset{a}{o}t` | 1 | `k\textoverset{a}{o}t` | yes |
+| `22-01` | `subseries-root` | 活 | `k\textoverset{a}{o}t` | 2 | `k\textoverset{a}{o}t₂` | yes |
+| `22-03` | `series-root` | 會 | `kop` | 1 | `kop` | yes |
 | `22-13` | `series-root` | 兌 | `lot` | 1 | `lot` | yes |
 | `23-07` | `series-root` | 柬 | `kan` | 1 | `kan` | yes |
 | `23-07` | `subseries-root` | 闌 | `r\textoverset{a}{a}n` | 1 | `r\textoverset{a}{a}n` | yes |
 | `23-07` | `subseries-root` | 蘭 | `r\textoverset{a}{a}n` | 2 | `r\textoverset{a}{a}n₂` | yes |
+| `23-17` | `series-root` | 肙 | `quen` | 1 | `quen` | yes |
 | `23-27` | `series-root` | 扁 | `pen` | 1 | `pen` | yes |
 | `24-01` | `series-root` | 干 | `kar` | 1 | `kar` | yes |
 | `24-01` | `subseries-root` | 旱 | `k\textoverset{a}{a}r` | 1 | `k\textoverset{a}{a}r` | yes |
@@ -373,7 +378,7 @@
 | `25-12` | `series-root` | 亘 | `quar` | 2 | `quar₂` | yes |
 | `25-12` | `subseries-root` | 宣 | `qu\textoverset{b}{a}r` | 1 | `qu\textoverset{b}{a}r` | yes |
 | `25-15` | `series-root` | 袁 | `quan` | 1 | `quan` | yes |
-| `25-15` | `subseries-root` | 睘 | `quen` | 1 | `quen` | yes |
+| `25-15` | `subseries-root` | 睘 | `quen` | 2 | `quen₂` | yes |
 | `25-17` | `series-root` | 夗 | `ʔor` | 1 | `ʔor` | yes |
 | `25-17` | `subseries-root` | 夗 | `qor` | 1 | `qor` | yes |
 | `25-17` | `subseries-root` | 宛 | `qor` | 2 | `qor₂` | yes |
@@ -464,7 +469,7 @@
 | `36-12` | `series-root` | 占 | `tem` | 1 | `tem` | yes |
 | `36-12` | `subseries-root` | 沾 | `tem` | 2 | `tem₂` | yes |
 | `36-14` | `series-root` | 炎 | `qam` | 1 | `qam` | yes |
-| `37-01` | `series-root` | 合 | `kop` | 1 | `kop` | yes |
+| `37-01` | `series-root` | 合 | `kop` | 2 | `kop₂` | yes |
 | `37-01` | `subseries-root` | 翕 | `qhyp` | 1 | `qhyp` | yes |
 | `37-16` | `series-root` | 入 | `nyp` | 1 | `nyp` | yes |
 | `37-16` | `subseries-root` | 內 | `nyp` | 2 | `nyp₂` | yes |

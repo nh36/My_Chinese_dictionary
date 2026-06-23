@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 346
-- Subgroups newly marked with `a`: 42
+- Generated subgroup heads inspected: 350
+- Subgroups newly marked with `a`: 44
 - Subgroups newly marked with `b`: 26
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 96
-- Mixed subgroups left unmarked: 181
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 97
+- Mixed subgroups left unmarked: 182
 - Unresolved subgroups left unmarked: 1
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -235,10 +235,14 @@
 | `21-01` | 曷 | `kat` | `kat₂` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
 | `21-01` | 葛 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `kat, qayH` | all extracted forms lack an i-medial after the onset |
 | `21-31` | 犮 | `pot` | `pot` | `mixed` | no | `bat, biət, bayH, pat, beat, piət, piut, phiut, piəyH` | top-level series head left unmarked |
+| `22-01` | 舌 | `kot` | `k\textoverset{a}{o}t` | `a` | yes | `kwat, hwat, khwat, kwaet, hwaeyH` | all extracted forms lack an i-medial after the onset |
+| `22-01` | 活 | `kot` | `k\textoverset{a}{o}t₂` | `a` | yes | `hwat, kwat, khwat` | all extracted forms lack an i-medial after the onset |
+| `22-03` | 會 | `kop` | `kop` | `a` | no | `hwayH, kwayH, kwat, khwaeyH, hwat, qwayH` | top-level series head left unmarked |
 | `22-13` | 兌 | `lot` | `lot` | `mixed` | no | `dwayH, thwayH, śiweyH, thwaH, yiwet, yiweyH, tshiweyH, dwat, thwat, ciwet, śiwet` | top-level series head left unmarked |
 | `23-07` | 柬 | `kan` | `kan` | `a` | no | `keanX, kaenH, lan, lanH, lanX, lenH` | top-level series head left unmarked |
 | `23-07` | 闌 | `ran` | `r\textoverset{a}{a}n` | `a` | yes | `lan, lanH, lanX, lenH` | all extracted forms lack an i-medial after the onset |
 | `23-07` | 蘭 | `ran` | `r\textoverset{a}{a}n₂` | `a` | yes | `lan, lanH` | all extracted forms lack an i-medial after the onset |
+| `23-17` | 肙 | `quen` | `quen` | `mixed` | no | `qwen, qiwienX, giwienX, qiwien, kiwienH, yiwen, kwen, kwenH, ḫwenX, hwen, hwenH, zjwen` | top-level series head left unmarked |
 | `23-27` | 扁 | `pen` | `pen` | `mixed` | no | `penX, penH, ben, benX, pen, pyien, pyienX, phyien, phyienH, byienH, byienX` | top-level series head left unmarked |
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | top-level series head left unmarked |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
@@ -256,7 +260,7 @@
 | `25-12` | 亘 | `quar` | `quar` | `mixed` | no | `hwan, kəṅH, siwen, ḫwan, hiwən, ḫiwən, hiwənX, hiweX` | top-level series head left unmarked |
 | `25-12` | 宣 | `quar` | `qu\textoverset{b}{a}r` | `b` | yes | `siwen, hiwənX, hiwən` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `25-15` | 袁 | `gan` | `gan` | `b` | no | `ḫiwən, ḫiwen, ḫiwənH, ḫiwənX` | top-level series head left unmarked |
-| `25-15` | 睘 | `quen` | `quen` | `mixed` | no | `giwieṅ, hwaen, hyiwen, kwenH, qwenH, ziwen, hwenX, hwaenH, ḫwaen, hiwien, hwenH, ḫiwen` | the extracted forms point to both type a and type b |
+| `25-15` | 睘 | `quen` | `quen₂` | `mixed` | no | `giwieṅ, hwaen, hyiwen, kwenH, qwenH, ziwen, hwenX, hwaenH, ḫwaen, hiwien, hwenH, ḫiwen` | the extracted forms point to both type a and type b |
 | `25-17` | 宛 | `qor` | `qor₂` | `mixed` | no | `qiwənX, qwanH, qwanX` | top-level series head left unmarked |
 | `25-17` | 夗 | `qor` | `qor` | `mixed` | no | `'jwonX, qiwənX, qwanH, qwanX, qiwən, qiwənH, qiut, hiunX, qwan, qiun` | the extracted forms point to both type a and type b |
 | `25-19` | 元 | `ṅon` | `ṅon` | `mixed` | no | `ṅiwən, ṅwan, ṅwaen, ṅwean, ṅwanH, hwan, hwanX, hwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | top-level series head left unmarked |

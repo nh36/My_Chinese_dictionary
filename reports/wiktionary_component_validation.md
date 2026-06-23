@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 2746
-- Pages fetched / cached successfully: 2710
-- Additions with explicit Han-compound semantic/phonetic roles: 1348
+- Proposed additions checked: 2782
+- Pages fetched / cached successfully: 2746
+- Additions with explicit Han-compound semantic/phonetic roles: 1364
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1704,6 +1704,30 @@
 | `21-31` | 黻 | yes | no |  |  |
 | `21-31` | 帗 | yes | no |  |  |
 | `21-31` | 祓 | yes | no |  |  |
+| `22-01` | 氒 | yes | no |  |  |
+| `22-01` | 舌 | yes | no |  |  |
+| `22-01` | 括 | yes | yes | 手 | 𠯑 |
+| `22-01` | 栝 | yes | yes | 木 | 𠯑 |
+| `22-01` | 聒 | yes | no |  |  |
+| `22-01` | 髺 | yes | yes | 髟 | 𠯑 |
+| `22-01` | 佸 | yes | no |  |  |
+| `22-01` | 活 | yes | yes | 水 | 𠯑 |
+| `22-01` | 刮 | yes | yes | 刀 | 𠯑 |
+| `22-01` | 話 | yes | yes | 言 | 𠯑 |
+| `22-01` | 懖 | yes | no |  |  |
+| `22-01` | 闊 | yes | yes | 門 | 活 |
+| `22-03` | 會 | yes | no |  |  |
+| `22-03` | 廥 | yes | no |  |  |
+| `22-03` | 旝 | yes | yes | 㫃 | 會 |
+| `22-03` | 澮 | yes | yes | 水 | 會 |
+| `22-03` | 膾 | yes | no |  |  |
+| `22-03` | 襘 | yes | yes | 衣 | 會 |
+| `22-03` | 檜 | yes | no |  |  |
+| `22-03` | 禬 | yes | no |  |  |
+| `22-03` | 繪 | yes | yes | 糸 | 會 |
+| `22-03` | 噲 | yes | yes | 口 | 會 |
+| `22-03` | 鬠 | yes | yes | 髟 | 會 |
+| `22-03` | 薈 | yes | no |  |  |
 | `22-13` | 兌 | yes | yes | 儿 | 㕣 |
 | `22-13` | 駾 | yes | no |  |  |
 | `22-13` | 蛻 | yes | no |  |  |
@@ -1731,6 +1755,18 @@
 | `23-07` | 蘭 | yes | yes | 艸 | 闌 |
 | `23-07` | 讕 | yes | yes | 言 | 闌 |
 | `23-07` | 欄 | yes | yes | 木 | 闌 |
+| `23-17` | 肙 | yes | no |  |  |
+| `23-17` | 蜎 | yes | yes | 虫 | 肙 |
+| `23-17` | 悁 | yes | no |  |  |
+| `23-17` | 㾓 | yes | no |  |  |
+| `23-17` | 狷 | yes | no |  |  |
+| `23-17` | 絹 | yes | yes | 糸 | 肙 |
+| `23-17` | 捐 | yes | yes | 手 | 肙 |
+| `23-17` | 涓 | yes | no |  |  |
+| `23-17` | 睊 | yes | no |  |  |
+| `23-17` | 鞙 | yes | no |  |  |
+| `23-17` | 駽 | yes | no |  |  |
+| `23-17` | 㘣 | yes | no |  |  |
 | `23-27` | 扁 | yes | no |  |  |
 | `23-27` | 徧 | yes | no |  |  |
 | `23-27` | 遍 | yes | yes | 辵 | 扁 |
