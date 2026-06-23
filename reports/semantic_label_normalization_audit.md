@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-23T11:19:08.912194+00:00
+- Generated at: 2026-06-23T11:25:42.720781+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 16997
+- Total occurrences audited: 17153
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 16812 |
+| `canonical` | 16966 |
 | `explicit_alias` | 71 |
-| `needs_review` | 114 |
+| `needs_review` | 116 |
 
 ## Blocked ambiguous aliases
 
@@ -577,6 +577,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{kan₂\textsuperscript{·乙}}},
 \textit{gien};	%0140c
 \textit{kan};` |
+| `curation_json` | `26-09` | `皆` | `比` | render_latex, transliteration_latex | `比` | `⿱比白` | `皆	%jie1 / jiē
+{\large{\textsuperscript{比˸}kiy₆}},
+\textit{keay};	%0599a` |
 | `curation_json` | `26-15` | `豒` | `豐` | render_latex, transliteration_latex | `豐` | `⿰豐弟` | `豒	%zhi4
 {\large{\textsuperscript{豐·}ly₆}},
 \textit{ḍit};	%0591n` |
@@ -659,6 +662,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{kan₂\textsuperscript{·乙}}},
 \textit{gien};	%0140c
 \textit{kan};` |
+| `integrated_series_curated_entry` | `26-09` | `皆` | `比` | render_latex, transliteration_latex | `比` | `⿱比白` | `皆	%jie1 / jiē
+{\large{\textsuperscript{比˸}kiy₆}},
+\textit{keay};	%0599a` |
 | `integrated_series_curated_entry` | `26-15` | `豒` | `豐` | render_latex, transliteration_latex | `豐` | `⿰豐弟` | `豒	%zhi4
 {\large{\textsuperscript{豐·}ly₆}},
 \textit{ḍit};	%0591n` |

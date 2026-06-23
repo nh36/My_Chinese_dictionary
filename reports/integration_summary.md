@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 386
+- Integrated series count: 392
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 282
+- Active curated packet count: 288
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 266
+- Generated missing-series entries: 272
 - Records with hand-source conflicts: 0
 
 | GSC | Render mode | Status flags |
@@ -79,6 +79,7 @@
 | `01-72` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `01-73` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `02-01` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-02` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-07` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `02-08` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-17` | `generated_missing_series` | needs_review, generated_candidate |
@@ -195,6 +196,7 @@
 | `12-25` | `generated_missing_series` | needs_review, generated_candidate |
 | `13-03` | `generated_missing_series` | needs_review, generated_candidate |
 | `13-08` | `generated_missing_series` | needs_review, generated_candidate |
+| `13-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `13-22` | `generated_missing_series` | needs_review, generated_candidate |
 | `13-26` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `13-30` | `generated_missing_series` | needs_review, generated_candidate |
@@ -226,6 +228,7 @@
 | `16-31` | `generated_missing_series` | needs_review, generated_candidate |
 | `16-33` | `generated_missing_series` | needs_review, generated_candidate |
 | `16-39` | `generated_missing_series` | needs_review, generated_candidate |
+| `16-41` | `generated_missing_series` | needs_review, generated_candidate |
 | `17-05` | `generated_missing_series` | needs_review, generated_candidate |
 | `17-07` | `generated_missing_series` | needs_review, generated_candidate |
 | `17-08` | `generated_missing_series` | needs_review, generated_candidate |
@@ -314,6 +317,7 @@
 | `25-31` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-05` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-06` | `generated_missing_series` | needs_review, generated_candidate |
+| `26-09` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-24` | `generated_missing_series` | needs_review, generated_candidate |
@@ -341,6 +345,7 @@
 | `30-02` | `generated_missing_series` | needs_review, generated_candidate |
 | `30-11` | `generated_missing_series` | needs_review, generated_candidate |
 | `30-14` | `generated_missing_series` | needs_review, generated_candidate |
+| `30-21` | `generated_missing_series` | needs_review, generated_candidate |
 | `31-02` | `generated_missing_series` | needs_review, generated_candidate |
 | `31-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `31-20` | `generated_missing_series` | needs_review, generated_candidate |
@@ -362,6 +367,7 @@
 | `33-30` | `generated_missing_series` | needs_review, generated_candidate |
 | `33-36` | `generated_missing_series` | needs_review, generated_candidate |
 | `34-01` | `generated_missing_series` | needs_review, generated_candidate |
+| `34-12` | `generated_missing_series` | needs_review, generated_candidate |
 | `34-13` | `generated_missing_series` | needs_review, generated_candidate |
 | `34-17` | `generated_missing_series` | needs_review, generated_candidate |
 | `34-18` | `generated_missing_series` | needs_review, generated_candidate |

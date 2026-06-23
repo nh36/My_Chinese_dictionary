@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 33,
-    "unique_component_count": 29,
+    "case_count": 34,
+    "unique_component_count": 30,
     "by_classification": {
-      "new_latin_label_needed": 32,
+      "new_latin_label_needed": 33,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 20,
+      "wiktionary_component_literal_fallback": 21,
       "ids_component_literal_fallback": 8,
       "packet_family_component_literal_fallback": 5
     }
@@ -318,6 +318,23 @@
       "render_latex": "乾\t%qian2 / gan1 / gān\n{\\large{kan₂\\textsuperscript{·乙}}},\n\\textit{gien};\t%0140c\n\\textit{kan};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `乙` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "26-09",
+      "character": "皆",
+      "abbreviation": "比",
+      "semantic_component": "比",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|虍|几|口|c1=s|c2=p|c3=s|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "比",
+      "transliteration_latex": "{\\large{\\textsuperscript{比˸}kiy₆}},",
+      "render_latex": "皆\t%jie1 / jiē\n{\\large{\\textsuperscript{比˸}kiy₆}},\n\\textit{keay};\t%0599a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `比` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "26-15",
@@ -969,6 +986,27 @@
           "character": "㮣",
           "position": "suffix-colon",
           "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "比",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `比` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "比",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "26-09",
+          "character": "皆",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },

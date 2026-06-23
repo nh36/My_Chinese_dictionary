@@ -18,6 +18,7 @@
 | `01-57` | `existing_addendum` | yes | 2 | 1 |
 | `01-62` | `existing_addendum` | yes | 1 | 1 |
 | `02-01` | `missing_series` | no | 37 | 36 |
+| `02-02` | `missing_series` | no | 8 | 3 |
 | `02-08` | `missing_series` | no | 11 | 10 |
 | `02-17` | `missing_series` | no | 13 | 10 |
 | `02-22` | `missing_series` | no | 8 | 7 |
@@ -109,6 +110,7 @@
 | `12-25` | `missing_series` | no | 23 | 20 |
 | `13-03` | `missing_series` | no | 9 | 6 |
 | `13-08` | `missing_series` | no | 9 | 7 |
+| `13-16` | `missing_series` | no | 8 | 6 |
 | `13-22` | `missing_series` | no | 18 | 17 |
 | `13-30` | `missing_series` | no | 15 | 12 |
 | `13-32` | `missing_series` | no | 19 | 12 |
@@ -139,6 +141,7 @@
 | `16-31` | `missing_series` | no | 13 | 11 |
 | `16-33` | `missing_series` | no | 24 | 22 |
 | `16-39` | `missing_series` | no | 12 | 11 |
+| `16-41` | `missing_series` | no | 8 | 7 |
 | `17-05` | `missing_series` | no | 14 | 13 |
 | `17-07` | `missing_series` | no | 14 | 13 |
 | `17-08` | `missing_series` | no | 11 | 9 |
@@ -206,6 +209,7 @@
 | `25-31` | `missing_series` | no | 13 | 12 |
 | `26-05` | `missing_series` | no | 12 | 2 |
 | `26-06` | `missing_series` | no | 12 | 10 |
+| `26-09` | `missing_series` | no | 8 | 7 |
 | `26-14` | `missing_series` | no | 18 | 16 |
 | `26-15` | `missing_series` | no | 12 | 10 |
 | `26-24` | `missing_series` | no | 9 | 8 |
@@ -233,6 +237,7 @@
 | `30-02` | `missing_series` | no | 11 | 10 |
 | `30-11` | `missing_series` | no | 10 | 5 |
 | `30-14` | `missing_series` | no | 16 | 15 |
+| `30-21` | `missing_series` | no | 8 | 7 |
 | `31-02` | `missing_series` | no | 16 | 14 |
 | `31-16` | `missing_series` | no | 15 | 14 |
 | `31-20` | `missing_series` | no | 17 | 16 |
@@ -254,6 +259,7 @@
 | `33-30` | `missing_series` | no | 21 | 20 |
 | `33-36` | `missing_series` | no | 12 | 11 |
 | `34-01` | `missing_series` | no | 11 | 10 |
+| `34-12` | `missing_series` | no | 8 | 7 |
 | `34-13` | `missing_series` | no | 14 | 13 |
 | `34-17` | `missing_series` | no | 12 | 11 |
 | `34-18` | `missing_series` | no | 16 | 4 |

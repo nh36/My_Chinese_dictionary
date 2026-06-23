@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3864
-- Pages fetched / cached successfully: 3812
-- Additions with explicit Han-compound semantic/phonetic roles: 1859
+- Proposed additions checked: 3912
+- Pages fetched / cached successfully: 3858
+- Additions with explicit Han-compound semantic/phonetic roles: 1881
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -80,6 +80,14 @@
 | `02-01` | 𢓜 | no | no |  |  |
 | `02-01` | 簵 | yes | no |  |  |
 | `02-01` | 格 | yes | yes | 木 | 各 |
+| `02-02` | 𧮫 | yes | no |  |  |
+| `02-02` | 卻 | yes | yes | 卩 | 𧮫 |
+| `02-02` | 却 | yes | no |  |  |
+| `02-02` | 綌 | yes | no |  |  |
+| `02-02` | 郤 | yes | yes | 邑 | 𧮫 |
+| `02-02` | 郄 | yes | no |  |  |
+| `02-02` | 腳 | yes | yes | 肉 | 卻 |
+| `02-02` | 脚 | yes | no |  |  |
 | `02-08` | 蒦 | yes | no |  |  |
 | `02-08` | 獲 | yes | yes | 犬 | 蒦 |
 | `02-08` | 韄 | yes | no |  |  |
@@ -1469,6 +1477,14 @@
 | `13-08` | 叫 | yes | yes | 口 | 丩 |
 | `13-08` | 訆 | yes | no |  |  |
 | `13-08` | 嘂 | yes | yes | 㗊 | 丩 |
+| `13-16` | 幺 | yes | no |  |  |
+| `13-16` | 𢆶 | yes | no |  |  |
+| `13-16` | 幽 | yes | yes | 山 | 𢆶 |
+| `13-16` | 幼 | yes | no |  |  |
+| `13-16` | 呦 | yes | no |  |  |
+| `13-16` | 黝 | yes | no |  |  |
+| `13-16` | 窈 | yes | yes | 穴 | 幼 |
+| `13-16` | 坳 | yes | yes | 土 | 幼 |
 | `13-22` | 鑄 | yes | yes | 金 | 壽 |
 | `13-22` | 𢏚 | yes | no |  |  |
 | `13-22` | 𠷎 | yes | no |  |  |
@@ -1951,6 +1967,14 @@
 | `16-39` | 縹 | yes | no |  |  |
 | `16-39` | 瓢 | yes | no |  |  |
 | `16-39` | 摽 | yes | no |  |  |
+| `16-41` | 毛 | yes | no |  |  |
+| `16-41` | 旄 | yes | yes | 㫃 | 毛 |
+| `16-41` | 髦 | yes | no |  |  |
+| `16-41` | 芼 | yes | yes | 艸 | 毛 |
+| `16-41` | 𦒷 | no | no |  |  |
+| `16-41` | 眊 | yes | no |  |  |
+| `16-41` | 秏 | yes | no |  |  |
+| `16-41` | 耗 | yes | no |  |  |
 | `17-05` | 勺 | yes | no |  |  |
 | `17-05` | 杓 | yes | no |  |  |
 | `17-05` | 汋 | yes | no |  |  |
@@ -2725,6 +2749,14 @@
 | `26-06` | 稽 | yes | yes | 頁 | 旨 |
 | `26-06` | 嗜 | yes | no |  |  |
 | `26-06` | 蓍 | yes | no |  |  |
+| `26-09` | 皆 | yes | yes | 虍, 口 | 几 |
+| `26-09` | 偕 | yes | yes | 人 | 皆 |
+| `26-09` | 喈 | yes | no |  |  |
+| `26-09` | 階 | yes | yes | 阜 | 皆 |
+| `26-09` | 楷 | yes | yes | 木 | 皆 |
+| `26-09` | 湝 | yes | no |  |  |
+| `26-09` | 諧 | yes | yes | 言 | 皆 |
+| `26-09` | 揩 | yes | no |  |  |
 | `26-14` | 氐 | yes | no |  |  |
 | `26-14` | 底 | yes | yes | 广 | 氐 |
 | `26-14` | 柢 | yes | no |  |  |
@@ -3107,6 +3139,14 @@
 | `30-14` | 沸 | yes | yes | 水 | 弗 |
 | `30-14` | 昲 | yes | no |  |  |
 | `30-14` | 費 | yes | yes | 貝 | 弗 |
+| `30-21` | 未 | yes | no |  |  |
+| `30-21` | 味 | yes | yes | 口 | 未 |
+| `30-21` | 魅 | yes | yes | 鬼 | 未 |
+| `30-21` | 寐 | yes | yes | 㝱 | 未 |
+| `30-21` | 妹 | yes | yes | 女 | 未 |
+| `30-21` | 昧 | yes | yes | 日 | 未 |
+| `30-21` | 沬 | yes | no |  |  |
+| `30-21` | 𩎟 | no | no |  |  |
 | `31-02` | 㬰 | yes | no |  |  |
 | `31-02` | 貴 | yes | yes | 貝 | 臾 |
 | `31-02` | 憒 | yes | no |  |  |
@@ -3406,6 +3446,14 @@
 | `34-01` | 鵾 | yes | no |  |  |
 | `34-01` | 混 | yes | yes | 水 | 昆 |
 | `34-01` | 焜 | yes | yes | 火 | 昆 |
+| `34-12` | 君 | yes | yes | 口 | 尹 |
+| `34-12` | 羣 | yes | yes | 羊 | 君 |
+| `34-12` | 裙 | yes | yes | 衣 | 君 |
+| `34-12` | 郡 | yes | yes | 邑 | 君 |
+| `34-12` | 焄 | yes | no |  |  |
+| `34-12` | 麏 | yes | no |  |  |
+| `34-12` | 頵 | yes | no |  |  |
+| `34-12` | 窘 | yes | no |  |  |
 | `34-13` | 軍 | yes | no |  |  |
 | `34-13` | 渾 | yes | yes | 水 | 軍 |
 | `34-13` | 暈 | yes | yes | 日 | 軍 |
