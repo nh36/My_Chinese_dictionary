@@ -50,6 +50,17 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertIn(r"\paragraph{\textoversetlarge{26-28}{\huge{𠂔}}}", rendered)
 
+    def test_four_special_cases_render_with_abstract_labels_and_footnotes(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        self.assertIn(r"丕\footnote{", rendered)
+        self.assertIn(r"旁\footnote{", rendered)
+        self.assertIn(r"燅\footnote{", rendered)
+        self.assertIn(r"艱\footnote{", rendered)
+        self.assertIn(r"{\large{py\textsuperscript{˸discr}}},", rendered)
+        self.assertIn(r"{\large{\textsuperscript{discr˸}paṅ}},", rendered)
+        self.assertIn(r"{\large{\textsuperscript{prior·}qam}},", rendered)
+        self.assertIn(r"{\large{\textsuperscript{prior·}kyr₃}},", rendered)
+
     def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)

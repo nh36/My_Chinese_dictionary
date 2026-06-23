@@ -442,13 +442,25 @@ def render_candidate_lines(candidate: dict[str, Any]) -> list[str]:
     return lines
 
 
+def resolve_candidate_display_character(candidate: dict[str, Any]) -> str:
+    character = candidate["character"]
+    render_latex = candidate.get("render_latex")
+    if render_latex:
+        first_line = render_latex.splitlines()[0].strip()
+        if first_line.startswith(character):
+            if "\t%" in first_line:
+                return first_line.split("\t%", 1)[0]
+            return first_line
+    return character
+
+
 def render_candidate_body_lines(candidate: dict[str, Any]) -> list[str]:
     lines = render_candidate_lines(candidate)
     return lines[1:] if len(lines) > 1 else []
 
 
 def build_candidate_heading_line(candidate: dict[str, Any]) -> str:
-    line = rf"{{\Large{{{candidate['character']}}}}}"
+    line = rf"{{\Large{{{resolve_candidate_display_character(candidate)}}}}}"
     pinyins = collect_candidate_pinyins(candidate)
     if pinyins:
         line += f"\t%{' / '.join(pinyins)}"
@@ -546,12 +558,26 @@ def resolve_missing_series_head(entry: dict[str, Any]) -> tuple[str, dict[str, A
     return entry["id"], None
 
 
+def render_missing_series_heading_character(
+    head_character: str,
+    head_candidate: dict[str, Any] | None,
+) -> str:
+    if head_candidate and head_candidate.get("render_latex"):
+        first_line = head_candidate["render_latex"].splitlines()[0].strip()
+        if first_line.startswith(head_character):
+            if "\t%" in first_line:
+                return first_line.split("\t%", 1)[0]
+            return first_line
+    return head_character
+
+
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
     head_character, head_candidate = resolve_missing_series_head(entry)
+    heading_character = render_missing_series_heading_character(head_character, head_candidate)
     resolved_root_data = entry.get("resolved_series_root") or {}
     resolved_root = resolved_root_data.get("display_root") or resolved_root_data.get("root")
     body_lines = [
-        f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{head_character}}}}}}}",
+        f"\\paragraph{{\\textoversetlarge{{{entry['id']}}}{{\\huge{{{heading_character}}}}}}}",
     ]
     if resolved_root:
         body_lines.append(rf"{{\large{{{resolved_root}}}}},")

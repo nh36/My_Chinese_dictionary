@@ -2,7 +2,7 @@
 
 - Commented-out source material is excluded from this inventory.
 - Entries with at least one note: 312
-- Total notes inventoried: 1294
+- Total notes inventoried: 1298
 
 ## By source layer
 
@@ -11,7 +11,7 @@
 | `curation_division_note` | 541 |
 | `curation_entry_note` | 602 |
 | `curation_mc_investigation` | 112 |
-| `curation_research_note` | 18 |
+| `curation_research_note` | 22 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
 
@@ -22,7 +22,7 @@
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
 | `mc_conflict` | 112 |
-| `semantic_analysis` | 18 |
+| `semantic_analysis` | 22 |
 | `source_reference` | 10 |
 | `structural_internal` | 541 |
 | `workflow_internal` | 607 |
@@ -33,7 +33,7 @@
 | --- | ---: |
 | `footnote` | 10 |
 | `internal_only` | 1257 |
-| `series_end_note` | 27 |
+| `series_end_note` | 31 |
 
 ## Examples: `analysis_note`
 
@@ -74,12 +74,12 @@
 | `03-32` | `curation_research_note` | character: 𣥺 | `series_end_note` | Top component aligns with the 甞-layer phonetic line; 止 functions as semantic. |
 | `03-49` | `curation_research_note` | character: 墻 | `series_end_note` | Variant of 牆 with 爿 replaced by 土. |
 | `03-49` | `curation_research_note` | character: 廧 | `series_end_note` | Variant of 牆 with 广 semantic shell. |
+| `03-57` | `curation_research_note` | character: 旁 | `series_end_note` | Treat the elaborated package of 旁 as a differentiating semantic rather than as a historical 同 component. |
 | `03-65` | `curation_research_note` | character: 詤 | `series_end_note` | Chinese sources support 言 semantic + 㠩 phonetic. |
 | `03-65` | `curation_research_note` | character: 㡃 | `series_end_note` | Chinese sources support 巾 semantic + 㠩 phonetic. |
 | `04-26` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
 | `04-29` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
-| `04-61` | `curation_research_note` | character: 咅 | `series_end_note` | Do not treat the upper dot in 咅 as a stable semantic component. |
-| `07-12` | `curation_research_note` | character: 帝 | `series_end_note` | Treat 帝 as a pictogram rather than a phono-semantic compound with 丄 as semantic. |
+| `04-61` | `curation_research_note` | character: 丕 | `series_end_note` | Treat the added lower stroke as an abstract differentiating semantic distinguishing 丕 from 不. |
 
 ## Examples: `source_reference`
 

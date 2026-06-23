@@ -1670,7 +1670,7 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 401
+            "start_line": 405
           },
           {
             "graph_raw": "土",
@@ -1700,7 +1700,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 401
+              "start_line": 405
             },
             {
               "graph_raw": "土",
@@ -1849,7 +1849,7 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 296
+            "start_line": 298
           },
           {
             "graph_raw": "人",
@@ -1879,7 +1879,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 296
+              "start_line": 298
             },
             {
               "graph_raw": "人",
@@ -2017,7 +2017,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 317
+            "start_line": 319
           },
           {
             "graph_raw": "手",
@@ -2214,7 +2214,7 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 341
+              "start_line": 343
             },
             {
               "graph_raw": "口",
@@ -2235,7 +2235,7 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 341
+            "start_line": 343
           },
           {
             "graph_raw": "口",
@@ -2265,7 +2265,7 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 341
+              "start_line": 343
             },
             {
               "graph_raw": "口",
@@ -2853,7 +2853,7 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 295
+            "start_line": 297
           },
           {
             "graph_raw": "艸",
@@ -3104,7 +3104,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 295
+              "start_line": 297
             },
             {
               "graph_raw": "艸",
@@ -3125,7 +3125,7 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 295
+            "start_line": 297
           },
           {
             "graph_raw": "艸",
@@ -3155,7 +3155,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 295
+              "start_line": 297
             },
             {
               "graph_raw": "艸",
@@ -3318,7 +3318,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 317
+              "start_line": 319
             },
             {
               "graph_raw": "手",
@@ -3339,7 +3339,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 317
+            "start_line": 319
           },
           {
             "graph_raw": "手",
@@ -3369,7 +3369,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 317
+              "start_line": 319
             },
             {
               "graph_raw": "手",
@@ -3510,37 +3510,59 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "丕",
           "ids": "⿱不一",
           "phonetic_component": "不",
           "semantic_component": "一",
           "position": "suffix-colon",
-          "abbreviation": "一",
-          "inventory_matches": []
+          "abbreviation": "discr",
+          "inventory_matches": [
+            {
+              "graph_raw": "一",
+              "label_token": "discr(imen)",
+              "abbreviation": "discr",
+              "start_line": 257
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "一",
+        "abbreviation": "discr",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "一"
+        "inventory_matches": [
+          {
+            "graph_raw": "一",
+            "label_token": "discr(imen)",
+            "abbreviation": "discr",
+            "start_line": 257
+          }
+        ],
+        "source": "approved_differentiating_mark",
+        "semantic_component": "一",
+        "research_note": "Treat the added lower stroke as an abstract differentiating semantic distinguishing 丕 from 不."
       },
-      "transliteration_latex": "{\\large{py\\textsuperscript{˸一}}},",
-      "render_latex": "丕\t%pi1 / pī\n{\\large{py\\textsuperscript{˸一}}},\n\\textit{phiy};\t%0999k",
+      "transliteration_latex": "{\\large{py\\textsuperscript{˸discr}}},",
+      "render_latex": "丕\\footnote{The suffix \\textsuperscript{˸discr} marks a differentiating stroke added to distinguish 丕 from 不, not an ordinary lexical semantic; Jinqi Ying notes that the two graphs are already interchanged in Warring States manuscripts. \\parencite[41--42]{Ji2014Shuowen}}\t%pi1 / pī\n{\\large{py\\textsuperscript{˸discr}}},\n\\textit{phiy};\t%0999k",
       "wiktionary_semantic_validation": {
         "semantic_component": "一",
         "phonetic_component": "不",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "丕",
           "semantic_component": "一",
           "phonetic_component": "不",
           "position": "suffix-colon",
-          "abbreviation": "一",
-          "inventory_matches": [],
+          "abbreviation": "discr",
+          "inventory_matches": [
+            {
+              "graph_raw": "一",
+              "label_token": "discr(imen)",
+              "abbreviation": "discr",
+              "start_line": 257
+            }
+          ],
           "template_raw": "{{Han compound|不|一|c1=p|c2=s|ls=psc}}"
         }
       },
@@ -3662,7 +3684,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 296
+              "start_line": 298
             },
             {
               "graph_raw": "人",
@@ -3683,7 +3705,7 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 296
+            "start_line": 298
           },
           {
             "graph_raw": "人",
@@ -3781,7 +3803,7 @@
               "graph_raw": "馬",
               "label_token": "equ(us)",
               "abbreviation": "equ",
-              "start_line": 268
+              "start_line": 270
             },
             {
               "graph_raw": "馬",
@@ -3802,7 +3824,7 @@
             "graph_raw": "馬",
             "label_token": "equ(us)",
             "abbreviation": "equ",
-            "start_line": 268
+            "start_line": 270
           },
           {
             "graph_raw": "馬",
@@ -3947,7 +3969,7 @@
               "graph_raw": "禾",
               "label_token": "gran(um)",
               "abbreviation": "gran",
-              "start_line": 289
+              "start_line": 291
             },
             {
               "graph_raw": "禾",
@@ -3968,7 +3990,7 @@
             "graph_raw": "禾",
             "label_token": "gran(um)",
             "abbreviation": "gran",
-            "start_line": 289
+            "start_line": 291
           },
           {
             "graph_raw": "禾",
@@ -4529,7 +4551,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 401
+              "start_line": 405
             },
             {
               "graph_raw": "土",
@@ -4550,7 +4572,7 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 401
+            "start_line": 405
           },
           {
             "graph_raw": "土",
@@ -5305,7 +5327,7 @@
             "graph_raw": "瓦",
             "label_token": "teg(ula)",
             "abbreviation": "teg",
-            "start_line": 397
+            "start_line": 401
           },
           {
             "graph_raw": "瓦",
@@ -5469,7 +5491,7 @@
             "graph_raw": "邑",
             "label_token": "urb(s)",
             "abbreviation": "urb",
-            "start_line": 420
+            "start_line": 424
           }
         ],
         "source": "wiktionary_han_compound",
@@ -5492,7 +5514,7 @@
               "graph_raw": "邑",
               "label_token": "urb(s)",
               "abbreviation": "urb",
-              "start_line": 420
+              "start_line": 424
             }
           ],
           "template_raw": "{{Han compound|咅|邑|ls=psc|c1=p|c2=s}}"

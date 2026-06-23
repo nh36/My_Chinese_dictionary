@@ -3,16 +3,16 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 224
+- Integrated items: 228
 - Items present in both sources: 194
-- Current-only items: 30
+- Current-only items: 34
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 6
 - Blocked ambiguous aliases configured: 4
 - Blocked ambiguous aliases used in entries: 0
 - Needs-review labels used in entries: 0
 - Placeholder labels used in entries: 0
-- Duplicate abbreviations with multiple graphs: 0
+- Duplicate abbreviations with multiple graphs: 2
 - Duplicate graphs with true conflicts: 0
 - Intentional scoped duplicate graphs: 1
 - Ambiguous abbreviations used in entries: 0
@@ -30,6 +30,13 @@
 | `den` | `dent`, `molar` | Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. |
 | `dens` | `dent`, `molar` | Blocked because it can refer to dent/tooth material or surface from molar/dens explanations. |
 | `os` | `or`, `oss` | Blocked because it can refer to 口/or or 骨/oss. |
+
+## Duplicate abbreviations across different graphs
+
+| Abbreviation | Graphs |
+| --- | --- |
+| `discr` | `一`; `旁` |
+| `prior` | `坴`; `𦰩` |
 
 ## Intentional scoped duplicate graphs
 
@@ -103,6 +110,8 @@
 | `齒` | `dent` | `(dens), dent(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `又` | `dextr` | `dextr(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `言` | `dic` | `dic(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `一` | `discr` | `discr(imen)` | (only in 丕) | only_in | 丕 |  |  |  | yes | current_main_tex |
+| `旁` | `discr` | `discr(imen)` | (only in 旁) | only_in | 旁 |  |  |  | yes | current_main_tex |
 | `音` | `son` | `son(us)` |  | general |  |  |  |  | yes | current_main_tex, current_main_tex, earlier_pilot, earlier_pilot |
 | `寸` | `digit` | `digit(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `舍` | `dom` | `dom(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -150,7 +159,7 @@
 | `誩` | `iurg` | `iurg(ium)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `敕` | `iuss` | `iuss(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `石` | `lap` | `lap(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
+| `匸` | `latebr` | `latebr(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `广` | `lax` | `lax(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `斤` | `libra` | `libra` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `系` | `lig` | `lig(amen)` |  | general |  |  |  |  | yes | current_main_tex |
@@ -210,6 +219,8 @@
 | `可` | `poss` | `poss(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `玄` | `profund` | `profund(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `卜` | `prognosc` | `prognosc(ere)` | (in 鼑) | only_in | 鼑 |  |  |  | yes | current_main_tex, earlier_pilot |
+| `坴` | `prior` | `prior(phonogramma)` | (only in 燅) | only_in | 燅 |  |  |  | yes | current_main_tex |
+| `𦰩` | `prior` | `prior(phonogramma)` | (only in 艱) | only_in | 艱 |  |  |  | yes | current_main_tex |
 | `廴` | `progred` | `progred(ior)` | (in 廷) | only_in | 廷 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鬥` | `pugn` | `pugn(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `方` | `quadr` | `quadr(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

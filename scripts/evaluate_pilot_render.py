@@ -47,6 +47,18 @@ def resolve_missing_series_head_character(entry: dict[str, Any]) -> str | None:
     return resolved_character
 
 
+def resolve_candidate_display_character(candidate: dict[str, Any]) -> str:
+    character = candidate["character"]
+    render_latex = candidate.get("render_latex")
+    if render_latex:
+        first_line = render_latex.splitlines()[0].strip()
+        if first_line.startswith(character):
+            if "\t%" in first_line:
+                return first_line.split("\t%", 1)[0]
+            return first_line
+    return character
+
+
 def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[str, Any]:
     proposed_additions = [
         candidate
@@ -91,7 +103,7 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
             if packet_head_character and candidate["character"] == packet_head_character:
                 continue
             generated_subseries_heads.append(candidate["character"])
-            item_token = rf"\item {{\Large{{{candidate['character']}}}"
+            item_token = rf"\item {{\Large{{{resolve_candidate_display_character(candidate)}}}"
             equals_token = rf"= {{\large{{{resolved_node_root}}}}},"
             position = entry_block.find(item_token)
             if position != -1 and equals_token in entry_block[position : position + 500]:

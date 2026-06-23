@@ -5,7 +5,7 @@
 - Additions with reusable semantic assignment from existing TeX: 4012
 - Additions with reusable transliteration LaTeX from existing TeX: 4012
 - Additions with reusable render block from existing TeX: 4012
-- Additions with IDS-derived semantic candidates: 2814
+- Additions with IDS-derived semantic candidates: 2815
 - Additions with explicit Wiktionary Han-compound support: 1911
 - Additions assigned to inherited hierarchy nodes: 3
 - Additions assigned under generated candidate nodes: 3425

@@ -194,6 +194,41 @@ APPROVED_SEMANTIC_OVERRIDES = {
         "source": "approved_historical_reduction",
         "note": "Reduce the Shuowen-era 儿 semantic in 兌 to the more basic person graph 人.",
     },
+    "丕": {
+        "abbreviation": "discr",
+        "position": "suffix-colon",
+        "semantic_component": "一",
+        "source": "approved_differentiating_mark",
+        "note": "Treat the added lower stroke as an abstract differentiating semantic distinguishing 丕 from 不.",
+    },
+    "旁": {
+        "abbreviation": "discr",
+        "position": "prefix-colon",
+        "semantic_component": "旁",
+        "source": "approved_graphic_differentiation",
+        "note": "Treat the elaborated package of 旁 as a differentiating semantic rather than as a historical 同 component.",
+    },
+    "燅": {
+        "abbreviation": "prior",
+        "position": "prefix-dot",
+        "semantic_component": "坴",
+        "source": "approved_prior_phonogram_layer",
+        "note": "Treat 坴 as an older phonogram block functioning as the semantic layer from the viewpoint of the later 炎 series.",
+    },
+    "艱": {
+        "abbreviation": "prior",
+        "position": "prefix-dot",
+        "semantic_component": "𦰩",
+        "source": "approved_prior_phonogram_layer",
+        "note": "Treat 𦰩 as the older phonogram block and 艮 as the later added phonetic.",
+    },
+}
+
+CHARACTER_FOOTNOTE_OVERRIDES = {
+    "丕": r"The suffix \textsuperscript{˸discr} marks a differentiating stroke added to distinguish 丕 from 不, not an ordinary lexical semantic; Jinqi Ying notes that the two graphs are already interchanged in Warring States manuscripts. \parencite[41--42]{Ji2014Shuowen}",
+    "旁": r"Here \textsuperscript{discr˸} marks graphic elaboration rather than a historical 同 component. Following Ying Jinqi's MA thesis, the received 旁 is treated as an elaborated development of 方, while the visually similar older graph cited in her note is a distinct character rather than the ancestor of the received form. \parencite[24, n.~4]{Ying2023ZhouPhonology}",
+    "燅": r"Here \textsuperscript{prior·} marks the older phonogram block represented by 坴 (ultimately traced to a Jin-script form written as \mbox{⿱木土}) from the viewpoint of the later 炎-series. \parencite[662--671]{Li1998NanyueTally}; \parencite[50--55]{Xu2022ShangchengPi}; \parencite[278--291]{He2025SpecialPhonology}",
+    "艱": r"Here \textsuperscript{prior·} marks the older phonogram 𦰩; 艮 is treated as a later added phonetic. Personal communication from Jinqi Ying, email to Nathan Hill, 23 June 2026.",
 }
 
 
@@ -1629,6 +1664,9 @@ def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
         return None
 
     first_line = candidate["character"]
+    footnote_latex = CHARACTER_FOOTNOTE_OVERRIDES.get(candidate["character"])
+    if footnote_latex:
+        first_line += rf"\footnote{{{footnote_latex}}}"
     pinyins = dedupe_preserve(
         [row["pinyin"] for row in candidate.get("mand2mc_rows", []) if row.get("pinyin")]
         + [row["pinyin"] for row in candidate.get("bs_gsr_rows", []) if row.get("pinyin")]

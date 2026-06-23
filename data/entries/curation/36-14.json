@@ -847,7 +847,7 @@
               "graph_raw": "炎",
               "label_token": "flamm(a)",
               "abbreviation": "flamm",
-              "start_line": 278
+              "start_line": 280
             }
           ]
         }
@@ -861,7 +861,7 @@
             "graph_raw": "炎",
             "label_token": "flamm(a)",
             "abbreviation": "flamm",
-            "start_line": 278
+            "start_line": 280
           }
         ],
         "source": "wiktionary_han_compound",
@@ -884,7 +884,7 @@
               "graph_raw": "炎",
               "label_token": "flamm(a)",
               "abbreviation": "flamm",
-              "start_line": 278
+              "start_line": 280
             }
           ],
           "template_raw": "{{Han compound|臽|炎|ls=psc|c1=p|c2=s}}"
@@ -1219,7 +1219,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 317
+              "start_line": 319
             },
             {
               "graph_raw": "手",
@@ -1240,7 +1240,7 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 317
+            "start_line": 319
           },
           {
             "graph_raw": "手",
@@ -1270,7 +1270,7 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 317
+              "start_line": 319
             },
             {
               "graph_raw": "手",
@@ -1411,7 +1411,7 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 286
+              "start_line": 288
             },
             {
               "graph_raw": "玉",
@@ -1432,7 +1432,7 @@
             "graph_raw": "玉",
             "label_token": "gem(ma)",
             "abbreviation": "gem",
-            "start_line": 286
+            "start_line": 288
           },
           {
             "graph_raw": "玉",
@@ -1462,7 +1462,7 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 286
+              "start_line": 288
             },
             {
               "graph_raw": "玉",
@@ -1557,7 +1557,7 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 429
+              "start_line": 433
             },
             {
               "graph_raw": "衣",
@@ -1578,7 +1578,7 @@
             "graph_raw": "衣",
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
-            "start_line": 429
+            "start_line": 433
           },
           {
             "graph_raw": "衣",
@@ -1710,37 +1710,59 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "燅",
           "ids": "⿰坴炎",
           "phonetic_component": "炎",
           "semantic_component": "坴",
           "position": "prefix-dot",
-          "abbreviation": "坴",
-          "inventory_matches": []
+          "abbreviation": "prior",
+          "inventory_matches": [
+            {
+              "graph_raw": "坴",
+              "label_token": "prior(phonogramma)",
+              "abbreviation": "prior",
+              "start_line": 369
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "坴",
+        "abbreviation": "prior",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "坴"
+        "inventory_matches": [
+          {
+            "graph_raw": "坴",
+            "label_token": "prior(phonogramma)",
+            "abbreviation": "prior",
+            "start_line": 369
+          }
+        ],
+        "source": "approved_prior_phonogram_layer",
+        "semantic_component": "坴",
+        "research_note": "Treat 坴 as an older phonogram block functioning as the semantic layer from the viewpoint of the later 炎 series."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{坴·}qam}},",
-      "render_latex": "燅\t%qian2\n{\\large{\\textsuperscript{坴·}qam}},\n\\textit{ziem};\t%0617h",
+      "transliteration_latex": "{\\large{\\textsuperscript{prior·}qam}},",
+      "render_latex": "燅\\footnote{Here \\textsuperscript{prior·} marks the older phonogram block represented by 坴 (ultimately traced to a Jin-script form written as \\mbox{⿱木土}) from the viewpoint of the later 炎-series. \\parencite[662--671]{Li1998NanyueTally}; \\parencite[50--55]{Xu2022ShangchengPi}; \\parencite[278--291]{He2025SpecialPhonology}}\t%qian2\n{\\large{\\textsuperscript{prior·}qam}},\n\\textit{ziem};\t%0617h",
       "wiktionary_semantic_validation": {
         "semantic_component": "坴",
         "phonetic_component": "炎",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "燅",
           "semantic_component": "坴",
           "phonetic_component": "炎",
           "position": "prefix-dot",
-          "abbreviation": "坴",
-          "inventory_matches": [],
+          "abbreviation": "prior",
+          "inventory_matches": [
+            {
+              "graph_raw": "坴",
+              "label_token": "prior(phonogramma)",
+              "abbreviation": "prior",
+              "start_line": 369
+            }
+          ],
           "template_raw": "{{Han compound|坴|炎|c1=s|c2=p|t2=hot|ls=psc}}"
         }
       },
@@ -1826,7 +1848,7 @@
               "graph_raw": "見",
               "label_token": "vid(eo)",
               "abbreviation": "vid",
-              "start_line": 433
+              "start_line": 437
             },
             {
               "graph_raw": "見",
@@ -1847,7 +1869,7 @@
             "graph_raw": "見",
             "label_token": "vid(eo)",
             "abbreviation": "vid",
-            "start_line": 433
+            "start_line": 437
           },
           {
             "graph_raw": "見",
@@ -1945,7 +1967,7 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 295
+              "start_line": 297
             },
             {
               "graph_raw": "艸",
@@ -1966,7 +1988,7 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 295
+            "start_line": 297
           },
           {
             "graph_raw": "艸",
@@ -2458,7 +2480,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 296
+              "start_line": 298
             },
             {
               "graph_raw": "人",
@@ -2479,7 +2501,7 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 296
+            "start_line": 298
           },
           {
             "graph_raw": "人",
@@ -2509,7 +2531,7 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 296
+              "start_line": 298
             },
             {
               "graph_raw": "人",
@@ -2631,7 +2653,7 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 341
+              "start_line": 343
             },
             {
               "graph_raw": "口",
@@ -2652,7 +2674,7 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 341
+            "start_line": 343
           },
           {
             "graph_raw": "口",
@@ -3002,7 +3024,7 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 263
+              "start_line": 265
             },
             {
               "graph_raw": "食",
@@ -3023,7 +3045,7 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 263
+            "start_line": 265
           },
           {
             "graph_raw": "食",

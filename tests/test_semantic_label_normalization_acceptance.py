@@ -109,6 +109,10 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("亠", "pav"), rows)
         self.assertIn(("田", "ager"), rows)
         self.assertIn(("田", "forn"), rows)
+        self.assertIn(("一", "discr"), rows)
+        self.assertIn(("旁", "discr"), rows)
+        self.assertIn(("坴", "prior"), rows)
+        self.assertIn(("𦰩", "prior"), rows)
         self.assertEqual(rows[("田", "forn")]["scope"], "only_in")
         self.assertEqual(rows[("田", "forn")]["only_in"], ["盧"])
         self.assertEqual(rows[("田", "forn")]["duplicate_graph_status"], "intentional_scoped_duplicate")
@@ -260,6 +264,26 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         by_char_2213 = {candidate["character"]: candidate for candidate in entry_2213["proposed_additions"]}
         self.assertEqual((by_char_2213["兌"]["semantic_assignment"] or {}).get("abbreviation"), "hom")
         self.assertEqual((by_char_2213["兌"]["semantic_assignment"] or {}).get("semantic_component"), "人")
+
+    def test_four_case_abstract_semantic_labels_are_applied(self) -> None:
+        checks = {
+            ("04-61", "丕"): ("discr", "一", "suffix-colon"),
+            ("03-57", "旁"): ("discr", "旁", "prefix-colon"),
+            ("36-14", "燅"): ("prior", "坴", "prefix-dot"),
+            ("33-05", "艱"): ("prior", "𦰩", "prefix-dot"),
+        }
+        for (entry_id, character), expected in checks.items():
+            entry = json.loads((ROOT / "data/entries/curation" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            by_character = {candidate["character"]: candidate for candidate in entry["proposed_additions"]}
+            assignment = by_character[character]["semantic_assignment"] or {}
+            self.assertEqual(
+                (
+                    assignment.get("abbreviation"),
+                    assignment.get("semantic_component"),
+                    assignment.get("position"),
+                ),
+                expected,
+            )
 
 
 if __name__ == "__main__":

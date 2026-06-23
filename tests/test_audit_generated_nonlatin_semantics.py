@@ -43,7 +43,8 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
             (ROOT / "data/derived/nonlatin_generated_semantics.json").read_text(encoding="utf-8")
         )
         components = {row["semantic_component"] for row in inventory["components"]}
-        self.assertTrue({"一", "同", "坴", "𦰩"}.issubset(components))
+        self.assertFalse({"一", "同", "坴", "𦰩"} & components)
+        self.assertTrue(components)
         self.assertTrue(
             {
                 "八",
