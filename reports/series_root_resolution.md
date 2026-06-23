@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 194
-- Packets with at least one root candidate: 187
-- Packets with a single resolved provisional root: 194
+- Missing-series packets inspected: 200
+- Packets with at least one root candidate: 193
+- Packets with a single resolved provisional root: 200
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -46,7 +46,10 @@
 | `05-06` | 或→quyk [*ɢʷrək {*[ɢ]ʷrək}] (0929a) | `quyk` | `head_graph_oc_bs` |
 | `05-16` | 弋→lyk [*lək] (0918a) | `lyk` | `head_graph_oc_bs` |
 | `05-33` | 畐→pyk [*bək {*[b]ək}] (0933a) | `pyk` | `head_graph_oc_bs` |
+| `06-05` | 𠃋→kuyṅ [*kʷˤəŋ {*[k]ʷˤəŋ}] (0887a) | `kuyṅ` | `head_graph_oc_bs` |
 | `06-13` |  | `lyṅ` | `packet_bs_majority` |
+| `06-19` | 曾→tsyṅ [*dzˤəŋ {*[dz]ˤəŋ}] (0884a) | `tsyṅ` | `head_graph_oc_bs` |
+| `06-20` | 朋→pyṅ [*bˤəŋ {*[b]ˤəŋ}] (0886a) | `pyṅ` | `head_graph_oc_bs` |
 | `07-03` | 支→ke [*ke] (0864a) | `ke` | `head_graph_oc_bs` |
 | `07-08` | 圭→kue [*kʷˤe {*[k]ʷˤe}] (0879a) | `kue` | `head_graph_oc_bs` |
 | `07-11` | 兒→ṅe [*ŋe] (0873a) | `ṅe` | `head_graph_oc_bs` |
@@ -82,11 +85,14 @@
 | `13-36` | 酉→ru [*m.ruʔ {*[m].ruʔ}] (1096a) | `ru` | `head_graph_oc_bs` |
 | `13-45` | 翏→riw [*riw-s {*[r]iw-s}] (1069a) | `riw` | `head_graph_oc_bs` |
 | `13-47` | 卯→mu [*mˤruʔ] (1114a) | `mu` | `head_graph_oc_bs` |
+| `13-57` | 秋→tsiw [*tsʰiw] (1092a) | `tsiw` | `head_graph_oc_bs` |
 | `13-72` | 包→pu [*pˤ<r>u] (1113a) | `pu` | `head_graph_oc_bs` |
 | `13-73` | 孚→pu [*pʰu] (None) | `pu` | `head_graph_oc_shengfu` |
 | `13-76` | 矛→mu [*mu {*m(r)u}] (1109a) | `mu` | `head_graph_oc_bs` |
+| `14-02` | 匊→kuk [*kuɡ] (None) | `kuk` | `head_graph_oc_shengfu` |
 | `14-14` | 賣→me [*mʳe̠s] (None) | `me` | `head_graph_oc_shengfu` |
 | `14-18` | 尗→tuk [*s.tuk] (1031a) | `tuk` | `head_graph_oc_bs` |
+| `14-22` | 肅→sik [*siwk] (1028a) | `sik` | `head_graph_oc_bs` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |
 | `16-03` | 喬→kaw [*N-kaw {*[N-k](r)aw}] (1138a) | `kaw` | `head_graph_oc_bs` |
 | `16-06` | 交→kaw [*kˤraw {*[k]ˤraw}] (1166a) | `kaw` | `head_graph_oc_bs` |

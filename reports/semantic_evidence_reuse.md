@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 210
-- Proposed additions inspected: 3187
-- Additions with reusable semantic assignment from existing TeX: 3187
-- Additions with reusable transliteration LaTeX from existing TeX: 3187
-- Additions with reusable render block from existing TeX: 3187
-- Additions with IDS-derived semantic candidates: 2270
-- Additions with explicit Wiktionary Han-compound support: 1563
+- Curated entries inspected: 216
+- Proposed additions inspected: 3247
+- Additions with reusable semantic assignment from existing TeX: 3247
+- Additions with reusable transliteration LaTeX from existing TeX: 3247
+- Additions with reusable render block from existing TeX: 3247
+- Additions with IDS-derived semantic candidates: 2318
+- Additions with explicit Wiktionary Han-compound support: 1588
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 2773
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 79
+- Additions assigned under generated candidate nodes: 2824
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 81
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -61,7 +61,10 @@
 | `05-06` | 16 | 16 | 16 | 16 |
 | `05-16` | 17 | 17 | 17 | 17 |
 | `05-33` | 13 | 13 | 13 | 13 |
+| `06-05` | 10 | 10 | 10 | 10 |
 | `06-13` | 12 | 12 | 12 | 12 |
+| `06-19` | 10 | 10 | 10 | 10 |
+| `06-20` | 10 | 10 | 10 | 10 |
 | `07-03` | 13 | 13 | 13 | 13 |
 | `07-08` | 27 | 27 | 27 | 27 |
 | `07-11` | 13 | 13 | 13 | 13 |
@@ -97,11 +100,14 @@
 | `13-36` | 15 | 15 | 15 | 15 |
 | `13-45` | 20 | 20 | 20 | 20 |
 | `13-47` | 19 | 19 | 19 | 19 |
+| `13-57` | 10 | 10 | 10 | 10 |
 | `13-72` | 14 | 14 | 14 | 14 |
 | `13-73` | 11 | 11 | 11 | 11 |
 | `13-76` | 16 | 16 | 16 | 16 |
+| `14-02` | 10 | 10 | 10 | 10 |
 | `14-14` | 19 | 19 | 19 | 19 |
 | `14-18` | 19 | 19 | 19 | 19 |
+| `14-22` | 10 | 10 | 10 | 10 |
 | `16-01` | 25 | 25 | 25 | 25 |
 | `16-03` | 16 | 16 | 16 | 16 |
 | `16-06` | 24 | 24 | 24 | 24 |

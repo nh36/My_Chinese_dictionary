@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3187
-- Pages fetched / cached successfully: 3150
-- Additions with explicit Han-compound semantic/phonetic roles: 1572
+- Proposed additions checked: 3247
+- Pages fetched / cached successfully: 3209
+- Additions with explicit Han-compound semantic/phonetic roles: 1597
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -719,6 +719,16 @@
 | `05-33` | 富 | yes | yes | 宀 | 畐 |
 | `05-33` | 副 | yes | yes | 刀 | 畐 |
 | `05-33` | 𠠦 | yes | no |  |  |
+| `06-05` | 厷 | yes | no |  |  |
+| `06-05` | 肱 | yes | yes | 肉 | 厷 |
+| `06-05` | 弘 | yes | yes | 口 | 弓 |
+| `06-05` | 宏 | yes | no |  |  |
+| `06-05` | 竑 | yes | no |  |  |
+| `06-05` | 紘 | yes | no |  |  |
+| `06-05` | 閎 | yes | no |  |  |
+| `06-05` | 雄 | yes | yes | 隹 | 厷 |
+| `06-05` | 鞃 | yes | no |  |  |
+| `06-05` | 𠃋 | yes | no |  |  |
 | `06-13` | 灷 | yes | no |  |  |
 | `06-13` | 㑞 | yes | no |  |  |
 | `06-13` | 朕 | yes | no |  |  |
@@ -731,6 +741,26 @@
 | `06-13` | 縢 | yes | no |  |  |
 | `06-13` | 螣 | yes | no |  |  |
 | `06-13` | 騰 | yes | yes | 馬 | 朕 |
+| `06-19` | 曾 | yes | no |  |  |
+| `06-19` | 增 | yes | yes | 土 | 曾 |
+| `06-19` | 憎 | yes | yes | 心 | 曾 |
+| `06-19` | 橧 | yes | no |  |  |
+| `06-19` | 罾 | yes | yes | 网 | 曾 |
+| `06-19` | 矰 | yes | yes | 矢 | 曾 |
+| `06-19` | 繒 | yes | no |  |  |
+| `06-19` | 層 | yes | yes | 尸 | 曾 |
+| `06-19` | 贈 | yes | yes | 貝 | 曾 |
+| `06-19` | 甑 | yes | no |  |  |
+| `06-20` | 朋 | yes | no |  |  |
+| `06-20` | 倗 | yes | yes | 人 | 朋 |
+| `06-20` | 傰 | yes | no |  |  |
+| `06-20` | 鵬 | yes | yes | 鳥 | 朋 |
+| `06-20` | 堋 | yes | no |  |  |
+| `06-20` | 塴 | yes | no |  |  |
+| `06-20` | 崩 | yes | yes | 山 | 朋 |
+| `06-20` | 掤 | yes | no |  |  |
+| `06-20` | 繃 | yes | no |  |  |
+| `06-20` | 棚 | yes | yes | 木 | 朋 |
 | `07-03` | 支 | yes | no |  |  |
 | `07-03` | 枝 | yes | yes | 木 | 支 |
 | `07-03` | 肢 | yes | yes | 肉 | 支 |
@@ -1352,6 +1382,16 @@
 | `13-47` | 罶 | yes | no |  |  |
 | `13-47` | 霤 | yes | no |  |  |
 | `13-47` | 騮 | yes | no |  |  |
+| `13-57` | 秋 | yes | yes | 禾 | 𤒅 |
+| `13-57` | 楸 | yes | no |  |  |
+| `13-57` | 萩 | yes | no |  |  |
+| `13-57` | 鶖 | yes | no |  |  |
+| `13-57` | 啾 | yes | yes | 口 | 秋 |
+| `13-57` | 湫 | yes | no |  |  |
+| `13-57` | 揫 | yes | no |  |  |
+| `13-57` | 甃 | yes | no |  |  |
+| `13-57` | 愁 | yes | yes | 心 | 秋 |
+| `13-57` | 愀 | yes | no |  |  |
 | `13-72` | 包 | yes | no |  |  |
 | `13-72` | 胞 | yes | yes | 肉 | 包 |
 | `13-72` | 苞 | yes | yes | 艸 | 包 |
@@ -1393,6 +1433,16 @@
 | `13-76` | 楘 | yes | yes | 木 | 敄 |
 | `13-76` | 鶩 | yes | yes | 鳥 | 敄 |
 | `13-76` | 霧 | yes | yes | 雨 | 務 |
+| `14-02` | 匊 | yes | no |  |  |
+| `14-02` | 掬 | yes | yes | 手 | 匊 |
+| `14-02` | 椈 | yes | no |  |  |
+| `14-02` | 菊 | yes | yes | 艸 | 匊 |
+| `14-02` | 蘜 | yes | no |  |  |
+| `14-02` | 踘 | yes | no |  |  |
+| `14-02` | 鞠 | yes | yes | 米 | 𥲩 |
+| `14-02` | 麴 | yes | yes | 麥 | 匊 |
+| `14-02` | 鞫 | yes | no |  |  |
+| `14-02` | 𥷚 | no | no |  |  |
 | `14-14` | 賣 | yes | yes | 出 | 買 |
 | `14-14` | 儥 | yes | yes | 人 | 𧶠 |
 | `14-14` | 覿 | yes | no |  |  |
@@ -1431,6 +1481,16 @@
 | `14-18` | 顣 | yes | no |  |  |
 | `14-18` | 慼 | yes | no |  |  |
 | `14-18` | 鏚 | yes | no |  |  |
+| `14-22` | 肅 | yes | no |  |  |
+| `14-22` | 鱐 | yes | no |  |  |
+| `14-22` | 䐹 | yes | no |  |  |
+| `14-22` | 繡 | yes | yes | 糸 | 肅 |
+| `14-22` | 嘯 | yes | yes | 口 | 肅 |
+| `14-22` | 歗 | yes | yes | 欠 | 肅 |
+| `14-22` | 簫 | yes | yes | 竹 | 肅 |
+| `14-22` | 蕭 | yes | no |  |  |
+| `14-22` | 瀟 | yes | yes | 水 | 蕭 |
+| `14-22` | 蠨 | yes | no |  |  |
 | `16-01` | 高 | yes | no |  |  |
 | `16-01` | 薧 | yes | yes | 死 | 蒿 |
 | `16-01` | 嚆 | yes | yes | 口 | 蒿 |

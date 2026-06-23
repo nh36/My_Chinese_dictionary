@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 427
-- Roots whose display label changed after document-wide renumbering: 191
-- Duplicate phonetic bases encountered in document order: 123
+- Mutable series/subseries roots inspected: 438
+- Roots whose display label changed after document-wide renumbering: 196
+- Duplicate phonetic bases encountered in document order: 127
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -181,8 +181,13 @@
 | `05-16` | `subseries-root` | 代 | `lyk` | 3 | `lyk₃` | yes |
 | `05-16` | `subseries-root` | 貸 | `lyk` | 4 | `lyk₄` | yes |
 | `05-33` | `series-root` | 畐 | `pyk` | 1 | `pyk` | yes |
+| `06-05` | `series-root` | 𠃋 | `kuyṅ` | 1 | `kuyṅ` | yes |
+| `06-05` | `subseries-root` | 弘 | `kuyṅ` | 2 | `kuyṅ₂` | yes |
 | `06-13` | `series-root` | 灷 | `lyṅ` | 1 | `lyṅ` | yes |
 | `06-13` | `subseries-root` | 朕 | `lyṅ` | 2 | `lyṅ₂` | yes |
+| `06-19` | `series-root` | 曾 | `tsyṅ` | 1 | `tsyṅ` | yes |
+| `06-20` | `series-root` | 朋 | `pyṅ` | 1 | `pyṅ` | yes |
+| `06-20` | `subseries-root` | 崩 | `pyṅ` | 2 | `pyṅ₂` | yes |
 | `07-03` | `series-root` | 支 | `ke` | 1 | `ke` | yes |
 | `07-08` | `series-root` | 圭 | `kue` | 1 | `kue` | yes |
 | `07-08` | `subseries-root` | 洼 | `kue` | 2 | `kue₂` | yes |
@@ -278,16 +283,22 @@
 | `13-47` | `subseries-root` | 桺 | `mu` | 2 | `mu₂` | yes |
 | `13-47` | `subseries-root` | 劉 | `mu` | 3 | `mu₃` | yes |
 | `13-47` | `subseries-root` | 留 | `mu` | 4 | `mu₄` | yes |
+| `13-57` | `series-root` | 秋 | `tsiw` | 1 | `tsiw` | yes |
 | `13-72` | `series-root` | 包 | `pu` | 1 | `pu` | yes |
 | `13-73` | `series-root` | 孚 | `pu` | 2 | `pu₂` | yes |
 | `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
 | `13-76` | `subseries-root` | 楙 | `mu` | 6 | `mu₆` | yes |
 | `13-76` | `subseries-root` | 敄 | `mu` | 7 | `mu₇` | yes |
 | `13-76` | `subseries-root` | 務 | `mu` | 8 | `mu₈` | yes |
+| `14-02` | `series-root` | 匊 | `kuk` | 1 | `kuk` | yes |
+| `14-02` | `subseries-root` | 鞠 | `kuk` | 2 | `kuk₂` | yes |
+| `14-02` | `subseries-root` | 鞫 | `kuk` | 3 | `kuk₃` | yes |
 | `14-14` | `series-root` | 賣 | `me` | 1 | `me` | yes |
 | `14-18` | `series-root` | 尗 | `tuk` | 1 | `tuk` | yes |
 | `14-18` | `subseries-root` | 叔 | `tuk` | 2 | `tuk₂` | yes |
 | `14-18` | `subseries-root` | 戚 | `tsik` | 1 | `tsik` | yes |
+| `14-22` | `series-root` | 肅 | `sik` | 1 | `sik` | yes |
+| `14-22` | `subseries-root` | 蕭 | `sik` | 2 | `sik₂` | yes |
 | `16-01` | `series-root` | 高 | `kaw` | 1 | `kaw` | yes |
 | `16-01` | `subseries-root` | 槀 | `k\textoverset{a}{a}w` | 1 | `k\textoverset{a}{a}w` | yes |
 | `16-01` | `subseries-root` | 豪 | `k\textoverset{a}{a}w` | 2 | `k\textoverset{a}{a}w₂` | yes |
