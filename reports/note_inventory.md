@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 233
-- Total notes inventoried: 992
+- Entries with at least one note: 239
+- Total notes inventoried: 1018
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 427 |
-| `curation_entry_note` | 444 |
-| `curation_mc_investigation` | 82 |
+| `curation_division_note` | 439 |
+| `curation_entry_note` | 456 |
+| `curation_mc_investigation` | 84 |
 | `curation_research_note` | 18 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 82 |
+| `mc_conflict` | 84 |
 | `semantic_analysis` | 18 |
 | `source_reference` | 10 |
-| `structural_internal` | 427 |
-| `workflow_internal` | 449 |
+| `structural_internal` | 439 |
+| `workflow_internal` | 461 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 955 |
+| `internal_only` | 981 |
 | `series_end_note` | 27 |
 
 ## Examples: `analysis_note`
@@ -63,8 +63,8 @@
 | `01-62` | `curation_mc_investigation` | character: 梳 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: srjo. |
 | `02-31` | `curation_mc_investigation` | character: 作 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: tsuH. |
 | `03-01` | `curation_mc_investigation` | character: 航 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hang. |
+| `03-12` | `curation_mc_investigation` | character: 唐 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: thang. |
 | `03-65` | `curation_mc_investigation` | character: 望 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: mjang. |
-| `04-04` | `curation_mc_investigation` | character: 丌 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: gi. |
 
 ## Examples: `semantic_analysis`
 

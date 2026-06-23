@@ -80,7 +80,7 @@
 | `止` | `cess` | `cess(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `申` | `tend` | `tend(o)` |  | general |  |  |  |  | yes | current_main_tex, current_main_tex, earlier_pilot, earlier_pilot |
 | `單` | `cicad` | `cicad(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `雚` | `ciconia` | `ciconia` | (in 飌) | only_in | 飌 |  |  |  | no | current_main_tex, earlier_pilot |
+| `雚` | `ciconia` | `ciconia` | (in 飌) | only_in | 飌 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `丹` | `cinnabar` | `cinnabar(is)` | (in 彤) | only_in | 彤 |  |  |  | no | current_main_tex, earlier_pilot |
 | `囗` | `cla` | `cla(usum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尢` | `claud` | `claud(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -192,7 +192,7 @@
 | `宮` | `palat` | `palat(ium)` |  | general |  |  |  |  | yes | current_main_tex |
 | `幺` | `parv` | `parv(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `亠` | `pav` | `pav(ilio)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `步` | `pass` | `pass(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
+| `步` | `pass` | `pass(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `隹` | `passer` | `passer` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `足` | `ped` | `(pes,) ped(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `皮` | `pell` | `pell(is)` | (in 皽) | only_in | 皽 |  |  |  | yes | current_main_tex, earlier_pilot |

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3313
-- Pages fetched / cached successfully: 3272
-- Additions with explicit Han-compound semantic/phonetic roles: 1617
+- Proposed additions checked: 3379
+- Pages fetched / cached successfully: 3336
+- Additions with explicit Han-compound semantic/phonetic roles: 1646
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -194,6 +194,17 @@
 | `03-10` | 掠 | yes | yes | 手 | 京 |
 | `03-10` | 涼 | yes | yes | 水 | 京 |
 | `03-10` | 諒 | yes | no |  |  |
+| `03-12` | 庚 | yes | no |  |  |
+| `03-12` | 賡 | yes | no |  |  |
+| `03-12` | 康 | yes | no |  |  |
+| `03-12` | 𡻚 | no | no |  |  |
+| `03-12` | 慷 | yes | yes | 心 | 康 |
+| `03-12` | 穅 | yes | no |  |  |
+| `03-12` | 糠 | yes | yes | 米 | 康 |
+| `03-12` | 唐 | yes | yes | 口 | 庚 |
+| `03-12` | 塘 | yes | yes | 土 | 唐 |
+| `03-12` | 榶 | yes | no |  |  |
+| `03-12` | 螗 | yes | no |  |  |
 | `03-23` | 黃 | yes | yes | 田 | 炗 |
 | `03-23` | 璜 | yes | yes | 玉 | 黃 |
 | `03-23` | 潢 | yes | yes | 水 | 黄 |
@@ -1789,6 +1800,17 @@
 | `17-07` | 藋 | yes | no |  |  |
 | `17-07` | 鑃 | yes | no |  |  |
 | `17-07` | 櫂 | yes | yes | 木 | 翟 |
+| `17-08` | 樂 | yes | no |  |  |
+| `17-08` | 轢 | yes | yes | 車 | 樂 |
+| `17-08` | 𧭥 | yes | no |  |  |
+| `17-08` | 濼 | yes | yes | 水 | 樂 |
+| `17-08` | 櫟 | yes | yes | 木 | 樂 |
+| `17-08` | 礫 | yes | yes | 石 | 樂 |
+| `17-08` | 躒 | yes | yes | 足 | 樂 |
+| `17-08` | 䟏 | yes | no |  |  |
+| `17-08` | 爍 | yes | yes | 火 | 樂 |
+| `17-08` | 鑠 | yes | yes | 金 | 樂 |
+| `17-08` | 藥 | yes | yes | 艸 | 樂 |
 | `18-09` | 𨠑 | no | no |  |  |
 | `18-09` | 舵 | yes | yes | 舟 | 它 |
 | `18-18` | 加 | yes | no |  |  |
@@ -1920,6 +1942,17 @@
 | `21-23` | 勩 | yes | no |  |  |
 | `21-23` | 渫 | yes | yes | 水 | 枼 |
 | `21-23` | 緤 | yes | no |  |  |
+| `21-26` | 蠆 | yes | yes | 虫 | 萬 |
+| `21-26` | 厲 | yes | yes | 厂 | 蠆 |
+| `21-26` | 礪 | yes | no |  |  |
+| `21-26` | 勵 | yes | yes | 力 | 厲 |
+| `21-26` | 癘 | yes | no |  |  |
+| `21-26` | 𧓽 | no | no |  |  |
+| `21-26` | 蠣 | yes | yes | 虫 | 厲 |
+| `21-26` | 糲 | yes | no |  |  |
+| `21-26` | 萬 | yes | no |  |  |
+| `21-26` | 勱 | yes | no |  |  |
+| `21-26` | 邁 | yes | no |  |  |
 | `21-31` | 犮 | yes | no |  |  |
 | `21-31` | 跋 | yes | yes | 足 | 犮 |
 | `21-31` | 魃 | yes | no |  |  |
@@ -1959,6 +1992,17 @@
 | `22-03` | 噲 | yes | yes | 口 | 會 |
 | `22-03` | 鬠 | yes | yes | 髟 | 會 |
 | `22-03` | 薈 | yes | no |  |  |
+| `22-05` | 戉 | yes | no |  |  |
+| `22-05` | 鉞 | yes | yes | 金 | 戉 |
+| `22-05` | 越 | yes | yes | 走 | 戉 |
+| `22-05` | 狘 | yes | no |  |  |
+| `22-05` | 歲 | yes | yes | 步 | 戉 |
+| `22-05` | 顪 | yes | no |  |  |
+| `22-05` | 翽 | yes | no |  |  |
+| `22-05` | 濊 | yes | no |  |  |
+| `22-05` | 穢 | yes | yes | 禾 | 歲 |
+| `22-05` | 噦 | yes | no |  |  |
+| `22-05` | 劌 | yes | no |  |  |
 | `22-10` | 叕 | yes | no |  |  |
 | `22-10` | 綴 | yes | yes | 糸 | 叕 |
 | `22-10` | 啜 | yes | yes | 口 | 叕 |
@@ -3164,6 +3208,17 @@
 | `36-18` | 枏 | yes | no |  |  |
 | `36-18` | 聃 | yes | no |  |  |
 | `36-18` | 耼 | yes | no |  |  |
+| `36-26` | 凡 | yes | no |  |  |
+| `36-26` | 芃 | yes | no |  |  |
+| `36-26` | 帆 | yes | yes | 巾 | 凡 |
+| `36-26` | 軓 | yes | no |  |  |
+| `36-26` | 汎 | yes | yes | 水 | 凡 |
+| `36-26` | 風 | yes | no |  |  |
+| `36-26` | 飌 | yes | no |  |  |
+| `36-26` | 鳳 | yes | yes | 鳥 | 凡 |
+| `36-26` | 楓 | yes | yes | 木 | 風 |
+| `36-26` | 諷 | yes | yes | 言 | 風 |
+| `36-26` | 渢 | yes | no |  |  |
 | `37-01` | 合 | yes | no |  |  |
 | `37-01` | 䢔 | yes | no |  |  |
 | `37-01` | 蛤 | yes | yes | 虫 | 合 |
@@ -3181,6 +3236,17 @@
 | `37-01` | 潝 | yes | no |  |  |
 | `37-01` | 闟 | yes | yes | 門 | 翕 |
 | `37-01` | 拾 | yes | yes | 手 | 合 |
+| `37-15` | 立 | yes | no |  |  |
+| `37-15` | 笠 | yes | yes | 竹 | 立 |
+| `37-15` | 粒 | yes | yes | 米 | 立 |
+| `37-15` | 苙 | yes | no |  |  |
+| `37-15` | 泣 | yes | yes | 水 | 立 |
+| `37-15` | 湇 | yes | no |  |  |
+| `37-15` | 㕇 | yes | no |  |  |
+| `37-15` | 拉 | yes | yes | 手 | 立 |
+| `37-15` | 涖 | yes | no |  |  |
+| `37-15` | 莅 | yes | no |  |  |
+| `37-15` | 蒞 | yes | no |  |  |
 | `37-16` | 入 | yes | no |  |  |
 | `37-16` | 內 | yes | no |  |  |
 | `37-16` | 納 | yes | yes | 糸 | 内 |
