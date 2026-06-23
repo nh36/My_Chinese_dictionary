@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 27,
+    "case_count": 29,
     "unique_component_count": 25,
     "by_classification": {
-      "new_latin_label_needed": 26,
+      "new_latin_label_needed": 28,
       "research_compound_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 19,
-      "ids_component_literal_fallback": 5,
-      "packet_family_component_literal_fallback": 3
+      "ids_component_literal_fallback": 6,
+      "packet_family_component_literal_fallback": 4
     }
   },
   "cases": [
@@ -29,6 +29,23 @@
       "render_latex": "彠\t%huo4\n{\\large{\\textsuperscript{尋·}quak}},\n\\textit{qiwak};\t%0784f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "02-22",
+      "character": "㓃",
+      "abbreviation": "冖",
+      "semantic_component": "冖",
+      "position": "prefix-colon",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "冖",
+      "transliteration_latex": "{\\large{\\textsuperscript{冖˸}t\\textoverset{a}{a}k₃}},",
+      "render_latex": "㓃\t%du4\n{\\large{\\textsuperscript{冖˸}t\\textoverset{a}{a}k₃}},\n\\textit{tuH};\t%0780j",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "02-27",
@@ -112,6 +129,23 @@
       "semantic_component_ids": "一",
       "transliteration_latex": "{\\large{py\\textsuperscript{˸一}}},",
       "render_latex": "丕\t%pi1 / pī\n{\\large{py\\textsuperscript{˸一}}},\n\\textit{phiy};\t%0999k",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "06-10",
+      "character": "丞",
+      "abbreviation": "一",
+      "semantic_component": "一",
+      "position": "suffix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": "{{Han compound|卩|廾|凵|ls=ic|t1=kneeling person|t2=both hands|t3=hole}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "kneeling person",
+      "template_gloss_secondary": "both hands",
+      "semantic_component_ids": "一",
+      "transliteration_latex": "{\\large{kyṅ\\textsuperscript{˸一}}},",
+      "render_latex": "丞\t%cheng2 / chéng\n{\\large{kyṅ\\textsuperscript{˸一}}},\n\\textit{jiṅ};\t%0896g",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -548,13 +582,19 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "04-61",
           "character": "丕",
           "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
+        },
+        {
+          "entry_id": "06-10",
+          "character": "丞",
+          "position": "suffix-colon",
+          "source": "packet_family_component_literal_fallback"
         }
       ]
     },
@@ -611,8 +651,14 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "02-22",
+          "character": "㓃",
+          "position": "prefix-colon",
+          "source": "ids_component_literal_fallback"
+        },
         {
           "entry_id": "26-39",
           "character": "冞",

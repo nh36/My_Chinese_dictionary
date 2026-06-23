@@ -8,6 +8,7 @@
 | GSC | Packet kind | Existing TeX baseline | Proposed additions | Hierarchy-linked additions |
 | --- | --- | --- | ---: | ---: |
 | `01-01` | `existing_addendum` | yes | 4 | 2 |
+| `01-09` | `missing_series` | no | 9 | 8 |
 | `01-18` | `existing_addendum` | yes | 0 | 0 |
 | `01-19` | `existing_addendum` | yes | 0 | 0 |
 | `01-38` | `existing_addendum` | yes | 0 | 0 |
@@ -19,6 +20,7 @@
 | `02-01` | `missing_series` | no | 37 | 36 |
 | `02-08` | `missing_series` | no | 11 | 10 |
 | `02-17` | `missing_series` | no | 13 | 10 |
+| `02-22` | `missing_series` | no | 8 | 7 |
 | `02-23` | `missing_series` | no | 9 | 6 |
 | `02-25` | `missing_series` | no | 17 | 16 |
 | `02-27` | `missing_series` | no | 10 | 8 |
@@ -66,6 +68,7 @@
 | `05-33` | `missing_series` | no | 13 | 12 |
 | `06-05` | `missing_series` | no | 10 | 7 |
 | `06-09` | `missing_series` | no | 9 | 8 |
+| `06-10` | `missing_series` | no | 8 | 6 |
 | `06-13` | `missing_series` | no | 12 | 10 |
 | `06-19` | `missing_series` | no | 10 | 9 |
 | `06-20` | `missing_series` | no | 10 | 9 |
@@ -75,6 +78,7 @@
 | `07-12` | `missing_series` | no | 17 | 11 |
 | `07-14` | `missing_series` | no | 18 | 17 |
 | `07-20` | `missing_series` | no | 11 | 10 |
+| `07-21` | `missing_series` | no | 9 | 8 |
 | `07-25` | `missing_series` | no | 22 | 21 |
 | `07-29` | `missing_series` | no | 20 | 19 |
 | `08-12` | `missing_series` | no | 13 | 12 |
@@ -148,6 +152,7 @@
 | `19-21` | `existing_addendum` | yes | 1 | 0 |
 | `19-22` | `existing_addendum` | yes | 2 | 1 |
 | `20-01` | `missing_series` | no | 11 | 10 |
+| `20-02` | `missing_series` | no | 8 | 6 |
 | `20-03` | `missing_series` | no | 11 | 10 |
 | `20-13` | `missing_series` | no | 11 | 9 |
 | `20-16` | `missing_series` | no | 11 | 9 |
@@ -214,6 +219,7 @@
 | `29-15` | `missing_series` | no | 13 | 11 |
 | `29-17` | `missing_series` | no | 12 | 10 |
 | `29-41` | `missing_series` | no | 19 | 17 |
+| `29-42` | `missing_series` | no | 8 | 7 |
 | `30-01` | `missing_series` | no | 14 | 12 |
 | `30-02` | `missing_series` | no | 11 | 10 |
 | `30-11` | `missing_series` | no | 10 | 5 |

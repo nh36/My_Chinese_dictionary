@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 275
-- Total notes inventoried: 1157
+- Entries with at least one note: 281
+- Total notes inventoried: 1181
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 492 |
-| `curation_entry_note` | 528 |
-| `curation_mc_investigation` | 98 |
+| `curation_division_note` | 503 |
+| `curation_entry_note` | 540 |
+| `curation_mc_investigation` | 99 |
 | `curation_research_note` | 18 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 98 |
+| `mc_conflict` | 99 |
 | `semantic_analysis` | 18 |
 | `source_reference` | 10 |
-| `structural_internal` | 492 |
-| `workflow_internal` | 533 |
+| `structural_internal` | 503 |
+| `workflow_internal` | 545 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 1120 |
+| `internal_only` | 1144 |
 | `series_end_note` | 27 |
 
 ## Examples: `analysis_note`
@@ -100,6 +100,8 @@
 
 | GSC | Source layer | Anchor | Rendering | Text |
 | --- | --- | --- | --- | --- |
+| `01-09` | `curation_division_note` | character: 豦 | `internal_only` | top-level series head left unmarked |
+| `01-09` | `curation_division_note` | character: 遽 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-51` | `curation_division_note` | character: 盧 | `internal_only` | the extracted forms point to both type a and type b |
 | `01-51` | `curation_division_note` | character: 慮 | `internal_only` | the extracted forms point to both type a and type b |
 | `01-57` | `curation_division_note` | character: 𪓐 | `internal_only` | the extracted forms point to both type a and type b |
@@ -108,8 +110,6 @@
 | `02-01` | `curation_division_note` | character: 洛 | `internal_only` | all extracted forms lack an i-medial after the onset |
 | `02-01` | `curation_division_note` | character: 路 | `internal_only` | all extracted forms lack an i-medial after the onset |
 | `02-01` | `curation_division_note` | character: 輅 | `internal_only` | all extracted forms lack an i-medial after the onset |
-| `02-08` | `curation_division_note` | character: 蒦 | `internal_only` | top-level series head left unmarked |
-| `02-17` | `curation_division_note` | character: 石 | `internal_only` | top-level series head left unmarked |
 
 ## Examples: `workflow_internal`
 
@@ -117,11 +117,11 @@
 | --- | --- | --- | --- | --- |
 | `01-01` | `curation_entry_note` | entry | `internal_only` | Machine-promoted from a series packet; not yet hand-checked. |
 | `01-01` | `curation_entry_note` | entry | `internal_only` | Use this file as the staging area for editorial decisions before any merge into main.tex. |
+| `01-09` | `curation_entry_note` | entry | `internal_only` | Machine-promoted from a series packet; not yet hand-checked. |
+| `01-09` | `curation_entry_note` | entry | `internal_only` | Use this file as the staging area for editorial decisions before any merge into main.tex. |
 | `01-18` | `curation_entry_note` | entry | `internal_only` | Machine-promoted from a series packet; not yet hand-checked. |
 | `01-18` | `curation_entry_note` | entry | `internal_only` | Use this file as the staging area for editorial decisions before any merge into main.tex. |
 | `01-19` | `curation_entry_note` | entry | `internal_only` | Machine-promoted from a series packet; not yet hand-checked. |
 | `01-19` | `curation_entry_note` | entry | `internal_only` | Use this file as the staging area for editorial decisions before any merge into main.tex. |
 | `01-28` | `hand_footnote` | character: 於 | `footnote` | I will have to look into this character more. |
 | `01-31` | `hand_footnote` | character: 䱷 | `footnote` | I need to look into this character more. |
-| `01-38` | `curation_entry_note` | entry | `internal_only` | Machine-promoted from a series packet; not yet hand-checked. |
-| `01-38` | `curation_entry_note` | entry | `internal_only` | Use this file as the staging area for editorial decisions before any merge into main.tex. |
