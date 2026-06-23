@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-23T08:30:40.779512+00:00
+- Generated at: 2026-06-23T08:48:44.857523+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 14915
+- Total occurrences audited: 15133
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 14788 |
+| `canonical` | 14998 |
 | `explicit_alias` | 67 |
-| `needs_review` | 60 |
+| `needs_review` | 68 |
 
 ## Blocked ambiguous aliases
 
@@ -496,6 +496,12 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `29-17` | `瓞` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿺瓜失` | `瓞	%die2
 {\large{\textsuperscript{瓜·}lit}},
 \textit{det};	%0402i` |
+| `curation_json` | `30-02` | `㮣` | `朩` | render_latex, transliteration_latex | `朩` | `⿱既朩` | `㮣	%gai4
+{\large{kyt₂\textsuperscript{˸朩}}},
+\textit{kəyH};	%0515j` |
+| `curation_json` | `30-02` | `暨` | `旦` | render_latex, transliteration_latex | `旦` | `⿱既旦` | `暨	%ji4 / jì
+{\large{kyt₂\textsuperscript{˸旦}}},
+\textit{giyH};	%0515o` |
 | `curation_json` | `32-26` | `粼` | `巜` | render_latex, transliteration_latex | `巜` | `⿰粦巜` | `粼	%lin2 / lin4
 {\large{ryn\textsuperscript{·巜}}},
 \textit{lin};	%0387c
@@ -535,6 +541,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `29-17` | `瓞` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿺瓜失` | `瓞	%die2
 {\large{\textsuperscript{瓜·}lit}},
 \textit{det};	%0402i` |
+| `integrated_series_curated_entry` | `30-02` | `㮣` | `朩` | render_latex, transliteration_latex | `朩` | `⿱既朩` | `㮣	%gai4
+{\large{kyt₂\textsuperscript{˸朩}}},
+\textit{kəyH};	%0515j` |
+| `integrated_series_curated_entry` | `30-02` | `暨` | `旦` | render_latex, transliteration_latex | `旦` | `⿱既旦` | `暨	%ji4 / jì
+{\large{kyt₂\textsuperscript{˸旦}}},
+\textit{giyH};	%0515o` |
 | `integrated_series_curated_entry` | `32-26` | `粼` | `巜` | render_latex, transliteration_latex | `巜` | `⿰粦巜` | `粼	%lin2 / lin4
 {\large{ryn\textsuperscript{·巜}}},
 \textit{lin};	%0387c
@@ -551,6 +563,8 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `乙` | line | `` | `` | `{\large{kan₂\textsuperscript{·乙}}},` |
 | `validation_tex` | `` | `` | `豐` | line | `` | `` | `{\large{\textsuperscript{豐·}ly₆}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{\textsuperscript{瓜·}lit}},` |
+| `validation_tex` | `` | `` | `朩` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸朩}}},` |
+| `validation_tex` | `` | `` | `旦` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸旦}}},` |
 | `validation_tex` | `` | `` | `巜` | line | `` | `` | `{\large{ryn\textsuperscript{·巜}}},` |
 | `validation_tex` | `` | `` | `坴` | line | `` | `` | `{\large{\textsuperscript{坴·}qam}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
@@ -576,6 +590,8 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `乙` | line | `` | `` | `{\large{kan₂\textsuperscript{·乙}}},` |
 | `validation_tex` | `` | `` | `豐` | line | `` | `` | `{\large{\textsuperscript{豐·}ly₆}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{\textsuperscript{瓜·}lit}},` |
+| `validation_tex` | `` | `` | `朩` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸朩}}},` |
+| `validation_tex` | `` | `` | `旦` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸旦}}},` |
 | `validation_tex` | `` | `` | `巜` | line | `` | `` | `{\large{ryn\textsuperscript{·巜}}},` |
 | `validation_tex` | `` | `` | `坴` | line | `` | `` | `{\large{\textsuperscript{坴·}qam}},` |
 

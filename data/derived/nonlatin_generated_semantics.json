@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 14,
-    "unique_component_count": 13,
+    "case_count": 17,
+    "unique_component_count": 15,
     "by_classification": {
-      "new_latin_label_needed": 13,
+      "new_latin_label_needed": 16,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 11,
-      "ids_component_literal_fallback": 2,
-      "packet_family_component_literal_fallback": 1
+      "wiktionary_component_literal_fallback": 12,
+      "ids_component_literal_fallback": 3,
+      "packet_family_component_literal_fallback": 2
     }
   },
   "cases": [
@@ -201,6 +201,57 @@
       "proposal": "Keep `瓜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "30-02",
+      "character": "既",
+      "abbreviation": "⑤",
+      "semantic_component": "⑤",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": "{{Han compound|皀|t1=bowl of rice|旡|t2=kneeling figure|ls=ic}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "bowl of rice",
+      "template_gloss_secondary": "kneeling figure",
+      "semantic_component_ids": "⑤",
+      "transliteration_latex": "{\\large{\\textsuperscript{⑤·}kyt}},",
+      "render_latex": "既\t%ji4 / jì\n{\\large{\\textsuperscript{⑤·}kyt}},\n\\textit{kiɨyH};\t%0515c",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `⑤` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "30-02",
+      "character": "㮣",
+      "abbreviation": "朩",
+      "semantic_component": "朩",
+      "position": "suffix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "朩",
+      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸朩}}},",
+      "render_latex": "㮣\t%gai4\n{\\large{kyt₂\\textsuperscript{˸朩}}},\n\\textit{kəyH};\t%0515j",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `朩` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "30-02",
+      "character": "暨",
+      "abbreviation": "旦",
+      "semantic_component": "旦",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|既|旦|c1=p|c2=s|t2=sunrise|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "sunrise",
+      "semantic_component_ids": "⿱日一",
+      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸旦}}},",
+      "render_latex": "暨\t%ji4 / jì\n{\\large{kyt₂\\textsuperscript{˸旦}}},\n\\textit{giyH};\t%0515o",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `旦` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "32-26",
       "character": "粼",
       "abbreviation": "巜",
@@ -253,6 +304,27 @@
     }
   ],
   "components": [
+    {
+      "semantic_component": "⑤",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `⑤` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⑤",
+      "template_alt_graph": null,
+      "template_gloss_primary": "bowl of rice",
+      "template_gloss_secondary": "kneeling figure",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "30-02",
+          "character": "既",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
     {
       "semantic_component": "㱃",
       "classification": "new_latin_label_needed",
@@ -432,13 +504,40 @@
       "template_alt_graph": null,
       "template_gloss_primary": "sunrise",
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "24-02",
           "character": "倝",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
+        },
+        {
+          "entry_id": "30-02",
+          "character": "暨",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "朩",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `朩` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "朩",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "30-02",
+          "character": "㮣",
+          "position": "suffix-colon",
+          "source": "packet_family_component_literal_fallback"
         }
       ]
     },

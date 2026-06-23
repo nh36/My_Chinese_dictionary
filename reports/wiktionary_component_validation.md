@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3247
-- Pages fetched / cached successfully: 3209
-- Additions with explicit Han-compound semantic/phonetic roles: 1597
+- Proposed additions checked: 3313
+- Pages fetched / cached successfully: 3272
+- Additions with explicit Han-compound semantic/phonetic roles: 1617
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -849,6 +849,17 @@
 | `07-14` | 鯷 | yes | no |  |  |
 | `07-14` | 寔 | yes | no |  |  |
 | `07-14` | 湜 | yes | yes | 水 | 是 |
+| `07-20` | 爾 | yes | no |  |  |
+| `07-20` | 邇 | yes | no |  |  |
+| `07-20` | 嬭 | yes | no |  |  |
+| `07-20` | 濔 | yes | no |  |  |
+| `07-20` | 禰 | yes | yes | 示 | 爾 |
+| `07-20` | 薾 | yes | no |  |  |
+| `07-20` | 璽 | yes | yes | 玉 | 爾 |
+| `07-20` | 𤣔 | no | no |  |  |
+| `07-20` | 獮 | yes | yes | 犬 | 爾 |
+| `07-20` | 彌 | yes | yes | 弓 | 爾 |
+| `07-20` | 瀰 | yes | no |  |  |
 | `07-25` | 此 | yes | no |  |  |
 | `07-25` | 佌 | yes | no |  |  |
 | `07-25` | 庛 | yes | no |  |  |
@@ -1516,6 +1527,17 @@
 | `16-01` | 壕 | yes | yes | 土 | 豪 |
 | `16-01` | 譹 | yes | no |  |  |
 | `16-01` | 稿 | yes | yes | 禾 | 高 |
+| `16-02` | 羔 | yes | yes | 羊 | 照 |
+| `16-02` | 䅵 | yes | no |  |  |
+| `16-02` | 杲 | yes | no |  |  |
+| `16-02` | 薅 | yes | no |  |  |
+| `16-02` | 媼 | yes | no |  |  |
+| `16-02` | 腦 | yes | no |  |  |
+| `16-02` | 𠜶 | no | no |  |  |
+| `16-02` | 饕 | yes | yes | 食 | 號 |
+| `16-02` | 呶 | yes | no |  |  |
+| `16-02` | 怓 | yes | no |  |  |
+| `16-02` | 豹 | yes | yes | 豸 | 勺 |
 | `16-03` | 喬 | yes | no |  |  |
 | `16-03` | 僑 | yes | yes | 人 | 喬 |
 | `16-03` | 嶠 | yes | no |  |  |
@@ -2146,6 +2168,17 @@
 | `24-54` | 譒 | yes | no |  |  |
 | `24-54` | 皤 | yes | no |  |  |
 | `24-54` | 藩 | yes | yes | 艸 | 潘 |
+| `24-56` | 曼 | yes | no |  |  |
+| `24-56` | 蔓 | yes | yes | 艸 | 曼 |
+| `24-56` | 嫚 | yes | no |  |  |
+| `24-56` | 僈 | yes | no |  |  |
+| `24-56` | 慢 | yes | yes | 心 | 曼 |
+| `24-56` | 墁 | yes | no |  |  |
+| `24-56` | 幔 | yes | no |  |  |
+| `24-56` | 縵 | yes | yes | 糸 | 曼 |
+| `24-56` | 鄤 | yes | no |  |  |
+| `24-56` | 漫 | yes | yes | 水 | 曼 |
+| `24-56` | 謾 | yes | no |  |  |
 | `24-58` | 免 | yes | no |  |  |
 | `24-58` | 俛 | yes | yes | 人 | 免 |
 | `24-58` | 勉 | yes | yes | 力 | 免 |
@@ -2430,6 +2463,17 @@
 | `26-38` | 鈚 | yes | no |  |  |
 | `26-38` | 坒 | yes | yes | 土 | 比 |
 | `26-38` | 芘 | yes | no |  |  |
+| `27-04` | 幾 | yes | no |  |  |
+| `27-04` | 機 | yes | yes | 木 | 幾 |
+| `27-04` | 璣 | yes | yes | 玉 | 幾 |
+| `27-04` | 磯 | yes | yes | 石 | 幾 |
+| `27-04` | 禨 | yes | no |  |  |
+| `27-04` | 穖 | yes | no |  |  |
+| `27-04` | 蟣 | yes | no |  |  |
+| `27-04` | 譏 | yes | yes | 言 | 幾 |
+| `27-04` | 鞿 | yes | no |  |  |
+| `27-04` | 饑 | yes | yes | 食 | 幾 |
+| `27-04` | 畿 | yes | yes | 田 | 幾 |
 | `27-08` | 非 | yes | no |  |  |
 | `27-08` | 匪 | yes | yes | 匚 | 非 |
 | `27-08` | 扉 | yes | yes | 戶 | 非 |
@@ -2628,6 +2672,17 @@
 | `30-01` | 圪 | yes | yes | 土 | 乞 |
 | `30-01` | 齕 | yes | no |  |  |
 | `30-01` | 刉 | yes | no |  |  |
+| `30-02` | 旡 | yes | no |  |  |
+| `30-02` | 既 | yes | no |  |  |
+| `30-02` | 蔇 | yes | no |  |  |
+| `30-02` | 塈 | yes | no |  |  |
+| `30-02` | 摡 | yes | no |  |  |
+| `30-02` | 㮣 | yes | no |  |  |
+| `30-02` | 概 | yes | yes | 木 | 既 |
+| `30-02` | 溉 | yes | no |  |  |
+| `30-02` | 嘅 | yes | no |  |  |
+| `30-02` | 慨 | yes | yes | 心 | 既 |
+| `30-02` | 暨 | yes | yes | 旦 | 既 |
 | `30-14` | 弗 | yes | no |  |  |
 | `30-14` | 笰 | yes | no |  |  |
 | `30-14` | 紼 | yes | no |  |  |
@@ -3098,6 +3153,17 @@
 | `36-14` | 啖 | yes | no |  |  |
 | `36-14` | 淡 | yes | yes | 水 | 炎 |
 | `36-14` | 餤 | yes | no |  |  |
+| `36-18` | 冄 | yes | no |  |  |
+| `36-18` | 冉 | yes | no |  |  |
+| `36-18` | 呥 | yes | no |  |  |
+| `36-18` | 姌 | yes | no |  |  |
+| `36-18` | 袡 | yes | no |  |  |
+| `36-18` | 衻 | yes | no |  |  |
+| `36-18` | 𩑺 | no | no |  |  |
+| `36-18` | 髯 | yes | no |  |  |
+| `36-18` | 枏 | yes | no |  |  |
+| `36-18` | 聃 | yes | no |  |  |
+| `36-18` | 耼 | yes | no |  |  |
 | `37-01` | 合 | yes | no |  |  |
 | `37-01` | 䢔 | yes | no |  |  |
 | `37-01` | 蛤 | yes | yes | 虫 | 合 |
