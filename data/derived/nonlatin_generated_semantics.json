@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 29,
-    "unique_component_count": 25,
+    "case_count": 33,
+    "unique_component_count": 29,
     "by_classification": {
-      "new_latin_label_needed": 28,
+      "new_latin_label_needed": 32,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 19,
-      "ids_component_literal_fallback": 6,
-      "packet_family_component_literal_fallback": 4
+      "wiktionary_component_literal_fallback": 20,
+      "ids_component_literal_fallback": 8,
+      "packet_family_component_literal_fallback": 5
     }
   },
   "cases": [
@@ -235,6 +235,23 @@
       "proposal": "Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "21-12",
+      "character": "太",
+      "abbreviation": "丶",
+      "semantic_component": "丶",
+      "position": "suffix-colon",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "丶",
+      "transliteration_latex": "{\\large{lat\\textsuperscript{˸丶}}},",
+      "render_latex": "太\t%tai4 / tài\n{\\large{lat\\textsuperscript{˸丶}}},\n\\textit{thayH};\t%0317d",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "22-10",
       "character": "歠",
       "abbreviation": "㱃",
@@ -352,6 +369,57 @@
       "render_latex": "凱\t%kai3 / kǎi\n{\\large{\\textsuperscript{豈·}qy₃}},\n\\textit{khəyX};\t%0548b",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `豈` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "29-13",
+      "character": "壹",
+      "abbreviation": "壺",
+      "semantic_component": "壺",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|壺|吉|ls=psc|c1=s|c2=p}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱士⿳冖⑥一",
+      "transliteration_latex": "{\\large{\\textsuperscript{壺˸}ʔit}},",
+      "render_latex": "壹\t%yi1 / yī\n{\\large{\\textsuperscript{壺˸}ʔit}},\n\\textit{qyit};\t%0395a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `壺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "29-13",
+      "character": "㦤",
+      "abbreviation": "𬅟",
+      "semantic_component": "𬅟",
+      "position": "suffix-dot",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱欠心",
+      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·𬅟}}},",
+      "render_latex": "㦤\t%yi4 / yì\n{\\large{ʔit\\textsuperscript{·𬅟}}},\n\\textit{qiyH};\t%0395c",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𬅟` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "29-13",
+      "character": "懿",
+      "abbreviation": "恣",
+      "semantic_component": "恣",
+      "position": "suffix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱次心",
+      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·恣}}},",
+      "render_latex": "懿\t%yi4\n{\\large{ʔit\\textsuperscript{·恣}}},\n\\textit{qiyH};\t%0395d",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `恣` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "29-17",
@@ -599,6 +667,27 @@
       ]
     },
     {
+      "semantic_component": "丶",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "丶",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "21-12",
+          "character": "太",
+          "position": "suffix-colon",
+          "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "乙",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `乙` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -731,6 +820,27 @@
       ]
     },
     {
+      "semantic_component": "壺",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `壺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱士⿳冖⑥一",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "29-13",
+          "character": "壹",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "夕",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -790,6 +900,27 @@
           "character": "粼",
           "position": "suffix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "恣",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `恣` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱次心",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "29-13",
+          "character": "懿",
+          "position": "suffix-dot",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },
@@ -1054,6 +1185,27 @@
           "character": "隕",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "𬅟",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𬅟` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱欠心",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "29-13",
+          "character": "㦤",
+          "position": "suffix-dot",
+          "source": "packet_family_component_literal_fallback"
         }
       ]
     }

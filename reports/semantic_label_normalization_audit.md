@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-23T10:31:57.589512+00:00
+- Generated at: 2026-06-23T11:19:08.912194+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 16831
+- Total occurrences audited: 16997
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 16656 |
+| `canonical` | 16812 |
 | `explicit_alias` | 71 |
-| `needs_review` | 104 |
+| `needs_review` | 114 |
 
 ## Blocked ambiguous aliases
 
@@ -194,6 +194,9 @@ Watched tokens with no current heuristic match: `can`
 \textit{śiem};	%0618j
 \textit{śiemH};
 \textit{temH};` |
+| `curation_json` | `38-07` | `瘖` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒音` | `瘖	%yin1
+{\large{\textsuperscript{infirm·}qym}},
+\textit{qim};	%0653e` |
 | `integrated_series_curated_entry` | `01-01` | `痼` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒固` | `痼	%gù
 {\large{\textsuperscript{infirm·}k\textoverset{a}{a}}},
 \textit{kuH};	%49` |
@@ -316,6 +319,9 @@ Watched tokens with no current heuristic match: `can`
 \textit{śiem};	%0618j
 \textit{śiemH};
 \textit{temH};` |
+| `integrated_series_curated_entry` | `38-07` | `瘖` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒音` | `瘖	%yin1
+{\large{\textsuperscript{infirm·}qym}},
+\textit{qim};	%0653e` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}mak}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}laṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₂}},` |
@@ -348,6 +354,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}miṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tyn}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tem}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qym}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}k\textoverset{a}{a}}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}ta}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}tsa}},` |
@@ -394,6 +401,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}miṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tyn}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tem}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qym}},` |
 
 ## Audited `bos` occurrences
 
@@ -559,6 +567,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `20-13` | `藝` | `云` | render_latex, transliteration_latex | `云` | `⿱蓺云` | `藝	%yi4 / yì
 {\large{ŋe\textsuperscript{˸云}}},
 \textit{ṅieyH};	%0330f` |
+| `curation_json` | `21-12` | `太` | `丶` | render_latex, transliteration_latex | `丶` | `⿵大丶` | `太	%tai4 / tài
+{\large{lat\textsuperscript{˸丶}}},
+\textit{thayH};	%0317d` |
 | `curation_json` | `24-02` | `倝` | `旦` | render_latex, transliteration_latex | `旦` | `⿰𠦝人` | `倝	%gan4
 {\large{\textsuperscript{旦·}kan₂}},
 \textit{kanH};	%0140a` |
@@ -575,6 +586,12 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `27-02` | `凱` | `豈` | render_latex, transliteration_latex | `豈` | `⿰豈几` | `凱	%kai3 / kǎi
 {\large{\textsuperscript{豈·}qy₃}},
 \textit{khəyX};	%0548b` |
+| `curation_json` | `29-13` | `壹` | `壺` | render_latex, transliteration_latex | `壺` | `⿳士冖豆` | `壹	%yi1 / yī
+{\large{\textsuperscript{壺˸}ʔit}},
+\textit{qyit};	%0395a` |
+| `curation_json` | `29-13` | `懿` | `恣` | render_latex, transliteration_latex | `恣` | `⿰壹恣` | `懿	%yi4
+{\large{ʔit\textsuperscript{·恣}}},
+\textit{qiyH};	%0395d` |
 | `curation_json` | `29-17` | `瓞` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿺瓜失` | `瓞	%die2
 {\large{\textsuperscript{瓜·}lit}},
 \textit{det};	%0402i` |
@@ -632,6 +649,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `20-13` | `藝` | `云` | render_latex, transliteration_latex | `云` | `⿱蓺云` | `藝	%yi4 / yì
 {\large{ŋe\textsuperscript{˸云}}},
 \textit{ṅieyH};	%0330f` |
+| `integrated_series_curated_entry` | `21-12` | `太` | `丶` | render_latex, transliteration_latex | `丶` | `⿵大丶` | `太	%tai4 / tài
+{\large{lat\textsuperscript{˸丶}}},
+\textit{thayH};	%0317d` |
 | `integrated_series_curated_entry` | `24-02` | `倝` | `旦` | render_latex, transliteration_latex | `旦` | `⿰𠦝人` | `倝	%gan4
 {\large{\textsuperscript{旦·}kan₂}},
 \textit{kanH};	%0140a` |
@@ -648,6 +668,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `27-02` | `凱` | `豈` | render_latex, transliteration_latex | `豈` | `⿰豈几` | `凱	%kai3 / kǎi
 {\large{\textsuperscript{豈·}qy₃}},
 \textit{khəyX};	%0548b` |
+| `integrated_series_curated_entry` | `29-13` | `壹` | `壺` | render_latex, transliteration_latex | `壺` | `⿳士冖豆` | `壹	%yi1 / yī
+{\large{\textsuperscript{壺˸}ʔit}},
+\textit{qyit};	%0395a` |
+| `integrated_series_curated_entry` | `29-13` | `懿` | `恣` | render_latex, transliteration_latex | `恣` | `⿰壹恣` | `懿	%yi4
+{\large{ʔit\textsuperscript{·恣}}},
+\textit{qiyH};	%0395d` |
 | `integrated_series_curated_entry` | `29-17` | `瓞` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿺瓜失` | `瓞	%die2
 {\large{\textsuperscript{瓜·}lit}},
 \textit{det};	%0402i` |
@@ -681,10 +707,12 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₂}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |
+| `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{lat\textsuperscript{˸丶}}},` |
 | `validation_tex` | `` | `` | `乙` | line | `` | `` | `{\large{kan₂\textsuperscript{·乙}}},` |
 | `validation_tex` | `` | `` | `豐` | line | `` | `` | `{\large{\textsuperscript{豐·}ly₆}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}miy}},` |
 | `validation_tex` | `` | `` | `豈` | line | `` | `` | `{\large{\textsuperscript{豈·}qy₃}},` |
+| `validation_tex` | `` | `` | `恣` | line | `` | `` | `{\large{ʔit\textsuperscript{·恣}}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{\textsuperscript{瓜·}lit}},` |
 | `validation_tex` | `` | `` | `朩` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸朩}}},` |
 | `validation_tex` | `` | `` | `旦` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸旦}}},` |
@@ -717,10 +745,12 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₂}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |
+| `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{lat\textsuperscript{˸丶}}},` |
 | `validation_tex` | `` | `` | `乙` | line | `` | `` | `{\large{kan₂\textsuperscript{·乙}}},` |
 | `validation_tex` | `` | `` | `豐` | line | `` | `` | `{\large{\textsuperscript{豐·}ly₆}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}miy}},` |
 | `validation_tex` | `` | `` | `豈` | line | `` | `` | `{\large{\textsuperscript{豈·}qy₃}},` |
+| `validation_tex` | `` | `` | `恣` | line | `` | `` | `{\large{ʔit\textsuperscript{·恣}}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{\textsuperscript{瓜·}lit}},` |
 | `validation_tex` | `` | `` | `朩` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸朩}}},` |
 | `validation_tex` | `` | `` | `旦` | line | `` | `` | `{\large{kyt₂\textsuperscript{˸旦}}},` |
