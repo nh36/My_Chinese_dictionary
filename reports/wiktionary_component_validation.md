@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3060
-- Pages fetched / cached successfully: 3023
-- Additions with explicit Han-compound semantic/phonetic roles: 1514
+- Proposed additions checked: 3126
+- Pages fetched / cached successfully: 3089
+- Additions with explicit Han-compound semantic/phonetic roles: 1541
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1766,6 +1766,28 @@
 | `21-01` | 謁 | yes | yes | 言 | 曷 |
 | `21-01` | 餲 | yes | yes | 食 | 曷 |
 | `21-01` | 㵣 | yes | no |  |  |
+| `21-19` | 折 | yes | no |  |  |
+| `21-19` | 哲 | yes | yes | 口 | 折 |
+| `21-19` | 悊 | yes | no |  |  |
+| `21-19` | 蜇 | yes | yes | 虫 | 折 |
+| `21-19` | 硩 | yes | yes | 石 | 折 |
+| `21-19` | 晣 | yes | no |  |  |
+| `21-19` | 晢 | yes | no |  |  |
+| `21-19` | 誓 | yes | yes | 言 | 折 |
+| `21-19` | 逝 | yes | yes | 辵 | 折 |
+| `21-19` | 哳 | yes | no |  |  |
+| `21-19` | 狾 | yes | yes | 犬 | 折 |
+| `21-23` | 世 | yes | no |  |  |
+| `21-23` | 貰 | yes | yes | 貝 | 世 |
+| `21-23` | 抴 | yes | yes | 手 | 世 |
+| `21-23` | 枻 | yes | no |  |  |
+| `21-23` | 詍 | yes | no |  |  |
+| `21-23` | 泄 | yes | no |  |  |
+| `21-23` | 紲 | yes | yes | 糸 | 世 |
+| `21-23` | 靾 | yes | no |  |  |
+| `21-23` | 勩 | yes | no |  |  |
+| `21-23` | 渫 | yes | yes | 水 | 枼 |
+| `21-23` | 緤 | yes | no |  |  |
 | `21-31` | 犮 | yes | no |  |  |
 | `21-31` | 跋 | yes | yes | 足 | 犮 |
 | `21-31` | 魃 | yes | no |  |  |
@@ -1805,6 +1827,17 @@
 | `22-03` | 噲 | yes | yes | 口 | 會 |
 | `22-03` | 鬠 | yes | yes | 髟 | 會 |
 | `22-03` | 薈 | yes | no |  |  |
+| `22-10` | 叕 | yes | no |  |  |
+| `22-10` | 綴 | yes | yes | 糸 | 叕 |
+| `22-10` | 啜 | yes | yes | 口 | 叕 |
+| `22-10` | 惙 | yes | no |  |  |
+| `22-10` | 輟 | yes | yes | 車 | 叕 |
+| `22-10` | 畷 | yes | no |  |  |
+| `22-10` | 剟 | yes | no |  |  |
+| `22-10` | 掇 | yes | yes | 手 | 叕 |
+| `22-10` | 歠 | yes | yes | 㱃 | 叕 |
+| `22-10` | 錣 | yes | no |  |  |
+| `22-10` | 蝃 | yes | no |  |  |
 | `22-13` | 兌 | yes | yes | 儿 | 㕣 |
 | `22-13` | 駾 | yes | no |  |  |
 | `22-13` | 蛻 | yes | no |  |  |
@@ -1945,6 +1978,17 @@
 | `24-23` | 膻 | yes | yes | 肉 | 亶 |
 | `24-23` | 顫 | yes | yes | 頁 | 亶 |
 | `24-23` | 羴 | yes | no |  |  |
+| `24-39` | 贊 | yes | yes | 貝 | 兟 |
+| `24-39` | 賛 | yes | no |  |  |
+| `24-39` | 讚 | yes | yes | 言 | 贊 |
+| `24-39` | 瓚 | yes | no |  |  |
+| `24-39` | 瓉 | yes | no |  |  |
+| `24-39` | 纘 | yes | no |  |  |
+| `24-39` | 酇 | yes | yes | 邑 | 贊 |
+| `24-39` | 鑽 | yes | yes | 金 | 贊 |
+| `24-39` | 欑 | yes | no |  |  |
+| `24-39` | 櫕 | yes | no |  |  |
+| `24-39` | 攢 | yes | no |  |  |
 | `24-41` | 戔 | yes | no |  |  |
 | `24-41` | 殘 | yes | yes | 歹 | 戔 |
 | `24-41` | 棧 | yes | yes | 木 | 戔 |
@@ -2741,6 +2785,17 @@
 | `33-36` | 閔 | yes | yes | 門 | 文 |
 | `33-36` | 憫 | yes | no |  |  |
 | `33-36` | 吝 | yes | no |  |  |
+| `34-01` | 昆 | yes | no |  |  |
+| `34-01` | 崐 | yes | no |  |  |
+| `34-01` | 琨 | yes | no |  |  |
+| `34-01` | 䃂 | yes | no |  |  |
+| `34-01` | 緄 | yes | no |  |  |
+| `34-01` | 輥 | yes | no |  |  |
+| `34-01` | 錕 | yes | no |  |  |
+| `34-01` | 鯤 | yes | yes | 魚 | 昆 |
+| `34-01` | 鵾 | yes | no |  |  |
+| `34-01` | 混 | yes | yes | 水 | 昆 |
+| `34-01` | 焜 | yes | yes | 火 | 昆 |
 | `34-13` | 軍 | yes | no |  |  |
 | `34-13` | 渾 | yes | yes | 水 | 軍 |
 | `34-13` | 暈 | yes | yes | 日 | 軍 |
@@ -3000,6 +3055,17 @@
 | `38-03` | 顉 | yes | no |  |  |
 | `38-03` | 嶔 | yes | no |  |  |
 | `38-03` | 廞 | yes | no |  |  |
+| `38-04` | 咸 | yes | no |  |  |
+| `38-04` | 諴 | yes | no |  |  |
+| `38-04` | 鹹 | yes | yes | 鹵 | 咸 |
+| `38-04` | 減 | yes | yes | 水 | 咸 |
+| `38-04` | 緘 | yes | no |  |  |
+| `38-04` | 黬 | yes | no |  |  |
+| `38-04` | 感 | yes | yes | 心 | 咸 |
+| `38-04` | 顑 | yes | no |  |  |
+| `38-04` | 箴 | yes | yes | 竹 | 咸 |
+| `38-04` | 鍼 | yes | no |  |  |
+| `38-04` | 憾 | yes | yes | 心 | 感 |
 | `38-05` | 臽 | yes | no |  |  |
 | `38-05` | 陷 | yes | yes | 阜 | 臽 |
 | `38-05` | 錎 | yes | no |  |  |

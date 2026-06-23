@@ -2,14 +2,14 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 11
-- Unique unresolved semantic graphs/tokens: 10
+- Generated non-Latin semantic occurrences: 12
+- Unique unresolved semantic graphs/tokens: 11
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 10 |
+| `new_latin_label_needed` | 11 |
 | `research_compound_graph` | 1 |
 
 ## By source
@@ -18,12 +18,13 @@
 | --- | ---: |
 | `ids_component_literal_fallback` | 2 |
 | `packet_family_component_literal_fallback` | 1 |
-| `wiktionary_component_literal_fallback` | 8 |
+| `wiktionary_component_literal_fallback` | 9 |
 
 ## `new_latin_label_needed`
 
 | Component | IDS | Example characters | Target / reuse | Proposal |
 | --- | --- | --- | --- | --- |
+| `㱃` | `⿰酓欠` | `22-10`:歠 |  | Keep `㱃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `一` | `一` | `04-61`:丕 |  | Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `乙` | `乙` | `24-02`:乾 |  | Keep `乙` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `云` | `⿱二厶` | `20-13`:藝 |  | Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

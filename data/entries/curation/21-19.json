@@ -1,0 +1,3447 @@
+{
+  "generated_at": "2026-06-23T07:57:34.573586+00:00",
+  "id": "21-19",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "21-19",
+    "rhyme_section": 21,
+    "series_number": 19,
+    "k_tokens": [
+      "287"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                MC               LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 259,
+    "source_line_number": 18,
+    "source_line_raw": "21-19 = K. 287 Mand.                MC               LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "21-19",
+    "rhyme_section": "21",
+    "series_number": "19",
+    "schuessler_k_tokens": "287",
+    "schuessler_source_page": "259",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "14",
+    "mand2mc_character_count": "10",
+    "mand2mc_characters_sample": "折; 哲; 悊; 蜇; 硩; 晣; 晢; 誓; 逝; 哳",
+    "bs_gsr_row_count": "9",
+    "bs_gsr_character_count": "6",
+    "bs_gsr_characters_sample": "狾; 折; 哲; 晢; 誓; 逝",
+    "combined_source_character_count": "11",
+    "combined_source_characters_sample": "折; 哲; 悊; 蜇; 硩; 晣; 晢; 誓; 逝; 哳"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "287"
+  ],
+  "proposed_additions": [
+    {
+      "character": "折",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 3,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 24,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dey",
+          "jiet",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "dey",
+          "jiet",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "dej",
+          "dzyet",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [
+          "dejH",
+          "dzyet",
+          "tsyet"
+        ],
+        "bs_not_in_mand2mc": [
+          "dejH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dej"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2174",
+          "character": "折",
+          "pinyin": "ti2",
+          "mc_nwh": "dey",
+          "mc_bs": "dej",
+          "gsr": "0287a"
+        },
+        {
+          "source_row_number": "2175",
+          "character": "折",
+          "pinyin": "she2",
+          "mc_nwh": "jiet",
+          "mc_bs": "dzyet",
+          "gsr": "0287a"
+        },
+        {
+          "source_row_number": "2176",
+          "character": "折",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "dì",
+          "mc_bs": "dejH",
+          "mc_analyzed": "(d- + -ej C)",
+          "oc_bs": "*dˤet-s {*[d]ˤet-s}",
+          "gloss": "solitary standing (sc. tree)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        },
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "shé",
+          "mc_bs": "dzyet",
+          "mc_analyzed": "(dzy- + -jet D)",
+          "oc_bs": "*N-tet",
+          "gloss": "bend (v.i.)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        },
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "zhé",
+          "mc_bs": "tsyet",
+          "mc_analyzed": "(tsy- + -jet D)",
+          "oc_bs": "*tet",
+          "gloss": "bend; break (v.t.)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17447",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "杜奚",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "e̠l",
+          "oc_syllable": "ɡle̠l"
+        },
+        {
+          "source_row_number": "17450",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "常列",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ɡlʲed"
+        },
+        {
+          "source_row_number": "17457",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "17447",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "杜奚",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "e̠l",
+          "oc_syllable": "ɡle̠l"
+        },
+        {
+          "source_row_number": "17448",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他歷",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "kʰle̠ɡ"
+        },
+        {
+          "source_row_number": "17449",
+          "character": "哳",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟鎋",
+          "source": "广韵",
+          "oc_initial": "kr",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "kre̠d"
+        },
+        {
+          "source_row_number": "17450",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "常列",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ɡlʲed"
+        },
+        {
+          "source_row_number": "17451",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑列",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kʰled"
+        },
+        {
+          "source_row_number": "17452",
+          "character": "哲",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17453",
+          "character": "蜇",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17454",
+          "character": "悊",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "说文",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17455",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17456",
+          "character": "浙",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17457",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17458",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17459",
+          "character": "䓆",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17460",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式列",
+          "source": "集韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰled"
+        },
+        {
+          "source_row_number": "17461",
+          "character": "娎",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許列",
+          "source": "广韵",
+          "oc_initial": "qʰʳ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰʳed"
+        },
+        {
+          "source_row_number": "17462",
+          "character": "䋢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普蔑",
+          "source": "广韵",
+          "oc_initial": "pkʰˡ",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "pkʰˡe̠d"
+        },
+        {
+          "source_row_number": "17463",
+          "character": "䋢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "方結",
+          "source": "广韵",
+          "oc_initial": "pkˡ",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "pkˡe̠d"
+        },
+        {
+          "source_row_number": "17464",
+          "character": "逝",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17465",
+          "character": "誓",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17466",
+          "character": "銴",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17467",
+          "character": "䟷",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑例",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "eds",
+          "oc_syllable": "kʰleds"
+        },
+        {
+          "source_row_number": "17468",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        },
+        {
+          "source_row_number": "17469",
+          "character": "狾",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        },
+        {
+          "source_row_number": "17470",
+          "character": "裚",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "子計",
+          "source": "集韵",
+          "oc_initial": "sk",
+          "oc_rhyme": "e̠ds",
+          "oc_syllable": "ske̠ds"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|𣏄|t1=a tree {{zh-m|*木}}",
+          "positional_components": [
+            "𣏄",
+            "*木"
+          ],
+          "positional_components_raw": [
+            "𣏄",
+            "*木"
+          ],
+          "named_args": {
+            "t1": "a tree {{zh-m"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|𣏄|t1=a tree {{zh-m|*木}}",
+            "positional_components": [
+              "𣏄",
+              "*木"
+            ],
+            "positional_components_raw": [
+              "𣏄",
+              "*木"
+            ],
+            "named_args": {
+              "t1": "a tree {{zh-m"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tet}},",
+      "render_latex": "折\t%ti2 / she2 / zhe2 / dì / shé / zhé\n{\\large{tet}},\n\\textit{dey};\t%0287a\n\\textit{jiet};\n\\textit{ciet};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": {
+        "root": "tet",
+        "source": "node_inherit_parent",
+        "descendant_count": 10,
+        "bs_support_count": 6,
+        "bs_broad_roots": [
+          "tet",
+          "tat",
+          "ket"
+        ],
+        "bs_node_roots": [
+          "tet",
+          "trat",
+          "tat",
+          "ket"
+        ],
+        "display_root": "tet",
+        "division_class": "mixed",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "dey",
+          "jiet",
+          "ciet",
+          "ṭiet",
+          "ṭhiet",
+          "cieyH",
+          "jieyH",
+          "ṭaet",
+          "tsyejH"
+        ],
+        "form_analyses": [
+          {
+            "form": "dey",
+            "normalized": "dey",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "jiet",
+            "normalized": "jiet",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ciet",
+            "normalized": "ciet",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭiet",
+            "normalized": "ṭiet",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṭhiet",
+            "normalized": "ṭhiet",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "cieyH",
+            "normalized": "ciey",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "jieyH",
+            "normalized": "jiey",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ṭaet",
+            "normalized": "ṭaet",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tsyejH",
+            "normalized": "tsyej",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "哲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [
+          "trjet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2177",
+          "character": "哲",
+          "pinyin": "zhe2",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "哲",
+          "pinyin": "zhé",
+          "mc_bs": "trjet",
+          "mc_analyzed": "(tr- + -jet D)",
+          "oc_bs": "*trat {*tr[a]t}",
+          "gloss": "wise",
+          "gsr": "0287c",
+          "unicode_utf16": "U+54F2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17452",
+          "character": "哲",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|折|口|t2=mouth|ls=psc|c1=p|c2=s|nocap=1}}",
+          "positional_components": [
+            "折",
+            "口"
+          ],
+          "positional_components_raw": [
+            "折",
+            "口"
+          ],
+          "named_args": {
+            "t2": "mouth",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "nocap": "1"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|折|口|t2=mouth|ls=psc|c1=p|c2=s|nocap=1}}",
+            "positional_components": [
+              "折",
+              "口"
+            ],
+            "positional_components_raw": [
+              "折",
+              "口"
+            ],
+            "named_args": {
+              "t2": "mouth",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "nocap": "1"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "哲",
+          "ids": "⿱折口",
+          "phonetic_component": "折",
+          "semantic_component": "口",
+          "position": "suffix-colon",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 341
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "or",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,) or(is)",
+            "abbreviation": "or",
+            "start_line": 341
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "口"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸or}}},",
+      "render_latex": "哲\t%zhe2 / zhé\n{\\large{tet\\textsuperscript{˸or}}},\n\\textit{ṭiet};\t%0287c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "哲",
+          "semantic_component": "口",
+          "phonetic_component": "折",
+          "position": "suffix-colon",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 341
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|折|口|t2=mouth|ls=psc|c1=p|c2=s|nocap=1}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "悊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2178",
+          "character": "悊",
+          "pinyin": "zhe2",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17454",
+          "character": "悊",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "说文",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "悊",
+          "ids": "⿱折心",
+          "phonetic_component": "折",
+          "semantic_component": "心",
+          "position": "suffix-colon",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 239
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cor",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 239
+          },
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "心"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸cor}}},",
+      "render_latex": "悊\t%zhe2\n{\\large{tet\\textsuperscript{˸cor}}},\n\\textit{ṭiet};\t%0287d",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "蜇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2179",
+          "character": "蜇",
+          "pinyin": "zhe1",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17453",
+          "character": "蜇",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|折|虫|ls=psc|c1=p|c2=s|t2=insect; creature}}",
+          "positional_components": [
+            "折",
+            "虫"
+          ],
+          "positional_components_raw": [
+            "折",
+            "虫"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "insect; creature"
+          },
+          "semantic_components": [
+            "虫"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|折|虫|ls=psc|c1=p|c2=s|t2=insect; creature}}",
+            "positional_components": [
+              "折",
+              "虫"
+            ],
+            "positional_components_raw": [
+              "折",
+              "虫"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "insect; creature"
+            },
+            "semantic_components": [
+              "虫"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "蜇",
+          "ids": "⿱折虫",
+          "phonetic_component": "折",
+          "semantic_component": "虫",
+          "position": "suffix-colon",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 383
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "serp",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "虫",
+            "label_token": "serp(ens)",
+            "abbreviation": "serp",
+            "start_line": 383
+          },
+          {
+            "graph_raw": "虫",
+            "label_token": "serp",
+            "abbreviation": "serp",
+            "learned": true,
+            "evidence_count": 9
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "虫"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸serp}}},",
+      "render_latex": "蜇\t%zhe1\n{\\large{tet\\textsuperscript{˸serp}}},\n\\textit{ṭiet};\t%0287g",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "虫",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蜇",
+          "semantic_component": "虫",
+          "phonetic_component": "折",
+          "position": "suffix-colon",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 383
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ],
+          "template_raw": "{{Han compound|折|虫|ls=psc|c1=p|c2=s|t2=insect; creature}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "硩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭhiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭhiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trhjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2180",
+          "character": "硩",
+          "pinyin": "che4",
+          "mc_nwh": "ṭhiet",
+          "mc_bs": "trhjet",
+          "gsr": "0287h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17448",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他歷",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "kʰle̠ɡ"
+        },
+        {
+          "source_row_number": "17451",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑列",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kʰled"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|折|石|ls=psc|c1=p|c2=s|t2=rock; stone}}",
+          "positional_components": [
+            "折",
+            "石"
+          ],
+          "positional_components_raw": [
+            "折",
+            "石"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "rock; stone"
+          },
+          "semantic_components": [
+            "石"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|折|石|ls=psc|c1=p|c2=s|t2=rock; stone}}",
+            "positional_components": [
+              "折",
+              "石"
+            ],
+            "positional_components_raw": [
+              "折",
+              "石"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "rock; stone"
+            },
+            "semantic_components": [
+              "石"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "硩",
+          "ids": "⿱折石",
+          "phonetic_component": "折",
+          "semantic_component": "石",
+          "position": "suffix-colon",
+          "abbreviation": "lap",
+          "inventory_matches": [
+            {
+              "graph_raw": "石",
+              "label_token": "lap(is)",
+              "abbreviation": "lap",
+              "start_line": 306
+            },
+            {
+              "graph_raw": "石",
+              "label_token": "lap",
+              "abbreviation": "lap",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "lap",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "石",
+            "label_token": "lap(is)",
+            "abbreviation": "lap",
+            "start_line": 306
+          },
+          {
+            "graph_raw": "石",
+            "label_token": "lap",
+            "abbreviation": "lap",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "石"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸lap}}},",
+      "render_latex": "硩\t%che4\n{\\large{tet\\textsuperscript{˸lap}}},\n\\textit{ṭhiet};\t%0287h",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "石",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "硩",
+          "semantic_component": "石",
+          "phonetic_component": "折",
+          "position": "suffix-colon",
+          "abbreviation": "lap",
+          "inventory_matches": [
+            {
+              "graph_raw": "石",
+              "label_token": "lap(is)",
+              "abbreviation": "lap",
+              "start_line": 306
+            },
+            {
+              "graph_raw": "石",
+              "label_token": "lap",
+              "abbreviation": "lap",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ],
+          "template_raw": "{{Han compound|折|石|ls=psc|c1=p|c2=s|t2=rock; stone}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "晣",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2181",
+          "character": "晣",
+          "pinyin": "zhi4",
+          "mc_nwh": "cieyH",
+          "mc_bs": "tsyejH",
+          "gsr": "0287i"
+        },
+        {
+          "source_row_number": "2182",
+          "character": "晣",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287i"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17458",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17460",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式列",
+          "source": "集韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰled"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "晣",
+          "ids": "⿰日折",
+          "phonetic_component": "折",
+          "semantic_component": "日",
+          "position": "prefix-dot",
+          "abbreviation": "sol",
+          "inventory_matches": [
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "start_line": 386
+            },
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "sol",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "start_line": 386
+          },
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "日"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{sol·}tet}},",
+      "render_latex": "晣\t%zhi4 / zhe2\n{\\large{\\textsuperscript{sol·}tet}},\n\\textit{cieyH};\t%0287i\n\\textit{ciet};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "晢",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2183",
+          "character": "晢",
+          "pinyin": "zhe2",
+          "mc_nwh": "cieyH",
+          "mc_bs": "tsyejH",
+          "gsr": "0287j"
+        },
+        {
+          "source_row_number": "2184",
+          "character": "晢",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287j"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "晢",
+          "pinyin": "zhé",
+          "mc_bs": "tsyejH",
+          "mc_analyzed": "(tsy- + -jej C)",
+          "oc_bs": "*tat-s {*t[a]t-s}",
+          "gloss": "bright",
+          "gsr": "0287j",
+          "unicode_utf16": "U+6662"
+        },
+        {
+          "source_page_number": "49",
+          "character": "晢",
+          "pinyin": "zhé",
+          "mc_bs": "tsyet",
+          "mc_analyzed": "(tsy- + -jet D)",
+          "oc_bs": "*tat {*t[a]t}",
+          "gloss": "bright",
+          "gsr": "0287j",
+          "unicode_utf16": "U+6662"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17455",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17468",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "晢",
+          "ids": "⿱折日",
+          "phonetic_component": "折",
+          "semantic_component": "日",
+          "position": "suffix-colon",
+          "abbreviation": "sol",
+          "inventory_matches": [
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "start_line": 386
+            },
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "sol",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "start_line": 386
+          },
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "日"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸sol}}},",
+      "render_latex": "晢\t%zhe2 / zhé\n{\\large{tet\\textsuperscript{˸sol}}},\n\\textit{cieyH};\t%0287j\n\\textit{ciet};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "誓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jieyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jieyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyejH"
+        ],
+        "bs_gsr_forms": [
+          "dzyejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2185",
+          "character": "誓",
+          "pinyin": "shi4",
+          "mc_nwh": "jieyH",
+          "mc_bs": "dzyejH",
+          "gsr": "0287k"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "誓",
+          "pinyin": "shì",
+          "mc_bs": "dzyejH",
+          "mc_analyzed": "(dzy- + -jej C)",
+          "oc_bs": "*dat-s {*[d][a]t-s}",
+          "gloss": "swear",
+          "gsr": "0287k",
+          "unicode_utf16": "U+8A93"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17465",
+          "character": "誓",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|折|言|c1=p|c2=s|t2=speech|ls=psc}}",
+          "positional_components": [
+            "折",
+            "言"
+          ],
+          "positional_components_raw": [
+            "折",
+            "言"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "speech",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|折|言|c1=p|c2=s|t2=speech|ls=psc}}",
+            "positional_components": [
+              "折",
+              "言"
+            ],
+            "positional_components_raw": [
+              "折",
+              "言"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "speech",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "誓",
+          "ids": "⿱折言",
+          "phonetic_component": "折",
+          "semantic_component": "言",
+          "position": "suffix-colon",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 256
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 19
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{tet\\textsuperscript{˸dic}}},",
+      "render_latex": "誓\t%shi4 / shì\n{\\large{tet\\textsuperscript{˸dic}}},\n\\textit{jieyH};\t%0287k",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "誓",
+          "semantic_component": "言",
+          "phonetic_component": "折",
+          "position": "suffix-colon",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "template_raw": "{{Han compound|折|言|c1=p|c2=s|t2=speech|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "逝",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jieyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jieyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyejH"
+        ],
+        "bs_gsr_forms": [
+          "dzyejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2186",
+          "character": "逝",
+          "pinyin": "shi4",
+          "mc_nwh": "jieyH",
+          "mc_bs": "dzyejH",
+          "gsr": "0287m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "逝",
+          "pinyin": "shì",
+          "mc_bs": "dzyejH",
+          "mc_analyzed": "(dzy- + -jej C)",
+          "oc_bs": "*dat-s {*[d]at-s}",
+          "gloss": "go to",
+          "gsr": "0287m",
+          "unicode_utf16": "U+901D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17464",
+          "character": "逝",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|辵|折|ls=psc|t1=walking|c1=s|c2=p}}",
+          "positional_components": [
+            "辵",
+            "折"
+          ],
+          "positional_components_raw": [
+            "辵",
+            "折"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "t1": "walking",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "辵"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|辵|折|ls=psc|t1=walking|c1=s|c2=p}}",
+            "positional_components": [
+              "辵",
+              "折"
+            ],
+            "positional_components_raw": [
+              "辵",
+              "折"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "t1": "walking",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "辵"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "逝",
+          "ids": "⿺辶折",
+          "phonetic_component": "折",
+          "semantic_component": "辶",
+          "position": "prefix-dot",
+          "abbreviation": "amb",
+          "inventory_matches": [
+            {
+              "graph_raw": "辶",
+              "label_token": "amb",
+              "abbreviation": "amb",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "amb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "辵",
+            "label_token": "amb(ulo)",
+            "abbreviation": "amb",
+            "start_line": 188
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "辵"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}tet}},",
+      "render_latex": "逝\t%shi4 / shì\n{\\large{\\textsuperscript{amb·}tet}},\n\\textit{jieyH};\t%0287m",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "辵",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "逝",
+          "semantic_component": "辵",
+          "phonetic_component": "折",
+          "position": "prefix-dot",
+          "abbreviation": "amb",
+          "inventory_matches": [
+            {
+              "graph_raw": "辵",
+              "label_token": "amb(ulo)",
+              "abbreviation": "amb",
+              "start_line": 188
+            }
+          ],
+          "template_raw": "{{Han compound|辵|折|ls=psc|t1=walking|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "哳",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭaet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭaet"
+        ],
+        "mand2mc_bs_forms": [
+          "traet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2187",
+          "character": "哳",
+          "pinyin": "zha1",
+          "mc_nwh": "ṭaet",
+          "mc_bs": "traet",
+          "gsr": "0287n"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17449",
+          "character": "哳",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟鎋",
+          "source": "广韵",
+          "oc_initial": "kr",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "kre̠d"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "哳",
+          "ids": "⿰口折",
+          "phonetic_component": "折",
+          "semantic_component": "口",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 341
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "or",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,) or(is)",
+            "abbreviation": "or",
+            "start_line": 341
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "口"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}tet}},",
+      "render_latex": "哳\t%zha1\n{\\large{\\textsuperscript{or·}tet}},\n\\textit{ṭaet};\t%0287n",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "狾",
+      "in_tex": false,
+      "mand2mc_count": 0,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "bs_gsr",
+        "display_forms": [
+          "tsyejH"
+        ],
+        "mand2mc_nwh_forms": [],
+        "mand2mc_bs_forms": [],
+        "bs_gsr_forms": [
+          "tsyejH"
+        ],
+        "bs_not_in_mand2mc": [
+          "tsyejH"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "狾",
+          "pinyin": "zhì",
+          "mc_bs": "tsyejH",
+          "mc_analyzed": "(tsy- + -jej C)",
+          "oc_bs": "*ket-s {*ke[t]-s}",
+          "gloss": "mad (dog)",
+          "gsr": "287",
+          "unicode_utf16": "U+72FE"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17469",
+          "character": "狾",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|犬|折|alt1=犭|t1=dog; canine; beast|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "犬",
+            "折"
+          ],
+          "positional_components_raw": [
+            "犬",
+            "折"
+          ],
+          "named_args": {
+            "alt1": "犭",
+            "t1": "dog; canine; beast",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "犬"
+          ],
+          "phonetic_components": [
+            "折"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|犬|折|alt1=犭|t1=dog; canine; beast|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "犬",
+              "折"
+            ],
+            "positional_components_raw": [
+              "犬",
+              "折"
+            ],
+            "named_args": {
+              "alt1": "犭",
+              "t1": "dog; canine; beast",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "犬"
+            ],
+            "phonetic_components": [
+              "折"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "狾",
+          "ids": "⿰犭折",
+          "phonetic_component": "折",
+          "semantic_component": "犭",
+          "position": "prefix-dot",
+          "abbreviation": "can",
+          "inventory_matches": [
+            {
+              "graph_raw": "犭",
+              "label_token": "can",
+              "abbreviation": "can",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "can",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "犬",
+            "label_token": "can(is)",
+            "abbreviation": "can",
+            "start_line": 217
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "犬"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{can·}tet}},",
+      "render_latex": "狾\t%zhì\n{\\large{\\textsuperscript{can·}tet}},\n\\textit{tsyejH};\t%287",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "犬",
+        "phonetic_component": "折",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "狾",
+          "semantic_component": "犬",
+          "phonetic_component": "折",
+          "position": "prefix-dot",
+          "abbreviation": "can",
+          "inventory_matches": [
+            {
+              "graph_raw": "犬",
+              "label_token": "can(is)",
+              "abbreviation": "can",
+              "start_line": 217
+            }
+          ],
+          "template_raw": "{{Han compound|犬|折|alt1=犭|t1=dog; canine; beast|c1=s|c2=p|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "折",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "折"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "折",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 3,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 24,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dey",
+          "jiet",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "dey",
+          "jiet",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "dej",
+          "dzyet",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [
+          "dejH",
+          "dzyet",
+          "tsyet"
+        ],
+        "bs_not_in_mand2mc": [
+          "dejH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dej"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2174",
+          "character": "折",
+          "pinyin": "ti2",
+          "mc_nwh": "dey",
+          "mc_bs": "dej",
+          "gsr": "0287a"
+        },
+        {
+          "source_row_number": "2175",
+          "character": "折",
+          "pinyin": "she2",
+          "mc_nwh": "jiet",
+          "mc_bs": "dzyet",
+          "gsr": "0287a"
+        },
+        {
+          "source_row_number": "2176",
+          "character": "折",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "dì",
+          "mc_bs": "dejH",
+          "mc_analyzed": "(d- + -ej C)",
+          "oc_bs": "*dˤet-s {*[d]ˤet-s}",
+          "gloss": "solitary standing (sc. tree)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        },
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "shé",
+          "mc_bs": "dzyet",
+          "mc_analyzed": "(dzy- + -jet D)",
+          "oc_bs": "*N-tet",
+          "gloss": "bend (v.i.)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        },
+        {
+          "source_page_number": "48",
+          "character": "折",
+          "pinyin": "zhé",
+          "mc_bs": "tsyet",
+          "mc_analyzed": "(tsy- + -jet D)",
+          "oc_bs": "*tet",
+          "gloss": "bend; break (v.t.)",
+          "gsr": "0287a",
+          "unicode_utf16": "U+6298"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17447",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "杜奚",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "e̠l",
+          "oc_syllable": "ɡle̠l"
+        },
+        {
+          "source_row_number": "17450",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "常列",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ɡlʲed"
+        },
+        {
+          "source_row_number": "17457",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "17447",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "杜奚",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "e̠l",
+          "oc_syllable": "ɡle̠l"
+        },
+        {
+          "source_row_number": "17448",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他歷",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "kʰle̠ɡ"
+        },
+        {
+          "source_row_number": "17449",
+          "character": "哳",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟鎋",
+          "source": "广韵",
+          "oc_initial": "kr",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "kre̠d"
+        },
+        {
+          "source_row_number": "17450",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "常列",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ɡlʲed"
+        },
+        {
+          "source_row_number": "17451",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑列",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kʰled"
+        },
+        {
+          "source_row_number": "17452",
+          "character": "哲",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17453",
+          "character": "蜇",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17454",
+          "character": "悊",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "说文",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        },
+        {
+          "source_row_number": "17455",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17456",
+          "character": "浙",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17457",
+          "character": "折",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17458",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17459",
+          "character": "䓆",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17460",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式列",
+          "source": "集韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰled"
+        },
+        {
+          "source_row_number": "17461",
+          "character": "娎",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許列",
+          "source": "广韵",
+          "oc_initial": "qʰʳ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰʳed"
+        },
+        {
+          "source_row_number": "17462",
+          "character": "䋢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普蔑",
+          "source": "广韵",
+          "oc_initial": "pkʰˡ",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "pkʰˡe̠d"
+        },
+        {
+          "source_row_number": "17463",
+          "character": "䋢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "方結",
+          "source": "广韵",
+          "oc_initial": "pkˡ",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "pkˡe̠d"
+        },
+        {
+          "source_row_number": "17464",
+          "character": "逝",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17465",
+          "character": "誓",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17466",
+          "character": "銴",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        },
+        {
+          "source_row_number": "17467",
+          "character": "䟷",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑例",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "eds",
+          "oc_syllable": "kʰleds"
+        },
+        {
+          "source_row_number": "17468",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        },
+        {
+          "source_row_number": "17469",
+          "character": "狾",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        },
+        {
+          "source_row_number": "17470",
+          "character": "裚",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "子計",
+          "source": "集韵",
+          "oc_initial": "sk",
+          "oc_rhyme": "e̠ds",
+          "oc_syllable": "ske̠ds"
+        }
+      ]
+    },
+    {
+      "character": "哲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [
+          "trjet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2177",
+          "character": "哲",
+          "pinyin": "zhe2",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "哲",
+          "pinyin": "zhé",
+          "mc_bs": "trjet",
+          "mc_analyzed": "(tr- + -jet D)",
+          "oc_bs": "*trat {*tr[a]t}",
+          "gloss": "wise",
+          "gsr": "0287c",
+          "unicode_utf16": "U+54F2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17452",
+          "character": "哲",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "悊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2178",
+          "character": "悊",
+          "pinyin": "zhe2",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17454",
+          "character": "悊",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "说文",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "蜇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2179",
+          "character": "蜇",
+          "pinyin": "zhe1",
+          "mc_nwh": "ṭiet",
+          "mc_bs": "trjet",
+          "gsr": "0287g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17453",
+          "character": "蜇",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟列",
+          "source": "广韵",
+          "oc_initial": "kl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kled"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "硩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭhiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭhiet"
+        ],
+        "mand2mc_bs_forms": [
+          "trhjet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2180",
+          "character": "硩",
+          "pinyin": "che4",
+          "mc_nwh": "ṭhiet",
+          "mc_bs": "trhjet",
+          "gsr": "0287h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17448",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他歷",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "kʰle̠ɡ"
+        },
+        {
+          "source_row_number": "17451",
+          "character": "硩",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丑列",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "kʰled"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "晣",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2181",
+          "character": "晣",
+          "pinyin": "zhi4",
+          "mc_nwh": "cieyH",
+          "mc_bs": "tsyejH",
+          "gsr": "0287i"
+        },
+        {
+          "source_row_number": "2182",
+          "character": "晣",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287i"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17458",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "之列",
+          "source": "集韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17460",
+          "character": "晣",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式列",
+          "source": "集韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ed",
+          "oc_syllable": "qʰled"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "晢",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_nwh_forms": [
+          "cieyH",
+          "ciet"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_gsr_forms": [
+          "tsyejH",
+          "tsyet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2183",
+          "character": "晢",
+          "pinyin": "zhe2",
+          "mc_nwh": "cieyH",
+          "mc_bs": "tsyejH",
+          "gsr": "0287j"
+        },
+        {
+          "source_row_number": "2184",
+          "character": "晢",
+          "pinyin": "zhe2",
+          "mc_nwh": "ciet",
+          "mc_bs": "tsyet",
+          "gsr": "0287j"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "晢",
+          "pinyin": "zhé",
+          "mc_bs": "tsyejH",
+          "mc_analyzed": "(tsy- + -jej C)",
+          "oc_bs": "*tat-s {*t[a]t-s}",
+          "gloss": "bright",
+          "gsr": "0287j",
+          "unicode_utf16": "U+6662"
+        },
+        {
+          "source_page_number": "49",
+          "character": "晢",
+          "pinyin": "zhé",
+          "mc_bs": "tsyet",
+          "mc_analyzed": "(tsy- + -jet D)",
+          "oc_bs": "*tat {*t[a]t}",
+          "gloss": "bright",
+          "gsr": "0287j",
+          "unicode_utf16": "U+6662"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17455",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "旨熱",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "klʲed"
+        },
+        {
+          "source_row_number": "17468",
+          "character": "晢",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "誓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jieyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jieyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyejH"
+        ],
+        "bs_gsr_forms": [
+          "dzyejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2185",
+          "character": "誓",
+          "pinyin": "shi4",
+          "mc_nwh": "jieyH",
+          "mc_bs": "dzyejH",
+          "gsr": "0287k"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "誓",
+          "pinyin": "shì",
+          "mc_bs": "dzyejH",
+          "mc_analyzed": "(dzy- + -jej C)",
+          "oc_bs": "*dat-s {*[d][a]t-s}",
+          "gloss": "swear",
+          "gsr": "0287k",
+          "unicode_utf16": "U+8A93"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17465",
+          "character": "誓",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "逝",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jieyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jieyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyejH"
+        ],
+        "bs_gsr_forms": [
+          "dzyejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2186",
+          "character": "逝",
+          "pinyin": "shi4",
+          "mc_nwh": "jieyH",
+          "mc_bs": "dzyejH",
+          "gsr": "0287m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "逝",
+          "pinyin": "shì",
+          "mc_bs": "dzyejH",
+          "mc_analyzed": "(dzy- + -jej C)",
+          "oc_bs": "*dat-s {*[d]at-s}",
+          "gloss": "go to",
+          "gsr": "0287m",
+          "unicode_utf16": "U+901D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17464",
+          "character": "逝",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "時制",
+          "source": "广韵",
+          "oc_initial": "ɡlʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "ɡlʲeds"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "哳",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭaet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭaet"
+        ],
+        "mand2mc_bs_forms": [
+          "traet"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2187",
+          "character": "哳",
+          "pinyin": "zha1",
+          "mc_nwh": "ṭaet",
+          "mc_bs": "traet",
+          "gsr": "0287n"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17449",
+          "character": "哳",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "陟鎋",
+          "source": "广韵",
+          "oc_initial": "kr",
+          "oc_rhyme": "e̠d",
+          "oc_syllable": "kre̠d"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "狾",
+      "in_tex": false,
+      "mand2mc_count": 0,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "bs_gsr",
+        "display_forms": [
+          "tsyejH"
+        ],
+        "mand2mc_nwh_forms": [],
+        "mand2mc_bs_forms": [],
+        "bs_gsr_forms": [
+          "tsyejH"
+        ],
+        "bs_not_in_mand2mc": [
+          "tsyejH"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "48",
+          "character": "狾",
+          "pinyin": "zhì",
+          "mc_bs": "tsyejH",
+          "mc_analyzed": "(tsy- + -jej C)",
+          "oc_bs": "*ket-s {*ke[t]-s}",
+          "gloss": "mad (dog)",
+          "gsr": "287",
+          "unicode_utf16": "U+72FE"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "17469",
+          "character": "狾",
+          "phonetic_component": "折",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "征例",
+          "source": "广韵",
+          "oc_initial": "klʲ",
+          "oc_rhyme": "eds",
+          "oc_syllable": "klʲeds"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "折",
+      "gsr": "0287a",
+      "oc_bs": "*dˤet-s {*[d]ˤet-s}",
+      "root": "tet",
+      "source": "head_graph_oc_bs"
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tet",
+    "source": "head_graph_oc_bs",
+    "character": "折",
+    "oc_bs": "*dˤet-s {*[d]ˤet-s}",
+    "confidence": "provisional-oc",
+    "display_root": "tet",
+    "base_root": "tet",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 391
-- Subgroups newly marked with `a`: 45
-- Subgroups newly marked with `b`: 28
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 115
-- Mixed subgroups left unmarked: 202
+- Generated subgroup heads inspected: 400
+- Subgroups newly marked with `a`: 46
+- Subgroups newly marked with `b`: 29
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 119
+- Mixed subgroups left unmarked: 205
 - Unresolved subgroups left unmarked: 1
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -247,10 +247,14 @@
 | `21-01` | 匃 | `kat` | `kat` | `mixed` | no | `kayH, kat, hat, khat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | top-level series head left unmarked |
 | `21-01` | 曷 | `kat` | `kat₂` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
 | `21-01` | 葛 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `kat, qayH` | all extracted forms lack an i-medial after the onset |
+| `21-19` | 折 | `tet` | `tet` | `mixed` | no | `dey, jiet, ciet, ṭiet, ṭhiet, cieyH, jieyH, ṭaet, tsyejH` | top-level series head left unmarked |
+| `21-23` | 世 | `lap` | `lap` | `b` | no | `śieyH, yieyH, yiet, siet` | top-level series head left unmarked |
+| `21-23` | 貰 | `lap` | `l\textoverset{b}{a}p` | `b` | yes | `śieyH, yieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-31` | 犮 | `pot` | `pot` | `mixed` | no | `bat, biət, bayH, pat, beat, piət, piut, phiut, piəyH` | top-level series head left unmarked |
 | `22-01` | 舌 | `kot` | `k\textoverset{a}{o}t` | `a` | yes | `kwat, hwat, khwat, kwaet, hwaeyH` | all extracted forms lack an i-medial after the onset |
 | `22-01` | 活 | `kot` | `k\textoverset{a}{o}t₂` | `a` | yes | `hwat, kwat, khwat` | all extracted forms lack an i-medial after the onset |
 | `22-03` | 會 | `kop` | `kop` | `a` | no | `hwayH, kwayH, kwat, khwaeyH, hwat, qwayH` | top-level series head left unmarked |
+| `22-10` | 叕 | `tot` | `tot` | `mixed` | no | `ṭiweyH, ṭiwet, jiweyH, chiwet, twat, ṭwaet, teyH` | top-level series head left unmarked |
 | `22-13` | 兌 | `lot` | `lot` | `mixed` | no | `dwayH, thwayH, śiweyH, thwaH, yiwet, yiweyH, tshiweyH, dwat, thwat, ciwet, śiwet` | top-level series head left unmarked |
 | `23-07` | 柬 | `kan` | `kan` | `a` | no | `keanX, kaenH, lan, lanH, lanX, lenH` | top-level series head left unmarked |
 | `23-07` | 闌 | `ran` | `r\textoverset{a}{a}n` | `a` | yes | `lan, lanH, lanX, lenH` | all extracted forms lack an i-medial after the onset |
@@ -262,6 +266,8 @@
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
 | `24-21` | 單 | `tar` | `tar` | `mixed` | no | `tan, tanX, jienX, jienH, cie, cieH, da, dan, ten, taH, than, chienX, danH, ṭhean, cienH, cienX, jien` | top-level series head left unmarked |
 | `24-23` | 亶 | `tan` | `tan` | `mixed` | no | `tanX, jien, thanX, dan, danH, danX, ṭienH, ṭienX, cienX, ḍienX, ṭien, cien, jienH, jienX, śien` | top-level series head left unmarked |
+| `24-39` | 贊 | `tsar` | `tsar` | `a` | no | `tsanH, dzanX, tswanX, tswan, tswanH, dzwan, dzwanH` | top-level series head left unmarked |
+| `24-39` | 賛 | `tsar` | `ts\textoverset{a}{a}r` | `a` | yes | `tsanH, dzanX, dzwan` | all extracted forms lack an i-medial after the onset |
 | `24-41` | 戔 | `tsan` | `tsan` | `mixed` | no | `dzan, dzen, dẓaenH, dẓaenX, dẓeanX, tṣeanX, tṣienX, tṣheanX, dzien, tsienX, tsen, tshienX, dzienX, dzienH, tsienH, tsien, sienH` | top-level series head left unmarked |
 | `24-41` | 賤 | `tsan` | `tsan₂` | `mixed` | no | `dzienH, tsen, tsienH` | the extracted forms point to both type a and type b |
 | `24-47` | 半 | `pan` | `pan` | `mixed` | no | `panH, banX, phanH, phan, ban, banH, biən` | top-level series head left unmarked |
@@ -358,6 +364,7 @@
 | `33-30` | 分 | `pyn` | `pyn` | `mixed` | no | `biunH, piun, piunX, phiunH, phiunX, phiun, biunX, biun, paen, bwən, pin, bin, pheanH` | top-level series head left unmarked |
 | `33-36` | 文 | `myn` | `myn` | `mixed` | no | `miun, miunH, miunX, mwən, min, minX, linH` | top-level series head left unmarked |
 | `33-36` | 閔 | `myn` | `myn₂` | `b` | no | `minX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `34-01` | 昆 | `kun` | `kun` | `a` | no | `kwən, kwənX, hwənX` | top-level series head left unmarked |
 | `34-13` | 軍 | `kuyr` | `kuyr` | `mixed` | no | `kiun, hwən, hiunH, hiwənH, hiun, hiwɨy, hiwɨyH` | top-level series head left unmarked |
 | `34-17` | 屯 | `tun` | `tun` | `mixed` | no | `dwən, ṭwin, dwənX, dwənH, twənH, ṭhwin, jiwin, ciwin, tsi, ciwinH, ciwinX` | top-level series head left unmarked |
 | `34-18` | 敦 | `tur` | `tur₄` | `mixed` | no | `dwan, twəy, twəyH, twən, dwəyH, dwəyX, jiwin, thwən` | the extracted forms point to both type a and type b |
@@ -391,6 +398,8 @@
 | `38-03` | 陰 | `kym` | `kym₆` | `b` | no | `qim, qimH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-03` | 金 | `kym` | `kym₇` | `mixed` | no | `kim, kimX, khim, xim, gimX, ṅim, ṅimX, ṅəm` | the extracted forms point to both type a and type b |
 | `38-03` | 欽 | `` | `` | `unknown` | no | `` |  |
+| `38-04` | 咸 | `kym` | `kym` | `mixed` | no | `heam, heamX, keamX, keam, qeamX, kəmX, həmH, khəmX, xəmH, cim` | top-level series head left unmarked |
+| `38-04` | 感 | `kym` | `kym₉` | `a` | no | `kəmX, həmH` | all extracted forms lack an i-medial after the onset |
 | `38-05` | 臽 | `kom` | `kom` | `mixed` | no | `heamH, heamX, khəmX, həmX, dəmX, damH, damX, ṭhiemX, yiem, yiemH, zim` | top-level series head left unmarked |
 | `38-05` | 閻 | `kom` | `k\textoverset{b}{o}m` | `b` | yes | `yiem, yiemH, zim, ṭhiemX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-11` | 甚 | `qym` | `qym` | `mixed` | no | `jimH, jimX, jim, ṭimH, ṭim, ṭhimX, cim, təm, ḍeamX, ḍim, tsiem, dəmX, thəmX, səmX, khəm, kheam, ṅəm` | top-level series head left unmarked |

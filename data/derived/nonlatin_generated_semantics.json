@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 11,
-    "unique_component_count": 10,
+    "case_count": 12,
+    "unique_component_count": 11,
     "by_classification": {
-      "new_latin_label_needed": 10,
+      "new_latin_label_needed": 11,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 8,
+      "wiktionary_component_literal_fallback": 9,
       "ids_component_literal_fallback": 2,
       "packet_family_component_literal_fallback": 1
     }
@@ -80,6 +80,23 @@
       "render_latex": "藝\t%yi4 / yì\n{\\large{ŋe\\textsuperscript{˸云}}},\n\\textit{ṅieyH};\t%0330f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "22-10",
+      "character": "歠",
+      "abbreviation": "㱃",
+      "semantic_component": "㱃",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|叕|㱃|ls=psc|c1=p|c2=s|t2=to drink|abb2=y}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "to drink",
+      "semantic_component_ids": "⿰酓欠",
+      "transliteration_latex": "{\\large{tot\\textsuperscript{·㱃}}},",
+      "render_latex": "歠\t%chuo4\n{\\large{tot\\textsuperscript{·㱃}}},\n\\textit{chiwet};\t%0295i",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㱃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "24-02",
@@ -202,6 +219,27 @@
     }
   ],
   "components": [
+    {
+      "semantic_component": "㱃",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㱃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰酓欠",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "to drink",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "22-10",
+          "character": "歠",
+          "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
     {
       "semantic_component": "一",
       "classification": "new_latin_label_needed",
