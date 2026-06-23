@@ -203,6 +203,12 @@ DEFAULT_IDS = [
     "04-15",
     "13-73",
     "20-01",
+    "20-03",
+    "20-13",
+    "20-16",
+    "24-02",
+    "25-01",
+    "25-14",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"

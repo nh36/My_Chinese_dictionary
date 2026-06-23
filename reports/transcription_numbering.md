@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 400
-- Roots whose display label changed after document-wide renumbering: 182
-- Duplicate phonetic bases encountered in document order: 116
+- Mutable series/subseries roots inspected: 410
+- Roots whose display label changed after document-wide renumbering: 186
+- Duplicate phonetic bases encountered in document order: 120
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -355,6 +355,12 @@
 | `20-01` | `series-root` | 㓞 | `ket` | 1 | `ket` | yes |
 | `20-01` | `subseries-root` | 契 | `ket` | 2 | `ket₂` | yes |
 | `20-01` | `subseries-root` | 絜 | `ket` | 3 | `ket₃` | yes |
+| `20-03` | `series-root` | 夬 | `kuet` | 1 | `kuet` | yes |
+| `20-13` | `series-root` | 埶 | `ṅet` | 1 | `ṅet` | yes |
+| `20-13` | `subseries-root` | 蓺 | `ŋe` | 1 | `ŋe` | yes |
+| `20-13` | `subseries-root` | 藝 | `ŋe` | 2 | `ŋe₂` | yes |
+| `20-13` | `subseries-root` | 熱 | `ṅet` | 2 | `ṅet₂` | yes |
+| `20-16` | `series-root` | 敝 | `pet` | 1 | `pet` | yes |
 | `21-01` | `series-root` | 匃 | `kat` | 1 | `kat` | yes |
 | `21-01` | `subseries-root` | 曷 | `kat` | 2 | `kat₂` | yes |
 | `21-01` | `subseries-root` | 葛 | `k\textoverset{a}{a}t` | 1 | `k\textoverset{a}{a}t` | yes |
@@ -371,6 +377,8 @@
 | `23-27` | `series-root` | 扁 | `pen` | 1 | `pen` | yes |
 | `24-01` | `series-root` | 干 | `kar` | 1 | `kar` | yes |
 | `24-01` | `subseries-root` | 旱 | `k\textoverset{a}{a}r` | 1 | `k\textoverset{a}{a}r` | yes |
+| `24-02` | `series-root` | 倝 | `kan` | 2 | `kan₂` | yes |
+| `24-02` | `subseries-root` | 幹 | `k\textoverset{a}{a}n` | 1 | `k\textoverset{a}{a}n` | yes |
 | `24-21` | `series-root` | 單 | `tar` | 1 | `tar` | yes |
 | `24-23` | `series-root` | 亶 | `tan` | 1 | `tan` | yes |
 | `24-41` | `series-root` | 戔 | `tsan` | 1 | `tsan` | yes |
@@ -380,12 +388,14 @@
 | `24-54` | `subseries-root` | 番 | `par` | 1 | `par` | yes |
 | `24-54` | `subseries-root` | 潘 | `par` | 2 | `par₂` | yes |
 | `24-58` | `series-root` | 免 | `mor` | 1 | `mor` | yes |
+| `25-01` | `series-root` | 官 | `kuan` | 1 | `kuan` | yes |
 | `25-02` | `series-root` | 雚 | `quar` | 1 | `quar` | yes |
 | `25-11` | `series-root` | 卷 | `kon` | 1 | `kon` | yes |
 | `25-11` | `subseries-root` | 豢 | `k\textoverset{a}{o}n` | 1 | `k\textoverset{a}{o}n` | yes |
 | `25-12` | `series-root` | 亘 | `quar` | 2 | `quar₂` | yes |
 | `25-12` | `subseries-root` | 宣 | `qu\textoverset{b}{a}r` | 1 | `qu\textoverset{b}{a}r` | yes |
-| `25-15` | `series-root` | 袁 | `quan` | 1 | `quan` | yes |
+| `25-14` | `series-root` | 爰 | `quan` | 1 | `quan` | yes |
+| `25-15` | `series-root` | 袁 | `quan` | 2 | `quan₂` | yes |
 | `25-15` | `subseries-root` | 睘 | `quen` | 2 | `quen₂` | yes |
 | `25-17` | `series-root` | 夗 | `ʔor` | 1 | `ʔor` | yes |
 | `25-17` | `subseries-root` | 夗 | `qor` | 1 | `qor` | yes |

@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 192
-- Proposed additions inspected: 2994
-- Additions with reusable semantic assignment from existing TeX: 2994
-- Additions with reusable transliteration LaTeX from existing TeX: 2994
-- Additions with reusable render block from existing TeX: 2994
-- Additions with IDS-derived semantic candidates: 2123
-- Additions with explicit Wiktionary Han-compound support: 1467
+- Curated entries inspected: 198
+- Proposed additions inspected: 3060
+- Additions with reusable semantic assignment from existing TeX: 3060
+- Additions with reusable transliteration LaTeX from existing TeX: 3060
+- Additions with reusable render block from existing TeX: 3060
+- Additions with IDS-derived semantic candidates: 2170
+- Additions with explicit Wiktionary Han-compound support: 1505
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 2614
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 71
+- Additions assigned under generated candidate nodes: 2664
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 74
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -124,6 +124,9 @@
 | `19-21` | 1 | 1 | 1 | 1 |
 | `19-22` | 2 | 2 | 2 | 2 |
 | `20-01` | 11 | 11 | 11 | 11 |
+| `20-03` | 11 | 11 | 11 | 11 |
+| `20-13` | 11 | 11 | 11 | 11 |
+| `20-16` | 11 | 11 | 11 | 11 |
 | `21-01` | 24 | 24 | 24 | 24 |
 | `21-31` | 15 | 15 | 15 | 15 |
 | `22-01` | 12 | 12 | 12 | 12 |
@@ -133,15 +136,18 @@
 | `23-17` | 12 | 12 | 12 | 12 |
 | `23-27` | 13 | 13 | 13 | 13 |
 | `24-01` | 31 | 31 | 31 | 31 |
+| `24-02` | 11 | 11 | 11 | 11 |
 | `24-21` | 26 | 26 | 26 | 26 |
 | `24-23` | 20 | 20 | 20 | 20 |
 | `24-41` | 17 | 17 | 17 | 17 |
 | `24-47` | 13 | 13 | 13 | 13 |
 | `24-54` | 17 | 17 | 17 | 17 |
 | `24-58` | 12 | 12 | 12 | 12 |
+| `25-01` | 11 | 11 | 11 | 11 |
 | `25-02` | 16 | 16 | 16 | 16 |
 | `25-11` | 16 | 16 | 16 | 16 |
 | `25-12` | 14 | 14 | 14 | 14 |
+| `25-14` | 11 | 11 | 11 | 11 |
 | `25-15` | 20 | 20 | 20 | 20 |
 | `25-17` | 18 | 18 | 18 | 18 |
 | `25-19` | 19 | 19 | 19 | 19 |
