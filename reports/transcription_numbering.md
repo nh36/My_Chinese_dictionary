@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 460
-- Roots whose display label changed after document-wide renumbering: 207
-- Duplicate phonetic bases encountered in document order: 135
+- Mutable series/subseries roots inspected: 466
+- Roots whose display label changed after document-wide renumbering: 208
+- Duplicate phonetic bases encountered in document order: 136
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -246,6 +246,7 @@
 | `10-39` | `subseries-root` | 府 | `p\textoverset{b}{o}` | 1 | `p\textoverset{b}{o}` | yes |
 | `11-12` | `series-root` | 蜀 | `tok` | 1 | `tok` | yes |
 | `11-12` | `subseries-root` | 屬 | `t\textoverset{b}{o}k` | 1 | `t\textoverset{b}{o}k` | yes |
+| `11-15` | `series-root` | 彔 | `rok` | 1 | `rok` | yes |
 | `11-21` | `series-root` | 束 | `tok` | 2 | `tok₂` | yes |
 | `11-21` | `subseries-root` | 欶 | `t\textoverset{a}{o}k` | 1 | `t\textoverset{a}{o}k` | yes |
 | `12-01` | `series-root` | 工 | `koṅ` | 1 | `koṅ` | yes |
@@ -261,6 +262,7 @@
 | `12-10` | `subseries-root` | 甬 | `loṅ` | 2 | `loṅ₂` | yes |
 | `12-10` | `subseries-root` | 勇 | `l\textoverset{b}{o}ṅ` | 1 | `l\textoverset{b}{o}ṅ` | yes |
 | `12-10` | `subseries-root` | 庸 | `l\textoverset{b}{o}ṅ` | 2 | `l\textoverset{b}{o}ṅ₂` | yes |
+| `12-15` | `series-root` | 龍 | `roṅ` | 1 | `roṅ` | yes |
 | `12-19` | `series-root` | 囱 | `soṅ` | 1 | `soṅ` | yes |
 | `12-19` | `subseries-root` | 匆 | `s\textoverset{a}{o}ṅ` | 1 | `s\textoverset{a}{o}ṅ` | yes |
 | `12-19` | `subseries-root` | 怱 | `s\textoverset{a}{o}ṅ` | 2 | `s\textoverset{a}{o}ṅ₂` | yes |
@@ -420,6 +422,7 @@
 | `24-41` | `series-root` | 戔 | `tsan` | 1 | `tsan` | yes |
 | `24-41` | `subseries-root` | 賤 | `tsan` | 2 | `tsan₂` | yes |
 | `24-47` | `series-root` | 半 | `pan` | 1 | `pan` | yes |
+| `24-49` | `series-root` | 反 | `pan` | 2 | `pan₂` | yes |
 | `24-54` | `series-root` | 釆 | `per` | 1 | `per` | yes |
 | `24-54` | `subseries-root` | 番 | `par` | 1 | `par` | yes |
 | `24-54` | `subseries-root` | 潘 | `par` | 2 | `par₂` | yes |
@@ -529,6 +532,8 @@
 | `34-18` | `subseries-root` | 敦 | `tur` | 4 | `tur₄` | yes |
 | `34-23` | `series-root` | 允 | `lur` | 1 | `lur` | yes |
 | `34-23` | `subseries-root` | 夋 | `lur` | 2 | `lur₂` | yes |
+| `34-24` | `series-root` | 侖 | `run` | 1 | `run` | yes |
+| `34-26` | `series-root` | 尊 | `tsun` | 1 | `tsun` | yes |
 | `35-03` | `series-root` | 夾 | `kep` | 1 | `kep` | yes |
 | `35-03` | `subseries-root` | 匧 | `kep` | 2 | `kep₂` | yes |
 | `35-10` | `series-root` | 枼 | `lep` | 1 | `lep` | yes |
@@ -555,6 +560,7 @@
 | `36-26` | `subseries-root` | 風 | `prym` | 2 | `prym₂` | yes |
 | `37-01` | `series-root` | 合 | `kop` | 2 | `kop₂` | yes |
 | `37-01` | `subseries-root` | 翕 | `qhyp` | 1 | `qhyp` | yes |
+| `37-08` | `series-root` | 執 | `tip` | 1 | `tip` | yes |
 | `37-15` | `series-root` | 立 | `ryp` | 1 | `ryp` | yes |
 | `37-16` | `series-root` | 入 | `nyp` | 1 | `nyp` | yes |
 | `37-16` | `subseries-root` | 內 | `nyp` | 2 | `nyp₂` | yes |
