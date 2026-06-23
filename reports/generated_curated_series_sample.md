@@ -54,6 +54,7 @@
 | `04-15` | `missing_series` | no | 11 | 10 |
 | `04-17` | `missing_series` | no | 14 | 10 |
 | `04-21` | `missing_series` | no | 10 | 8 |
+| `04-23` | `missing_series` | no | 8 | 7 |
 | `04-26` | `missing_series` | no | 25 | 22 |
 | `04-29` | `missing_series` | no | 25 | 22 |
 | `04-30` | `missing_series` | no | 33 | 29 |
@@ -112,6 +113,7 @@
 | `13-08` | `missing_series` | no | 9 | 7 |
 | `13-16` | `missing_series` | no | 8 | 6 |
 | `13-22` | `missing_series` | no | 18 | 17 |
+| `13-27` | `missing_series` | no | 8 | 7 |
 | `13-30` | `missing_series` | no | 15 | 12 |
 | `13-32` | `missing_series` | no | 19 | 12 |
 | `13-36` | `missing_series` | no | 15 | 14 |
@@ -126,6 +128,7 @@
 | `14-18` | `missing_series` | no | 19 | 17 |
 | `14-22` | `missing_series` | no | 10 | 9 |
 | `14-23` | `missing_series` | no | 8 | 7 |
+| `15-09` | `missing_series` | no | 8 | 7 |
 | `16-01` | `missing_series` | no | 25 | 20 |
 | `16-02` | `missing_series` | no | 11 | 1 |
 | `16-03` | `missing_series` | no | 16 | 14 |
@@ -207,6 +210,7 @@
 | `25-25` | `missing_series` | no | 13 | 12 |
 | `25-28` | `missing_series` | no | 9 | 8 |
 | `25-31` | `missing_series` | no | 13 | 12 |
+| `25-38` | `missing_series` | no | 8 | 7 |
 | `26-05` | `missing_series` | no | 12 | 2 |
 | `26-06` | `missing_series` | no | 12 | 10 |
 | `26-09` | `missing_series` | no | 8 | 7 |
@@ -261,6 +265,7 @@
 | `34-01` | `missing_series` | no | 11 | 10 |
 | `34-12` | `missing_series` | no | 8 | 7 |
 | `34-13` | `missing_series` | no | 14 | 13 |
+| `34-15` | `missing_series` | no | 8 | 7 |
 | `34-17` | `missing_series` | no | 12 | 11 |
 | `34-18` | `missing_series` | no | 16 | 4 |
 | `34-23` | `missing_series` | no | 25 | 23 |
@@ -268,6 +273,7 @@
 | `34-26` | `missing_series` | no | 10 | 9 |
 | `35-03` | `missing_series` | no | 13 | 12 |
 | `35-10` | `missing_series` | no | 13 | 12 |
+| `35-12` | `missing_series` | no | 8 | 7 |
 | `35-21` | `missing_series` | no | 15 | 14 |
 | `36-01` | `missing_series` | no | 10 | 9 |
 | `36-05` | `missing_series` | no | 14 | 10 |

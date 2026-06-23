@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3912
-- Pages fetched / cached successfully: 3858
-- Additions with explicit Han-compound semantic/phonetic roles: 1881
+- Proposed additions checked: 3960
+- Pages fetched / cached successfully: 3906
+- Additions with explicit Han-compound semantic/phonetic roles: 1896
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -612,6 +612,14 @@
 | `04-21` | 熹 | yes | yes | 火 | 喜 |
 | `04-21` | 糦 | yes | no |  |  |
 | `04-21` | 饎 | yes | no |  |  |
+| `04-23` | 疑 | yes | yes | 子, 止, 匕 | 矢 |
+| `04-23` | 儗 | yes | no |  |  |
+| `04-23` | 嶷 | yes | no |  |  |
+| `04-23` | 擬 | yes | yes | 手 | 疑 |
+| `04-23` | 薿 | yes | no |  |  |
+| `04-23` | 觺 | yes | no |  |  |
+| `04-23` | 礙 | yes | yes | 石 | 疑 |
+| `04-23` | 凝 | yes | yes | 仌 | 疑 |
 | `04-26` | 止 | yes | no |  |  |
 | `04-26` | 旹 | yes | no |  |  |
 | `04-26` | 詩 | yes | yes | 言 | 寺 |
@@ -1503,6 +1511,14 @@
 | `13-22` | 幬 | yes | no |  |  |
 | `13-22` | 燾 | yes | yes | 火 | 壽 |
 | `13-22` | 翿 | yes | no |  |  |
+| `13-27` | 舀 | yes | no |  |  |
+| `13-27` | 慆 | yes | no |  |  |
+| `13-27` | 搯 | yes | no |  |  |
+| `13-27` | 滔 | yes | no |  |  |
+| `13-27` | 謟 | yes | no |  |  |
+| `13-27` | 韜 | yes | no |  |  |
+| `13-27` | 稻 | yes | yes | 禾 | 舀 |
+| `13-27` | 蹈 | yes | yes | 足 | 舀 |
 | `13-30` | 由 | yes | no |  |  |
 | `13-30` | 柚 | yes | yes | 木 | 由 |
 | `13-30` | 油 | yes | yes | 水 | 由 |
@@ -1708,6 +1724,14 @@
 | `14-23` | 蝮 | yes | no |  |  |
 | `14-23` | 愎 | yes | no |  |  |
 | `14-23` | 覆 | yes | yes | 襾 | 復 |
+| `15-09` | 農 | yes | no |  |  |
+| `15-09` | 辳 | yes | no |  |  |
+| `15-09` | 噥 | yes | yes | 口 | 農 |
+| `15-09` | 膿 | yes | no |  |  |
+| `15-09` | 濃 | yes | yes | 水 | 農 |
+| `15-09` | 醲 | yes | yes | 酉 | 農 |
+| `15-09` | 穠 | yes | no |  |  |
+| `15-09` | 襛 | yes | no |  |  |
 | `16-01` | 高 | yes | no |  |  |
 | `16-01` | 薧 | yes | yes | 死 | 蒿 |
 | `16-01` | 嚆 | yes | yes | 口 | 蒿 |
@@ -2725,6 +2749,14 @@
 | `25-31` | 變 | yes | yes | 攴 | 䜌 |
 | `25-31` | 蠻 | yes | yes | 虫 | 䜌 |
 | `25-31` | 孿 | yes | no |  |  |
+| `25-38` | 全 | yes | no |  |  |
+| `25-38` | 仝 | yes | no |  |  |
+| `25-38` | 牷 | yes | no |  |  |
+| `25-38` | 痊 | yes | no |  |  |
+| `25-38` | 筌 | yes | no |  |  |
+| `25-38` | 荃 | yes | yes | 艸 | 全 |
+| `25-38` | 銓 | yes | no |  |  |
+| `25-38` | 輇 | yes | no |  |  |
 | `26-05` | 計 | yes | no |  |  |
 | `26-05` | 繼 | yes | yes | 糸 | 㡭 |
 | `26-05` | 兮 | yes | no |  |  |
@@ -3468,6 +3500,14 @@
 | `34-13` | 輝 | yes | yes | 光 | 軍 |
 | `34-13` | 楎 | yes | no |  |  |
 | `34-13` | 翬 | yes | no |  |  |
+| `34-15` | 熏 | yes | no |  |  |
+| `34-15` | 燻 | yes | yes | 火 | 熏 |
+| `34-15` | 薰 | yes | yes | 艸 | 熏 |
+| `34-15` | 勳 | yes | yes | 力 | 熏 |
+| `34-15` | 獯 | yes | no |  |  |
+| `34-15` | 纁 | yes | no |  |  |
+| `34-15` | 臐 | yes | no |  |  |
+| `34-15` | 壎 | yes | no |  |  |
 | `34-17` | 屯 | yes | no |  |  |
 | `34-17` | 忳 | yes | no |  |  |
 | `34-17` | 㹠 | yes | no |  |  |
@@ -3567,6 +3607,14 @@
 | `35-10` | 偞 | yes | yes | 人 | 枼 |
 | `35-10` | 韘 | yes | no |  |  |
 | `35-10` | 屧 | yes | no |  |  |
+| `35-12` | 巤 | yes | no |  |  |
+| `35-12` | 儠 | yes | no |  |  |
+| `35-12` | 擸 | yes | no |  |  |
+| `35-12` | 獵 | yes | yes | 犬 | 巤 |
+| `35-12` | 躐 | yes | no |  |  |
+| `35-12` | 邋 | yes | no |  |  |
+| `35-12` | 鬣 | yes | no |  |  |
+| `35-12` | 臘 | yes | yes | 肉 | 巤 |
 | `35-21` | 劫 | yes | yes | 力 | 去 |
 | `35-21` | 刧 | yes | no |  |  |
 | `35-21` | 怯 | yes | no |  |  |
