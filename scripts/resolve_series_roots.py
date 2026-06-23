@@ -9,6 +9,7 @@ from typing import Any
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/series_root_resolution.md"
+DEFAULT_HEAD_SUPPLEMENT = "data/series_root_head_supplement.json"
 
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 VOWEL_RE = re.compile(r"[aeiouəɨɯ]")
@@ -220,7 +221,91 @@ def derive_oc_root(oc_bs: str | None, *, mode: str = "broad") -> str | None:
     return root or None
 
 
-def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
+def load_head_supplement(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {"heads": {}, "supplemental_shengfu_rows": {}}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        "heads": data.get("heads") or {},
+        "supplemental_shengfu_rows": data.get("supplemental_shengfu_rows") or {},
+    }
+
+
+def entry_gsc_id(entry: dict[str, Any]) -> str | None:
+    return (
+        entry.get("id")
+        or entry.get("gsc_id")
+        or (entry.get("schuessler") or {}).get("gsc_id")
+    )
+
+
+def get_head_supplement(
+    entry: dict[str, Any],
+    head_supplement: dict[str, Any] | None,
+) -> dict[str, Any] | None:
+    if not head_supplement:
+        return None
+    gsc_id = entry_gsc_id(entry)
+    if not gsc_id:
+        return None
+    return (head_supplement.get("heads") or {}).get(gsc_id)
+
+
+def merge_supplemental_shengfu_rows(
+    entry: dict[str, Any],
+    head_supplement: dict[str, Any] | None,
+) -> dict[str, Any]:
+    if not head_supplement:
+        return entry
+    gsc_id = entry_gsc_id(entry)
+    if not gsc_id:
+        return entry
+    rows_by_character = (head_supplement.get("supplemental_shengfu_rows") or {}).get(gsc_id) or {}
+    if not rows_by_character:
+        return entry
+    candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
+    for character, supplemental_rows in rows_by_character.items():
+        candidate = candidate_map.get(character)
+        if candidate is None:
+            continue
+        existing_rows = candidate.get("shengfu_character_rows") or []
+        seen = {
+            json.dumps(row, ensure_ascii=False, sort_keys=True)
+            for row in existing_rows
+        }
+        for row in supplemental_rows:
+            key = json.dumps(row, ensure_ascii=False, sort_keys=True)
+            if key in seen:
+                continue
+            existing_rows.append(row)
+            seen.add(key)
+        candidate["shengfu_character_rows"] = existing_rows
+    return entry
+
+
+def build_head_supplement_candidate(head_data: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not head_data:
+        return None
+    oc_bs = head_data.get("oc_bs")
+    if not oc_bs and head_data.get("oc_syllable"):
+        oc_bs = f"*{head_data['oc_syllable']}"
+    root = head_data.get("root") or derive_oc_root(oc_bs, mode="broad")
+    if not root:
+        return None
+    return {
+        "character": head_data.get("character"),
+        "gsr": head_data.get("gsr"),
+        "oc_bs": oc_bs,
+        "root": root,
+        "source": "head_graph_supplement",
+    }
+
+
+def derive_root_candidates(
+    entry: dict[str, Any],
+    *,
+    head_supplement: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
     if entry.get("packet_kind") != "missing_series":
         return []
 
@@ -274,6 +359,10 @@ def derive_root_candidates(entry: dict[str, Any]) -> list[dict[str, Any]]:
                     "source": "head_graph_oc_shengfu",
                 }
             )
+
+    supplement_candidate = build_head_supplement_candidate(get_head_supplement(entry, head_supplement))
+    if supplement_candidate is not None:
+        candidates.append(supplement_candidate)
 
     deduped: dict[str, dict[str, Any]] = {}
     for item in candidates:
@@ -370,8 +459,14 @@ def derive_packet_shengfu_consensus(entry: dict[str, Any]) -> dict[str, Any] | N
     }
 
 
-def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
-    candidates = derive_root_candidates(entry)
+def resolve_root(
+    entry: dict[str, Any],
+    *,
+    head_supplement: dict[str, Any] | None = None,
+    candidates: list[dict[str, Any]] | None = None,
+) -> dict[str, Any] | None:
+    if candidates is None:
+        candidates = derive_root_candidates(entry, head_supplement=head_supplement)
     if not candidates:
         return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
     if len(candidates) == 1:
@@ -403,9 +498,19 @@ def resolve_root(entry: dict[str, Any]) -> dict[str, Any] | None:
     return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
 
 
-def apply_root_resolution(entry: dict[str, Any]) -> dict[str, Any]:
-    entry["series_root_candidates"] = derive_root_candidates(entry)
-    entry["resolved_series_root"] = resolve_root(entry)
+def apply_root_resolution(
+    entry: dict[str, Any],
+    *,
+    head_supplement: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    entry = merge_supplemental_shengfu_rows(entry, head_supplement)
+    candidates = derive_root_candidates(entry, head_supplement=head_supplement)
+    entry["series_root_candidates"] = candidates
+    entry["resolved_series_root"] = resolve_root(entry, head_supplement=head_supplement, candidates=candidates)
+    head_data = get_head_supplement(entry, head_supplement)
+    if head_data and entry.get("resolved_series_root"):
+        entry["resolved_series_root"].setdefault("head_gloss", head_data.get("gloss"))
+        entry["resolved_series_root"].setdefault("head_note", head_data.get("note"))
     return entry
 
 
@@ -437,16 +542,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build provisional root candidates for missing GSC series.")
     parser.add_argument("--input-dir", default=DEFAULT_INPUT_DIR)
     parser.add_argument("--report-out", default=DEFAULT_REPORT_OUT)
+    parser.add_argument("--head-supplement", default=DEFAULT_HEAD_SUPPLEMENT)
     return parser
 
 
 def main() -> int:
     args = build_parser().parse_args()
     input_dir = Path(args.input_dir)
+    head_supplement = load_head_supplement(Path(args.head_supplement))
     entries: list[dict[str, Any]] = []
     for path in sorted(input_dir.glob("*.json")):
         entry = json.loads(path.read_text(encoding="utf-8"))
-        entry = apply_root_resolution(entry)
+        entry = apply_root_resolution(entry, head_supplement=head_supplement)
         path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         entries.append(entry)
     report_path = Path(args.report_out)

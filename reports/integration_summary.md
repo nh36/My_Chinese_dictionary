@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 404
+- Integrated series count: 405
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 300
+- Active curated packet count: 301
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 284
+- Generated missing-series entries: 285
 - Records with hand-source conflicts: 0
 
 | GSC | Render mode | Status flags |
@@ -328,6 +328,7 @@
 | `26-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-24` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-27` | `generated_missing_series` | needs_review, generated_candidate |
+| `26-28` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-29` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-38` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-39` | `generated_missing_series` | needs_review, generated_candidate |

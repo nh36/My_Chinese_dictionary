@@ -98,6 +98,38 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved["root"], "kon")
         self.assertEqual(resolved["source"], "packet_shengfu_majority")
 
+    def test_26_28_head_supplement_supplies_resolved_root(self) -> None:
+        supplement = resolve_series_roots.load_head_supplement(
+            ROOT / "data/series_root_head_supplement.json"
+        )
+        entry = json.loads((ROOT / "data/entries/curation/26-28.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, head_supplement=supplement)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "𠂔")
+        self.assertEqual(resolved.get("root"), "sy")
+        self.assertEqual(resolved.get("source"), "head_graph_supplement")
+
+    def test_26_28_supplemental_shengfu_rows_cover_variant_and_combined_forms(self) -> None:
+        supplement = resolve_series_roots.load_head_supplement(
+            ROOT / "data/series_root_head_supplement.json"
+        )
+        entry = json.loads((ROOT / "data/entries/curation/26-28.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.merge_supplemental_shengfu_rows(entry, supplement)
+        by_character = {candidate["character"]: candidate for candidate in entry["proposed_additions"]}
+
+        self.assertTrue(by_character["姉"]["shengfu_character_rows"])
+        self.assertTrue(by_character["柿"]["shengfu_character_rows"])
+        self.assertTrue(by_character["柹"]["shengfu_character_rows"])
+        self.assertEqual(
+            by_character["姉"]["shengfu_character_rows"][0]["phonetic_component"],
+            "𠂔",
+        )
+        self.assertEqual(
+            by_character["柿"]["shengfu_character_rows"][0]["oc_syllable"],
+            "zrɯʔ",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

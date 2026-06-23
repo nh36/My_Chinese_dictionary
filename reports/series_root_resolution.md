@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 284
-- Packets with at least one root candidate: 276
-- Packets with a single resolved provisional root: 284
+- Missing-series packets inspected: 285
+- Packets with at least one root candidate: 277
+- Packets with a single resolved provisional root: 285
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -203,6 +203,7 @@
 | `26-15` | 弟→ly [*lˤəjʔ] (0591a) | `ly` | `head_graph_oc_bs` |
 | `26-24` | 利→rit [*C.rit-s {*C.ri[t]-s}] (0519a) | `rit` | `head_graph_oc_bs` |
 | `26-27` | 齊→tsy [*dzˤəj {*[dz]ˤəj}] (0593a) | `tsy` | `head_graph_oc_bs` |
+| `26-28` | 𠂔→sy [*srɯʔ] (0554a) | `sy` | `head_graph_supplement` |
 | `26-29` | 次→niy [*s-n̥ij-s {*[s-n̥]i[j]-s}] (0555a) | `niy` | `head_graph_oc_bs` |
 | `26-38` | 匕→piy [*pijʔ] (0566a) | `piy` | `head_graph_oc_bs` |
 | `26-39` | 米→miy [*C.mˤijʔ] (0598a) | `miy` | `head_graph_oc_bs` |

@@ -1398,6 +1398,17 @@ def derive_transliteration_from_resolved_root(root: str | None, candidate: dict[
     return compose_transliteration_from_root(root, semantic_assignment)
 
 
+def resolve_missing_series_head_character(entry: dict[str, Any]) -> str | None:
+    resolved = entry.get("resolved_series_root") or {}
+    proposed_additions = entry.get("proposed_additions") or []
+    resolved_character = resolved.get("character")
+    if resolved.get("source") == "head_graph_supplement" and resolved_character:
+        return resolved_character
+    if proposed_additions:
+        return proposed_additions[0]["character"]
+    return resolved_character
+
+
 def derive_candidate_oc_roots(candidate: dict[str, Any], *, mode: str) -> list[str]:
     roots: list[str] = []
     for row in candidate.get("bs_gsr_rows", []):
@@ -1543,8 +1554,8 @@ def resolve_parent_root_for_candidate(
         return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
     if status == "assigned-to-candidate-node":
         packet_head_character = None
-        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
-            packet_head_character = entry["proposed_additions"][0]["character"]
+        if entry.get("packet_kind") == "missing_series":
+            packet_head_character = resolve_missing_series_head_character(entry)
         if packet_head_character and assignment.get("parent_character") == packet_head_character:
             return (entry.get("resolved_series_root") or {}).get("root")
         parent = candidate_map.get(assignment.get("parent_character"))
@@ -1570,8 +1581,8 @@ def resolve_parent_display_root_for_candidate(
         return hierarchy_utils.extract_large_content(assignment.get("parent_rhs_snippet"))
     if status == "assigned-to-candidate-node":
         packet_head_character = None
-        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
-            packet_head_character = entry["proposed_additions"][0]["character"]
+        if entry.get("packet_kind") == "missing_series":
+            packet_head_character = resolve_missing_series_head_character(entry)
         if packet_head_character and assignment.get("parent_character") == packet_head_character:
             resolved = entry.get("resolved_series_root") or {}
             return resolved.get("display_root") or resolved.get("root")
@@ -1876,8 +1887,8 @@ def enrich_curated_entry_with_ids(
     hierarchy = entry.get("entry_hierarchy") or {}
     hierarchy_nodes = hierarchy.get("nodes") or []
     top_level_head = hierarchy.get("top_level_head")
-    if top_level_head is None and entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
-        top_level_head = entry["proposed_additions"][0]["character"]
+    if top_level_head is None and entry.get("packet_kind") == "missing_series":
+        top_level_head = resolve_missing_series_head_character(entry)
     candidate_characters = {candidate["character"] for candidate in entry.get("proposed_additions", [])}
     candidate_map = {candidate["character"]: candidate for candidate in entry.get("proposed_additions", [])}
     for candidate in entry.get("proposed_additions", []):
@@ -1971,8 +1982,8 @@ def enrich_curated_entry_with_ids(
     if primary_packet_token is None and packet_tokens:
         primary_packet_token = sorted(packet_tokens)[0]
     packet_head_character = None
-    if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
-        packet_head_character = entry["proposed_additions"][0]["character"]
+    if entry.get("packet_kind") == "missing_series":
+        packet_head_character = resolve_missing_series_head_character(entry)
     for candidate in entry.get("proposed_additions", []):
         if candidate.get("semantic_assignment") is None and candidate_children.get(candidate["character"]):
             candidate["semantic_assignment"] = {

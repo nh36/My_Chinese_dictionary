@@ -220,6 +220,7 @@
 | `26-15` | `missing_series` | no | 12 | 10 |
 | `26-24` | `missing_series` | no | 9 | 8 |
 | `26-27` | `missing_series` | no | 19 | 17 |
+| `26-28` | `missing_series` | no | 8 | 2 |
 | `26-29` | `missing_series` | no | 12 | 11 |
 | `26-38` | `missing_series` | no | 23 | 21 |
 | `26-39` | `missing_series` | no | 9 | 8 |

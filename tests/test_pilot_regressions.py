@@ -41,6 +41,15 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertTrue(all(c.get("render_latex") for c in proposed))
         self.assertTrue(all(c.get("mc_resolution") for c in proposed))
 
+    def test_26_28_missing_head_packet_is_fully_resolved(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/26-28.json").read_text(encoding="utf-8"))
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "𠂔")
+        self.assertEqual(resolved.get("root"), "sy")
+        self.assertTrue(all(candidate.get("transliteration_latex") for candidate in entry["proposed_additions"]))
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        self.assertIn(r"\paragraph{\textoversetlarge{26-28}{\huge{𠂔}}}", rendered)
+
     def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertNotIn(r"{\footnotesize[MC disagreement among imported sources]}", rendered)

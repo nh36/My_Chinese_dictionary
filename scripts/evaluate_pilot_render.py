@@ -36,6 +36,17 @@ def extract_entry_block(rendered_tex: str, entry_id: str) -> str | None:
     return None
 
 
+def resolve_missing_series_head_character(entry: dict[str, Any]) -> str | None:
+    resolved = entry.get("resolved_series_root") or {}
+    proposed_additions = entry.get("proposed_additions") or []
+    resolved_character = resolved.get("character")
+    if resolved.get("source") == "head_graph_supplement" and resolved_character:
+        return resolved_character
+    if proposed_additions:
+        return proposed_additions[0]["character"]
+    return resolved_character
+
+
 def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[str, Any]:
     proposed_additions = [
         candidate
@@ -70,8 +81,8 @@ def evaluate_entries(entries: list[dict[str, Any]], rendered_tex: str) -> dict[s
         entry_block = entry_block or ""
         candidate_children = hierarchy_utils.collect_candidate_children(entry)
         packet_head_character = None
-        if entry.get("packet_kind") == "missing_series" and entry.get("proposed_additions"):
-            packet_head_character = entry["proposed_additions"][0]["character"]
+        if entry.get("packet_kind") == "missing_series":
+            packet_head_character = resolve_missing_series_head_character(entry)
         for candidate in entry.get("proposed_additions", []):
             root_data = candidate.get("resolved_node_root") or {}
             resolved_node_root = root_data.get("display_root") or root_data.get("root")

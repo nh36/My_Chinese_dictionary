@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4004
-- Pages fetched / cached successfully: 3949
-- Additions with explicit Han-compound semantic/phonetic roles: 1915
+- Proposed additions checked: 4012
+- Pages fetched / cached successfully: 3957
+- Additions with explicit Han-compound semantic/phonetic roles: 1920
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2862,6 +2862,14 @@
 | `26-27` | 齍 | yes | no |  |  |
 | `26-27` | 齋 | yes | yes | 示 | 齊 |
 | `26-27` | 儕 | yes | yes | 人 | 齊 |
+| `26-28` | 姊 | yes | yes | 女 | 𠂔 |
+| `26-28` | 姉 | yes | yes | 女 | 市 |
+| `26-28` | 秭 | yes | yes | 禾 | 𠂔 |
+| `26-28` | 笫 | yes | yes | 竹 | 𠂔 |
+| `26-28` | 胏 | yes | no |  |  |
+| `26-28` | 柹 | yes | no |  |  |
+| `26-28` | 柿 | yes | yes | 木 | 𠂔 |
+| `26-28` | 䪡 | yes | no |  |  |
 | `26-29` | 次 | yes | no |  |  |
 | `26-29` | 佽 | yes | no |  |  |
 | `26-29` | 絘 | yes | no |  |  |

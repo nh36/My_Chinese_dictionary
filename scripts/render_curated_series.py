@@ -291,6 +291,7 @@ DEFAULT_IDS = [
     "13-27",
     "15-09",
     "25-38",
+    "26-28",
     "11-06",
     "04-13",
     "34-16",
@@ -531,9 +532,22 @@ def wrap_entry_guardrail(rendered_entry: str) -> str:
     )
 
 
+def resolve_missing_series_head(entry: dict[str, Any]) -> tuple[str, dict[str, Any] | None]:
+    resolved = entry.get("resolved_series_root") or {}
+    proposed_additions = entry.get("proposed_additions", [])
+    head_character = resolved.get("character")
+    if resolved.get("source") == "head_graph_supplement" and head_character:
+        return head_character, None
+    if proposed_additions:
+        return proposed_additions[0]["character"], proposed_additions[0]
+    candidate_map = {candidate["character"]: candidate for candidate in proposed_additions}
+    if head_character:
+        return head_character, candidate_map.get(head_character)
+    return entry["id"], None
+
+
 def render_missing_series_entry(entry: dict[str, Any]) -> str:
-    head_character = entry["proposed_additions"][0]["character"] if entry["proposed_additions"] else entry["id"]
-    head_candidate = entry["proposed_additions"][0] if entry["proposed_additions"] else None
+    head_character, head_candidate = resolve_missing_series_head(entry)
     resolved_root_data = entry.get("resolved_series_root") or {}
     resolved_root = resolved_root_data.get("display_root") or resolved_root_data.get("root")
     body_lines = [
@@ -547,8 +561,9 @@ def render_missing_series_entry(entry: dict[str, Any]) -> str:
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
     direct_candidates: list[dict[str, Any]] = []
     head_child_candidates: list[dict[str, Any]] = []
-    for index, candidate in enumerate(entry["proposed_additions"]):
-        if index == 0:
+    head_candidate_character = head_candidate["character"] if head_candidate is not None else None
+    for candidate in entry["proposed_additions"]:
+        if head_candidate_character and candidate["character"] == head_candidate_character:
             continue
         assignment = candidate.get("hierarchy_assignment") or {}
         status = assignment.get("status")
