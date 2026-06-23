@@ -64,6 +64,7 @@
 | `05-06` | `missing_series` | no | 16 | 14 |
 | `05-10` | `missing_series` | no | 9 | 7 |
 | `05-12` | `missing_series` | no | 9 | 7 |
+| `05-13` | `missing_series` | no | 8 | 7 |
 | `05-16` | `missing_series` | no | 17 | 16 |
 | `05-33` | `missing_series` | no | 13 | 12 |
 | `06-05` | `missing_series` | no | 10 | 7 |
@@ -169,6 +170,7 @@
 | `22-10` | `missing_series` | no | 11 | 10 |
 | `22-13` | `missing_series` | no | 14 | 11 |
 | `23-03` | `missing_series` | no | 9 | 2 |
+| `23-05` | `missing_series` | no | 8 | 7 |
 | `23-07` | `missing_series` | no | 13 | 12 |
 | `23-10` | `missing_series` | no | 9 | 8 |
 | `23-17` | `missing_series` | no | 12 | 11 |
@@ -196,6 +198,7 @@
 | `25-19` | `missing_series` | no | 19 | 18 |
 | `25-24` | `missing_series` | no | 13 | 12 |
 | `25-25` | `missing_series` | no | 13 | 12 |
+| `25-28` | `missing_series` | no | 9 | 8 |
 | `25-31` | `missing_series` | no | 13 | 12 |
 | `26-05` | `missing_series` | no | 12 | 2 |
 | `26-06` | `missing_series` | no | 12 | 10 |
@@ -218,6 +221,7 @@
 | `29-11` | `missing_series` | no | 14 | 13 |
 | `29-15` | `missing_series` | no | 13 | 11 |
 | `29-17` | `missing_series` | no | 12 | 10 |
+| `29-33` | `missing_series` | no | 9 | 1 |
 | `29-41` | `missing_series` | no | 19 | 17 |
 | `29-42` | `missing_series` | no | 8 | 7 |
 | `30-01` | `missing_series` | no | 14 | 12 |
@@ -229,6 +233,7 @@
 | `31-20` | `missing_series` | no | 17 | 16 |
 | `32-05` | `missing_series` | no | 12 | 9 |
 | `32-08` | `missing_series` | no | 16 | 14 |
+| `32-09` | `missing_series` | no | 8 | 7 |
 | `32-16` | `missing_series` | no | 23 | 22 |
 | `32-26` | `missing_series` | no | 12 | 11 |
 | `32-33` | `missing_series` | no | 9 | 6 |
@@ -261,6 +266,7 @@
 | `36-12` | `missing_series` | no | 16 | 14 |
 | `36-14` | `missing_series` | no | 15 | 14 |
 | `36-18` | `missing_series` | no | 11 | 9 |
+| `36-22` | `missing_series` | no | 8 | 7 |
 | `36-26` | `missing_series` | no | 11 | 9 |
 | `37-01` | `missing_series` | no | 17 | 16 |
 | `37-02` | `missing_series` | no | 10 | 8 |
