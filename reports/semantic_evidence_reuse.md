@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 314
-- Proposed additions inspected: 4111
-- Additions with reusable semantic assignment from existing TeX: 4111
-- Additions with reusable transliteration LaTeX from existing TeX: 4111
-- Additions with reusable render block from existing TeX: 4111
-- Additions with IDS-derived semantic candidates: 2879
-- Additions with explicit Wiktionary Han-compound support: 1969
+- Curated entries inspected: 320
+- Proposed additions inspected: 4157
+- Additions with reusable semantic assignment from existing TeX: 4157
+- Additions with reusable transliteration LaTeX from existing TeX: 4157
+- Additions with reusable render block from existing TeX: 4157
+- Additions with IDS-derived semantic candidates: 2910
+- Additions with explicit Wiktionary Han-compound support: 1994
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 3499
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 114
+- Additions assigned under generated candidate nodes: 3538
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 117
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -67,6 +67,7 @@
 | `04-29` | 25 | 25 | 25 | 25 |
 | `04-30` | 33 | 33 | 33 | 33 |
 | `04-35` | 10 | 10 | 10 | 10 |
+| `04-38` | 7 | 7 | 7 | 7 |
 | `04-40` | 9 | 9 | 9 | 9 |
 | `04-41` | 9 | 9 | 9 | 9 |
 | `04-45` | 16 | 16 | 16 | 16 |
@@ -113,12 +114,14 @@
 | `11-06` | 8 | 8 | 8 | 8 |
 | `11-12` | 21 | 21 | 21 | 21 |
 | `11-13` | 9 | 9 | 9 | 9 |
+| `11-14` | 7 | 7 | 7 | 7 |
 | `11-15` | 10 | 10 | 10 | 10 |
 | `11-21` | 13 | 13 | 13 | 13 |
 | `11-23` | 7 | 7 | 7 | 7 |
 | `12-01` | 24 | 24 | 24 | 24 |
 | `12-03` | 16 | 16 | 16 | 16 |
 | `12-08` | 24 | 24 | 24 | 24 |
+| `12-09` | 8 | 8 | 8 | 8 |
 | `12-10` | 18 | 18 | 18 | 18 |
 | `12-15` | 10 | 10 | 10 | 10 |
 | `12-19` | 12 | 12 | 12 | 12 |
@@ -232,6 +235,7 @@
 | `26-09` | 8 | 8 | 8 | 8 |
 | `26-14` | 18 | 18 | 18 | 18 |
 | `26-15` | 12 | 12 | 12 | 12 |
+| `26-17` | 8 | 8 | 8 | 8 |
 | `26-24` | 9 | 9 | 9 | 9 |
 | `26-27` | 19 | 19 | 19 | 19 |
 | `26-28` | 8 | 8 | 8 | 8 |
@@ -264,7 +268,9 @@
 | `31-16` | 15 | 15 | 15 | 15 |
 | `31-17` | 7 | 7 | 7 | 7 |
 | `31-20` | 17 | 17 | 17 | 17 |
+| `32-01` | 8 | 8 | 8 | 8 |
 | `32-05` | 12 | 12 | 12 | 12 |
+| `32-07` | 8 | 8 | 8 | 8 |
 | `32-08` | 16 | 16 | 16 | 16 |
 | `32-09` | 8 | 8 | 8 | 8 |
 | `32-10` | 7 | 7 | 7 | 7 |

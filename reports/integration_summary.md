@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 418
+- Integrated series count: 424
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 314
+- Active curated packet count: 320
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 298
+- Generated missing-series entries: 304
 - Records with hand-source conflicts: 0
 
 | GSC | Render mode | Status flags |
@@ -124,6 +124,7 @@
 | `04-29` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-30` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-35` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-38` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-40` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-41` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-45` | `generated_missing_series` | needs_review, generated_candidate |
@@ -193,12 +194,14 @@
 | `11-06` | `generated_missing_series` | needs_review, generated_candidate |
 | `11-12` | `generated_missing_series` | needs_review, generated_candidate |
 | `11-13` | `generated_missing_series` | needs_review, generated_candidate |
+| `11-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `11-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `11-21` | `generated_missing_series` | needs_review, generated_candidate |
 | `11-23` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-01` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-03` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-08` | `generated_missing_series` | needs_review, generated_candidate |
+| `12-09` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-10` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `12-19` | `generated_missing_series` | needs_review, generated_candidate |
@@ -334,6 +337,7 @@
 | `26-09` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-15` | `generated_missing_series` | needs_review, generated_candidate |
+| `26-17` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-24` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-27` | `generated_missing_series` | needs_review, generated_candidate |
 | `26-28` | `generated_missing_series` | needs_review, generated_candidate |
@@ -366,7 +370,9 @@
 | `31-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `31-17` | `generated_missing_series` | needs_review, generated_candidate |
 | `31-20` | `generated_missing_series` | needs_review, generated_candidate |
+| `32-01` | `generated_missing_series` | needs_review, generated_candidate |
 | `32-05` | `generated_missing_series` | needs_review, generated_candidate |
+| `32-07` | `generated_missing_series` | needs_review, generated_candidate |
 | `32-08` | `generated_missing_series` | needs_review, generated_candidate |
 | `32-09` | `generated_missing_series` | needs_review, generated_candidate |
 | `32-10` | `generated_missing_series` | needs_review, generated_candidate |

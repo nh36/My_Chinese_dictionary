@@ -2,14 +2,14 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 32
-- Unique unresolved semantic graphs/tokens: 29
+- Generated non-Latin semantic occurrences: 33
+- Unique unresolved semantic graphs/tokens: 30
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 32 |
+| `new_latin_label_needed` | 33 |
 
 ## By source
 
@@ -17,7 +17,7 @@
 | --- | ---: |
 | `ids_component_literal_fallback` | 9 |
 | `packet_family_component_literal_fallback` | 4 |
-| `wiktionary_component_literal_fallback` | 19 |
+| `wiktionary_component_literal_fallback` | 20 |
 
 ## `new_latin_label_needed`
 
@@ -32,6 +32,7 @@
 | `云` | `⿱二厶` | `20-13`:藝 |  | Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `冖` | `冖` | `02-22`:㓃, `26-39`:冞 |  | Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `向` | `⿵⿱丿冂口` | `03-16`:嚮 |  | Keep `向` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `呂` | `⿳口丿口` | `32-07`:勻 |  | Keep `呂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `壺` | `⿱士⿳冖⑥一` | `29-13`:壹 |  | Keep `壺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `夕` | `⿴𠂊丶` | `02-27`:夜 |  | Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `室` | `⿱宀至` | `11-06`:屋 |  | Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

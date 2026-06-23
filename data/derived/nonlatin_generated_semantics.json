@@ -1,12 +1,12 @@
 {
   "summary": {
-    "case_count": 32,
-    "unique_component_count": 29,
+    "case_count": 33,
+    "unique_component_count": 30,
     "by_classification": {
-      "new_latin_label_needed": 32
+      "new_latin_label_needed": 33
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 19,
+      "wiktionary_component_literal_fallback": 20,
       "ids_component_literal_fallback": 9,
       "packet_family_component_literal_fallback": 4
     }
@@ -506,6 +506,23 @@
       "proposal": "Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "32-07",
+      "character": "勻",
+      "abbreviation": "呂",
+      "semantic_component": "呂",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|ls=psc|螾|呂|c1=p|c2=s|t2=two gold plates}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "two gold plates",
+      "semantic_component_ids": "⿳口丿口",
+      "transliteration_latex": "{\\large{quiṅ\\textsuperscript{·呂}}},",
+      "render_latex": "勻\t%yun2\n{\\large{quiṅ\\textsuperscript{·呂}}},\n\\textit{yiwin};\t%0391a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `呂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "32-22",
       "character": "𣍃",
       "abbreviation": "柬",
@@ -750,6 +767,27 @@
           "character": "嚮",
           "position": "suffix-colon",
           "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "呂",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `呂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿳口丿口",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "two gold plates",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "32-07",
+          "character": "勻",
+          "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },
