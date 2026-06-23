@@ -1,14 +1,14 @@
 {
   "summary": {
-    "case_count": 23,
-    "unique_component_count": 21,
+    "case_count": 25,
+    "unique_component_count": 23,
     "by_classification": {
-      "new_latin_label_needed": 22,
+      "new_latin_label_needed": 24,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 17,
-      "ids_component_literal_fallback": 4,
+      "wiktionary_component_literal_fallback": 18,
+      "ids_component_literal_fallback": 5,
       "packet_family_component_literal_fallback": 2
     }
   },
@@ -114,6 +114,23 @@
       "render_latex": "丕\t%pi1 / pī\n{\\large{py\\textsuperscript{˸一}}},\n\\textit{phiy};\t%0999k",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `一` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "13-08",
+      "character": "嘂",
+      "abbreviation": "㗊",
+      "semantic_component": "㗊",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|㗊|丩|ls=psc|c1=s|c2=p}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱吅吅",
+      "transliteration_latex": "{\\large{\\textsuperscript{㗊·}kiw}},",
+      "render_latex": "嘂\t%jiao4\n{\\large{\\textsuperscript{㗊·}kiw}},\n\\textit{kewH};\t%1064i",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㗊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "14-02",
@@ -250,6 +267,23 @@
       "render_latex": "豒\t%zhi4\n{\\large{\\textsuperscript{豐·}ly₆}},\n\\textit{ḍit};\t%0591n",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `豐` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "26-39",
+      "character": "冞",
+      "abbreviation": "冖",
+      "semantic_component": "冖",
+      "position": "prefix-colon",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "冖",
+      "transliteration_latex": "{\\large{\\textsuperscript{冖˸}miy}},",
+      "render_latex": "冞\t%mi2 / mí\n{\\large{\\textsuperscript{冖˸}miy}},\n\\textit{myie};\t%0598k",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "27-02",
@@ -428,6 +462,27 @@
       ]
     },
     {
+      "semantic_component": "㗊",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㗊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱吅吅",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "13-08",
+          "character": "嘂",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "㱃",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `㱃` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -507,6 +562,27 @@
           "entry_id": "20-13",
           "character": "藝",
           "position": "suffix-colon",
+          "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "冖",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "冖",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "26-39",
+          "character": "冞",
+          "position": "prefix-colon",
           "source": "ids_component_literal_fallback"
         }
       ]
