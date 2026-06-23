@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 497
-- Roots whose display label changed after document-wide renumbering: 225
-- Duplicate phonetic bases encountered in document order: 147
+- Mutable series/subseries roots inspected: 506
+- Roots whose display label changed after document-wide renumbering: 230
+- Duplicate phonetic bases encountered in document order: 151
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -84,9 +84,11 @@
 | `02-08` | `series-root` | 蒦 | `quak` | 1 | `quak` | yes |
 | `02-17` | `series-root` | 石 | `tak` | 2 | `tak₂` | yes |
 | `02-17` | `subseries-root` | 橐 | `t\textoverset{a}{a}k` | 1 | `t\textoverset{a}{a}k` | yes |
+| `02-23` | `series-root` | 㡿 | `qak` | 1 | `qak` | yes |
+| `02-23` | `subseries-root` | 斥 | `qak` | 2 | `qak₂` | yes |
 | `02-25` | `series-root` | 睪 | `lak` | 1 | `lak` | yes |
 | `02-25` | `subseries-root` | 擇 | `l\textoverset{a}{a}k` | 1 | `l\textoverset{a}{a}k` | yes |
-| `02-27` | `series-root` | 亦 | `qak` | 1 | `qak` | yes |
+| `02-27` | `series-root` | 亦 | `qak` | 3 | `qak₃` | yes |
 | `02-27` | `subseries-root` | 夜 | `r\textoverset{b}{a}k` | 1 | `r\textoverset{b}{a}k` | yes |
 | `02-30` | `baseline-series-root` | 若 | `\textsuperscript{dic·}nak` | 1 | `\textsuperscript{dic·}nak` | no |
 | `02-31` | `series-root` | 乍 | `tsak` | 1 | `tsak` | yes |
@@ -176,6 +178,7 @@
 | `04-35` | `series-root` | 里 | `ry` | 1 | `ry` | yes |
 | `04-35` | `subseries-root` | 貍 | `ry` | 2 | `ry₂` | yes |
 | `04-40` | `series-root` | 耳 | `ny` | 1 | `ny` | yes |
+| `04-41` | `series-root` | 而 | `ny` | 2 | `ny₂` | yes |
 | `04-45` | `series-root` | 才 | `tsy` | 1 | `tsy` | yes |
 | `04-45` | `subseries-root` | 𢦏 | `tsy` | 2 | `tsy₂` | yes |
 | `04-61` | `series-root` | 不 | `py` | 1 | `py` | yes |
@@ -184,6 +187,7 @@
 | `04-61` | `subseries-root` | 丕 | `py` | 4 | `py₄` | yes |
 | `05-06` | `series-root` | 或 | `quyk` | 1 | `quyk` | yes |
 | `05-06` | `subseries-root` | 國 | `quyk` | 2 | `quyk₂` | yes |
+| `05-10` | `series-root` | 意 | `ʔyk` | 1 | `ʔyk` | yes |
 | `05-12` | `series-root` | 直 | `tyk` | 1 | `tyk` | yes |
 | `05-16` | `series-root` | 弋 | `lyk` | 1 | `lyk` | yes |
 | `05-16` | `subseries-root` | 式 | `lyk` | 2 | `lyk₂` | yes |
@@ -402,6 +406,7 @@
 | `21-19` | `series-root` | 折 | `tet` | 1 | `tet` | yes |
 | `21-23` | `series-root` | 世 | `lap` | 1 | `lap` | yes |
 | `21-23` | `subseries-root` | 貰 | `l\textoverset{b}{a}p` | 1 | `l\textoverset{b}{a}p` | yes |
+| `21-25` | `series-root` | 列 | `ret` | 1 | `ret` | yes |
 | `21-26` | `series-root` | 蠆 | `myt` | 1 | `myt` | yes |
 | `21-26` | `subseries-root` | 萬 | `man` | 1 | `man` | yes |
 | `21-26` | `subseries-root` | 厲 | `rat` | 1 | `rat` | yes |
@@ -569,7 +574,9 @@
 | `35-21` | `subseries-root` | 盍 | `kap` | 2 | `kap₂` | yes |
 | `35-21` | `subseries-root` | 劫 | `kap` | 3 | `kap₃` | yes |
 | `35-21` | `subseries-root` | 盇 | `k\textoverset{a}{a}p` | 1 | `k\textoverset{a}{a}p` | yes |
-| `36-05` | `series-root` | 監 | `kam` | 1 | `kam` | yes |
+| `36-01` | `series-root` | 甘 | `kam` | 1 | `kam` | yes |
+| `36-01` | `subseries-root` | 拑 | `k\textoverset{b}{a}m` | 1 | `k\textoverset{b}{a}m` | yes |
+| `36-05` | `series-root` | 監 | `kam` | 2 | `kam₂` | yes |
 | `36-05` | `subseries-root` | 㯺 | `k\textoverset{a}{a}m` | 1 | `k\textoverset{a}{a}m` | yes |
 | `36-05` | `subseries-root` | 覽 | `k\textoverset{a}{a}m` | 2 | `k\textoverset{a}{a}m₂` | yes |
 | `36-06` | `series-root` | 僉 | `som` | 1 | `som` | yes |
@@ -593,6 +600,8 @@
 | `37-15` | `series-root` | 立 | `ryp` | 5 | `ryp₅` | yes |
 | `37-16` | `series-root` | 入 | `nyp` | 1 | `nyp` | yes |
 | `37-16` | `subseries-root` | 內 | `nyp` | 2 | `nyp₂` | yes |
+| `37-19` | `series-root` | 咠 | `sip` | 1 | `sip` | yes |
+| `37-19` | `subseries-root` | 戢 | `sip` | 2 | `sip₂` | yes |
 | `38-03` | `series-root` | 今 | `kym` | 1 | `kym` | yes |
 | `38-03` | `subseries-root` | 酓 | `kym` | 2 | `kym₂` | yes |
 | `38-03` | `subseries-root` | 禽 | `kym` | 3 | `kym₃` | yes |

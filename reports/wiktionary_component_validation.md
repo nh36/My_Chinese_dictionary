@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 3609
-- Pages fetched / cached successfully: 3562
-- Additions with explicit Han-compound semantic/phonetic roles: 1761
+- Proposed additions checked: 3664
+- Pages fetched / cached successfully: 3615
+- Additions with explicit Han-compound semantic/phonetic roles: 1785
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -95,6 +95,15 @@
 | `02-17` | 妒 | yes | yes | 女 | 戶 |
 | `02-17` | 橐 | yes | yes | 𣒚 | 石 |
 | `02-17` | 蠹 | yes | yes | 䖵 | 橐 |
+| `02-23` | 㡿 | yes | no |  |  |
+| `02-23` | 斥 | yes | yes | 广 | 屰 |
+| `02-23` | 厈 | yes | no |  |  |
+| `02-23` | 坼 | yes | yes | 土 | 斥 |
+| `02-23` | 𣔳 | yes | no |  |  |
+| `02-23` | 柝 | yes | yes | 木 | 斥 |
+| `02-23` | 㴑 | yes | no |  |  |
+| `02-23` | 泝 | yes | no |  |  |
+| `02-23` | 訴 | yes | yes | 言 | 斥 |
 | `02-25` | 睪 | yes | no |  |  |
 | `02-25` | 圛 | yes | yes | 囗 | 睪 |
 | `02-25` | 懌 | yes | yes | 心 | 睪 |
@@ -680,6 +689,15 @@
 | `04-40` | 餌 | yes | yes | 食 | 耳 |
 | `04-40` | 眲 | yes | no |  |  |
 | `04-40` | 恥 | yes | yes | 心 | 耳 |
+| `04-41` | 而 | yes | no |  |  |
+| `04-41` | 栭 | yes | no |  |  |
+| `04-41` | 聏 | yes | no |  |  |
+| `04-41` | 胹 | yes | no |  |  |
+| `04-41` | 鴯 | yes | no |  |  |
+| `04-41` | 鮞 | yes | no |  |  |
+| `04-41` | 耐 | yes | yes | 寸 | 而 |
+| `04-41` | 𨼏 | no | no |  |  |
+| `04-41` | 陾 | yes | no |  |  |
 | `04-45` | 才 | yes | no |  |  |
 | `04-45` | 載 | yes | yes | 車 | 𢦏 |
 | `04-45` | 裁 | yes | yes | 衣 | 𢦏 |
@@ -738,6 +756,15 @@
 | `05-06` | 馘 | yes | yes | 首 | 或 |
 | `05-06` | 聝 | yes | yes | 耳 | 或 |
 | `05-06` | 彧 | yes | no |  |  |
+| `05-10` | 意 | yes | no |  |  |
+| `05-10` | 噫 | yes | yes | 口 | 意 |
+| `05-10` | 鷾 | yes | no |  |  |
+| `05-10` | 醷 | yes | no |  |  |
+| `05-10` | 億 | yes | yes | 人 | 意 |
+| `05-10` | 憶 | yes | yes | 心 | 意 |
+| `05-10` | 檍 | yes | no |  |  |
+| `05-10` | 繶 | yes | no |  |  |
+| `05-10` | 臆 | yes | yes | 肉 | 意 |
 | `05-12` | 直 | yes | no |  |  |
 | `05-12` | 稙 | yes | no |  |  |
 | `05-12` | 埴 | yes | no |  |  |
@@ -2018,6 +2045,15 @@
 | `21-23` | 勩 | yes | no |  |  |
 | `21-23` | 渫 | yes | yes | 水 | 枼 |
 | `21-23` | 緤 | yes | no |  |  |
+| `21-25` | 列 | yes | yes | 刀 | 𡿪 |
+| `21-25` | 冽 | yes | yes | 仌 | 列 |
+| `21-25` | 洌 | yes | no |  |  |
+| `21-25` | 烈 | yes | yes | 火 | 列 |
+| `21-25` | 茢 | yes | no |  |  |
+| `21-25` | 裂 | yes | yes | 衣 | 列 |
+| `21-25` | 栵 | yes | no |  |  |
+| `21-25` | 例 | yes | yes | 人 | 列 |
+| `21-25` | 㾐 | yes | no |  |  |
 | `21-26` | 蠆 | yes | yes | 虫 | 萬 |
 | `21-26` | 厲 | yes | yes | 厂 | 蠆 |
 | `21-26` | 礪 | yes | no |  |  |
@@ -3314,6 +3350,16 @@
 | `35-21` | 溘 | yes | no |  |  |
 | `35-21` | 磕 | yes | yes | 石 | 盍 |
 | `35-21` | 饁 | yes | no |  |  |
+| `36-01` | 甘 | yes | no |  |  |
+| `36-01` | 泔 | yes | yes | 水 | 甘 |
+| `36-01` | 𤯌 | no | no |  |  |
+| `36-01` | 酣 | yes | yes | 酉 | 甘 |
+| `36-01` | 拑 | yes | no |  |  |
+| `36-01` | 鉗 | yes | no |  |  |
+| `36-01` | 柑 | yes | yes | 木 | 甘 |
+| `36-01` | 紺 | yes | yes | 糸 | 甘 |
+| `36-01` | 箝 | yes | yes | 竹 | 拑 |
+| `36-01` | 邯 | yes | yes | 邑 | 甘 |
 | `36-05` | 監 | yes | no |  |  |
 | `36-05` | 鑑 | yes | yes | 金 | 監 |
 | `36-05` | 礛 | yes | no |  |  |
@@ -3481,6 +3527,15 @@
 | `37-16` | 芮 | yes | yes | 艸 | 內 |
 | `37-16` | 焫 | yes | no |  |  |
 | `37-16` | 蜹 | yes | no |  |  |
+| `37-19` | 咠 | yes | no |  |  |
+| `37-19` | 緝 | yes | yes | 糸 | 咠 |
+| `37-19` | 葺 | yes | no |  |  |
+| `37-19` | 輯 | yes | yes | 車 | 咠 |
+| `37-19` | 戢 | yes | no |  |  |
+| `37-19` | 濈 | yes | no |  |  |
+| `37-19` | 揖 | yes | yes | 手 | 咠 |
+| `37-19` | 楫 | yes | yes | 木 | 咠 |
+| `37-19` | 檝 | yes | no |  |  |
 | `38-03` | 今 | yes | no |  |  |
 | `38-03` | 𩃬 | yes | yes | 雲 | 今 |
 | `38-03` | 蔭 | yes | yes | 艸 | 陰 |

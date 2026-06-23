@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 25,
-    "unique_component_count": 23,
+    "case_count": 26,
+    "unique_component_count": 24,
     "by_classification": {
-      "new_latin_label_needed": 24,
+      "new_latin_label_needed": 25,
       "research_compound_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 18,
       "ids_component_literal_fallback": 5,
-      "packet_family_component_literal_fallback": 2
+      "packet_family_component_literal_fallback": 3
     }
   },
   "cases": [
@@ -42,8 +42,8 @@
       "template_gloss_primary": null,
       "template_gloss_secondary": "[[moon]]",
       "semantic_component_ids": "⿴𠂊丶",
-      "transliteration_latex": "{\\large{qak\\textsuperscript{˸夕}}},",
-      "render_latex": "夜\t%ye4 / yè\n{\\large{qak\\textsuperscript{˸夕}}},\n\\textit{yaeH};\t%0800j",
+      "transliteration_latex": "{\\large{qak₃\\textsuperscript{˸夕}}},",
+      "render_latex": "夜\t%ye4 / yè\n{\\large{qak₃\\textsuperscript{˸夕}}},\n\\textit{yaeH};\t%0800j",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -420,6 +420,23 @@
       "render_latex": "艱\t%jian1 / jiān\n{\\large{\\textsuperscript{𦰩·}kyr₃}},\n\\textit{kean};\t%0480c",
       "classification": "research_compound_graph",
       "proposal": "Investigate whether `𦰩` should stay a distinct semantic graph or be reduced to one of its subcomponents before assigning a Latin label."
+    },
+    {
+      "entry_id": "36-01",
+      "character": "𤯌",
+      "abbreviation": "麻",
+      "semantic_component": "麻",
+      "position": "prefix-dot",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿸广林",
+      "transliteration_latex": "{\\large{\\textsuperscript{麻·}kam}},",
+      "render_latex": "𤯌\t%gan1\n{\\large{\\textsuperscript{麻·}kam}},\n\\textit{kam};\t%0606d",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `麻` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "36-14",
@@ -869,6 +886,27 @@
           "character": "麴",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "麻",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `麻` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿸广林",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "36-01",
+          "character": "𤯌",
+          "position": "prefix-dot",
+          "source": "packet_family_component_literal_fallback"
         }
       ]
     },
