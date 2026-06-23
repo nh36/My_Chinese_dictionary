@@ -22,7 +22,7 @@ DEFAULT_GSC_COVERAGE = "data/derived/gsc_series_coverage.csv"
 DEFAULT_REPORTS_DIR = "reports"
 
 SCHUESSLER_HEADER_RE = re.compile(
-    r"^\s*(?P<gsc_id>\d{1,2}-\d{1,2})-?\s*=\s*K\.\s*(?P<rest>.+)$"
+    r"^\s*(?P<gsc_id>\d{1,2}-[0-9Il]{1,2})-?\s*=\s*K\.\s*(?P<rest>.+)$"
 )
 K_TOKEN_BLOB_RE = re.compile(r"^\s*(?P<blob>(?:\d+[a-z]?(?:-[a-z])?(?:')?(?:\s*,\s*|\s+)?)*)")
 K_TOKEN_RANGE_RE = re.compile(r"^(?P<digits>\d+)(?P<start>[a-z])-(?P<end>[a-z])$", re.IGNORECASE)
@@ -64,6 +64,14 @@ def extract_schuessler_text(pdf_path: Path) -> str:
     return completed.stdout
 
 
+def normalize_schuessler_gsc_id(raw_gsc_id: str) -> str:
+    translation = str.maketrans({"I": "1", "l": "1"})
+    left_raw, right_raw = raw_gsc_id.split("-", 1)
+    left = int(left_raw.translate(translation))
+    right = int(right_raw.translate(translation))
+    return f"{left:02d}-{right:02d}"
+
+
 def parse_schuessler_headers(pdf_path: Path) -> list[dict[str, Any]]:
     text = extract_schuessler_text(pdf_path)
     headers: list[dict[str, Any]] = []
@@ -83,8 +91,8 @@ def parse_schuessler_headers(pdf_path: Path) -> list[dict[str, Any]]:
             remainder = rest[blob_match.end() :].strip() if blob_match else ""
 
             raw_gsc_id = match.group("gsc_id")
-            rhyme_section, series_number = [int(part) for part in raw_gsc_id.split("-", 1)]
-            gsc_id = f"{rhyme_section:02d}-{series_number:02d}"
+            gsc_id = normalize_schuessler_gsc_id(raw_gsc_id)
+            rhyme_section, series_number = [int(part) for part in gsc_id.split("-", 1)]
             headers.append(
                 {
                     "gsc_id": gsc_id,

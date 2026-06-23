@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4012
-- Pages fetched / cached successfully: 3957
-- Additions with explicit Han-compound semantic/phonetic roles: 1920
+- Proposed additions checked: 4024
+- Pages fetched / cached successfully: 3969
+- Additions with explicit Han-compound semantic/phonetic roles: 1930
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3376,6 +3376,18 @@
 | `32-40` | 緡 | yes | no |  |  |
 | `32-40` | 暋 | yes | no |  |  |
 | `32-40` | 愍 | yes | no |  |  |
+| `33-01` | 艮 | yes | no |  |  |
+| `33-01` | 根 | yes | yes | 木 | 艮 |
+| `33-01` | 豤 | yes | yes | 豕 | 艮 |
+| `33-01` | 佷 | yes | yes | 人 | 艮 |
+| `33-01` | 很 | yes | yes | 彳 | 艮 |
+| `33-01` | 恨 | yes | yes | 心 | 艮 |
+| `33-01` | 痕 | yes | yes | 疒 | 艮 |
+| `33-01` | 垠 | yes | yes | 土 | 艮 |
+| `33-01` | 限 | yes | yes | 阜 | 艮 |
+| `33-01` | 銀 | yes | yes | 金 | 艮 |
+| `33-01` | 眼 | yes | yes | 目 | 艮 |
+| `33-01` | 墾 | yes | no |  | 貇 |
 | `33-02` | 斤 | yes | no |  |  |
 | `33-02` | 釿 | yes | no |  |  |
 | `33-02` | 靳 | yes | no |  |  |

@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 569
-- Roots whose display label changed after document-wide renumbering: 201
+- Mutable series/subseries roots inspected: 570
+- Roots whose display label changed after document-wide renumbering: 259
 - Duplicate phonetic bases encountered in document order: 167
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -596,6 +596,7 @@
 | `32-40` | `subseries-root` | 昏 | `miṅ` | 2 | `miṅ₂` | yes |
 | `32-40` | `subseries-root` | 敃 | `miṅ` | 3 | `miṅ₃` | yes |
 | `32-40` | `subseries-root` | 昬 | `miṅ` | 4 | `miṅ₄` | yes |
+| `33-01` | `series-root` | 艮 | `kyn` | 1 | `kyn` | yes |
 | `33-02` | `series-root` | 斤 | `kyr` | 1 | `kyr` | yes |
 | `33-02` | `subseries-root` | 欣 | `kyr` | 2 | `kyr₂` | yes |
 | `33-05` | `series-root` | 𡏳 | `kyr` | 3 | `kyr₃` | yes |

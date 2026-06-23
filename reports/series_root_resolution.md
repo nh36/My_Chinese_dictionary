@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 285
-- Packets with at least one root candidate: 277
-- Packets with a single resolved provisional root: 285
+- Missing-series packets inspected: 286
+- Packets with at least one root candidate: 278
+- Packets with a single resolved provisional root: 286
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -241,6 +241,7 @@
 | `32-33` | 辛→sin [*sin {*[s]i[n]}] (0382a) | `sin` | `head_graph_oc_bs` |
 | `32-38` | 賓→pin [*pin {*pi[n]}] (0389a) | `pin` | `head_graph_oc_bs` |
 | `32-40` | 民→miṅ [*miŋ {*mi[ŋ]}] (0457a) | `miṅ` | `head_graph_oc_bs` |
+| `33-01` | 艮→kyn [*kɯ̠ns] (None) | `kyn` | `head_graph_oc_shengfu` |
 | `33-02` | 斤→kyr [*kər {*[k]ər}] (0443a) | `kyr` | `head_graph_oc_bs` |
 | `33-05` | 𡏳→kyr [*kˤrər {*kˤrə[r]}] (0480a) | `kyr` | `head_graph_oc_bs` |
 | `33-13` | 辰→tyr [*dər {*[d]ər}] (0455a) | `tyr` | `head_graph_oc_bs` |

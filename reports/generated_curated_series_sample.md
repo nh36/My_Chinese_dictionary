@@ -258,6 +258,7 @@
 | `32-33` | `missing_series` | no | 9 | 6 |
 | `32-38` | `missing_series` | no | 13 | 12 |
 | `32-40` | `missing_series` | no | 19 | 17 |
+| `33-01` | `missing_series` | no | 12 | 10 |
 | `33-02` | `missing_series` | no | 17 | 16 |
 | `33-05` | `missing_series` | no | 17 | 14 |
 | `33-13` | `missing_series` | no | 14 | 13 |

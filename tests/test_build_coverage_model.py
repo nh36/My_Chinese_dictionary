@@ -56,6 +56,10 @@ BS_ROWS = [
 
 
 class BuildCoverageModelTests(unittest.TestCase):
+    def test_normalize_schuessler_gsc_id_recovers_ocr_l(self) -> None:
+        self.assertEqual(build_coverage_model.normalize_schuessler_gsc_id("33-l"), "33-01")
+        self.assertEqual(build_coverage_model.normalize_schuessler_gsc_id("33-I"), "33-01")
+
     def test_gsr_matching(self) -> None:
         self.assertTrue(build_coverage_model.gsr_matches("0001a", "1"))
         self.assertTrue(build_coverage_model.gsr_matches("0001a'", "1a"))
