@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-23T08:02:20.653975+00:00
+- Generated at: 2026-06-23T08:14:24.103733+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 14489
+- Total occurrences audited: 14709
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 14370 |
+| `canonical` | 14586 |
 | `explicit_alias` | 67 |
-| `needs_review` | 52 |
+| `needs_review` | 56 |
 
 ## Blocked ambiguous aliases
 
@@ -464,6 +464,9 @@ Watched tokens with no current heuristic match: `can`
 
 | Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `curation_json` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
+{\large{qak\textsuperscript{˸夕}}},
+\textit{yaeH};	%0800j` |
 | `curation_json` | `03-57` | `旁` | `同` | render_latex, transliteration_latex | `同` | `⿱⿱⿱亠丷冖方` | `旁	%pang2 / bang1 / páng
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
@@ -497,6 +500,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `36-14` | `燅` | `坴` | render_latex, transliteration_latex | `坴` | `⿰坴炎` | `燅	%qian2
 {\large{\textsuperscript{坴·}qam}},
 \textit{ziem};	%0617h` |
+| `integrated_series_curated_entry` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
+{\large{qak\textsuperscript{˸夕}}},
+\textit{yaeH};	%0800j` |
 | `integrated_series_curated_entry` | `03-57` | `旁` | `同` | render_latex, transliteration_latex | `同` | `⿱⿱⿱亠丷冖方` | `旁	%pang2 / bang1 / páng
 {\large{\textsuperscript{同˸}paṅ}},
 \textit{baṅ};	%0740f'
@@ -530,6 +536,7 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `36-14` | `燅` | `坴` | render_latex, transliteration_latex | `坴` | `⿰坴炎` | `燅	%qian2
 {\large{\textsuperscript{坴·}qam}},
 \textit{ziem};	%0617h` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
 | `validation_tex` | `` | `` | `一` | line | `` | `` | `{\large{py\textsuperscript{˸一}}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
@@ -542,6 +549,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
 | `validation_tex` | `` | `` | `同` | line | `` | `` | `{\large{\textsuperscript{同˸}paṅ}},` |
 | `validation_tex` | `` | `` | `一` | line | `` | `` | `{\large{py\textsuperscript{˸一}}},` |

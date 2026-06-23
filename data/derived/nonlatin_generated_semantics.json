@@ -1,18 +1,35 @@
 {
   "summary": {
-    "case_count": 12,
-    "unique_component_count": 11,
+    "case_count": 13,
+    "unique_component_count": 12,
     "by_classification": {
-      "new_latin_label_needed": 11,
+      "new_latin_label_needed": 12,
       "research_compound_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 9,
+      "wiktionary_component_literal_fallback": 10,
       "ids_component_literal_fallback": 2,
       "packet_family_component_literal_fallback": 1
     }
   },
   "cases": [
+    {
+      "entry_id": "02-27",
+      "character": "夜",
+      "abbreviation": "夕",
+      "semantic_component": "夕",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|亦|夕|t2=[[moon]]|ls=psc|c1=p|c2=s|abb1=y}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "[[moon]]",
+      "semantic_component_ids": "⿴𠂊丶",
+      "transliteration_latex": "{\\large{qak\\textsuperscript{˸夕}}},",
+      "render_latex": "夜\t%ye4 / yè\n{\\large{qak\\textsuperscript{˸夕}}},\n\\textit{yaeH};\t%0800j",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
     {
       "entry_id": "03-57",
       "character": "旁",
@@ -341,6 +358,27 @@
           "entry_id": "36-14",
           "character": "燅",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "夕",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿴𠂊丶",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "[[moon]]",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "02-27",
+          "character": "夜",
+          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

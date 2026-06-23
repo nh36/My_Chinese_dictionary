@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 188
-- Packets with at least one root candidate: 181
-- Packets with a single resolved provisional root: 188
+- Missing-series packets inspected: 194
+- Packets with at least one root candidate: 187
+- Packets with a single resolved provisional root: 194
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -10,15 +10,18 @@
 | `02-01` | 各→kak [*kˤak] (0766a) | `kak` | `head_graph_oc_bs` |
 | `02-17` | 石→tak [*dak {*dAk}] (0795a) | `tak` | `head_graph_oc_bs` |
 | `02-25` | 睪→lak [*ɡ‧laɡ] (None) | `lak` | `head_graph_oc_shengfu` |
+| `02-27` | 亦→qak [*ɢak {*ɢ(r)Ak}] (0800a) | `qak` | `head_graph_oc_bs` |
 | `02-31` | 乍→tsak [*dzˤrak-s {*[dz]ˤrak-s}] (0806a) | `tsak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-38` | 白→pak [*bˤrak] (0782a) | `pak` | `head_graph_oc_bs` |
 | `02-40` | 莫→mak [*mˤak] (0802a) | `mak` | `head_graph_oc_bs` |
+| `03-01` | 亢→ṅaṅ [*k.ŋˤaŋ] (0698a) | `ṅaṅ` | `head_graph_oc_bs` |
 | `03-10` | 京→kaṅ [*kraŋ {*[k]raŋ}] (0755a) | `kaṅ` | `head_graph_oc_bs` |
 | `03-23` | 黃→kuaṅ [*N-kʷˤaŋ] (0707a) | `kuaṅ` | `head_graph_oc_bs` |
 | `03-24` | 皇→quaṅ [*ɢʷˤaŋ {*[ɢ]ʷˤaŋ}] (0708a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-26` | 王→quaṅ [*ɢʷaŋ] (0739a) | `quaṅ` | `head_graph_oc_bs` |
 | `03-32` | 尚→taṅ [*daŋ-s {*[d]aŋ-s}] (0725a) | `taṅ` | `head_graph_oc_bs` |
+| `03-35` | 長→yṅ [*Cə-N-traŋ {*Cə-[N]-traŋ}] (0721a); 長→taṅ [*traŋʔ] (0721a) | `taṅ` | `packet_bs_majority` |
 | `03-38` | 昜→laṅ [*laŋ] (0720a) | `laṅ` | `head_graph_oc_bs` |
 | `03-39` | 羊→qaṅ [*ɢaŋ] (0732a) | `qaṅ` | `head_graph_oc_bs` |
 | `03-42` | 襄→naṅ [*s-naŋ] (0730a) | `naṅ` | `head_graph_oc_bs` |
@@ -33,9 +36,11 @@
 | `04-12` | 九→ku [*kuʔ {*[k]uʔ}] (0992a) | `ku` | `head_graph_oc_bs` |
 | `04-15` | 求→ku [*gu {*[g](r)u}] (1066a) | `ku` | `head_graph_oc_bs` |
 | `04-17` | 又→quy [*ɢʷəʔ-s {*[ɢ]ʷəʔ-s}] (0995a) | `quy` | `head_graph_oc_bs` |
+| `04-21` | 喜→qy [*qʰəʔ {*qʰ(r)əʔ}] (0955a) | `qy` | `head_graph_oc_bs` |
 | `04-26` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-29` | 止→ty [*təʔ] (0961a) | `ty` | `head_graph_oc_bs` |
 | `04-30` | 㠯→ly [*ləʔ] (0976a) | `ly` | `head_graph_oc_bs` |
+| `04-35` | 里→ry [*rəʔ {*(mə.)rəʔ}] (0978a) | `ry` | `head_graph_oc_bs` |
 | `04-45` | 才→tsy [*dzˤə {*(Cə.)[dz]ˤə}] (0943a) | `tsy` | `head_graph_oc_bs` |
 | `04-61` | 不→py [*pə] (0999a) | `py` | `head_graph_oc_bs` |
 | `05-06` | 或→quyk [*ɢʷrək {*[ɢ]ʷrək}] (0929a) | `quyk` | `head_graph_oc_bs` |
@@ -192,5 +197,6 @@
 | `38-05` | 臽→kom [*gˤrom-s {*[g]ˤrom(ʔ)-s}] (0672a) | `kom` | `head_graph_oc_bs` |
 | `38-11` | 甚→qym [*t.ɢəmʔ-s {*[t.ɢ][ə]mʔ-s}] (0658a) | `qym` | `head_graph_oc_bs` |
 | `38-14` | 冘→lum [*k‧lum] (None); 冘→lu [*ɡ‧lu] (None) | `lym` | `packet_bs_majority` |
+| `38-16` | 覃→rom [*N.rˤom {*N.rˤ[o]m}] (0646a); 覃→ram [*N-r[a]mʔ] (0646a) | `lim` | `packet_bs_majority` |
 | `38-25` | 壬→nym [*nəm {*n[ə]m}] (0667a) | `nym` | `head_graph_oc_bs` |
 | `38-28` | 兓→sum [*skum] (None) | `sum` | `head_graph_oc_shengfu` |

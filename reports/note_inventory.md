@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 215
-- Total notes inventoried: 923
+- Entries with at least one note: 221
+- Total notes inventoried: 945
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 399 |
-| `curation_entry_note` | 408 |
-| `curation_mc_investigation` | 77 |
+| `curation_division_note` | 407 |
+| `curation_entry_note` | 420 |
+| `curation_mc_investigation` | 79 |
 | `curation_research_note` | 18 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 77 |
+| `mc_conflict` | 79 |
 | `semantic_analysis` | 18 |
 | `source_reference` | 10 |
-| `structural_internal` | 399 |
-| `workflow_internal` | 413 |
+| `structural_internal` | 407 |
+| `workflow_internal` | 425 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 886 |
+| `internal_only` | 908 |
 | `series_end_note` | 27 |
 
 ## Examples: `analysis_note`
@@ -62,9 +62,9 @@
 | `01-42` | `curation_mc_investigation` | character: 徐 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: zjo. |
 | `01-62` | `curation_mc_investigation` | character: 梳 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: srjo. |
 | `02-31` | `curation_mc_investigation` | character: 作 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: tsuH. |
+| `03-01` | `curation_mc_investigation` | character: 航 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hang. |
 | `03-65` | `curation_mc_investigation` | character: 望 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: mjang. |
 | `04-04` | `curation_mc_investigation` | character: 丌 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: gi. |
-| `04-12` | `curation_mc_investigation` | character: 頄 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: gwij. |
 
 ## Examples: `semantic_analysis`
 
