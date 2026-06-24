@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 337
-- Total notes inventoried: 1387
+- Entries with at least one note: 343
+- Total notes inventoried: 1412
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 573 |
-| `curation_entry_note` | 652 |
-| `curation_mc_investigation` | 119 |
+| `curation_division_note` | 583 |
+| `curation_entry_note` | 664 |
+| `curation_mc_investigation` | 122 |
 | `curation_research_note` | 22 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 119 |
+| `mc_conflict` | 122 |
 | `semantic_analysis` | 22 |
 | `source_reference` | 10 |
-| `structural_internal` | 573 |
-| `workflow_internal` | 657 |
+| `structural_internal` | 583 |
+| `workflow_internal` | 669 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 1346 |
+| `internal_only` | 1371 |
 | `series_end_note` | 31 |
 
 ## Examples: `analysis_note`

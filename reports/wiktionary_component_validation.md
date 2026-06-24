@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4199
-- Pages fetched / cached successfully: 4144
-- Additions with explicit Han-compound semantic/phonetic roles: 2021
+- Proposed additions checked: 4241
+- Pages fetched / cached successfully: 4185
+- Additions with explicit Han-compound semantic/phonetic roles: 2040
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -717,6 +717,13 @@
 | `04-30` | 貽 | yes | yes | 貝 | 台 |
 | `04-30` | 飴 | yes | no |  |  |
 | `04-30` | 治 | yes | yes | 水 | 台 |
+| `04-34` | 頤 | yes | yes | 頁 | 𦣞 |
+| `04-34` | 巸 | yes | yes | 𦣞 | 巳 |
+| `04-34` | 姬 | yes | yes | 女 | 𦣞 |
+| `04-34` | 茝 | yes | no |  |  |
+| `04-34` | 熙 | yes | yes | 火 | 巸 |
+| `04-34` | 𩟄 | no | no |  |  |
+| `04-34` | 𦣞 | yes | no |  |  |
 | `04-35` | 里 | yes | no |  |  |
 | `04-35` | 梩 | yes | no |  |  |
 | `04-35` | 理 | yes | yes | 玉 | 里 |
@@ -775,6 +782,13 @@
 | `04-49` | 鎡 | yes | no |  |  |
 | `04-49` | 慈 | yes | yes | 心 | 茲 |
 | `04-49` | 孳 | yes | yes | 子 | 兹 |
+| `04-53` | 司 | yes | no |  |  |
+| `04-53` | 伺 | yes | yes | 人 | 司 |
+| `04-53` | 笥 | yes | no |  |  |
+| `04-53` | 祠 | yes | yes | 示 | 司 |
+| `04-53` | 詞 | yes | yes | 言 | 司 |
+| `04-53` | 嗣 | yes | yes | 口, 冊 | 司 |
+| `04-53` | 飼 | yes | yes | 食 | 司 |
 | `04-61` | 不 | yes | no |  |  |
 | `04-61` | 培 | yes | yes | 土 | 咅 |
 | `04-61` | 倍 | yes | yes | 人 | 咅 |
@@ -1451,6 +1465,13 @@
 | `12-03` | 烘 | yes | no |  |  |
 | `12-03` | 巷 | yes | yes | 己 | 共 |
 | `12-03` | 輂 | yes | no |  |  |
+| `12-05` | 凶 | yes | no |  |  |
+| `12-05` | 兇 | yes | no |  |  |
+| `12-05` | 訩 | yes | no |  |  |
+| `12-05` | 匈 | yes | yes | 勹 | 凶 |
+| `12-05` | 胷 | yes | no |  |  |
+| `12-05` | 胸 | yes | yes | 肉 | 匈 |
+| `12-05` | 洶 | yes | no |  |  |
 | `12-08` | 重 | yes | yes | 人 | 東 |
 | `12-08` | 𠟍 | no | no |  |  |
 | `12-08` | 偅 | yes | no |  |  |
@@ -2106,6 +2127,13 @@
 | `17-05` | 約 | yes | yes | 糸 | 勺 |
 | `17-05` | 葯 | yes | yes | 艸 | 約 |
 | `17-05` | 的 | yes | yes | 白 | 勺 |
+| `17-06` | 龠 | yes | no |  |  |
+| `17-06` | 籥 | yes | yes | 竹 | 龠 |
+| `17-06` | 瀹 | yes | no |  |  |
+| `17-06` | 𤅢 | yes | no |  |  |
+| `17-06` | 爚 | yes | no |  |  |
+| `17-06` | 禴 | yes | no |  |  |
+| `17-06` | 籲 | yes | yes | 頁 | 籥 |
 | `17-07` | 翟 | yes | no |  |  |
 | `17-07` | 糴 | yes | yes | 入 | 䊮 |
 | `17-07` | 籊 | yes | yes | 竹 | 翟 |
@@ -2286,6 +2314,13 @@
 | `21-23` | 勩 | yes | no |  |  |
 | `21-23` | 渫 | yes | yes | 水 | 枼 |
 | `21-23` | 緤 | yes | no |  |  |
+| `21-24` | 剌 | yes | no |  |  |
+| `21-24` | 賴 | yes | yes | 貝 | 剌 |
+| `21-24` | 瀨 | yes | yes | 水 | 賴 |
+| `21-24` | 籟 | yes | no |  |  |
+| `21-24` | 藾 | yes | yes | 艸 | 賴 |
+| `21-24` | 獺 | yes | yes | 犬 | 賴 |
+| `21-24` | 懶 | yes | yes | 心 | 賴 |
 | `21-25` | 列 | yes | yes | 刀 | 𡿪 |
 | `21-25` | 冽 | yes | yes | 仌 | 列 |
 | `21-25` | 洌 | yes | no |  |  |
@@ -2506,6 +2541,13 @@
 | `24-02` | 簳 | yes | yes | 竹 | 幹 |
 | `24-02` | 斡 | yes | yes | 斗 | 倝 |
 | `24-02` | 澣 | yes | no |  |  |
+| `24-05` | 寒 | yes | no |  |  |
+| `24-05` | 搴 | yes | no |  |  |
+| `24-05` | 謇 | yes | no |  |  |
+| `24-05` | 蹇 | yes | yes | 足 | 寒 |
+| `24-05` | 褰 | yes | no |  |  |
+| `24-05` | 騫 | yes | no |  |  |
+| `24-05` | 攓 | yes | no |  |  |
 | `24-08` | 建 | yes | no |  |  |
 | `24-08` | 揵 | yes | no |  |  |
 | `24-08` | 鞬 | yes | yes | 革 | 建 |
