@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 703
-- Roots whose display label changed after document-wide renumbering: 347
-- Duplicate phonetic bases encountered in document order: 198
+- Mutable series/subseries roots inspected: 709
+- Roots whose display label changed after document-wide renumbering: 352
+- Duplicate phonetic bases encountered in document order: 200
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -127,13 +127,20 @@
 | `02-27` | `series-root` | 亦 | `qak` | 6 | `qak₆` | yes |
 | `02-27` | `subseries-root` | 夜 | `r\textoverset{b}{a}k` | 1 | `r\textoverset{b}{a}k` | yes |
 | `02-28` | `series-root` | 夕 | `rak` | 1 | `rak` | yes |
+| `02-29` | `series-root` | 席 | `tak` | 9 | `tak₉` | yes |
 | `02-30` | `baseline-series-root` | 若 | `\textsuperscript{dic·}nak` | 1 | `\textsuperscript{dic·}nak` | no |
 | `02-31` | `series-root` | 乍 | `tsak` | 1 | `tsak` | yes |
 | `02-31` | `subseries-root` | 作 | `ts\textoverset{a}{a}k` | 1 | `ts\textoverset{a}{a}k` | yes |
 | `02-32` | `series-root` | 昔 | `sak` | 1 | `sak` | yes |
 | `02-32` | `subseries-root` | 耤 | `ts\textoverset{b}{a}k` | 1 | `ts\textoverset{b}{a}k` | yes |
 | `02-32` | `subseries-root` | 措 | `s\textoverset{a}{a}k` | 1 | `s\textoverset{a}{a}k` | yes |
-| `02-38` | `series-root` | 白 | `pak` | 1 | `pak` | yes |
+| `02-33` | `series-root` | 索 | `sak` | 2 | `sak₂` | yes |
+| `02-34` | `series-root` | 朔 | `ṅak` | 3 | `ṅak₃` | yes |
+| `02-35` | `series-root` | 舄 | `qak` | 7 | `qak₇` | yes |
+| `02-35` | `subseries-root` | 寫 | `sh\textoverset{b}{a}` | 1 | `sh\textoverset{b}{a}` | yes |
+| `02-37` | `series-root` | 百 | `pak` | 1 | `pak` | yes |
+| `02-38` | `series-root` | 白 | `pak` | 2 | `pak₂` | yes |
+| `02-39` | `series-root` | 霸 | `pak` | 3 | `pak₃` | yes |
 | `02-40` | `series-root` | 莫 | `mak` | 1 | `mak` | yes |
 | `02-40` | `subseries-root` | 幕 | `m\textoverset{a}{a}k` | 1 | `m\textoverset{a}{a}k` | yes |
 | `03-01` | `series-root` | 亢 | `ṅaṅ` | 1 | `ṅaṅ` | yes |
@@ -266,7 +273,7 @@
 | `06-10` | `series-root` | 氶 | `kyṅ` | 1 | `kyṅ` | yes |
 | `06-10` | `subseries-root` | 丞 | `tyṅ` | 3 | `tyṅ₃` | yes |
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
-| `06-13` | `series-root` | 㑞 | `ɡlum` | 1 | `ɡlum` | yes |
+| `06-13` | `series-root` | 朕 | `ɡlum` | 1 | `ɡlum` | yes |
 | `06-13` | `subseries-root` | 朕 | `ɡlum` | 2 | `ɡlum₂` | yes |
 | `06-17` | `series-root` | 夌 | `ryṅ` | 1 | `ryṅ` | yes |
 | `06-17` | `subseries-root` | 淩 | `ryṅ` | 2 | `ryṅ₂` | yes |
@@ -695,9 +702,8 @@
 | `31-16` | `subseries-root` | 屈 | `kut` | 2 | `kut₂` | yes |
 | `31-17` | `series-root` | 朮 | `lut` | 2 | `lut₂` | yes |
 | `31-20` | `series-root` | 卒 | `tsut` | 1 | `tsut` | yes |
-| `32-01` | `series-root` | 臤 | `kin` | 1 | `kin` | yes |
+| `32-01` | `series-root` | 臣 | `kin` | 1 | `kin` | yes |
 | `32-01` | `subseries-root` | 臣 | `kin` | 2 | `kin₂` | yes |
-| `32-01` | `subseries-root` | 臤 | `kin` | 3 | `kin₃` | yes |
 | `32-05` | `series-root` | 玄 | `quin` | 1 | `quin` | yes |
 | `32-05` | `subseries-root` | 弦 | `gin` | 1 | `gin` | yes |
 | `32-07` | `series-root` | 勻 | `quiṅ` | 1 | `quiṅ` | yes |

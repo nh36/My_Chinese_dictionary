@@ -1,17 +1,17 @@
 # Pilot render readiness
 
 - Overall status: **ready**
-- Curated packet count: 392
-- Proposed additions under review: 4532
+- Curated packet count: 398
+- Proposed additions under review: 4547
 
 | Check | Ready | Total |
 | --- | ---: | ---: |
-| Semantic assignment present | 4532 | 4532 |
-| Semantic placement present | 4532 | 4532 |
-| Transliteration LaTeX present | 4532 | 4532 |
-| Candidate render LaTeX present | 4532 | 4532 |
-| Relation `:` kept out of baseline text | 4532 | 4532 |
-| Generated subseries heads rendered with `=` root lines | 322 | 322 |
+| Semantic assignment present | 4547 | 4547 |
+| Semantic placement present | 4547 | 4547 |
+| Transliteration LaTeX present | 4547 | 4547 |
+| Candidate render LaTeX present | 4547 | 4547 |
+| Relation `:` kept out of baseline text | 4547 | 4547 |
+| Generated subseries heads rendered with `=` root lines | 323 | 323 |
 
 ## Render markers
 

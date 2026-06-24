@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4532
-- Pages fetched / cached successfully: 4469
-- Additions with explicit Han-compound semantic/phonetic roles: 2173
+- Proposed additions checked: 4547
+- Pages fetched / cached successfully: 4484
+- Additions with explicit Han-compound semantic/phonetic roles: 2182
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -227,6 +227,8 @@
 | `02-27` | 液 | yes | yes | 水 | 夜 |
 | `02-28` | 夕 | yes | no |  |  |
 | `02-28` | 穸 | yes | yes | 穴 | 夕 |
+| `02-29` | 席 | yes | yes | 巾 | 庶 |
+| `02-29` | 蓆 | yes | no |  |  |
 | `02-31` | 乍 | yes | no |  |  |
 | `02-31` | 咋 | yes | no |  |  |
 | `02-31` | 詐 | yes | yes | 言 | 乍 |
@@ -261,6 +263,18 @@
 | `02-32` | 措 | yes | yes | 手 | 昔 |
 | `02-32` | 蜡 | yes | no |  |  |
 | `02-32` | 矠 | yes | no |  |  |
+| `02-33` | 索 | yes | no |  |  |
+| `02-34` | 朔 | yes | yes | 月 | 屰 |
+| `02-34` | 愬 | yes | yes | 心 | 朔 |
+| `02-34` | 𧪜 | yes | no |  |  |
+| `02-34` | 遡 | yes | yes | 水 | 㡿 |
+| `02-35` | 舄 | yes | no |  |  |
+| `02-35` | 潟 | yes | yes | 水 | 舄 |
+| `02-35` | 寫 | yes | yes | 宀 | 舄 |
+| `02-35` | 瀉 | yes | yes | 水 | 寫 |
+| `02-37` | 百 | yes | yes | 一 | 白 |
+| `02-37` | 貊 | yes | no |  |  |
+| `02-37` | 陌 | yes | yes | 阜 | 百 |
 | `02-38` | 白 | yes | no |  |  |
 | `02-38` | 帛 | yes | yes | 巾 | 白 |
 | `02-38` | 伯 | yes | yes | 人 | 白 |
@@ -273,6 +287,7 @@
 | `02-38` | 胉 | yes | no |  |  |
 | `02-38` | 泊 | yes | yes | 水 | 白 |
 | `02-38` | 碧 | yes | yes | 玉, 石 | 白 |
+| `02-39` | 霸 | yes | no |  |  |
 | `02-40` | 莫 | yes | no |  |  |
 | `02-40` | 暮 | yes | yes | 日 | 莫 |
 | `02-40` | 募 | yes | yes | 力 | 莫 |
