@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4315
-- Pages fetched / cached successfully: 4257
-- Additions with explicit Han-compound semantic/phonetic roles: 2073
+- Proposed additions checked: 4352
+- Pages fetched / cached successfully: 4294
+- Additions with explicit Han-compound semantic/phonetic roles: 2092
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -88,6 +88,12 @@
 | `02-02` | 郄 | yes | no |  |  |
 | `02-02` | 腳 | yes | yes | 肉 | 卻 |
 | `02-02` | 脚 | yes | no |  |  |
+| `02-06` | 郭 | yes | no |  |  |
+| `02-06` | 椁 | yes | no |  |  |
+| `02-06` | 槨 | yes | no |  |  |
+| `02-06` | 廓 | yes | yes | 广 | 郭 |
+| `02-06` | 鞟 | yes | no |  |  |
+| `02-06` | 鞹 | yes | no |  |  |
 | `02-08` | 蒦 | yes | no |  |  |
 | `02-08` | 獲 | yes | yes | 犬 | 蒦 |
 | `02-08` | 韄 | yes | no |  |  |
@@ -465,6 +471,12 @@
 | `03-49` | 蔣 | yes | yes | 艸 | 將 |
 | `03-49` | 醬 | yes | yes | 酉 | 將 |
 | `03-49` | 鏘 | yes | no |  |  |
+| `03-55` | 相 | yes | no |  |  |
+| `03-55` | 想 | yes | yes | 心 | 相 |
+| `03-55` | 湘 | yes | yes | 水 | 相 |
+| `03-55` | 箱 | yes | yes | 竹 | 相 |
+| `03-55` | 霜 | yes | yes | 雨 | 相 |
+| `03-55` | 孀 | yes | yes | 女 | 霜 |
 | `03-57` | 方 | yes | no |  |  |
 | `03-57` | 埅 | yes | no |  |  |
 | `03-57` | 魴 | yes | no |  |  |
@@ -1454,6 +1466,12 @@
 | `11-21` | 遫 | yes | no |  |  |
 | `11-21` | 嗽 | yes | yes | 口 | 欶 |
 | `11-21` | 漱 | yes | no |  |  |
+| `11-22` | 卜 | yes | no |  |  |
+| `11-22` | 扑 | yes | yes | 手 | 卜 |
+| `11-22` | 朴 | yes | yes | 木 | 卜 |
+| `11-22` | 仆 | yes | yes | 人 | 卜 |
+| `11-22` | 訃 | yes | yes | 言 | 卜 |
+| `11-22` | 赴 | yes | yes | 走 | 卜 |
 | `11-23` | 菐 | yes | yes | 丵 | 廾 |
 | `11-23` | 僕 | yes | yes | 人 | 菐 |
 | `11-23` | 樸 | yes | yes | 木 | 菐 |
@@ -1750,6 +1768,12 @@
 | `13-48` | 輮 | yes | no |  |  |
 | `13-48` | 糅 | yes | no |  |  |
 | `13-48` | 猱 | yes | no |  |  |
+| `13-50` | 丑 | yes | no |  |  |
+| `13-50` | 杻 | yes | yes | 木 | 丑 |
+| `13-50` | 狃 | yes | yes | 犬 | 丑 |
+| `13-50` | 紐 | yes | yes | 糸 | 丑 |
+| `13-50` | 羞 | yes | yes | 羊 | 丑 |
+| `13-50` | 忸 | yes | no |  |  |
 | `13-57` | 秋 | yes | yes | 禾 | 𤒅 |
 | `13-57` | 楸 | yes | no |  |  |
 | `13-57` | 萩 | yes | no |  |  |
@@ -1818,6 +1842,12 @@
 | `14-02` | 麴 | yes | yes | 麥 | 匊 |
 | `14-02` | 鞫 | yes | no |  |  |
 | `14-02` | 𥷚 | no | no |  |  |
+| `14-03` | 學 | yes | no |  | 爻, 六 |
+| `14-03` | 斆 | yes | no |  |  |
+| `14-03` | 覺 | yes | yes | 見 | 𦥯 |
+| `14-03` | 嚳 | yes | yes | 告 | 學 |
+| `14-03` | 鷽 | yes | no |  |  |
+| `14-03` | 攪 | yes | yes | 手 | 覺 |
 | `14-14` | 賣 | yes | yes | 出 | 買 |
 | `14-14` | 儥 | yes | yes | 人 | 𧶠 |
 | `14-14` | 覿 | yes | no |  |  |
@@ -3040,6 +3070,13 @@
 | `26-17` | 䧅 | yes | no |  |  |
 | `26-17` | 桋 | yes | no |  |  |
 | `26-17` | 荑 | yes | no |  |  |
+| `26-19` | 矢 | yes | no |  |  |
+| `26-19` | 屎 | yes | yes | 米 | 尸 |
+| `26-19` | 雉 | yes | no |  |  |
+| `26-19` | 矧 | yes | no |  |  |
+| `26-19` | 矤 | yes | no |  |  |
+| `26-19` | 䀢 | yes | no |  |  |
+| `26-19` | 薙 | yes | no |  |  |
 | `26-24` | 利 | yes | no |  |  |
 | `26-24` | 𥝢 | yes | no |  |  |
 | `26-24` | 犁 | yes | yes | 牛 | 利 |
