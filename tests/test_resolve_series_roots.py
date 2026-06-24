@@ -120,6 +120,25 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("source"), "head_graph_supported_root")
         self.assertGreaterEqual(resolved.get("support_count", 0), 2)
 
+    def test_01_40_explicit_b_header_uses_head_shengfu(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/01-40.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "樗")
+        self.assertEqual(resolved.get("root"), "kua")
+        self.assertEqual(resolved.get("source"), "head_graph_oc_shengfu")
+
+    def test_02_03_falls_back_to_b_suffix_when_a_lacks_oc_evidence(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/02-03.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "戟")
+        self.assertEqual(resolved.get("root"), "kak")
+        self.assertEqual(resolved.get("source"), "head_graph_oc_bs")
+        self.assertGreaterEqual(resolved.get("support_count", 0), 2)
+
     def test_26_28_supplemental_shengfu_rows_cover_variant_and_combined_forms(self) -> None:
         supplement = resolve_series_roots.load_head_supplement(
             ROOT / "data/series_root_head_supplement.json"

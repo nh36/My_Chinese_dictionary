@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T20:27:03.813521+00:00",
+  "generated_at": "2026-06-24T20:38:04.956765+00:00",
   "id": "35-21",
   "schuessler": {
     "gsc_id": "35-21",
@@ -4131,14 +4131,87 @@
       "Machine-promoted from a series packet; not yet hand-checked.",
       "Use this file as the staging area for editorial decisions before any merge into main.tex."
     ],
-    "series_root_candidates": [],
+    "series_root_candidates": [
+      {
+        "character": "劫",
+        "gsr": "0642h",
+        "oc_bs": "*kap {*k(r)ap}",
+        "root": "kap",
+        "source": "head_graph_oc_bs",
+        "support_count": 10,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "劫",
+        "gsr": null,
+        "oc_bs": "*kob",
+        "root": "kop",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 3,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "法",
+        "gsr": null,
+        "oc_bs": "*pkab",
+        "root": "pap",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_shengfu",
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "盍",
+        "gsr": null,
+        "oc_bs": "*ɡa̠b",
+        "root": "ɡap",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 4,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "磕",
+        "gsr": null,
+        "oc_bs": "*kʰa̠d",
+        "root": "kat",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "饁",
+        "gsr": null,
+        "oc_bs": "*ɢʳab",
+        "root": "qap",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      }
+    ],
     "resolved_series_root": {
       "root": "kap",
-      "source": "packet_bs_majority",
-      "character": null,
+      "source": "head_graph_supported_root",
+      "character": "劫",
       "oc_bs": "*kap {*k(r)ap}",
       "confidence": "provisional-oc",
-      "supporting_characters": 4,
+      "support_count": 10,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
       "display_root": "kap",
       "base_root": "kap",
       "ordinal": 1,

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4514
-- Pages fetched / cached successfully: 4453
-- Additions with explicit Han-compound semantic/phonetic roles: 2168
+- Proposed additions checked: 4524
+- Pages fetched / cached successfully: 4461
+- Additions with explicit Han-compound semantic/phonetic roles: 2171
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,8 @@
 | `01-20` | 鸜 | yes | no |  |  |
 | `01-20` | 臞 | yes | yes | 肉 | 瞿 |
 | `01-20` | 懼 | yes | yes | 心 | 瞿 |
+| `01-40` | 樗 | yes | yes | 木 | 雩 |
+| `01-41` | 杵 | yes | yes | 木 | 午 |
 | `01-42` | 徐 | yes | yes | 彳 | 余 |
 | `01-43` | 𨑦 | no | no |  |  |
 | `01-43` | 𡐨 | yes | no |  |  |
@@ -100,6 +102,13 @@
 | `02-02` | 郄 | yes | no |  |  |
 | `02-02` | 腳 | yes | yes | 肉 | 卻 |
 | `02-02` | 脚 | yes | no |  |  |
+| `02-03` | 𢧢 | yes | no |  |  |
+| `02-03` | 戟 | yes | no |  |  |
+| `02-04` | 丮 | yes | no |  |  |
+| `02-05` | 𡭴 | no | no |  |  |
+| `02-05` | 𡭽 | no | no |  |  |
+| `02-05` | 隙 | yes | yes | 阜 | 𡭴 |
+| `02-05` | 虩 | yes | no |  |  |
 | `02-06` | 郭 | yes | no |  |  |
 | `02-06` | 椁 | yes | no |  |  |
 | `02-06` | 槨 | yes | no |  |  |
@@ -117,6 +126,7 @@
 | `02-08` | 雘 | yes | no |  |  |
 | `02-08` | 蠖 | yes | no |  |  |
 | `02-08` | 擭 | yes | no |  |  |
+| `02-09` | 壑 | yes | no |  |  |
 | `02-10` | 赫 | yes | no |  |  |
 | `02-10` | 嚇 | yes | yes | 口 | 赫 |
 | `02-12` | 霍 | yes | no |  |  |

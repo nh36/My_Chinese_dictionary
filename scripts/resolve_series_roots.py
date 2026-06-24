@@ -301,6 +301,27 @@ def build_head_supplement_candidate(head_data: dict[str, Any] | None) -> dict[st
     }
 
 
+def classify_header_match(
+    row_parts: tuple[int, str],
+    header_specs: list[tuple[int, str]],
+) -> str | None:
+    digits, suffix = row_parts
+    matched_bare = False
+    for header_digits, header_suffix in header_specs:
+        if digits != header_digits:
+            continue
+        if header_suffix:
+            if suffix == header_suffix:
+                return "preferred"
+            continue
+        matched_bare = True
+    if not matched_bare:
+        return None
+    if suffix in {"", "a"}:
+        return "preferred"
+    return "fallback"
+
+
 def derive_root_candidates(
     entry: dict[str, Any],
     *,
@@ -309,30 +330,37 @@ def derive_root_candidates(
     if entry.get("packet_kind") != "missing_series":
         return []
 
-    header_tokens = {
-        int(token)
+    header_specs = [
+        parts
         for token in entry.get("schuessler", {}).get("k_tokens", [])
-        if str(token).isdigit()
-    }
-    candidates: list[dict[str, Any]] = []
+        if (parts := split_gsr(str(token).strip())) is not None
+    ]
+    preferred_candidates: list[dict[str, Any]] = []
+    fallback_candidates: list[dict[str, Any]] = []
 
     for candidate in entry.get("proposed_additions", []):
         rows = candidate.get("mand2mc_rows", []) + candidate.get("bs_gsr_rows", [])
-        matched_header_token = False
+        preferred_match = False
+        fallback_match = False
         for row in rows:
             parts = split_gsr(row.get("gsr"))
             if parts is None:
                 continue
-            digits, suffix = parts
-            if digits not in header_tokens or suffix not in {"", "a"}:
+            match_kind = classify_header_match(parts, header_specs)
+            if match_kind is None:
                 continue
-            matched_header_token = True
+            if match_kind == "preferred":
+                preferred_match = True
+                target_candidates = preferred_candidates
+            else:
+                fallback_match = True
+                target_candidates = fallback_candidates
 
             oc_bs = row.get("oc_bs")
             root = derive_oc_root(oc_bs, mode="broad")
             if not root:
                 continue
-            candidates.append(
+            target_candidates.append(
                 {
                     "character": candidate["character"],
                     "gsr": row.get("gsr"),
@@ -341,8 +369,9 @@ def derive_root_candidates(
                     "source": "head_graph_oc_bs",
                 }
             )
-        if not matched_header_token:
+        if not preferred_match and not fallback_match:
             continue
+        target_candidates = preferred_candidates if preferred_match else fallback_candidates
         for row in candidate.get("shengfu_character_rows", []):
             oc_syllable = row.get("oc_syllable")
             if not oc_syllable:
@@ -350,7 +379,7 @@ def derive_root_candidates(
             root = derive_oc_root(f"*{oc_syllable}", mode="broad")
             if not root:
                 continue
-            candidates.append(
+            target_candidates.append(
                 {
                     "character": candidate["character"],
                     "gsr": None,
@@ -362,7 +391,9 @@ def derive_root_candidates(
 
     supplement_candidate = build_head_supplement_candidate(get_head_supplement(entry, head_supplement))
     if supplement_candidate is not None:
-        candidates.append(supplement_candidate)
+        preferred_candidates.append(supplement_candidate)
+
+    candidates = preferred_candidates or fallback_candidates
 
     deduped: dict[str, dict[str, Any]] = {}
     for item in candidates:

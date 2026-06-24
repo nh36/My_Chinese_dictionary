@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-06-24T20:33:33.666790+00:00",
+  "id": "02-03",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "02-03",
+    "rhyme_section": 2,
+    "series_number": 3,
+    "k_tokens": [
+      "785"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC        LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 91,
+    "source_line_number": 45,
+    "source_line_raw": "2-3    =K. 785              Man d.        MC        LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "02-03",
+    "rhyme_section": "2",
+    "series_number": "3",
+    "schuessler_k_tokens": "785",
+    "schuessler_source_page": "91",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "𢧢; 戟",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "戟",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "𢧢; 戟"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "785"
+  ],
+  "proposed_additions": [
+    {
+      "character": "𢧢",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kiaek"
+        ],
+        "mand2mc_nwh_forms": [
+          "kiaek"
+        ],
+        "mand2mc_bs_forms": [
+          "kjaek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5765",
+          "character": "𢧢",
+          "pinyin": "ji3",
+          "mc_nwh": "kiaek",
+          "mc_bs": "kjaek",
+          "gsr": "0785a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{kak₂}},",
+      "render_latex": "𢧢\t%ji3\n{\\large{kak₂}},\n\\textit{kiaek};\t%0785a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    },
+    {
+      "character": "戟",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kiaek"
+        ],
+        "mand2mc_nwh_forms": [
+          "kiaek"
+        ],
+        "mand2mc_bs_forms": [
+          "kjaek"
+        ],
+        "bs_gsr_forms": [
+          "kjaek"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5766",
+          "character": "戟",
+          "pinyin": "ji3",
+          "mc_nwh": "kiaek",
+          "mc_bs": "kjaek",
+          "gsr": "0785b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "122",
+          "character": "戟",
+          "pinyin": "jǐ",
+          "mc_bs": "kjaek",
+          "mc_analyzed": "(k- + -jaek D)",
+          "oc_bs": "*krak {*[k]rak}",
+          "gloss": "a kind of lance",
+          "gsr": "0785b",
+          "unicode_utf16": "U+621F"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6197",
+          "character": "戟",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "6197",
+          "character": "戟",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        },
+        {
+          "source_row_number": "6198",
+          "character": "撠",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|榦|戈|ls=ic|t1=branch|t2=dagger-axe|nocap=1}}",
+          "positional_components": [
+            "榦",
+            "戈"
+          ],
+          "positional_components_raw": [
+            "榦",
+            "戈"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "branch",
+            "t2": "dagger-axe",
+            "nocap": "1"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|榦|戈|ls=ic|t1=branch|t2=dagger-axe|nocap=1}}",
+            "positional_components": [
+              "榦",
+              "戈"
+            ],
+            "positional_components_raw": [
+              "榦",
+              "戈"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "branch",
+              "t2": "dagger-axe",
+              "nocap": "1"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{kak₂}},",
+      "render_latex": "戟\t%ji3 / jǐ\n{\\large{kak₂}},\n\\textit{kiaek};\t%0785b",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "𢧢",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kiaek"
+        ],
+        "mand2mc_nwh_forms": [
+          "kiaek"
+        ],
+        "mand2mc_bs_forms": [
+          "kjaek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5765",
+          "character": "𢧢",
+          "pinyin": "ji3",
+          "mc_nwh": "kiaek",
+          "mc_bs": "kjaek",
+          "gsr": "0785a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "戟",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kiaek"
+        ],
+        "mand2mc_nwh_forms": [
+          "kiaek"
+        ],
+        "mand2mc_bs_forms": [
+          "kjaek"
+        ],
+        "bs_gsr_forms": [
+          "kjaek"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5766",
+          "character": "戟",
+          "pinyin": "ji3",
+          "mc_nwh": "kiaek",
+          "mc_bs": "kjaek",
+          "gsr": "0785b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "122",
+          "character": "戟",
+          "pinyin": "jǐ",
+          "mc_bs": "kjaek",
+          "mc_analyzed": "(k- + -jaek D)",
+          "oc_bs": "*krak {*[k]rak}",
+          "gloss": "a kind of lance",
+          "gsr": "0785b",
+          "unicode_utf16": "U+621F"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6197",
+          "character": "戟",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "6197",
+          "character": "戟",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        },
+        {
+          "source_row_number": "6198",
+          "character": "撠",
+          "phonetic_component": "戟",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "几劇",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "kʳaɡ"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "戟",
+      "gsr": "0785b",
+      "oc_bs": "*krak {*[k]rak}",
+      "root": "kak",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "kak",
+    "source": "head_graph_oc_bs",
+    "character": "戟",
+    "oc_bs": "*krak {*[k]rak}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "kak₂",
+    "base_root": "kak",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

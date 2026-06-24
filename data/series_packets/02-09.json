@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-06-24T20:33:33.548492+00:00",
+  "gsc_id": "02-09",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "767"
+  ],
+  "schuessler": {
+    "gsc_id": "02-09",
+    "rhyme_section": 2,
+    "series_number": 9,
+    "k_tokens": [
+      "767"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC        LHan       OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 92,
+    "source_line_number": 62,
+    "source_line_raw": "2-9    = K. 767         Man d.       MC        LHan       OCM"
+  },
+  "coverage": {
+    "gsc_id": "02-09",
+    "rhyme_section": "2",
+    "series_number": "9",
+    "schuessler_k_tokens": "767",
+    "schuessler_source_page": "92",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "壑",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "壑",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "壑"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "壑",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5664",
+          "character": "壑",
+          "pinyin": "he4",
+          "mc_nwh": "xak",
+          "mc_bs": "xak",
+          "gsr": "0767a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "120",
+          "character": "壑",
+          "pinyin": "hè",
+          "mc_bs": "xak",
+          "mc_analyzed": "(x- + -ak D)",
+          "oc_bs": "*qʰˤak",
+          "gloss": "moat; canal",
+          "gsr": "0767a",
+          "unicode_utf16": "U+58D1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5418",
+          "character": "壑",
+          "phonetic_component": "壑",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呵各",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "qʰa̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "5418",
+          "character": "壑",
+          "phonetic_component": "壑",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呵各",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "qʰa̠ɡ"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "xak"
+        ],
+        "mand2mc_nwh_forms": [
+          "xak"
+        ],
+        "mand2mc_bs_forms": [
+          "xak"
+        ],
+        "bs_gsr_forms": [
+          "xak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "5664",
+        "character": "壑",
+        "pinyin": "he4",
+        "mc_nwh": "xak",
+        "mc_bs": "xak",
+        "gsr": "0767a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "120",
+        "character": "壑",
+        "pinyin": "hè",
+        "mc_bs": "xak",
+        "mc_analyzed": "(x- + -ak D)",
+        "oc_bs": "*qʰˤak",
+        "gloss": "moat; canal",
+        "gsr": "0767a",
+        "unicode_utf16": "U+58D1"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
