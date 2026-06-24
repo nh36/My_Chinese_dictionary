@@ -120,6 +120,18 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("source"), "head_graph_supported_root")
         self.assertGreaterEqual(resolved.get("support_count", 0), 2)
 
+    def test_02_11_component_series_root_breaks_conflicting_shengfu_tie(self) -> None:
+        component_entry = json.loads((ROOT / "data/entries/curation/02-05.json").read_text(encoding="utf-8"))
+        component_root_index = resolve_series_roots.build_component_root_index([component_entry])
+        entry = json.loads((ROOT / "data/entries/curation/02-11.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, component_root_index=component_root_index)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "覤")
+        self.assertEqual(resolved.get("root"), "kak")
+        self.assertEqual(resolved.get("source"), "head_graph_supported_root")
+        self.assertGreaterEqual(resolved.get("support_count", 0), 2)
+
     def test_01_40_explicit_b_header_uses_head_shengfu(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/01-40.json").read_text(encoding="utf-8"))
         entry = resolve_series_roots.apply_root_resolution(entry)

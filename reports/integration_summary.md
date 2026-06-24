@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 490
+- Integrated series count: 496
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 386
+- Active curated packet count: 392
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 370
+- Generated missing-series entries: 376
 - Records with hand-source conflicts: 0
 
 | GSC | Render mode | Status flags |
@@ -93,18 +93,24 @@
 | `02-08` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-09` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-10` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-11` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-12` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-13` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-14` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-17` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-18` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-19` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-20` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-21` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-22` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-23` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-24` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-25` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-26` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-27` | `generated_missing_series` | needs_review, generated_candidate |
+| `02-28` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-30` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `02-31` | `generated_missing_series` | needs_review, generated_candidate |
 | `02-32` | `generated_missing_series` | needs_review, generated_candidate |

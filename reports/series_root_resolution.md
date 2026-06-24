@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 370
-- Packets with at least one root candidate: 370
-- Packets with a single resolved provisional root: 370
+- Missing-series packets inspected: 376
+- Packets with at least one root candidate: 376
+- Packets with a single resolved provisional root: 375
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -16,24 +16,30 @@
 | `02-01` | 各→kak [*kˤak] (0766a) | `kak` | `head_graph_oc_bs` |
 | `02-02` | 𧮫→ɡak [*ɡaɡ] (None) | `ɡak` | `head_graph_oc_shengfu` |
 | `02-03` | 戟→kak [*krak {*[k]rak}] (0785b) | `kak` | `head_graph_oc_bs` |
-| `02-04` | 丮→kak [*kʳaɡ] (None) | `kak` | `head_graph_oc_shengfu` |
+| `02-04` | 丮→kak [*kʳaɡ] (None); 丮→ɡak [*ɡaɡ] (None) | `` | `` |
 | `02-05` | 𡭴→kak [*kʰʳaɡ] (None) | `kak` | `head_graph_oc_shengfu` |
 | `02-06` | 郭→kuak [*kʷˤak] (0774a) | `kuak` | `head_graph_oc_bs` |
 | `02-08` | 蒦→quak [*m-qʷˤrak] (0784a) | `quak` | `head_graph_oc_bs` |
 | `02-09` | 壑→qak [*qʰˤak] (0767a) | `qak` | `head_graph_oc_bs` |
 | `02-10` | 赫→qak [*qʰˤrak] (0779a) | `qak` | `head_graph_oc_bs` |
+| `02-11` | 覤→kak [*kʰʳaɡ] (None); 覤→qyk [*qʰɯɡ] (None) | `kak` | `head_graph_supported_root` |
 | `02-12` | 霍→quo [*qʷʰo̠ɡʷ] (None) | `quo` | `head_graph_oc_shengfu` |
 | `02-13` | 亞→ʔak [*ʔˤrak-s] (0805a) | `ʔak` | `head_graph_oc_bs` |
 | `02-14` | 屰→ṅak [*ŋrak] (0788a) | `ṅak` | `head_graph_oc_bs` |
+| `02-15` | 噩→ṅak [*ŋa̠ɡ] (None) | `ṅak` | `head_graph_oc_shengfu` |
 | `02-16` | 度→tak [*dˤak {*[d]ˤak}] (0801a) | `tak` | `head_graph_oc_bs` |
 | `02-17` | 石→tak [*dak {*dAk}] (0795a) | `tak` | `head_graph_oc_bs` |
 | `02-18` | 庶→tak [*s-tak-s] (0804a) | `tak` | `head_graph_oc_bs` |
+| `02-19` | 炙→tak [*tak-s {*tAk-s}] (0791a) | `tak` | `head_graph_oc_bs` |
+| `02-20` | 尺→tak [*tʰak {*tʰAk}] (0794a) | `tak` | `head_graph_oc_bs` |
+| `02-21` | 辵→tak [*tʰaɡ] (None) | `tak` | `head_graph_oc_shengfu` |
 | `02-22` | 乇→tak [*tˤrak] (0780a) | `tak` | `head_graph_oc_bs` |
 | `02-23` | 㡿→qak [*t-qʰak {*t-qʰAk}] (0792a) | `qak` | `head_graph_oc_bs` |
 | `02-24` | 赤→qak [*t-qʰak {*[t-qʰ](r)Ak}] (0793a) | `qak` | `head_graph_oc_bs` |
 | `02-25` | 睪→lak [*ɡ‧laɡ] (None) | `lak` | `head_graph_oc_shengfu` |
 | `02-26` | 射→lak [*Cə.lak-s {*Cə.lAk-s}] (0807a) | `lak` | `head_graph_oc_bs` |
 | `02-27` | 亦→qak [*ɢak {*ɢ(r)Ak}] (0800a) | `qak` | `head_graph_oc_bs` |
+| `02-28` | 夕→rak [*s-N-rak {*s-N-rAk}] (0796a) | `rak` | `head_graph_oc_bs` |
 | `02-31` | 乍→tsak [*dzˤrak-s {*[dz]ˤrak-s}] (0806a) | `tsak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |
 | `02-38` | 白→pak [*bˤrak] (0782a) | `pak` | `head_graph_oc_bs` |
@@ -82,7 +88,7 @@
 | `04-41` | 而→ny [*nə] (0982a) | `ny` | `head_graph_oc_bs` |
 | `04-45` | 才→tsy [*dzˤə {*(Cə.)[dz]ˤə}] (0943a) | `tsy` | `head_graph_oc_bs` |
 | `04-47` | 子→tsy [*tsəʔ {*[ts]əʔ}] (0964a) | `tsy` | `head_graph_oc_bs` |
-| `04-49` | 玆→ɡin [*ɡʷi̠n] (None) | `ɡin` | `head_graph_oc_shengfu` |
+| `04-49` | 玆→ɡin [*ɡʷi̠n] (None); 玆→quin [*ɢʷˤin {*[ɢ]ʷˤi[n]}] (None) | `tsy` | `packet_bs_consensus` |
 | `04-52` | 史→ry [*s-rəʔ] (0975a) | `ry` | `head_graph_oc_bs` |
 | `04-53` | 司→ly [*s-lə] (0972a) | `ly` | `head_graph_oc_bs` |
 | `04-61` | 不→py [*pə] (0999a) | `py` | `head_graph_oc_bs` |
@@ -96,7 +102,7 @@
 | `06-05` | 𠃋→kuyṅ [*kʷˤəŋ {*[k]ʷˤəŋ}] (0887a) | `kuyṅ` | `head_graph_oc_bs` |
 | `06-09` | 豋→tyṅ [*tˤəŋ] (0883a) | `tyṅ` | `head_graph_oc_bs` |
 | `06-10` | 氶→kyṅ [*kʲɯŋʔ] (None) | `kyṅ` | `head_graph_oc_shengfu` |
-| `06-13` | 㑞→lum [*ɡ‧lums] (None); 朕→lym [*lrəmʔ] (0893f); 朕→ɡlum [*ɡlumʔ] (None); 媵→qum [*ɢlʲums] (None); 塍→lyṅ [*Cə.ləŋ] (0893n); 螣→ɡlup [*ɡlu̠b] (None) | `ɡlum` | `head_graph_supported_root` |
+| `06-13` | 㑞→lum [*ɡ‧lums] (None); 㑞→ɡlum [*ɡlumʔ] (None); 朕→lym [*lrəmʔ] (0893f); 媵→qum [*ɢlʲums] (None); 塍→lyṅ [*Cə.ləŋ] (0893n); 螣→ɡlup [*ɡlu̠b] (None) | `ɡlum` | `head_graph_supported_root` |
 | `06-17` | 夌→ryṅ [*rəŋ {*[r]əŋ}] (0898a) | `ryṅ` | `head_graph_oc_bs` |
 | `06-19` | 曾→tsyṅ [*dzˤəŋ {*[dz]ˤəŋ}] (0884a) | `tsyṅ` | `head_graph_oc_bs` |
 | `06-20` | 朋→pyṅ [*bˤəŋ {*[b]ˤəŋ}] (0886a) | `pyṅ` | `head_graph_oc_bs` |
@@ -306,7 +312,7 @@
 | `31-16` | 出→kut [*t.kʰut-s] (0496a) | `kut` | `head_graph_oc_bs` |
 | `31-17` | 朮→lut [*mə.lut ~ *m.lut] (0497a) | `lut` | `head_graph_oc_bs` |
 | `31-20` | 卒→tsut [*tsut {*[ts]ut}] (0490a) | `tsut` | `head_graph_oc_bs` |
-| `32-01` | 臣→kin [*gin {*[g]i[n]}] (0377a) | `kin` | `head_graph_oc_bs` |
+| `32-01` | 臤→kiṅ [*kʰʳi̠ŋ] (None); 臤→kin [*gin {*[g]i[n]}] (None); 臣→ɡʲiṅ [*ɡʲiŋ] (None) | `kin` | `head_graph_supported_root` |
 | `32-05` | 玄→quin [*ɢʷˤin {*[ɢ]ʷˤi[n]}] (0366a) | `quin` | `head_graph_oc_bs` |
 | `32-07` | 勻→quiṅ [*ɢʷiŋ] (None) | `quiṅ` | `head_graph_oc_shengfu` |
 | `32-08` | 旬→quin [*s-ɢʷin {*s-[ɢ]ʷi[n]}] (0392a) | `quin` | `head_graph_oc_bs` |
@@ -347,7 +353,7 @@
 | `34-26` | 尊→tsun [*tsˤun {*[ts]ˤu[n]}] (0430a) | `tsun` | `head_graph_oc_bs` |
 | `34-30` | 巽→sun [*skˡu̠ns] (None) | `sun` | `head_graph_oc_shengfu` |
 | `35-03` | 夾→kep [*C.kˤ<r>ep] (0630a) | `kep` | `head_graph_oc_bs` |
-| `35-10` | 枼→lep [*ɡ‧leb] (None) | `lep` | `head_graph_oc_shengfu` |
+| `35-10` | 枼→lep [*ɡ‧leb] (None); 枼→lap [*l̥ap-s {*l̥[a]p-s}] (None) | `ɡlep` | `packet_shengfu_majority` |
 | `35-12` | 巤→rap [*rab] (None) | `rap` | `head_graph_oc_shengfu` |
 | `35-21` | 劫→kap [*kap {*k(r)ap}] (0642h); 劫→kop [*kob] (None); 法→pap [*pkab] (None); 盍→ɡap [*ɡa̠b] (None); 磕→kat [*kʰa̠d] (None); 饁→qap [*ɢʳab] (None) | `kap` | `head_graph_supported_root` |
 | `36-01` | 甘→kam [*kˤam {*[k]ˤ[a]m}] (0606a) | `kam` | `head_graph_oc_bs` |

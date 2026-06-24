@@ -101,8 +101,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡin}},",
-      "render_latex": "玆\t%zi1\n{\\large{ɡin}},\n\\textit{tsi};\t%0966a",
+      "transliteration_latex": "{\\large{tsy₄}},",
+      "render_latex": "玆\t%zi1\n{\\large{tsy₄}},\n\\textit{tsi};\t%0966a",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -185,8 +185,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡin}},",
-      "render_latex": "茲\t%zi1\n{\\large{ɡin}},\n\\textit{tsi};\t%0966b",
+      "transliteration_latex": "{\\large{tsy₄}},",
+      "render_latex": "茲\t%zi1\n{\\large{tsy₄}},\n\\textit{tsi};\t%0966b",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -208,7 +208,7 @@
         "bs_node_roots": [
           "tsy"
         ],
-        "display_root": "tsy₄",
+        "display_root": "tsy₅",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
@@ -231,7 +231,7 @@
           }
         ],
         "base_root": "tsy",
-        "ordinal": 4,
+        "ordinal": 5,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -293,8 +293,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡin}},",
-      "render_latex": "嗞\t%zi1\n{\\large{ɡin}},\n\\textit{tsi};\t%0966g",
+      "transliteration_latex": "{\\large{tsy₄}},",
+      "render_latex": "嗞\t%zi1\n{\\large{tsy₄}},\n\\textit{tsi};\t%0966g",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -423,8 +423,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}tsy₄}},",
-      "render_latex": "滋\t%zi1 / zī\n{\\large{\\textsuperscript{aq·}tsy₄}},\n\\textit{tsi};\t%0966h",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}tsy₅}},",
+      "render_latex": "滋\t%zi1 / zī\n{\\large{\\textsuperscript{aq·}tsy₅}},\n\\textit{tsi};\t%0966h",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "茲",
@@ -544,8 +544,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡin}},",
-      "render_latex": "鎡\t%zi1\n{\\large{ɡin}},\n\\textit{tsi};\t%0966i",
+      "transliteration_latex": "{\\large{tsy₄}},",
+      "render_latex": "鎡\t%zi1\n{\\large{tsy₄}},\n\\textit{tsi};\t%0966i",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -676,8 +676,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tsy₄\\textsuperscript{˸cor}}},",
-      "render_latex": "慈\t%ci2 / cí\n{\\large{tsy₄\\textsuperscript{˸cor}}},\n\\textit{dzi};\t%0966j",
+      "transliteration_latex": "{\\large{tsy₅\\textsuperscript{˸cor}}},",
+      "render_latex": "慈\t%ci2 / cí\n{\\large{tsy₅\\textsuperscript{˸cor}}},\n\\textit{dzi};\t%0966j",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "茲",
@@ -855,8 +855,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡin\\textsuperscript{˸fili}}},",
-      "render_latex": "孳\t%zi4\n{\\large{ɡin\\textsuperscript{˸fili}}},\n\\textit{dziH};\t%0966k",
+      "transliteration_latex": "{\\large{tsy₄\\textsuperscript{˸fili}}},",
+      "render_latex": "孳\t%zi4\n{\\large{tsy₄\\textsuperscript{˸fili}}},\n\\textit{dziH};\t%0966k",
       "wiktionary_semantic_validation": {
         "semantic_component": "子",
         "phonetic_component": "兹",
@@ -1344,21 +1344,29 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ]
+    },
+    {
+      "character": "玆",
+      "gsr": null,
+      "oc_bs": "*ɢʷˤin {*[ɢ]ʷˤi[n]}",
+      "root": "quin",
+      "source": "phonetic_component_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "phonetic_component_series_root"
+      ]
     }
   ],
   "resolved_series_root": {
-    "root": "ɡin",
-    "source": "head_graph_oc_shengfu",
-    "character": "玆",
-    "oc_bs": "*ɡʷi̠n",
+    "root": "tsy",
+    "source": "packet_bs_consensus",
+    "character": null,
+    "oc_bs": "*tsə {*[ts]ə}",
     "confidence": "provisional-oc",
-    "support_count": 1,
-    "supporting_sources": [
-      "head_graph_oc_shengfu"
-    ],
-    "display_root": "ɡin",
-    "base_root": "ɡin",
-    "ordinal": 1,
+    "supporting_characters": 2,
+    "display_root": "tsy₄",
+    "base_root": "tsy",
+    "ordinal": 4,
     "numbering_source": "document_order_occurrence"
   }
 }

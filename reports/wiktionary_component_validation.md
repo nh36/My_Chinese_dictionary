@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4524
-- Pages fetched / cached successfully: 4461
-- Additions with explicit Han-compound semantic/phonetic roles: 2171
+- Proposed additions checked: 4532
+- Pages fetched / cached successfully: 4469
+- Additions with explicit Han-compound semantic/phonetic roles: 2173
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -129,6 +129,7 @@
 | `02-09` | 壑 | yes | no |  |  |
 | `02-10` | 赫 | yes | no |  |  |
 | `02-10` | 嚇 | yes | yes | 口 | 赫 |
+| `02-11` | 覤 | yes | no |  |  |
 | `02-12` | 霍 | yes | no |  |  |
 | `02-12` | 靃 | yes | no |  |  |
 | `02-12` | 藿 | yes | no |  |  |
@@ -148,6 +149,8 @@
 | `02-14` | 鄂 | yes | yes | 邑 | 咢 |
 | `02-14` | 鍔 | yes | no |  |  |
 | `02-14` | 鶚 | yes | yes | 鳥 | 咢 |
+| `02-15` | 噩 | yes | no |  |  |
+| `02-15` | 蘁 | yes | yes | 艸 | 噩 |
 | `02-16` | 度 | yes | yes | 又 | 石 |
 | `02-16` | 渡 | yes | yes | 水 | 度 |
 | `02-16` | 剫 | yes | no |  |  |
@@ -168,6 +171,9 @@
 | `02-18` | 遮 | yes | yes | 辵 | 庶 |
 | `02-18` | 摭 | yes | no |  |  |
 | `02-18` | 蹠 | yes | no |  |  |
+| `02-19` | 炙 | yes | no |  |  |
+| `02-20` | 尺 | yes | no |  |  |
+| `02-21` | 辵 | yes | no |  |  |
 | `02-22` | 乇 | yes | no |  |  |
 | `02-22` | 宅 | yes | yes | 宀 | 乇 |
 | `02-22` | 託 | yes | yes | 言 | 乇 |
@@ -219,6 +225,8 @@
 | `02-27` | 掖 | yes | yes | 手 | 夜 |
 | `02-27` | 腋 | yes | yes | 肉 | 夜 |
 | `02-27` | 液 | yes | yes | 水 | 夜 |
+| `02-28` | 夕 | yes | no |  |  |
+| `02-28` | 穸 | yes | yes | 穴 | 夕 |
 | `02-31` | 乍 | yes | no |  |  |
 | `02-31` | 咋 | yes | no |  |  |
 | `02-31` | 詐 | yes | yes | 言 | 乍 |

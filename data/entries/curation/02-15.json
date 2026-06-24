@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-06-24T20:41:13.765665+00:00",
+  "id": "02-15",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "02-15",
+    "rhyme_section": 2,
+    "series_number": 15,
+    "k_tokens": [
+      "768"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC        LHan      OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 93,
+    "source_line_number": 43,
+    "source_line_raw": "2-15 = K. 768          Man d.        MC        LHan      OCM"
+  },
+  "coverage": {
+    "gsc_id": "02-15",
+    "rhyme_section": "2",
+    "series_number": "15",
+    "schuessler_k_tokens": "768",
+    "schuessler_source_page": "93",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "噩; 蘁",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "噩; 蘁"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "768"
+  ],
+  "proposed_additions": [
+    {
+      "character": "噩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅak"
+        ],
+        "mand2mc_bs_forms": [
+          "ngak"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5665",
+          "character": "噩",
+          "pinyin": "e4",
+          "mc_nwh": "ṅak",
+          "mc_bs": "ngak",
+          "gsr": "0768a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2889",
+          "character": "噩",
+          "phonetic_component": "噩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五各",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "ŋa̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2889",
+          "character": "噩",
+          "phonetic_component": "噩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五各",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "ŋa̠ɡ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ṅak₂}},",
+      "render_latex": "噩\t%e4\n{\\large{ṅak₂}},\n\\textit{ṅak};\t%0768a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "噩",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "噩"
+      },
+      "resolved_node_root": {
+        "root": "ṅak",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "ṅak",
+        "division_class": "a",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "ṅak",
+          "ṅuH"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṅak",
+            "normalized": "ṅak",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅuH",
+            "normalized": "ṅu",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "蘁",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅak",
+          "ṅuH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅak",
+          "ṅuH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngak",
+          "nguH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5666",
+          "character": "蘁",
+          "pinyin": "e4",
+          "mc_nwh": "ṅak",
+          "mc_bs": "ngak",
+          "gsr": "0768d"
+        },
+        {
+          "source_row_number": "5667",
+          "character": "蘁",
+          "pinyin": "wu4",
+          "mc_nwh": "ṅuH",
+          "mc_bs": "nguH",
+          "gsr": "0768d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|噩|alt1=艹|c1=s|c2=p|ls=psc|t1=grass}}",
+          "positional_components": [
+            "艸",
+            "噩"
+          ],
+          "positional_components_raw": [
+            "艸",
+            "噩"
+          ],
+          "named_args": {
+            "alt1": "艹",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc",
+            "t1": "grass"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "噩"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|噩|alt1=艹|c1=s|c2=p|ls=psc|t1=grass}}",
+            "positional_components": [
+              "艸",
+              "噩"
+            ],
+            "positional_components_raw": [
+              "艸",
+              "噩"
+            ],
+            "named_args": {
+              "alt1": "艹",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc",
+              "t1": "grass"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "噩"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "herb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "艸",
+            "label_token": "herb(a)",
+            "abbreviation": "herb",
+            "start_line": 297
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "艸"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ṅak₂}},",
+      "render_latex": "蘁\t%e4 / wu4\n{\\large{\\textsuperscript{herb˸}ṅak₂}},\n\\textit{ṅak};\t%0768d\n\\textit{ṅuH};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "噩",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蘁",
+          "semantic_component": "艸",
+          "phonetic_component": "噩",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 297
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ],
+          "template_raw": "{{Han compound|艸|噩|alt1=艹|c1=s|c2=p|ls=psc|t1=grass}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "噩",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "噩"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "噩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅak"
+        ],
+        "mand2mc_bs_forms": [
+          "ngak"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5665",
+          "character": "噩",
+          "pinyin": "e4",
+          "mc_nwh": "ṅak",
+          "mc_bs": "ngak",
+          "gsr": "0768a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2889",
+          "character": "噩",
+          "phonetic_component": "噩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五各",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "ŋa̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2889",
+          "character": "噩",
+          "phonetic_component": "噩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五各",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ɡ",
+          "oc_syllable": "ŋa̠ɡ"
+        }
+      ]
+    },
+    {
+      "character": "蘁",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅak",
+          "ṅuH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅak",
+          "ṅuH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngak",
+          "nguH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5666",
+          "character": "蘁",
+          "pinyin": "e4",
+          "mc_nwh": "ṅak",
+          "mc_bs": "ngak",
+          "gsr": "0768d"
+        },
+        {
+          "source_row_number": "5667",
+          "character": "蘁",
+          "pinyin": "wu4",
+          "mc_nwh": "ṅuH",
+          "mc_bs": "nguH",
+          "gsr": "0768d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "噩",
+      "gsr": null,
+      "oc_bs": "*ŋa̠ɡ",
+      "root": "ṅak",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ṅak",
+    "source": "head_graph_oc_shengfu",
+    "character": "噩",
+    "oc_bs": "*ŋa̠ɡ",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "ṅak₂",
+    "base_root": "ṅak",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -301,6 +301,26 @@ def build_head_supplement_candidate(head_data: dict[str, Any] | None) -> dict[st
     }
 
 
+def build_component_root_index(entries: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    index: dict[str, dict[str, Any]] = {}
+    for entry in entries:
+        resolved = entry.get("resolved_series_root") or {}
+        character = resolved.get("character")
+        root = resolved.get("root")
+        if not character or not root:
+            continue
+        index.setdefault(
+            character,
+            {
+                "root": root,
+                "oc_bs": resolved.get("oc_bs"),
+                "source": resolved.get("source"),
+                "gsc_id": entry_gsc_id(entry),
+            },
+        )
+    return index
+
+
 def classify_header_match(
     row_parts: tuple[int, str],
     header_specs: list[tuple[int, str]],
@@ -326,6 +346,7 @@ def derive_root_candidates(
     entry: dict[str, Any],
     *,
     head_supplement: dict[str, Any] | None = None,
+    component_root_index: dict[str, dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     if entry.get("packet_kind") != "missing_series":
         return []
@@ -388,6 +409,20 @@ def derive_root_candidates(
                     "source": "head_graph_oc_shengfu",
                 }
             )
+            phonetic_component = row.get("phonetic_component")
+            hinted = None
+            if component_root_index and phonetic_component and phonetic_component != candidate["character"]:
+                hinted = component_root_index.get(phonetic_component)
+            if hinted and hinted.get("root"):
+                target_candidates.append(
+                    {
+                        "character": candidate["character"],
+                        "gsr": None,
+                        "oc_bs": hinted.get("oc_bs") or f"*{oc_syllable}",
+                        "root": hinted["root"],
+                        "source": "phonetic_component_series_root",
+                    }
+                )
 
     supplement_candidate = build_head_supplement_candidate(get_head_supplement(entry, head_supplement))
     if supplement_candidate is not None:
@@ -524,10 +559,15 @@ def resolve_root(
     entry: dict[str, Any],
     *,
     head_supplement: dict[str, Any] | None = None,
+    component_root_index: dict[str, dict[str, Any]] | None = None,
     candidates: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any] | None:
     if candidates is None:
-        candidates = derive_root_candidates(entry, head_supplement=head_supplement)
+        candidates = derive_root_candidates(
+            entry,
+            head_supplement=head_supplement,
+            component_root_index=component_root_index,
+        )
     if not candidates:
         return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
     if len(candidates) == 1:
@@ -558,11 +598,21 @@ def apply_root_resolution(
     entry: dict[str, Any],
     *,
     head_supplement: dict[str, Any] | None = None,
+    component_root_index: dict[str, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     entry = merge_supplemental_shengfu_rows(entry, head_supplement)
-    candidates = derive_root_candidates(entry, head_supplement=head_supplement)
+    candidates = derive_root_candidates(
+        entry,
+        head_supplement=head_supplement,
+        component_root_index=component_root_index,
+    )
     entry["series_root_candidates"] = candidates
-    entry["resolved_series_root"] = resolve_root(entry, head_supplement=head_supplement, candidates=candidates)
+    entry["resolved_series_root"] = resolve_root(
+        entry,
+        head_supplement=head_supplement,
+        component_root_index=component_root_index,
+        candidates=candidates,
+    )
     head_data = get_head_supplement(entry, head_supplement)
     if head_data and entry.get("resolved_series_root"):
         entry["resolved_series_root"].setdefault("head_gloss", head_data.get("gloss"))
@@ -606,12 +656,43 @@ def main() -> int:
     args = build_parser().parse_args()
     input_dir = Path(args.input_dir)
     head_supplement = load_head_supplement(Path(args.head_supplement))
-    entries: list[dict[str, Any]] = []
-    for path in sorted(input_dir.glob("*.json")):
-        entry = json.loads(path.read_text(encoding="utf-8"))
-        entry = apply_root_resolution(entry, head_supplement=head_supplement)
+    paths = sorted(input_dir.glob("*.json"))
+    entries = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
+    for _ in range(3):
+        changed = False
+        component_root_index = build_component_root_index(entries)
+        next_entries: list[dict[str, Any]] = []
+        for entry in entries:
+            before = json.dumps(
+                {
+                    "series_root_candidates": entry.get("series_root_candidates"),
+                    "resolved_series_root": entry.get("resolved_series_root"),
+                },
+                ensure_ascii=False,
+                sort_keys=True,
+            )
+            updated = apply_root_resolution(
+                entry,
+                head_supplement=head_supplement,
+                component_root_index=component_root_index,
+            )
+            after = json.dumps(
+                {
+                    "series_root_candidates": updated.get("series_root_candidates"),
+                    "resolved_series_root": updated.get("resolved_series_root"),
+                },
+                ensure_ascii=False,
+                sort_keys=True,
+            )
+            if before != after:
+                changed = True
+            next_entries.append(updated)
+            component_root_index.update(build_component_root_index([updated]))
+        entries = next_entries
+        if not changed:
+            break
+    for path, entry in zip(paths, entries):
         path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        entries.append(entry)
     report_path = Path(args.report_out)
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(render_report(entries), encoding="utf-8")
