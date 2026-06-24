@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4554
-- Pages fetched / cached successfully: 4491
-- Additions with explicit Han-compound semantic/phonetic roles: 2185
+- Proposed additions checked: 4571
+- Pages fetched / cached successfully: 4508
+- Additions with explicit Han-compound semantic/phonetic roles: 2193
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -378,6 +378,7 @@
 | `03-20` | 鴦 | yes | yes | 鳥 | 央 |
 | `03-20` | 盎 | yes | yes | 皿 | 央 |
 | `03-20` | 英 | yes | yes | 艸 | 央 |
+| `03-21` | 影 | yes | yes | 彡 | 景 |
 | `03-23` | 黃 | yes | yes | 田 | 炗 |
 | `03-23` | 璜 | yes | yes | 玉 | 黃 |
 | `03-23` | 潢 | yes | yes | 水 | 黄 |
@@ -416,6 +417,19 @@
 | `03-26` | 筐 | yes | no |  |  |
 | `03-26` | 誑 | yes | no |  |  |
 | `03-26` | 俇 | yes | yes | 人 | 狂 |
+| `03-27` | 永 | yes | no |  |  |
+| `03-27` | 咏 | yes | no |  |  |
+| `03-27` | 詠 | yes | yes | 言 | 永 |
+| `03-27` | 泳 | yes | yes | 水 | 永 |
+| `03-28` | 兄 | yes | no |  |  |
+| `03-28` | 况 | yes | no |  |  |
+| `03-28` | 況 | yes | yes | 水 | 兄 |
+| `03-28` | 貺 | yes | no |  |  |
+| `03-28` | 軦 | yes | no |  |  |
+| `03-29` | 卬 | yes | no |  |  |
+| `03-29` | 昂 | yes | yes | 日 | 卬 |
+| `03-29` | 仰 | yes | yes | 人 | 卬 |
+| `03-29` | 迎 | yes | yes | 辵 | 卬 |
 | `03-31` | 章 | yes | no |  |  |
 | `03-31` | 彰 | yes | yes | 彡 | 章 |
 | `03-31` | 樟 | yes | yes | 木 | 章 |
@@ -448,6 +462,7 @@
 | `03-32` | 𢠵 | yes | no |  |  |
 | `03-32` | 償 | yes | yes | 人 | 賞 |
 | `03-32` | 儻 | yes | no |  |  |
+| `03-33` | 上 | yes | no |  |  |
 | `03-34` | 昌 | yes | no | 日, 口 |  |
 | `03-34` | 倡 | yes | yes | 人 | 昌 |
 | `03-34` | 唱 | yes | yes | 口 | 昌 |
@@ -464,6 +479,8 @@
 | `03-35` | 悵 | yes | no |  |  |
 | `03-35` | 韔 | yes | yes | 韋 | 長 |
 | `03-35` | 棖 | yes | no |  |  |
+| `03-36` | 丈 | yes | no |  |  |
+| `03-36` | 杖 | yes | yes | 木 | 丈 |
 | `03-38` | 昜 | yes | yes | 日 | 丂 |
 | `03-38` | 餳 | yes | no |  |  |
 | `03-38` | 陽 | yes | yes | 阜 | 昜 |

@@ -1,15 +1,15 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T21:05:03.116768+00:00
+- Generated at: 2026-06-24T21:11:56.013976+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19197
+- Total occurrences audited: 19243
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18972 |
-| `explicit_alias` | 75 |
+| `canonical` | 19016 |
+| `explicit_alias` | 77 |
 | `needs_review` | 150 |
 
 ## Blocked ambiguous aliases
@@ -91,7 +91,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}laṅ}},
 \textit{yaṅ};	%0720s` |
 | `curation_json` | `03-39` | `痒` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒羊` | `痒	%yang2 / yang3 / yáng
-{\large{\textsuperscript{infirm·}qaṅ₅}},
+{\large{\textsuperscript{infirm·}qaṅ₆}},
 \textit{yaṅ};	%0732i
 \textit{yaṅX};
 \textit{ziaṅ};` |
@@ -232,7 +232,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}laṅ}},
 \textit{yaṅ};	%0720s` |
 | `integrated_series_curated_entry` | `03-39` | `痒` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒羊` | `痒	%yang2 / yang3 / yáng
-{\large{\textsuperscript{infirm·}qaṅ₅}},
+{\large{\textsuperscript{infirm·}qaṅ₆}},
 \textit{yaṅ};	%0732i
 \textit{yaṅX};
 \textit{ziaṅ};` |
@@ -366,7 +366,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{qim};	%0653e` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}mak}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}laṅ}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₅}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₆}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}g\textoverset{b}{a}ṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}paṅ₂}},` |
@@ -415,7 +415,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}pa₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}mak}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}laṅ}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₅}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₆}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}g\textoverset{b}{a}ṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}paṅ₂}},` |

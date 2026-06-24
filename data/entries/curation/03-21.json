@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-06-24T21:11:13.595914+00:00",
+  "id": "03-21",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "03-21",
+    "rhyme_section": 3,
+    "series_number": 21,
+    "k_tokens": [
+      "756"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC            LHan              OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 104,
+    "source_line_number": 4,
+    "source_line_raw": "3-21 = K. 756         Mand.          MC            LHan              OCM"
+  },
+  "coverage": {
+    "gsc_id": "03-21",
+    "rhyme_section": "3",
+    "series_number": "21",
+    "schuessler_k_tokens": "756",
+    "schuessler_source_page": "104",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "影",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "影",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "影"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "756"
+  ],
+  "proposed_additions": [
+    {
+      "character": "影",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qiaeṅX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qiaeṅX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jaengX"
+        ],
+        "bs_gsr_forms": [
+          "'jaengX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5589",
+          "character": "影",
+          "pinyin": "ying3",
+          "mc_nwh": "qiaeṅX",
+          "mc_bs": "'jaengX",
+          "gsr": "0756a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "119",
+          "character": "影",
+          "pinyin": "yǐng",
+          "mc_bs": "'jaengX",
+          "mc_analyzed": "('- + -jaeng B)",
+          "oc_bs": "*qraŋʔ",
+          "gloss": "shadow (n.)",
+          "gsr": "0756a",
+          "unicode_utf16": "U+5F71"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7349",
+          "character": "影",
+          "phonetic_component": "京",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於丙",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "aŋʔ",
+          "oc_syllable": "qʳaŋʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|景|彡|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "景",
+            "彡"
+          ],
+          "positional_components_raw": [
+            "景",
+            "彡"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "彡"
+          ],
+          "phonetic_components": [
+            "景"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|景|彡|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "景",
+              "彡"
+            ],
+            "positional_components_raw": [
+              "景",
+              "彡"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "彡"
+            ],
+            "phonetic_components": [
+              "景"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "影",
+          "ids": "⿰景彡",
+          "phonetic_component": "京",
+          "semantic_component": "彡",
+          "position": "suffix-dot",
+          "abbreviation": "cri",
+          "inventory_matches": [
+            {
+              "graph_raw": "彡",
+              "label_token": "cri",
+              "abbreviation": "cri",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cri",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "彡",
+            "label_token": "cri",
+            "abbreviation": "cri",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "彡"
+      },
+      "transliteration_latex": "{\\large{qaṅ₅\\textsuperscript{·cri}}},",
+      "render_latex": "影\t%ying3 / yǐng\n{\\large{qaṅ₅\\textsuperscript{·cri}}},\n\\textit{qiaeṅX};\t%0756a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "彡",
+        "phonetic_component": "景",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "影",
+          "semantic_component": "彡",
+          "phonetic_component": "景",
+          "position": "suffix-dot",
+          "abbreviation": "cri",
+          "inventory_matches": [
+            {
+              "graph_raw": "彡",
+              "label_token": "cri",
+              "abbreviation": "cri",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|景|彡|ls=psc|c1=p|c2=s}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "影",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qiaeṅX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qiaeṅX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jaengX"
+        ],
+        "bs_gsr_forms": [
+          "'jaengX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5589",
+          "character": "影",
+          "pinyin": "ying3",
+          "mc_nwh": "qiaeṅX",
+          "mc_bs": "'jaengX",
+          "gsr": "0756a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "119",
+          "character": "影",
+          "pinyin": "yǐng",
+          "mc_bs": "'jaengX",
+          "mc_analyzed": "('- + -jaeng B)",
+          "oc_bs": "*qraŋʔ",
+          "gloss": "shadow (n.)",
+          "gsr": "0756a",
+          "unicode_utf16": "U+5F71"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7349",
+          "character": "影",
+          "phonetic_component": "京",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於丙",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "aŋʔ",
+          "oc_syllable": "qʳaŋʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "影",
+      "gsr": "0756a",
+      "oc_bs": "*qraŋʔ",
+      "root": "qaṅ",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "qaṅ",
+    "source": "head_graph_oc_bs",
+    "character": "影",
+    "oc_bs": "*qraŋʔ",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "qaṅ₅",
+    "base_root": "qaṅ",
+    "ordinal": 5,
+    "numbering_source": "document_order_occurrence"
+  }
+}
