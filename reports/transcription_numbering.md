@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 619
-- Roots whose display label changed after document-wide renumbering: 289
-- Duplicate phonetic bases encountered in document order: 173
+- Mutable series/subseries roots inspected: 628
+- Roots whose display label changed after document-wide renumbering: 294
+- Duplicate phonetic bases encountered in document order: 175
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -252,6 +252,7 @@
 | `08-19` | `series-root` | 辟 | `pek` | 1 | `pek` | yes |
 | `09-01` | `series-root` | 巠 | `leṅ` | 1 | `leṅ` | yes |
 | `09-01` | `subseries-root` | 輕 | `leṅ` | 2 | `leṅ₂` | yes |
+| `09-02` | `series-root` | 殸 | `qeṅ` | 1 | `qeṅ` | yes |
 | `09-03` | `series-root` | 敬 | `keṅ` | 1 | `keṅ` | yes |
 | `09-04` | `series-root` | 耕 | `keṅ` | 2 | `keṅ₂` | yes |
 | `09-04` | `subseries-root` | 刑 | `keṅ` | 3 | `keṅ₃` | yes |
@@ -295,6 +296,7 @@
 | `11-14` | `series-root` | 谷 | `qok` | 2 | `qok₂` | yes |
 | `11-14` | `subseries-root` | 欲 | `q\textoverset{b}{o}k` | 1 | `q\textoverset{b}{o}k` | yes |
 | `11-15` | `series-root` | 彔 | `rok` | 1 | `rok` | yes |
+| `11-17` | `series-root` | 辱 | `nok` | 1 | `nok` | yes |
 | `11-21` | `series-root` | 束 | `tok` | 3 | `tok₃` | yes |
 | `11-21` | `subseries-root` | 欶 | `t\textoverset{a}{o}k` | 1 | `t\textoverset{a}{o}k` | yes |
 | `11-23` | `series-root` | 菐 | `pok` | 1 | `pok` | yes |
@@ -350,6 +352,8 @@
 | `13-47` | `subseries-root` | 留 | `mu` | 4 | `mu₄` | yes |
 | `13-48` | `series-root` | 柔 | `nu` | 1 | `nu` | yes |
 | `13-57` | `series-root` | 秋 | `tsiw` | 1 | `tsiw` | yes |
+| `13-60` | `series-root` | 㕚 | `su` | 1 | `su` | yes |
+| `13-60` | `subseries-root` | 蚤 | `su` | 2 | `su₂` | yes |
 | `13-72` | `series-root` | 包 | `pu` | 1 | `pu` | yes |
 | `13-73` | `series-root` | 孚 | `pu` | 2 | `pu₂` | yes |
 | `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
@@ -377,6 +381,8 @@
 | `16-03` | `series-root` | 喬 | `kaw` | 2 | `kaw₂` | yes |
 | `16-06` | `series-root` | 交 | `kaw` | 3 | `kaw₃` | yes |
 | `16-06` | `subseries-root` | 效 | `k\textoverset{a}{a}w` | 4 | `k\textoverset{a}{a}w₄` | yes |
+| `16-07` | `series-root` | 爻 | `kaw` | 4 | `kaw₄` | yes |
+| `16-07` | `subseries-root` | 肴 | `k\textoverset{a}{a}w` | 5 | `k\textoverset{a}{a}w₅` | yes |
 | `16-10` | `series-root` | 夭 | `ʔaw` | 1 | `ʔaw` | yes |
 | `16-10` | `subseries-root` | 沃 | `ʔ\textoverset{a}{a}w` | 1 | `ʔ\textoverset{a}{a}w` | yes |
 | `16-13` | `series-root` | 敖 | `ṅow` | 1 | `ṅow` | yes |
@@ -502,6 +508,8 @@
 | `24-11` | `subseries-root` | 晏 | `ʔ\textoverset{a}{a}n` | 1 | `ʔ\textoverset{a}{a}n` | yes |
 | `24-12` | `series-root` | 妟 | `qan` | 1 | `qan` | yes |
 | `24-12` | `subseries-root` | 匽 | `qan` | 2 | `qan₂` | yes |
+| `24-17` | `series-root` | 鬳 | `ṅar` | 1 | `ṅar` | yes |
+| `24-17` | `subseries-root` | 獻 | `ṅar` | 2 | `ṅar₂` | yes |
 | `24-21` | `series-root` | 單 | `tar` | 1 | `tar` | yes |
 | `24-23` | `series-root` | 亶 | `tan` | 1 | `tan` | yes |
 | `24-30` | `series-root` | 延 | `lan` | 1 | `lan` | yes |
@@ -532,7 +540,7 @@
 | `25-17` | `subseries-root` | 宛 | `qor` | 2 | `qor₂` | yes |
 | `25-19` | `series-root` | 元 | `ṅon` | 1 | `ṅon` | yes |
 | `25-19` | `subseries-root` | 完 | `ṅon` | 2 | `ṅon₂` | yes |
-| `25-20` | `series-root` | 原 | `ṅar` | 1 | `ṅar` | yes |
+| `25-20` | `series-root` | 原 | `ṅar` | 3 | `ṅar₃` | yes |
 | `25-24` | `series-root` | 耑 | `tor` | 1 | `tor` | yes |
 | `25-25` | `series-root` | 專 | `ton` | 1 | `ton` | yes |
 | `25-28` | `series-root` | 彖 | `lon` | 1 | `lon` | yes |
@@ -550,6 +558,7 @@
 | `26-24` | `series-root` | 利 | `rit` | 1 | `rit` | yes |
 | `26-24` | `subseries-root` | 𥝢 | `rit` | 2 | `rit₂` | yes |
 | `26-24` | `subseries-root` | 黎 | `rit` | 3 | `rit₃` | yes |
+| `26-25` | `series-root` | 尼 | `ni` | 1 | `ni` | yes |
 | `26-27` | `series-root` | 齊 | `tsy` | 4 | `tsy₄` | yes |
 | `26-28` | `series-root` | 𠂔 | `sy` | 1 | `sy` | yes |
 | `26-29` | `series-root` | 次 | `niy` | 1 | `niy` | yes |

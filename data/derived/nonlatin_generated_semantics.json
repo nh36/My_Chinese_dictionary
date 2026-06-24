@@ -1,12 +1,12 @@
 {
   "summary": {
-    "case_count": 36,
-    "unique_component_count": 33,
+    "case_count": 37,
+    "unique_component_count": 34,
     "by_classification": {
-      "new_latin_label_needed": 36
+      "new_latin_label_needed": 37
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 22,
+      "wiktionary_component_literal_fallback": 23,
       "ids_component_literal_fallback": 10,
       "packet_family_component_literal_fallback": 4
     }
@@ -113,6 +113,23 @@
       "render_latex": "巸\t%yi2\n{\\large{\\textsuperscript{𦣞·}qy₄}},\n\\textit{yi};\t%0960d",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𦣞` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "09-02",
+      "character": "馨",
+      "abbreviation": "香",
+      "semantic_component": "香",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|殸|香|c1=p|c2=s|t2=sweet|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "sweet",
+      "semantic_component_ids": "⿱禾日",
+      "transliteration_latex": "{\\large{qeṅ\\textsuperscript{˸香}}},",
+      "render_latex": "馨\t%xin1 / xīn\n{\\large{qeṅ\\textsuperscript{˸香}}},\n\\textit{heṅ};\t%0832f",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `香` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "11-06",
@@ -1207,6 +1224,27 @@
           "entry_id": "30-11",
           "character": "肆",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "香",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `香` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱禾日",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "sweet",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "09-02",
+          "character": "馨",
+          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

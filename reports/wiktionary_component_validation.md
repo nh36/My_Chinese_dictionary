@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4241
-- Pages fetched / cached successfully: 4185
-- Additions with explicit Han-compound semantic/phonetic roles: 2040
+- Proposed additions checked: 4279
+- Pages fetched / cached successfully: 4222
+- Additions with explicit Han-compound semantic/phonetic roles: 2054
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1170,6 +1170,12 @@
 | `09-01` | 莖 | yes | yes | 艸 | 巠 |
 | `09-01` | 俓 | yes | no |  |  |
 | `09-01` | 䞓 | yes | no |  |  |
+| `09-02` | 殸 | yes | no |  |  |
+| `09-02` | 磬 | yes | no |  |  |
+| `09-02` | 罄 | yes | yes | 缶 | 殸 |
+| `09-02` | 謦 | yes | no |  |  |
+| `09-02` | 馨 | yes | yes | 香 | 殸 |
+| `09-02` | 聲 | yes | yes | 耳 | 殸 |
 | `09-03` | 敬 | yes | no |  |  |
 | `09-03` | 驚 | yes | yes | 馬 | 敬 |
 | `09-03` | 儆 | yes | yes | 人 | 敬 |
@@ -1405,6 +1411,12 @@
 | `11-15` | 菉 | yes | yes | 艸 | 彔 |
 | `11-15` | 錄 | yes | yes | 金 | 彔 |
 | `11-15` | 剝 | yes | yes | 刀 | 彔 |
+| `11-17` | 辱 | yes | no |  |  |
+| `11-17` | 溽 | yes | no |  |  |
+| `11-17` | 縟 | yes | no |  |  |
+| `11-17` | 蓐 | yes | no |  |  |
+| `11-17` | 槈 | yes | no |  |  |
+| `11-17` | 耨 | yes | yes | 耒 | 辱 |
 | `11-21` | 束 | yes | no |  |  |
 | `11-21` | 誎 | yes | no |  |  |
 | `11-21` | 速 | yes | yes | 辵 | 束 |
@@ -1724,6 +1736,13 @@
 | `13-57` | 甃 | yes | no |  |  |
 | `13-57` | 愁 | yes | yes | 心 | 秋 |
 | `13-57` | 愀 | yes | no |  |  |
+| `13-60` | 㕚 | yes | no |  |  |
+| `13-60` | 蚤 | yes | no |  |  |
+| `13-60` | 慅 | yes | no |  |  |
+| `13-60` | 搔 | yes | yes | 手 | 蚤 |
+| `13-60` | 騷 | yes | yes | 馬 | 蚤 |
+| `13-60` | 糔 | yes | no |  |  |
+| `13-60` | 鼜 | yes | no |  |  |
 | `13-72` | 包 | yes | no |  |  |
 | `13-72` | 胞 | yes | yes | 肉 | 包 |
 | `13-72` | 苞 | yes | yes | 艸 | 包 |
@@ -1922,6 +1941,13 @@
 | `16-06` | 皎 | yes | no |  |  |
 | `16-06` | 㝔 | yes | no |  |  |
 | `16-06` | 鉸 | yes | yes | 金 | 交 |
+| `16-07` | 爻 | yes | no |  |  |
+| `16-07` | 肴 | yes | yes | 肉 | 爻 |
+| `16-07` | 殽 | yes | no |  |  |
+| `16-07` | 𢼂 | yes | no |  |  |
+| `16-07` | 𤕝 | no | no |  |  |
+| `16-07` | 教 | yes | yes | 子, 攴 | 爻 |
+| `16-07` | 䡈 | yes | no |  |  |
 | `16-10` | 夭 | yes | no |  |  |
 | `16-10` | 枖 | yes | no |  |  |
 | `16-10` | 妖 | yes | yes | 女 | 夭 |
@@ -2573,6 +2599,12 @@
 | `24-12` | 鰋 | yes | no |  |  |
 | `24-12` | 蝘 | yes | yes | 虫 | 匽 |
 | `24-12` | 揠 | yes | yes | 手 | 匽 |
+| `24-17` | 鬳 | yes | yes | 鬲 | 虍 |
+| `24-17` | 甗 | yes | yes | 瓦 | 鬳 |
+| `24-17` | 獻 | yes | yes | 犬 | 鬳 |
+| `24-17` | 巘 | yes | yes | 山 | 獻 |
+| `24-17` | 讞 | yes | yes | 言 | 獻 |
+| `24-17` | 𣡌 | yes | no |  |  |
 | `24-21` | 單 | yes | no |  |  |
 | `24-21` | 墠 | yes | no |  |  |
 | `24-21` | 禪 | yes | yes | 示 | 單 |
@@ -2993,6 +3025,12 @@
 | `26-24` | 黎 | yes | yes | 黍 | 利 |
 | `26-24` | 蔾 | yes | no |  |  |
 | `26-24` | 藜 | yes | no |  |  |
+| `26-25` | 尼 | yes | no |  |  |
+| `26-25` | 怩 | yes | no |  |  |
+| `26-25` | 柅 | yes | no |  |  |
+| `26-25` | 泥 | yes | yes | 水 | 尼 |
+| `26-25` | 旎 | yes | no |  |  |
+| `26-25` | 昵 | yes | no |  |  |
 | `26-27` | 齊 | yes | no |  |  |
 | `26-27` | 臍 | yes | yes | 肉 | 齊 |
 | `26-27` | 蠐 | yes | yes | 虫 | 齊 |
