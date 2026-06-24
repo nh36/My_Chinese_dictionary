@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 44,
+    "case_count": 46,
     "unique_component_count": 41,
     "by_classification": {
-      "new_latin_label_needed": 43,
+      "new_latin_label_needed": 45,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 26,
+      "wiktionary_component_literal_fallback": 28,
       "ids_component_literal_fallback": 11,
       "packet_family_component_literal_fallback": 7
     }
@@ -133,6 +133,23 @@
       "proposal": "Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "06-23",
+      "character": "夢",
+      "abbreviation": "夕",
+      "semantic_component": "夕",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|瞢|夕|ls=psc|c1=p|c2=s|nocap=y}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿴𠂊丶",
+      "transliteration_latex": "{\\large{myṅ₂\\textsuperscript{˸夕}}},",
+      "render_latex": "夢\t%meng4 / meng2 / mèng\n{\\large{myṅ₂\\textsuperscript{˸夕}}},\n\\textit{miuwṅH};\t%0902a\n\\textit{muwṅ};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "09-02",
       "character": "馨",
       "abbreviation": "香",
@@ -148,6 +165,23 @@
       "render_latex": "馨\t%xin1 / xīn\n{\\large{qeṅ\\textsuperscript{˸香}}},\n\\textit{heṅ};\t%0832f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `香` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "09-26",
+      "character": "平",
+      "abbreviation": "二",
+      "semantic_component": "二",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|ls=psc|釆|二|c1=p|c2=s|t2=two equal lines}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "two equal lines",
+      "semantic_component_ids": "⿱一一",
+      "transliteration_latex": "{\\large{peṅ\\textsuperscript{·二}}},",
+      "render_latex": "平\t%ping2 / píng\n{\\large{peṅ\\textsuperscript{·二}}},\n\\textit{beanH};\t%0825a\n\\textit{ben};\n\\textit{biaeṅ};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `二` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "11-06",
@@ -914,17 +948,23 @@
     },
     {
       "semantic_component": "二",
-      "classification": "template_alt_graph",
-      "proposal": "Prefer template alt graph `𥫗` over gloss-like token `二`; it then still needs a new Latin label.",
-      "target_graph": "𥫗",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `二` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
       "target_abbreviation": null,
       "reason": null,
       "semantic_component_ids": "⿱一一",
-      "template_alt_graph": "𥫗",
+      "template_alt_graph": null,
       "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
+      "template_gloss_secondary": "two equal lines",
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "09-26",
+          "character": "平",
+          "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        },
         {
           "entry_id": "14-08",
           "character": "竺",
@@ -1097,11 +1137,17 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": "[[moon]]",
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "02-27",
           "character": "夜",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        },
+        {
+          "entry_id": "06-23",
+          "character": "夢",
           "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }

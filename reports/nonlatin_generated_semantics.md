@@ -2,14 +2,14 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 44
+- Generated non-Latin semantic occurrences: 46
 - Unique unresolved semantic graphs/tokens: 41
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 43 |
+| `new_latin_label_needed` | 45 |
 | `template_alt_graph` | 1 |
 
 ## By source
@@ -18,13 +18,7 @@
 | --- | ---: |
 | `ids_component_literal_fallback` | 11 |
 | `packet_family_component_literal_fallback` | 7 |
-| `wiktionary_component_literal_fallback` | 26 |
-
-## `template_alt_graph`
-
-| Component | IDS | Example characters | Target / reuse | Proposal |
-| --- | --- | --- | --- | --- |
-| `二` | `⿱一一` | `14-08`:竺 | `𥫗` | Prefer template alt graph `𥫗` over gloss-like token `二`; it then still needs a new Latin label. |
+| `wiktionary_component_literal_fallback` | 28 |
 
 ## `new_latin_label_needed`
 
@@ -37,6 +31,7 @@
 | `丵` | `⿱业𢆉` | `11-23`:菐 |  | Keep `丵` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `丶` | `丶` | `21-12`:太 |  | Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `乙` | `乙` | `24-02`:乾 |  | Keep `乙` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `二` | `⿱一一` | `09-26`:平, `14-08`:竺 |  | Keep `二` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `云` | `⿱二厶` | `20-13`:藝 |  | Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `儿` | `⿰丿乚` | `12-05`:兇 |  | Keep `儿` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `冖` | `冖` | `02-22`:㓃, `26-39`:冞 |  | Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
@@ -44,7 +39,7 @@
 | `呂` | `⿳口丿口` | `32-07`:勻 |  | Keep `呂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `告` | `⿱𠂒口` | `14-03`:嚳 |  | Keep `告` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `壺` | `⿱士⿳冖⑥一` | `29-13`:壹 |  | Keep `壺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
-| `夕` | `⿴𠂊丶` | `02-27`:夜 |  | Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `夕` | `⿴𠂊丶` | `02-27`:夜, `06-23`:夢 |  | Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `室` | `⿱宀至` | `11-06`:屋 |  | Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `尋` | `⿳彐⿰工口寸` | `02-08`:彠 |  | Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `巜` | `⿰𡿨𡿨` | `32-26`:粼 |  | Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

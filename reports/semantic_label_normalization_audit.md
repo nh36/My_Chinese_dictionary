@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T19:25:46.352725+00:00
+- Generated at: 2026-06-24T19:54:35.194728+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 18849
+- Total occurrences audited: 18961
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18640 |
+| `canonical` | 18746 |
 | `explicit_alias` | 75 |
-| `needs_review` | 134 |
+| `needs_review` | 140 |
 
 ## Blocked ambiguous aliases
 
@@ -180,7 +180,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₈\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `curation_json` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₄}},
+{\large{\textsuperscript{infirm·}tsy₅}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -326,7 +326,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₈\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `integrated_series_curated_entry` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₄}},
+{\large{\textsuperscript{infirm·}tsy₅}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -394,7 +394,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₈\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₄}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₅}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |
@@ -448,7 +448,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₈\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₄}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₅}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |
@@ -608,9 +608,18 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
 \textit{xiaṅH};	%0714i` |
+| `curation_json` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
+{\large{myṅ₂\textsuperscript{˸夕}}},
+\textit{miuwṅH};	%0902a
+\textit{muwṅ};` |
 | `curation_json` | `09-02` | `馨` | `香` | render_latex, transliteration_latex | `香` | `⿱殸香` | `馨	%xin1 / xīn
 {\large{qeṅ\textsuperscript{˸香}}},
 \textit{heṅ};	%0832f` |
+| `curation_json` | `09-26` | `平` | `二` | render_latex, transliteration_latex | `二` | `⿻干丷` | `平	%ping2 / píng
+{\large{peṅ\textsuperscript{·二}}},
+\textit{beanH};	%0825a
+\textit{ben};
+\textit{biaeṅ};` |
 | `curation_json` | `11-06` | `屋` | `室` | render_latex, transliteration_latex | `室` | `⿸尸至` | `屋	%wu1
 {\large{qok\textsuperscript{·室}}},
 \textit{quwk};	%1204a` |
@@ -710,9 +719,18 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
 \textit{xiaṅH};	%0714i` |
+| `integrated_series_curated_entry` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
+{\large{myṅ₂\textsuperscript{˸夕}}},
+\textit{miuwṅH};	%0902a
+\textit{muwṅ};` |
 | `integrated_series_curated_entry` | `09-02` | `馨` | `香` | render_latex, transliteration_latex | `香` | `⿱殸香` | `馨	%xin1 / xīn
 {\large{qeṅ\textsuperscript{˸香}}},
 \textit{heṅ};	%0832f` |
+| `integrated_series_curated_entry` | `09-26` | `平` | `二` | render_latex, transliteration_latex | `二` | `⿻干丷` | `平	%ping2 / píng
+{\large{peṅ\textsuperscript{·二}}},
+\textit{beanH};	%0825a
+\textit{ben};
+\textit{biaeṅ};` |
 | `integrated_series_curated_entry` | `11-06` | `屋` | `室` | render_latex, transliteration_latex | `室` | `⿸尸至` | `屋	%wu1
 {\large{qok\textsuperscript{·室}}},
 \textit{quwk};	%1204a` |
@@ -804,6 +822,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₃\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
 | `validation_tex` | `` | `` | `儿` | line | `` | `` | `{\large{qoṅ\textsuperscript{˸儿}}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
@@ -835,6 +854,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₃\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
 | `validation_tex` | `` | `` | `儿` | line | `` | `` | `{\large{qoṅ\textsuperscript{˸儿}}},` |
 | `validation_tex` | `` | `` | `dic.` | line | `` | `` | `\item 諫 kaenH < *k\textsuperscript{ˤ}r[a]nʔ-s = \textsuperscript{dic.}Kren` |

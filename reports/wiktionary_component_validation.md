@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4426
-- Pages fetched / cached successfully: 4366
-- Additions with explicit Han-compound semantic/phonetic roles: 2127
+- Proposed additions checked: 4462
+- Pages fetched / cached successfully: 4401
+- Additions with explicit Han-compound semantic/phonetic roles: 2142
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -811,6 +811,12 @@
 | `04-45` | 哉 | yes | yes | 口 | 𢦏 |
 | `04-45` | 栽 | yes | yes | 木 | 𢦏 |
 | `04-45` | 烖 | yes | yes | 火 | 𢦏 |
+| `04-47` | 子 | yes | no |  |  |
+| `04-47` | 𢀇 | no | no |  |  |
+| `04-47` | 仔 | yes | yes | 人 | 子 |
+| `04-47` | 孜 | yes | yes | 攴 | 子 |
+| `04-47` | 耔 | yes | no |  |  |
+| `04-47` | 字 | yes | yes | 宀 | 子 |
 | `04-49` | 玆 | yes | no |  |  |
 | `04-49` | 茲 | yes | no |  |  |
 | `04-49` | 嗞 | yes | no |  |  |
@@ -916,6 +922,12 @@
 | `05-16` | 黛 | yes | yes | 黑 | 代 |
 | `05-16` | 蟘 | yes | no |  |  |
 | `05-16` | 袋 | yes | yes | 衣 | 代 |
+| `05-21` | 力 | yes | no |  |  |
+| `05-21` | 仂 | yes | yes | 人 | 力 |
+| `05-21` | 扐 | yes | no |  |  |
+| `05-21` | 阞 | yes | no |  |  |
+| `05-21` | 勒 | yes | yes | 革 | 力 |
+| `05-21` | 泐 | yes | no |  |  |
 | `05-33` | 畐 | yes | no |  |  |
 | `05-33` | 福 | yes | yes | 示 | 畐 |
 | `05-33` | 葍 | yes | no |  |  |
@@ -995,6 +1007,12 @@
 | `06-20` | 掤 | yes | no |  |  |
 | `06-20` | 繃 | yes | no |  |  |
 | `06-20` | 棚 | yes | yes | 木 | 朋 |
+| `06-23` | 夢 | yes | yes | 夕 | 瞢 |
+| `06-23` | 㝱 | yes | no |  |  |
+| `06-23` | 瞢 | yes | no |  |  |
+| `06-23` | 甍 | yes | yes | 瓦 | 夢 |
+| `06-23` | 蘉 | yes | no |  |  |
+| `06-23` | 薨 | yes | yes | 死 | 瞢 |
 | `07-03` | 支 | yes | no |  |  |
 | `07-03` | 枝 | yes | yes | 木 | 支 |
 | `07-03` | 肢 | yes | yes | 肉 | 支 |
@@ -1145,6 +1163,12 @@
 | `07-29` | 蜱 | yes | no |  |  |
 | `07-29` | 蠯 | yes | no |  |  |
 | `07-29` | 鞞 | yes | no |  |  |
+| `08-02` | 鬲 | yes | no |  |  |
+| `08-02` | 搹 | yes | no |  |  |
+| `08-02` | 膈 | yes | yes | 肉 | 鬲 |
+| `08-02` | 隔 | yes | yes | 阜 | 鬲 |
+| `08-02` | 翮 | yes | yes | 羽 | 鬲 |
+| `08-02` | 鷊 | yes | no |  |  |
 | `08-12` | 易 | yes | no |  |  |
 | `08-12` | 蜴 | yes | yes | 虫 | 易 |
 | `08-12` | 埸 | yes | no |  |  |
@@ -1268,6 +1292,12 @@
 | `09-11` | 鉦 | yes | no |  |  |
 | `09-11` | 竀 | yes | no |  |  |
 | `09-11` | 定 | yes | yes | 宀 | 正 |
+| `09-12` | 鼎 | yes | no |  |  |
+| `09-12` | 貞 | yes | no |  |  |
+| `09-12` | 禎 | yes | no |  |  |
+| `09-12` | 偵 | yes | yes | 人 | 貞 |
+| `09-12` | 楨 | yes | no |  |  |
+| `09-12` | 赬 | yes | no |  |  |
 | `09-17` | 𡈼 | yes | no |  |  |
 | `09-17` | 檉 | yes | yes | 木 | 聖 |
 | `09-17` | 廷 | yes | yes | 廴 | 𡈼 |
@@ -1336,6 +1366,12 @@
 | `09-25` | 星 | yes | no |  | 晶, 生 |
 | `09-25` | 曐 | yes | yes | 晶 | 生 |
 | `09-25` | 猩 | yes | no |  |  |
+| `09-26` | 平 | yes | yes | 二 | 釆 |
+| `09-26` | 苹 | yes | yes | 艸 | 平 |
+| `09-26` | 萍 | yes | no |  |  |
+| `09-26` | 伻 | yes | no |  |  |
+| `09-26` | 怦 | yes | yes | 心 | 平 |
+| `09-26` | 砰 | yes | no |  |  |
 | `09-29` | 并 | yes | no |  |  |
 | `09-29` | 併 | yes | yes | 人 | 并 |
 | `09-29` | 頩 | yes | no |  |  |
