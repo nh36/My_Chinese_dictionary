@@ -130,6 +130,7 @@
 | `13-36` | `missing_series` | no | 15 | 14 |
 | `13-45` | `missing_series` | no | 20 | 19 |
 | `13-47` | `missing_series` | no | 19 | 13 |
+| `13-48` | `missing_series` | no | 7 | 6 |
 | `13-57` | `missing_series` | no | 10 | 9 |
 | `13-72` | `missing_series` | no | 14 | 13 |
 | `13-73` | `missing_series` | no | 11 | 10 |
@@ -203,6 +204,7 @@
 | `24-12` | `missing_series` | no | 8 | 7 |
 | `24-21` | `missing_series` | no | 26 | 24 |
 | `24-23` | `missing_series` | no | 20 | 18 |
+| `24-30` | `missing_series` | no | 7 | 6 |
 | `24-35` | `missing_series` | no | 9 | 6 |
 | `24-39` | `missing_series` | no | 11 | 9 |
 | `24-41` | `missing_series` | no | 17 | 16 |
@@ -219,6 +221,7 @@
 | `25-15` | `missing_series` | no | 20 | 18 |
 | `25-17` | `missing_series` | no | 18 | 17 |
 | `25-19` | `missing_series` | no | 19 | 18 |
+| `25-20` | `missing_series` | no | 7 | 6 |
 | `25-24` | `missing_series` | no | 13 | 12 |
 | `25-25` | `missing_series` | no | 13 | 12 |
 | `25-28` | `missing_series` | no | 9 | 8 |
@@ -245,6 +248,7 @@
 | `28-11` | `missing_series` | no | 26 | 25 |
 | `28-15` | `missing_series` | no | 18 | 15 |
 | `29-01` | `missing_series` | no | 16 | 15 |
+| `29-08` | `missing_series` | no | 7 | 6 |
 | `29-09` | `missing_series` | no | 12 | 11 |
 | `29-11` | `missing_series` | no | 14 | 13 |
 | `29-13` | `missing_series` | no | 8 | 7 |
@@ -259,6 +263,7 @@
 | `30-14` | `missing_series` | no | 16 | 15 |
 | `30-21` | `missing_series` | no | 8 | 7 |
 | `31-02` | `missing_series` | no | 16 | 14 |
+| `31-09` | `missing_series` | no | 7 | 6 |
 | `31-16` | `missing_series` | no | 15 | 14 |
 | `31-17` | `missing_series` | no | 7 | 0 |
 | `31-20` | `missing_series` | no | 17 | 16 |
@@ -288,6 +293,7 @@
 | `34-11` | `missing_series` | no | 8 | 4 |
 | `34-12` | `missing_series` | no | 8 | 7 |
 | `34-13` | `missing_series` | no | 14 | 13 |
+| `34-14` | `missing_series` | no | 7 | 6 |
 | `34-15` | `missing_series` | no | 8 | 7 |
 | `34-16` | `missing_series` | no | 8 | 7 |
 | `34-17` | `missing_series` | no | 12 | 11 |

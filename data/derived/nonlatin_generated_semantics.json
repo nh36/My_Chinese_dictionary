@@ -1,12 +1,12 @@
 {
   "summary": {
-    "case_count": 33,
-    "unique_component_count": 30,
+    "case_count": 34,
+    "unique_component_count": 31,
     "by_classification": {
-      "new_latin_label_needed": 33
+      "new_latin_label_needed": 34
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 20,
+      "wiktionary_component_literal_fallback": 21,
       "ids_component_literal_fallback": 9,
       "packet_family_component_literal_fallback": 4
     }
@@ -300,6 +300,23 @@
       "render_latex": "乾\t%qian2 / gan1 / gān\n{\\large{kan₂\\textsuperscript{·乙}}},\n\\textit{gien};\t%0140c\n\\textit{kan};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `乙` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "24-30",
+      "character": "延",
+      "abbreviation": "㢟",
+      "semantic_component": "㢟",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|丿|㢟|c1=p|c2=s|ls=psc|nocap=yes}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿺廴③",
+      "transliteration_latex": "{\\large{lan\\textsuperscript{·㢟}}},",
+      "render_latex": "延\t%yan2 / yán\n{\\large{lan\\textsuperscript{·㢟}}},\n\\textit{yien};\t%0203a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㢟` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "26-09",
@@ -613,6 +630,27 @@
           "entry_id": "13-08",
           "character": "嘂",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "㢟",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㢟` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿺廴③",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "24-30",
+          "character": "延",
+          "position": "suffix-dot",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
