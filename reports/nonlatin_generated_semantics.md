@@ -2,21 +2,21 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 37
-- Unique unresolved semantic graphs/tokens: 34
+- Generated non-Latin semantic occurrences: 38
+- Unique unresolved semantic graphs/tokens: 35
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 37 |
+| `new_latin_label_needed` | 38 |
 
 ## By source
 
 | Source | Count |
 | --- | ---: |
 | `ids_component_literal_fallback` | 10 |
-| `packet_family_component_literal_fallback` | 4 |
+| `packet_family_component_literal_fallback` | 5 |
 | `wiktionary_component_literal_fallback` | 23 |
 
 ## `new_latin_label_needed`
@@ -57,3 +57,4 @@
 | `𦣞` | `𦣞` | `04-34`:巸 |  | Keep `𦣞` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `𨸏` | `⿱丿⑦` | `23-10`:隕 |  | Keep `𨸏` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `𬅟` | `⿱欠心` | `29-13`:㦤 |  | Keep `𬅟` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `𭯍` | `⿳𠂊𫩏比` | `04-52`:𣬔 |  | Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

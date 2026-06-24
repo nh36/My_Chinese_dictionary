@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4279
-- Pages fetched / cached successfully: 4222
-- Additions with explicit Han-compound semantic/phonetic roles: 2054
+- Proposed additions checked: 4315
+- Pages fetched / cached successfully: 4257
+- Additions with explicit Han-compound semantic/phonetic roles: 2073
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -228,6 +228,12 @@
 | `03-01` | 坑 | yes | yes | 土 | 亢 |
 | `03-01` | 阬 | yes | no |  |  |
 | `03-01` | 航 | yes | yes | 舟 | 亢 |
+| `03-03` | 畺 | yes | no |  |  |
+| `03-03` | 壃 | yes | no |  |  |
+| `03-03` | 僵 | yes | no |  |  |
+| `03-03` | 薑 | yes | yes | 艸 | 彊 |
+| `03-03` | 彊 | yes | yes | 弓 | 畺 |
+| `03-03` | 疆 | yes | yes | 土 | 彊 |
 | `03-10` | 京 | yes | no |  |  |
 | `03-10` | 景 | yes | yes | 日 | 京 |
 | `03-10` | 勍 | yes | no |  |  |
@@ -250,6 +256,12 @@
 | `03-12` | 塘 | yes | yes | 土 | 唐 |
 | `03-12` | 榶 | yes | no |  |  |
 | `03-12` | 螗 | yes | no |  |  |
+| `03-14` | 行 | yes | no |  |  |
+| `03-14` | 荇 | yes | yes | 艸 | 行 |
+| `03-14` | 桁 | yes | yes | 木 | 行 |
+| `03-14` | 珩 | yes | yes | 玉 | 行 |
+| `03-14` | 衡 | yes | yes | 角, 大 | 行 |
+| `03-14` | 蘅 | yes | no |  |  |
 | `03-16` | 皀 | yes | no |  |  |
 | `03-16` | 鄉 | yes | no |  |  |
 | `03-16` | 嚮 | yes | no |  |  |
@@ -485,6 +497,12 @@
 | `03-57` | 坊 | yes | yes | 土 | 方 |
 | `03-57` | 房 | yes | yes | 戶 | 方 |
 | `03-57` | 防 | yes | yes | 阜 | 方 |
+| `03-61` | 丙 | yes | no |  |  |
+| `03-61` | 怲 | yes | no |  |  |
+| `03-61` | 柄 | yes | yes | 木 | 丙 |
+| `03-61` | 炳 | yes | no |  |  |
+| `03-61` | 邴 | yes | no |  |  |
+| `03-61` | 病 | yes | yes | 疒 | 丙 |
 | `03-65` | 亡 | yes | no |  |  |
 | `03-65` | 網 | yes | yes | 糸 | 罔 |
 | `03-65` | 惘 | yes | yes | 心 | 罔 |
@@ -782,6 +800,12 @@
 | `04-49` | 鎡 | yes | no |  |  |
 | `04-49` | 慈 | yes | yes | 心 | 茲 |
 | `04-49` | 孳 | yes | yes | 子 | 兹 |
+| `04-52` | 史 | yes | no |  |  |
+| `04-52` | 吏 | yes | no |  |  |
+| `04-52` | 𣬔 | no | no |  |  |
+| `04-52` | 使 | yes | yes | 人 | 吏 |
+| `04-52` | 事 | yes | no |  |  |
+| `04-52` | 剚 | yes | yes | 刀 | 事 |
 | `04-53` | 司 | yes | no |  |  |
 | `04-53` | 伺 | yes | yes | 人 | 司 |
 | `04-53` | 笥 | yes | no |  |  |
@@ -3736,6 +3760,12 @@
 | `33-30` | 貧 | yes | yes | 貝 | 分 |
 | `33-30` | 盼 | yes | yes | 目 | 分 |
 | `33-30` | 肦 | yes | no |  |  |
+| `33-35` | 門 | yes | no |  |  |
+| `33-35` | 悶 | yes | yes | 心 | 門 |
+| `33-35` | 捫 | yes | yes | 手 | 門 |
+| `33-35` | 聞 | yes | yes | 耳 | 門 |
+| `33-35` | 問 | yes | yes | 口 | 門 |
+| `33-35` | 閩 | yes | yes | 虫 | 門 |
 | `33-36` | 文 | yes | no |  |  |
 | `33-36` | 抆 | yes | no |  |  |
 | `33-36` | 汶 | yes | yes | 水 | 文 |
@@ -3840,6 +3870,12 @@
 | `34-18` | 啍 | yes | no |  |  |
 | `34-18` | 憝 | yes | no |  |  |
 | `34-18` | 譈 | yes | no |  |  |
+| `34-20` | 川 | yes | no |  |  |
+| `34-20` | 䡅 | yes | no |  |  |
+| `34-20` | 順 | yes | yes | 頁 | 川 |
+| `34-20` | 紃 | yes | no |  |  |
+| `34-20` | 巡 | yes | yes | 辵 | 川 |
+| `34-20` | 馴 | yes | yes | 馬 | 川 |
 | `34-21` | 盾 | yes | no |  |  |
 | `34-21` | 楯 | yes | no |  |  |
 | `34-21` | 揗 | yes | no |  |  |

@@ -1,14 +1,14 @@
 {
   "summary": {
-    "case_count": 37,
-    "unique_component_count": 34,
+    "case_count": 38,
+    "unique_component_count": 35,
     "by_classification": {
-      "new_latin_label_needed": 37
+      "new_latin_label_needed": 38
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 23,
       "ids_component_literal_fallback": 10,
-      "packet_family_component_literal_fallback": 4
+      "packet_family_component_literal_fallback": 5
     }
   },
   "cases": [
@@ -113,6 +113,23 @@
       "render_latex": "巸\t%yi2\n{\\large{\\textsuperscript{𦣞·}qy₄}},\n\\textit{yi};\t%0960d",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𦣞` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "04-52",
+      "character": "𣬔",
+      "abbreviation": "𭯍",
+      "semantic_component": "𭯍",
+      "position": "prefix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿳𠂊𫩏比",
+      "transliteration_latex": "{\\large{\\textsuperscript{𭯍˸}ry₄}},",
+      "render_latex": "𣬔\t%shi4\n{\\large{\\textsuperscript{𭯍˸}ry₄}},\n\\textit{ṣiH};\t%0975k",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "09-02",
@@ -1371,6 +1388,27 @@
           "entry_id": "29-13",
           "character": "㦤",
           "position": "suffix-dot",
+          "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "𭯍",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿳𠂊𫩏比",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "04-52",
+          "character": "𣬔",
+          "position": "prefix-colon",
           "source": "packet_family_component_literal_fallback"
         }
       ]
