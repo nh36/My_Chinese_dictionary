@@ -1,14 +1,15 @@
 {
   "summary": {
-    "case_count": 40,
-    "unique_component_count": 37,
+    "case_count": 43,
+    "unique_component_count": 40,
     "by_classification": {
-      "new_latin_label_needed": 40
+      "new_latin_label_needed": 42,
+      "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 24,
+      "wiktionary_component_literal_fallback": 26,
       "ids_component_literal_fallback": 10,
-      "packet_family_component_literal_fallback": 6
+      "packet_family_component_literal_fallback": 7
     }
   },
   "cases": [
@@ -251,6 +252,42 @@
       "proposal": "Keep `告` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "14-08",
+      "character": "筑",
+      "abbreviation": "𢀜",
+      "semantic_component": "𢀜",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|ls=ic|ls2=psc|竹|𢀜|c1=p|t1=bamboo|t2=to hold}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "bamboo",
+      "template_gloss_secondary": "to hold",
+      "semantic_component_ids": "⿰工丮",
+      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸𢀜}}},",
+      "render_latex": "筑\t%zhu2\n{\\large{tuk\\textsuperscript{˸𢀜}}},\n\\textit{ṭiuwk};\t%1019c",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𢀜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "14-08",
+      "character": "竺",
+      "abbreviation": "二",
+      "semantic_component": "二",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|竹|alt1=𥫗|二|ls=psc|c1=p|c2=s}}",
+      "template_alt_graph": "𥫗",
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱一一",
+      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸二}}},",
+      "render_latex": "竺\t%du3\n{\\large{tuk\\textsuperscript{˸二}}},\n\\textit{təwk};\t%1019f",
+      "classification": "template_alt_graph",
+      "proposal": "Prefer template alt graph `𥫗` over gloss-like token `二`; it then still needs a new Latin label.",
+      "target_graph": "𥫗",
+      "target_abbreviation": null
+    },
+    {
       "entry_id": "14-23",
       "character": "覆",
       "abbreviation": "襾",
@@ -317,6 +354,23 @@
       "render_latex": "太\t%tai4 / tài\n{\\large{lat\\textsuperscript{˸丶}}},\n\\textit{thayH};\t%0317d",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "21-30",
+      "character": "發",
+      "abbreviation": "𭚧",
+      "semantic_component": "𭚧",
+      "position": "suffix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿰弓殳",
+      "transliteration_latex": "{\\large{pat₂\\textsuperscript{˸𭚧}}},",
+      "render_latex": "發\t%bo1 / fa1 / fā\n{\\large{pat₂\\textsuperscript{˸𭚧}}},\n\\textit{pat};\t%0275c\n\\textit{piət};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𭚧` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "22-10",
@@ -837,6 +891,27 @@
           "entry_id": "24-02",
           "character": "乾",
           "position": "suffix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "二",
+      "classification": "template_alt_graph",
+      "proposal": "Prefer template alt graph `𥫗` over gloss-like token `二`; it then still needs a new Latin label.",
+      "target_graph": "𥫗",
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱一一",
+      "template_alt_graph": "𥫗",
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "14-08",
+          "character": "竺",
+          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
@@ -1406,6 +1481,27 @@
       ]
     },
     {
+      "semantic_component": "𢀜",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𢀜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰工丮",
+      "template_alt_graph": null,
+      "template_gloss_primary": "bamboo",
+      "template_gloss_secondary": "to hold",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "14-08",
+          "character": "筑",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "𦣞",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𦣞` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -1464,6 +1560,27 @@
           "entry_id": "29-13",
           "character": "㦤",
           "position": "suffix-dot",
+          "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "𭚧",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𭚧` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰弓殳",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "21-30",
+          "character": "發",
+          "position": "suffix-colon",
           "source": "packet_family_component_literal_fallback"
         }
       ]

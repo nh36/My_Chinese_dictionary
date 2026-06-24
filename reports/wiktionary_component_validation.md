@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4352
-- Pages fetched / cached successfully: 4294
-- Additions with explicit Han-compound semantic/phonetic roles: 2092
+- Proposed additions checked: 4390
+- Pages fetched / cached successfully: 4330
+- Additions with explicit Han-compound semantic/phonetic roles: 2112
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1345,6 +1345,13 @@
 | `09-29` | 骿 | yes | no |  |  |
 | `09-29` | 胼 | yes | no |  |  |
 | `09-29` | 跰 | yes | no |  |  |
+| `09-30` | 冥 | yes | yes | 日, 廾 | 冖 |
+| `09-30` | 瞑 | yes | yes | 目 | 冥 |
+| `09-30` | 溟 | yes | yes | 水 | 冥 |
+| `09-30` | 螟 | yes | no |  |  |
+| `09-30` | 塓 | yes | no |  |  |
+| `09-30` | 幎 | yes | no |  |  |
+| `09-30` | 𧜀 | no | no |  |  |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |
@@ -1598,6 +1605,12 @@
 | `12-19` | 揔 | yes | yes | 手 | 怱 |
 | `12-19` | 窻 | yes | yes | 穴 | 悤 |
 | `12-19` | 䆫 | yes | yes | 穴 | 怱 |
+| `12-22` | 从 | yes | no |  |  |
+| `12-22` | 從 | yes | yes | 辵 | 从 |
+| `12-22` | 縱 | yes | yes | 糸 | 從 |
+| `12-22` | 樅 | yes | yes | 木 | 從 |
+| `12-22` | 聳 | yes | yes | 耳 | 從 |
+| `12-22` | 豵 | yes | yes | 豕 | 從 |
 | `12-25` | 丰 | yes | no |  |  |
 | `12-25` | 捧 | yes | no |  |  |
 | `12-25` | 俸 | yes | yes | 人 | 奉 |
@@ -1774,6 +1787,12 @@
 | `13-50` | 紐 | yes | yes | 糸 | 丑 |
 | `13-50` | 羞 | yes | yes | 羊 | 丑 |
 | `13-50` | 忸 | yes | no |  |  |
+| `13-55` | 曹 | yes | no |  |  |
+| `13-55` | 螬 | yes | no |  |  |
+| `13-55` | 漕 | yes | yes | 水 | 曹 |
+| `13-55` | 傮 | yes | no |  |  |
+| `13-55` | 糟 | yes | yes | 米 | 曹 |
+| `13-55` | 遭 | yes | yes | 辵 | 曹 |
 | `13-57` | 秋 | yes | yes | 禾 | 𤒅 |
 | `13-57` | 楸 | yes | no |  |  |
 | `13-57` | 萩 | yes | no |  |  |
@@ -1848,6 +1867,12 @@
 | `14-03` | 嚳 | yes | yes | 告 | 學 |
 | `14-03` | 鷽 | yes | no |  |  |
 | `14-03` | 攪 | yes | yes | 手 | 覺 |
+| `14-08` | 竹 | yes | no |  |  |
+| `14-08` | 筑 | yes | no |  | 竹 |
+| `14-08` | 築 | yes | yes | 木 | 筑 |
+| `14-08` | 𥲒 | no | no |  |  |
+| `14-08` | 竺 | yes | yes | 二 | 竹 |
+| `14-08` | 篤 | yes | yes | 馬 | 竹 |
 | `14-14` | 賣 | yes | yes | 出 | 買 |
 | `14-14` | 儥 | yes | yes | 人 | 𧶠 |
 | `14-14` | 覿 | yes | no |  |  |
@@ -2421,6 +2446,19 @@
 | `21-26` | 萬 | yes | no |  |  |
 | `21-26` | 勱 | yes | no |  |  |
 | `21-26` | 邁 | yes | no |  |  |
+| `21-28` | 祭 | yes | no |  |  |
+| `21-28` | 穄 | yes | yes | 禾 | 祭 |
+| `21-28` | 際 | yes | yes | 阜 | 祭 |
+| `21-28` | 傺 | yes | no |  |  |
+| `21-28` | 瘵 | yes | no |  |  |
+| `21-28` | 蔡 | yes | yes | 艸 | 祭 |
+| `21-28` | 察 | yes | yes | 宀 | 祭 |
+| `21-30` | 癶 | yes | no |  |  |
+| `21-30` | 癹 | yes | no |  | 癶 |
+| `21-30` | 發 | yes | no |  |  |
+| `21-30` | 撥 | yes | yes | 手 | 發 |
+| `21-30` | 襏 | yes | no |  |  |
+| `21-30` | 廢 | yes | yes | 广 | 發 |
 | `21-31` | 犮 | yes | no |  |  |
 | `21-31` | 跋 | yes | yes | 足 | 犮 |
 | `21-31` | 魃 | yes | no |  |  |

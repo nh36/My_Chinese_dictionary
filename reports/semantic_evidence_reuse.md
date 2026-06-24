@@ -1,14 +1,14 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 350
-- Proposed additions inspected: 4352
-- Additions with reusable semantic assignment from existing TeX: 4352
-- Additions with reusable transliteration LaTeX from existing TeX: 4352
-- Additions with reusable render block from existing TeX: 4352
-- Additions with IDS-derived semantic candidates: 3024
-- Additions with explicit Wiktionary Han-compound support: 2081
+- Curated entries inspected: 356
+- Proposed additions inspected: 4390
+- Additions with reusable semantic assignment from existing TeX: 4390
+- Additions with reusable transliteration LaTeX from existing TeX: 4390
+- Additions with reusable render block from existing TeX: 4390
+- Additions with IDS-derived semantic candidates: 3044
+- Additions with explicit Wiktionary Han-compound support: 2102
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 3684
+- Additions assigned under generated candidate nodes: 3714
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 126
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -117,6 +117,7 @@
 | `09-19` | 16 | 16 | 16 | 16 |
 | `09-25` | 29 | 29 | 29 | 29 |
 | `09-29` | 15 | 15 | 15 | 15 |
+| `09-30` | 7 | 7 | 7 | 7 |
 | `10-35` | 16 | 16 | 16 | 16 |
 | `10-37` | 14 | 14 | 14 | 14 |
 | `10-39` | 17 | 17 | 17 | 17 |
@@ -137,6 +138,7 @@
 | `12-10` | 18 | 18 | 18 | 18 |
 | `12-15` | 10 | 10 | 10 | 10 |
 | `12-19` | 12 | 12 | 12 | 12 |
+| `12-22` | 6 | 6 | 6 | 6 |
 | `12-25` | 23 | 23 | 23 | 23 |
 | `13-03` | 9 | 9 | 9 | 9 |
 | `13-08` | 9 | 9 | 9 | 9 |
@@ -150,6 +152,7 @@
 | `13-47` | 19 | 19 | 19 | 19 |
 | `13-48` | 7 | 7 | 7 | 7 |
 | `13-50` | 6 | 6 | 6 | 6 |
+| `13-55` | 6 | 6 | 6 | 6 |
 | `13-57` | 10 | 10 | 10 | 10 |
 | `13-60` | 7 | 7 | 7 | 7 |
 | `13-72` | 14 | 14 | 14 | 14 |
@@ -157,6 +160,7 @@
 | `13-76` | 16 | 16 | 16 | 16 |
 | `14-02` | 10 | 10 | 10 | 10 |
 | `14-03` | 6 | 6 | 6 | 6 |
+| `14-08` | 6 | 6 | 6 | 6 |
 | `14-14` | 19 | 19 | 19 | 19 |
 | `14-18` | 19 | 19 | 19 | 19 |
 | `14-22` | 10 | 10 | 10 | 10 |
@@ -207,6 +211,8 @@
 | `21-24` | 7 | 7 | 7 | 7 |
 | `21-25` | 9 | 9 | 9 | 9 |
 | `21-26` | 11 | 11 | 11 | 11 |
+| `21-28` | 7 | 7 | 7 | 7 |
+| `21-30` | 6 | 6 | 6 | 6 |
 | `21-31` | 15 | 15 | 15 | 15 |
 | `22-01` | 12 | 12 | 12 | 12 |
 | `22-02` | 11 | 11 | 11 | 11 |
