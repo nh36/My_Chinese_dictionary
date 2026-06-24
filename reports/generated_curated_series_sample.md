@@ -25,11 +25,17 @@
 | `02-06` | `missing_series` | no | 6 | 4 |
 | `02-08` | `missing_series` | no | 11 | 10 |
 | `02-10` | `missing_series` | no | 2 | 1 |
+| `02-12` | `missing_series` | no | 4 | 2 |
 | `02-13` | `missing_series` | no | 4 | 3 |
+| `02-14` | `missing_series` | no | 11 | 9 |
+| `02-16` | `missing_series` | no | 3 | 2 |
 | `02-17` | `missing_series` | no | 13 | 10 |
+| `02-18` | `missing_series` | no | 4 | 3 |
 | `02-22` | `missing_series` | no | 8 | 7 |
 | `02-23` | `missing_series` | no | 9 | 6 |
+| `02-24` | `missing_series` | no | 3 | 2 |
 | `02-25` | `missing_series` | no | 17 | 16 |
+| `02-26` | `missing_series` | no | 4 | 3 |
 | `02-27` | `missing_series` | no | 10 | 8 |
 | `02-31` | `missing_series` | no | 14 | 13 |
 | `02-32` | `missing_series` | no | 20 | 19 |

@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 643
-- Subgroups newly marked with `a`: 56
-- Subgroups newly marked with `b`: 43
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 224
-- Mixed subgroups left unmarked: 317
+- Generated subgroup heads inspected: 652
+- Subgroups newly marked with `a`: 58
+- Subgroups newly marked with `b`: 44
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 229
+- Mixed subgroups left unmarked: 318
 - Unresolved subgroups left unmarked: 3
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -29,16 +29,25 @@
 | `02-06` | 椁 | `kuak` | `ku\textoverset{a}{a}k` | `a` | yes | `kwak, khwak` | all extracted forms lack an i-medial after the onset |
 | `02-08` | 蒦 | `quak` | `quak` | `mixed` | no | `hweak, qiwak, hwak, huH, qwak, 'waek` | top-level series head left unmarked |
 | `02-10` | 赫 | `qhrak` | `qhrak` | `a` | no | `xaek, xaeH` | top-level series head left unmarked |
+| `02-12` | 霍 | `quo` | `quo` | `a` | no | `xwak, xəwk` | top-level series head left unmarked |
 | `02-13` | 亞 | `ʔak` | `ʔak` | `a` | no | `qaeH, qaek, qaeX, qak, qu, quH` | top-level series head left unmarked |
+| `02-14` | 屰 | `ṅak` | `ṅak` | `mixed` | no | `ṅiaek, ṅak, ṅuH` | top-level series head left unmarked |
+| `02-14` | 㖾 | `ṅak` | `ṅ\textoverset{a}{a}k` | `a` | yes | `ṅak, ṅuH` | all extracted forms lack an i-medial after the onset |
+| `02-14` | 咢 | `ṅak` | `ṅ\textoverset{a}{a}k₂` | `a` | yes | `ṅak` | all extracted forms lack an i-medial after the onset |
+| `02-16` | 度 | `tak` | `tak` | `a` | no | `dak, duH` | top-level series head left unmarked |
 | `02-17` | 石 | `tak` | `tak` | `mixed` | no | `jiek, ciek, ṭaek, ciak, ciaeH, thak, tuH` | top-level series head left unmarked |
 | `02-17` | 橐 | `tak` | `t\textoverset{a}{a}k` | `a` | yes | `thak, tuH` | all extracted forms lack an i-medial after the onset |
+| `02-18` | 庶 | `tak` | `tak` | `b` | no | `śiəH, ciəH, ciae, ciek` | top-level series head left unmarked |
 | `02-22` | 乇 | `tak` | `tak` | `a` | no | `ṭaek, ḍaek, ṭaeH, ṭhaeH, thak, tuH, ḍae` | top-level series head left unmarked |
 | `02-22` | 宅 | `tak` | `t\textoverset{a}{a}k₂` | `a` | yes | `ḍaek, ṭaeH, ṭhaeH` | all extracted forms lack an i-medial after the onset |
 | `02-22` | 託 | `tak` | `t\textoverset{a}{a}k₃` | `a` | yes | `thak, tuH` | all extracted forms lack an i-medial after the onset |
 | `02-23` | 㡿 | `qak` | `qak` | `mixed` | no | `chiek, thak, suH` | top-level series head left unmarked |
 | `02-23` | 斥 | `qak` | `qak₃` | `mixed` | no | `chiek, ṭhaek, thak, suH` | the extracted forms point to both type a and type b |
+| `02-24` | 赤 | `qhak` | `qhak` | `b` | no | `tshiek, chiek, śiaeH, śiek` | top-level series head left unmarked |
+| `02-24` | 赦 | `qhak` | `qh\textoverset{b}{a}k` | `b` | yes | `śiaeH, śiek` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `02-25` | 睪 | `lak` | `lak` | `mixed` | no | `yiek, duH, tuH, śiek, ḍaek, thak, dak` | top-level series head left unmarked |
 | `02-25` | 擇 | `lak` | `l\textoverset{a}{a}k` | `a` | yes | `ḍaek, thak` | all extracted forms lack an i-medial after the onset |
+| `02-26` | 射 | `lak` | `lak` | `b` | no | `jiek, źiaeH, yiek, źiek, ziaeH` | top-level series head left unmarked |
 | `02-27` | 亦 | `qak` | `qak` | `b` | no | `yiek, tsiek` | top-level series head left unmarked |
 | `02-27` | 夜 | `rak` | `r\textoverset{b}{a}k` | `b` | yes | `yaeH, yiek` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `02-31` | 乍 | `tsak` | `tsak` | `a` | no | `dẓaeH, tṣaeH, dzuH, tṣaek, tsak, dzak` | top-level series head left unmarked |

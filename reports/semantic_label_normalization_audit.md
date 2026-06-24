@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T20:22:17.713143+00:00
+- Generated at: 2026-06-24T20:27:05.392614+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19033
+- Total occurrences audited: 19121
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18818 |
+| `canonical` | 18898 |
 | `explicit_alias` | 75 |
-| `needs_review` | 140 |
+| `needs_review` | 148 |
 
 ## Blocked ambiguous aliases
 
@@ -607,11 +607,17 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `02-08` | `彠` | `尋` | render_latex, transliteration_latex | `尋` | `⿰尋蒦` | `彠	%huo4
 {\large{\textsuperscript{尋·}quak}},
 \textit{qiwak};	%0784f` |
+| `curation_json` | `02-14` | `㖾` | `吅` | render_latex, transliteration_latex | `吅` | `⿱吅屰` | `㖾	%e4
+{\large{\textsuperscript{吅˸}ṅak}},
+\textit{ṅak};	%0788f` |
+| `curation_json` | `02-14` | `咢` | `吅` | render_latex, transliteration_latex | `吅` | `⿱吅亏` | `咢	%e4 / è
+{\large{\textsuperscript{吅˸}ṅak}},
+\textit{ṅak};	%0788g` |
 | `curation_json` | `02-22` | `㓃` | `冖` | render_latex, transliteration_latex | `冖` | `⿱冖託` | `㓃	%du4
 {\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},
 \textit{tuH};	%0780j` |
 | `curation_json` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
-{\large{qak₄\textsuperscript{˸夕}}},
+{\large{qak₅\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
 | `curation_json` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
@@ -718,11 +724,17 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `02-08` | `彠` | `尋` | render_latex, transliteration_latex | `尋` | `⿰尋蒦` | `彠	%huo4
 {\large{\textsuperscript{尋·}quak}},
 \textit{qiwak};	%0784f` |
+| `integrated_series_curated_entry` | `02-14` | `㖾` | `吅` | render_latex, transliteration_latex | `吅` | `⿱吅屰` | `㖾	%e4
+{\large{\textsuperscript{吅˸}ṅak}},
+\textit{ṅak};	%0788f` |
+| `integrated_series_curated_entry` | `02-14` | `咢` | `吅` | render_latex, transliteration_latex | `吅` | `⿱吅亏` | `咢	%e4 / è
+{\large{\textsuperscript{吅˸}ṅak}},
+\textit{ṅak};	%0788g` |
 | `integrated_series_curated_entry` | `02-22` | `㓃` | `冖` | render_latex, transliteration_latex | `冖` | `⿱冖託` | `㓃	%du4
 {\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},
 \textit{tuH};	%0780j` |
 | `integrated_series_curated_entry` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
-{\large{qak₄\textsuperscript{˸夕}}},
+{\large{qak₅\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
 | `integrated_series_curated_entry` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
@@ -827,8 +839,10 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{麻·}kam}},
 \textit{kam};	%0606d` |
 | `validation_tex` | `` | `` | `尋` | line | `` | `` | `{\large{\textsuperscript{尋·}quak}},` |
+| `validation_tex` | `` | `` | `吅` | line | `` | `` | `{\large{\textsuperscript{吅˸}ṅak}},` |
+| `validation_tex` | `` | `` | `吅` | line | `` | `` | `{\large{\textsuperscript{吅˸}ṅak}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},` |
-| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₄\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₅\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
@@ -858,8 +872,10 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
 | `validation_tex` | `` | `` | `尋` | line | `` | `` | `{\large{\textsuperscript{尋·}quak}},` |
+| `validation_tex` | `` | `` | `吅` | line | `` | `` | `{\large{\textsuperscript{吅˸}ṅak}},` |
+| `validation_tex` | `` | `` | `吅` | line | `` | `` | `{\large{\textsuperscript{吅˸}ṅak}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},` |
-| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₄\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₅\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |

@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 46,
-    "unique_component_count": 41,
+    "case_count": 48,
+    "unique_component_count": 42,
     "by_classification": {
-      "new_latin_label_needed": 45,
+      "new_latin_label_needed": 47,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 28,
-      "ids_component_literal_fallback": 11,
-      "packet_family_component_literal_fallback": 7
+      "wiktionary_component_literal_fallback": 29,
+      "packet_family_component_literal_fallback": 8,
+      "ids_component_literal_fallback": 11
     }
   },
   "cases": [
@@ -29,6 +29,40 @@
       "render_latex": "彠\t%huo4\n{\\large{\\textsuperscript{尋·}quak}},\n\\textit{qiwak};\t%0784f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `尋` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "02-14",
+      "character": "㖾",
+      "abbreviation": "吅",
+      "semantic_component": "吅",
+      "position": "prefix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿰口口",
+      "transliteration_latex": "{\\large{\\textsuperscript{吅˸}ṅak}},",
+      "render_latex": "㖾\t%e4\n{\\large{\\textsuperscript{吅˸}ṅak}},\n\\textit{ṅak};\t%0788f",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `吅` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "02-14",
+      "character": "咢",
+      "abbreviation": "吅",
+      "semantic_component": "吅",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|吅|屰|c1=s|c2=p|ls=ic|ls2=psc|t1=to speak loudly|t2=opposite, against|nocap=y}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "to speak loudly",
+      "template_gloss_secondary": "opposite, against",
+      "semantic_component_ids": "⿰口口",
+      "transliteration_latex": "{\\large{\\textsuperscript{吅˸}ṅak}},",
+      "render_latex": "咢\t%e4 / è\n{\\large{\\textsuperscript{吅˸}ṅak}},\n\\textit{ṅak};\t%0788g",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `吅` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "02-22",
@@ -59,8 +93,8 @@
       "template_gloss_primary": null,
       "template_gloss_secondary": "[[moon]]",
       "semantic_component_ids": "⿴𠂊丶",
-      "transliteration_latex": "{\\large{qak₄\\textsuperscript{˸夕}}},",
-      "render_latex": "夜\t%ye4 / yè\n{\\large{qak₄\\textsuperscript{˸夕}}},\n\\textit{yaeH};\t%0800j",
+      "transliteration_latex": "{\\large{qak₅\\textsuperscript{˸夕}}},",
+      "render_latex": "夜\t%ye4 / yè\n{\\large{qak₅\\textsuperscript{˸夕}}},\n\\textit{yaeH};\t%0800j",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -1039,6 +1073,33 @@
           "character": "冞",
           "position": "prefix-colon",
           "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "吅",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `吅` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰口口",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 2,
+      "examples": [
+        {
+          "entry_id": "02-14",
+          "character": "㖾",
+          "position": "prefix-colon",
+          "source": "packet_family_component_literal_fallback"
+        },
+        {
+          "entry_id": "02-14",
+          "character": "咢",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },

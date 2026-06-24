@@ -1,0 +1,1393 @@
+{
+  "generated_at": "2026-06-24T20:26:17.207891+00:00",
+  "id": "02-26",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "02-26",
+    "rhyme_section": 2,
+    "series_number": 26,
+    "k_tokens": [
+      "807"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC         LHan       OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 95,
+    "source_line_number": 62,
+    "source_line_raw": "2-26 = K. 807         Man d.       MC         LHan       OCM"
+  },
+  "coverage": {
+    "gsc_id": "02-26",
+    "rhyme_section": "2",
+    "series_number": "26",
+    "schuessler_k_tokens": "807",
+    "schuessler_source_page": "95",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "7",
+    "mand2mc_character_count": "4",
+    "mand2mc_characters_sample": "射; 䠶; 榭; 謝",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "射; 謝",
+    "combined_source_character_count": "4",
+    "combined_source_characters_sample": "射; 䠶; 榭; 謝"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "807"
+  ],
+  "proposed_additions": [
+    {
+      "character": "射",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 10,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jiek",
+          "źiaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jiek",
+          "źiaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyek",
+          "dzyaeH"
+        ],
+        "bs_gsr_forms": [
+          "zyaeH",
+          "zyek"
+        ],
+        "bs_not_in_mand2mc": [
+          "zyaeH",
+          "zyek"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dzyek",
+          "dzyaeH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5942",
+          "character": "射",
+          "pinyin": "she4",
+          "mc_nwh": "jiek",
+          "mc_bs": "dzyek",
+          "gsr": "0807a"
+        },
+        {
+          "source_row_number": "5943",
+          "character": "射",
+          "pinyin": "she4",
+          "mc_nwh": "źiaeH",
+          "mc_bs": "dzyaeH",
+          "gsr": "0807a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "126",
+          "character": "射",
+          "pinyin": "shè",
+          "mc_bs": "zyaeH",
+          "mc_analyzed": "(zy- + -jae C)",
+          "oc_bs": "*Cə.lak-s {*Cə.lAk-s}",
+          "gloss": "shoot; archer",
+          "gsr": "0807a",
+          "unicode_utf16": "U+5C04"
+        },
+        {
+          "source_page_number": "126",
+          "character": "射",
+          "pinyin": "shè",
+          "mc_bs": "zyek",
+          "mc_analyzed": "(zy- + -jek D)",
+          "oc_bs": "*Cə.lak {*Cə.lAk}",
+          "gloss": "hit with bow and arrow",
+          "gsr": "0807a",
+          "unicode_utf16": "U+5C04"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11869",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊益",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11871",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɢlʲaɡ"
+        },
+        {
+          "source_row_number": "11872",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊謝",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɡ‧laɡs"
+        },
+        {
+          "source_row_number": "11873",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "11869",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊益",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11870",
+          "character": "麝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11871",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɢlʲaɡ"
+        },
+        {
+          "source_row_number": "11872",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊謝",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɡ‧laɡs"
+        },
+        {
+          "source_row_number": "11873",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        },
+        {
+          "source_row_number": "11874",
+          "character": "麝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        },
+        {
+          "source_row_number": "11875",
+          "character": "謝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11876",
+          "character": "榭",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11877",
+          "character": "㴬",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11878",
+          "character": "㓔",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "詞夜",
+          "source": "集韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|弓|矢|t1=bow|t2=arrow|ls=ic|nocap=y}}",
+          "positional_components": [
+            "弓",
+            "矢"
+          ],
+          "positional_components_raw": [
+            "弓",
+            "矢"
+          ],
+          "named_args": {
+            "t1": "bow",
+            "t2": "arrow",
+            "ls": "ic",
+            "nocap": "y"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|弓|矢|t1=bow|t2=arrow|ls=ic|nocap=y}}",
+            "positional_components": [
+              "弓",
+              "矢"
+            ],
+            "positional_components_raw": [
+              "弓",
+              "矢"
+            ],
+            "named_args": {
+              "t1": "bow",
+              "t2": "arrow",
+              "ls": "ic",
+              "nocap": "y"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{lak₂}},",
+      "render_latex": "射\t%she4 / shè\n{\\large{lak₂}},\n\\textit{jiek};\t%0807a\n\\textit{źiaeH};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "射",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "射"
+      },
+      "resolved_node_root": {
+        "root": "lak",
+        "source": "node_inherit_parent",
+        "descendant_count": 3,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "lak",
+          "syk"
+        ],
+        "bs_node_roots": [
+          "lak",
+          "syk"
+        ],
+        "display_root": "lak",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "jiek",
+          "źiaeH",
+          "yiek",
+          "źiek",
+          "ziaeH"
+        ],
+        "form_analyses": [
+          {
+            "form": "jiek",
+            "normalized": "jiek",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "źiaeH",
+            "normalized": "źiae",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "yiek",
+            "normalized": "yiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "źiek",
+            "normalized": "źiek",
+            "class": "b",
+            "reason": "palatal_initial"
+          },
+          {
+            "form": "ziaeH",
+            "normalized": "ziae",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "䠶",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiek",
+          "źiaeH",
+          "źiek"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiek",
+          "źiaeH",
+          "źiek"
+        ],
+        "mand2mc_bs_forms": [
+          "yek",
+          "dzyaeH",
+          "dzyek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5944",
+          "character": "䠶",
+          "pinyin": "yi4",
+          "mc_nwh": "yiek",
+          "mc_bs": "yek",
+          "gsr": "0807b"
+        },
+        {
+          "source_row_number": "5945",
+          "character": "䠶",
+          "pinyin": "she4",
+          "mc_nwh": "źiaeH",
+          "mc_bs": "dzyaeH",
+          "gsr": "0807b"
+        },
+        {
+          "source_row_number": "5946",
+          "character": "䠶",
+          "pinyin": "she4",
+          "mc_nwh": "źiek",
+          "mc_bs": "dzyek",
+          "gsr": "0807b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{lak₂}},",
+      "render_latex": "䠶\t%yi4 / she4\n{\\large{lak₂}},\n\\textit{yiek};\t%0807b\n\\textit{źiaeH};\n\\textit{źiek};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "射",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "射"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "榭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "zjaeH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5947",
+          "character": "榭",
+          "pinyin": "xie4",
+          "mc_nwh": "ziaeH",
+          "mc_bs": "zjaeH",
+          "gsr": "0807e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11876",
+          "character": "榭",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|木|射|c1=s|c2=p|t1=wood; wooden structure|ls=psc}}",
+          "positional_components": [
+            "木",
+            "射"
+          ],
+          "positional_components_raw": [
+            "木",
+            "射"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "wood; wooden structure",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "射"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|木|射|c1=s|c2=p|t1=wood; wooden structure|ls=psc}}",
+            "positional_components": [
+              "木",
+              "射"
+            ],
+            "positional_components_raw": [
+              "木",
+              "射"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "wood; wooden structure",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "射"
+            ]
+          },
+          {
+            "template_raw": "{{Han compound|木|射|t2=[[archery]]|ls=ic|nocap=yes}}",
+            "positional_components": [
+              "木",
+              "射"
+            ],
+            "positional_components_raw": [
+              "木",
+              "射"
+            ],
+            "named_args": {
+              "t2": "[[archery]]",
+              "ls": "ic",
+              "nocap": "yes"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "榭",
+          "ids": "⿰木射",
+          "phonetic_component": "射",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 203
+          },
+          {
+            "graph_raw": "木",
+            "label_token": "arb",
+            "abbreviation": "arb",
+            "learned": true,
+            "evidence_count": 22
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "木"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}lak₂}},",
+      "render_latex": "榭\t%xie4\n{\\large{\\textsuperscript{arb·}lak₂}},\n\\textit{ziaeH};\t%0807e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "木",
+        "phonetic_component": "射",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "榭",
+          "semantic_component": "木",
+          "phonetic_component": "射",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "template_raw": "{{Han compound|木|射|c1=s|c2=p|t1=wood; wooden structure|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "射",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "射"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "謝",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "zjaeH"
+        ],
+        "bs_gsr_forms": [
+          "zjaeH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5948",
+          "character": "謝",
+          "pinyin": "xie4",
+          "mc_nwh": "ziaeH",
+          "mc_bs": "zjaeH",
+          "gsr": "0807g"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "126",
+          "character": "謝",
+          "pinyin": "xiè",
+          "mc_bs": "zjaeH",
+          "mc_analyzed": "(z- + -jae C)",
+          "oc_bs": "*sə-lak-s {*sə-lAk-s}",
+          "gloss": "decline, renounce",
+          "gsr": "0807g",
+          "unicode_utf16": "U+8B1D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11875",
+          "character": "謝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|c1=s|t1=word; speech|射|c2=p|ls=psc}}",
+          "positional_components": [
+            "言",
+            "射"
+          ],
+          "positional_components_raw": [
+            "言",
+            "射"
+          ],
+          "named_args": {
+            "c1": "s",
+            "t1": "word; speech",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "射"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|c1=s|t1=word; speech|射|c2=p|ls=psc}}",
+            "positional_components": [
+              "言",
+              "射"
+            ],
+            "positional_components_raw": [
+              "言",
+              "射"
+            ],
+            "named_args": {
+              "c1": "s",
+              "t1": "word; speech",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "射"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "謝",
+          "ids": "⿰言射",
+          "phonetic_component": "射",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 256
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 19
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}lak₂}},",
+      "render_latex": "謝\t%xie4 / xiè\n{\\large{\\textsuperscript{dic·}lak₂}},\n\\textit{ziaeH};\t%0807g",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "射",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "謝",
+          "semantic_component": "言",
+          "phonetic_component": "射",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "template_raw": "{{Han compound|言|c1=s|t1=word; speech|射|c2=p|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "射",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "射"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "射",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 10,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jiek",
+          "źiaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "jiek",
+          "źiaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyek",
+          "dzyaeH"
+        ],
+        "bs_gsr_forms": [
+          "zyaeH",
+          "zyek"
+        ],
+        "bs_not_in_mand2mc": [
+          "zyaeH",
+          "zyek"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dzyek",
+          "dzyaeH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5942",
+          "character": "射",
+          "pinyin": "she4",
+          "mc_nwh": "jiek",
+          "mc_bs": "dzyek",
+          "gsr": "0807a"
+        },
+        {
+          "source_row_number": "5943",
+          "character": "射",
+          "pinyin": "she4",
+          "mc_nwh": "źiaeH",
+          "mc_bs": "dzyaeH",
+          "gsr": "0807a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "126",
+          "character": "射",
+          "pinyin": "shè",
+          "mc_bs": "zyaeH",
+          "mc_analyzed": "(zy- + -jae C)",
+          "oc_bs": "*Cə.lak-s {*Cə.lAk-s}",
+          "gloss": "shoot; archer",
+          "gsr": "0807a",
+          "unicode_utf16": "U+5C04"
+        },
+        {
+          "source_page_number": "126",
+          "character": "射",
+          "pinyin": "shè",
+          "mc_bs": "zyek",
+          "mc_analyzed": "(zy- + -jek D)",
+          "oc_bs": "*Cə.lak {*Cə.lAk}",
+          "gloss": "hit with bow and arrow",
+          "gsr": "0807a",
+          "unicode_utf16": "U+5C04"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11869",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊益",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11871",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɢlʲaɡ"
+        },
+        {
+          "source_row_number": "11872",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊謝",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɡ‧laɡs"
+        },
+        {
+          "source_row_number": "11873",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "11869",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊益",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11870",
+          "character": "麝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɡ‧laɡ"
+        },
+        {
+          "source_row_number": "11871",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食亦",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡ",
+          "oc_syllable": "ɢlʲaɡ"
+        },
+        {
+          "source_row_number": "11872",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "羊謝",
+          "source": "广韵",
+          "oc_initial": "ɡ‧l",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɡ‧laɡs"
+        },
+        {
+          "source_row_number": "11873",
+          "character": "射",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        },
+        {
+          "source_row_number": "11874",
+          "character": "麝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神夜",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "ɢlʲaɡs"
+        },
+        {
+          "source_row_number": "11875",
+          "character": "謝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11876",
+          "character": "榭",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11877",
+          "character": "㴬",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        },
+        {
+          "source_row_number": "11878",
+          "character": "㓔",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "詞夜",
+          "source": "集韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ]
+    },
+    {
+      "character": "䠶",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiek",
+          "źiaeH",
+          "źiek"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiek",
+          "źiaeH",
+          "źiek"
+        ],
+        "mand2mc_bs_forms": [
+          "yek",
+          "dzyaeH",
+          "dzyek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5944",
+          "character": "䠶",
+          "pinyin": "yi4",
+          "mc_nwh": "yiek",
+          "mc_bs": "yek",
+          "gsr": "0807b"
+        },
+        {
+          "source_row_number": "5945",
+          "character": "䠶",
+          "pinyin": "she4",
+          "mc_nwh": "źiaeH",
+          "mc_bs": "dzyaeH",
+          "gsr": "0807b"
+        },
+        {
+          "source_row_number": "5946",
+          "character": "䠶",
+          "pinyin": "she4",
+          "mc_nwh": "źiek",
+          "mc_bs": "dzyek",
+          "gsr": "0807b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "榭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "zjaeH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5947",
+          "character": "榭",
+          "pinyin": "xie4",
+          "mc_nwh": "ziaeH",
+          "mc_bs": "zjaeH",
+          "gsr": "0807e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11876",
+          "character": "榭",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "謝",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ziaeH"
+        ],
+        "mand2mc_bs_forms": [
+          "zjaeH"
+        ],
+        "bs_gsr_forms": [
+          "zjaeH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5948",
+          "character": "謝",
+          "pinyin": "xie4",
+          "mc_nwh": "ziaeH",
+          "mc_bs": "zjaeH",
+          "gsr": "0807g"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "126",
+          "character": "謝",
+          "pinyin": "xiè",
+          "mc_bs": "zjaeH",
+          "mc_analyzed": "(z- + -jae C)",
+          "oc_bs": "*sə-lak-s {*sə-lAk-s}",
+          "gloss": "decline, renounce",
+          "gsr": "0807g",
+          "unicode_utf16": "U+8B1D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11875",
+          "character": "謝",
+          "phonetic_component": "射",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "辝夜",
+          "source": "广韵",
+          "oc_initial": "sɢˡ",
+          "oc_rhyme": "aɡs",
+          "oc_syllable": "sɢˡaɡs"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "射",
+      "gsr": "0807a",
+      "oc_bs": "*Cə.lak-s {*Cə.lAk-s}",
+      "root": "lak",
+      "source": "head_graph_oc_bs",
+      "support_count": 4,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "lak",
+    "source": "head_graph_oc_bs",
+    "character": "射",
+    "oc_bs": "*Cə.lak-s {*Cə.lAk-s}",
+    "confidence": "provisional-oc",
+    "support_count": 4,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "lak₂",
+    "base_root": "lak",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -1,16 +1,16 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 385
-- Total notes inventoried: 1558
+- Entries with at least one note: 391
+- Total notes inventoried: 1580
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 640 |
-| `curation_entry_note` | 748 |
-| `curation_mc_investigation` | 127 |
+| `curation_division_note` | 649 |
+| `curation_entry_note` | 760 |
+| `curation_mc_investigation` | 128 |
 | `curation_research_note` | 22 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
@@ -21,18 +21,18 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 127 |
+| `mc_conflict` | 128 |
 | `semantic_analysis` | 22 |
 | `source_reference` | 10 |
-| `structural_internal` | 640 |
-| `workflow_internal` | 753 |
+| `structural_internal` | 649 |
+| `workflow_internal` | 765 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 1517 |
+| `internal_only` | 1539 |
 | `series_end_note` | 31 |
 
 ## Examples: `analysis_note`
@@ -63,8 +63,8 @@
 | `01-42` | `curation_mc_investigation` | character: 徐 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: zjo. |
 | `01-62` | `curation_mc_investigation` | character: 梳 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: srjo. |
 | `02-08` | `curation_mc_investigation` | character: 擭 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: 'waek. |
+| `02-26` | `curation_mc_investigation` | character: 射 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: zyaeH, zyek. |
 | `02-31` | `curation_mc_investigation` | character: 作 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: tsuH. |
-| `03-01` | `curation_mc_investigation` | character: 航 | `internal_only` | BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: hang. |
 
 ## Examples: `semantic_analysis`
 

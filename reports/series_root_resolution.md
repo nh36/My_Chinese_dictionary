@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 358
-- Packets with at least one root candidate: 350
-- Packets with a single resolved provisional root: 358
+- Missing-series packets inspected: 364
+- Packets with at least one root candidate: 356
+- Packets with a single resolved provisional root: 364
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -16,11 +16,17 @@
 | `02-06` | 郭→kuak [*kʷˤak] (0774a) | `kuak` | `head_graph_oc_bs` |
 | `02-08` | 蒦→quak [*m-qʷˤrak] (0784a) | `quak` | `head_graph_oc_bs` |
 | `02-10` | 赫→qak [*qʰˤrak] (0779a) | `qak` | `head_graph_oc_bs` |
+| `02-12` | 霍→quo [*qʷʰo̠ɡʷ] (None) | `quo` | `head_graph_oc_shengfu` |
 | `02-13` | 亞→ʔak [*ʔˤrak-s] (0805a) | `ʔak` | `head_graph_oc_bs` |
+| `02-14` | 屰→ṅak [*ŋrak] (0788a) | `ṅak` | `head_graph_oc_bs` |
+| `02-16` | 度→tak [*dˤak {*[d]ˤak}] (0801a) | `tak` | `head_graph_oc_bs` |
 | `02-17` | 石→tak [*dak {*dAk}] (0795a) | `tak` | `head_graph_oc_bs` |
+| `02-18` | 庶→tak [*s-tak-s] (0804a) | `tak` | `head_graph_oc_bs` |
 | `02-22` | 乇→tak [*tˤrak] (0780a) | `tak` | `head_graph_oc_bs` |
 | `02-23` | 㡿→qak [*t-qʰak {*t-qʰAk}] (0792a) | `qak` | `head_graph_oc_bs` |
+| `02-24` | 赤→qak [*t-qʰak {*[t-qʰ](r)Ak}] (0793a) | `qak` | `head_graph_oc_bs` |
 | `02-25` | 睪→lak [*ɡ‧laɡ] (None) | `lak` | `head_graph_oc_shengfu` |
+| `02-26` | 射→lak [*Cə.lak-s {*Cə.lAk-s}] (0807a) | `lak` | `head_graph_oc_bs` |
 | `02-27` | 亦→qak [*ɢak {*ɢ(r)Ak}] (0800a) | `qak` | `head_graph_oc_bs` |
 | `02-31` | 乍→tsak [*dzˤrak-s {*[dz]ˤrak-s}] (0806a) | `tsak` | `head_graph_oc_bs` |
 | `02-32` | 昔→sak [*sak {*[s]Ak}] (0798a) | `sak` | `head_graph_oc_bs` |

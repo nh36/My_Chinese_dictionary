@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4485
-- Pages fetched / cached successfully: 4424
-- Additions with explicit Han-compound semantic/phonetic roles: 2156
+- Proposed additions checked: 4514
+- Pages fetched / cached successfully: 4453
+- Additions with explicit Han-compound semantic/phonetic roles: 2168
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -119,10 +119,28 @@
 | `02-08` | 擭 | yes | no |  |  |
 | `02-10` | 赫 | yes | no |  |  |
 | `02-10` | 嚇 | yes | yes | 口 | 赫 |
+| `02-12` | 霍 | yes | no |  |  |
+| `02-12` | 靃 | yes | no |  |  |
+| `02-12` | 藿 | yes | no |  |  |
+| `02-12` | 臛 | yes | no |  |  |
 | `02-13` | 亞 | yes | no |  |  |
 | `02-13` | 啞 | yes | yes | 口 | 亞 |
 | `02-13` | 堊 | yes | no |  |  |
 | `02-13` | 惡 | yes | yes | 心 | 亞 |
+| `02-14` | 屰 | yes | no |  |  |
+| `02-14` | 逆 | yes | yes | 辵 | 屰 |
+| `02-14` | 㖾 | yes | no |  |  |
+| `02-14` | 咢 | yes | yes | 吅 | 屰 |
+| `02-14` | 愕 | yes | no |  |  |
+| `02-14` | 遌 | yes | no |  |  |
+| `02-14` | 遻 | yes | no |  |  |
+| `02-14` | 諤 | yes | no |  |  |
+| `02-14` | 鄂 | yes | yes | 邑 | 咢 |
+| `02-14` | 鍔 | yes | no |  |  |
+| `02-14` | 鶚 | yes | yes | 鳥 | 咢 |
+| `02-16` | 度 | yes | yes | 又 | 石 |
+| `02-16` | 渡 | yes | yes | 水 | 度 |
+| `02-16` | 剫 | yes | no |  |  |
 | `02-17` | 石 | yes | no |  |  |
 | `02-17` | 祏 | yes | no |  |  |
 | `02-17` | 碩 | yes | yes | 頁 | 石 |
@@ -136,6 +154,10 @@
 | `02-17` | 妒 | yes | yes | 女 | 戶 |
 | `02-17` | 橐 | yes | yes | 𣒚 | 石 |
 | `02-17` | 蠹 | yes | yes | 䖵 | 橐 |
+| `02-18` | 庶 | yes | yes | 火 | 石 |
+| `02-18` | 遮 | yes | yes | 辵 | 庶 |
+| `02-18` | 摭 | yes | no |  |  |
+| `02-18` | 蹠 | yes | no |  |  |
 | `02-22` | 乇 | yes | no |  |  |
 | `02-22` | 宅 | yes | yes | 宀 | 乇 |
 | `02-22` | 託 | yes | yes | 言 | 乇 |
@@ -153,6 +175,9 @@
 | `02-23` | 㴑 | yes | no |  |  |
 | `02-23` | 泝 | yes | no |  |  |
 | `02-23` | 訴 | yes | yes | 言 | 斥 |
+| `02-24` | 赤 | yes | no |  |  |
+| `02-24` | 赦 | yes | yes | 攴 | 亦 |
+| `02-24` | 螫 | yes | yes | 虫 | 赦 |
 | `02-25` | 睪 | yes | no |  |  |
 | `02-25` | 圛 | yes | yes | 囗 | 睪 |
 | `02-25` | 懌 | yes | yes | 心 | 睪 |
@@ -170,6 +195,10 @@
 | `02-25` | 鐸 | yes | yes | 金 | 睪 |
 | `02-25` | 殬 | yes | yes | 歺 | 睪 |
 | `02-25` | 蘀 | yes | no |  |  |
+| `02-26` | 射 | yes | no |  |  |
+| `02-26` | 䠶 | yes | no |  |  |
+| `02-26` | 榭 | yes | yes | 木 | 射 |
+| `02-26` | 謝 | yes | yes | 言 | 射 |
 | `02-27` | 亦 | yes | no |  |  |
 | `02-27` | 奕 | yes | yes | 大 | 亦 |
 | `02-27` | 帟 | yes | no |  |  |
