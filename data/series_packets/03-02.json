@@ -1,0 +1,581 @@
+{
+  "generated_at": "2026-06-24T20:16:47.851512+00:00",
+  "gsc_id": "03-02",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "697"
+  ],
+  "schuessler": {
+    "gsc_id": "03-02",
+    "rhyme_section": 3,
+    "series_number": 2,
+    "k_tokens": [
+      "697"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC           LHan                OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 100,
+    "source_line_number": 28,
+    "source_line_raw": "3-2   = K. 697        Mand.          MC           LHan                OCM"
+  },
+  "coverage": {
+    "gsc_id": "03-02",
+    "rhyme_section": "3",
+    "series_number": "2",
+    "schuessler_k_tokens": "697",
+    "schuessler_source_page": "100",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "7",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "岡; 剛; 綱; 犅; 鋼",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "3",
+    "bs_gsr_characters_sample": "剛; 綱; 鋼",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "岡; 剛; 綱; 犅; 鋼"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "岡",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5100",
+          "character": "岡",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅ",
+          "mc_bs": "kang",
+          "gsr": "0697a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13308",
+          "character": "岡",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "kˡ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "kˡa̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "kang"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "剛",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5101",
+          "character": "剛",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅ",
+          "mc_bs": "kang",
+          "gsr": "0697b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "106",
+          "character": "剛",
+          "pinyin": "gāng",
+          "mc_bs": "kang",
+          "mc_analyzed": "(k- + -ang A)",
+          "oc_bs": "*kˤaŋ",
+          "gloss": "strong; hard",
+          "gsr": "0697b",
+          "unicode_utf16": "U+525B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13302",
+          "character": "剛",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "13301",
+          "character": "崗",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13302",
+          "character": "剛",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13303",
+          "character": "鋼",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13304",
+          "character": "綱",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13305",
+          "character": "堈",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13306",
+          "character": "𦱌",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居郎",
+          "source": "集韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13307",
+          "character": "𤭛",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居郎",
+          "source": "集韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13308",
+          "character": "岡",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "kˡ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "kˡa̠ŋ"
+        },
+        {
+          "source_row_number": "13309",
+          "character": "犅",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "kˡ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "kˡa̠ŋ"
+        },
+        {
+          "source_row_number": "13311",
+          "character": "鋼",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古浪",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋs",
+          "oc_syllable": "ka̠ŋs"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "kang"
+        ],
+        "bs_gsr_forms": [
+          "kang"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "綱",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5102",
+          "character": "綱",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅ",
+          "mc_bs": "kang",
+          "gsr": "0697e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "106",
+          "character": "綱",
+          "pinyin": "gāng",
+          "mc_bs": "kang",
+          "mc_analyzed": "(k- + -ang A)",
+          "oc_bs": "*kˤaŋ",
+          "gloss": "guiding rope of net",
+          "gsr": "0697e",
+          "unicode_utf16": "U+7DB1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13304",
+          "character": "綱",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "kang"
+        ],
+        "bs_gsr_forms": [
+          "kang"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "犅",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5103",
+          "character": "犅",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅ",
+          "mc_bs": "kang",
+          "gsr": "0697f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13309",
+          "character": "犅",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "kˡ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "kˡa̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "kang"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "鋼",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5104",
+          "character": "鋼",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅ",
+          "mc_bs": "kang",
+          "gsr": "0697h"
+        },
+        {
+          "source_row_number": "5105",
+          "character": "鋼",
+          "pinyin": "gang1",
+          "mc_nwh": "kaṅH",
+          "mc_bs": "kangH",
+          "gsr": "0697h"
+        },
+        {
+          "source_row_number": "5106",
+          "character": "鋼",
+          "pinyin": "gang4",
+          "mc_nwh": "kaṅH",
+          "mc_bs": "kangH",
+          "gsr": "0697h"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "106",
+          "character": "鋼",
+          "pinyin": "gāng",
+          "mc_bs": "kang",
+          "mc_analyzed": "(k- + -ang A)",
+          "oc_bs": "*s.kˤaŋ",
+          "gloss": "cast iron; steel",
+          "gsr": "0697h",
+          "unicode_utf16": "U+92FC"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13303",
+          "character": "鋼",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古郎",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "ka̠ŋ"
+        },
+        {
+          "source_row_number": "13311",
+          "character": "鋼",
+          "phonetic_component": "剛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古浪",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ŋs",
+          "oc_syllable": "ka̠ŋs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaṅ",
+          "kaṅH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaṅ",
+          "kaṅH"
+        ],
+        "mand2mc_bs_forms": [
+          "kang",
+          "kangH"
+        ],
+        "bs_gsr_forms": [
+          "kang"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "kangH"
+        ],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "5100",
+        "character": "岡",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅ",
+        "mc_bs": "kang",
+        "gsr": "0697a"
+      },
+      {
+        "source_row_number": "5101",
+        "character": "剛",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅ",
+        "mc_bs": "kang",
+        "gsr": "0697b"
+      },
+      {
+        "source_row_number": "5102",
+        "character": "綱",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅ",
+        "mc_bs": "kang",
+        "gsr": "0697e"
+      },
+      {
+        "source_row_number": "5103",
+        "character": "犅",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅ",
+        "mc_bs": "kang",
+        "gsr": "0697f"
+      },
+      {
+        "source_row_number": "5104",
+        "character": "鋼",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅ",
+        "mc_bs": "kang",
+        "gsr": "0697h"
+      },
+      {
+        "source_row_number": "5105",
+        "character": "鋼",
+        "pinyin": "gang1",
+        "mc_nwh": "kaṅH",
+        "mc_bs": "kangH",
+        "gsr": "0697h"
+      },
+      {
+        "source_row_number": "5106",
+        "character": "鋼",
+        "pinyin": "gang4",
+        "mc_nwh": "kaṅH",
+        "mc_bs": "kangH",
+        "gsr": "0697h"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "106",
+        "character": "剛",
+        "pinyin": "gāng",
+        "mc_bs": "kang",
+        "mc_analyzed": "(k- + -ang A)",
+        "oc_bs": "*kˤaŋ",
+        "gloss": "strong; hard",
+        "gsr": "0697b",
+        "unicode_utf16": "U+525B"
+      },
+      {
+        "source_page_number": "106",
+        "character": "綱",
+        "pinyin": "gāng",
+        "mc_bs": "kang",
+        "mc_analyzed": "(k- + -ang A)",
+        "oc_bs": "*kˤaŋ",
+        "gloss": "guiding rope of net",
+        "gsr": "0697e",
+        "unicode_utf16": "U+7DB1"
+      },
+      {
+        "source_page_number": "106",
+        "character": "鋼",
+        "pinyin": "gāng",
+        "mc_bs": "kang",
+        "mc_analyzed": "(k- + -ang A)",
+        "oc_bs": "*s.kˤaŋ",
+        "gloss": "cast iron; steel",
+        "gsr": "0697h",
+        "unicode_utf16": "U+92FC"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

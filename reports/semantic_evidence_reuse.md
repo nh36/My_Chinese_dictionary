@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 368
-- Proposed additions inspected: 4462
-- Additions with reusable semantic assignment from existing TeX: 4462
-- Additions with reusable transliteration LaTeX from existing TeX: 4462
-- Additions with reusable render block from existing TeX: 4462
-- Additions with IDS-derived semantic candidates: 3085
-- Additions with explicit Wiktionary Han-compound support: 2131
+- Curated entries inspected: 374
+- Proposed additions inspected: 4485
+- Additions with reusable semantic assignment from existing TeX: 4485
+- Additions with reusable transliteration LaTeX from existing TeX: 4485
+- Additions with reusable render block from existing TeX: 4485
+- Additions with IDS-derived semantic candidates: 3097
+- Additions with explicit Wiktionary Han-compound support: 2145
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 3768
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 126
+- Additions assigned under generated candidate nodes: 3782
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 127
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -17,9 +17,12 @@
 | `01-09` | 9 | 9 | 9 | 9 |
 | `01-18` | 0 | 0 | 0 | 0 |
 | `01-19` | 0 | 0 | 0 | 0 |
+| `01-20` | 7 | 7 | 7 | 7 |
 | `01-38` | 0 | 0 | 0 | 0 |
 | `01-42` | 1 | 1 | 1 | 1 |
 | `01-43` | 2 | 2 | 2 | 2 |
+| `01-46` | 2 | 2 | 2 | 2 |
+| `01-47` | 3 | 3 | 3 | 3 |
 | `01-51` | 18 | 18 | 18 | 18 |
 | `01-57` | 2 | 2 | 2 | 2 |
 | `01-62` | 1 | 1 | 1 | 1 |
@@ -27,6 +30,8 @@
 | `02-02` | 8 | 8 | 8 | 8 |
 | `02-06` | 6 | 6 | 6 | 6 |
 | `02-08` | 11 | 11 | 11 | 11 |
+| `02-10` | 2 | 2 | 2 | 2 |
+| `02-13` | 4 | 4 | 4 | 4 |
 | `02-17` | 13 | 13 | 13 | 13 |
 | `02-22` | 8 | 8 | 8 | 8 |
 | `02-23` | 9 | 9 | 9 | 9 |
@@ -37,6 +42,7 @@
 | `02-38` | 12 | 12 | 12 | 12 |
 | `02-40` | 16 | 16 | 16 | 16 |
 | `03-01` | 10 | 10 | 10 | 10 |
+| `03-02` | 5 | 5 | 5 | 5 |
 | `03-03` | 6 | 6 | 6 | 6 |
 | `03-10` | 11 | 11 | 11 | 11 |
 | `03-12` | 11 | 11 | 11 | 11 |

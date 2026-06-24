@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.545781+00:00",
+  "generated_at": "2026-06-24T20:22:16.135165+00:00",
   "id": "25-25",
   "schuessler": {
     "gsc_id": "25-25",
@@ -3409,7 +3409,12 @@
         "gsr": "0231a",
         "oc_bs": "*ton",
         "root": "ton",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
       }
     ],
     "resolved_series_root": {
@@ -3418,6 +3423,11 @@
       "character": "專",
       "oc_bs": "*ton",
       "confidence": "provisional-oc",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
       "display_root": "ton",
       "base_root": "ton",
       "ordinal": 1,

@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T19:54:35.194728+00:00
+- Generated at: 2026-06-24T20:22:17.713143+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 18961
+- Total occurrences audited: 19033
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18746 |
+| `canonical` | 18818 |
 | `explicit_alias` | 75 |
 | `needs_review` | 140 |
 
@@ -463,6 +463,9 @@ Watched tokens with no current heuristic match: `can`
 
 | Source | GSC | Character | Label | Fields | Component | IDS | Snippet |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `curation_json` | `03-02` | `犅` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛岡` | `犅	%gang1
+{\large{\textsuperscript{bos·}kaṅ}},
+\textit{kaṅ};	%0697f` |
 | `curation_json` | `03-57` | `牥` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛方` | `牥	%fang1
 {\large{\textsuperscript{bos·}paṅ}},
 \textit{piaṅ};	%0740l` |
@@ -481,7 +484,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{heaṅ};	%0831q
 \textit{kheaṅ};` |
 | `curation_json` | `09-25` | `牲` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛生` | `牲	%sheng1
-{\large{\textsuperscript{bos·}tseṅ₂}},
+{\large{\textsuperscript{bos·}seṅ₂}},
 \textit{ṣaeṅ};	%0812e` |
 | `curation_json` | `14-14` | `犢` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛賣` | `犢	%du2 / dú
 {\large{\textsuperscript{bos·}me}},
@@ -512,6 +515,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `34-18` | `犉` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛享` | `犉	%run2
 {\large{\textsuperscript{bos·}tur₃}},
 \textit{ñiwin};	%0464m` |
+| `integrated_series_curated_entry` | `03-02` | `犅` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛岡` | `犅	%gang1
+{\large{\textsuperscript{bos·}kaṅ}},
+\textit{kaṅ};	%0697f` |
 | `integrated_series_curated_entry` | `03-57` | `牥` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛方` | `牥	%fang1
 {\large{\textsuperscript{bos·}paṅ}},
 \textit{piaṅ};	%0740l` |
@@ -530,7 +536,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{heaṅ};	%0831q
 \textit{kheaṅ};` |
 | `integrated_series_curated_entry` | `09-25` | `牲` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛生` | `牲	%sheng1
-{\large{\textsuperscript{bos·}tseṅ₂}},
+{\large{\textsuperscript{bos·}seṅ₂}},
 \textit{ṣaeṅ};	%0812e` |
 | `integrated_series_curated_entry` | `14-14` | `犢` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛賣` | `犢	%du2 / dú
 {\large{\textsuperscript{bos·}me}},
@@ -561,12 +567,13 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `34-18` | `犉` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛享` | `犉	%run2
 {\large{\textsuperscript{bos·}tur₃}},
 \textit{ñiwin};	%0464m` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kaṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}paṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₆}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tyk}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |
-| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tseṅ₂}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}seṅ₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}me}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kaw}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}k\textoverset{a}{o}n}},` |
@@ -576,12 +583,13 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{quin\textsuperscript{˸bos}}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}nyn}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tur₃}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kaṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}paṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₆}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tyk}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |
-| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tseṅ₂}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}seṅ₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}me}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kaw}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}k\textoverset{a}{o}n}},` |
@@ -603,7 +611,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},
 \textit{tuH};	%0780j` |
 | `curation_json` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
-{\large{qak₃\textsuperscript{˸夕}}},
+{\large{qak₄\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
 | `curation_json` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
@@ -714,7 +722,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},
 \textit{tuH};	%0780j` |
 | `integrated_series_curated_entry` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
-{\large{qak₃\textsuperscript{˸夕}}},
+{\large{qak₄\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
 | `integrated_series_curated_entry` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
@@ -820,7 +828,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{kam};	%0606d` |
 | `validation_tex` | `` | `` | `尋` | line | `` | `` | `{\large{\textsuperscript{尋·}quak}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},` |
-| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₃\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₄\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
@@ -851,7 +859,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `舛` | line | `` | `` | `{\large{ma{\textsuperscript{·舛}}}},` |
 | `validation_tex` | `` | `` | `尋` | line | `` | `` | `{\large{\textsuperscript{尋·}quak}},` |
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₃}},` |
-| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₃\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{qak₄\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |

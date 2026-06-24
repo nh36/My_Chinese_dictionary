@@ -153,8 +153,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kuak}},",
-      "render_latex": "郭\t%guo1 / guō\n{\\large{kuak}},\n\\textit{kwak};\t%0774a",
+      "transliteration_latex": "{\\large{kuak₂}},",
+      "render_latex": "郭\t%guo1 / guō\n{\\large{kuak₂}},\n\\textit{kwak};\t%0774a",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -258,8 +258,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kuak}},",
-      "render_latex": "椁\t%guo3\n{\\large{kuak}},\n\\textit{kwak};\t%0774e",
+      "transliteration_latex": "{\\large{kuak₂}},",
+      "render_latex": "椁\t%guo3\n{\\large{kuak₂}},\n\\textit{kwak};\t%0774e",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -385,8 +385,8 @@
         "source": "packet_family_ids",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kuak}},",
-      "render_latex": "槨\t%guo3 / guǒ\n{\\large{\\textsuperscript{arb·}kuak}},\n\\textit{kwak};\t%0774f",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kuak₂}},",
+      "render_latex": "槨\t%guo3 / guǒ\n{\\large{\\textsuperscript{arb·}kuak₂}},\n\\textit{kwak};\t%0774f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -539,8 +539,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "广"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lax·}kuak}},",
-      "render_latex": "廓\t%kuo4 / kuò\n{\\large{\\textsuperscript{lax·}kuak}},\n\\textit{khwak};\t%0774g",
+      "transliteration_latex": "{\\large{\\textsuperscript{lax·}kuak₂}},",
+      "render_latex": "廓\t%kuo4 / kuò\n{\\large{\\textsuperscript{lax·}kuak₂}},\n\\textit{khwak};\t%0774g",
       "wiktionary_semantic_validation": {
         "semantic_component": "广",
         "phonetic_component": "郭",
@@ -727,8 +727,8 @@
         "source": "packet_family_ids",
         "semantic_component": "革"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cori·}kuak}},",
-      "render_latex": "鞹\t%kuo4\n{\\large{\\textsuperscript{cori·}kuak}},\n\\textit{khwak};\t%0774i",
+      "transliteration_latex": "{\\large{\\textsuperscript{cori·}kuak₂}},",
+      "render_latex": "鞹\t%kuo4\n{\\large{\\textsuperscript{cori·}kuak₂}},\n\\textit{khwak};\t%0774i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1082,7 +1082,12 @@
       "gsr": "0774a",
       "oc_bs": "*kʷˤak",
       "root": "kuak",
-      "source": "head_graph_oc_bs"
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
     }
   ],
   "resolved_series_root": {
@@ -1091,9 +1096,14 @@
     "character": "郭",
     "oc_bs": "*kʷˤak",
     "confidence": "provisional-oc",
-    "display_root": "kuak",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "kuak₂",
     "base_root": "kuak",
-    "ordinal": 1,
+    "ordinal": 2,
     "numbering_source": "document_order_occurrence"
   }
 }

@@ -2258,7 +2258,12 @@
       "gsr": "0203a",
       "oc_bs": "*lan {*la[n]}",
       "root": "lan",
-      "source": "head_graph_oc_bs"
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
     }
   ],
   "resolved_series_root": {
@@ -2267,6 +2272,11 @@
     "character": "延",
     "oc_bs": "*lan {*la[n]}",
     "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
     "display_root": "lan",
     "base_root": "lan",
     "ordinal": 1,

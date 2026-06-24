@@ -2590,7 +2590,12 @@
       "gsr": "0341a",
       "oc_bs": "*bet-s {*[b]e[t]-s}",
       "root": "pet",
-      "source": "head_graph_oc_bs"
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
     }
   ],
   "resolved_series_root": {
@@ -2599,6 +2604,11 @@
     "character": "敝",
     "oc_bs": "*bet-s {*[b]e[t]-s}",
     "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
     "display_root": "pet",
     "base_root": "pet",
     "ordinal": 1,

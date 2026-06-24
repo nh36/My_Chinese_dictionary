@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.544924+00:00",
+  "generated_at": "2026-06-24T20:22:16.134356+00:00",
   "id": "21-25",
   "schuessler": {
     "gsc_id": "21-25",
@@ -2611,7 +2611,12 @@
         "gsr": "0291a",
         "oc_bs": "*ret {*[r][e]t}",
         "root": "ret",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
       }
     ],
     "resolved_series_root": {
@@ -2620,6 +2625,11 @@
       "character": "列",
       "oc_bs": "*ret {*[r][e]t}",
       "confidence": "provisional-oc",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
       "display_root": "ret",
       "base_root": "ret",
       "ordinal": 1,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.546577+00:00",
+  "generated_at": "2026-06-24T20:22:16.135894+00:00",
   "id": "30-14",
   "schuessler": {
     "gsc_id": "30-14",
@@ -4787,7 +4787,11 @@
         "gsr": "0500a",
         "oc_bs": "*put",
         "root": "put",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
       }
     ],
     "resolved_series_root": {
@@ -4796,6 +4800,10 @@
       "character": "弗",
       "oc_bs": "*put",
       "confidence": "provisional-oc",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ],
       "display_root": "put",
       "base_root": "put",
       "ordinal": 1,

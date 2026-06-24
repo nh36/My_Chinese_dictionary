@@ -3051,7 +3051,12 @@
       "gsr": "0625a",
       "oc_bs": "*brom {*[b]rom}",
       "root": "pom",
-      "source": "head_graph_oc_bs"
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
     }
   ],
   "resolved_series_root": {
@@ -3060,6 +3065,11 @@
     "character": "凡",
     "oc_bs": "*brom {*[b]rom}",
     "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
     "display_root": "pom",
     "base_root": "pom",
     "ordinal": 1,

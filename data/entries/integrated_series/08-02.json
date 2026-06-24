@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.539580+00:00",
+  "generated_at": "2026-06-24T20:22:16.130277+00:00",
   "id": "08-02",
   "schuessler": {
     "gsc_id": "08-02",
@@ -402,7 +402,7 @@
             "pinyins": []
           }
         ],
-        "render_latex": "鬲\t%ge2 / li4 / gé / lì\n{\\large{kek}},\n\\textit{keak};\t%0855a\n\\textit{lek};",
+        "render_latex": "鬲\t%ge2 / li4 / gé / lì\n{\\large{rek}},\n\\textit{keak};\t%0855a\n\\textit{lek};",
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
@@ -412,7 +412,7 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{kek}},",
+        "transliteration_latex": "{\\large{rek}},",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -424,7 +424,7 @@
           "phonetic_hint": "鬲"
         },
         "resolved_node_root": {
-          "root": "kek",
+          "root": "rek",
           "source": "node_inherit_parent",
           "descendant_count": 5,
           "bs_support_count": 2,
@@ -438,7 +438,7 @@
             "rek",
             "krek"
           ],
-          "display_root": "kek",
+          "display_root": "rek",
           "division_class": "a",
           "division_note": "top-level series head left unmarked",
           "mark_required": false,
@@ -581,8 +581,8 @@
           "source": "ids_top_level",
           "semantic_component": "手"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{man·}kek}},",
-        "render_latex": "搹\t%ge2\n{\\large{\\textsuperscript{man·}kek}},\n\\textit{keak};\t%0855d",
+        "transliteration_latex": "{\\large{\\textsuperscript{man·}rek}},",
+        "render_latex": "搹\t%ge2\n{\\large{\\textsuperscript{man·}rek}},\n\\textit{keak};\t%0855d",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -739,8 +739,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "肉"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{carn·}kek}},",
-        "render_latex": "膈\t%ge2\n{\\large{\\textsuperscript{carn·}kek}},\n\\textit{keak};\t%0855e",
+        "transliteration_latex": "{\\large{\\textsuperscript{carn·}rek}},",
+        "render_latex": "膈\t%ge2\n{\\large{\\textsuperscript{carn·}rek}},\n\\textit{keak};\t%0855e",
         "wiktionary_semantic_validation": {
           "semantic_component": "肉",
           "phonetic_component": "鬲",
@@ -927,8 +927,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "阜"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{tum·}kek}},",
-        "render_latex": "隔\t%ge2 / gé\n{\\large{\\textsuperscript{tum·}kek}},\n\\textit{keak};\t%0855f",
+        "transliteration_latex": "{\\large{\\textsuperscript{tum·}rek}},",
+        "render_latex": "隔\t%ge2 / gé\n{\\large{\\textsuperscript{tum·}rek}},\n\\textit{keak};\t%0855f",
         "wiktionary_semantic_validation": {
           "semantic_component": "阜",
           "phonetic_component": "鬲",
@@ -1112,8 +1112,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "羽"
         },
-        "transliteration_latex": "{\\large{kek\\textsuperscript{·plum}}},",
-        "render_latex": "翮\t%he2\n{\\large{kek\\textsuperscript{·plum}}},\n\\textit{heak};\t%0855g",
+        "transliteration_latex": "{\\large{rek\\textsuperscript{·plum}}},",
+        "render_latex": "翮\t%he2\n{\\large{rek\\textsuperscript{·plum}}},\n\\textit{heak};\t%0855g",
         "wiktionary_semantic_validation": {
           "semantic_component": "羽",
           "phonetic_component": "鬲",
@@ -1258,8 +1258,8 @@
           "source": "ids_top_level",
           "semantic_component": "鳥"
         },
-        "transliteration_latex": "{\\large{kek\\textsuperscript{·av}}},",
-        "render_latex": "鷊\t%yi4\n{\\large{kek\\textsuperscript{·av}}},\n\\textit{ṅek};\t%0855h",
+        "transliteration_latex": "{\\large{rek\\textsuperscript{·av}}},",
+        "render_latex": "鷊\t%yi4\n{\\large{rek\\textsuperscript{·av}}},\n\\textit{ṅek};\t%0855h",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1877,25 +1877,38 @@
         "gsr": "0855a",
         "oc_bs": "*C.qˤ<r>ik",
         "root": "qik",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
       },
       {
         "character": "鬲",
         "gsr": "0855a",
         "oc_bs": "*k.rˤek",
         "root": "rek",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
       }
     ],
     "resolved_series_root": {
-      "root": "kek",
-      "source": "packet_shengfu_majority",
-      "character": null,
-      "oc_bs": null,
+      "root": "rek",
+      "source": "head_graph_supported_root",
+      "character": "鬲",
+      "oc_bs": "*k.rˤek",
       "confidence": "provisional-oc",
-      "supporting_characters": 4,
-      "display_root": "kek",
-      "base_root": "kek",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
+      "display_root": "rek",
+      "base_root": "rek",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }

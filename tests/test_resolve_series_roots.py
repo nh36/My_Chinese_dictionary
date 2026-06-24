@@ -110,6 +110,16 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("root"), "sy")
         self.assertEqual(resolved.get("source"), "head_graph_supplement")
 
+    def test_01_47_head_shengfu_support_breaks_tied_head_roots(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/01-47.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "邪")
+        self.assertEqual(resolved.get("root"), "qa")
+        self.assertEqual(resolved.get("source"), "head_graph_supported_root")
+        self.assertGreaterEqual(resolved.get("support_count", 0), 2)
+
     def test_26_28_supplemental_shengfu_rows_cover_variant_and_combined_forms(self) -> None:
         supplement = resolve_series_roots.load_head_supplement(
             ROOT / "data/series_root_head_supplement.json"

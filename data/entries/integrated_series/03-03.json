@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.538181+00:00",
+  "generated_at": "2026-06-24T20:22:16.128962+00:00",
   "id": "03-03",
   "schuessler": {
     "gsc_id": "03-03",
@@ -359,8 +359,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{kaṅ}},",
-        "render_latex": "畺\t%jiang1 / jiāng\n{\\large{kaṅ}},\n\\textit{kiaṅ};\t%0710a",
+        "transliteration_latex": "{\\large{kaṅ₂}},",
+        "render_latex": "畺\t%jiang1 / jiāng\n{\\large{kaṅ₂}},\n\\textit{kiaṅ};\t%0710a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -481,8 +481,8 @@
           "source": "packet_family_ids",
           "semantic_component": "土"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{terr·}kaṅ}},",
-        "render_latex": "壃\t%jiang1\n{\\large{\\textsuperscript{terr·}kaṅ}},\n\\textit{kiaṅ};\t%0710b",
+        "transliteration_latex": "{\\large{\\textsuperscript{terr·}kaṅ₂}},",
+        "render_latex": "壃\t%jiang1\n{\\large{\\textsuperscript{terr·}kaṅ₂}},\n\\textit{kiaṅ};\t%0710b",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -611,8 +611,8 @@
           "source": "ids_top_level",
           "semantic_component": "人"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{hom·}kaṅ}},",
-        "render_latex": "僵\t%jiang1\n{\\large{\\textsuperscript{hom·}kaṅ}},\n\\textit{giaṅ};\t%0710c\n\\textit{kiaṅ};",
+        "transliteration_latex": "{\\large{\\textsuperscript{hom·}kaṅ₂}},",
+        "render_latex": "僵\t%jiang1\n{\\large{\\textsuperscript{hom·}kaṅ₂}},\n\\textit{giaṅ};\t%0710c\n\\textit{kiaṅ};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1047,8 +1047,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "弓"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{arc·}kaṅ}},",
-        "render_latex": "彊\t%qiang2 / qiang3 / jiang1 / qiáng\n{\\large{\\textsuperscript{arc·}kaṅ}},\n\\textit{giaṅ};\t%0710e\n\\textit{giaṅX};\n\\textit{kiaṅ};",
+        "transliteration_latex": "{\\large{\\textsuperscript{arc·}kaṅ₂}},",
+        "render_latex": "彊\t%qiang2 / qiang3 / jiang1 / qiáng\n{\\large{\\textsuperscript{arc·}kaṅ₂}},\n\\textit{giaṅ};\t%0710e\n\\textit{giaṅX};\n\\textit{kiaṅ};",
         "wiktionary_semantic_validation": {
           "semantic_component": "弓",
           "phonetic_component": "畺",
@@ -1971,7 +1971,12 @@
         "gsr": "0710a",
         "oc_bs": "*kaŋ",
         "root": "kaṅ",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 2,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
       }
     ],
     "resolved_series_root": {
@@ -1980,9 +1985,14 @@
       "character": "畺",
       "oc_bs": "*kaŋ",
       "confidence": "provisional-oc",
-      "display_root": "kaṅ",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
+      "display_root": "kaṅ₂",
       "base_root": "kaṅ",
-      "ordinal": 1,
+      "ordinal": 2,
       "numbering_source": "document_order_occurrence"
     }
   },

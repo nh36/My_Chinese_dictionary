@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4462
-- Pages fetched / cached successfully: 4401
-- Additions with explicit Han-compound semantic/phonetic roles: 2142
+- Proposed additions checked: 4485
+- Pages fetched / cached successfully: 4424
+- Additions with explicit Han-compound semantic/phonetic roles: 2156
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -19,9 +19,21 @@
 | `01-09` | 劇 | yes | yes | 刀 | 豦 |
 | `01-09` | 籧 | yes | no |  |  |
 | `01-09` | 蘧 | yes | no |  |  |
+| `01-20` | 䀠 | yes | no |  |  |
+| `01-20` | 瞿 | yes | yes | 隹 | 䀠 |
+| `01-20` | 衢 | yes | yes | 行 | 瞿 |
+| `01-20` | 躣 | yes | no |  |  |
+| `01-20` | 鸜 | yes | no |  |  |
+| `01-20` | 臞 | yes | yes | 肉 | 瞿 |
+| `01-20` | 懼 | yes | yes | 心 | 瞿 |
 | `01-42` | 徐 | yes | yes | 彳 | 余 |
 | `01-43` | 𨑦 | no | no |  |  |
 | `01-43` | 𡐨 | yes | no |  |  |
+| `01-46` | 兔 | yes | no |  |  |
+| `01-46` | 菟 | yes | no |  |  |
+| `01-47` | 邪 | yes | yes | 邑 | 牙 |
+| `01-47` | 耶 | yes | no |  |  |
+| `01-47` | 衺 | yes | yes | 衣 | 牙 |
 | `01-51` | 𧆨 | no | no |  |  |
 | `01-51` | 盧 | yes | yes | 田, 皿 | 虍 |
 | `01-51` | 虜 | yes | yes | 力,  | 虍 |
@@ -105,6 +117,12 @@
 | `02-08` | 雘 | yes | no |  |  |
 | `02-08` | 蠖 | yes | no |  |  |
 | `02-08` | 擭 | yes | no |  |  |
+| `02-10` | 赫 | yes | no |  |  |
+| `02-10` | 嚇 | yes | yes | 口 | 赫 |
+| `02-13` | 亞 | yes | no |  |  |
+| `02-13` | 啞 | yes | yes | 口 | 亞 |
+| `02-13` | 堊 | yes | no |  |  |
+| `02-13` | 惡 | yes | yes | 心 | 亞 |
 | `02-17` | 石 | yes | no |  |  |
 | `02-17` | 祏 | yes | no |  |  |
 | `02-17` | 碩 | yes | yes | 頁 | 石 |
@@ -234,6 +252,11 @@
 | `03-01` | 坑 | yes | yes | 土 | 亢 |
 | `03-01` | 阬 | yes | no |  |  |
 | `03-01` | 航 | yes | yes | 舟 | 亢 |
+| `03-02` | 岡 | yes | yes | 山 | 网 |
+| `03-02` | 剛 | yes | yes | 刀 | 岡 |
+| `03-02` | 綱 | yes | yes | 糸 | 岡 |
+| `03-02` | 犅 | yes | yes | 牛 | 岡 |
+| `03-02` | 鋼 | yes | yes | 金 | 岡 |
 | `03-03` | 畺 | yes | no |  |  |
 | `03-03` | 壃 | yes | no |  |  |
 | `03-03` | 僵 | yes | no |  |  |

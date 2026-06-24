@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:54:33.545431+00:00",
+  "generated_at": "2026-06-24T20:22:16.134832+00:00",
   "id": "24-30",
   "schuessler": {
     "gsc_id": "24-30",
@@ -2277,7 +2277,12 @@
         "gsr": "0203a",
         "oc_bs": "*lan {*la[n]}",
         "root": "lan",
-        "source": "head_graph_oc_bs"
+        "source": "head_graph_oc_bs",
+        "support_count": 3,
+        "supporting_sources": [
+          "head_graph_oc_bs",
+          "head_graph_oc_shengfu"
+        ]
       }
     ],
     "resolved_series_root": {
@@ -2286,6 +2291,11 @@
       "character": "延",
       "oc_bs": "*lan {*la[n]}",
       "confidence": "provisional-oc",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ],
       "display_root": "lan",
       "base_root": "lan",
       "ordinal": 1,

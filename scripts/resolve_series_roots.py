@@ -366,7 +366,18 @@ def derive_root_candidates(
 
     deduped: dict[str, dict[str, Any]] = {}
     for item in candidates:
-        deduped.setdefault(item["root"], item)
+        existing = deduped.get(item["root"])
+        if existing is None:
+            deduped[item["root"]] = {
+                **item,
+                "support_count": 1,
+                "supporting_sources": [item["source"]],
+            }
+            continue
+        existing["support_count"] = existing.get("support_count", 1) + 1
+        supporting_sources = existing.setdefault("supporting_sources", [])
+        if item["source"] not in supporting_sources:
+            supporting_sources.append(item["source"])
     values = list(deduped.values())
     if any(item["gsr"] and split_gsr(item["gsr"]) and split_gsr(item["gsr"])[1] == "a" for item in values):
         values = [
@@ -459,6 +470,25 @@ def derive_packet_shengfu_consensus(entry: dict[str, Any]) -> dict[str, Any] | N
     }
 
 
+def resolved_root_from_candidate(
+    candidate: dict[str, Any],
+    *,
+    source: str | None = None,
+) -> dict[str, Any]:
+    resolved = {
+        "root": candidate["root"],
+        "source": source or candidate["source"],
+        "character": candidate["character"],
+        "oc_bs": candidate.get("oc_bs"),
+        "confidence": "provisional-oc",
+    }
+    if candidate.get("support_count"):
+        resolved["support_count"] = candidate["support_count"]
+    if candidate.get("supporting_sources"):
+        resolved["supporting_sources"] = candidate["supporting_sources"]
+    return resolved
+
+
 def resolve_root(
     entry: dict[str, Any],
     *,
@@ -470,14 +500,7 @@ def resolve_root(
     if not candidates:
         return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
     if len(candidates) == 1:
-        candidate = candidates[0]
-        return {
-            "root": candidate["root"],
-            "source": candidate["source"],
-            "character": candidate["character"],
-            "oc_bs": candidate.get("oc_bs"),
-            "confidence": "provisional-oc",
-        }
+        return resolved_root_from_candidate(candidates[0])
     schuessler_tokens = [
         int(token)
         for token in entry.get("schuessler", {}).get("k_tokens", [])
@@ -488,13 +511,15 @@ def resolve_root(
         for candidate in candidates:
             parts = split_gsr(candidate.get("gsr"))
             if parts and parts[0] == primary_token:
-                return {
-                    "root": candidate["root"],
-                    "source": "merged_packet_primary_head",
-                    "character": candidate["character"],
-                    "oc_bs": candidate.get("oc_bs"),
-                    "confidence": "provisional-oc",
-                }
+                return resolved_root_from_candidate(candidate, source="merged_packet_primary_head")
+    ranked = sorted(
+        candidates,
+        key=lambda item: (-item.get("support_count", 1), item["root"]),
+    )
+    top_support = ranked[0].get("support_count", 1)
+    next_support = ranked[1].get("support_count", 1) if len(ranked) > 1 else 0
+    if top_support > 1 and top_support > next_support:
+        return resolved_root_from_candidate(ranked[0], source="head_graph_supported_root")
     return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
 
 
