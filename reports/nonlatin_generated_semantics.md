@@ -2,14 +2,14 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 49
-- Unique unresolved semantic graphs/tokens: 43
+- Generated non-Latin semantic occurrences: 50
+- Unique unresolved semantic graphs/tokens: 44
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 48 |
+| `new_latin_label_needed` | 49 |
 | `template_alt_graph` | 1 |
 
 ## By source
@@ -18,7 +18,7 @@
 | --- | ---: |
 | `ids_component_literal_fallback` | 12 |
 | `packet_family_component_literal_fallback` | 8 |
-| `wiktionary_component_literal_fallback` | 29 |
+| `wiktionary_component_literal_fallback` | 30 |
 
 ## `new_latin_label_needed`
 
@@ -56,6 +56,7 @@
 | `襾` | `襾` | `14-23`:覆 |  | Keep `襾` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `豈` | `⿱山豆` | `27-02`:凱 |  | Keep `豈` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `豐` | `⿱𠁳豆` | `26-15`:豒 |  | Keep `豐` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `重` | `重` | `03-45`:量 |  | Keep `重` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `镸` | `⿱④𠫔` | `30-11`:肆 |  | Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `香` | `⿱禾日` | `09-02`:馨 |  | Keep `香` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `麥` | `⿱來夂` | `14-02`:麴 |  | Keep `麥` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |

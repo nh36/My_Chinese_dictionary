@@ -1,11 +1,11 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 665
+- Generated subgroup heads inspected: 667
 - Subgroups newly marked with `a`: 58
 - Subgroups newly marked with `b`: 45
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 240
-- Mixed subgroups left unmarked: 319
-- Unresolved subgroups left unmarked: 3
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 242
+- Mixed subgroups left unmarked: 320
+- Unresolved subgroups left unmarked: 2
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,14 +105,16 @@
 | `03-39` | 羊 | `qaṅ` | `qaṅ` | `b` | no | `yaṅ, yaṅX, ziaṅ` | top-level series head left unmarked |
 | `03-39` | 養 | `gaṅ` | `g\textoverset{b}{a}ṅ` | `b` | yes | `yaṅH, yaṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-39` | 羕 | `qaṅ` | `q\textoverset{b}{a}ṅ₂` | `b` | yes | `yaṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `03-41` | 象 | `taṅ` | `taṅ` | `b` | no | `ziaṅX` | top-level series head left unmarked |
 | `03-42` | 襄 | `naṅ` | `naṅ` | `mixed` | no | `siaṅ, śiaṅ, śiaṅH, śiaṅX, ñiaṅ, ñiaṅX, ñiaṅH, naṅX` | top-level series head left unmarked |
 | `03-43` | 良 | `raṅ` | `raṅ` | `mixed` | no | `liaṅ, laṅH, laṅ` | top-level series head left unmarked |
 | `03-43` | 郎 | `raṅ` | `r\textoverset{a}{a}ṅ₂` | `a` | yes | `laṅ` | all extracted forms lack an i-medial after the onset |
+| `03-45` | 量 | `raṅ` | `raṅ` | `b` | no | `liaṅ, liaṅH` | top-level series head left unmarked |
 | `03-48` | 倉 | `tsaṅ` | `tsaṅ` | `mixed` | no | `tshaṅ, tṣhiaṅH, tshiaṅ, tshiaṅX, tṣhiaṅX, tṣhiaṅ` | top-level series head left unmarked |
 | `03-49` | 爿 | `tsaṅ` | `tsaṅ` | `mixed` | no | `tshiaṅ, tsiaṅ, tsiaṅH, śiaṅ, tsiaṅX, dziaṅ, tsaṅ, dzaṅ, dzaṅH, tṣiaṅH, tṣiaṅ, dẓiaṅ, dẓiaṅH` | top-level series head left unmarked |
 | `03-49` | 將 | `tsaṅ` | `ts\textoverset{b}{a}ṅ` | `b` | yes | `tshiaṅ, tsiaṅ, tsiaṅH, śiaṅ, tsiaṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-49` | 臧 | `tsaṅ` | `ts\textoverset{a}{a}ṅ` | `a` | yes | `tsaṅ, dzaṅ, dzaṅH` | all extracted forms lack an i-medial after the onset |
-| `03-49` | 戕 | `tsaṅ` | `tsaṅ₂` | `mixed` | no | `dziaṅ, tsaṅ, dzaṅ, dzaṅH` | the extracted forms point to both type a and type b |
+| `03-49` | 戕 | `tsaṅ` | `tsaṅ₃` | `mixed` | no | `dziaṅ, tsaṅ, dzaṅ, dzaṅH` | the extracted forms point to both type a and type b |
 | `03-49` | 牆 | `saṅ` | `s\textoverset{b}{a}ṅ` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-49` | 嬙 | `saṅ` | `s\textoverset{b}{a}ṅ₂` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-49` | 墻 | `saṅ` | `s\textoverset{b}{a}ṅ₃` | `b` | yes | `dziaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -556,7 +558,7 @@
 | `31-16` | 出 | `kut` | `kut` | `mixed` | no | `chiwiyH, chiwit, ṭhwit, ṭwit, twət, ciwet, tṣiwet, tṣweat, khiut, hwət, kwət, khwət, giut, giwət` | top-level series head left unmarked |
 | `31-16` | 屈 | `kut` | `kut₂` | `mixed` | no | `khiut, hwət, kwət, khwət, giut, giwət` | the extracted forms point to both type a and type b |
 | `31-20` | 卒 | `tsut` | `tsut` | `mixed` | no | `tshwət, tswit, tswət, dzwət, dzwit, tshwəyH, tswiyH, tshwiyH, dzwiyH, swəyH, swiyH` | top-level series head left unmarked |
-| `32-01` | 臤 | `` | `` | `unknown` | no | `` |  |
+| `32-01` | 臤 | `kin` | `kin₃` | `mixed` | no | `ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX` | top-level series head left unmarked |
 | `32-01` | 臣 | `kin` | `kin₂` | `mixed` | no | `jin, ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX, cinH` | the extracted forms point to both type a and type b |
 | `32-05` | 玄 | `gin` | `gin` | `a` | no | `ḫwen, ḫwenX, ḫwenH, ḫen, hwenH, kwənX` | top-level series head left unmarked |
 | `32-05` | 弦 | `gin` | `gin` | `a` | no | `ḫen` | all extracted forms lack an i-medial after the onset |

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 49,
-    "unique_component_count": 43,
+    "case_count": 50,
+    "unique_component_count": 44,
     "by_classification": {
-      "new_latin_label_needed": 48,
+      "new_latin_label_needed": 49,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 29,
+      "wiktionary_component_literal_fallback": 30,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 12
     }
@@ -148,6 +148,23 @@
       "render_latex": "卿\t%qing1 / qīng\n{\\large{\\textsuperscript{𠨍·}qaṅ₃}},\n\\textit{khiaeṅ};\t%0714o",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𠨍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "03-45",
+      "character": "量",
+      "abbreviation": "重",
+      "semantic_component": "重",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|曏|重|ls=psc|c1=p|c2=s|t2=weight; heavy|nocap=1}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "weight; heavy",
+      "semantic_component_ids": "重",
+      "transliteration_latex": "{\\large{raṅ₂\\textsuperscript{˸重}}},",
+      "render_latex": "量\t%liang2 / liang4 / liáng / liàng\n{\\large{raṅ₂\\textsuperscript{˸重}}},\n\\textit{liaṅ};\t%0737a\n\\textit{liaṅH};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `重` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "04-34",
@@ -1555,6 +1572,27 @@
           "character": "豒",
           "position": "prefix-dot",
           "source": "packet_family_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "重",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `重` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "重",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "weight; heavy",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "03-45",
+          "character": "量",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },

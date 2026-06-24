@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4571
-- Pages fetched / cached successfully: 4508
-- Additions with explicit Han-compound semantic/phonetic roles: 2193
+- Proposed additions checked: 4582
+- Pages fetched / cached successfully: 4518
+- Additions with explicit Han-compound semantic/phonetic roles: 2197
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -481,6 +481,7 @@
 | `03-35` | 棖 | yes | no |  |  |
 | `03-36` | 丈 | yes | no |  |  |
 | `03-36` | 杖 | yes | yes | 木 | 丈 |
+| `03-37` | 鬯 | yes | no |  |  |
 | `03-38` | 昜 | yes | yes | 日 | 丂 |
 | `03-38` | 餳 | yes | no |  |  |
 | `03-38` | 陽 | yes | yes | 阜 | 昜 |
@@ -522,6 +523,11 @@
 | `03-39` | 詳 | yes | yes | 言 | 羊 |
 | `03-39` | 癢 | yes | yes | 疒 | 養 |
 | `03-39` | 漾 | yes | yes | 水 | 羕 |
+| `03-40` | 商 | yes | no |  |  |
+| `03-40` | 𧶜 | no | no |  |  |
+| `03-41` | 象 | yes | no |  |  |
+| `03-41` | 像 | yes | yes | 人 | 象 |
+| `03-41` | 橡 | yes | no |  |  |
 | `03-42` | 襄 | yes | yes | 衣 | 𤕦 |
 | `03-42` | 纕 | yes | no |  |  |
 | `03-42` | 饟 | yes | yes | 食 | 襄 |
@@ -549,6 +555,11 @@
 | `03-43` | 郎 | yes | yes | 邑 | 良 |
 | `03-43` | 閬 | yes | no |  |  |
 | `03-43` | 廊 | yes | yes | 广 | 郎 |
+| `03-45` | 量 | yes | yes | 重 | 曏 |
+| `03-45` | 糧 | yes | yes | 米 | 量 |
+| `03-46` | 梁 | yes | yes | 水, 木 | 刅 |
+| `03-46` | 粱 | yes | no |  |  |
+| `03-47` | 葬 | yes | no |  |  |
 | `03-48` | 倉 | yes | no |  |  |
 | `03-48` | 凔 | yes | yes | 仌 | 倉 |
 | `03-48` | 滄 | yes | yes | 水 | 倉 |
