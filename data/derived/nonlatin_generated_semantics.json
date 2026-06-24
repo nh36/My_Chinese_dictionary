@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 48,
-    "unique_component_count": 42,
+    "case_count": 49,
+    "unique_component_count": 43,
     "by_classification": {
-      "new_latin_label_needed": 47,
+      "new_latin_label_needed": 48,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 29,
       "packet_family_component_literal_fallback": 8,
-      "ids_component_literal_fallback": 11
+      "ids_component_literal_fallback": 12
     }
   },
   "cases": [
@@ -99,6 +99,23 @@
       "proposal": "Keep `夕` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "03-06",
+      "character": "羌",
+      "abbreviation": "乚",
+      "semantic_component": "乚",
+      "position": "suffix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "乚",
+      "transliteration_latex": "{\\large{qaṅ₂\\textsuperscript{·乚}}},",
+      "render_latex": "羌\t%qiang1 / qiāng\n{\\large{qaṅ₂\\textsuperscript{·乚}}},\n\\textit{khiaṅ};\t%0712a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `乚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "03-16",
       "character": "嚮",
       "abbreviation": "向",
@@ -127,8 +144,8 @@
       "template_gloss_primary": "two men facing each other",
       "template_gloss_secondary": "food vessel with a stand",
       "semantic_component_ids": "⿰𠂈卩",
-      "transliteration_latex": "{\\large{\\textsuperscript{𠨍·}qaṅ}},",
-      "render_latex": "卿\t%qing1 / qīng\n{\\large{\\textsuperscript{𠨍·}qaṅ}},\n\\textit{khiaeṅ};\t%0714o",
+      "transliteration_latex": "{\\large{\\textsuperscript{𠨍·}qaṅ₃}},",
+      "render_latex": "卿\t%qing1 / qīng\n{\\large{\\textsuperscript{𠨍·}qaṅ₃}},\n\\textit{khiaeṅ};\t%0714o",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𠨍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -977,6 +994,27 @@
           "character": "乾",
           "position": "suffix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "乚",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `乚` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "乚",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "03-06",
+          "character": "羌",
+          "position": "suffix-dot",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },

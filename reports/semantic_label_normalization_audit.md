@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T20:53:35.236885+00:00
+- Generated at: 2026-06-24T21:05:03.116768+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19187
+- Total occurrences audited: 19197
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18964 |
+| `canonical` | 18972 |
 | `explicit_alias` | 75 |
-| `needs_review` | 148 |
+| `needs_review` | 150 |
 
 ## Blocked ambiguous aliases
 
@@ -91,7 +91,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}laṅ}},
 \textit{yaṅ};	%0720s` |
 | `curation_json` | `03-39` | `痒` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒羊` | `痒	%yang2 / yang3 / yáng
-{\large{\textsuperscript{infirm·}qaṅ₂}},
+{\large{\textsuperscript{infirm·}qaṅ₅}},
 \textit{yaṅ};	%0732i
 \textit{yaṅX};
 \textit{ziaṅ};` |
@@ -232,7 +232,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}laṅ}},
 \textit{yaṅ};	%0720s` |
 | `integrated_series_curated_entry` | `03-39` | `痒` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒羊` | `痒	%yang2 / yang3 / yáng
-{\large{\textsuperscript{infirm·}qaṅ₂}},
+{\large{\textsuperscript{infirm·}qaṅ₅}},
 \textit{yaṅ};	%0732i
 \textit{yaṅX};
 \textit{ziaṅ};` |
@@ -366,7 +366,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{qim};	%0653e` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}mak}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}laṅ}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₂}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₅}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}g\textoverset{b}{a}ṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}paṅ₂}},` |
@@ -415,7 +415,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}pa₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}mak}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}laṅ}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₂}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}qaṅ₅}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}g\textoverset{b}{a}ṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsaṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}paṅ₂}},` |
@@ -619,6 +619,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
 {\large{qak₆\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
+| `curation_json` | `03-06` | `羌` | `乚` | render_latex, transliteration_latex | `乚` | `⿸羊乚` | `羌	%qiang1 / qiāng
+{\large{qaṅ₂\textsuperscript{·乚}}},
+\textit{khiaṅ};	%0712a` |
 | `curation_json` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
 \textit{xiaṅH};	%0714i` |
@@ -736,6 +739,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `02-27` | `夜` | `夕` | render_latex, transliteration_latex | `夕` | `⿱亠⿰亻⿴夂丶` | `夜	%ye4 / yè
 {\large{qak₆\textsuperscript{˸夕}}},
 \textit{yaeH};	%0800j` |
+| `integrated_series_curated_entry` | `03-06` | `羌` | `乚` | render_latex, transliteration_latex | `乚` | `⿸羊乚` | `羌	%qiang1 / qiāng
+{\large{qaṅ₂\textsuperscript{·乚}}},
+\textit{khiaṅ};	%0712a` |
 | `integrated_series_curated_entry` | `03-16` | `嚮` | `向` | render_latex, transliteration_latex | `向` | `⿱鄉向` | `嚮	%xiang4 / xiàng
 {\large{q\textoverset{b}{a}ṅ\textsuperscript{˸向}}},
 \textit{xiaṅH};	%0714i` |

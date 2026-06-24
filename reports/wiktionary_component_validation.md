@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4547
-- Pages fetched / cached successfully: 4484
-- Additions with explicit Han-compound semantic/phonetic roles: 2182
+- Proposed additions checked: 4554
+- Pages fetched / cached successfully: 4491
+- Additions with explicit Han-compound semantic/phonetic roles: 2185
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -325,6 +325,10 @@
 | `03-03` | 薑 | yes | yes | 艸 | 彊 |
 | `03-03` | 彊 | yes | yes | 弓 | 畺 |
 | `03-03` | 疆 | yes | yes | 土 | 彊 |
+| `03-05` | 姜 | yes | yes | 女 | 羊 |
+| `03-06` | 羌 | yes | no |  |  |
+| `03-06` | 蜣 | yes | no |  |  |
+| `03-09` | 競 | yes | yes | 儿, 儿 | 誩 |
 | `03-10` | 京 | yes | no |  |  |
 | `03-10` | 景 | yes | yes | 日 | 京 |
 | `03-10` | 勍 | yes | no |  |  |
@@ -347,12 +351,14 @@
 | `03-12` | 塘 | yes | yes | 土 | 唐 |
 | `03-12` | 榶 | yes | no |  |  |
 | `03-12` | 螗 | yes | no |  |  |
+| `03-13` | 羹 | yes | no |  |  |
 | `03-14` | 行 | yes | no |  |  |
 | `03-14` | 荇 | yes | yes | 艸 | 行 |
 | `03-14` | 桁 | yes | yes | 木 | 行 |
 | `03-14` | 珩 | yes | yes | 玉 | 行 |
 | `03-14` | 衡 | yes | yes | 角, 大 | 行 |
 | `03-14` | 蘅 | yes | no |  |  |
+| `03-15` | 杏 | yes | yes | 木 | 可 |
 | `03-16` | 皀 | yes | no |  |  |
 | `03-16` | 鄉 | yes | no |  |  |
 | `03-16` | 嚮 | yes | no |  |  |
@@ -362,6 +368,7 @@
 | `03-16` | 薌 | yes | no |  |  |
 | `03-16` | 響 | yes | yes | 音 | 鄉 |
 | `03-16` | 卿 | yes | yes | 𠨍 | 皀 |
+| `03-19` | 香 | yes | no |  |  |
 | `03-20` | 央 | yes | no |  |  |
 | `03-20` | 佒 | yes | no |  |  |
 | `03-20` | 怏 | yes | no |  |  |

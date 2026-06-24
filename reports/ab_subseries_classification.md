@@ -1,11 +1,11 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 660
+- Generated subgroup heads inspected: 661
 - Subgroups newly marked with `a`: 58
 - Subgroups newly marked with `b`: 45
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 236
-- Mixed subgroups left unmarked: 318
-- Unresolved subgroups left unmarked: 3
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 237
+- Mixed subgroups left unmarked: 319
+- Unresolved subgroups left unmarked: 2
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -70,6 +70,7 @@
 | `03-02` | 岡 | `kaṅ` | `kaṅ` | `a` | no | `kaṅ, kaṅH` | top-level series head left unmarked |
 | `03-03` | 畺 | `kaṅ` | `kaṅ` | `b` | no | `kiaṅ, giaṅ, giaṅX` | top-level series head left unmarked |
 | `03-03` | 彊 | `kaṅ` | `k\textoverset{b}{a}ṅ` | `b` | yes | `giaṅ, giaṅX, kiaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `03-06` | 羌 | `qaṅ` | `qaṅ` | `b` | no | `khiaṅ` | top-level series head left unmarked |
 | `03-10` | 京 | `kaṅ` | `kaṅ` | `b` | no | `kiaeṅ, kiaeṅX, kiwaeṅX, giaeṅ, liaṅH, liak, liaṅ` | top-level series head left unmarked |
 | `03-10` | 景 | `kaṅ` | `k\textoverset{b}{a}ṅ₂` | `b` | yes | `kiaeṅX, kiwaeṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-12` | 庚 | `kaṅ` | `kaṅ` | `a` | no | `kaeṅ, kaeṅH` | top-level series head left unmarked |
@@ -551,7 +552,7 @@
 | `31-16` | 出 | `kut` | `kut` | `mixed` | no | `chiwiyH, chiwit, ṭhwit, ṭwit, twət, ciwet, tṣiwet, tṣweat, khiut, hwət, kwət, khwət, giut, giwət` | top-level series head left unmarked |
 | `31-16` | 屈 | `kut` | `kut₂` | `mixed` | no | `khiut, hwət, kwət, khwət, giut, giwət` | the extracted forms point to both type a and type b |
 | `31-20` | 卒 | `tsut` | `tsut` | `mixed` | no | `tshwət, tswit, tswət, dzwət, dzwit, tshwəyH, tswiyH, tshwiyH, dzwiyH, swəyH, swiyH` | top-level series head left unmarked |
-| `32-01` | 臤 | `` | `` | `unknown` | no | `` |  |
+| `32-01` | 臤 | `kin` | `kin₃` | `mixed` | no | `ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX` | top-level series head left unmarked |
 | `32-01` | 臣 | `kin` | `kin₂` | `mixed` | no | `jin, ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX, cinH` | the extracted forms point to both type a and type b |
 | `32-05` | 玄 | `gin` | `gin` | `a` | no | `ḫwen, ḫwenX, ḫwenH, ḫen, hwenH, kwənX` | top-level series head left unmarked |
 | `32-05` | 弦 | `gin` | `gin` | `a` | no | `ḫen` | all extracted forms lack an i-medial after the onset |
