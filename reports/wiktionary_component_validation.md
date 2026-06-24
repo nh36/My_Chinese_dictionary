@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4390
-- Pages fetched / cached successfully: 4330
-- Additions with explicit Han-compound semantic/phonetic roles: 2112
+- Proposed additions checked: 4426
+- Pages fetched / cached successfully: 4366
+- Additions with explicit Han-compound semantic/phonetic roles: 2127
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -356,6 +356,12 @@
 | `03-32` | 𢠵 | yes | no |  |  |
 | `03-32` | 償 | yes | yes | 人 | 賞 |
 | `03-32` | 儻 | yes | no |  |  |
+| `03-34` | 昌 | yes | no | 日, 口 |  |
+| `03-34` | 倡 | yes | yes | 人 | 昌 |
+| `03-34` | 唱 | yes | yes | 口 | 昌 |
+| `03-34` | 猖 | yes | yes | 犬 | 昌 |
+| `03-34` | 菖 | yes | no |  |  |
+| `03-34` | 閶 | yes | no |  |  |
 | `03-35` | 長 | yes | no |  |  |
 | `03-35` | 萇 | yes | yes | 艸 | 長 |
 | `03-35` | 帳 | yes | yes | 巾 | 長 |
@@ -2723,6 +2729,12 @@
 | `24-21` | 闡 | yes | yes | 門 | 單 |
 | `24-21` | 嬋 | yes | yes | 女 | 單 |
 | `24-21` | 蟬 | yes | yes | 虫 | 單 |
+| `24-22` | 旦 | yes | yes | 日 | 丁 |
+| `24-22` | 鴠 | yes | yes | 鳥 | 旦 |
+| `24-22` | 坦 | yes | yes | 土 | 旦 |
+| `24-22` | 但 | yes | yes | 人 | 旦 |
+| `24-22` | 袒 | yes | yes | 衣 | 旦 |
+| `24-22` | 怛 | yes | no |  |  |
 | `24-23` | 亶 | yes | yes | 㐭 | 旦 |
 | `24-23` | 𤺺 | no | no |  |  |
 | `24-23` | 儃 | yes | yes | 人 | 亶 |
@@ -3264,6 +3276,12 @@
 | `28-01` | 螝 | yes | no |  |  |
 | `28-01` | 餽 | yes | no |  |  |
 | `28-01` | 巍 | yes | no |  |  |
+| `28-04` | 回 | yes | no |  |  |
+| `28-04` | 廻 | yes | no |  |  |
+| `28-04` | 迴 | yes | yes | 辵 | 回 |
+| `28-04` | 徊 | yes | no |  |  |
+| `28-04` | 洄 | yes | no |  |  |
+| `28-04` | 蛔 | yes | no |  |  |
 | `28-05` | 韋 | yes | no |  |  |
 | `28-05` | 違 | yes | yes | 辵 | 韋 |
 | `28-05` | 偉 | yes | yes | 人 | 韋 |
@@ -3408,6 +3426,12 @@
 | `29-17` | 跌 | yes | yes | 足 | 失 |
 | `29-17` | 迭 | yes | yes | 辵 | 失 |
 | `29-17` | 眣 | yes | no |  |  |
+| `29-26` | 日 | yes | no |  |  |
+| `29-26` | 衵 | yes | no |  |  |
+| `29-26` | 馹 | yes | no |  |  |
+| `29-26` | 䵒 | yes | no |  |  |
+| `29-26` | 圼 | yes | no |  |  |
+| `29-26` | 涅 | yes | yes | 水, 土 | 日 |
 | `29-33` | 溢 | yes | yes | 水 | 益 |
 | `29-33` | 鎰 | yes | no |  |  |
 | `29-33` | 欥 | yes | no |  |  |
@@ -3666,6 +3690,18 @@
 | `32-26` | 麟 | yes | yes | 鹿 | 粦 |
 | `32-26` | 鱗 | yes | yes | 魚 | 粦 |
 | `32-26` | 憐 | yes | yes | 心 | 粦 |
+| `32-31` | 秦 | yes | no |  |  |
+| `32-31` | 螓 | yes | yes | 虫 | 秦 |
+| `32-31` | 榛 | yes | yes | 木 | 秦 |
+| `32-31` | 溱 | yes | yes | 水 | 秦 |
+| `32-31` | 臻 | yes | no |  |  |
+| `32-31` | 蓁 | yes | no |  |  |
+| `32-32` | 盡 | yes | no |  |  |
+| `32-32` | 燼 | yes | yes | 火 | 盡 |
+| `32-32` | 藎 | yes | no |  |  |
+| `32-32` | 贐 | yes | no |  |  |
+| `32-32` | 賮 | yes | no |  |  |
+| `32-32` | 津 | yes | yes | 水 | 盡 |
 | `32-33` | 辛 | yes | no |  |  |
 | `32-33` | 峷 | yes | no |  |  |
 | `32-33` | 莘 | yes | no |  |  |

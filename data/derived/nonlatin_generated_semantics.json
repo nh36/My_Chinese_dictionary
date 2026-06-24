@@ -1,14 +1,14 @@
 {
   "summary": {
-    "case_count": 43,
-    "unique_component_count": 40,
+    "case_count": 44,
+    "unique_component_count": 41,
     "by_classification": {
-      "new_latin_label_needed": 42,
+      "new_latin_label_needed": 43,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 26,
-      "ids_component_literal_fallback": 10,
+      "ids_component_literal_fallback": 11,
       "packet_family_component_literal_fallback": 7
     }
   },
@@ -730,6 +730,23 @@
       "proposal": "Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "32-31",
+      "character": "臻",
+      "abbreviation": "至",
+      "semantic_component": "至",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱𠫔土",
+      "transliteration_latex": "{\\large{\\textsuperscript{至·}tsin}},",
+      "render_latex": "臻\t%zhen1\n{\\large{\\textsuperscript{至·}tsin}},\n\\textit{tṣin};\t%0380h",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `至` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "36-01",
       "character": "𤯌",
       "abbreviation": "麻",
@@ -1309,6 +1326,27 @@
           "character": "瓞",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "至",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `至` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱𠫔土",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "32-31",
+          "character": "臻",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },

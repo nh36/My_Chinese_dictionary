@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 622
+- Generated subgroup heads inspected: 629
 - Subgroups newly marked with `a`: 56
 - Subgroups newly marked with `b`: 42
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 209
-- Mixed subgroups left unmarked: 312
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 215
+- Mixed subgroups left unmarked: 313
 - Unresolved subgroups left unmarked: 3
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -69,6 +69,7 @@
 | `03-32` | 賞 | `taṅ` | `t\textoverset{b}{a}ṅ₃` | `b` | yes | `śiaṅ, śiaṅX, jiaṅ, jiaṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `03-32` | 黨 | `taṅ` | `t\textoverset{a}{a}ṅ` | `a` | yes | `taṅX, thaṅX` | all extracted forms lack an i-medial after the onset |
 | `03-32` | 堂 | `taṅ` | `t\textoverset{a}{a}ṅ₂` | `a` | yes | `daṅ, thaṅ, ṭhaeṅ` | all extracted forms lack an i-medial after the onset |
+| `03-34` | 昌 | `kaṅ` | `kaṅ` | `b` | no | `chiaṅ, chiaṅH, jiaṅ` | top-level series head left unmarked |
 | `03-35` | 長 | `taṅ` | `taṅ` | `mixed` | no | `ḍiaṅ, ḍiaṅH, ṭiaṅX, ṭiaṅH, ṭiaṅ, ṭhaeṅ, ṭhiaṅ, ṭhiaṅH, ḍaeṅ` | top-level series head left unmarked |
 | `03-38` | 昜 | `laṅ` | `laṅ` | `mixed` | no | `yaṅ, daṅ, daṅX, śiaṅ, daṅH, yaṅH, tshiaṅ, ṭhiaṅH, ḍiaṅ, thaṅ, thaṅH` | top-level series head left unmarked |
 | `03-38` | 傷 | `laṅ` | `l\textoverset{b}{a}ṅ` | `b` | yes | `śiaṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -406,6 +407,7 @@
 | `24-17` | 鬳 | `ṅar` | `ṅar` | `mixed` | no | `ṅiənH, ṅienH, ṅiən, hiənH, ṅienX, ṅiənX, ṅiet, ṅat` | top-level series head left unmarked |
 | `24-17` | 獻 | `ṅar` | `ṅar₂` | `mixed` | no | `hiənH, ṅienX, ṅiənX, ṅienH, ṅiet, ṅat` | the extracted forms point to both type a and type b |
 | `24-21` | 單 | `tar` | `tar` | `mixed` | no | `tan, tanX, jienX, jienH, cie, cieH, da, dan, ten, taH, than, chienX, danH, ṭhean, cienH, cienX, jien` | top-level series head left unmarked |
+| `24-22` | 旦 | `tan` | `tan` | `a` | no | `tanH, thanX, danX, tat` | top-level series head left unmarked |
 | `24-23` | 亶 | `tan` | `tan` | `mixed` | no | `tanX, jien, thanX, dan, danH, danX, ṭienH, ṭienX, cienX, ḍienX, ṭien, cien, jienH, jienX, śien` | top-level series head left unmarked |
 | `24-30` | 延 | `lan` | `lan` | `mixed` | no | `yien, yan, ṭhien, śien, danX` | top-level series head left unmarked |
 | `24-35` | 嘆 | `nar` | `nar` | `a` | no | `than, thanH, nanH` | top-level series head left unmarked |
@@ -472,6 +474,7 @@
 | `27-08` | 匪 | `py` | `py₆` | `b` | no | `piɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `28-01` | 鬼 | `ʔuy` | `ʔuy` | `mixed` | no | `kiwɨyX, kwəy, khwəy, khweayH, khwəyH, hwəyX, hweay, hwəy, ṅwəy, ṅwəyX, ṅiwɨy, ṅiwɨyH, kwiyH, hwəyH, kwiy, gwiyH` | top-level series head left unmarked |
 | `28-01` | 魏 | `qhuy` | `qhuy` | `b` | no | `ṅiwɨy, ṅiwɨyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `28-04` | 回 | `gy` | `gy` | `a` | no | `ḫwəy` | top-level series head left unmarked |
 | `28-05` | 韋 | `gy` | `gy` | `b` | no | `hiwɨy, hiwɨyX, hwiɨyX, qie, hiwɨyH` | top-level series head left unmarked |
 | `28-05` | 衛 | `quat` | `quat₃` | `mixed` | no | `ḫiweyH, hwaeyH` | the extracted forms point to both type a and type b |
 | `28-11` | 隹 | `tur` | `tur` | `mixed` | no | `ciwiy, thwəy, chiwiy, dwəyX, dzwəy, tshwəy, tshwəyX, tshwiyX, yiwiy, yiwiyX, yiwiyH, hwiy, swiy, lwiyX, ḍwiy, jiwiy, ḍiyH, twəy` | top-level series head left unmarked |
@@ -493,6 +496,8 @@
 | `29-13` | 壹 | `ʔit` | `ʔit` | `mixed` | no | `qyit, qet, qiyH, qeyH` | top-level series head left unmarked |
 | `29-15` | 至 | `tit` | `tit` | `mixed` | no | `ciyH, ṭiyH, ṭit, det, tet, cit, śit, ḍit` | top-level series head left unmarked |
 | `29-17` | 失 | `lit` | `lit` | `mixed` | no | `śit, yit, det, ṭhit, ḍit` | top-level series head left unmarked |
+| `29-26` | 日 | `nit` | `nit` | `mixed` | no | `ñit, ṇit, net` | top-level series head left unmarked |
+| `29-26` | 圼 | `nit` | `nit₂` | `a` | no | `net` | all extracted forms lack an i-medial after the onset |
 | `29-33` | 悉 | `qik` | `qik₂` | `b` | no | `sit, ṣit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `29-41` | 必 | `pit` | `pit` | `mixed` | no | `pyit, bit, bet, byit, piyH, pit, mit, myit, bjit` | top-level series head left unmarked |
 | `29-41` | 宓 | `mit` | `mit` | `b` | no | `mit, myit` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -530,6 +535,8 @@
 | `32-16` | 顛 | `tin` | `tin₂` | `a` | no | `den, ten` | all extracted forms lack an i-medial after the onset |
 | `32-22` | 申 | `lin` | `lin` | `b` | no | `śin, jin, yinH` | top-level series head left unmarked |
 | `32-26` | 粦 | `ryn` | `ryn` | `mixed` | no | `lin, linH, len` | top-level series head left unmarked |
+| `32-31` | 秦 | `tsin` | `tsin` | `b` | no | `dzin, tṣin` | top-level series head left unmarked |
+| `32-32` | 盡 | `tsin` | `tsin` | `b` | no | `dzinX, tsinX, dzinH` | top-level series head left unmarked |
 | `32-33` | 辛 | `sin` | `sin` | `b` | no | `sin, ṣin, tṣin` | top-level series head left unmarked |
 | `32-33` | 新 | `sin` | `sin₂` | `b` | no | `sin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-33` | 親 | `sin` | `sin₃` | `b` | no | `tshin, tṣhinH` | all extracted forms show an i-medial or a dedicated palatal onset |

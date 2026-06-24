@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-24T08:24:28.383289+00:00
+- Generated at: 2026-06-24T19:25:46.352725+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 18731
+- Total occurrences audited: 18849
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 18526 |
+| `canonical` | 18640 |
 | `explicit_alias` | 75 |
-| `needs_review` | 130 |
+| `needs_review` | 134 |
 
 ## Blocked ambiguous aliases
 
@@ -168,7 +168,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{taH};	%0147l
 \textit{tanX};` |
 | `curation_json` | `24-23` | `𤺺` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒亶` | `𤺺	%dan3
-{\large{\textsuperscript{infirm·}tan}},
+{\large{\textsuperscript{infirm·}tan₂}},
 \textit{tanX};	%0148b` |
 | `curation_json` | `25-01` | `痯` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒官` | `痯	%guan3
 {\large{\textsuperscript{infirm·}kuan}},
@@ -314,7 +314,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{taH};	%0147l
 \textit{tanX};` |
 | `integrated_series_curated_entry` | `24-23` | `𤺺` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒亶` | `𤺺	%dan3
-{\large{\textsuperscript{infirm·}tan}},
+{\large{\textsuperscript{infirm·}tan₂}},
 \textit{tanX};	%0148b` |
 | `integrated_series_curated_entry` | `25-01` | `痯` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒官` | `痯	%guan3
 {\large{\textsuperscript{infirm·}kuan}},
@@ -390,7 +390,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tset}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quen}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tar}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tan}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tan₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₈\textsuperscript{·infirm}}},` |
@@ -444,7 +444,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tset}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quen}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tar}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tan}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tan₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₈\textsuperscript{·infirm}}},` |
@@ -692,6 +692,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{ryn\textsuperscript{·巜}}},
 \textit{lin};	%0387c
 \textit{linH};` |
+| `curation_json` | `32-31` | `臻` | `至` | render_latex, transliteration_latex | `至` | `⿰至秦` | `臻	%zhen1
+{\large{\textsuperscript{至·}tsin}},
+\textit{tṣin};	%0380h` |
 | `curation_json` | `36-01` | `𤯌` | `麻` | render_latex, transliteration_latex | `麻` | `⿸麻甘` | `𤯌	%gan1
 {\large{\textsuperscript{麻·}kam}},
 \textit{kam};	%0606d` |
@@ -791,6 +794,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{ryn\textsuperscript{·巜}}},
 \textit{lin};	%0387c
 \textit{linH};` |
+| `integrated_series_curated_entry` | `32-31` | `臻` | `至` | render_latex, transliteration_latex | `至` | `⿰至秦` | `臻	%zhen1
+{\large{\textsuperscript{至·}tsin}},
+\textit{tṣin};	%0380h` |
 | `integrated_series_curated_entry` | `36-01` | `𤯌` | `麻` | render_latex, transliteration_latex | `麻` | `⿸麻甘` | `𤯌	%gan1
 {\large{\textsuperscript{麻·}kam}},
 \textit{kam};	%0606d` |
@@ -819,6 +825,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `镸` | line | `` | `` | `{\large{\textsuperscript{镸·}ryp}},` |
 | `validation_tex` | `` | `` | `柬` | line | `` | `` | `{\large{\textsuperscript{柬·}lin}},` |
 | `validation_tex` | `` | `` | `巜` | line | `` | `` | `{\large{ryn\textsuperscript{·巜}}},` |
+| `validation_tex` | `` | `` | `至` | line | `` | `` | `{\large{\textsuperscript{至·}tsin}},` |
 | `validation_tex` | `` | `` | `麻` | line | `` | `` | `{\large{\textsuperscript{麻·}kam}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{qua{\textsuperscript{·瓜}}}},` |
 | `validation_tex` | `` | `` | `χmolar` | line | `` | `` | `{\Large{與}}	{\large{{xxx\textsuperscript{χmolar}}}} = yyy,` |
@@ -859,5 +866,6 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `镸` | line | `` | `` | `{\large{\textsuperscript{镸·}ryp}},` |
 | `validation_tex` | `` | `` | `柬` | line | `` | `` | `{\large{\textsuperscript{柬·}lin}},` |
 | `validation_tex` | `` | `` | `巜` | line | `` | `` | `{\large{ryn\textsuperscript{·巜}}},` |
+| `validation_tex` | `` | `` | `至` | line | `` | `` | `{\large{\textsuperscript{至·}tsin}},` |
 | `validation_tex` | `` | `` | `麻` | line | `` | `` | `{\large{\textsuperscript{麻·}kam}},` |
 
