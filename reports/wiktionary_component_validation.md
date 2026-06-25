@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4582
-- Pages fetched / cached successfully: 4518
-- Additions with explicit Han-compound semantic/phonetic roles: 2197
+- Proposed additions checked: 4589
+- Pages fetched / cached successfully: 4525
+- Additions with explicit Han-compound semantic/phonetic roles: 2200
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -597,6 +597,8 @@
 | `03-49` | 蔣 | yes | yes | 艸 | 將 |
 | `03-49` | 醬 | yes | yes | 酉 | 將 |
 | `03-49` | 鏘 | yes | no |  |  |
+| `03-52` | 匠 | yes | yes | 斤 | 匚 |
+| `03-54` | 喪 | yes | yes | 㗊 | 桑 |
 | `03-55` | 相 | yes | no |  |  |
 | `03-55` | 想 | yes | yes | 心 | 相 |
 | `03-55` | 湘 | yes | yes | 水 | 相 |
@@ -635,12 +637,17 @@
 | `03-57` | 坊 | yes | yes | 土 | 方 |
 | `03-57` | 房 | yes | yes | 戶 | 方 |
 | `03-57` | 防 | yes | yes | 阜 | 方 |
+| `03-58` | 匚 | yes | no |  |  |
+| `03-60` | 烹 | yes | yes | 火 | 亨 |
 | `03-61` | 丙 | yes | no |  |  |
 | `03-61` | 怲 | yes | no |  |  |
 | `03-61` | 柄 | yes | yes | 木 | 丙 |
 | `03-61` | 炳 | yes | no |  |  |
 | `03-61` | 邴 | yes | no |  |  |
 | `03-61` | 病 | yes | yes | 疒 | 丙 |
+| `03-62` | 秉 | yes | no |  |  |
+| `03-62` | 棅 | yes | no |  |  |
+| `03-63` | 兵 | yes | no |  |  |
 | `03-65` | 亡 | yes | no |  |  |
 | `03-65` | 網 | yes | yes | 糸 | 罔 |
 | `03-65` | 惘 | yes | yes | 心 | 罔 |

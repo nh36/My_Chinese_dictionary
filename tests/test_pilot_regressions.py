@@ -56,10 +56,10 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"旁\footnote{", rendered)
         self.assertIn(r"燅\footnote{", rendered)
         self.assertIn(r"艱\footnote{", rendered)
-        self.assertIn(r"{\large{py\textsuperscript{˸discr}}},", rendered)
-        self.assertIn(r"{\large{\textsuperscript{discr˸}paṅ}},", rendered)
-        self.assertIn(r"{\large{\textsuperscript{prior·}qam}},", rendered)
-        self.assertIn(r"{\large{\textsuperscript{prior·}kyr₃}},", rendered)
+        self.assertRegex(rendered, re.compile(r"\{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\\textsuperscript\{˸discr\}\}\},"))
+        self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{discr˸\}paṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
+        self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}qam[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
+        self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}kyr[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
 
     def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")

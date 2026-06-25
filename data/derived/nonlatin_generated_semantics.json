@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 50,
+    "case_count": 51,
     "unique_component_count": 44,
     "by_classification": {
-      "new_latin_label_needed": 49,
+      "new_latin_label_needed": 50,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 30,
+      "wiktionary_component_literal_fallback": 31,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 12
     }
@@ -165,6 +165,23 @@
       "render_latex": "量\t%liang2 / liang4 / liáng / liàng\n{\\large{raṅ₂\\textsuperscript{˸重}}},\n\\textit{liaṅ};\t%0737a\n\\textit{liaṅH};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `重` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "03-54",
+      "character": "喪",
+      "abbreviation": "㗊",
+      "semantic_component": "㗊",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|桑|㗊|c1=p|c2=s|t1=mulberry tree|t2=many mouths|ls=psc|nocap=y}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "mulberry tree",
+      "template_gloss_secondary": "many mouths",
+      "semantic_component_ids": "⿱吅吅",
+      "transliteration_latex": "{\\large{maṅ₂\\textsuperscript{˸㗊}}},",
+      "render_latex": "喪\t%sang1 / sang4 / sāng / sàng\n{\\large{maṅ₂\\textsuperscript{˸㗊}}},\n\\textit{saṅ};\t%0705a\n\\textit{saṅH};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `㗊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "04-34",
@@ -897,10 +914,16 @@
       "reason": null,
       "semantic_component_ids": "⿱吅吅",
       "template_alt_graph": null,
-      "template_gloss_primary": null,
-      "template_gloss_secondary": null,
-      "case_count": 1,
+      "template_gloss_primary": "mulberry tree",
+      "template_gloss_secondary": "many mouths",
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "03-54",
+          "character": "喪",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        },
         {
           "entry_id": "13-08",
           "character": "嘂",
