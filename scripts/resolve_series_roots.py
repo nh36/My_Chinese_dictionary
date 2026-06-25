@@ -6,6 +6,9 @@ import re
 from pathlib import Path
 from typing import Any
 
+import ab_division
+import mc_resolution
+
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/series_root_resolution.md"
@@ -219,6 +222,41 @@ def derive_oc_root(oc_bs: str | None, *, mode: str = "broad") -> str | None:
     normalized_vowel, normalized_coda = normalize_rhyme(rhyme, mode=mode)
     root = normalized_onset + normalized_vowel + normalized_coda
     return root or None
+
+
+def extract_root_coda(root: str | None) -> str:
+    if not root:
+        return ""
+    for coda in ("ṅ", "k", "p", "t", "m", "n", "r"):
+        if root.endswith(coda):
+            return coda
+    return ""
+
+
+def extract_mc_coda(form: str | None) -> str:
+    if not form:
+        return ""
+    normalized = ab_division.normalize_mc_form(form)
+    for coda in ("ṅ", "k", "p", "t", "m", "n", "r"):
+        if normalized.endswith(coda):
+            return coda
+    return ""
+
+
+def derive_head_mc_coda_hints(entry: dict[str, Any], candidates: list[dict[str, Any]]) -> set[str]:
+    characters = {candidate.get("character") for candidate in candidates if candidate.get("character")}
+    if len(characters) != 1:
+        return set()
+    character = next(iter(characters))
+    proposed = next(
+        (candidate for candidate in entry.get("proposed_additions", []) if candidate.get("character") == character),
+        None,
+    )
+    if proposed is None:
+        return set()
+    resolution = proposed.get("mc_resolution") or mc_resolution.resolve_candidate_mc(proposed)
+    codas = {extract_mc_coda(form) for form in resolution.get("display_forms") or []}
+    return {coda for coda in codas if coda}
 
 
 def load_head_supplement(path: Path) -> dict[str, Any]:
@@ -583,6 +621,15 @@ def resolve_root(
             parts = split_gsr(candidate.get("gsr"))
             if parts and parts[0] == primary_token:
                 return resolved_root_from_candidate(candidate, source="merged_packet_primary_head")
+    mc_coda_hints = derive_head_mc_coda_hints(entry, candidates)
+    if mc_coda_hints:
+        coda_matched = [
+            candidate
+            for candidate in candidates
+            if extract_root_coda(candidate.get("root")) in mc_coda_hints
+        ]
+        if len(coda_matched) == 1:
+            return resolved_root_from_candidate(coda_matched[0], source="head_graph_mc_coda")
     ranked = sorted(
         candidates,
         key=lambda item: (-item.get("support_count", 1), item["root"]),

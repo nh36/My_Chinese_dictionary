@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4623
-- Pages fetched / cached successfully: 4558
-- Additions with explicit Han-compound semantic/phonetic roles: 2212
+- Proposed additions checked: 4636
+- Pages fetched / cached successfully: 4572
+- Additions with explicit Han-compound semantic/phonetic roles: 2217
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -385,7 +385,7 @@
 | `03-16` | 卿 | yes | yes | 𠨍 | 皀 |
 | `03-17` | 享 | yes | no |  |  |
 | `03-17` | 亨 | yes | no |  |  |
-| `03-18` | 向 | no | no |  |  |
+| `03-18` | 向 | yes | no |  |  |
 | `03-18` | 餉 | yes | yes | 食 | 向 |
 | `03-19` | 香 | yes | no |  |  |
 | `03-20` | 央 | yes | no |  |  |
@@ -678,6 +678,7 @@
 | `03-62` | 秉 | yes | no |  |  |
 | `03-62` | 棅 | yes | no |  |  |
 | `03-63` | 兵 | yes | no |  |  |
+| `03-64` | 莽 | yes | yes | 犬 | 茻 |
 | `03-65` | 亡 | yes | no |  |  |
 | `03-65` | 網 | yes | yes | 糸 | 罔 |
 | `03-65` | 惘 | yes | yes | 心 | 罔 |
@@ -703,9 +704,14 @@
 | `03-65` | 巟 | yes | yes | 川 | 亡 |
 | `03-65` | 肓 | yes | no |  |  |
 | `03-65` | 衁 | yes | yes | 血 | 亡 |
+| `03-67` | 网 | yes | no |  |  |
+| `03-67` | 蛧 | yes | no |  |  |
 | `03-68` | 明 | yes | no |  |  |
 | `03-68` | 盟 | yes | yes | 囧 | 皿 |
 | `03-68` | 萌 | yes | yes | 艸 | 明 |
+| `03-69` | 皿 | yes | no |  |  |
+| `03-69` | 孟 | yes | yes | 子 | 皿 |
+| `03-69` | 猛 | yes | yes | 犬 | 孟 |
 | `04-01` | 改 | yes | yes | 攴 | 巳 |
 | `04-02` | 亥 | yes | no |  |  |
 | `04-02` | 核 | yes | yes | 木 | 亥 |
@@ -728,6 +734,11 @@
 | `04-02` | 劾 | yes | yes | 力 | 亥 |
 | `04-02` | 駭 | yes | yes | 馬 | 亥 |
 | `04-02` | 骸 | yes | yes | 骨 | 亥 |
+| `04-03` | 戒 | yes | no |  |  |
+| `04-03` | 誡 | yes | yes | 言 | 戒 |
+| `04-03` | 械 | yes | yes | 木 | 戒 |
+| `04-03` | 駴 | yes | no |  |  |
+| `04-03` | 裓 | yes | no |  |  |
 | `04-04` | 其 | yes | no |  |  |
 | `04-04` | 騏 | yes | no |  |  |
 | `04-04` | 麒 | yes | no |  |  |
@@ -764,6 +775,8 @@
 | `04-05` | 誋 | yes | no |  |  |
 | `04-05` | 跽 | yes | no |  |  |
 | `04-05` | 㠱 | yes | no |  |  |
+| `04-06` | 龜 | yes | no |  |  |
+| `04-07` | 簋 | yes | no |  |  |
 | `04-12` | 九 | yes | no |  |  |
 | `04-12` | 頄 | yes | no |  |  |
 | `04-12` | 宄 | yes | yes | 宀 | 九 |

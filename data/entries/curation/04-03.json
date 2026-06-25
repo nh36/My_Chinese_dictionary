@@ -1,0 +1,1432 @@
+{
+  "generated_at": "2026-06-25T08:04:42.269894+00:00",
+  "id": "04-03",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "04-03",
+    "rhyme_section": 4,
+    "series_number": 3,
+    "k_tokens": [
+      "990"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.      MC           LHan              OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 117,
+    "source_line_number": 37,
+    "source_line_raw": "4-3   = K. 990     Mand.      MC           LHan              OCM"
+  },
+  "coverage": {
+    "gsc_id": "04-03",
+    "rhyme_section": "4",
+    "series_number": "3",
+    "schuessler_k_tokens": "990",
+    "schuessler_source_page": "117",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "6",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "戒; 誡; 械; 駴; 裓",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "3",
+    "bs_gsr_characters_sample": "戒; 誡; 械",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "戒; 誡; 械; 駴; 裓"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "990"
+  ],
+  "proposed_additions": [
+    {
+      "character": "戒",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 8,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keayH"
+        ],
+        "mand2mc_bs_forms": [
+          "keajH"
+        ],
+        "bs_gsr_forms": [
+          "keajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7274",
+          "character": "戒",
+          "pinyin": "jie4",
+          "mc_nwh": "keayH",
+          "mc_bs": "keajH",
+          "gsr": "0990a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "戒",
+          "pinyin": "jiè",
+          "mc_bs": "keajH",
+          "mc_analyzed": "(k- + -eaj C)",
+          "oc_bs": "*kˤrək-s ~ kˤrək",
+          "gloss": "be on guard",
+          "gsr": "0990a",
+          "unicode_utf16": "U+6212"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7030",
+          "character": "戒",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "7024",
+          "character": "祴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古哀",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "ɯ̠",
+          "oc_syllable": "kɯ̠"
+        },
+        {
+          "source_row_number": "7025",
+          "character": "駴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "侯楷",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "ɡʳɯ̠ʔ"
+        },
+        {
+          "source_row_number": "7026",
+          "character": "裓",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居諧",
+          "source": "释文集",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡ",
+          "oc_syllable": "kʳɯ̠ɡ"
+        },
+        {
+          "source_row_number": "7027",
+          "character": "悈",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "紀力",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "kɯɡ"
+        },
+        {
+          "source_row_number": "7028",
+          "character": "械",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡介",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "ɡʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7029",
+          "character": "誡",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7030",
+          "character": "戒",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7031",
+          "character": "悈",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|戈|t1=halberd|廾|t2=hands|ls=ic}}",
+          "positional_components": [
+            "戈",
+            "廾"
+          ],
+          "positional_components_raw": [
+            "戈",
+            "廾"
+          ],
+          "named_args": {
+            "t1": "halberd",
+            "t2": "hands",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|戈|t1=halberd|廾|t2=hands|ls=ic}}",
+            "positional_components": [
+              "戈",
+              "廾"
+            ],
+            "positional_components_raw": [
+              "戈",
+              "廾"
+            ],
+            "named_args": {
+              "t1": "halberd",
+              "t2": "hands",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{kyk}},",
+      "render_latex": "戒\t%jie4 / jiè\n{\\large{kyk}},\n\\textit{keayH};\t%0990a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "戒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "戒"
+      },
+      "resolved_node_root": {
+        "root": "kryk",
+        "source": "node_bs_consensus",
+        "descendant_count": 4,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "kyk"
+        ],
+        "bs_node_roots": [
+          "kryk"
+        ],
+        "display_root": "kryk",
+        "division_class": "a",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "keayH",
+          "heayH",
+          "kəy",
+          "kək"
+        ],
+        "form_analyses": [
+          {
+            "form": "keayH",
+            "normalized": "keay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "heayH",
+            "normalized": "heay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kəy",
+            "normalized": "kəy",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "kək",
+            "normalized": "kək",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "誡",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keayH"
+        ],
+        "mand2mc_bs_forms": [
+          "keajH"
+        ],
+        "bs_gsr_forms": [
+          "keajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7275",
+          "character": "誡",
+          "pinyin": "jie4",
+          "mc_nwh": "keayH",
+          "mc_bs": "keajH",
+          "gsr": "0990c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "誡",
+          "pinyin": "jiè",
+          "mc_bs": "keajH",
+          "mc_analyzed": "(k- + -eaj C)",
+          "oc_bs": "*kˤrək-s",
+          "gloss": "warn",
+          "gsr": "0990c",
+          "unicode_utf16": "U+8AA1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7029",
+          "character": "誡",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|戒|ls=ic|ls2=psc|c1=s|c2=p|t1=speech|t2=guard against}}",
+          "positional_components": [
+            "言",
+            "戒"
+          ],
+          "positional_components_raw": [
+            "言",
+            "戒"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "ls2": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "speech",
+            "t2": "guard against"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "戒"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|戒|ls=ic|ls2=psc|c1=s|c2=p|t1=speech|t2=guard against}}",
+            "positional_components": [
+              "言",
+              "戒"
+            ],
+            "positional_components_raw": [
+              "言",
+              "戒"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "ls2": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "speech",
+              "t2": "guard against"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "戒"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "誡",
+          "ids": "⿰言戒",
+          "phonetic_component": "戒",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 256
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 19
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}kyk}},",
+      "render_latex": "誡\t%jie4 / jiè\n{\\large{\\textsuperscript{dic·}kyk}},\n\\textit{keayH};\t%0990c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "戒",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "誡",
+          "semantic_component": "言",
+          "phonetic_component": "戒",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "template_raw": "{{Han compound|言|戒|ls=ic|ls2=psc|c1=s|c2=p|t1=speech|t2=guard against}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "戒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "戒"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "械",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "heayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "heayH"
+        ],
+        "mand2mc_bs_forms": [
+          "heajH"
+        ],
+        "bs_gsr_forms": [
+          "heajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7276",
+          "character": "械",
+          "pinyin": "xie4",
+          "mc_nwh": "heayH",
+          "mc_bs": "heajH",
+          "gsr": "0990d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "械",
+          "pinyin": "xiè",
+          "mc_bs": "heajH",
+          "mc_analyzed": "(h- + -eaj C)",
+          "oc_bs": "*m-kˤrək-s {*[m]-kˤrək-s}",
+          "gloss": "fetters; weapon",
+          "gsr": "0990d",
+          "unicode_utf16": "U+68B0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7028",
+          "character": "械",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡介",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "ɡʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|木|戒|ls=psc|c1=s|c2=p|t1=wood}}",
+          "positional_components": [
+            "木",
+            "戒"
+          ],
+          "positional_components_raw": [
+            "木",
+            "戒"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "wood"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "戒"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|木|戒|ls=psc|c1=s|c2=p|t1=wood}}",
+            "positional_components": [
+              "木",
+              "戒"
+            ],
+            "positional_components_raw": [
+              "木",
+              "戒"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "wood"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "戒"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "械",
+          "ids": "⿰木戒",
+          "phonetic_component": "戒",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 203
+          },
+          {
+            "graph_raw": "木",
+            "label_token": "arb",
+            "abbreviation": "arb",
+            "learned": true,
+            "evidence_count": 22
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "木"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kyk}},",
+      "render_latex": "械\t%xie4 / xiè\n{\\large{\\textsuperscript{arb·}kyk}},\n\\textit{heayH};\t%0990d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "木",
+        "phonetic_component": "戒",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "械",
+          "semantic_component": "木",
+          "phonetic_component": "戒",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "template_raw": "{{Han compound|木|戒|ls=psc|c1=s|c2=p|t1=wood}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "戒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "戒"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "駴",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "heayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "heayH"
+        ],
+        "mand2mc_bs_forms": [
+          "heajH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7277",
+          "character": "駴",
+          "pinyin": "hai4",
+          "mc_nwh": "heayH",
+          "mc_bs": "heajH",
+          "gsr": "0990e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7025",
+          "character": "駴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "侯楷",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "ɡʳɯ̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "駴",
+          "ids": "⿰馬戒",
+          "phonetic_component": "戒",
+          "semantic_component": "馬",
+          "position": "prefix-dot",
+          "abbreviation": "equ",
+          "inventory_matches": [
+            {
+              "graph_raw": "馬",
+              "label_token": "equ(us)",
+              "abbreviation": "equ",
+              "start_line": 270
+            },
+            {
+              "graph_raw": "馬",
+              "label_token": "equ",
+              "abbreviation": "equ",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "equ",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "馬",
+            "label_token": "equ(us)",
+            "abbreviation": "equ",
+            "start_line": 270
+          },
+          {
+            "graph_raw": "馬",
+            "label_token": "equ",
+            "abbreviation": "equ",
+            "learned": true,
+            "evidence_count": 9
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "馬"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{equ·}kyk}},",
+      "render_latex": "駴\t%hai4\n{\\large{\\textsuperscript{equ·}kyk}},\n\\textit{heayH};\t%0990e",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "戒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "戒"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "裓",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kəy",
+          "kək"
+        ],
+        "mand2mc_nwh_forms": [
+          "kəy",
+          "kək"
+        ],
+        "mand2mc_bs_forms": [
+          "koj",
+          "kok"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7278",
+          "character": "裓",
+          "pinyin": "gai1?",
+          "mc_nwh": "kəy",
+          "mc_bs": "koj",
+          "gsr": "0990f"
+        },
+        {
+          "source_row_number": "7279",
+          "character": "裓",
+          "pinyin": "ge2",
+          "mc_nwh": "kək",
+          "mc_bs": "kok",
+          "gsr": "0990f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7026",
+          "character": "裓",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居諧",
+          "source": "释文集",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡ",
+          "oc_syllable": "kʳɯ̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "裓",
+          "ids": "⿰衤戒",
+          "phonetic_component": "戒",
+          "semantic_component": "衣",
+          "position": "prefix-dot",
+          "abbreviation": "vest",
+          "inventory_matches": [
+            {
+              "graph_raw": "衣",
+              "label_token": "vest(imentum)",
+              "abbreviation": "vest",
+              "start_line": 433
+            },
+            {
+              "graph_raw": "衣",
+              "label_token": "vest",
+              "abbreviation": "vest",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vest",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "衣",
+            "label_token": "vest(imentum)",
+            "abbreviation": "vest",
+            "start_line": 433
+          },
+          {
+            "graph_raw": "衣",
+            "label_token": "vest",
+            "abbreviation": "vest",
+            "learned": true,
+            "evidence_count": 7
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "衣"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{vest·}kyk}},",
+      "render_latex": "裓\t%gai1? / ge2\n{\\large{\\textsuperscript{vest·}kyk}},\n\\textit{kəy};\t%0990f\n\\textit{kək};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "戒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "戒"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "戒",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 8,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keayH"
+        ],
+        "mand2mc_bs_forms": [
+          "keajH"
+        ],
+        "bs_gsr_forms": [
+          "keajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7274",
+          "character": "戒",
+          "pinyin": "jie4",
+          "mc_nwh": "keayH",
+          "mc_bs": "keajH",
+          "gsr": "0990a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "戒",
+          "pinyin": "jiè",
+          "mc_bs": "keajH",
+          "mc_analyzed": "(k- + -eaj C)",
+          "oc_bs": "*kˤrək-s ~ kˤrək",
+          "gloss": "be on guard",
+          "gsr": "0990a",
+          "unicode_utf16": "U+6212"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7030",
+          "character": "戒",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "7024",
+          "character": "祴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古哀",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "ɯ̠",
+          "oc_syllable": "kɯ̠"
+        },
+        {
+          "source_row_number": "7025",
+          "character": "駴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "侯楷",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "ɡʳɯ̠ʔ"
+        },
+        {
+          "source_row_number": "7026",
+          "character": "裓",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居諧",
+          "source": "释文集",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡ",
+          "oc_syllable": "kʳɯ̠ɡ"
+        },
+        {
+          "source_row_number": "7027",
+          "character": "悈",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "紀力",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "kɯɡ"
+        },
+        {
+          "source_row_number": "7028",
+          "character": "械",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡介",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "ɡʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7029",
+          "character": "誡",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7030",
+          "character": "戒",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        },
+        {
+          "source_row_number": "7031",
+          "character": "悈",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ]
+    },
+    {
+      "character": "誡",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keayH"
+        ],
+        "mand2mc_bs_forms": [
+          "keajH"
+        ],
+        "bs_gsr_forms": [
+          "keajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7275",
+          "character": "誡",
+          "pinyin": "jie4",
+          "mc_nwh": "keayH",
+          "mc_bs": "keajH",
+          "gsr": "0990c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "誡",
+          "pinyin": "jiè",
+          "mc_bs": "keajH",
+          "mc_analyzed": "(k- + -eaj C)",
+          "oc_bs": "*kˤrək-s",
+          "gloss": "warn",
+          "gsr": "0990c",
+          "unicode_utf16": "U+8AA1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7029",
+          "character": "誡",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古拜",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "kʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "械",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "heayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "heayH"
+        ],
+        "mand2mc_bs_forms": [
+          "heajH"
+        ],
+        "bs_gsr_forms": [
+          "heajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7276",
+          "character": "械",
+          "pinyin": "xie4",
+          "mc_nwh": "heayH",
+          "mc_bs": "heajH",
+          "gsr": "0990d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "155",
+          "character": "械",
+          "pinyin": "xiè",
+          "mc_bs": "heajH",
+          "mc_analyzed": "(h- + -eaj C)",
+          "oc_bs": "*m-kˤrək-s {*[m]-kˤrək-s}",
+          "gloss": "fetters; weapon",
+          "gsr": "0990d",
+          "unicode_utf16": "U+68B0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7028",
+          "character": "械",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡介",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "ɡʳɯ̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "駴",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "heayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "heayH"
+        ],
+        "mand2mc_bs_forms": [
+          "heajH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7277",
+          "character": "駴",
+          "pinyin": "hai4",
+          "mc_nwh": "heayH",
+          "mc_bs": "heajH",
+          "gsr": "0990e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7025",
+          "character": "駴",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "侯楷",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "ɡʳɯ̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "裓",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kəy",
+          "kək"
+        ],
+        "mand2mc_nwh_forms": [
+          "kəy",
+          "kək"
+        ],
+        "mand2mc_bs_forms": [
+          "koj",
+          "kok"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7278",
+          "character": "裓",
+          "pinyin": "gai1?",
+          "mc_nwh": "kəy",
+          "mc_bs": "koj",
+          "gsr": "0990f"
+        },
+        {
+          "source_row_number": "7279",
+          "character": "裓",
+          "pinyin": "ge2",
+          "mc_nwh": "kək",
+          "mc_bs": "kok",
+          "gsr": "0990f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7026",
+          "character": "裓",
+          "phonetic_component": "戒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居諧",
+          "source": "释文集",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯ̠ɡ",
+          "oc_syllable": "kʳɯ̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "戒",
+      "gsr": "0990a",
+      "oc_bs": "*kˤrək-s ~ kˤrək",
+      "root": "kyk",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "kyk",
+    "source": "head_graph_oc_bs",
+    "character": "戒",
+    "oc_bs": "*kˤrək-s ~ kˤrək",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "kyk",
+    "base_root": "kyk",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}
