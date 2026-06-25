@@ -1,15 +1,15 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-25T08:27:08.173321+00:00
+- Generated at: 2026-06-25T08:38:08.070097+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19451
+- Total occurrences audited: 19473
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 19210 |
-| `explicit_alias` | 77 |
+| `canonical` | 19228 |
+| `explicit_alias` | 81 |
 | `needs_review` | 164 |
 
 ## Blocked ambiguous aliases
@@ -183,7 +183,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₉\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `curation_json` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₈}},
+{\large{\textsuperscript{infirm·}tsy₁₀}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -332,7 +332,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₉\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `integrated_series_curated_entry` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₈}},
+{\large{\textsuperscript{infirm·}tsy₁₀}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -401,7 +401,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₉\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₈}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₁₀}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |
@@ -456,7 +456,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kuan}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tson}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₉\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₈}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₁₀}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |

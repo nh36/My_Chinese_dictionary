@@ -1,0 +1,595 @@
+{
+  "generated_at": "2026-06-25T08:37:28.366919+00:00",
+  "id": "04-51",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "04-51",
+    "rhyme_section": 4,
+    "series_number": 51,
+    "k_tokens": [
+      "970"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.      MC              LHan               OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 128,
+    "source_line_number": 11,
+    "source_line_raw": "4-51   = K. 970       Mand.      MC              LHan               OCM"
+  },
+  "coverage": {
+    "gsc_id": "04-51",
+    "rhyme_section": "4",
+    "series_number": "51",
+    "schuessler_k_tokens": "970",
+    "schuessler_source_page": "128",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "士; 仕",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "士; 仕",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "士; 仕"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "970"
+  ],
+  "proposed_additions": [
+    {
+      "character": "士",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_nwh_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_bs_forms": [
+          "dzriX"
+        ],
+        "bs_gsr_forms": [
+          "dzriX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7154",
+          "character": "士",
+          "pinyin": "shi4",
+          "mc_nwh": "dẓiX",
+          "mc_bs": "dzriX",
+          "gsr": "0970a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "152",
+          "character": "士",
+          "pinyin": "shì",
+          "mc_bs": "dzriX",
+          "mc_analyzed": "(dzr- + -i B)",
+          "oc_bs": "*m-s-rəʔ",
+          "gloss": "officer; gentleman",
+          "gsr": "0970a",
+          "unicode_utf16": "U+58EB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12199",
+          "character": "士",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12199",
+          "character": "士",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        },
+        {
+          "source_row_number": "12200",
+          "character": "仕",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ry₄}},",
+      "render_latex": "士\t%shi4 / shì\n{\\large{ry₄}},\n\\textit{dẓiX};\t%0970a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "士",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "士"
+      },
+      "resolved_node_root": {
+        "root": "sry",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ry"
+        ],
+        "bs_node_roots": [
+          "sry"
+        ],
+        "display_root": "sry",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "dẓiX"
+        ],
+        "form_analyses": [
+          {
+            "form": "dẓiX",
+            "normalized": "dẓi",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "仕",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_nwh_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_bs_forms": [
+          "dzriX"
+        ],
+        "bs_gsr_forms": [
+          "dzriX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7155",
+          "character": "仕",
+          "pinyin": "shi4",
+          "mc_nwh": "dẓiX",
+          "mc_bs": "dzriX",
+          "gsr": "0970d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "152",
+          "character": "仕",
+          "pinyin": "shì",
+          "mc_bs": "dzriX",
+          "mc_analyzed": "(dzr- + -i B)",
+          "oc_bs": "*m-s-rəʔ",
+          "gloss": "serve",
+          "gsr": "0970d",
+          "unicode_utf16": "U+4ED5"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12200",
+          "character": "仕",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|alt1=⺅|士|ls=psc|ls2=ic|c1=s|c2=p|t1=person|t2=a person engaged in an official position}}",
+          "positional_components": [
+            "人",
+            "士"
+          ],
+          "positional_components_raw": [
+            "人",
+            "士"
+          ],
+          "named_args": {
+            "alt1": "⺅",
+            "ls": "psc",
+            "ls2": "ic",
+            "c1": "s",
+            "c2": "p",
+            "t1": "person",
+            "t2": "a person engaged in an official position"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "士"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|alt1=⺅|士|ls=psc|ls2=ic|c1=s|c2=p|t1=person|t2=a person engaged in an official position}}",
+            "positional_components": [
+              "人",
+              "士"
+            ],
+            "positional_components_raw": [
+              "人",
+              "士"
+            ],
+            "named_args": {
+              "alt1": "⺅",
+              "ls": "psc",
+              "ls2": "ic",
+              "c1": "s",
+              "c2": "p",
+              "t1": "person",
+              "t2": "a person engaged in an official position"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "士"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "仕",
+          "ids": "⿰亻士",
+          "phonetic_component": "士",
+          "semantic_component": "人",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 298
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "人"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ry₄}},",
+      "render_latex": "仕\t%shi4 / shì\n{\\large{\\textsuperscript{hom·}ry₄}},\n\\textit{dẓiX};\t%0970d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "人",
+        "phonetic_component": "士",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "仕",
+          "semantic_component": "人",
+          "phonetic_component": "士",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|人|alt1=⺅|士|ls=psc|ls2=ic|c1=s|c2=p|t1=person|t2=a person engaged in an official position}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "士",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "士"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "士",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_nwh_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_bs_forms": [
+          "dzriX"
+        ],
+        "bs_gsr_forms": [
+          "dzriX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7154",
+          "character": "士",
+          "pinyin": "shi4",
+          "mc_nwh": "dẓiX",
+          "mc_bs": "dzriX",
+          "gsr": "0970a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "152",
+          "character": "士",
+          "pinyin": "shì",
+          "mc_bs": "dzriX",
+          "mc_analyzed": "(dzr- + -i B)",
+          "oc_bs": "*m-s-rəʔ",
+          "gloss": "officer; gentleman",
+          "gsr": "0970a",
+          "unicode_utf16": "U+58EB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12199",
+          "character": "士",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12199",
+          "character": "士",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        },
+        {
+          "source_row_number": "12200",
+          "character": "仕",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ]
+    },
+    {
+      "character": "仕",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_nwh_forms": [
+          "dẓiX"
+        ],
+        "mand2mc_bs_forms": [
+          "dzriX"
+        ],
+        "bs_gsr_forms": [
+          "dzriX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7155",
+          "character": "仕",
+          "pinyin": "shi4",
+          "mc_nwh": "dẓiX",
+          "mc_bs": "dzriX",
+          "gsr": "0970d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "152",
+          "character": "仕",
+          "pinyin": "shì",
+          "mc_bs": "dzriX",
+          "mc_analyzed": "(dzr- + -i B)",
+          "oc_bs": "*m-s-rəʔ",
+          "gloss": "serve",
+          "gsr": "0970d",
+          "unicode_utf16": "U+4ED5"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12200",
+          "character": "仕",
+          "phonetic_component": "士",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "鉏里",
+          "source": "广韵",
+          "oc_initial": "zr",
+          "oc_rhyme": "ɯʔ",
+          "oc_syllable": "zrɯʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "士",
+      "gsr": "0970a",
+      "oc_bs": "*m-s-rəʔ",
+      "root": "ry",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ry",
+    "source": "head_graph_oc_bs",
+    "character": "士",
+    "oc_bs": "*m-s-rəʔ",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "ry₄",
+    "base_root": "ry",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}

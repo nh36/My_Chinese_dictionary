@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4665
-- Pages fetched / cached successfully: 4601
-- Additions with explicit Han-compound semantic/phonetic roles: 2228
+- Proposed additions checked: 4677
+- Pages fetched / cached successfully: 4613
+- Additions with explicit Han-compound semantic/phonetic roles: 2234
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -970,6 +970,7 @@
 | `04-35` | 埋 | yes | yes | 艸 | 貍 |
 | `04-35` | 霾 | yes | yes | 雨 | 貍 |
 | `04-35` | 薶 | yes | yes | 艸 | 貍 |
+| `04-37` | 李 | yes | yes | 子 | 來 |
 | `04-38` | 乃 | yes | no |  |  |
 | `04-38` | 鼐 | yes | yes | 鼎 | 乃 |
 | `04-38` | 仍 | yes | yes | 人 | 乃 |
@@ -998,6 +999,10 @@
 | `04-42` | 災 | yes | yes | 火 | 𡿧 |
 | `04-42` | 灾 | yes | no |  |  |
 | `04-43` | 再 | yes | no |  |  |
+| `04-44` | 彩 | yes | yes | 彡 | 采 |
+| `04-44` | 采 | yes | no |  |  |
+| `04-44` | 採 | yes | yes | 手 | 采 |
+| `04-44` | 菜 | yes | yes | 艸 | 采 |
 | `04-45` | 才 | yes | no |  |  |
 | `04-45` | 載 | yes | yes | 車 | 𢦏 |
 | `04-45` | 裁 | yes | yes | 衣 | 𢦏 |
@@ -1020,6 +1025,8 @@
 | `04-47` | 孜 | yes | yes | 攴 | 子 |
 | `04-47` | 耔 | yes | no |  |  |
 | `04-47` | 字 | yes | yes | 宀 | 子 |
+| `04-48` | 梓 | yes | yes | 木 | 宰 |
+| `04-48` | 宰 | yes | no |  |  |
 | `04-49` | 玆 | yes | no |  |  |
 | `04-49` | 茲 | yes | no |  |  |
 | `04-49` | 嗞 | yes | no |  |  |
@@ -1027,6 +1034,8 @@
 | `04-49` | 鎡 | yes | no |  |  |
 | `04-49` | 慈 | yes | yes | 心 | 茲 |
 | `04-49` | 孳 | yes | yes | 子 | 兹 |
+| `04-51` | 士 | yes | no |  |  |
+| `04-51` | 仕 | yes | yes | 人 | 士 |
 | `04-52` | 史 | yes | no |  |  |
 | `04-52` | 吏 | yes | no |  |  |
 | `04-52` | 𣬔 | no | no |  |  |
@@ -1040,6 +1049,9 @@
 | `04-53` | 詞 | yes | yes | 言 | 司 |
 | `04-53` | 嗣 | yes | yes | 口, 冊 | 司 |
 | `04-53` | 飼 | yes | yes | 食 | 司 |
+| `04-55` | 絲 | yes | no |  |  |
+| `04-56` | 佩 | yes | no |  |  |
+| `04-56` | 珮 | yes | no |  |  |
 | `04-61` | 不 | yes | no |  |  |
 | `04-61` | 培 | yes | yes | 土 | 咅 |
 | `04-61` | 倍 | yes | yes | 人 | 咅 |

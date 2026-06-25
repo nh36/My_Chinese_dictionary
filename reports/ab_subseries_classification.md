@@ -1,11 +1,11 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 688
+- Generated subgroup heads inspected: 691
 - Subgroups newly marked with `a`: 58
 - Subgroups newly marked with `b`: 46
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 259
-- Mixed subgroups left unmarked: 322
-- Unresolved subgroups left unmarked: 3
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 261
+- Mixed subgroups left unmarked: 324
+- Unresolved subgroups left unmarked: 2
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -190,12 +190,15 @@
 | `04-38` | 仍 | `ny` | `ny₂` | `b` | no | `ñiṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-40` | 耳 | `ny` | `ny` | `mixed` | no | `ñiX, ñiH, ñi, ṇeak, ṭhiX` | top-level series head left unmarked |
 | `04-41` | 而 | `ny` | `ny` | `mixed` | no | `ñi, ñiuwk, nəyH` | top-level series head left unmarked |
+| `04-44` | 采 | `sry` | `sry` | `a` | no | `tshəyX, tshəyH` | all extracted forms lack an i-medial after the onset |
 | `04-45` | 才 | `tsy` | `tsy` | `mixed` | no | `dzəy, tsi, tṣi, dẓeay` | top-level series head left unmarked |
 | `04-45` | 𢦏 | `tsy` | `tsy₄` | `mixed` | no | `tsəy, dzəyH, tsəyH, tsəyX, dzəy, tṣiH, təyH` | the extracted forms point to both type a and type b |
 | `04-47` | 子 | `tsy` | `tsy` | `b` | no | `tsiX, tsi, dziH` | top-level series head left unmarked |
-| `04-49` | 茲 | `tsy` | `tsy₇` | `b` | no | `tsi, dzi` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `04-52` | 吏 | `ry` | `ry₄` | `b` | no | `liH, ṣiH, ṣiX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `04-52` | 事 | `ry` | `ry₅` | `b` | no | `dẓiH, tṣiH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `04-48` | 宰 | `tsy` | `tsy₇` | `mixed` | no | `tsəyX, tsiX` | the extracted forms point to both type a and type b |
+| `04-49` | 茲 | `tsy` | `tsy₉` | `b` | no | `tsi, dzi` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `04-51` | 士 | `sry` | `sry` | `b` | no | `dẓiX` | top-level series head left unmarked |
+| `04-52` | 吏 | `ry` | `ry₆` | `b` | no | `liH, ṣiH, ṣiX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `04-52` | 事 | `ry` | `ry₇` | `b` | no | `dẓiH, tṣiH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-53` | 司 | `ly` | `ly` | `b` | no | `si, siH, zi, ziH` | top-level series head left unmarked |
 | `04-61` | 不 | `py` | `py` | `mixed` | no | `piuw, piuwX, biyX, piyX, pwəy, phuwH, bwəy, bwəyX, phuwX, puwX, bək, puwṅX, buwX, buw, phiuw, phiuwX, biuw, phwəy` | top-level series head left unmarked |
 | `04-61` | 否 | `py` | `py₂` | `mixed` | no | `biyX, piyX, piuwX, pwəy, phuwH, bwəy, bwəyX, phuwX, puwX, bək, puwṅX, buwX, buw` | the extracted forms point to both type a and type b |
@@ -579,7 +582,7 @@
 | `31-16` | 出 | `kut` | `kut` | `mixed` | no | `chiwiyH, chiwit, ṭhwit, ṭwit, twət, ciwet, tṣiwet, tṣweat, khiut, hwət, kwət, khwət, giut, giwət` | top-level series head left unmarked |
 | `31-16` | 屈 | `kut` | `kut₂` | `mixed` | no | `khiut, hwət, kwət, khwət, giut, giwət` | the extracted forms point to both type a and type b |
 | `31-20` | 卒 | `tsut` | `tsut` | `mixed` | no | `tshwət, tswit, tswət, dzwət, dzwit, tshwəyH, tswiyH, tshwiyH, dzwiyH, swəyH, swiyH` | top-level series head left unmarked |
-| `32-01` | 臤 | `` | `` | `unknown` | no | `` |  |
+| `32-01` | 臤 | `kin` | `kin₃` | `mixed` | no | `ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX` | top-level series head left unmarked |
 | `32-01` | 臣 | `kin` | `kin₂` | `mixed` | no | `jin, ḫen, khanH, khean, kheaṅ, khyinH, ken, khen, ḫenH, kyinX, jinX, cinH` | the extracted forms point to both type a and type b |
 | `32-05` | 玄 | `gin` | `gin` | `a` | no | `ḫwen, ḫwenX, ḫwenH, ḫen, hwenH, kwənX` | top-level series head left unmarked |
 | `32-05` | 弦 | `gin` | `gin` | `a` | no | `ḫen` | all extracted forms lack an i-medial after the onset |
