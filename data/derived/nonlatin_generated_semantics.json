@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 54,
-    "unique_component_count": 47,
+    "case_count": 55,
+    "unique_component_count": 48,
     "by_classification": {
-      "new_latin_label_needed": 53,
+      "new_latin_label_needed": 54,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 33,
       "packet_family_component_literal_fallback": 8,
-      "ids_component_literal_fallback": 13
+      "ids_component_literal_fallback": 14
     }
   },
   "cases": [
@@ -267,6 +267,23 @@
       "render_latex": "𣬔\t%shi4\n{\\large{\\textsuperscript{𭯍˸}ry₆}},\n\\textit{ṣiH};\t%0975k",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "05-03",
+      "character": "覈",
+      "abbreviation": "覀",
+      "semantic_component": "覀",
+      "position": "prefix-colon",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱一⿻口⿰丨丨",
+      "transliteration_latex": "{\\large{\\textsuperscript{覀˸}kyk₄}},",
+      "render_latex": "覈\t%he2 / hé\n{\\large{\\textsuperscript{覀˸}kyk₄}},\n\\textit{ḫeak};\t%1260a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `覀` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "06-23",
@@ -1646,6 +1663,27 @@
           "character": "覆",
           "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "覀",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `覀` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱一⿻口⿰丨丨",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "05-03",
+          "character": "覈",
+          "position": "prefix-colon",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },

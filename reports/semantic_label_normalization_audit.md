@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-25T19:19:44.540707+00:00
+- Generated at: 2026-06-25T20:05:52.224212+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19513
+- Total occurrences audited: 19545
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 19268 |
+| `canonical` | 19298 |
 | `explicit_alias` | 81 |
-| `needs_review` | 164 |
+| `needs_review` | 166 |
 
 ## Blocked ambiguous aliases
 
@@ -646,6 +646,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `04-32` | `戺` | `户` | render_latex, transliteration_latex | `户` | `⿰户巳` | `戺	%shi4
 {\large{\textsuperscript{户·}qy₅}},
 \textit{dẓiX};	%0967k` |
+| `curation_json` | `05-03` | `覈` | `覀` | render_latex, transliteration_latex | `覀` | `⿱覀敫` | `覈	%he2 / hé
+{\large{\textsuperscript{覀˸}kyk₄}},
+\textit{ḫeak};	%1260a` |
 | `curation_json` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a
@@ -779,6 +782,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `04-32` | `戺` | `户` | render_latex, transliteration_latex | `户` | `⿰户巳` | `戺	%shi4
 {\large{\textsuperscript{户·}qy₅}},
 \textit{dẓiX};	%0967k` |
+| `integrated_series_curated_entry` | `05-03` | `覈` | `覀` | render_latex, transliteration_latex | `覀` | `⿱覀敫` | `覈	%he2 / hé
+{\large{\textsuperscript{覀˸}kyk₄}},
+\textit{ḫeak};	%1260a` |
 | `integrated_series_curated_entry` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a

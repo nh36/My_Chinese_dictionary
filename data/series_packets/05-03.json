@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-25T20:05:06.090975+00:00",
+  "gsc_id": "05-03",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1260a"
+  ],
+  "schuessler": {
+    "gsc_id": "05-03",
+    "rhyme_section": 5,
+    "series_number": 3,
+    "k_tokens": [
+      "1260a"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC               LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 132,
+    "source_line_number": 24,
+    "source_line_raw": "5-3     = K.1260a         Man d.        MC               LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "05-03",
+    "rhyme_section": "5",
+    "series_number": "3",
+    "schuessler_k_tokens": "1260a",
+    "schuessler_source_page": "132",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "覈",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "覈",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "覈"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "覈",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9177",
+          "character": "覈",
+          "pinyin": "he2",
+          "mc_nwh": "ḫeak",
+          "mc_bs": "heak",
+          "gsr": "1260a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "187",
+          "character": "覈",
+          "pinyin": "hé",
+          "mc_bs": "heak",
+          "mc_analyzed": "(h- + -eak D)",
+          "oc_bs": "*gˤrək {*[g]ˤr[ə]k}",
+          "gloss": "kernel",
+          "gsr": "1260a",
+          "unicode_utf16": "U+8988"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6827",
+          "character": "覈",
+          "phonetic_component": "敫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "下革",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "ɡʳe̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫeak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫeak"
+        ],
+        "mand2mc_bs_forms": [
+          "heak"
+        ],
+        "bs_gsr_forms": [
+          "heak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "9177",
+        "character": "覈",
+        "pinyin": "he2",
+        "mc_nwh": "ḫeak",
+        "mc_bs": "heak",
+        "gsr": "1260a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "187",
+        "character": "覈",
+        "pinyin": "hé",
+        "mc_bs": "heak",
+        "mc_analyzed": "(h- + -eak D)",
+        "oc_bs": "*gˤrək {*[g]ˤr[ə]k}",
+        "gloss": "kernel",
+        "gsr": "1260a",
+        "unicode_utf16": "U+8988"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

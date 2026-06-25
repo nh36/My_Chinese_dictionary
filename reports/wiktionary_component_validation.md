@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4692
-- Pages fetched / cached successfully: 4628
-- Additions with explicit Han-compound semantic/phonetic roles: 2239
+- Proposed additions checked: 4705
+- Pages fetched / cached successfully: 4641
+- Additions with explicit Han-compound semantic/phonetic roles: 2240
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1093,6 +1093,15 @@
 | `05-01` | 克 | yes | no |  |  |
 | `05-01` | 尅 | yes | no |  |  |
 | `05-01` | 剋 | yes | no |  |  |
+| `05-02` | 革 | yes | no |  |  |
+| `05-02` | 愅 | yes | no |  |  |
+| `05-03` | 覈 | yes | no |  |  |
+| `05-04` | 亟 | yes | no | 人, 二 |  |
+| `05-04` | 㥛 | yes | no |  |  |
+| `05-04` | 殛 | yes | no |  |  |
+| `05-04` | 極 | yes | yes | 木 | 亟 |
+| `05-05` | 棘 | yes | no |  |  |
+| `05-05` | 襋 | yes | no |  |  |
 | `05-06` | 或 | yes | yes | 戈 | 員 |
 | `05-06` | 域 | yes | yes | 土 | 或 |
 | `05-06` | 棫 | yes | no |  |  |
@@ -1109,6 +1118,10 @@
 | `05-06` | 馘 | yes | yes | 首 | 或 |
 | `05-06` | 聝 | yes | yes | 耳 | 或 |
 | `05-06` | 彧 | yes | no |  |  |
+| `05-07` | 洫 | yes | no |  |  |
+| `05-07` | 侐 | yes | no |  |  |
+| `05-07` | 殈 | yes | no |  |  |
+| `05-09` | 抑 | yes | no |  |  |
 | `05-10` | 意 | yes | no |  |  |
 | `05-10` | 噫 | yes | yes | 口 | 意 |
 | `05-10` | 鷾 | yes | no |  |  |
