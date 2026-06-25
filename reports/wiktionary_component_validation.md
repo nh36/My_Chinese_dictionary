@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4677
-- Pages fetched / cached successfully: 4613
-- Additions with explicit Han-compound semantic/phonetic roles: 2234
+- Proposed additions checked: 4692
+- Pages fetched / cached successfully: 4628
+- Additions with explicit Han-compound semantic/phonetic roles: 2239
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1052,6 +1052,8 @@
 | `04-55` | 絲 | yes | no |  |  |
 | `04-56` | 佩 | yes | no |  |  |
 | `04-56` | 珮 | yes | no |  |  |
+| `04-57` | 啚 | yes | no |  |  |
+| `04-57` | 鄙 | yes | no |  | 啚 |
 | `04-61` | 不 | yes | no |  |  |
 | `04-61` | 培 | yes | yes | 土 | 咅 |
 | `04-61` | 倍 | yes | yes | 人 | 咅 |
@@ -1078,6 +1080,19 @@
 | `04-61` | 棓 | yes | yes | 木 | 咅 |
 | `04-61` | 瓿 | yes | no |  |  |
 | `04-61` | 部 | yes | yes | 邑 | 咅 |
+| `04-62` | 負 | yes | no |  |  |
+| `04-62` | 偩 | yes | no |  |  |
+| `04-62` | 萯 | yes | no |  |  |
+| `04-63` | 婦 | yes | yes | 女 | 帚 |
+| `04-65` | 某 | yes | no |  |  |
+| `04-65` | 媒 | yes | yes | 女 | 某 |
+| `04-65` | 煤 | yes | yes | 火 | 某 |
+| `04-65` | 禖 | yes | no |  |  |
+| `04-65` | 謀 | yes | yes | 言 | 某 |
+| `04-66` | 畝 | yes | yes | 田 | 每 |
+| `05-01` | 克 | yes | no |  |  |
+| `05-01` | 尅 | yes | no |  |  |
+| `05-01` | 剋 | yes | no |  |  |
 | `05-06` | 或 | yes | yes | 戈 | 員 |
 | `05-06` | 域 | yes | yes | 土 | 或 |
 | `05-06` | 棫 | yes | no |  |  |
