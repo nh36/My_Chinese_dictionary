@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4705
-- Pages fetched / cached successfully: 4641
-- Additions with explicit Han-compound semantic/phonetic roles: 2240
+- Proposed additions checked: 4718
+- Pages fetched / cached successfully: 4654
+- Additions with explicit Han-compound semantic/phonetic roles: 2244
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1131,6 +1131,7 @@
 | `05-10` | 檍 | yes | no |  |  |
 | `05-10` | 繶 | yes | no |  |  |
 | `05-10` | 臆 | yes | yes | 肉 | 意 |
+| `05-11` | 得 | yes | no |  |  |
 | `05-12` | 直 | yes | no |  |  |
 | `05-12` | 稙 | yes | no |  |  |
 | `05-12` | 埴 | yes | no |  |  |
@@ -1148,6 +1149,9 @@
 | `05-13` | 幟 | yes | yes | 巾 | 戠 |
 | `05-13` | 識 | yes | yes | 言 | 戠 |
 | `05-13` | 熾 | yes | yes | 火 | 戠 |
+| `05-14` | 陟 | yes | no |  |  |
+| `05-15` | 敕 | yes | no |  |  |
+| `05-15` | 勅 | yes | no |  |  |
 | `05-16` | 弋 | yes | no |  |  |
 | `05-16` | 㚤 | yes | no |  |  |
 | `05-16` | 杙 | yes | no |  |  |
@@ -1165,6 +1169,15 @@
 | `05-16` | 黛 | yes | yes | 黑 | 代 |
 | `05-16` | 蟘 | yes | no |  |  |
 | `05-16` | 袋 | yes | yes | 衣 | 代 |
+| `05-17` | 異 | yes | no |  |  |
+| `05-17` | 翼 | yes | yes | 羽 | 異 |
+| `05-17` | 廙 | yes | yes | 广 | 異 |
+| `05-17` | 趩 | yes | yes | 走 | 異 |
+| `05-17` | 瀷 | yes | no |  |  |
+| `05-18` | 翊 | yes | no |  |  |
+| `05-18` | 翌 | yes | yes | 昱 | 羽 |
+| `05-20` | 奭 | yes | no |  |  |
+| `05-20` | 襫 | yes | no |  |  |
 | `05-21` | 力 | yes | no |  |  |
 | `05-21` | 仂 | yes | yes | 人 | 力 |
 | `05-21` | 扐 | yes | no |  |  |

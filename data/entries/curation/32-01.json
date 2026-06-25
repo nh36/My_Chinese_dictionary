@@ -230,101 +230,7 @@
         "source": "ids_inferred_phonetic_parent",
         "phonetic_hint": "臣"
       },
-      "resolved_node_root": {
-        "root": "kin",
-        "source": "node_inherit_parent",
-        "descendant_count": 5,
-        "bs_support_count": 3,
-        "bs_broad_roots": [
-          "kiṅ",
-          "kin"
-        ],
-        "bs_node_roots": [
-          "kiṅ",
-          "gin"
-        ],
-        "display_root": "kin₃",
-        "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
-        "mc_forms": [
-          "ḫen",
-          "khanH",
-          "khean",
-          "kheaṅ",
-          "khyinH",
-          "ken",
-          "khen",
-          "ḫenH",
-          "kyinX",
-          "jinX"
-        ],
-        "form_analyses": [
-          {
-            "form": "ḫen",
-            "normalized": "ḫen",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khanH",
-            "normalized": "khan",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khean",
-            "normalized": "khean",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "kheaṅ",
-            "normalized": "kheaṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khyinH",
-            "normalized": "khyin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ken",
-            "normalized": "ken",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "khen",
-            "normalized": "khen",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "ḫenH",
-            "normalized": "ḫen",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "kyinX",
-            "normalized": "kyin",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "jinX",
-            "normalized": "jin",
-            "class": "b",
-            "reason": "palatal_initial"
-          }
-        ],
-        "base_root": "kin",
-        "ordinal": 3,
-        "numbering_source": "document_order_occurrence"
-      }
+      "resolved_node_root": null
     },
     {
       "character": "堅",
@@ -1890,7 +1796,7 @@
       "hierarchy_assignment": null,
       "resolved_node_root": {
         "root": "kin",
-        "source": "node_merged_k_token_head",
+        "source": "node_inherit_parent",
         "descendant_count": 7,
         "bs_support_count": 4,
         "bs_broad_roots": [
@@ -3160,49 +3066,25 @@
   ],
   "series_root_candidates": [
     {
-      "character": "臤",
-      "gsr": null,
-      "oc_bs": "*kʰʳi̠ŋ",
-      "root": "kiṅ",
-      "source": "head_graph_oc_shengfu",
-      "support_count": 3,
-      "supporting_sources": [
-        "head_graph_oc_shengfu"
-      ]
-    },
-    {
-      "character": "臤",
-      "gsr": null,
+      "character": "臣",
+      "gsr": "0377a",
       "oc_bs": "*gin {*[g]i[n]}",
       "root": "kin",
-      "source": "phonetic_component_series_root",
-      "support_count": 4,
-      "supporting_sources": [
-        "phonetic_component_series_root",
-        "head_graph_oc_bs"
-      ]
-    },
-    {
-      "character": "臣",
-      "gsr": null,
-      "oc_bs": "*ɡʲiŋ",
-      "root": "ɡʲiṅ",
-      "source": "head_graph_oc_shengfu",
+      "source": "head_graph_oc_bs",
       "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_shengfu"
+        "head_graph_oc_bs"
       ]
     }
   ],
   "resolved_series_root": {
     "root": "kin",
-    "source": "head_graph_supported_root",
-    "character": "臤",
+    "source": "head_graph_oc_bs",
+    "character": "臣",
     "oc_bs": "*gin {*[g]i[n]}",
     "confidence": "provisional-oc",
-    "support_count": 4,
+    "support_count": 1,
     "supporting_sources": [
-      "phonetic_component_series_root",
       "head_graph_oc_bs"
     ],
     "display_root": "kin",

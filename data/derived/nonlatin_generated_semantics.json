@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 55,
-    "unique_component_count": 48,
+    "case_count": 56,
+    "unique_component_count": 49,
     "by_classification": {
-      "new_latin_label_needed": 54,
+      "new_latin_label_needed": 55,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 33,
+      "wiktionary_component_literal_fallback": 34,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 14
     }
@@ -284,6 +284,23 @@
       "render_latex": "覈\t%he2 / hé\n{\\large{\\textsuperscript{覀˸}kyk₄}},\n\\textit{ḫeak};\t%1260a",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `覀` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "05-18",
+      "character": "翌",
+      "abbreviation": "昱",
+      "semantic_component": "昱",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|羽|昱|c1=p|c2=s|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱日立",
+      "transliteration_latex": "{\\large{ryk\\textsuperscript{˸昱}}},",
+      "render_latex": "翌\t%yi4 / yì\n{\\large{ryk\\textsuperscript{˸昱}}},\n\\textit{yik};\t%0912b",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `昱` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "06-23",
@@ -1529,6 +1546,27 @@
         {
           "entry_id": "30-02",
           "character": "暨",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "昱",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `昱` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱日立",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "05-18",
+          "character": "翌",
           "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
