@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4589
-- Pages fetched / cached successfully: 4525
-- Additions with explicit Han-compound semantic/phonetic roles: 2200
+- Proposed additions checked: 4606
+- Pages fetched / cached successfully: 4542
+- Additions with explicit Han-compound semantic/phonetic roles: 2205
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -272,6 +272,7 @@
 | `02-35` | 潟 | yes | yes | 水 | 舄 |
 | `02-35` | 寫 | yes | yes | 宀 | 舄 |
 | `02-35` | 瀉 | yes | yes | 水 | 寫 |
+| `02-36` | 亳 | yes | no |  |  |
 | `02-37` | 百 | yes | yes | 一 | 白 |
 | `02-37` | 貊 | yes | no |  |  |
 | `02-37` | 陌 | yes | yes | 阜 | 百 |
@@ -325,9 +326,18 @@
 | `03-03` | 薑 | yes | yes | 艸 | 彊 |
 | `03-03` | 彊 | yes | yes | 弓 | 畺 |
 | `03-03` | 疆 | yes | yes | 土 | 彊 |
+| `03-04` | 强 | yes | no |  |  |
+| `03-04` | 強 | yes | yes | 虫 | 彊 |
+| `03-04` | 繈 | yes | no |  |  |
+| `03-04` | 襁 | yes | no |  |  |
 | `03-05` | 姜 | yes | yes | 女 | 羊 |
 | `03-06` | 羌 | yes | no |  |  |
 | `03-06` | 蜣 | yes | no |  |  |
+| `03-07` | 竟 | yes | no |  |  |
+| `03-07` | 境 | yes | yes | 土 | 竟 |
+| `03-07` | 鏡 | yes | yes | 金 | 竟 |
+| `03-07` | 滰 | yes | no |  |  |
+| `03-08` | 慶 | yes | no |  |  |
 | `03-09` | 競 | yes | yes | 儿, 儿 | 誩 |
 | `03-10` | 京 | yes | no |  |  |
 | `03-10` | 景 | yes | yes | 日 | 京 |
@@ -340,6 +350,11 @@
 | `03-10` | 掠 | yes | yes | 手 | 京 |
 | `03-10` | 涼 | yes | yes | 水 | 京 |
 | `03-10` | 諒 | yes | no |  |  |
+| `03-11` | 更 | yes | yes | 攴 | 𰀒 |
+| `03-11` | 哽 | yes | no |  |  |
+| `03-11` | 鯁 | yes | no |  |  |
+| `03-11` | 梗 | yes | yes | 木 | 更 |
+| `03-11` | 綆 | yes | no |  |  |
 | `03-12` | 庚 | yes | no |  |  |
 | `03-12` | 賡 | yes | no |  |  |
 | `03-12` | 康 | yes | no |  |  |
@@ -368,6 +383,8 @@
 | `03-16` | 薌 | yes | no |  |  |
 | `03-16` | 響 | yes | yes | 音 | 鄉 |
 | `03-16` | 卿 | yes | yes | 𠨍 | 皀 |
+| `03-17` | 享 | yes | no |  |  |
+| `03-17` | 亨 | yes | no |  |  |
 | `03-19` | 香 | yes | no |  |  |
 | `03-20` | 央 | yes | no |  |  |
 | `03-20` | 佒 | yes | no |  |  |

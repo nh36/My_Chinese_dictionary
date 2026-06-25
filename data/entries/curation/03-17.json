@@ -1,0 +1,531 @@
+{
+  "generated_at": "2026-06-25T07:45:31.801359+00:00",
+  "id": "03-17",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "03-17",
+    "rhyme_section": 3,
+    "series_number": 17,
+    "k_tokens": [
+      "716"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC               LHan                 OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 103,
+    "source_line_number": 15,
+    "source_line_raw": "3-17 = K. 716     Mand.          MC               LHan                 OCM"
+  },
+  "coverage": {
+    "gsc_id": "03-17",
+    "rhyme_section": "3",
+    "series_number": "17",
+    "schuessler_k_tokens": "716",
+    "schuessler_source_page": "103",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "4",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "享; 亨",
+    "bs_gsr_row_count": "5",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "享; 亨",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "享; 亨"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "716"
+  ],
+  "proposed_additions": [
+    {
+      "character": "享",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "haeṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "haeṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "xaeng"
+        ],
+        "bs_gsr_forms": [
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_not_in_mand2mc": [
+          "xjangX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5225",
+          "character": "享",
+          "pinyin": "xiang3",
+          "mc_nwh": "haeṅ",
+          "mc_bs": "xaeng",
+          "gsr": "0716a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "109",
+          "character": "享",
+          "pinyin": "xiǎng",
+          "mc_bs": "xaeng",
+          "mc_analyzed": "(x- + -aeng A)",
+          "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ} (W dial.)",
+          "gloss": "penetrate",
+          "gsr": "0716a",
+          "unicode_utf16": "U+4EAB"
+        },
+        {
+          "source_page_number": "109",
+          "character": "享",
+          "pinyin": "xiǎng",
+          "mc_bs": "xjangX",
+          "mc_analyzed": "(x- + -jang B)",
+          "oc_bs": "*qʰaŋʔ {*[qʰ]aŋʔ}",
+          "gloss": "offer in sacrifice; food offering",
+          "gsr": "0716a",
+          "unicode_utf16": "U+4EAB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14261",
+          "character": "享",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許兩",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "aŋʔ",
+          "oc_syllable": "qʰaŋʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{qaṅ₄}},",
+      "render_latex": "享\t%xiang3 / xiǎng\n{\\large{qaṅ₄}},\n\\textit{haeṅ};\t%0716a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    },
+    {
+      "character": "亨",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 3,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "phaeṅ",
+          "haeṅ",
+          "hiaṅX"
+        ],
+        "mand2mc_nwh_forms": [
+          "phaeṅ",
+          "haeṅ",
+          "hiaṅX"
+        ],
+        "mand2mc_bs_forms": [
+          "phaeng",
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_gsr_forms": [
+          "phaeng",
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5226",
+          "character": "亨",
+          "pinyin": "peng1",
+          "mc_nwh": "phaeṅ",
+          "mc_bs": "phaeng",
+          "gsr": "0716b"
+        },
+        {
+          "source_row_number": "5227",
+          "character": "亨",
+          "pinyin": "heng1",
+          "mc_nwh": "haeṅ",
+          "mc_bs": "xaeng",
+          "gsr": "0716b"
+        },
+        {
+          "source_row_number": "5228",
+          "character": "亨",
+          "pinyin": "xiang3",
+          "mc_nwh": "hiaṅX",
+          "mc_bs": "xjangX",
+          "gsr": "0716b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "pēng",
+          "mc_bs": "phaeng",
+          "mc_analyzed": "(ph- + -aeng A)",
+          "oc_bs": "*p.qʰˤraŋ {*[p.qʰ]ˤraŋ}",
+          "gloss": "(loan for) to boil",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        },
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "hēng",
+          "mc_bs": "xaeng",
+          "mc_analyzed": "(x- + -aeng A)",
+          "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ}",
+          "gloss": "penetrate",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        },
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "xiǎng",
+          "mc_bs": "xjangX",
+          "mc_analyzed": "(x- + -jang B)",
+          "oc_bs": "*qʰaŋʔ",
+          "gloss": "sacrificial offering",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14258",
+          "character": "亨",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "撫庚",
+          "source": "广韵",
+          "oc_initial": "pqʰʳ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "pqʰʳa̠ŋ"
+        },
+        {
+          "source_row_number": "14259",
+          "character": "亨",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許庚",
+          "source": "广韵",
+          "oc_initial": "qʰʳ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "qʰʳa̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{qaṅ₄}},",
+      "render_latex": "亨\t%peng1 / heng1 / xiang3 / pēng / hēng / xiǎng\n{\\large{qaṅ₄}},\n\\textit{phaeṅ};\t%0716b\n\\textit{haeṅ};\n\\textit{hiaṅX};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "享",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "haeṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "haeṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "xaeng"
+        ],
+        "bs_gsr_forms": [
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_not_in_mand2mc": [
+          "xjangX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5225",
+          "character": "享",
+          "pinyin": "xiang3",
+          "mc_nwh": "haeṅ",
+          "mc_bs": "xaeng",
+          "gsr": "0716a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "109",
+          "character": "享",
+          "pinyin": "xiǎng",
+          "mc_bs": "xaeng",
+          "mc_analyzed": "(x- + -aeng A)",
+          "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ} (W dial.)",
+          "gloss": "penetrate",
+          "gsr": "0716a",
+          "unicode_utf16": "U+4EAB"
+        },
+        {
+          "source_page_number": "109",
+          "character": "享",
+          "pinyin": "xiǎng",
+          "mc_bs": "xjangX",
+          "mc_analyzed": "(x- + -jang B)",
+          "oc_bs": "*qʰaŋʔ {*[qʰ]aŋʔ}",
+          "gloss": "offer in sacrifice; food offering",
+          "gsr": "0716a",
+          "unicode_utf16": "U+4EAB"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14261",
+          "character": "享",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許兩",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "aŋʔ",
+          "oc_syllable": "qʰaŋʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "亨",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 3,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "phaeṅ",
+          "haeṅ",
+          "hiaṅX"
+        ],
+        "mand2mc_nwh_forms": [
+          "phaeṅ",
+          "haeṅ",
+          "hiaṅX"
+        ],
+        "mand2mc_bs_forms": [
+          "phaeng",
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_gsr_forms": [
+          "phaeng",
+          "xaeng",
+          "xjangX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5226",
+          "character": "亨",
+          "pinyin": "peng1",
+          "mc_nwh": "phaeṅ",
+          "mc_bs": "phaeng",
+          "gsr": "0716b"
+        },
+        {
+          "source_row_number": "5227",
+          "character": "亨",
+          "pinyin": "heng1",
+          "mc_nwh": "haeṅ",
+          "mc_bs": "xaeng",
+          "gsr": "0716b"
+        },
+        {
+          "source_row_number": "5228",
+          "character": "亨",
+          "pinyin": "xiang3",
+          "mc_nwh": "hiaṅX",
+          "mc_bs": "xjangX",
+          "gsr": "0716b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "pēng",
+          "mc_bs": "phaeng",
+          "mc_analyzed": "(ph- + -aeng A)",
+          "oc_bs": "*p.qʰˤraŋ {*[p.qʰ]ˤraŋ}",
+          "gloss": "(loan for) to boil",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        },
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "hēng",
+          "mc_bs": "xaeng",
+          "mc_analyzed": "(x- + -aeng A)",
+          "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ}",
+          "gloss": "penetrate",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        },
+        {
+          "source_page_number": "109",
+          "character": "亨",
+          "pinyin": "xiǎng",
+          "mc_bs": "xjangX",
+          "mc_analyzed": "(x- + -jang B)",
+          "oc_bs": "*qʰaŋʔ",
+          "gloss": "sacrificial offering",
+          "gsr": "0716b",
+          "unicode_utf16": "U+4EA8"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14258",
+          "character": "亨",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "撫庚",
+          "source": "广韵",
+          "oc_initial": "pqʰʳ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "pqʰʳa̠ŋ"
+        },
+        {
+          "source_row_number": "14259",
+          "character": "亨",
+          "phonetic_component": "亯",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許庚",
+          "source": "广韵",
+          "oc_initial": "qʰʳ",
+          "oc_rhyme": "a̠ŋ",
+          "oc_syllable": "qʰʳa̠ŋ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "享",
+      "gsr": "0716a",
+      "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ} (W dial.)",
+      "root": "qaṅ",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "qaṅ",
+    "source": "head_graph_oc_bs",
+    "character": "享",
+    "oc_bs": "*qʰˤraŋ {*[qʰ]ˤraŋ} (W dial.)",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "qaṅ₄",
+    "base_root": "qaṅ",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}
