@@ -807,7 +807,7 @@
         ],
         "display_root": "tin",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "cin",
@@ -1385,6 +1385,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -1399,6 +1406,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -3817,7 +3831,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -3838,7 +3852,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -4148,7 +4162,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -4169,7 +4183,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -4199,7 +4213,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|真|ls=psc|c1=s|c2=p}}"
@@ -6541,6 +6555,104 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tin",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "cin",
+      "denH",
+      "cinX",
+      "ṭin",
+      "ṭinH",
+      "ṭinX",
+      "chin",
+      "jinH",
+      "ten",
+      "den",
+      "thenH",
+      "denX",
+      "cieH"
+    ],
+    "form_analyses": [
+      {
+        "form": "cin",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "denH",
+        "normalized": "den",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "cinX",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭin",
+        "normalized": "ṭin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭinH",
+        "normalized": "ṭin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭinX",
+        "normalized": "ṭin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "chin",
+        "normalized": "chin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jinH",
+        "normalized": "jin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ten",
+        "normalized": "ten",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "den",
+        "normalized": "den",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thenH",
+        "normalized": "then",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "denX",
+        "normalized": "den",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "cieH",
+        "normalized": "cie",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "tin",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

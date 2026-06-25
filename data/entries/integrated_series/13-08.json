@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764830+00:00",
+  "generated_at": "2026-06-25T21:28:46.933429+00:00",
   "id": "13-08",
   "schuessler": {
     "gsc_id": "13-08",
@@ -470,7 +470,7 @@
           ],
           "display_root": "kiw",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "kyiw",
@@ -2612,6 +2612,48 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kiw",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "kyiw",
+        "kyiwX",
+        "gyiewX",
+        "gyiw",
+        "kewH"
+      ],
+      "form_analyses": [
+        {
+          "form": "kyiw",
+          "normalized": "kyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kyiwX",
+          "normalized": "kyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "gyiewX",
+          "normalized": "gyiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "gyiw",
+          "normalized": "gyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kewH",
+          "normalized": "kew",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kiw",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2657,10 +2699,21 @@
       "entry_id": "13-08",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "丩",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-08",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "丩",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2677,20 +2730,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

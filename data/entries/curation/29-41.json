@@ -871,7 +871,7 @@
         ],
         "display_root": "pit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "pyit",
@@ -1306,7 +1306,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1327,7 +1327,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -5986,6 +5986,76 @@
       "phonetic_component_series_root"
     ],
     "display_root": "pit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "pyit",
+      "bit",
+      "bet",
+      "byit",
+      "piyH",
+      "pit",
+      "mit",
+      "myit",
+      "bjit"
+    ],
+    "form_analyses": [
+      {
+        "form": "pyit",
+        "normalized": "pyit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bit",
+        "normalized": "bit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bet",
+        "normalized": "bet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "byit",
+        "normalized": "byit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piyH",
+        "normalized": "piy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "pit",
+        "normalized": "pit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "mit",
+        "normalized": "mit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "myit",
+        "normalized": "myit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bjit",
+        "normalized": "bjit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "pit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

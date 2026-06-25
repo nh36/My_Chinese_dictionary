@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788020+00:00",
+  "generated_at": "2026-06-25T21:28:46.957136+00:00",
   "id": "30-01",
   "schuessler": {
     "gsc_id": "30-01",
@@ -807,7 +807,7 @@
           ],
           "display_root": "qyp",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "khiɨyH",
@@ -2062,7 +2062,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "packet_family_ids",
@@ -2605,7 +2605,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -2635,7 +2635,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|土|乞|t1=earth; soil|c1=s|c2=p|ls=psc}}"
@@ -4523,6 +4523,27 @@
         "head_graph_oc_bs"
       ],
       "display_root": "qyp",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "khiɨyH",
+        "xiɨyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "khiɨyH",
+          "normalized": "khiɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "xiɨyH",
+          "normalized": "xiɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "qyp",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4568,10 +4589,21 @@
       "entry_id": "30-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "气",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "30-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "气",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4599,20 +4631,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

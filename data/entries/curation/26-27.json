@@ -692,7 +692,7 @@
         ],
         "display_root": "tsy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dzey",
@@ -2283,7 +2283,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2304,7 +2304,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2334,7 +2334,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|齊|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -5852,6 +5852,76 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsy₁₀",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dzey",
+      "tsiy",
+      "dzeyH",
+      "dzeyX",
+      "tseyH",
+      "tsey",
+      "tseyX",
+      "tṣeay",
+      "dẓeay"
+    ],
+    "form_analyses": [
+      {
+        "form": "dzey",
+        "normalized": "dzey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsiy",
+        "normalized": "tsiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzeyH",
+        "normalized": "dzey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dzeyX",
+        "normalized": "dzey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tseyH",
+        "normalized": "tsey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsey",
+        "normalized": "tsey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tseyX",
+        "normalized": "tsey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tṣeay",
+        "normalized": "tṣeay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dẓeay",
+        "normalized": "dẓeay",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tsy",
     "ordinal": 10,
     "numbering_source": "document_order_occurrence"

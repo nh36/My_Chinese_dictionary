@@ -331,7 +331,7 @@
         ],
         "display_root": "myt",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "miɨyH",
@@ -2376,6 +2376,48 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "myt₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "miɨyH",
+      "miyH",
+      "myiyH",
+      "mwəyH",
+      "meayH"
+    ],
+    "form_analyses": [
+      {
+        "form": "miɨyH",
+        "normalized": "miɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "miyH",
+        "normalized": "miy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "myiyH",
+        "normalized": "myiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "mwəyH",
+        "normalized": "mwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "meayH",
+        "normalized": "meay",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "myt",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

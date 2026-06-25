@@ -380,7 +380,7 @@
         ],
         "display_root": "ni",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "neyH",
@@ -1990,6 +1990,62 @@
     "confidence": "provisional-oc",
     "supporting_characters": 6,
     "display_root": "ni",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "neyH",
+      "ṇiy",
+      "ṇiyH",
+      "ṇiyX",
+      "ney",
+      "ṇieX",
+      "ṇit"
+    ],
+    "form_analyses": [
+      {
+        "form": "neyH",
+        "normalized": "ney",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṇiy",
+        "normalized": "ṇiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṇiyH",
+        "normalized": "ṇiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṇiyX",
+        "normalized": "ṇiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ney",
+        "normalized": "ney",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṇieX",
+        "normalized": "ṇie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṇit",
+        "normalized": "ṇit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ni",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

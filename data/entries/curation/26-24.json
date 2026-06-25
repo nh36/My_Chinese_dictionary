@@ -248,7 +248,7 @@
         ],
         "display_root": "rit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "liyH",
@@ -2557,6 +2557,34 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "rit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "liyH",
+      "liy",
+      "ley"
+    ],
+    "form_analyses": [
+      {
+        "form": "liyH",
+        "normalized": "liy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "liy",
+        "normalized": "liy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ley",
+        "normalized": "ley",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "rit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

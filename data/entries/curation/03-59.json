@@ -257,8 +257,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{paṅ₄}},",
-      "render_latex": "彭\t%peng2 / péng\n{\\large{paṅ₄}},\n\\textit{baeṅ};\t%0750a\n\\textit{baṅ};\n\\textit{paṅ};",
+      "transliteration_latex": "{\\large{p\\textoverset{a}{a}ṅ₂}},",
+      "render_latex": "彭\t%peng2 / péng\n{\\large{p\\textoverset{a}{a}ṅ₂}},\n\\textit{baeṅ};\t%0750a\n\\textit{baṅ};\n\\textit{paṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -280,10 +280,10 @@
         "bs_node_roots": [
           "praṅ"
         ],
-        "display_root": "paṅ",
+        "display_root": "p\\textoverset{a}{a}ṅ",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
         "mc_forms": [
           "baeṅ",
           "baṅ",
@@ -385,8 +385,8 @@
         "source": "packet_family_ids",
         "semantic_component": "示"
       },
-      "transliteration_latex": "{\\large{paṅ₄\\textsuperscript{˸spirit}}},",
-      "render_latex": "𥛱\t%beng1\n{\\large{paṅ₄\\textsuperscript{˸spirit}}},\n\\textit{paeṅ};\t%0750e",
+      "transliteration_latex": "{\\large{p\\textoverset{a}{a}ṅ₂\\textsuperscript{˸spirit}}},",
+      "render_latex": "𥛱\t%beng1\n{\\large{p\\textoverset{a}{a}ṅ₂\\textsuperscript{˸spirit}}},\n\\textit{paeṅ};\t%0750e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -634,9 +634,44 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "paṅ₄",
-    "base_root": "paṅ",
-    "ordinal": 4,
+    "display_root": "p\\textoverset{a}{a}ṅ₂",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "baeṅ",
+      "baṅ",
+      "paṅ",
+      "paeṅ"
+    ],
+    "form_analyses": [
+      {
+        "form": "baeṅ",
+        "normalized": "baeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "baṅ",
+        "normalized": "baṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "paṅ",
+        "normalized": "paṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "paeṅ",
+        "normalized": "paeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "p\\textoverset{a}{a}ṅ",
+    "ordinal": 2,
     "numbering_source": "document_order_occurrence"
   }
 }

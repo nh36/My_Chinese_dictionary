@@ -533,7 +533,7 @@
         ],
         "display_root": "qut",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yiwit",
@@ -3709,6 +3709,62 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "qut",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yiwit",
+      "kiwit",
+      "giwit",
+      "kweat",
+      "kwet",
+      "xwet",
+      "hwiyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "yiwit",
+        "normalized": "yiwit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiwit",
+        "normalized": "kiwit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giwit",
+        "normalized": "giwit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kweat",
+        "normalized": "kweat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kwet",
+        "normalized": "kwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "xwet",
+        "normalized": "xwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwiyH",
+        "normalized": "hwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "qut",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

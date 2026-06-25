@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761306+00:00",
+  "generated_at": "2026-06-25T21:28:46.929177+00:00",
   "id": "03-29",
   "schuessler": {
     "gsc_id": "03-29",
@@ -380,8 +380,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{ṅaṅ₂}},",
-        "render_latex": "卬\t%ang2 / yang3 / áng\n{\\large{ṅaṅ₂}},\n\\textit{ṅaṅ};\t%0699a\n\\textit{ṅiaṅX};",
+        "transliteration_latex": "{\\large{ṅaṅ}},",
+        "render_latex": "卬\t%ang2 / yang3 / áng\n{\\large{ṅaṅ}},\n\\textit{ṅaṅ};\t%0699a\n\\textit{ṅiaṅX};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -406,7 +406,7 @@
           ],
           "display_root": "ṅaṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "ṅaṅ",
@@ -595,8 +595,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "日"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{sol˸}ṅaṅ₂}},",
-        "render_latex": "昂\t%ang2\n{\\large{\\textsuperscript{sol˸}ṅaṅ₂}},\n\\textit{ṅaṅ};\t%0699b",
+        "transliteration_latex": "{\\large{\\textsuperscript{sol˸}ṅaṅ}},",
+        "render_latex": "昂\t%ang2\n{\\large{\\textsuperscript{sol˸}ṅaṅ}},\n\\textit{ṅaṅ};\t%0699b",
         "wiktionary_semantic_validation": {
           "semantic_component": "日",
           "phonetic_component": "卬",
@@ -815,8 +815,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "人"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{hom·}ṅaṅ₂}},",
-        "render_latex": "仰\t%yang3 / yǎng\n{\\large{\\textsuperscript{hom·}ṅaṅ₂}},\n\\textit{ṅiaṅX};\t%0699c",
+        "transliteration_latex": "{\\large{\\textsuperscript{hom·}ṅaṅ}},",
+        "render_latex": "仰\t%yang3 / yǎng\n{\\large{\\textsuperscript{hom·}ṅaṅ}},\n\\textit{ṅiaṅX};\t%0699c",
         "wiktionary_semantic_validation": {
           "semantic_component": "人",
           "phonetic_component": "卬",
@@ -1043,8 +1043,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "辵"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{amb·}ṅaṅ₂}},",
-        "render_latex": "迎\t%ying2 / ying4 / yíng / yìng\n{\\large{\\textsuperscript{amb·}ṅaṅ₂}},\n\\textit{ṅiaeṅ};\t%0699d\n\\textit{ṅiaeṅH};",
+        "transliteration_latex": "{\\large{\\textsuperscript{amb·}ṅaṅ}},",
+        "render_latex": "迎\t%ying2 / ying4 / yíng / yìng\n{\\large{\\textsuperscript{amb·}ṅaṅ}},\n\\textit{ṅiaeṅ};\t%0699d\n\\textit{ṅiaeṅH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "辵",
           "phonetic_component": "卬",
@@ -1612,9 +1612,44 @@
         "head_graph_oc_bs",
         "head_graph_oc_shengfu"
       ],
-      "display_root": "ṅaṅ₂",
+      "display_root": "ṅaṅ",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "ṅaṅ",
+        "ṅiaṅX",
+        "ṅiaeṅ",
+        "ṅiaeṅH"
+      ],
+      "form_analyses": [
+        {
+          "form": "ṅaṅ",
+          "normalized": "ṅaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅiaṅX",
+          "normalized": "ṅiaṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṅiaeṅ",
+          "normalized": "ṅiaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṅiaeṅH",
+          "normalized": "ṅiaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ṅaṅ",
-      "ordinal": 2,
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -1658,29 +1693,40 @@
       "entry_id": "03-29",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "卬",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-29",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "卬",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

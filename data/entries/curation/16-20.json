@@ -852,7 +852,7 @@
         ],
         "display_root": "law",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ḍiewX",
@@ -1008,7 +1008,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1029,7 +1029,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -2873,7 +2873,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2894,7 +2894,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2924,7 +2924,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|ls=psc|手|兆|t1=hand|c1=s|c2=p}}"
@@ -6638,6 +6638,83 @@
       "head_graph_oc_bs"
     ],
     "display_root": "law",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ḍiewX",
+      "yiew",
+      "dew",
+      "thew",
+      "tshiew",
+      "thewH",
+      "dewX",
+      "thaw",
+      "daw",
+      "dawX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ḍiewX",
+        "normalized": "ḍiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiew",
+        "normalized": "yiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dew",
+        "normalized": "dew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thew",
+        "normalized": "thew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tshiew",
+        "normalized": "tshiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "thewH",
+        "normalized": "thew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dewX",
+        "normalized": "dew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thaw",
+        "normalized": "thaw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "daw",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dawX",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "law",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

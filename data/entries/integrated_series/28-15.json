@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.787822+00:00",
+  "generated_at": "2026-06-25T21:28:46.956914+00:00",
   "id": "28-15",
   "schuessler": {
     "gsc_id": "28-15",
@@ -848,7 +848,7 @@
           ],
           "display_root": "ruy",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "lwiyX",
@@ -1036,7 +1036,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -1057,7 +1057,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1087,7 +1087,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|ls=psc|畾|土|c1=p|c2=s|t2=dirt}}"
@@ -5425,6 +5425,55 @@
       "confidence": "provisional-oc",
       "supporting_characters": 4,
       "display_root": "ruy",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "lwiyX",
+        "lwəy",
+        "lwiy",
+        "lwəyH",
+        "lwa",
+        "lwəyX"
+      ],
+      "form_analyses": [
+        {
+          "form": "lwiyX",
+          "normalized": "lwiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "lwəy",
+          "normalized": "lwəy",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "lwiy",
+          "normalized": "lwiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "lwəyH",
+          "normalized": "lwəy",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "lwa",
+          "normalized": "lwa",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "lwəyX",
+          "normalized": "lwəy",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "ruy",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5470,10 +5519,21 @@
       "entry_id": "28-15",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "28-15",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "畾",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5523,22 +5583,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3,
+      "curation_division_note": 4,
       "curation_mc_investigation": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3,
+      "structural_internal": 4,
       "mc_conflict": 2
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 7
+      "internal_only": 8
     }
   },
   "render_mode": "generated_missing_series"

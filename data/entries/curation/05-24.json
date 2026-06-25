@@ -332,7 +332,7 @@
         ],
         "display_root": "tsyk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tsək",
@@ -1596,6 +1596,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsyk₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tsək",
+      "tṣik",
+      "tṣhik",
+      "tṣhiH"
+    ],
+    "form_analyses": [
+      {
+        "form": "tsək",
+        "normalized": "tsək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tṣik",
+        "normalized": "tṣik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣhik",
+        "normalized": "tṣhik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣhiH",
+        "normalized": "tṣhi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tsyk",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

@@ -221,8 +221,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{kaṅ₃}},",
-      "render_latex": "强\t%qiang2 / qiang3 / qiǎng\n{\\large{kaṅ₃}},\n\\textit{giaṅ};\t%0713a\n\\textit{giaṅX};",
+      "transliteration_latex": "{\\large{k\\textoverset{b}{a}ṅ₃}},",
+      "render_latex": "强\t%qiang2 / qiang3 / qiǎng\n{\\large{k\\textoverset{b}{a}ṅ₃}},\n\\textit{giaṅ};\t%0713a\n\\textit{giaṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -244,10 +244,10 @@
         "bs_node_roots": [
           "kaṅ"
         ],
-        "display_root": "kaṅ",
+        "display_root": "k\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "giaṅ",
           "giaṅX",
@@ -416,8 +416,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kaṅ₃\\textsuperscript{·serp}}},",
-      "render_latex": "強\t%qiang2 / qiang3 / qiáng\n{\\large{kaṅ₃\\textsuperscript{·serp}}},\n\\textit{giaṅ};\t%0713b\n\\textit{giaṅX};",
+      "transliteration_latex": "{\\large{k\\textoverset{b}{a}ṅ₃\\textsuperscript{·serp}}},",
+      "render_latex": "強\t%qiang2 / qiang3 / qiáng\n{\\large{k\\textoverset{b}{a}ṅ₃\\textsuperscript{·serp}}},\n\\textit{giaṅ};\t%0713b\n\\textit{giaṅX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "虫",
         "phonetic_component": "彊",
@@ -480,7 +480,7 @@
         "bs_node_roots": [
           "kaṅ"
         ],
-        "display_root": "k\\textoverset{b}{a}ṅ₂",
+        "display_root": "k\\textoverset{b}{a}ṅ₄",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": true,
@@ -510,7 +510,7 @@
           }
         ],
         "base_root": "k\\textoverset{b}{a}ṅ",
-        "ordinal": 2,
+        "ordinal": 4,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -575,8 +575,8 @@
         "source": "packet_family_ids",
         "semantic_component": "糹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}k\\textoverset{b}{a}ṅ₂}},",
-      "render_latex": "繈\t%jiang3\n{\\large{\\textsuperscript{ser·}k\\textoverset{b}{a}ṅ₂}},\n\\textit{kiaṅX};\t%0713c",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}k\\textoverset{b}{a}ṅ₄}},",
+      "render_latex": "繈\t%jiang3\n{\\large{\\textsuperscript{ser·}k\\textoverset{b}{a}ṅ₄}},\n\\textit{kiaṅX};\t%0713c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -694,8 +694,8 @@
         "source": "ids_top_level",
         "semantic_component": "衣"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{vest·}kaṅ₃}},",
-      "render_latex": "襁\t%jiang3\n{\\large{\\textsuperscript{vest·}kaṅ₃}},\n\\textit{kiaṅX};\t%0713d",
+      "transliteration_latex": "{\\large{\\textsuperscript{vest·}k\\textoverset{b}{a}ṅ₃}},",
+      "render_latex": "襁\t%jiang3\n{\\large{\\textsuperscript{vest·}k\\textoverset{b}{a}ṅ₃}},\n\\textit{kiaṅX};\t%0713d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1059,8 +1059,36 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "kaṅ₃",
-    "base_root": "kaṅ",
+    "display_root": "k\\textoverset{b}{a}ṅ₃",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "giaṅ",
+      "giaṅX",
+      "kiaṅX"
+    ],
+    "form_analyses": [
+      {
+        "form": "giaṅ",
+        "normalized": "giaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giaṅX",
+        "normalized": "giaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiaṅX",
+        "normalized": "kiaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "k\\textoverset{b}{a}ṅ",
     "ordinal": 3,
     "numbering_source": "document_order_occurrence"
   }

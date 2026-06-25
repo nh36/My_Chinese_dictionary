@@ -513,7 +513,7 @@
         ],
         "display_root": "tsun",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tswən",
@@ -1284,7 +1284,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1305,7 +1305,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1335,7 +1335,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|尊|c1=s|t1=hand|c2=p|ls=psc}}"
@@ -3285,6 +3285,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsun",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tswən",
+      "tswənX",
+      "dzwən",
+      "tshwin",
+      "dzwənH",
+      "dzwənX",
+      "tswin"
+    ],
+    "form_analyses": [
+      {
+        "form": "tswən",
+        "normalized": "tswən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tswənX",
+        "normalized": "tswən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dzwən",
+        "normalized": "dzwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tshwin",
+        "normalized": "tshwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzwənH",
+        "normalized": "dzwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dzwənX",
+        "normalized": "dzwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tswin",
+        "normalized": "tswin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tsun",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -374,8 +374,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "攴"
       },
-      "transliteration_latex": "{\\large{kaṅ₈\\textsuperscript{˸fer}}},",
-      "render_latex": "更\t%geng1 / geng4 / gēng / gèng\n{\\large{kaṅ₈\\textsuperscript{˸fer}}},\n\\textit{kaeṅ};\t%0745a\n\\textit{kaeṅH};",
+      "transliteration_latex": "{\\large{kaṅ₃\\textsuperscript{˸fer}}},",
+      "render_latex": "更\t%geng1 / geng4 / gēng / gèng\n{\\large{kaṅ₃\\textsuperscript{˸fer}}},\n\\textit{kaeṅ};\t%0745a\n\\textit{kaeṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "攴",
         "phonetic_component": "𰀒",
@@ -419,7 +419,7 @@
         ],
         "display_root": "kraṅ",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kaeṅ",
@@ -560,8 +560,8 @@
         "source": "ids_top_level",
         "semantic_component": "口"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{or·}kaṅ₈}},",
-      "render_latex": "哽\t%geng3\n{\\large{\\textsuperscript{or·}kaṅ₈}},\n\\textit{kaeṅX};\t%0745c",
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}kaṅ₃}},",
+      "render_latex": "哽\t%geng3\n{\\large{\\textsuperscript{or·}kaṅ₃}},\n\\textit{kaeṅX};\t%0745c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -679,8 +679,8 @@
         "source": "ids_top_level",
         "semantic_component": "魚"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{pis·}kaṅ₈}},",
-      "render_latex": "鯁\t%geng3\n{\\large{\\textsuperscript{pis·}kaṅ₈}},\n\\textit{kaeṅX};\t%0745d",
+      "transliteration_latex": "{\\large{\\textsuperscript{pis·}kaṅ₃}},",
+      "render_latex": "鯁\t%geng3\n{\\large{\\textsuperscript{pis·}kaṅ₃}},\n\\textit{kaeṅX};\t%0745d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -856,8 +856,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kaṅ₈}},",
-      "render_latex": "梗\t%geng3 / gěng\n{\\large{\\textsuperscript{arb·}kaṅ₈}},\n\\textit{kaeṅX};\t%0745e",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kaṅ₃}},",
+      "render_latex": "梗\t%geng3 / gěng\n{\\large{\\textsuperscript{arb·}kaṅ₃}},\n\\textit{kaeṅX};\t%0745e",
       "wiktionary_semantic_validation": {
         "semantic_component": "木",
         "phonetic_component": "更",
@@ -1001,8 +1001,8 @@
         "source": "ids_top_level",
         "semantic_component": "糹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}kaṅ₈}},",
-      "render_latex": "綆\t%geng3 / bing3\n{\\large{\\textsuperscript{ser·}kaṅ₈}},\n\\textit{kaeṅX};\t%0745f\n\\textit{pyieṅX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}kaṅ₃}},",
+      "render_latex": "綆\t%geng3 / bing3\n{\\large{\\textsuperscript{ser·}kaṅ₃}},\n\\textit{kaeṅX};\t%0745f\n\\textit{pyieṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1538,9 +1538,44 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "kaṅ₈",
+    "display_root": "kaṅ₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kaeṅ",
+      "kaeṅH",
+      "kaeṅX",
+      "pyieṅX"
+    ],
+    "form_analyses": [
+      {
+        "form": "kaeṅ",
+        "normalized": "kaeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kaeṅH",
+        "normalized": "kaeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kaeṅX",
+        "normalized": "kaeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pyieṅX",
+        "normalized": "pyieṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "kaṅ",
-    "ordinal": 8,
+    "ordinal": 3,
     "numbering_source": "document_order_occurrence"
   }
 }

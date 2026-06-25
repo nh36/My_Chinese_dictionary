@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763607+00:00",
+  "generated_at": "2026-06-25T21:28:46.931841+00:00",
   "id": "09-29",
   "schuessler": {
     "gsc_id": "09-29",
@@ -718,7 +718,7 @@
           ],
           "display_root": "peṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "pyieṅ",
@@ -4608,6 +4608,97 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "peṅ₂",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "pyieṅ",
+        "pyieṅH",
+        "beṅX",
+        "pheṅ",
+        "pheṅX",
+        "beṅ",
+        "pyieṅX",
+        "byieṅH",
+        "pheaṅ",
+        "peaṅ",
+        "peaṅH",
+        "ben"
+      ],
+      "form_analyses": [
+        {
+          "form": "pyieṅ",
+          "normalized": "pyieṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pyieṅH",
+          "normalized": "pyieṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "beṅX",
+          "normalized": "beṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pheṅ",
+          "normalized": "pheṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pheṅX",
+          "normalized": "pheṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "beṅ",
+          "normalized": "beṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pyieṅX",
+          "normalized": "pyieṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "byieṅH",
+          "normalized": "byieṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pheaṅ",
+          "normalized": "pheaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "peaṅ",
+          "normalized": "peaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "peaṅH",
+          "normalized": "peaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ben",
+          "normalized": "ben",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "peṅ",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -4653,10 +4744,21 @@
       "entry_id": "09-29",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "并",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "09-29",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "并",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4673,20 +4775,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

@@ -368,7 +368,7 @@
         ],
         "display_root": "quyr",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ḫiun",
@@ -884,7 +884,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -905,7 +905,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2146,6 +2146,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "quyr",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ḫiun",
+      "ḫiunX",
+      "ḫiunH",
+      "ḫwən"
+    ],
+    "form_analyses": [
+      {
+        "form": "ḫiun",
+        "normalized": "ḫiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḫiunX",
+        "normalized": "ḫiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḫiunH",
+        "normalized": "ḫiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḫwən",
+        "normalized": "ḫwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "quyr",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -9,6 +9,32 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
+    def test_legacy_semantic_aliases_are_canonicalized_in_current_sources(self) -> None:
+        main_tex = (ROOT / "main.tex").read_text(encoding="utf-8")
+        banned_tokens = [
+            r"\textsuperscript{ag·}",
+            r"\textsuperscript{:ag}",
+            r"\textsuperscript{·cri}",
+            r"\textsuperscript{cri:}",
+            r"\textsuperscript{·cul}",
+            r"\textsuperscript{:cul}",
+            r"\textsuperscript{:spir}",
+            r"\textsuperscript{manu·}",
+            r"\textsuperscript{:ter}",
+        ]
+        for token in banned_tokens:
+            self.assertNotIn(token, main_tex)
+
+        legacy = {"ag", "cri", "cul", "manu", "spir", "ter"}
+        offenders = []
+        for path in (ROOT / "data/entries/curation").glob("*.json"):
+            entry = json.loads(path.read_text(encoding="utf-8"))
+            for candidate in entry.get("proposed_additions", []):
+                abbreviation = (candidate.get("semantic_assignment") or {}).get("abbreviation")
+                if abbreviation in legacy:
+                    offenders.append((entry["id"], candidate["character"], abbreviation))
+        self.assertEqual(offenders, [])
+
     def test_no_blocked_or_placeholder_semantic_labels_remain_in_authoritative_or_generated_outputs(self) -> None:
         paths = [
             ROOT / "main.tex",

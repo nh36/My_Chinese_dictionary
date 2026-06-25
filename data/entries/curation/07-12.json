@@ -657,7 +657,7 @@
         ],
         "display_root": "tek",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "teyH",
@@ -843,7 +843,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -864,7 +864,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2624,7 +2624,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|啇|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -2646,7 +2646,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3355,7 +3355,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -5137,6 +5137,90 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "tek",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "teyH",
+      "theyH",
+      "dey",
+      "deyH",
+      "śieH",
+      "dek",
+      "śiek",
+      "ciek",
+      "ḍiek",
+      "ḍeak",
+      "ṭeak"
+    ],
+    "form_analyses": [
+      {
+        "form": "teyH",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "theyH",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dey",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "deyH",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śieH",
+        "normalized": "śie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "dek",
+        "normalized": "dek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiek",
+        "normalized": "śiek",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ciek",
+        "normalized": "ciek",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ḍiek",
+        "normalized": "ḍiek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍeak",
+        "normalized": "ḍeak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭeak",
+        "normalized": "ṭeak",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tek",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

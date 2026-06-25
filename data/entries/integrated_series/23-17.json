@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768028+00:00",
+  "generated_at": "2026-06-25T21:28:46.936363+00:00",
   "id": "23-17",
   "schuessler": {
     "gsc_id": "23-17",
@@ -615,7 +615,7 @@
           ],
           "display_root": "quen",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "qwen",
@@ -1706,7 +1706,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1727,7 +1727,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1757,7 +1757,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|肙|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -3863,6 +3863,97 @@
         "phonetic_component_series_root"
       ],
       "display_root": "quen",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "qwen",
+        "qiwienX",
+        "giwienX",
+        "qiwien",
+        "kiwienH",
+        "yiwen",
+        "kwen",
+        "kwenH",
+        "ḫwenX",
+        "hwen",
+        "hwenH",
+        "zjwen"
+      ],
+      "form_analyses": [
+        {
+          "form": "qwen",
+          "normalized": "qwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qiwienX",
+          "normalized": "qiwien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giwienX",
+          "normalized": "giwien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qiwien",
+          "normalized": "qiwien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiwienH",
+          "normalized": "kiwien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yiwen",
+          "normalized": "yiwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kwen",
+          "normalized": "kwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kwenH",
+          "normalized": "kwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫwenX",
+          "normalized": "ḫwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwen",
+          "normalized": "hwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwenH",
+          "normalized": "hwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "zjwen",
+          "normalized": "zjwen",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "quen",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -3908,10 +3999,21 @@
       "entry_id": "23-17",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "肙",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "23-17",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "肙",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3928,22 +4030,22 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1,
+      "curation_division_note": 2,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1,
+      "structural_internal": 2,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

@@ -515,7 +515,7 @@
         ],
         "display_root": "tyn",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "cinX",
@@ -858,8 +858,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -885,8 +885,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -3716,6 +3716,97 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tyn",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "cinX",
+      "cin",
+      "cinH",
+      "ḍienX",
+      "jienX",
+      "ṭienX",
+      "ṭin",
+      "ṭhinH",
+      "denX",
+      "thet",
+      "ḍinH",
+      "nenX"
+    ],
+    "form_analyses": [
+      {
+        "form": "cinX",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cin",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cinH",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ḍienX",
+        "normalized": "ḍien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jienX",
+        "normalized": "jien",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭienX",
+        "normalized": "ṭien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭin",
+        "normalized": "ṭin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhinH",
+        "normalized": "ṭhin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "denX",
+        "normalized": "den",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thet",
+        "normalized": "thet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḍinH",
+        "normalized": "ḍin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "nenX",
+        "normalized": "nen",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tyn",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

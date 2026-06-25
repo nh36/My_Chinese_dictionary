@@ -269,7 +269,7 @@
         ],
         "display_root": "qor₂",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "qiwənX",
@@ -1692,8 +1692,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -1719,8 +1719,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -1755,8 +1755,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -2209,7 +2209,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2230,7 +2230,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -5716,6 +5716,34 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ʔor",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "qiwənX",
+      "qwanH",
+      "qwanX"
+    ],
+    "form_analyses": [
+      {
+        "form": "qiwənX",
+        "normalized": "qiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qwanH",
+        "normalized": "qwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qwanX",
+        "normalized": "qwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ʔor",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

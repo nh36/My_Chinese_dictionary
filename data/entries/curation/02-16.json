@@ -221,8 +221,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tak₂\\textsuperscript{·dextr}}},",
-      "render_latex": "度\t%duo2 / du4 / duó / dù\n{\\large{tak₂\\textsuperscript{·dextr}}},\n\\textit{dak};\t%0801a\n\\textit{duH};",
+      "transliteration_latex": "{\\large{t\\textoverset{a}{a}k\\textsuperscript{·dextr}}},",
+      "render_latex": "度\t%duo2 / du4 / duó / dù\n{\\large{t\\textoverset{a}{a}k\\textsuperscript{·dextr}}},\n\\textit{dak};\t%0801a\n\\textit{duH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "又",
         "phonetic_component": "石",
@@ -285,10 +285,10 @@
         "bs_node_roots": [
           "tak"
         ],
-        "display_root": "tak",
+        "display_root": "t\\textoverset{a}{a}k",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
         "mc_forms": [
           "dak",
           "duH"
@@ -437,8 +437,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}tak₂}},",
-      "render_latex": "渡\t%du4\n{\\large{\\textsuperscript{aq·}tak₂}},\n\\textit{duH};\t%0801b",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}t\\textoverset{a}{a}k}},",
+      "render_latex": "渡\t%du4\n{\\large{\\textsuperscript{aq·}t\\textoverset{a}{a}k}},\n\\textit{duH};\t%0801b",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "度",
@@ -551,8 +551,8 @@
         "source": "packet_family_ids",
         "semantic_component": "刀"
       },
-      "transliteration_latex": "{\\large{tak₂\\textsuperscript{·cult}}},",
-      "render_latex": "剫\t%duo2\n{\\large{tak₂\\textsuperscript{·cult}}},\n\\textit{dak};\t%0801c",
+      "transliteration_latex": "{\\large{t\\textoverset{a}{a}k\\textsuperscript{·cult}}},",
+      "render_latex": "剫\t%duo2\n{\\large{t\\textoverset{a}{a}k\\textsuperscript{·cult}}},\n\\textit{dak};\t%0801c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -802,9 +802,30 @@
       "head_graph_oc_bs",
       "phonetic_component_series_root"
     ],
-    "display_root": "tak₂",
-    "base_root": "tak",
-    "ordinal": 2,
+    "display_root": "t\\textoverset{a}{a}k",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "dak",
+      "duH"
+    ],
+    "form_analyses": [
+      {
+        "form": "dak",
+        "normalized": "dak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "duH",
+        "normalized": "du",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "t\\textoverset{a}{a}k",
+    "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760970+00:00",
+  "generated_at": "2026-06-25T21:28:46.928739+00:00",
   "id": "03-02",
   "schuessler": {
     "gsc_id": "03-02",
@@ -166,8 +166,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{kaṅ\\textsuperscript{˸mon}}},",
-        "render_latex": "岡\t%gang1\n{\\large{kaṅ\\textsuperscript{˸mon}}},\n\\textit{kaṅ};\t%0697a",
+        "transliteration_latex": "{\\large{k\\textoverset{a}{a}ṅ\\textsuperscript{˸mon}}},",
+        "render_latex": "岡\t%gang1\n{\\large{k\\textoverset{a}{a}ṅ\\textsuperscript{˸mon}}},\n\\textit{kaṅ};\t%0697a",
         "wiktionary_semantic_validation": {
           "semantic_component": "山",
           "phonetic_component": "网",
@@ -231,10 +231,10 @@
             "kaṅ",
             "saṅ"
           ],
-          "display_root": "kaṅ",
+          "display_root": "k\\textoverset{a}{a}ṅ",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "kaṅ",
             "kaṅH"
@@ -509,8 +509,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "刀"
         },
-        "transliteration_latex": "{\\large{kaṅ\\textsuperscript{·cult}}},",
-        "render_latex": "剛\t%gang1 / gāng\n{\\large{kaṅ\\textsuperscript{·cult}}},\n\\textit{kaṅ};\t%0697b",
+        "transliteration_latex": "{\\large{k\\textoverset{a}{a}ṅ\\textsuperscript{·cult}}},",
+        "render_latex": "剛\t%gang1 / gāng\n{\\large{k\\textoverset{a}{a}ṅ\\textsuperscript{·cult}}},\n\\textit{kaṅ};\t%0697b",
         "wiktionary_semantic_validation": {
           "semantic_component": "刀",
           "phonetic_component": "岡",
@@ -683,8 +683,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "糸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{ser·}kaṅ}},",
-        "render_latex": "綱\t%gang1 / gāng\n{\\large{\\textsuperscript{ser·}kaṅ}},\n\\textit{kaṅ};\t%0697e",
+        "transliteration_latex": "{\\large{\\textsuperscript{ser·}k\\textoverset{a}{a}ṅ}},",
+        "render_latex": "綱\t%gang1 / gāng\n{\\large{\\textsuperscript{ser·}k\\textoverset{a}{a}ṅ}},\n\\textit{kaṅ};\t%0697e",
         "wiktionary_semantic_validation": {
           "semantic_component": "糸",
           "phonetic_component": "岡",
@@ -843,8 +843,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "牛"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{bos·}kaṅ}},",
-        "render_latex": "犅\t%gang1\n{\\large{\\textsuperscript{bos·}kaṅ}},\n\\textit{kaṅ};\t%0697f",
+        "transliteration_latex": "{\\large{\\textsuperscript{bos·}k\\textoverset{a}{a}ṅ}},",
+        "render_latex": "犅\t%gang1\n{\\large{\\textsuperscript{bos·}k\\textoverset{a}{a}ṅ}},\n\\textit{kaṅ};\t%0697f",
         "wiktionary_semantic_validation": {
           "semantic_component": "牛",
           "phonetic_component": "岡",
@@ -1050,8 +1050,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "金"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{met·}kaṅ}},",
-        "render_latex": "鋼\t%gang1 / gang4 / gāng\n{\\large{\\textsuperscript{met·}kaṅ}},\n\\textit{kaṅ};\t%0697h\n\\textit{kaṅH};",
+        "transliteration_latex": "{\\large{\\textsuperscript{met·}k\\textoverset{a}{a}ṅ}},",
+        "render_latex": "鋼\t%gang1 / gang4 / gāng\n{\\large{\\textsuperscript{met·}k\\textoverset{a}{a}ṅ}},\n\\textit{kaṅ};\t%0697h\n\\textit{kaṅH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "金",
           "phonetic_component": "岡",
@@ -1577,8 +1577,29 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ],
-      "display_root": "kaṅ",
-      "base_root": "kaṅ",
+      "display_root": "k\\textoverset{a}{a}ṅ",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "kaṅ",
+        "kaṅH"
+      ],
+      "form_analyses": [
+        {
+          "form": "kaṅ",
+          "normalized": "kaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kaṅH",
+          "normalized": "kaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "k\\textoverset{a}{a}ṅ",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
@@ -1623,29 +1644,40 @@
       "entry_id": "03-02",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "岡",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-02",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "岡",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

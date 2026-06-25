@@ -570,7 +570,7 @@
         ],
         "display_root": "ryp",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "gip",
@@ -1579,7 +1579,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1600,7 +1600,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -3284,6 +3284,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ryp₄",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "gip",
+      "kip",
+      "xip",
+      "ṅip",
+      "giep"
+    ],
+    "form_analyses": [
+      {
+        "form": "gip",
+        "normalized": "gip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kip",
+        "normalized": "kip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "xip",
+        "normalized": "xip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṅip",
+        "normalized": "ṅip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giep",
+        "normalized": "giep",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ryp",
     "ordinal": 4,
     "numbering_source": "document_order_occurrence"

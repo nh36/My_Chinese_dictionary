@@ -810,7 +810,7 @@
         ],
         "display_root": "tsek",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tshieH",
@@ -5353,6 +5353,41 @@
       "phonetic_component_series_root"
     ],
     "display_root": "tsek",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tshieH",
+      "tshiek",
+      "tsiek",
+      "tṣheak"
+    ],
+    "form_analyses": [
+      {
+        "form": "tshieH",
+        "normalized": "tshie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshiek",
+        "normalized": "tshiek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsiek",
+        "normalized": "tsiek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣheak",
+        "normalized": "tṣheak",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tsek",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

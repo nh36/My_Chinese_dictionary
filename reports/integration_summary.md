@@ -7,7 +7,7 @@
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
 - Generated missing-series entries: 466
-- Records with hand-source conflicts: 0
+- Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
 | --- | --- | --- |

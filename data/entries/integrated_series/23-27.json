@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768056+00:00",
+  "generated_at": "2026-06-25T21:28:46.936395+00:00",
   "id": "23-27",
   "schuessler": {
     "gsc_id": "23-27",
@@ -696,7 +696,7 @@
           ],
           "display_root": "pen",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "penX",
@@ -4334,6 +4334,90 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "pen",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "penX",
+        "penH",
+        "ben",
+        "benX",
+        "pen",
+        "pyien",
+        "pyienX",
+        "phyien",
+        "phyienH",
+        "byienH",
+        "byienX"
+      ],
+      "form_analyses": [
+        {
+          "form": "penX",
+          "normalized": "pen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "penH",
+          "normalized": "pen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ben",
+          "normalized": "ben",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "benX",
+          "normalized": "ben",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pen",
+          "normalized": "pen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pyien",
+          "normalized": "pyien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pyienX",
+          "normalized": "pyien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyien",
+          "normalized": "phyien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyienH",
+          "normalized": "phyien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "byienH",
+          "normalized": "byien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "byienX",
+          "normalized": "byien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "pen",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4379,29 +4463,40 @@
       "entry_id": "23-27",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "扁",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "23-27",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "扁",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

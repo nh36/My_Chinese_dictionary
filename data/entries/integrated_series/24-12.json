@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768155+00:00",
+  "generated_at": "2026-06-25T21:28:46.936504+00:00",
   "id": "24-12",
   "schuessler": {
     "gsc_id": "24-12",
@@ -421,7 +421,7 @@
           ],
           "display_root": "qen",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "qaenH",
@@ -1764,7 +1764,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1785,7 +1785,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1815,7 +1815,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|匽|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2636,6 +2636,55 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "qen",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "qaenH",
+        "qenH",
+        "qiənH",
+        "qiənX",
+        "qenX",
+        "qaet"
+      ],
+      "form_analyses": [
+        {
+          "form": "qaenH",
+          "normalized": "qaen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qenH",
+          "normalized": "qen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qiənH",
+          "normalized": "qiən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qiənX",
+          "normalized": "qiən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qenX",
+          "normalized": "qen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qaet",
+          "normalized": "qaet",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "qen",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2681,10 +2730,21 @@
       "entry_id": "24-12",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "妟",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "24-12",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "妟",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2712,22 +2772,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

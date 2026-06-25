@@ -692,7 +692,7 @@
         ],
         "display_root": "per",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "beanH",
@@ -980,8 +980,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -1007,8 +1007,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -1043,8 +1043,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -3069,7 +3069,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -3090,7 +3090,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3120,7 +3120,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|番|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -5349,6 +5349,83 @@
       "head_graph_oc_bs"
     ],
     "display_root": "per",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "beanH",
+      "ben",
+      "pa",
+      "phiən",
+      "piən",
+      "biən",
+      "phan",
+      "ban",
+      "paH",
+      "ba"
+    ],
+    "form_analyses": [
+      {
+        "form": "beanH",
+        "normalized": "bean",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ben",
+        "normalized": "ben",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pa",
+        "normalized": "pa",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phiən",
+        "normalized": "phiən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piən",
+        "normalized": "piən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biən",
+        "normalized": "biən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phan",
+        "normalized": "phan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ban",
+        "normalized": "ban",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "paH",
+        "normalized": "pa",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ba",
+        "normalized": "ba",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "per",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

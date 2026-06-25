@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788520+00:00",
+  "generated_at": "2026-06-25T21:28:46.957684+00:00",
   "id": "33-20",
   "schuessler": {
     "gsc_id": "33-20",
@@ -373,7 +373,7 @@
           ],
           "display_root": "nyn",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "ñinH",
@@ -2601,6 +2601,48 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "nyn",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "ñinH",
+        "ñinX",
+        "ṇin",
+        "ñin",
+        "nrit"
+      ],
+      "form_analyses": [
+        {
+          "form": "ñinH",
+          "normalized": "ñin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñinX",
+          "normalized": "ñin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṇin",
+          "normalized": "ṇin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñin",
+          "normalized": "ñin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "nrit",
+          "normalized": "nrit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "nyn",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2646,10 +2688,21 @@
       "entry_id": "33-20",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "刃",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-20",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "刃",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2677,22 +2730,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

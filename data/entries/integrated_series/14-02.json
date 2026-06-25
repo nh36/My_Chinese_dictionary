@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765578+00:00",
+  "generated_at": "2026-06-25T21:28:46.933875+00:00",
   "id": "14-02",
   "schuessler": {
     "gsc_id": "14-02",
@@ -473,7 +473,7 @@
           "bs_node_roots": [],
           "display_root": "kuk",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "kiuwk",
@@ -621,7 +621,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -642,7 +642,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -672,7 +672,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|匊|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2728,6 +2728,27 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "kuk",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "kiuwk",
+        "khiuwk"
+      ],
+      "form_analyses": [
+        {
+          "form": "kiuwk",
+          "normalized": "kiuwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khiuwk",
+          "normalized": "khiuwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kuk",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2773,10 +2794,21 @@
       "entry_id": "14-02",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "匊",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "14-02",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "匊",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2804,20 +2836,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

@@ -202,7 +202,7 @@
         ],
         "display_root": "pet",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "byieyH",
@@ -2610,6 +2610,48 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pet",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "byieyH",
+      "pyieyH",
+      "pyiet",
+      "phyiet",
+      "bet"
+    ],
+    "form_analyses": [
+      {
+        "form": "byieyH",
+        "normalized": "byiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "pyieyH",
+        "normalized": "pyiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "pyiet",
+        "normalized": "pyiet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phyiet",
+        "normalized": "phyiet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bet",
+        "normalized": "bet",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pet",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

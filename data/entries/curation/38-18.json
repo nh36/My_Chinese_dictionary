@@ -534,7 +534,7 @@
         ],
         "display_root": "rym",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "lim",
@@ -3007,6 +3007,55 @@
       "head_graph_oc_bs"
     ],
     "display_root": "rym",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "lim",
+      "ləm",
+      "kim",
+      "kimH",
+      "gimH",
+      "gimX"
+    ],
+    "form_analyses": [
+      {
+        "form": "lim",
+        "normalized": "lim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ləm",
+        "normalized": "ləm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kim",
+        "normalized": "kim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kimH",
+        "normalized": "kim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "gimH",
+        "normalized": "gim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "gimX",
+        "normalized": "gim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "rym",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

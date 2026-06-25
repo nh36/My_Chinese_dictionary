@@ -282,8 +282,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{qak₇}},",
-      "render_latex": "舄\t%xi4 / xì\n{\\large{qak₇}},\n\\textit{siek};\t%0799a",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{a}k₃}},",
+      "render_latex": "舄\t%xi4 / xì\n{\\large{q\\textoverset{b}{a}k₃}},\n\\textit{siek};\t%0799a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -307,10 +307,10 @@
           "shak",
           "sha"
         ],
-        "display_root": "qak",
+        "display_root": "q\\textoverset{b}{a}k",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "siek",
           "siaeX"
@@ -494,8 +494,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}qak₇}},",
-      "render_latex": "潟\t%xi4 / xì\n{\\large{\\textsuperscript{aq·}qak₇}},\n\\textit{siek};\t%0799e",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}q\\textoverset{b}{a}k₃}},",
+      "render_latex": "潟\t%xi4 / xì\n{\\large{\\textsuperscript{aq·}q\\textoverset{b}{a}k₃}},\n\\textit{siek};\t%0799e",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "舄",
@@ -709,8 +709,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "宀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}qak₇}},",
-      "render_latex": "寫\t%xie3 / xiě\n{\\large{\\textsuperscript{tect˸}qak₇}},\n\\textit{siaeX};\t%0799f",
+      "transliteration_latex": "{\\large{\\textsuperscript{tect˸}q\\textoverset{b}{a}k₃}},",
+      "render_latex": "寫\t%xie3 / xiě\n{\\large{\\textsuperscript{tect˸}q\\textoverset{b}{a}k₃}},\n\\textit{siaeX};\t%0799f",
       "wiktionary_semantic_validation": {
         "semantic_component": "宀",
         "phonetic_component": "舄",
@@ -1471,9 +1471,30 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "qak₇",
-    "base_root": "qak",
-    "ordinal": 7,
+    "display_root": "q\\textoverset{b}{a}k₃",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "siek",
+      "siaeX"
+    ],
+    "form_analyses": [
+      {
+        "form": "siek",
+        "normalized": "siek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "siaeX",
+        "normalized": "siae",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "q\\textoverset{b}{a}k",
+    "ordinal": 3,
     "numbering_source": "document_order_occurrence"
   }
 }

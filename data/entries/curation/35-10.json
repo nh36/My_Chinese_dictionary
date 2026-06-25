@@ -166,7 +166,7 @@
         ],
         "display_root": "ɡlep",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yiep",
@@ -633,7 +633,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -654,7 +654,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -1540,7 +1540,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1561,7 +1561,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2846,6 +2846,55 @@
     "confidence": "provisional-oc",
     "supporting_characters": 7,
     "display_root": "ɡlep",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yiep",
+      "dep",
+      "sep",
+      "śiet",
+      "źiet",
+      "śiep"
+    ],
+    "form_analyses": [
+      {
+        "form": "yiep",
+        "normalized": "yiep",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dep",
+        "normalized": "dep",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "sep",
+        "normalized": "sep",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiet",
+        "normalized": "śiet",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "źiet",
+        "normalized": "źiet",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śiep",
+        "normalized": "śiep",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "ɡlep",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

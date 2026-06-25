@@ -585,7 +585,7 @@
         ],
         "display_root": "tip",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "cip",
@@ -1709,7 +1709,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1730,7 +1730,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1760,7 +1760,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|執|手|c1=p|c2=s|t2=hand|ls=psc}}"
@@ -2325,7 +2325,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -2346,7 +2346,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2376,7 +2376,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|執|土|c1=p|c2=s|t2=earth|ls=psc}}"
@@ -3512,6 +3512,76 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tip",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "cip",
+      "ṭip",
+      "ḍip",
+      "nep",
+      "ciep",
+      "tsip",
+      "ṭiyH",
+      "ciyH",
+      "temH"
+    ],
+    "form_analyses": [
+      {
+        "form": "cip",
+        "normalized": "cip",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭip",
+        "normalized": "ṭip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍip",
+        "normalized": "ḍip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "nep",
+        "normalized": "nep",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ciep",
+        "normalized": "ciep",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "tsip",
+        "normalized": "tsip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭiyH",
+        "normalized": "ṭiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ciyH",
+        "normalized": "ciy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "temH",
+        "normalized": "tem",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tip",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

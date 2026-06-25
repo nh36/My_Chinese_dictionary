@@ -448,7 +448,7 @@
         ],
         "display_root": "pyṅ",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "bəṅ",
@@ -1189,7 +1189,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1210,7 +1210,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -1291,7 +1291,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "packet_family_ids",
@@ -1645,7 +1645,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1666,7 +1666,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2996,6 +2996,55 @@
       "phonetic_component_series_root"
     ],
     "display_root": "pyṅ",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "bəṅ",
+      "pəṅH",
+      "pəṅ",
+      "peaṅ",
+      "piṅ",
+      "bong"
+    ],
+    "form_analyses": [
+      {
+        "form": "bəṅ",
+        "normalized": "bəṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pəṅH",
+        "normalized": "pəṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pəṅ",
+        "normalized": "pəṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "peaṅ",
+        "normalized": "peaṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "piṅ",
+        "normalized": "piṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bong",
+        "normalized": "bong",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pyṅ",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

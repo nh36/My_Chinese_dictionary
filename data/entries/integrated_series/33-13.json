@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788482+00:00",
+  "generated_at": "2026-06-25T21:28:46.957644+00:00",
   "id": "33-13",
   "schuessler": {
     "gsc_id": "33-13",
@@ -590,7 +590,7 @@
           ],
           "display_root": "tyr",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "jin",
@@ -1830,7 +1830,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1851,7 +1851,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1881,7 +1881,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|辰|ls=psc|c1=s|c2=p}}"
@@ -4549,6 +4549,69 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tyr",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "jin",
+        "jinX",
+        "cinH",
+        "cin",
+        "śin",
+        "ṭhiy",
+        "ṭhinX",
+        "źiwin"
+      ],
+      "form_analyses": [
+        {
+          "form": "jin",
+          "normalized": "jin",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jinX",
+          "normalized": "jin",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "cinH",
+          "normalized": "cin",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "cin",
+          "normalized": "cin",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "śin",
+          "normalized": "śin",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṭhiy",
+          "normalized": "ṭhiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṭhinX",
+          "normalized": "ṭhin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "źiwin",
+          "normalized": "źiwin",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
       "base_root": "tyr",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4594,10 +4657,21 @@
       "entry_id": "33-13",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "辰",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "33-13",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "辰",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4636,22 +4710,22 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 2
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

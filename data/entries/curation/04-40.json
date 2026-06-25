@@ -449,7 +449,7 @@
         ],
         "display_root": "ny",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ñiX",
@@ -2690,6 +2690,48 @@
       "phonetic_component_series_root"
     ],
     "display_root": "ny₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ñiX",
+      "ñiH",
+      "ñi",
+      "ṇeak",
+      "ṭhiX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ñiX",
+        "normalized": "ñi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ñiH",
+        "normalized": "ñi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ñi",
+        "normalized": "ñi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṇeak",
+        "normalized": "ṇeak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭhiX",
+        "normalized": "ṭhi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ny",
     "ordinal": 3,
     "numbering_source": "document_order_occurrence"

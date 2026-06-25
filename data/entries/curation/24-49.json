@@ -564,7 +564,7 @@
         ],
         "display_root": "pan",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "piənX",
@@ -2045,7 +2045,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2066,7 +2066,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -3299,6 +3299,62 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pan₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "piənX",
+      "piənH",
+      "baenX",
+      "biənH",
+      "biənX",
+      "paenX",
+      "paen"
+    ],
+    "form_analyses": [
+      {
+        "form": "piənX",
+        "normalized": "piən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piənH",
+        "normalized": "piən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "baenX",
+        "normalized": "baen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "biənH",
+        "normalized": "biən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biənX",
+        "normalized": "biən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "paenX",
+        "normalized": "paen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "paen",
+        "normalized": "paen",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pan",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

@@ -252,8 +252,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{maṅ}},",
-      "render_latex": "兄\t%hiəng1 / xiōng\n{\\large{maṅ}},\n\\textit{hiwaeṅ};\t%0765a",
+      "transliteration_latex": "{\\large{m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "兄\t%hiəng1 / xiōng\n{\\large{m\\textoverset{b}{a}ṅ}},\n\\textit{hiwaeṅ};\t%0765a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -275,10 +275,10 @@
         "bs_node_roots": [
           "maṅ"
         ],
-        "display_root": "maṅ",
+        "display_root": "m\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "hiwaeṅ",
           "hiwaṅX",
@@ -367,8 +367,8 @@
         "source": "packet_family_ids",
         "semantic_component": "冫"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{glac·}maṅ}},",
-      "render_latex": "况\t%kuang4\n{\\large{\\textsuperscript{glac·}maṅ}},\n\\textit{hiwaṅX};\t%0765f",
+      "transliteration_latex": "{\\large{\\textsuperscript{glac·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "况\t%kuang4\n{\\large{\\textsuperscript{glac·}m\\textoverset{b}{a}ṅ}},\n\\textit{hiwaṅX};\t%0765f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -548,8 +548,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}maṅ}},",
-      "render_latex": "況\t%kuang4 / kuàng\n{\\large{\\textsuperscript{aq·}maṅ}},\n\\textit{hiwaṅH};\t%0765g",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "況\t%kuang4 / kuàng\n{\\large{\\textsuperscript{aq·}m\\textoverset{b}{a}ṅ}},\n\\textit{hiwaṅH};\t%0765g",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "兄",
@@ -694,8 +694,8 @@
         "source": "ids_top_level",
         "semantic_component": "貝"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{conch·}maṅ}},",
-      "render_latex": "貺\t%kuang4\n{\\large{\\textsuperscript{conch·}maṅ}},\n\\textit{hiwaṅH};\t%0765h",
+      "transliteration_latex": "{\\large{\\textsuperscript{conch·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "貺\t%kuang4\n{\\large{\\textsuperscript{conch·}m\\textoverset{b}{a}ṅ}},\n\\textit{hiwaṅH};\t%0765h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -825,8 +825,8 @@
         "source": "ids_top_level",
         "semantic_component": "車"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{vehic·}maṅ}},",
-      "render_latex": "軦\t%huang4\n{\\large{\\textsuperscript{vehic·}maṅ}},\n\\textit{hiwaṅH};\t%0765i",
+      "transliteration_latex": "{\\large{\\textsuperscript{vehic·}m\\textoverset{b}{a}ṅ}},",
+      "render_latex": "軦\t%huang4\n{\\large{\\textsuperscript{vehic·}m\\textoverset{b}{a}ṅ}},\n\\textit{hiwaṅH};\t%0765i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1253,8 +1253,36 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "maṅ",
-    "base_root": "maṅ",
+    "display_root": "m\\textoverset{b}{a}ṅ",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "hiwaeṅ",
+      "hiwaṅX",
+      "hiwaṅH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hiwaeṅ",
+        "normalized": "hiwaeṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiwaṅX",
+        "normalized": "hiwaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiwaṅH",
+        "normalized": "hiwaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "m\\textoverset{b}{a}ṅ",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

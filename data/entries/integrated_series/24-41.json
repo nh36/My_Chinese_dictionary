@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768298+00:00",
+  "generated_at": "2026-06-25T21:28:46.956051+00:00",
   "id": "24-41",
   "schuessler": {
     "gsc_id": "24-41",
@@ -808,7 +808,7 @@
           ],
           "display_root": "tsan",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dzan",
@@ -5701,6 +5701,132 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tsan",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dzan",
+        "dzen",
+        "dẓaenH",
+        "dẓaenX",
+        "dẓeanX",
+        "tṣeanX",
+        "tṣienX",
+        "tṣheanX",
+        "dzien",
+        "tsienX",
+        "tsen",
+        "tshienX",
+        "dzienX",
+        "dzienH",
+        "tsienH",
+        "tsien",
+        "sienH"
+      ],
+      "form_analyses": [
+        {
+          "form": "dzan",
+          "normalized": "dzan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dzen",
+          "normalized": "dzen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dẓaenH",
+          "normalized": "dẓaen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dẓaenX",
+          "normalized": "dẓaen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dẓeanX",
+          "normalized": "dẓean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tṣeanX",
+          "normalized": "tṣean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tṣienX",
+          "normalized": "tṣien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tṣheanX",
+          "normalized": "tṣhean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dzien",
+          "normalized": "dzien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsienX",
+          "normalized": "tsien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsen",
+          "normalized": "tsen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tshienX",
+          "normalized": "tshien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzienX",
+          "normalized": "dzien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzienH",
+          "normalized": "dzien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsienH",
+          "normalized": "tsien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsien",
+          "normalized": "tsien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "sienH",
+          "normalized": "sien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "tsan",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5746,10 +5872,21 @@
       "entry_id": "24-41",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "戔",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "24-41",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "戔",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5766,20 +5903,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

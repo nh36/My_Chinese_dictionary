@@ -362,7 +362,7 @@
         ],
         "display_root": "tyk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "cik",
@@ -2660,6 +2660,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "tyk₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "cik",
+      "dək",
+      "ciH",
+      "śiH",
+      "śik",
+      "chiH"
+    ],
+    "form_analyses": [
+      {
+        "form": "cik",
+        "normalized": "cik",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "dək",
+        "normalized": "dək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ciH",
+        "normalized": "ci",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śiH",
+        "normalized": "śi",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śik",
+        "normalized": "śik",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "chiH",
+        "normalized": "chi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tyk",
     "ordinal": 3,
     "numbering_source": "document_order_occurrence"

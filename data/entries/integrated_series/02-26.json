@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760711+00:00",
+  "generated_at": "2026-06-25T21:28:46.928420+00:00",
   "id": "02-26",
   "schuessler": {
     "gsc_id": "02-26",
@@ -366,8 +366,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{lak₂}},",
-        "render_latex": "射\t%she4 / shè\n{\\large{lak₂}},\n\\textit{jiek};\t%0807a\n\\textit{źiaeH};",
+        "transliteration_latex": "{\\large{l\\textoverset{b}{a}k}},",
+        "render_latex": "射\t%she4 / shè\n{\\large{l\\textoverset{b}{a}k}},\n\\textit{jiek};\t%0807a\n\\textit{źiaeH};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -391,10 +391,10 @@
             "lak",
             "syk"
           ],
-          "display_root": "lak",
+          "display_root": "l\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "jiek",
             "źiaeH",
@@ -503,8 +503,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{lak₂}},",
-        "render_latex": "䠶\t%yi4 / she4\n{\\large{lak₂}},\n\\textit{yiek};\t%0807b\n\\textit{źiaeH};\n\\textit{źiek};",
+        "transliteration_latex": "{\\large{l\\textoverset{b}{a}k}},",
+        "render_latex": "䠶\t%yi4 / she4\n{\\large{l\\textoverset{b}{a}k}},\n\\textit{yiek};\t%0807b\n\\textit{źiaeH};\n\\textit{źiek};",
         "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
@@ -694,8 +694,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "木"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{arb·}lak₂}},",
-        "render_latex": "榭\t%xie4\n{\\large{\\textsuperscript{arb·}lak₂}},\n\\textit{ziaeH};\t%0807e",
+        "transliteration_latex": "{\\large{\\textsuperscript{arb·}l\\textoverset{b}{a}k}},",
+        "render_latex": "榭\t%xie4\n{\\large{\\textsuperscript{arb·}l\\textoverset{b}{a}k}},\n\\textit{ziaeH};\t%0807e",
         "wiktionary_semantic_validation": {
           "semantic_component": "木",
           "phonetic_component": "射",
@@ -900,8 +900,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "言"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{dic·}lak₂}},",
-        "render_latex": "謝\t%xie4 / xiè\n{\\large{\\textsuperscript{dic·}lak₂}},\n\\textit{ziaeH};\t%0807g",
+        "transliteration_latex": "{\\large{\\textsuperscript{dic·}l\\textoverset{b}{a}k}},",
+        "render_latex": "謝\t%xie4 / xiè\n{\\large{\\textsuperscript{dic·}l\\textoverset{b}{a}k}},\n\\textit{ziaeH};\t%0807g",
         "wiktionary_semantic_validation": {
           "semantic_component": "言",
           "phonetic_component": "射",
@@ -1404,9 +1404,51 @@
         "head_graph_oc_bs",
         "head_graph_oc_shengfu"
       ],
-      "display_root": "lak₂",
-      "base_root": "lak",
-      "ordinal": 2,
+      "display_root": "l\\textoverset{b}{a}k",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "jiek",
+        "źiaeH",
+        "yiek",
+        "źiek",
+        "ziaeH"
+      ],
+      "form_analyses": [
+        {
+          "form": "jiek",
+          "normalized": "jiek",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "źiaeH",
+          "normalized": "źiae",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "yiek",
+          "normalized": "yiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "źiek",
+          "normalized": "źiek",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ziaeH",
+          "normalized": "ziae",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
+      "base_root": "l\\textoverset{b}{a}k",
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -1448,6 +1490,17 @@
     },
     {
       "entry_id": "02-26",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "射",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-26",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -1464,28 +1517,28 @@
       "anchor_kind": "character",
       "anchor_value": "射",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_division_note": 1
+      "curation_division_note": 2,
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 1,
-      "structural_internal": 1
+      "structural_internal": 2,
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

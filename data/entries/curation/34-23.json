@@ -820,7 +820,7 @@
         ],
         "display_root": "lur",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "yiwinX",
@@ -1262,8 +1262,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -1707,7 +1707,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1737,7 +1737,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|夋|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -3392,8 +3392,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -5892,6 +5892,34 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lur",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "yiwinX",
+      "źiwinX",
+      "yiwenX"
+    ],
+    "form_analyses": [
+      {
+        "form": "yiwinX",
+        "normalized": "yiwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "źiwinX",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "yiwenX",
+        "normalized": "yiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "lur",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

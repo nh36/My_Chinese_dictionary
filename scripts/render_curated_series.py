@@ -584,11 +584,7 @@ def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
         graph = item.get("graph_raw") or "—"
         abbreviation = item.get("abbreviation") or ""
         expanded = item.get("expanded_latin") or ""
-        note_parts = [item.get("notes"), item.get("note")] + list(item.get("comments") or [])
-        aliases = item.get("used_abbreviation_aliases") or []
-        if aliases:
-            note_parts.append("entry aliases: " + ", ".join(aliases))
-        notes = " / ".join(part for part in note_parts if part)
+        notes = item.get("notes") or ""
         body = graph
         if abbreviation:
             body += rf" \textbf{{{abbreviation}}}"

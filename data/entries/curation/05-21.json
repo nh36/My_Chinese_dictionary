@@ -329,7 +329,7 @@
         ],
         "display_root": "ryk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "lik",
@@ -644,7 +644,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -665,7 +665,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -791,7 +791,7 @@
         "phonetic_hint": "力"
       },
       "resolved_node_root": {
-        "root": "ryk",
+        "root": "ryk₂",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
@@ -1763,6 +1763,27 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "ryk₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "lik",
+      "lək"
+    ],
+    "form_analyses": [
+      {
+        "form": "lik",
+        "normalized": "lik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "lək",
+        "normalized": "lək",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ryk",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

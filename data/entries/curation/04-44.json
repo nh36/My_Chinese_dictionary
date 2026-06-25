@@ -166,14 +166,20 @@
           "character": "彩",
           "ids": "⿰采彡",
           "phonetic_component": "采",
-          "semantic_component": "彡",
+          "semantic_component": "髟",
           "position": "suffix-dot",
-          "abbreviation": "cri",
+          "abbreviation": "crin",
           "inventory_matches": [
             {
-              "graph_raw": "彡",
-              "label_token": "cri",
-              "abbreviation": "cri",
+              "graph_raw": "髟",
+              "label_token": "crin(is)",
+              "abbreviation": "crin",
+              "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
               "learned": true,
               "evidence_count": 1
             }
@@ -182,37 +188,49 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "cri",
+        "abbreviation": "crin",
         "position": "suffix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "彡",
-            "label_token": "cri",
-            "abbreviation": "cri",
+            "graph_raw": "髟",
+            "label_token": "crin(is)",
+            "abbreviation": "crin",
+            "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
             "learned": true,
             "evidence_count": 1
           }
         ],
         "source": "wiktionary_han_compound",
-        "semantic_component": "彡"
+        "semantic_component": "髟"
       },
-      "transliteration_latex": "{\\large{sry\\textsuperscript{·cri}}},",
-      "render_latex": "彩\t%cai3 / cǎi\n{\\large{sry\\textsuperscript{·cri}}},\n\\textit{tshəyX};\t%0942a",
+      "transliteration_latex": "{\\large{sry\\textsuperscript{·crin}}},",
+      "render_latex": "彩\t%cai3 / cǎi\n{\\large{sry\\textsuperscript{·crin}}},\n\\textit{tshəyX};\t%0942a",
       "wiktionary_semantic_validation": {
-        "semantic_component": "彡",
+        "semantic_component": "髟",
         "phonetic_component": "采",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "彩",
-          "semantic_component": "彡",
+          "semantic_component": "髟",
           "phonetic_component": "采",
           "position": "suffix-dot",
-          "abbreviation": "cri",
+          "abbreviation": "crin",
           "inventory_matches": [
             {
-              "graph_raw": "彡",
-              "label_token": "cri",
-              "abbreviation": "cri",
+              "graph_raw": "髟",
+              "label_token": "crin(is)",
+              "abbreviation": "crin",
+              "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
               "learned": true,
               "evidence_count": 1
             }
@@ -702,7 +720,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -723,7 +741,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -753,7 +771,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|采|ls=psc|c1=s|t1=hand|t2=to pick|c2=p}}"

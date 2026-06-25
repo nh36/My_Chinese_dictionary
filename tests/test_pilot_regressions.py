@@ -58,7 +58,7 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"艱\footnote{", rendered)
         self.assertRegex(rendered, re.compile(r"\{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\\textsuperscript\{˸discr\}\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{discr˸\}paṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
-        self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}qam[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
+        self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}(?:q|r)am(?:[₀₁₂₃₄₅₆₇₈₉]+)?\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}kyr[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
 
     def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
@@ -96,6 +96,25 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertLess(
             rendered.index(r"\section*{Integrated semantic components}"),
             rendered.index(r"\paragraph{\textoversetlarge{"),
+        )
+        self.assertNotIn("entry aliases:", rendered)
+        self.assertNotIn("(shàng)", rendered)
+        self.assertNotIn("(still, yet, even, still more)", rendered)
+        self.assertNotIn("(gé)", rendered)
+        self.assertNotIn("(leather, to reform, to revolutionize)", rendered)
+
+    def test_generated_sample_preserves_labialized_codas_and_top_level_division_marks(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        block_0212 = self.extract_entry_block(rendered, "02-12")
+        self.assertRegex(
+            block_0212,
+            re.compile(r"\{\\large\{qu(?:\\textoverset\{a\}\{o\}|o)k[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
+        )
+        block_0334 = self.extract_entry_block(rendered, "03-34")
+        self.assertIn(r"\textoverset{b}{a}", block_0334)
+        self.assertRegex(
+            block_0334,
+            re.compile(r"\{\\large\{k\\textoverset\{b\}\{a\}ṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
         )
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:

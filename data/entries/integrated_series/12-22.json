@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764775+00:00",
+  "generated_at": "2026-06-25T21:28:46.933370+00:00",
   "id": "12-22",
   "schuessler": {
     "gsc_id": "12-22",
@@ -495,7 +495,7 @@
           {
             "character": "从",
             "entry_id": "01-01",
-            "source_line_number": 1473,
+            "source_line_number": 1510,
             "character_line_raw": "䀇 \\footnote{SWJZ: 从皿从缶，古聲。, but I have my doubts.}\t%gu3\t",
             "raw_block": "䀇 \\footnote{SWJZ: 从皿从缶，古聲。, but I have my doubts.}\t%gu3\t\n\\textit{kuX};\t%kuX\t0049r",
             "transliteration_latex": null,
@@ -513,7 +513,7 @@
           {
             "character": "从",
             "entry_id": "01-34",
-            "source_line_number": 2296,
+            "source_line_number": 2333,
             "character_line_raw": "%从衣牙声",
             "raw_block": "%从衣牙声\n\\textit{ziae}.\\footnote{I need to look into why this character is put in GSR 0047 and not GSR 0037.}\t%zjae\t0047c\n\\end{itemize}\n\\end{spacing}",
             "transliteration_latex": null,
@@ -529,7 +529,7 @@
           {
             "character": "从",
             "entry_id": "01-38",
-            "source_line_number": 2417,
+            "source_line_number": 2454,
             "character_line_raw": "\\footnote{SWJZ: 从鬲。⺸聲。}",
             "raw_block": "\\footnote{SWJZ: 从鬲。⺸聲。}\n\\textit{ciəX};\t%tsyoX\t0045n",
             "transliteration_latex": null,
@@ -552,8 +552,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{soṅ₂}},",
-        "render_latex": "从\t%cong2\n{\\large{soṅ₂}},\n\\textit{dziəwṅ};\t%1191a",
+        "transliteration_latex": "{\\large{soṅ}},",
+        "render_latex": "从\t%cong2\n{\\large{soṅ}},\n\\textit{dziəwṅ};\t%1191a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -577,7 +577,7 @@
           ],
           "display_root": "tsoṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dziəwṅ",
@@ -870,8 +870,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "辵"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{amb·}soṅ₂}},",
-        "render_latex": "從\t%cong2 / zong4 / cong1 / zong1 / zong3 / cóng\n{\\large{\\textsuperscript{amb·}soṅ₂}},\n\\textit{dziəwṅ};\t%1191d\n\\textit{dziəwṅH};\n\\textit{tshiəwṅ};\n\\textit{tsiəwṅ};\n\\textit{tsuwṅX};",
+        "transliteration_latex": "{\\large{\\textsuperscript{amb·}soṅ}},",
+        "render_latex": "從\t%cong2 / zong4 / cong1 / zong1 / zong3 / cóng\n{\\large{\\textsuperscript{amb·}soṅ}},\n\\textit{dziəwṅ};\t%1191d\n\\textit{dziəwṅH};\n\\textit{tshiəwṅ};\n\\textit{tsiəwṅ};\n\\textit{tsuwṅX};",
         "wiktionary_semantic_validation": {
           "semantic_component": "辵",
           "phonetic_component": "从",
@@ -2695,9 +2695,72 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ],
-      "display_root": "soṅ₂",
+      "display_root": "soṅ",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dziəwṅ",
+        "dziəwṅH",
+        "tshiəwṅ",
+        "tsiəwṅ",
+        "tsuwṅX",
+        "tsiəwṅH",
+        "siəwṅX",
+        "tsuwṅ"
+      ],
+      "form_analyses": [
+        {
+          "form": "dziəwṅ",
+          "normalized": "dziəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dziəwṅH",
+          "normalized": "dziəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshiəwṅ",
+          "normalized": "tshiəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsiəwṅ",
+          "normalized": "tsiəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsuwṅX",
+          "normalized": "tsuwṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiəwṅH",
+          "normalized": "tsiəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "siəwṅX",
+          "normalized": "siəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsuwṅ",
+          "normalized": "tsuwṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "soṅ",
-      "ordinal": 2,
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -2741,10 +2804,21 @@
       "entry_id": "12-22",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "从",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "12-22",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "从",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2761,20 +2835,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

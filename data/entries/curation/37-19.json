@@ -387,7 +387,7 @@
         ],
         "display_root": "sip",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "tship",
@@ -1371,7 +1371,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1392,7 +1392,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1422,7 +1422,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|咠|ls=psc|c1=s|c2=p}}"
@@ -2550,6 +2550,48 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "sip",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "tship",
+      "tsip",
+      "dzip",
+      "tṣip",
+      "tsiep"
+    ],
+    "form_analyses": [
+      {
+        "form": "tship",
+        "normalized": "tship",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsip",
+        "normalized": "tsip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzip",
+        "normalized": "dzip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣip",
+        "normalized": "tṣip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsiep",
+        "normalized": "tsiep",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "sip",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

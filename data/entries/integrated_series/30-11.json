@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788053+00:00",
+  "generated_at": "2026-06-25T21:28:46.957176+00:00",
   "id": "30-11",
   "schuessler": {
     "gsc_id": "30-11",
@@ -396,7 +396,7 @@
           ],
           "display_root": "ryp",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dəyH",
@@ -2505,6 +2505,48 @@
         "head_graph_oc_bs"
       ],
       "display_root": "ryp",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dəyH",
+        "yiyH",
+        "deyH",
+        "thəyH",
+        "siyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "dəyH",
+          "normalized": "dəy",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "yiyH",
+          "normalized": "yiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "deyH",
+          "normalized": "dey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "thəyH",
+          "normalized": "thəy",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "siyH",
+          "normalized": "siy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ryp",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2550,10 +2592,21 @@
       "entry_id": "30-11",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "隶",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "30-11",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "隶",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2581,20 +2634,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

@@ -596,7 +596,7 @@
         ],
         "display_root": "tam₃",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ciem",
@@ -1812,7 +1812,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1833,7 +1833,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1863,7 +1863,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|t1=hand|詹|ls=psc|c1=s|c2=p}}"
@@ -4498,6 +4498,90 @@
       "phonetic_component_series_root"
     ],
     "display_root": "tam",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ciem",
+      "chiem",
+      "chiemH",
+      "jiemH",
+      "yiem",
+      "tam",
+      "jiem",
+      "tamH",
+      "tamX",
+      "damH",
+      "damX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ciem",
+        "normalized": "ciem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "chiem",
+        "normalized": "chiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "chiemH",
+        "normalized": "chiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jiemH",
+        "normalized": "jiem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "yiem",
+        "normalized": "yiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tam",
+        "normalized": "tam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jiem",
+        "normalized": "jiem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "tamH",
+        "normalized": "tam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tamX",
+        "normalized": "tam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "damH",
+        "normalized": "dam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "damX",
+        "normalized": "dam",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tam",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

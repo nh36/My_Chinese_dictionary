@@ -547,7 +547,7 @@
         ],
         "display_root": "kit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kyit",
@@ -1373,7 +1373,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1394,7 +1394,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1424,7 +1424,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|吉|lang=vi|alt1=扌|c1=s|c2=p|t1=[[hand]]|tr2={{vi-l|cát}}"
@@ -2377,6 +2377,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -2391,6 +2398,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2414,6 +2428,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ],
           "template_raw": "{{Han compound|髟|吉|ls=psc|c1=s|c2=p|t1=long hair}}"
@@ -3064,7 +3085,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -3085,7 +3106,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -4588,6 +4609,76 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "kit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kyit",
+      "khyit",
+      "git",
+      "ket",
+      "keat",
+      "ḫet",
+      "keyH",
+      "ḫeat",
+      "kheat"
+    ],
+    "form_analyses": [
+      {
+        "form": "kyit",
+        "normalized": "kyit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khyit",
+        "normalized": "khyit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "git",
+        "normalized": "git",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ket",
+        "normalized": "ket",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "keat",
+        "normalized": "keat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫet",
+        "normalized": "ḫet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "keyH",
+        "normalized": "key",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫeat",
+        "normalized": "ḫeat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kheat",
+        "normalized": "kheat",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

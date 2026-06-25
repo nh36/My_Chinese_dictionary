@@ -576,7 +576,7 @@
         ],
         "display_root": "lit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "śit",
@@ -1404,7 +1404,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1425,7 +1425,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1455,7 +1455,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|lang=vi|ls=psc|手|失|no_och=y|c1=s|t1=[[hand]]|alt1=扌|c2=p|tr2={{vi-l|thất}}"
@@ -3656,6 +3656,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "śit",
+      "yit",
+      "det",
+      "ṭhit",
+      "ḍit"
+    ],
+    "form_analyses": [
+      {
+        "form": "śit",
+        "normalized": "śit",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "yit",
+        "normalized": "yit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "det",
+        "normalized": "det",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭhit",
+        "normalized": "ṭhit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍit",
+        "normalized": "ḍit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "lit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

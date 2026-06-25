@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.787988+00:00",
+  "generated_at": "2026-06-25T21:28:46.957100+00:00",
   "id": "29-41",
   "schuessler": {
     "gsc_id": "29-41",
@@ -890,7 +890,7 @@
           ],
           "display_root": "pit",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "pyit",
@@ -1325,7 +1325,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1346,7 +1346,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -6005,6 +6005,76 @@
         "phonetic_component_series_root"
       ],
       "display_root": "pit",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "pyit",
+        "bit",
+        "bet",
+        "byit",
+        "piyH",
+        "pit",
+        "mit",
+        "myit",
+        "bjit"
+      ],
+      "form_analyses": [
+        {
+          "form": "pyit",
+          "normalized": "pyit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "bit",
+          "normalized": "bit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "bet",
+          "normalized": "bet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "byit",
+          "normalized": "byit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "piyH",
+          "normalized": "piy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pit",
+          "normalized": "pit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "mit",
+          "normalized": "mit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "myit",
+          "normalized": "myit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "bjit",
+          "normalized": "bjit",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "pit",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -6050,10 +6120,21 @@
       "entry_id": "29-41",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "必",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "29-41",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "必",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -6092,22 +6173,22 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3,
+      "curation_division_note": 4,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3,
+      "structural_internal": 4,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

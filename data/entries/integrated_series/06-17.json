@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763041+00:00",
+  "generated_at": "2026-06-25T21:28:46.931236+00:00",
   "id": "06-17",
   "schuessler": {
     "gsc_id": "06-17",
@@ -430,7 +430,7 @@
           ],
           "display_root": "ryṅ",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "liṅ"
@@ -2101,6 +2101,20 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "ryṅ",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "liṅ"
+      ],
+      "form_analyses": [
+        {
+          "form": "liṅ",
+          "normalized": "liṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ryṅ",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2146,10 +2160,21 @@
       "entry_id": "06-17",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "夌",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "06-17",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "夌",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2166,20 +2191,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

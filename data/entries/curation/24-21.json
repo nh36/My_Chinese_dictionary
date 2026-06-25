@@ -896,7 +896,7 @@
         ],
         "display_root": "tar",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tan",
@@ -1101,7 +1101,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1122,7 +1122,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -7653,6 +7653,132 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tar",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tan",
+      "tanX",
+      "jienX",
+      "jienH",
+      "cie",
+      "cieH",
+      "da",
+      "dan",
+      "ten",
+      "taH",
+      "than",
+      "chienX",
+      "danH",
+      "ṭhean",
+      "cienH",
+      "cienX",
+      "jien"
+    ],
+    "form_analyses": [
+      {
+        "form": "tan",
+        "normalized": "tan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tanX",
+        "normalized": "tan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jienX",
+        "normalized": "jien",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jienH",
+        "normalized": "jien",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cie",
+        "normalized": "cie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cieH",
+        "normalized": "cie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "da",
+        "normalized": "da",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dan",
+        "normalized": "dan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ten",
+        "normalized": "ten",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "taH",
+        "normalized": "ta",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "than",
+        "normalized": "than",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "chienX",
+        "normalized": "chien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "danH",
+        "normalized": "dan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭhean",
+        "normalized": "ṭhean",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "cienH",
+        "normalized": "cien",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cienX",
+        "normalized": "cien",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jien",
+        "normalized": "jien",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "tar",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

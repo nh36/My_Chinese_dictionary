@@ -509,7 +509,7 @@
         ],
         "display_root": "qy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "khiɨyX",
@@ -1074,7 +1074,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1095,7 +1095,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1125,7 +1125,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|豈|ls=psc|c1=s|c2=p}}"
@@ -3053,6 +3053,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "qy₁₀",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "khiɨyX",
+      "khəyX",
+      "khəyH",
+      "khəy",
+      "həy",
+      "ṅiɨyX",
+      "kiyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "khiɨyX",
+        "normalized": "khiɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khəyX",
+        "normalized": "khəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khəyH",
+        "normalized": "khəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khəy",
+        "normalized": "khəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "həy",
+        "normalized": "həy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṅiɨyX",
+        "normalized": "ṅiɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiyH",
+        "normalized": "kiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "qy",
     "ordinal": 10,
     "numbering_source": "document_order_occurrence"

@@ -414,7 +414,7 @@
         ],
         "display_root": "tsen",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dzen",
@@ -576,7 +576,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -597,7 +597,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -627,7 +627,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|前|t1=hand|alt1=扌|c1=s|c2=p|ls=psc}}"
@@ -1591,6 +1591,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -1605,6 +1612,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -2412,6 +2426,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsen",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dzen",
+      "tsienX",
+      "tsien",
+      "tsienH"
+    ],
+    "form_analyses": [
+      {
+        "form": "dzen",
+        "normalized": "dzen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsienX",
+        "normalized": "tsien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsien",
+        "normalized": "tsien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsienH",
+        "normalized": "tsien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tsen",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

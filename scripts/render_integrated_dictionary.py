@@ -37,6 +37,10 @@ def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
     return render_curated_series.render_semantic_section(semantic_data)
 
 
+def escape_tex_text(text: str) -> str:
+    return text.replace("_", r"\_")
+
+
 def render_integrated_entry(record: dict[str, Any]) -> str:
     curated_entry = record.get("curated_entry")
     hand_entry = record.get("preferred_hand_entry")
@@ -70,7 +74,8 @@ def render_review_appendix(records: list[dict[str, Any]]) -> list[str]:
     if conflicts:
         lines.append(r"\begin{itemize}[noitemsep]")
         for record in conflicts:
-            lines.append(rf"\item {record['id']}: {', '.join(conflict['kind'] for conflict in record['conflicts'])}")
+            kinds = ", ".join(escape_tex_text(conflict["kind"]) for conflict in record["conflicts"])
+            lines.append(rf"\item {record['id']}: {kinds}")
         lines.append(r"\end{itemize}")
     lines.append("")
     return lines

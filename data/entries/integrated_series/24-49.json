@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768331+00:00",
+  "generated_at": "2026-06-25T21:28:46.956127+00:00",
   "id": "24-49",
   "schuessler": {
     "gsc_id": "24-49",
@@ -583,7 +583,7 @@
           ],
           "display_root": "pan",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "piənX",
@@ -2064,7 +2064,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2085,7 +2085,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -3318,6 +3318,62 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "pan₂",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "piənX",
+        "piənH",
+        "baenX",
+        "biənH",
+        "biənX",
+        "paenX",
+        "paen"
+      ],
+      "form_analyses": [
+        {
+          "form": "piənX",
+          "normalized": "piən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "piənH",
+          "normalized": "piən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "baenX",
+          "normalized": "baen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "biənH",
+          "normalized": "biən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "biənX",
+          "normalized": "biən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "paenX",
+          "normalized": "paen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "paen",
+          "normalized": "paen",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "pan",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -3361,6 +3417,17 @@
     },
     {
       "entry_id": "24-49",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "反",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "24-49",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -3377,28 +3444,28 @@
       "anchor_kind": "character",
       "anchor_value": "反",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_division_note": 1
+      "curation_division_note": 2,
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 1,
-      "structural_internal": 1
+      "structural_internal": 2,
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

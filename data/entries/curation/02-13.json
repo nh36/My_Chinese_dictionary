@@ -304,8 +304,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{ʔak}},",
-      "render_latex": "亞\t%ya4 / yà\n{\\large{ʔak}},\n\\textit{qaeH};\t%0805a",
+      "transliteration_latex": "{\\large{ʔ\\textoverset{a}{a}k}},",
+      "render_latex": "亞\t%ya4 / yà\n{\\large{ʔ\\textoverset{a}{a}k}},\n\\textit{qaeH};\t%0805a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -330,10 +330,10 @@
           "qra",
           "qak"
         ],
-        "display_root": "ʔak",
+        "display_root": "ʔ\\textoverset{a}{a}k",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
         "mc_forms": [
           "qaeH",
           "qaek",
@@ -584,8 +584,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "口"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{or·}ʔak}},",
-      "render_latex": "啞\t%e4 / ya3 / yǎ\n{\\large{\\textsuperscript{or·}ʔak}},\n\\textit{qaek};\t%0805f\n\\textit{qaeX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}ʔ\\textoverset{a}{a}k}},",
+      "render_latex": "啞\t%e4 / ya3 / yǎ\n{\\large{\\textsuperscript{or·}ʔ\\textoverset{a}{a}k}},\n\\textit{qaek};\t%0805f\n\\textit{qaeX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "口",
         "phonetic_component": "亞",
@@ -717,7 +717,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -738,14 +738,14 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
         "semantic_component": "土"
       },
-      "transliteration_latex": "{\\large{ʔak\\textsuperscript{˸terr}}},",
-      "render_latex": "堊\t%e4 / è\n{\\large{ʔak\\textsuperscript{˸terr}}},\n\\textit{qak};\t%0805g",
+      "transliteration_latex": "{\\large{ʔ\\textoverset{a}{a}k\\textsuperscript{˸terr}}},",
+      "render_latex": "堊\t%e4 / è\n{\\large{ʔ\\textoverset{a}{a}k\\textsuperscript{˸terr}}},\n\\textit{qak};\t%0805g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -987,8 +987,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{ʔak\\textsuperscript{˸cor}}},",
-      "render_latex": "惡\t%e4 / wu1 / wu4 / è / wù\n{\\large{ʔak\\textsuperscript{˸cor}}},\n\\textit{qak};\t%0805h\n\\textit{qu};\n\\textit{quH};",
+      "transliteration_latex": "{\\large{ʔ\\textoverset{a}{a}k\\textsuperscript{˸cor}}},",
+      "render_latex": "惡\t%e4 / wu1 / wu4 / è / wù\n{\\large{ʔ\\textoverset{a}{a}k\\textsuperscript{˸cor}}},\n\\textit{qak};\t%0805h\n\\textit{qu};\n\\textit{quH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "亞",
@@ -1600,8 +1600,57 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "ʔak",
-    "base_root": "ʔak",
+    "display_root": "ʔ\\textoverset{a}{a}k",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "qaeH",
+      "qaek",
+      "qaeX",
+      "qak",
+      "qu",
+      "quH"
+    ],
+    "form_analyses": [
+      {
+        "form": "qaeH",
+        "normalized": "qae",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qaek",
+        "normalized": "qaek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qaeX",
+        "normalized": "qae",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qak",
+        "normalized": "qak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qu",
+        "normalized": "qu",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "quH",
+        "normalized": "qu",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "ʔ\\textoverset{a}{a}k",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

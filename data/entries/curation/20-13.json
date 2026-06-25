@@ -386,7 +386,7 @@
         ],
         "display_root": "ṅet",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ṅieyH",
@@ -922,7 +922,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -952,7 +952,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|埶|手|ls=psc|c1=p|c2=s|t2=hand}}"
@@ -3128,6 +3128,55 @@
     "confidence": "provisional-oc",
     "supporting_characters": 8,
     "display_root": "ṅet",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ṅieyH",
+      "śieyH",
+      "ṅet",
+      "ñiet",
+      "ñiwet",
+      "siet"
+    ],
+    "form_analyses": [
+      {
+        "form": "ṅieyH",
+        "normalized": "ṅiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śieyH",
+        "normalized": "śiey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṅet",
+        "normalized": "ṅet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ñiet",
+        "normalized": "ñiet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ñiwet",
+        "normalized": "ñiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "siet",
+        "normalized": "siet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ṅet",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

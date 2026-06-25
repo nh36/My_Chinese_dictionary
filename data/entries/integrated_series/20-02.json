@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767611+00:00",
+  "generated_at": "2026-06-25T21:28:46.935904+00:00",
   "id": "20-02",
   "schuessler": {
     "gsc_id": "20-02",
@@ -494,7 +494,7 @@
           ],
           "display_root": "kep",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "keayH",
@@ -875,8 +875,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -902,8 +902,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -938,8 +938,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -2521,6 +2521,55 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kep",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": false,
+      "mc_forms": [
+        "keayH",
+        "keat",
+        "ḫeayH",
+        "heayH",
+        "kaeyH",
+        "keyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "keayH",
+          "normalized": "keay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "keat",
+          "normalized": "keat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫeayH",
+          "normalized": "ḫeay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "heayH",
+          "normalized": "heay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kaeyH",
+          "normalized": "kaey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "keyH",
+          "normalized": "key",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kep",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2566,29 +2615,40 @@
       "entry_id": "20-02",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "介",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "20-02",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "介",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

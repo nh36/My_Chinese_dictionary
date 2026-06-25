@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768194+00:00",
+  "generated_at": "2026-06-25T21:28:46.936547+00:00",
   "id": "24-21",
   "schuessler": {
     "gsc_id": "24-21",
@@ -915,7 +915,7 @@
           ],
           "display_root": "tar",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "tan",
@@ -1120,7 +1120,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -1141,7 +1141,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "ids_top_level",
@@ -7672,6 +7672,132 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tar",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "tan",
+        "tanX",
+        "jienX",
+        "jienH",
+        "cie",
+        "cieH",
+        "da",
+        "dan",
+        "ten",
+        "taH",
+        "than",
+        "chienX",
+        "danH",
+        "ṭhean",
+        "cienH",
+        "cienX",
+        "jien"
+      ],
+      "form_analyses": [
+        {
+          "form": "tan",
+          "normalized": "tan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tanX",
+          "normalized": "tan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "jienX",
+          "normalized": "jien",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jienH",
+          "normalized": "jien",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "cie",
+          "normalized": "cie",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "cieH",
+          "normalized": "cie",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "da",
+          "normalized": "da",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dan",
+          "normalized": "dan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ten",
+          "normalized": "ten",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "taH",
+          "normalized": "ta",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "than",
+          "normalized": "than",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "chienX",
+          "normalized": "chien",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "danH",
+          "normalized": "dan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṭhean",
+          "normalized": "ṭhean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "cienH",
+          "normalized": "cien",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "cienX",
+          "normalized": "cien",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jien",
+          "normalized": "jien",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
       "base_root": "tar",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -7715,6 +7841,17 @@
     },
     {
       "entry_id": "24-21",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "單",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "24-21",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -7731,28 +7868,28 @@
       "anchor_kind": "character",
       "anchor_value": "單",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_division_note": 1
+      "curation_division_note": 2,
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 1,
-      "structural_internal": 1
+      "structural_internal": 2,
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

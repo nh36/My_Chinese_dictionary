@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760748+00:00",
+  "generated_at": "2026-06-25T21:28:46.928461+00:00",
   "id": "02-29",
   "schuessler": {
     "gsc_id": "02-29",
@@ -180,8 +180,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{tak₉\\textsuperscript{·lint}}},",
-        "render_latex": "席\t%xi2 / xí\n{\\large{tak₉\\textsuperscript{·lint}}},\n\\textit{ziek};\t%0797a",
+        "transliteration_latex": "{\\large{t\\textoverset{b}{a}k₂\\textsuperscript{·lint}}},",
+        "render_latex": "席\t%xi2 / xí\n{\\large{t\\textoverset{b}{a}k₂\\textsuperscript{·lint}}},\n\\textit{ziek};\t%0797a",
         "wiktionary_semantic_validation": {
           "semantic_component": "巾",
           "phonetic_component": "庶",
@@ -244,10 +244,10 @@
           "bs_node_roots": [
             "tsak"
           ],
-          "display_root": "tak",
+          "display_root": "t\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "ziek"
           ],
@@ -341,8 +341,8 @@
           "source": "packet_family_ids",
           "semantic_component": "艸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}tak₉}},",
-        "render_latex": "蓆\t%xi2\n{\\large{\\textsuperscript{herb˸}tak₉}},\n\\textit{ziek};\t%0797b",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}t\\textoverset{b}{a}k₂}},",
+        "render_latex": "蓆\t%xi2\n{\\large{\\textsuperscript{herb˸}t\\textoverset{b}{a}k₂}},\n\\textit{ziek};\t%0797b",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -505,9 +505,23 @@
         "head_graph_oc_bs",
         "phonetic_component_series_root"
       ],
-      "display_root": "tak₉",
-      "base_root": "tak",
-      "ordinal": 9,
+      "display_root": "t\\textoverset{b}{a}k₂",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "ziek"
+      ],
+      "form_analyses": [
+        {
+          "form": "ziek",
+          "normalized": "ziek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
+      "base_root": "t\\textoverset{b}{a}k",
+      "ordinal": 2,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -551,29 +565,40 @@
       "entry_id": "02-29",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "席",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-29",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "席",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

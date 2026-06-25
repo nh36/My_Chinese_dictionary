@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765152+00:00",
+  "generated_at": "2026-06-25T21:28:46.933447+00:00",
   "id": "13-16",
   "schuessler": {
     "gsc_id": "13-16",
@@ -530,7 +530,7 @@
           ],
           "display_root": "ʔiw",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "qew",
@@ -1683,7 +1683,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -1704,7 +1704,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1734,7 +1734,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|土|幼|ls=psc|c1=s|c2=p|t1=earth}}"
@@ -2662,6 +2662,55 @@
         "head_graph_oc_bs"
       ],
       "display_root": "ʔiw",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "qew",
+        "qyiwH",
+        "qyiw",
+        "qyiwX",
+        "qewX",
+        "qaew"
+      ],
+      "form_analyses": [
+        {
+          "form": "qew",
+          "normalized": "qew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qyiwH",
+          "normalized": "qyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qyiw",
+          "normalized": "qyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qyiwX",
+          "normalized": "qyiw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qewX",
+          "normalized": "qew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qaew",
+          "normalized": "qaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "ʔiw",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2707,10 +2756,21 @@
       "entry_id": "13-16",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "幺",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-16",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "幺",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2738,20 +2798,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

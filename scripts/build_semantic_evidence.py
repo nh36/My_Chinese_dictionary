@@ -48,6 +48,7 @@ COMPONENT_ALIASES = {
     "忄": "心",
     "扌": "手",
     "刂": "刀",
+    "彡": "髟",
     "氵": "水",
     "钅": "金",
     "釒": "金",
@@ -1557,7 +1558,10 @@ def resolve_generated_node_root(
     else:
         fallback = hierarchy_utils.extract_large_content(candidate.get("transliteration_latex"))
         if fallback:
-            resolved_root = re.sub(TEXTSUP_RE, "", fallback).replace("{", "").replace("}", "")
+            if any(marker in fallback for marker in (r"\textoverset{", r"\textunderset{")):
+                resolved_root = fallback
+            else:
+                resolved_root = re.sub(TEXTSUP_RE, "", fallback).replace("{", "").replace("}", "")
             source = "node_transliteration_fallback"
     if not resolved_root:
         return None
@@ -2069,10 +2073,12 @@ def enrich_curated_entry_with_ids(
                 unresolved.remove(character)
     if packet_head_character and packet_head_character in candidate_map:
         root_data = candidate_map[packet_head_character].get("resolved_node_root")
-        if root_data:
-            root_data["display_root"] = root_data.get("root")
-            root_data["mark_required"] = False
-            root_data["division_note"] = "top-level series head left unmarked"
+        if root_data and entry.get("resolved_series_root"):
+            display_info = ab_division.resolve_root_display(
+                (entry.get("resolved_series_root") or {}).get("root"),
+                root_data.get("mc_forms") or [],
+            )
+            entry["resolved_series_root"].update(display_info)
     if entry.get("packet_kind") == "missing_series" and entry.get("resolved_series_root"):
         entry["resolved_series_root"].setdefault("display_root", entry["resolved_series_root"].get("root"))
     for candidate in entry.get("proposed_additions", []):

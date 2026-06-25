@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761880+00:00",
+  "generated_at": "2026-06-25T21:28:46.929942+00:00",
   "id": "04-04",
   "schuessler": {
     "gsc_id": "04-04",
@@ -637,7 +637,7 @@
           ],
           "display_root": "ky",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "gi",
@@ -1687,7 +1687,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -1708,7 +1708,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1738,7 +1738,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|其|土|t2=earth|ls=psc|c1=p|c2=s}}"
@@ -6099,6 +6099,48 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "ky₂",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "gi",
+        "ki",
+        "kiH",
+        "giH",
+        "khi"
+      ],
+      "form_analyses": [
+        {
+          "form": "gi",
+          "normalized": "gi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ki",
+          "normalized": "ki",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiH",
+          "normalized": "ki",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giH",
+          "normalized": "gi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khi",
+          "normalized": "khi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ky",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -6144,10 +6186,21 @@
       "entry_id": "04-04",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "其",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-04",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "其",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -6186,22 +6239,22 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3,
+      "curation_division_note": 4,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3,
+      "structural_internal": 4,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

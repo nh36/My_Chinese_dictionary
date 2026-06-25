@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764814+00:00",
+  "generated_at": "2026-06-25T21:28:46.933413+00:00",
   "id": "13-03",
   "schuessler": {
     "gsc_id": "13-03",
@@ -306,7 +306,7 @@
           ],
           "display_root": "ku",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "khawX",
@@ -484,7 +484,7 @@
           "phonetic_hint": "丂"
         },
         "resolved_node_root": {
-          "root": "ku",
+          "root": "ku₄",
           "source": "node_transliteration_fallback",
           "descendant_count": 1,
           "bs_support_count": 0,
@@ -1446,7 +1446,7 @@
           {
             "character": "苛",
             "entry_id": "18-01",
-            "source_line_number": 433,
+            "source_line_number": 470,
             "character_line_raw": "苛\t%ke1\t",
             "raw_block": "苛\t%ke1\t\n{\\large{\\textsuperscript{herb:}qay}},\n\\textit{ḫa};\t\t%0001i",
             "transliteration_latex": "{\\large{\\textsuperscript{herb:}qay}},",
@@ -1638,7 +1638,7 @@
           {
             "character": "輢",
             "entry_id": "18-01",
-            "source_line_number": 536,
+            "source_line_number": 573,
             "character_line_raw": "輢\t%yi3\t",
             "raw_block": "輢\t%yi3\t\n{\\large{\\textsuperscript{vehic·}q\\textoverset{b}{a}y}},\n\\textit{{\\sil{ꞏ}}ieX};\t%0001i'",
             "transliteration_latex": "{\\large{\\textsuperscript{vehic·}q\\textoverset{b}{a}y}},",
@@ -2414,6 +2414,41 @@
       "confidence": "provisional-oc",
       "supporting_characters": 5,
       "display_root": "ku₄",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "khawX",
+        "khaewH",
+        "khaewX",
+        "hiuwX"
+      ],
+      "form_analyses": [
+        {
+          "form": "khawX",
+          "normalized": "khaw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khaewH",
+          "normalized": "khaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khaewX",
+          "normalized": "khaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hiuwX",
+          "normalized": "hiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ku",
       "ordinal": 4,
       "numbering_source": "document_order_occurrence"
@@ -2459,10 +2494,21 @@
       "entry_id": "13-03",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-03",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "丂",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2479,20 +2525,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

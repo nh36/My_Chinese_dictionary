@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767732+00:00",
+  "generated_at": "2026-06-25T21:28:46.936041+00:00",
   "id": "21-19",
   "schuessler": {
     "gsc_id": "21-19",
@@ -566,7 +566,7 @@
           ],
           "display_root": "tet",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dey",
@@ -3469,6 +3469,76 @@
         "phonetic_component_series_root"
       ],
       "display_root": "tet",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dey",
+        "jiet",
+        "ciet",
+        "ṭiet",
+        "ṭhiet",
+        "cieyH",
+        "jieyH",
+        "ṭaet",
+        "tsyejH"
+      ],
+      "form_analyses": [
+        {
+          "form": "dey",
+          "normalized": "dey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "jiet",
+          "normalized": "jiet",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ciet",
+          "normalized": "ciet",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṭiet",
+          "normalized": "ṭiet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṭhiet",
+          "normalized": "ṭhiet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "cieyH",
+          "normalized": "ciey",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jieyH",
+          "normalized": "jiey",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṭaet",
+          "normalized": "ṭaet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsyejH",
+          "normalized": "tsyej",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "tet",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -3512,6 +3582,17 @@
     },
     {
       "entry_id": "21-19",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "折",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-19",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -3528,7 +3609,7 @@
       "anchor_kind": "character",
       "anchor_value": "折",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3545,22 +3626,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2,
+      "curation_mc_investigation": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 2,
-      "structural_internal": 1
+      "structural_internal": 2,
+      "mc_conflict": 2
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

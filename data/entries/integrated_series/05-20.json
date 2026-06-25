@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.762868+00:00",
+  "generated_at": "2026-06-25T21:28:46.931051+00:00",
   "id": "05-20",
   "schuessler": {
     "gsc_id": "05-20",
@@ -205,8 +205,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{qak₈}},",
-        "render_latex": "奭\t%shi4 / shì\n{\\large{qak₈}},\n\\textit{hik};\t%0913a",
+        "transliteration_latex": "{\\large{q\\textoverset{b}{a}k₄}},",
+        "render_latex": "奭\t%shi4 / shì\n{\\large{q\\textoverset{b}{a}k₄}},\n\\textit{hik};\t%0913a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -232,10 +232,10 @@
             "qhyk",
             "qhek"
           ],
-          "display_root": "qak",
+          "display_root": "q\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "hik",
             "śiek"
@@ -375,8 +375,8 @@
           "source": "ids_top_level",
           "semantic_component": "衣"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{vest·}qak₈}},",
-        "render_latex": "襫\t%shi4 / shì\n{\\large{\\textsuperscript{vest·}qak₈}},\n\\textit{śiek};\t%0913b",
+        "transliteration_latex": "{\\large{\\textsuperscript{vest·}q\\textoverset{b}{a}k₄}},",
+        "render_latex": "襫\t%shi4 / shì\n{\\large{\\textsuperscript{vest·}q\\textoverset{b}{a}k₄}},\n\\textit{śiek};\t%0913b",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -627,9 +627,30 @@
         "head_graph_oc_bs",
         "head_graph_oc_shengfu"
       ],
-      "display_root": "qak₈",
-      "base_root": "qak",
-      "ordinal": 8,
+      "display_root": "q\\textoverset{b}{a}k₄",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "hik",
+        "śiek"
+      ],
+      "form_analyses": [
+        {
+          "form": "hik",
+          "normalized": "hik",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "śiek",
+          "normalized": "śiek",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
+      "base_root": "q\\textoverset{b}{a}k",
+      "ordinal": 4,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -671,6 +692,17 @@
     },
     {
       "entry_id": "05-20",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "奭",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "05-20",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -687,28 +719,28 @@
       "anchor_kind": "character",
       "anchor_value": "奭",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_division_note": 1
+      "curation_division_note": 2,
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 1,
-      "structural_internal": 1
+      "structural_internal": 2,
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

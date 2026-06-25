@@ -612,7 +612,7 @@
         ],
         "display_root": "po",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "piuH",
@@ -1382,7 +1382,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1403,7 +1403,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -1644,7 +1644,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1665,7 +1665,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -4447,6 +4447,76 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "po",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "piuH",
+      "piuX",
+      "biuX",
+      "buwX",
+      "piu",
+      "phiuX",
+      "phiu",
+      "biuH",
+      "biu"
+    ],
+    "form_analyses": [
+      {
+        "form": "piuH",
+        "normalized": "piu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piuX",
+        "normalized": "piu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biuX",
+        "normalized": "biu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "buwX",
+        "normalized": "buw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "piu",
+        "normalized": "piu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiuX",
+        "normalized": "phiu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiu",
+        "normalized": "phiu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biuH",
+        "normalized": "biu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biu",
+        "normalized": "biu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "po",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

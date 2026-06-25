@@ -615,7 +615,7 @@
         ],
         "display_root": "kom",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "heamH",
@@ -1155,7 +1155,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1176,7 +1176,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1206,7 +1206,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|臽|ls=psc|c1=s|t1=soil|c2=p}}"
@@ -2408,7 +2408,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "packet_family_ids",
@@ -4170,6 +4170,90 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "kom",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "heamH",
+      "heamX",
+      "khəmX",
+      "həmX",
+      "dəmX",
+      "damH",
+      "damX",
+      "ṭhiemX",
+      "yiem",
+      "yiemH",
+      "zim"
+    ],
+    "form_analyses": [
+      {
+        "form": "heamH",
+        "normalized": "heam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "heamX",
+        "normalized": "heam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khəmX",
+        "normalized": "khəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "həmX",
+        "normalized": "həm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dəmX",
+        "normalized": "dəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "damH",
+        "normalized": "dam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "damX",
+        "normalized": "dam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭhiemX",
+        "normalized": "ṭhiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiem",
+        "normalized": "yiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiemH",
+        "normalized": "yiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "zim",
+        "normalized": "zim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "kom",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

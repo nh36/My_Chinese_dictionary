@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765953+00:00",
+  "generated_at": "2026-06-25T21:28:46.934217+00:00",
   "id": "16-15",
   "schuessler": {
     "gsc_id": "16-15",
@@ -878,7 +878,7 @@
           ],
           "display_root": "taw",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "taw",
@@ -2919,7 +2919,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2940,7 +2940,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -2970,7 +2970,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|t1=hand|召|ls=psc|c1=s|c2=p}}"
@@ -6855,6 +6855,118 @@
         "head_graph_oc_bs"
       ],
       "display_root": "taw",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "taw",
+        "tew",
+        "thaw",
+        "ḍiewH",
+        "jiewX",
+        "jiew",
+        "dew",
+        "daw",
+        "ṭhiew",
+        "chiew",
+        "yiew",
+        "ciew",
+        "ciewX",
+        "ciewH",
+        "chiewX"
+      ],
+      "form_analyses": [
+        {
+          "form": "taw",
+          "normalized": "taw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tew",
+          "normalized": "tew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "thaw",
+          "normalized": "thaw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḍiewH",
+          "normalized": "ḍiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "jiewX",
+          "normalized": "jiew",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jiew",
+          "normalized": "jiew",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "dew",
+          "normalized": "dew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "daw",
+          "normalized": "daw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṭhiew",
+          "normalized": "ṭhiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "chiew",
+          "normalized": "chiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yiew",
+          "normalized": "yiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ciew",
+          "normalized": "ciew",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ciewX",
+          "normalized": "ciew",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ciewH",
+          "normalized": "ciew",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "chiewX",
+          "normalized": "chiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "taw",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -6900,10 +7012,21 @@
       "entry_id": "16-15",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "刀",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-15",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "刀",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -6931,20 +7054,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

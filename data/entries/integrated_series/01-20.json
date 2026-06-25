@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.758485+00:00",
+  "generated_at": "2026-06-25T21:28:46.925903+00:00",
   "id": "01-20",
   "schuessler": {
     "gsc_id": "01-20",
@@ -653,7 +653,7 @@
           {
             "character": "䀠",
             "entry_id": "02-07",
-            "source_line_number": 3285,
+            "source_line_number": 3322,
             "character_line_raw": "\\paragraph{\\textoversetlarge{02-07}{\\huge{䀠}}}\t{\\large{ku\\textoverset{b}{a}}}, ",
             "raw_block": "\\paragraph{\\textoversetlarge{02-07}{\\huge{䀠}}}\t{\\large{ku\\textoverset{b}{a}}}, \n%䀠\t%qu2\t\n\\textit{kiuH};\t%kjuH\t0096a\n\\begin{itemize}[noitemsep]\n    \\item \n{\\Large{瞿}}\t%qu2\t\n{\\large{gu\\textoverset{b}{a}}},\n\\textit{giu};\t%gju\t0096c\n衢\t%qu2\t\n\\textit{giu};\t%gju\t0096d\n躣\t%qu2\t\n\\textit{giu};\t%gju\t0096e\n鸜\t%qu2\t\n\\textit{giu};\t%gju\t0096g\n臞\t%qu2\t\n\\textit{giu},\t%gju\t0096h\n%臞\t%qu2\t\n\\textit{giuH};\t%gjuH\t0096h\n懼\t%ju4\t\n\\textit{giu};\t%gju\t0096i\n\\end{itemize}\n\\end{spacing}\n",
             "transliteration_latex": "瞿",
@@ -681,7 +681,7 @@
           {
             "character": "䀠",
             "entry_id": "02-07",
-            "source_line_number": 3286,
+            "source_line_number": 3323,
             "character_line_raw": "%䀠\t%qu2\t",
             "raw_block": "%䀠\t%qu2\t\n\\textit{kiuH};\t%kjuH\t0096a\n\\begin{itemize}[noitemsep]\n    \\item",
             "transliteration_latex": null,
@@ -697,7 +697,7 @@
             ]
           }
         ],
-        "transliteration_latex": "{\\large{kuak}},",
+        "transliteration_latex": "{\\large{ku\\textoverset{b}{a}k}},",
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
@@ -707,7 +707,7 @@
           "source": "existing_tex_head",
           "semantic_component": null
         },
-        "render_latex": "䀠\t%qu2 / qú\n{\\large{kuak}},\n\\textit{kiuH};\t%0096a",
+        "render_latex": "䀠\t%qu2 / qú\n{\\large{ku\\textoverset{b}{a}k}},\n\\textit{kiuH};\t%0096a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -731,10 +731,10 @@
             "kuak",
             "ga"
           ],
-          "display_root": "kuak",
+          "display_root": "ku\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "kiuH",
             "giu",
@@ -882,7 +882,7 @@
           {
             "character": "瞿",
             "entry_id": "02-07",
-            "source_line_number": 3290,
+            "source_line_number": 3327,
             "character_line_raw": "{\\Large{瞿}}\t%qu2\t",
             "raw_block": "{\\Large{瞿}}\t%qu2\t\n{\\large{gu\\textoverset{b}{a}}},\n\\textit{giu};\t%gju\t0096c",
             "transliteration_latex": "{\\large{gu\\textoverset{b}{a}}},",
@@ -898,8 +898,8 @@
             ]
           }
         ],
-        "transliteration_latex": "{\\large{kuak\\textsuperscript{˸passer}}},",
-        "render_latex": "瞿\t%qu2\n{\\large{kuak\\textsuperscript{˸passer}}},\n\\textit{giu};\t%0096c",
+        "transliteration_latex": "{\\large{ku\\textoverset{b}{a}k\\textsuperscript{˸passer}}},",
+        "render_latex": "瞿\t%qu2\n{\\large{ku\\textoverset{b}{a}k\\textsuperscript{˸passer}}},\n\\textit{giu};\t%0096c",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -996,7 +996,7 @@
           "bs_node_roots": [
             "ga"
           ],
-          "display_root": "ku\\textoverset{b}{a}k",
+          "display_root": "ku\\textoverset{b}{a}k₂",
           "division_class": "b",
           "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": true,
@@ -1019,7 +1019,7 @@
             }
           ],
           "base_root": "ku\\textoverset{b}{a}k",
-          "ordinal": 1,
+          "ordinal": 2,
           "numbering_source": "document_order_occurrence"
         }
       },
@@ -1127,7 +1127,7 @@
           {
             "character": "衢",
             "entry_id": "02-07",
-            "source_line_number": 3293,
+            "source_line_number": 3330,
             "character_line_raw": "衢\t%qu2\t",
             "raw_block": "衢\t%qu2\t\n\\textit{giu};\t%gju\t0096d",
             "transliteration_latex": null,
@@ -1143,7 +1143,7 @@
             ]
           }
         ],
-        "render_latex": "衢\t%qu2\n{\\large{\\textsuperscript{eo·}ku\\textoverset{b}{a}k}},\n\\textit{giu};\t%0096d",
+        "render_latex": "衢\t%qu2\n{\\large{\\textsuperscript{eo·}ku\\textoverset{b}{a}k₂}},\n\\textit{giu};\t%0096d",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -1179,7 +1179,7 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "行"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{eo·}ku\\textoverset{b}{a}k}},",
+        "transliteration_latex": "{\\large{\\textsuperscript{eo·}ku\\textoverset{b}{a}k₂}},",
         "wiktionary_semantic_validation": {
           "semantic_component": "行",
           "phonetic_component": "瞿",
@@ -1272,7 +1272,7 @@
           {
             "character": "躣",
             "entry_id": "02-07",
-            "source_line_number": 3295,
+            "source_line_number": 3332,
             "character_line_raw": "躣\t%qu2\t",
             "raw_block": "躣\t%qu2\t\n\\textit{giu};\t%gju\t0096e",
             "transliteration_latex": null,
@@ -1288,7 +1288,7 @@
             ]
           }
         ],
-        "render_latex": "躣\t%qu2\n{\\large{\\textsuperscript{ped·}ku\\textoverset{b}{a}k}},\n\\textit{giu};\t%0096e",
+        "render_latex": "躣\t%qu2\n{\\large{\\textsuperscript{ped·}ku\\textoverset{b}{a}k₂}},\n\\textit{giu};\t%0096e",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -1325,7 +1325,7 @@
           "source": "ids_top_level",
           "semantic_component": "𧾷"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{ped·}ku\\textoverset{b}{a}k}},",
+        "transliteration_latex": "{\\large{\\textsuperscript{ped·}ku\\textoverset{b}{a}k₂}},",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1398,7 +1398,7 @@
           {
             "character": "鸜",
             "entry_id": "02-07",
-            "source_line_number": 3297,
+            "source_line_number": 3334,
             "character_line_raw": "鸜\t%qu2\t",
             "raw_block": "鸜\t%qu2\t\n\\textit{giu};\t%gju\t0096g",
             "transliteration_latex": null,
@@ -1414,7 +1414,7 @@
             ]
           }
         ],
-        "render_latex": "鸜\t%qu2\n{\\large{ku\\textoverset{b}{a}k\\textsuperscript{·av}}},\n\\textit{giu};\t%0096g",
+        "render_latex": "鸜\t%qu2\n{\\large{ku\\textoverset{b}{a}k₂\\textsuperscript{·av}}},\n\\textit{giu};\t%0096g",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -1463,7 +1463,7 @@
           "source": "ids_top_level",
           "semantic_component": "鳥"
         },
-        "transliteration_latex": "{\\large{ku\\textoverset{b}{a}k\\textsuperscript{·av}}},",
+        "transliteration_latex": "{\\large{ku\\textoverset{b}{a}k₂\\textsuperscript{·av}}},",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -1607,7 +1607,7 @@
           {
             "character": "臞",
             "entry_id": "02-07",
-            "source_line_number": 3299,
+            "source_line_number": 3336,
             "character_line_raw": "臞\t%qu2\t",
             "raw_block": "臞\t%qu2\t\n\\textit{giu},\t%gju\t0096h",
             "transliteration_latex": null,
@@ -1625,7 +1625,7 @@
           {
             "character": "臞",
             "entry_id": "02-07",
-            "source_line_number": 3301,
+            "source_line_number": 3338,
             "character_line_raw": "%臞\t%qu2\t",
             "raw_block": "%臞\t%qu2\t\n\\textit{giuH};\t%gjuH\t0096h",
             "transliteration_latex": null,
@@ -1682,8 +1682,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "肉"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{carn·}ku\\textoverset{b}{a}k}},",
-        "render_latex": "臞\t%qu2\n{\\large{\\textsuperscript{carn·}ku\\textoverset{b}{a}k}},\n\\textit{giu};\t%0096h\n\\textit{giuH};",
+        "transliteration_latex": "{\\large{\\textsuperscript{carn·}ku\\textoverset{b}{a}k₂}},",
+        "render_latex": "臞\t%qu2\n{\\large{\\textsuperscript{carn·}ku\\textoverset{b}{a}k₂}},\n\\textit{giu};\t%0096h\n\\textit{giuH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "肉",
           "phonetic_component": "瞿",
@@ -1840,7 +1840,7 @@
           {
             "character": "懼",
             "entry_id": "02-07",
-            "source_line_number": 3303,
+            "source_line_number": 3340,
             "character_line_raw": "懼\t%ju4\t",
             "raw_block": "懼\t%ju4\t\n\\textit{giu};\t%gju\t0096i\n\\end{itemize}\n\\end{spacing}",
             "transliteration_latex": null,
@@ -1856,7 +1856,7 @@
             ]
           }
         ],
-        "render_latex": "懼\t%ju4 / jù\n{\\large{\\textsuperscript{cor·}ku\\textoverset{b}{a}k}},\n\\textit{giu};\t%0096i",
+        "render_latex": "懼\t%ju4 / jù\n{\\large{\\textsuperscript{cor·}ku\\textoverset{b}{a}k₂}},\n\\textit{giu};\t%0096i",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -1905,7 +1905,7 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "心"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{cor·}ku\\textoverset{b}{a}k}},",
+        "transliteration_latex": "{\\large{\\textsuperscript{cor·}ku\\textoverset{b}{a}k₂}},",
         "wiktionary_semantic_validation": {
           "semantic_component": "心",
           "phonetic_component": "瞿",
@@ -2923,8 +2923,36 @@
       "supporting_sources": [
         "head_graph_oc_bs"
       ],
-      "display_root": "kuak",
-      "base_root": "kuak",
+      "display_root": "ku\\textoverset{b}{a}k",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "kiuH",
+        "giu",
+        "giuH"
+      ],
+      "form_analyses": [
+        {
+          "form": "kiuH",
+          "normalized": "kiu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giu",
+          "normalized": "giu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giuH",
+          "normalized": "giu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
+      "base_root": "ku\\textoverset{b}{a}k",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
@@ -2969,10 +2997,21 @@
       "entry_id": "01-20",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "䀠",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "01-20",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "䀠",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3000,22 +3039,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

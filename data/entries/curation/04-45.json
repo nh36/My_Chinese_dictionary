@@ -618,7 +618,7 @@
         ],
         "display_root": "tsy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dzəy",
@@ -4987,6 +4987,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsy₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dzəy",
+      "tsi",
+      "tṣi",
+      "dẓeay"
+    ],
+    "form_analyses": [
+      {
+        "form": "dzəy",
+        "normalized": "dzəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsi",
+        "normalized": "tsi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣi",
+        "normalized": "tṣi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓeay",
+        "normalized": "dẓeay",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tsy",
     "ordinal": 3,
     "numbering_source": "document_order_occurrence"

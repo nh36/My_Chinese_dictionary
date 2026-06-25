@@ -503,7 +503,7 @@
         ],
         "display_root": "lum",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yim",
@@ -1671,7 +1671,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -2280,6 +2280,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -2294,6 +2301,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -3889,6 +3903,104 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "lum",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yim",
+      "ḍim",
+      "ḍimH",
+      "śimX",
+      "chimX",
+      "cimH",
+      "cimX",
+      "jim",
+      "təmX",
+      "təm",
+      "tamX",
+      "dəmX",
+      "thəmX"
+    ],
+    "form_analyses": [
+      {
+        "form": "yim",
+        "normalized": "yim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍim",
+        "normalized": "ḍim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍimH",
+        "normalized": "ḍim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śimX",
+        "normalized": "śim",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "chimX",
+        "normalized": "chim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "cimH",
+        "normalized": "cim",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cimX",
+        "normalized": "cim",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jim",
+        "normalized": "jim",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "təmX",
+        "normalized": "təm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "təm",
+        "normalized": "təm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tamX",
+        "normalized": "tam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dəmX",
+        "normalized": "dəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thəmX",
+        "normalized": "thəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lum",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -511,7 +511,7 @@
         ],
         "display_root": "ʔiw",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "qew",
@@ -1664,7 +1664,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1685,7 +1685,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1715,7 +1715,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|幼|ls=psc|c1=s|c2=p|t1=earth}}"
@@ -2643,6 +2643,55 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ʔiw",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "qew",
+      "qyiwH",
+      "qyiw",
+      "qyiwX",
+      "qewX",
+      "qaew"
+    ],
+    "form_analyses": [
+      {
+        "form": "qew",
+        "normalized": "qew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qyiwH",
+        "normalized": "qyiw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qyiw",
+        "normalized": "qyiw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qyiwX",
+        "normalized": "qyiw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qewX",
+        "normalized": "qew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qaew",
+        "normalized": "qaew",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ʔiw",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

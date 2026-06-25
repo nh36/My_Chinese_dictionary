@@ -727,7 +727,7 @@
         ],
         "display_root": "tot",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ṭiweyH",
@@ -1688,8 +1688,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -1715,8 +1715,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -2039,7 +2039,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2060,7 +2060,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2090,7 +2090,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|叕|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -3958,6 +3958,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tot",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ṭiweyH",
+      "ṭiwet",
+      "jiweyH",
+      "chiwet",
+      "twat",
+      "ṭwaet",
+      "teyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "ṭiweyH",
+        "normalized": "ṭiwey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭiwet",
+        "normalized": "ṭiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jiweyH",
+        "normalized": "jiwey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "chiwet",
+        "normalized": "chiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "twat",
+        "normalized": "twat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭwaet",
+        "normalized": "ṭwaet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "teyH",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tot",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

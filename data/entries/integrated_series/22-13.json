@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767944+00:00",
+  "generated_at": "2026-06-25T21:28:46.936269+00:00",
   "id": "22-13",
   "schuessler": {
     "gsc_id": "22-13",
@@ -759,7 +759,7 @@
           ],
           "display_root": "lot",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dwayH",
@@ -2148,7 +2148,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2169,7 +2169,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -4975,6 +4975,90 @@
         "head_graph_oc_bs"
       ],
       "display_root": "lot",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dwayH",
+        "thwayH",
+        "śiweyH",
+        "thwaH",
+        "yiwet",
+        "yiweyH",
+        "tshiweyH",
+        "dwat",
+        "thwat",
+        "ciwet",
+        "śiwet"
+      ],
+      "form_analyses": [
+        {
+          "form": "dwayH",
+          "normalized": "dway",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "thwayH",
+          "normalized": "thway",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "śiweyH",
+          "normalized": "śiwey",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "thwaH",
+          "normalized": "thwa",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "yiwet",
+          "normalized": "yiwet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yiweyH",
+          "normalized": "yiwey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshiweyH",
+          "normalized": "tshiwey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dwat",
+          "normalized": "dwat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "thwat",
+          "normalized": "thwat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ciwet",
+          "normalized": "ciwet",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "śiwet",
+          "normalized": "śiwet",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
       "base_root": "lot",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5018,6 +5102,17 @@
     },
     {
       "entry_id": "22-13",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "兌",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "22-13",
       "source_layer": "curation_research_note",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -5034,7 +5129,7 @@
       "anchor_kind": "character",
       "anchor_value": "兌",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5062,24 +5157,24 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
+      "curation_division_note": 2,
       "curation_research_note": 1,
-      "curation_division_note": 1,
       "curation_mc_investigation": 2
     },
     "by_category": {
       "workflow_internal": 2,
+      "structural_internal": 2,
       "semantic_analysis": 1,
-      "structural_internal": 1,
       "mc_conflict": 2
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 5,
+      "internal_only": 6,
       "series_end_note": 1
     }
   },

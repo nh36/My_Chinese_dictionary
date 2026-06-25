@@ -427,7 +427,7 @@
         ],
         "display_root": "lat",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "daH",
@@ -2581,6 +2581,55 @@
     "confidence": "provisional-oc",
     "supporting_characters": 3,
     "display_root": "lat",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "daH",
+      "dayH",
+      "thayH",
+      "that",
+      "deyH",
+      "jieyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "daH",
+        "normalized": "da",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dayH",
+        "normalized": "day",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thayH",
+        "normalized": "thay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "that",
+        "normalized": "that",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "deyH",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jieyH",
+        "normalized": "jiey",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "lat",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

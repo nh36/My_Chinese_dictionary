@@ -240,7 +240,7 @@
         ],
         "display_root": "sin",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "zwin",
@@ -3512,6 +3512,76 @@
       "head_graph_oc_bs"
     ],
     "display_root": "quin₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "zwin",
+      "zwinH",
+      "swin",
+      "swinH",
+      "hwen",
+      "śiwinH",
+      "hwenH",
+      "swinX",
+      "ṭhwin"
+    ],
+    "form_analyses": [
+      {
+        "form": "zwin",
+        "normalized": "zwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "zwinH",
+        "normalized": "zwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "swin",
+        "normalized": "swin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "swinH",
+        "normalized": "swin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hwen",
+        "normalized": "hwen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiwinH",
+        "normalized": "śiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "hwenH",
+        "normalized": "hwen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "swinX",
+        "normalized": "swin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhwin",
+        "normalized": "ṭhwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "quin",
     "ordinal": 3,
     "numbering_source": "document_order_occurrence"

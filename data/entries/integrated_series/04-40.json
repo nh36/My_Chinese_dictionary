@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.762389+00:00",
+  "generated_at": "2026-06-25T21:28:46.930522+00:00",
   "id": "04-40",
   "schuessler": {
     "gsc_id": "04-40",
@@ -469,7 +469,7 @@
           ],
           "display_root": "ny",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "ñiX",
@@ -2710,6 +2710,48 @@
         "phonetic_component_series_root"
       ],
       "display_root": "ny₃",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "ñiX",
+        "ñiH",
+        "ñi",
+        "ṇeak",
+        "ṭhiX"
+      ],
+      "form_analyses": [
+        {
+          "form": "ñiX",
+          "normalized": "ñi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñiH",
+          "normalized": "ñi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñi",
+          "normalized": "ñi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṇeak",
+          "normalized": "ṇeak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṭhiX",
+          "normalized": "ṭhi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ny",
       "ordinal": 3,
       "numbering_source": "document_order_occurrence"
@@ -2755,29 +2797,40 @@
       "entry_id": "04-40",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "耳",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-40",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "耳",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

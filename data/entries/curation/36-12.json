@@ -980,7 +980,7 @@
         ],
         "display_root": "tem",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ciem",
@@ -2502,7 +2502,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -2523,7 +2523,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2553,7 +2553,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|lang=vi|ls=psc|土|占|no_och=y|c1=s|t1=[[earth]]|c2=p|tr2={{vi-l|chiêm}}"
@@ -3250,7 +3250,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -3271,7 +3271,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -5541,6 +5541,97 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tem",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ciem",
+      "ṭiem",
+      "yiem",
+      "ṭhiem",
+      "ṭhiemH",
+      "thep",
+      "chiem",
+      "śiem",
+      "śiemH",
+      "temH",
+      "temX",
+      "nem"
+    ],
+    "form_analyses": [
+      {
+        "form": "ciem",
+        "normalized": "ciem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭiem",
+        "normalized": "ṭiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiem",
+        "normalized": "yiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhiem",
+        "normalized": "ṭhiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhiemH",
+        "normalized": "ṭhiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "thep",
+        "normalized": "thep",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "chiem",
+        "normalized": "chiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śiem",
+        "normalized": "śiem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śiemH",
+        "normalized": "śiem",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "temH",
+        "normalized": "tem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "temX",
+        "normalized": "tem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "nem",
+        "normalized": "nem",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tem",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

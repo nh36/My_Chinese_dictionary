@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765368+00:00",
+  "generated_at": "2026-06-25T21:28:46.933669+00:00",
   "id": "13-36",
   "schuessler": {
     "gsc_id": "13-36",
@@ -579,7 +579,7 @@
           {
             "character": "酉",
             "entry_id": "18-09",
-            "source_line_number": 880,
+            "source_line_number": 917,
             "character_line_raw": "%Left: 酉, right: 㐌.",
             "raw_block": "%Left: 酉, right: 㐌.\n\\textit{yie};\t\t%0004k'\n\\begin{itemize}[noitemsep]\n    \\item",
             "transliteration_latex": null,
@@ -632,7 +632,7 @@
           ],
           "display_root": "ru",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "yuwX",
@@ -4249,6 +4249,69 @@
         "head_graph_oc_bs"
       ],
       "display_root": "ru",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "yuwX",
+        "yuw",
+        "yuwH",
+        "tsiuwX",
+        "dziuw",
+        "tsiuw",
+        "tshiuw",
+        "tshiuwk"
+      ],
+      "form_analyses": [
+        {
+          "form": "yuwX",
+          "normalized": "yuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yuw",
+          "normalized": "yuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yuwH",
+          "normalized": "yuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsiuwX",
+          "normalized": "tsiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dziuw",
+          "normalized": "dziuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsiuw",
+          "normalized": "tsiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshiuw",
+          "normalized": "tshiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshiuwk",
+          "normalized": "tshiuwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ru",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4294,10 +4357,21 @@
       "entry_id": "13-36",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "酉",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-36",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "酉",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4314,20 +4388,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

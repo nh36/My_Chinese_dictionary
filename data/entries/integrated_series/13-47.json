@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765410+00:00",
+  "generated_at": "2026-06-25T21:28:46.933718+00:00",
   "id": "13-47",
   "schuessler": {
     "gsc_id": "13-47",
@@ -759,7 +759,7 @@
           ],
           "display_root": "mu",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "maewX",
@@ -2486,8 +2486,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -2514,8 +2514,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -2695,8 +2695,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -2723,8 +2723,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -5302,6 +5302,55 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "mu",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "maewX",
+        "liuwX",
+        "kaewH",
+        "phaewH",
+        "liuw",
+        "lew"
+      ],
+      "form_analyses": [
+        {
+          "form": "maewX",
+          "normalized": "maew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "liuwX",
+          "normalized": "liuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kaewH",
+          "normalized": "kaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "phaewH",
+          "normalized": "phaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "liuw",
+          "normalized": "liuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "lew",
+          "normalized": "lew",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "mu",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5347,10 +5396,21 @@
       "entry_id": "13-47",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "卯",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-47",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "卯",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5400,22 +5460,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 4,
+      "curation_division_note": 5,
       "curation_research_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 4,
+      "structural_internal": 5,
       "semantic_analysis": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 6,
+      "internal_only": 7,
       "series_end_note": 1
     }
   },

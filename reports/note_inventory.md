@@ -2,13 +2,13 @@
 
 - Commented-out source material is excluded from this inventory.
 - Entries with at least one note: 493
-- Total notes inventoried: 1841
+- Total notes inventoried: 2212
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 703 |
+| `curation_division_note` | 1074 |
 | `curation_entry_note` | 964 |
 | `curation_mc_investigation` | 131 |
 | `curation_research_note` | 22 |
@@ -24,7 +24,7 @@
 | `mc_conflict` | 131 |
 | `semantic_analysis` | 22 |
 | `source_reference` | 10 |
-| `structural_internal` | 703 |
+| `structural_internal` | 1074 |
 | `workflow_internal` | 969 |
 
 ## By recommended rendering
@@ -32,7 +32,7 @@
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 1800 |
+| `internal_only` | 2171 |
 | `series_end_note` | 31 |
 
 ## Examples: `analysis_note`
@@ -100,16 +100,16 @@
 
 | GSC | Source layer | Anchor | Rendering | Text |
 | --- | --- | --- | --- | --- |
-| `01-09` | `curation_division_note` | character: 豦 | `internal_only` | top-level series head left unmarked |
+| `01-09` | `curation_division_note` | series | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `01-09` | `curation_division_note` | character: 豦 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-09` | `curation_division_note` | character: 遽 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `01-20` | `curation_division_note` | character: 䀠 | `internal_only` | top-level series head left unmarked |
+| `01-20` | `curation_division_note` | series: 䀠 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `01-20` | `curation_division_note` | character: 䀠 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-20` | `curation_division_note` | character: 瞿 | `internal_only` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `01-46` | `curation_division_note` | character: 兔 | `internal_only` | top-level series head left unmarked |
+| `01-46` | `curation_division_note` | series: 兔 | `internal_only` | all extracted forms lack an i-medial after the onset |
+| `01-46` | `curation_division_note` | character: 兔 | `internal_only` | all extracted forms lack an i-medial after the onset |
 | `01-51` | `curation_division_note` | character: 盧 | `internal_only` | the extracted forms point to both type a and type b |
 | `01-51` | `curation_division_note` | character: 慮 | `internal_only` | the extracted forms point to both type a and type b |
-| `01-57` | `curation_division_note` | character: 𪓐 | `internal_only` | the extracted forms point to both type a and type b |
-| `02-01` | `curation_division_note` | character: 各 | `internal_only` | top-level series head left unmarked |
-| `02-01` | `curation_division_note` | character: 客 | `internal_only` | all extracted forms lack an i-medial after the onset |
 
 ## Examples: `workflow_internal`
 

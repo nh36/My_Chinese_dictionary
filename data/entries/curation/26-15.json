@@ -473,7 +473,7 @@
         ],
         "display_root": "ly",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "deyH",
@@ -3481,6 +3481,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ly₈",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "deyH",
+      "deyX",
+      "dey",
+      "they",
+      "theyH",
+      "theyX",
+      "ḍit"
+    ],
+    "form_analyses": [
+      {
+        "form": "deyH",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "deyX",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dey",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "they",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "theyH",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "theyX",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḍit",
+        "normalized": "ḍit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ly",
     "ordinal": 8,
     "numbering_source": "document_order_occurrence"

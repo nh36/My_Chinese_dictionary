@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.789294+00:00",
+  "generated_at": "2026-06-25T21:28:46.958582+00:00",
   "id": "38-11",
   "schuessler": {
     "gsc_id": "38-11",
@@ -626,7 +626,7 @@
           ],
           "display_root": "qym",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "jimH",
@@ -1170,7 +1170,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1191,7 +1191,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -2776,7 +2776,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -2806,7 +2806,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|ls=psc|ls2=ic|土|甚|c1=s|c2=p|t1=earth|t2=extreme, profound}}"
@@ -3110,7 +3110,7 @@
           "phonetic_hint": "甚"
         },
         "resolved_node_root": {
-          "root": "qym",
+          "root": "qym₂",
           "source": "node_transliteration_fallback",
           "descendant_count": 1,
           "bs_support_count": 0,
@@ -4926,6 +4926,132 @@
         "head_graph_oc_bs"
       ],
       "display_root": "qym₂",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "jimH",
+        "jimX",
+        "jim",
+        "ṭimH",
+        "ṭim",
+        "ṭhimX",
+        "cim",
+        "təm",
+        "ḍeamX",
+        "ḍim",
+        "tsiem",
+        "dəmX",
+        "thəmX",
+        "səmX",
+        "khəm",
+        "kheam",
+        "ṅəm"
+      ],
+      "form_analyses": [
+        {
+          "form": "jimH",
+          "normalized": "jim",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jimX",
+          "normalized": "jim",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "jim",
+          "normalized": "jim",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṭimH",
+          "normalized": "ṭim",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṭim",
+          "normalized": "ṭim",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṭhimX",
+          "normalized": "ṭhim",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "cim",
+          "normalized": "cim",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "təm",
+          "normalized": "təm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḍeamX",
+          "normalized": "ḍeam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḍim",
+          "normalized": "ḍim",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsiem",
+          "normalized": "tsiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dəmX",
+          "normalized": "dəm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "thəmX",
+          "normalized": "thəm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "səmX",
+          "normalized": "səm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khəm",
+          "normalized": "khəm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kheam",
+          "normalized": "kheam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅəm",
+          "normalized": "ṅəm",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "qym",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -4971,10 +5097,21 @@
       "entry_id": "38-11",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "甚",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "38-11",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "甚",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5002,22 +5139,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

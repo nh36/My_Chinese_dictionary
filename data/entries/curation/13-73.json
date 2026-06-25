@@ -470,7 +470,7 @@
         ],
         "display_root": "pu",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "phiu",
@@ -1109,7 +1109,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1130,7 +1130,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1160,7 +1160,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|孚|c1=s|c2=p|t1=earth|ls=psc}}"
@@ -2058,7 +2058,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2079,7 +2079,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -3147,6 +3147,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pu₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "phiu",
+      "biewX",
+      "phiuw",
+      "phwəy",
+      "biuw",
+      "baew"
+    ],
+    "form_analyses": [
+      {
+        "form": "phiu",
+        "normalized": "phiu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biewX",
+        "normalized": "biew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiuw",
+        "normalized": "phiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phwəy",
+        "normalized": "phwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "biuw",
+        "normalized": "biuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "baew",
+        "normalized": "baew",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pu",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

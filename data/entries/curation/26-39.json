@@ -330,7 +330,7 @@
         ],
         "display_root": "miy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "meyX",
@@ -2089,6 +2089,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "miy",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "meyX",
+      "mey",
+      "miy",
+      "myieX",
+      "myie"
+    ],
+    "form_analyses": [
+      {
+        "form": "meyX",
+        "normalized": "mey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "mey",
+        "normalized": "mey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "miy",
+        "normalized": "miy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "myieX",
+        "normalized": "myie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "myie",
+        "normalized": "myie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "miy",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

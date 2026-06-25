@@ -294,7 +294,7 @@
         ],
         "display_root": "pom",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "biəm",
@@ -3071,6 +3071,48 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pom",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "biəm",
+      "buwṅ",
+      "biəmX",
+      "biuwṅ",
+      "phiəmH"
+    ],
+    "form_analyses": [
+      {
+        "form": "biəm",
+        "normalized": "biəm",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "buwṅ",
+        "normalized": "buwṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "biəmX",
+        "normalized": "biəm",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biuwṅ",
+        "normalized": "biuwṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiəmH",
+        "normalized": "phiəm",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "pom",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

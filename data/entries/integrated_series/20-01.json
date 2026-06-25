@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767597+00:00",
+  "generated_at": "2026-06-25T21:28:46.935880+00:00",
   "id": "20-01",
   "schuessler": {
     "gsc_id": "20-01",
@@ -223,7 +223,7 @@
           ],
           "display_root": "ket",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "kheat",
@@ -736,7 +736,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -766,7 +766,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|㓞|手|ls=psc|c1=p|c2=s|t2=hand}}"
@@ -2979,6 +2979,90 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "ket",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "kheat",
+        "kheyH",
+        "khet",
+        "siet",
+        "kyieyH",
+        "cieyH",
+        "kheaH",
+        "set",
+        "ḫet",
+        "ket",
+        "ṅet"
+      ],
+      "form_analyses": [
+        {
+          "form": "kheat",
+          "normalized": "kheat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kheyH",
+          "normalized": "khey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khet",
+          "normalized": "khet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "siet",
+          "normalized": "siet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kyieyH",
+          "normalized": "kyiey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "cieyH",
+          "normalized": "ciey",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "kheaH",
+          "normalized": "khea",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "set",
+          "normalized": "set",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫet",
+          "normalized": "ḫet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ket",
+          "normalized": "ket",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅet",
+          "normalized": "ṅet",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "ket",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -3024,10 +3108,21 @@
       "entry_id": "20-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "㓞",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "20-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "㓞",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3055,20 +3150,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

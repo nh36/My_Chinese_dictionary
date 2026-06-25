@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.787682+00:00",
+  "generated_at": "2026-06-25T21:28:46.956754+00:00",
   "id": "27-04",
   "schuessler": {
     "gsc_id": "27-04",
@@ -600,7 +600,7 @@
           ],
           "display_root": "ky",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "giɨy",
@@ -2278,8 +2278,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -2306,8 +2306,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -3425,6 +3425,41 @@
         "phonetic_component_series_root"
       ],
       "display_root": "ky₇",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "giɨy",
+        "kiɨy",
+        "kiɨyX",
+        "kiɨyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "giɨy",
+          "normalized": "giɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiɨy",
+          "normalized": "kiɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiɨyX",
+          "normalized": "kiɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiɨyH",
+          "normalized": "kiɨy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ky",
       "ordinal": 7,
       "numbering_source": "document_order_occurrence"
@@ -3470,10 +3505,21 @@
       "entry_id": "27-04",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "幾",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "27-04",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "幾",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3490,22 +3536,22 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1,
+      "curation_division_note": 2,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1,
+      "structural_internal": 2,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765550+00:00",
+  "generated_at": "2026-06-25T21:28:46.933856+00:00",
   "id": "13-76",
   "schuessler": {
     "gsc_id": "13-76",
@@ -366,7 +366,7 @@
           ],
           "display_root": "mu",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "miuw",
@@ -717,7 +717,7 @@
           "semantic_component": null
         },
         "resolved_node_root": {
-          "root": "mu",
+          "root": "mu₅",
           "source": "node_transliteration_fallback",
           "descendant_count": 1,
           "bs_support_count": 0,
@@ -2801,6 +2801,13 @@
                 "label_token": "crin(is)",
                 "abbreviation": "crin",
                 "start_line": 248
+              },
+              {
+                "graph_raw": "髟",
+                "label_token": "crin",
+                "abbreviation": "crin",
+                "learned": true,
+                "evidence_count": 1
               }
             ]
           }
@@ -2815,6 +2822,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ],
           "source": "ids_top_level",
@@ -5384,6 +5398,69 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "mu₅",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "miuw",
+        "muw",
+        "maew",
+        "miuH",
+        "miuX",
+        "maewk",
+        "muwH",
+        "muwk"
+      ],
+      "form_analyses": [
+        {
+          "form": "miuw",
+          "normalized": "miuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "muw",
+          "normalized": "muw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "maew",
+          "normalized": "maew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "miuH",
+          "normalized": "miu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "miuX",
+          "normalized": "miu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "maewk",
+          "normalized": "maewk",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "muwH",
+          "normalized": "muw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "muwk",
+          "normalized": "muwk",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "mu",
       "ordinal": 5,
       "numbering_source": "document_order_occurrence"
@@ -5429,10 +5506,21 @@
       "entry_id": "13-76",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "矛",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-76",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "矛",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5471,20 +5559,20 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 4
+      "curation_division_note": 5
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 4
+      "structural_internal": 5
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

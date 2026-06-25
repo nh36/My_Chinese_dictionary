@@ -401,7 +401,7 @@
         ],
         "display_root": "syr",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "sen",
@@ -2706,6 +2706,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "syr",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "sen",
+      "senH",
+      "senX",
+      "seyX",
+      "ṣin"
+    ],
+    "form_analyses": [
+      {
+        "form": "sen",
+        "normalized": "sen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "senH",
+        "normalized": "sen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "senX",
+        "normalized": "sen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "seyX",
+        "normalized": "sey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṣin",
+        "normalized": "ṣin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "syr",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

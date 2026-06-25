@@ -159,6 +159,10 @@ def normalize_rhyme(rhyme: str, *, mode: str = "broad") -> tuple[str, str]:
     broad = rhyme.replace("-", "")
     broad = broad.rstrip("ʔs")
     broad = broad.replace("ˤ", "").replace("̠", "")
+    for stop in ("ɡ", "k", "b", "p", "d", "t"):
+        if broad.endswith(stop + "ʷ"):
+            broad = broad[:-1]
+            break
     if not broad:
         return "", ""
     if broad.endswith("j"):

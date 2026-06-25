@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760569+00:00",
+  "generated_at": "2026-06-25T21:28:46.928257+00:00",
   "id": "02-16",
   "schuessler": {
     "gsc_id": "02-16",
@@ -240,8 +240,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{tak₂\\textsuperscript{·dextr}}},",
-        "render_latex": "度\t%duo2 / du4 / duó / dù\n{\\large{tak₂\\textsuperscript{·dextr}}},\n\\textit{dak};\t%0801a\n\\textit{duH};",
+        "transliteration_latex": "{\\large{t\\textoverset{a}{a}k\\textsuperscript{·dextr}}},",
+        "render_latex": "度\t%duo2 / du4 / duó / dù\n{\\large{t\\textoverset{a}{a}k\\textsuperscript{·dextr}}},\n\\textit{dak};\t%0801a\n\\textit{duH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "又",
           "phonetic_component": "石",
@@ -304,10 +304,10 @@
           "bs_node_roots": [
             "tak"
           ],
-          "display_root": "tak",
+          "display_root": "t\\textoverset{a}{a}k",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "dak",
             "duH"
@@ -456,8 +456,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "水"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{aq·}tak₂}},",
-        "render_latex": "渡\t%du4\n{\\large{\\textsuperscript{aq·}tak₂}},\n\\textit{duH};\t%0801b",
+        "transliteration_latex": "{\\large{\\textsuperscript{aq·}t\\textoverset{a}{a}k}},",
+        "render_latex": "渡\t%du4\n{\\large{\\textsuperscript{aq·}t\\textoverset{a}{a}k}},\n\\textit{duH};\t%0801b",
         "wiktionary_semantic_validation": {
           "semantic_component": "水",
           "phonetic_component": "度",
@@ -570,8 +570,8 @@
           "source": "packet_family_ids",
           "semantic_component": "刀"
         },
-        "transliteration_latex": "{\\large{tak₂\\textsuperscript{·cult}}},",
-        "render_latex": "剫\t%duo2\n{\\large{tak₂\\textsuperscript{·cult}}},\n\\textit{dak};\t%0801c",
+        "transliteration_latex": "{\\large{t\\textoverset{a}{a}k\\textsuperscript{·cult}}},",
+        "render_latex": "剫\t%duo2\n{\\large{t\\textoverset{a}{a}k\\textsuperscript{·cult}}},\n\\textit{dak};\t%0801c",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -821,9 +821,30 @@
         "head_graph_oc_bs",
         "phonetic_component_series_root"
       ],
-      "display_root": "tak₂",
-      "base_root": "tak",
-      "ordinal": 2,
+      "display_root": "t\\textoverset{a}{a}k",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "dak",
+        "duH"
+      ],
+      "form_analyses": [
+        {
+          "form": "dak",
+          "normalized": "dak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "duH",
+          "normalized": "du",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "t\\textoverset{a}{a}k",
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -867,29 +888,40 @@
       "entry_id": "02-16",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "度",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-16",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "度",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

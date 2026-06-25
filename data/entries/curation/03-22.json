@@ -364,8 +364,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{kuaṅ}},",
-      "render_latex": "光\t%guang1 / guāng\n{\\large{kuaṅ}},\n\\textit{kwaṅ};\t%0706a",
+      "transliteration_latex": "{\\large{ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "光\t%guang1 / guāng\n{\\large{ku\\textoverset{a}{a}ṅ}},\n\\textit{kwaṅ};\t%0706a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -387,10 +387,10 @@
         "bs_node_roots": [
           "kuaṅ"
         ],
-        "display_root": "kuaṅ",
+        "display_root": "ku\\textoverset{a}{a}ṅ",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
         "mc_forms": [
           "kwaṅ",
           "khwaṅH",
@@ -588,8 +588,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}kuaṅ}},",
-      "render_latex": "洸\t%guang1\n{\\large{\\textsuperscript{aq·}kuaṅ}},\n\\textit{kwaṅ};\t%0706f",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "洸\t%guang1\n{\\large{\\textsuperscript{aq·}ku\\textoverset{a}{a}ṅ}},\n\\textit{kwaṅ};\t%0706f",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "光",
@@ -690,8 +690,8 @@
         "source": "packet_family_ids",
         "semantic_component": "糹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ser·}kuaṅ}},",
-      "render_latex": "絖\t%kuang4\n{\\large{\\textsuperscript{ser·}kuaṅ}},\n\\textit{khwaṅH};\t%0706g",
+      "transliteration_latex": "{\\large{\\textsuperscript{ser·}ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "絖\t%kuang4\n{\\large{\\textsuperscript{ser·}ku\\textoverset{a}{a}ṅ}},\n\\textit{khwaṅH};\t%0706g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -832,8 +832,8 @@
         "source": "ids_top_level",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}kuaṅ}},",
-      "render_latex": "侊\t%guang1\n{\\large{\\textsuperscript{hom·}kuaṅ}},\n\\textit{kwaeṅ};\t%0706h\n\\textit{kwaṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "侊\t%guang1\n{\\large{\\textsuperscript{hom·}ku\\textoverset{a}{a}ṅ}},\n\\textit{kwaeṅ};\t%0706h\n\\textit{kwaṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -951,8 +951,8 @@
         "source": "ids_top_level",
         "semantic_component": "角"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{corn·}kuaṅ}},",
-      "render_latex": "觥\t%gong1\n{\\large{\\textsuperscript{corn·}kuaṅ}},\n\\textit{kwaeṅ};\t%0706i",
+      "transliteration_latex": "{\\large{\\textsuperscript{corn·}ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "觥\t%gong1\n{\\large{\\textsuperscript{corn·}ku\\textoverset{a}{a}ṅ}},\n\\textit{kwaeṅ};\t%0706i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1118,8 +1118,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cor·}kuaṅ}},",
-      "render_latex": "恍\t%huang3\n{\\large{\\textsuperscript{cor·}kuaṅ}},\n\\textit{hwaṅX};\t%0706j",
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}ku\\textoverset{a}{a}ṅ}},",
+      "render_latex": "恍\t%huang3\n{\\large{\\textsuperscript{cor·}ku\\textoverset{a}{a}ṅ}},\n\\textit{hwaṅX};\t%0706j",
       "wiktionary_semantic_validation": {
         "semantic_component": "心",
         "phonetic_component": "光",
@@ -1744,8 +1744,43 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "kuaṅ",
-    "base_root": "kuaṅ",
+    "display_root": "ku\\textoverset{a}{a}ṅ",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "kwaṅ",
+      "khwaṅH",
+      "kwaeṅ",
+      "hwaṅX"
+    ],
+    "form_analyses": [
+      {
+        "form": "kwaṅ",
+        "normalized": "kwaṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khwaṅH",
+        "normalized": "khwaṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kwaeṅ",
+        "normalized": "kwaeṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwaṅX",
+        "normalized": "hwaṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "ku\\textoverset{a}{a}ṅ",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

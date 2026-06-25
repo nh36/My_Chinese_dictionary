@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.762098+00:00",
+  "generated_at": "2026-06-25T21:28:46.930314+00:00",
   "id": "04-26",
   "schuessler": {
     "gsc_id": "04-26",
@@ -770,7 +770,7 @@
           ],
           "display_root": "ty",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "ciX",
@@ -2201,7 +2201,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "packet_family_ids",
@@ -3055,7 +3055,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3085,7 +3085,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|寺|c1=s|c2=p|ls=psc}}"
@@ -3358,8 +3358,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -6721,6 +6721,34 @@
         "head_graph_oc_bs"
       ],
       "display_root": "ty",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "ciX",
+        "ṭhiX",
+        "chiX"
+      ],
+      "form_analyses": [
+        {
+          "form": "ciX",
+          "normalized": "ci",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṭhiX",
+          "normalized": "ṭhi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "chiX",
+          "normalized": "chi",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ty",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -6766,10 +6794,21 @@
       "entry_id": "04-26",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "止",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-26",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "止",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -6819,22 +6858,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 4,
+      "curation_division_note": 5,
       "curation_research_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 4,
+      "structural_internal": 5,
       "semantic_analysis": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 6,
+      "internal_only": 7,
       "series_end_note": 1
     }
   },

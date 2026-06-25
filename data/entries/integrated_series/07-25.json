@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763261+00:00",
+  "generated_at": "2026-06-25T21:28:46.931459+00:00",
   "id": "07-25",
   "schuessler": {
     "gsc_id": "07-25",
@@ -996,7 +996,7 @@
           ],
           "display_root": "tse",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "tshieX",
@@ -3820,7 +3820,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -3841,7 +3841,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -6516,6 +6516,104 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tse",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "tshieX",
+        "tshieH",
+        "tshie",
+        "tsheyX",
+        "tsieX",
+        "tsie",
+        "zie",
+        "dzie",
+        "dzieH",
+        "dzeyH",
+        "tsiwe",
+        "dẓea",
+        "tsieH"
+      ],
+      "form_analyses": [
+        {
+          "form": "tshieX",
+          "normalized": "tshie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshieH",
+          "normalized": "tshie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshie",
+          "normalized": "tshie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsheyX",
+          "normalized": "tshey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsieX",
+          "normalized": "tsie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsie",
+          "normalized": "tsie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "zie",
+          "normalized": "zie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzie",
+          "normalized": "dzie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzieH",
+          "normalized": "dzie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzeyH",
+          "normalized": "dzey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiwe",
+          "normalized": "tsiwe",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dẓea",
+          "normalized": "dẓea",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsieH",
+          "normalized": "tsie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "tse",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -6561,29 +6659,40 @@
       "entry_id": "07-25",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "此",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "07-25",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "此",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

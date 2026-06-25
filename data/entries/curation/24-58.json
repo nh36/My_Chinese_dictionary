@@ -535,7 +535,7 @@
         ],
         "display_root": "mor",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "mienX",
@@ -3674,6 +3674,55 @@
       "head_graph_oc_bs"
     ],
     "display_root": "mor",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "mienX",
+      "miunH",
+      "man",
+      "mwənX",
+      "miənX",
+      "mwəyX"
+    ],
+    "form_analyses": [
+      {
+        "form": "mienX",
+        "normalized": "mien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "miunH",
+        "normalized": "miun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "man",
+        "normalized": "man",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "mwənX",
+        "normalized": "mwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "miənX",
+        "normalized": "miən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "mwəyX",
+        "normalized": "mwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "mor",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

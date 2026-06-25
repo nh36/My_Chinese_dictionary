@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768433+00:00",
+  "generated_at": "2026-06-25T21:28:46.956259+00:00",
   "id": "25-11",
   "schuessler": {
     "gsc_id": "25-11",
@@ -332,7 +332,7 @@
           ],
           "display_root": "kuen",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "giwen",
@@ -1008,6 +1008,13 @@
                 "label_token": "crin(is)",
                 "abbreviation": "crin",
                 "start_line": 248
+              },
+              {
+                "graph_raw": "髟",
+                "label_token": "crin",
+                "abbreviation": "crin",
+                "learned": true,
+                "evidence_count": 1
               }
             ]
           }
@@ -1022,6 +1029,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ],
           "source": "ids_top_level",
@@ -1189,7 +1203,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1210,7 +1224,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1240,7 +1254,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|卷|ls=psc|c1=s|c2=p}}"
@@ -1395,7 +1409,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1416,7 +1430,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1446,7 +1460,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|龹|手|t2=hand|ls=psc|c1=p|c2=s}}"
@@ -3997,6 +4011,90 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kuen",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "giwen",
+        "kiwenX",
+        "kiwenH",
+        "khiwen",
+        "giwenH",
+        "giwenX",
+        "giwənH",
+        "khiwənX",
+        "kiwənX",
+        "khiwənH",
+        "qiwənX"
+      ],
+      "form_analyses": [
+        {
+          "form": "giwen",
+          "normalized": "giwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiwenX",
+          "normalized": "kiwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiwenH",
+          "normalized": "kiwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khiwen",
+          "normalized": "khiwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giwenH",
+          "normalized": "giwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giwenX",
+          "normalized": "giwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giwənH",
+          "normalized": "giwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khiwənX",
+          "normalized": "khiwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiwənX",
+          "normalized": "kiwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khiwənH",
+          "normalized": "khiwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qiwənX",
+          "normalized": "qiwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kuen",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4042,10 +4140,21 @@
       "entry_id": "25-11",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "卷",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "25-11",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "卷",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4062,20 +4171,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

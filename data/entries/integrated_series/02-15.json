@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760558+00:00",
+  "generated_at": "2026-06-25T21:28:46.928243+00:00",
   "id": "02-15",
   "schuessler": {
     "gsc_id": "02-15",
@@ -141,8 +141,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{ṅak₂}},",
-        "render_latex": "噩\t%e4\n{\\large{ṅak₂}},\n\\textit{ṅak};\t%0768a",
+        "transliteration_latex": "{\\large{ṅ\\textoverset{a}{a}k₃}},",
+        "render_latex": "噩\t%e4\n{\\large{ṅ\\textoverset{a}{a}k₃}},\n\\textit{ṅak};\t%0768a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -154,15 +154,15 @@
           "phonetic_hint": "噩"
         },
         "resolved_node_root": {
-          "root": "ṅak",
+          "root": "ṅ\\textoverset{a}{a}k₃",
           "source": "node_transliteration_fallback",
           "descendant_count": 1,
           "bs_support_count": 0,
           "bs_broad_roots": [],
           "bs_node_roots": [],
-          "display_root": "ṅak",
+          "display_root": "ṅ\\textoverset{a}{a}k₃",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "ṅak",
@@ -310,8 +310,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "艸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ṅak₂}},",
-        "render_latex": "蘁\t%e4 / wu4\n{\\large{\\textsuperscript{herb˸}ṅak₂}},\n\\textit{ṅak};\t%0768d\n\\textit{ṅuH};",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}ṅ\\textoverset{a}{a}k₃}},",
+        "render_latex": "蘁\t%e4 / wu4\n{\\large{\\textsuperscript{herb˸}ṅ\\textoverset{a}{a}k₃}},\n\\textit{ṅak};\t%0768d\n\\textit{ṅuH};",
         "wiktionary_semantic_validation": {
           "semantic_component": "艸",
           "phonetic_component": "噩",
@@ -496,9 +496,30 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ],
-      "display_root": "ṅak₂",
-      "base_root": "ṅak",
-      "ordinal": 2,
+      "display_root": "ṅ\\textoverset{a}{a}k₃",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "ṅak",
+        "ṅuH"
+      ],
+      "form_analyses": [
+        {
+          "form": "ṅak",
+          "normalized": "ṅak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅuH",
+          "normalized": "ṅu",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "ṅ\\textoverset{a}{a}k",
+      "ordinal": 3,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -542,29 +563,40 @@
       "entry_id": "02-15",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "噩",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-15",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "噩",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

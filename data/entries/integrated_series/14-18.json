@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765652+00:00",
+  "generated_at": "2026-06-25T21:28:46.933953+00:00",
   "id": "14-18",
   "schuessler": {
     "gsc_id": "14-18",
@@ -225,7 +225,7 @@
           ],
           "display_root": "tuk",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "śiuwk",
@@ -5180,6 +5180,90 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tuk₃",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "śiuwk",
+        "chiuwk",
+        "dzek",
+        "təwk",
+        "səwk",
+        "nek",
+        "tsew",
+        "tsiew",
+        "tshek",
+        "tsiuwk",
+        "dek"
+      ],
+      "form_analyses": [
+        {
+          "form": "śiuwk",
+          "normalized": "śiuwk",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "chiuwk",
+          "normalized": "chiuwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzek",
+          "normalized": "dzek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "təwk",
+          "normalized": "təwk",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "səwk",
+          "normalized": "səwk",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "nek",
+          "normalized": "nek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsew",
+          "normalized": "tsew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiew",
+          "normalized": "tsiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshek",
+          "normalized": "tshek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiuwk",
+          "normalized": "tsiuwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dek",
+          "normalized": "dek",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "tuk",
       "ordinal": 3,
       "numbering_source": "document_order_occurrence"
@@ -5225,10 +5309,21 @@
       "entry_id": "14-18",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "尗",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "14-18",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "尗",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5256,20 +5351,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

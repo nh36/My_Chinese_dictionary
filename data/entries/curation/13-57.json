@@ -484,7 +484,7 @@
         ],
         "display_root": "tsiw",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tshiuw",
@@ -1351,7 +1351,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1372,7 +1372,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2749,6 +2749,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsiw",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tshiuw",
+      "tsiuw",
+      "tsewX",
+      "dziuw",
+      "tṣiuwH",
+      "dẓiuw",
+      "dziuwX",
+      "tshiewX"
+    ],
+    "form_analyses": [
+      {
+        "form": "tshiuw",
+        "normalized": "tshiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsiuw",
+        "normalized": "tsiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsewX",
+        "normalized": "tsew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dziuw",
+        "normalized": "dziuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣiuwH",
+        "normalized": "tṣiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓiuw",
+        "normalized": "dẓiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dziuwX",
+        "normalized": "dziuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshiewX",
+        "normalized": "tshiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tsiw",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

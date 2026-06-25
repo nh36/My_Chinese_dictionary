@@ -162,7 +162,7 @@
         ],
         "display_root": "sun",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "swənH",
@@ -914,7 +914,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -944,7 +944,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|巽|ls=psc|c1=s|c2=p}}"
@@ -1847,6 +1847,69 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "sun",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "swənH",
+      "swinX",
+      "tswin",
+      "siwenH",
+      "siwenX",
+      "dẓiwenX",
+      "dẓiwenH",
+      "tshiwen"
+    ],
+    "form_analyses": [
+      {
+        "form": "swənH",
+        "normalized": "swən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "swinX",
+        "normalized": "swin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tswin",
+        "normalized": "tswin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "siwenH",
+        "normalized": "siwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "siwenX",
+        "normalized": "siwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓiwenX",
+        "normalized": "dẓiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓiwenH",
+        "normalized": "dẓiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshiwen",
+        "normalized": "tshiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "sun",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

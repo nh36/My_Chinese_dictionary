@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.762013+00:00",
+  "generated_at": "2026-06-25T21:28:46.930209+00:00",
   "id": "04-17",
   "schuessler": {
     "gsc_id": "04-17",
@@ -700,7 +700,7 @@
           {
             "character": "又",
             "entry_id": "01-57",
-            "source_line_number": 2956,
+            "source_line_number": 2993,
             "character_line_raw": "%⿰虘又\t%zha1\t",
             "raw_block": "%⿰虘又\t%zha1\t\n{\\large{tsa{\\textsuperscript{·dextr}}}},\n\n\\textit{tṣae};\t%tsrae\t0046v'\n\\end{itemize}",
             "transliteration_latex": "{\\large{tsa{\\textsuperscript{·dextr}}}},",
@@ -765,7 +765,7 @@
           ],
           "display_root": "gy",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "ḫiuwH",
@@ -4315,6 +4315,27 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "quy",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "ḫiuwH",
+        "ḫiuwX"
+      ],
+      "form_analyses": [
+        {
+          "form": "ḫiuwH",
+          "normalized": "ḫiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ḫiuwX",
+          "normalized": "ḫiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "quy",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4360,10 +4381,21 @@
       "entry_id": "04-17",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "又",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-17",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "又",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4391,20 +4423,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

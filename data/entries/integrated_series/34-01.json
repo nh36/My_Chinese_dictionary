@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788627+00:00",
+  "generated_at": "2026-06-25T21:28:46.957796+00:00",
   "id": "34-01",
   "schuessler": {
     "gsc_id": "34-01",
@@ -431,7 +431,7 @@
           ],
           "display_root": "kun",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "kwən",
@@ -2780,6 +2780,34 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "kun",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": false,
+      "mc_forms": [
+        "kwən",
+        "kwənX",
+        "hwənX"
+      ],
+      "form_analyses": [
+        {
+          "form": "kwən",
+          "normalized": "kwən",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kwənX",
+          "normalized": "kwən",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwənX",
+          "normalized": "hwən",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kun",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2825,29 +2853,40 @@
       "entry_id": "34-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "昆",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "34-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "昆",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

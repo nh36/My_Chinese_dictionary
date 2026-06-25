@@ -740,7 +740,7 @@
         ],
         "display_root": "lot",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dwayH",
@@ -2129,7 +2129,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2150,7 +2150,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -4956,6 +4956,90 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lot",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dwayH",
+      "thwayH",
+      "śiweyH",
+      "thwaH",
+      "yiwet",
+      "yiweyH",
+      "tshiweyH",
+      "dwat",
+      "thwat",
+      "ciwet",
+      "śiwet"
+    ],
+    "form_analyses": [
+      {
+        "form": "dwayH",
+        "normalized": "dway",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thwayH",
+        "normalized": "thway",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiweyH",
+        "normalized": "śiwey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "thwaH",
+        "normalized": "thwa",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yiwet",
+        "normalized": "yiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiweyH",
+        "normalized": "yiwey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshiweyH",
+        "normalized": "tshiwey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dwat",
+        "normalized": "dwat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thwat",
+        "normalized": "thwat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ciwet",
+        "normalized": "ciwet",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śiwet",
+        "normalized": "śiwet",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "lot",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

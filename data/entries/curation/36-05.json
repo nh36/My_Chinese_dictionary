@@ -686,8 +686,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{kam₂}},",
-      "render_latex": "監\t%jian1 / jian4 / jiān / jiàn\n{\\large{kam₂}},\n\\textit{kaem};\t%0609a\n\\textit{kaemH};",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m}},",
+      "render_latex": "監\t%jian1 / jian4 / jiān / jiàn\n{\\large{k\\textoverset{a}{a}m}},\n\\textit{kaem};\t%0609a\n\\textit{kaemH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -713,10 +713,10 @@
           "gam",
           "ram"
         ],
-        "display_root": "kam",
+        "display_root": "k\\textoverset{a}{a}m",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
         "mc_forms": [
           "kaem",
           "kaemH",
@@ -956,8 +956,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}kam₂}},",
-      "render_latex": "鑑\t%jian4\n{\\large{\\textsuperscript{met·}kam₂}},\n\\textit{ḫaemH};\t%0609c",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}k\\textoverset{a}{a}m}},",
+      "render_latex": "鑑\t%jian4\n{\\large{\\textsuperscript{met·}k\\textoverset{a}{a}m}},\n\\textit{ḫaemH};\t%0609c",
       "wiktionary_semantic_validation": {
         "semantic_component": "金",
         "phonetic_component": "監",
@@ -1102,8 +1102,8 @@
         "source": "ids_top_level",
         "semantic_component": "石"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{lap·}kam₂}},",
-      "render_latex": "礛\t%jian1\n{\\large{\\textsuperscript{lap·}kam₂}},\n\\textit{kaem};\t%0609d",
+      "transliteration_latex": "{\\large{\\textsuperscript{lap·}k\\textoverset{a}{a}m}},",
+      "render_latex": "礛\t%jian1\n{\\large{\\textsuperscript{lap·}k\\textoverset{a}{a}m}},\n\\textit{kaem};\t%0609d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1238,7 +1238,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1259,14 +1259,14 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
         "semantic_component": "土"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{terr·}kam₂}},",
-      "render_latex": "壏\t%xian4\n{\\large{\\textsuperscript{terr·}kam₂}},\n\\textit{ḫaemX};\t%0609e",
+      "transliteration_latex": "{\\large{\\textsuperscript{terr·}k\\textoverset{a}{a}m}},",
+      "render_latex": "壏\t%xian4\n{\\large{\\textsuperscript{terr·}k\\textoverset{a}{a}m}},\n\\textit{ḫaemX};\t%0609e",
       "wiktionary_semantic_validation": {
         "semantic_component": "土",
         "phonetic_component": "監",
@@ -1289,7 +1289,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|監|ls=psc|c1=s|c2=p}}"
@@ -1388,8 +1388,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kam₂}},",
-      "render_latex": "㯺\t%jian4\n{\\large{kam₂}},\n\\textit{ḫaemX};\t%0609f",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m}},",
+      "render_latex": "㯺\t%jian4\n{\\large{k\\textoverset{a}{a}m}},\n\\textit{ḫaemX};\t%0609f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -1409,16 +1409,16 @@
         "semantic_component": null
       },
       "resolved_node_root": {
-        "root": "kam",
+        "root": "k\\textoverset{a}{a}m",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "k\\textoverset{a}{a}m",
+        "display_root": "k\\textoverset{a}{a}m₂",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
+        "mark_required": false,
         "mc_forms": [
           "ḫaemX",
           "lamX"
@@ -1438,7 +1438,7 @@
           }
         ],
         "base_root": "k\\textoverset{a}{a}m",
-        "ordinal": 1,
+        "ordinal": 2,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -1639,8 +1639,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}kam₂}},",
-      "render_latex": "檻\t%jian4 / han4? / jiàn\n{\\large{\\textsuperscript{arb·}kam₂}},\n\\textit{ḫaemX};\t%0609g\n\\textit{ḫamX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}k\\textoverset{a}{a}m}},",
+      "render_latex": "檻\t%jian4 / han4? / jiàn\n{\\large{\\textsuperscript{arb·}k\\textoverset{a}{a}m}},\n\\textit{ḫaemX};\t%0609g\n\\textit{ḫamX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "木",
         "phonetic_component": "監",
@@ -1785,8 +1785,8 @@
         "source": "ids_top_level",
         "semantic_component": "女"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{fem·}kam₂}},",
-      "render_latex": "㜮\t%lan4\n{\\large{\\textsuperscript{fem·}kam₂}},\n\\textit{lamH};\t%0609h",
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}k\\textoverset{a}{a}m}},",
+      "render_latex": "㜮\t%lan4\n{\\large{\\textsuperscript{fem·}k\\textoverset{a}{a}m}},\n\\textit{lamH};\t%0609h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1844,8 +1844,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸man}}},",
-      "render_latex": "擥\t%lan3\n{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸man}}},\n\\textit{lamX};\t%0609i",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m₂\\textsuperscript{˸man}}},",
+      "render_latex": "擥\t%lan3\n{\\large{k\\textoverset{a}{a}m₂\\textsuperscript{˸man}}},\n\\textit{lamX};\t%0609i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1872,7 +1872,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "parent_ids_semantic",
@@ -2054,8 +2054,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}kam₂}},",
-      "render_latex": "濫\t%lan4 / lan3\n{\\large{\\textsuperscript{aq·}kam₂}},\n\\textit{ḫamH};\t%0609j\n\\textit{lamX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}k\\textoverset{a}{a}m}},",
+      "render_latex": "濫\t%lan4 / lan3\n{\\large{\\textsuperscript{aq·}k\\textoverset{a}{a}m}},\n\\textit{ḫamH};\t%0609j\n\\textit{lamX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "監",
@@ -2260,8 +2260,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kam₂}},",
-      "render_latex": "藍\t%lan2 / lán\n{\\large{\\textsuperscript{herb˸}kam₂}},\n\\textit{lam};\t%0609k",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}m}},",
+      "render_latex": "藍\t%lan2 / lán\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}m}},\n\\textit{lam};\t%0609k",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
         "phonetic_component": "監",
@@ -2405,8 +2405,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kam₂\\textsuperscript{˸vid}}},",
-      "render_latex": "覽\t%lan3\n{\\large{kam₂\\textsuperscript{˸vid}}},\n\\textit{lamX};\t%0609l",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸vid}}},",
+      "render_latex": "覽\t%lan3\n{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸vid}}},\n\\textit{lamX};\t%0609l",
       "wiktionary_semantic_validation": {
         "semantic_component": "見",
         "phonetic_component": "監",
@@ -2467,16 +2467,16 @@
         "phonetic_hint": "監"
       },
       "resolved_node_root": {
-        "root": "kam",
+        "root": "k\\textoverset{a}{a}m\\textsuperscript{˸vid}",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "k\\textoverset{a}{a}m₂",
+        "display_root": "k\\textoverset{a}{a}m\\textsuperscript{˸vid}",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
+        "mark_required": false,
         "mc_forms": [
           "lamX"
         ],
@@ -2488,8 +2488,8 @@
             "reason": "no_i_medial"
           }
         ],
-        "base_root": "k\\textoverset{a}{a}m",
-        "ordinal": 2,
+        "base_root": "k\\textoverset{a}{a}m\\textsuperscript{˸vid}",
+        "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -2622,8 +2622,8 @@
         "source": "ids_top_level",
         "semantic_component": "口"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{or·}kam₂}},",
-      "render_latex": "嚂\t%han3\n{\\large{\\textsuperscript{or·}kam₂}},\n\\textit{hamX};\t%0609m",
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}k\\textoverset{a}{a}m}},",
+      "render_latex": "嚂\t%han3\n{\\large{\\textsuperscript{or·}k\\textoverset{a}{a}m}},\n\\textit{hamX};\t%0609m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2780,8 +2780,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kam₂\\textsuperscript{˸sal}}},",
-      "render_latex": "鹽\t%yan2 / yán / yàn\n{\\large{kam₂\\textsuperscript{˸sal}}},\n\\textit{yiem};\t%0609n",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸sal}}},",
+      "render_latex": "鹽\t%yan2 / yán / yàn\n{\\large{k\\textoverset{a}{a}m\\textsuperscript{˸sal}}},\n\\textit{yiem};\t%0609n",
       "wiktionary_semantic_validation": {
         "semantic_component": "鹵",
         "phonetic_component": "監",
@@ -2951,14 +2951,14 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m₂}},",
-      "render_latex": "攬\t%lan3\n{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m₂}},\n\\textit{lamX};\t%0609o",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m\\textsuperscript{˸vid}}},",
+      "render_latex": "攬\t%lan3\n{\\large{\\textsuperscript{man·}k\\textoverset{a}{a}m\\textsuperscript{˸vid}}},\n\\textit{lamX};\t%0609o",
       "wiktionary_semantic_validation": {
         "semantic_component": "手",
         "phonetic_component": "覽",
@@ -2981,7 +2981,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|t1=hand|覽|ls=psc|c1=s|c2=p}}"
@@ -4472,9 +4472,86 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "kam₂",
-    "base_root": "kam",
-    "ordinal": 2,
+    "display_root": "k\\textoverset{a}{a}m",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "kaem",
+      "kaemH",
+      "ḫaemH",
+      "ḫaemX",
+      "ḫamX",
+      "lamH",
+      "ḫamH",
+      "lamX",
+      "lam",
+      "hamX"
+    ],
+    "form_analyses": [
+      {
+        "form": "kaem",
+        "normalized": "kaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kaemH",
+        "normalized": "kaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫaemH",
+        "normalized": "ḫaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫaemX",
+        "normalized": "ḫaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫamX",
+        "normalized": "ḫam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lamH",
+        "normalized": "lam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫamH",
+        "normalized": "ḫam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lamX",
+        "normalized": "lam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lam",
+        "normalized": "lam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hamX",
+        "normalized": "ham",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "k\\textoverset{a}{a}m",
+    "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }
 }

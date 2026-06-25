@@ -145,8 +145,8 @@
         "source": "ids_component_literal_fallback",
         "semantic_component": "乚"
       },
-      "transliteration_latex": "{\\large{qaṅ₂\\textsuperscript{·乚}}},",
-      "render_latex": "羌\t%qiang1 / qiāng\n{\\large{qaṅ₂\\textsuperscript{·乚}}},\n\\textit{khiaṅ};\t%0712a",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ\\textsuperscript{·乚}}},",
+      "render_latex": "羌\t%qiang1 / qiāng\n{\\large{q\\textoverset{b}{a}ṅ\\textsuperscript{·乚}}},\n\\textit{khiaṅ};\t%0712a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": {
@@ -160,10 +160,10 @@
         "bs_node_roots": [
           "qhaṅ"
         ],
-        "display_root": "qaṅ",
+        "display_root": "q\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "khiaṅ"
         ],
@@ -282,8 +282,8 @@
         "source": "ids_top_level",
         "semantic_component": "虫"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{serp·}qaṅ₂}},",
-      "render_latex": "蜣\t%qiang1\n{\\large{\\textsuperscript{serp·}qaṅ₂}},\n\\textit{khiaṅ};\t%0712e",
+      "transliteration_latex": "{\\large{\\textsuperscript{serp·}q\\textoverset{b}{a}ṅ}},",
+      "render_latex": "蜣\t%qiang1\n{\\large{\\textsuperscript{serp·}q\\textoverset{b}{a}ṅ}},\n\\textit{khiaṅ};\t%0712e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -457,9 +457,23 @@
       "head_graph_oc_bs",
       "phonetic_component_series_root"
     ],
-    "display_root": "qaṅ₂",
-    "base_root": "qaṅ",
-    "ordinal": 2,
+    "display_root": "q\\textoverset{b}{a}ṅ",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "khiaṅ"
+    ],
+    "form_analyses": [
+      {
+        "form": "khiaṅ",
+        "normalized": "khiaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "q\\textoverset{b}{a}ṅ",
+    "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }
 }

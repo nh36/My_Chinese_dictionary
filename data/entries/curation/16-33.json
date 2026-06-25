@@ -1016,7 +1016,7 @@
         ],
         "display_root": "sew",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "siewX",
@@ -1692,7 +1692,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -4297,7 +4297,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -7121,6 +7121,34 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "sew₂",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "siewX",
+      "śiewH",
+      "śiewX"
+    ],
+    "form_analyses": [
+      {
+        "form": "siewX",
+        "normalized": "siew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śiewH",
+        "normalized": "śiew",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śiewX",
+        "normalized": "śiew",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "sew",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

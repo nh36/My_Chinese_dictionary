@@ -783,7 +783,7 @@
         ],
         "display_root": "tiy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tey",
@@ -1676,7 +1676,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1697,7 +1697,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1727,7 +1727,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|氐|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2478,7 +2478,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -2499,7 +2499,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -5483,6 +5483,90 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tiy",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tey",
+      "teyX",
+      "teyH",
+      "dey",
+      "ṭiy",
+      "ḍiy",
+      "ciyX",
+      "ciy",
+      "jiyH",
+      "jiyX",
+      "chiy"
+    ],
+    "form_analyses": [
+      {
+        "form": "tey",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "teyX",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "teyH",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dey",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭiy",
+        "normalized": "ṭiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiy",
+        "normalized": "ḍiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ciyX",
+        "normalized": "ciy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ciy",
+        "normalized": "ciy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jiyH",
+        "normalized": "jiy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jiyX",
+        "normalized": "jiy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "chiy",
+        "normalized": "chiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tiy",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

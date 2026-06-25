@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761995+00:00",
+  "generated_at": "2026-06-25T21:28:46.930102+00:00",
   "id": "04-16",
   "schuessler": {
     "gsc_id": "04-16",
@@ -197,7 +197,7 @@
           {
             "character": "臼",
             "entry_id": "01-19",
-            "source_line_number": 1912,
+            "source_line_number": 1949,
             "character_line_raw": "%臼 giuwX + 許 xuX = giuX",
             "raw_block": "%臼 giuwX + 許 xuX = giuX",
             "transliteration_latex": null,
@@ -244,7 +244,7 @@
           ],
           "display_root": "kuy",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "giuwX",
@@ -1068,6 +1068,27 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kuy₅",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "giuwX",
+        "giuwH"
+      ],
+      "form_analyses": [
+        {
+          "form": "giuwX",
+          "normalized": "giuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giuwH",
+          "normalized": "giuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kuy",
       "ordinal": 5,
       "numbering_source": "document_order_occurrence"
@@ -1113,10 +1134,21 @@
       "entry_id": "04-16",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "臼",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-16",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "臼",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -1133,20 +1165,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

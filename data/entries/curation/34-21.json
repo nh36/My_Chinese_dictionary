@@ -403,7 +403,7 @@
         ],
         "display_root": "lun",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dwənX",
@@ -764,7 +764,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -785,7 +785,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2334,6 +2334,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lun₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dwənX",
+      "źiwinX",
+      "jiwinX",
+      "zwin",
+      "źiwinH",
+      "ṭhwin",
+      "dwənH",
+      "dwət"
+    ],
+    "form_analyses": [
+      {
+        "form": "dwənX",
+        "normalized": "dwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "źiwinX",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jiwinX",
+        "normalized": "jiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "zwin",
+        "normalized": "zwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "źiwinH",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭhwin",
+        "normalized": "ṭhwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dwənH",
+        "normalized": "dwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dwət",
+        "normalized": "dwət",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lun",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

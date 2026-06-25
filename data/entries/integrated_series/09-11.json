@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763464+00:00",
+  "generated_at": "2026-06-25T21:28:46.931690+00:00",
   "id": "09-11",
   "schuessler": {
     "gsc_id": "09-11",
@@ -744,7 +744,7 @@
           ],
           "display_root": "teṅ",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "teṅ",
@@ -1401,8 +1401,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -1428,8 +1428,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -1464,8 +1464,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -5458,6 +5458,62 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "teṅ",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": false,
+      "mc_forms": [
+        "teṅ",
+        "ṭeaṅ",
+        "teṅX",
+        "theṅ",
+        "deṅX",
+        "theṅX",
+        "deṅ"
+      ],
+      "form_analyses": [
+        {
+          "form": "teṅ",
+          "normalized": "teṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṭeaṅ",
+          "normalized": "ṭeaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "teṅX",
+          "normalized": "teṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "theṅ",
+          "normalized": "theṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "deṅX",
+          "normalized": "deṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "theṅX",
+          "normalized": "theṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "deṅ",
+          "normalized": "deṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "teṅ",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5503,10 +5559,21 @@
       "entry_id": "09-11",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "丁",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "09-11",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "丁",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5534,20 +5601,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

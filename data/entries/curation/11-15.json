@@ -404,7 +404,7 @@
         ],
         "display_root": "rok",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "luwk",
@@ -2734,6 +2734,34 @@
       "phonetic_component_series_root"
     ],
     "display_root": "rok",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "luwk",
+      "liəwk",
+      "paewk"
+    ],
+    "form_analyses": [
+      {
+        "form": "luwk",
+        "normalized": "luwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "liəwk",
+        "normalized": "liəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "paewk",
+        "normalized": "paewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "rok",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -188,7 +188,7 @@
         ],
         "display_root": "quar",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kwanH",
@@ -3462,6 +3462,55 @@
       "phonetic_component_series_root"
     ],
     "display_root": "quar",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kwanH",
+      "kwan",
+      "hwan",
+      "hwanH",
+      "giwen",
+      "khiwənH"
+    ],
+    "form_analyses": [
+      {
+        "form": "kwanH",
+        "normalized": "kwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kwan",
+        "normalized": "kwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwan",
+        "normalized": "hwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwanH",
+        "normalized": "hwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "giwen",
+        "normalized": "giwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khiwənH",
+        "normalized": "khiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "quar",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

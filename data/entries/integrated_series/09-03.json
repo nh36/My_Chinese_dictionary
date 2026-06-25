@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763396+00:00",
+  "generated_at": "2026-06-25T21:28:46.931609+00:00",
   "id": "09-03",
   "schuessler": {
     "gsc_id": "09-03",
@@ -374,7 +374,7 @@
           ],
           "display_root": "kreṅ",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "kiaeṅH",
@@ -1308,7 +1308,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1329,7 +1329,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -2180,6 +2180,62 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "keṅ",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "kiaeṅH",
+        "kiaeṅ",
+        "giaeṅ",
+        "giaeṅH",
+        "kiaeṅX",
+        "kyieṅX",
+        "giaeṅX"
+      ],
+      "form_analyses": [
+        {
+          "form": "kiaeṅH",
+          "normalized": "kiaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiaeṅ",
+          "normalized": "kiaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giaeṅ",
+          "normalized": "giaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giaeṅH",
+          "normalized": "giaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiaeṅX",
+          "normalized": "kiaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kyieṅX",
+          "normalized": "kyieṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giaeṅX",
+          "normalized": "giaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "keṅ",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2225,29 +2281,40 @@
       "entry_id": "09-03",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "敬",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "09-03",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "敬",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

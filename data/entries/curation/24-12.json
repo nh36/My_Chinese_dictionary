@@ -402,7 +402,7 @@
         ],
         "display_root": "qen",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "qaenH",
@@ -1745,7 +1745,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1766,7 +1766,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1796,7 +1796,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|匽|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2617,6 +2617,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "qen",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "qaenH",
+      "qenH",
+      "qiənH",
+      "qiənX",
+      "qenX",
+      "qaet"
+    ],
+    "form_analyses": [
+      {
+        "form": "qaenH",
+        "normalized": "qaen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qenH",
+        "normalized": "qen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qiənH",
+        "normalized": "qiən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qiənX",
+        "normalized": "qiən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qenX",
+        "normalized": "qen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qaet",
+        "normalized": "qaet",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "qen",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

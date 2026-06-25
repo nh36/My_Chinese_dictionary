@@ -425,7 +425,7 @@
         ],
         "display_root": "ʔit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "qyit",
@@ -1249,7 +1249,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1270,7 +1270,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -2125,6 +2125,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ʔit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "qyit",
+      "qet",
+      "qiyH",
+      "qeyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "qyit",
+        "normalized": "qyit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qet",
+        "normalized": "qet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qiyH",
+        "normalized": "qiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qeyH",
+        "normalized": "qey",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ʔit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -306,8 +306,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{qok₂}},",
-      "render_latex": "谷\t%gu3 / gǔ\n{\\large{qok₂}},\n\\textit{kuwk};\t%1202a",
+      "transliteration_latex": "{\\large{qok}},",
+      "render_latex": "谷\t%gu3 / gǔ\n{\\large{qok}},\n\\textit{kuwk};\t%1202a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -333,7 +333,7 @@
         ],
         "display_root": "qok",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kuwk",
@@ -532,8 +532,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "欠"
       },
-      "transliteration_latex": "{\\large{qok₂\\textsuperscript{·dehab}}},",
-      "render_latex": "欲\t%yu4 / yù\n{\\large{qok₂\\textsuperscript{·dehab}}},\n\\textit{yiəwk};\t%1202d",
+      "transliteration_latex": "{\\large{qok\\textsuperscript{·dehab}}},",
+      "render_latex": "欲\t%yu4 / yù\n{\\large{qok\\textsuperscript{·dehab}}},\n\\textit{yiəwk};\t%1202d",
       "wiktionary_semantic_validation": {
         "semantic_component": "欠",
         "phonetic_component": "谷",
@@ -947,8 +947,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}qok₂}},",
-      "render_latex": "浴\t%yu4\n{\\large{\\textsuperscript{aq·}qok₂}},\n\\textit{yiəwk};\t%1202f",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}qok}},",
+      "render_latex": "浴\t%yu4\n{\\large{\\textsuperscript{aq·}qok}},\n\\textit{yiəwk};\t%1202f",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "谷",
@@ -1133,8 +1133,8 @@
         "source": "ids_top_level",
         "semantic_component": "鳥"
       },
-      "transliteration_latex": "{\\large{qok₂\\textsuperscript{·av}}},",
-      "render_latex": "鵒\t%yu4\n{\\large{qok₂\\textsuperscript{·av}}},\n\\textit{yiəwk};\t%1202g",
+      "transliteration_latex": "{\\large{qok\\textsuperscript{·av}}},",
+      "render_latex": "鵒\t%yu4\n{\\large{qok\\textsuperscript{·av}}},\n\\textit{yiəwk};\t%1202g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1298,8 +1298,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "衣"
       },
-      "transliteration_latex": "{\\large{qok₂\\textsuperscript{·vest}}},",
-      "render_latex": "裕\t%yu4\n{\\large{qok₂\\textsuperscript{·vest}}},\n\\textit{yuH};\t%1202h",
+      "transliteration_latex": "{\\large{qok\\textsuperscript{·vest}}},",
+      "render_latex": "裕\t%yu4\n{\\large{qok\\textsuperscript{·vest}}},\n\\textit{yuH};\t%1202h",
       "wiktionary_semantic_validation": {
         "semantic_component": "衣",
         "phonetic_component": "谷",
@@ -1506,8 +1506,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}qok₂}},",
-      "render_latex": "俗\t%su2 / sú\n{\\large{\\textsuperscript{hom·}qok₂}},\n\\textit{ziəwk};\t%1220a",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}qok}},",
+      "render_latex": "俗\t%su2 / sú\n{\\large{\\textsuperscript{hom·}qok}},\n\\textit{ziəwk};\t%1220a",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "谷",
@@ -2166,9 +2166,44 @@
       "head_graph_oc_bs",
       "phonetic_component_series_root"
     ],
-    "display_root": "qok₂",
+    "display_root": "qok",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kuwk",
+      "yiəwk",
+      "yuH",
+      "ziəwk"
+    ],
+    "form_analyses": [
+      {
+        "form": "kuwk",
+        "normalized": "kuwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yiəwk",
+        "normalized": "yiəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yuH",
+        "normalized": "yu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ziəwk",
+        "normalized": "ziəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "qok",
-    "ordinal": 2,
+    "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }
 }

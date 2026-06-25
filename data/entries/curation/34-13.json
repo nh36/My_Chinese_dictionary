@@ -685,7 +685,7 @@
         ],
         "display_root": "kuyr",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kiun",
@@ -1968,7 +1968,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1989,7 +1989,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2019,7 +2019,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|軍|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -4327,6 +4327,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "kuyr",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kiun",
+      "hwən",
+      "hiunH",
+      "hiwənH",
+      "hiun",
+      "hiwɨy",
+      "hiwɨyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "kiun",
+        "normalized": "kiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hwən",
+        "normalized": "hwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hiunH",
+        "normalized": "hiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiwənH",
+        "normalized": "hiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiun",
+        "normalized": "hiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiwɨy",
+        "normalized": "hiwɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hiwɨyH",
+        "normalized": "hiwɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "kuyr",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

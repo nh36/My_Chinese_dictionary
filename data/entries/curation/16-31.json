@@ -677,7 +677,7 @@
         ],
         "display_root": "sew",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tsiew",
@@ -3658,6 +3658,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "sew",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tsiew",
+      "dziew",
+      "tsiewH",
+      "dziewH",
+      "tsiuw",
+      "tṣaewk"
+    ],
+    "form_analyses": [
+      {
+        "form": "tsiew",
+        "normalized": "tsiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dziew",
+        "normalized": "dziew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsiewH",
+        "normalized": "tsiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dziewH",
+        "normalized": "dziew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsiuw",
+        "normalized": "tsiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣaewk",
+        "normalized": "tṣaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "sew",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

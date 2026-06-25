@@ -268,8 +268,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{taṅ₈}},",
-      "render_latex": "象\t%xiang4 / xiàng\n{\\large{taṅ₈}},\n\\textit{ziaṅX};\t%0728a",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ₆}},",
+      "render_latex": "象\t%xiang4 / xiàng\n{\\large{t\\textoverset{b}{a}ṅ₆}},\n\\textit{ziaṅX};\t%0728a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -291,10 +291,10 @@
         "bs_node_roots": [
           "tsaṅ"
         ],
-        "display_root": "taṅ",
+        "display_root": "t\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "ziaṅX"
         ],
@@ -461,8 +461,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}taṅ₈}},",
-      "render_latex": "像\t%xiang4\n{\\large{\\textsuperscript{hom·}taṅ₈}},\n\\textit{ziaṅX};\t%0728e",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}t\\textoverset{b}{a}ṅ₆}},",
+      "render_latex": "像\t%xiang4\n{\\large{\\textsuperscript{hom·}t\\textoverset{b}{a}ṅ₆}},\n\\textit{ziaṅX};\t%0728e",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "象",
@@ -607,8 +607,8 @@
         "source": "ids_top_level",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}taṅ₈}},",
-      "render_latex": "橡\t%xiang4\n{\\large{\\textsuperscript{arb·}taṅ₈}},\n\\textit{ziaṅX};\t%0728f",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}t\\textoverset{b}{a}ṅ₆}},",
+      "render_latex": "橡\t%xiang4\n{\\large{\\textsuperscript{arb·}t\\textoverset{b}{a}ṅ₆}},\n\\textit{ziaṅX};\t%0728f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -966,9 +966,23 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "taṅ₈",
-    "base_root": "taṅ",
-    "ordinal": 8,
+    "display_root": "t\\textoverset{b}{a}ṅ₆",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "ziaṅX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ziaṅX",
+        "normalized": "ziaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "t\\textoverset{b}{a}ṅ",
+    "ordinal": 6,
     "numbering_source": "document_order_occurrence"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760359+00:00",
+  "generated_at": "2026-06-25T21:28:46.927988+00:00",
   "id": "02-01",
   "schuessler": {
     "gsc_id": "02-01",
@@ -954,7 +954,7 @@
           ],
           "display_root": "kak",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "kak",
@@ -2483,7 +2483,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -2504,7 +2504,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "ids_top_level",
@@ -6388,8 +6388,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -6415,8 +6415,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -6451,8 +6451,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -10042,6 +10042,118 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "kak",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "kak",
+        "kaek",
+        "khaeH",
+        "khaek",
+        "khak",
+        "haek",
+        "hak",
+        "maeH",
+        "maek",
+        "ṅaek",
+        "lak",
+        "luH",
+        "ṅaeH",
+        "lek",
+        "liak"
+      ],
+      "form_analyses": [
+        {
+          "form": "kak",
+          "normalized": "kak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kaek",
+          "normalized": "kaek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khaeH",
+          "normalized": "khae",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khaek",
+          "normalized": "khaek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khak",
+          "normalized": "khak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "haek",
+          "normalized": "haek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hak",
+          "normalized": "hak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "maeH",
+          "normalized": "mae",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "maek",
+          "normalized": "maek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅaek",
+          "normalized": "ṅaek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "lak",
+          "normalized": "lak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "luH",
+          "normalized": "lu",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅaeH",
+          "normalized": "ṅae",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "lek",
+          "normalized": "lek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "liak",
+          "normalized": "liak",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kak",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -10087,10 +10199,21 @@
       "entry_id": "02-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "各",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "各",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -10140,20 +10263,20 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 5
+      "curation_division_note": 6
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 5
+      "structural_internal": 6
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 7
+      "internal_only": 8
     }
   },
   "render_mode": "generated_missing_series"

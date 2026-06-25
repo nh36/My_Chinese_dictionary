@@ -19,6 +19,7 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolve_series_roots.derive_oc_root("*ləʔ"), "ly")
         self.assertEqual(resolve_series_roots.derive_oc_root("*ŋrar", mode="node"), "ŋrar")
         self.assertEqual(resolve_series_roots.derive_oc_root("*kap {*k(r)ap}"), "kap")
+        self.assertEqual(resolve_series_roots.derive_oc_root("*qʷʰo̠ɡʷ"), "quok")
         self.assertEqual(resolve_series_roots.derive_oc_root("*tsraŋ {*[ts]raŋ}", mode="node"), "tsraṅ")
         self.assertEqual(resolve_series_roots.derive_oc_root("*s.tʰˤiwk", mode="node"), "tsik")
         self.assertEqual(resolve_series_roots.derive_oc_root("*ɡ‧laɡ"), "lak")
@@ -149,6 +150,14 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("character"), "莽")
         self.assertEqual(resolved.get("root"), "maṅ")
         self.assertEqual(resolved.get("source"), "head_graph_mc_coda")
+
+    def test_02_12_labialized_oc_coda_is_preserved(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/02-12.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "霍")
+        self.assertEqual(resolved.get("root"), "quok")
 
     def test_02_03_falls_back_to_b_suffix_when_a_lacks_oc_evidence(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/02-03.json").read_text(encoding="utf-8"))

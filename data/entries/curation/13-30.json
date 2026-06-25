@@ -570,7 +570,7 @@
         ],
         "display_root": "lu",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yuw",
@@ -1636,7 +1636,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1657,7 +1657,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1687,7 +1687,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|由|alt1=扌|ls=psc|t1=hand|c1=s|c2=p}}"
@@ -4451,6 +4451,69 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "lu₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yuw",
+      "ḍiuwk",
+      "yuwH",
+      "ḍiuw",
+      "ṭhiuw",
+      "ḍiuwH",
+      "ziuwH",
+      "dek"
+    ],
+    "form_analyses": [
+      {
+        "form": "yuw",
+        "normalized": "yuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiuwk",
+        "normalized": "ḍiuwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yuwH",
+        "normalized": "yuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiuw",
+        "normalized": "ḍiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhiuw",
+        "normalized": "ṭhiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiuwH",
+        "normalized": "ḍiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ziuwH",
+        "normalized": "ziuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dek",
+        "normalized": "dek",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lu",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

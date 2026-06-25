@@ -235,7 +235,7 @@
         ],
         "display_root": "ton",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ciwen",
@@ -2214,7 +2214,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2244,7 +2244,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|專|c1=s|c2=p|t1=hand|ls=psc}}"
@@ -3410,6 +3410,104 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "ton",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ciwen",
+      "dwan",
+      "ṭiwenX",
+      "ḍiwen",
+      "ḍiwenH",
+      "ṭiwenH",
+      "ḍiwenX",
+      "jiwen",
+      "jiwenX",
+      "jiwin",
+      "ciwinX",
+      "ciwenX",
+      "twan"
+    ],
+    "form_analyses": [
+      {
+        "form": "ciwen",
+        "normalized": "ciwen",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "dwan",
+        "normalized": "dwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭiwenX",
+        "normalized": "ṭiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiwen",
+        "normalized": "ḍiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiwenH",
+        "normalized": "ḍiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭiwenH",
+        "normalized": "ṭiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiwenX",
+        "normalized": "ḍiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jiwen",
+        "normalized": "jiwen",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jiwenX",
+        "normalized": "jiwen",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jiwin",
+        "normalized": "jiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ciwinX",
+        "normalized": "ciwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ciwenX",
+        "normalized": "ciwen",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "twan",
+        "normalized": "twan",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ton",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

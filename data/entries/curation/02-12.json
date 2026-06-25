@@ -254,8 +254,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{quo}},",
-      "render_latex": "霍\t%huo4\n{\\large{quo}},\n\\textit{xwak};\t%0775a",
+      "transliteration_latex": "{\\large{qu\\textoverset{a}{o}k}},",
+      "render_latex": "霍\t%huo4\n{\\large{qu\\textoverset{a}{o}k}},\n\\textit{xwak};\t%0775a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -267,15 +267,15 @@
         "phonetic_hint": "霍"
       },
       "resolved_node_root": {
-        "root": "quo",
+        "root": "qu\\textoverset{a}{o}k",
         "source": "node_transliteration_fallback",
         "descendant_count": 2,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "quo",
+        "display_root": "qu\\textoverset{a}{o}k",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "xwak",
@@ -367,8 +367,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{quo}},",
-      "render_latex": "靃\t%huo4\n{\\large{quo}},\n\\textit{xwak};\t%0775b",
+      "transliteration_latex": "{\\large{qu\\textoverset{a}{o}k}},",
+      "render_latex": "靃\t%huo4\n{\\large{qu\\textoverset{a}{o}k}},\n\\textit{xwak};\t%0775b",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -494,8 +494,8 @@
         "source": "ids_top_level",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}quo}},",
-      "render_latex": "藿\t%huo4\n{\\large{\\textsuperscript{herb˸}quo}},\n\\textit{xwak};\t%0775e",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}qu\\textoverset{a}{o}k}},",
+      "render_latex": "藿\t%huo4\n{\\large{\\textsuperscript{herb˸}qu\\textoverset{a}{o}k}},\n\\textit{xwak};\t%0775e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -613,8 +613,8 @@
         "source": "ids_top_level",
         "semantic_component": "月"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{luna·}quo}},",
-      "render_latex": "臛\t%huo4\n{\\large{\\textsuperscript{luna·}quo}},\n\\textit{xəwk};\t%0775f",
+      "transliteration_latex": "{\\large{\\textsuperscript{luna·}qu\\textoverset{a}{o}k}},",
+      "render_latex": "臛\t%huo4\n{\\large{\\textsuperscript{luna·}qu\\textoverset{a}{o}k}},\n\\textit{xəwk};\t%0775f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -968,7 +968,7 @@
       "character": "霍",
       "gsr": null,
       "oc_bs": "*qʷʰo̠ɡʷ",
-      "root": "quo",
+      "root": "quok",
       "source": "head_graph_oc_shengfu",
       "support_count": 1,
       "supporting_sources": [
@@ -977,7 +977,7 @@
     }
   ],
   "resolved_series_root": {
-    "root": "quo",
+    "root": "quok",
     "source": "head_graph_oc_shengfu",
     "character": "霍",
     "oc_bs": "*qʷʰo̠ɡʷ",
@@ -986,8 +986,29 @@
     "supporting_sources": [
       "head_graph_oc_shengfu"
     ],
-    "display_root": "quo",
-    "base_root": "quo",
+    "display_root": "qu\\textoverset{a}{o}k",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "xwak",
+      "xəwk"
+    ],
+    "form_analyses": [
+      {
+        "form": "xwak",
+        "normalized": "xwak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "xəwk",
+        "normalized": "xəwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "qu\\textoverset{a}{o}k",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

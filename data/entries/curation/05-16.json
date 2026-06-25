@@ -472,7 +472,7 @@
         ],
         "display_root": "lyk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yik",
@@ -1764,7 +1764,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1785,7 +1785,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1815,7 +1815,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=⺘|式|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -4788,6 +4788,76 @@
       "phonetic_component_series_root"
     ],
     "display_root": "lyk",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yik",
+      "śik",
+      "ṭhik",
+      "śiH",
+      "thək",
+      "dək",
+      "dəyH",
+      "thəyH",
+      "dojH"
+    ],
+    "form_analyses": [
+      {
+        "form": "yik",
+        "normalized": "yik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śik",
+        "normalized": "śik",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭhik",
+        "normalized": "ṭhik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śiH",
+        "normalized": "śi",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "thək",
+        "normalized": "thək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dək",
+        "normalized": "dək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dəyH",
+        "normalized": "dəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thəyH",
+        "normalized": "thəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dojH",
+        "normalized": "doj",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lyk",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

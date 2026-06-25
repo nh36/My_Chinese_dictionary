@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788642+00:00",
+  "generated_at": "2026-06-25T21:28:46.957812+00:00",
   "id": "34-11",
   "schuessler": {
     "gsc_id": "34-11",
@@ -418,7 +418,7 @@
           ],
           "display_root": "kun",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "khwin",
@@ -887,7 +887,7 @@
           "phonetic_hint": "囷"
         },
         "resolved_node_root": {
-          "root": "kun",
+          "root": "kun₂",
           "source": "node_transliteration_fallback",
           "descendant_count": 1,
           "bs_support_count": 0,
@@ -1078,7 +1078,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1099,7 +1099,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -1197,7 +1197,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1218,7 +1218,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -2097,6 +2097,41 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "kun₂",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "khwin",
+        "gwinX",
+        "kwin",
+        "kiunH"
+      ],
+      "form_analyses": [
+        {
+          "form": "khwin",
+          "normalized": "khwin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "gwinX",
+          "normalized": "gwin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kwin",
+          "normalized": "kwin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiunH",
+          "normalized": "kiun",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kun",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -2142,10 +2177,21 @@
       "entry_id": "34-11",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "囷",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "34-11",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "囷",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2162,20 +2208,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

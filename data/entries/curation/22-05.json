@@ -501,7 +501,7 @@
         ],
         "display_root": "gat",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "hiwət",
@@ -3293,6 +3293,27 @@
       "phonetic_component_series_root"
     ],
     "display_root": "quat",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "hiwət",
+      "hwat"
+    ],
+    "form_analyses": [
+      {
+        "form": "hiwət",
+        "normalized": "hiwət",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hwat",
+        "normalized": "hwat",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "quat",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

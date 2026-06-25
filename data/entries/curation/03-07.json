@@ -231,8 +231,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{kaṅ₄}},",
-      "render_latex": "竟\t%jing4\n{\\large{kaṅ₄}},\n\\textit{kiaeṅH};\t%0752a\n\\textit{kiaeṅX};",
+      "transliteration_latex": "{\\large{k\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "竟\t%jing4\n{\\large{k\\textoverset{b}{a}ṅ₅}},\n\\textit{kiaeṅH};\t%0752a\n\\textit{kiaeṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -256,10 +256,10 @@
           "kraṅ",
           "qraṅ"
         ],
-        "display_root": "kaṅ",
+        "display_root": "k\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "kiaeṅH",
           "kiaeṅX",
@@ -425,7 +425,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -446,14 +446,14 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
         "semantic_component": "土"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{terr·}kaṅ₄}},",
-      "render_latex": "境\t%jing3 / jǐng\n{\\large{\\textsuperscript{terr·}kaṅ₄}},\n\\textit{kiaeṅX};\t%0752b",
+      "transliteration_latex": "{\\large{\\textsuperscript{terr·}k\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "境\t%jing3 / jǐng\n{\\large{\\textsuperscript{terr·}k\\textoverset{b}{a}ṅ₅}},\n\\textit{kiaeṅX};\t%0752b",
       "wiktionary_semantic_validation": {
         "semantic_component": "土",
         "phonetic_component": "竟",
@@ -476,7 +476,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|竟|ls=psc|c1=s|c2=p|t1=earth}}"
@@ -658,8 +658,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}kaṅ₄}},",
-      "render_latex": "鏡\t%jing4 / jìng\n{\\large{\\textsuperscript{met·}kaṅ₄}},\n\\textit{kiaeṅH};\t%0752c",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}k\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "鏡\t%jing4 / jìng\n{\\large{\\textsuperscript{met·}k\\textoverset{b}{a}ṅ₅}},\n\\textit{kiaeṅH};\t%0752c",
       "wiktionary_semantic_validation": {
         "semantic_component": "金",
         "phonetic_component": "竟",
@@ -804,8 +804,8 @@
         "source": "ids_top_level",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}kaṅ₄}},",
-      "render_latex": "滰\t%jiang3\n{\\large{\\textsuperscript{aq·}kaṅ₄}},\n\\textit{giaṅX};\t%0752d",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}k\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "滰\t%jiang3\n{\\large{\\textsuperscript{aq·}k\\textoverset{b}{a}ṅ₅}},\n\\textit{giaṅX};\t%0752d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1168,9 +1168,37 @@
     "supporting_sources": [
       "head_graph_oc_shengfu"
     ],
-    "display_root": "kaṅ₄",
-    "base_root": "kaṅ",
-    "ordinal": 4,
+    "display_root": "k\\textoverset{b}{a}ṅ₅",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "kiaeṅH",
+      "kiaeṅX",
+      "giaṅX"
+    ],
+    "form_analyses": [
+      {
+        "form": "kiaeṅH",
+        "normalized": "kiaeṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiaeṅX",
+        "normalized": "kiaeṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giaṅX",
+        "normalized": "giaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "k\\textoverset{b}{a}ṅ",
+    "ordinal": 5,
     "numbering_source": "document_order_occurrence"
   }
 }

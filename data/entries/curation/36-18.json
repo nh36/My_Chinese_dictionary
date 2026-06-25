@@ -108,7 +108,7 @@
         "bs_node_roots": [],
         "display_root": "nam",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ñiemX",
@@ -1256,6 +1256,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -1270,6 +1277,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -2526,6 +2540,48 @@
       "phonetic_component_series_root"
     ],
     "display_root": "nam",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ñiemX",
+      "ñiem",
+      "nəm",
+      "nam",
+      "tham"
+    ],
+    "form_analyses": [
+      {
+        "form": "ñiemX",
+        "normalized": "ñiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ñiem",
+        "normalized": "ñiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "nəm",
+        "normalized": "nəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "nam",
+        "normalized": "nam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tham",
+        "normalized": "tham",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "nam",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

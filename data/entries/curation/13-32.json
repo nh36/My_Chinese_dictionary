@@ -600,7 +600,7 @@
         ],
         "display_root": "liw",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yuw",
@@ -987,23 +987,29 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{liw\\textsuperscript{·cri}}},",
-      "render_latex": "修\t%xiu1 / xiū\n{\\large{liw\\textsuperscript{·cri}}},\n\\textit{siuw};\t%1077d",
+      "transliteration_latex": "{\\large{liw\\textsuperscript{·crin}}},",
+      "render_latex": "修\t%xiu1 / xiū\n{\\large{liw\\textsuperscript{·crin}}},\n\\textit{siuw};\t%1077d",
       "wiktionary_semantic_validation": {
-        "semantic_component": "彡",
+        "semantic_component": "髟",
         "phonetic_component": "攸",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "修",
-          "semantic_component": "彡",
+          "semantic_component": "髟",
           "phonetic_component": "攸",
           "position": "suffix-dot",
-          "abbreviation": "cri",
+          "abbreviation": "crin",
           "inventory_matches": [
             {
-              "graph_raw": "彡",
-              "label_token": "cri",
-              "abbreviation": "cri",
+              "graph_raw": "髟",
+              "label_token": "crin(is)",
+              "abbreviation": "crin",
+              "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
               "learned": true,
               "evidence_count": 1
             }
@@ -1013,19 +1019,25 @@
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "cri",
+        "abbreviation": "crin",
         "position": "suffix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "彡",
-            "label_token": "cri",
-            "abbreviation": "cri",
+            "graph_raw": "髟",
+            "label_token": "crin(is)",
+            "abbreviation": "crin",
+            "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
             "learned": true,
             "evidence_count": 1
           }
         ],
         "source": "wiktionary_han_compound",
-        "semantic_component": "彡"
+        "semantic_component": "髟"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -4928,6 +4940,41 @@
       "head_graph_oc_bs"
     ],
     "display_root": "liw",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yuw",
+      "dew",
+      "dewH",
+      "jiuwk"
+    ],
+    "form_analyses": [
+      {
+        "form": "yuw",
+        "normalized": "yuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dew",
+        "normalized": "dew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dewH",
+        "normalized": "dew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jiuwk",
+        "normalized": "jiuwk",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "liw",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

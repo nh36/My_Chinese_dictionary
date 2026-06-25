@@ -764,7 +764,7 @@
         ],
         "display_root": "tit",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ciyH",
@@ -1219,7 +1219,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1240,7 +1240,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1270,7 +1270,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|至|c1=s|c2=p|t1=hand|ls=psc}}"
@@ -2301,7 +2301,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -2322,7 +2322,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -4256,6 +4256,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tit",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ciyH",
+      "ṭiyH",
+      "ṭit",
+      "det",
+      "tet",
+      "cit",
+      "śit",
+      "ḍit"
+    ],
+    "form_analyses": [
+      {
+        "form": "ciyH",
+        "normalized": "ciy",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭiyH",
+        "normalized": "ṭiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭit",
+        "normalized": "ṭit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "det",
+        "normalized": "det",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tet",
+        "normalized": "tet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "cit",
+        "normalized": "cit",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śit",
+        "normalized": "śit",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ḍit",
+        "normalized": "ḍit",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tit",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

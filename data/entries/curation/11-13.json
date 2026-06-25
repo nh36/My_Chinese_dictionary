@@ -285,7 +285,7 @@
         ],
         "display_root": "tok",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ṭhiəwk",
@@ -739,7 +739,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -2198,6 +2198,48 @@
       "phonetic_component_series_root"
     ],
     "display_root": "tok₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ṭhiəwk",
+      "ṭaewk",
+      "tuwk",
+      "ṭiəwṅX",
+      "trjowk"
+    ],
+    "form_analyses": [
+      {
+        "form": "ṭhiəwk",
+        "normalized": "ṭhiəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭaewk",
+        "normalized": "ṭaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tuwk",
+        "normalized": "tuwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭiəwṅX",
+        "normalized": "ṭiəwṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "trjowk",
+        "normalized": "trjowk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tok",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

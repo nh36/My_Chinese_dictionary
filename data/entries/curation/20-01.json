@@ -204,7 +204,7 @@
         ],
         "display_root": "ket",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kheat",
@@ -717,7 +717,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -747,7 +747,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|㓞|手|ls=psc|c1=p|c2=s|t2=hand}}"
@@ -2960,6 +2960,90 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "ket",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kheat",
+      "kheyH",
+      "khet",
+      "siet",
+      "kyieyH",
+      "cieyH",
+      "kheaH",
+      "set",
+      "ḫet",
+      "ket",
+      "ṅet"
+    ],
+    "form_analyses": [
+      {
+        "form": "kheat",
+        "normalized": "kheat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kheyH",
+        "normalized": "khey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khet",
+        "normalized": "khet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "siet",
+        "normalized": "siet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kyieyH",
+        "normalized": "kyiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "cieyH",
+        "normalized": "ciey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "kheaH",
+        "normalized": "khea",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "set",
+        "normalized": "set",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫet",
+        "normalized": "ḫet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ket",
+        "normalized": "ket",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṅet",
+        "normalized": "ṅet",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ket",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761802+00:00",
+  "generated_at": "2026-06-25T21:28:46.929854+00:00",
   "id": "03-69",
   "schuessler": {
     "gsc_id": "03-69",
@@ -171,7 +171,7 @@
           {
             "character": "皿",
             "entry_id": "01-01",
-            "source_line_number": 1473,
+            "source_line_number": 1510,
             "character_line_raw": "䀇 \\footnote{SWJZ: 从皿从缶，古聲。, but I have my doubts.}\t%gu3\t",
             "raw_block": "䀇 \\footnote{SWJZ: 从皿从缶，古聲。, but I have my doubts.}\t%gu3\t\n\\textit{kuX};\t%kuX\t0049r",
             "transliteration_latex": null,
@@ -187,7 +187,7 @@
             ]
           }
         ],
-        "render_latex": "皿\t%min3\n{\\large{maṅ₈}},\n\\textit{miaeṅX};\t%0761a",
+        "render_latex": "皿\t%min3\n{\\large{maṅ₆}},\n\\textit{miaeṅX};\t%0761a",
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
@@ -197,7 +197,7 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{maṅ₈}},",
+        "transliteration_latex": "{\\large{maṅ₆}},",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -221,7 +221,7 @@
           ],
           "display_root": "maṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "miaeṅX",
@@ -426,8 +426,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "子"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{fili˸}maṅ₈}},",
-        "render_latex": "孟\t%meng4 / mèng\n{\\large{\\textsuperscript{fili˸}maṅ₈}},\n\\textit{maeṅH};\t%0761e",
+        "transliteration_latex": "{\\large{\\textsuperscript{fili˸}maṅ₆}},",
+        "render_latex": "孟\t%meng4 / mèng\n{\\large{\\textsuperscript{fili˸}maṅ₆}},\n\\textit{maeṅH};\t%0761e",
         "wiktionary_semantic_validation": {
           "semantic_component": "子",
           "phonetic_component": "皿",
@@ -933,9 +933,37 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ],
-      "display_root": "maṅ₈",
+      "display_root": "maṅ₆",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "miaeṅX",
+        "maeṅH",
+        "maeṅX"
+      ],
+      "form_analyses": [
+        {
+          "form": "miaeṅX",
+          "normalized": "miaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "maeṅH",
+          "normalized": "maeṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "maeṅX",
+          "normalized": "maeṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "maṅ",
-      "ordinal": 8,
+      "ordinal": 6,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -979,10 +1007,21 @@
       "entry_id": "03-69",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "皿",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-69",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "皿",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -999,20 +1038,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

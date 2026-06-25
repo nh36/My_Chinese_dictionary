@@ -486,7 +486,7 @@
         ],
         "display_root": "lek",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yieH",
@@ -848,7 +848,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -869,7 +869,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -2082,6 +2082,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -2096,6 +2103,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2119,6 +2133,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ],
           "template_raw": "{{Han compound|髟|易|c1=s|c2=p|t1=long hair|ls=psc}}"
@@ -3700,6 +3721,83 @@
       "phonetic_component_series_root"
     ],
     "display_root": "lek",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yieH",
+      "yiek",
+      "thek",
+      "sek",
+      "theyH",
+      "śiek",
+      "deyH",
+      "siek",
+      "sieH",
+      "zyeX"
+    ],
+    "form_analyses": [
+      {
+        "form": "yieH",
+        "normalized": "yie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiek",
+        "normalized": "yiek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "thek",
+        "normalized": "thek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "sek",
+        "normalized": "sek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "theyH",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiek",
+        "normalized": "śiek",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "deyH",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "siek",
+        "normalized": "siek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "sieH",
+        "normalized": "sie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "zyeX",
+        "normalized": "zye",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "lek",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

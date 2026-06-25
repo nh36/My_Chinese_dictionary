@@ -751,7 +751,7 @@
         ],
         "display_root": "ty",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "ciX",
@@ -2182,7 +2182,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "packet_family_ids",
@@ -3036,7 +3036,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3066,7 +3066,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|寺|c1=s|c2=p|ls=psc}}"
@@ -3339,8 +3339,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -6702,6 +6702,34 @@
       "head_graph_oc_bs"
     ],
     "display_root": "ty",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "ciX",
+      "ṭhiX",
+      "chiX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ciX",
+        "normalized": "ci",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭhiX",
+        "normalized": "ṭhi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "chiX",
+        "normalized": "chi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "ty",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

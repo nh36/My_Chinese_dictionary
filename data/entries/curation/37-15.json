@@ -474,7 +474,7 @@
         ],
         "display_root": "ryp",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "lip",
@@ -1588,7 +1588,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1609,7 +1609,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1639,7 +1639,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|立|c1=s|c2=p|t1=hand|ls=psc}}"
@@ -2998,6 +2998,41 @@
       "phonetic_component_series_root"
     ],
     "display_root": "ryp₅",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "lip",
+      "gip",
+      "khip",
+      "ləp"
+    ],
+    "form_analyses": [
+      {
+        "form": "lip",
+        "normalized": "lip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "gip",
+        "normalized": "gip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khip",
+        "normalized": "khip",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ləp",
+        "normalized": "ləp",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ryp",
     "ordinal": 5,
     "numbering_source": "document_order_occurrence"

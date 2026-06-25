@@ -1,9 +1,23 @@
 # Integrated series conflicts
 
 - Integrated series records: 586
-- Hand-source raw mismatches: 0
+- Hand-source raw mismatches: 9
 - Pilot-only entries: 0
 - Generated-only missing-series packets: 466
+
+## Hand-source mismatches
+
+| GSC | Conflicts |
+| --- | --- |
+| `01-22` | hand_source_raw_mismatch |
+| `01-30` | hand_source_raw_mismatch |
+| `01-42` | hand_source_raw_mismatch |
+| `10-01` | hand_source_raw_mismatch |
+| `13-26` | hand_source_raw_mismatch |
+| `18-01` | hand_source_raw_mismatch |
+| `19-01` | hand_source_raw_mismatch |
+| `19-16` | hand_source_raw_mismatch |
+| `19-21` | hand_source_raw_mismatch |
 
 ## Generated-only packets
 

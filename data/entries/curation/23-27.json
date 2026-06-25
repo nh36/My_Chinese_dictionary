@@ -677,7 +677,7 @@
         ],
         "display_root": "pen",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "penX",
@@ -4315,6 +4315,90 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pen",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "penX",
+      "penH",
+      "ben",
+      "benX",
+      "pen",
+      "pyien",
+      "pyienX",
+      "phyien",
+      "phyienH",
+      "byienH",
+      "byienX"
+    ],
+    "form_analyses": [
+      {
+        "form": "penX",
+        "normalized": "pen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "penH",
+        "normalized": "pen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ben",
+        "normalized": "ben",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "benX",
+        "normalized": "ben",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pen",
+        "normalized": "pen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pyien",
+        "normalized": "pyien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "pyienX",
+        "normalized": "pyien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phyien",
+        "normalized": "phyien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phyienH",
+        "normalized": "phyien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "byienH",
+        "normalized": "byien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "byienX",
+        "normalized": "byien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "pen",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

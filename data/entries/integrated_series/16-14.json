@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765930+00:00",
+  "generated_at": "2026-06-25T21:28:46.934194+00:00",
   "id": "16-14",
   "schuessler": {
     "gsc_id": "16-14",
@@ -936,7 +936,7 @@
           ],
           "display_root": "ṅew",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "ṅew",
@@ -2783,7 +2783,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -2804,7 +2804,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "ids_top_level",
@@ -4608,7 +4608,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -4629,7 +4629,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -4659,7 +4659,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|ls=psc|手|alt1=扌|堯|c1=s|c2=p|t1=hand}}"
@@ -7084,6 +7084,132 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "ṅew",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "ṅew",
+        "kewX",
+        "kew",
+        "khew",
+        "hew",
+        "hewX",
+        "gyiew",
+        "khaew",
+        "khewX",
+        "ñiewH",
+        "ñiewX",
+        "ñiew",
+        "ṇaewH",
+        "ṇaew",
+        "ṇaewX",
+        "haw",
+        "śiew"
+      ],
+      "form_analyses": [
+        {
+          "form": "ṅew",
+          "normalized": "ṅew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kewX",
+          "normalized": "kew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kew",
+          "normalized": "kew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khew",
+          "normalized": "khew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hew",
+          "normalized": "hew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hewX",
+          "normalized": "hew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "gyiew",
+          "normalized": "gyiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khaew",
+          "normalized": "khaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khewX",
+          "normalized": "khew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ñiewH",
+          "normalized": "ñiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñiewX",
+          "normalized": "ñiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñiew",
+          "normalized": "ñiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṇaewH",
+          "normalized": "ṇaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṇaew",
+          "normalized": "ṇaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṇaewX",
+          "normalized": "ṇaew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "haw",
+          "normalized": "haw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "śiew",
+          "normalized": "śiew",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
       "base_root": "ṅew",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -7129,29 +7255,40 @@
       "entry_id": "16-14",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "堯",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "16-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "堯",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

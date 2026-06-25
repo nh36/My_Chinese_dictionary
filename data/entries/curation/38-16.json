@@ -639,7 +639,7 @@
         ],
         "display_root": "lim",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dəm",
@@ -1832,7 +1832,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1853,7 +1853,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -3621,6 +3621,76 @@
     "confidence": "provisional-oc",
     "supporting_characters": 2,
     "display_root": "lim",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dəm",
+      "yiemX",
+      "dziem",
+      "ziem",
+      "yim",
+      "zim",
+      "dəmX",
+      "thəm",
+      "demX"
+    ],
+    "form_analyses": [
+      {
+        "form": "dəm",
+        "normalized": "dəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yiemX",
+        "normalized": "yiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dziem",
+        "normalized": "dziem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ziem",
+        "normalized": "ziem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yim",
+        "normalized": "yim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "zim",
+        "normalized": "zim",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dəmX",
+        "normalized": "dəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thəm",
+        "normalized": "thəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "demX",
+        "normalized": "dem",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lim",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -220,8 +220,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{taṅ₅}},",
-      "render_latex": "丈\t%zhang4 / zhàng\n{\\large{taṅ₅}},\n\\textit{ḍiaṅX};\t%0722a",
+      "transliteration_latex": "{\\large{t\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "丈\t%zhang4 / zhàng\n{\\large{t\\textoverset{b}{a}ṅ₅}},\n\\textit{ḍiaṅX};\t%0722a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -243,10 +243,10 @@
         "bs_node_roots": [
           "traṅ"
         ],
-        "display_root": "taṅ",
+        "display_root": "t\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "ḍiaṅX",
           "ḍiaṅH"
@@ -427,8 +427,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}taṅ₅}},",
-      "render_latex": "杖\t%zhang4\n{\\large{\\textsuperscript{arb·}taṅ₅}},\n\\textit{ḍiaṅH};\t%0722b\n\\textit{ḍiaṅX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}t\\textoverset{b}{a}ṅ₅}},",
+      "render_latex": "杖\t%zhang4\n{\\large{\\textsuperscript{arb·}t\\textoverset{b}{a}ṅ₅}},\n\\textit{ḍiaṅH};\t%0722b\n\\textit{ḍiaṅX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "木",
         "phonetic_component": "丈",
@@ -690,8 +690,29 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "taṅ₅",
-    "base_root": "taṅ",
+    "display_root": "t\\textoverset{b}{a}ṅ₅",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "ḍiaṅX",
+      "ḍiaṅH"
+    ],
+    "form_analyses": [
+      {
+        "form": "ḍiaṅX",
+        "normalized": "ḍiaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiaṅH",
+        "normalized": "ḍiaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "t\\textoverset{b}{a}ṅ",
     "ordinal": 5,
     "numbering_source": "document_order_occurrence"
   }

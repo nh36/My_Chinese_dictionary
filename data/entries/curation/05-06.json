@@ -700,7 +700,7 @@
         ],
         "display_root": "quyk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ḫwik",
@@ -879,7 +879,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -900,7 +900,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -930,7 +930,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|或|ls=psc|c1=s|c2=p}}"
@@ -4473,6 +4473,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "quyk",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ḫwik",
+      "ḫwək",
+      "hwik",
+      "kwək",
+      "kweak"
+    ],
+    "form_analyses": [
+      {
+        "form": "ḫwik",
+        "normalized": "ḫwik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḫwək",
+        "normalized": "ḫwək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwik",
+        "normalized": "hwik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kwək",
+        "normalized": "kwək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kweak",
+        "normalized": "kweak",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "quyk",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

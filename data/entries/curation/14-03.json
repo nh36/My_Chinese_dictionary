@@ -487,7 +487,7 @@
         ],
         "display_root": "kuk",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "haewk",
@@ -1255,7 +1255,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1285,7 +1285,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|覺|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2047,6 +2047,27 @@
       "head_graph_oc_bs"
     ],
     "display_root": "kuk₄",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": false,
+    "mc_forms": [
+      "haewk",
+      "haewH"
+    ],
+    "form_analyses": [
+      {
+        "form": "haewk",
+        "normalized": "haewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "haewH",
+        "normalized": "haew",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kuk",
     "ordinal": 4,
     "numbering_source": "document_order_occurrence"

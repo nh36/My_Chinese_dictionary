@@ -829,7 +829,7 @@
         ],
         "display_root": "ruy",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "lwiyX",
@@ -1017,7 +1017,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1038,7 +1038,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1068,7 +1068,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|ls=psc|畾|土|c1=p|c2=s|t2=dirt}}"
@@ -5406,6 +5406,55 @@
     "confidence": "provisional-oc",
     "supporting_characters": 4,
     "display_root": "ruy",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "lwiyX",
+      "lwəy",
+      "lwiy",
+      "lwəyH",
+      "lwa",
+      "lwəyX"
+    ],
+    "form_analyses": [
+      {
+        "form": "lwiyX",
+        "normalized": "lwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "lwəy",
+        "normalized": "lwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lwiy",
+        "normalized": "lwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "lwəyH",
+        "normalized": "lwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lwa",
+        "normalized": "lwa",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lwəyX",
+        "normalized": "lwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "ruy",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

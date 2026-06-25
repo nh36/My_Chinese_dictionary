@@ -615,7 +615,7 @@
         ],
         "display_root": "man",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "manH",
@@ -1412,7 +1412,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1433,7 +1433,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -3653,6 +3653,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "man₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "manH",
+      "miənH",
+      "maenH",
+      "man",
+      "mien"
+    ],
+    "form_analyses": [
+      {
+        "form": "manH",
+        "normalized": "man",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "miənH",
+        "normalized": "miən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "maenH",
+        "normalized": "maen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "man",
+        "normalized": "man",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "mien",
+        "normalized": "mien",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "man",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

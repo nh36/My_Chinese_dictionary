@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788347+00:00",
+  "generated_at": "2026-06-25T21:28:46.957498+00:00",
   "id": "32-32",
   "schuessler": {
     "gsc_id": "32-32",
@@ -226,7 +226,7 @@
           ],
           "display_root": "tsin",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "dzinX",
@@ -1261,6 +1261,34 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tsin₂",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "dzinX",
+        "tsinX",
+        "dzinH"
+      ],
+      "form_analyses": [
+        {
+          "form": "dzinX",
+          "normalized": "dzin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsinX",
+          "normalized": "tsin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dzinH",
+          "normalized": "dzin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "tsin",
       "ordinal": 2,
       "numbering_source": "document_order_occurrence"
@@ -1306,29 +1334,40 @@
       "entry_id": "32-32",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "盡",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "32-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "盡",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

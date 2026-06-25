@@ -384,7 +384,7 @@
         ],
         "display_root": "lu",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yiewX",
@@ -638,7 +638,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -659,7 +659,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2136,6 +2136,62 @@
     "confidence": "provisional-oc",
     "supporting_characters": 2,
     "display_root": "lu",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yiewX",
+      "yuw",
+      "yuwX",
+      "thaw",
+      "daw",
+      "dawX",
+      "dawH"
+    ],
+    "form_analyses": [
+      {
+        "form": "yiewX",
+        "normalized": "yiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yuw",
+        "normalized": "yuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yuwX",
+        "normalized": "yuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "thaw",
+        "normalized": "thaw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "daw",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dawX",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dawH",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lu",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

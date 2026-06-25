@@ -730,7 +730,7 @@
         ],
         "display_root": "rek",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "lak",
@@ -4177,6 +4177,69 @@
     "confidence": "provisional-oc",
     "supporting_characters": 5,
     "display_root": "rek₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "lak",
+      "liewH",
+      "ṅaewH",
+      "ṅaewk",
+      "lek",
+      "ləwk",
+      "śiak",
+      "yak"
+    ],
+    "form_analyses": [
+      {
+        "form": "lak",
+        "normalized": "lak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "liewH",
+        "normalized": "liew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṅaewH",
+        "normalized": "ṅaew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṅaewk",
+        "normalized": "ṅaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lek",
+        "normalized": "lek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ləwk",
+        "normalized": "ləwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "śiak",
+        "normalized": "śiak",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "yak",
+        "normalized": "yak",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "rek",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

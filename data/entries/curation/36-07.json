@@ -859,7 +859,7 @@
         ],
         "display_root": "kem",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kem",
@@ -4570,6 +4570,97 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "kem",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kem",
+      "kemH",
+      "hemX",
+      "khemX",
+      "khep",
+      "kheamH",
+      "kheamX",
+      "khem",
+      "lem",
+      "ṇiem",
+      "liem",
+      "hem"
+    ],
+    "form_analyses": [
+      {
+        "form": "kem",
+        "normalized": "kem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kemH",
+        "normalized": "kem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hemX",
+        "normalized": "hem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khemX",
+        "normalized": "khem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khep",
+        "normalized": "khep",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kheamH",
+        "normalized": "kheam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kheamX",
+        "normalized": "kheam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khem",
+        "normalized": "khem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lem",
+        "normalized": "lem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṇiem",
+        "normalized": "ṇiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "liem",
+        "normalized": "liem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hem",
+        "normalized": "hem",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kem",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

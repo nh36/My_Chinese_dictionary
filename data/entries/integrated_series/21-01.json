@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767700+00:00",
+  "generated_at": "2026-06-25T21:28:46.936004+00:00",
   "id": "21-01",
   "schuessler": {
     "gsc_id": "21-01",
@@ -226,7 +226,7 @@
           ],
           "display_root": "kat",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "kayH",
@@ -3606,7 +3606,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -3627,7 +3627,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3657,7 +3657,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|曷|ls=psc|c1=s|c2=p}}"
@@ -8371,6 +8371,139 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kat",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "kayH",
+        "kat",
+        "hat",
+        "khat",
+        "qayH",
+        "giet",
+        "qaeyH",
+        "qat",
+        "khiet",
+        "khiət",
+        "giət",
+        "khieyH",
+        "kiət",
+        "khaet",
+        "khayH",
+        "hiət",
+        "qiət",
+        "qieyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "kayH",
+          "normalized": "kay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kat",
+          "normalized": "kat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hat",
+          "normalized": "hat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khat",
+          "normalized": "khat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qayH",
+          "normalized": "qay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "giet",
+          "normalized": "giet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qaeyH",
+          "normalized": "qaey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qat",
+          "normalized": "qat",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khiet",
+          "normalized": "khiet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khiət",
+          "normalized": "khiət",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "giət",
+          "normalized": "giət",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khieyH",
+          "normalized": "khiey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kiət",
+          "normalized": "kiət",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "khaet",
+          "normalized": "khaet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khayH",
+          "normalized": "khay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hiət",
+          "normalized": "hiət",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qiət",
+          "normalized": "qiət",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qieyH",
+          "normalized": "qiey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "kat",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -8416,10 +8549,21 @@
       "entry_id": "21-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "匃",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "匃",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -8447,20 +8591,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

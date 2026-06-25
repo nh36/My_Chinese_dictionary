@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764419+00:00",
+  "generated_at": "2026-06-25T21:28:46.932647+00:00",
   "id": "10-35",
   "schuessler": {
     "gsc_id": "10-35",
@@ -884,7 +884,7 @@
           ],
           "display_root": "tso",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "tshiuH",
@@ -2414,7 +2414,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2435,7 +2435,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -3796,7 +3796,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -3817,7 +3817,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3847,7 +3847,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|最|alt1=扌|c1=s|c2=p|ls=psc}}"
@@ -5850,6 +5850,125 @@
         "phonetic_component_series_root"
       ],
       "display_root": "tso",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "tshiuH",
+        "tshiuX",
+        "tshuwX",
+        "tsiu",
+        "dziuH",
+        "dziuX",
+        "dẓiuwH",
+        "tsuw",
+        "tsiuH",
+        "suwX",
+        "dzwan",
+        "tswayH",
+        "dzwayH",
+        "tṣhwaeyH",
+        "tṣhweayH",
+        "tshwat"
+      ],
+      "form_analyses": [
+        {
+          "form": "tshiuH",
+          "normalized": "tshiu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshiuX",
+          "normalized": "tshiu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tshuwX",
+          "normalized": "tshuw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiu",
+          "normalized": "tsiu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dziuH",
+          "normalized": "dziu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dziuX",
+          "normalized": "dziu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dẓiuwH",
+          "normalized": "dẓiuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tsuw",
+          "normalized": "tsuw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tsiuH",
+          "normalized": "tsiu",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "suwX",
+          "normalized": "suw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dzwan",
+          "normalized": "dzwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tswayH",
+          "normalized": "tsway",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dzwayH",
+          "normalized": "dzway",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tṣhwaeyH",
+          "normalized": "tṣhwaey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tṣhweayH",
+          "normalized": "tṣhweay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tshwat",
+          "normalized": "tshwat",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "tso",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5895,10 +6014,21 @@
       "entry_id": "10-35",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "取",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "10-35",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "取",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5937,22 +6067,22 @@
     }
   ],
   "note_summary": {
-    "total": 6,
+    "total": 7,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3,
+      "curation_division_note": 4,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3,
+      "structural_internal": 4,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 6
+      "internal": 7
     },
     "by_recommended_rendering": {
-      "internal_only": 6
+      "internal_only": 7
     }
   },
   "render_mode": "generated_missing_series"

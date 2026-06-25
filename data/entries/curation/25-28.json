@@ -452,7 +452,7 @@
         ],
         "display_root": "lon",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "thwanH",
@@ -2695,6 +2695,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lon",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "thwanH",
+      "yiwen",
+      "yiwenH",
+      "ḍiwen",
+      "ḍiwenX",
+      "ṭhiwenX",
+      "chiweyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "thwanH",
+        "normalized": "thwan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yiwen",
+        "normalized": "yiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "yiwenH",
+        "normalized": "yiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiwen",
+        "normalized": "ḍiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiwenX",
+        "normalized": "ḍiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhiwenX",
+        "normalized": "ṭhiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "chiweyH",
+        "normalized": "chiwey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "lon",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

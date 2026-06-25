@@ -784,7 +784,7 @@
         ],
         "display_root": "te",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "jieX",
@@ -2098,7 +2098,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -2119,7 +2119,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2149,7 +2149,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|土|是|ls=psc|c1=s|c2=p|t1=soil}}"
@@ -2567,7 +2567,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2588,7 +2588,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2618,7 +2618,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|t1=hand|是|ls=psc|c1=s|c2=p}}"
@@ -5534,6 +5534,104 @@
       "head_graph_oc_bs"
     ],
     "display_root": "te",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "jieX",
+      "dey",
+      "jie",
+      "cie",
+      "kyieH",
+      "śieH",
+      "tey",
+      "teyX",
+      "theyX",
+      "thegX",
+      "deyH",
+      "ḍieX",
+      "jik"
+    ],
+    "form_analyses": [
+      {
+        "form": "jieX",
+        "normalized": "jie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "dey",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jie",
+        "normalized": "jie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cie",
+        "normalized": "cie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "kyieH",
+        "normalized": "kyie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śieH",
+        "normalized": "śie",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "tey",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "teyX",
+        "normalized": "tey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "theyX",
+        "normalized": "they",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thegX",
+        "normalized": "theg",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "deyH",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḍieX",
+        "normalized": "ḍie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jik",
+        "normalized": "jik",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "te",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -1014,7 +1014,7 @@
         ],
         "display_root": "pyn",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "biunH",
@@ -2554,7 +2554,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2575,7 +2575,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2605,7 +2605,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|分|alt1=扌|c1=s|c2=p|ls=psc}}"
@@ -6542,6 +6542,104 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pyn",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "biunH",
+      "piun",
+      "piunX",
+      "phiunH",
+      "phiunX",
+      "phiun",
+      "biunX",
+      "biun",
+      "paen",
+      "bwən",
+      "pin",
+      "bin",
+      "pheanH"
+    ],
+    "form_analyses": [
+      {
+        "form": "biunH",
+        "normalized": "biun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piun",
+        "normalized": "piun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piunX",
+        "normalized": "piun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiunH",
+        "normalized": "phiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiunX",
+        "normalized": "phiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiun",
+        "normalized": "phiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biunX",
+        "normalized": "biun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biun",
+        "normalized": "biun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "paen",
+        "normalized": "paen",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "bwən",
+        "normalized": "bwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "pin",
+        "normalized": "pin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bin",
+        "normalized": "bin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "pheanH",
+        "normalized": "phean",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pyn",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

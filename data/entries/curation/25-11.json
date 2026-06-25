@@ -313,7 +313,7 @@
         ],
         "display_root": "kuen",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "giwen",
@@ -989,6 +989,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -1003,6 +1010,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -1170,7 +1184,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1191,7 +1205,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1221,7 +1235,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|卷|ls=psc|c1=s|c2=p}}"
@@ -1376,7 +1390,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1397,7 +1411,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1427,7 +1441,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|龹|手|t2=hand|ls=psc|c1=p|c2=s}}"
@@ -3978,6 +3992,90 @@
       "head_graph_oc_bs"
     ],
     "display_root": "kuen",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "giwen",
+      "kiwenX",
+      "kiwenH",
+      "khiwen",
+      "giwenH",
+      "giwenX",
+      "giwənH",
+      "khiwənX",
+      "kiwənX",
+      "khiwənH",
+      "qiwənX"
+    ],
+    "form_analyses": [
+      {
+        "form": "giwen",
+        "normalized": "giwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiwenX",
+        "normalized": "kiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiwenH",
+        "normalized": "kiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khiwen",
+        "normalized": "khiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giwenH",
+        "normalized": "giwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giwenX",
+        "normalized": "giwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "giwənH",
+        "normalized": "giwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khiwənX",
+        "normalized": "khiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiwənX",
+        "normalized": "kiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khiwənH",
+        "normalized": "khiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qiwənX",
+        "normalized": "qiwən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "kuen",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

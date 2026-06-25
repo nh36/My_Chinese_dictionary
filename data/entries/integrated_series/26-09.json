@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.787469+00:00",
+  "generated_at": "2026-06-25T21:28:46.956514+00:00",
   "id": "26-09",
   "schuessler": {
     "gsc_id": "26-09",
@@ -525,7 +525,7 @@
           ],
           "display_root": "kiy",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "keay",
@@ -1703,7 +1703,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1724,7 +1724,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -2536,6 +2536,41 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kiy₆",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": false,
+      "mc_forms": [
+        "keay",
+        "kheayX",
+        "heay",
+        "keat"
+      ],
+      "form_analyses": [
+        {
+          "form": "keay",
+          "normalized": "keay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kheayX",
+          "normalized": "kheay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "heay",
+          "normalized": "heay",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "keat",
+          "normalized": "keat",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kiy",
       "ordinal": 6,
       "numbering_source": "document_order_occurrence"
@@ -2581,29 +2616,40 @@
       "entry_id": "26-09",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "皆",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "26-09",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "皆",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

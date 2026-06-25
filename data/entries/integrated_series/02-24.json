@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760674+00:00",
+  "generated_at": "2026-06-25T21:28:46.928375+00:00",
   "id": "02-24",
   "schuessler": {
     "gsc_id": "02-24",
@@ -264,8 +264,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{qak₅}},",
-        "render_latex": "赤\t%chi4 / chì\n{\\large{qak₅}},\n\\textit{tshiek};\t%0793a\n\\textit{chiek};",
+        "transliteration_latex": "{\\large{q\\textoverset{b}{a}k}},",
+        "render_latex": "赤\t%chi4 / chì\n{\\large{q\\textoverset{b}{a}k}},\n\\textit{tshiek};\t%0793a\n\\textit{chiek};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -287,10 +287,10 @@
           "bs_node_roots": [
             "qhak"
           ],
-          "display_root": "qhak",
+          "display_root": "qh\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "tshiek",
             "chiek",
@@ -460,8 +460,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "攴"
         },
-        "transliteration_latex": "{\\large{qak₅\\textsuperscript{·fer}}},",
-        "render_latex": "赦\t%she4 / shè\n{\\large{qak₅\\textsuperscript{·fer}}},\n\\textit{śiaeH};\t%0793d",
+        "transliteration_latex": "{\\large{q\\textoverset{b}{a}k\\textsuperscript{·fer}}},",
+        "render_latex": "赦\t%she4 / shè\n{\\large{q\\textoverset{b}{a}k\\textsuperscript{·fer}}},\n\\textit{śiaeH};\t%0793d",
         "wiktionary_semantic_validation": {
           "semantic_component": "攴",
           "phonetic_component": "亦",
@@ -1025,9 +1025,44 @@
       "supporting_sources": [
         "head_graph_oc_bs"
       ],
-      "display_root": "qak₅",
-      "base_root": "qak",
-      "ordinal": 5,
+      "display_root": "q\\textoverset{b}{a}k",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "tshiek",
+        "chiek",
+        "śiaeH",
+        "śiek"
+      ],
+      "form_analyses": [
+        {
+          "form": "tshiek",
+          "normalized": "tshiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "chiek",
+          "normalized": "chiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "śiaeH",
+          "normalized": "śiae",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "śiek",
+          "normalized": "śiek",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
+      "base_root": "q\\textoverset{b}{a}k",
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -1071,10 +1106,21 @@
       "entry_id": "02-24",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "赤",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-24",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "赤",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -1091,20 +1137,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

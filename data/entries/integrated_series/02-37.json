@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760896+00:00",
+  "generated_at": "2026-06-25T21:28:46.928640+00:00",
   "id": "02-37",
   "schuessler": {
     "gsc_id": "02-37",
@@ -308,8 +308,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "一"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{discr˸}pak₂}},",
-        "render_latex": "百\t%bai3 / bǎi\n{\\large{\\textsuperscript{discr˸}pak₂}},\n\\textit{paek};\t%0781a",
+        "transliteration_latex": "{\\large{\\textsuperscript{discr˸}p\\textoverset{a}{a}k}},",
+        "render_latex": "百\t%bai3 / bǎi\n{\\large{\\textsuperscript{discr˸}p\\textoverset{a}{a}k}},\n\\textit{paek};\t%0781a",
         "wiktionary_semantic_validation": {
           "semantic_component": "一",
           "phonetic_component": "白",
@@ -345,10 +345,10 @@
             "prak",
             "mak"
           ],
-          "display_root": "pak",
+          "display_root": "p\\textoverset{a}{a}k",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "paek",
             "maek"
@@ -460,8 +460,8 @@
           "source": "ids_top_level",
           "semantic_component": "豸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{best·}pak₂}},",
-        "render_latex": "貊\t%mo4\n{\\large{\\textsuperscript{best·}pak₂}},\n\\textit{maek};\t%0781f",
+        "transliteration_latex": "{\\large{\\textsuperscript{best·}p\\textoverset{a}{a}k}},",
+        "render_latex": "貊\t%mo4\n{\\large{\\textsuperscript{best·}p\\textoverset{a}{a}k}},\n\\textit{maek};\t%0781f",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -626,8 +626,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "阜"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{tum·}pak₂}},",
-        "render_latex": "陌\t%mo4 / mò\n{\\large{\\textsuperscript{tum·}pak₂}},\n\\textit{maek};\t%0781g",
+        "transliteration_latex": "{\\large{\\textsuperscript{tum·}p\\textoverset{a}{a}k}},",
+        "render_latex": "陌\t%mo4 / mò\n{\\large{\\textsuperscript{tum·}p\\textoverset{a}{a}k}},\n\\textit{maek};\t%0781g",
         "wiktionary_semantic_validation": {
           "semantic_component": "阜",
           "phonetic_component": "百",
@@ -975,9 +975,30 @@
         "head_graph_oc_shengfu",
         "phonetic_component_series_root"
       ],
-      "display_root": "pak₂",
-      "base_root": "pak",
-      "ordinal": 2,
+      "display_root": "p\\textoverset{a}{a}k",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "paek",
+        "maek"
+      ],
+      "form_analyses": [
+        {
+          "form": "paek",
+          "normalized": "paek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "maek",
+          "normalized": "maek",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "p\\textoverset{a}{a}k",
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -1021,29 +1042,40 @@
       "entry_id": "02-37",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "百",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-37",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "百",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.766140+00:00",
+  "generated_at": "2026-06-25T21:28:46.934395+00:00",
   "id": "17-05",
   "schuessler": {
     "gsc_id": "17-05",
@@ -758,7 +758,7 @@
           ],
           "display_root": "qek",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "jiak",
@@ -4638,6 +4638,69 @@
         "head_graph_oc_bs"
       ],
       "display_root": "qek",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "jiak",
+        "ciak",
+        "yak",
+        "tek",
+        "tewH",
+        "qiak",
+        "qyiewH",
+        "qaewk"
+      ],
+      "form_analyses": [
+        {
+          "form": "jiak",
+          "normalized": "jiak",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ciak",
+          "normalized": "ciak",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "yak",
+          "normalized": "yak",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "tek",
+          "normalized": "tek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "tewH",
+          "normalized": "tew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "qiak",
+          "normalized": "qiak",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qyiewH",
+          "normalized": "qyiew",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "qaewk",
+          "normalized": "qaewk",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "qek",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4683,10 +4746,21 @@
       "entry_id": "17-05",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "勺",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "17-05",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "勺",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4714,22 +4788,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

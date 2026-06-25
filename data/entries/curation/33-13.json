@@ -571,7 +571,7 @@
         ],
         "display_root": "tyr",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "jin",
@@ -1811,7 +1811,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1832,7 +1832,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1862,7 +1862,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|辰|ls=psc|c1=s|c2=p}}"
@@ -4530,6 +4530,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tyr",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "jin",
+      "jinX",
+      "cinH",
+      "cin",
+      "śin",
+      "ṭhiy",
+      "ṭhinX",
+      "źiwin"
+    ],
+    "form_analyses": [
+      {
+        "form": "jin",
+        "normalized": "jin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jinX",
+        "normalized": "jin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cinH",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "cin",
+        "normalized": "cin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "śin",
+        "normalized": "śin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭhiy",
+        "normalized": "ṭhiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhinX",
+        "normalized": "ṭhin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "źiwin",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "tyr",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

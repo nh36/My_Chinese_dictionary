@@ -368,7 +368,7 @@
         ],
         "display_root": "met",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "met",
@@ -1857,6 +1857,27 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "met",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "met",
+      "miət"
+    ],
+    "form_analyses": [
+      {
+        "form": "met",
+        "normalized": "met",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "miət",
+        "normalized": "miət",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "met",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

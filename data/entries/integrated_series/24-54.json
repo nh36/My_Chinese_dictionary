@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768350+00:00",
+  "generated_at": "2026-06-25T21:28:46.956157+00:00",
   "id": "24-54",
   "schuessler": {
     "gsc_id": "24-54",
@@ -711,7 +711,7 @@
           ],
           "display_root": "per",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "beanH",
@@ -999,8 +999,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -1026,8 +1026,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -1062,8 +1062,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -3088,7 +3088,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -3109,7 +3109,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3139,7 +3139,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|番|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -5368,6 +5368,83 @@
         "head_graph_oc_bs"
       ],
       "display_root": "per",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "beanH",
+        "ben",
+        "pa",
+        "phiən",
+        "piən",
+        "biən",
+        "phan",
+        "ban",
+        "paH",
+        "ba"
+      ],
+      "form_analyses": [
+        {
+          "form": "beanH",
+          "normalized": "bean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ben",
+          "normalized": "ben",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pa",
+          "normalized": "pa",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "phiən",
+          "normalized": "phiən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "piən",
+          "normalized": "piən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "biən",
+          "normalized": "biən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phan",
+          "normalized": "phan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ban",
+          "normalized": "ban",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "paH",
+          "normalized": "pa",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ba",
+          "normalized": "ba",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "per",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5413,10 +5490,21 @@
       "entry_id": "24-54",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "釆",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "24-54",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "釆",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5444,20 +5532,20 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 3
+      "curation_division_note": 4
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 3
+      "structural_internal": 4
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

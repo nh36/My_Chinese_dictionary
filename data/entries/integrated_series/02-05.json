@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760413+00:00",
+  "generated_at": "2026-06-25T21:28:46.928045+00:00",
   "id": "02-05",
   "schuessler": {
     "gsc_id": "02-05",
@@ -201,8 +201,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{kak₃}},",
-        "render_latex": "𡭴\t%xi4\n{\\large{kak₃}},\n\\textit{khiaek};\t%0787a",
+        "transliteration_latex": "{\\large{k\\textoverset{b}{a}k₂}},",
+        "render_latex": "𡭴\t%xi4\n{\\large{k\\textoverset{b}{a}k₂}},\n\\textit{khiaek};\t%0787a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -224,10 +224,10 @@
           "bs_node_roots": [
             "khrak"
           ],
-          "display_root": "kak",
+          "display_root": "k\\textoverset{b}{a}k",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+          "mark_required": true,
           "mc_forms": [
             "khiaek",
             "xiaek"
@@ -293,8 +293,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{kak₃}},",
-        "render_latex": "𡭽\t%xi4\n{\\large{kak₃}},\n\\textit{khiaek};\t%0787b",
+        "transliteration_latex": "{\\large{k\\textoverset{b}{a}k₂}},",
+        "render_latex": "𡭽\t%xi4\n{\\large{k\\textoverset{b}{a}k₂}},\n\\textit{khiaek};\t%0787b",
         "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
@@ -469,8 +469,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "阜"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{tum·}kak₃}},",
-        "render_latex": "隙\t%xi4 / xì\n{\\large{\\textsuperscript{tum·}kak₃}},\n\\textit{khiaek};\t%0787c",
+        "transliteration_latex": "{\\large{\\textsuperscript{tum·}k\\textoverset{b}{a}k₂}},",
+        "render_latex": "隙\t%xi4 / xì\n{\\large{\\textsuperscript{tum·}k\\textoverset{b}{a}k₂}},\n\\textit{khiaek};\t%0787c",
         "wiktionary_semantic_validation": {
           "semantic_component": "阜",
           "phonetic_component": "𡭴",
@@ -620,8 +620,8 @@
           "source": "ids_top_level",
           "semantic_component": "虍"
         },
-        "transliteration_latex": "{\\large{kak₃\\textsuperscript{·tigr}}},",
-        "render_latex": "虩\t%xi4\n{\\large{kak₃\\textsuperscript{·tigr}}},\n\\textit{xiaek};\t%0787d",
+        "transliteration_latex": "{\\large{k\\textoverset{b}{a}k₂\\textsuperscript{·tigr}}},",
+        "render_latex": "虩\t%xi4\n{\\large{k\\textoverset{b}{a}k₂\\textsuperscript{·tigr}}},\n\\textit{xiaek};\t%0787d",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -958,9 +958,30 @@
       "supporting_sources": [
         "head_graph_oc_shengfu"
       ],
-      "display_root": "kak₃",
-      "base_root": "kak",
-      "ordinal": 3,
+      "display_root": "k\\textoverset{b}{a}k₂",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": true,
+      "mc_forms": [
+        "khiaek",
+        "xiaek"
+      ],
+      "form_analyses": [
+        {
+          "form": "khiaek",
+          "normalized": "khiaek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "xiaek",
+          "normalized": "xiaek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
+      "base_root": "k\\textoverset{b}{a}k",
+      "ordinal": 2,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -1004,29 +1025,40 @@
       "entry_id": "02-05",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "𡭴",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-05",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "𡭴",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

@@ -369,7 +369,7 @@
         {
           "character": "鬲",
           "entry_id": "01-38",
-          "source_line_number": 2417,
+          "source_line_number": 2454,
           "character_line_raw": "\\footnote{SWJZ: 从鬲。⺸聲。}",
           "raw_block": "\\footnote{SWJZ: 从鬲。⺸聲。}\n\\textit{ciəX};\t%tsyoX\t0045n",
           "transliteration_latex": null,
@@ -421,7 +421,7 @@
         ],
         "display_root": "rek",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "keak",
@@ -535,7 +535,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -556,7 +556,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -1889,6 +1889,41 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "rek",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": false,
+    "mc_forms": [
+      "keak",
+      "lek",
+      "heak",
+      "ṅek"
+    ],
+    "form_analyses": [
+      {
+        "form": "keak",
+        "normalized": "keak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "lek",
+        "normalized": "lek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "heak",
+        "normalized": "heak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṅek",
+        "normalized": "ṅek",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "rek",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

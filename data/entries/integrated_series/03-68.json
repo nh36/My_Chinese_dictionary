@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761788+00:00",
+  "generated_at": "2026-06-25T21:28:46.929838+00:00",
   "id": "03-68",
   "schuessler": {
     "gsc_id": "03-68",
@@ -216,8 +216,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{maṅ₇}},",
-        "render_latex": "明\t%ming2 / míng\n{\\large{maṅ₇}},\n\\textit{miaeṅ};\t%0760a",
+        "transliteration_latex": "{\\large{maṅ₅}},",
+        "render_latex": "明\t%ming2 / míng\n{\\large{maṅ₅}},\n\\textit{miaeṅ};\t%0760a",
         "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
@@ -241,7 +241,7 @@
           ],
           "display_root": "maṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "miaeṅ",
@@ -456,8 +456,8 @@
           "source": "wiktionary_component_literal_fallback",
           "semantic_component": "囧"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{囧˸}maṅ₇}},",
-        "render_latex": "盟\t%meng2 / méng\n{\\large{\\textsuperscript{囧˸}maṅ₇}},\n\\textit{miaeṅ};\t%0760e",
+        "transliteration_latex": "{\\large{\\textsuperscript{囧˸}maṅ₅}},",
+        "render_latex": "盟\t%meng2 / méng\n{\\large{\\textsuperscript{囧˸}maṅ₅}},\n\\textit{miaeṅ};\t%0760e",
         "wiktionary_semantic_validation": {
           "semantic_component": "囧",
           "phonetic_component": "皿",
@@ -611,8 +611,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "艸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}maṅ₇}},",
-        "render_latex": "萌\t%meng2\n{\\large{\\textsuperscript{herb˸}maṅ₇}},\n\\textit{meaṅ};\t%0760g",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}maṅ₅}},",
+        "render_latex": "萌\t%meng2\n{\\large{\\textsuperscript{herb˸}maṅ₅}},\n\\textit{meaṅ};\t%0760g",
         "wiktionary_semantic_validation": {
           "semantic_component": "艸",
           "phonetic_component": "明",
@@ -892,9 +892,30 @@
         "head_graph_oc_bs",
         "head_graph_oc_shengfu"
       ],
-      "display_root": "maṅ₇",
+      "display_root": "maṅ₅",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "miaeṅ",
+        "meaṅ"
+      ],
+      "form_analyses": [
+        {
+          "form": "miaeṅ",
+          "normalized": "miaeṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "meaṅ",
+          "normalized": "meaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "maṅ",
-      "ordinal": 7,
+      "ordinal": 5,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -938,29 +959,40 @@
       "entry_id": "03-68",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "明",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-68",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "明",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

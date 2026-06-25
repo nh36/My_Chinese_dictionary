@@ -580,7 +580,7 @@
         ],
         "display_root": "tsam",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tṣeamX",
@@ -746,7 +746,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -767,7 +767,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -1613,7 +1613,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1634,7 +1634,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1664,7 +1664,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|斬|土|ls=psc|c1=p|c2=s|t2=earth}}"
@@ -2789,6 +2789,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tsam",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tṣeamX",
+      "ṣaem",
+      "dzam",
+      "dzamH",
+      "dziemX",
+      "dẓaem",
+      "tsiem",
+      "tshiem"
+    ],
+    "form_analyses": [
+      {
+        "form": "tṣeamX",
+        "normalized": "tṣeam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṣaem",
+        "normalized": "ṣaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dzam",
+        "normalized": "dzam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dzamH",
+        "normalized": "dzam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dziemX",
+        "normalized": "dziem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓaem",
+        "normalized": "dẓaem",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsiem",
+        "normalized": "tsiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshiem",
+        "normalized": "tshiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tsam",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

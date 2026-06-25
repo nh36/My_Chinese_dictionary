@@ -508,7 +508,7 @@
         ],
         "display_root": "lek",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dek",
@@ -1352,7 +1352,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1373,7 +1373,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -4094,6 +4094,69 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lek₄",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dek",
+      "thek",
+      "yak",
+      "ḍaewk",
+      "ḍaewH",
+      "yiewH",
+      "thewH",
+      "dewH"
+    ],
+    "form_analyses": [
+      {
+        "form": "dek",
+        "normalized": "dek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "thek",
+        "normalized": "thek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yak",
+        "normalized": "yak",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍaewk",
+        "normalized": "ḍaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḍaewH",
+        "normalized": "ḍaew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "yiewH",
+        "normalized": "yiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "thewH",
+        "normalized": "thew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dewH",
+        "normalized": "dew",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "lek",
     "ordinal": 4,
     "numbering_source": "document_order_occurrence"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764742+00:00",
+  "generated_at": "2026-06-25T21:28:46.933333+00:00",
   "id": "12-15",
   "schuessler": {
     "gsc_id": "12-15",
@@ -652,7 +652,7 @@
           ],
           "display_root": "roṅ",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "liəwṅ",
@@ -809,7 +809,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -839,7 +839,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|龍|土|ls=psc|c1=p|c2=s|t2=earth}}"
@@ -3581,6 +3581,55 @@
       "confidence": "provisional-oc",
       "supporting_characters": 4,
       "display_root": "roṅ",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "liəwṅ",
+        "maewṅ",
+        "liəwṅX",
+        "luwṅ",
+        "luwṅX",
+        "ṭhiəwṅX"
+      ],
+      "form_analyses": [
+        {
+          "form": "liəwṅ",
+          "normalized": "liəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "maewṅ",
+          "normalized": "maewṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "liəwṅX",
+          "normalized": "liəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "luwṅ",
+          "normalized": "luwṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "luwṅX",
+          "normalized": "luwṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṭhiəwṅX",
+          "normalized": "ṭhiəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "roṅ",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -3626,10 +3675,21 @@
       "entry_id": "12-15",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "12-15",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "龍",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3646,22 +3706,22 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1,
+      "curation_division_note": 2,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1,
+      "structural_internal": 2,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

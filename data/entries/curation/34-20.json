@@ -259,7 +259,7 @@
         ],
         "display_root": "lun",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "chiwen",
@@ -1665,6 +1665,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "lun",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "chiwen",
+      "ṭhwin",
+      "źiwinH",
+      "zwin",
+      "źiwin"
+    ],
+    "form_analyses": [
+      {
+        "form": "chiwen",
+        "normalized": "chiwen",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhwin",
+        "normalized": "ṭhwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "źiwinH",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "zwin",
+        "normalized": "zwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "źiwin",
+        "normalized": "źiwin",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
     "base_root": "lun",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

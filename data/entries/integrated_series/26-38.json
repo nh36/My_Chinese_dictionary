@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.787629+00:00",
+  "generated_at": "2026-06-25T21:28:46.956703+00:00",
   "id": "26-38",
   "schuessler": {
     "gsc_id": "26-38",
@@ -293,7 +293,7 @@
           ],
           "display_root": "piy",
           "division_class": "b",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
           "mark_required": false,
           "mc_forms": [
             "pyiyH",
@@ -478,7 +478,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -499,7 +499,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -529,7 +529,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|比|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -4621,8 +4621,8 @@
               },
               {
                 "graph_raw": "田",
-                "label_token": "ag",
-                "abbreviation": "ag",
+                "label_token": "ager",
+                "abbreviation": "ager",
                 "learned": true,
                 "evidence_count": 2
               }
@@ -4945,7 +4945,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -4966,7 +4966,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -4996,7 +4996,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|比|土|c1=p|c2=s|ls=psc|t2=earth}}"
@@ -7869,6 +7869,55 @@
         "head_graph_oc_bs"
       ],
       "display_root": "piy",
+      "division_class": "b",
+      "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "mark_required": false,
+      "mc_forms": [
+        "pyiyH",
+        "byiyX",
+        "byinX",
+        "phyieX",
+        "phyiyX",
+        "pyiyX"
+      ],
+      "form_analyses": [
+        {
+          "form": "pyiyH",
+          "normalized": "pyiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "byiyX",
+          "normalized": "byiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "byinX",
+          "normalized": "byin",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyieX",
+          "normalized": "phyie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyiyX",
+          "normalized": "phyiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pyiyX",
+          "normalized": "pyiy",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "piy",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -7912,6 +7961,17 @@
     },
     {
       "entry_id": "26-38",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "匕",
+      "line_number": null,
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "26-38",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -7928,7 +7988,7 @@
       "anchor_kind": "character",
       "anchor_value": "匕",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms show an i-medial or a dedicated palatal onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -7967,22 +8027,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 1,
-      "curation_division_note": 4
+      "curation_division_note": 5,
+      "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 1,
-      "structural_internal": 4
+      "structural_internal": 5,
+      "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 7
+      "internal_only": 8
     }
   },
   "render_mode": "generated_missing_series"

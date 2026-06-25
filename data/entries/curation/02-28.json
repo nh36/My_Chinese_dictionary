@@ -160,8 +160,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{rak}},",
-      "render_latex": "夕\t%xi1 / xī\n{\\large{rak}},\n\\textit{ziek};\t%0796a",
+      "transliteration_latex": "{\\large{r\\textoverset{b}{a}k₂}},",
+      "render_latex": "夕\t%xi1 / xī\n{\\large{r\\textoverset{b}{a}k₂}},\n\\textit{ziek};\t%0796a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -183,10 +183,10 @@
         "bs_node_roots": [
           "rak"
         ],
-        "display_root": "rak",
+        "display_root": "r\\textoverset{b}{a}k",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "ziek"
         ],
@@ -335,8 +335,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "穴"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{cav˸}rak}},",
-      "render_latex": "穸\t%xi1\n{\\large{\\textsuperscript{cav˸}rak}},\n\\textit{ziek};\t%0796e",
+      "transliteration_latex": "{\\large{\\textsuperscript{cav˸}r\\textoverset{b}{a}k₂}},",
+      "render_latex": "穸\t%xi1\n{\\large{\\textsuperscript{cav˸}r\\textoverset{b}{a}k₂}},\n\\textit{ziek};\t%0796e",
       "wiktionary_semantic_validation": {
         "semantic_component": "穴",
         "phonetic_component": "夕",
@@ -554,9 +554,23 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "rak",
-    "base_root": "rak",
-    "ordinal": 1,
+    "display_root": "r\\textoverset{b}{a}k₂",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "ziek"
+    ],
+    "form_analyses": [
+      {
+        "form": "ziek",
+        "normalized": "ziek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "r\\textoverset{b}{a}k",
+    "ordinal": 2,
     "numbering_source": "document_order_occurrence"
   }
 }

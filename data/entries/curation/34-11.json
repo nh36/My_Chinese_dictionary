@@ -399,7 +399,7 @@
         ],
         "display_root": "kun",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
         "mc_forms": [
           "khwin",
@@ -868,7 +868,7 @@
         "phonetic_hint": "囷"
       },
       "resolved_node_root": {
-        "root": "kun",
+        "root": "kun₂",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
@@ -1059,7 +1059,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1080,7 +1080,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -1178,7 +1178,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1199,7 +1199,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2078,6 +2078,41 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "kun₂",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "khwin",
+      "gwinX",
+      "kwin",
+      "kiunH"
+    ],
+    "form_analyses": [
+      {
+        "form": "khwin",
+        "normalized": "khwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "gwinX",
+        "normalized": "gwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kwin",
+        "normalized": "kwin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kiunH",
+        "normalized": "kiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "kun",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

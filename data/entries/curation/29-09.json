@@ -439,7 +439,7 @@
         ],
         "display_root": "sut",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "zwiyH",
@@ -1078,7 +1078,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -1099,7 +1099,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1129,7 +1129,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|隊|土|c1=p|c2=s|ls=psc}}"
@@ -3390,6 +3390,41 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "sut",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "zwiyH",
+      "swiyH",
+      "ḍwiyH",
+      "dwəyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "zwiyH",
+        "normalized": "zwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "swiyH",
+        "normalized": "swiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍwiyH",
+        "normalized": "ḍwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dwəyH",
+        "normalized": "dwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "sut",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

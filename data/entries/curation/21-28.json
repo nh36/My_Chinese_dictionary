@@ -413,7 +413,7 @@
         ],
         "display_root": "tset",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tsieyH",
@@ -2179,6 +2179,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tset",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tsieyH",
+      "tṣeayH",
+      "ṭhieyH",
+      "tshayH",
+      "tṣheat"
+    ],
+    "form_analyses": [
+      {
+        "form": "tsieyH",
+        "normalized": "tsiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tṣeayH",
+        "normalized": "tṣeay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭhieyH",
+        "normalized": "ṭhiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshayH",
+        "normalized": "tshay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tṣheat",
+        "normalized": "tṣheat",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "tset",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

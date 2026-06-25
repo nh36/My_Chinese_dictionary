@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.760491+00:00",
+  "generated_at": "2026-06-25T21:28:46.928165+00:00",
   "id": "02-10",
   "schuessler": {
     "gsc_id": "02-10",
@@ -134,8 +134,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{qak₂}},",
-        "render_latex": "赫\t%he4 / hè\n{\\large{qak₂}},\n\\textit{xaek};\t%0779a",
+        "transliteration_latex": "{\\large{q\\textoverset{a}{a}k}},",
+        "render_latex": "赫\t%he4 / hè\n{\\large{q\\textoverset{a}{a}k}},\n\\textit{xaek};\t%0779a",
         "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
@@ -165,10 +165,10 @@
           "bs_node_roots": [
             "qhrak"
           ],
-          "display_root": "qhrak",
+          "display_root": "qhr\\textoverset{a}{a}k",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "xaek",
             "xaeH"
@@ -387,8 +387,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "口"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{or·}qak₂}},",
-        "render_latex": "嚇\t%xia4 / he4 / xià / hè\n{\\large{\\textsuperscript{or·}qak₂}},\n\\textit{xaeH};\t%0779b\n\\textit{xaek};",
+        "transliteration_latex": "{\\large{\\textsuperscript{or·}q\\textoverset{a}{a}k}},",
+        "render_latex": "嚇\t%xia4 / he4 / xià / hè\n{\\large{\\textsuperscript{or·}q\\textoverset{a}{a}k}},\n\\textit{xaeH};\t%0779b\n\\textit{xaek};",
         "wiktionary_semantic_validation": {
           "semantic_component": "口",
           "phonetic_component": "赫",
@@ -629,9 +629,30 @@
         "head_graph_oc_shengfu",
         "phonetic_component_series_root"
       ],
-      "display_root": "qak₂",
-      "base_root": "qak",
-      "ordinal": 2,
+      "display_root": "q\\textoverset{a}{a}k",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "xaek",
+        "xaeH"
+      ],
+      "form_analyses": [
+        {
+          "form": "xaek",
+          "normalized": "xaek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "xaeH",
+          "normalized": "xae",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "q\\textoverset{a}{a}k",
+      "ordinal": 1,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -675,29 +696,40 @@
       "entry_id": "02-10",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "赫",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "02-10",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "赫",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

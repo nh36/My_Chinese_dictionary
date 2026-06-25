@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.761121+00:00",
+  "generated_at": "2026-06-25T21:28:46.928919+00:00",
   "id": "03-14",
   "schuessler": {
     "gsc_id": "03-14",
@@ -470,8 +470,8 @@
           "source": "self_phonetic_base",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{kaṅ₁₁}},",
-        "render_latex": "行\t%xing2 / hang2 / hang4 / xíng / háng\n{\\large{kaṅ₁₁}},\n\\textit{ḫaeṅ};\t%0748a\n\\textit{ḫaeṅH};\n\\textit{ḫaṅ};\n\\textit{ḫaṅH};",
+        "transliteration_latex": "{\\large{k\\textoverset{a}{a}ṅ₄}},",
+        "render_latex": "行\t%xing2 / hang2 / hang4 / xíng / háng\n{\\large{k\\textoverset{a}{a}ṅ₄}},\n\\textit{ḫaeṅ};\t%0748a\n\\textit{ḫaeṅH};\n\\textit{ḫaṅ};\n\\textit{ḫaṅH};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -494,10 +494,10 @@
             "graṅ",
             "gaṅ"
           ],
-          "display_root": "kaṅ",
+          "display_root": "k\\textoverset{a}{a}ṅ",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "ḫaeṅ",
             "ḫaeṅH",
@@ -704,8 +704,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "艸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}kaṅ₁₁}},",
-        "render_latex": "荇\t%xing4 / xìng\n{\\large{\\textsuperscript{herb˸}kaṅ₁₁}},\n\\textit{ḫaeṅX};\t%0748e",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₄}},",
+        "render_latex": "荇\t%xing4 / xìng\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₄}},\n\\textit{ḫaeṅX};\t%0748e",
         "wiktionary_semantic_validation": {
           "semantic_component": "艸",
           "phonetic_component": "行",
@@ -933,8 +933,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "木"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{arb·}kaṅ₁₁}},",
-        "render_latex": "桁\t%heng2 / hang2 / héng\n{\\large{\\textsuperscript{arb·}kaṅ₁₁}},\n\\textit{ḫaeṅ};\t%0748f\n\\textit{ḫaṅ};",
+        "transliteration_latex": "{\\large{\\textsuperscript{arb·}k\\textoverset{a}{a}ṅ₄}},",
+        "render_latex": "桁\t%heng2 / hang2 / héng\n{\\large{\\textsuperscript{arb·}k\\textoverset{a}{a}ṅ₄}},\n\\textit{ḫaeṅ};\t%0748f\n\\textit{ḫaṅ};",
         "wiktionary_semantic_validation": {
           "semantic_component": "木",
           "phonetic_component": "行",
@@ -1125,8 +1125,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "玉"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{gem·}kaṅ₁₁}},",
-        "render_latex": "珩\t%heng2\n{\\large{\\textsuperscript{gem·}kaṅ₁₁}},\n\\textit{ḫaeṅ};\t%0748g",
+        "transliteration_latex": "{\\large{\\textsuperscript{gem·}k\\textoverset{a}{a}ṅ₄}},",
+        "render_latex": "珩\t%heng2\n{\\large{\\textsuperscript{gem·}k\\textoverset{a}{a}ṅ₄}},\n\\textit{ḫaeṅ};\t%0748g",
         "wiktionary_semantic_validation": {
           "semantic_component": "玉",
           "phonetic_component": "行",
@@ -1294,8 +1294,8 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{kaṅ₁₁}},",
-        "render_latex": "衡\t%heng2 / héng\n{\\large{kaṅ₁₁}},\n\\textit{ḫaeṅ};\t%0748h",
+        "transliteration_latex": "{\\large{k\\textoverset{a}{a}ṅ₄}},",
+        "render_latex": "衡\t%heng2 / héng\n{\\large{k\\textoverset{a}{a}ṅ₄}},\n\\textit{ḫaeṅ};\t%0748h",
         "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
@@ -1325,7 +1325,7 @@
           "bs_node_roots": [
             "graṅ"
           ],
-          "display_root": "k\\textoverset{a}{a}ṅ₂",
+          "display_root": "k\\textoverset{a}{a}ṅ₅",
           "division_class": "a",
           "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": true,
@@ -1341,7 +1341,7 @@
             }
           ],
           "base_root": "k\\textoverset{a}{a}ṅ",
-          "ordinal": 2,
+          "ordinal": 5,
           "numbering_source": "document_order_occurrence"
         }
       },
@@ -1425,8 +1425,8 @@
           "source": "packet_family_ids",
           "semantic_component": "艸"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₂}},",
-        "render_latex": "蘅\t%heng2\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₂}},\n\\textit{ḫaeṅ};\t%0748j",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₅}},",
+        "render_latex": "蘅\t%heng2\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}ṅ₅}},\n\\textit{ḫaeṅ};\t%0748j",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2162,9 +2162,51 @@
       "supporting_sources": [
         "head_graph_oc_bs"
       ],
-      "display_root": "kaṅ₁₁",
-      "base_root": "kaṅ",
-      "ordinal": 11,
+      "display_root": "k\\textoverset{a}{a}ṅ₄",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "ḫaeṅ",
+        "ḫaeṅH",
+        "ḫaṅ",
+        "ḫaṅH",
+        "ḫaeṅX"
+      ],
+      "form_analyses": [
+        {
+          "form": "ḫaeṅ",
+          "normalized": "ḫaeṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫaeṅH",
+          "normalized": "ḫaeṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫaṅ",
+          "normalized": "ḫaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫaṅH",
+          "normalized": "ḫaṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫaeṅX",
+          "normalized": "ḫaeṅ",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "k\\textoverset{a}{a}ṅ",
+      "ordinal": 4,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -2208,10 +2250,21 @@
       "entry_id": "03-14",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "行",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "行",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2228,20 +2281,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

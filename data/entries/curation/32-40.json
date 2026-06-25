@@ -320,7 +320,7 @@
         ],
         "display_root": "miṅ",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "min",
@@ -2535,7 +2535,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "packet_family_ids",
@@ -4894,6 +4894,48 @@
       "head_graph_oc_bs"
     ],
     "display_root": "miṅ",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "min",
+      "minX",
+      "men",
+      "menX",
+      "hwən"
+    ],
+    "form_analyses": [
+      {
+        "form": "min",
+        "normalized": "min",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "minX",
+        "normalized": "min",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "men",
+        "normalized": "men",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "menX",
+        "normalized": "men",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwən",
+        "normalized": "hwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "miṅ",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

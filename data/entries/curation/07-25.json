@@ -977,7 +977,7 @@
         ],
         "display_root": "tse",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "tshieX",
@@ -3801,7 +3801,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -3822,7 +3822,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -6497,6 +6497,104 @@
       "head_graph_oc_bs"
     ],
     "display_root": "tse",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tshieX",
+      "tshieH",
+      "tshie",
+      "tsheyX",
+      "tsieX",
+      "tsie",
+      "zie",
+      "dzie",
+      "dzieH",
+      "dzeyH",
+      "tsiwe",
+      "dẓea",
+      "tsieH"
+    ],
+    "form_analyses": [
+      {
+        "form": "tshieX",
+        "normalized": "tshie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshieH",
+        "normalized": "tshie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tshie",
+        "normalized": "tshie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsheyX",
+        "normalized": "tshey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsieX",
+        "normalized": "tsie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsie",
+        "normalized": "tsie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "zie",
+        "normalized": "zie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzie",
+        "normalized": "dzie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzieH",
+        "normalized": "dzie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dzeyH",
+        "normalized": "dzey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsiwe",
+        "normalized": "tsiwe",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dẓea",
+        "normalized": "dẓea",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsieH",
+        "normalized": "tsie",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tse",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

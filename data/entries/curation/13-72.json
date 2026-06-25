@@ -643,7 +643,7 @@
         ],
         "display_root": "pu",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "paew",
@@ -2372,7 +2372,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2393,7 +2393,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2423,7 +2423,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|包|ls=psc|c1=s|c2=p}}"
@@ -4766,6 +4766,104 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "pu",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "paew",
+      "phaew",
+      "biewX",
+      "paewX",
+      "baew",
+      "baewX",
+      "baw",
+      "bawH",
+      "bawX",
+      "biuw",
+      "baewH",
+      "phaewk",
+      "baewk"
+    ],
+    "form_analyses": [
+      {
+        "form": "paew",
+        "normalized": "paew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phaew",
+        "normalized": "phaew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "biewX",
+        "normalized": "biew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "paewX",
+        "normalized": "paew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "baew",
+        "normalized": "baew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "baewX",
+        "normalized": "baew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "baw",
+        "normalized": "baw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "bawH",
+        "normalized": "baw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "bawX",
+        "normalized": "baw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "biuw",
+        "normalized": "biuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "baewH",
+        "normalized": "baew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phaewk",
+        "normalized": "phaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "baewk",
+        "normalized": "baewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pu",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

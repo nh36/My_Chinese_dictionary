@@ -261,7 +261,7 @@
         ],
         "display_root": "pok",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "puwk",
@@ -442,7 +442,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -463,7 +463,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -493,7 +493,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|卜|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -1973,6 +1973,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "pok",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "puwk",
+      "phuwk",
+      "phaewk",
+      "bək",
+      "phiuH",
+      "phiuwH",
+      "phuwH"
+    ],
+    "form_analyses": [
+      {
+        "form": "puwk",
+        "normalized": "puwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phuwk",
+        "normalized": "phuwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phaewk",
+        "normalized": "phaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "bək",
+        "normalized": "bək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "phiuH",
+        "normalized": "phiu",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiuwH",
+        "normalized": "phiuw",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phuwH",
+        "normalized": "phuw",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "pok",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

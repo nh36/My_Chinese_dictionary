@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.759401+00:00",
+  "generated_at": "2026-06-25T21:28:46.926811+00:00",
   "id": "01-46",
   "schuessler": {
     "gsc_id": "01-46",
@@ -197,7 +197,7 @@
           {
             "character": "兔",
             "entry_id": "01-44",
-            "source_line_number": 2628,
+            "source_line_number": 2665,
             "character_line_raw": "\\paragraph{\\textoversetlarge{01-44}{\\huge{兔}}}\t",
             "raw_block": "\\paragraph{\\textoversetlarge{01-44}{\\huge{兔}}}\t\n%兔\t%tu4\t\n{\\large{ta}},\n\\textit{thuH};\t%thuH\t0063a\n菟\t%tu2\t\n{\\large{\\textsuperscript{herb:}ta}},\n\\textit{du};\t%du\t0063c\n\n",
             "transliteration_latex": "ta",
@@ -219,7 +219,7 @@
           {
             "character": "兔",
             "entry_id": "01-44",
-            "source_line_number": 2629,
+            "source_line_number": 2666,
             "character_line_raw": "%兔\t%tu4\t",
             "raw_block": "%兔\t%tu4\t\n{\\large{ta}},\n\\textit{thuH};\t%thuH\t0063a",
             "transliteration_latex": "{\\large{ta}},",
@@ -244,8 +244,8 @@
           "source": "existing_tex_head",
           "semantic_component": null
         },
-        "transliteration_latex": "{\\large{la₃}},",
-        "render_latex": "兔\t%tu4 / tù\n{\\large{la₃}},\n\\textit{thuH};\t%0063a",
+        "transliteration_latex": "{\\large{l\\textoverset{a}{a}₂}},",
+        "render_latex": "兔\t%tu4 / tù\n{\\large{l\\textoverset{a}{a}₂}},\n\\textit{thuH};\t%0063a",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -267,10 +267,10 @@
           "bs_node_roots": [
             "la"
           ],
-          "display_root": "la",
+          "display_root": "l\\textoverset{a}{a}",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
           "mc_forms": [
             "thuH",
             "du"
@@ -363,7 +363,7 @@
           {
             "character": "菟",
             "entry_id": "01-44",
-            "source_line_number": 2632,
+            "source_line_number": 2669,
             "character_line_raw": "菟\t%tu2\t",
             "raw_block": "菟\t%tu2\t\n{\\large{\\textsuperscript{herb:}ta}},\n\\textit{du};\t%du\t0063c",
             "transliteration_latex": "{\\large{\\textsuperscript{herb:}ta}},",
@@ -402,8 +402,8 @@
             }
           ]
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}la₃}},",
-        "render_latex": "菟\t%tu2\n{\\large{\\textsuperscript{herb˸}la₃}},\n\\textit{du};\t%0063c",
+        "transliteration_latex": "{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}₂}},",
+        "render_latex": "菟\t%tu2\n{\\large{\\textsuperscript{herb˸}l\\textoverset{a}{a}₂}},\n\\textit{du};\t%0063c",
         "semantic_candidates_from_ids": [
           {
             "source": "ids_top_level",
@@ -663,9 +663,30 @@
       "supporting_sources": [
         "head_graph_oc_bs"
       ],
-      "display_root": "la₃",
-      "base_root": "la",
-      "ordinal": 3,
+      "display_root": "l\\textoverset{a}{a}₂",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "thuH",
+        "du"
+      ],
+      "form_analyses": [
+        {
+          "form": "thuH",
+          "normalized": "thu",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "du",
+          "normalized": "du",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
+      "base_root": "l\\textoverset{a}{a}",
+      "ordinal": 2,
       "numbering_source": "document_order_occurrence"
     }
   },
@@ -709,29 +730,40 @@
       "entry_id": "01-46",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "兔",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "01-46",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "兔",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

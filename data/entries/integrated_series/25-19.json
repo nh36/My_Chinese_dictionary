@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.768526+00:00",
+  "generated_at": "2026-06-25T21:28:46.956361+00:00",
   "id": "25-19",
   "schuessler": {
     "gsc_id": "25-19",
@@ -965,7 +965,7 @@
           ],
           "display_root": "ṅon",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "ṅiwən",
@@ -2964,7 +2964,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -2985,7 +2985,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -3015,7 +3015,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|土|完|c1=s|c2=p|t1=earth|ls=psc}}"
@@ -6315,6 +6315,111 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "ṅon",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "ṅiwən",
+        "ṅwan",
+        "ṅwaen",
+        "ṅwean",
+        "ṅwanH",
+        "hwan",
+        "hwanX",
+        "hwanH",
+        "ṅwanX",
+        "kwan",
+        "kwanX",
+        "khwanX",
+        "hwaenX",
+        "ḫiwenH"
+      ],
+      "form_analyses": [
+        {
+          "form": "ṅiwən",
+          "normalized": "ṅiwən",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṅwan",
+          "normalized": "ṅwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅwaen",
+          "normalized": "ṅwaen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅwean",
+          "normalized": "ṅwean",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅwanH",
+          "normalized": "ṅwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwan",
+          "normalized": "hwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwanX",
+          "normalized": "hwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwanH",
+          "normalized": "hwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ṅwanX",
+          "normalized": "ṅwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kwan",
+          "normalized": "kwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "kwanX",
+          "normalized": "kwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "khwanX",
+          "normalized": "khwan",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hwaenX",
+          "normalized": "hwaen",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ḫiwenH",
+          "normalized": "ḫiwen",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ṅon",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -6360,10 +6465,21 @@
       "entry_id": "25-19",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "元",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "25-19",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "元",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -6380,20 +6496,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

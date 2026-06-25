@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788188+00:00",
+  "generated_at": "2026-06-25T21:28:46.957319+00:00",
   "id": "32-01",
   "schuessler": {
     "gsc_id": "32-01",
@@ -250,101 +250,7 @@
           "source": "ids_inferred_phonetic_parent",
           "phonetic_hint": "臣"
         },
-        "resolved_node_root": {
-          "root": "kin",
-          "source": "node_inherit_parent",
-          "descendant_count": 5,
-          "bs_support_count": 3,
-          "bs_broad_roots": [
-            "kiṅ",
-            "kin"
-          ],
-          "bs_node_roots": [
-            "kiṅ",
-            "gin"
-          ],
-          "display_root": "kin₃",
-          "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
-          "mark_required": false,
-          "mc_forms": [
-            "ḫen",
-            "khanH",
-            "khean",
-            "kheaṅ",
-            "khyinH",
-            "ken",
-            "khen",
-            "ḫenH",
-            "kyinX",
-            "jinX"
-          ],
-          "form_analyses": [
-            {
-              "form": "ḫen",
-              "normalized": "ḫen",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "khanH",
-              "normalized": "khan",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "khean",
-              "normalized": "khean",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "kheaṅ",
-              "normalized": "kheaṅ",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "khyinH",
-              "normalized": "khyin",
-              "class": "b",
-              "reason": "explicit_i_medial"
-            },
-            {
-              "form": "ken",
-              "normalized": "ken",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "khen",
-              "normalized": "khen",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "ḫenH",
-              "normalized": "ḫen",
-              "class": "a",
-              "reason": "no_i_medial"
-            },
-            {
-              "form": "kyinX",
-              "normalized": "kyin",
-              "class": "b",
-              "reason": "explicit_i_medial"
-            },
-            {
-              "form": "jinX",
-              "normalized": "jin",
-              "class": "b",
-              "reason": "palatal_initial"
-            }
-          ],
-          "base_root": "kin",
-          "ordinal": 3,
-          "numbering_source": "document_order_occurrence"
-        }
+        "resolved_node_root": null
       },
       {
         "character": "堅",
@@ -482,7 +388,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -503,7 +409,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -533,7 +439,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|臤|土|ls=psc|c1=p|c2=s}}"
@@ -684,7 +590,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -705,7 +611,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -735,7 +641,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|臤|手|c1=p|c2=s|ls=psc}}"
@@ -1910,7 +1816,7 @@
         "hierarchy_assignment": null,
         "resolved_node_root": {
           "root": "kin",
-          "source": "node_merged_k_token_head",
+          "source": "node_inherit_parent",
           "descendant_count": 7,
           "bs_support_count": 4,
           "bs_broad_roots": [
@@ -2096,7 +2002,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2117,7 +2023,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -3180,49 +3086,25 @@
     ],
     "series_root_candidates": [
       {
-        "character": "臤",
-        "gsr": null,
-        "oc_bs": "*kʰʳi̠ŋ",
-        "root": "kiṅ",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 3,
-        "supporting_sources": [
-          "head_graph_oc_shengfu"
-        ]
-      },
-      {
-        "character": "臤",
-        "gsr": null,
+        "character": "臣",
+        "gsr": "0377a",
         "oc_bs": "*gin {*[g]i[n]}",
         "root": "kin",
-        "source": "phonetic_component_series_root",
-        "support_count": 4,
-        "supporting_sources": [
-          "phonetic_component_series_root",
-          "head_graph_oc_bs"
-        ]
-      },
-      {
-        "character": "臣",
-        "gsr": null,
-        "oc_bs": "*ɡʲiŋ",
-        "root": "ɡʲiṅ",
-        "source": "head_graph_oc_shengfu",
+        "source": "head_graph_oc_bs",
         "support_count": 1,
         "supporting_sources": [
-          "head_graph_oc_shengfu"
+          "head_graph_oc_bs"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "kin",
-      "source": "head_graph_supported_root",
-      "character": "臤",
+      "source": "head_graph_oc_bs",
+      "character": "臣",
       "oc_bs": "*gin {*[g]i[n]}",
       "confidence": "provisional-oc",
-      "support_count": 4,
+      "support_count": 1,
       "supporting_sources": [
-        "phonetic_component_series_root",
         "head_graph_oc_bs"
       ],
       "display_root": "kin",
@@ -3272,17 +3154,6 @@
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "character",
-      "anchor_value": "臤",
-      "line_number": null,
-      "text": "top-level series head left unmarked",
-      "category": "structural_internal",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "32-01",
-      "source_layer": "curation_division_note",
-      "visibility": "internal",
-      "anchor_kind": "character",
       "anchor_value": "臣",
       "line_number": null,
       "text": "the extracted forms point to both type a and type b",
@@ -3291,20 +3162,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 3,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 3
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 3
     }
   },
   "render_mode": "generated_missing_series"

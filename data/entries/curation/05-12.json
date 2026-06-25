@@ -366,7 +366,7 @@
         ],
         "display_root": "tyk",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "ḍiH",
@@ -653,7 +653,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -674,7 +674,7 @@
             "label_token": "terr",
             "abbreviation": "terr",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "ids_top_level",
@@ -2747,6 +2747,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "tyk₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ḍiH",
+      "ḍik",
+      "ṭik",
+      "jik",
+      "dək",
+      "ṭiH"
+    ],
+    "form_analyses": [
+      {
+        "form": "ḍiH",
+        "normalized": "ḍi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍik",
+        "normalized": "ḍik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭik",
+        "normalized": "ṭik",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "jik",
+        "normalized": "jik",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "dək",
+        "normalized": "dək",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṭiH",
+        "normalized": "ṭi",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tyk",
     "ordinal": 2,
     "numbering_source": "document_order_occurrence"

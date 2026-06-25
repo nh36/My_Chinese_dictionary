@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.764577+00:00",
+  "generated_at": "2026-06-25T21:28:46.932832+00:00",
   "id": "11-21",
   "schuessler": {
     "gsc_id": "11-21",
@@ -161,7 +161,7 @@
           ],
           "display_root": "tok",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "śiəwk",
@@ -2425,6 +2425,62 @@
         "head_graph_oc_bs"
       ],
       "display_root": "tok₃",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "śiəwk",
+        "tshiəwk",
+        "suwk",
+        "suwH",
+        "suwX",
+        "siəwṅX",
+        "ṣaewk"
+      ],
+      "form_analyses": [
+        {
+          "form": "śiəwk",
+          "normalized": "śiəwk",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "tshiəwk",
+          "normalized": "tshiəwk",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "suwk",
+          "normalized": "suwk",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "suwH",
+          "normalized": "suw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "suwX",
+          "normalized": "suw",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "siəwṅX",
+          "normalized": "siəwṅ",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ṣaewk",
+          "normalized": "ṣaewk",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "tok",
       "ordinal": 3,
       "numbering_source": "document_order_occurrence"
@@ -2470,10 +2526,21 @@
       "entry_id": "11-21",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "束",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "11-21",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "束",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2501,22 +2568,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

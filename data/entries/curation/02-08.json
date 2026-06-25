@@ -593,7 +593,7 @@
         ],
         "display_root": "quak",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "hweak",
@@ -2213,7 +2213,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2234,7 +2234,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -3408,6 +3408,55 @@
       "head_graph_oc_bs"
     ],
     "display_root": "quak",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "hweak",
+      "qiwak",
+      "hwak",
+      "huH",
+      "qwak",
+      "'waek"
+    ],
+    "form_analyses": [
+      {
+        "form": "hweak",
+        "normalized": "hweak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qiwak",
+        "normalized": "qiwak",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "hwak",
+        "normalized": "hwak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "huH",
+        "normalized": "hu",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qwak",
+        "normalized": "qwak",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "'waek",
+        "normalized": "'waek",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "quak",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

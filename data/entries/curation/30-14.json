@@ -703,7 +703,7 @@
         ],
         "display_root": "put",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "biut",
@@ -1269,7 +1269,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1290,7 +1290,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1320,7 +1320,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|alt1=扌|弗|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -1554,6 +1554,13 @@
               "label_token": "crin(is)",
               "abbreviation": "crin",
               "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
             }
           ]
         }
@@ -1568,6 +1575,13 @@
             "label_token": "crin(is)",
             "abbreviation": "crin",
             "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "ids_top_level",
@@ -4786,6 +4800,62 @@
       "head_graph_oc_bs"
     ],
     "display_root": "put",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "biut",
+      "piut",
+      "phiut",
+      "biɨyH",
+      "bwət",
+      "piɨyH",
+      "phiɨyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "biut",
+        "normalized": "biut",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "piut",
+        "normalized": "piut",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiut",
+        "normalized": "phiut",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "biɨyH",
+        "normalized": "biɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "bwət",
+        "normalized": "bwət",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "piɨyH",
+        "normalized": "piɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "phiɨyH",
+        "normalized": "phiɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "put",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

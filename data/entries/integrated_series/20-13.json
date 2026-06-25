@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.767645+00:00",
+  "generated_at": "2026-06-25T21:28:46.935944+00:00",
   "id": "20-13",
   "schuessler": {
     "gsc_id": "20-13",
@@ -405,7 +405,7 @@
           ],
           "display_root": "ṅet",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "ṅieyH",
@@ -941,7 +941,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -971,7 +971,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|埶|手|ls=psc|c1=p|c2=s|t2=hand}}"
@@ -3147,6 +3147,55 @@
       "confidence": "provisional-oc",
       "supporting_characters": 8,
       "display_root": "ṅet",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "ṅieyH",
+        "śieyH",
+        "ṅet",
+        "ñiet",
+        "ñiwet",
+        "siet"
+      ],
+      "form_analyses": [
+        {
+          "form": "ṅieyH",
+          "normalized": "ṅiey",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "śieyH",
+          "normalized": "śiey",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "ṅet",
+          "normalized": "ṅet",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ñiet",
+          "normalized": "ñiet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ñiwet",
+          "normalized": "ñiwet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "siet",
+          "normalized": "siet",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "ṅet",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -3190,6 +3239,17 @@
     },
     {
       "entry_id": "20-13",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "20-13",
       "source_layer": "curation_mc_investigation",
       "visibility": "internal",
       "anchor_kind": "character",
@@ -3206,7 +3266,7 @@
       "anchor_kind": "character",
       "anchor_value": "埶",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3267,22 +3327,22 @@
     }
   ],
   "note_summary": {
-    "total": 9,
+    "total": 10,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_mc_investigation": 3,
-      "curation_division_note": 4
+      "curation_division_note": 5,
+      "curation_mc_investigation": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "mc_conflict": 3,
-      "structural_internal": 4
+      "structural_internal": 5,
+      "mc_conflict": 3
     },
     "by_visibility": {
-      "internal": 9
+      "internal": 10
     },
     "by_recommended_rendering": {
-      "internal_only": 9
+      "internal_only": 10
     }
   },
   "render_mode": "generated_missing_series"

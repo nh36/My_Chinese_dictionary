@@ -407,7 +407,7 @@
         {
           "character": "賣",
           "entry_id": "18-03",
-          "source_line_number": 563,
+          "source_line_number": 600,
           "character_line_raw": "賣 \\textit{meaH}",
           "raw_block": "賣 \\textit{meaH}",
           "transliteration_latex": null,
@@ -472,7 +472,7 @@
         ],
         "display_root": "lok",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "yuwk",
@@ -5183,6 +5183,55 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "me",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "yuwk",
+      "dek",
+      "duwk",
+      "duwH",
+      "jiəwk",
+      "ziəwk"
+    ],
+    "form_analyses": [
+      {
+        "form": "yuwk",
+        "normalized": "yuwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "dek",
+        "normalized": "dek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "duwk",
+        "normalized": "duwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "duwH",
+        "normalized": "duw",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jiəwk",
+        "normalized": "jiəwk",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ziəwk",
+        "normalized": "ziəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "me",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

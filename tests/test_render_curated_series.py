@@ -74,7 +74,9 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                         "graph_raw": "木",
                         "abbreviation": "arb",
                         "expanded_latin": "arb(or)",
-                        "note": "test item",
+                        "notes": "(only in test)",
+                        "comments": ["(mù)", "(tree)"],
+                        "used_abbreviation_aliases": ["arb"],
                     }
                 ]
             }
@@ -94,7 +96,10 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                 semantic_data,
             )
             self.assertIn("\\section*{Integrated semantic components}", doc)
-            self.assertIn(r"\item 木 \textbf{arb} arb(or) --- test item", doc)
+            self.assertIn(r"\item 木 \textbf{arb} arb(or) --- (only in test)", doc)
+            self.assertNotIn("(mù)", doc)
+            self.assertNotIn("(tree)", doc)
+            self.assertNotIn("entry aliases", doc)
             self.assertIn("\\section*{Curated pilot series in comparable format}", doc)
             self.assertIn("\\end{document}", doc)
 

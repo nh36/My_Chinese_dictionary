@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.789039+00:00",
+  "generated_at": "2026-06-25T21:28:46.958307+00:00",
   "id": "36-14",
   "schuessler": {
     "gsc_id": "36-14",
@@ -655,7 +655,7 @@
           ],
           "display_root": "ram",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "dam",
@@ -1245,7 +1245,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1266,7 +1266,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1296,7 +1296,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|炎|ls=psc|c1=s|t1=hand|c2=p}}"
@@ -4526,6 +4526,90 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "qam",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "dam",
+        "hiem",
+        "yiemH",
+        "yiemX",
+        "chiem",
+        "ziem",
+        "śiemX",
+        "thamX",
+        "damH",
+        "damX",
+        "yiem"
+      ],
+      "form_analyses": [
+        {
+          "form": "dam",
+          "normalized": "dam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "hiem",
+          "normalized": "hiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yiemH",
+          "normalized": "yiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "yiemX",
+          "normalized": "yiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "chiem",
+          "normalized": "chiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "ziem",
+          "normalized": "ziem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "śiemX",
+          "normalized": "śiem",
+          "class": "b",
+          "reason": "palatal_initial"
+        },
+        {
+          "form": "thamX",
+          "normalized": "tham",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "damH",
+          "normalized": "dam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "damX",
+          "normalized": "dam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "yiem",
+          "normalized": "yiem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        }
+      ],
       "base_root": "qam",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4571,10 +4655,21 @@
       "entry_id": "36-14",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "炎",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "36-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "炎",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -4591,22 +4686,22 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1,
+      "curation_division_note": 2,
       "curation_research_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1,
+      "structural_internal": 2,
       "semantic_analysis": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 3,
+      "internal_only": 4,
       "series_end_note": 1
     }
   },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765348+00:00",
+  "generated_at": "2026-06-25T21:28:46.933646+00:00",
   "id": "13-32",
   "schuessler": {
     "gsc_id": "13-32",
@@ -619,7 +619,7 @@
           ],
           "display_root": "liw",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "yuw",
@@ -1006,23 +1006,29 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{liw\\textsuperscript{·cri}}},",
-        "render_latex": "修\t%xiu1 / xiū\n{\\large{liw\\textsuperscript{·cri}}},\n\\textit{siuw};\t%1077d",
+        "transliteration_latex": "{\\large{liw\\textsuperscript{·crin}}},",
+        "render_latex": "修\t%xiu1 / xiū\n{\\large{liw\\textsuperscript{·crin}}},\n\\textit{siuw};\t%1077d",
         "wiktionary_semantic_validation": {
-          "semantic_component": "彡",
+          "semantic_component": "髟",
           "phonetic_component": "攸",
           "resolved_assignment": {
             "source": "wiktionary_han_compound",
             "character": "修",
-            "semantic_component": "彡",
+            "semantic_component": "髟",
             "phonetic_component": "攸",
             "position": "suffix-dot",
-            "abbreviation": "cri",
+            "abbreviation": "crin",
             "inventory_matches": [
               {
-                "graph_raw": "彡",
-                "label_token": "cri",
-                "abbreviation": "cri",
+                "graph_raw": "髟",
+                "label_token": "crin(is)",
+                "abbreviation": "crin",
+                "start_line": 248
+              },
+              {
+                "graph_raw": "髟",
+                "label_token": "crin",
+                "abbreviation": "crin",
                 "learned": true,
                 "evidence_count": 1
               }
@@ -1032,19 +1038,25 @@
         },
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "cri",
+          "abbreviation": "crin",
           "position": "suffix-dot",
           "inventory_matches": [
             {
-              "graph_raw": "彡",
-              "label_token": "cri",
-              "abbreviation": "cri",
+              "graph_raw": "髟",
+              "label_token": "crin(is)",
+              "abbreviation": "crin",
+              "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
               "learned": true,
               "evidence_count": 1
             }
           ],
           "source": "wiktionary_han_compound",
-          "semantic_component": "彡"
+          "semantic_component": "髟"
         },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -4947,6 +4959,41 @@
         "head_graph_oc_bs"
       ],
       "display_root": "liw",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "yuw",
+        "dew",
+        "dewH",
+        "jiuwk"
+      ],
+      "form_analyses": [
+        {
+          "form": "yuw",
+          "normalized": "yuw",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "dew",
+          "normalized": "dew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dewH",
+          "normalized": "dew",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "jiuwk",
+          "normalized": "jiuwk",
+          "class": "b",
+          "reason": "palatal_initial"
+        }
+      ],
       "base_root": "liw",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -4992,10 +5039,21 @@
       "entry_id": "13-32",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "攸",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "13-32",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "攸",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -5045,22 +5103,22 @@
     }
   ],
   "note_summary": {
-    "total": 7,
+    "total": 8,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 4,
+      "curation_division_note": 5,
       "curation_research_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 4,
+      "structural_internal": 5,
       "semantic_analysis": 1
     },
     "by_visibility": {
-      "internal": 7
+      "internal": 8
     },
     "by_recommended_rendering": {
-      "internal_only": 6,
+      "internal_only": 7,
       "series_end_note": 1
     }
   },

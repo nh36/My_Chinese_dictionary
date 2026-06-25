@@ -218,8 +218,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{qaṅ₅}},",
-      "render_latex": "向\t%xiang4\n{\\large{qaṅ₅}},\n\\textit{hiaṅH};\t%0715a",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ₃}},",
+      "render_latex": "向\t%xiang4\n{\\large{q\\textoverset{b}{a}ṅ₃}},\n\\textit{hiaṅH};\t%0715a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -241,10 +241,10 @@
         "bs_node_roots": [
           "naṅ"
         ],
-        "display_root": "qaṅ",
+        "display_root": "q\\textoverset{b}{a}ṅ",
         "division_class": "b",
-        "division_note": "top-level series head left unmarked",
-        "mark_required": false,
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "hiaṅH",
           "śiaṅH"
@@ -430,8 +430,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "食"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ed·}qaṅ₅}},",
-      "render_latex": "餉\t%shang4 / shàng\n{\\large{\\textsuperscript{ed·}qaṅ₅}},\n\\textit{śiaṅH};\t%0715e",
+      "transliteration_latex": "{\\large{\\textsuperscript{ed·}q\\textoverset{b}{a}ṅ₃}},",
+      "render_latex": "餉\t%shang4 / shàng\n{\\large{\\textsuperscript{ed·}q\\textoverset{b}{a}ṅ₃}},\n\\textit{śiaṅH};\t%0715e",
       "wiktionary_semantic_validation": {
         "semantic_component": "食",
         "phonetic_component": "向",
@@ -692,9 +692,30 @@
     "supporting_sources": [
       "head_graph_oc_shengfu"
     ],
-    "display_root": "qaṅ₅",
-    "base_root": "qaṅ",
-    "ordinal": 5,
+    "display_root": "q\\textoverset{b}{a}ṅ₃",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "hiaṅH",
+      "śiaṅH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hiaṅH",
+        "normalized": "hiaṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "śiaṅH",
+        "normalized": "śiaṅ",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
+    "base_root": "q\\textoverset{b}{a}ṅ",
+    "ordinal": 3,
     "numbering_source": "document_order_occurrence"
   }
 }

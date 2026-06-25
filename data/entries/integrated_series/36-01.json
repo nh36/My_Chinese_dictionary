@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.788930+00:00",
+  "generated_at": "2026-06-25T21:28:46.958134+00:00",
   "id": "36-01",
   "schuessler": {
     "gsc_id": "36-01",
@@ -460,7 +460,7 @@
           ],
           "display_root": "kam",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "kam",
@@ -1050,7 +1050,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1071,7 +1071,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -2948,6 +2948,48 @@
         "phonetic_component_series_root"
       ],
       "display_root": "kam",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "kam",
+        "ham",
+        "giem",
+        "kəm",
+        "han"
+      ],
+      "form_analyses": [
+        {
+          "form": "kam",
+          "normalized": "kam",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "ham",
+          "normalized": "ham",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "giem",
+          "normalized": "giem",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "kəm",
+          "normalized": "kəm",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "han",
+          "normalized": "han",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kam",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -2993,10 +3035,21 @@
       "entry_id": "36-01",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "甘",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "36-01",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "甘",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -3024,22 +3077,22 @@
     }
   ],
   "note_summary": {
-    "total": 5,
+    "total": 6,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2,
+      "curation_division_note": 3,
       "curation_mc_investigation": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2,
+      "structural_internal": 3,
       "mc_conflict": 1
     },
     "by_visibility": {
-      "internal": 5
+      "internal": 6
     },
     "by_recommended_rendering": {
-      "internal_only": 5
+      "internal_only": 6
     }
   },
   "render_mode": "generated_missing_series"

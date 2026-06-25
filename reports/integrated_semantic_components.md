@@ -7,7 +7,7 @@
 - Items present in both sources: 194
 - Current-only items: 34
 - Pilot-only items: 0
-- Entry-form aliases matched to canonical semantic rows: 6
+- Entry-form aliases matched to canonical semantic rows: 0
 - Blocked ambiguous aliases configured: 4
 - Blocked ambiguous aliases used in entries: 0
 - Needs-review labels used in entries: 0
@@ -17,10 +17,6 @@
 - Intentional scoped duplicate graphs: 1
 - Ambiguous abbreviations used in entries: 0
 - Abbreviations used in entries but missing from the semantic list: 0
-
-## Entry-form aliases matched to canonical semantic rows
-
-`ag`, `cri`, `cul`, `manu`, `spir`, `ter`
 
 ## Blocked ambiguous aliases
 
@@ -53,7 +49,7 @@
 | `尚` | `adhuc` | `adhuc` | (shàng) - / (still, yet, even, still more) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `曰` | `ait` | `ait` |  | general |  |  |  |  | yes | current_main_tex |
 | `永` | `aetern` | `aetern(us)` |  | general |  |  |  |  | yes | current_main_tex |
-| `田` | `ager` | `ager` |  | general |  |  |  | `ag` | yes | current_main_tex, earlier_pilot |
+| `田` | `ager` | `ager` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `白` | `alb` | `alb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `韋` | `alut` | `alut(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `高` | `alt` | `alt(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
@@ -101,8 +97,8 @@
 | `角` | `corn` | `corn(u)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `身` | `corp` | `corp(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `尾` | `caud` | `caud(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `髟` | `crin` | `crin(is)` |  | general |  |  |  | `cri` | yes | current_main_tex, earlier_pilot |
-| `刀` | `cult` | `cult(er)` |  | general |  |  |  | `cul` | yes | current_main_tex, earlier_pilot |
+| `髟` | `crin` | `crin(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `刀` | `cult` | `cult(er)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `走` | `curr` | `curr(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鬼` | `daemon` | `daemon` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `欠` | `dehab` | `dehab(eo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -169,7 +165,7 @@
 | `光` | `lux` | `lux` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `大` | `magn` | `magn(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `歹` | `mal` | `mal(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `手` | `man` | `man(us)` |  | general |  |  |  | `manu` | yes | current_main_tex, earlier_pilot |
+| `手` | `man` | `man(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `午` | `meridi` | `meridi(es)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `金` | `met` | `met(allum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -242,14 +238,14 @@
 | `卩` | `sign` | `sign(o)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `㝱` | `somn` | `somn(ium)` | (méi) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `晶` | `splend` | `splend(or)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `示` | `spirit` | `spirit(us)` |  | general |  |  |  | `spir` | yes | current_main_tex, earlier_pilot |
+| `示` | `spirit` | `spirit(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `立` | `sto` | `sto` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼓` | `tabur` | `tabur` | (only in 鼛?) | only_in | 鼛? |  |  |  | yes | current_main_tex, earlier_pilot |
 | `宀` | `tect` | `tect(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `瓦` | `teg` | `teg(ula)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `亯` | `templ` | `templ(um)` | (in 䈞) | only_in | 䈞 |  |  |  | no | current_main_tex, earlier_pilot |
 | `丮` | `ten` | `ten(eo)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `土` | `terr` | `terr(a)` |  | general |  |  |  | `ter` | yes | current_main_tex, earlier_pilot |
+| `土` | `terr` | `terr(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `龠` | `tibia` | `tibia` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `虍` | `tigr` | `tigr(is)` | (hū) - / (tiger) | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `鼎` | `trip` | `trip(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

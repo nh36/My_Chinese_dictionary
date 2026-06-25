@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.765592+00:00",
+  "generated_at": "2026-06-25T21:28:46.933891+00:00",
   "id": "14-03",
   "schuessler": {
     "gsc_id": "14-03",
@@ -506,7 +506,7 @@
           ],
           "display_root": "kuk",
           "division_class": "a",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": false,
           "mc_forms": [
             "haewk",
@@ -1274,7 +1274,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1304,7 +1304,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|手|alt1=扌|覺|ls=psc|c1=s|c2=p|t1=hand}}"
@@ -2066,6 +2066,27 @@
         "head_graph_oc_bs"
       ],
       "display_root": "kuk₄",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": false,
+      "mc_forms": [
+        "haewk",
+        "haewH"
+      ],
+      "form_analyses": [
+        {
+          "form": "haewk",
+          "normalized": "haewk",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "haewH",
+          "normalized": "haew",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "kuk",
       "ordinal": 4,
       "numbering_source": "document_order_occurrence"
@@ -2111,10 +2132,21 @@
       "entry_id": "14-03",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "學",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "14-03",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "學",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     },
@@ -2131,20 +2163,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 5,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 3
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 3
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 5
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 5
     }
   },
   "render_mode": "generated_missing_series"

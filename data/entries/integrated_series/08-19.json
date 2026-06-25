@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:33:18.763350+00:00",
+  "generated_at": "2026-06-25T21:28:46.931556+00:00",
   "id": "08-19",
   "schuessler": {
     "gsc_id": "08-19",
@@ -724,7 +724,7 @@
           ],
           "display_root": "pek",
           "division_class": "mixed",
-          "division_note": "top-level series head left unmarked",
+          "division_note": "the extracted forms point to both type a and type b",
           "mark_required": false,
           "mc_forms": [
             "bek",
@@ -1476,7 +1476,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -1497,7 +1497,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "ids_top_level",
@@ -1866,7 +1866,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ]
           }
@@ -1887,7 +1887,7 @@
               "label_token": "terr",
               "abbreviation": "terr",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "source": "wiktionary_han_compound",
@@ -1917,7 +1917,7 @@
                 "label_token": "terr",
                 "abbreviation": "terr",
                 "learned": true,
-                "evidence_count": 5
+                "evidence_count": 6
               }
             ],
             "template_raw": "{{Han compound|土|t1=earth|辟|ls=psc|c1=s|c2=p}}"
@@ -2440,7 +2440,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ]
           }
@@ -2461,7 +2461,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "source": "wiktionary_han_compound",
@@ -2491,7 +2491,7 @@
                 "label_token": "man",
                 "abbreviation": "man",
                 "learned": true,
-                "evidence_count": 19
+                "evidence_count": 20
               }
             ],
             "template_raw": "{{Han compound|辟|手|ls=psc|c1=p|c2=s|t2=hand}}"
@@ -5111,6 +5111,104 @@
         "head_graph_oc_shengfu"
       ],
       "display_root": "pek",
+      "division_class": "mixed",
+      "division_note": "the extracted forms point to both type a and type b",
+      "mark_required": false,
+      "mc_forms": [
+        "bek",
+        "byiek",
+        "pyiek",
+        "phyiek",
+        "pek",
+        "phek",
+        "byieH",
+        "mek",
+        "peak",
+        "pyieH",
+        "phyieH",
+        "peyH",
+        "beyH"
+      ],
+      "form_analyses": [
+        {
+          "form": "bek",
+          "normalized": "bek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "byiek",
+          "normalized": "byiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pyiek",
+          "normalized": "pyiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyiek",
+          "normalized": "phyiek",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "pek",
+          "normalized": "pek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "phek",
+          "normalized": "phek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "byieH",
+          "normalized": "byie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "mek",
+          "normalized": "mek",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "peak",
+          "normalized": "peak",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "pyieH",
+          "normalized": "pyie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "phyieH",
+          "normalized": "phyie",
+          "class": "b",
+          "reason": "explicit_i_medial"
+        },
+        {
+          "form": "peyH",
+          "normalized": "pey",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "beyH",
+          "normalized": "bey",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ],
       "base_root": "pek",
       "ordinal": 1,
       "numbering_source": "document_order_occurrence"
@@ -5156,29 +5254,40 @@
       "entry_id": "08-19",
       "source_layer": "curation_division_note",
       "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "辟",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "08-19",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "辟",
       "line_number": null,
-      "text": "top-level series head left unmarked",
+      "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",
       "recommended_rendering": "internal_only"
     }
   ],
   "note_summary": {
-    "total": 3,
+    "total": 4,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 1
+      "curation_division_note": 2
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 1
+      "structural_internal": 2
     },
     "by_visibility": {
-      "internal": 3
+      "internal": 4
     },
     "by_recommended_rendering": {
-      "internal_only": 3
+      "internal_only": 4
     }
   },
   "render_mode": "generated_missing_series"

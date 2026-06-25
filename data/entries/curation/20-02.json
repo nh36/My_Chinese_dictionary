@@ -475,7 +475,7 @@
         ],
         "display_root": "kep",
         "division_class": "a",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
         "mc_forms": [
           "keayH",
@@ -856,8 +856,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -883,8 +883,8 @@
           },
           {
             "graph_raw": "田",
-            "label_token": "ag",
-            "abbreviation": "ag",
+            "label_token": "ager",
+            "abbreviation": "ager",
             "learned": true,
             "evidence_count": 2
           }
@@ -919,8 +919,8 @@
             },
             {
               "graph_raw": "田",
-              "label_token": "ag",
-              "abbreviation": "ag",
+              "label_token": "ager",
+              "abbreviation": "ager",
               "learned": true,
               "evidence_count": 2
             }
@@ -2502,6 +2502,55 @@
       "head_graph_oc_bs"
     ],
     "display_root": "kep",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": false,
+    "mc_forms": [
+      "keayH",
+      "keat",
+      "ḫeayH",
+      "heayH",
+      "kaeyH",
+      "keyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "keayH",
+        "normalized": "keay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "keat",
+        "normalized": "keat",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫeayH",
+        "normalized": "ḫeay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "heayH",
+        "normalized": "heay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kaeyH",
+        "normalized": "kaey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "keyH",
+        "normalized": "key",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kep",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

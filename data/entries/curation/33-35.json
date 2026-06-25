@@ -307,7 +307,7 @@
         ],
         "display_root": "myn",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "mwən",
@@ -671,7 +671,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -692,7 +692,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "wiktionary_han_compound",
@@ -722,7 +722,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ],
           "template_raw": "{{Han compound|手|門|t1=hand|c1=s|c2=p|ls=psc}}"
@@ -2006,6 +2006,41 @@
       "head_graph_oc_shengfu"
     ],
     "display_root": "myn",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "mwən",
+      "miun",
+      "miunH",
+      "min"
+    ],
+    "form_analyses": [
+      {
+        "form": "mwən",
+        "normalized": "mwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "miun",
+        "normalized": "miun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "miunH",
+        "normalized": "miun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "min",
+        "normalized": "min",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "myn",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

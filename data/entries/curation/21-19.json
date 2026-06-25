@@ -547,7 +547,7 @@
         ],
         "display_root": "tet",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "dey",
@@ -3450,6 +3450,76 @@
       "phonetic_component_series_root"
     ],
     "display_root": "tet",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "dey",
+      "jiet",
+      "ciet",
+      "ṭiet",
+      "ṭhiet",
+      "cieyH",
+      "jieyH",
+      "ṭaet",
+      "tsyejH"
+    ],
+    "form_analyses": [
+      {
+        "form": "dey",
+        "normalized": "dey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "jiet",
+        "normalized": "jiet",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ciet",
+        "normalized": "ciet",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭiet",
+        "normalized": "ṭiet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṭhiet",
+        "normalized": "ṭhiet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "cieyH",
+        "normalized": "ciey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "jieyH",
+        "normalized": "jiey",
+        "class": "b",
+        "reason": "palatal_initial"
+      },
+      {
+        "form": "ṭaet",
+        "normalized": "ṭaet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tsyejH",
+        "normalized": "tsyej",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
     "base_root": "tet",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

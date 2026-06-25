@@ -441,7 +441,7 @@
         ],
         "display_root": "kam",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kam",
@@ -1031,7 +1031,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -1052,7 +1052,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -2929,6 +2929,48 @@
       "phonetic_component_series_root"
     ],
     "display_root": "kam",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kam",
+      "ham",
+      "giem",
+      "kəm",
+      "han"
+    ],
+    "form_analyses": [
+      {
+        "form": "kam",
+        "normalized": "kam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ham",
+        "normalized": "ham",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "giem",
+        "normalized": "giem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "kəm",
+        "normalized": "kəm",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "han",
+        "normalized": "han",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kam",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"

@@ -694,7 +694,7 @@
         ],
         "display_root": "kuet",
         "division_class": "mixed",
-        "division_note": "top-level series head left unmarked",
+        "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
         "mc_forms": [
           "kwaeyH",
@@ -2142,7 +2142,7 @@
               "label_token": "man",
               "abbreviation": "man",
               "learned": true,
-              "evidence_count": 19
+              "evidence_count": 20
             }
           ]
         }
@@ -2163,7 +2163,7 @@
             "label_token": "man",
             "abbreviation": "man",
             "learned": true,
-            "evidence_count": 19
+            "evidence_count": 20
           }
         ],
         "source": "ids_top_level",
@@ -3725,6 +3725,76 @@
       "head_graph_oc_bs"
     ],
     "display_root": "kuet",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "kwaeyH",
+      "kwet",
+      "hwet",
+      "myieyH",
+      "khyiwet",
+      "khwet",
+      "hyiwet",
+      "qwet",
+      "khwaeyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "kwaeyH",
+        "normalized": "kwaey",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "kwet",
+        "normalized": "kwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hwet",
+        "normalized": "hwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "myieyH",
+        "normalized": "myiey",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khyiwet",
+        "normalized": "khyiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khwet",
+        "normalized": "khwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "hyiwet",
+        "normalized": "hyiwet",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qwet",
+        "normalized": "qwet",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khwaeyH",
+        "normalized": "khwaey",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
     "base_root": "kuet",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
