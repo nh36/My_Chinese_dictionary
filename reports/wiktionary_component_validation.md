@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4718
-- Pages fetched / cached successfully: 4654
-- Additions with explicit Han-compound semantic/phonetic roles: 2244
+- Proposed additions checked: 4731
+- Pages fetched / cached successfully: 4667
+- Additions with explicit Han-compound semantic/phonetic roles: 2250
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1184,6 +1184,19 @@
 | `05-21` | 阞 | yes | no |  |  |
 | `05-21` | 勒 | yes | yes | 革 | 力 |
 | `05-21` | 泐 | yes | no |  |  |
+| `05-23` | 賊 | yes | yes | 戈 | 則 |
+| `05-24` | 則 | yes | no |  |  |
+| `05-24` | 側 | yes | yes | 人 | 則 |
+| `05-24` | 惻 | yes | no |  |  |
+| `05-24` | 測 | yes | yes | 水 | 則 |
+| `05-24` | 廁 | yes | yes | 广 | 則 |
+| `05-28` | 塞 | yes | no |  |  |
+| `05-28` | 㥶 | yes | no |  |  |
+| `05-29` | 息 | yes | no |  |  |
+| `05-29` | 熄 | yes | yes | 火 | 息 |
+| `05-30` | 嗇 | yes | no |  |  |
+| `05-30` | 穡 | yes | yes | 禾 | 嗇 |
+| `05-31` | 色 | yes | no |  |  |
 | `05-33` | 畐 | yes | no |  |  |
 | `05-33` | 福 | yes | yes | 示 | 畐 |
 | `05-33` | 葍 | yes | no |  |  |

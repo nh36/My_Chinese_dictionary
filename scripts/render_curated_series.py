@@ -467,6 +467,12 @@ DEFAULT_IDS = [
     "05-17",
     "05-18",
     "05-20",
+    "05-23",
+    "05-24",
+    "05-28",
+    "05-29",
+    "05-30",
+    "05-31",
     "05-02",
     "05-03",
     "05-04",
@@ -489,6 +495,7 @@ DEFAULT_IDS = [
     "02-27",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
+DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
@@ -517,6 +524,12 @@ COLUMN_CONTEXT_PREFIXES = (
 
 
 def load_curated_entry(path: Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_semantic_items(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {"items": []}
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -553,6 +566,46 @@ def entry_sort_key(entry: dict[str, Any]) -> tuple[int, int, str]:
 
 def sort_entries(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(entries, key=entry_sort_key)
+
+
+def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
+    items = semantic_data.get("items") or []
+    if not items:
+        return []
+    lines = [
+        r"\section*{Integrated semantic components}",
+        "",
+        r"\begin{multicols*}{2}",
+        r"\raggedcolumns",
+        r"\begin{spacing}{0.8}",
+        r"\begin{itemize}[noitemsep]",
+    ]
+    for item in items:
+        graph = item.get("graph_raw") or "—"
+        abbreviation = item.get("abbreviation") or ""
+        expanded = item.get("expanded_latin") or ""
+        note_parts = [item.get("notes"), item.get("note")] + list(item.get("comments") or [])
+        aliases = item.get("used_abbreviation_aliases") or []
+        if aliases:
+            note_parts.append("entry aliases: " + ", ".join(aliases))
+        notes = " / ".join(part for part in note_parts if part)
+        body = graph
+        if abbreviation:
+            body += rf" \textbf{{{abbreviation}}}"
+        if expanded and expanded != abbreviation:
+            body += f" {expanded}"
+        if notes:
+            body += f" --- {notes}"
+        lines.append(r"\item " + body)
+    lines.extend(
+        [
+            r"\end{itemize}",
+            r"\end{spacing}",
+            r"\end{multicols*}",
+            "",
+        ]
+    )
+    return lines
 
 
 def build_existing_heading_line(entry: dict[str, Any]) -> str:
@@ -850,35 +903,27 @@ def render_entry_blocks(entries: list[dict[str, Any]]) -> list[str]:
     return lines
 
 
-def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
+def render_document(
+    entries: list[dict[str, Any]],
+    main_tex_path: Path,
+    semantic_data: dict[str, Any] | None = None,
+) -> str:
     entries = sort_entries(entries)
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
-        "\\section*{Curated pilot series in comparable format}",
-        "",
     ]
     body.extend(COLUMN_GUARDRAIL_MACROS)
     body.append("")
-    missing_entries = [entry for entry in entries if entry["packet_kind"] == "missing_series"]
-    existing_entries = [entry for entry in entries if entry["packet_kind"] != "missing_series"]
-
-    if missing_entries or existing_entries:
-        if missing_entries:
-            body.extend(
-                [
-                    "\\subsection*{Pilot missing series drafts}",
-                    "",
-                ]
-            )
-        elif existing_entries:
-            body.extend(
-                [
-                    "\\subsection*{Pilot addenda to existing series}",
-                    "",
-                ]
-            )
-
+    if semantic_data:
+        body.extend(render_semantic_section(semantic_data))
+    body.extend(
+        [
+            "\\section*{Curated pilot series in comparable format}",
+            "",
+        ]
+    )
+    if entries:
         body.extend(
             [
                 r"\begin{multicols*}{2}",
@@ -886,18 +931,7 @@ def render_document(entries: list[dict[str, Any]], main_tex_path: Path) -> str:
                 r"\begin{spacing}{0.7}",
             ]
         )
-        if missing_entries:
-            body.extend(render_entry_blocks(missing_entries))
-        if existing_entries:
-            if missing_entries:
-                body.extend(
-                    [
-                        r"\medskip",
-                        r"{\large\bfseries Pilot addenda to existing series\par}",
-                        r"\smallskip",
-                    ]
-                )
-            body.extend(render_entry_blocks(existing_entries))
+        body.extend(render_entry_blocks(entries))
         body.extend(
             [
                 r"\end{spacing}",
@@ -945,6 +979,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Render curated series packets to a review TeX file.")
     parser.add_argument("--input-dir", default=DEFAULT_INPUT_DIR)
     parser.add_argument("--main-tex", default=DEFAULT_MAIN_TEX)
+    parser.add_argument("--semantic-json", default=DEFAULT_SEMANTIC_JSON)
     parser.add_argument("--output", default=DEFAULT_OUTPUT)
     parser.add_argument("--report-out", default=DEFAULT_REPORT)
     parser.add_argument("--ids", nargs="+", default=DEFAULT_IDS)
@@ -957,7 +992,8 @@ def main() -> int:
         load_curated_entry(Path(args.input_dir) / f"{gsc_id}.json")
         for gsc_id in args.ids
     ]
-    write_output(Path(args.output), render_document(entries, Path(args.main_tex)))
+    semantic_data = load_semantic_items(Path(args.semantic_json))
+    write_output(Path(args.output), render_document(entries, Path(args.main_tex), semantic_data))
     write_output(Path(args.report_out), render_report(entries, Path(args.output)))
     return 0
 

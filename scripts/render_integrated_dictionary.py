@@ -34,40 +34,7 @@ def sanitize_hand_entry(raw_block: str) -> str:
 
 
 def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
-    lines = [
-        r"\section*{Integrated semantic components}",
-        "",
-        r"\begin{multicols*}{2}",
-        r"\raggedcolumns",
-        r"\begin{spacing}{0.8}",
-        r"\begin{itemize}[noitemsep]",
-    ]
-    for item in semantic_data["items"]:
-        graph = item.get("graph_raw") or "—"
-        abbreviation = item.get("abbreviation") or ""
-        expanded = item.get("expanded_latin") or ""
-        note_parts = [item.get("notes"), item.get("note")] + list(item.get("comments") or [])
-        aliases = item.get("used_abbreviation_aliases") or []
-        if aliases:
-            note_parts.append("entry aliases: " + ", ".join(aliases))
-        notes = " / ".join(part for part in note_parts if part)
-        body = graph
-        if abbreviation:
-            body += rf" \textbf{{{abbreviation}}}"
-        if expanded and expanded != abbreviation:
-            body += f" {expanded}"
-        if notes:
-            body += f" --- {notes}"
-        lines.append(r"\item " + body)
-    lines.extend(
-        [
-            r"\end{itemize}",
-            r"\end{spacing}",
-            r"\end{multicols*}",
-            "",
-        ]
-    )
-    return lines
+    return render_curated_series.render_semantic_section(semantic_data)
 
 
 def render_integrated_entry(record: dict[str, Any]) -> str:

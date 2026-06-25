@@ -75,25 +75,28 @@ class PilotRegressionTests(unittest.TestCase):
             rendered,
             re.compile(r"\{\\large\{\\textsuperscript\{herb˸\}[^}]*\\textoverset\{a\}\{a\}k[₀₁₂₃₄₅₆₇₈₉]*\}\},"),
         )
-        self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 1)
-        self.assertEqual(rendered.count(r"\raggedcolumns"), 1)
+        self.assertEqual(rendered.count(r"\begin{multicols*}{2}"), 2)
+        self.assertEqual(rendered.count(r"\raggedcolumns"), 2)
         self.assertEqual(rendered.count(r"\pilotentry{%"), len(render_curated_series.DEFAULT_IDS))
 
     def test_generated_sample_orders_entries_by_schuessler_id(self) -> None:
+        entries = self.load_active_entries()
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
-        ordered_ids = [
-            "02-01",
-            "03-38",
-            "03-57",
-            "04-30",
-            "04-61",
-            "07-08",
-            "09-25",
-            "24-01",
-            "38-03",
-        ]
-        positions = [rendered.index(rf"\paragraph{{\textoversetlarge{{{entry_id}}}") for entry_id in ordered_ids]
-        self.assertEqual(positions, sorted(positions))
+        actual_ids = re.findall(r"\\paragraph\{\\textoversetlarge\{([^}]+)\}", rendered)
+        expected_ids = [entry["id"] for entry in render_curated_series.sort_entries(entries)]
+        self.assertEqual(actual_ids, expected_ids)
+
+    def test_generated_sample_starts_with_integrated_semantic_components(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        self.assertIn(r"\section*{Integrated semantic components}", rendered)
+        self.assertLess(
+            rendered.index(r"\section*{Integrated semantic components}"),
+            rendered.index(r"\section*{Curated pilot series in comparable format}"),
+        )
+        self.assertLess(
+            rendered.index(r"\section*{Integrated semantic components}"),
+            rendered.index(r"\paragraph{\textoversetlarge{"),
+        )
 
     def test_hand_done_01_01_hierarchy_snapshot(self) -> None:
         entries = json.loads((ROOT / "data/current_tex_entries.json").read_text(encoding="utf-8"))["entries"]

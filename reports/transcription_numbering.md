@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 794
-- Roots whose display label changed after document-wide renumbering: 432
-- Duplicate phonetic bases encountered in document order: 210
+- Mutable series/subseries roots inspected: 801
+- Roots whose display label changed after document-wide renumbering: 437
+- Duplicate phonetic bases encountered in document order: 212
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -350,6 +350,12 @@
 | `05-20` | `series-root` | 奭 | `qak` | 8 | `qak₈` | yes |
 | `05-21` | `series-root` | 力 | `ryk` | 2 | `ryk₂` | yes |
 | `05-21` | `subseries-root` | 阞 | `ryk` | 3 | `ryk₃` | yes |
+| `05-23` | `series-root` | 賊 | `tsyk` | 1 | `tsyk` | yes |
+| `05-24` | `series-root` | 則 | `tsyk` | 2 | `tsyk₂` | yes |
+| `05-28` | `series-root` | 塞 | `syk` | 1 | `syk` | yes |
+| `05-29` | `series-root` | 息 | `syk` | 2 | `syk₂` | yes |
+| `05-30` | `series-root` | 嗇 | `syk` | 3 | `syk₃` | yes |
+| `05-31` | `series-root` | 色 | `syk` | 4 | `syk₄` | yes |
 | `05-33` | `series-root` | 畐 | `pyk` | 2 | `pyk₂` | yes |
 | `06-05` | `series-root` | 𠃋 | `kuyṅ` | 1 | `kuyṅ` | yes |
 | `06-05` | `subseries-root` | 弘 | `kuyṅ` | 2 | `kuyṅ₂` | yes |
@@ -358,7 +364,7 @@
 | `06-10` | `series-root` | 氶 | `kyṅ` | 1 | `kyṅ` | yes |
 | `06-10` | `subseries-root` | 丞 | `tyṅ` | 3 | `tyṅ₃` | yes |
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
-| `06-13` | `series-root` | 朕 | `ɡlum` | 1 | `ɡlum` | yes |
+| `06-13` | `series-root` | 㑞 | `ɡlum` | 1 | `ɡlum` | yes |
 | `06-13` | `subseries-root` | 朕 | `ɡlum` | 2 | `ɡlum₂` | yes |
 | `06-17` | `series-root` | 夌 | `ryṅ` | 1 | `ryṅ` | yes |
 | `06-17` | `subseries-root` | 淩 | `ryṅ` | 2 | `ryṅ₂` | yes |
@@ -787,8 +793,9 @@
 | `31-16` | `subseries-root` | 屈 | `kut` | 2 | `kut₂` | yes |
 | `31-17` | `series-root` | 朮 | `lut` | 2 | `lut₂` | yes |
 | `31-20` | `series-root` | 卒 | `tsut` | 1 | `tsut` | yes |
-| `32-01` | `series-root` | 臣 | `kin` | 1 | `kin` | yes |
+| `32-01` | `series-root` | 臤 | `kin` | 1 | `kin` | yes |
 | `32-01` | `subseries-root` | 臣 | `kin` | 2 | `kin₂` | yes |
+| `32-01` | `subseries-root` | 臤 | `kin` | 3 | `kin₃` | yes |
 | `32-05` | `series-root` | 玄 | `quin` | 1 | `quin` | yes |
 | `32-05` | `subseries-root` | 弦 | `gin` | 1 | `gin` | yes |
 | `32-07` | `series-root` | 勻 | `quiṅ` | 1 | `quiṅ` | yes |

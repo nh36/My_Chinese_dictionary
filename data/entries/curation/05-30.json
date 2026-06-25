@@ -1,0 +1,552 @@
+{
+  "generated_at": "2026-06-25T20:31:03.635412+00:00",
+  "id": "05-30",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "05-30",
+    "rhyme_section": 5,
+    "series_number": 30,
+    "k_tokens": [
+      "926"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 137,
+    "source_line_number": 6,
+    "source_line_raw": "5-30    = K. 926         Mand.           MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "05-30",
+    "rhyme_section": "5",
+    "series_number": "30",
+    "schuessler_k_tokens": "926",
+    "schuessler_source_page": "137",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "嗇; 穡",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "嗇; 穡",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "嗇; 穡"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "926"
+  ],
+  "proposed_additions": [
+    {
+      "character": "嗇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣik"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣik"
+        ],
+        "mand2mc_bs_forms": [
+          "srik"
+        ],
+        "bs_gsr_forms": [
+          "srik"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6833",
+          "character": "嗇",
+          "pinyin": "se4",
+          "mc_nwh": "ṣik",
+          "mc_bs": "srik",
+          "gsr": "0926a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "145",
+          "character": "嗇",
+          "pinyin": "sè",
+          "mc_bs": "srik",
+          "mc_analyzed": "(sr- + -ik D)",
+          "oc_bs": "*srək",
+          "gloss": "reap",
+          "gsr": "0926a",
+          "unicode_utf16": "U+55C7"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11638",
+          "character": "嗇",
+          "phonetic_component": "來",
+          "component_level": "2",
+          "secondary_component": "嗇",
+          "fanqie": "所力",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "sʳɯɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|來|㐭|ls=ic|tr1=[[wheat]]|tr2=[[granary]]}}",
+          "positional_components": [
+            "來",
+            "㐭"
+          ],
+          "positional_components_raw": [
+            "來",
+            "㐭"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "tr1": "[[wheat]]",
+            "tr2": "[[granary]]"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|來|㐭|ls=ic|tr1=[[wheat]]|tr2=[[granary]]}}",
+            "positional_components": [
+              "來",
+              "㐭"
+            ],
+            "positional_components_raw": [
+              "來",
+              "㐭"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "tr1": "[[wheat]]",
+              "tr2": "[[granary]]"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{syk₃}},",
+      "render_latex": "嗇\t%se4 / sè\n{\\large{syk₃}},\n\\textit{ṣik};\t%0926a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "嗇",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "嗇"
+      },
+      "resolved_node_root": {
+        "root": "sryk",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "syk"
+        ],
+        "bs_node_roots": [
+          "sryk"
+        ],
+        "display_root": "sryk",
+        "division_class": "b",
+        "division_note": "top-level series head left unmarked",
+        "mark_required": false,
+        "mc_forms": [
+          "ṣik"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṣik",
+            "normalized": "ṣik",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "穡",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣik"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣik"
+        ],
+        "mand2mc_bs_forms": [
+          "srik"
+        ],
+        "bs_gsr_forms": [
+          "srik"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6834",
+          "character": "穡",
+          "pinyin": "se4",
+          "mc_nwh": "ṣik",
+          "mc_bs": "srik",
+          "gsr": "0926e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "145",
+          "character": "穡",
+          "pinyin": "sè",
+          "mc_bs": "srik",
+          "mc_analyzed": "(sr- + -ik D)",
+          "oc_bs": "*srək",
+          "gloss": "reap",
+          "gsr": "0926e",
+          "unicode_utf16": "U+7A61"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11639",
+          "character": "穡",
+          "phonetic_component": "來",
+          "component_level": "2",
+          "secondary_component": "嗇",
+          "fanqie": "所力",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "sʳɯɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|禾|嗇|ls=psc|c1=s|c2=p|t1=cereal; grain}}",
+          "positional_components": [
+            "禾",
+            "嗇"
+          ],
+          "positional_components_raw": [
+            "禾",
+            "嗇"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "cereal; grain"
+          },
+          "semantic_components": [
+            "禾"
+          ],
+          "phonetic_components": [
+            "嗇"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|禾|嗇|ls=psc|c1=s|c2=p|t1=cereal; grain}}",
+            "positional_components": [
+              "禾",
+              "嗇"
+            ],
+            "positional_components_raw": [
+              "禾",
+              "嗇"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "cereal; grain"
+            },
+            "semantic_components": [
+              "禾"
+            ],
+            "phonetic_components": [
+              "嗇"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "gran",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "禾",
+            "label_token": "gran(um)",
+            "abbreviation": "gran",
+            "start_line": 291
+          },
+          {
+            "graph_raw": "禾",
+            "label_token": "gran",
+            "abbreviation": "gran",
+            "learned": true,
+            "evidence_count": 4
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "禾"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{gran·}syk₃}},",
+      "render_latex": "穡\t%se4 / sè\n{\\large{\\textsuperscript{gran·}syk₃}},\n\\textit{ṣik};\t%0926e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "禾",
+        "phonetic_component": "嗇",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "穡",
+          "semantic_component": "禾",
+          "phonetic_component": "嗇",
+          "position": "prefix-dot",
+          "abbreviation": "gran",
+          "inventory_matches": [
+            {
+              "graph_raw": "禾",
+              "label_token": "gran(um)",
+              "abbreviation": "gran",
+              "start_line": 291
+            },
+            {
+              "graph_raw": "禾",
+              "label_token": "gran",
+              "abbreviation": "gran",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ],
+          "template_raw": "{{Han compound|禾|嗇|ls=psc|c1=s|c2=p|t1=cereal; grain}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "嗇",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "嗇"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "嗇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣik"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣik"
+        ],
+        "mand2mc_bs_forms": [
+          "srik"
+        ],
+        "bs_gsr_forms": [
+          "srik"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6833",
+          "character": "嗇",
+          "pinyin": "se4",
+          "mc_nwh": "ṣik",
+          "mc_bs": "srik",
+          "gsr": "0926a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "145",
+          "character": "嗇",
+          "pinyin": "sè",
+          "mc_bs": "srik",
+          "mc_analyzed": "(sr- + -ik D)",
+          "oc_bs": "*srək",
+          "gloss": "reap",
+          "gsr": "0926a",
+          "unicode_utf16": "U+55C7"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11638",
+          "character": "嗇",
+          "phonetic_component": "來",
+          "component_level": "2",
+          "secondary_component": "嗇",
+          "fanqie": "所力",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "sʳɯɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "穡",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣik"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣik"
+        ],
+        "mand2mc_bs_forms": [
+          "srik"
+        ],
+        "bs_gsr_forms": [
+          "srik"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6834",
+          "character": "穡",
+          "pinyin": "se4",
+          "mc_nwh": "ṣik",
+          "mc_bs": "srik",
+          "gsr": "0926e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "145",
+          "character": "穡",
+          "pinyin": "sè",
+          "mc_bs": "srik",
+          "mc_analyzed": "(sr- + -ik D)",
+          "oc_bs": "*srək",
+          "gloss": "reap",
+          "gsr": "0926e",
+          "unicode_utf16": "U+7A61"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11639",
+          "character": "穡",
+          "phonetic_component": "來",
+          "component_level": "2",
+          "secondary_component": "嗇",
+          "fanqie": "所力",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ɯɡ",
+          "oc_syllable": "sʳɯɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "嗇",
+      "gsr": "0926a",
+      "oc_bs": "*srək",
+      "root": "syk",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "syk",
+    "source": "head_graph_oc_bs",
+    "character": "嗇",
+    "oc_bs": "*srək",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "syk₃",
+    "base_root": "syk",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

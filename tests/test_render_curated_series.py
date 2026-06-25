@@ -68,6 +68,16 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             main_tex = Path(temp_dir) / "main.tex"
             main_tex.write_text("\\documentclass{article}\n\\begin{document}\n\\end{document}\n", encoding="utf-8")
+            semantic_data = {
+                "items": [
+                    {
+                        "graph_raw": "木",
+                        "abbreviation": "arb",
+                        "expanded_latin": "arb(or)",
+                        "note": "test item",
+                    }
+                ]
+            }
             doc = render_curated_series.render_document(
                 [
                     {
@@ -81,7 +91,10 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                     }
                 ],
                 main_tex,
+                semantic_data,
             )
+            self.assertIn("\\section*{Integrated semantic components}", doc)
+            self.assertIn(r"\item 木 \textbf{arb} arb(or) --- test item", doc)
             self.assertIn("\\section*{Curated pilot series in comparable format}", doc)
             self.assertIn("\\end{document}", doc)
 
