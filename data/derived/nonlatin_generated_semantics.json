@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 52,
-    "unique_component_count": 45,
+    "case_count": 53,
+    "unique_component_count": 46,
     "by_classification": {
-      "new_latin_label_needed": 51,
+      "new_latin_label_needed": 52,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 32,
+      "wiktionary_component_literal_fallback": 33,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 12
     }
@@ -199,6 +199,23 @@
       "render_latex": "盟\t%meng2 / méng\n{\\large{\\textsuperscript{囧˸}maṅ₇}},\n\\textit{miaeṅ};\t%0760e",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `囧` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "04-16",
+      "character": "舊",
+      "abbreviation": "雈",
+      "semantic_component": "雈",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|雈|臼|c1=s|c2=p|t1=owl|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "owl",
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱艹隹",
+      "transliteration_latex": "{\\large{\\textsuperscript{雈˸}kuy₅}},",
+      "render_latex": "舊\t%jiu4 / jiù\n{\\large{\\textsuperscript{雈˸}kuy₅}},\n\\textit{giuwH};\t%1067c",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `雈` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "04-34",
@@ -622,8 +639,8 @@
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
       "semantic_component_ids": "⿱𠁳豆",
-      "transliteration_latex": "{\\large{\\textsuperscript{豐·}ly₇}},",
-      "render_latex": "豒\t%zhi4\n{\\large{\\textsuperscript{豐·}ly₇}},\n\\textit{ḍit};\t%0591n",
+      "transliteration_latex": "{\\large{\\textsuperscript{豐·}ly₈}},",
+      "render_latex": "豒\t%zhi4\n{\\large{\\textsuperscript{豐·}ly₈}},\n\\textit{ḍit};\t%0591n",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `豐` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -1674,6 +1691,27 @@
           "entry_id": "30-11",
           "character": "肆",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "雈",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `雈` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱艹隹",
+      "template_alt_graph": null,
+      "template_gloss_primary": "owl",
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "04-16",
+          "character": "舊",
+          "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

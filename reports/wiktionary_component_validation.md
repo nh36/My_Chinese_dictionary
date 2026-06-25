@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4636
-- Pages fetched / cached successfully: 4572
-- Additions with explicit Han-compound semantic/phonetic roles: 2217
+- Proposed additions checked: 4650
+- Pages fetched / cached successfully: 4586
+- Additions with explicit Han-compound semantic/phonetic roles: 2221
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -777,6 +777,8 @@
 | `04-05` | 㠱 | yes | no |  |  |
 | `04-06` | 龜 | yes | no |  |  |
 | `04-07` | 簋 | yes | no |  |  |
+| `04-09` | 頯 | yes | no |  |  |
+| `04-09` | 頮 | yes | no |  |  |
 | `04-12` | 九 | yes | no |  |  |
 | `04-12` | 頄 | yes | no |  |  |
 | `04-12` | 宄 | yes | yes | 宀 | 九 |
@@ -801,6 +803,8 @@
 | `04-13` | 㝌 | yes | no |  |  |
 | `04-13` | 羑 | yes | no |  |  |
 | `04-13` | 柩 | yes | no |  |  |
+| `04-14` | 丘 | yes | no |  |  |
+| `04-14` | 蚯 | yes | no |  |  |
 | `04-15` | 求 | yes | no |  |  |
 | `04-15` | 裘 | yes | yes | 衣 | 求 |
 | `04-15` | 球 | yes | yes | 玉 | 求 |
@@ -812,6 +816,10 @@
 | `04-15` | 銶 | yes | yes | 金 | 求 |
 | `04-15` | 救 | yes | yes | 攴 | 求 |
 | `04-15` | 俅 | yes | yes | 人 | 求 |
+| `04-16` | 臼 | yes | no |  |  |
+| `04-16` | 舅 | yes | yes | 男 | 臼 |
+| `04-16` | 舊 | yes | yes | 雈 | 臼 |
+| `04-16` | 匶 | yes | no |  |  |
 | `04-17` | 又 | yes | no |  |  |
 | `04-17` | 郁 | yes | yes | 邑 | 有 |
 | `04-17` | 友 | yes | no |  | 又, 又 |
@@ -826,6 +834,10 @@
 | `04-17` | 痏 | yes | no |  |  |
 | `04-17` | 鮪 | yes | no |  |  |
 | `04-17` | 賄 | yes | yes | 貝 | 有 |
+| `04-18` | 尤 | yes | no |  |  |
+| `04-18` | 訧 | yes | no |  |  |
+| `04-18` | 疣 | yes | yes | 疒 | 尤 |
+| `04-18` | 肬 | yes | yes | 肉 | 尤 |
 | `04-21` | 喜 | yes | no |  |  |
 | `04-21` | 憘 | yes | no |  |  |
 | `04-21` | 嘻 | yes | yes | 口 | 喜 |
@@ -844,6 +856,8 @@
 | `04-23` | 觺 | yes | no |  |  |
 | `04-23` | 礙 | yes | yes | 石 | 疑 |
 | `04-23` | 凝 | yes | yes | 仌 | 疑 |
+| `04-24` | 牛 | yes | no |  |  |
+| `04-25` | 臺 | yes | no |  |  |
 | `04-26` | 止 | yes | no |  |  |
 | `04-26` | 旹 | yes | no |  |  |
 | `04-26` | 詩 | yes | yes | 言 | 寺 |
