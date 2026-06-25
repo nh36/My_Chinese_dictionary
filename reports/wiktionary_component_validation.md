@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4650
-- Pages fetched / cached successfully: 4586
-- Additions with explicit Han-compound semantic/phonetic roles: 2221
+- Proposed additions checked: 4665
+- Pages fetched / cached successfully: 4601
+- Additions with explicit Han-compound semantic/phonetic roles: 2228
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -883,6 +883,12 @@
 | `04-26` | 侍 | yes | yes | 人 | 寺 |
 | `04-26` | 恃 | yes | yes | 心 | 寺 |
 | `04-26` | 時 | yes | yes | 日 | 之 |
+| `04-27` | 之 | yes | no |  |  |
+| `04-27` | 芝 | yes | yes | 艸 | 之 |
+| `04-27` | 蚩 | yes | no |  |  |
+| `04-27` | 志 | yes | yes | 心 | 之 |
+| `04-27` | 誌 | yes | yes | 言 | 志 |
+| `04-28` | 市 | yes | yes | 兮 | 之 |
 | `04-29` | 止 | yes | no |  |  |
 | `04-29` | 旹 | yes | no |  |  |
 | `04-29` | 詩 | yes | yes | 言 | 寺 |
@@ -941,6 +947,12 @@
 | `04-30` | 貽 | yes | yes | 貝 | 台 |
 | `04-30` | 飴 | yes | no |  |  |
 | `04-30` | 治 | yes | yes | 水 | 台 |
+| `04-31` | 已 | yes | no |  |  |
+| `04-31` | 异 | yes | yes | 廾 | 以 |
+| `04-32` | 巳 | yes | no |  |  |
+| `04-32` | 祀 | yes | yes | 示 | 巳 |
+| `04-32` | 汜 | yes | no |  |  |
+| `04-32` | 戺 | yes | no |  |  |
 | `04-34` | 頤 | yes | yes | 頁 | 𦣞 |
 | `04-34` | 巸 | yes | yes | 𦣞 | 巳 |
 | `04-34` | 姬 | yes | yes | 女 | 𦣞 |
@@ -983,6 +995,9 @@
 | `04-41` | 耐 | yes | yes | 寸 | 而 |
 | `04-41` | 𨼏 | no | no |  |  |
 | `04-41` | 陾 | yes | no |  |  |
+| `04-42` | 災 | yes | yes | 火 | 𡿧 |
+| `04-42` | 灾 | yes | no |  |  |
+| `04-43` | 再 | yes | no |  |  |
 | `04-45` | 才 | yes | no |  |  |
 | `04-45` | 載 | yes | yes | 車 | 𢦏 |
 | `04-45` | 裁 | yes | yes | 衣 | 𢦏 |

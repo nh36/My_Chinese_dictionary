@@ -2,21 +2,21 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 53
-- Unique unresolved semantic graphs/tokens: 46
+- Generated non-Latin semantic occurrences: 54
+- Unique unresolved semantic graphs/tokens: 47
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 52 |
+| `new_latin_label_needed` | 53 |
 | `template_alt_graph` | 1 |
 
 ## By source
 
 | Source | Count |
 | --- | ---: |
-| `ids_component_literal_fallback` | 12 |
+| `ids_component_literal_fallback` | 13 |
 | `packet_family_component_literal_fallback` | 8 |
 | `wiktionary_component_literal_fallback` | 33 |
 
@@ -48,6 +48,7 @@
 | `巜` | `⿰𡿨𡿨` | `32-26`:粼 |  | Keep `巜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `引` | `⿰弓丨` | `26-19`:矧 |  | Keep `引` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `恣` | `⿱次心` | `29-13`:懿 |  | Keep `恣` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `户` | `⿱丶尸` | `04-32`:戺 |  | Keep `户` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `旦` | `⿱日一` | `24-02`:倝, `30-02`:暨 |  | Keep `旦` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `朩` | `朩` | `30-02`:㮣 |  | Keep `朩` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `柬` | `柬` | `32-22`:𣍃 |  | Keep `柬` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
