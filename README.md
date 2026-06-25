@@ -18,6 +18,14 @@ The document is intended to be built with XeLaTeX via `latexmk`:
 latexmk -xelatex main.tex
 ```
 
+Rebuild the generated review PDFs in place with:
+
+```sh
+python3 scripts/build_review_pdfs.py
+```
+
+This helper compiles the generated review TeX from the repository root and then syncs the fresh PDFs back into `build/`, so `build/generated_curated_series_sample.pdf` and `build/generated_integrated_dictionary.pdf` do not go stale.
+
 Clean generated LaTeX build artifacts with:
 
 ```sh
