@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4606
-- Pages fetched / cached successfully: 4542
-- Additions with explicit Han-compound semantic/phonetic roles: 2205
+- Proposed additions checked: 4623
+- Pages fetched / cached successfully: 4558
+- Additions with explicit Han-compound semantic/phonetic roles: 2212
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -385,6 +385,8 @@
 | `03-16` | 卿 | yes | yes | 𠨍 | 皀 |
 | `03-17` | 享 | yes | no |  |  |
 | `03-17` | 亨 | yes | no |  |  |
+| `03-18` | 向 | no | no |  |  |
+| `03-18` | 餉 | yes | yes | 食 | 向 |
 | `03-19` | 香 | yes | no |  |  |
 | `03-20` | 央 | yes | no |  |  |
 | `03-20` | 佒 | yes | no |  |  |
@@ -396,6 +398,12 @@
 | `03-20` | 盎 | yes | yes | 皿 | 央 |
 | `03-20` | 英 | yes | yes | 艸 | 央 |
 | `03-21` | 影 | yes | yes | 彡 | 景 |
+| `03-22` | 光 | yes | no |  |  |
+| `03-22` | 洸 | yes | yes | 水 | 光 |
+| `03-22` | 絖 | yes | no |  |  |
+| `03-22` | 侊 | yes | no |  |  |
+| `03-22` | 觥 | yes | no |  |  |
+| `03-22` | 恍 | yes | yes | 心 | 光 |
 | `03-23` | 黃 | yes | yes | 田 | 炗 |
 | `03-23` | 璜 | yes | yes | 玉 | 黃 |
 | `03-23` | 潢 | yes | yes | 水 | 黄 |
@@ -572,6 +580,9 @@
 | `03-43` | 郎 | yes | yes | 邑 | 良 |
 | `03-43` | 閬 | yes | no |  |  |
 | `03-43` | 廊 | yes | yes | 广 | 郎 |
+| `03-44` | 兩 | yes | no |  |  |
+| `03-44` | 輛 | yes | yes | 車 | 兩 |
+| `03-44` | 蜽 | yes | no |  |  |
 | `03-45` | 量 | yes | yes | 重 | 曏 |
 | `03-45` | 糧 | yes | yes | 米 | 量 |
 | `03-46` | 梁 | yes | yes | 水, 木 | 刅 |
@@ -655,6 +666,8 @@
 | `03-57` | 房 | yes | yes | 戶 | 方 |
 | `03-57` | 防 | yes | yes | 阜 | 方 |
 | `03-58` | 匚 | yes | no |  |  |
+| `03-59` | 彭 | yes | no |  |  |
+| `03-59` | 𥛱 | yes | no |  |  |
 | `03-60` | 烹 | yes | yes | 火 | 亨 |
 | `03-61` | 丙 | yes | no |  |  |
 | `03-61` | 怲 | yes | no |  |  |
@@ -690,6 +703,10 @@
 | `03-65` | 巟 | yes | yes | 川 | 亡 |
 | `03-65` | 肓 | yes | no |  |  |
 | `03-65` | 衁 | yes | yes | 血 | 亡 |
+| `03-68` | 明 | yes | no |  |  |
+| `03-68` | 盟 | yes | yes | 囧 | 皿 |
+| `03-68` | 萌 | yes | yes | 艸 | 明 |
+| `04-01` | 改 | yes | yes | 攴 | 巳 |
 | `04-02` | 亥 | yes | no |  |  |
 | `04-02` | 核 | yes | yes | 木 | 亥 |
 | `04-02` | 咳 | yes | yes | 口 | 亥 |
