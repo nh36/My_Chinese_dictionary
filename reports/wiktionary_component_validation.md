@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4750
-- Pages fetched / cached successfully: 4686
-- Additions with explicit Han-compound semantic/phonetic roles: 2253
+- Proposed additions checked: 4757
+- Pages fetched / cached successfully: 4693
+- Additions with explicit Han-compound semantic/phonetic roles: 2254
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -953,6 +953,7 @@
 | `04-32` | 祀 | yes | yes | 示 | 巳 |
 | `04-32` | 汜 | yes | no |  |  |
 | `04-32` | 戺 | yes | no |  |  |
+| `04-33` | 辭 | yes | no |  |  |
 | `04-34` | 頤 | yes | yes | 頁 | 𦣞 |
 | `04-34` | 巸 | yes | yes | 𦣞 | 巳 |
 | `04-34` | 姬 | yes | yes | 女 | 𦣞 |
@@ -1229,6 +1230,10 @@
 | `05-38` | 默 | yes | yes | 犬 | 黑 |
 | `05-38` | 嘿 | yes | no |  |  |
 | `05-38` | 纆 | yes | no |  |  |
+| `05-39` | 牧 | yes | no |  |  |
+| `06-03` | 兢 | yes | no |  |  |
+| `06-04` | 弓 | yes | no |  |  |
+| `06-04` | 穹 | yes | yes | 穴 | 弓 |
 | `06-05` | 厷 | yes | no |  |  |
 | `06-05` | 肱 | yes | yes | 肉 | 厷 |
 | `06-05` | 弘 | yes | yes | 口 | 弓 |
@@ -1268,6 +1273,7 @@
 | `06-13` | 縢 | yes | no |  |  |
 | `06-13` | 螣 | yes | no |  |  |
 | `06-13` | 騰 | yes | yes | 馬 | 朕 |
+| `06-14` | 孕 | yes | no |  |  |
 | `06-17` | 夌 | yes | no | 木, 人 |  |
 | `06-17` | 陵 | yes | yes | 阜 | 夌 |
 | `06-17` | 淩 | yes | no |  |  |
@@ -1389,6 +1395,7 @@
 | `07-14` | 鯷 | yes | no |  |  |
 | `07-14` | 寔 | yes | no |  |  |
 | `07-14` | 湜 | yes | yes | 水 | 是 |
+| `07-16` | 豸 | yes | no |  |  |
 | `07-20` | 爾 | yes | no |  |  |
 | `07-20` | 邇 | yes | no |  |  |
 | `07-20` | 嬭 | yes | no |  |  |

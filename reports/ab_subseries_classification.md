@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 712
+- Generated subgroup heads inspected: 713
 - Subgroups newly marked with `a`: 98
 - Subgroups newly marked with `b`: 87
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 198
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 199
 - Mixed subgroups left unmarked: 326
 - Unresolved subgroups left unmarked: 3
 
@@ -237,8 +237,9 @@
 | `05-34` | 備 | `pyk` | `pyk` | `mixed` | no | `biyH, beayH` | the extracted forms point to both type a and type b |
 | `05-38` | 黑 | `myk` | `myk` | `a` | no | `hək, mək` | all extracted forms lack an i-medial after the onset |
 | `05-38` | 墨 | `myk` | `myk₂` | `a` | no | `mək` | all extracted forms lack an i-medial after the onset |
+| `06-04` | 弓 | `kuyṅ` | `kuyṅ` | `b` | no | `kiuwṅ, khiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-05` | 厷 | `kuyṅ` | `kuyṅ` | `mixed` | no | `kwəṅ, ḫweaṅ, ḫiuwṅ` | the extracted forms point to both type a and type b |
-| `06-05` | 弘 | `kuyṅ` | `kuyṅ₂` | `a` | no | `ḫwəṅ, khwəṅ, kwəṅ` | all extracted forms lack an i-medial after the onset |
+| `06-05` | 弘 | `kuyṅ` | `kuyṅ₃` | `a` | no | `ḫwəṅ, khwəṅ, kwəṅ` | all extracted forms lack an i-medial after the onset |
 | `06-09` | 登 | `tyṅ` | `tyṅ₂` | `mixed` | no | `təṅ, təṅH, dəṅH, ḍiṅ, ciṅH, tsyingX` | the extracted forms point to both type a and type b |
 | `06-10` | 氶 | `kyṅ` | `kyṅ` | `b` | no | `jiṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-10` | 丞 | `tyṅ` | `tyṅ₃` | `b` | no | `jiṅ, ciṅ, ciṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -287,9 +288,9 @@
 | `09-17` | 呈 | `leṅ` | `leṅ₅` | `b` | no | `ḍieṅ, ṭhieṅ, ṭhieṅX, yieṅ, śieṅH, yengX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-17` | 聖 | `leṅ` | `leṅ₆` | `b` | no | `śieṅH, ṭhieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-19` | 令 | `riṅ` | `riṅ` | `mixed` | no | `lieṅ, lieṅH, lieṅX, leṅ, leṅX` | the extracted forms point to both type a and type b |
-| `09-25` | 生 | `seṅ` | `seṅ₂` | `mixed` | no | `ṣaeṅ, tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX, ṣieṅX, sieṅX, sieṅH, tshenH, tṣeaṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
-| `09-25` | 青 | `seṅ` | `seṅ₃` | `mixed` | no | `tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX` | the extracted forms point to both type a and type b |
-| `09-25` | 星 | `seṅ` | `seṅ₄` | `mixed` | no | `dzieṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 生 | `tseṅ` | `tseṅ₂` | `mixed` | no | `ṣaeṅ, tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX, ṣieṅX, sieṅX, sieṅH, tshenH, tṣeaṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 青 | `tseṅ` | `tseṅ₃` | `mixed` | no | `tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 星 | `tseṅ` | `tseṅ₄` | `mixed` | no | `dzieṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
 | `09-26` | 平 | `peṅ` | `peṅ` | `mixed` | no | `beanH, ben, biaeṅ, beṅ, peaṅ, pheaṅ` | the extracted forms point to both type a and type b |
 | `09-29` | 并 | `peṅ` | `peṅ` | `mixed` | no | `pyieṅ, pyieṅH, beṅX, pheṅ, pheṅX, beṅ, pyieṅX, byieṅH, pheaṅ, peaṅ, peaṅH, ben` | the extracted forms point to both type a and type b |
 | `09-29` | 屏 | `peṅ` | `peṅ₃` | `mixed` | no | `beṅ, pyieṅ, pyieṅH, pyieṅX, byieṅH` | the extracted forms point to both type a and type b |

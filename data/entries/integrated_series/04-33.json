@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-06-26T12:12:02.684957+00:00",
+  "id": "04-33",
+  "schuessler": {
+    "gsc_id": "04-33",
+    "rhyme_section": 4,
+    "series_number": 33,
+    "k_tokens": [
+      "968"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC            LHan                OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 124,
+    "source_line_number": 39,
+    "source_line_raw": "4-33 = K. 968            Man d.        MC            LHan                OCM"
+  },
+  "preferred_hand_entry": null,
+  "pilot_entry": null,
+  "curated_entry": {
+    "generated_at": "2026-06-26T12:04:25.247817+00:00",
+    "id": "04-33",
+    "status": "machine-curated-pilot",
+    "packet_kind": "missing_series",
+    "schuessler": {
+      "gsc_id": "04-33",
+      "rhyme_section": 4,
+      "series_number": 33,
+      "k_tokens": [
+        "968"
+      ],
+      "has_explicit_k_range": false,
+      "source_remainder_raw": "Man d.        MC            LHan                OCM",
+      "is_cross_reference_only": false,
+      "source_page_number": 124,
+      "source_line_number": 39,
+      "source_line_raw": "4-33 = K. 968            Man d.        MC            LHan                OCM"
+    },
+    "coverage": {
+      "gsc_id": "04-33",
+      "rhyme_section": "4",
+      "series_number": "33",
+      "schuessler_k_tokens": "968",
+      "schuessler_source_page": "124",
+      "schuessler_cross_reference_only": "no",
+      "in_tex": "no",
+      "tex_character_count": "0",
+      "tex_characters_sample": null,
+      "mand2mc_row_count": "2",
+      "mand2mc_character_count": "1",
+      "mand2mc_characters_sample": "辭",
+      "bs_gsr_row_count": "1",
+      "bs_gsr_character_count": "1",
+      "bs_gsr_characters_sample": "辭",
+      "combined_source_character_count": "1",
+      "combined_source_characters_sample": "辭"
+    },
+    "tex_entry": null,
+    "entry_hierarchy": null,
+    "candidate_source_strategy": "schuessler_k_tokens",
+    "candidate_source_tokens": [
+      "968"
+    ],
+    "proposed_additions": [
+      {
+        "character": "辭",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 1,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "zi",
+            "ziH"
+          ],
+          "mand2mc_nwh_forms": [
+            "zi",
+            "ziH"
+          ],
+          "mand2mc_bs_forms": [
+            "zi",
+            "ziH"
+          ],
+          "bs_gsr_forms": [
+            "zi"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [
+            "ziH"
+          ],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "7143",
+            "character": "辭",
+            "pinyin": "ci2",
+            "mc_nwh": "zi",
+            "mc_bs": "zi",
+            "gsr": "0968a"
+          },
+          {
+            "source_row_number": "7144",
+            "character": "辭",
+            "pinyin": "ci2",
+            "mc_nwh": "ziH",
+            "mc_bs": "ziH",
+            "gsr": "0968a"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "152",
+            "character": "辭",
+            "pinyin": "cí",
+            "mc_bs": "zi",
+            "mc_analyzed": "(z- + -i A)",
+            "oc_bs": "*sə.lə",
+            "gloss": "words",
+            "gsr": "0968a",
+            "unicode_utf16": "U+8FAD"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "1817",
+            "character": "辭",
+            "phonetic_component": "辭",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "似兹",
+            "source": "广韵",
+            "oc_initial": "sɡˡ",
+            "oc_rhyme": "ɯ",
+            "oc_syllable": "sɡˡɯ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "1817",
+            "character": "辭",
+            "phonetic_component": "辭",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "似兹",
+            "source": "广韵",
+            "oc_initial": "sɡˡ",
+            "oc_rhyme": "ɯ",
+            "oc_syllable": "sɡˡɯ"
+          }
+        ],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "self_phonetic_base",
+          "semantic_component": null
+        },
+        "transliteration_latex": "{\\large{ly₇}},",
+        "render_latex": "辭\t%ci2 / cí\n{\\large{ly₇}},\n\\textit{zi};\t%0968a\n\\textit{ziH};",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-top-level",
+          "parent_character": "辭",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "top_level",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "辭"
+        },
+        "resolved_node_root": null
+      }
+    ],
+    "all_candidates": [
+      {
+        "character": "辭",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 1,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "zi",
+            "ziH"
+          ],
+          "mand2mc_nwh_forms": [
+            "zi",
+            "ziH"
+          ],
+          "mand2mc_bs_forms": [
+            "zi",
+            "ziH"
+          ],
+          "bs_gsr_forms": [
+            "zi"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [
+            "ziH"
+          ],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "7143",
+            "character": "辭",
+            "pinyin": "ci2",
+            "mc_nwh": "zi",
+            "mc_bs": "zi",
+            "gsr": "0968a"
+          },
+          {
+            "source_row_number": "7144",
+            "character": "辭",
+            "pinyin": "ci2",
+            "mc_nwh": "ziH",
+            "mc_bs": "ziH",
+            "gsr": "0968a"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "152",
+            "character": "辭",
+            "pinyin": "cí",
+            "mc_bs": "zi",
+            "mc_analyzed": "(z- + -i A)",
+            "oc_bs": "*sə.lə",
+            "gloss": "words",
+            "gsr": "0968a",
+            "unicode_utf16": "U+8FAD"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "1817",
+            "character": "辭",
+            "phonetic_component": "辭",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "似兹",
+            "source": "广韵",
+            "oc_initial": "sɡˡ",
+            "oc_rhyme": "ɯ",
+            "oc_syllable": "sɡˡɯ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "1817",
+            "character": "辭",
+            "phonetic_component": "辭",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "似兹",
+            "source": "广韵",
+            "oc_initial": "sɡˡ",
+            "oc_rhyme": "ɯ",
+            "oc_syllable": "sɡˡɯ"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Machine-promoted from a series packet; not yet hand-checked.",
+      "Use this file as the staging area for editorial decisions before any merge into main.tex."
+    ],
+    "series_root_candidates": [
+      {
+        "character": "辭",
+        "gsr": "0968a",
+        "oc_bs": "*sə.lə",
+        "root": "ly",
+        "source": "head_graph_oc_bs",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
+      }
+    ],
+    "resolved_series_root": {
+      "root": "ly",
+      "source": "head_graph_oc_bs",
+      "character": "辭",
+      "oc_bs": "*sə.lə",
+      "confidence": "provisional-oc",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ],
+      "display_root": "ly₇",
+      "base_root": "ly",
+      "ordinal": 7,
+      "numbering_source": "document_order_occurrence"
+    }
+  },
+  "provenance": [
+    {
+      "source": "current_curation",
+      "source_path": "data/entries/curation/04-33.json",
+      "packet_kind": "missing_series",
+      "status": "machine-curated-pilot"
+    }
+  ],
+  "status_flags": [
+    "needs_review",
+    "generated_candidate"
+  ],
+  "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "04-33",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "04-33",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 2,
+    "by_source_layer": {
+      "curation_entry_note": 2
+    },
+    "by_category": {
+      "workflow_internal": 2
+    },
+    "by_visibility": {
+      "internal": 2
+    },
+    "by_recommended_rendering": {
+      "internal_only": 2
+    }
+  },
+  "render_mode": "generated_missing_series"
+}

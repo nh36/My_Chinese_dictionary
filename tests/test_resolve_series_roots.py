@@ -159,6 +159,15 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("character"), "霍")
         self.assertEqual(resolved.get("root"), "quok")
 
+    def test_07_16_explicit_head_bs_beats_conflicting_shengfu(self) -> None:
+        entry = json.loads((ROOT / "data/entries/curation/07-16.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "豸")
+        self.assertEqual(resolved.get("root"), "te")
+        self.assertEqual(resolved.get("source"), "head_graph_bs_head")
+
     def test_02_03_falls_back_to_b_suffix_when_a_lacks_oc_evidence(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/02-03.json").read_text(encoding="utf-8"))
         entry = resolve_series_roots.apply_root_resolution(entry)

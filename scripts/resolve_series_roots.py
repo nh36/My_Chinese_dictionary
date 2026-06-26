@@ -634,6 +634,13 @@ def resolve_root(
         ]
         if len(coda_matched) == 1:
             return resolved_root_from_candidate(coda_matched[0], source="head_graph_mc_coda")
+    if len(candidates) == 2:
+        bs_candidates = [candidate for candidate in candidates if candidate.get("source") == "head_graph_oc_bs"]
+        shengfu_candidates = [
+            candidate for candidate in candidates if candidate.get("source") == "head_graph_oc_shengfu"
+        ]
+        if len(bs_candidates) == 1 and len(shengfu_candidates) == 1:
+            return resolved_root_from_candidate(bs_candidates[0], source="head_graph_bs_head")
     ranked = sorted(
         candidates,
         key=lambda item: (-item.get("support_count", 1), item["root"]),

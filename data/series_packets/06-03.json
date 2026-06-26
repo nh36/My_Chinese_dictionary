@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-06-26T12:04:25.023914+00:00",
+  "gsc_id": "06-03",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "888"
+  ],
+  "schuessler": {
+    "gsc_id": "06-03",
+    "rhyme_section": 6,
+    "series_number": 3,
+    "k_tokens": [
+      "888"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                       LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 139,
+    "source_line_number": 32,
+    "source_line_raw": "6-3    = K. 888      Mand.                       LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "06-03",
+    "rhyme_section": "6",
+    "series_number": "3",
+    "schuessler_k_tokens": "888",
+    "schuessler_source_page": "139",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "兢",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "兢",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "兢"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "兢",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6658",
+          "character": "兢",
+          "pinyin": "jing1",
+          "mc_nwh": "giṅ",
+          "mc_bs": "ging",
+          "gsr": "0888a"
+        },
+        {
+          "source_row_number": "6659",
+          "character": "兢",
+          "pinyin": "jing1",
+          "mc_nwh": "kiṅ",
+          "mc_bs": "king",
+          "gsr": "0888a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "140",
+          "character": "兢",
+          "pinyin": "jīng",
+          "mc_bs": "king",
+          "mc_analyzed": "(k- + -ing A)",
+          "oc_bs": "*kəŋ {*k(r)əŋ}",
+          "gloss": "cautious",
+          "gsr": "0888a",
+          "unicode_utf16": "U+5162"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7360",
+          "character": "兢",
+          "phonetic_component": "𠓆",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居陵",
+          "source": "广韵",
+          "oc_initial": "kʳ",
+          "oc_rhyme": "ɯŋ",
+          "oc_syllable": "kʳɯŋ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "giṅ",
+          "kiṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "giṅ",
+          "kiṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "ging",
+          "king"
+        ],
+        "bs_gsr_forms": [
+          "king"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "ging"
+        ],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "6658",
+        "character": "兢",
+        "pinyin": "jing1",
+        "mc_nwh": "giṅ",
+        "mc_bs": "ging",
+        "gsr": "0888a"
+      },
+      {
+        "source_row_number": "6659",
+        "character": "兢",
+        "pinyin": "jing1",
+        "mc_nwh": "kiṅ",
+        "mc_bs": "king",
+        "gsr": "0888a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "140",
+        "character": "兢",
+        "pinyin": "jīng",
+        "mc_bs": "king",
+        "mc_analyzed": "(k- + -ing A)",
+        "oc_bs": "*kəŋ {*k(r)əŋ}",
+        "gloss": "cautious",
+        "gsr": "0888a",
+        "unicode_utf16": "U+5162"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
