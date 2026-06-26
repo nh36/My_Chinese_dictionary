@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 713
+- Generated subgroup heads inspected: 720
 - Subgroups newly marked with `a`: 98
 - Subgroups newly marked with `b`: 87
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 199
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 206
 - Mixed subgroups left unmarked: 326
 - Unresolved subgroups left unmarked: 3
 
@@ -223,18 +223,24 @@
 | `05-16` | 貸 | `lyk` | `lyk₄` | `a` | no | `thəyH, dək` | all extracted forms lack an i-medial after the onset |
 | `05-17` | 異 | `qyk` | `qyk` | `b` | no | `yiH, yik, ṭhik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-17` | 翼 | `qyk` | `qyk₂` | `b` | no | `yik` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `05-19` | 飤 | `lyk` | `lyk₆` | `b` | no | `ziH, ṭhik, śik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-20` | 奭 | `qak` | `q\textoverset{b}{a}k` | `b` | yes | `hik, śiek` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-21` | 力 | `ryk` | `ryk` | `mixed` | no | `lik, lək` | the extracted forms point to both type a and type b |
 | `05-21` | 阞 | `ryk` | `ryk₃` | `a` | no | `lək` | all extracted forms lack an i-medial after the onset |
 | `05-24` | 則 | `tsyk` | `tsyk` | `mixed` | no | `tsək, tṣik, tṣhik, tṣhiH` | the extracted forms point to both type a and type b |
 | `05-25` | 畟 | `syk` | `syk` | `b` | no | `tsik, tṣhik, ṣiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-26` | 即 | `tsik` | `tsik` | `b` | no | `tsik, tsit, tsiek` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `05-27` | 夨 | `tsryk` | `tsryk` | `b` | no | `tṣik, tsrik` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `05-27` | 仄 | `tsryk` | `tsryk` | `b` | no | `tṣik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-29` | 息 | `syk` | `syk` | `b` | no | `sik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-30` | 嗇 | `sryk` | `sryk` | `b` | no | `ṣik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `05-32` | 北 | `pyk` | `pyk` | `a` | no | `pək, bwəyH, pwəyH` | all extracted forms lack an i-medial after the onset |
 | `05-32` | 背 | `pyk` | `pyk₃` | `a` | no | `bwəyH, pwəyH` | all extracted forms lack an i-medial after the onset |
 | `05-33` | 畐 | `pyk` | `pyk` | `mixed` | no | `biuwk, piuwk, pik, bək, piuwH, phik, phiuwH, peak` | the extracted forms point to both type a and type b |
 | `05-34` | 備 | `pyk` | `pyk` | `mixed` | no | `biyH, beayH` | the extracted forms point to both type a and type b |
+| `05-35` | 𠬝 | `pyk` | `pyk` | `b` | no | `biuwk, biuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `05-35` | 服 | `pyk` | `pyk₇` | `b` | no | `biuwk, biuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `05-37` | 冒 | `muk` | `muk` | `a` | no | `mawH, mək` | all extracted forms lack an i-medial after the onset |
 | `05-38` | 黑 | `myk` | `myk` | `a` | no | `hək, mək` | all extracted forms lack an i-medial after the onset |
 | `05-38` | 墨 | `myk` | `myk₂` | `a` | no | `mək` | all extracted forms lack an i-medial after the onset |
 | `06-04` | 弓 | `kuyṅ` | `kuyṅ` | `b` | no | `kiuwṅ, khiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -244,6 +250,7 @@
 | `06-10` | 氶 | `kyṅ` | `kyṅ` | `b` | no | `jiṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-10` | 丞 | `tyṅ` | `tyṅ₃` | `b` | no | `jiṅ, ciṅ, ciṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-10` | 烝 | `tyṅ` | `tyṅ₄` | `b` | no | `ciṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `06-11` | 徵 | `tryṅ` | `tryṅ` | `b` | no | `ḍiṅ, ṭiṅ, ṭiX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-13` | 朕 | `ɡlum` | `ɡlum₂` | `mixed` | no | `ḍimX, ḍinX, yiṅH, jiṅ, śiṅ, śiṅH, dəṅ, dək` | the extracted forms point to both type a and type b |
 | `06-17` | 夌 | `ryṅ` | `ryṅ` | `b` | no | `liṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `06-17` | 淩 | `ryṅ` | `ryṅ₂` | `b` | no | `liṅ` | all extracted forms show an i-medial or a dedicated palatal onset |

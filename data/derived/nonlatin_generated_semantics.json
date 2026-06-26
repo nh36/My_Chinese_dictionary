@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 56,
-    "unique_component_count": 49,
+    "case_count": 57,
+    "unique_component_count": 50,
     "by_classification": {
-      "new_latin_label_needed": 55,
+      "new_latin_label_needed": 56,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 34,
+      "wiktionary_component_literal_fallback": 35,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 14
     }
@@ -301,6 +301,23 @@
       "render_latex": "翌\t%yi4 / yì\n{\\large{ryk\\textsuperscript{˸昱}}},\n\\textit{yik};\t%0912b",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `昱` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "05-35",
+      "character": "服",
+      "abbreviation": "凡",
+      "semantic_component": "凡",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|凡|𠬝|ls=psc|t1=tray|t2=to subdue|c1=s|c2=p|tr2=*[b]ək}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "tray",
+      "template_gloss_secondary": "to subdue",
+      "semantic_component_ids": "⿵几丶",
+      "transliteration_latex": "{\\large{\\textsuperscript{凡·}pyk₆}},",
+      "render_latex": "服\t%fu2 / gu2 / fu4 / fù / fú\n{\\large{\\textsuperscript{凡·}pyk₆}},\n\\textit{biuwk};\t%0934d\n\\textit{biuwX};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `凡` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "06-23",
@@ -1236,6 +1253,27 @@
           "character": "冞",
           "position": "prefix-colon",
           "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "凡",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `凡` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿵几丶",
+      "template_alt_graph": null,
+      "template_gloss_primary": "tray",
+      "template_gloss_secondary": "to subdue",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "05-35",
+          "character": "服",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },

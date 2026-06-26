@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4757
-- Pages fetched / cached successfully: 4693
-- Additions with explicit Han-compound semantic/phonetic roles: 2254
+- Proposed additions checked: 4778
+- Pages fetched / cached successfully: 4711
+- Additions with explicit Han-compound semantic/phonetic roles: 2265
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -779,6 +779,7 @@
 | `04-07` | 簋 | yes | no |  |  |
 | `04-09` | 頯 | yes | no |  |  |
 | `04-09` | 頮 | yes | no |  |  |
+| `04-10` | 逵 | yes | yes | 辵 | 坴 |
 | `04-12` | 九 | yes | no |  |  |
 | `04-12` | 頄 | yes | no |  |  |
 | `04-12` | 宄 | yes | yes | 宀 | 九 |
@@ -1177,6 +1178,11 @@
 | `05-17` | 瀷 | yes | no |  |  |
 | `05-18` | 翊 | yes | no |  |  |
 | `05-18` | 翌 | yes | yes | 昱 | 羽 |
+| `05-19` | 食 | yes | no |  |  |
+| `05-19` | 蝕 | yes | no |  |  |
+| `05-19` | 飤 | yes | yes | 人 | 食 |
+| `05-19` | 飭 | yes | yes | 力 | 飤 |
+| `05-19` | 飾 | yes | yes | 巾 | 飤 |
 | `05-20` | 奭 | yes | no |  |  |
 | `05-20` | 襫 | yes | no |  |  |
 | `05-21` | 力 | yes | no |  |  |
@@ -1198,6 +1204,12 @@
 | `05-26` | 蝍 | yes | no |  |  |
 | `05-26` | 堲 | yes | no |  |  |
 | `05-26` | 䳭 | yes | no |  |  |
+| `05-27` | 夨 | yes | no |  |  |
+| `05-27` | 仄 | yes | yes | 厂 | 夨 |
+| `05-27` | 𣅔 | no | no |  |  |
+| `05-27` | 昃 | yes | no |  |  |
+| `05-27` | 𠨮 | no | no |  |  |
+| `05-27` | 𣅛 | no | no |  |  |
 | `05-28` | 塞 | yes | no |  |  |
 | `05-28` | 㥶 | yes | no |  |  |
 | `05-29` | 息 | yes | no |  |  |
@@ -1224,7 +1236,14 @@
 | `05-34` | 備 | yes | no |  |  |
 | `05-34` | 犕 | yes | no |  |  |
 | `05-34` | 憊 | yes | no |  |  |
+| `05-35` | 𠬝 | yes | no |  |  |
+| `05-35` | 服 | yes | yes | 凡 | 𠬝 |
+| `05-35` | 箙 | yes | yes | 竹 | 服 |
 | `05-36` | 伏 | yes | no |  |  |
+| `05-37` | 冒 | yes | yes | 目 | 冃 |
+| `05-37` | 媢 | yes | no |  |  |
+| `05-37` | 瑁 | yes | yes | 玉 | 冒 |
+| `05-37` | 帽 | yes | yes | 巾 | 冒 |
 | `05-38` | 黑 | yes | no |  |  |
 | `05-38` | 墨 | yes | yes | 土 | 黑 |
 | `05-38` | 默 | yes | yes | 犬 | 黑 |
@@ -1261,6 +1280,8 @@
 | `06-10` | 拯 | yes | yes | 手 | 丞 |
 | `06-10` | 脀 | yes | no |  |  |
 | `06-10` | 蒸 | yes | yes | 艸 | 烝 |
+| `06-11` | 徵 | yes | no |  |  |
+| `06-11` | 懲 | yes | yes | 心 | 徵 |
 | `06-13` | 灷 | yes | no |  |  |
 | `06-13` | 㑞 | yes | no |  |  |
 | `06-13` | 朕 | yes | no |  |  |

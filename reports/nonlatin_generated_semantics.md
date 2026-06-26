@@ -2,14 +2,14 @@
 
 - This audit covers live generated semantics in `data/entries/curation/`.
 - Commented-out source material is excluded.
-- Generated non-Latin semantic occurrences: 56
-- Unique unresolved semantic graphs/tokens: 49
+- Generated non-Latin semantic occurrences: 57
+- Unique unresolved semantic graphs/tokens: 50
 
 ## By proposed handling
 
 | Classification | Count |
 | --- | ---: |
-| `new_latin_label_needed` | 55 |
+| `new_latin_label_needed` | 56 |
 | `template_alt_graph` | 1 |
 
 ## By source
@@ -18,7 +18,7 @@
 | --- | ---: |
 | `ids_component_literal_fallback` | 14 |
 | `packet_family_component_literal_fallback` | 8 |
-| `wiktionary_component_literal_fallback` | 34 |
+| `wiktionary_component_literal_fallback` | 35 |
 
 ## `new_latin_label_needed`
 
@@ -36,6 +36,7 @@
 | `云` | `⿱二厶` | `20-13`:藝 |  | Keep `云` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `儿` | `⿰丿乚` | `12-05`:兇 |  | Keep `儿` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `冖` | `冖` | `02-22`:㓃, `26-39`:冞 |  | Keep `冖` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
+| `凡` | `⿵几丶` | `05-35`:服 |  | Keep `凡` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `吅` | `⿰口口` | `02-14`:㖾, `02-14`:咢 |  | Keep `吅` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `向` | `⿵⿱丿冂口` | `03-16`:嚮 |  | Keep `向` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
 | `呂` | `⿳口丿口` | `32-07`:勻 |  | Keep `呂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed. |
