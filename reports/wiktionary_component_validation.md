@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4731
-- Pages fetched / cached successfully: 4667
-- Additions with explicit Han-compound semantic/phonetic roles: 2250
+- Proposed additions checked: 4750
+- Pages fetched / cached successfully: 4686
+- Additions with explicit Han-compound semantic/phonetic roles: 2253
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1190,6 +1190,13 @@
 | `05-24` | 惻 | yes | no |  |  |
 | `05-24` | 測 | yes | yes | 水 | 則 |
 | `05-24` | 廁 | yes | yes | 广 | 則 |
+| `05-25` | 畟 | yes | no |  |  |
+| `05-25` | 稷 | yes | no |  |  |
+| `05-25` | 謖 | yes | no |  |  |
+| `05-26` | 即 | yes | no |  |  |
+| `05-26` | 蝍 | yes | no |  |  |
+| `05-26` | 堲 | yes | no |  |  |
+| `05-26` | 䳭 | yes | no |  |  |
 | `05-28` | 塞 | yes | no |  |  |
 | `05-28` | 㥶 | yes | no |  |  |
 | `05-29` | 息 | yes | no |  |  |
@@ -1197,6 +1204,9 @@
 | `05-30` | 嗇 | yes | no |  |  |
 | `05-30` | 穡 | yes | yes | 禾 | 嗇 |
 | `05-31` | 色 | yes | no |  |  |
+| `05-32` | 北 | yes | no |  |  |
+| `05-32` | 背 | yes | yes | 肉 | 北 |
+| `05-32` | 偝 | yes | no |  |  |
 | `05-33` | 畐 | yes | no |  |  |
 | `05-33` | 福 | yes | yes | 示 | 畐 |
 | `05-33` | 葍 | yes | no |  |  |
@@ -1210,6 +1220,15 @@
 | `05-33` | 富 | yes | yes | 宀 | 畐 |
 | `05-33` | 副 | yes | yes | 刀 | 畐 |
 | `05-33` | 𠠦 | yes | no |  |  |
+| `05-34` | 備 | yes | no |  |  |
+| `05-34` | 犕 | yes | no |  |  |
+| `05-34` | 憊 | yes | no |  |  |
+| `05-36` | 伏 | yes | no |  |  |
+| `05-38` | 黑 | yes | no |  |  |
+| `05-38` | 墨 | yes | yes | 土 | 黑 |
+| `05-38` | 默 | yes | yes | 犬 | 黑 |
+| `05-38` | 嘿 | yes | no |  |  |
+| `05-38` | 纆 | yes | no |  |  |
 | `06-05` | 厷 | yes | no |  |  |
 | `06-05` | 肱 | yes | yes | 肉 | 厷 |
 | `06-05` | 弘 | yes | yes | 口 | 弓 |
