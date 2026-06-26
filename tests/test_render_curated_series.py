@@ -103,6 +103,9 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             self.assertIn("\\section*{Curated pilot series in comparable format}", doc)
             self.assertIn("\\end{document}", doc)
 
+    def test_default_ids_are_unique(self) -> None:
+        self.assertEqual(len(render_curated_series.DEFAULT_IDS), len(set(render_curated_series.DEFAULT_IDS)))
+
 
 if __name__ == "__main__":
     unittest.main()
