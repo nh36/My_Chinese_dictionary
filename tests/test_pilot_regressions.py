@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import evaluate_pilot_render  # noqa: E402
 import analyze_hierarchy_gap  # noqa: E402
+import build_semantic_evidence  # noqa: E402
 import render_curated_series  # noqa: E402
 
 
@@ -52,14 +53,26 @@ class PilotRegressionTests(unittest.TestCase):
 
     def test_four_special_cases_render_with_abstract_labels_and_footnotes(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
-        self.assertIn(r"丕\footnote{", rendered)
-        self.assertIn(r"旁\footnote{", rendered)
-        self.assertIn(r"燅\footnote{", rendered)
-        self.assertIn(r"艱\footnote{", rendered)
         self.assertRegex(rendered, re.compile(r"\{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\\textsuperscript\{˸discr\}\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{discr˸\}paṅ[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}(?:q|r)am(?:[₀₁₂₃₄₅₆₇₈₉]+)?\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}kyr[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
+
+    def test_generated_override_footnotes_anchor_to_first_transliteration_line(self) -> None:
+        active_entries = self.load_active_entries()
+        seen: list[str] = []
+        for entry in active_entries:
+            for candidate in entry.get("proposed_additions", []):
+                character = candidate["character"]
+                if character not in build_semantic_evidence.CHARACTER_FOOTNOTE_OVERRIDES:
+                    continue
+                seen.append(character)
+                render_latex = candidate.get("render_latex") or ""
+                lines = [line for line in render_latex.splitlines() if line.strip()]
+                self.assertGreaterEqual(len(lines), 2, msg=f"{character} render block is unexpectedly short")
+                self.assertNotIn(r"\footnote{", lines[0], msg=f"{character} footnote is still attached to the character line")
+                self.assertIn(r"\footnote{", lines[1], msg=f"{character} footnote is not attached to the first transliteration line")
+        self.assertEqual(sorted(seen), sorted(build_semantic_evidence.CHARACTER_FOOTNOTE_OVERRIDES))
 
     def test_generated_sample_retains_semantic_superscripts_without_visible_mc_warning(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")

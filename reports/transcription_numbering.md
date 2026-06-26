@@ -2,8 +2,8 @@
 
 - Ordering source: integrated_render_order
 - Mutable series/subseries roots inspected: 800
-- Roots whose display label changed after document-wide renumbering: 386
-- Duplicate phonetic bases encountered in document order: 220
+- Roots whose display label changed after document-wide renumbering: 376
+- Duplicate phonetic bases encountered in document order: 219
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -214,14 +214,14 @@
 | `03-49` | `subseries-root` | 將 | `ts\textoverset{b}{a}ṅ` | 1 | `ts\textoverset{b}{a}ṅ` | yes |
 | `03-49` | `subseries-root` | 戕 | `tsaṅ` | 3 | `tsaṅ₃` | yes |
 | `03-49` | `subseries-root` | 臧 | `ts\textoverset{a}{a}ṅ` | 1 | `ts\textoverset{a}{a}ṅ` | yes |
-| `03-49` | `subseries-root` | 牆 | `ts\textoverset{b}{a}ṅ` | 2 | `ts\textoverset{b}{a}ṅ₂` | yes |
-| `03-49` | `subseries-root` | 嬙 | `ts\textoverset{b}{a}ṅ` | 3 | `ts\textoverset{b}{a}ṅ₃` | yes |
-| `03-49` | `subseries-root` | 墻 | `ts\textoverset{b}{a}ṅ` | 4 | `ts\textoverset{b}{a}ṅ₄` | yes |
+| `03-49` | `subseries-root` | 牆 | `s\textoverset{b}{a}ṅ` | 1 | `s\textoverset{b}{a}ṅ` | yes |
+| `03-49` | `subseries-root` | 嬙 | `s\textoverset{b}{a}ṅ` | 2 | `s\textoverset{b}{a}ṅ₂` | yes |
+| `03-49` | `subseries-root` | 墻 | `s\textoverset{b}{a}ṅ` | 3 | `s\textoverset{b}{a}ṅ₃` | yes |
 | `03-49` | `subseries-root` | 壯 | `tsr\textoverset{b}{a}ṅ` | 1 | `tsr\textoverset{b}{a}ṅ` | yes |
 | `03-52` | `series-root` | 匠 | `paṅ` | 1 | `paṅ` | yes |
 | `03-54` | `series-root` | 喪 | `maṅ` | 1 | `maṅ` | yes |
-| `03-55` | `series-root` | 相 | `s\textoverset{b}{a}ṅ` | 1 | `s\textoverset{b}{a}ṅ` | yes |
-| `03-55` | `subseries-root` | 霜 | `s\textoverset{b}{a}ṅ` | 2 | `s\textoverset{b}{a}ṅ₂` | yes |
+| `03-55` | `series-root` | 相 | `s\textoverset{b}{a}ṅ` | 4 | `s\textoverset{b}{a}ṅ₄` | yes |
+| `03-55` | `subseries-root` | 霜 | `s\textoverset{b}{a}ṅ` | 5 | `s\textoverset{b}{a}ṅ₅` | yes |
 | `03-57` | `series-root` | 方 | `paṅ` | 2 | `paṅ₂` | yes |
 | `03-57` | `subseries-root` | 旁 | `p\textoverset{a}{a}ṅ` | 1 | `p\textoverset{a}{a}ṅ` | yes |
 | `03-57` | `subseries-root` | 防 | `p\textoverset{b}{a}ṅ` | 1 | `p\textoverset{b}{a}ṅ` | yes |
@@ -457,7 +457,7 @@
 | `12-03` | `series-root` | 廾 | `k\textoverset{b}{o}ṅ` | 2 | `k\textoverset{b}{o}ṅ₂` | yes |
 | `12-03` | `subseries-root` | 共 | `koṅ` | 2 | `koṅ₂` | yes |
 | `12-05` | `series-root` | 凶 | `q\textoverset{b}{o}ṅ` | 1 | `q\textoverset{b}{o}ṅ` | yes |
-| `12-05` | `subseries-root` | 匈 | `\textsuperscript{flect·}qh\textoverset{b}{o}ṅ` | 1 | `\textsuperscript{flect·}qh\textoverset{b}{o}ṅ` | yes |
+| `12-05` | `subseries-root` | 匈 | `\textsuperscript{flect·}q\textoverset{b}{o}ṅ` | 1 | `\textsuperscript{flect·}q\textoverset{b}{o}ṅ` | yes |
 | `12-08` | `series-root` | 重 | `toṅ` | 1 | `toṅ` | yes |
 | `12-08` | `subseries-root` | 童 | `toṅ` | 2 | `toṅ₂` | yes |
 | `12-08` | `subseries-root` | 動 | `t\textoverset{a}{o}ṅ` | 1 | `t\textoverset{a}{o}ṅ` | yes |

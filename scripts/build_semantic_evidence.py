@@ -1668,9 +1668,6 @@ def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
         return None
 
     first_line = candidate["character"]
-    footnote_latex = CHARACTER_FOOTNOTE_OVERRIDES.get(candidate["character"])
-    if footnote_latex:
-        first_line += rf"\footnote{{{footnote_latex}}}"
     pinyins = dedupe_preserve(
         [row["pinyin"] for row in candidate.get("mand2mc_rows", []) if row.get("pinyin")]
         + [row["pinyin"] for row in candidate.get("bs_gsr_rows", []) if row.get("pinyin")]
@@ -1686,7 +1683,11 @@ def synthesize_render_latex(candidate: dict[str, Any]) -> str | None:
     mc_forms = resolution["display_forms"]
 
     lines = [first_line]
-    lines.extend(transliteration_latex.splitlines())
+    transliteration_lines = transliteration_latex.splitlines()
+    footnote_latex = CHARACTER_FOOTNOTE_OVERRIDES.get(candidate["character"])
+    if footnote_latex and transliteration_lines:
+        transliteration_lines[0] += rf"\footnote{{{footnote_latex}}}"
+    lines.extend(transliteration_lines)
     for index, mc_form in enumerate(mc_forms):
         suffix = ""
         if index == 0 and gsr_values:

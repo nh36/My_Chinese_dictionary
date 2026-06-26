@@ -424,6 +424,23 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(resolved["division_class"], "a")
         self.assertEqual(resolved["display_root"], r"p\textoverset{a}{a}")
 
+    def test_synthesize_render_latex_moves_generated_footnote_to_transliteration_line(self) -> None:
+        candidate = {
+            "character": "丕",
+            "transliteration_latex": r"{\large{py\textsuperscript{˸discr}}},",
+            "mand2mc_rows": [{"pinyin": "pi1", "gsr": "0999k"}],
+            "bs_gsr_rows": [],
+            "mc_resolution": {"display_forms": ["phiy"]},
+        }
+
+        rendered = build_semantic_evidence.synthesize_render_latex(candidate)
+
+        self.assertIsNotNone(rendered)
+        lines = rendered.splitlines()
+        self.assertNotIn(r"\footnote{", lines[0])
+        self.assertIn(r"\footnote{", lines[1])
+        self.assertTrue(lines[1].startswith(r"{\large{py"))
+
     def test_repair_candidate_parent_cycles_demotes_mutual_cycle_to_top_level(self) -> None:
         entry = {
             "proposed_additions": [
