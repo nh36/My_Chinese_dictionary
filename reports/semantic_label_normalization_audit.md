@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-26T12:29:07.591527+00:00
+- Generated at: 2026-06-27T14:43:58.598578+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19715
+- Total occurrences audited: 19757
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 19530 |
+| `canonical` | 19570 |
 | `explicit_alias` | 11 |
-| `needs_review` | 174 |
+| `needs_review` | 176 |
 
 ## Blocked ambiguous aliases
 
@@ -664,6 +664,10 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{凡·}pyk₆}},
 \textit{biuwk};	%0934d
 \textit{biuwX};` |
+| `curation_json` | `06-06` | `興` | `舁` | render_latex, transliteration_latex | `舁` | `⿶⿳𦥑一八同` | `興	%xing1 / xing4 / xīng
+{\large{\textsuperscript{舁˸}qyṅ}},
+\textit{xiṅ};	%0889a
+\textit{xiṅH};` |
 | `curation_json` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a
@@ -807,6 +811,10 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{凡·}pyk₆}},
 \textit{biuwk};	%0934d
 \textit{biuwX};` |
+| `integrated_series_curated_entry` | `06-06` | `興` | `舁` | render_latex, transliteration_latex | `舁` | `⿶⿳𦥑一八同` | `興	%xing1 / xing4 / xīng
+{\large{\textsuperscript{舁˸}qyṅ}},
+\textit{xiṅ};	%0889a
+\textit{xiṅH};` |
 | `integrated_series_curated_entry` | `06-23` | `夢` | `夕` | render_latex, transliteration_latex | `夕` | `⿳𦭝冖夕` | `夢	%meng4 / meng2 / mèng
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a

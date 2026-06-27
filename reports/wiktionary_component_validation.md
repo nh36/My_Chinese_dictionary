@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4778
-- Pages fetched / cached successfully: 4711
-- Additions with explicit Han-compound semantic/phonetic roles: 2265
+- Proposed additions checked: 4795
+- Pages fetched / cached successfully: 4727
+- Additions with explicit Han-compound semantic/phonetic roles: 2271
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1250,6 +1250,11 @@
 | `05-38` | 嘿 | yes | no |  |  |
 | `05-38` | 纆 | yes | no |  |  |
 | `05-39` | 牧 | yes | no |  |  |
+| `06-01` | 亙 | yes | no |  |  |
+| `06-01` | 恆 | yes | yes | 心 | 亙 |
+| `06-01` | 絚 | yes | no |  |  |
+| `06-01` | 緪 | yes | no |  |  |
+| `06-01` | 𡍷 | no | no |  |  |
 | `06-03` | 兢 | yes | no |  |  |
 | `06-04` | 弓 | yes | no |  |  |
 | `06-04` | 穹 | yes | yes | 穴 | 弓 |
@@ -1263,6 +1268,7 @@
 | `06-05` | 雄 | yes | yes | 隹 | 厷 |
 | `06-05` | 鞃 | yes | no |  |  |
 | `06-05` | 𠃋 | yes | no |  |  |
+| `06-06` | 興 | yes | yes | 舁 | 型 |
 | `06-09` | 豋 | yes | no |  |  |
 | `06-09` | 登 | yes | no |  |  |
 | `06-09` | 鐙 | yes | no |  |  |
@@ -1282,6 +1288,9 @@
 | `06-10` | 蒸 | yes | yes | 艸 | 烝 |
 | `06-11` | 徵 | yes | no |  |  |
 | `06-11` | 懲 | yes | yes | 心 | 徵 |
+| `06-12` | 爯 | yes | no |  |  |
+| `06-12` | 偁 | yes | no |  |  |
+| `06-12` | 稱 | yes | yes | 禾 | 爯 |
 | `06-13` | 灷 | yes | no |  |  |
 | `06-13` | 㑞 | yes | no |  |  |
 | `06-13` | 朕 | yes | no |  |  |
@@ -1295,6 +1304,12 @@
 | `06-13` | 螣 | yes | no |  |  |
 | `06-13` | 騰 | yes | yes | 馬 | 朕 |
 | `06-14` | 孕 | yes | no |  |  |
+| `06-15` | 乘 | yes | no |  |  |
+| `06-15` | 剩 | yes | yes | 刀 | 乘 |
+| `06-16` | 升 | yes | no |  |  |
+| `06-16` | 昇 | yes | yes | 日 | 升 |
+| `06-16` | 陞 | yes | no |  |  |
+| `06-16` | 抍 | yes | no |  |  |
 | `06-17` | 夌 | yes | no | 木, 人 |  |
 | `06-17` | 陵 | yes | yes | 阜 | 夌 |
 | `06-17` | 淩 | yes | no |  |  |
@@ -1302,6 +1317,8 @@
 | `06-17` | 菱 | yes | yes | 艸 | 夌 |
 | `06-17` | 鯪 | yes | no |  |  |
 | `06-17` | 蔆 | yes | yes | 艸 | 淩 |
+| `06-18` | 能 | yes | no |  |  |
+| `06-18` | 態 | yes | yes | 心 | 能 |
 | `06-19` | 曾 | yes | no |  |  |
 | `06-19` | 增 | yes | yes | 土 | 曾 |
 | `06-19` | 憎 | yes | yes | 心 | 曾 |

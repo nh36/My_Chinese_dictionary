@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 57,
-    "unique_component_count": 50,
+    "case_count": 58,
+    "unique_component_count": 51,
     "by_classification": {
-      "new_latin_label_needed": 56,
+      "new_latin_label_needed": 57,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 35,
+      "wiktionary_component_literal_fallback": 36,
       "packet_family_component_literal_fallback": 8,
       "ids_component_literal_fallback": 14
     }
@@ -318,6 +318,23 @@
       "render_latex": "服\t%fu2 / gu2 / fu4 / fù / fú\n{\\large{\\textsuperscript{凡·}pyk₆}},\n\\textit{biuwk};\t%0934d\n\\textit{biuwX};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `凡` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "06-06",
+      "character": "興",
+      "abbreviation": "舁",
+      "semantic_component": "舁",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|舁|型|ls=psc|c1=s|c2=p}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱臼廾",
+      "transliteration_latex": "{\\large{\\textsuperscript{舁˸}qyṅ}},",
+      "render_latex": "興\t%xing1 / xing4 / xīng\n{\\large{\\textsuperscript{舁˸}qyṅ}},\n\\textit{xiṅ};\t%0889a\n\\textit{xiṅH};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `舁` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "06-23",
@@ -1718,6 +1735,27 @@
           "character": "臻",
           "position": "prefix-dot",
           "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "舁",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `舁` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱臼廾",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "06-06",
+          "character": "興",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
         }
       ]
     },
