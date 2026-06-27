@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 879
-- Roots whose display label changed after document-wide renumbering: 484
+- Mutable series/subseries roots inspected: 888
+- Roots whose display label changed after document-wide renumbering: 491
 - Duplicate phonetic bases encountered in document order: 233
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -267,6 +267,7 @@
 | `04-17` | `subseries-root` | 有 | `quy` | 3 | `quy₃` | yes |
 | `04-18` | `series-root` | 尤 | `quy` | 4 | `quy₄` | yes |
 | `04-19` | `series-root` | 郵 | `quy` | 5 | `quy₅` | yes |
+| `04-20` | `series-root` | 灰 | `quy` | 6 | `quy₆` | yes |
 | `04-21` | `series-root` | 喜 | `qy` | 2 | `qy₂` | yes |
 | `04-22` | `series-root` | 醫 | `qy` | 3 | `qy₃` | yes |
 | `04-23` | `series-root` | 疑 | `ṅy` | 1 | `ṅy` | yes |
@@ -393,7 +394,7 @@
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
 | `06-11` | `series-root` | 徵 | `tyṅ` | 5 | `tyṅ₅` | yes |
 | `06-12` | `series-root` | 爯 | `tyṅ` | 6 | `tyṅ₆` | yes |
-| `06-13` | `series-root` | 朕 | `ɡlum` | 1 | `ɡlum` | yes |
+| `06-13` | `series-root` | 㑞 | `ɡlum` | 1 | `ɡlum` | yes |
 | `06-13` | `subseries-root` | 朕 | `ɡlum` | 2 | `ɡlum₂` | yes |
 | `06-14` | `series-root` | 孕 | `liṅ` | 1 | `liṅ` | yes |
 | `06-15` | `series-root` | 乘 | `lyṅ` | 1 | `lyṅ` | yes |
@@ -407,6 +408,7 @@
 | `06-21` | `series-root` | 冫 | `  *pyṅ` | 1 | `  *pyṅ` | yes |
 | `06-21` | `subseries-root` | 冰 | `pyṅ` | 3 | `pyṅ₃` | yes |
 | `06-21` | `subseries-root` | 馮 | `pyṅ` | 4 | `pyṅ₄` | yes |
+| `06-22` | `series-root` | 凭 | `pyṅ` | 5 | `pyṅ₅` | yes |
 | `06-23` | `series-root` | 夢 | `myṅ` | 1 | `myṅ` | yes |
 | `06-23` | `subseries-root` | 瞢 | `myṅ` | 2 | `myṅ₂` | yes |
 | `06-23` | `subseries-root` | 夢 | `myṅ` | 3 | `myṅ₃` | yes |
@@ -441,6 +443,8 @@
 | `07-33` | `series-root` | 買 | `may` | 1 | `may` | yes |
 | `08-01` | `series-root` | 毄 | `kek` | 1 | `kek` | yes |
 | `08-02` | `series-root` | 鬲 | `rek` | 1 | `rek` | yes |
+| `08-04` | `series-root` | 厄 | `qik` | 2 | `qik₂` | yes |
+| `08-04` | `subseries-root` | 厄 | `qrik` | 1 | `qrik` | yes |
 | `08-05` | `series-root` | 益 | `ek` | 1 | `ek` | yes |
 | `08-05` | `subseries-root` | 嗌 | `ek` | 2 | `ek₂` | yes |
 | `08-08` | `series-root` | 役 | `quek` | 1 | `quek` | yes |
@@ -448,9 +452,13 @@
 | `08-10` | `series-root` | 狄 | `lek` | 1 | `lek` | yes |
 | `08-11` | `series-root` | 隻 | `tek` | 4 | `tek₄` | yes |
 | `08-12` | `series-root` | 易 | `lek` | 2 | `lek₂` | yes |
+| `08-13` | `series-root` | 秝 | `rek` | 2 | `rek₂` | yes |
+| `08-13` | `subseries-root` | 厤 | `rek` | 3 | `rek₃` | yes |
 | `08-14` | `series-root` | 朿 | `tsek` | 1 | `tsek` | yes |
 | `08-14` | `subseries-root` | 責 | `tsek` | 2 | `tsek₂` | yes |
 | `08-15` | `series-root` | 册 | `tsek` | 3 | `tsek₃` | yes |
+| `08-17` | `series-root` | 脊 | `tsek` | 4 | `tsek₄` | yes |
+| `08-18` | `series-root` | 析 | `sek` | 1 | `sek` | yes |
 | `08-19` | `series-root` | 辟 | `pek` | 1 | `pek` | yes |
 | `09-01` | `series-root` | 巠 | `leṅ` | 1 | `leṅ` | yes |
 | `09-01` | `subseries-root` | 輕 | `leṅ` | 2 | `leṅ₂` | yes |
@@ -647,7 +655,7 @@
 | `17-06` | `series-root` | 龠 | `lek` | 3 | `lek₃` | yes |
 | `17-06` | `subseries-root` | 籥 | `lek` | 4 | `lek₄` | yes |
 | `17-07` | `series-root` | 翟 | `lek` | 5 | `lek₅` | yes |
-| `17-08` | `series-root` | 樂 | `rek` | 2 | `rek₂` | yes |
+| `17-08` | `series-root` | 樂 | `rek` | 4 | `rek₄` | yes |
 | `18-01` | `baseline-series-root` | 可 | `qay` | 1 | `qay` | no |
 | `18-01` | `baseline-subseries-root` | 何 | `g\textoverset{a}{a}y` | 1 | `g\textoverset{a}{a}y` | no |
 | `18-01` | `baseline-subseries-root` | 哥 | `k\textoverset{a}{a}y` | 1 | `k\textoverset{a}{a}y` | no |
@@ -821,8 +829,8 @@
 | `27-08` | `subseries-root` | 匪 | `py` | 9 | `py₉` | yes |
 | `28-01` | `series-root` | 鬼 | `ʔuy` | 1 | `ʔuy` | yes |
 | `28-01` | `subseries-root` | 魏 | `qhuy` | 1 | `qhuy` | yes |
-| `28-04` | `series-root` | 回 | `quy` | 6 | `quy₆` | yes |
-| `28-05` | `series-root` | 韋 | `quy` | 7 | `quy₇` | yes |
+| `28-04` | `series-root` | 回 | `quy` | 7 | `quy₇` | yes |
+| `28-05` | `series-root` | 韋 | `quy` | 8 | `quy₈` | yes |
 | `28-05` | `subseries-root` | 衛 | `quat` | 3 | `quat₃` | yes |
 | `28-11` | `series-root` | 隹 | `tur` | 1 | `tur` | yes |
 | `28-11` | `subseries-root` | 推 | `tur` | 2 | `tur₂` | yes |
@@ -846,8 +854,8 @@
 | `29-17` | `series-root` | 失 | `lit` | 1 | `lit` | yes |
 | `29-26` | `series-root` | 日 | `nit` | 1 | `nit` | yes |
 | `29-26` | `subseries-root` | 圼 | `nit` | 2 | `nit₂` | yes |
-| `29-33` | `series-root` | 溢 | `qik` | 2 | `qik₂` | yes |
-| `29-33` | `subseries-root` | 悉 | `qik` | 3 | `qik₃` | yes |
+| `29-33` | `series-root` | 溢 | `qik` | 3 | `qik₃` | yes |
+| `29-33` | `subseries-root` | 悉 | `qik` | 4 | `qik₄` | yes |
 | `29-41` | `series-root` | 必 | `pit` | 1 | `pit` | yes |
 | `29-41` | `subseries-root` | 宓 | `mit` | 1 | `mit` | yes |
 | `29-41` | `subseries-root` | 𥁑 | `mit` | 2 | `mit₂` | yes |
@@ -872,8 +880,9 @@
 | `31-16` | `subseries-root` | 屈 | `kut` | 3 | `kut₃` | yes |
 | `31-17` | `series-root` | 朮 | `lut` | 2 | `lut₂` | yes |
 | `31-20` | `series-root` | 卒 | `tsut` | 1 | `tsut` | yes |
-| `32-01` | `series-root` | 臣 | `kin` | 1 | `kin` | yes |
+| `32-01` | `series-root` | 臤 | `kin` | 1 | `kin` | yes |
 | `32-01` | `subseries-root` | 臣 | `kin` | 2 | `kin₂` | yes |
+| `32-01` | `subseries-root` | 臤 | `kin` | 3 | `kin₃` | yes |
 | `32-05` | `series-root` | 玄 | `quin` | 1 | `quin` | yes |
 | `32-05` | `subseries-root` | 弦 | `gin` | 1 | `gin` | yes |
 | `32-07` | `series-root` | 勻 | `quiṅ` | 1 | `quiṅ` | yes |

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4925
-- Pages fetched / cached successfully: 4854
-- Additions with explicit Han-compound semantic/phonetic roles: 2325
+- Proposed additions checked: 4949
+- Pages fetched / cached successfully: 4878
+- Additions with explicit Han-compound semantic/phonetic roles: 2336
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -841,6 +841,9 @@
 | `04-18` | 疣 | yes | yes | 疒 | 尤 |
 | `04-18` | 肬 | yes | yes | 肉 | 尤 |
 | `04-19` | 郵 | yes | no |  |  |
+| `04-20` | 灰 | yes | no |  |  |
+| `04-20` | 恢 | yes | yes | 心 | 灰 |
+| `04-20` | 脄 | yes | no |  |  |
 | `04-21` | 喜 | yes | no |  |  |
 | `04-21` | 憘 | yes | no |  |  |
 | `04-21` | 嘻 | yes | yes | 口 | 喜 |
@@ -1347,6 +1350,7 @@
 | `06-21` | 冰 | yes | yes | 水 | 仌 |
 | `06-21` | 馮 | yes | yes | 馬 | 仌 |
 | `06-21` | 憑 | yes | yes | 心 | 馮 |
+| `06-22` | 凭 | yes | no |  |  |
 | `06-23` | 夢 | yes | yes | 夕 | 瞢 |
 | `06-23` | 㝱 | yes | no |  |  |
 | `06-23` | 瞢 | yes | no |  |  |
@@ -1553,6 +1557,13 @@
 | `08-02` | 隔 | yes | yes | 阜 | 鬲 |
 | `08-02` | 翮 | yes | yes | 羽 | 鬲 |
 | `08-02` | 鷊 | yes | no |  |  |
+| `08-04` | 戹 | yes | no |  |  |
+| `08-04` | 厄 | yes | yes | 卪 | 厂 |
+| `08-04` | 軶 | yes | no |  |  |
+| `08-04` | 軛 | yes | yes | 車 | 厄 |
+| `08-04` | 扼 | yes | yes | 手 | 厄 |
+| `08-04` | 阸 | yes | no |  |  |
+| `08-04` | 阨 | yes | no |  |  |
 | `08-05` | 益 | yes | no |  |  |
 | `08-05` | 嗌 | yes | yes | 口 | 益 |
 | `08-05` | 膉 | yes | no |  |  |
@@ -1583,6 +1594,11 @@
 | `08-12` | 鬄 | yes | yes | 髟 | 易 |
 | `08-12` | 賜 | yes | yes | 貝 | 易 |
 | `08-12` | 舓 | yes | yes | 舌 | 易 |
+| `08-13` | 秝 | yes | no |  |  |
+| `08-13` | 厤 | yes | yes | 厂 | 秝 |
+| `08-13` | 歷 | yes | yes | 止 | 厤 |
+| `08-13` | 曆 | yes | yes | 日 | 厤 |
+| `08-13` | 磿 | yes | yes | 石 | 厤 |
 | `08-14` | 朿 | yes | no |  |  |
 | `08-14` | 刺 | yes | yes | 刀 | 朿 |
 | `08-14` | 茦 | yes | no |  |  |
@@ -1603,6 +1619,14 @@
 | `08-14` | 債 | yes | yes | 人 | 責 |
 | `08-15` | 册 | yes | no |  |  |
 | `08-15` | 栅 | yes | no |  |  |
+| `08-17` | 脊 | yes | yes | 肉 | 朿 |
+| `08-17` | 蹐 | yes | no |  |  |
+| `08-17` | 瘠 | yes | yes | 疒 | 脊 |
+| `08-17` | 膌 | yes | no |  |  |
+| `08-18` | 析 | yes | no |  |  |
+| `08-18` | 晳 | yes | no |  |  |
+| `08-18` | 皙 | yes | no |  |  |
+| `08-18` | 淅 | yes | yes | 水 | 析 |
 | `08-19` | 辟 | yes | no |  |  |
 | `08-19` | 璧 | yes | yes | 玉 | 辟 |
 | `08-19` | 躃 | yes | no |  |  |
