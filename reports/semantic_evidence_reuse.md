@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 524
-- Proposed additions inspected: 4835
-- Additions with reusable semantic assignment from existing TeX: 4835
-- Additions with reusable transliteration LaTeX from existing TeX: 4835
-- Additions with reusable render block from existing TeX: 4835
-- Additions with IDS-derived semantic candidates: 3245
-- Additions with explicit Wiktionary Han-compound support: 2280
+- Curated entries inspected: 530
+- Proposed additions inspected: 4864
+- Additions with reusable semantic assignment from existing TeX: 4864
+- Additions with reusable transliteration LaTeX from existing TeX: 4864
+- Additions with reusable render block from existing TeX: 4864
+- Additions with IDS-derived semantic candidates: 3256
+- Additions with explicit Wiktionary Han-compound support: 2294
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 3954
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 140
+- Additions assigned under generated candidate nodes: 3976
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 141
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -247,6 +247,7 @@
 | `07-10` | 4 | 4 | 4 | 4 |
 | `07-11` | 13 | 13 | 13 | 13 |
 | `07-12` | 17 | 17 | 17 | 17 |
+| `07-13` | 4 | 4 | 4 | 4 |
 | `07-14` | 18 | 18 | 18 | 18 |
 | `07-16` | 1 | 1 | 1 | 1 |
 | `07-19` | 1 | 1 | 1 | 1 |
@@ -254,10 +255,15 @@
 | `07-21` | 9 | 9 | 9 | 9 |
 | `07-24` | 1 | 1 | 1 | 1 |
 | `07-25` | 22 | 22 | 22 | 22 |
+| `07-26` | 5 | 5 | 5 | 5 |
+| `07-27` | 5 | 5 | 5 | 5 |
+| `07-28` | 5 | 5 | 5 | 5 |
 | `07-29` | 20 | 20 | 20 | 20 |
 | `07-33` | 1 | 1 | 1 | 1 |
 | `08-01` | 4 | 4 | 4 | 4 |
 | `08-02` | 6 | 6 | 6 | 6 |
+| `08-05` | 7 | 7 | 7 | 7 |
+| `08-08` | 3 | 3 | 3 | 3 |
 | `08-11` | 1 | 1 | 1 | 1 |
 | `08-12` | 13 | 13 | 13 | 13 |
 | `08-14` | 18 | 18 | 18 | 18 |

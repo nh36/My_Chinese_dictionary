@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 628
+- Integrated series count: 634
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 524
+- Active curated packet count: 530
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 508
+- Generated missing-series entries: 514
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -305,6 +305,7 @@
 | `07-10` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-11` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-12` | `generated_missing_series` | needs_review, generated_candidate |
+| `07-13` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-19` | `generated_missing_series` | needs_review, generated_candidate |
@@ -312,10 +313,15 @@
 | `07-21` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-24` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-25` | `generated_missing_series` | needs_review, generated_candidate |
+| `07-26` | `generated_missing_series` | needs_review, generated_candidate |
+| `07-27` | `generated_missing_series` | needs_review, generated_candidate |
+| `07-28` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-29` | `generated_missing_series` | needs_review, generated_candidate |
 | `07-33` | `generated_missing_series` | needs_review, generated_candidate |
 | `08-01` | `generated_missing_series` | needs_review, generated_candidate |
 | `08-02` | `generated_missing_series` | needs_review, generated_candidate |
+| `08-05` | `generated_missing_series` | needs_review, generated_candidate |
+| `08-08` | `generated_missing_series` | needs_review, generated_candidate |
 | `08-11` | `generated_missing_series` | needs_review, generated_candidate |
 | `08-12` | `generated_missing_series` | needs_review, generated_candidate |
 | `08-14` | `generated_missing_series` | needs_review, generated_candidate |

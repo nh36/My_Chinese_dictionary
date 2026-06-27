@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4835
-- Pages fetched / cached successfully: 4767
-- Additions with explicit Han-compound semantic/phonetic roles: 2292
+- Proposed additions checked: 4864
+- Pages fetched / cached successfully: 4795
+- Additions with explicit Han-compound semantic/phonetic roles: 2306
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1439,6 +1439,10 @@
 | `07-12` | 適 | yes | yes | 辵 | 啻 |
 | `07-12` | 擿 | yes | no |  |  |
 | `07-12` | 讁 | yes | no |  |  |
+| `07-13` | 知 | yes | no |  |  |
+| `07-13` | 智 | yes | no |  |  |
+| `07-13` | 蜘 | yes | yes | 虫 | 知 |
+| `07-13` | 踟 | yes | yes | 足 | 知 |
 | `07-14` | 是 | yes | no |  |  |
 | `07-14` | 諟 | yes | yes | 言 | 是 |
 | `07-14` | 禔 | yes | no |  |  |
@@ -1502,6 +1506,21 @@
 | `07-25` | 㧘 | yes | no |  |  |
 | `07-25` | 祡 | yes | no |  |  |
 | `07-25` | 柴 | yes | yes | 木 | 此 |
+| `07-26` | 斯 | yes | no |  |  |
+| `07-26` | 凘 | yes | yes | 仌 | 斯 |
+| `07-26` | 廝 | yes | yes | 广 | 斯 |
+| `07-26` | 嘶 | yes | yes | 口 | 斯 |
+| `07-26` | 撕 | yes | no |  |  |
+| `07-27` | 虒 | yes | no |  |  |
+| `07-27` | 褫 | yes | yes | 衣 | 虒 |
+| `07-27` | 篪 | yes | no |  |  |
+| `07-27` | 嗁 | yes | no |  |  |
+| `07-27` | 遞 | yes | yes | 辵 | 虒 |
+| `07-28` | 徙 | yes | yes | 辵 | 止 |
+| `07-28` | 𢓊 | no | no |  |  |
+| `07-28` | 蓰 | yes | no |  |  |
+| `07-28` | 屣 | yes | no |  |  |
+| `07-28` | 縰 | yes | yes | 糸 | 徙 |
 | `07-29` | 卑 | yes | no |  |  |
 | `07-29` | 俾 | yes | no |  |  |
 | `07-29` | 碑 | yes | yes | 石 | 卑 |
@@ -1533,6 +1552,16 @@
 | `08-02` | 隔 | yes | yes | 阜 | 鬲 |
 | `08-02` | 翮 | yes | yes | 羽 | 鬲 |
 | `08-02` | 鷊 | yes | no |  |  |
+| `08-05` | 益 | yes | no |  |  |
+| `08-05` | 嗌 | yes | yes | 口 | 益 |
+| `08-05` | 膉 | yes | no |  |  |
+| `08-05` | 搤 | yes | no |  |  |
+| `08-05` | 鷁 | yes | no |  |  |
+| `08-05` | 縊 | yes | yes | 糸 | 益 |
+| `08-05` | 隘 | yes | yes | 阜 | 益 |
+| `08-08` | 役 | yes | no | 彳, 殳 |  |
+| `08-08` | 垼 | yes | yes | 土 | 役 |
+| `08-08` | 疫 | yes | yes | 疒 | 役 |
 | `08-11` | 隻 | yes | no |  |  |
 | `08-12` | 易 | yes | no |  |  |
 | `08-12` | 蜴 | yes | yes | 虫 | 易 |
