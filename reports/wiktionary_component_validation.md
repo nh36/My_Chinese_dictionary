@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4951
-- Pages fetched / cached successfully: 4880
-- Additions with explicit Han-compound semantic/phonetic roles: 2336
+- Proposed additions checked: 4962
+- Pages fetched / cached successfully: 4890
+- Additions with explicit Han-compound semantic/phonetic roles: 2337
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -429,6 +429,8 @@
 | `03-24` | 凰 | yes | no |  |  |
 | `03-24` | 蝗 | yes | yes | 虫 | 皇 |
 | `03-24` | 喤 | yes | no |  |  |
+| `03-25` | 冏 | yes | no |  |  |
+| `03-25` | 囧 | yes | no |  |  |
 | `03-26` | 王 | yes | no |  |  |
 | `03-26` | 㞷 | yes | yes | 止 | 王 |
 | `03-26` | 往 | yes | yes | 止 | 王 |
@@ -455,6 +457,7 @@
 | `03-29` | 昂 | yes | yes | 日 | 卬 |
 | `03-29` | 仰 | yes | yes | 人 | 卬 |
 | `03-29` | 迎 | yes | yes | 辵 | 卬 |
+| `03-30` | 宕 | yes | no |  |  |
 | `03-31` | 章 | yes | no |  |  |
 | `03-31` | 彰 | yes | yes | 彡 | 章 |
 | `03-31` | 樟 | yes | yes | 木 | 章 |
@@ -625,6 +628,7 @@
 | `03-49` | 蔣 | yes | yes | 艸 | 將 |
 | `03-49` | 醬 | yes | yes | 酉 | 將 |
 | `03-49` | 鏘 | yes | no |  |  |
+| `03-50` | 廧 | yes | no |  |  |
 | `03-52` | 匠 | yes | yes | 斤 | 匚 |
 | `03-54` | 喪 | yes | yes | 㗊 | 桑 |
 | `03-55` | 相 | yes | no |  |  |
@@ -633,6 +637,7 @@
 | `03-55` | 箱 | yes | yes | 竹 | 相 |
 | `03-55` | 霜 | yes | yes | 雨 | 相 |
 | `03-55` | 孀 | yes | yes | 女 | 霜 |
+| `03-56` | 𡙁 | yes | no |  |  |
 | `03-57` | 方 | yes | no |  |  |
 | `03-57` | 埅 | yes | no |  |  |
 | `03-57` | 魴 | yes | no |  |  |
@@ -704,6 +709,9 @@
 | `03-65` | 巟 | yes | yes | 川 | 亡 |
 | `03-65` | 肓 | yes | no |  |  |
 | `03-65` | 衁 | yes | yes | 血 | 亡 |
+| `03-66` | 𦣠 | yes | no |  |  |
+| `03-66` | 朢 | yes | no |  |  |
+| `03-66` | 𧭅 | no | no |  |  |
 | `03-67` | 网 | yes | no |  |  |
 | `03-67` | 蛧 | yes | no |  |  |
 | `03-68` | 明 | yes | no |  |  |
@@ -777,6 +785,9 @@
 | `04-05` | 㠱 | yes | no |  |  |
 | `04-06` | 龜 | yes | no |  |  |
 | `04-07` | 簋 | yes | no |  |  |
+| `04-08` | 𣪘 | yes | no |  |  |
+| `04-08` | 匓 | yes | no |  |  |
+| `04-08` | 廄 | yes | yes | 广 | 㲃 |
 | `04-09` | 頯 | yes | no |  |  |
 | `04-09` | 頮 | yes | no |  |  |
 | `04-10` | 逵 | yes | yes | 辵 | 坴 |

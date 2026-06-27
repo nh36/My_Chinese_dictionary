@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:39:00.968054+00:00",
+  "generated_at": "2026-06-27T19:57:19.526796+00:00",
   "id": "34-18",
   "schuessler": {
     "gsc_id": "34-18",
@@ -3711,70 +3711,26 @@
     ],
     "series_root_candidates": [
       {
-        "character": "淳",
-        "gsr": "0464e",
-        "oc_bs": "*dur {*[d]ur}",
-        "root": "tur",
-        "source": "head_graph_oc_bs",
-        "support_count": 9,
-        "supporting_sources": [
-          "head_graph_oc_bs"
-        ]
-      },
-      {
-        "character": "淳",
+        "character": "𦎧",
         "gsr": null,
         "oc_bs": "*dʲun",
         "root": "tun",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 16,
-        "supporting_sources": [
-          "head_graph_oc_shengfu"
-        ]
-      },
-      {
-        "character": "錞",
-        "gsr": null,
-        "oc_bs": "*du̠lʔ",
-        "root": "tu",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 4,
-        "supporting_sources": [
-          "head_graph_oc_shengfu"
-        ]
-      },
-      {
-        "character": "犉",
-        "gsr": null,
-        "oc_bs": "*mlʲun",
-        "root": "mun",
-        "source": "head_graph_oc_shengfu",
+        "source": "same_character_series_root",
         "support_count": 1,
         "supporting_sources": [
-          "head_graph_oc_shengfu"
-        ]
-      },
-      {
-        "character": "蜳",
-        "gsr": null,
-        "oc_bs": "*tʰonʔ",
-        "root": "ton",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 2,
-        "supporting_sources": [
-          "head_graph_oc_shengfu"
+          "same_character_series_root"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "tun",
-      "source": "head_graph_supported_root",
-      "character": "淳",
+      "source": "same_character_series_root",
+      "character": "𦎧",
       "oc_bs": "*dʲun",
       "confidence": "provisional-oc",
-      "support_count": 16,
+      "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_shengfu"
+        "same_character_series_root"
       ],
       "display_root": "tun₂",
       "base_root": "tun",

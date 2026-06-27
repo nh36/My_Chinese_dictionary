@@ -344,22 +344,72 @@ def build_head_supplement_candidate(head_data: dict[str, Any] | None) -> dict[st
 
 
 def build_component_root_index(entries: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    index: dict[str, dict[str, Any]] = {}
-    for entry in entries:
-        resolved = entry.get("resolved_series_root") or {}
-        character = resolved.get("character")
-        root = resolved.get("root")
-        if not character or not root:
-            continue
-        index.setdefault(
-            character,
+    hinted_roots: dict[str, list[dict[str, Any]]] = {}
+
+    def record_hint(
+        graph: str | None,
+        *,
+        root: str | None,
+        oc_bs: str | None,
+        source: str | None,
+        gsc_id: str | None,
+    ) -> None:
+        if not graph or not root:
+            return
+        hinted_roots.setdefault(graph, []).append(
             {
                 "root": root,
-                "oc_bs": resolved.get("oc_bs"),
-                "source": resolved.get("source"),
-                "gsc_id": entry_gsc_id(entry),
-            },
+                "oc_bs": oc_bs,
+                "source": source,
+                "gsc_id": gsc_id,
+            }
         )
+
+    for entry in entries:
+        resolved = entry.get("resolved_series_root") or {}
+        root = resolved.get("root")
+        if not root:
+            continue
+        gsc_id = entry_gsc_id(entry)
+        record_hint(
+            resolved.get("character"),
+            root=root,
+            oc_bs=resolved.get("oc_bs"),
+            source=resolved.get("source"),
+            gsc_id=gsc_id,
+        )
+        for candidate in entry.get("proposed_additions", []):
+            node_root = candidate.get("resolved_node_root") or {}
+            candidate_root = node_root.get("root") or root
+            candidate_oc_bs = node_root.get("oc_bs") or resolved.get("oc_bs")
+            record_hint(
+                candidate.get("character"),
+                root=candidate_root,
+                oc_bs=candidate_oc_bs,
+                source=node_root.get("source") or resolved.get("source"),
+                gsc_id=gsc_id,
+            )
+            for row in candidate.get("shengfu_character_rows", []) or []:
+                phonetic_component = row.get("phonetic_component")
+                if not phonetic_component or phonetic_component == candidate.get("character"):
+                    continue
+                record_hint(
+                    phonetic_component,
+                    root=candidate_root,
+                    oc_bs=candidate_oc_bs or (f"*{row['oc_syllable']}" if row.get("oc_syllable") else None),
+                    source="referenced_phonetic_component",
+                    gsc_id=gsc_id,
+                )
+
+    index: dict[str, dict[str, Any]] = {}
+    for graph, hints in hinted_roots.items():
+        roots = {hint["root"] for hint in hints if hint.get("root")}
+        if len(roots) != 1:
+            continue
+        chosen = dict(hints[0])
+        chosen["support_count"] = len(hints)
+        chosen["supporting_sources"] = sorted({hint.get("source") for hint in hints if hint.get("source")})
+        index[graph] = chosen
     return index
 
 
@@ -405,6 +455,7 @@ def derive_root_candidates(
         rows = candidate.get("mand2mc_rows", []) + candidate.get("bs_gsr_rows", [])
         preferred_match = False
         fallback_match = False
+        contributed_own_root = False
         for row in rows:
             parts = split_gsr(row.get("gsr"))
             if parts is None:
@@ -432,6 +483,7 @@ def derive_root_candidates(
                     "source": "head_graph_oc_bs",
                 }
             )
+            contributed_own_root = True
         if not preferred_match and not fallback_match:
             continue
         target_candidates = preferred_candidates if preferred_match else fallback_candidates
@@ -451,6 +503,7 @@ def derive_root_candidates(
                     "source": "head_graph_oc_shengfu",
                 }
             )
+            contributed_own_root = True
             phonetic_component = row.get("phonetic_component")
             hinted = None
             if component_root_index and phonetic_component and phonetic_component != candidate["character"]:
@@ -465,6 +518,17 @@ def derive_root_candidates(
                         "source": "phonetic_component_series_root",
                     }
                 )
+        hinted = component_root_index.get(candidate["character"]) if component_root_index else None
+        if hinted and hinted.get("root") and not contributed_own_root:
+            target_candidates.append(
+                {
+                    "character": candidate["character"],
+                    "gsr": None,
+                    "oc_bs": hinted.get("oc_bs"),
+                    "root": hinted["root"],
+                    "source": "same_character_series_root",
+                }
+            )
 
     supplement_candidate = build_head_supplement_candidate(get_head_supplement(entry, head_supplement))
     if supplement_candidate is not None:

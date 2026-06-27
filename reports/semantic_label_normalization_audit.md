@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-27T19:39:03.283745+00:00
+- Generated at: 2026-06-27T19:57:21.812428+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20229
+- Total occurrences audited: 20193
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20022 |
+| `canonical` | 19986 |
 | `explicit_alias` | 11 |
 | `needs_review` | 196 |
 
@@ -189,7 +189,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₁₀\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `curation_json` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₁₀}},
+{\large{\textsuperscript{infirm·}tsy₉}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -344,7 +344,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{ly₁₀\textsuperscript{·infirm}}},
 \textit{yiy};	%0551g` |
 | `integrated_series_curated_entry` | `26-27` | `癠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒齊` | `癠	%ji4
-{\large{\textsuperscript{infirm·}tsy₁₀}},
+{\large{\textsuperscript{infirm·}tsy₉}},
 \textit{dzey};	%0593k
 \textit{dzeyH};
 \textit{dzeyX};` |
@@ -419,7 +419,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ku\textoverset{a}{a}n}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ts\textoverset{b}{o}n}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₁₀\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₁₀}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₉}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |
@@ -472,7 +472,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ku\textoverset{a}{a}n}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ts\textoverset{b}{o}n}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{ly₁₀\textsuperscript{·infirm}}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₁₀}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsy₉}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}piy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔuy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsut}},` |
@@ -514,7 +514,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{bos·}tseṅ₆}},
 \textit{ṣaeṅ};	%0812e` |
 | `curation_json` | `14-14` | `犢` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛賣` | `犢	%du2 / dú
-{\large{\textsuperscript{bos·}me}},
+{\large{\textsuperscript{bos·}lok}},
 \textit{duwk};	%1023l` |
 | `curation_json` | `16-01` | `犒` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛高` | `犒	%kao4 / kào
 {\large{\textsuperscript{bos·}k\textoverset{a}{a}w}},
@@ -569,7 +569,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{bos·}tseṅ₆}},
 \textit{ṣaeṅ};	%0812e` |
 | `integrated_series_curated_entry` | `14-14` | `犢` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛賣` | `犢	%du2 / dú
-{\large{\textsuperscript{bos·}me}},
+{\large{\textsuperscript{bos·}lok}},
 \textit{duwk};	%1023l` |
 | `integrated_series_curated_entry` | `16-01` | `犒` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛高` | `犒	%kao4 / kào
 {\large{\textsuperscript{bos·}k\textoverset{a}{a}w}},
@@ -605,7 +605,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}pyk₅}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tseṅ₆}},` |
-| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}me}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}lok}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}k\textoverset{a}{a}w}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kuen₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ts\textoverset{b}{o}n}},` |
@@ -622,7 +622,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}pyk₅}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tseṅ₆}},` |
-| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}me}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}lok}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}k\textoverset{a}{a}w}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}kuen₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ts\textoverset{b}{o}n}},` |
@@ -662,7 +662,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{liaṅ};	%0737a
 \textit{liaṅH};` |
 | `curation_json` | `03-68` | `盟` | `囧` | render_latex, transliteration_latex | `囧` | `⿱明皿` | `盟	%meng2 / méng
-{\large{\textsuperscript{囧˸}maṅ₅}},
+{\large{\textsuperscript{囧˸}maṅ₆}},
 \textit{miaeṅ};	%0760e` |
 | `curation_json` | `04-16` | `舊` | `雈` | render_latex, transliteration_latex | `雈` | `⿱萑臼` | `舊	%jiu4 / jiù
 {\large{\textsuperscript{雈˸}kuy₅}},
@@ -825,7 +825,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{liaṅ};	%0737a
 \textit{liaṅH};` |
 | `integrated_series_curated_entry` | `03-68` | `盟` | `囧` | render_latex, transliteration_latex | `囧` | `⿱明皿` | `盟	%meng2 / méng
-{\large{\textsuperscript{囧˸}maṅ₅}},
+{\large{\textsuperscript{囧˸}maṅ₆}},
 \textit{miaeṅ};	%0760e` |
 | `integrated_series_curated_entry` | `04-16` | `舊` | `雈` | render_latex, transliteration_latex | `雈` | `⿱萑臼` | `舊	%jiu4 / jiù
 {\large{\textsuperscript{雈˸}kuy₅}},
@@ -968,7 +968,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `冖` | line | `` | `` | `{\large{\textsuperscript{冖˸}t\textoverset{a}{a}k₅}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{q\textoverset{b}{a}k₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ₂\textsuperscript{˸向}}},` |
-| `validation_tex` | `` | `` | `囧` | line | `` | `` | `{\large{\textsuperscript{囧˸}maṅ₅}},` |
+| `validation_tex` | `` | `` | `囧` | line | `` | `` | `{\large{\textsuperscript{囧˸}maṅ₆}},` |
 | `validation_tex` | `` | `` | `雈` | line | `` | `` | `{\large{\textsuperscript{雈˸}kuy₅}},` |
 | `validation_tex` | `` | `` | `户` | line | `` | `` | `{\large{\textsuperscript{户·}qy₆}},` |
 | `validation_tex` | `` | `` | `昱` | line | `` | `` | `{\large{ryk\textsuperscript{˸昱}}},` |
@@ -1012,7 +1012,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{q\textoverset{b}{a}k₂\textsuperscript{˸夕}}},` |
 | `validation_tex` | `` | `` | `latebrχ` | line | `` | `` | `{\large{\textsuperscript{latebrχ}nak}} =` |
 | `validation_tex` | `` | `` | `向` | line | `` | `` | `{\large{q\textoverset{b}{a}ṅ₂\textsuperscript{˸向}}},` |
-| `validation_tex` | `` | `` | `囧` | line | `` | `` | `{\large{\textsuperscript{囧˸}maṅ₅}},` |
+| `validation_tex` | `` | `` | `囧` | line | `` | `` | `{\large{\textsuperscript{囧˸}maṅ₆}},` |
 | `validation_tex` | `` | `` | `雈` | line | `` | `` | `{\large{\textsuperscript{雈˸}kuy₅}},` |
 | `validation_tex` | `` | `` | `户` | line | `` | `` | `{\large{\textsuperscript{户·}qy₆}},` |
 | `validation_tex` | `` | `` | `昱` | line | `` | `` | `{\large{ryk\textsuperscript{˸昱}}},` |

@@ -133,6 +133,48 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("source"), "head_graph_supported_root")
         self.assertGreaterEqual(resolved.get("support_count", 0), 2)
 
+    def test_component_root_index_covers_resolved_candidates_and_phonetic_components(self) -> None:
+        candidate_entry = json.loads((ROOT / "data/entries/curation/03-49.json").read_text(encoding="utf-8"))
+        component_entry = json.loads((ROOT / "data/entries/curation/04-07.json").read_text(encoding="utf-8"))
+        index = resolve_series_roots.build_component_root_index([candidate_entry, component_entry])
+
+        self.assertEqual(index["廧"]["root"], "saṅ")
+        self.assertEqual(index["𣪘"]["root"], "kuu")
+
+    def test_03_50_reuses_same_character_root_from_resolved_packet(self) -> None:
+        hint_entry = json.loads((ROOT / "data/entries/curation/03-49.json").read_text(encoding="utf-8"))
+        component_root_index = resolve_series_roots.build_component_root_index([hint_entry])
+        entry = json.loads((ROOT / "data/entries/curation/03-50.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, component_root_index=component_root_index)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "廧")
+        self.assertEqual(resolved.get("root"), "saṅ")
+        self.assertEqual(resolved.get("source"), "same_character_series_root")
+
+    def test_03_56_head_supplement_variant_of_shuang_supplies_root(self) -> None:
+        supplement = resolve_series_roots.load_head_supplement(
+            ROOT / "data/series_root_head_supplement.json"
+        )
+        entry = json.loads((ROOT / "data/entries/curation/03-56.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, head_supplement=supplement)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "𡙁")
+        self.assertEqual(resolved.get("root"), "saṅ")
+        self.assertEqual(resolved.get("source"), "head_graph_supplement")
+
+    def test_04_08_reuses_resolved_phonetic_component_family_root(self) -> None:
+        component_entry = json.loads((ROOT / "data/entries/curation/04-07.json").read_text(encoding="utf-8"))
+        component_root_index = resolve_series_roots.build_component_root_index([component_entry])
+        entry = json.loads((ROOT / "data/entries/curation/04-08.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, component_root_index=component_root_index)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "𣪘")
+        self.assertEqual(resolved.get("root"), "kuu")
+        self.assertEqual(resolved.get("source"), "same_character_series_root")
+
     def test_01_40_explicit_b_header_uses_head_shengfu(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/01-40.json").read_text(encoding="utf-8"))
         entry = resolve_series_roots.apply_root_resolution(entry)

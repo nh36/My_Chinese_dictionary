@@ -3383,25 +3383,38 @@
   ],
   "series_root_candidates": [
     {
-      "character": "叟",
-      "gsr": "1097a",
+      "character": "叜",
+      "gsr": null,
       "oc_bs": "*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)",
       "root": "  *su",
-      "source": "head_graph_oc_bs",
+      "source": "same_character_series_root",
+      "support_count": 2,
+      "supporting_sources": [
+        "same_character_series_root",
+        "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "叟",
+      "gsr": null,
+      "oc_bs": "*sɡˡu̠ʔ",
+      "root": "su",
+      "source": "head_graph_oc_shengfu",
       "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_bs"
+        "head_graph_oc_shengfu"
       ]
     }
   ],
   "resolved_series_root": {
     "root": "  *su",
-    "source": "head_graph_oc_bs",
-    "character": "叟",
+    "source": "head_graph_supported_root",
+    "character": "叜",
     "oc_bs": "*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)",
     "confidence": "provisional-oc",
-    "support_count": 1,
+    "support_count": 2,
     "supporting_sources": [
+      "same_character_series_root",
       "head_graph_oc_bs"
     ],
     "display_root": "  *su",

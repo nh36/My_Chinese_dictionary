@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:39:00.958155+00:00",
+  "generated_at": "2026-06-27T19:57:19.521243+00:00",
   "id": "10-37",
   "schuessler": {
     "gsc_id": "10-37",
@@ -3402,25 +3402,38 @@
     ],
     "series_root_candidates": [
       {
-        "character": "叟",
-        "gsr": "1097a",
+        "character": "叜",
+        "gsr": null,
         "oc_bs": "*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)",
         "root": "  *su",
-        "source": "head_graph_oc_bs",
+        "source": "same_character_series_root",
+        "support_count": 2,
+        "supporting_sources": [
+          "same_character_series_root",
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "叟",
+        "gsr": null,
+        "oc_bs": "*sɡˡu̠ʔ",
+        "root": "su",
+        "source": "head_graph_oc_shengfu",
         "support_count": 1,
         "supporting_sources": [
-          "head_graph_oc_bs"
+          "head_graph_oc_shengfu"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "  *su",
-      "source": "head_graph_oc_bs",
-      "character": "叟",
+      "source": "head_graph_supported_root",
+      "character": "叜",
       "oc_bs": "*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)",
       "confidence": "provisional-oc",
-      "support_count": 1,
+      "support_count": 2,
       "supporting_sources": [
+        "same_character_series_root",
         "head_graph_oc_bs"
       ],
       "display_root": "  *su",
@@ -3491,7 +3504,7 @@
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "series",
-      "anchor_value": "叟",
+      "anchor_value": "叜",
       "line_number": null,
       "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",

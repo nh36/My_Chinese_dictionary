@@ -1,17 +1,17 @@
 # Note inventory
 
 - Commented-out source material is excluded from this inventory.
-- Entries with at least one note: 567
-- Total notes inventoried: 2481
+- Entries with at least one note: 573
+- Total notes inventoried: 2499
 
 ## By source layer
 
 | Source layer | Count |
 | --- | ---: |
-| `curation_division_note` | 1182 |
-| `curation_entry_note` | 1112 |
-| `curation_mc_investigation` | 142 |
-| `curation_research_note` | 24 |
+| `curation_division_note` | 1186 |
+| `curation_entry_note` | 1124 |
+| `curation_mc_investigation` | 143 |
+| `curation_research_note` | 25 |
 | `hand_footnote` | 10 |
 | `hand_prose_note` | 11 |
 
@@ -21,19 +21,19 @@
 | --- | ---: |
 | `analysis_note` | 2 |
 | `editorial_uncertainty` | 4 |
-| `mc_conflict` | 142 |
-| `semantic_analysis` | 24 |
+| `mc_conflict` | 143 |
+| `semantic_analysis` | 25 |
 | `source_reference` | 10 |
-| `structural_internal` | 1182 |
-| `workflow_internal` | 1117 |
+| `structural_internal` | 1186 |
+| `workflow_internal` | 1129 |
 
 ## By recommended rendering
 
 | Rendering policy | Count |
 | --- | ---: |
 | `footnote` | 10 |
-| `internal_only` | 2438 |
-| `series_end_note` | 33 |
+| `internal_only` | 2455 |
+| `series_end_note` | 34 |
 
 ## Examples: `analysis_note`
 
@@ -74,12 +74,12 @@
 | `03-32` | `curation_research_note` | character: 𣥺 | `series_end_note` | Top component aligns with the 甞-layer phonetic line; 止 functions as semantic. |
 | `03-49` | `curation_research_note` | character: 墻 | `series_end_note` | Variant of 牆 with 爿 replaced by 土. |
 | `03-49` | `curation_research_note` | character: 廧 | `series_end_note` | Variant of 牆 with 广 semantic shell. |
+| `03-50` | `curation_research_note` | character: 廧 | `series_end_note` | Variant of 牆 with 广 semantic shell. |
 | `03-57` | `curation_research_note` | character: 旁 | `series_end_note` | Treat the elaborated package of 旁 as a differentiating semantic rather than as a historical 同 component. |
 | `03-65` | `curation_research_note` | character: 詤 | `series_end_note` | Chinese sources support 言 semantic + 㠩 phonetic. |
 | `03-65` | `curation_research_note` | character: 㡃 | `series_end_note` | Chinese sources support 巾 semantic + 㠩 phonetic. |
 | `04-26` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
 | `04-29` | `curation_research_note` | character: 旹 | `series_end_note` | Old form of 時 with temporal semantic 日. |
-| `04-61` | `curation_research_note` | character: 丕 | `series_end_note` | Treat the added lower stroke as an abstract differentiating semantic distinguishing 丕 from 不. |
 
 ## Examples: `source_reference`
 

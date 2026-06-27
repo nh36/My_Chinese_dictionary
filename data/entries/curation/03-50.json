@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-06-27T19:47:00.331381+00:00",
+  "id": "03-50",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "03-50",
+    "rhyme_section": 3,
+    "series_number": 50,
+    "k_tokens": [
+      "727m"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "j' Man d.               MC            LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 111,
+    "source_line_number": 39,
+    "source_line_raw": "3-50 = K. 727mj' Man d.               MC            LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "03-50",
+    "rhyme_section": "3",
+    "series_number": "50",
+    "schuessler_k_tokens": "727m",
+    "schuessler_source_page": "111",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "廧",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "廧"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "727m"
+  ],
+  "proposed_additions": [
+    {
+      "character": "廧",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dziaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "dziaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "dzjang"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5355",
+          "character": "廧",
+          "pinyin": "qiang2",
+          "mc_nwh": "dziaṅ",
+          "mc_bs": "dzjang",
+          "gsr": "0727m"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "lax",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "广",
+            "label_token": "lax(us)",
+            "abbreviation": "lax",
+            "start_line": 310
+          },
+          {
+            "graph_raw": "广",
+            "label_token": "lax",
+            "abbreviation": "lax",
+            "learned": true,
+            "evidence_count": 3
+          }
+        ],
+        "source": "research_variant_of_牆",
+        "semantic_component": "广",
+        "research_note": "Variant of 牆 with 广 semantic shell."
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{lax·}saṅ₂}},",
+      "render_latex": "廧\t%qiang2\n{\\large{\\textsuperscript{lax·}saṅ₂}},\n\\textit{dziaṅ};\t%0727m",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "廧",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dziaṅ"
+        ],
+        "mand2mc_nwh_forms": [
+          "dziaṅ"
+        ],
+        "mand2mc_bs_forms": [
+          "dzjang"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "5355",
+          "character": "廧",
+          "pinyin": "qiang2",
+          "mc_nwh": "dziaṅ",
+          "mc_bs": "dzjang",
+          "gsr": "0727m"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "廧",
+      "gsr": null,
+      "oc_bs": "*skʰaŋ",
+      "root": "saṅ",
+      "source": "same_character_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "same_character_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "saṅ",
+    "source": "same_character_series_root",
+    "character": "廧",
+    "oc_bs": "*skʰaŋ",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "same_character_series_root"
+    ],
+    "display_root": "saṅ₂",
+    "base_root": "saṅ",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

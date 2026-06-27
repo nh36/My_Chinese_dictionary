@@ -1507,16 +1507,16 @@
         "phonetic_hint": "盍"
       },
       "resolved_node_root": {
-        "root": "k\\textoverset{b}{a}p\\textsuperscript{˸vas}",
+        "root": "kap",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "k\\textoverset{b}{a}p\\textsuperscript{˸vas}",
+        "display_root": "k\\textoverset{a}{a}p",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": false,
+        "mark_required": true,
         "mc_forms": [
           "hap",
           "kayH"
@@ -1535,7 +1535,7 @@
             "reason": "no_i_medial"
           }
         ],
-        "base_root": "k\\textoverset{b}{a}p\\textsuperscript{˸vas}",
+        "base_root": "k\\textoverset{a}{a}p",
         "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
@@ -1980,8 +1980,8 @@
         "source": "packet_family_ids",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{b}{a}p\\textsuperscript{˸vas}}},",
-      "render_latex": "葢\t%he2 / gai4\n{\\large{\\textsuperscript{herb˸}k\\textoverset{b}{a}p\\textsuperscript{˸vas}}},\n\\textit{hap};\t%0642r\n\\textit{kayH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}p}},",
+      "render_latex": "葢\t%he2 / gai4\n{\\large{\\textsuperscript{herb˸}k\\textoverset{a}{a}p}},\n\\textit{hap};\t%0642r\n\\textit{kayH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4119,9 +4119,11 @@
       "oc_bs": "*kap {*k(r)ap}",
       "root": "kap",
       "source": "head_graph_oc_bs",
-      "support_count": 10,
+      "support_count": 28,
       "supporting_sources": [
         "head_graph_oc_bs",
+        "phonetic_component_series_root",
+        "same_character_series_root",
         "head_graph_oc_shengfu"
       ]
     },
@@ -4188,9 +4190,11 @@
     "character": "劫",
     "oc_bs": "*kap {*k(r)ap}",
     "confidence": "provisional-oc",
-    "support_count": 10,
+    "support_count": 28,
     "supporting_sources": [
       "head_graph_oc_bs",
+      "phonetic_component_series_root",
+      "same_character_series_root",
       "head_graph_oc_shengfu"
     ],
     "display_root": "k\\textoverset{b}{a}p",

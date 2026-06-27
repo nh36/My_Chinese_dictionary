@@ -1,0 +1,644 @@
+{
+  "generated_at": "2026-06-27T19:57:19.516866+00:00",
+  "id": "03-25",
+  "schuessler": {
+    "gsc_id": "03-25",
+    "rhyme_section": 3,
+    "series_number": 25,
+    "k_tokens": [
+      "763"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                                              OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 105,
+    "source_line_number": 4,
+    "source_line_raw": "3-25 = K. 763           Mand.                                              OCM"
+  },
+  "preferred_hand_entry": null,
+  "pilot_entry": null,
+  "curated_entry": {
+    "generated_at": "2026-06-27T19:47:00.330640+00:00",
+    "id": "03-25",
+    "status": "machine-curated-pilot",
+    "packet_kind": "missing_series",
+    "schuessler": {
+      "gsc_id": "03-25",
+      "rhyme_section": 3,
+      "series_number": 25,
+      "k_tokens": [
+        "763"
+      ],
+      "has_explicit_k_range": false,
+      "source_remainder_raw": "Mand.                                              OCM",
+      "is_cross_reference_only": false,
+      "source_page_number": 105,
+      "source_line_number": 4,
+      "source_line_raw": "3-25 = K. 763           Mand.                                              OCM"
+    },
+    "coverage": {
+      "gsc_id": "03-25",
+      "rhyme_section": "3",
+      "series_number": "25",
+      "schuessler_k_tokens": "763",
+      "schuessler_source_page": "105",
+      "schuessler_cross_reference_only": "no",
+      "in_tex": "no",
+      "tex_character_count": "0",
+      "tex_characters_sample": null,
+      "mand2mc_row_count": "1",
+      "mand2mc_character_count": "1",
+      "mand2mc_characters_sample": "冏",
+      "bs_gsr_row_count": "1",
+      "bs_gsr_character_count": "1",
+      "bs_gsr_characters_sample": "囧",
+      "combined_source_character_count": "2",
+      "combined_source_characters_sample": "冏; 囧"
+    },
+    "tex_entry": null,
+    "entry_hierarchy": null,
+    "candidate_source_strategy": "schuessler_k_tokens",
+    "candidate_source_tokens": [
+      "763"
+    ],
+    "proposed_additions": [
+      {
+        "character": "冏",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "kiwaeṅX"
+          ],
+          "mand2mc_nwh_forms": [
+            "kiwaeṅX"
+          ],
+          "mand2mc_bs_forms": [
+            "kjwaengX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "5607",
+            "character": "冏",
+            "pinyin": "jiəng3",
+            "mc_nwh": "kiwaeṅX",
+            "mc_bs": "kjwaengX",
+            "gsr": "0763a"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "transliteration_latex": "{\\large{kuaṅ₂}},",
+        "render_latex": "冏\t%jiəng3\n{\\large{kuaṅ₂}},\n\\textit{kiwaeṅX};\t%0763a",
+        "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "囧",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "ids_parent_family_inference",
+          "phonetic_hint": "囧"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "囧",
+        "in_tex": false,
+        "mand2mc_count": 0,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 8,
+        "mand_bs_mc_disagreement": true,
+        "mc_resolution": {
+          "status": "investigate-bs-not-in-mand2mc",
+          "authoritative_source": "bs_gsr",
+          "display_forms": [
+            "kjwaengX"
+          ],
+          "mand2mc_nwh_forms": [],
+          "mand2mc_bs_forms": [],
+          "bs_gsr_forms": [
+            "kjwaengX"
+          ],
+          "bs_not_in_mand2mc": [
+            "kjwaengX"
+          ],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": true
+        },
+        "mand2mc_rows": [],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "119",
+            "character": "囧",
+            "pinyin": "jiǒng",
+            "mc_bs": "kjwaengX",
+            "mc_analyzed": "(k- + -jwaeng B)",
+            "oc_bs": "*k-mraŋʔ (dial. *k.mr- > *kʷr-)",
+            "gloss": "bright window",
+            "gsr": "0763a",
+            "unicode_utf16": "U+56E7"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "7419",
+            "character": "囧",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "俱永",
+            "source": "广韵",
+            "oc_initial": "kʷʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "kʷʳaŋʔ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "7414",
+            "character": "莔",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武庚",
+            "source": "广韵",
+            "oc_initial": "mɡʷʳ",
+            "oc_rhyme": "a̠ŋ",
+            "oc_syllable": "mɡʷʳa̠ŋ"
+          },
+          {
+            "source_row_number": "7415",
+            "character": "萌",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "莫耕",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "a̠ŋ",
+            "oc_syllable": "mkʳa̠ŋ"
+          },
+          {
+            "source_row_number": "7416",
+            "character": "明",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7417",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7418",
+            "character": "䳟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7419",
+            "character": "囧",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "俱永",
+            "source": "广韵",
+            "oc_initial": "kʷʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "kʷʳaŋʔ"
+          },
+          {
+            "source_row_number": "7420",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武永",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "mkʳaŋʔ"
+          },
+          {
+            "source_row_number": "7421",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "莫更",
+            "source": "广韵",
+            "oc_initial": "mɡʷʳ",
+            "oc_rhyme": "a̠ŋs",
+            "oc_syllable": "mɡʷʳa̠ŋs"
+          }
+        ],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "self_phonetic_base",
+          "semantic_component": null
+        },
+        "transliteration_latex": "{\\large{kuaṅ}},",
+        "render_latex": "囧\t%jiǒng\n{\\large{kuaṅ}},\n\\textit{kjwaengX};\t%0763a",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": null,
+        "resolved_node_root": {
+          "root": "kuaṅ",
+          "source": "node_transliteration_fallback",
+          "descendant_count": 1,
+          "bs_support_count": 0,
+          "bs_broad_roots": [],
+          "bs_node_roots": [],
+          "display_root": "kuaṅ₂",
+          "division_class": "mixed",
+          "division_note": "the extracted forms point to both type a and type b",
+          "mark_required": false,
+          "mc_forms": [
+            "kjwaengX",
+            "kiwaeṅX"
+          ],
+          "form_analyses": [
+            {
+              "form": "kjwaengX",
+              "normalized": "kjwaeng",
+              "class": "a",
+              "reason": "no_i_medial"
+            },
+            {
+              "form": "kiwaeṅX",
+              "normalized": "kiwaeṅ",
+              "class": "b",
+              "reason": "explicit_i_medial"
+            }
+          ],
+          "base_root": "kuaṅ",
+          "ordinal": 2,
+          "numbering_source": "document_order_occurrence"
+        }
+      }
+    ],
+    "all_candidates": [
+      {
+        "character": "冏",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "kiwaeṅX"
+          ],
+          "mand2mc_nwh_forms": [
+            "kiwaeṅX"
+          ],
+          "mand2mc_bs_forms": [
+            "kjwaengX"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "5607",
+            "character": "冏",
+            "pinyin": "jiəng3",
+            "mc_nwh": "kiwaeṅX",
+            "mc_bs": "kjwaengX",
+            "gsr": "0763a"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "囧",
+        "in_tex": false,
+        "mand2mc_count": 0,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 8,
+        "mand_bs_mc_disagreement": true,
+        "mc_resolution": {
+          "status": "investigate-bs-not-in-mand2mc",
+          "authoritative_source": "bs_gsr",
+          "display_forms": [
+            "kjwaengX"
+          ],
+          "mand2mc_nwh_forms": [],
+          "mand2mc_bs_forms": [],
+          "bs_gsr_forms": [
+            "kjwaengX"
+          ],
+          "bs_not_in_mand2mc": [
+            "kjwaengX"
+          ],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": true
+        },
+        "mand2mc_rows": [],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "119",
+            "character": "囧",
+            "pinyin": "jiǒng",
+            "mc_bs": "kjwaengX",
+            "mc_analyzed": "(k- + -jwaeng B)",
+            "oc_bs": "*k-mraŋʔ (dial. *k.mr- > *kʷr-)",
+            "gloss": "bright window",
+            "gsr": "0763a",
+            "unicode_utf16": "U+56E7"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "7419",
+            "character": "囧",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "俱永",
+            "source": "广韵",
+            "oc_initial": "kʷʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "kʷʳaŋʔ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "7414",
+            "character": "莔",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武庚",
+            "source": "广韵",
+            "oc_initial": "mɡʷʳ",
+            "oc_rhyme": "a̠ŋ",
+            "oc_syllable": "mɡʷʳa̠ŋ"
+          },
+          {
+            "source_row_number": "7415",
+            "character": "萌",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "莫耕",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "a̠ŋ",
+            "oc_syllable": "mkʳa̠ŋ"
+          },
+          {
+            "source_row_number": "7416",
+            "character": "明",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7417",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7418",
+            "character": "䳟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武兵",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋ",
+            "oc_syllable": "mkʳaŋ"
+          },
+          {
+            "source_row_number": "7419",
+            "character": "囧",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "俱永",
+            "source": "广韵",
+            "oc_initial": "kʷʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "kʷʳaŋʔ"
+          },
+          {
+            "source_row_number": "7420",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "武永",
+            "source": "广韵",
+            "oc_initial": "mkʳ",
+            "oc_rhyme": "aŋʔ",
+            "oc_syllable": "mkʳaŋʔ"
+          },
+          {
+            "source_row_number": "7421",
+            "character": "盟",
+            "phonetic_component": "囧",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "莫更",
+            "source": "广韵",
+            "oc_initial": "mɡʷʳ",
+            "oc_rhyme": "a̠ŋs",
+            "oc_syllable": "mɡʷʳa̠ŋs"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Machine-promoted from a series packet; not yet hand-checked.",
+      "Use this file as the staging area for editorial decisions before any merge into main.tex."
+    ],
+    "series_root_candidates": [
+      {
+        "character": "冏",
+        "gsr": null,
+        "oc_bs": "*kʷʳaŋʔ",
+        "root": "kuaṅ",
+        "source": "same_character_series_root",
+        "support_count": 2,
+        "supporting_sources": [
+          "same_character_series_root",
+          "head_graph_oc_shengfu"
+        ]
+      }
+    ],
+    "resolved_series_root": {
+      "root": "kuaṅ",
+      "source": "same_character_series_root",
+      "character": "冏",
+      "oc_bs": "*kʷʳaŋʔ",
+      "confidence": "provisional-oc",
+      "support_count": 2,
+      "supporting_sources": [
+        "same_character_series_root",
+        "head_graph_oc_shengfu"
+      ],
+      "display_root": "kuaṅ",
+      "base_root": "kuaṅ",
+      "ordinal": 1,
+      "numbering_source": "document_order_occurrence"
+    }
+  },
+  "provenance": [
+    {
+      "source": "current_curation",
+      "source_path": "data/entries/curation/03-25.json",
+      "packet_kind": "missing_series",
+      "status": "machine-curated-pilot"
+    }
+  ],
+  "status_flags": [
+    "needs_review",
+    "generated_candidate"
+  ],
+  "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "03-25",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-25",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-25",
+      "source_layer": "curation_mc_investigation",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "囧",
+      "line_number": null,
+      "text": "BS/GSR has readings absent from Mand2MC. Missing in Mand2MC: kjwaengX.",
+      "category": "mc_conflict",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "03-25",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "囧",
+      "line_number": null,
+      "text": "the extracted forms point to both type a and type b",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 4,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_mc_investigation": 1,
+      "curation_division_note": 1
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "mc_conflict": 1,
+      "structural_internal": 1
+    },
+    "by_visibility": {
+      "internal": 4
+    },
+    "by_recommended_rendering": {
+      "internal_only": 4
+    }
+  },
+  "render_mode": "generated_missing_series"
+}

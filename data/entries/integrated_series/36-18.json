@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:39:00.970064+00:00",
+  "generated_at": "2026-06-27T19:57:19.527132+00:00",
   "id": "36-18",
   "schuessler": {
     "gsc_id": "36-18",
@@ -2524,39 +2524,26 @@
     ],
     "series_root_candidates": [
       {
-        "character": "冉",
+        "character": "冄",
         "gsr": null,
         "oc_bs": "*nʲam",
         "root": "nam",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 15,
-        "supporting_sources": [
-          "head_graph_oc_shengfu",
-          "phonetic_component_series_root"
-        ]
-      },
-      {
-        "character": "姌",
-        "gsr": null,
-        "oc_bs": "*ne̠mʔ",
-        "root": "nem",
-        "source": "head_graph_oc_shengfu",
+        "source": "same_character_series_root",
         "support_count": 1,
         "supporting_sources": [
-          "head_graph_oc_shengfu"
+          "same_character_series_root"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "nam",
-      "source": "head_graph_supported_root",
-      "character": "冉",
+      "source": "same_character_series_root",
+      "character": "冄",
       "oc_bs": "*nʲam",
       "confidence": "provisional-oc",
-      "support_count": 15,
+      "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_shengfu",
-        "phonetic_component_series_root"
+        "same_character_series_root"
       ],
       "display_root": "nam",
       "division_class": "mixed",
@@ -2647,7 +2634,7 @@
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "series",
-      "anchor_value": "冉",
+      "anchor_value": "冄",
       "line_number": null,
       "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",

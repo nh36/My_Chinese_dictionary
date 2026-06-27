@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:39:00.954568+00:00",
+  "generated_at": "2026-06-27T19:57:19.517783+00:00",
   "id": "04-20",
   "schuessler": {
     "gsc_id": "04-20",
@@ -668,64 +668,24 @@
         "oc_bs": "*qʷʰɯ̠",
         "root": "quy",
         "source": "head_graph_oc_shengfu",
-        "support_count": 2,
+        "support_count": 1,
         "supporting_sources": [
-          "head_graph_oc_shengfu",
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "灰",
+        "gsr": null,
+        "oc_bs": "*gu {*[g](r)u}",
+        "root": "ku",
+        "source": "phonetic_component_series_root",
+        "support_count": 1,
+        "supporting_sources": [
           "phonetic_component_series_root"
         ]
       }
     ],
-    "resolved_series_root": {
-      "root": "quy",
-      "source": "head_graph_oc_shengfu",
-      "character": "灰",
-      "oc_bs": "*qʷʰɯ̠",
-      "confidence": "provisional-oc",
-      "support_count": 2,
-      "supporting_sources": [
-        "head_graph_oc_shengfu",
-        "phonetic_component_series_root"
-      ],
-      "display_root": "quy₆",
-      "division_class": "a",
-      "division_note": "all extracted forms lack an i-medial after the onset",
-      "mark_required": false,
-      "mc_forms": [
-        "hwəy",
-        "khwəy",
-        "mwəy",
-        "mwəyH"
-      ],
-      "form_analyses": [
-        {
-          "form": "hwəy",
-          "normalized": "hwəy",
-          "class": "a",
-          "reason": "no_i_medial"
-        },
-        {
-          "form": "khwəy",
-          "normalized": "khwəy",
-          "class": "a",
-          "reason": "no_i_medial"
-        },
-        {
-          "form": "mwəy",
-          "normalized": "mwəy",
-          "class": "a",
-          "reason": "no_i_medial"
-        },
-        {
-          "form": "mwəyH",
-          "normalized": "mwəy",
-          "class": "a",
-          "reason": "no_i_medial"
-        }
-      ],
-      "base_root": "quy",
-      "ordinal": 6,
-      "numbering_source": "document_order_occurrence"
-    }
+    "resolved_series_root": null
   },
   "provenance": [
     {
@@ -767,17 +727,6 @@
       "entry_id": "04-20",
       "source_layer": "curation_division_note",
       "visibility": "internal",
-      "anchor_kind": "series",
-      "anchor_value": "灰",
-      "line_number": null,
-      "text": "all extracted forms lack an i-medial after the onset",
-      "category": "structural_internal",
-      "recommended_rendering": "internal_only"
-    },
-    {
-      "entry_id": "04-20",
-      "source_layer": "curation_division_note",
-      "visibility": "internal",
       "anchor_kind": "character",
       "anchor_value": "灰",
       "line_number": null,
@@ -787,20 +736,20 @@
     }
   ],
   "note_summary": {
-    "total": 4,
+    "total": 3,
     "by_source_layer": {
       "curation_entry_note": 2,
-      "curation_division_note": 2
+      "curation_division_note": 1
     },
     "by_category": {
       "workflow_internal": 2,
-      "structural_internal": 2
+      "structural_internal": 1
     },
     "by_visibility": {
-      "internal": 4
+      "internal": 3
     },
     "by_recommended_rendering": {
-      "internal_only": 4
+      "internal_only": 3
     }
   },
   "render_mode": "generated_missing_series"

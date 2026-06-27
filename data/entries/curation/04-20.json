@@ -649,62 +649,22 @@
       "oc_bs": "*qʷʰɯ̠",
       "root": "quy",
       "source": "head_graph_oc_shengfu",
-      "support_count": 2,
+      "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_shengfu",
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "灰",
+      "gsr": null,
+      "oc_bs": "*gu {*[g](r)u}",
+      "root": "ku",
+      "source": "phonetic_component_series_root",
+      "support_count": 1,
+      "supporting_sources": [
         "phonetic_component_series_root"
       ]
     }
   ],
-  "resolved_series_root": {
-    "root": "quy",
-    "source": "head_graph_oc_shengfu",
-    "character": "灰",
-    "oc_bs": "*qʷʰɯ̠",
-    "confidence": "provisional-oc",
-    "support_count": 2,
-    "supporting_sources": [
-      "head_graph_oc_shengfu",
-      "phonetic_component_series_root"
-    ],
-    "display_root": "quy₆",
-    "division_class": "a",
-    "division_note": "all extracted forms lack an i-medial after the onset",
-    "mark_required": false,
-    "mc_forms": [
-      "hwəy",
-      "khwəy",
-      "mwəy",
-      "mwəyH"
-    ],
-    "form_analyses": [
-      {
-        "form": "hwəy",
-        "normalized": "hwəy",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "khwəy",
-        "normalized": "khwəy",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "mwəy",
-        "normalized": "mwəy",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "mwəyH",
-        "normalized": "mwəy",
-        "class": "a",
-        "reason": "no_i_medial"
-      }
-    ],
-    "base_root": "quy",
-    "ordinal": 6,
-    "numbering_source": "document_order_occurrence"
-  }
+  "resolved_series_root": null
 }
