@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 520
-- Packets with at least one root candidate: 520
-- Packets with a single resolved provisional root: 519
+- Missing-series packets inspected: 526
+- Packets with at least one root candidate: 526
+- Packets with a single resolved provisional root: 525
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -267,9 +267,14 @@
 | `09-11` | 丁→teṅ [*tˤeŋ] (0833a) | `teṅ` | `head_graph_oc_bs` |
 | `09-12` | 鼎→teṅ [*tˤeŋʔ] (0834a) | `teṅ` | `head_graph_oc_bs` |
 | `09-14` | 成→teṅ [*m-deŋ {*m-[d]eŋ}] (0818a) | `teṅ` | `head_graph_oc_bs` |
+| `09-15` | 盈→qeṅ [*ɢleŋ] (None) | `qeṅ` | `head_graph_oc_shengfu` |
+| `09-16` | 嬴→leṅ [*ɡ‧leŋ] (None) | `leṅ` | `head_graph_oc_shengfu` |
 | `09-17` | 𡈼→leṅ [*l̥ˤeŋʔ] (0835a) | `leṅ` | `head_graph_oc_bs` |
+| `09-18` | 霝→reṅ [*re̠ŋ] (None) | `reṅ` | `head_graph_oc_shengfu` |
 | `09-19` | 令→riṅ [*riŋ] (0823a) | `riṅ` | `head_graph_oc_bs` |
+| `09-20` | 寧→neṅ [*nˤeŋ] (0837a) | `neṅ` | `head_graph_oc_bs` |
 | `09-21` | 晶→tseṅ [*tseŋ] (0820a) | `tseṅ` | `head_graph_oc_bs` |
+| `09-22` | 井→tseṅ [*C.tseŋʔ] (0819a) | `tseṅ` | `head_graph_oc_bs` |
 | `09-23` | 爭→tseṅ [*tsˤreŋ {*[ts]ˤreŋ} ~ m-tsˤreŋ (or mə-tsˤreŋ)] (0811a) | `tseṅ` | `head_graph_oc_bs` |
 | `09-25` | 晴→tseṅ [*N-tsʰeŋ] (812); 晴→seṅ [*sɡleŋ] (None) | `tseṅ` | `head_graph_bs_head` |
 | `09-26` | 平→peṅ [*breŋ] (0825a) | `peṅ` | `head_graph_oc_bs` |
@@ -278,6 +283,7 @@
 | `09-30` | 冥→meṅ [*mˤeŋ] (0841a) | `meṅ` | `head_graph_oc_bs` |
 | `09-31` | 名→meṅ [*C.meŋ] (0826a) | `meṅ` | `head_graph_oc_bs` |
 | `09-32` | 命→  *meṅ [*mə-riŋ-s (dial. > *mreŋ-s)] (0762a) | `  *meṅ` | `head_graph_oc_bs` |
+| `09-33` | 鳴→reṅ [*m.reŋ] (0827a) | `reṅ` | `head_graph_oc_bs` |
 | `10-35` | 取→tso [*tsʰoʔ-s] (0131a); 最→tsot [*tsˤot-s {*[ts]ˤot-s}] (0325a) | `tso` | `merged_packet_primary_head` |
 | `10-37` | 叟→  *su [*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)] (1097a) | `  *su` | `head_graph_oc_bs` |
 | `10-39` | 付→po [*pos] (None) | `po` | `head_graph_oc_shengfu` |

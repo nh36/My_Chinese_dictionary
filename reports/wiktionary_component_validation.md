@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4891
-- Pages fetched / cached successfully: 4822
-- Additions with explicit Han-compound semantic/phonetic roles: 2315
+- Proposed additions checked: 4913
+- Pages fetched / cached successfully: 4842
+- Additions with explicit Han-compound semantic/phonetic roles: 2322
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1715,6 +1715,11 @@
 | `09-14` | 城 | yes | yes | 土 | 成 |
 | `09-14` | 誠 | yes | yes | 言 | 成 |
 | `09-14` | 盛 | yes | yes | 皿 | 成 |
+| `09-15` | 盈 | yes | no |  |  |
+| `09-15` | 楹 | yes | no |  |  |
+| `09-16` | 嬴 | yes | no |  |  |
+| `09-16` | 瀛 | yes | yes | 水 | 嬴 |
+| `09-16` | 贏 | yes | yes | 貝 | 𦝠 |
 | `09-17` | 𡈼 | yes | no |  |  |
 | `09-17` | 檉 | yes | yes | 木 | 聖 |
 | `09-17` | 廷 | yes | yes | 廴 | 𡈼 |
@@ -1738,6 +1743,11 @@
 | `09-17` | 桯 | yes | no |  |  |
 | `09-17` | 聖 | yes | yes | 耳 | 呈 |
 | `09-17` | 郢 | yes | yes | 邑 | 呈 |
+| `09-18` | 霝 | yes | no |  |  |
+| `09-18` | 𦉢 | no | no |  |  |
+| `09-18` | 蘦 | yes | no |  |  |
+| `09-18` | 𧕅 | no | no |  |  |
+| `09-18` | 靈 | yes | yes | 玉 | 霝 |
 | `09-19` | 令 | yes | no |  |  |
 | `09-19` | 領 | yes | yes | 頁 | 令 |
 | `09-19` | 伶 | yes | yes | 人 | 令 |
@@ -1754,7 +1764,18 @@
 | `09-19` | 零 | yes | yes | 雨 | 令 |
 | `09-19` | 鴒 | yes | no |  |  |
 | `09-19` | 齡 | yes | yes | 齒 | 令 |
+| `09-20` | 寧 | yes | yes | 丂 | 寍 |
+| `09-20` | 𡨴 | yes | no |  |  |
+| `09-20` | 寍 | yes | no |  |  |
+| `09-20` | 濘 | yes | no |  |  |
+| `09-20` | 嬣 | yes | yes | 女 | 寧 |
+| `09-20` | 甯 | yes | no |  |  |
 | `09-21` | 晶 | yes | no |  |  |
+| `09-22` | 井 | yes | no |  |  |
+| `09-22` | 丼 | yes | no |  |  |
+| `09-22` | 妌 | yes | yes | 女 | 井 |
+| `09-22` | 穽 | yes | no |  |  |
+| `09-22` | 阱 | yes | yes | 阜 | 井 |
 | `09-23` | 爭 | yes | no |  |  |
 | `09-23` | 崢 | yes | yes | 山 | 爭 |
 | `09-23` | 淨 | yes | no |  |  |
@@ -1823,6 +1844,7 @@
 | `09-31` | 名 | yes | no |  |  |
 | `09-31` | 銘 | yes | yes | 金 | 名 |
 | `09-32` | 命 | yes | yes | 口 | 令 |
+| `09-33` | 鳴 | yes | no |  |  |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |

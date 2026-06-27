@@ -1,14 +1,14 @@
 {
   "summary": {
-    "case_count": 60,
-    "unique_component_count": 52,
+    "case_count": 62,
+    "unique_component_count": 53,
     "by_classification": {
-      "new_latin_label_needed": 59,
+      "new_latin_label_needed": 61,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 37,
-      "packet_family_component_literal_fallback": 8,
+      "wiktionary_component_literal_fallback": 38,
+      "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 15
     }
   },
@@ -403,6 +403,40 @@
       "render_latex": "扃\t%jiong1 / jiong3 / jiōng\n{\\large{\\textsuperscript{户·}ɡeṅ}},\n\\textit{kweṅ};\t%0842d\n\\textit{kweṅX};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `户` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "09-20",
+      "character": "寧",
+      "abbreviation": "丂",
+      "semantic_component": "丂",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|寍|丂|ls=psc|c1=p|c2=s|t2=speech (?)}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "speech (?)",
+      "semantic_component_ids": "⿱一㇉",
+      "transliteration_latex": "{\\large{neṅ₂\\textsuperscript{˸丂}}},",
+      "render_latex": "寧\t%ning2 / níng\n{\\large{neṅ₂\\textsuperscript{˸丂}}},\n\\textit{neṅ};\t%0837a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "09-22",
+      "character": "丼",
+      "abbreviation": "丶",
+      "semantic_component": "丶",
+      "position": "suffix-colon",
+      "source": "packet_family_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "丶",
+      "transliteration_latex": "{\\large{tseṅ₂\\textsuperscript{˸丶}}},",
+      "render_latex": "丼\t%jing3 / jǐng\n{\\large{tseṅ₂\\textsuperscript{˸丶}}},\n\\textit{tsieṅX};\t%0819e",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "09-26",
@@ -1128,6 +1162,27 @@
       ]
     },
     {
+      "semantic_component": "丂",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丂` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱一㇉",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "speech (?)",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "09-20",
+          "character": "寧",
+          "position": "suffix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
       "semantic_component": "丵",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `丵` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
@@ -1159,8 +1214,14 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "09-22",
+          "character": "丼",
+          "position": "suffix-colon",
+          "source": "packet_family_component_literal_fallback"
+        },
         {
           "entry_id": "21-12",
           "character": "太",

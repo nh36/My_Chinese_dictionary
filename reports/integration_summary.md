@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 640
+- Integrated series count: 646
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 536
+- Active curated packet count: 542
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 520
+- Generated missing-series entries: 526
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -340,9 +340,14 @@
 | `09-11` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-12` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-14` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-15` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-17` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-18` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-19` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-20` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-21` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-22` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-23` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-25` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-26` | `generated_missing_series` | needs_review, generated_candidate |
@@ -351,6 +356,7 @@
 | `09-30` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-31` | `generated_missing_series` | needs_review, generated_candidate |
 | `09-32` | `generated_missing_series` | needs_review, generated_candidate |
+| `09-33` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-01` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-02` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-03` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |

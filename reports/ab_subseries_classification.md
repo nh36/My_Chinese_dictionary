@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 749
+- Generated subgroup heads inspected: 756
 - Subgroups newly marked with `a`: 98
 - Subgroups newly marked with `b`: 88
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 226
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 233
 - Mixed subgroups left unmarked: 335
 - Unresolved subgroups left unmarked: 2
 
@@ -317,14 +317,21 @@
 | `09-11` | 正 | `teṅ` | `teṅ₃` | `mixed` | no | `cieṅ, cieṅH, cieṅX, ṭhieṅ, deṅH, teṅH` | the extracted forms point to both type a and type b |
 | `09-12` | 貞 | `teṅ` | `teṅ₅` | `b` | no | `ṭieṅ, ṭhieṅ, ṭhieṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-14` | 成 | `teṅ` | `teṅ` | `b` | no | `jieṅ, jieṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `09-17` | 廷 | `leṅ` | `leṅ₄` | `a` | no | `deṅ, deṅH, theṅH, deṅX, theṅX, denX, theṅ` | all extracted forms lack an i-medial after the onset |
-| `09-17` | 呈 | `leṅ` | `leṅ₅` | `b` | no | `ḍieṅ, ṭhieṅ, ṭhieṅX, yieṅ, śieṅH, yengX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `09-17` | 聖 | `leṅ` | `leṅ₆` | `b` | no | `śieṅH, ṭhieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-15` | 盈 | `qeṅ` | `qeṅ` | `b` | no | `yieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-16` | 嬴 | `leṅ` | `leṅ` | `b` | no | `yieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-17` | 廷 | `leṅ` | `leṅ₅` | `a` | no | `deṅ, deṅH, theṅH, deṅX, theṅX, denX, theṅ` | all extracted forms lack an i-medial after the onset |
+| `09-17` | 呈 | `leṅ` | `leṅ₆` | `b` | no | `ḍieṅ, ṭhieṅ, ṭhieṅX, yieṅ, śieṅH, yengX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-17` | 聖 | `leṅ` | `leṅ₇` | `b` | no | `śieṅH, ṭhieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-18` | 霝 | `reṅ` | `reṅ` | `a` | no | `leṅ` | all extracted forms lack an i-medial after the onset |
 | `09-19` | 令 | `riṅ` | `riṅ` | `mixed` | no | `lieṅ, lieṅH, lieṅX, leṅ, leṅX` | the extracted forms point to both type a and type b |
+| `09-20` | 寧 | `neṅ` | `neṅ₃` | `a` | no | `neṅ, ṇeaṅ` | all extracted forms lack an i-medial after the onset |
+| `09-20` | 寍 | `neṅ` | `neṅ₂` | `a` | no | `neṅ, ṇeaṅ, neṅH` | all extracted forms lack an i-medial after the onset |
+| `09-22` | 井 | `tseṅ` | `tseṅ` | `b` | no | `tsieṅX, dzieṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-22` | 丼 | `tseṅ` | `tseṅ₃` | `b` | no | `tsieṅX, dzieṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-23` | 爭 | `tseṅ` | `tseṅ` | `mixed` | no | `tṣeaṅ, dẓeaṅ, dzieṅH` | the extracted forms point to both type a and type b |
-| `09-25` | 生 | `tseṅ` | `tseṅ₄` | `mixed` | no | `ṣaeṅ, tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX, ṣieṅX, sieṅX, sieṅH, tshenH, tṣeaṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
-| `09-25` | 青 | `tseṅ` | `tseṅ₅` | `mixed` | no | `tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX` | the extracted forms point to both type a and type b |
-| `09-25` | 星 | `tseṅ` | `tseṅ₆` | `mixed` | no | `dzieṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 生 | `tseṅ` | `tseṅ₆` | `mixed` | no | `ṣaeṅ, tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX, ṣieṅX, sieṅX, sieṅH, tshenH, tṣeaṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 青 | `tseṅ` | `tseṅ₇` | `mixed` | no | `tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX` | the extracted forms point to both type a and type b |
+| `09-25` | 星 | `tseṅ` | `tseṅ₈` | `mixed` | no | `dzieṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
 | `09-26` | 平 | `peṅ` | `peṅ` | `mixed` | no | `beanH, ben, biaeṅ, beṅ, peaṅ, pheaṅ` | the extracted forms point to both type a and type b |
 | `09-27` | 甹 | `leṅ` | `leṅ` | `mixed` | no | `pheṅ, phyieṅH, pyieṅH, ṭhieṅX` | the extracted forms point to both type a and type b |
 | `09-29` | 并 | `peṅ` | `peṅ` | `mixed` | no | `pyieṅ, pyieṅH, beṅX, pheṅ, pheṅX, beṅ, pyieṅX, byieṅH, pheaṅ, peaṅ, peaṅH, ben` | the extracted forms point to both type a and type b |

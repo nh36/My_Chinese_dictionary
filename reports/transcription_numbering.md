@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 865
-- Roots whose display label changed after document-wide renumbering: 475
-- Duplicate phonetic bases encountered in document order: 230
+- Mutable series/subseries roots inspected: 874
+- Roots whose display label changed after document-wide renumbering: 482
+- Duplicate phonetic bases encountered in document order: 233
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -468,24 +468,33 @@
 | `09-12` | `series-root` | 鼎 | `teṅ` | 4 | `teṅ₄` | yes |
 | `09-12` | `subseries-root` | 貞 | `teṅ` | 5 | `teṅ₅` | yes |
 | `09-14` | `series-root` | 成 | `teṅ` | 6 | `teṅ₆` | yes |
-| `09-17` | `series-root` | 𡈼 | `leṅ` | 3 | `leṅ₃` | yes |
-| `09-17` | `subseries-root` | 廷 | `leṅ` | 4 | `leṅ₄` | yes |
-| `09-17` | `subseries-root` | 呈 | `leṅ` | 5 | `leṅ₅` | yes |
-| `09-17` | `subseries-root` | 聖 | `leṅ` | 6 | `leṅ₆` | yes |
+| `09-15` | `series-root` | 盈 | `qeṅ` | 2 | `qeṅ₂` | yes |
+| `09-16` | `series-root` | 嬴 | `leṅ` | 3 | `leṅ₃` | yes |
+| `09-17` | `series-root` | 𡈼 | `leṅ` | 4 | `leṅ₄` | yes |
+| `09-17` | `subseries-root` | 廷 | `leṅ` | 5 | `leṅ₅` | yes |
+| `09-17` | `subseries-root` | 呈 | `leṅ` | 6 | `leṅ₆` | yes |
+| `09-17` | `subseries-root` | 聖 | `leṅ` | 7 | `leṅ₇` | yes |
+| `09-18` | `series-root` | 霝 | `reṅ` | 1 | `reṅ` | yes |
 | `09-19` | `series-root` | 令 | `riṅ` | 1 | `riṅ` | yes |
+| `09-20` | `series-root` | 寧 | `neṅ` | 1 | `neṅ` | yes |
+| `09-20` | `subseries-root` | 寍 | `neṅ` | 2 | `neṅ₂` | yes |
+| `09-20` | `subseries-root` | 寧 | `neṅ` | 3 | `neṅ₃` | yes |
 | `09-21` | `series-root` | 晶 | `tseṅ` | 1 | `tseṅ` | yes |
-| `09-23` | `series-root` | 爭 | `tseṅ` | 2 | `tseṅ₂` | yes |
-| `09-25` | `series-root` | 晴 | `tseṅ` | 3 | `tseṅ₃` | yes |
-| `09-25` | `subseries-root` | 生 | `tseṅ` | 4 | `tseṅ₄` | yes |
-| `09-25` | `subseries-root` | 青 | `tseṅ` | 5 | `tseṅ₅` | yes |
-| `09-25` | `subseries-root` | 星 | `tseṅ` | 6 | `tseṅ₆` | yes |
+| `09-22` | `series-root` | 井 | `tseṅ` | 2 | `tseṅ₂` | yes |
+| `09-22` | `subseries-root` | 丼 | `tseṅ` | 3 | `tseṅ₃` | yes |
+| `09-23` | `series-root` | 爭 | `tseṅ` | 4 | `tseṅ₄` | yes |
+| `09-25` | `series-root` | 晴 | `tseṅ` | 5 | `tseṅ₅` | yes |
+| `09-25` | `subseries-root` | 生 | `tseṅ` | 6 | `tseṅ₆` | yes |
+| `09-25` | `subseries-root` | 青 | `tseṅ` | 7 | `tseṅ₇` | yes |
+| `09-25` | `subseries-root` | 星 | `tseṅ` | 8 | `tseṅ₈` | yes |
 | `09-26` | `series-root` | 平 | `peṅ` | 1 | `peṅ` | yes |
-| `09-27` | `series-root` | 甹 | `leṅ` | 7 | `leṅ₇` | yes |
+| `09-27` | `series-root` | 甹 | `leṅ` | 8 | `leṅ₈` | yes |
 | `09-29` | `series-root` | 并 | `peṅ` | 2 | `peṅ₂` | yes |
 | `09-29` | `subseries-root` | 屏 | `peṅ` | 3 | `peṅ₃` | yes |
 | `09-30` | `series-root` | 冥 | `meṅ` | 1 | `meṅ` | yes |
 | `09-31` | `series-root` | 名 | `meṅ` | 2 | `meṅ₂` | yes |
 | `09-32` | `series-root` | 命 | `  *meṅ` | 1 | `  *meṅ` | yes |
+| `09-33` | `series-root` | 鳴 | `reṅ` | 2 | `reṅ₂` | yes |
 | `10-01` | `baseline-series-root` | 句 | `{\textsuperscript{met·}}ko` | 1 | `{\textsuperscript{met·}}ko` | no |
 | `10-02` | `baseline-series-root` | 冓 | `{\textsuperscript{fem·}}k\textoverset{a}{o}` | 1 | `{\textsuperscript{fem·}}k\textoverset{a}{o}` | no |
 | `10-03` | `baseline-series-root` | 口 | `kh\textoverset{a}{o}\textsuperscript{·sign}` | 1 | `kh\textoverset{a}{o}\textsuperscript{·sign}` | no |
