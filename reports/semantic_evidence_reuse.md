@@ -1,10 +1,10 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 554
-- Proposed additions inspected: 4949
-- Additions with reusable semantic assignment from existing TeX: 4949
-- Additions with reusable transliteration LaTeX from existing TeX: 4949
-- Additions with reusable render block from existing TeX: 4949
+- Curated entries inspected: 556
+- Proposed additions inspected: 4951
+- Additions with reusable semantic assignment from existing TeX: 4951
+- Additions with reusable transliteration LaTeX from existing TeX: 4951
+- Additions with reusable render block from existing TeX: 4951
 - Additions with IDS-derived semantic candidates: 3289
 - Additions with explicit Wiktionary Han-compound support: 2323
 - Additions assigned to inherited hierarchy nodes: 3
@@ -265,6 +265,7 @@
 | `07-33` | 1 | 1 | 1 | 1 |
 | `08-01` | 4 | 4 | 4 | 4 |
 | `08-02` | 6 | 6 | 6 | 6 |
+| `08-03` | 1 | 1 | 1 | 1 |
 | `08-04` | 7 | 7 | 7 | 7 |
 | `08-05` | 7 | 7 | 7 | 7 |
 | `08-08` | 3 | 3 | 3 | 3 |
@@ -278,6 +279,7 @@
 | `08-17` | 4 | 4 | 4 | 4 |
 | `08-18` | 4 | 4 | 4 | 4 |
 | `08-19` | 17 | 17 | 17 | 17 |
+| `08-22` | 1 | 1 | 1 | 1 |
 | `09-01` | 19 | 19 | 19 | 19 |
 | `09-02` | 6 | 6 | 6 | 6 |
 | `09-03` | 7 | 7 | 7 | 7 |

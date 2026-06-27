@@ -1,7 +1,7 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4949
-- Pages fetched / cached successfully: 4878
+- Proposed additions checked: 4951
+- Pages fetched / cached successfully: 4880
 - Additions with explicit Han-compound semantic/phonetic roles: 2336
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
@@ -1557,6 +1557,7 @@
 | `08-02` | 隔 | yes | yes | 阜 | 鬲 |
 | `08-02` | 翮 | yes | yes | 羽 | 鬲 |
 | `08-02` | 鷊 | yes | no |  |  |
+| `08-03` | 覡 | yes | no |  |  |
 | `08-04` | 戹 | yes | no |  |  |
 | `08-04` | 厄 | yes | yes | 卪 | 厂 |
 | `08-04` | 軶 | yes | no |  |  |
@@ -1644,6 +1645,7 @@
 | `08-19` | 避 | yes | yes | 辵 | 辟 |
 | `08-19` | 嬖 | yes | yes | 女 | 辟 |
 | `08-19` | 薜 | yes | yes | 艸 | 辟 |
+| `08-22` | 簚 | yes | no |  |  |
 | `09-01` | 巠 | yes | no |  |  |
 | `09-01` | 經 | yes | yes | 糸 | 巠 |
 | `09-01` | 剄 | yes | yes | 刀 | 巠 |

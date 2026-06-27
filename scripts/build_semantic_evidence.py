@@ -7,14 +7,17 @@ from pathlib import Path
 from typing import Any
 
 import ab_division
+import extract_semantic_components
 import hierarchy_utils
 import inventory_tex
 import mc_resolution
 import resolve_series_roots
 
 
+DEFAULT_CURRENT_SOURCE = "main.tex"
 DEFAULT_TEX_ENTRIES = "data/current_tex_entries.json"
 DEFAULT_SEMANTIC_INVENTORY = "data/current_semantic_components.json"
+DEFAULT_SEMANTIC_INVENTORY_REPORT = "reports/semantic_components_inventory.md"
 DEFAULT_SHENGFU = "data/derived/shengfu.csv"
 DEFAULT_CURATION_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/semantic_evidence_reuse.md"
@@ -171,6 +174,18 @@ RESEARCH_BACKED_SEMANTICS = {
         "position": "prefix-dot",
         "source": "research_explicit_phonosemantic",
         "note": "Chinese sources support 囗 semantic + 睘 phonetic.",
+    },
+    "覡": {
+        "semantic_component": "巫",
+        "position": "prefix-dot",
+        "source": "research_phonographic_differentiation",
+        "note": "Treat 巫 as the semantic determinative and 見 as the direct phonographic ancestor of 覡.",
+    },
+    "簚": {
+        "semantic_component": "竹",
+        "position": "prefix-colon",
+        "source": "research_opaque_phonetic_package",
+        "note": "Treat 竹 as the clear semantic; the lower complex is the opaque phonetic package while the root stays mek from phonological evidence.",
     },
 }
 APPROVED_SEMANTIC_OVERRIDES = {
@@ -639,6 +654,25 @@ def load_wiktionary_wikitext_from_cache(character: str) -> str | None:
         return None
     payload = json.loads(cache_path.read_text(encoding="utf-8"))
     return payload.get("wikitext")
+
+
+def load_semantic_inventory(
+    inventory_path: Path,
+    source_path: Path | None = None,
+    report_path: Path | None = None,
+) -> dict[str, Any]:
+    if source_path is not None and inventory_path == Path(DEFAULT_SEMANTIC_INVENTORY):
+        inventory = extract_semantic_components.build_inventory(
+            source_path.read_text(encoding="utf-8"),
+            str(source_path),
+        )
+        extract_semantic_components.write_outputs(
+            inventory,
+            inventory_path,
+            report_path or Path(DEFAULT_SEMANTIC_INVENTORY_REPORT),
+        )
+        return inventory
+    return json.loads(inventory_path.read_text(encoding="utf-8"))
 
 
 def resolve_historical_wiktionary_note(
@@ -2209,7 +2243,12 @@ def main() -> int:
     args = build_parser().parse_args()
     tex_entries = json.loads(Path(args.tex_entries).read_text(encoding="utf-8"))["entries"]
     tex_entry_index = build_tex_entry_index(tex_entries)
-    semantic_inventory = json.loads(Path(args.semantic_inventory).read_text(encoding="utf-8"))
+    semantic_inventory_path = Path(args.semantic_inventory)
+    semantic_inventory = load_semantic_inventory(
+        semantic_inventory_path,
+        Path(DEFAULT_CURRENT_SOURCE) if semantic_inventory_path == Path(DEFAULT_SEMANTIC_INVENTORY) else None,
+        Path(DEFAULT_SEMANTIC_INVENTORY_REPORT),
+    )
     curation_dir = Path(args.curation_dir)
     report_path = Path(args.report_out)
     ab_report_path = Path(args.ab_report_out)

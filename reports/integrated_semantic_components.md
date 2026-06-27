@@ -3,9 +3,9 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 228
+- Integrated items: 229
 - Items present in both sources: 194
-- Current-only items: 34
+- Current-only items: 35
 - Pilot-only items: 0
 - Entry-form aliases matched to canonical semantic rows: 0
 - Blocked ambiguous aliases configured: 4
@@ -167,6 +167,7 @@
 | `歹` | `mal` | `mal(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `手` | `man` | `man(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `男` | `masc` | `masc(ulus)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
+| `巫` | `mag` | `mag(us)` |  | general |  |  |  |  | yes | current_main_tex |
 | `午` | `meridi` | `meridi(es)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `金` | `met` | `met(allum)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黍` | `mil` | `mil(ium)` | (only in 黎?) | only_in | 黎? |  |  |  | yes | current_main_tex, earlier_pilot |

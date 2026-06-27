@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:05:25.868100+00:00",
+  "generated_at": "2026-06-27T19:39:00.957020+00:00",
   "id": "09-18",
   "schuessler": {
     "gsc_id": "09-18",
@@ -632,7 +632,7 @@
                 "graph_raw": "虫",
                 "label_token": "serp(ens)",
                 "abbreviation": "serp",
-                "start_line": 387
+                "start_line": 388
               },
               {
                 "graph_raw": "虫",
@@ -653,7 +653,7 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 387
+              "start_line": 388
             },
             {
               "graph_raw": "虫",
@@ -799,14 +799,21 @@
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [
           {
-            "source": "ids_component_literal_fallback",
+            "source": "ids_top_level",
             "character": "靈",
             "ids": "⿱霝巫",
             "phonetic_component": "霝",
             "semantic_component": "巫",
             "position": "suffix-colon",
-            "abbreviation": "巫",
-            "inventory_matches": []
+            "abbreviation": "mag",
+            "inventory_matches": [
+              {
+                "graph_raw": "巫",
+                "label_token": "mag(us)",
+                "abbreviation": "mag",
+                "start_line": 321
+              }
+            ]
           }
         ],
         "semantic_assignment": {

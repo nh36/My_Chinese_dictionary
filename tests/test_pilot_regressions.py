@@ -51,6 +51,19 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertIn(r"\paragraph{\textoversetlarge{26-28}{\huge{𠂔}}}", rendered)
 
+    def test_08_03_and_08_22_researched_packets_are_fully_resolved(self) -> None:
+        for entry_id, expected_abbreviation in (("08-03", "mag"), ("08-22", "bamb")):
+            entry = json.loads((ROOT / "data/entries/curation" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            candidate = entry["proposed_additions"][0]
+            assignment = candidate.get("semantic_assignment") or {}
+            self.assertEqual(assignment.get("abbreviation"), expected_abbreviation)
+            self.assertTrue(candidate.get("transliteration_latex"))
+            self.assertTrue(candidate.get("render_latex"))
+
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        self.assertIn(r"\paragraph{\textoversetlarge{08-03}{\huge{覡}}}", rendered)
+        self.assertIn(r"\paragraph{\textoversetlarge{08-22}{\huge{簚}}}", rendered)
+
     def test_four_special_cases_render_with_abstract_labels_and_footnotes(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertRegex(rendered, re.compile(r"\{\\large\{py[₀₁₂₃₄₅₆₇₈₉]*\\textsuperscript\{˸discr\}\}\},"))

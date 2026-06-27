@@ -1347,7 +1347,7 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 405
+              "start_line": 406
             },
             {
               "graph_raw": "土",
@@ -1369,7 +1369,7 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 405
+            "start_line": 406
           },
           {
             "graph_raw": "土",
@@ -1577,7 +1577,7 @@
               "graph_raw": "力",
               "label_token": "virt(us)",
               "abbreviation": "virt",
-              "start_line": 440
+              "start_line": 441
             },
             {
               "graph_raw": "力",
@@ -1599,7 +1599,7 @@
             "graph_raw": "力",
             "label_token": "virt(us)",
             "abbreviation": "virt",
-            "start_line": 440
+            "start_line": 441
           },
           {
             "graph_raw": "力",
@@ -3326,18 +3326,6 @@
       ]
     },
     {
-      "character": "㑞",
-      "gsr": null,
-      "oc_bs": "*ɡlumʔ",
-      "root": "ɡlum",
-      "source": "phonetic_component_series_root",
-      "support_count": 22,
-      "supporting_sources": [
-        "phonetic_component_series_root",
-        "head_graph_oc_shengfu"
-      ]
-    },
-    {
       "character": "朕",
       "gsr": "0893f",
       "oc_bs": "*lrəmʔ",
@@ -3346,6 +3334,17 @@
       "support_count": 1,
       "supporting_sources": [
         "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "朕",
+      "gsr": null,
+      "oc_bs": "*ɡlumʔ",
+      "root": "ɡlum",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 7,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
       ]
     },
     {
@@ -3385,12 +3384,11 @@
   "resolved_series_root": {
     "root": "ɡlum",
     "source": "head_graph_supported_root",
-    "character": "㑞",
+    "character": "朕",
     "oc_bs": "*ɡlumʔ",
     "confidence": "provisional-oc",
-    "support_count": 22,
+    "support_count": 7,
     "supporting_sources": [
-      "phonetic_component_series_root",
       "head_graph_oc_shengfu"
     ],
     "display_root": "ɡlum",

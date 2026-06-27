@@ -109,7 +109,7 @@ Reuse existing TeX analyses and IDS data to enrich curation files with semantic 
 python3 scripts/build_semantic_evidence.py
 ```
 
-This step now also classifies generated subgroup heads for handwritten-style `a/b` division marking where the subgroup is uniformly type `a` or `b`, and writes:
+When run with its default inputs, this step refreshes `data/current_semantic_components.json` from `main.tex` first, so new semantic inventory rows are picked up automatically. It now also classifies generated subgroup heads for handwritten-style `a/b` division marking where the subgroup is uniformly type `a` or `b`, and writes:
 
 - `reports/semantic_evidence_reuse.md`
 - `reports/ab_subseries_classification.md`

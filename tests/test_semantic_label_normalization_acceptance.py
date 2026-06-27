@@ -134,6 +134,7 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         self.assertIn(("黽", "amph"), rows)
         self.assertIn(("亠", "pav"), rows)
         self.assertIn(("田", "ager"), rows)
+        self.assertIn(("巫", "mag"), rows)
         self.assertIn(("田", "forn"), rows)
         self.assertIn(("一", "discr"), rows)
         self.assertIn(("旁", "discr"), rows)

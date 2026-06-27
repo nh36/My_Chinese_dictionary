@@ -1,7 +1,10 @@
 from __future__ import annotations
 
+import json
 import sys
+import tempfile
 import unittest
+from pathlib import Path
 
 
 ROOT = __import__("pathlib").Path(__file__).resolve().parents[1]
@@ -11,6 +14,45 @@ import build_semantic_evidence  # noqa: E402
 
 
 class BuildSemanticEvidenceTests(unittest.TestCase):
+    def test_load_semantic_inventory_refreshes_default_cache_from_source(self) -> None:
+        source_text = r"""
+\section{Semantic components}
+\begin{itemize}[noitemsep]
+    \item 巫 mag(us)
+\end{itemize}
+\section{The dictionary itself}
+""".strip()
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            source_path = temp_path / "main.tex"
+            inventory_path = temp_path / "current_semantic_components.json"
+            report_path = temp_path / "semantic_components_inventory.md"
+            source_path.write_text(source_text, encoding="utf-8")
+            inventory_path.write_text(json.dumps({"summary": {"item_count": 0}, "items": []}) + "\n", encoding="utf-8")
+
+            original_source = build_semantic_evidence.DEFAULT_CURRENT_SOURCE
+            original_inventory = build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY
+            original_report = build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY_REPORT
+            try:
+                build_semantic_evidence.DEFAULT_CURRENT_SOURCE = str(source_path)
+                build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY = str(inventory_path)
+                build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY_REPORT = str(report_path)
+
+                inventory = build_semantic_evidence.load_semantic_inventory(inventory_path, source_path, report_path)
+            finally:
+                build_semantic_evidence.DEFAULT_CURRENT_SOURCE = original_source
+                build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY = original_inventory
+                build_semantic_evidence.DEFAULT_SEMANTIC_INVENTORY_REPORT = original_report
+
+            row = next(item for item in inventory["items"] if item["graph_raw"] == "巫")
+            self.assertEqual(row["abbreviation"], "mag")
+            self.assertTrue(report_path.exists())
+
+            written = json.loads(inventory_path.read_text(encoding="utf-8"))
+            rows = {(item["graph_raw"], item["abbreviation"]) for item in written["items"]}
+            self.assertIn(("巫", "mag"), rows)
+
     def test_normalize_component_graph_maps_dao_side_form(self) -> None:
         self.assertEqual(build_semantic_evidence.normalize_component_graph("刂"), "刀")
         self.assertEqual(build_semantic_evidence.normalize_component_graph("虎"), "虍")
@@ -128,6 +170,25 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(component_alias["abbreviation"], "vin")
         self.assertEqual(trinary["position"], "suffix-colon")
         self.assertEqual(trinary["abbreviation"], "vest")
+
+    def test_apply_research_backed_semantic_for_xi_and_mi_packets(self) -> None:
+        graph_lookup = {
+            "巫": [{"graph_raw": "巫", "label_token": "mag(us)", "abbreviation": "mag"}],
+            "竹": [{"graph_raw": "竹", "label_token": "bamb(us)", "abbreviation": "bamb"}],
+        }
+
+        xí = build_semantic_evidence.apply_research_backed_semantic({"character": "覡"}, graph_lookup)
+        mì = build_semantic_evidence.apply_research_backed_semantic({"character": "簚"}, graph_lookup)
+
+        self.assertEqual(xí["abbreviation"], "mag")
+        self.assertEqual(xí["position"], "prefix-dot")
+        self.assertEqual(xí["semantic_component"], "巫")
+        self.assertIn("見", xí["research_note"])
+
+        self.assertEqual(mì["abbreviation"], "bamb")
+        self.assertEqual(mì["position"], "prefix-colon")
+        self.assertEqual(mì["semantic_component"], "竹")
+        self.assertIn("opaque phonetic", mì["research_note"])
 
     def test_compose_transliteration_from_root(self) -> None:
         self.assertEqual(
