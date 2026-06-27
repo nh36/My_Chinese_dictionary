@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4913
-- Pages fetched / cached successfully: 4842
-- Additions with explicit Han-compound semantic/phonetic roles: 2322
+- Proposed additions checked: 4925
+- Pages fetched / cached successfully: 4854
+- Additions with explicit Han-compound semantic/phonetic roles: 2325
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1126,6 +1126,7 @@
 | `05-07` | 洫 | yes | no |  |  |
 | `05-07` | 侐 | yes | no |  |  |
 | `05-07` | 殈 | yes | no |  |  |
+| `05-08` | 衋 | yes | yes | 聿, 血 | 皕 |
 | `05-09` | 抑 | yes | no |  |  |
 | `05-10` | 意 | yes | no |  |  |
 | `05-10` | 噫 | yes | yes | 口 | 意 |
@@ -1562,6 +1563,12 @@
 | `08-08` | 役 | yes | no | 彳, 殳 |  |
 | `08-08` | 垼 | yes | yes | 土 | 役 |
 | `08-08` | 疫 | yes | yes | 疒 | 役 |
+| `08-09` | 畫 | yes | yes | 聿 | 規 |
+| `08-09` | 繣 | yes | no |  |  |
+| `08-10` | 狄 | yes | no |  |  |
+| `08-10` | 荻 | yes | no |  |  |
+| `08-10` | 悐 | yes | no |  |  |
+| `08-10` | 逖 | yes | no |  |  |
 | `08-11` | 隻 | yes | no |  |  |
 | `08-12` | 易 | yes | no |  |  |
 | `08-12` | 蜴 | yes | yes | 虫 | 易 |
@@ -1819,6 +1826,8 @@
 | `09-27` | 娉 | yes | no |  |  |
 | `09-27` | 聘 | yes | no |  |  |
 | `09-27` | 騁 | yes | no |  |  |
+| `09-28` | 竝 | yes | no |  |  |
+| `09-28` | 並 | yes | no |  |  |
 | `09-29` | 并 | yes | no |  |  |
 | `09-29` | 併 | yes | yes | 人 | 并 |
 | `09-29` | 頩 | yes | no |  |  |
@@ -1845,6 +1854,9 @@
 | `09-31` | 銘 | yes | yes | 金 | 名 |
 | `09-32` | 命 | yes | yes | 口 | 令 |
 | `09-33` | 鳴 | yes | no |  |  |
+| `10-21` | 殳 | yes | no |  |  |
+| `10-21` | 投 | yes | yes | 手 | 殳 |
+| `10-26` | 戍 | yes | no |  |  |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |
