@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4795
-- Pages fetched / cached successfully: 4727
-- Additions with explicit Han-compound semantic/phonetic roles: 2271
+- Proposed additions checked: 4806
+- Pages fetched / cached successfully: 4738
+- Additions with explicit Han-compound semantic/phonetic roles: 2278
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -780,6 +780,7 @@
 | `04-09` | 頯 | yes | no |  |  |
 | `04-09` | 頮 | yes | no |  |  |
 | `04-10` | 逵 | yes | yes | 辵 | 坴 |
+| `04-11` | 怪 | yes | yes | 心 | 圣 |
 | `04-12` | 九 | yes | no |  |  |
 | `04-12` | 頄 | yes | no |  |  |
 | `04-12` | 宄 | yes | yes | 宀 | 九 |
@@ -839,6 +840,7 @@
 | `04-18` | 訧 | yes | no |  |  |
 | `04-18` | 疣 | yes | yes | 疒 | 尤 |
 | `04-18` | 肬 | yes | yes | 肉 | 尤 |
+| `04-19` | 郵 | yes | no |  |  |
 | `04-21` | 喜 | yes | no |  |  |
 | `04-21` | 憘 | yes | no |  |  |
 | `04-21` | 嘻 | yes | yes | 口 | 喜 |
@@ -849,6 +851,7 @@
 | `04-21` | 熹 | yes | yes | 火 | 喜 |
 | `04-21` | 糦 | yes | no |  |  |
 | `04-21` | 饎 | yes | no |  |  |
+| `04-22` | 醫 | yes | yes | 酉 | 殹 |
 | `04-23` | 疑 | yes | yes | 子, 止, 匕 | 矢 |
 | `04-23` | 儗 | yes | no |  |  |
 | `04-23` | 嶷 | yes | no |  |  |
@@ -1339,12 +1342,19 @@
 | `06-20` | 掤 | yes | no |  |  |
 | `06-20` | 繃 | yes | no |  |  |
 | `06-20` | 棚 | yes | yes | 木 | 朋 |
+| `06-21` | 冫 | yes | no |  |  |
+| `06-21` | 冰 | yes | yes | 水 | 仌 |
+| `06-21` | 馮 | yes | yes | 馬 | 仌 |
+| `06-21` | 憑 | yes | yes | 心 | 馮 |
 | `06-23` | 夢 | yes | yes | 夕 | 瞢 |
 | `06-23` | 㝱 | yes | no |  |  |
 | `06-23` | 瞢 | yes | no |  |  |
 | `06-23` | 甍 | yes | yes | 瓦 | 夢 |
 | `06-23` | 蘉 | yes | no |  |  |
 | `06-23` | 薨 | yes | yes | 死 | 瞢 |
+| `06-24` | 蠅 | yes | yes | 虫 | 黽 |
+| `06-24` | 繩 | yes | yes | 糸 | 黽 |
+| `06-24` | 黽 | yes | no |  |  |
 | `07-03` | 支 | yes | no |  |  |
 | `07-03` | 枝 | yes | yes | 木 | 支 |
 | `07-03` | 肢 | yes | yes | 肉 | 支 |
@@ -1454,6 +1464,7 @@
 | `07-21` | 釃 | yes | no |  |  |
 | `07-21` | 灑 | yes | no |  |  |
 | `07-21` | 躧 | yes | no |  |  |
+| `07-24` | 詈 | yes | no |  |  |
 | `07-25` | 此 | yes | no |  |  |
 | `07-25` | 佌 | yes | no |  |  |
 | `07-25` | 庛 | yes | no |  |  |

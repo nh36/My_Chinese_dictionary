@@ -1,9 +1,9 @@
 # Integrated series conflicts
 
-- Integrated series records: 610
+- Integrated series records: 616
 - Hand-source raw mismatches: 9
 - Pilot-only entries: 0
-- Generated-only missing-series packets: 490
+- Generated-only missing-series packets: 496
 
 ## Hand-source mismatches
 
@@ -139,6 +139,7 @@
 | `04-07` | `missing_series` | needs_review, generated_candidate |
 | `04-09` | `missing_series` | needs_review, generated_candidate |
 | `04-10` | `missing_series` | needs_review, generated_candidate |
+| `04-11` | `missing_series` | needs_review, generated_candidate |
 | `04-12` | `missing_series` | needs_review, generated_candidate |
 | `04-13` | `missing_series` | needs_review, generated_candidate |
 | `04-14` | `missing_series` | needs_review, generated_candidate |
@@ -146,7 +147,9 @@
 | `04-16` | `missing_series` | needs_review, generated_candidate |
 | `04-17` | `missing_series` | needs_review, generated_candidate |
 | `04-18` | `missing_series` | needs_review, generated_candidate |
+| `04-19` | `missing_series` | needs_review, generated_candidate |
 | `04-21` | `missing_series` | needs_review, generated_candidate |
+| `04-22` | `missing_series` | needs_review, generated_candidate |
 | `04-23` | `missing_series` | needs_review, generated_candidate |
 | `04-24` | `missing_series` | needs_review, generated_candidate |
 | `04-25` | `missing_series` | needs_review, generated_candidate |
@@ -236,7 +239,9 @@
 | `06-18` | `missing_series` | needs_review, generated_candidate |
 | `06-19` | `missing_series` | needs_review, generated_candidate |
 | `06-20` | `missing_series` | needs_review, generated_candidate |
+| `06-21` | `missing_series` | needs_review, generated_candidate |
 | `06-23` | `missing_series` | needs_review, generated_candidate |
+| `06-24` | `missing_series` | needs_review, generated_candidate |
 | `07-03` | `missing_series` | needs_review, generated_candidate |
 | `07-08` | `missing_series` | needs_review, generated_candidate |
 | `07-11` | `missing_series` | needs_review, generated_candidate |
@@ -245,6 +250,7 @@
 | `07-16` | `missing_series` | needs_review, generated_candidate |
 | `07-20` | `missing_series` | needs_review, generated_candidate |
 | `07-21` | `missing_series` | needs_review, generated_candidate |
+| `07-24` | `missing_series` | needs_review, generated_candidate |
 | `07-25` | `missing_series` | needs_review, generated_candidate |
 | `07-29` | `missing_series` | needs_review, generated_candidate |
 | `08-02` | `missing_series` | needs_review, generated_candidate |
