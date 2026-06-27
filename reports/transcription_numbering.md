@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 845
-- Roots whose display label changed after document-wide renumbering: 464
-- Duplicate phonetic bases encountered in document order: 228
+- Mutable series/subseries roots inspected: 851
+- Roots whose display label changed after document-wide renumbering: 468
+- Duplicate phonetic bases encountered in document order: 229
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -412,10 +412,13 @@
 | `06-24` | `series-root` | 蠅 | `ryṅ` | 3 | `ryṅ₃` | yes |
 | `06-24` | `subseries-root` | 黽 | `ryṅ` | 4 | `ryṅ₄` | yes |
 | `07-03` | `series-root` | 支 | `ke` | 1 | `ke` | yes |
+| `07-05` | `series-root` | 只 | `ke` | 2 | `ke₂` | yes |
+| `07-07` | `series-root` | 解 | `ke` | 3 | `ke₃` | yes |
 | `07-08` | `series-root` | 圭 | `kue` | 1 | `kue` | yes |
 | `07-08` | `subseries-root` | 洼 | `kue` | 2 | `kue₂` | yes |
 | `07-08` | `subseries-root` | 厓 | `ŋr\textoverset{a}{a}r` | 1 | `ŋr\textoverset{a}{a}r` | yes |
 | `07-08` | `subseries-root` | 卦 | `kue` | 3 | `kue₃` | yes |
+| `07-10` | `series-root` | 規 | `kue` | 4 | `kue₄` | yes |
 | `07-11` | `series-root` | 兒 | `ṅe` | 1 | `ṅe` | yes |
 | `07-12` | `series-root` | 帝 | `tek` | 1 | `tek` | yes |
 | `07-12` | `subseries-root` | 啻 | `tek` | 2 | `tek₂` | yes |
@@ -431,6 +434,7 @@
 | `07-29` | `series-root` | 卑 | `pe` | 1 | `pe` | yes |
 | `07-29` | `subseries-root` | 庳 | `pe` | 2 | `pe₂` | yes |
 | `07-33` | `series-root` | 買 | `may` | 1 | `may` | yes |
+| `08-01` | `series-root` | 毄 | `kek` | 1 | `kek` | yes |
 | `08-02` | `series-root` | 鬲 | `rek` | 1 | `rek` | yes |
 | `08-11` | `series-root` | 隻 | `tek` | 4 | `tek₄` | yes |
 | `08-12` | `series-root` | 易 | `lek` | 1 | `lek` | yes |
@@ -444,6 +448,7 @@
 | `09-03` | `series-root` | 敬 | `keṅ` | 1 | `keṅ` | yes |
 | `09-04` | `series-root` | 耕 | `keṅ` | 2 | `keṅ₂` | yes |
 | `09-04` | `subseries-root` | 刑 | `keṅ` | 3 | `keṅ₃` | yes |
+| `09-06` | `series-root` | 耿 | `keṅ` | 4 | `keṅ₄` | yes |
 | `09-09` | `series-root` | 熒 | `queṅ` | 1 | `queṅ` | yes |
 | `09-09` | `subseries-root` | 榮 | `queṅ` | 2 | `queṅ₂` | yes |
 | `09-10` | `series-root` | 嬰 | `ʔeṅ` | 1 | `ʔeṅ` | yes |
@@ -467,6 +472,7 @@
 | `09-29` | `subseries-root` | 屏 | `peṅ` | 3 | `peṅ₃` | yes |
 | `09-30` | `series-root` | 冥 | `meṅ` | 1 | `meṅ` | yes |
 | `09-31` | `series-root` | 名 | `meṅ` | 2 | `meṅ₂` | yes |
+| `09-32` | `series-root` | 命 | `  *meṅ` | 1 | `  *meṅ` | yes |
 | `10-01` | `baseline-series-root` | 句 | `{\textsuperscript{met·}}ko` | 1 | `{\textsuperscript{met·}}ko` | no |
 | `10-02` | `baseline-series-root` | 冓 | `{\textsuperscript{fem·}}k\textoverset{a}{o}` | 1 | `{\textsuperscript{fem·}}k\textoverset{a}{o}` | no |
 | `10-03` | `baseline-series-root` | 口 | `kh\textoverset{a}{o}\textsuperscript{·sign}` | 1 | `kh\textoverset{a}{o}\textsuperscript{·sign}` | no |

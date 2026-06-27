@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-27T15:22:41.440696+00:00
+- Generated at: 2026-06-27T15:42:11.754589+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 19791
+- Total occurrences audited: 19855
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 19604 |
+| `canonical` | 19664 |
 | `explicit_alias` | 11 |
-| `needs_review` | 176 |
+| `needs_review` | 180 |
 
 ## Blocked ambiguous aliases
 
@@ -672,6 +672,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a
 \textit{muwṅ};` |
+| `curation_json` | `07-05` | `咫` | `尺` | render_latex, transliteration_latex | `尺` | `⿺尺只` | `咫	%zhi3 / zhǐ
+{\large{\textsuperscript{尺·}ke₂}},
+\textit{cieX};	%0865d` |
 | `curation_json` | `09-02` | `馨` | `香` | render_latex, transliteration_latex | `香` | `⿱殸香` | `馨	%xin1 / xīn
 {\large{qeṅ\textsuperscript{˸香}}},
 \textit{heṅ};	%0832f` |
@@ -819,6 +822,9 @@ Watched tokens with no current heuristic match: `can`
 {\large{myṅ₂\textsuperscript{˸夕}}},
 \textit{miuwṅH};	%0902a
 \textit{muwṅ};` |
+| `integrated_series_curated_entry` | `07-05` | `咫` | `尺` | render_latex, transliteration_latex | `尺` | `⿺尺只` | `咫	%zhi3 / zhǐ
+{\large{\textsuperscript{尺·}ke₂}},
+\textit{cieX};	%0865d` |
 | `integrated_series_curated_entry` | `09-02` | `馨` | `香` | render_latex, transliteration_latex | `香` | `⿱殸香` | `馨	%xin1 / xīn
 {\large{qeṅ\textsuperscript{˸香}}},
 \textit{heṅ};	%0832f` |
@@ -926,6 +932,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `昱` | line | `` | `` | `{\large{ryk\textsuperscript{˸昱}}},` |
 | `validation_tex` | `` | `` | `凡` | line | `` | `` | `{\large{\textsuperscript{凡·}pyk₆}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `尺` | line | `` | `` | `{\large{\textsuperscript{尺·}ke₂}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
 | `validation_tex` | `` | `` | `儿` | line | `` | `` | `{\large{q\textoverset{b}{o}ṅ\textsuperscript{˸儿}}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
@@ -965,6 +972,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `昱` | line | `` | `` | `{\large{ryk\textsuperscript{˸昱}}},` |
 | `validation_tex` | `` | `` | `凡` | line | `` | `` | `{\large{\textsuperscript{凡·}pyk₆}},` |
 | `validation_tex` | `` | `` | `夕` | line | `` | `` | `{\large{myṅ₂\textsuperscript{˸夕}}},` |
+| `validation_tex` | `` | `` | `尺` | line | `` | `` | `{\large{\textsuperscript{尺·}ke₂}},` |
 | `validation_tex` | `` | `` | `香` | line | `` | `` | `{\large{qeṅ\textsuperscript{˸香}}},` |
 | `validation_tex` | `` | `` | `儿` | line | `` | `` | `{\large{q\textoverset{b}{o}ṅ\textsuperscript{˸儿}}},` |
 | `validation_tex` | `` | `` | `dic.` | line | `` | `` | `\item 諫 kaenH < *k\textsuperscript{ˤ}r[a]nʔ-s = \textsuperscript{dic.}Kren` |

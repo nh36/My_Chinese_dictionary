@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4814
-- Pages fetched / cached successfully: 4746
-- Additions with explicit Han-compound semantic/phonetic roles: 2280
+- Proposed additions checked: 4835
+- Pages fetched / cached successfully: 4767
+- Additions with explicit Han-compound semantic/phonetic roles: 2292
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1368,6 +1368,16 @@
 | `07-03` | 技 | yes | yes | 手 | 支 |
 | `07-03` | 芰 | yes | no |  |  |
 | `07-03` | 頍 | yes | no |  |  |
+| `07-05` | 只 | yes | no |  |  |
+| `07-05` | 胑 | yes | yes | 肉 | 只 |
+| `07-05` | 軹 | yes | yes | 車 | 只 |
+| `07-05` | 咫 | yes | yes | 尺 | 只 |
+| `07-05` | 枳 | yes | no |  |  |
+| `07-07` | 解 | yes | no |  |  |
+| `07-07` | 懈 | yes | yes | 心 | 解 |
+| `07-07` | 繲 | yes | yes | 糸 | 解 |
+| `07-07` | 蟹 | yes | yes | 虫 | 解 |
+| `07-07` | 邂 | yes | yes | 辵 | 解 |
 | `07-08` | 圭 | yes | no |  |  |
 | `07-08` | 睚 | yes | yes | 目 | 厓 |
 | `07-08` | 窪 | yes | no |  |  |
@@ -1395,6 +1405,10 @@
 | `07-08` | 鼃 | yes | yes | 黽 | 圭 |
 | `07-08` | 蛙 | yes | yes | 虫 | 圭 |
 | `07-08` | 鞋 | yes | yes | 革 | 圭 |
+| `07-10` | 規 | yes | no |  |  |
+| `07-10` | 瞡 | yes | no |  |  |
+| `07-10` | 窺 | yes | yes | 穴 | 規 |
+| `07-10` | 闚 | yes | no |  |  |
 | `07-11` | 兒 | yes | no |  |  |
 | `07-11` | 唲 | yes | no |  |  |
 | `07-11` | 倪 | yes | yes | 人 | 兒 |
@@ -1509,6 +1523,10 @@
 | `07-29` | 蠯 | yes | no |  |  |
 | `07-29` | 鞞 | yes | no |  |  |
 | `07-33` | 買 | yes | yes | 貝 | 羅 |
+| `08-01` | 毄 | yes | no |  |  |
+| `08-01` | 擊 | yes | yes | 手 | 毄 |
+| `08-01` | 轚 | yes | no |  |  |
+| `08-01` | 繫 | yes | yes | 糸 | 毄 |
 | `08-02` | 鬲 | yes | no |  |  |
 | `08-02` | 搹 | yes | no |  |  |
 | `08-02` | 膈 | yes | yes | 肉 | 鬲 |
@@ -1606,6 +1624,8 @@
 | `09-04` | 鉶 | yes | no |  |  |
 | `09-04` | 鈃 | yes | no |  |  |
 | `09-04` | 荊 | yes | no |  |  |
+| `09-06` | 耿 | yes | yes | 耳 | 烓 |
+| `09-06` | 褧 | yes | no |  |  |
 | `09-09` | 熒 | yes | no |  |  |
 | `09-09` | 檾 | yes | no |  |  |
 | `09-09` | 塋 | yes | no |  |  |
@@ -1746,6 +1766,7 @@
 | `09-30` | 𧜀 | no | no |  |  |
 | `09-31` | 名 | yes | no |  |  |
 | `09-31` | 銘 | yes | yes | 金 | 名 |
+| `09-32` | 命 | yes | yes | 口 | 令 |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |

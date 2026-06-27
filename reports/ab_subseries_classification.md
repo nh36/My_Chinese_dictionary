@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 732
+- Generated subgroup heads inspected: 736
 - Subgroups newly marked with `a`: 98
 - Subgroups newly marked with `b`: 87
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 216
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 220
 - Mixed subgroups left unmarked: 328
 - Unresolved subgroups left unmarked: 3
 
@@ -270,10 +270,13 @@
 | `06-23` | 瞢 | `myṅ` | `myṅ₂` | `mixed` | no | `miuwṅ, məṅ, miuwṅH, muwṅ, miuṅH, maṅ, hwəṅ` | the extracted forms point to both type a and type b |
 | `06-24` | 黽 | `ryṅ` | `ryṅ₄` | `mixed` | no | `meaṅX, yiṅ, yiṅH, jiṅ` | the extracted forms point to both type a and type b |
 | `07-03` | 支 | `ke` | `ke` | `b` | no | `cie, cieH, śieH, khyieH, gyie, gie, gieX, gieH, khiwieX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `07-05` | 只 | `ke` | `ke` | `b` | no | `cieX, cie` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `07-07` | 解 | `ke` | `ke` | `a` | no | `ḫeaX, keaH, keaX, ḫeaH` | all extracted forms lack an i-medial after the onset |
 | `07-08` | 圭 | `kue` | `kue` | `mixed` | no | `kwey, kweyH, qwae, hea, hwae, khwey, hwey, qwey, khiwieX, qiwieH, kea, kweaH, ṅea, ṅeaH, hwea, hweaH, qwea` | the extracted forms point to both type a and type b |
 | `07-08` | 洼 | `kue` | `kue₂` | `a` | no | `qwey, qwae` | all extracted forms lack an i-medial after the onset |
 | `07-08` | 厓 | `ŋrar` | `ŋr\textoverset{a}{a}r` | `a` | yes | `kweaH, ṅea, ṅeaH` | all extracted forms lack an i-medial after the onset |
 | `07-08` | 卦 | `kue` | `kue₃` | `a` | no | `kweaH` | all extracted forms lack an i-medial after the onset |
+| `07-10` | 規 | `kue` | `kue` | `b` | no | `kiwie, khiwie` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `07-11` | 兒 | `ṅe` | `ṅe` | `mixed` | no | `ñie, ṅey, ṅeyH, ṅeyX, ṅet, mey, myie, ṅek, xek` | the extracted forms point to both type a and type b |
 | `07-12` | 帝 | `tek` | `tek` | `mixed` | no | `teyH, theyH, dey, deyH, śieH, dek, śiek, ciek, ḍiek, ḍeak, ṭeak` | the extracted forms point to both type a and type b |
 | `07-12` | 啻 | `tek` | `tek₂` | `mixed` | no | `śieH, dek, śiek, ciek, ḍiek, ḍeak, ṭeak` | the extracted forms point to both type a and type b |
@@ -296,6 +299,7 @@
 | `09-02` | 殸 | `qeṅ` | `qeṅ` | `mixed` | no | `kheṅH, kheṅX, heṅ, śieṅ` | the extracted forms point to both type a and type b |
 | `09-03` | 敬 | `kreṅ` | `kreṅ` | `b` | no | `kiaeṅH, kiaeṅ, giaeṅ, giaeṅH, kiaeṅX, kyieṅX, giaeṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-04` | 刑 | `keṅ` | `keṅ₃` | `mixed` | no | `heṅ, kiaeṅ` | the extracted forms point to both type a and type b |
+| `09-06` | 耿 | `keṅ` | `keṅ` | `a` | no | `keaṅX, khweṅX` | all extracted forms lack an i-medial after the onset |
 | `09-09` | 榮 | `queṅ` | `queṅ₂` | `mixed` | no | `ḫiwaeṅ, ḫiwaeṅH, ḫweaṅ` | the extracted forms point to both type a and type b |
 | `09-10` | 嬰 | `qeṅ` | `qeṅ` | `mixed` | no | `qyieṅ, qeaṅ` | the extracted forms point to both type a and type b |
 | `09-11` | 丁 | `teṅ` | `teṅ` | `a` | no | `teṅ, ṭeaṅ, teṅX, theṅ, deṅX, theṅX, deṅ` | all extracted forms lack an i-medial after the onset |
