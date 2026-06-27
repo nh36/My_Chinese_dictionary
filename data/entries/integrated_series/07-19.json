@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-27T15:22:39.180070+00:00",
+  "id": "07-19",
+  "schuessler": {
+    "gsc_id": "07-19",
+    "rhyme_section": 7,
+    "series_number": 19,
+    "k_tokens": [
+      "1238f"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC           LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 150,
+    "source_line_number": 26,
+    "source_line_raw": "7-19 = K. 1238f Mand.         MC           LHan          OCM"
+  },
+  "preferred_hand_entry": null,
+  "pilot_entry": null,
+  "curated_entry": {
+    "generated_at": "2026-06-27T15:20:19.933309+00:00",
+    "id": "07-19",
+    "status": "machine-curated-pilot",
+    "packet_kind": "missing_series",
+    "schuessler": {
+      "gsc_id": "07-19",
+      "rhyme_section": 7,
+      "series_number": 19,
+      "k_tokens": [
+        "1238f"
+      ],
+      "has_explicit_k_range": false,
+      "source_remainder_raw": "Mand.         MC           LHan          OCM",
+      "is_cross_reference_only": false,
+      "source_page_number": 150,
+      "source_line_number": 26,
+      "source_line_raw": "7-19 = K. 1238f Mand.         MC           LHan          OCM"
+    },
+    "coverage": {
+      "gsc_id": "07-19",
+      "rhyme_section": "7",
+      "series_number": "19",
+      "schuessler_k_tokens": "1238f",
+      "schuessler_source_page": "150",
+      "schuessler_cross_reference_only": "no",
+      "in_tex": "no",
+      "tex_character_count": "0",
+      "tex_characters_sample": null,
+      "mand2mc_row_count": "1",
+      "mand2mc_character_count": "1",
+      "mand2mc_characters_sample": "豕",
+      "bs_gsr_row_count": "1",
+      "bs_gsr_character_count": "1",
+      "bs_gsr_characters_sample": "豕",
+      "combined_source_character_count": "1",
+      "combined_source_characters_sample": "豕"
+    },
+    "tex_entry": null,
+    "entry_hierarchy": null,
+    "candidate_source_strategy": "schuessler_k_tokens",
+    "candidate_source_tokens": [
+      "1238f"
+    ],
+    "proposed_additions": [
+      {
+        "character": "豕",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 1,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "śieX"
+          ],
+          "mand2mc_nwh_forms": [
+            "śieX"
+          ],
+          "mand2mc_bs_forms": [
+            "syeX"
+          ],
+          "bs_gsr_forms": [
+            "syeX"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "9054",
+            "character": "豕",
+            "pinyin": "shi3",
+            "mc_nwh": "śieX",
+            "mc_bs": "syeX",
+            "gsr": "1238f"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "186",
+            "character": "豕",
+            "pinyin": "shǐ",
+            "mc_bs": "syeX",
+            "mc_analyzed": "(sy- + -je B)",
+            "oc_bs": "*l̥ajʔ",
+            "gloss": "swine",
+            "gsr": "1238f",
+            "unicode_utf16": "U+8C55"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "12190",
+            "character": "豕",
+            "phonetic_component": "豕",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "施是",
+            "source": "广韵",
+            "oc_initial": "l̥",
+            "oc_rhyme": "elʔ",
+            "oc_syllable": "l̥elʔ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "12190",
+            "character": "豕",
+            "phonetic_component": "豕",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "施是",
+            "source": "广韵",
+            "oc_initial": "l̥",
+            "oc_rhyme": "elʔ",
+            "oc_syllable": "l̥elʔ"
+          }
+        ],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "self_phonetic_base",
+          "semantic_component": null
+        },
+        "transliteration_latex": "{\\large{lay}},",
+        "render_latex": "豕\t%shi3 / shǐ\n{\\large{lay}},\n\\textit{śieX};\t%1238f",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-top-level",
+          "parent_character": "豕",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "top_level",
+          "source": "shengfu_phonetic_component",
+          "phonetic_hint": "豕"
+        },
+        "resolved_node_root": null
+      }
+    ],
+    "all_candidates": [
+      {
+        "character": "豕",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 1,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "śieX"
+          ],
+          "mand2mc_nwh_forms": [
+            "śieX"
+          ],
+          "mand2mc_bs_forms": [
+            "syeX"
+          ],
+          "bs_gsr_forms": [
+            "syeX"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "9054",
+            "character": "豕",
+            "pinyin": "shi3",
+            "mc_nwh": "śieX",
+            "mc_bs": "syeX",
+            "gsr": "1238f"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "186",
+            "character": "豕",
+            "pinyin": "shǐ",
+            "mc_bs": "syeX",
+            "mc_analyzed": "(sy- + -je B)",
+            "oc_bs": "*l̥ajʔ",
+            "gloss": "swine",
+            "gsr": "1238f",
+            "unicode_utf16": "U+8C55"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "12190",
+            "character": "豕",
+            "phonetic_component": "豕",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "施是",
+            "source": "广韵",
+            "oc_initial": "l̥",
+            "oc_rhyme": "elʔ",
+            "oc_syllable": "l̥elʔ"
+          }
+        ],
+        "shengfu_component_rows": [
+          {
+            "source_row_number": "12190",
+            "character": "豕",
+            "phonetic_component": "豕",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "施是",
+            "source": "广韵",
+            "oc_initial": "l̥",
+            "oc_rhyme": "elʔ",
+            "oc_syllable": "l̥elʔ"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Machine-promoted from a series packet; not yet hand-checked.",
+      "Use this file as the staging area for editorial decisions before any merge into main.tex."
+    ],
+    "series_root_candidates": [
+      {
+        "character": "豕",
+        "gsr": "1238f",
+        "oc_bs": "*l̥ajʔ",
+        "root": "lay",
+        "source": "head_graph_oc_bs",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "豕",
+        "gsr": null,
+        "oc_bs": "*l̥elʔ",
+        "root": "le",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      }
+    ],
+    "resolved_series_root": {
+      "root": "lay",
+      "source": "head_graph_bs_head",
+      "character": "豕",
+      "oc_bs": "*l̥ajʔ",
+      "confidence": "provisional-oc",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ],
+      "display_root": "lay",
+      "base_root": "lay",
+      "ordinal": 1,
+      "numbering_source": "document_order_occurrence"
+    }
+  },
+  "provenance": [
+    {
+      "source": "current_curation",
+      "source_path": "data/entries/curation/07-19.json",
+      "packet_kind": "missing_series",
+      "status": "machine-curated-pilot"
+    }
+  ],
+  "status_flags": [
+    "needs_review",
+    "generated_candidate"
+  ],
+  "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "07-19",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "07-19",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 2,
+    "by_source_layer": {
+      "curation_entry_note": 2
+    },
+    "by_category": {
+      "workflow_internal": 2
+    },
+    "by_visibility": {
+      "internal": 2
+    },
+    "by_recommended_rendering": {
+      "internal_only": 2
+    }
+  },
+  "render_mode": "generated_missing_series"
+}

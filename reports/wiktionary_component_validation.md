@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4806
-- Pages fetched / cached successfully: 4738
-- Additions with explicit Han-compound semantic/phonetic roles: 2278
+- Proposed additions checked: 4814
+- Pages fetched / cached successfully: 4746
+- Additions with explicit Han-compound semantic/phonetic roles: 2280
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1444,6 +1444,7 @@
 | `07-14` | 寔 | yes | no |  |  |
 | `07-14` | 湜 | yes | yes | 水 | 是 |
 | `07-16` | 豸 | yes | no |  |  |
+| `07-19` | 豕 | yes | no |  |  |
 | `07-20` | 爾 | yes | no |  |  |
 | `07-20` | 邇 | yes | no |  |  |
 | `07-20` | 嬭 | yes | no |  |  |
@@ -1507,12 +1508,14 @@
 | `07-29` | 蜱 | yes | no |  |  |
 | `07-29` | 蠯 | yes | no |  |  |
 | `07-29` | 鞞 | yes | no |  |  |
+| `07-33` | 買 | yes | yes | 貝 | 羅 |
 | `08-02` | 鬲 | yes | no |  |  |
 | `08-02` | 搹 | yes | no |  |  |
 | `08-02` | 膈 | yes | yes | 肉 | 鬲 |
 | `08-02` | 隔 | yes | yes | 阜 | 鬲 |
 | `08-02` | 翮 | yes | yes | 羽 | 鬲 |
 | `08-02` | 鷊 | yes | no |  |  |
+| `08-11` | 隻 | yes | no |  |  |
 | `08-12` | 易 | yes | no |  |  |
 | `08-12` | 蜴 | yes | yes | 虫 | 易 |
 | `08-12` | 埸 | yes | no |  |  |
@@ -1544,6 +1547,8 @@
 | `08-14` | 績 | yes | yes | 糸 | 責 |
 | `08-14` | 漬 | yes | yes | 水 | 責 |
 | `08-14` | 債 | yes | yes | 人 | 責 |
+| `08-15` | 册 | yes | no |  |  |
+| `08-15` | 栅 | yes | no |  |  |
 | `08-19` | 辟 | yes | no |  |  |
 | `08-19` | 璧 | yes | yes | 玉 | 辟 |
 | `08-19` | 躃 | yes | no |  |  |
@@ -1681,6 +1686,7 @@
 | `09-19` | 零 | yes | yes | 雨 | 令 |
 | `09-19` | 鴒 | yes | no |  |  |
 | `09-19` | 齡 | yes | yes | 齒 | 令 |
+| `09-21` | 晶 | yes | no |  |  |
 | `09-25` | 晴 | yes | yes | 日 | 青 |
 | `09-25` | 生 | yes | no |  |  |
 | `09-25` | 腥 | yes | yes | 肉 | 星 |
@@ -1738,6 +1744,8 @@
 | `09-30` | 塓 | yes | no |  |  |
 | `09-30` | 幎 | yes | no |  |  |
 | `09-30` | 𧜀 | no | no |  |  |
+| `09-31` | 名 | yes | no |  |  |
+| `09-31` | 銘 | yes | yes | 金 | 名 |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |
