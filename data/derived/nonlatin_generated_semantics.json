@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 63,
-    "unique_component_count": 54,
+    "case_count": 65,
+    "unique_component_count": 55,
     "by_classification": {
-      "new_latin_label_needed": 62,
+      "new_latin_label_needed": 64,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 39,
       "packet_family_component_literal_fallback": 9,
-      "ids_component_literal_fallback": 15
+      "ids_component_literal_fallback": 17
     }
   },
   "cases": [
@@ -252,6 +252,40 @@
       "proposal": "Keep `𦣞` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "04-36",
+      "character": "氂",
+      "abbreviation": "𠩺",
+      "semantic_component": "𠩺",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱⿰未攵厂",
+      "transliteration_latex": "{\\large{\\textsuperscript{𠩺·}ry₃}},",
+      "render_latex": "氂\t%li2\n{\\large{\\textsuperscript{𠩺·}ry₃}},\n\\textit{li};\t%0979i",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𠩺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "04-36",
+      "character": "斄",
+      "abbreviation": "𠩺",
+      "semantic_component": "𠩺",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱⿰未攵厂",
+      "transliteration_latex": "{\\large{\\textsuperscript{𠩺·}ry₃}},",
+      "render_latex": "斄\t%li2\n{\\large{\\textsuperscript{𠩺·}ry₃}},\n\\textit{li};\t%0979k",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𠩺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "04-52",
       "character": "𣬔",
       "abbreviation": "𭯍",
@@ -263,8 +297,8 @@
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
       "semantic_component_ids": "⿳𠂊𫩏比",
-      "transliteration_latex": "{\\large{\\textsuperscript{𭯍˸}ry₆}},",
-      "render_latex": "𣬔\t%shi4\n{\\large{\\textsuperscript{𭯍˸}ry₆}},\n\\textit{ṣiH};\t%0975k",
+      "transliteration_latex": "{\\large{\\textsuperscript{𭯍˸}ry₇}},",
+      "render_latex": "𣬔\t%shi4\n{\\large{\\textsuperscript{𭯍˸}ry₇}},\n\\textit{ṣiH};\t%0975k",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𭯍` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -2147,6 +2181,33 @@
           "character": "卿",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "𠩺",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `𠩺` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿱⿰未攵厂",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 2,
+      "examples": [
+        {
+          "entry_id": "04-36",
+          "character": "氂",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
+        },
+        {
+          "entry_id": "04-36",
+          "character": "斄",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
         }
       ]
     },

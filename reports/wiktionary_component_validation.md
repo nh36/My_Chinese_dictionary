@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4962
-- Pages fetched / cached successfully: 4890
-- Additions with explicit Han-compound semantic/phonetic roles: 2337
+- Proposed additions checked: 4985
+- Pages fetched / cached successfully: 4912
+- Additions with explicit Han-compound semantic/phonetic roles: 2346
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -989,6 +989,13 @@
 | `04-35` | 埋 | yes | yes | 艸 | 貍 |
 | `04-35` | 霾 | yes | yes | 雨 | 貍 |
 | `04-35` | 薶 | yes | yes | 艸 | 貍 |
+| `04-36` | 𠭰 | no | no |  |  |
+| `04-36` | 嫠 | yes | yes | 女 | 𠩺 |
+| `04-36` | 孷 | yes | no |  |  |
+| `04-36` | 氂 | yes | no |  |  |
+| `04-36` | 犛 | yes | no |  |  |
+| `04-36` | 斄 | yes | no |  |  |
+| `04-36` | 釐 | yes | yes | 里 | 𠩺 |
 | `04-37` | 李 | yes | yes | 子 | 來 |
 | `04-38` | 乃 | yes | no |  |  |
 | `04-38` | 鼐 | yes | yes | 鼎 | 乃 |
@@ -997,6 +1004,7 @@
 | `04-38` | 艿 | yes | no |  |  |
 | `04-38` | 芿 | yes | no |  |  |
 | `04-38` | 孕 | yes | no |  |  |
+| `04-39` | 迺 | yes | no |  |  |
 | `04-40` | 耳 | yes | no |  |  |
 | `04-40` | 刵 | yes | no |  |  |
 | `04-40` | 珥 | yes | yes | 玉 | 耳 |
@@ -1053,6 +1061,14 @@
 | `04-49` | 鎡 | yes | no |  |  |
 | `04-49` | 慈 | yes | yes | 心 | 茲 |
 | `04-49` | 孳 | yes | yes | 子 | 兹 |
+| `04-50` | 甾 | yes | yes | 田 | 𠙹 |
+| `04-50` | 葘 | yes | no |  |  |
+| `04-50` | 菑 | yes | yes | 艸 | 甾 |
+| `04-50` | 輺 | yes | no |  |  |
+| `04-50` | 輜 | yes | no |  |  |
+| `04-50` | 鍿 | yes | no |  |  |
+| `04-50` | 錙 | yes | no |  |  |
+| `04-50` | 緇 | yes | no |  |  |
 | `04-51` | 士 | yes | no |  |  |
 | `04-51` | 仕 | yes | yes | 人 | 士 |
 | `04-52` | 史 | yes | no |  |  |
@@ -1068,11 +1084,18 @@
 | `04-53` | 詞 | yes | yes | 言 | 司 |
 | `04-53` | 嗣 | yes | yes | 口, 冊 | 司 |
 | `04-53` | 飼 | yes | yes | 食 | 司 |
+| `04-54` | 思 | yes | yes | 心 | 囟 |
+| `04-54` | 緦 | yes | no |  |  |
+| `04-54` | 葸 | yes | yes | 艸 | 思 |
+| `04-54` | 諰 | yes | yes | 言 | 思 |
+| `04-54` | 颸 | yes | yes | 風 | 思 |
+| `04-54` | 偲 | yes | yes | 人 | 思 |
 | `04-55` | 絲 | yes | no |  |  |
 | `04-56` | 佩 | yes | no |  |  |
 | `04-56` | 珮 | yes | no |  |  |
 | `04-57` | 啚 | yes | no |  |  |
 | `04-57` | 鄙 | yes | no |  | 啚 |
+| `04-59` | 奰 | yes | no |  |  |
 | `04-61` | 不 | yes | no |  |  |
 | `04-61` | 培 | yes | yes | 土 | 咅 |
 | `04-61` | 倍 | yes | yes | 人 | 咅 |

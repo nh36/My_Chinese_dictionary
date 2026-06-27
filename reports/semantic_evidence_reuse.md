@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 562
-- Proposed additions inspected: 4962
-- Additions with reusable semantic assignment from existing TeX: 4962
-- Additions with reusable transliteration LaTeX from existing TeX: 4962
-- Additions with reusable render block from existing TeX: 4962
-- Additions with IDS-derived semantic candidates: 3290
-- Additions with explicit Wiktionary Han-compound support: 2324
+- Curated entries inspected: 568
+- Proposed additions inspected: 4985
+- Additions with reusable semantic assignment from existing TeX: 4985
+- Additions with reusable transliteration LaTeX from existing TeX: 4985
+- Additions with reusable render block from existing TeX: 4985
+- Additions with IDS-derived semantic candidates: 3301
+- Additions with explicit Wiktionary Han-compound support: 2333
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4030
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 143
+- Additions assigned under generated candidate nodes: 4040
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 144
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -168,8 +168,10 @@
 | `04-33` | 1 | 1 | 1 | 1 |
 | `04-34` | 7 | 7 | 7 | 7 |
 | `04-35` | 10 | 10 | 10 | 10 |
+| `04-36` | 7 | 7 | 7 | 7 |
 | `04-37` | 1 | 1 | 1 | 1 |
 | `04-38` | 7 | 7 | 7 | 7 |
+| `04-39` | 1 | 1 | 1 | 1 |
 | `04-40` | 9 | 9 | 9 | 9 |
 | `04-41` | 9 | 9 | 9 | 9 |
 | `04-42` | 2 | 2 | 2 | 2 |
@@ -179,12 +181,16 @@
 | `04-47` | 6 | 6 | 6 | 6 |
 | `04-48` | 2 | 2 | 2 | 2 |
 | `04-49` | 7 | 7 | 7 | 7 |
+| `04-50` | 8 | 8 | 8 | 8 |
 | `04-51` | 2 | 2 | 2 | 2 |
 | `04-52` | 6 | 6 | 6 | 6 |
 | `04-53` | 7 | 7 | 7 | 7 |
+| `04-54` | 6 | 6 | 6 | 6 |
 | `04-55` | 1 | 1 | 1 | 1 |
 | `04-56` | 2 | 2 | 2 | 2 |
 | `04-57` | 2 | 2 | 2 | 2 |
+| `04-58` | 0 | 0 | 0 | 0 |
+| `04-59` | 1 | 1 | 1 | 1 |
 | `04-61` | 26 | 26 | 26 | 26 |
 | `04-62` | 3 | 3 | 3 | 3 |
 | `04-63` | 1 | 1 | 1 | 1 |

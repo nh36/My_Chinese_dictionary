@@ -1503,6 +1503,14 @@ def candidate_gsr_bases(candidate: dict[str, Any]) -> set[int]:
     return bases
 
 
+def entry_packet_gsr_bases(entry: dict[str, Any]) -> set[int]:
+    return {
+        parts[0]
+        for token in entry.get("schuessler", {}).get("k_tokens", [])
+        if (parts := resolve_series_roots.split_gsr(str(token).strip())) is not None
+    }
+
+
 def collect_subgroup_display_forms(
     candidate: dict[str, Any],
     candidate_children: dict[str, list[dict[str, Any]]],
@@ -1740,11 +1748,7 @@ def enrich_curated_entry_with_ids(
     ids_map: dict[str, str],
     graph_lookup: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any]:
-    packet_tokens = {
-        int(token)
-        for token in entry.get("schuessler", {}).get("k_tokens", [])
-        if str(token).isdigit()
-    }
+    packet_tokens = entry_packet_gsr_bases(entry)
     packet_family = {
         normalize_component_graph(candidate["character"])
         for candidate in entry.get("proposed_additions", [])
@@ -2045,11 +2049,7 @@ def enrich_curated_entry_with_ids(
                         "semantic_component": parent_ids_candidate["semantic_component"],
                     }
     candidate_children = hierarchy_utils.collect_candidate_children(entry)
-    packet_tokens = {
-        int(token)
-        for token in entry.get("schuessler", {}).get("k_tokens", [])
-        if str(token).isdigit()
-    }
+    packet_tokens = entry_packet_gsr_bases(entry)
     primary_packet_token = None
     primary_character = (entry.get("resolved_series_root") or {}).get("character")
     if primary_character and primary_character in candidate_map:

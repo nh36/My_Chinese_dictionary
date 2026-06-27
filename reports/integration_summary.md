@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 666
+- Integrated series count: 672
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 562
+- Active curated packet count: 568
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 546
+- Generated missing-series entries: 552
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -225,8 +225,10 @@
 | `04-33` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-34` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-35` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-36` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-37` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-38` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-39` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-40` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-41` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-42` | `generated_missing_series` | needs_review, generated_candidate |
@@ -236,12 +238,16 @@
 | `04-47` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-48` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-49` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-50` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-51` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-52` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-53` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-54` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-55` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-56` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-57` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-58` | `generated_missing_series` | needs_review, generated_candidate |
+| `04-59` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-61` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-62` | `generated_missing_series` | needs_review, generated_candidate |
 | `04-63` | `generated_missing_series` | needs_review, generated_candidate |

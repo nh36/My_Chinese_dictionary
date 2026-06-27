@@ -1,9 +1,9 @@
 # Integrated series conflicts
 
-- Integrated series records: 666
+- Integrated series records: 672
 - Hand-source raw mismatches: 9
 - Pilot-only entries: 0
-- Generated-only missing-series packets: 546
+- Generated-only missing-series packets: 552
 
 ## Hand-source mismatches
 
@@ -170,8 +170,10 @@
 | `04-33` | `missing_series` | needs_review, generated_candidate |
 | `04-34` | `missing_series` | needs_review, generated_candidate |
 | `04-35` | `missing_series` | needs_review, generated_candidate |
+| `04-36` | `missing_series` | needs_review, generated_candidate |
 | `04-37` | `missing_series` | needs_review, generated_candidate |
 | `04-38` | `missing_series` | needs_review, generated_candidate |
+| `04-39` | `missing_series` | needs_review, generated_candidate |
 | `04-40` | `missing_series` | needs_review, generated_candidate |
 | `04-41` | `missing_series` | needs_review, generated_candidate |
 | `04-42` | `missing_series` | needs_review, generated_candidate |
@@ -181,12 +183,16 @@
 | `04-47` | `missing_series` | needs_review, generated_candidate |
 | `04-48` | `missing_series` | needs_review, generated_candidate |
 | `04-49` | `missing_series` | needs_review, generated_candidate |
+| `04-50` | `missing_series` | needs_review, generated_candidate |
 | `04-51` | `missing_series` | needs_review, generated_candidate |
 | `04-52` | `missing_series` | needs_review, generated_candidate |
 | `04-53` | `missing_series` | needs_review, generated_candidate |
+| `04-54` | `missing_series` | needs_review, generated_candidate |
 | `04-55` | `missing_series` | needs_review, generated_candidate |
 | `04-56` | `missing_series` | needs_review, generated_candidate |
 | `04-57` | `missing_series` | needs_review, generated_candidate |
+| `04-58` | `missing_series` | needs_review, generated_candidate |
+| `04-59` | `missing_series` | needs_review, generated_candidate |
 | `04-61` | `missing_series` | needs_review, generated_candidate |
 | `04-62` | `missing_series` | needs_review, generated_candidate |
 | `04-63` | `missing_series` | needs_review, generated_candidate |

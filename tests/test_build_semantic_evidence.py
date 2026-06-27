@@ -577,6 +577,28 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(variant["semantic_assignment"]["source"], "same_series_variant")
         self.assertEqual(variant["transliteration_latex"], r"{\large{tsy}},")
 
+    def test_missing_series_same_gsr_fallback_accepts_suffixed_header_tokens(self) -> None:
+        entry = {
+            "id": "04-59",
+            "packet_kind": "missing_series",
+            "schuessler": {"k_tokens": ["1237r"]},
+            "proposed_additions": [
+                {
+                    "character": "奰",
+                    "mand2mc_rows": [{"gsr": "1237r"}],
+                    "bs_gsr_rows": [],
+                    "shengfu_character_rows": [{"phonetic_component": "𡚤", "oc_syllable": "bʳids"}],
+                    "wiktionary_validation": {"available": False, "han_compound": None, "han_compounds": []},
+                }
+            ],
+            "resolved_series_root": {"root": "pit", "display_root": "pit"},
+        }
+        enriched = build_semantic_evidence.enrich_curated_entry_with_ids(entry, {}, {}, {})
+        candidate = enriched["proposed_additions"][0]
+        self.assertEqual(candidate["semantic_assignment"]["position"], "none")
+        self.assertEqual(candidate["semantic_assignment"]["source"], "same_series_variant")
+        self.assertEqual(candidate["transliteration_latex"], r"{\large{pit}},")
+
     def test_resolve_parent_display_root_falls_back_to_series_root_when_parent_node_root_missing(self) -> None:
         entry = {
             "packet_kind": "missing_series",

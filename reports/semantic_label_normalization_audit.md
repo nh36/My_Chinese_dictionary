@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-27T19:57:21.812428+00:00
+- Generated at: 2026-06-27T20:17:54.013890+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20193
+- Total occurrences audited: 20251
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 19986 |
+| `canonical` | 20044 |
 | `explicit_alias` | 11 |
 | `needs_review` | 196 |
 
@@ -499,6 +499,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `04-29` | `特` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛寺` | `特	%te4 / tè
 {\large{\textsuperscript{bos·}ty₉}},
 \textit{dək};	%0961h'` |
+| `curation_json` | `04-36` | `犛` | `bos` | render_latex, transliteration_latex | `牛` | `⿸𠩺牛` | `犛	%li2
+{\large{ry₃\textsuperscript{·bos}}},
+\textit{li};	%0979j` |
 | `curation_json` | `05-12` | `犆` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛直` | `犆	%te4 / zhi2 / tè
 {\large{\textsuperscript{bos·}tyk₂}},
 \textit{dək};	%0919f
@@ -554,6 +557,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `04-29` | `特` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛寺` | `特	%te4 / tè
 {\large{\textsuperscript{bos·}ty₉}},
 \textit{dək};	%0961h'` |
+| `integrated_series_curated_entry` | `04-36` | `犛` | `bos` | render_latex, transliteration_latex | `牛` | `⿸𠩺牛` | `犛	%li2
+{\large{ry₃\textsuperscript{·bos}}},
+\textit{li};	%0979j` |
 | `integrated_series_curated_entry` | `05-12` | `犆` | `bos` | render_latex, transliteration_latex | `牛` | `⿰牛直` | `犆	%te4 / zhi2 / tè
 {\large{\textsuperscript{bos·}tyk₂}},
 \textit{dək};	%0919f
@@ -601,6 +607,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}paṅ₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₉}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{ry₃\textsuperscript{·bos}}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tyk₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}pyk₅}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |
@@ -618,6 +625,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}paṅ₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}ty₉}},` |
+| `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{ry₃\textsuperscript{·bos}}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}tyk₂}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}pyk₅}},` |
 | `validation_tex` | `` | `` | `bos` | line | `` | `` | `{\large{\textsuperscript{bos·}leṅ}},` |

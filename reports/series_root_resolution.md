@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 546
-- Packets with at least one root candidate: 546
-- Packets with a single resolved provisional root: 542
+- Missing-series packets inspected: 552
+- Packets with at least one root candidate: 551
+- Packets with a single resolved provisional root: 547
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -153,8 +153,10 @@
 | `04-33` | 辭→ly [*sə.lə] (0968a) | `ly` | `head_graph_oc_bs` |
 | `04-34` | 𦣞→qy [*ɢə {*[ɢ](r)ə}] (0960a) | `qy` | `head_graph_oc_bs` |
 | `04-35` | 里→ry [*rəʔ {*(mə.)rəʔ}] (0978a) | `ry` | `head_graph_oc_bs` |
+| `04-36` | 𠭰→ry [*ɡ‧rɯ] (None); 氂→myw [*mɯ̠w] (None); 犛→my [*mɡʳɯ̠] (None); 斄→saṅ [*skʰaŋ] (None) | `ry` | `head_graph_supported_root` |
 | `04-37` | 李→ry [*C.rəʔ] (0980a) | `ry` | `head_graph_oc_bs` |
 | `04-38` | 乃→ny [*nˤəʔ {*nˤə(ŋ)ʔ}] (0945a) | `ny` | `head_graph_oc_bs` |
+| `04-39` | 迺→ny [*nˤəʔ] (None) | `ny` | `same_character_series_root` |
 | `04-40` | 耳→ny [*C.nəʔ] (0981a) | `ny` | `head_graph_oc_bs` |
 | `04-41` | 而→ny [*nə] (0982a) | `ny` | `head_graph_oc_bs` |
 | `04-42` | 災→tsy [*tsˤə {*[ts]ˤə}] (0940a) | `tsy` | `head_graph_oc_bs` |
@@ -164,12 +166,16 @@
 | `04-47` | 子→tsy [*tsəʔ {*[ts]əʔ}] (0964a) | `tsy` | `head_graph_oc_bs` |
 | `04-48` | 梓→tsy [*tsəʔ {*[ts]əʔ}] (0965a) | `tsy` | `head_graph_oc_bs` |
 | `04-49` | 玆→ɡin [*ɡʷi̠n] (None) | `ɡin` | `head_graph_oc_shengfu` |
+| `04-50` | 甾→sy [*sɯ̠] (None) | `sy` | `head_graph_oc_shengfu` |
 | `04-51` | 士→ry [*m-s-rəʔ] (0970a) | `ry` | `head_graph_oc_bs` |
 | `04-52` | 史→ry [*s-rəʔ] (0975a) | `ry` | `head_graph_oc_bs` |
 | `04-53` | 司→ly [*s-lə] (0972a) | `ly` | `head_graph_oc_bs` |
+| `04-54` | 思→sy [*sə {*[s]ə}] (0973a) | `sy` | `head_graph_oc_bs` |
 | `04-55` | 絲→sy [*sə {*[s]ə}] (0974a) | `sy` | `head_graph_oc_bs` |
 | `04-56` | 佩→pyk [*bˤək-s {*[b]ˤək-s}] (0951a) | `pyk` | `head_graph_oc_bs` |
 | `04-57` | 啚→py [*pʳɯʔ] (None) | `py` | `head_graph_oc_shengfu` |
+| `04-58` |  | `` | `` |
+| `04-59` | 奰→pit [*bʳids] (None) | `pit` | `head_graph_oc_shengfu` |
 | `04-61` | 不→py [*pə] (0999a) | `py` | `head_graph_oc_bs` |
 | `04-62` | 負→py [*bəʔ {*[b]əʔ}] (1000a) | `py` | `head_graph_oc_bs` |
 | `04-63` | 婦→py [*mə.bəʔ {*[m]ə.[b]əʔ} (or *tsə.-? see Min)] (1001a) | `py` | `head_graph_oc_bs` |
