@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 59,
+    "case_count": 60,
     "unique_component_count": 52,
     "by_classification": {
-      "new_latin_label_needed": 58,
+      "new_latin_label_needed": 59,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 37,
       "packet_family_component_literal_fallback": 8,
-      "ids_component_literal_fallback": 14
+      "ids_component_literal_fallback": 15
     }
   },
   "cases": [
@@ -386,6 +386,23 @@
       "render_latex": "馨\t%xin1 / xīn\n{\\large{qeṅ\\textsuperscript{˸香}}},\n\\textit{heṅ};\t%0832f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `香` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "09-08",
+      "character": "扃",
+      "abbreviation": "户",
+      "semantic_component": "户",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱丶尸",
+      "transliteration_latex": "{\\large{\\textsuperscript{户·}ɡeṅ}},",
+      "render_latex": "扃\t%jiong1 / jiong3 / jiōng\n{\\large{\\textsuperscript{户·}ɡeṅ}},\n\\textit{kweṅ};\t%0842d\n\\textit{kweṅX};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `户` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "09-26",
@@ -1607,11 +1624,17 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "04-32",
           "character": "戺",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
+        },
+        {
+          "entry_id": "09-08",
+          "character": "扃",
           "position": "prefix-dot",
           "source": "ids_component_literal_fallback"
         }

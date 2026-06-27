@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 859
-- Roots whose display label changed after document-wide renumbering: 471
+- Mutable series/subseries roots inspected: 865
+- Roots whose display label changed after document-wide renumbering: 475
 - Duplicate phonetic bases encountered in document order: 230
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -455,7 +455,10 @@
 | `09-03` | `series-root` | 敬 | `keṅ` | 1 | `keṅ` | yes |
 | `09-04` | `series-root` | 耕 | `keṅ` | 2 | `keṅ₂` | yes |
 | `09-04` | `subseries-root` | 刑 | `keṅ` | 3 | `keṅ₃` | yes |
-| `09-06` | `series-root` | 耿 | `keṅ` | 4 | `keṅ₄` | yes |
+| `09-05` | `series-root` | 幸 | `keṅ` | 4 | `keṅ₄` | yes |
+| `09-06` | `series-root` | 耿 | `keṅ` | 5 | `keṅ₅` | yes |
+| `09-07` | `series-root` | 頃 | `kueṅ` | 1 | `kueṅ` | yes |
+| `09-08` | `series-root` | 冋 | `ɡeṅ` | 1 | `ɡeṅ` | yes |
 | `09-09` | `series-root` | 熒 | `queṅ` | 1 | `queṅ` | yes |
 | `09-09` | `subseries-root` | 榮 | `queṅ` | 2 | `queṅ₂` | yes |
 | `09-10` | `series-root` | 嬰 | `ʔeṅ` | 1 | `ʔeṅ` | yes |
@@ -464,17 +467,20 @@
 | `09-11` | `subseries-root` | 正 | `teṅ` | 3 | `teṅ₃` | yes |
 | `09-12` | `series-root` | 鼎 | `teṅ` | 4 | `teṅ₄` | yes |
 | `09-12` | `subseries-root` | 貞 | `teṅ` | 5 | `teṅ₅` | yes |
+| `09-14` | `series-root` | 成 | `teṅ` | 6 | `teṅ₆` | yes |
 | `09-17` | `series-root` | 𡈼 | `leṅ` | 3 | `leṅ₃` | yes |
 | `09-17` | `subseries-root` | 廷 | `leṅ` | 4 | `leṅ₄` | yes |
 | `09-17` | `subseries-root` | 呈 | `leṅ` | 5 | `leṅ₅` | yes |
 | `09-17` | `subseries-root` | 聖 | `leṅ` | 6 | `leṅ₆` | yes |
 | `09-19` | `series-root` | 令 | `riṅ` | 1 | `riṅ` | yes |
 | `09-21` | `series-root` | 晶 | `tseṅ` | 1 | `tseṅ` | yes |
-| `09-25` | `series-root` | 晴 | `tseṅ` | 2 | `tseṅ₂` | yes |
-| `09-25` | `subseries-root` | 生 | `tseṅ` | 3 | `tseṅ₃` | yes |
-| `09-25` | `subseries-root` | 青 | `tseṅ` | 4 | `tseṅ₄` | yes |
-| `09-25` | `subseries-root` | 星 | `tseṅ` | 5 | `tseṅ₅` | yes |
+| `09-23` | `series-root` | 爭 | `tseṅ` | 2 | `tseṅ₂` | yes |
+| `09-25` | `series-root` | 晴 | `tseṅ` | 3 | `tseṅ₃` | yes |
+| `09-25` | `subseries-root` | 生 | `tseṅ` | 4 | `tseṅ₄` | yes |
+| `09-25` | `subseries-root` | 青 | `tseṅ` | 5 | `tseṅ₅` | yes |
+| `09-25` | `subseries-root` | 星 | `tseṅ` | 6 | `tseṅ₆` | yes |
 | `09-26` | `series-root` | 平 | `peṅ` | 1 | `peṅ` | yes |
+| `09-27` | `series-root` | 甹 | `leṅ` | 7 | `leṅ₇` | yes |
 | `09-29` | `series-root` | 并 | `peṅ` | 2 | `peṅ₂` | yes |
 | `09-29` | `subseries-root` | 屏 | `peṅ` | 3 | `peṅ₃` | yes |
 | `09-30` | `series-root` | 冥 | `meṅ` | 1 | `meṅ` | yes |

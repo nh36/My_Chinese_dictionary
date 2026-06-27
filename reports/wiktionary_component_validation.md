@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4864
-- Pages fetched / cached successfully: 4795
-- Additions with explicit Han-compound semantic/phonetic roles: 2306
+- Proposed additions checked: 4891
+- Pages fetched / cached successfully: 4822
+- Additions with explicit Han-compound semantic/phonetic roles: 2315
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1653,8 +1653,23 @@
 | `09-04` | 鉶 | yes | no |  |  |
 | `09-04` | 鈃 | yes | no |  |  |
 | `09-04` | 荊 | yes | no |  |  |
+| `09-05` | 幸 | yes | no |  |  |
+| `09-05` | 倖 | yes | no |  |  |
+| `09-05` | 婞 | yes | yes | 女 | 幸 |
+| `09-05` | 涬 | yes | no |  |  |
 | `09-06` | 耿 | yes | yes | 耳 | 烓 |
 | `09-06` | 褧 | yes | no |  |  |
+| `09-07` | 頃 | yes | no |  |  |
+| `09-07` | 傾 | yes | yes | 人 | 頃 |
+| `09-07` | 穎 | yes | yes | 禾 | 頃 |
+| `09-07` | 熲 | yes | yes | 火 | 頃 |
+| `09-07` | 顈 | yes | no |  |  |
+| `09-08` | 冋 | yes | no |  |  |
+| `09-08` | 坰 | yes | no |  |  |
+| `09-08` | 扃 | yes | no |  |  |
+| `09-08` | 駉 | yes | no |  |  |
+| `09-08` | 絅 | yes | no |  |  |
+| `09-08` | 泂 | yes | no |  |  |
 | `09-09` | 熒 | yes | no |  |  |
 | `09-09` | 檾 | yes | no |  |  |
 | `09-09` | 塋 | yes | no |  |  |
@@ -1696,6 +1711,10 @@
 | `09-12` | 偵 | yes | yes | 人 | 貞 |
 | `09-12` | 楨 | yes | no |  |  |
 | `09-12` | 赬 | yes | no |  |  |
+| `09-14` | 成 | yes | yes | 戊 | 丁 |
+| `09-14` | 城 | yes | yes | 土 | 成 |
+| `09-14` | 誠 | yes | yes | 言 | 成 |
+| `09-14` | 盛 | yes | yes | 皿 | 成 |
 | `09-17` | 𡈼 | yes | no |  |  |
 | `09-17` | 檉 | yes | yes | 木 | 聖 |
 | `09-17` | 廷 | yes | yes | 廴 | 𡈼 |
@@ -1736,6 +1755,10 @@
 | `09-19` | 鴒 | yes | no |  |  |
 | `09-19` | 齡 | yes | yes | 齒 | 令 |
 | `09-21` | 晶 | yes | no |  |  |
+| `09-23` | 爭 | yes | no |  |  |
+| `09-23` | 崢 | yes | yes | 山 | 爭 |
+| `09-23` | 淨 | yes | no |  |  |
+| `09-23` | 竫 | yes | no |  |  |
 | `09-25` | 晴 | yes | yes | 日 | 青 |
 | `09-25` | 生 | yes | no |  |  |
 | `09-25` | 腥 | yes | yes | 肉 | 星 |
@@ -1771,6 +1794,10 @@
 | `09-26` | 伻 | yes | no |  |  |
 | `09-26` | 怦 | yes | yes | 心 | 平 |
 | `09-26` | 砰 | yes | no |  |  |
+| `09-27` | 甹 | yes | no |  |  |
+| `09-27` | 娉 | yes | no |  |  |
+| `09-27` | 聘 | yes | no |  |  |
+| `09-27` | 騁 | yes | no |  |  |
 | `09-29` | 并 | yes | no |  |  |
 | `09-29` | 併 | yes | yes | 人 | 并 |
 | `09-29` | 頩 | yes | no |  |  |

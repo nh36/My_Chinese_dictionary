@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 514
-- Packets with at least one root candidate: 514
-- Packets with a single resolved provisional root: 513
+- Missing-series packets inspected: 520
+- Packets with at least one root candidate: 520
+- Packets with a single resolved provisional root: 519
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -258,16 +258,22 @@
 | `09-02` | 殸→qeṅ [*C.qʰˤeŋ-s {*[C.qʰ]ˤeŋ-s}] (0832a); 聲→leṅ [*l̥eŋ {*[l̥]eŋ}] (0822a) | `qeṅ` | `merged_packet_primary_head` |
 | `09-03` | 敬→keṅ [*kreŋ-s {*kreŋ(ʔ)-s}] (0813a) | `keṅ` | `head_graph_oc_bs` |
 | `09-04` | 耕→keṅ [*kˤ<r>eŋ] (0808a) | `keṅ` | `head_graph_oc_bs` |
+| `09-05` | 幸→keṅ [*gˤreŋʔ {*[g]ˤreŋʔ}] (0810a) | `keṅ` | `head_graph_oc_bs` |
 | `09-06` | 耿→keṅ [*kˤreŋʔ {*[k]ˤreŋʔ}] (0809a) | `keṅ` | `head_graph_oc_bs` |
+| `09-07` | 頃→kueṅ [*kʷʰeŋʔ {*[k]ʷʰeŋʔ}] (0828a) | `kueṅ` | `head_graph_oc_bs` |
+| `09-08` | 冋→ɡeṅ [*ɡʷe̠ŋʔ] (None) | `ɡeṅ` | `head_graph_oc_shengfu` |
 | `09-09` | 熒→queṅ [*N-qʷˤeŋ {*[N]-qʷˤeŋ}] (0843a) | `queṅ` | `head_graph_oc_bs` |
 | `09-10` | 嬰→ʔeṅ [*ʔeŋ] (0814a) | `ʔeṅ` | `head_graph_oc_bs` |
 | `09-11` | 丁→teṅ [*tˤeŋ] (0833a) | `teṅ` | `head_graph_oc_bs` |
 | `09-12` | 鼎→teṅ [*tˤeŋʔ] (0834a) | `teṅ` | `head_graph_oc_bs` |
+| `09-14` | 成→teṅ [*m-deŋ {*m-[d]eŋ}] (0818a) | `teṅ` | `head_graph_oc_bs` |
 | `09-17` | 𡈼→leṅ [*l̥ˤeŋʔ] (0835a) | `leṅ` | `head_graph_oc_bs` |
 | `09-19` | 令→riṅ [*riŋ] (0823a) | `riṅ` | `head_graph_oc_bs` |
 | `09-21` | 晶→tseṅ [*tseŋ] (0820a) | `tseṅ` | `head_graph_oc_bs` |
+| `09-23` | 爭→tseṅ [*tsˤreŋ {*[ts]ˤreŋ} ~ m-tsˤreŋ (or mə-tsˤreŋ)] (0811a) | `tseṅ` | `head_graph_oc_bs` |
 | `09-25` | 晴→tseṅ [*N-tsʰeŋ] (812); 晴→seṅ [*sɡleŋ] (None) | `tseṅ` | `head_graph_bs_head` |
 | `09-26` | 平→peṅ [*breŋ] (0825a) | `peṅ` | `head_graph_oc_bs` |
+| `09-27` | 甹→leṅ [*p.l̥ˤeŋ {*[p.l̥]ˤeŋ}] (0839a) | `leṅ` | `head_graph_oc_bs` |
 | `09-29` | 并→peṅ [*peŋ] (None) | `peṅ` | `head_graph_oc_shengfu` |
 | `09-30` | 冥→meṅ [*mˤeŋ] (0841a) | `meṅ` | `head_graph_oc_bs` |
 | `09-31` | 名→meṅ [*C.meŋ] (0826a) | `meṅ` | `head_graph_oc_bs` |
