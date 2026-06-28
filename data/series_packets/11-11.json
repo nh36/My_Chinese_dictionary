@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-06-28T07:56:10.278325+00:00",
+  "gsc_id": "11-11",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1205"
+  ],
+  "schuessler": {
+    "gsc_id": "11-11",
+    "rhyme_section": 11,
+    "series_number": 11,
+    "k_tokens": [
+      "1205"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                             LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 182,
+    "source_line_number": 32,
+    "source_line_raw": "11-11 = K. 1205 Mand.                             LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "11-11",
+    "rhyme_section": "11",
+    "series_number": "11",
+    "schuessler_k_tokens": "1205",
+    "schuessler_source_page": "182",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "禿",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "禿"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "禿",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8862",
+          "character": "禿",
+          "pinyin": "tu1",
+          "mc_nwh": "thuwk",
+          "mc_bs": "thuwk",
+          "gsr": "1205a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13037",
+          "character": "禿",
+          "phonetic_component": "禿",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他谷",
+          "source": "广韵",
+          "oc_initial": "tʰ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "tʰo̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "13037",
+          "character": "禿",
+          "phonetic_component": "禿",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他谷",
+          "source": "广韵",
+          "oc_initial": "tʰ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "tʰo̠ɡ"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "thuwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "thuwk"
+        ],
+        "mand2mc_bs_forms": [
+          "thuwk"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "8862",
+        "character": "禿",
+        "pinyin": "tu1",
+        "mc_nwh": "thuwk",
+        "mc_bs": "thuwk",
+        "gsr": "1205a"
+      }
+    ],
+    "bs_gsr": []
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 582
-- Packets with at least one root candidate: 581
-- Packets with a single resolved provisional root: 579
+- Missing-series packets inspected: 588
+- Packets with at least one root candidate: 587
+- Packets with a single resolved provisional root: 585
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -344,10 +344,16 @@
 | `10-40` | 鳧→po [*bo] (None) | `po` | `head_graph_oc_shengfu` |
 | `11-05` | 局→kok [*gok {*[g](r)ok}] (1214a) | `kok` | `head_graph_oc_bs` |
 | `11-06` | 屋→qok [*qo̠ɡ] (None) | `qok` | `head_graph_oc_shengfu` |
+| `11-07` | 勖→mok [*m̥ʰoɡ] (None); 勖→muk [*mˤuk-s] (None) | `mok` | `head_graph_shengfu_head` |
+| `11-08` | 岳→ṅok [*ŋˤrok {*[ŋ]ˤrok}] (1227a) | `ṅok` | `head_graph_oc_bs` |
+| `11-09` | 玉→ṅok [*ŋok {*[ŋ](r)ok} (< uvular?)] (1216a) | `ṅok` | `head_graph_oc_bs` |
+| `11-10` | 獄→ṅok [*ŋrok {*[ŋ]rok}] (1215a) | `ṅok` | `head_graph_oc_bs` |
+| `11-11` | 禿→tok [*tʰo̠ɡ] (None) | `tok` | `head_graph_oc_shengfu` |
 | `11-12` | 蜀→tok [*dok {*[d]ok}] (1224a) | `tok` | `head_graph_oc_bs` |
 | `11-13` | 豖→tok [*tʰrok] (1218a) | `tok` | `head_graph_oc_bs` |
 | `11-14` | 谷→qok [*C.qˤok] (1202a) | `qok` | `head_graph_oc_bs` |
 | `11-15` | 彔→rok [*pə.rˤok] (1208a); 剝→pyk [*pˤrok ~ *mə-pˤrok] (1228a) | `rok` | `merged_packet_primary_head` |
+| `11-16` | 鹿→myk [*mə-rˤok] (1209a) | `myk` | `head_graph_oc_bs` |
 | `11-17` | 辱→nok [*nok] (1223a) | `nok` | `head_graph_oc_bs` |
 | `11-21` | 束→tok [*s-tʰok] (1222a) | `tok` | `head_graph_oc_bs` |
 | `11-22` | 卜→pok [*pˤok] (1210a) | `pok` | `head_graph_oc_bs` |

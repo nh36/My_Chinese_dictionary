@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5064
-- Pages fetched / cached successfully: 4988
-- Additions with explicit Han-compound semantic/phonetic roles: 2373
+- Proposed additions checked: 5076
+- Pages fetched / cached successfully: 5000
+- Additions with explicit Han-compound semantic/phonetic roles: 2374
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2051,6 +2051,14 @@
 | `11-06` | 握 | yes | yes | 手 | 屋 |
 | `11-06` | 渥 | yes | yes | 水 | 屋 |
 | `11-06` | 腛 | yes | no |  |  |
+| `11-07` | 勖 | yes | no |  |  |
+| `11-08` | 岳 | yes | no |  |  |
+| `11-09` | 玉 | yes | no |  |  |
+| `11-09` | 頊 | yes | no |  |  |
+| `11-10` | 獄 | yes | no |  |  |
+| `11-10` | 嶽 | yes | no |  |  |
+| `11-10` | 鸑 | yes | no |  |  |
+| `11-11` | 禿 | yes | no |  |  |
 | `11-12` | 蜀 | yes | no |  |  |
 | `11-12` | 蠋 | yes | yes | 虫 | 蜀 |
 | `11-12` | 燭 | yes | no |  |  |
@@ -2098,6 +2106,10 @@
 | `11-15` | 菉 | yes | yes | 艸 | 彔 |
 | `11-15` | 錄 | yes | yes | 金 | 彔 |
 | `11-15` | 剝 | yes | yes | 刀 | 彔 |
+| `11-16` | 鹿 | yes | no |  |  |
+| `11-16` | 摝 | yes | no |  |  |
+| `11-16` | 漉 | yes | no |  |  |
+| `11-16` | 麓 | yes | yes | 林 | 鹿 |
 | `11-17` | 辱 | yes | no |  |  |
 | `11-17` | 溽 | yes | no |  |  |
 | `11-17` | 縟 | yes | no |  |  |

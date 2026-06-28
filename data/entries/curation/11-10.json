@@ -1,0 +1,777 @@
+{
+  "generated_at": "2026-06-28T07:56:10.393536+00:00",
+  "id": "11-10",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "11-10",
+    "rhyme_section": 11,
+    "series_number": 10,
+    "k_tokens": [
+      "1215"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                 MC          LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 182,
+    "source_line_number": 28,
+    "source_line_raw": "11-10 = K. 1215 Mand.                 MC          LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "11-10",
+    "rhyme_section": "11",
+    "series_number": "10",
+    "schuessler_k_tokens": "1215",
+    "schuessler_source_page": "182",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "3",
+    "mand2mc_characters_sample": "獄; 嶽; 鸑",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "獄; 嶽",
+    "combined_source_character_count": "3",
+    "combined_source_characters_sample": "獄; 嶽; 鸑"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1215"
+  ],
+  "proposed_additions": [
+    {
+      "character": "獄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjowk"
+        ],
+        "bs_gsr_forms": [
+          "ngjowk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8916",
+          "character": "獄",
+          "pinyin": "yu4",
+          "mc_nwh": "ṅiəwk",
+          "mc_bs": "ngjowk",
+          "gsr": "1215a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "184",
+          "character": "獄",
+          "pinyin": "yù",
+          "mc_bs": "ngjowk",
+          "mc_analyzed": "(ng- + -jowk D)",
+          "oc_bs": "*ŋrok {*[ŋ]rok}",
+          "gloss": "trial, lawsuit",
+          "gsr": "1215a",
+          "unicode_utf16": "U+7344"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16622",
+          "character": "獄",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚欲",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "oɡ",
+          "oc_syllable": "ŋoɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "16620",
+          "character": "嶽",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        },
+        {
+          "source_row_number": "16621",
+          "character": "鸑",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        },
+        {
+          "source_row_number": "16622",
+          "character": "獄",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚欲",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "oɡ",
+          "oc_syllable": "ŋoɡ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|㹜|t1=two dogs|言|t2=words|ls=ic}}",
+          "positional_components": [
+            "㹜",
+            "言"
+          ],
+          "positional_components_raw": [
+            "㹜",
+            "言"
+          ],
+          "named_args": {
+            "t1": "two dogs",
+            "t2": "words",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|㹜|t1=two dogs|言|t2=words|ls=ic}}",
+            "positional_components": [
+              "㹜",
+              "言"
+            ],
+            "positional_components_raw": [
+              "㹜",
+              "言"
+            ],
+            "named_args": {
+              "t1": "two dogs",
+              "t2": "words",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ṅok₃}},",
+      "render_latex": "獄\t%yu4 / yù\n{\\large{ṅok₃}},\n\\textit{ṅiəwk};\t%1215a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "獄",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "獄"
+      },
+      "resolved_node_root": {
+        "root": "ŋrok",
+        "source": "node_bs_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ṅok"
+        ],
+        "bs_node_roots": [
+          "ŋrok"
+        ],
+        "display_root": "ŋrok",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ṅiəwk",
+          "ṅaewk"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṅiəwk",
+            "normalized": "ṅiəwk",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅaewk",
+            "normalized": "ṅaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "嶽",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaewk"
+        ],
+        "bs_gsr_forms": [
+          "ngaewk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8917",
+          "character": "嶽",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅaewk",
+          "mc_bs": "ngaewk",
+          "gsr": "1215c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "184",
+          "character": "嶽",
+          "pinyin": "yuè",
+          "mc_bs": "ngaewk",
+          "mc_analyzed": "(ng- + -aewk D)",
+          "oc_bs": "*ŋˤrok {*[ŋ]ˤrok}",
+          "gloss": "mountain, peak",
+          "gsr": "1215c",
+          "unicode_utf16": "U+5DBD"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16620",
+          "character": "嶽",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "嶽",
+          "ids": "⿱山獄",
+          "phonetic_component": "獄",
+          "semantic_component": "山",
+          "position": "prefix-colon",
+          "abbreviation": "mon",
+          "inventory_matches": [
+            {
+              "graph_raw": "山",
+              "label_token": "mon(s)",
+              "abbreviation": "mon",
+              "start_line": 327
+            },
+            {
+              "graph_raw": "山",
+              "label_token": "mon",
+              "abbreviation": "mon",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "mon",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "山",
+            "label_token": "mon(s)",
+            "abbreviation": "mon",
+            "start_line": 327
+          },
+          {
+            "graph_raw": "山",
+            "label_token": "mon",
+            "abbreviation": "mon",
+            "learned": true,
+            "evidence_count": 4
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "山"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{mon˸}ṅok₃}},",
+      "render_latex": "嶽\t%yue4 / yuè\n{\\large{\\textsuperscript{mon˸}ṅok₃}},\n\\textit{ṅaewk};\t%1215c",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "獄",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "獄"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "鸑",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaewk"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8918",
+          "character": "鸑",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅaewk",
+          "mc_bs": "ngaewk",
+          "gsr": "1215d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16621",
+          "character": "鸑",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鸑",
+          "ids": "⿱獄鳥",
+          "phonetic_component": "獄",
+          "semantic_component": "鳥",
+          "position": "suffix-colon",
+          "abbreviation": "av",
+          "inventory_matches": [
+            {
+              "graph_raw": "鳥",
+              "label_token": "av(is)",
+              "abbreviation": "av",
+              "start_line": 205
+            },
+            {
+              "graph_raw": "鳥",
+              "label_token": "av",
+              "abbreviation": "av",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "av",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "鳥",
+            "label_token": "av(is)",
+            "abbreviation": "av",
+            "start_line": 205
+          },
+          {
+            "graph_raw": "鳥",
+            "label_token": "av",
+            "abbreviation": "av",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "鳥"
+      },
+      "transliteration_latex": "{\\large{ṅok₃\\textsuperscript{˸av}}},",
+      "render_latex": "鸑\t%yue4\n{\\large{ṅok₃\\textsuperscript{˸av}}},\n\\textit{ṅaewk};\t%1215d",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "獄",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "獄"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "獄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjowk"
+        ],
+        "bs_gsr_forms": [
+          "ngjowk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8916",
+          "character": "獄",
+          "pinyin": "yu4",
+          "mc_nwh": "ṅiəwk",
+          "mc_bs": "ngjowk",
+          "gsr": "1215a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "184",
+          "character": "獄",
+          "pinyin": "yù",
+          "mc_bs": "ngjowk",
+          "mc_analyzed": "(ng- + -jowk D)",
+          "oc_bs": "*ŋrok {*[ŋ]rok}",
+          "gloss": "trial, lawsuit",
+          "gsr": "1215a",
+          "unicode_utf16": "U+7344"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16622",
+          "character": "獄",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚欲",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "oɡ",
+          "oc_syllable": "ŋoɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "16620",
+          "character": "嶽",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        },
+        {
+          "source_row_number": "16621",
+          "character": "鸑",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        },
+        {
+          "source_row_number": "16622",
+          "character": "獄",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚欲",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "oɡ",
+          "oc_syllable": "ŋoɡ"
+        }
+      ]
+    },
+    {
+      "character": "嶽",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaewk"
+        ],
+        "bs_gsr_forms": [
+          "ngaewk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8917",
+          "character": "嶽",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅaewk",
+          "mc_bs": "ngaewk",
+          "gsr": "1215c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "184",
+          "character": "嶽",
+          "pinyin": "yuè",
+          "mc_bs": "ngaewk",
+          "mc_analyzed": "(ng- + -aewk D)",
+          "oc_bs": "*ŋˤrok {*[ŋ]ˤrok}",
+          "gloss": "mountain, peak",
+          "gsr": "1215c",
+          "unicode_utf16": "U+5DBD"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16620",
+          "character": "嶽",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "鸑",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaewk"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8918",
+          "character": "鸑",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅaewk",
+          "mc_bs": "ngaewk",
+          "gsr": "1215d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16621",
+          "character": "鸑",
+          "phonetic_component": "獄",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五角",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "ŋʳo̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "獄",
+      "gsr": "1215a",
+      "oc_bs": "*ŋrok {*[ŋ]rok}",
+      "root": "ṅok",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ṅok",
+    "source": "head_graph_oc_bs",
+    "character": "獄",
+    "oc_bs": "*ŋrok {*[ŋ]rok}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "ṅok₃",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ṅiəwk",
+      "ṅaewk"
+    ],
+    "form_analyses": [
+      {
+        "form": "ṅiəwk",
+        "normalized": "ṅiəwk",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṅaewk",
+        "normalized": "ṅaewk",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "ṅok",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

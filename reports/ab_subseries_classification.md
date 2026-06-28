@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 787
+- Generated subgroup heads inspected: 789
 - Subgroups newly marked with `a`: 100
 - Subgroups newly marked with `b`: 92
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 249
-- Mixed subgroups left unmarked: 342
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 250
+- Mixed subgroups left unmarked: 343
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -377,12 +377,14 @@
 | `10-39` | 府 | `po` | `p\textoverset{b}{o}` | `b` | yes | `piuX, biuX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `11-05` | 局 | `kok` | `k\textoverset{b}{o}k` | `b` | yes | `giəwk, kiəwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `11-06` | 屋 | `qok` | `q\textoverset{a}{o}k` | `a` | yes | `quwk, qaewk, quwH` | all extracted forms lack an i-medial after the onset |
+| `11-10` | 獄 | `ŋrok` | `ŋrok` | `mixed` | no | `ṅiəwk, ṅaewk` | the extracted forms point to both type a and type b |
 | `11-12` | 蜀 | `tok` | `tok` | `mixed` | no | `jiəwk, ciəwk, chiəwk, ḍiəwk, duwk, tuwH, ṭaewk, ḍaewk, tṣhaewk, ṭiəwk` | the extracted forms point to both type a and type b |
 | `11-12` | 屬 | `tok` | `t\textoverset{b}{o}k` | `b` | yes | `jiəwk, ciəwk, ṭiəwk, ḍiəwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `11-13` | 豖 | `tok` | `tok` | `mixed` | no | `ṭhiəwk, ṭaewk, tuwk, ṭiəwṅX, trjowk` | the extracted forms point to both type a and type b |
 | `11-14` | 谷 | `qok` | `qok` | `mixed` | no | `kuwk, yiəwk, yuH, ziəwk` | the extracted forms point to both type a and type b |
 | `11-14` | 欲 | `qok` | `q\textoverset{b}{o}k` | `b` | yes | `yiəwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `11-15` | 彔 | `rok` | `rok` | `mixed` | no | `luwk, liəwk, paewk` | the extracted forms point to both type a and type b |
+| `11-16` | 鹿 | `myk` | `myk` | `a` | no | `luwk` | all extracted forms lack an i-medial after the onset |
 | `11-17` | 辱 | `nok` | `nok` | `mixed` | no | `ñiəwk, nuwH` | the extracted forms point to both type a and type b |
 | `11-21` | 束 | `tok` | `tok` | `mixed` | no | `śiəwk, tshiəwk, suwk, suwH, suwX, siəwṅX, ṣaewk` | the extracted forms point to both type a and type b |
 | `11-21` | 欶 | `tok` | `t\textoverset{a}{o}k` | `a` | yes | `ṣaewk, suwk, suwH` | all extracted forms lack an i-medial after the onset |

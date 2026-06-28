@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 65,
+    "case_count": 66,
     "unique_component_count": 55,
     "by_classification": {
-      "new_latin_label_needed": 64,
+      "new_latin_label_needed": 65,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 39,
       "packet_family_component_literal_fallback": 9,
-      "ids_component_literal_fallback": 17
+      "ids_component_literal_fallback": 18
     }
   },
   "cases": [
@@ -522,6 +522,23 @@
       "render_latex": "屋\t%wu1\n{\\large{q\\textoverset{a}{o}k\\textsuperscript{·室}}},\n\\textit{quwk};\t%1204a",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `室` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "11-09",
+      "character": "玉",
+      "abbreviation": "丶",
+      "semantic_component": "丶",
+      "position": "suffix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "丶",
+      "transliteration_latex": "{\\large{ṅok₂\\textsuperscript{·丶}}},",
+      "render_latex": "玉\t%yu4 / yù\n{\\large{ṅok₂\\textsuperscript{·丶}}},\n\\textit{ṅiəwk};\t%1216a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丶` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "11-23",
@@ -1265,13 +1282,19 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 2,
+      "case_count": 3,
       "examples": [
         {
           "entry_id": "09-22",
           "character": "丼",
           "position": "suffix-colon",
           "source": "packet_family_component_literal_fallback"
+        },
+        {
+          "entry_id": "11-09",
+          "character": "玉",
+          "position": "suffix-dot",
+          "source": "ids_component_literal_fallback"
         },
         {
           "entry_id": "21-12",

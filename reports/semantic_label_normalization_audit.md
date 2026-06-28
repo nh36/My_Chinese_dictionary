@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T07:48:24.821191+00:00
+- Generated at: 2026-06-28T07:56:51.746744+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20445
+- Total occurrences audited: 20473
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20238 |
+| `canonical` | 20264 |
 | `explicit_alias` | 11 |
-| `needs_review` | 196 |
+| `needs_review` | 198 |
 
 ## Blocked ambiguous aliases
 
@@ -141,7 +141,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}  *su₂}},
 \textit{ṣiuwH};	%1097i` |
 | `curation_json` | `11-13` | `瘃` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒豖` | `瘃	%zhú
-{\large{\textsuperscript{infirm·}tok₃}},
+{\large{\textsuperscript{infirm·}tok₄}},
 \textit{trjowk};	%1218` |
 | `curation_json` | `12-08` | `𤺄` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒童` | `𤺄	%zhong3
 {\large{\textsuperscript{infirm·}toṅ₂}},
@@ -298,7 +298,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}  *su₂}},
 \textit{ṣiuwH};	%1097i` |
 | `integrated_series_curated_entry` | `11-13` | `瘃` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒豖` | `瘃	%zhú
-{\large{\textsuperscript{infirm·}tok₃}},
+{\large{\textsuperscript{infirm·}tok₄}},
 \textit{trjowk};	%1218` |
 | `integrated_series_curated_entry` | `12-08` | `𤺄` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒童` | `𤺄	%zhong3
 {\large{\textsuperscript{infirm·}toṅ₂}},
@@ -415,7 +415,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsek₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔeṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}  *su₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₃}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}toṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}loṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
@@ -467,7 +467,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔeṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}ko}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}  *su₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₃}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}toṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}loṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
@@ -739,6 +739,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `11-06` | `屋` | `室` | render_latex, transliteration_latex | `室` | `⿸尸至` | `屋	%wu1
 {\large{q\textoverset{a}{o}k\textsuperscript{·室}}},
 \textit{quwk};	%1204a` |
+| `curation_json` | `11-09` | `玉` | `丶` | render_latex, transliteration_latex | `丶` | `⿷王丶` | `玉	%yu4 / yù
+{\large{ṅok₂\textsuperscript{·丶}}},
+\textit{ṅiəwk};	%1216a` |
 | `curation_json` | `11-23` | `菐` | `丵` | render_latex, transliteration_latex | `丵` | `⿳业䒑夫` | `菐	%pu2
 {\large{\textsuperscript{丵˸}p\textoverset{a}{o}k}},
 \textit{buwk};	%1211a` |
@@ -902,6 +905,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `11-06` | `屋` | `室` | render_latex, transliteration_latex | `室` | `⿸尸至` | `屋	%wu1
 {\large{q\textoverset{a}{o}k\textsuperscript{·室}}},
 \textit{quwk};	%1204a` |
+| `integrated_series_curated_entry` | `11-09` | `玉` | `丶` | render_latex, transliteration_latex | `丶` | `⿷王丶` | `玉	%yu4 / yù
+{\large{ṅok₂\textsuperscript{·丶}}},
+\textit{ṅiəwk};	%1216a` |
 | `integrated_series_curated_entry` | `11-23` | `菐` | `丵` | render_latex, transliteration_latex | `丵` | `⿳业䒑夫` | `菐	%pu2
 {\large{\textsuperscript{丵˸}p\textoverset{a}{o}k}},
 \textit{buwk};	%1211a` |

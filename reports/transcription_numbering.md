@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 935
-- Roots whose display label changed after document-wide renumbering: 525
-- Duplicate phonetic bases encountered in document order: 247
+- Mutable series/subseries roots inspected: 941
+- Roots whose display label changed after document-wide renumbering: 529
+- Duplicate phonetic bases encountered in document order: 248
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -574,14 +574,20 @@
 | `10-40` | `series-root` | 鳧 | `po` | 2 | `po₂` | yes |
 | `11-05` | `series-root` | 局 | `k\textoverset{b}{o}k` | 1 | `k\textoverset{b}{o}k` | yes |
 | `11-06` | `series-root` | 屋 | `q\textoverset{a}{o}k` | 1 | `q\textoverset{a}{o}k` | yes |
-| `11-12` | `series-root` | 蜀 | `tok` | 2 | `tok₂` | yes |
+| `11-07` | `series-root` | 勖 | `mok` | 1 | `mok` | yes |
+| `11-08` | `series-root` | 岳 | `ṅok` | 1 | `ṅok` | yes |
+| `11-09` | `series-root` | 玉 | `ṅok` | 2 | `ṅok₂` | yes |
+| `11-10` | `series-root` | 獄 | `ṅok` | 3 | `ṅok₃` | yes |
+| `11-11` | `series-root` | 禿 | `tok` | 2 | `tok₂` | yes |
+| `11-12` | `series-root` | 蜀 | `tok` | 3 | `tok₃` | yes |
 | `11-12` | `subseries-root` | 屬 | `t\textoverset{b}{o}k` | 1 | `t\textoverset{b}{o}k` | yes |
-| `11-13` | `series-root` | 豖 | `tok` | 3 | `tok₃` | yes |
+| `11-13` | `series-root` | 豖 | `tok` | 4 | `tok₄` | yes |
 | `11-14` | `series-root` | 谷 | `qok` | 1 | `qok` | yes |
 | `11-14` | `subseries-root` | 欲 | `q\textoverset{b}{o}k` | 1 | `q\textoverset{b}{o}k` | yes |
 | `11-15` | `series-root` | 彔 | `rok` | 1 | `rok` | yes |
+| `11-16` | `series-root` | 鹿 | `myk` | 4 | `myk₄` | yes |
 | `11-17` | `series-root` | 辱 | `nok` | 1 | `nok` | yes |
-| `11-21` | `series-root` | 束 | `tok` | 4 | `tok₄` | yes |
+| `11-21` | `series-root` | 束 | `tok` | 5 | `tok₅` | yes |
 | `11-21` | `subseries-root` | 欶 | `t\textoverset{a}{o}k` | 1 | `t\textoverset{a}{o}k` | yes |
 | `11-22` | `series-root` | 卜 | `pok` | 1 | `pok` | yes |
 | `11-23` | `series-root` | 菐 | `p\textoverset{a}{o}k` | 1 | `p\textoverset{a}{o}k` | yes |
