@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-28T11:18:59.881274+00:00",
+  "gsc_id": "13-66",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1059"
+  ],
+  "schuessler": {
+    "gsc_id": "13-66",
+    "rhyme_section": 13,
+    "series_number": 66,
+    "k_tokens": [
+      "1059"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "In the BI, 13-69 ffi has been added as phonetic (Qiu 2000: 232).",
+    "is_cross_reference_only": false,
+    "source_page_number": 207,
+    "source_line_number": 27,
+    "source_line_raw": "13-66 =K.1059            In the BI, 13-69 ffi has been added as phonetic (Qiu 2000: 232)."
+  },
+  "coverage": {
+    "gsc_id": "13-66",
+    "rhyme_section": "13",
+    "series_number": "66",
+    "schuessler_k_tokens": "1059",
+    "schuessler_source_page": "207",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "寶",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "寶",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "寶"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "寶",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7654",
+          "character": "寶",
+          "pinyin": "bao3",
+          "mc_nwh": "pawX",
+          "mc_bs": "pawX",
+          "gsr": "1059a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "163",
+          "character": "寶",
+          "pinyin": "bǎo",
+          "mc_bs": "pawX",
+          "mc_analyzed": "(p- + -aw B)",
+          "oc_bs": "*pˤuʔ",
+          "gloss": "precious thing",
+          "gsr": "1059a",
+          "unicode_utf16": "U+5BF6"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "3374",
+          "character": "寶",
+          "phonetic_component": "缶",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博抱",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "pu̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pawX"
+        ],
+        "mand2mc_nwh_forms": [
+          "pawX"
+        ],
+        "mand2mc_bs_forms": [
+          "pawX"
+        ],
+        "bs_gsr_forms": [
+          "pawX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "7654",
+        "character": "寶",
+        "pinyin": "bao3",
+        "mc_nwh": "pawX",
+        "mc_bs": "pawX",
+        "gsr": "1059a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "163",
+        "character": "寶",
+        "pinyin": "bǎo",
+        "mc_bs": "pawX",
+        "mc_analyzed": "(p- + -aw B)",
+        "oc_bs": "*pˤuʔ",
+        "gloss": "precious thing",
+        "gsr": "1059a",
+        "unicode_utf16": "U+5BF6"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

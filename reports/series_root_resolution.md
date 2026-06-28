@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 648
-- Packets with at least one root candidate: 647
-- Packets with a single resolved provisional root: 645
+- Missing-series packets inspected: 654
+- Packets with at least one root candidate: 653
+- Packets with a single resolved provisional root: 651
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -441,8 +441,14 @@
 | `13-57` | 秋→tsiw [*tsʰiw] (1092a) | `tsiw` | `head_graph_oc_bs` |
 | `13-58` | 就→tsuk [*dzuk-s {*[dz]u[k]-s}] (1093a) | `tsuk` | `head_graph_oc_bs` |
 | `13-59` | 爪→tsu [*[ts]ˤruʔ] (1111a) | `tsu` | `head_graph_oc_bs` |
-| `13-60` | 㕚→su [*sru̠ʔ] (None); 㕚→tsu [*[ts]ˤruʔ] (None) | `su` | `head_graph_shengfu_head` |
+| `13-60` | 㕚→su [*sru̠ʔ] (None) | `su` | `head_graph_oc_shengfu` |
 | `13-61` | 帚→py [*t.pəʔ {*[t.p]əʔ}] (1087a) | `py` | `head_graph_oc_bs` |
+| `13-62` | 蒐→su [*skʳu] (None) | `su` | `head_graph_oc_shengfu` |
+| `13-64` | 保→pu [*pˤuʔ] (1057a) | `pu` | `head_graph_oc_bs` |
+| `13-65` | 報→puk [*pˤuk-s] (1058a) | `puk` | `head_graph_oc_bs` |
+| `13-66` | 寶→pu [*pˤuʔ] (1059a) | `pu` | `head_graph_oc_bs` |
+| `13-67` | 鴇→pu [*pu̠ʔ] (None) | `pu` | `head_graph_oc_shengfu` |
+| `13-68` | 虣→pok [*bo̠ɡʷs] (None) | `pok` | `head_graph_oc_shengfu` |
 | `13-72` | 包→pu [*pˤ<r>u] (1113a) | `pu` | `head_graph_oc_bs` |
 | `13-73` | 孚→pu [*pʰu] (None) | `pu` | `head_graph_oc_shengfu` |
 | `13-76` | 矛→mu [*mu {*m(r)u}] (1109a) | `mu` | `head_graph_oc_bs` |

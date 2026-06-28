@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5232
-- Pages fetched / cached successfully: 5154
-- Additions with explicit Han-compound semantic/phonetic roles: 2427
+- Proposed additions checked: 5242
+- Pages fetched / cached successfully: 5164
+- Additions with explicit Han-compound semantic/phonetic roles: 2429
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2622,6 +2622,16 @@
 | `13-61` | 箒 | yes | no |  |  |
 | `13-61` | 埽 | yes | no |  |  |
 | `13-61` | 掃 | yes | no |  |  |
+| `13-62` | 蒐 | yes | no |  |  |
+| `13-64` | 保 | yes | no |  |  |
+| `13-64` | 葆 | yes | yes | 艸 | 保 |
+| `13-64` | 褓 | yes | no |  |  |
+| `13-64` | 襃 | yes | no |  |  |
+| `13-64` | 褒 | yes | yes | 衣 | 保 |
+| `13-65` | 報 | yes | no |  |  |
+| `13-66` | 寶 | yes | no |  |  |
+| `13-67` | 鴇 | yes | no |  |  |
+| `13-68` | 虣 | yes | no |  |  |
 | `13-72` | 包 | yes | no |  |  |
 | `13-72` | 胞 | yes | yes | 肉 | 包 |
 | `13-72` | 苞 | yes | yes | 艸 | 包 |

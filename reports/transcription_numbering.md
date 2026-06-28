@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1009
-- Roots whose display label changed after document-wide renumbering: 587
-- Duplicate phonetic bases encountered in document order: 258
+- Mutable series/subseries roots inspected: 1015
+- Roots whose display label changed after document-wide renumbering: 593
+- Duplicate phonetic bases encountered in document order: 259
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -716,8 +716,14 @@
 | `13-60` | `series-root` | 㕚 | `su` | 2 | `su₂` | yes |
 | `13-60` | `subseries-root` | 蚤 | `su` | 3 | `su₃` | yes |
 | `13-61` | `series-root` | 帚 | `py` | 8 | `py₈` | yes |
-| `13-72` | `series-root` | 包 | `pu` | 2 | `pu₂` | yes |
-| `13-73` | `series-root` | 孚 | `pu` | 3 | `pu₃` | yes |
+| `13-62` | `series-root` | 蒐 | `su` | 4 | `su₄` | yes |
+| `13-64` | `series-root` | 保 | `pu` | 2 | `pu₂` | yes |
+| `13-65` | `series-root` | 報 | `puk` | 1 | `puk` | yes |
+| `13-66` | `series-root` | 寶 | `pu` | 3 | `pu₃` | yes |
+| `13-67` | `series-root` | 鴇 | `pu` | 4 | `pu₄` | yes |
+| `13-68` | `series-root` | 虣 | `pok` | 2 | `pok₂` | yes |
+| `13-72` | `series-root` | 包 | `pu` | 5 | `pu₅` | yes |
+| `13-73` | `series-root` | 孚 | `pu` | 6 | `pu₆` | yes |
 | `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
 | `13-76` | `subseries-root` | 楙 | `mu` | 6 | `mu₆` | yes |
 | `13-76` | `subseries-root` | 敄 | `mu` | 7 | `mu₇` | yes |
@@ -735,8 +741,8 @@
 | `14-18` | `subseries-root` | 戚 | `tsik` | 2 | `tsik₂` | yes |
 | `14-22` | `series-root` | 肅 | `sik` | 1 | `sik` | yes |
 | `14-22` | `subseries-root` | 蕭 | `sik` | 2 | `sik₂` | yes |
-| `14-23` | `series-root` | 复 | `puk` | 1 | `puk` | yes |
-| `14-23` | `subseries-root` | 復 | `puk` | 2 | `puk₂` | yes |
+| `14-23` | `series-root` | 复 | `puk` | 2 | `puk₂` | yes |
+| `14-23` | `subseries-root` | 復 | `puk` | 3 | `puk₃` | yes |
 | `15-06` | `series-root` | 中 | `tuṅ` | 1 | `tuṅ` | yes |
 | `15-09` | `series-root` | 農 | `noṅ` | 3 | `noṅ₃` | yes |
 | `16-01` | `series-root` | 高 | `k\textoverset{a}{a}w` | 1 | `k\textoverset{a}{a}w` | yes |

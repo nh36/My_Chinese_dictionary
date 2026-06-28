@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-06-28T11:18:59.998979+00:00",
+  "id": "13-65",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "13-65",
+    "rhyme_section": 13,
+    "series_number": 65,
+    "k_tokens": [
+      "1058"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.         MC             LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 207,
+    "source_line_number": 24,
+    "source_line_raw": "13-65 =K.1058            Man d.         MC             LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "13-65",
+    "rhyme_section": "13",
+    "series_number": "65",
+    "schuessler_k_tokens": "1058",
+    "schuessler_source_page": "207",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "報",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "報",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "報"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1058"
+  ],
+  "proposed_additions": [
+    {
+      "character": "報",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pawH"
+        ],
+        "mand2mc_nwh_forms": [
+          "pawH"
+        ],
+        "mand2mc_bs_forms": [
+          "pawH"
+        ],
+        "bs_gsr_forms": [
+          "pawH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7653",
+          "character": "報",
+          "pinyin": "bao4",
+          "mc_nwh": "pawH",
+          "mc_bs": "pawH",
+          "gsr": "1058a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "163",
+          "character": "報",
+          "pinyin": "bào",
+          "mc_bs": "pawH",
+          "mc_analyzed": "(p- + -aw C)",
+          "oc_bs": "*pˤuk-s",
+          "gloss": "repay",
+          "gsr": "1058a",
+          "unicode_utf16": "U+5831"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "334",
+          "character": "報",
+          "phonetic_component": "報",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博耗",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "pu̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "334",
+          "character": "報",
+          "phonetic_component": "報",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博耗",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "pu̠ɡs"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|㚔|𠬝|ls=ic|t1=handcuffs|t2=to subdue}}",
+          "positional_components": [
+            "㚔",
+            "𠬝"
+          ],
+          "positional_components_raw": [
+            "㚔",
+            "𠬝"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "handcuffs",
+            "t2": "to subdue"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|㚔|𠬝|ls=ic|t1=handcuffs|t2=to subdue}}",
+            "positional_components": [
+              "㚔",
+              "𠬝"
+            ],
+            "positional_components_raw": [
+              "㚔",
+              "𠬝"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "handcuffs",
+              "t2": "to subdue"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{puk}},",
+      "render_latex": "報\t%bao4 / bào\n{\\large{puk}},\n\\textit{pawH};\t%1058a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "報",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "報"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "報",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pawH"
+        ],
+        "mand2mc_nwh_forms": [
+          "pawH"
+        ],
+        "mand2mc_bs_forms": [
+          "pawH"
+        ],
+        "bs_gsr_forms": [
+          "pawH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7653",
+          "character": "報",
+          "pinyin": "bao4",
+          "mc_nwh": "pawH",
+          "mc_bs": "pawH",
+          "gsr": "1058a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "163",
+          "character": "報",
+          "pinyin": "bào",
+          "mc_bs": "pawH",
+          "mc_analyzed": "(p- + -aw C)",
+          "oc_bs": "*pˤuk-s",
+          "gloss": "repay",
+          "gsr": "1058a",
+          "unicode_utf16": "U+5831"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "334",
+          "character": "報",
+          "phonetic_component": "報",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博耗",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "pu̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "334",
+          "character": "報",
+          "phonetic_component": "報",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博耗",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "pu̠ɡs"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "報",
+      "gsr": "1058a",
+      "oc_bs": "*pˤuk-s",
+      "root": "puk",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "puk",
+    "source": "head_graph_oc_bs",
+    "character": "報",
+    "oc_bs": "*pˤuk-s",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "puk",
+    "base_root": "puk",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

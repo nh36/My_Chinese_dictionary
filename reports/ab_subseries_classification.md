@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 827
+- Generated subgroup heads inspected: 828
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 272
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 273
 - Mixed subgroups left unmarked: 351
 - Unresolved subgroups left unmarked: 4
 
@@ -483,6 +483,7 @@
 | `13-59` | 爪 | `tsru` | `tsru` | `a` | no | `tṣaewX, tṣaew, tṣaewH` | all extracted forms lack an i-medial after the onset |
 | `13-60` | 蚤 | `su` | `su₃` | `mixed` | no | `tsawX, saw, sawX, tshawX, siuwX, tshek` | the extracted forms point to both type a and type b |
 | `13-61` | 帚 | `py` | `py` | `mixed` | no | `ciuwX, sawH, sawX` | the extracted forms point to both type a and type b |
+| `13-64` | 保 | `pu` | `pu` | `a` | no | `pawX` | all extracted forms lack an i-medial after the onset |
 | `13-72` | 包 | `pu` | `pu` | `mixed` | no | `paew, phaew, biewX, paewX, baew, baewX, baw, bawH, bawX, biuw, baewH, phaewk, baewk` | the extracted forms point to both type a and type b |
 | `13-73` | 孚 | `pu` | `pu` | `mixed` | no | `phiu, biewX, phiuw, phwəy, biuw, baew` | the extracted forms point to both type a and type b |
 | `13-76` | 矛 | `mu` | `mu` | `mixed` | no | `miuw, muw, maew, miuH, miuX, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
@@ -503,7 +504,7 @@
 | `14-22` | 肅 | `sik` | `sik` | `mixed` | no | `siuwk, ṣiuw, siuwH, sewH, sew` | the extracted forms point to both type a and type b |
 | `14-22` | 蕭 | `sik` | `sik₂` | `a` | no | `sew` | all extracted forms lack an i-medial after the onset |
 | `14-23` | 复 | `puk` | `puk` | `b` | no | `biuwk, biuwH, phiuwH, phiuwk, piuwk, bik` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `14-23` | 復 | `puk` | `puk₂` | `b` | no | `biuwH, biuwk, phiuwH, phiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `14-23` | 復 | `puk` | `puk₃` | `b` | no | `biuwH, biuwk, phiuwH, phiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `15-06` | 中 | `tuṅ` | `tuṅ` | `b` | no | `ṭiuwṅ, ṭiuwṅH, ḍiuwṅH, ṭhiuwṅ, ḍiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `15-09` | 農 | `noṅ` | `noṅ` | `mixed` | no | `nəwṅ, ṇiəwṅ, nuwṅ, ñiəwṅ` | the extracted forms point to both type a and type b |
 | `16-01` | 高 | `kaw` | `k\textoverset{a}{a}w` | `a` | yes | `kaw, kawX, kawH, khawX, khawH, ḫawX, haw, haew, haewH, khaew, khaewH, hak, həwk, ḫaewk, haewk` | all extracted forms lack an i-medial after the onset |
