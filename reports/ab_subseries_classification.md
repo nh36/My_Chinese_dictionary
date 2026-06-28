@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 789
-- Subgroups newly marked with `a`: 100
+- Generated subgroup heads inspected: 793
+- Subgroups newly marked with `a`: 103
 - Subgroups newly marked with `b`: 92
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 250
-- Mixed subgroups left unmarked: 343
+- Mixed subgroups left unmarked: 344
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -386,16 +386,20 @@
 | `11-15` | 彔 | `rok` | `rok` | `mixed` | no | `luwk, liəwk, paewk` | the extracted forms point to both type a and type b |
 | `11-16` | 鹿 | `myk` | `myk` | `a` | no | `luwk` | all extracted forms lack an i-medial after the onset |
 | `11-17` | 辱 | `nok` | `nok` | `mixed` | no | `ñiəwk, nuwH` | the extracted forms point to both type a and type b |
+| `11-18` | 族 | `tsok` | `ts\textoverset{a}{o}k` | `a` | yes | `dzuwk, tsuwk, tshuwk, tshuwH` | all extracted forms lack an i-medial after the onset |
+| `11-19` | 足 | `tsok` | `tsok` | `mixed` | no | `tsiəwk, tsiuH, tshiəwk, tṣaewk` | the extracted forms point to both type a and type b |
 | `11-21` | 束 | `tok` | `tok` | `mixed` | no | `śiəwk, tshiəwk, suwk, suwH, suwX, siəwṅX, ṣaewk` | the extracted forms point to both type a and type b |
 | `11-21` | 欶 | `tok` | `t\textoverset{a}{o}k` | `a` | yes | `ṣaewk, suwk, suwH` | all extracted forms lack an i-medial after the onset |
 | `11-22` | 卜 | `pok` | `pok` | `mixed` | no | `puwk, phuwk, phaewk, bək, phiuH, phiuwH, phuwH` | the extracted forms point to both type a and type b |
 | `11-23` | 菐 | `pok` | `p\textoverset{a}{o}k` | `a` | yes | `buwk, bəwk, phuwk, puwk, phaewk` | all extracted forms lack an i-medial after the onset |
+| `11-24` | 木 | `mok` | `m\textoverset{a}{o}k` | `a` | yes | `muwk` | all extracted forms lack an i-medial after the onset |
+| `11-24` | 沐 | `mok` | `m\textoverset{a}{o}k₂` | `a` | yes | `muwk` | all extracted forms lack an i-medial after the onset |
 | `12-01` | 工 | `koṅ` | `koṅ` | `mixed` | no | `kuwṅ, kuwṅH, khuwṅ, khuwṅH, khuwṅX, khaewṅH, khaewṅ, ḫuwṅ, kaewṅH, kiəwṅX, khiəwṅX, giəwṅ, kaewṅ, haewṅX` | the extracted forms point to both type a and type b |
 | `12-01` | 空 | `khoṅ` | `kh\textoverset{a}{o}ṅ` | `a` | yes | `khuwṅ, khuwṅH, khuwṅX, khaewṅH, khaewṅ` | all extracted forms lack an i-medial after the onset |
 | `12-01` | 𢀜 | `koṅ` | `k\textoverset{b}{o}ṅ` | `b` | yes | `kiəwṅX, khiəwṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `12-01` | 江 | `koṅ` | `k\textoverset{a}{o}ṅ` | `a` | yes | `kaewṅ, ḫuwṅ` | all extracted forms lack an i-medial after the onset |
 | `12-03` | 廾 | `koṅ` | `k\textoverset{b}{o}ṅ` | `b` | yes | `kiəwṅX, kiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `12-03` | 共 | `koṅ` | `koṅ₂` | `mixed` | no | `giəwṅH, kiəwṅX, kiəwṅ, kiəwṅH, kiuwṅ, kuwṅ, kiəwk, giəwṅ, ḫuwṅ, ḫaewṅH, ḫuwṅH, huwṅ` | the extracted forms point to both type a and type b |
+| `12-03` | 共 | `koṅ` | `koṅ₃` | `mixed` | no | `giəwṅH, kiəwṅX, kiəwṅ, kiəwṅH, kiuwṅ, kuwṅ, kiəwk, giəwṅ, ḫuwṅ, ḫaewṅH, ḫuwṅH, huwṅ` | the extracted forms point to both type a and type b |
 | `12-05` | 凶 | `qhoṅ` | `qh\textoverset{b}{o}ṅ` | `b` | yes | `hiəwṅ, hiəwṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `12-05` | 匈 | `qoṅ` | `q\textoverset{b}{o}ṅ₂` | `b` | yes | `hiəwṅ, hiəwṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `12-08` | 重 | `toṅ` | `toṅ` | `mixed` | no | `ḍiəwṅ, ḍiəwṅX, ciəwṅH, ṭiəwṅH, tuwṅH, ciəwṅX, ciəwṅ, jiəwṅX, tuwṅX, duwṅX, duwṅH` | the extracted forms point to both type a and type b |

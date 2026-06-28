@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5076
-- Pages fetched / cached successfully: 5000
-- Additions with explicit Han-compound semantic/phonetic roles: 2374
+- Proposed additions checked: 5091
+- Pages fetched / cached successfully: 5015
+- Additions with explicit Han-compound semantic/phonetic roles: 2381
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2116,6 +2116,16 @@
 | `11-17` | 蓐 | yes | no |  |  |
 | `11-17` | 槈 | yes | no |  |  |
 | `11-17` | 耨 | yes | yes | 耒 | 辱 |
+| `11-18` | 族 | yes | no |  |  |
+| `11-18` | 鏃 | yes | yes | 金 | 族 |
+| `11-18` | 瘯 | yes | no |  |  |
+| `11-18` | 蔟 | yes | no |  |  |
+| `11-18` | 嗾 | yes | no |  |  |
+| `11-19` | 足 | yes | no |  |  |
+| `11-19` | 哫 | yes | no |  |  |
+| `11-19` | 促 | yes | yes | 人 | 足 |
+| `11-19` | 捉 | yes | yes | 手 | 足 |
+| `11-20` | 粟 | yes | yes | 米 | 角 |
 | `11-21` | 束 | yes | no |  |  |
 | `11-21` | 誎 | yes | no |  |  |
 | `11-21` | 速 | yes | yes | 辵 | 束 |
@@ -2142,6 +2152,9 @@
 | `11-23` | 撲 | yes | yes | 手 | 菐 |
 | `11-23` | 墣 | yes | yes | 土 | 菐 |
 | `11-23` | 璞 | yes | yes | 玉 | 菐 |
+| `11-24` | 木 | yes | no |  |  |
+| `11-24` | 沐 | yes | yes | 水 | 木 |
+| `11-24` | 霂 | yes | yes | 雨 | 沐 |
 | `12-01` | 工 | yes | no |  |  |
 | `12-01` | 控 | yes | yes | 手 | 空 |
 | `12-01` | 椌 | yes | no |  |  |
@@ -2166,6 +2179,7 @@
 | `12-01` | 矼 | yes | yes | 石 | 工 |
 | `12-01` | 項 | yes | yes | 頁 | 工 |
 | `12-01` | 悾 | yes | no |  |  |
+| `12-02` | 孔 | yes | no |  |  |
 | `12-03` | 廾 | yes | no |  |  |
 | `12-03` | 𠬞 | yes | no |  |  |
 | `12-03` | 共 | yes | no |  |  |
@@ -2189,6 +2203,7 @@
 | `12-05` | 胷 | yes | no |  |  |
 | `12-05` | 胸 | yes | yes | 肉 | 匈 |
 | `12-05` | 洶 | yes | no |  |  |
+| `12-07` | 妐 | yes | yes | 女 | 公 |
 | `12-08` | 重 | yes | yes | 人 | 東 |
 | `12-08` | 𠟍 | no | no |  |  |
 | `12-08` | 偅 | yes | no |  |  |

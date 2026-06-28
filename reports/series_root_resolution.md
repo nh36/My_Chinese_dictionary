@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 588
-- Packets with at least one root candidate: 587
-- Packets with a single resolved provisional root: 585
+- Missing-series packets inspected: 594
+- Packets with at least one root candidate: 593
+- Packets with a single resolved provisional root: 591
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -355,12 +355,18 @@
 | `11-15` | 彔→rok [*pə.rˤok] (1208a); 剝→pyk [*pˤrok ~ *mə-pˤrok] (1228a) | `rok` | `merged_packet_primary_head` |
 | `11-16` | 鹿→myk [*mə-rˤok] (1209a) | `myk` | `head_graph_oc_bs` |
 | `11-17` | 辱→nok [*nok] (1223a) | `nok` | `head_graph_oc_bs` |
+| `11-18` | 族→tsok [*dzˤok {*[dz]ˤok}] (1206a) | `tsok` | `head_graph_oc_bs` |
+| `11-19` | 足→tsok [*tsok {*[ts]ok}] (1219a) | `tsok` | `head_graph_oc_bs` |
+| `11-20` | 粟→sok [*skˡoɡ] (None) | `sok` | `head_graph_oc_shengfu` |
 | `11-21` | 束→tok [*s-tʰok] (1222a) | `tok` | `head_graph_oc_bs` |
 | `11-22` | 卜→pok [*pˤok] (1210a) | `pok` | `head_graph_oc_bs` |
 | `11-23` | 菐→puk [*puɡ] (None); 菐→pok [*bo̠ɡ] (None) | `pok` | `packet_bs_consensus` |
+| `11-24` | 木→mok [*C.mˤok] (1212a) | `mok` | `head_graph_oc_bs` |
 | `12-01` | 工→koṅ [*kˤoŋ] (1172a) | `koṅ` | `head_graph_oc_bs` |
+| `12-02` | 孔→koṅ [*kʰˤoŋʔ {*[k]ʰˤoŋʔ}] (1174a) | `koṅ` | `head_graph_oc_bs` |
 | `12-03` | 廾→koṅ [*koŋʔ {*k(r)oŋʔ}] (1182a) | `koṅ` | `head_graph_oc_bs` |
 | `12-05` | 凶→qoṅ [*qʰoŋ {*qʰ(r)oŋ}] (1183a) | `qoṅ` | `head_graph_oc_bs` |
+| `12-07` | 妐→qoṅ [*t-qoŋ] (1189a) | `qoṅ` | `head_graph_oc_bs` |
 | `12-08` | 重→toṅ [*m-troŋ {*[m]-troŋ}] (1188a) | `toṅ` | `head_graph_oc_bs` |
 | `12-09` | 同→loṅ [*lˤoŋ] (1176a) | `loṅ` | `head_graph_oc_bs` |
 | `12-10` | 用→loṅ [*m.loŋ-s] (1185a) | `loṅ` | `head_graph_oc_bs` |

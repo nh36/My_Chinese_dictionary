@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 941
-- Roots whose display label changed after document-wide renumbering: 529
-- Duplicate phonetic bases encountered in document order: 248
+- Mutable series/subseries roots inspected: 948
+- Roots whose display label changed after document-wide renumbering: 531
+- Duplicate phonetic bases encountered in document order: 249
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -587,18 +587,25 @@
 | `11-15` | `series-root` | 彔 | `rok` | 1 | `rok` | yes |
 | `11-16` | `series-root` | 鹿 | `myk` | 4 | `myk₄` | yes |
 | `11-17` | `series-root` | 辱 | `nok` | 1 | `nok` | yes |
+| `11-18` | `series-root` | 族 | `ts\textoverset{a}{o}k` | 1 | `ts\textoverset{a}{o}k` | yes |
+| `11-19` | `series-root` | 足 | `tsok` | 1 | `tsok` | yes |
+| `11-20` | `series-root` | 粟 | `sok` | 1 | `sok` | yes |
 | `11-21` | `series-root` | 束 | `tok` | 5 | `tok₅` | yes |
 | `11-21` | `subseries-root` | 欶 | `t\textoverset{a}{o}k` | 1 | `t\textoverset{a}{o}k` | yes |
 | `11-22` | `series-root` | 卜 | `pok` | 1 | `pok` | yes |
 | `11-23` | `series-root` | 菐 | `p\textoverset{a}{o}k` | 1 | `p\textoverset{a}{o}k` | yes |
+| `11-24` | `series-root` | 木 | `m\textoverset{a}{o}k` | 1 | `m\textoverset{a}{o}k` | yes |
+| `11-24` | `subseries-root` | 沐 | `m\textoverset{a}{o}k` | 2 | `m\textoverset{a}{o}k₂` | yes |
 | `12-01` | `series-root` | 工 | `koṅ` | 1 | `koṅ` | yes |
 | `12-01` | `subseries-root` | 空 | `kh\textoverset{a}{o}ṅ` | 1 | `kh\textoverset{a}{o}ṅ` | yes |
 | `12-01` | `subseries-root` | 𢀜 | `k\textoverset{b}{o}ṅ` | 1 | `k\textoverset{b}{o}ṅ` | yes |
 | `12-01` | `subseries-root` | 江 | `k\textoverset{a}{o}ṅ` | 1 | `k\textoverset{a}{o}ṅ` | yes |
+| `12-02` | `series-root` | 孔 | `koṅ` | 2 | `koṅ₂` | yes |
 | `12-03` | `series-root` | 廾 | `k\textoverset{b}{o}ṅ` | 2 | `k\textoverset{b}{o}ṅ₂` | yes |
-| `12-03` | `subseries-root` | 共 | `koṅ` | 2 | `koṅ₂` | yes |
+| `12-03` | `subseries-root` | 共 | `koṅ` | 3 | `koṅ₃` | yes |
 | `12-05` | `series-root` | 凶 | `q\textoverset{b}{o}ṅ` | 1 | `q\textoverset{b}{o}ṅ` | yes |
 | `12-05` | `subseries-root` | 匈 | `q\textoverset{b}{o}ṅ` | 2 | `q\textoverset{b}{o}ṅ₂` | yes |
+| `12-07` | `series-root` | 妐 | `qoṅ` | 1 | `qoṅ` | yes |
 | `12-08` | `series-root` | 重 | `toṅ` | 1 | `toṅ` | yes |
 | `12-08` | `subseries-root` | 童 | `toṅ` | 2 | `toṅ₂` | yes |
 | `12-08` | `subseries-root` | 動 | `t\textoverset{a}{o}ṅ` | 1 | `t\textoverset{a}{o}ṅ` | yes |

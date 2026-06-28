@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T07:56:51.746744+00:00
+- Generated at: 2026-06-28T08:04:40.768403+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20473
+- Total occurrences audited: 20513
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20264 |
+| `canonical` | 20304 |
 | `explicit_alias` | 11 |
 | `needs_review` | 198 |
 
@@ -143,6 +143,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `11-13` | `瘃` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒豖` | `瘃	%zhú
 {\large{\textsuperscript{infirm·}tok₄}},
 \textit{trjowk};	%1218` |
+| `curation_json` | `11-18` | `瘯` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒族` | `瘯	%cu4
+{\large{\textsuperscript{infirm·}ts\textoverset{a}{o}k}},
+\textit{tshuwk};	%1206e` |
 | `curation_json` | `12-08` | `𤺄` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒童` | `𤺄	%zhong3
 {\large{\textsuperscript{infirm·}toṅ₂}},
 \textit{jiəwṅX};	%1188d'` |
@@ -300,6 +303,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `11-13` | `瘃` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒豖` | `瘃	%zhú
 {\large{\textsuperscript{infirm·}tok₄}},
 \textit{trjowk};	%1218` |
+| `integrated_series_curated_entry` | `11-18` | `瘯` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒族` | `瘯	%cu4
+{\large{\textsuperscript{infirm·}ts\textoverset{a}{o}k}},
+\textit{tshuwk};	%1206e` |
 | `integrated_series_curated_entry` | `12-08` | `𤺄` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒童` | `𤺄	%zhong3
 {\large{\textsuperscript{infirm·}toṅ₂}},
 \textit{jiəwṅX};	%1188d'` |
@@ -416,6 +422,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔeṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}  *su₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₄}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ts\textoverset{a}{o}k}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}toṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}loṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
@@ -468,6 +475,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}ko}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}  *su₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tok₄}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ts\textoverset{a}{o}k}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}toṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}loṅ₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
