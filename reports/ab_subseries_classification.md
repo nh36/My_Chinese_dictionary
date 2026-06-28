@@ -1,16 +1,16 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 877
+- Generated subgroup heads inspected: 879
 - Subgroups newly marked with `a`: 112
 - Subgroups newly marked with `b`: 97
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 292
-- Mixed subgroups left unmarked: 370
-- Unresolved subgroups left unmarked: 6
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 294
+- Mixed subgroups left unmarked: 372
+- Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `01-09` | 豦 | `ka` | `k\textoverset{b}{a}` | `b` | yes | `giə, giəH, kiəX, giak, kiəH, giaek` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `01-09` | 遽 | `ka` | `k\textoverset{b}{a}₃` | `b` | yes | `giəH, giə, kiəX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `01-09` | 遽 | `ra` | `r\textoverset{b}{a}₂` | `b` | yes | `giəH, giə, kiəX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-20` | 䀠 | `kuak` | `ku\textoverset{b}{a}k` | `b` | yes | `kiuH, giu, giuH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-20` | 瞿 | `kuak` | `ku\textoverset{b}{a}k₂` | `b` | yes | `giu, giuH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `01-46` | 兔 | `la` | `l\textoverset{a}{a}` | `a` | yes | `thuH, du` | all extracted forms lack an i-medial after the onset |
@@ -431,8 +431,8 @@
 | `13-01` | 皐 | `ku` | `ku₆` | `a` | no | `kaw, ḫaw, ḫawX, ṅaw` | all extracted forms lack an i-medial after the onset |
 | `13-01` | 皋 | `ku` | `ku₅` | `a` | no | `kaw, ḫaw, ḫawX, ṅaw` | all extracted forms lack an i-medial after the onset |
 | `13-01` | 噑 | `ku` | `ku₇` | `a` | no | `ḫaw, ḫawX` | all extracted forms lack an i-medial after the onset |
-| `13-03` | 丂 | `` | `` | `unknown` | no | `` |  |
-| `13-03` | 考 | `` | `` | `unknown` | no | `` |  |
+| `13-03` | 丂 | `ku` | `ku` | `mixed` | no | `khawX, khaewH, khaewX, hiuwX` | the extracted forms point to both type a and type b |
+| `13-03` | 考 | `ku` | `ku₁₀` | `a` | no | `khawX` | all extracted forms lack an i-medial after the onset |
 | `13-06` | 韭 | `ku` | `ku` | `b` | no | `kiuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-07` | 咎 | `ku` | `ku` | `mixed` | no | `giuwX, kaw, kawX` | the extracted forms point to both type a and type b |
 | `13-08` | 丩 | `kiw` | `kiw` | `mixed` | no | `kyiw, kyiwX, gyiewX, gyiw, kewH` | the extracted forms point to both type a and type b |
@@ -602,10 +602,12 @@
 | `20-01` | 絜 | `ket` | `ket₃` | `a` | no | `ḫet, ket, khet` | all extracted forms lack an i-medial after the onset |
 | `20-02` | 介 | `kep` | `kep` | `a` | no | `keayH, keat, ḫeayH, heayH, kaeyH, keyH` | all extracted forms lack an i-medial after the onset |
 | `20-03` | 夬 | `kuet` | `kuet` | `mixed` | no | `kwaeyH, kwet, hwet, myieyH, khyiwet, khwet, hyiwet, qwet, khwaeyH` | the extracted forms point to both type a and type b |
+| `20-07` | 臬 | `ṅet` | `ṅet` | `mixed` | no | `ṅet, ṅiet, ṅieyH` | the extracted forms point to both type a and type b |
+| `20-09` | 屑 | `ṅet` | `ṅet₅` | `a` | no | `set` | all extracted forms lack an i-medial after the onset |
 | `20-13` | 埶 | `ṅet` | `ṅet` | `mixed` | no | `ṅieyH, śieyH, ṅet, ñiet, ñiwet, siet` | the extracted forms point to both type a and type b |
 | `20-13` | 蓺 | `ŋe` | `ŋe` | `b` | no | `ṅieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `20-13` | 藝 | `ŋe` | `ŋe₂` | `b` | no | `ṅieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `20-13` | 熱 | `ṅet` | `ṅet₃` | `b` | no | `ñiet, ñiwet` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `20-13` | 熱 | `ṅet` | `ṅet₇` | `b` | no | `ñiet, ñiwet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `20-16` | 敝 | `pet` | `pet` | `mixed` | no | `byieyH, pyieyH, pyiet, phyiet, bet` | the extracted forms point to both type a and type b |
 | `20-18` | 蔑 | `met` | `met` | `mixed` | no | `met, miət` | the extracted forms point to both type a and type b |
 | `21-01` | 匃 | `kat` | `kat` | `mixed` | no | `kayH, kat, hat, khat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |

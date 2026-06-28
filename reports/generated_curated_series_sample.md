@@ -588,6 +588,12 @@
 | `20-04` | `missing_series` | no | 2 | 0 |
 | `20-05` | `missing_series` | no | 1 | 0 |
 | `20-06` | `missing_series` | no | 1 | 0 |
+| `20-07` | `missing_series` | no | 4 | 3 |
+| `20-08` | `missing_series` | no | 1 | 0 |
+| `20-09` | `missing_series` | no | 6 | 1 |
+| `20-10` | `missing_series` | no | 1 | 0 |
+| `20-11` | `missing_series` | no | 1 | 0 |
+| `20-12` | `missing_series` | no | 2 | 0 |
 | `20-13` | `missing_series` | no | 11 | 9 |
 | `20-16` | `missing_series` | no | 11 | 9 |
 | `20-18` | `missing_series` | no | 8 | 6 |

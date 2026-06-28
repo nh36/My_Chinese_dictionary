@@ -403,12 +403,29 @@ def build_component_root_index(entries: list[dict[str, Any]]) -> dict[str, dict[
 
     index: dict[str, dict[str, Any]] = {}
     for graph, hints in hinted_roots.items():
-        roots = {hint["root"] for hint in hints if hint.get("root")}
-        if len(roots) != 1:
+        root_groups: dict[str, list[dict[str, Any]]] = {}
+        for hint in hints:
+            root = hint.get("root")
+            if not root:
+                continue
+            root_groups.setdefault(root, []).append(hint)
+        if not root_groups:
             continue
-        chosen = dict(hints[0])
-        chosen["support_count"] = len(hints)
-        chosen["supporting_sources"] = sorted({hint.get("source") for hint in hints if hint.get("source")})
+        if len(root_groups) == 1:
+            selected_root, selected_hints = next(iter(root_groups.items()))
+        else:
+            ranked = sorted(root_groups.items(), key=lambda item: len(item[1]), reverse=True)
+            top_root, top_hints = ranked[0]
+            second_count = len(ranked[1][1])
+            if len(top_hints) <= second_count:
+                continue
+            selected_root, selected_hints = top_root, top_hints
+        chosen = dict(selected_hints[0])
+        chosen["root"] = selected_root
+        chosen["support_count"] = len(selected_hints)
+        chosen["supporting_sources"] = sorted(
+            {hint.get("source") for hint in selected_hints if hint.get("source")}
+        )
         index[graph] = chosen
     return index
 

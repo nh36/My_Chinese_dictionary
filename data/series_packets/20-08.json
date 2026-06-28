@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-28T17:51:31.604515+00:00",
+  "gsc_id": "20-08",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "290"
+  ],
+  "schuessler": {
+    "gsc_id": "20-08",
+    "rhyme_section": 20,
+    "series_number": 8,
+    "k_tokens": [
+      "290"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.              MC             LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 252,
+    "source_line_number": 33,
+    "source_line_raw": "20-8 = K. 290 Mand.              MC             LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "20-08",
+    "rhyme_section": "20",
+    "series_number": "8",
+    "schuessler_k_tokens": "290",
+    "schuessler_source_page": "252",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "設",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "設",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "設"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "設",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2198",
+          "character": "設",
+          "pinyin": "she4",
+          "mc_nwh": "śiet",
+          "mc_bs": "syet",
+          "gsr": "0290a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "設",
+          "pinyin": "shè",
+          "mc_bs": "syet",
+          "mc_analyzed": "(sy- + -jet D)",
+          "oc_bs": "*ŋ̊et",
+          "gloss": "set up",
+          "gsr": "0290a",
+          "unicode_utf16": "U+8A2D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11881",
+          "character": "設",
+          "phonetic_component": "埶",
+          "component_level": "2",
+          "secondary_component": "設",
+          "fanqie": "識列",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰˡʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ŋ̊ʰˡʲed"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "śiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "śiet"
+        ],
+        "mand2mc_bs_forms": [
+          "syet"
+        ],
+        "bs_gsr_forms": [
+          "syet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2198",
+        "character": "設",
+        "pinyin": "she4",
+        "mc_nwh": "śiet",
+        "mc_bs": "syet",
+        "gsr": "0290a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "49",
+        "character": "設",
+        "pinyin": "shè",
+        "mc_bs": "syet",
+        "mc_analyzed": "(sy- + -jet D)",
+        "oc_bs": "*ŋ̊et",
+        "gloss": "set up",
+        "gsr": "0290a",
+        "unicode_utf16": "U+8A2D"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

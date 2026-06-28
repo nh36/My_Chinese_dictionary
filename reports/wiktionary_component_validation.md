@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5483
-- Pages fetched / cached successfully: 5405
-- Additions with explicit Han-compound semantic/phonetic roles: 2522
+- Proposed additions checked: 5498
+- Pages fetched / cached successfully: 5419
+- Additions with explicit Han-compound semantic/phonetic roles: 2527
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3398,6 +3398,21 @@
 | `20-04` | 札 | yes | yes | 木 | 乙 |
 | `20-05` | 隉 | yes | no |  |  |
 | `20-06` | 帠 | yes | no |  |  |
+| `20-07` | 臬 | no | no |  |  |
+| `20-07` | 闑 | yes | yes | 門 | 臬 |
+| `20-07` | 臲 | yes | no |  |  |
+| `20-07` | 㓷 | yes | no |  |  |
+| `20-08` | 設 | yes | yes | 言 | 埶 |
+| `20-09` | 隉 | yes | no |  |  |
+| `20-09` | 鐵 | yes | yes | 金 | 𢧤 |
+| `20-09` | 驖 | yes | yes | 馬 | 𢧜 |
+| `20-09` | 㞕 | yes | no |  |  |
+| `20-09` | 屑 | yes | no |  |  |
+| `20-09` | 觼 | yes | no |  |  |
+| `20-10` | 舌 | yes | no |  |  |
+| `20-11` | 竊 | yes | no |  | 禼 |
+| `20-12` | 𢧵 | yes | no |  |  |
+| `20-12` | 截 | yes | yes | 戈 | 雀 |
 | `20-13` | 埶 | yes | no |  |  |
 | `20-13` | 蓺 | yes | yes | 艸 | 埶 |
 | `20-13` | 藝 | yes | no |  |  |

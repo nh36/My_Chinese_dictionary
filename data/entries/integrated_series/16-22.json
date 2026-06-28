@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T15:54:25.521848+00:00",
+  "generated_at": "2026-06-28T18:01:21.753899+00:00",
   "id": "16-22",
   "schuessler": {
     "gsc_id": "16-22",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-28T15:46:20.774163+00:00",
+    "generated_at": "2026-06-28T17:51:32.272946+00:00",
     "id": "16-22",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -505,24 +505,26 @@
       },
       {
         "character": "少",
-        "gsr": "1149e",
+        "gsr": null,
         "oc_bs": "*sewʔ",
         "root": "sew",
-        "source": "head_graph_supplement",
-        "support_count": 1,
+        "source": "phonetic_component_series_root",
+        "support_count": 3,
         "supporting_sources": [
+          "phonetic_component_series_root",
           "head_graph_supplement"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "sew",
-      "source": "head_graph_supplement",
+      "source": "head_graph_supported_root",
       "character": "少",
       "oc_bs": "*sewʔ",
       "confidence": "provisional-oc",
-      "support_count": 1,
+      "support_count": 3,
       "supporting_sources": [
+        "phonetic_component_series_root",
         "head_graph_supplement"
       ],
       "head_gloss": null,

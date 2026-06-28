@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-06-28T17:51:31.639697+00:00",
+  "gsc_id": "20-10",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "288"
+  ],
+  "schuessler": {
+    "gsc_id": "20-10",
+    "rhyme_section": 20,
+    "series_number": 10,
+    "k_tokens": [
+      "288"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC             LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 252,
+    "source_line_number": 45,
+    "source_line_raw": "20-10 = K. 288 Mand.          MC             LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "20-10",
+    "rhyme_section": "20",
+    "series_number": "10",
+    "schuessler_k_tokens": "288",
+    "schuessler_source_page": "252",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "舌",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "舌",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "舌"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "舌",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2188",
+          "character": "舌",
+          "pinyin": "she2",
+          "mc_nwh": "źiet",
+          "mc_bs": "dzyet",
+          "gsr": "0288a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "49",
+          "character": "舌",
+          "pinyin": "shé",
+          "mc_bs": "zyet",
+          "mc_analyzed": "(zy- + -jet D)",
+          "oc_bs": "*mə.lat",
+          "gloss": "tongue",
+          "gsr": "0288a",
+          "unicode_utf16": "U+820C"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "4601",
+          "character": "舌",
+          "phonetic_component": "𠯑",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "下刮",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ɡʳo̠d"
+        },
+        {
+          "source_row_number": "11867",
+          "character": "舌",
+          "phonetic_component": "舌1",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "食列",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "ed",
+          "oc_syllable": "ɢlʲeb"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "źiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "źiet"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyet"
+        ],
+        "bs_gsr_forms": [
+          "zyet"
+        ],
+        "bs_not_in_mand2mc": [
+          "zyet"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dzyet"
+        ],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2188",
+        "character": "舌",
+        "pinyin": "she2",
+        "mc_nwh": "źiet",
+        "mc_bs": "dzyet",
+        "gsr": "0288a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "49",
+        "character": "舌",
+        "pinyin": "shé",
+        "mc_bs": "zyet",
+        "mc_analyzed": "(zy- + -jet D)",
+        "oc_bs": "*mə.lat",
+        "gloss": "tongue",
+        "gsr": "0288a",
+        "unicode_utf16": "U+820C"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

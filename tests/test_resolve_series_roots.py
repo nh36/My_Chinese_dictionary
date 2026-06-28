@@ -141,6 +141,29 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(index["廧"]["root"], "saṅ")
         self.assertEqual(index["𣪘"]["root"], "kuu")
 
+    def test_component_root_index_prefers_dominant_root_when_minor_conflict_exists(self) -> None:
+        dominant_entry = json.loads((ROOT / "data/entries/curation/22-01.json").read_text(encoding="utf-8"))
+        conflicting_entry = json.loads((ROOT / "data/entries/curation/20-10.json").read_text(encoding="utf-8"))
+        index = resolve_series_roots.build_component_root_index([dominant_entry, conflicting_entry])
+
+        self.assertEqual(index["𠯑"]["root"], "kot")
+        self.assertGreaterEqual(index["𠯑"]["support_count"], 2)
+
+    def test_07_18_reuses_dominant_phonetic_component_root(self) -> None:
+        dominant_entry = json.loads((ROOT / "data/entries/curation/22-01.json").read_text(encoding="utf-8"))
+        conflicting_entry = json.loads((ROOT / "data/entries/curation/20-10.json").read_text(encoding="utf-8"))
+        component_root_index = resolve_series_roots.build_component_root_index(
+            [dominant_entry, conflicting_entry]
+        )
+        entry = json.loads((ROOT / "data/entries/curation/07-18.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, component_root_index=component_root_index)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "咶")
+        self.assertEqual(resolved.get("root"), "kot")
+        self.assertEqual(resolved.get("source"), "head_graph_supported_root")
+        self.assertIn("phonetic_component_series_root", resolved.get("supporting_sources", []))
+
     def test_03_50_reuses_same_character_root_from_resolved_packet(self) -> None:
         hint_entry = json.loads((ROOT / "data/entries/curation/03-49.json").read_text(encoding="utf-8"))
         component_root_index = resolve_series_roots.build_component_root_index([hint_entry])
