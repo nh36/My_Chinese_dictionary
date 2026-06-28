@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5162
-- Pages fetched / cached successfully: 5085
-- Additions with explicit Han-compound semantic/phonetic roles: 2401
+- Proposed additions checked: 5178
+- Pages fetched / cached successfully: 5101
+- Additions with explicit Han-compound semantic/phonetic roles: 2406
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2394,6 +2394,7 @@
 | `13-14` | 瀀 | yes | no |  |  |
 | `13-14` | 纋 | yes | no |  |  |
 | `13-14` | 耰 | yes | no |  |  |
+| `13-15` | 麀 | yes | no |  |  |
 | `13-16` | 幺 | yes | no |  |  |
 | `13-16` | 𢆶 | yes | no |  |  |
 | `13-16` | 幽 | yes | yes | 山 | 𢆶 |
@@ -2402,6 +2403,21 @@
 | `13-16` | 黝 | yes | no |  |  |
 | `13-16` | 窈 | yes | yes | 穴 | 幼 |
 | `13-16` | 坳 | yes | yes | 土 | 幼 |
+| `13-17` | 窅 | yes | no |  |  |
+| `13-18` | 饕 | yes | yes | 食 | 號 |
+| `13-19` | 舟 | yes | no |  |  |
+| `13-19` | 侜 | yes | no |  |  |
+| `13-19` | 輈 | yes | no |  |  |
+| `13-19` | 受 | yes | no |  |  |
+| `13-19` | 授 | yes | yes | 手 | 受 |
+| `13-19` | 綬 | yes | no |  |  |
+| `13-20` | 州 | yes | no |  |  |
+| `13-20` | 洲 | yes | yes | 水 | 州 |
+| `13-20` | 酬 | yes | yes | 酉 | 州 |
+| `13-21` | 讎 | yes | yes | 言 | 雔 |
+| `13-21` | 犨 | yes | no |  |  |
+| `13-21` | 犫 | yes | no |  |  |
+| `13-21` | 售 | yes | no |  |  |
 | `13-22` | 鑄 | yes | yes | 金 | 壽 |
 | `13-22` | 𢏚 | yes | no |  |  |
 | `13-22` | 𠷎 | yes | no |  |  |

@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-06-28T09:38:57.979483+00:00",
+  "id": "13-18",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "13-18",
+    "rhyme_section": 13,
+    "series_number": 18,
+    "k_tokens": [
+      "1244h"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                      LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 198,
+    "source_line_number": 25,
+    "source_line_raw": "13-18    = K. 1244h           Mand.                      LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "13-18",
+    "rhyme_section": "13",
+    "series_number": "18",
+    "schuessler_k_tokens": "1244h",
+    "schuessler_source_page": "198",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "饕",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "饕"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1244h"
+  ],
+  "proposed_additions": [
+    {
+      "character": "饕",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "thaw"
+        ],
+        "mand2mc_nwh_forms": [
+          "thaw"
+        ],
+        "mand2mc_bs_forms": [
+          "thaw"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9101",
+          "character": "饕",
+          "pinyin": "tao1",
+          "mc_nwh": "thaw",
+          "mc_bs": "thaw",
+          "gsr": "1244h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5177",
+          "character": "饕",
+          "phonetic_component": "号",
+          "component_level": "2",
+          "secondary_component": "號",
+          "fanqie": "土刀",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "u̠",
+          "oc_syllable": "kʰlu̠"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|號|食|t2=food|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "號",
+            "食"
+          ],
+          "positional_components_raw": [
+            "號",
+            "食"
+          ],
+          "named_args": {
+            "t2": "food",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "食"
+          ],
+          "phonetic_components": [
+            "號"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|號|食|t2=food|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "號",
+              "食"
+            ],
+            "positional_components_raw": [
+              "號",
+              "食"
+            ],
+            "named_args": {
+              "t2": "food",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "食"
+            ],
+            "phonetic_components": [
+              "號"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "饕",
+          "ids": "⿱號食",
+          "phonetic_component": "号",
+          "semantic_component": "食",
+          "position": "suffix-colon",
+          "abbreviation": "ed",
+          "inventory_matches": [
+            {
+              "graph_raw": "食",
+              "label_token": "ed(o)",
+              "abbreviation": "ed",
+              "start_line": 265
+            },
+            {
+              "graph_raw": "食",
+              "label_token": "ed",
+              "abbreviation": "ed",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ed",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "食",
+            "label_token": "ed(o)",
+            "abbreviation": "ed",
+            "start_line": 265
+          },
+          {
+            "graph_raw": "食",
+            "label_token": "ed",
+            "abbreviation": "ed",
+            "learned": true,
+            "evidence_count": 6
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "食"
+      },
+      "transliteration_latex": "{\\large{ku₁₂\\textsuperscript{˸ed}}},",
+      "render_latex": "饕\t%tao1\n{\\large{ku₁₂\\textsuperscript{˸ed}}},\n\\textit{thaw};\t%1244h",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "食",
+        "phonetic_component": "號",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "饕",
+          "semantic_component": "食",
+          "phonetic_component": "號",
+          "position": "suffix-colon",
+          "abbreviation": "ed",
+          "inventory_matches": [
+            {
+              "graph_raw": "食",
+              "label_token": "ed(o)",
+              "abbreviation": "ed",
+              "start_line": 265
+            },
+            {
+              "graph_raw": "食",
+              "label_token": "ed",
+              "abbreviation": "ed",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ],
+          "template_raw": "{{Han compound|號|食|t2=food|ls=psc|c1=p|c2=s}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "饕",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "thaw"
+        ],
+        "mand2mc_nwh_forms": [
+          "thaw"
+        ],
+        "mand2mc_bs_forms": [
+          "thaw"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9101",
+          "character": "饕",
+          "pinyin": "tao1",
+          "mc_nwh": "thaw",
+          "mc_bs": "thaw",
+          "gsr": "1244h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5177",
+          "character": "饕",
+          "phonetic_component": "号",
+          "component_level": "2",
+          "secondary_component": "號",
+          "fanqie": "土刀",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "u̠",
+          "oc_syllable": "kʰlu̠"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "饕",
+      "gsr": null,
+      "oc_bs": "*kʰlu̠",
+      "root": "ku",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ku",
+    "source": "head_graph_oc_shengfu",
+    "character": "饕",
+    "oc_bs": "*kʰlu̠",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_shengfu",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "ku₁₂",
+    "base_root": "ku",
+    "ordinal": 12,
+    "numbering_source": "document_order_occurrence"
+  }
+}

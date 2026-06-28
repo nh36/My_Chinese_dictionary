@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 809
+- Generated subgroup heads inspected: 813
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 257
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 261
 - Mixed subgroups left unmarked: 348
 - Unresolved subgroups left unmarked: 4
 
@@ -445,8 +445,12 @@
 | `13-16` | 幺 | `ʔiw` | `ʔiw` | `mixed` | no | `qew, qyiwH, qyiw, qyiwX, qewX, qaew` | the extracted forms point to both type a and type b |
 | `13-16` | 𢆶 | `ʔiw` | `ʔiw₂` | `b` | no | `qyiw, qiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-16` | 幼 | `ʔiw` | `ʔiw₃` | `mixed` | no | `qyiwH, qyiw, qyiwX, qewX, qaew` | the extracted forms point to both type a and type b |
-| `13-22` | 𢏚 | `tu` | `tu` | `mixed` | no | `ḍiuw, jiuwH, jiuwX, ciuH, jiuw, ṭiuw, ḍiuwH, tawX, tawH, daw, dawH` | the extracted forms point to both type a and type b |
-| `13-22` | 壽 | `tu` | `tu₂` | `mixed` | no | `jiuwH, jiuwX, ciuH, ḍiuw, jiuw, ṭiuw, ḍiuwH, tawX, tawH, daw, dawH` | the extracted forms point to both type a and type b |
+| `13-19` | 舟 | `tu` | `tu` | `b` | no | `ciuw, ṭiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-19` | 受 | `tu` | `tu₂` | `b` | no | `jiuwX, jiuwH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-20` | 州 | `tu` | `tu` | `b` | no | `ciuw, jiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-21` | 讎 | `tu` | `tu` | `b` | no | `jiuw, chiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-22` | 𢏚 | `tu` | `tu₅` | `mixed` | no | `ḍiuw, jiuwH, jiuwX, ciuH, jiuw, ṭiuw, ḍiuwH, tawX, tawH, daw, dawH` | the extracted forms point to both type a and type b |
+| `13-22` | 壽 | `tu` | `tu₆` | `mixed` | no | `jiuwH, jiuwX, ciuH, ḍiuw, jiuw, ṭiuw, ḍiuwH, tawX, tawH, daw, dawH` | the extracted forms point to both type a and type b |
 | `13-27` | 舀 | `lu` | `lu` | `mixed` | no | `yiewX, yuw, yuwX, thaw, daw, dawX, dawH` | the extracted forms point to both type a and type b |
 | `13-30` | 由 | `lu` | `lu` | `mixed` | no | `yuw, ḍiuwk, yuwH, ḍiuw, ṭhiuw, ḍiuwH, ziuwH, dek` | the extracted forms point to both type a and type b |
 | `13-32` | 攸 | `liw` | `liw` | `mixed` | no | `yuw, dew, dewH, jiuwk` | the extracted forms point to both type a and type b |
