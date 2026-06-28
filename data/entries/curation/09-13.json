@@ -1,0 +1,997 @@
+{
+  "generated_at": "2026-06-28T07:20:17.275177+00:00",
+  "id": "09-13",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "09-13",
+    "rhyme_section": 9,
+    "series_number": 13,
+    "k_tokens": [
+      "363"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC             LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 163,
+    "source_line_number": 45,
+    "source_line_raw": "9-13 =K. 363          Man d.        MC             LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "09-13",
+    "rhyme_section": "9",
+    "series_number": "13",
+    "schuessler_k_tokens": "363",
+    "schuessler_source_page": "163",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "5",
+    "mand2mc_character_count": "3",
+    "mand2mc_characters_sample": "奠; 鄭; 躑",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "3",
+    "combined_source_characters_sample": "奠; 鄭; 躑"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "363"
+  ],
+  "proposed_additions": [
+    {
+      "character": "奠",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "deṅ",
+          "deṅH",
+          "denH"
+        ],
+        "mand2mc_nwh_forms": [
+          "deṅ",
+          "deṅH",
+          "denH"
+        ],
+        "mand2mc_bs_forms": [
+          "deng",
+          "dengH",
+          "denH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2673",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "deṅ",
+          "mc_bs": "deng",
+          "gsr": "0363a"
+        },
+        {
+          "source_row_number": "2674",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "deṅH",
+          "mc_bs": "dengH",
+          "gsr": "0363a"
+        },
+        {
+          "source_row_number": "2675",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "denH",
+          "mc_bs": "denH",
+          "gsr": "0363a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2486",
+          "character": "奠",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2481",
+          "character": "鄭",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        },
+        {
+          "source_row_number": "2482",
+          "character": "㽀",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        },
+        {
+          "source_row_number": "2483",
+          "character": "擲",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        },
+        {
+          "source_row_number": "2484",
+          "character": "躑",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        },
+        {
+          "source_row_number": "2485",
+          "character": "㞟",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都挺",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ŋʔ",
+          "oc_syllable": "ti̠ŋʔ"
+        },
+        {
+          "source_row_number": "2486",
+          "character": "奠",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        },
+        {
+          "source_row_number": "2487",
+          "character": "㞟",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tiṅ}},",
+      "render_latex": "奠\t%dian4\n{\\large{tiṅ}},\n\\textit{deṅ};\t%0363a\n\\textit{deṅH};\n\\textit{denH};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "奠",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "奠"
+      },
+      "resolved_node_root": {
+        "root": "tiṅ",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 2,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "tiṅ",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "deṅ",
+          "deṅH",
+          "denH",
+          "ḍieṅH",
+          "ḍiek"
+        ],
+        "form_analyses": [
+          {
+            "form": "deṅ",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "deṅH",
+            "normalized": "deṅ",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "denH",
+            "normalized": "den",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ḍieṅH",
+            "normalized": "ḍieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḍiek",
+            "normalized": "ḍiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "鄭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍieṅH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍieṅH"
+        ],
+        "mand2mc_bs_forms": [
+          "drjengH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2676",
+          "character": "鄭",
+          "pinyin": "zheng4",
+          "mc_nwh": "ḍieṅH",
+          "mc_bs": "drjengH",
+          "gsr": "0363e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2481",
+          "character": "鄭",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|奠|邑|c1=p|c2=s|ls=psc}}",
+          "positional_components": [
+            "奠",
+            "邑"
+          ],
+          "positional_components_raw": [
+            "奠",
+            "邑"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "邑"
+          ],
+          "phonetic_components": [
+            "奠"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|奠|邑|c1=p|c2=s|ls=psc}}",
+            "positional_components": [
+              "奠",
+              "邑"
+            ],
+            "positional_components_raw": [
+              "奠",
+              "邑"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "邑"
+            ],
+            "phonetic_components": [
+              "奠"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鄭",
+          "ids": "⿰奠阝",
+          "phonetic_component": "奠",
+          "semantic_component": "阝",
+          "position": "suffix-dot",
+          "abbreviation": "tum",
+          "inventory_matches": [
+            {
+              "graph_raw": "阝",
+              "label_token": "tum",
+              "abbreviation": "tum",
+              "learned": true,
+              "evidence_count": 8
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "urb",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "邑",
+            "label_token": "urb(s)",
+            "abbreviation": "urb",
+            "start_line": 425
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "邑"
+      },
+      "transliteration_latex": "{\\large{tiṅ\\textsuperscript{·urb}}},",
+      "render_latex": "鄭\t%zheng4\n{\\large{tiṅ\\textsuperscript{·urb}}},\n\\textit{ḍieṅH};\t%0363e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "邑",
+        "phonetic_component": "奠",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鄭",
+          "semantic_component": "邑",
+          "phonetic_component": "奠",
+          "position": "suffix-dot",
+          "abbreviation": "urb",
+          "inventory_matches": [
+            {
+              "graph_raw": "邑",
+              "label_token": "urb(s)",
+              "abbreviation": "urb",
+              "start_line": 425
+            }
+          ],
+          "template_raw": "{{Han compound|奠|邑|c1=p|c2=s|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奠",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "奠"
+      },
+      "resolved_node_root": {
+        "root": "tiṅ",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "tiṅ₂",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "ḍieṅH",
+          "ḍiek"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḍieṅH",
+            "normalized": "ḍieṅ",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḍiek",
+            "normalized": "ḍiek",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ],
+        "base_root": "tiṅ",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "躑",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍiek"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍiek"
+        ],
+        "mand2mc_bs_forms": [
+          "drjek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2677",
+          "character": "躑",
+          "pinyin": "zhi2",
+          "mc_nwh": "ḍiek",
+          "mc_bs": "drjek",
+          "gsr": "0363f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2484",
+          "character": "躑",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|足|鄭|c1=s|c2=p|t1=foot|ls=psc}}",
+          "positional_components": [
+            "足",
+            "鄭"
+          ],
+          "positional_components_raw": [
+            "足",
+            "鄭"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "foot",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "足"
+          ],
+          "phonetic_components": [
+            "鄭"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|足|鄭|c1=s|c2=p|t1=foot|ls=psc}}",
+            "positional_components": [
+              "足",
+              "鄭"
+            ],
+            "positional_components_raw": [
+              "足",
+              "鄭"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "foot",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "足"
+            ],
+            "phonetic_components": [
+              "鄭"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "躑",
+          "ids": "⿰𧾷鄭",
+          "phonetic_component": "奠",
+          "semantic_component": "𧾷",
+          "position": "prefix-dot",
+          "abbreviation": "ped",
+          "inventory_matches": [
+            {
+              "graph_raw": "𧾷",
+              "label_token": "ped",
+              "abbreviation": "ped",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ped",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "足",
+            "label_token": "(pes,) ped(is)",
+            "abbreviation": "ped",
+            "start_line": 354
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "足"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}tiṅ₂}},",
+      "render_latex": "躑\t%zhi2\n{\\large{\\textsuperscript{ped·}tiṅ₂}},\n\\textit{ḍiek};\t%0363f",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "足",
+        "phonetic_component": "鄭",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "躑",
+          "semantic_component": "足",
+          "phonetic_component": "鄭",
+          "position": "prefix-dot",
+          "abbreviation": "ped",
+          "inventory_matches": [
+            {
+              "graph_raw": "足",
+              "label_token": "(pes,) ped(is)",
+              "abbreviation": "ped",
+              "start_line": 354
+            }
+          ],
+          "template_raw": "{{Han compound|足|鄭|c1=s|c2=p|t1=foot|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "鄭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "鄭"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "奠",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "deṅ",
+          "deṅH",
+          "denH"
+        ],
+        "mand2mc_nwh_forms": [
+          "deṅ",
+          "deṅH",
+          "denH"
+        ],
+        "mand2mc_bs_forms": [
+          "deng",
+          "dengH",
+          "denH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2673",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "deṅ",
+          "mc_bs": "deng",
+          "gsr": "0363a"
+        },
+        {
+          "source_row_number": "2674",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "deṅH",
+          "mc_bs": "dengH",
+          "gsr": "0363a"
+        },
+        {
+          "source_row_number": "2675",
+          "character": "奠",
+          "pinyin": "dian4",
+          "mc_nwh": "denH",
+          "mc_bs": "denH",
+          "gsr": "0363a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2486",
+          "character": "奠",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2481",
+          "character": "鄭",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        },
+        {
+          "source_row_number": "2482",
+          "character": "㽀",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        },
+        {
+          "source_row_number": "2483",
+          "character": "擲",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        },
+        {
+          "source_row_number": "2484",
+          "character": "躑",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        },
+        {
+          "source_row_number": "2485",
+          "character": "㞟",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都挺",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ŋʔ",
+          "oc_syllable": "ti̠ŋʔ"
+        },
+        {
+          "source_row_number": "2486",
+          "character": "奠",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        },
+        {
+          "source_row_number": "2487",
+          "character": "㞟",
+          "phonetic_component": "奠",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "堂練",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "i̠ŋs",
+          "oc_syllable": "di̠ŋs"
+        }
+      ]
+    },
+    {
+      "character": "鄭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍieṅH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍieṅH"
+        ],
+        "mand2mc_bs_forms": [
+          "drjengH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2676",
+          "character": "鄭",
+          "pinyin": "zheng4",
+          "mc_nwh": "ḍieṅH",
+          "mc_bs": "drjengH",
+          "gsr": "0363e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2481",
+          "character": "鄭",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直正",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eŋs",
+          "oc_syllable": "deŋs"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "躑",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍiek"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍiek"
+        ],
+        "mand2mc_bs_forms": [
+          "drjek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2677",
+          "character": "躑",
+          "pinyin": "zhi2",
+          "mc_nwh": "ḍiek",
+          "mc_bs": "drjek",
+          "gsr": "0363f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2484",
+          "character": "躑",
+          "phonetic_component": "奠",
+          "component_level": "2",
+          "secondary_component": "鄭",
+          "fanqie": "直炙",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "eɡ",
+          "oc_syllable": "deɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "奠",
+      "gsr": null,
+      "oc_bs": "*di̠ŋs",
+      "root": "tiṅ",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tiṅ",
+    "source": "head_graph_oc_shengfu",
+    "character": "奠",
+    "oc_bs": "*di̠ŋs",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "tiṅ",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "deṅ",
+      "deṅH",
+      "denH",
+      "ḍieṅH",
+      "ḍiek"
+    ],
+    "form_analyses": [
+      {
+        "form": "deṅ",
+        "normalized": "deṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "deṅH",
+        "normalized": "deṅ",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "denH",
+        "normalized": "den",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ḍieṅH",
+        "normalized": "ḍieṅ",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ḍiek",
+        "normalized": "ḍiek",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "tiṅ",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

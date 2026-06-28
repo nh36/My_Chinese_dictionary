@@ -1,14 +1,14 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 580
-- Proposed additions inspected: 5015
-- Additions with reusable semantic assignment from existing TeX: 5015
-- Additions with reusable transliteration LaTeX from existing TeX: 5015
-- Additions with reusable render block from existing TeX: 5015
-- Additions with IDS-derived semantic candidates: 3315
-- Additions with explicit Wiktionary Han-compound support: 2343
+- Curated entries inspected: 586
+- Proposed additions inspected: 5029
+- Additions with reusable semantic assignment from existing TeX: 5029
+- Additions with reusable transliteration LaTeX from existing TeX: 5029
+- Additions with reusable render block from existing TeX: 5029
+- Additions with IDS-derived semantic candidates: 3321
+- Additions with explicit Wiktionary Han-compound support: 2348
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4057
+- Additions assigned under generated candidate nodes: 4063
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 146
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -303,7 +303,9 @@
 | `08-17` | 4 | 4 | 4 | 4 |
 | `08-18` | 4 | 4 | 4 | 4 |
 | `08-19` | 17 | 17 | 17 | 17 |
+| `08-21` | 1 | 1 | 1 | 1 |
 | `08-22` | 1 | 1 | 1 | 1 |
+| `08-24` | 4 | 4 | 4 | 4 |
 | `09-01` | 19 | 19 | 19 | 19 |
 | `09-02` | 6 | 6 | 6 | 6 |
 | `09-03` | 7 | 7 | 7 | 7 |
@@ -316,6 +318,7 @@
 | `09-10` | 7 | 7 | 7 | 7 |
 | `09-11` | 14 | 14 | 14 | 14 |
 | `09-12` | 6 | 6 | 6 | 6 |
+| `09-13` | 3 | 3 | 3 | 3 |
 | `09-14` | 4 | 4 | 4 | 4 |
 | `09-15` | 2 | 2 | 2 | 2 |
 | `09-16` | 3 | 3 | 3 | 3 |
@@ -326,6 +329,7 @@
 | `09-21` | 1 | 1 | 1 | 1 |
 | `09-22` | 5 | 5 | 5 | 5 |
 | `09-23` | 4 | 4 | 4 | 4 |
+| `09-24` | 3 | 3 | 3 | 3 |
 | `09-25` | 29 | 29 | 29 | 29 |
 | `09-26` | 6 | 6 | 6 | 6 |
 | `09-27` | 4 | 4 | 4 | 4 |
@@ -335,6 +339,8 @@
 | `09-31` | 2 | 2 | 2 | 2 |
 | `09-32` | 1 | 1 | 1 | 1 |
 | `09-33` | 1 | 1 | 1 | 1 |
+| `10-14` | 1 | 1 | 1 | 1 |
+| `10-15` | 2 | 2 | 2 | 2 |
 | `10-21` | 2 | 2 | 2 | 2 |
 | `10-26` | 1 | 1 | 1 | 1 |
 | `10-35` | 16 | 16 | 16 | 16 |

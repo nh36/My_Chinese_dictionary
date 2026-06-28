@@ -150,13 +150,13 @@
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
-        "root": "quy₆",
+        "root": "quy",
         "source": "node_transliteration_fallback",
         "descendant_count": 2,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "quy₆",
+        "display_root": "quy",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
@@ -666,5 +666,54 @@
       ]
     }
   ],
-  "resolved_series_root": null
+  "resolved_series_root": {
+    "root": "quy",
+    "source": "head_graph_shengfu_head",
+    "character": "灰",
+    "oc_bs": "*qʷʰɯ̠",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "quy₆",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": false,
+    "mc_forms": [
+      "hwəy",
+      "khwəy",
+      "mwəy",
+      "mwəyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hwəy",
+        "normalized": "hwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khwəy",
+        "normalized": "khwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "mwəy",
+        "normalized": "mwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "mwəyH",
+        "normalized": "mwəy",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "quy",
+    "ordinal": 6,
+    "numbering_source": "document_order_occurrence"
+  }
 }

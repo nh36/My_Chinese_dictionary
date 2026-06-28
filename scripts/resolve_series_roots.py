@@ -703,8 +703,13 @@ def resolve_root(
         shengfu_candidates = [
             candidate for candidate in candidates if candidate.get("source") == "head_graph_oc_shengfu"
         ]
+        component_root_candidates = [
+            candidate for candidate in candidates if candidate.get("source") == "phonetic_component_series_root"
+        ]
         if len(bs_candidates) == 1 and len(shengfu_candidates) == 1:
             return resolved_root_from_candidate(bs_candidates[0], source="head_graph_bs_head")
+        if len(shengfu_candidates) == 1 and len(component_root_candidates) == 1:
+            return resolved_root_from_candidate(shengfu_candidates[0], source="head_graph_shengfu_head")
     ranked = sorted(
         candidates,
         key=lambda item: (-item.get("support_count", 1), item["root"]),

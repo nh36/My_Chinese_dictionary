@@ -1,0 +1,536 @@
+{
+  "generated_at": "2026-06-28T07:20:17.275897+00:00",
+  "id": "10-15",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "10-15",
+    "rhyme_section": 10,
+    "series_number": 15,
+    "k_tokens": [
+      "1235"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC            LHan           OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 174,
+    "source_line_number": 4,
+    "source_line_raw": "10-15 = K. 1235        Man d.       MC            LHan           OCM"
+  },
+  "coverage": {
+    "gsc_id": "10-15",
+    "rhyme_section": "10",
+    "series_number": "15",
+    "schuessler_k_tokens": "1235",
+    "schuessler_source_page": "174",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "斲; 鬭",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "斲",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "斲; 鬭"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1235"
+  ],
+  "proposed_additions": [
+    {
+      "character": "斲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "traewk"
+        ],
+        "bs_gsr_forms": [
+          "traewk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9029",
+          "character": "斲",
+          "pinyin": "zhuo2",
+          "mc_nwh": "ṭaewk",
+          "mc_bs": "traewk",
+          "gsr": "1235b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "斲",
+          "pinyin": "zhuó",
+          "mc_bs": "traewk",
+          "mc_analyzed": "(tr- + -aewk D)",
+          "oc_bs": "*Cə.tˤrok",
+          "gloss": "chop, cleave",
+          "gsr": "1235b",
+          "unicode_utf16": "U+65B2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2677",
+          "character": "斲",
+          "phonetic_component": "𠁁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "竹角",
+          "source": "广韵",
+          "oc_initial": "rt",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "rto̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "斲",
+          "ids": "⿰𠁁斤",
+          "phonetic_component": "𠁁",
+          "semantic_component": "斤",
+          "position": "suffix-dot",
+          "abbreviation": "libra",
+          "inventory_matches": [
+            {
+              "graph_raw": "斤",
+              "label_token": "libra",
+              "abbreviation": "libra",
+              "start_line": 311
+            },
+            {
+              "graph_raw": "斤",
+              "label_token": "libra",
+              "abbreviation": "libra",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "libra",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "斤",
+            "label_token": "libra",
+            "abbreviation": "libra",
+            "start_line": 311
+          },
+          {
+            "graph_raw": "斤",
+            "label_token": "libra",
+            "abbreviation": "libra",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "斤"
+      },
+      "transliteration_latex": "{\\large{t\\textoverset{a}{o}k\\textsuperscript{·libra}}},",
+      "render_latex": "斲\t%zhuo2 / zhuó\n{\\large{t\\textoverset{a}{o}k\\textsuperscript{·libra}}},\n\\textit{ṭaewk};\t%1235b",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "tok",
+        "source": "node_single_bs_head",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tok"
+        ],
+        "bs_node_roots": [
+          "trok"
+        ],
+        "display_root": "t\\textoverset{a}{o}k",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "ṭaewk",
+          "tuwH"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṭaewk",
+            "normalized": "ṭaewk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tuwH",
+            "normalized": "tuw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "鬭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tuwH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tuwH"
+        ],
+        "mand2mc_bs_forms": [
+          "tuwH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9030",
+          "character": "鬭",
+          "pinyin": "dou4",
+          "mc_nwh": "tuwH",
+          "mc_bs": "tuwH",
+          "gsr": "1235c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2675",
+          "character": "鬭",
+          "phonetic_component": "𠁁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都豆",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "o̠s",
+          "oc_syllable": "to̠s"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|鬥|t1=fight|斲|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "鬥",
+            "斲"
+          ],
+          "positional_components_raw": [
+            "鬥",
+            "斲"
+          ],
+          "named_args": {
+            "t1": "fight",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "鬥"
+          ],
+          "phonetic_components": [
+            "斲"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|鬥|t1=fight|斲|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "鬥",
+              "斲"
+            ],
+            "positional_components_raw": [
+              "鬥",
+              "斲"
+            ],
+            "named_args": {
+              "t1": "fight",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "鬥"
+            ],
+            "phonetic_components": [
+              "斲"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鬭",
+          "ids": "⿵鬥斲",
+          "phonetic_component": "𠁁",
+          "semantic_component": "鬥",
+          "position": "prefix-colon",
+          "abbreviation": "pugn",
+          "inventory_matches": [
+            {
+              "graph_raw": "鬥",
+              "label_token": "pugn(a)",
+              "abbreviation": "pugn",
+              "start_line": 373
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "pugn",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "鬥",
+            "label_token": "pugn(a)",
+            "abbreviation": "pugn",
+            "start_line": 373
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "鬥"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{pugn˸}t\\textoverset{a}{o}k}},",
+      "render_latex": "鬭\t%dou4\n{\\large{\\textsuperscript{pugn˸}t\\textoverset{a}{o}k}},\n\\textit{tuwH};\t%1235c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "鬥",
+        "phonetic_component": "斲",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鬭",
+          "semantic_component": "鬥",
+          "phonetic_component": "斲",
+          "position": "prefix-colon",
+          "abbreviation": "pugn",
+          "inventory_matches": [
+            {
+              "graph_raw": "鬥",
+              "label_token": "pugn(a)",
+              "abbreviation": "pugn",
+              "start_line": 373
+            }
+          ],
+          "template_raw": "{{Han compound|鬥|t1=fight|斲|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "斲",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "斲"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "斲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṭaewk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṭaewk"
+        ],
+        "mand2mc_bs_forms": [
+          "traewk"
+        ],
+        "bs_gsr_forms": [
+          "traewk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9029",
+          "character": "斲",
+          "pinyin": "zhuo2",
+          "mc_nwh": "ṭaewk",
+          "mc_bs": "traewk",
+          "gsr": "1235b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "斲",
+          "pinyin": "zhuó",
+          "mc_bs": "traewk",
+          "mc_analyzed": "(tr- + -aewk D)",
+          "oc_bs": "*Cə.tˤrok",
+          "gloss": "chop, cleave",
+          "gsr": "1235b",
+          "unicode_utf16": "U+65B2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2677",
+          "character": "斲",
+          "phonetic_component": "𠁁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "竹角",
+          "source": "广韵",
+          "oc_initial": "rt",
+          "oc_rhyme": "o̠ɡ",
+          "oc_syllable": "rto̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "鬭",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tuwH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tuwH"
+        ],
+        "mand2mc_bs_forms": [
+          "tuwH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9030",
+          "character": "鬭",
+          "pinyin": "dou4",
+          "mc_nwh": "tuwH",
+          "mc_bs": "tuwH",
+          "gsr": "1235c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2675",
+          "character": "鬭",
+          "phonetic_component": "𠁁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都豆",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "o̠s",
+          "oc_syllable": "to̠s"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "斲",
+      "gsr": "1235b",
+      "oc_bs": "*Cə.tˤrok",
+      "root": "tok",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "斲",
+      "gsr": null,
+      "oc_bs": "*rto̠ɡ",
+      "root": "rok",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "鬭",
+      "gsr": null,
+      "oc_bs": "*to̠s",
+      "root": "to",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": null
+}

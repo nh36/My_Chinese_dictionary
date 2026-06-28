@@ -640,6 +640,30 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         )
         self.assertEqual(root, "quaṅ")
 
+    def test_resolve_parent_display_root_falls_back_to_packet_head_node_root_when_series_root_missing(self) -> None:
+        entry = {
+            "packet_kind": "missing_series",
+            "resolved_series_root": None,
+            "proposed_additions": [{"character": "斲"}],
+        }
+        parent = {
+            "character": "斲",
+            "resolved_node_root": {"root": "tok", "display_root": r"t\textoverset{a}{o}k"},
+        }
+        child = {
+            "character": "鬭",
+            "hierarchy_assignment": {
+                "status": "assigned-to-candidate-node",
+                "parent_character": "斲",
+            },
+        }
+        root = build_semantic_evidence.resolve_parent_display_root_for_candidate(
+            entry,
+            child,
+            {"斲": parent, "鬭": child},
+        )
+        self.assertEqual(root, r"t\textoverset{a}{o}k")
+
 
 if __name__ == "__main__":
     unittest.main()

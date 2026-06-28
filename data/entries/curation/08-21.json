@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-06-28T07:20:17.274173+00:00",
+  "id": "08-21",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "08-21",
+    "rhyme_section": 8,
+    "series_number": 21,
+    "k_tokens": [
+      "859"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC           LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 158,
+    "source_line_number": 46,
+    "source_line_raw": "8-21   =K. 859        Man d.        MC           LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "08-21",
+    "rhyme_section": "8",
+    "series_number": "21",
+    "schuessler_k_tokens": "859",
+    "schuessler_source_page": "158",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "鼏",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "鼏"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "859"
+  ],
+  "proposed_additions": [
+    {
+      "character": "鼏",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mek"
+        ],
+        "mand2mc_nwh_forms": [
+          "mek"
+        ],
+        "mand2mc_bs_forms": [
+          "mek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6345",
+          "character": "鼏",
+          "pinyin": "mi4",
+          "mc_nwh": "mek",
+          "mc_bs": "mek",
+          "gsr": "0859a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12993",
+          "character": "鼏",
+          "phonetic_component": "冂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "莫狄",
+          "source": "广韵",
+          "oc_initial": "m",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "me̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|冖|鼎|c1=p|c2=s|t1=cover|t2=[[ding]]|ls=ic|ls2=psc}}",
+          "positional_components": [
+            "冖",
+            "鼎"
+          ],
+          "positional_components_raw": [
+            "冖",
+            "鼎"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t1": "cover",
+            "t2": "[[ding]]",
+            "ls": "ic",
+            "ls2": "psc"
+          },
+          "semantic_components": [
+            "鼎"
+          ],
+          "phonetic_components": [
+            "冖"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|冖|鼎|c1=p|c2=s|t1=cover|t2=[[ding]]|ls=ic|ls2=psc}}",
+            "positional_components": [
+              "冖",
+              "鼎"
+            ],
+            "positional_components_raw": [
+              "冖",
+              "鼎"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t1": "cover",
+              "t2": "[[ding]]",
+              "ls": "ic",
+              "ls2": "psc"
+            },
+            "semantic_components": [
+              "鼎"
+            ],
+            "phonetic_components": [
+              "冖"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{mek\\textsuperscript{˸trip}}},",
+      "render_latex": "鼏\t%mi4\n{\\large{mek\\textsuperscript{˸trip}}},\n\\textit{mek};\t%0859a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "鼎",
+        "phonetic_component": "冖",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鼏",
+          "semantic_component": "鼎",
+          "phonetic_component": "冖",
+          "position": "suffix-colon",
+          "abbreviation": "trip",
+          "inventory_matches": [
+            {
+              "graph_raw": "鼎",
+              "label_token": "trip(us)",
+              "abbreviation": "trip",
+              "start_line": 412
+            }
+          ],
+          "template_raw": "{{Han compound|冖|鼎|c1=p|c2=s|t1=cover|t2=[[ding]]|ls=ic|ls2=psc}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "trip",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "鼎",
+            "label_token": "trip(us)",
+            "abbreviation": "trip",
+            "start_line": 412
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "鼎"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "鼏",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mek"
+        ],
+        "mand2mc_nwh_forms": [
+          "mek"
+        ],
+        "mand2mc_bs_forms": [
+          "mek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6345",
+          "character": "鼏",
+          "pinyin": "mi4",
+          "mc_nwh": "mek",
+          "mc_bs": "mek",
+          "gsr": "0859a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12993",
+          "character": "鼏",
+          "phonetic_component": "冂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "莫狄",
+          "source": "广韵",
+          "oc_initial": "m",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "me̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "鼏",
+      "gsr": null,
+      "oc_bs": "*me̠ɡ",
+      "root": "mek",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "mek",
+    "source": "head_graph_oc_shengfu",
+    "character": "鼏",
+    "oc_bs": "*me̠ɡ",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_shengfu",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "mek",
+    "base_root": "mek",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

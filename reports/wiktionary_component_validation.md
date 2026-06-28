@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5015
-- Pages fetched / cached successfully: 4941
-- Additions with explicit Han-compound semantic/phonetic roles: 2356
+- Proposed additions checked: 5029
+- Pages fetched / cached successfully: 4954
+- Additions with explicit Han-compound semantic/phonetic roles: 2361
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1709,7 +1709,12 @@
 | `08-19` | 避 | yes | yes | 辵 | 辟 |
 | `08-19` | 嬖 | yes | yes | 女 | 辟 |
 | `08-19` | 薜 | yes | yes | 艸 | 辟 |
+| `08-21` | 鼏 | yes | yes | 鼎 | 冖 |
 | `08-22` | 簚 | yes | no |  |  |
+| `08-24` | 脈 | yes | yes | 肉 | 𠂢 |
+| `08-24` | 脉 | yes | no |  |  |
+| `08-24` | 霢 | yes | no |  |  |
+| `08-24` | 覛 | yes | no |  |  |
 | `09-01` | 巠 | yes | no |  |  |
 | `09-01` | 經 | yes | yes | 糸 | 巠 |
 | `09-01` | 剄 | yes | yes | 刀 | 巠 |
@@ -1808,6 +1813,9 @@
 | `09-12` | 偵 | yes | yes | 人 | 貞 |
 | `09-12` | 楨 | yes | no |  |  |
 | `09-12` | 赬 | yes | no |  |  |
+| `09-13` | 奠 | yes | no |  |  |
+| `09-13` | 鄭 | yes | yes | 邑 | 奠 |
+| `09-13` | 躑 | yes | yes | 足 | 鄭 |
 | `09-14` | 成 | yes | yes | 戊 | 丁 |
 | `09-14` | 城 | yes | yes | 土 | 成 |
 | `09-14` | 誠 | yes | yes | 言 | 成 |
@@ -1877,6 +1885,9 @@
 | `09-23` | 崢 | yes | yes | 山 | 爭 |
 | `09-23` | 淨 | yes | no |  |  |
 | `09-23` | 竫 | yes | no |  |  |
+| `09-24` | 觲 | yes | no |  |  |
+| `09-24` | 觪 | yes | no |  |  |
+| `09-24` | 騂 | yes | no |  |  |
 | `09-25` | 晴 | yes | yes | 日 | 青 |
 | `09-25` | 生 | yes | no |  |  |
 | `09-25` | 腥 | yes | yes | 肉 | 星 |
@@ -1944,6 +1955,9 @@
 | `09-31` | 銘 | yes | yes | 金 | 名 |
 | `09-32` | 命 | yes | yes | 口 | 令 |
 | `09-33` | 鳴 | yes | no |  |  |
+| `10-14` | 𧱓 | no | no |  |  |
+| `10-15` | 斲 | yes | no |  |  |
+| `10-15` | 鬭 | yes | yes | 鬥 | 斲 |
 | `10-21` | 殳 | yes | no |  |  |
 | `10-21` | 投 | yes | yes | 手 | 殳 |
 | `10-26` | 戍 | yes | no |  |  |

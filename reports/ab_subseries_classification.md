@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 777
-- Subgroups newly marked with `a`: 98
+- Generated subgroup heads inspected: 782
+- Subgroups newly marked with `a`: 99
 - Subgroups newly marked with `b`: 89
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 246
-- Mixed subgroups left unmarked: 340
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 249
+- Mixed subgroups left unmarked: 341
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -165,7 +165,7 @@
 | `04-17` | 右 | `quy` | `quy₂` | `b` | no | `ḫiuwH, ḫiuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-17` | 有 | `quy` | `quy₃` | `mixed` | no | `ḫiuwX, qiuwk, ḫiuwH, ḫiuwk, ḫwiyX, hwəyX` | the extracted forms point to both type a and type b |
 | `04-18` | 尤 | `gy` | `gy` | `b` | no | `ḫiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `04-20` | 灰 | `quy₆` | `quy₆` | `a` | no | `hwəy, khwəy, mwəy, mwəyH` | all extracted forms lack an i-medial after the onset |
+| `04-20` | 灰 | `quy` | `quy` | `a` | no | `hwəy, khwəy, mwəy, mwəyH` | all extracted forms lack an i-medial after the onset |
 | `04-21` | 喜 | `qhy` | `qhy` | `b` | no | `xiX, xi, chiH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `04-23` | 疑 | `ṅy` | `ṅy` | `mixed` | no | `ṅi, ṅik, ṅiX, ṅəyH, ṅiṅ` | the extracted forms point to both type a and type b |
 | `04-26` | 止 | `ty` | `ty` | `b` | no | `ciX, ṭhiX, chiX` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -321,6 +321,7 @@
 | `08-17` | 脊 | `tsek` | `tsek` | `b` | no | `dziek, tsiek` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `08-18` | 析 | `sek` | `sek` | `a` | no | `sek` | all extracted forms lack an i-medial after the onset |
 | `08-19` | 辟 | `pek` | `pek` | `mixed` | no | `bek, byiek, pyiek, phyiek, pek, phek, byieH, mek, peak, pyieH, phyieH, peyH, beyH` | the extracted forms point to both type a and type b |
+| `08-24` | 脈 | `mik` | `mik` | `a` | no | `meak` | all extracted forms lack an i-medial after the onset |
 | `09-01` | 巠 | `leṅ` | `leṅ` | `mixed` | no | `keṅ, keṅX, keṅH, kheṅH, heṅH, heṅ, kyieṅH, gyieṅ, kyieṅX, khyieṅ, khyieṅH, heaṅ, kheaṅ, ḫeaṅ, ṅeaṅ, ṭhieṅ` | the extracted forms point to both type a and type b |
 | `09-01` | 輕 | `leṅ` | `leṅ₂` | `mixed` | no | `khyieṅ, khyieṅH, kheṅH` | the extracted forms point to both type a and type b |
 | `09-02` | 殸 | `qeṅ` | `qeṅ` | `mixed` | no | `kheṅH, kheṅX, heṅ, śieṅ` | the extracted forms point to both type a and type b |
@@ -336,6 +337,8 @@
 | `09-11` | 亭 | `teṅ` | `teṅ₂` | `a` | no | `deṅ` | all extracted forms lack an i-medial after the onset |
 | `09-11` | 正 | `teṅ` | `teṅ₃` | `mixed` | no | `cieṅ, cieṅH, cieṅX, ṭhieṅ, deṅH, teṅH` | the extracted forms point to both type a and type b |
 | `09-12` | 貞 | `teṅ` | `teṅ₅` | `b` | no | `ṭieṅ, ṭhieṅ, ṭhieṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `09-13` | 奠 | `tiṅ` | `tiṅ` | `mixed` | no | `deṅ, deṅH, denH, ḍieṅH, ḍiek` | the extracted forms point to both type a and type b |
+| `09-13` | 鄭 | `tiṅ` | `tiṅ₂` | `b` | no | `ḍieṅH, ḍiek` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-14` | 成 | `teṅ` | `teṅ` | `b` | no | `jieṅ, jieṅH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-15` | 盈 | `qeṅ` | `qeṅ` | `b` | no | `yieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-16` | 嬴 | `leṅ` | `leṅ` | `b` | no | `yieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -349,6 +352,7 @@
 | `09-22` | 井 | `tseṅ` | `tseṅ` | `b` | no | `tsieṅX, dzieṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-22` | 丼 | `tseṅ` | `tseṅ₃` | `b` | no | `tsieṅX, dzieṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-23` | 爭 | `tseṅ` | `tseṅ` | `mixed` | no | `tṣeaṅ, dẓeaṅ, dzieṅH` | the extracted forms point to both type a and type b |
+| `09-24` | 觲 | `seṅ` | `seṅ` | `b` | no | `sieṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `09-25` | 生 | `tseṅ` | `tseṅ₆` | `mixed` | no | `ṣaeṅ, tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX, ṣieṅX, sieṅX, sieṅH, tshenH, tṣeaṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
 | `09-25` | 青 | `tseṅ` | `tseṅ₇` | `mixed` | no | `tseṅ, tsheṅ, dzieṅ, tsieṅ, tshieṅH, tshieṅ, tshieṅX, dzieṅX` | the extracted forms point to both type a and type b |
 | `09-25` | 星 | `tseṅ` | `tseṅ₈` | `mixed` | no | `dzieṅ, seṅ, seṅH, seṅX` | the extracted forms point to both type a and type b |
@@ -358,6 +362,7 @@
 | `09-29` | 屏 | `peṅ` | `peṅ₄` | `mixed` | no | `beṅ, pyieṅ, pyieṅH, pyieṅX, byieṅH` | the extracted forms point to both type a and type b |
 | `09-30` | 冥 | `meṅ` | `meṅ` | `a` | no | `meṅ, meṅX, men, menH, mek` | all extracted forms lack an i-medial after the onset |
 | `09-31` | 名 | `meṅ` | `meṅ` | `mixed` | no | `myieṅ, meṅ` | the extracted forms point to both type a and type b |
+| `10-15` | 斲 | `tok` | `t\textoverset{a}{o}k` | `a` | yes | `ṭaewk, tuwH` | all extracted forms lack an i-medial after the onset |
 | `10-21` | 殳 | `to` | `to` | `mixed` | no | `jiu, duw` | the extracted forms point to both type a and type b |
 | `10-35` | 取 | `tso` | `tso` | `mixed` | no | `tshiuH, tshiuX, tshuwX, tsiu, dziuH, dziuX, dẓiuwH, tsuw, tsiuH, suwX, dzwan, tswayH, dzwayH, tṣhwaeyH, tṣhweayH, tshwat` | the extracted forms point to both type a and type b |
 | `10-35` | 聚 | `tso` | `ts\textoverset{b}{o}` | `b` | yes | `dziuH, dziuX, dẓiuwH` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -730,7 +735,7 @@
 | `34-30` | 巽 | `sun` | `sun` | `mixed` | no | `swənH, swinX, tswin, siwenH, siwenX, dẓiwenX, dẓiwenH, tshiwen` | the extracted forms point to both type a and type b |
 | `35-03` | 夾 | `kep` | `kep` | `a` | no | `keap, kep, heap, kaep, khep, hep, tsep` | all extracted forms lack an i-medial after the onset |
 | `35-03` | 匧 | `kep` | `kep₄` | `a` | no | `khep` | all extracted forms lack an i-medial after the onset |
-| `35-10` | 枼 | `ɡlep` | `ɡlep` | `mixed` | no | `yiep, dep, sep, śiet, źiet, śiep` | the extracted forms point to both type a and type b |
+| `35-10` | 枼 | `lep` | `lep` | `mixed` | no | `yiep, dep, sep, śiet, źiet, śiep` | the extracted forms point to both type a and type b |
 | `35-12` | 巤 | `rap` | `rap` | `mixed` | no | `liep, lap` | the extracted forms point to both type a and type b |
 | `35-21` | 劫 | `kap` | `k\textoverset{b}{a}p₂` | `b` | yes | `kiaep` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `35-21` | 盍 | `kap` | `kap` | `mixed` | no | `hap, kiaep, khiaep, piəp, kayH, xaep, khap, khəp, khaeyH, hiep` | the extracted forms point to both type a and type b |

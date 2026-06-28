@@ -1638,7 +1638,14 @@ def resolve_parent_root_for_candidate(
         if entry.get("packet_kind") == "missing_series":
             packet_head_character = resolve_missing_series_head_character(entry)
         if packet_head_character and assignment.get("parent_character") == packet_head_character:
-            return (entry.get("resolved_series_root") or {}).get("root")
+            packet_root = (entry.get("resolved_series_root") or {}).get("root")
+            if packet_root:
+                return packet_root
+            parent = candidate_map.get(assignment.get("parent_character"))
+            if parent:
+                node_root = (parent.get("resolved_node_root") or {}).get("root")
+                if node_root:
+                    return node_root
         parent = candidate_map.get(assignment.get("parent_character"))
         if parent:
             node_root = (parent.get("resolved_node_root") or {}).get("root")
@@ -1666,7 +1673,14 @@ def resolve_parent_display_root_for_candidate(
             packet_head_character = resolve_missing_series_head_character(entry)
         if packet_head_character and assignment.get("parent_character") == packet_head_character:
             resolved = entry.get("resolved_series_root") or {}
-            return resolved.get("display_root") or resolved.get("root")
+            packet_root = resolved.get("display_root") or resolved.get("root")
+            if packet_root:
+                return packet_root
+            parent = candidate_map.get(assignment.get("parent_character"))
+            if parent:
+                node_root = parent.get("resolved_node_root") or {}
+                if node_root.get("display_root") or node_root.get("root"):
+                    return node_root.get("display_root") or node_root.get("root")
         parent = candidate_map.get(assignment.get("parent_character"))
         if parent:
             node_root = parent.get("resolved_node_root") or {}

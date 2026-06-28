@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-06-28T07:20:17.101662+00:00",
+  "gsc_id": "08-21",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "859"
+  ],
+  "schuessler": {
+    "gsc_id": "08-21",
+    "rhyme_section": 8,
+    "series_number": 21,
+    "k_tokens": [
+      "859"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC           LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 158,
+    "source_line_number": 46,
+    "source_line_raw": "8-21   =K. 859        Man d.        MC           LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "08-21",
+    "rhyme_section": "8",
+    "series_number": "21",
+    "schuessler_k_tokens": "859",
+    "schuessler_source_page": "158",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "鼏",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "鼏"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "鼏",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "6345",
+          "character": "鼏",
+          "pinyin": "mi4",
+          "mc_nwh": "mek",
+          "mc_bs": "mek",
+          "gsr": "0859a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12993",
+          "character": "鼏",
+          "phonetic_component": "冂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "莫狄",
+          "source": "广韵",
+          "oc_initial": "m",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "me̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mek"
+        ],
+        "mand2mc_nwh_forms": [
+          "mek"
+        ],
+        "mand2mc_bs_forms": [
+          "mek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "6345",
+        "character": "鼏",
+        "pinyin": "mi4",
+        "mc_nwh": "mek",
+        "mc_bs": "mek",
+        "gsr": "0859a"
+      }
+    ],
+    "bs_gsr": []
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
