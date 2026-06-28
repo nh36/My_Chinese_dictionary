@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1120
-- Roots whose display label changed after document-wide renumbering: 661
-- Duplicate phonetic bases encountered in document order: 281
+- Mutable series/subseries roots inspected: 1126
+- Roots whose display label changed after document-wide renumbering: 666
+- Duplicate phonetic bases encountered in document order: 285
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -937,11 +937,17 @@
 | `20-13` | `subseries-root` | 蓺 | `ŋe` | 1 | `ŋe` | yes |
 | `20-13` | `subseries-root` | 藝 | `ŋe` | 2 | `ŋe₂` | yes |
 | `20-13` | `subseries-root` | 熱 | `ṅet` | 7 | `ṅet₇` | yes |
-| `20-16` | `series-root` | 敝 | `pet` | 1 | `pet` | yes |
+| `20-14` | `series-root` | 八 | `pet` | 1 | `pet` | yes |
+| `20-15` | `series-root` | 別 | `pet` | 2 | `pet₂` | yes |
+| `20-16` | `series-root` | 敝 | `pet` | 3 | `pet₃` | yes |
+| `20-17` | `series-root` | 拜 | `pot` | 1 | `pot` | yes |
 | `20-18` | `series-root` | 蔑 | `met` | 1 | `met` | yes |
+| `20-19` | `series-root` | 烕 | `met` | 2 | `met₂` | yes |
 | `21-01` | `series-root` | 匃 | `kat` | 2 | `kat₂` | yes |
 | `21-01` | `subseries-root` | 曷 | `kat` | 3 | `kat₃` | yes |
 | `21-01` | `subseries-root` | 葛 | `k\textoverset{a}{a}t` | 1 | `k\textoverset{a}{a}t` | yes |
+| `21-02` | `series-root` | 害 | `k\textoverset{a}{a}t` | 2 | `k\textoverset{a}{a}t₂` | yes |
+| `21-03` | `series-root` | 舝 | `ɡat` | 1 | `ɡat` | yes |
 | `21-12` | `series-root` | 大 | `lat` | 2 | `lat₂` | yes |
 | `21-12` | `subseries-root` | 太 | `l\textoverset{a}{a}t` | 1 | `l\textoverset{a}{a}t` | yes |
 | `21-19` | `series-root` | 折 | `tet` | 1 | `tet` | yes |
@@ -957,7 +963,7 @@
 | `21-30` | `series-root` | 癶 | `pat` | 1 | `pat` | yes |
 | `21-30` | `subseries-root` | 癹 | `pat` | 2 | `pat₂` | yes |
 | `21-30` | `subseries-root` | 發 | `pat` | 3 | `pat₃` | yes |
-| `21-31` | `series-root` | 犮 | `pot` | 1 | `pot` | yes |
+| `21-31` | `series-root` | 犮 | `pot` | 2 | `pot₂` | yes |
 | `22-01` | `series-root` | 氒 | `kot` | 2 | `kot₂` | yes |
 | `22-01` | `subseries-root` | 舌 | `k\textoverset{a}{o}t` | 1 | `k\textoverset{a}{o}t` | yes |
 | `22-01` | `subseries-root` | 活 | `k\textoverset{a}{o}t` | 2 | `k\textoverset{a}{o}t₂` | yes |

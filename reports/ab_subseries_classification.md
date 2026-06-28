@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 879
-- Subgroups newly marked with `a`: 112
+- Generated subgroup heads inspected: 881
+- Subgroups newly marked with `a`: 113
 - Subgroups newly marked with `b`: 97
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 294
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 295
 - Mixed subgroups left unmarked: 372
 - Unresolved subgroups left unmarked: 4
 
@@ -610,9 +610,11 @@
 | `20-13` | 熱 | `ṅet` | `ṅet₇` | `b` | no | `ñiet, ñiwet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `20-16` | 敝 | `pet` | `pet` | `mixed` | no | `byieyH, pyieyH, pyiet, phyiet, bet` | the extracted forms point to both type a and type b |
 | `20-18` | 蔑 | `met` | `met` | `mixed` | no | `met, miət` | the extracted forms point to both type a and type b |
+| `20-19` | 烕 | `met` | `met` | `b` | no | `hyiwet, myiet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-01` | 匃 | `kat` | `kat` | `mixed` | no | `kayH, kat, hat, khat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
 | `21-01` | 曷 | `kat` | `kat₃` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
 | `21-01` | 葛 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `kat, qayH` | all extracted forms lack an i-medial after the onset |
+| `21-02` | 害 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `hayH, hat, kaeyH, kat, ḫaet, hwat` | all extracted forms lack an i-medial after the onset |
 | `21-12` | 大 | `lat` | `lat` | `mixed` | no | `daH, dayH, thayH, that, deyH, jieyH` | the extracted forms point to both type a and type b |
 | `21-12` | 太 | `lat` | `l\textoverset{a}{a}t` | `a` | yes | `thayH, dayH, that` | all extracted forms lack an i-medial after the onset |
 | `21-19` | 折 | `tet` | `tet` | `mixed` | no | `dey, jiet, ciet, ṭiet, ṭhiet, cieyH, jieyH, ṭaet, tsyejH` | the extracted forms point to both type a and type b |

@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 744
-- Packets with at least one root candidate: 743
-- Packets with a single resolved provisional root: 741
+- Missing-series packets inspected: 750
+- Packets with at least one root candidate: 749
+- Packets with a single resolved provisional root: 747
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -578,9 +578,15 @@
 | `20-11` | 竊→tset [*tsʰˤet {*[tsʰ]ˤet}] (0309a) | `tset` | `head_graph_oc_bs` |
 | `20-12` | 𢧵→set [*ze̠d] (None) | `set` | `same_character_series_root` |
 | `20-13` | 埶→ṅe [*ŋet-s I!] (0330a); 埶→ṅet [*ŋ̊et-s] (0330a) | `ṅet` | `packet_shengfu_majority` |
+| `20-14` | 八→pet [*pˤret] (0281a) | `pet` | `head_graph_oc_bs` |
+| `20-15` | 別→pet [*N-pret] (0292a) | `pet` | `head_graph_oc_bs` |
 | `20-16` | 敝→pet [*bet-s {*[b]e[t]-s}] (0341a) | `pet` | `head_graph_oc_bs` |
+| `20-17` | 拜→pot [*C.pˤrot-s {*C.pˤro[t]-s}] (0328a) | `pot` | `head_graph_oc_bs` |
 | `20-18` | 蔑→met [*mˤet] (0311a) | `met` | `head_graph_oc_bs` |
+| `20-19` | 烕→met [*m̥et] (0294a) | `met` | `head_graph_oc_bs` |
 | `21-01` | 匃→kat [*kˤat-s {*[k]ˤat-s}] (0313a) | `kat` | `head_graph_oc_bs` |
+| `21-02` | 害→kat [*N-kˤat-s] (0314a) | `kat` | `head_graph_oc_bs` |
+| `21-03` | 舝→ɡat [*ɡˤrat-s] (None) | `ɡat` | `same_character_series_root` |
 | `21-12` | 大→la [*lˤat-s (F!)] (0317a); 大→lat [*lˤat-s {*lˤa[t]-s}] (0317a) | `lat` | `packet_bs_majority` |
 | `21-19` | 折→tet [*dˤet-s {*[d]ˤet-s}] (0287a) | `tet` | `head_graph_oc_bs` |
 | `21-23` | 世→lap [*l̥ap-s {*l̥[a]p-s}] (0339a) | `lap` | `head_graph_oc_bs` |

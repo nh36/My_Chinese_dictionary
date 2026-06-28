@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5498
-- Pages fetched / cached successfully: 5419
-- Additions with explicit Han-compound semantic/phonetic roles: 2527
+- Proposed additions checked: 5510
+- Pages fetched / cached successfully: 5431
+- Additions with explicit Han-compound semantic/phonetic roles: 2532
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3398,7 +3398,7 @@
 | `20-04` | 札 | yes | yes | 木 | 乙 |
 | `20-05` | 隉 | yes | no |  |  |
 | `20-06` | 帠 | yes | no |  |  |
-| `20-07` | 臬 | no | no |  |  |
+| `20-07` | 臬 | yes | no |  |  |
 | `20-07` | 闑 | yes | yes | 門 | 臬 |
 | `20-07` | 臲 | yes | no |  |  |
 | `20-07` | 㓷 | yes | no |  |  |
@@ -3424,6 +3424,8 @@
 | `20-13` | 勢 | yes | yes | 力 | 埶 |
 | `20-13` | 暬 | yes | no |  |  |
 | `20-13` | 褻 | yes | yes | 衣 | 埶 |
+| `20-14` | 八 | yes | no |  |  |
+| `20-15` | 別 | yes | no |  |  |
 | `20-16` | 敝 | yes | no |  |  |
 | `20-16` | 幣 | yes | yes | 巾 | 敝 |
 | `20-16` | 弊 | yes | yes | 廾 | 敝 |
@@ -3435,6 +3437,7 @@
 | `20-16` | 鱉 | yes | yes | 魚 | 敝 |
 | `20-16` | 憋 | yes | yes | 心 | 敝 |
 | `20-16` | 蹩 | yes | yes | 足 | 敝 |
+| `20-17` | 拜 | yes | no |  |  |
 | `20-18` | 蔑 | yes | no |  |  |
 | `20-18` | 幭 | yes | no |  |  |
 | `20-18` | 懱 | yes | no |  |  |
@@ -3443,6 +3446,9 @@
 | `20-18` | 篾 | yes | yes | 竹 | 蔑 |
 | `20-18` | 韈 | yes | no |  |  |
 | `20-18` | 韤 | yes | no |  |  |
+| `20-19` | 烕 | yes | yes | 火 | 戌 |
+| `20-19` | 滅 | yes | yes | 水 | 烕 |
+| `20-19` | 𡟬 | no | no |  |  |
 | `21-01` | 匃 | yes | no |  |  |
 | `21-01` | 藹 | yes | yes | 言 | 葛 |
 | `21-01` | 曷 | yes | yes | 曰 | 匃 |
@@ -3467,6 +3473,12 @@
 | `21-01` | 謁 | yes | yes | 言 | 曷 |
 | `21-01` | 餲 | yes | yes | 食 | 曷 |
 | `21-01` | 㵣 | yes | no |  |  |
+| `21-02` | 害 | yes | yes | 宀, 口 | 丯 |
+| `21-02` | 犗 | yes | no |  |  |
+| `21-02` | 割 | yes | yes | 刀 | 害 |
+| `21-02` | 轄 | yes | yes | 車 | 害 |
+| `21-02` | 豁 | yes | no |  |  |
+| `21-03` | 舝 | yes | no |  |  |
 | `21-12` | 大 | yes | no |  |  |
 | `21-12` | 太 | yes | no |  |  |
 | `21-12` | 汏 | yes | yes | 水 | 大 |
