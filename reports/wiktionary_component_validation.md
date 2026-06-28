@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5510
-- Pages fetched / cached successfully: 5431
-- Additions with explicit Han-compound semantic/phonetic roles: 2532
+- Proposed additions checked: 5518
+- Pages fetched / cached successfully: 5439
+- Additions with explicit Han-compound semantic/phonetic roles: 2535
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3479,6 +3479,14 @@
 | `21-02` | 轄 | yes | yes | 車 | 害 |
 | `21-02` | 豁 | yes | no |  |  |
 | `21-03` | 舝 | yes | no |  |  |
+| `21-04` | 孑 | yes | no |  |  |
+| `21-05` | 桀 | yes | yes | 木 | 匄 |
+| `21-05` | 傑 | yes | yes | 人 | 桀 |
+| `21-06` | 憩 | yes | no |  |  |
+| `21-07` | 瘞 | yes | yes | 土 | 㾜 |
+| `21-08` | 枿 | yes | no |  |  |
+| `21-09` | 歺 | yes | no |  |  |
+| `21-09` | 歹 | yes | no |  |  |
 | `21-12` | 大 | yes | no |  |  |
 | `21-12` | 太 | yes | no |  |  |
 | `21-12` | 汏 | yes | yes | 水 | 大 |

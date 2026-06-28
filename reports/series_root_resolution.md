@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 750
-- Packets with at least one root candidate: 749
-- Packets with a single resolved provisional root: 747
+- Missing-series packets inspected: 756
+- Packets with at least one root candidate: 755
+- Packets with a single resolved provisional root: 753
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -587,6 +587,12 @@
 | `21-01` | 匃→kat [*kˤat-s {*[k]ˤat-s}] (0313a) | `kat` | `head_graph_oc_bs` |
 | `21-02` | 害→kat [*N-kˤat-s] (0314a) | `kat` | `head_graph_oc_bs` |
 | `21-03` | 舝→ɡat [*ɡˤrat-s] (None) | `ɡat` | `same_character_series_root` |
+| `21-04` | 孑→ket [*ked] (None) | `ket` | `head_graph_oc_shengfu` |
+| `21-05` | 桀→kat [*m-k<r>at {*m-[k]<r>at}] (0284a) | `kat` | `head_graph_oc_bs` |
+| `21-06` | 憩→kat [*kʰʳads] (None) | `kat` | `head_graph_oc_shengfu` |
+| `21-07` | 瘞→qep [*qʳebs] (None); 瘞→kep [*kʳe̠b] (None) | `qep` | `head_graph_shengfu_head` |
+| `21-08` | 枿→ṅat [*ŋa̠d] (None) | `ṅat` | `head_graph_oc_shengfu` |
+| `21-09` | 歺→ṅat [*ŋa̠d] (None) | `ṅat` | `head_graph_oc_shengfu` |
 | `21-12` | 大→la [*lˤat-s (F!)] (0317a); 大→lat [*lˤat-s {*lˤa[t]-s}] (0317a) | `lat` | `packet_bs_majority` |
 | `21-19` | 折→tet [*dˤet-s {*[d]ˤet-s}] (0287a) | `tet` | `head_graph_oc_bs` |
 | `21-23` | 世→lap [*l̥ap-s {*l̥[a]p-s}] (0339a) | `lap` | `head_graph_oc_bs` |
