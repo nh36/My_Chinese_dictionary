@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 822
+- Generated subgroup heads inspected: 827
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 269
-- Mixed subgroups left unmarked: 349
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 272
+- Mixed subgroups left unmarked: 351
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -475,9 +475,14 @@
 | `13-48` | 柔 | `nu` | `nu` | `mixed` | no | `ñiuw, ñiuwH, ñiuwX, ṇiuwH, naw` | the extracted forms point to both type a and type b |
 | `13-50` | 丑 | `nu` | `nu` | `b` | no | `ṭhiuwX, ṇiuwX, siuw, ṇiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-51` | 早 | `tsu` | `tsu` | `a` | no | `tsawX, tshawX` | all extracted forms lack an i-medial after the onset |
+| `13-54` | 造 | `tsu` | `tsu` | `mixed` | no | `dzawX, tshawH, tṣhiuwH` | the extracted forms point to both type a and type b |
 | `13-55` | 曹 | `tsu` | `tsu` | `a` | no | `dzaw, dzawH, tsaw` | all extracted forms lack an i-medial after the onset |
+| `13-56` | 皂 | `su` | `su` | `a` | no | `dzawX` | all extracted forms lack an i-medial after the onset |
 | `13-57` | 秋 | `tsiw` | `tsiw` | `mixed` | no | `tshiuw, tsiuw, tsewX, dziuw, tṣiuwH, dẓiuw, dziuwX, tshiewX` | the extracted forms point to both type a and type b |
-| `13-60` | 蚤 | `su` | `su₂` | `mixed` | no | `tsawX, saw, sawX, tshawX, siuwX, tshek` | the extracted forms point to both type a and type b |
+| `13-58` | 就 | `tsuk` | `tsuk` | `b` | no | `dziuwH, dziuwk, tshiuwk, tsiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-59` | 爪 | `tsru` | `tsru` | `a` | no | `tṣaewX, tṣaew, tṣaewH` | all extracted forms lack an i-medial after the onset |
+| `13-60` | 蚤 | `su` | `su₃` | `mixed` | no | `tsawX, saw, sawX, tshawX, siuwX, tshek` | the extracted forms point to both type a and type b |
+| `13-61` | 帚 | `py` | `py` | `mixed` | no | `ciuwX, sawH, sawX` | the extracted forms point to both type a and type b |
 | `13-72` | 包 | `pu` | `pu` | `mixed` | no | `paew, phaew, biewX, paewX, baew, baewX, baw, bawH, bawX, biuw, baewH, phaewk, baewk` | the extracted forms point to both type a and type b |
 | `13-73` | 孚 | `pu` | `pu` | `mixed` | no | `phiu, biewX, phiuw, phwəy, biuw, baew` | the extracted forms point to both type a and type b |
 | `13-76` | 矛 | `mu` | `mu` | `mixed` | no | `miuw, muw, maew, miuH, miuX, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
@@ -664,7 +669,7 @@
 | `27-04` | 幾 | `ky` | `ky` | `b` | no | `giɨy, kiɨy, kiɨyX, kiɨyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `27-06` | 希 | `qhy` | `qhy` | `b` | no | `xiɨy, xiɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `27-08` | 非 | `py` | `py` | `mixed` | no | `piɨy, piɨyX, piɨyH, phiɨyX, phiɨy, biɨyH, biɨy, biɨyX, bwəy, piy, beay` | the extracted forms point to both type a and type b |
-| `27-08` | 匪 | `py` | `py₉` | `b` | no | `piɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `27-08` | 匪 | `py` | `py₁₀` | `b` | no | `piɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `28-01` | 鬼 | `ʔuy` | `ʔuy` | `mixed` | no | `kiwɨyX, kwəy, khwəy, khweayH, khwəyH, hwəyX, hweay, hwəy, ṅwəy, ṅwəyX, ṅiwɨy, ṅiwɨyH, kwiyH, hwəyH, kwiy, gwiyH` | the extracted forms point to both type a and type b |
 | `28-01` | 魏 | `qhuy` | `qhuy` | `b` | no | `ṅiwɨy, ṅiwɨyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `28-04` | 回 | `gy` | `gy` | `a` | no | `ḫwəy` | all extracted forms lack an i-medial after the onset |

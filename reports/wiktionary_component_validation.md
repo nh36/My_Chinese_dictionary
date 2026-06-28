@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5217
-- Pages fetched / cached successfully: 5139
-- Additions with explicit Han-compound semantic/phonetic roles: 2423
+- Proposed additions checked: 5232
+- Pages fetched / cached successfully: 5154
+- Additions with explicit Han-compound semantic/phonetic roles: 2427
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2584,12 +2584,18 @@
 | `13-51` | 草 | yes | yes | 艸 | 早 |
 | `13-52` | 屮 | yes | no |  |  |
 | `13-52` | 艸 | yes | no |  |  |
+| `13-53` | 棗 | yes | no |  |  |
+| `13-54` | 造 | yes | yes | 辵, 口 | 屮 |
+| `13-54` | 慥 | yes | yes | 心 | 造 |
+| `13-54` | 簉 | yes | no |  |  |
 | `13-55` | 曹 | yes | no |  |  |
 | `13-55` | 螬 | yes | no |  |  |
 | `13-55` | 漕 | yes | yes | 水 | 曹 |
 | `13-55` | 傮 | yes | no |  |  |
 | `13-55` | 糟 | yes | yes | 米 | 曹 |
 | `13-55` | 遭 | yes | yes | 辵 | 曹 |
+| `13-56` | 皂 | yes | no |  |  |
+| `13-56` | 皁 | yes | no |  |  |
 | `13-57` | 秋 | yes | yes | 禾 | 𤒅 |
 | `13-57` | 楸 | yes | no |  |  |
 | `13-57` | 萩 | yes | no |  |  |
@@ -2600,6 +2606,11 @@
 | `13-57` | 甃 | yes | no |  |  |
 | `13-57` | 愁 | yes | yes | 心 | 秋 |
 | `13-57` | 愀 | yes | no |  |  |
+| `13-58` | 就 | yes | no |  |  |
+| `13-58` | 蹴 | yes | yes | 足 | 就 |
+| `13-58` | 蹵 | yes | no |  |  |
+| `13-59` | 爪 | yes | no |  |  |
+| `13-59` | 抓 | yes | yes | 手 | 爪 |
 | `13-60` | 㕚 | yes | no |  |  |
 | `13-60` | 蚤 | yes | no |  |  |
 | `13-60` | 慅 | yes | no |  |  |
@@ -2607,6 +2618,10 @@
 | `13-60` | 騷 | yes | yes | 馬 | 蚤 |
 | `13-60` | 糔 | yes | no |  |  |
 | `13-60` | 鼜 | yes | no |  |  |
+| `13-61` | 帚 | yes | no |  |  |
+| `13-61` | 箒 | yes | no |  |  |
+| `13-61` | 埽 | yes | no |  |  |
+| `13-61` | 掃 | yes | no |  |  |
 | `13-72` | 包 | yes | no |  |  |
 | `13-72` | 胞 | yes | yes | 肉 | 包 |
 | `13-72` | 苞 | yes | yes | 艸 | 包 |

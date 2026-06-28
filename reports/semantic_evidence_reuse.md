@@ -1,14 +1,14 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 658
-- Proposed additions inspected: 5217
-- Additions with reusable semantic assignment from existing TeX: 5217
-- Additions with reusable transliteration LaTeX from existing TeX: 5217
-- Additions with reusable render block from existing TeX: 5217
-- Additions with IDS-derived semantic candidates: 3414
-- Additions with explicit Wiktionary Han-compound support: 2409
+- Curated entries inspected: 664
+- Proposed additions inspected: 5232
+- Additions with reusable semantic assignment from existing TeX: 5232
+- Additions with reusable transliteration LaTeX from existing TeX: 5232
+- Additions with reusable render block from existing TeX: 5232
+- Additions with IDS-derived semantic candidates: 3416
+- Additions with explicit Wiktionary Han-compound support: 2413
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4163
+- Additions assigned under generated candidate nodes: 4172
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 149
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -449,9 +449,15 @@
 | `13-50` | 6 | 6 | 6 | 6 |
 | `13-51` | 2 | 2 | 2 | 2 |
 | `13-52` | 2 | 2 | 2 | 2 |
+| `13-53` | 1 | 1 | 1 | 1 |
+| `13-54` | 3 | 3 | 3 | 3 |
 | `13-55` | 6 | 6 | 6 | 6 |
+| `13-56` | 2 | 2 | 2 | 2 |
 | `13-57` | 10 | 10 | 10 | 10 |
+| `13-58` | 3 | 3 | 3 | 3 |
+| `13-59` | 2 | 2 | 2 | 2 |
 | `13-60` | 7 | 7 | 7 | 7 |
+| `13-61` | 4 | 4 | 4 | 4 |
 | `13-72` | 14 | 14 | 14 | 14 |
 | `13-73` | 11 | 11 | 11 | 11 |
 | `13-76` | 16 | 16 | 16 | 16 |

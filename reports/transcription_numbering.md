@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1003
-- Roots whose display label changed after document-wide renumbering: 582
+- Mutable series/subseries roots inspected: 1009
+- Roots whose display label changed after document-wide renumbering: 587
 - Duplicate phonetic bases encountered in document order: 258
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -706,10 +706,16 @@
 | `13-50` | `series-root` | 丑 | `nu` | 3 | `nu₃` | yes |
 | `13-51` | `series-root` | 早 | `tsu` | 1 | `tsu` | yes |
 | `13-52` | `series-root` | 屮 | `kat` | 1 | `kat` | yes |
-| `13-55` | `series-root` | 曹 | `tsu` | 2 | `tsu₂` | yes |
+| `13-53` | `series-root` | 棗 | `tsu` | 2 | `tsu₂` | yes |
+| `13-54` | `series-root` | 造 | `tsu` | 3 | `tsu₃` | yes |
+| `13-55` | `series-root` | 曹 | `tsu` | 4 | `tsu₄` | yes |
+| `13-56` | `series-root` | 皂 | `su` | 1 | `su` | yes |
 | `13-57` | `series-root` | 秋 | `tsiw` | 1 | `tsiw` | yes |
-| `13-60` | `series-root` | 㕚 | `su` | 1 | `su` | yes |
-| `13-60` | `subseries-root` | 蚤 | `su` | 2 | `su₂` | yes |
+| `13-58` | `series-root` | 就 | `tsuk` | 1 | `tsuk` | yes |
+| `13-59` | `series-root` | 爪 | `tsu` | 5 | `tsu₅` | yes |
+| `13-60` | `series-root` | 㕚 | `su` | 2 | `su₂` | yes |
+| `13-60` | `subseries-root` | 蚤 | `su` | 3 | `su₃` | yes |
+| `13-61` | `series-root` | 帚 | `py` | 8 | `py₈` | yes |
 | `13-72` | `series-root` | 包 | `pu` | 2 | `pu₂` | yes |
 | `13-73` | `series-root` | 孚 | `pu` | 3 | `pu₃` | yes |
 | `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
@@ -940,8 +946,8 @@
 | `27-02` | `series-root` | 豈 | `qy` | 11 | `qy₁₁` | yes |
 | `27-04` | `series-root` | 幾 | `ky` | 7 | `ky₇` | yes |
 | `27-06` | `series-root` | 希 | `qy` | 12 | `qy₁₂` | yes |
-| `27-08` | `series-root` | 非 | `py` | 8 | `py₈` | yes |
-| `27-08` | `subseries-root` | 匪 | `py` | 9 | `py₉` | yes |
+| `27-08` | `series-root` | 非 | `py` | 9 | `py₉` | yes |
+| `27-08` | `subseries-root` | 匪 | `py` | 10 | `py₁₀` | yes |
 | `28-01` | `series-root` | 鬼 | `ʔuy` | 1 | `ʔuy` | yes |
 | `28-01` | `subseries-root` | 魏 | `qhuy` | 1 | `qhuy` | yes |
 | `28-04` | `series-root` | 回 | `quy` | 7 | `quy₇` | yes |

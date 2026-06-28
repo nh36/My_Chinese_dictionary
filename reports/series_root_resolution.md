@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 642
-- Packets with at least one root candidate: 641
-- Packets with a single resolved provisional root: 639
+- Missing-series packets inspected: 648
+- Packets with at least one root candidate: 647
+- Packets with a single resolved provisional root: 645
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -434,9 +434,15 @@
 | `13-50` | 丑→nu [*n̥ruʔ {*[n̥]ruʔ}] (1076a) | `nu` | `head_graph_oc_bs` |
 | `13-51` | 早→tsu [*Nə.tsˤuʔ {*Nə.[ts]ˤuʔ}] (1049a) | `tsu` | `head_graph_oc_bs` |
 | `13-52` | 屮→kat [*kʰlad] (None) | `kat` | `head_graph_oc_shengfu` |
+| `13-53` | 棗→tsu [*tsˤuʔ {*[ts]ˤuʔ}] (1050a) | `tsu` | `head_graph_oc_bs` |
+| `13-54` | 造→tsu [*Cə.dzˤuʔ] (1051a) | `tsu` | `head_graph_oc_bs` |
 | `13-55` | 曹→tsu [*N-tsˤu] (1053a) | `tsu` | `head_graph_oc_bs` |
+| `13-56` | 皂→su [*zu̠ʔ] (None); 皂→tsu [*Nə.tsˤuʔ {*Nə.[ts]ˤuʔ}] (None) | `su` | `head_graph_shengfu_head` |
 | `13-57` | 秋→tsiw [*tsʰiw] (1092a) | `tsiw` | `head_graph_oc_bs` |
-| `13-60` | 㕚→su [*sru̠ʔ] (None) | `su` | `head_graph_oc_shengfu` |
+| `13-58` | 就→tsuk [*dzuk-s {*[dz]u[k]-s}] (1093a) | `tsuk` | `head_graph_oc_bs` |
+| `13-59` | 爪→tsu [*[ts]ˤruʔ] (1111a) | `tsu` | `head_graph_oc_bs` |
+| `13-60` | 㕚→su [*sru̠ʔ] (None); 㕚→tsu [*[ts]ˤruʔ] (None) | `su` | `head_graph_shengfu_head` |
+| `13-61` | 帚→py [*t.pəʔ {*[t.p]əʔ}] (1087a) | `py` | `head_graph_oc_bs` |
 | `13-72` | 包→pu [*pˤ<r>u] (1113a) | `pu` | `head_graph_oc_bs` |
 | `13-73` | 孚→pu [*pʰu] (None) | `pu` | `head_graph_oc_shengfu` |
 | `13-76` | 矛→mu [*mu {*m(r)u}] (1109a) | `mu` | `head_graph_oc_bs` |
