@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5406
-- Pages fetched / cached successfully: 5325
-- Additions with explicit Han-compound semantic/phonetic roles: 2489
+- Proposed additions checked: 5423
+- Pages fetched / cached successfully: 5342
+- Additions with explicit Han-compound semantic/phonetic roles: 2494
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3184,6 +3184,9 @@
 | `16-33` | 稍 | yes | yes | 禾 | 肖 |
 | `16-34` | 笑 | yes | yes | 犬 | 艸 |
 | `16-35` | 表 | yes | no |  |  |
+| `16-36` | 髟 | yes | no |  |  |
+| `16-37` | 猋 | yes | no |  |  |
+| `16-38` | 驫 | yes | no |  |  |
 | `16-39` | 𤐫 | yes | no |  |  |
 | `16-39` | 票 | yes | no | 火, 𢍱 |  |
 | `16-39` | 𤒾 | no | no |  |  |
@@ -3196,6 +3199,13 @@
 | `16-39` | 縹 | yes | no |  |  |
 | `16-39` | 瓢 | yes | no |  |  |
 | `16-39` | 摽 | yes | no |  |  |
+| `16-40` | 麃 | yes | no |  |  |
+| `16-40` | 儦 | yes | no |  |  |
+| `16-40` | 瀌 | yes | no |  |  |
+| `16-40` | 穮 | yes | no |  |  |
+| `16-40` | 鑣 | yes | no |  |  |
+| `16-40` | 皫 | yes | no |  |  |
+| `16-40` | 犥 | yes | no |  |  |
 | `16-41` | 毛 | yes | no |  |  |
 | `16-41` | 旄 | yes | yes | 㫃 | 毛 |
 | `16-41` | 髦 | yes | no |  |  |
@@ -3204,6 +3214,13 @@
 | `16-41` | 眊 | yes | no |  |  |
 | `16-41` | 秏 | yes | no |  |  |
 | `16-41` | 耗 | yes | no |  |  |
+| `16-42` | 皃 | yes | no |  |  |
+| `16-42` | 貌 | yes | yes | 皃 | 豹 |
+| `16-42` | 藐 | yes | yes | 艸 | 貌 |
+| `16-42` | 邈 | yes | yes | 辵 | 貌 |
+| `16-43` | 苗 | yes | no |  |  |
+| `16-43` | 庿 | yes | yes | 广 | 苗 |
+| `16-43` | 貓 | yes | yes | 豸 | 苗 |
 | `17-05` | 勺 | yes | no |  |  |
 | `17-05` | 杓 | yes | no |  |  |
 | `17-05` | 汋 | yes | no |  |  |

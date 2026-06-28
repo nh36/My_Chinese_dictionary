@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 862
+- Generated subgroup heads inspected: 866
 - Subgroups newly marked with `a`: 108
 - Subgroups newly marked with `b`: 96
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 289
-- Mixed subgroups left unmarked: 363
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 291
+- Mixed subgroups left unmarked: 365
 - Unresolved subgroups left unmarked: 6
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -568,9 +568,13 @@
 | `16-33` | 小 | `sew` | `sew` | `b` | no | `siewX, śiewH, śiewX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-33` | 削 | `sew` | `sew₅` | `mixed` | no | `siak, siewH, ṣaewH, sew, ṣaew, ṣaewk` | the extracted forms point to both type a and type b |
 | `16-33` | 肖 | `sew` | `sew₄` | `mixed` | no | `siew, siewH, ṣaew, siak, ṣaewH, sew, ṣaewk, tshiewH, tshiewX, dziewH, dewX, ḍiewX` | the extracted forms point to both type a and type b |
-| `16-39` | 𤐫 | `pew` | `pew₃` | `b` | no | `phyiew, phyiewH, pyiew` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `16-39` | 票 | `pew` | `pew₂` | `mixed` | no | `phyiew, phyiewH, pyiew, phyiewX, byiew, byiewX, phaew, phew` | the extracted forms point to both type a and type b |
+| `16-39` | 𤐫 | `pew` | `pew₄` | `b` | no | `phyiew, phyiewH, pyiew` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `16-39` | 票 | `pew` | `pew₃` | `mixed` | no | `phyiew, phyiewH, pyiew, phyiewX, byiew, byiewX, phaew, phew` | the extracted forms point to both type a and type b |
+| `16-40` | 麃 | `pew` | `pew` | `mixed` | no | `baew, piew, phiewX` | the extracted forms point to both type a and type b |
 | `16-41` | 毛 | `maw` | `m\textoverset{a}{a}w` | `a` | yes | `maw, mawH, maewk, mak, hawH` | all extracted forms lack an i-medial after the onset |
+| `16-42` | 皃 | `mek` | `mek` | `a` | no | `maewH, maewk` | all extracted forms lack an i-medial after the onset |
+| `16-42` | 貌 | `mek` | `mek₄` | `a` | no | `maewH, maewk` | all extracted forms lack an i-medial after the onset |
+| `16-43` | 苗 | `maw` | `maw` | `mixed` | no | `miew, miewH, maew` | the extracted forms point to both type a and type b |
 | `17-05` | 勺 | `qek` | `qek` | `mixed` | no | `jiak, ciak, yak, tek, tewH, qiak, qyiewH, qaewk` | the extracted forms point to both type a and type b |
 | `17-05` | 約 | `qek` | `qek₂` | `mixed` | no | `qiak, qyiewH, qaewk` | the extracted forms point to both type a and type b |
 | `17-06` | 龠 | `lek` | `lek` | `b` | no | `yak, yuH` | all extracted forms show an i-medial or a dedicated palatal onset |

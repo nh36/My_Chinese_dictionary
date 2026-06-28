@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 708
-- Packets with at least one root candidate: 707
-- Packets with a single resolved provisional root: 705
+- Missing-series packets inspected: 714
+- Packets with at least one root candidate: 713
+- Packets with a single resolved provisional root: 711
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -530,8 +530,14 @@
 | `16-33` | 小→sew [*sewʔ {*[s]ewʔ}] (1149a) | `sew` | `head_graph_oc_bs` |
 | `16-34` | 笑→law [*s-law-s] (1150a) | `law` | `head_graph_oc_bs` |
 | `16-35` | 表→paw [*pawʔ {*p(r)awʔ}] (1153a) | `paw` | `head_graph_oc_bs` |
+| `16-36` | 髟→sam [*sˤram {*s[ˤ]ram}] (1154a) | `sam` | `head_graph_oc_bs` |
+| `16-37` | 猋→pew [*pew] (None) | `pew` | `head_graph_oc_shengfu` |
+| `16-38` | 驫→pew [*pew] (None); 驫→piw [*pʳiw] (None) | `piw` | `head_graph_supported_root` |
 | `16-39` | 𤐫→pew [*pʰew] (None) | `pew` | `head_graph_oc_shengfu` |
+| `16-40` | 麃→pew [*bʳe̠w] (None) | `pew` | `head_graph_oc_shengfu` |
 | `16-41` | 毛→maw [*C.mˤaw] (1137a) | `maw` | `head_graph_oc_bs` |
+| `16-42` | 皃→mek [*mʳe̠ɡʷ] (None) | `mek` | `head_graph_oc_shengfu` |
+| `16-43` | 苗→maw [*maw {*m(r)aw}] (1159a) | `maw` | `head_graph_oc_bs` |
 | `17-05` | 勺→qek [*m-t-qewk] (1120a) | `qek` | `head_graph_oc_bs` |
 | `17-06` | 龠→lek [*lewk] (1119a) | `lek` | `head_graph_oc_bs` |
 | `17-07` | 翟→lek [*lˤewk] (1124a) | `lek` | `head_graph_oc_bs` |

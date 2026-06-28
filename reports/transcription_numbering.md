@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1080
-- Roots whose display label changed after document-wide renumbering: 633
-- Duplicate phonetic bases encountered in document order: 271
+- Mutable series/subseries roots inspected: 1087
+- Roots whose display label changed after document-wide renumbering: 638
+- Duplicate phonetic bases encountered in document order: 272
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -838,10 +838,17 @@
 | `16-33` | `subseries-root` | 削 | `sew` | 5 | `sew₅` | yes |
 | `16-34` | `series-root` | 笑 | `law` | 3 | `law₃` | yes |
 | `16-35` | `series-root` | 表 | `paw` | 1 | `paw` | yes |
-| `16-39` | `series-root` | 𤐫 | `pew` | 1 | `pew` | yes |
-| `16-39` | `subseries-root` | 票 | `pew` | 2 | `pew₂` | yes |
-| `16-39` | `subseries-root` | 𤐫 | `pew` | 3 | `pew₃` | yes |
+| `16-36` | `series-root` | 髟 | `sam` | 2 | `sam₂` | yes |
+| `16-37` | `series-root` | 猋 | `pew` | 1 | `pew` | yes |
+| `16-38` | `series-root` | 驫 | `piw` | 1 | `piw` | yes |
+| `16-39` | `series-root` | 𤐫 | `pew` | 2 | `pew₂` | yes |
+| `16-39` | `subseries-root` | 票 | `pew` | 3 | `pew₃` | yes |
+| `16-39` | `subseries-root` | 𤐫 | `pew` | 4 | `pew₄` | yes |
+| `16-40` | `series-root` | 麃 | `pew` | 5 | `pew₅` | yes |
 | `16-41` | `series-root` | 毛 | `m\textoverset{a}{a}w` | 1 | `m\textoverset{a}{a}w` | yes |
+| `16-42` | `series-root` | 皃 | `mek` | 3 | `mek₃` | yes |
+| `16-42` | `subseries-root` | 貌 | `mek` | 4 | `mek₄` | yes |
+| `16-43` | `series-root` | 苗 | `maw` | 1 | `maw` | yes |
 | `17-05` | `series-root` | 勺 | `qek` | 1 | `qek` | yes |
 | `17-05` | `subseries-root` | 約 | `qek` | 2 | `qek₂` | yes |
 | `17-06` | `series-root` | 龠 | `lek` | 3 | `lek₃` | yes |
