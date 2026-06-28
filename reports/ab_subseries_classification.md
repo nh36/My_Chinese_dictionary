@@ -1,8 +1,8 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 784
-- Subgroups newly marked with `a`: 99
-- Subgroups newly marked with `b`: 90
+- Generated subgroup heads inspected: 787
+- Subgroups newly marked with `a`: 100
+- Subgroups newly marked with `b`: 92
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 249
 - Mixed subgroups left unmarked: 342
 - Unresolved subgroups left unmarked: 4
@@ -366,13 +366,16 @@
 | `10-21` | 殳 | `to` | `to` | `mixed` | no | `jiu, duw` | the extracted forms point to both type a and type b |
 | `10-30` | 須 | `no` | `n\textoverset{b}{o}` | `b` | yes | `siu, siuX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `10-31` | 需 | `no` | `no` | `mixed` | no | `siu, ñiu, ñiuH, nwaH, ñiuX` | the extracted forms point to both type a and type b |
+| `10-34` | 奏 | `tso` | `ts\textoverset{a}{o}` | `a` | yes | `tsuwH, tshuwH` | all extracted forms lack an i-medial after the onset |
 | `10-35` | 取 | `tso` | `tso` | `mixed` | no | `tshiuH, tshiuX, tshuwX, tsiu, dziuH, dziuX, dẓiuwH, tsuw, tsiuH, suwX, dzwan, tswayH, dzwayH, tṣhwaeyH, tṣhweayH, tshwat` | the extracted forms point to both type a and type b |
 | `10-35` | 聚 | `tso` | `ts\textoverset{b}{o}` | `b` | yes | `dziuH, dziuX, dẓiuwH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `10-35` | 最 | `tsot` | `ts\textoverset{a}{o}t` | `a` | yes | `tswayH, dzwayH, tṣhwaeyH, tṣhweayH, tshwat` | all extracted forms lack an i-medial after the onset |
+| `10-36` | 芻 | `tshro` | `tshr\textoverset{b}{o}` | `b` | yes | `tṣhiu, dẓiu, tṣiuwH, dẓiuwH, tṣiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `10-37` | 叜 | `  *su` | `  *su` | `mixed` | no | `suwX, ṣiuwX` | the extracted forms point to both type a and type b |
 | `10-37` | 叟 | `  *su` | `  *su₂` | `mixed` | no | `suwX, ṣiuw, ṣiuwH, ṣiuwX, sawX, sewX` | the extracted forms point to both type a and type b |
 | `10-39` | 付 | `po` | `po` | `mixed` | no | `piuH, piuX, biuX, buwX, piu, phiuX, phiu, biuH, biu` | the extracted forms point to both type a and type b |
 | `10-39` | 府 | `po` | `p\textoverset{b}{o}` | `b` | yes | `piuX, biuX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `11-05` | 局 | `kok` | `k\textoverset{b}{o}k` | `b` | yes | `giəwk, kiəwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `11-06` | 屋 | `qok` | `q\textoverset{a}{o}k` | `a` | yes | `quwk, qaewk, quwH` | all extracted forms lack an i-medial after the onset |
 | `11-12` | 蜀 | `tok` | `tok` | `mixed` | no | `jiəwk, ciəwk, chiəwk, ḍiəwk, duwk, tuwH, ṭaewk, ḍaewk, tṣhaewk, ṭiəwk` | the extracted forms point to both type a and type b |
 | `11-12` | 屬 | `tok` | `t\textoverset{b}{o}k` | `b` | yes | `jiəwk, ciəwk, ṭiəwk, ḍiəwk` | all extracted forms show an i-medial or a dedicated palatal onset |

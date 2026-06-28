@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5047
-- Pages fetched / cached successfully: 4971
-- Additions with explicit Han-compound semantic/phonetic roles: 2366
+- Proposed additions checked: 5064
+- Pages fetched / cached successfully: 4988
+- Additions with explicit Han-compound semantic/phonetic roles: 2373
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1979,6 +1979,10 @@
 | `10-31` | 臑 | yes | no |  |  |
 | `10-31` | 襦 | yes | no |  |  |
 | `10-31` | 醹 | yes | no |  |  |
+| `10-32` | 乳 | yes | no |  |  |
+| `10-34` | 奏 | yes | no |  |  |
+| `10-34` | 湊 | yes | yes | 水 | 奏 |
+| `10-34` | 腠 | yes | no |  |  |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |
@@ -1995,6 +1999,13 @@
 | `10-35` | 蕞 | yes | no |  |  |
 | `10-35` | 嘬 | yes | no |  |  |
 | `10-35` | 撮 | yes | yes | 手 | 最 |
+| `10-36` | 芻 | yes | no |  |  |
+| `10-36` | 趨 | yes | yes | 走 | 芻 |
+| `10-36` | 雛 | yes | yes | 隹 | 芻 |
+| `10-36` | 鶵 | yes | no |  |  |
+| `10-36` | 縐 | yes | yes | 糸 | 芻 |
+| `10-36` | 騶 | yes | no |  |  |
+| `10-36` | 齺 | yes | yes | 齒 | 芻 |
 | `10-37` | 叜 | yes | no |  |  |
 | `10-37` | 叟 | yes | no |  |  |
 | `10-37` | 𡨙 | no | no |  |  |
@@ -2009,6 +2020,7 @@
 | `10-37` | 謏 | yes | no |  |  |
 | `10-37` | 傁 | yes | no |  |  |
 | `10-37` | 瞍 | yes | yes | 目 | 叟 |
+| `10-38` | 裒 | yes | no |  |  |
 | `10-39` | 付 | yes | no |  |  |
 | `10-39` | 府 | yes | yes | 广 | 付 |
 | `10-39` | 柎 | yes | no |  |  |
@@ -2026,6 +2038,11 @@
 | `10-39` | 蚹 | yes | no |  |  |
 | `10-39` | 鮒 | yes | no |  |  |
 | `10-39` | 俯 | yes | yes | 勹 | 府 |
+| `10-40` | 鳧 | yes | yes | 隹 | 勹 |
+| `11-05` | 局 | yes | yes | 尸 | 句 |
+| `11-05` | 跼 | yes | no |  |  |
+| `11-05` | 挶 | yes | no |  |  |
+| `11-05` | 梮 | yes | no |  |  |
 | `11-06` | 屋 | yes | yes | 室 | 𡉉 |
 | `11-06` | 剭 | yes | no |  |  |
 | `11-06` | 偓 | yes | no |  |  |

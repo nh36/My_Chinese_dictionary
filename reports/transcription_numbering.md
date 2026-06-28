@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 929
-- Roots whose display label changed after document-wide renumbering: 521
-- Duplicate phonetic bases encountered in document order: 244
+- Mutable series/subseries roots inspected: 935
+- Roots whose display label changed after document-wide renumbering: 525
+- Duplicate phonetic bases encountered in document order: 247
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -560,13 +560,19 @@
 | `10-28` | `series-root` | 陋 | `ro` | 1 | `ro` | yes |
 | `10-30` | `series-root` | 須 | `n\textoverset{b}{o}` | 1 | `n\textoverset{b}{o}` | yes |
 | `10-31` | `series-root` | 需 | `so` | 1 | `so` | yes |
+| `10-32` | `series-root` | 乳 | `no` | 2 | `no₂` | yes |
+| `10-34` | `series-root` | 奏 | `ts\textoverset{a}{o}` | 1 | `ts\textoverset{a}{o}` | yes |
 | `10-35` | `series-root` | 取 | `tso` | 1 | `tso` | yes |
 | `10-35` | `subseries-root` | 聚 | `ts\textoverset{b}{o}` | 1 | `ts\textoverset{b}{o}` | yes |
 | `10-35` | `subseries-root` | 最 | `ts\textoverset{a}{o}t` | 1 | `ts\textoverset{a}{o}t` | yes |
+| `10-36` | `series-root` | 芻 | `ts\textoverset{b}{o}` | 2 | `ts\textoverset{b}{o}₂` | yes |
 | `10-37` | `series-root` | 叜 | `  *su` | 1 | `  *su` | yes |
 | `10-37` | `subseries-root` | 叟 | `  *su` | 2 | `  *su₂` | yes |
+| `10-38` | `series-root` | 裒 | `pu` | 1 | `pu` | yes |
 | `10-39` | `series-root` | 付 | `po` | 1 | `po` | yes |
 | `10-39` | `subseries-root` | 府 | `p\textoverset{b}{o}` | 1 | `p\textoverset{b}{o}` | yes |
+| `10-40` | `series-root` | 鳧 | `po` | 2 | `po₂` | yes |
+| `11-05` | `series-root` | 局 | `k\textoverset{b}{o}k` | 1 | `k\textoverset{b}{o}k` | yes |
 | `11-06` | `series-root` | 屋 | `q\textoverset{a}{o}k` | 1 | `q\textoverset{a}{o}k` | yes |
 | `11-12` | `series-root` | 蜀 | `tok` | 2 | `tok₂` | yes |
 | `11-12` | `subseries-root` | 屬 | `t\textoverset{b}{o}k` | 1 | `t\textoverset{b}{o}k` | yes |
@@ -636,8 +642,8 @@
 | `13-57` | `series-root` | 秋 | `tsiw` | 1 | `tsiw` | yes |
 | `13-60` | `series-root` | 㕚 | `su` | 1 | `su` | yes |
 | `13-60` | `subseries-root` | 蚤 | `su` | 2 | `su₂` | yes |
-| `13-72` | `series-root` | 包 | `pu` | 1 | `pu` | yes |
-| `13-73` | `series-root` | 孚 | `pu` | 2 | `pu₂` | yes |
+| `13-72` | `series-root` | 包 | `pu` | 2 | `pu₂` | yes |
+| `13-73` | `series-root` | 孚 | `pu` | 3 | `pu₃` | yes |
 | `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
 | `13-76` | `subseries-root` | 楙 | `mu` | 6 | `mu₆` | yes |
 | `13-76` | `subseries-root` | 敄 | `mu` | 7 | `mu₇` | yes |
