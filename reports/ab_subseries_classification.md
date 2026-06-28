@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 805
+- Generated subgroup heads inspected: 809
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 254
-- Mixed subgroups left unmarked: 347
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 257
+- Mixed subgroups left unmarked: 348
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -438,6 +438,10 @@
 | `13-07` | 咎 | `ku` | `ku` | `mixed` | no | `giuwX, kaw, kawX` | the extracted forms point to both type a and type b |
 | `13-08` | 丩 | `kiw` | `kiw` | `mixed` | no | `kyiw, kyiwX, gyiewX, gyiw, kewH` | the extracted forms point to both type a and type b |
 | `13-08` | 糾 | `kiw` | `kiw₂` | `b` | no | `gyiewX, kyiwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-11` | 休 | `qu` | `qu` | `mixed` | no | `hiuw, haw, haew` | the extracted forms point to both type a and type b |
+| `13-11` | 梟 | `qu` | `qu₄` | `a` | no | `kew` | all extracted forms lack an i-medial after the onset |
+| `13-12` | 臭 | `qhu` | `qhu` | `b` | no | `chiuwH, hiuwH, khiuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-14` | 憂 | `qu` | `qu` | `b` | no | `qiuw, qiuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-16` | 幺 | `ʔiw` | `ʔiw` | `mixed` | no | `qew, qyiwH, qyiw, qyiwX, qewX, qaew` | the extracted forms point to both type a and type b |
 | `13-16` | 𢆶 | `ʔiw` | `ʔiw₂` | `b` | no | `qyiw, qiuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-16` | 幼 | `ʔiw` | `ʔiw₃` | `mixed` | no | `qyiwH, qyiw, qyiwX, qewX, qaew` | the extracted forms point to both type a and type b |

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5141
-- Pages fetched / cached successfully: 5064
-- Additions with explicit Han-compound semantic/phonetic roles: 2395
+- Proposed additions checked: 5162
+- Pages fetched / cached successfully: 5085
+- Additions with explicit Han-compound semantic/phonetic roles: 2401
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2373,6 +2373,27 @@
 | `13-08` | 叫 | yes | yes | 口 | 丩 |
 | `13-08` | 訆 | yes | no |  |  |
 | `13-08` | 嘂 | yes | yes | 㗊 | 丩 |
+| `13-09` | 好 | yes | no |  |  |
+| `13-10` | 薅 | yes | no |  |  |
+| `13-11` | 休 | yes | no |  |  |
+| `13-11` | 咻 | yes | no |  |  |
+| `13-11` | 貅 | yes | yes | 豸 | 休 |
+| `13-11` | 鵂 | yes | no |  |  |
+| `13-11` | 髹 | yes | no |  |  |
+| `13-11` | 茠 | yes | no |  |  |
+| `13-11` | 烋 | yes | no |  |  |
+| `13-11` | 梟 | yes | no |  |  |
+| `13-11` | 𣻏 | yes | no |  |  |
+| `13-12` | 臭 | yes | no |  |  |
+| `13-12` | 嗅 | yes | yes | 口 | 臭 |
+| `13-12` | 糗 | yes | yes | 米 | 臭 |
+| `13-13` | 醜 | yes | yes | 鬼 | 酉 |
+| `13-14` | 憂 | yes | yes | 夊 | 㥑 |
+| `13-14` | 優 | yes | yes | 人 | 憂 |
+| `13-14` | 懮 | yes | no |  |  |
+| `13-14` | 瀀 | yes | no |  |  |
+| `13-14` | 纋 | yes | no |  |  |
+| `13-14` | 耰 | yes | no |  |  |
 | `13-16` | 幺 | yes | no |  |  |
 | `13-16` | 𢆶 | yes | no |  |  |
 | `13-16` | 幽 | yes | yes | 山 | 𢆶 |

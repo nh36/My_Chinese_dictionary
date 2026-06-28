@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 67,
-    "unique_component_count": 55,
+    "case_count": 68,
+    "unique_component_count": 56,
     "by_classification": {
-      "new_latin_label_needed": 66,
+      "new_latin_label_needed": 67,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 40,
+      "wiktionary_component_literal_fallback": 41,
       "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 18
     }
@@ -607,6 +607,23 @@
       "render_latex": "嘂\t%jiao4\n{\\large{\\textsuperscript{㗊·}kiw}},\n\\textit{kewH};\t%1064i",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `㗊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "13-14",
+      "character": "憂",
+      "abbreviation": "夊",
+      "semantic_component": "夊",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|㥑|夊|c1=p|c2=s|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "夊",
+      "transliteration_latex": "{\\large{qu₇\\textsuperscript{˸夊}}},",
+      "render_latex": "憂\t%you1\n{\\large{qu₇\\textsuperscript{˸夊}}},\n\\textit{qiuw};\t%1071a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `夊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "14-02",
@@ -1635,6 +1652,27 @@
           "entry_id": "29-13",
           "character": "壹",
           "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "夊",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `夊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "夊",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "13-14",
+          "character": "憂",
+          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

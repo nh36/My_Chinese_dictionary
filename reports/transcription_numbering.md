@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 970
-- Roots whose display label changed after document-wide renumbering: 6
-- Duplicate phonetic bases encountered in document order: 255
+- Mutable series/subseries roots inspected: 977
+- Roots whose display label changed after document-wide renumbering: 558
+- Duplicate phonetic bases encountered in document order: 256
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -651,6 +651,13 @@
 | `13-07` | `series-root` | 咎 | `ku` | 11 | `ku₁₁` | yes |
 | `13-08` | `series-root` | 丩 | `kiw` | 1 | `kiw` | yes |
 | `13-08` | `subseries-root` | 糾 | `kiw` | 2 | `kiw₂` | yes |
+| `13-09` | `series-root` | 好 | `qu` | 1 | `qu` | yes |
+| `13-10` | `series-root` | 薅 | `qu` | 2 | `qu₂` | yes |
+| `13-11` | `series-root` | 休 | `qu` | 3 | `qu₃` | yes |
+| `13-11` | `subseries-root` | 梟 | `qu` | 4 | `qu₄` | yes |
+| `13-12` | `series-root` | 臭 | `qu` | 5 | `qu₅` | yes |
+| `13-13` | `series-root` | 醜 | `qu` | 6 | `qu₆` | yes |
+| `13-14` | `series-root` | 憂 | `qu` | 7 | `qu₇` | yes |
 | `13-16` | `series-root` | 幺 | `ʔiw` | 1 | `ʔiw` | yes |
 | `13-16` | `subseries-root` | 𢆶 | `ʔiw` | 2 | `ʔiw₂` | yes |
 | `13-16` | `subseries-root` | 幼 | `ʔiw` | 3 | `ʔiw₃` | yes |
