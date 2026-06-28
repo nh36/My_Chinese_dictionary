@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 835
+- Generated subgroup heads inspected: 838
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 278
-- Mixed subgroups left unmarked: 352
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 280
+- Mixed subgroups left unmarked: 353
 - Unresolved subgroups left unmarked: 5
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -504,7 +504,10 @@
 | `14-07` | 孰 | `tuk` | `tuk` | `b` | no | `jiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-08` | 竹 | `tuk` | `tuk` | `mixed` | no | `ṭiuwk, təwk` | the extracted forms point to both type a and type b |
 | `14-08` | 筑 | `tuk` | `tuk₅` | `b` | no | `ṭiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `14-13` | 逐 | `lik` | `lik` | `mixed` | no | `ḍiuwk, dek, ṭhiuwk` | the extracted forms point to both type a and type b |
 | `14-14` | 賣 | `lok` | `lok` | `mixed` | no | `yuwk, dek, duwk, duwH, jiəwk, ziəwk` | the extracted forms point to both type a and type b |
+| `14-15` | 畜 | `quk` | `quk` | `b` | no | `ṭhiuwH, ṭhiuwk, hiuwH, hiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `14-16` | 坴 | `ruk` | `ruk₂` | `b` | no | `liuwk, miuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-18` | 尗 | `tuk` | `tuk` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew, tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |
 | `14-18` | 叔 | `tuk` | `tuk₇` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew` | the extracted forms point to both type a and type b |
 | `14-18` | 戚 | `tsik` | `tsik₂` | `mixed` | no | `tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |

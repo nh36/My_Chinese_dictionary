@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1027
-- Roots whose display label changed after document-wide renumbering: 603
-- Duplicate phonetic bases encountered in document order: 260
+- Mutable series/subseries roots inspected: 1034
+- Roots whose display label changed after document-wide renumbering: 607
+- Duplicate phonetic bases encountered in document order: 262
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -747,7 +747,14 @@
 | `14-08` | `series-root` | 竹 | `tuk` | 4 | `tuk₄` | yes |
 | `14-08` | `subseries-root` | 筑 | `tuk` | 5 | `tuk₅` | yes |
 | `14-09` | `series-root` | 晝 | `tu` | 10 | `tu₁₀` | yes |
+| `14-10` | `series-root` | 粥 | `quk` | 1 | `quk` | yes |
+| `14-11` | `series-root` | 育 | `quk` | 2 | `quk₂` | yes |
+| `14-12` | `series-root` | 毓 | `quk` | 3 | `quk₃` | yes |
+| `14-13` | `series-root` | 逐 | `lik` | 1 | `lik` | yes |
 | `14-14` | `series-root` | 賣 | `me` | 2 | `me₂` | yes |
+| `14-15` | `series-root` | 畜 | `quk` | 4 | `quk₄` | yes |
+| `14-16` | `series-root` | 六 | `ruk` | 1 | `ruk` | yes |
+| `14-16` | `subseries-root` | 坴 | `ruk` | 2 | `ruk₂` | yes |
 | `14-18` | `series-root` | 尗 | `tuk` | 6 | `tuk₆` | yes |
 | `14-18` | `subseries-root` | 叔 | `tuk` | 7 | `tuk₇` | yes |
 | `14-18` | `subseries-root` | 戚 | `tsik` | 2 | `tsik₂` | yes |

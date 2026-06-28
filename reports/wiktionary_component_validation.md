@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5273
-- Pages fetched / cached successfully: 5195
-- Additions with explicit Han-compound semantic/phonetic roles: 2443
+- Proposed additions checked: 5290
+- Pages fetched / cached successfully: 5213
+- Additions with explicit Han-compound semantic/phonetic roles: 2449
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2726,6 +2726,13 @@
 | `14-08` | 竺 | yes | yes | 二 | 竹 |
 | `14-08` | 篤 | yes | yes | 馬 | 竹 |
 | `14-09` | 晝 | yes | yes | 日 | 聿 |
+| `14-10` | 粥 | yes | no |  |  |
+| `14-10` | 鬻 | yes | no |  |  |
+| `14-11` | 育 | yes | no |  |  |
+| `14-12` | 毓 | yes | no |  |  |
+| `14-13` | 逐 | yes | no |  |  |
+| `14-13` | 篴 | yes | yes | 竹 | 逐 |
+| `14-13` | 蓫 | yes | no |  |  |
 | `14-14` | 賣 | yes | yes | 出 | 買 |
 | `14-14` | 儥 | yes | yes | 人 | 𧶠 |
 | `14-14` | 覿 | yes | no |  |  |
@@ -2745,6 +2752,16 @@
 | `14-14` | 贖 | yes | yes | 貝 | 𧶠 |
 | `14-14` | 續 | yes | yes | 糸 | 𧶠 |
 | `14-14` | 藚 | yes | yes | 艸 | 𧶠 |
+| `14-15` | 畜 | yes | no |  |  |
+| `14-15` | 蓄 | yes | yes | 艸 | 畜 |
+| `14-15` | 稸 | yes | no |  |  |
+| `14-15` | 慉 | yes | no |  |  |
+| `14-15` | 滀 | yes | no |  |  |
+| `14-16` | 六 | yes | no |  |  |
+| `14-16` | 坴 | yes | yes | 土 | 圥 |
+| `14-16` | 陸 | yes | yes | 阜 | 坴 |
+| `14-16` | 稑 | yes | yes | 禾 | 坴 |
+| `14-16` | 睦 | yes | yes | 目 | 坴 |
 | `14-18` | 尗 | yes | no |  |  |
 | `14-18` | 叔 | yes | yes | 又 | 尗 |
 | `14-18` | 𣢰 | no | no |  |  |
@@ -5043,7 +5060,7 @@
 | `36-18` | 姌 | yes | no |  |  |
 | `36-18` | 袡 | yes | no |  |  |
 | `36-18` | 衻 | yes | no |  |  |
-| `36-18` | 𩑺 | no | no |  |  |
+| `36-18` | 𩑺 | yes | no |  |  |
 | `36-18` | 髯 | yes | no |  |  |
 | `36-18` | 枏 | yes | no |  |  |
 | `36-18` | 聃 | yes | no |  |  |

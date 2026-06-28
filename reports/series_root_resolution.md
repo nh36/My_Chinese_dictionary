@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 666
-- Packets with at least one root candidate: 665
-- Packets with a single resolved provisional root: 663
+- Missing-series packets inspected: 672
+- Packets with at least one root candidate: 671
+- Packets with a single resolved provisional root: 669
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -467,7 +467,13 @@
 | `14-07` | 孰→tuk [*duk {*[d]uk}] (1026a) | `tuk` | `head_graph_oc_bs` |
 | `14-08` | 竹→tuk [*truk] (1019a) | `tuk` | `head_graph_oc_bs` |
 | `14-09` | 晝→tu [*tus] (None) | `tu` | `head_graph_oc_shengfu` |
+| `14-10` | 粥→quk [*t-quk {*[t-q]uk}] (1024a) | `quk` | `head_graph_oc_bs` |
+| `14-11` | 育→quk [*m-quk] (1020a) | `quk` | `head_graph_oc_bs` |
+| `14-12` | 毓→quk [*m-quk] (1021a) | `quk` | `head_graph_oc_bs` |
+| `14-13` | 逐→lik [*lriwk {*[l]riwk}] (1022a) | `lik` | `head_graph_oc_bs` |
 | `14-14` | 賣→me [*mʳe̠s] (None); 賣→ray [*C.raj-s] (None) | `me` | `head_graph_shengfu_head` |
+| `14-15` | 畜→quk [*qʰ<r>uk-s] (1018a) | `quk` | `head_graph_oc_bs` |
+| `14-16` | 六→ruk [*k.ruk] (1032a) | `ruk` | `head_graph_oc_bs` |
 | `14-18` | 尗→tuk [*s.tuk] (1031a) | `tuk` | `head_graph_oc_bs` |
 | `14-22` | 肅→sik [*siwk] (1028a) | `sik` | `head_graph_oc_bs` |
 | `14-23` | 复→puk [*m-puk {*m-p(r)uk}] (1034a) | `puk` | `head_graph_oc_bs` |
