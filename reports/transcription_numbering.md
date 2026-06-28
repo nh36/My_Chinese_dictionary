@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 923
-- Roots whose display label changed after document-wide renumbering: 519
+- Mutable series/subseries roots inspected: 929
+- Roots whose display label changed after document-wide renumbering: 521
 - Duplicate phonetic bases encountered in document order: 244
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -552,8 +552,14 @@
 | `10-13` | `baseline-series-root` | 斗 | `{\textsuperscript{arb·}}to` | 1 | `{\textsuperscript{arb·}}to` | no |
 | `10-14` | `series-root` | 𧱓 | `to` | 1 | `to` | yes |
 | `10-16` | `baseline-series-root` | 豆 | `{\textsuperscript{luna·}}to` | 1 | `{\textsuperscript{luna·}}to` | no |
-| `10-21` | `series-root` | 殳 | `to` | 2 | `to₂` | yes |
+| `10-17` | `series-root` | 鬥 | `to` | 2 | `to₂` | yes |
+| `10-20` | `series-root` | 馵 | `tok` | 1 | `tok` | yes |
+| `10-21` | `series-root` | 殳 | `to` | 3 | `to₃` | yes |
+| `10-25` | `series-root` | 窳 | `lo` | 1 | `lo` | yes |
 | `10-26` | `series-root` | 戍 | `no` | 1 | `no` | yes |
+| `10-28` | `series-root` | 陋 | `ro` | 1 | `ro` | yes |
+| `10-30` | `series-root` | 須 | `n\textoverset{b}{o}` | 1 | `n\textoverset{b}{o}` | yes |
+| `10-31` | `series-root` | 需 | `so` | 1 | `so` | yes |
 | `10-35` | `series-root` | 取 | `tso` | 1 | `tso` | yes |
 | `10-35` | `subseries-root` | 聚 | `ts\textoverset{b}{o}` | 1 | `ts\textoverset{b}{o}` | yes |
 | `10-35` | `subseries-root` | 最 | `ts\textoverset{a}{o}t` | 1 | `ts\textoverset{a}{o}t` | yes |
@@ -562,14 +568,14 @@
 | `10-39` | `series-root` | 付 | `po` | 1 | `po` | yes |
 | `10-39` | `subseries-root` | 府 | `p\textoverset{b}{o}` | 1 | `p\textoverset{b}{o}` | yes |
 | `11-06` | `series-root` | 屋 | `q\textoverset{a}{o}k` | 1 | `q\textoverset{a}{o}k` | yes |
-| `11-12` | `series-root` | 蜀 | `tok` | 1 | `tok` | yes |
+| `11-12` | `series-root` | 蜀 | `tok` | 2 | `tok₂` | yes |
 | `11-12` | `subseries-root` | 屬 | `t\textoverset{b}{o}k` | 1 | `t\textoverset{b}{o}k` | yes |
-| `11-13` | `series-root` | 豖 | `tok` | 2 | `tok₂` | yes |
+| `11-13` | `series-root` | 豖 | `tok` | 3 | `tok₃` | yes |
 | `11-14` | `series-root` | 谷 | `qok` | 1 | `qok` | yes |
 | `11-14` | `subseries-root` | 欲 | `q\textoverset{b}{o}k` | 1 | `q\textoverset{b}{o}k` | yes |
 | `11-15` | `series-root` | 彔 | `rok` | 1 | `rok` | yes |
 | `11-17` | `series-root` | 辱 | `nok` | 1 | `nok` | yes |
-| `11-21` | `series-root` | 束 | `tok` | 3 | `tok₃` | yes |
+| `11-21` | `series-root` | 束 | `tok` | 4 | `tok₄` | yes |
 | `11-21` | `subseries-root` | 欶 | `t\textoverset{a}{o}k` | 1 | `t\textoverset{a}{o}k` | yes |
 | `11-22` | `series-root` | 卜 | `pok` | 1 | `pok` | yes |
 | `11-23` | `series-root` | 菐 | `p\textoverset{a}{o}k` | 1 | `p\textoverset{a}{o}k` | yes |

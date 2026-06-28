@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5029
-- Pages fetched / cached successfully: 4954
-- Additions with explicit Han-compound semantic/phonetic roles: 2361
+- Proposed additions checked: 5047
+- Pages fetched / cached successfully: 4971
+- Additions with explicit Han-compound semantic/phonetic roles: 2366
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1958,9 +1958,27 @@
 | `10-14` | 𧱓 | no | no |  |  |
 | `10-15` | 斲 | yes | no |  |  |
 | `10-15` | 鬭 | yes | yes | 鬥 | 斲 |
+| `10-17` | 鬥 | yes | no |  |  |
+| `10-20` | 馵 | yes | no |  |  |
 | `10-21` | 殳 | yes | no |  |  |
 | `10-21` | 投 | yes | yes | 手 | 殳 |
+| `10-25` | 窳 | yes | no |  |  |
 | `10-26` | 戍 | yes | no |  |  |
+| `10-28` | 陋 | yes | no |  |  |
+| `10-30` | 須 | yes | no |  |  |
+| `10-30` | 鬚 | yes | yes | 髟 | 須 |
+| `10-30` | 嬃 | yes | no |  |  |
+| `10-30` | 盨 | yes | yes | 皿 | 須 |
+| `10-31` | 需 | yes | no |  |  |
+| `10-31` | 繻 | yes | no |  |  |
+| `10-31` | 儒 | yes | yes | 人 | 需 |
+| `10-31` | 孺 | yes | no |  |  |
+| `10-31` | 懦 | yes | yes | 心 | 需 |
+| `10-31` | 濡 | yes | yes | 水 | 需 |
+| `10-31` | 𣽉 | no | no |  |  |
+| `10-31` | 臑 | yes | no |  |  |
+| `10-31` | 襦 | yes | no |  |  |
+| `10-31` | 醹 | yes | no |  |  |
 | `10-35` | 取 | yes | no |  |  |
 | `10-35` | 娶 | yes | yes | 女 | 取 |
 | `10-35` | 趣 | yes | yes | 走 | 取 |

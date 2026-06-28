@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 690
+- Integrated series count: 696
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 586
+- Active curated packet count: 592
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 570
+- Generated missing-series entries: 576
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -413,15 +413,21 @@
 | `10-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-16` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
+| `10-17` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-18` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-19` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
+| `10-20` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-21` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-22` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-23` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-24` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
+| `10-25` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-26` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-27` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
+| `10-28` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-29` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
+| `10-30` | `generated_missing_series` | needs_review, generated_candidate |
+| `10-31` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-33` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `10-35` | `generated_missing_series` | needs_review, generated_candidate |
 | `10-37` | `generated_missing_series` | needs_review, generated_candidate |

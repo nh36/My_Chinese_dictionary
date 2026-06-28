@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 782
+- Generated subgroup heads inspected: 784
 - Subgroups newly marked with `a`: 99
-- Subgroups newly marked with `b`: 89
+- Subgroups newly marked with `b`: 90
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 249
-- Mixed subgroups left unmarked: 341
+- Mixed subgroups left unmarked: 342
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -364,6 +364,8 @@
 | `09-31` | 名 | `meṅ` | `meṅ` | `mixed` | no | `myieṅ, meṅ` | the extracted forms point to both type a and type b |
 | `10-15` | 斲 | `tok` | `t\textoverset{a}{o}k` | `a` | yes | `ṭaewk, tuwH` | all extracted forms lack an i-medial after the onset |
 | `10-21` | 殳 | `to` | `to` | `mixed` | no | `jiu, duw` | the extracted forms point to both type a and type b |
+| `10-30` | 須 | `no` | `n\textoverset{b}{o}` | `b` | yes | `siu, siuX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `10-31` | 需 | `no` | `no` | `mixed` | no | `siu, ñiu, ñiuH, nwaH, ñiuX` | the extracted forms point to both type a and type b |
 | `10-35` | 取 | `tso` | `tso` | `mixed` | no | `tshiuH, tshiuX, tshuwX, tsiu, dziuH, dziuX, dẓiuwH, tsuw, tsiuH, suwX, dzwan, tswayH, dzwayH, tṣhwaeyH, tṣhweayH, tshwat` | the extracted forms point to both type a and type b |
 | `10-35` | 聚 | `tso` | `ts\textoverset{b}{o}` | `b` | yes | `dziuH, dziuX, dẓiuwH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `10-35` | 最 | `tsot` | `ts\textoverset{a}{o}t` | `a` | yes | `tswayH, dzwayH, tṣhwaeyH, tṣhweayH, tshwat` | all extracted forms lack an i-medial after the onset |

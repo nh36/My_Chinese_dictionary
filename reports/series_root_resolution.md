@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 570
-- Packets with at least one root candidate: 569
-- Packets with a single resolved provisional root: 567
+- Missing-series packets inspected: 576
+- Packets with at least one root candidate: 575
+- Packets with a single resolved provisional root: 573
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -326,8 +326,14 @@
 | `09-33` | 鳴→reṅ [*m.reŋ] (0827a) | `reṅ` | `head_graph_oc_bs` |
 | `10-14` | 𧱓→to [*to̠s] (None) | `to` | `head_graph_oc_shengfu` |
 | `10-15` | 斲→tok [*Cə.tˤrok] (1235b); 斲→rok [*rto̠ɡ] (None); 鬭→to [*to̠s] (None) | `` | `` |
+| `10-17` | 鬥→to [*to̠s] (None) | `to` | `head_graph_oc_shengfu` |
+| `10-20` | 馵→tok [*tʲoɡs] (None) | `tok` | `head_graph_oc_shengfu` |
 | `10-21` | 殳→to [*do {*[d]o}] (0130a) | `to` | `head_graph_oc_bs` |
+| `10-25` | 窳→lo [*loʔ] (None) | `lo` | `head_graph_oc_shengfu` |
 | `10-26` | 戍→no [*n̥o-s {*[n̥]o-s}] (1243c); 戍→lo [*l̥os] (None) | `no` | `head_graph_bs_head` |
+| `10-28` | 陋→ro [*rˤo-s {*[r]ˤo-s}] (1246b) | `ro` | `head_graph_oc_bs` |
+| `10-30` | 須→no [*s-no] (0133a) | `no` | `head_graph_oc_bs` |
+| `10-31` | 需→so [*sno] (None) | `so` | `head_graph_oc_shengfu` |
 | `10-35` | 取→tso [*tsʰoʔ-s] (0131a); 最→tsot [*tsˤot-s {*[ts]ˤot-s}] (0325a) | `tso` | `merged_packet_primary_head` |
 | `10-37` | 叜→  *su [*s.ruʔ (dial. > *sruʔ > srjuwX > sruwX > suwX)] (None); 叟→su [*sɡˡu̠ʔ] (None) | `  *su` | `head_graph_supported_root` |
 | `10-39` | 付→po [*pos] (None) | `po` | `head_graph_oc_shengfu` |
