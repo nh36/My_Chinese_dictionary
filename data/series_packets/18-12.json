@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-06-28T15:26:50.639027+00:00",
+  "gsc_id": "18-12",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "350"
+  ],
+  "schuessler": {
+    "gsc_id": "18-12",
+    "rhyme_section": 18,
+    "series_number": 12,
+    "k_tokens": [
+      "350"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC          LHan -a< -ai OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 240,
+    "source_line_number": 45,
+    "source_line_raw": "18-12 = K. 350       Mand.         MC          LHan -a< -ai OCM"
+  },
+  "coverage": {
+    "gsc_id": "18-12",
+    "rhyme_section": "18",
+    "series_number": "12",
+    "schuessler_k_tokens": "350",
+    "schuessler_source_page": "240",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "那",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "那"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "那",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2565",
+          "character": "那",
+          "pinyin": "nuo2",
+          "mc_nwh": "na",
+          "mc_bs": "na",
+          "gsr": "0350a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11380",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "諾何",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠l",
+          "oc_syllable": "na̠l"
+        },
+        {
+          "source_row_number": "11382",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "奴箇",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠ls",
+          "oc_syllable": "na̠ls"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "na"
+        ],
+        "mand2mc_nwh_forms": [
+          "na"
+        ],
+        "mand2mc_bs_forms": [
+          "na"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2565",
+        "character": "那",
+        "pinyin": "nuo2",
+        "mc_nwh": "na",
+        "mc_bs": "na",
+        "gsr": "0350a"
+      }
+    ],
+    "bs_gsr": []
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

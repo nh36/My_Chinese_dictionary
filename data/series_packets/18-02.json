@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-06-28T15:26:50.607534+00:00",
+  "gsc_id": "18-02",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "349"
+  ],
+  "schuessler": {
+    "gsc_id": "18-02",
+    "rhyme_section": 18,
+    "series_number": 2,
+    "k_tokens": [
+      "349"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.                              LHan -a < -ai     OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 236,
+    "source_line_number": 57,
+    "source_line_raw": "18-2 = K. 349      Mand.                              LHan -a < -ai     OCM"
+  },
+  "coverage": {
+    "gsc_id": "18-02",
+    "rhyme_section": "18",
+    "series_number": "2",
+    "schuessler_k_tokens": "349",
+    "schuessler_source_page": "236",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "个",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "个",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "个"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "个",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2563",
+          "character": "个",
+          "pinyin": "ge4",
+          "mc_nwh": "kaH",
+          "mc_bs": "kaH",
+          "gsr": "0349a"
+        },
+        {
+          "source_row_number": "2564",
+          "character": "个",
+          "pinyin": "gan4",
+          "mc_nwh": "kanH",
+          "mc_bs": "kanH",
+          "gsr": "0349a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "56",
+          "character": "个",
+          "pinyin": "gè",
+          "mc_bs": "kaH",
+          "mc_analyzed": "(k- + -a C)",
+          "oc_bs": "*kˤar-s {*kˤa[r]-s}",
+          "gloss": "tally, piece, item",
+          "gsr": "0349a",
+          "unicode_utf16": "U+4E2A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "4052",
+          "character": "个",
+          "phonetic_component": "个",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古賀",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ls",
+          "oc_syllable": "ka̠ls"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "4052",
+          "character": "个",
+          "phonetic_component": "个",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古賀",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "a̠ls",
+          "oc_syllable": "ka̠ls"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kaH",
+          "kanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "kaH",
+          "kanH"
+        ],
+        "mand2mc_bs_forms": [
+          "kaH",
+          "kanH"
+        ],
+        "bs_gsr_forms": [
+          "kaH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "kanH"
+        ],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2563",
+        "character": "个",
+        "pinyin": "ge4",
+        "mc_nwh": "kaH",
+        "mc_bs": "kaH",
+        "gsr": "0349a"
+      },
+      {
+        "source_row_number": "2564",
+        "character": "个",
+        "pinyin": "gan4",
+        "mc_nwh": "kanH",
+        "mc_bs": "kanH",
+        "gsr": "0349a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "56",
+        "character": "个",
+        "pinyin": "gè",
+        "mc_bs": "kaH",
+        "mc_analyzed": "(k- + -a C)",
+        "oc_bs": "*kˤar-s {*kˤa[r]-s}",
+        "gloss": "tally, piece, item",
+        "gsr": "0349a",
+        "unicode_utf16": "U+4E2A"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

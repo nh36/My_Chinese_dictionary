@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T15:14:38.942533+00:00",
+  "generated_at": "2026-06-28T15:35:11.415881+00:00",
   "id": "03-49",
   "schuessler": {
     "gsc_id": "03-49",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-28T15:13:57.835106+00:00",
+    "generated_at": "2026-06-28T15:26:50.826330+00:00",
     "id": "03-49",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -6991,26 +6991,52 @@
     ],
     "series_root_candidates": [
       {
-        "character": "爿",
+        "character": "䵼",
         "gsr": null,
         "oc_bs": "*skʰaŋ",
         "root": "saṅ",
         "source": "same_character_series_root",
+        "support_count": 29,
+        "supporting_sources": [
+          "same_character_series_root",
+          "head_graph_oc_shengfu",
+          "phonetic_component_series_root"
+        ]
+      },
+      {
+        "character": "將",
+        "gsr": "0727f",
+        "oc_bs": "*tsaŋ {*[ts]aŋ}",
+        "root": "tsaṅ",
+        "source": "head_graph_oc_bs",
+        "support_count": 14,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "嬙",
+        "gsr": null,
+        "oc_bs": "*sʳɯɡ",
+        "root": "syk",
+        "source": "head_graph_oc_shengfu",
         "support_count": 1,
         "supporting_sources": [
-          "same_character_series_root"
+          "head_graph_oc_shengfu"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "saṅ",
-      "source": "same_character_series_root",
-      "character": "爿",
+      "source": "head_graph_supported_root",
+      "character": "䵼",
       "oc_bs": "*skʰaŋ",
       "confidence": "provisional-oc",
-      "support_count": 1,
+      "support_count": 29,
       "supporting_sources": [
-        "same_character_series_root"
+        "same_character_series_root",
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
       ],
       "display_root": "saṅ",
       "division_class": "mixed",
@@ -7157,7 +7183,7 @@
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "series",
-      "anchor_value": "爿",
+      "anchor_value": "䵼",
       "line_number": null,
       "text": "the extracted forms point to both type a and type b",
       "category": "structural_internal",

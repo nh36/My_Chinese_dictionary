@@ -256,7 +256,7 @@
 | `阜` | `tum` | `tum(ulus)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `壴` | `tympan` | `tympan(um)` | (zhù) - | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `邑` | `urb` | `urb(s)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `熊` | `urs` | `urs(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
+| `熊` | `urs` | `urs(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `箕` | `vann` | `vann(us)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
 | `气` | `vapor` | `vapor` |  | general |  |  |  |  | yes | current_main_tex |
 | `皿` | `vas` | `vas(um)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |

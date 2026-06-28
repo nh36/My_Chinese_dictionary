@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T15:14:38.945146+00:00",
+  "generated_at": "2026-06-28T15:35:11.418412+00:00",
   "id": "08-04",
   "schuessler": {
     "gsc_id": "08-04",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-28T15:13:58.316425+00:00",
+    "generated_at": "2026-06-28T15:26:51.364123+00:00",
     "id": "08-04",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -1613,25 +1613,38 @@
     ],
     "series_root_candidates": [
       {
-        "character": "戹",
-        "gsr": null,
+        "character": "厄",
+        "gsr": "0844b",
         "oc_bs": "*qˤ<r>ik {*qˤ<r>[i]k}",
         "root": "qik",
-        "source": "same_character_series_root",
-        "support_count": 1,
+        "source": "head_graph_oc_bs",
+        "support_count": 5,
         "supporting_sources": [
+          "head_graph_oc_bs",
           "same_character_series_root"
+        ]
+      },
+      {
+        "character": "厄",
+        "gsr": null,
+        "oc_bs": "*qʳɯ̠ɡ",
+        "root": "qyk",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 4,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "qik",
-      "source": "same_character_series_root",
-      "character": "戹",
+      "source": "head_graph_bs_head",
+      "character": "厄",
       "oc_bs": "*qˤ<r>ik {*qˤ<r>[i]k}",
       "confidence": "provisional-oc",
-      "support_count": 1,
+      "support_count": 5,
       "supporting_sources": [
+        "head_graph_oc_bs",
         "same_character_series_root"
       ],
       "display_root": "qik₂",
@@ -1702,7 +1715,7 @@
       "source_layer": "curation_division_note",
       "visibility": "internal",
       "anchor_kind": "series",
-      "anchor_value": "戹",
+      "anchor_value": "厄",
       "line_number": null,
       "text": "all extracted forms lack an i-medial after the onset",
       "category": "structural_internal",

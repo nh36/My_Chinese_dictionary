@@ -1,7 +1,7 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 873
-- Subgroups newly marked with `a`: 111
+- Generated subgroup heads inspected: 874
+- Subgroups newly marked with `a`: 112
 - Subgroups newly marked with `b`: 97
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 292
 - Mixed subgroups left unmarked: 367
@@ -586,9 +586,10 @@
 | `17-07` | 翟 | `lek` | `lek` | `mixed` | no | `dek, thek, yak, ḍaewk, ḍaewH, yiewH, thewH, dewH` | the extracted forms point to both type a and type b |
 | `17-08` | 樂 | `rek` | `rek` | `mixed` | no | `lak, liewH, ṅaewH, ṅaewk, lek, ləwk, śiak, yak` | the extracted forms point to both type a and type b |
 | `17-09` | 弱 | `nek` | `nek` | `mixed` | no | `ñiak, nek, newH, newX` | the extracted forms point to both type a and type b |
-| `17-11` | 𥽿 | `tsak` | `ts\textoverset{a}{a}k` | `a` | yes | `tsak, dzak` | all extracted forms lack an i-medial after the onset |
+| `17-11` | 𥽿 | `tsak` | `ts\textoverset{a}{a}k₃` | `a` | yes | `tsak, dzak` | all extracted forms lack an i-medial after the onset |
 | `17-12` | 爵 | `tsek` | `tsek` | `mixed` | no | `tsiak, dziak, tṣaewk, tsiewH` | the extracted forms point to both type a and type b |
 | `17-14` | 暴 | `pak` | `p\textoverset{a}{a}k` | `a` | yes | `bawH, buwk, pak, pəwk, paewk` | all extracted forms lack an i-medial after the onset |
+| `18-10` | 羅 | `ray` | `r\textoverset{a}{a}y` | `a` | yes | `la` | all extracted forms lack an i-medial after the onset |
 | `18-18` | 加 | `kray` | `kr\textoverset{a}{a}y` | `a` | yes | `kae, kaeH, kaX, ḫaH` | all extracted forms lack an i-medial after the onset |
 | `19-02` | 果 | `kor` | `k\textoverset{a}{o}r` | `a` | yes | `khwaX, kwaX, khwaH, lwaX, ḫwaeX, ḫwanX, ḫwəyX, kwanH, qwaX` | all extracted forms lack an i-medial after the onset |
 | `19-09` | 隋 | `loy` | `loy₂` | `mixed` | no | `siweH, thwaX, hiwieH, dwaX, hiwie, dwaH` | the extracted forms point to both type a and type b |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T15:14:38.950006+00:00",
+  "generated_at": "2026-06-28T15:35:11.423276+00:00",
   "id": "17-11",
   "schuessler": {
     "gsc_id": "17-11",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-28T15:13:58.305453+00:00",
+    "generated_at": "2026-06-28T15:26:51.350796+00:00",
     "id": "17-11",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -251,8 +251,8 @@
           "source": "wiktionary_han_compound",
           "semantic_component": "金"
         },
-        "transliteration_latex": "{\\large{\\textsuperscript{met˸}ts\\textoverset{a}{a}k}},",
-        "render_latex": "鑿\t%zao2 / záo\n{\\large{\\textsuperscript{met˸}ts\\textoverset{a}{a}k}},\n\\textit{dzak};\t%1128a",
+        "transliteration_latex": "{\\large{\\textsuperscript{met˸}ts\\textoverset{a}{a}k₃}},",
+        "render_latex": "鑿\t%zao2 / záo\n{\\large{\\textsuperscript{met˸}ts\\textoverset{a}{a}k₃}},\n\\textit{dzak};\t%1128a",
         "wiktionary_semantic_validation": {
           "semantic_component": "金",
           "phonetic_component": "𥽿",
@@ -360,7 +360,7 @@
           "bs_node_roots": [
             "tsak"
           ],
-          "display_root": "ts\\textoverset{a}{a}k",
+          "display_root": "ts\\textoverset{a}{a}k₃",
           "division_class": "a",
           "division_note": "all extracted forms lack an i-medial after the onset",
           "mark_required": true,
@@ -381,7 +381,10 @@
               "class": "a",
               "reason": "no_i_medial"
             }
-          ]
+          ],
+          "base_root": "ts\\textoverset{a}{a}k",
+          "ordinal": 3,
+          "numbering_source": "document_order_occurrence"
         }
       }
     ],
@@ -545,7 +548,10 @@
         "head_graph_oc_bs",
         "phonetic_component_series_root"
       ],
-      "display_root": "tsak"
+      "display_root": "tsak",
+      "base_root": "tsak",
+      "ordinal": 1,
+      "numbering_source": "document_order_occurrence"
     }
   },
   "provenance": [

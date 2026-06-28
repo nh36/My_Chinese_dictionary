@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-06-28T15:26:51.353843+00:00",
+  "id": "18-12",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "18-12",
+    "rhyme_section": 18,
+    "series_number": 12,
+    "k_tokens": [
+      "350"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC          LHan -a< -ai OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 240,
+    "source_line_number": 45,
+    "source_line_raw": "18-12 = K. 350       Mand.         MC          LHan -a< -ai OCM"
+  },
+  "coverage": {
+    "gsc_id": "18-12",
+    "rhyme_section": "18",
+    "series_number": "12",
+    "schuessler_k_tokens": "350",
+    "schuessler_source_page": "240",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "那",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "那"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "350"
+  ],
+  "proposed_additions": [
+    {
+      "character": "那",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "na"
+        ],
+        "mand2mc_nwh_forms": [
+          "na"
+        ],
+        "mand2mc_bs_forms": [
+          "na"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2565",
+          "character": "那",
+          "pinyin": "nuo2",
+          "mc_nwh": "na",
+          "mc_bs": "na",
+          "gsr": "0350a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11380",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "諾何",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠l",
+          "oc_syllable": "na̠l"
+        },
+        {
+          "source_row_number": "11382",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "奴箇",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠ls",
+          "oc_syllable": "na̠ls"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|冉|alt1=冄|邑|ls=psc|c1=p|c2=s|t2=city}}",
+          "positional_components": [
+            "冉",
+            "邑"
+          ],
+          "positional_components_raw": [
+            "冉",
+            "邑"
+          ],
+          "named_args": {
+            "alt1": "冄",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "city"
+          },
+          "semantic_components": [
+            "邑"
+          ],
+          "phonetic_components": [
+            "冉"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|冉|alt1=冄|邑|ls=psc|c1=p|c2=s|t2=city}}",
+            "positional_components": [
+              "冉",
+              "邑"
+            ],
+            "positional_components_raw": [
+              "冉",
+              "邑"
+            ],
+            "named_args": {
+              "alt1": "冄",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "city"
+            },
+            "semantic_components": [
+              "邑"
+            ],
+            "phonetic_components": [
+              "冉"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{na₃\\textsuperscript{·urb}}},",
+      "render_latex": "那\t%nuo2\n{\\large{na₃\\textsuperscript{·urb}}},\n\\textit{na};\t%0350a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "邑",
+        "phonetic_component": "冄",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "那",
+          "semantic_component": "邑",
+          "phonetic_component": "冄",
+          "position": "suffix-dot",
+          "abbreviation": "urb",
+          "inventory_matches": [
+            {
+              "graph_raw": "邑",
+              "label_token": "urb(s)",
+              "abbreviation": "urb",
+              "start_line": 425
+            }
+          ],
+          "template_raw": "{{Han compound|冉|alt1=冄|邑|ls=psc|c1=p|c2=s|t2=city}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "urb",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "邑",
+            "label_token": "urb(s)",
+            "abbreviation": "urb",
+            "start_line": 425
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "邑"
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "那",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "那"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "那",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "na"
+        ],
+        "mand2mc_nwh_forms": [
+          "na"
+        ],
+        "mand2mc_bs_forms": [
+          "na"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2565",
+          "character": "那",
+          "pinyin": "nuo2",
+          "mc_nwh": "na",
+          "mc_bs": "na",
+          "gsr": "0350a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11380",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "諾何",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠l",
+          "oc_syllable": "na̠l"
+        },
+        {
+          "source_row_number": "11382",
+          "character": "那",
+          "phonetic_component": "冉",
+          "component_level": "2",
+          "secondary_component": "那",
+          "fanqie": "奴箇",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "a̠ls",
+          "oc_syllable": "na̠ls"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "那",
+      "gsr": null,
+      "oc_bs": "*na̠l",
+      "root": "na",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "na",
+    "source": "head_graph_oc_shengfu",
+    "character": "那",
+    "oc_bs": "*na̠l",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "na₃",
+    "base_root": "na",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

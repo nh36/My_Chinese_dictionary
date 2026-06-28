@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5453
-- Pages fetched / cached successfully: 5375
-- Additions with explicit Han-compound semantic/phonetic roles: 2509
+- Proposed additions checked: 5462
+- Pages fetched / cached successfully: 5384
+- Additions with explicit Han-compound semantic/phonetic roles: 2514
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3300,7 +3300,13 @@
 | `17-15` | 駁 | yes | yes | 馬 | 爻 |
 | `17-15` | 駮 | yes | no |  |  |
 | `17-16` | 豹 | yes | yes | 豸 | 勺 |
+| `18-02` | 个 | yes | no |  |  |
 | `18-09` | 舵 | yes | yes | 舟 | 它 |
+| `18-10` | 羅 | yes | no |  |  |
+| `18-10` | 蘿 | yes | yes | 艸 | 羅 |
+| `18-12` | 那 | yes | yes | 邑 | 冉 |
+| `18-17` | 罷 | yes | no |  |  |
+| `18-17` | 羆 | yes | yes | 熊 | 罷 |
 | `18-18` | 加 | yes | no |  |  |
 | `18-18` | 枷 | yes | no |  |  |
 | `18-18` | 珈 | yes | yes | 玉 | 加 |
@@ -3308,6 +3314,8 @@
 | `18-18` | 嘉 | yes | yes | 壴 | 加 |
 | `18-18` | 哿 | yes | no |  |  |
 | `18-18` | 賀 | yes | yes | 貝 | 加 |
+| `18-19` | 毀 | yes | yes | 殳 | 𬛸 |
+| `18-19` | 燬 | yes | yes | 火 | 毀 |
 | `19-02` | 果 | yes | no |  |  |
 | `19-02` | 蜾 | yes | no |  |  |
 | `19-02` | 裹 | yes | yes | 衣 | 果 |
@@ -3321,6 +3329,7 @@
 | `19-02` | 輠 | yes | no |  |  |
 | `19-02` | 祼 | yes | yes | 示 | 果 |
 | `19-02` | 婐 | yes | no |  |  |
+| `19-03` | 𩰬 | yes | no |  |  |
 | `19-04` | 腡 | yes | yes | 肉 | 咼 |
 | `19-04` | 冎 | yes | no |  |  |
 | `19-06` | 媯 | yes | yes | 女 | 為 |
