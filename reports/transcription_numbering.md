@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 955
-- Roots whose display label changed after document-wide renumbering: 538
-- Duplicate phonetic bases encountered in document order: 252
+- Mutable series/subseries roots inspected: 961
+- Roots whose display label changed after document-wide renumbering: 543
+- Duplicate phonetic bases encountered in document order: 254
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -412,7 +412,7 @@
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
 | `06-11` | `series-root` | 徵 | `tyṅ` | 5 | `tyṅ₅` | yes |
 | `06-12` | `series-root` | 爯 | `tyṅ` | 6 | `tyṅ₆` | yes |
-| `06-13` | `series-root` | 灷 | `ɡlum` | 1 | `ɡlum` | yes |
+| `06-13` | `series-root` | 㑞 | `ɡlum` | 1 | `ɡlum` | yes |
 | `06-13` | `subseries-root` | 朕 | `ɡlum` | 2 | `ɡlum₂` | yes |
 | `06-14` | `series-root` | 孕 | `liṅ` | 1 | `liṅ` | yes |
 | `06-15` | `series-root` | 乘 | `lyṅ` | 1 | `lyṅ` | yes |
@@ -626,13 +626,19 @@
 | `12-19` | `subseries-root` | 匆 | `s\textoverset{a}{o}ṅ` | 2 | `s\textoverset{a}{o}ṅ₂` | yes |
 | `12-19` | `subseries-root` | 怱 | `s\textoverset{a}{o}ṅ` | 3 | `s\textoverset{a}{o}ṅ₃` | yes |
 | `12-19` | `subseries-root` | 悤 | `s\textoverset{a}{o}ṅ` | 4 | `s\textoverset{a}{o}ṅ₄` | yes |
-| `12-22` | `series-root` | 从 | `soṅ` | 1 | `soṅ` | yes |
+| `12-20` | `series-root` | 㚇 | `s\textoverset{a}{o}ṅ` | 5 | `s\textoverset{a}{o}ṅ₅` | yes |
+| `12-21` | `series-root` | 叢 | `soṅ` | 1 | `soṅ` | yes |
+| `12-22` | `series-root` | 从 | `soṅ` | 2 | `soṅ₂` | yes |
 | `12-22` | `subseries-root` | 從 | `tsoṅ` | 1 | `tsoṅ` | yes |
+| `12-23` | `series-root` | 送 | `soṅ` | 3 | `soṅ₃` | yes |
+| `12-24` | `series-root` | 雙 | `soṅ` | 4 | `soṅ₄` | yes |
 | `12-25` | `series-root` | 丰 | `poṅ` | 1 | `poṅ` | yes |
 | `12-25` | `subseries-root` | 封 | `poṅ` | 2 | `poṅ₂` | yes |
 | `12-25` | `subseries-root` | 夆 | `poṅ` | 3 | `poṅ₃` | yes |
 | `12-25` | `subseries-root` | 逢 | `poṅ` | 4 | `poṅ₄` | yes |
 | `12-25` | `subseries-root` | 奉 | `poṅ` | 5 | `poṅ₅` | yes |
+| `12-26` | `series-root` | 尨 | `m\textoverset{a}{o}ṅ` | 1 | `m\textoverset{a}{o}ṅ` | yes |
+| `12-27` | `series-root` | 蒙 | `m\textoverset{a}{o}ṅ` | 2 | `m\textoverset{a}{o}ṅ₂` | yes |
 | `13-03` | `series-root` | 丂 | `ku` | 4 | `ku₄` | yes |
 | `13-08` | `series-root` | 丩 | `kiw` | 1 | `kiw` | yes |
 | `13-08` | `subseries-root` | 糾 | `kiw` | 2 | `kiw₂` | yes |

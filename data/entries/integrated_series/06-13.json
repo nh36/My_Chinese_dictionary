@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T08:12:50.586099+00:00",
+  "generated_at": "2026-06-28T08:52:36.021072+00:00",
   "id": "06-13",
   "schuessler": {
     "gsc_id": "06-13",
@@ -3334,26 +3334,83 @@
     ],
     "series_root_candidates": [
       {
-        "character": "灷",
+        "character": "㑞",
+        "gsr": null,
+        "oc_bs": "*ɡ‧lums",
+        "root": "lum",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 3,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "㑞",
         "gsr": null,
         "oc_bs": "*ɡlumʔ",
         "root": "ɡlum",
-        "source": "same_character_series_root",
+        "source": "phonetic_component_series_root",
+        "support_count": 22,
+        "supporting_sources": [
+          "phonetic_component_series_root",
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "朕",
+        "gsr": "0893f",
+        "oc_bs": "*lrəmʔ",
+        "root": "lym",
+        "source": "head_graph_oc_bs",
         "support_count": 1,
         "supporting_sources": [
-          "same_character_series_root"
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "媵",
+        "gsr": null,
+        "oc_bs": "*ɢlʲums",
+        "root": "qum",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 5,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
+        ]
+      },
+      {
+        "character": "塍",
+        "gsr": "0893n",
+        "oc_bs": "*Cə.ləŋ",
+        "root": "lyṅ",
+        "source": "head_graph_oc_bs",
+        "support_count": 4,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
+      },
+      {
+        "character": "螣",
+        "gsr": null,
+        "oc_bs": "*ɡlu̠b",
+        "root": "ɡlup",
+        "source": "head_graph_oc_shengfu",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_shengfu"
         ]
       }
     ],
     "resolved_series_root": {
       "root": "ɡlum",
-      "source": "same_character_series_root",
-      "character": "灷",
+      "source": "head_graph_supported_root",
+      "character": "㑞",
       "oc_bs": "*ɡlumʔ",
       "confidence": "provisional-oc",
-      "support_count": 1,
+      "support_count": 22,
       "supporting_sources": [
-        "same_character_series_root"
+        "phonetic_component_series_root",
+        "head_graph_oc_shengfu"
       ],
       "display_root": "ɡlum",
       "base_root": "ɡlum",

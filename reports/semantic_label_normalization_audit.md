@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T08:12:52.843113+00:00
+- Generated at: 2026-06-28T08:52:38.428966+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20553
+- Total occurrences audited: 20607
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20344 |
+| `canonical` | 20396 |
 | `explicit_alias` | 11 |
-| `needs_review` | 198 |
+| `needs_review` | 200 |
 
 ## Blocked ambiguous aliases
 
@@ -756,6 +756,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `12-05` | `兇` | `儿` | render_latex, transliteration_latex | `儿` | `⿱凶儿` | `兇	%xiong1
 {\large{q\textoverset{b}{o}ṅ\textsuperscript{˸儿}}},
 \textit{hiəwṅ};	%1183b` |
+| `curation_json` | `12-21` | `叢` | `丵` | render_latex, transliteration_latex | `丵` | `⿱丵取` | `叢	%cong2
+{\large{\textsuperscript{丵˸}soṅ}},
+\textit{dzuwṅ};	%1178a` |
 | `curation_json` | `14-02` | `麴` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥匊` | `麴	%qu1
 {\large{\textsuperscript{麥·}kuk}},
 \textit{khiuwk};	%1017i` |
@@ -922,6 +925,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `12-05` | `兇` | `儿` | render_latex, transliteration_latex | `儿` | `⿱凶儿` | `兇	%xiong1
 {\large{q\textoverset{b}{o}ṅ\textsuperscript{˸儿}}},
 \textit{hiəwṅ};	%1183b` |
+| `integrated_series_curated_entry` | `12-21` | `叢` | `丵` | render_latex, transliteration_latex | `丵` | `⿱丵取` | `叢	%cong2
+{\large{\textsuperscript{丵˸}soṅ}},
+\textit{dzuwṅ};	%1178a` |
 | `integrated_series_curated_entry` | `14-02` | `麴` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥匊` | `麴	%qu1
 {\large{\textsuperscript{麥·}kuk}},
 \textit{khiuwk};	%1017i` |

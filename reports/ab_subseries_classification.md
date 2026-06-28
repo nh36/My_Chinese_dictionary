@@ -1,7 +1,7 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 797
-- Subgroups newly marked with `a`: 103
+- Generated subgroup heads inspected: 800
+- Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 250
 - Mixed subgroups left unmarked: 346
@@ -419,6 +419,7 @@
 | `12-19` | 匆 | `soṅ` | `s\textoverset{a}{o}ṅ₂` | `a` | yes | `tṣhaewṅ, tshuwṅ, tsuwṅ, tsuwṅX` | all extracted forms lack an i-medial after the onset |
 | `12-19` | 悤 | `soṅ` | `s\textoverset{a}{o}ṅ₄` | `a` | yes | `tshuwṅ, tṣhaewṅ, tsuwṅX` | all extracted forms lack an i-medial after the onset |
 | `12-19` | 怱 | `soṅ` | `s\textoverset{a}{o}ṅ₃` | `a` | yes | `tshuwṅ, tsuwṅ, tsuwṅX, tṣhaewṅ` | all extracted forms lack an i-medial after the onset |
+| `12-20` | 㚇 | `soṅ` | `s\textoverset{a}{o}ṅ` | `a` | yes | `tsuwṅ, tsuwṅH` | all extracted forms lack an i-medial after the onset |
 | `12-22` | 从 | `tsoṅ` | `tsoṅ` | `mixed` | no | `dziəwṅ, dziəwṅH, tshiəwṅ, tsiəwṅ, tsuwṅX, tsiəwṅH, siəwṅX, tsuwṅ` | the extracted forms point to both type a and type b |
 | `12-22` | 從 | `tsoṅ` | `tsoṅ` | `mixed` | no | `dziəwṅ, dziəwṅH, tshiəwṅ, tsiəwṅ, tsuwṅX, tsiəwṅH, siəwṅX, tsuwṅ` | the extracted forms point to both type a and type b |
 | `12-25` | 丰 | `poṅ` | `poṅ` | `mixed` | no | `phiəwṅ, baewṅX, paewṅ, biəwṅ, buwṅ, biəwṅH` | the extracted forms point to both type a and type b |
@@ -426,6 +427,8 @@
 | `12-25` | 夆 | `poṅ` | `poṅ₃` | `mixed` | no | `biəwṅ, phiəwṅ, buwṅ, biəwṅH` | the extracted forms point to both type a and type b |
 | `12-25` | 逢 | `poṅ` | `poṅ₄` | `mixed` | no | `biəwṅ, buwṅ, biəwṅH` | the extracted forms point to both type a and type b |
 | `12-25` | 奉 | `poṅ` | `poṅ₅` | `mixed` | no | `biəwṅX, phiəwṅX, biəwṅH, buwṅX, puwṅX, baewṅX` | the extracted forms point to both type a and type b |
+| `12-26` | 尨 | `moṅ` | `m\textoverset{a}{o}ṅ` | `a` | yes | `maewṅ` | all extracted forms lack an i-medial after the onset |
+| `12-27` | 蒙 | `moṅ` | `m\textoverset{a}{o}ṅ` | `a` | yes | `muwṅ, muwṅX` | all extracted forms lack an i-medial after the onset |
 | `13-03` | 丂 | `` | `` | `unknown` | no | `` |  |
 | `13-03` | 考 | `` | `` | `unknown` | no | `` |  |
 | `13-08` | 丩 | `kiw` | `kiw` | `mixed` | no | `kyiw, kyiwX, gyiewX, gyiw, kewH` | the extracted forms point to both type a and type b |

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 66,
+    "case_count": 67,
     "unique_component_count": 55,
     "by_classification": {
-      "new_latin_label_needed": 65,
+      "new_latin_label_needed": 66,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 39,
+      "wiktionary_component_literal_fallback": 40,
       "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 18
     }
@@ -573,6 +573,23 @@
       "render_latex": "兇\t%xiong1\n{\\large{q\\textoverset{b}{o}ṅ\\textsuperscript{˸儿}}},\n\\textit{hiəwṅ};\t%1183b",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `儿` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "12-21",
+      "character": "叢",
+      "abbreviation": "丵",
+      "semantic_component": "丵",
+      "position": "prefix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|丵|取|c1=s|c2=p|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱业𢆉",
+      "transliteration_latex": "{\\large{\\textsuperscript{丵˸}soṅ}},",
+      "render_latex": "叢\t%cong2\n{\\large{\\textsuperscript{丵˸}soṅ}},\n\\textit{dzuwṅ};\t%1178a",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丵` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "13-08",
@@ -1261,11 +1278,17 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
         {
           "entry_id": "11-23",
           "character": "菐",
+          "position": "prefix-colon",
+          "source": "wiktionary_component_literal_fallback"
+        },
+        {
+          "entry_id": "12-21",
+          "character": "叢",
           "position": "prefix-colon",
           "source": "wiktionary_component_literal_fallback"
         }

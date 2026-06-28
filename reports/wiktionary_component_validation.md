@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5106
-- Pages fetched / cached successfully: 5030
-- Additions with explicit Han-compound semantic/phonetic roles: 2388
+- Proposed additions checked: 5124
+- Pages fetched / cached successfully: 5048
+- Additions with explicit Han-compound semantic/phonetic roles: 2394
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2291,12 +2291,20 @@
 | `12-19` | 揔 | yes | yes | 手 | 怱 |
 | `12-19` | 窻 | yes | yes | 穴 | 悤 |
 | `12-19` | 䆫 | yes | yes | 穴 | 怱 |
+| `12-20` | 㚇 | yes | no |  |  |
+| `12-20` | 惾 | yes | no |  |  |
+| `12-20` | 椶 | yes | yes | 木 | 㚇 |
+| `12-20` | 稯 | yes | no |  |  |
+| `12-20` | 鬷 | yes | no |  |  |
+| `12-21` | 叢 | yes | yes | 丵 | 取 |
 | `12-22` | 从 | yes | no |  |  |
 | `12-22` | 從 | yes | yes | 辵 | 从 |
 | `12-22` | 縱 | yes | yes | 糸 | 從 |
 | `12-22` | 樅 | yes | yes | 木 | 從 |
 | `12-22` | 聳 | yes | yes | 耳 | 從 |
 | `12-22` | 豵 | yes | yes | 豕 | 從 |
+| `12-23` | 送 | yes | yes | 辵 | 灷 |
+| `12-24` | 雙 | yes | no |  |  |
 | `12-25` | 丰 | yes | no |  |  |
 | `12-25` | 捧 | yes | no |  |  |
 | `12-25` | 俸 | yes | yes | 人 | 奉 |
@@ -2320,6 +2328,16 @@
 | `12-25` | 縫 | yes | yes | 糸 | 逢 |
 | `12-25` | 蓬 | yes | yes | 艸 | 逢 |
 | `12-25` | 奉 | yes | yes | 廾 | 丰 |
+| `12-26` | 尨 | yes | no |  |  |
+| `12-26` | 哤 | yes | no |  |  |
+| `12-26` | 駹 | yes | no |  |  |
+| `12-26` | 厖 | yes | yes | 厂 | 尨 |
+| `12-27` | 蒙 | yes | yes | 艸 | 冡 |
+| `12-27` | 幪 | yes | no |  |  |
+| `12-27` | 矇 | yes | no |  |  |
+| `12-27` | 濛 | yes | no |  |  |
+| `12-27` | 蠓 | yes | yes | 虫 | 蒙 |
+| `12-27` | 饛 | yes | no |  |  |
 | `13-03` | 丂 | yes | no |  |  |
 | `13-03` | 考 | yes | no |  |  |
 | `13-03` | 攷 | yes | no |  |  |

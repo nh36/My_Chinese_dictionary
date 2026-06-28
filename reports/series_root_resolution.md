@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 600
-- Packets with at least one root candidate: 599
-- Packets with a single resolved provisional root: 597
+- Missing-series packets inspected: 606
+- Packets with at least one root candidate: 605
+- Packets with a single resolved provisional root: 603
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -229,7 +229,7 @@
 | `06-10` | 氶→kyṅ [*kʲɯŋʔ] (None) | `kyṅ` | `head_graph_oc_shengfu` |
 | `06-11` | 徵→tyṅ [*trəŋ] (0891a) | `tyṅ` | `head_graph_oc_bs` |
 | `06-12` | 爯→tyṅ [*tʰʲɯŋ] (None) | `tyṅ` | `head_graph_oc_shengfu` |
-| `06-13` | 灷→ɡlum [*ɡlumʔ] (None) | `ɡlum` | `same_character_series_root` |
+| `06-13` | 㑞→lum [*ɡ‧lums] (None); 㑞→ɡlum [*ɡlumʔ] (None); 朕→lym [*lrəmʔ] (0893f); 媵→qum [*ɢlʲums] (None); 塍→lyṅ [*Cə.ləŋ] (0893n); 螣→ɡlup [*ɡlu̠b] (None) | `ɡlum` | `head_graph_supported_root` |
 | `06-14` | 孕→liṅ [*liŋ-s {*l[i]ŋ-s}] (0945j); 孕→lum [*b‧lums] (None) | `liṅ` | `head_graph_mc_coda` |
 | `06-15` | 乘→lyṅ [*Cə.ləŋ] (0895a) | `lyṅ` | `head_graph_oc_bs` |
 | `06-16` | 升→tyṅ [*s-təŋ] (0897a) | `tyṅ` | `head_graph_oc_bs` |
@@ -378,8 +378,14 @@
 | `12-16` | 茸→noṅ [*nʲoŋ] (None) | `noṅ` | `head_graph_oc_shengfu` |
 | `12-18` | 宂→noṅ [*nʲoŋʔ] (None) | `noṅ` | `head_graph_oc_shengfu` |
 | `12-19` | 囱→soṅ [*skʰo̠ŋ] (None) | `soṅ` | `same_character_series_root` |
+| `12-20` | 㚇→soṅ [*sko̠ŋ] (None) | `soṅ` | `head_graph_oc_shengfu` |
+| `12-21` | 叢→soṅ [*sɡo̠ŋ] (None) | `soṅ` | `head_graph_oc_shengfu` |
 | `12-22` | 从→soṅ [*zoŋ] (None) | `soṅ` | `head_graph_oc_shengfu` |
+| `12-23` | 送→soṅ [*sˤoŋ-s {*[s]ˤoŋ-s}] (1179a) | `soṅ` | `head_graph_oc_bs` |
+| `12-24` | 雙→soṅ [*sˤroŋ {*[s]ˤroŋ}] (1200a) | `soṅ` | `head_graph_oc_bs` |
 | `12-25` | 丰→poṅ [*pʰoŋ] (None) | `poṅ` | `head_graph_oc_shengfu` |
+| `12-26` | 尨→moṅ [*mˤroŋ] (1201a) | `moṅ` | `head_graph_oc_bs` |
+| `12-27` | 蒙→moṅ [*mˤoŋ] (1181a) | `moṅ` | `head_graph_oc_bs` |
 | `13-03` | 丂→ku [*kʰu̠ʔ] (None); 苛→ɡa [*ɡa̠l] (None) | `ku` | `packet_shengfu_majority` |
 | `13-08` | 丩→kiw [*kriw] (1064a) | `kiw` | `head_graph_oc_bs` |
 | `13-16` | 幺→ʔiw [*ʔˤiw {*ʔˤ[i]w}] (1115a) | `ʔiw` | `head_graph_oc_bs` |
