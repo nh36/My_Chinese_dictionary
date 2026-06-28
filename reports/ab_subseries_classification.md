@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 852
-- Subgroups newly marked with `a`: 106
+- Generated subgroup heads inspected: 857
+- Subgroups newly marked with `a`: 108
 - Subgroups newly marked with `b`: 95
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 287
-- Mixed subgroups left unmarked: 359
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 289
+- Mixed subgroups left unmarked: 360
 - Unresolved subgroups left unmarked: 5
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -541,8 +541,13 @@
 | `16-06` | 效 | `kaw` | `k\textoverset{a}{a}w₆` | `a` | yes | `ḫaewH` | all extracted forms lack an i-medial after the onset |
 | `16-07` | 爻 | `kaw` | `k\textoverset{a}{a}w` | `a` | yes | `ḫaew, kaewH, kaewk` | all extracted forms lack an i-medial after the onset |
 | `16-07` | 肴 | `kaw` | `k\textoverset{a}{a}w₈` | `a` | yes | `ḫaew` | all extracted forms lack an i-medial after the onset |
+| `16-08` | 号 | `gaw` | `gaw` | `mixed` | no | `ḫawH, ḫaw, hiew, yiew` | the extracted forms point to both type a and type b |
+| `16-08` | 𧴪 | `soy` | `s\textoverset{a}{o}y` | `a` | yes | `swaX, swaeX` | all extracted forms lack an i-medial after the onset |
+| `16-09` | 孝 | `qu` | `qu` | `a` | no | `haewH, haew` | all extracted forms lack an i-medial after the onset |
+| `16-09` | 沙 | `say` | `s\textoverset{a}{a}y` | `a` | yes | `ṣae, sa, swa` | all extracted forms lack an i-medial after the onset |
 | `16-10` | 夭 | `ʔaw` | `ʔaw` | `mixed` | no | `qawX, qiewX, qiew, qewX, qew, qewH, qəwk` | the extracted forms point to both type a and type b |
 | `16-10` | 沃 | `ʔaw` | `ʔ\textoverset{a}{a}w` | `a` | yes | `qəwk` | all extracted forms lack an i-medial after the onset |
+| `16-11` | 要 | `qew` | `qew` | `b` | no | `qyiew, qyiewH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-13` | 敖 | `ṅow` | `ṅ\textoverset{a}{o}w` | `a` | yes | `ṅaw, ṅawH, ṅaew` | all extracted forms lack an i-medial after the onset |
 | `16-14` | 堯 | `ṅew` | `ṅew` | `mixed` | no | `ṅew, kewX, kew, khew, hew, hewX, gyiew, khaew, khewX, ñiewH, ñiewX, ñiew, ṇaewH, ṇaew, ṇaewX, haw, śiew` | the extracted forms point to both type a and type b |
 | `16-15` | 刀 | `taw` | `taw` | `mixed` | no | `taw, tew, thaw, ḍiewH, jiewX, jiew, dew, daw, ṭhiew, chiew, yiew, ciew, ciewX, ciewH, chiewX` | the extracted forms point to both type a and type b |
@@ -571,7 +576,7 @@
 | `19-02` | 果 | `kor` | `k\textoverset{a}{o}r` | `a` | yes | `khwaX, kwaX, khwaH, lwaX, ḫwaeX, ḫwanX, ḫwəyX, kwanH, qwaX` | all extracted forms lack an i-medial after the onset |
 | `19-09` | 隋 | `loy` | `loy₂` | `mixed` | no | `siweH, thwaX, hiwieH, dwaX, hiwie, dwaH` | the extracted forms point to both type a and type b |
 | `19-09` | 隨 | `loy` | `l\textoverset{b}{o}y` | `b` | yes | `ziwe, siweH` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `19-22` | 𧴪 | `s\textoverset{a}{o}y` | `s\textoverset{a}{o}y₂` | `a` | no | `swaX` | all extracted forms lack an i-medial after the onset |
+| `19-22` | 𧴪 | `s\textoverset{a}{o}y` | `s\textoverset{a}{o}y₃` | `a` | no | `swaX` | all extracted forms lack an i-medial after the onset |
 | `20-01` | 㓞 | `ket` | `ket` | `mixed` | no | `kheat, kheyH, khet, siet, kyieyH, cieyH, kheaH, set, ḫet, ket, ṅet` | the extracted forms point to both type a and type b |
 | `20-01` | 契 | `ket` | `ket₂` | `mixed` | no | `kheyH, khet, siet, kyieyH, cieyH, kheaH, set` | the extracted forms point to both type a and type b |
 | `20-01` | 絜 | `ket` | `ket₃` | `a` | no | `ḫet, ket, khet` | all extracted forms lack an i-medial after the onset |

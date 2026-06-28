@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5338
-- Pages fetched / cached successfully: 5259
-- Additions with explicit Han-compound semantic/phonetic roles: 2466
+- Proposed additions checked: 5359
+- Pages fetched / cached successfully: 5280
+- Additions with explicit Han-compound semantic/phonetic roles: 2474
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2862,6 +2862,7 @@
 | `15-13` | 崇 | yes | yes | 山 | 宗 |
 | `15-14` | 豐 | yes | no |  |  |
 | `15-14` | 麷 | yes | yes | 麥 | 豐 |
+| `15-15` | 賵 | yes | no |  |  |
 | `16-01` | 高 | yes | no |  |  |
 | `16-01` | 薧 | yes | yes | 死 | 蒿 |
 | `16-01` | 嚆 | yes | yes | 口 | 蒿 |
@@ -2945,6 +2946,20 @@
 | `16-07` | 𤕝 | no | no |  |  |
 | `16-07` | 教 | yes | yes | 子, 攴 | 爻 |
 | `16-07` | 䡈 | yes | no |  |  |
+| `16-08` | 号 | yes | no |  |  |
+| `16-08` | 號 | yes | yes | 虎 | 号 |
+| `16-08` | 呺 | yes | no |  |  |
+| `16-08` | 枵 | yes | yes | 木 | 号 |
+| `16-08` | 鴞 | yes | yes | 鳥 | 号 |
+| `16-08` | 𧴪 | yes | no |  |  |
+| `16-08` | 瑣 | yes | no |  |  |
+| `16-08` | 鎖 | yes | yes | 金 | 𧴪 |
+| `16-09` | 孝 | yes | no |  |  |
+| `16-09` | 哮 | yes | no |  |  |
+| `16-09` | 沙 | yes | no |  |  |
+| `16-09` | 鯊 | yes | yes | 魚 | 沙 |
+| `16-09` | 娑 | yes | yes | 女 | 沙 |
+| `16-09` | 莎 | yes | yes | 艸 | 沙 |
 | `16-10` | 夭 | yes | no |  |  |
 | `16-10` | 枖 | yes | no |  |  |
 | `16-10` | 妖 | yes | yes | 女 | 夭 |
@@ -2957,6 +2972,11 @@
 | `16-10` | 䴠 | yes | no |  |  |
 | `16-10` | 沃 | yes | yes | 水 | 夭 |
 | `16-10` | 鋈 | yes | no |  |  |
+| `16-11` | 要 | yes | no |  |  |
+| `16-11` | 腰 | yes | yes | 肉 | 要 |
+| `16-11` | 喓 | yes | no |  |  |
+| `16-11` | 葽 | yes | no |  |  |
+| `16-12` | 囂 | yes | no |  |  |
 | `16-13` | 敖 | yes | no |  |  |
 | `16-13` | 遨 | yes | yes | 辵 | 敖 |
 | `16-13` | 傲 | yes | yes | 人 | 敖 |
@@ -3011,6 +3031,7 @@
 | `16-15` | 弨 | yes | no |  |  |
 | `16-15` | 卲 | yes | no |  |  |
 | `16-15` | 紹 | yes | yes | 糸 | 召 |
+| `16-16` | 盜 | yes | no |  | 㳄 |
 | `16-20` | 兆 | yes | no |  |  |
 | `16-20` | 垗 | yes | no |  |  |
 | `16-20` | 旐 | yes | yes | 㫃 | 兆 |

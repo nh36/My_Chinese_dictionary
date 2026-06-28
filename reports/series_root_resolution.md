@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 690
-- Packets with at least one root candidate: 689
-- Packets with a single resolved provisional root: 687
+- Missing-series packets inspected: 696
+- Packets with at least one root candidate: 695
+- Packets with a single resolved provisional root: 693
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -497,15 +497,21 @@
 | `15-12` | 宋→sum [*sqˡu̠ms] (None) | `sum` | `head_graph_oc_shengfu` |
 | `15-13` | 宗→tsuṅ [*tsˤuŋ {*[ts]ˤuŋ}] (1003a) | `tsuṅ` | `head_graph_oc_bs` |
 | `15-14` | 豐→poṅ [*pʰoŋ {*pʰ(r)oŋ}] (1014a) | `poṅ` | `head_graph_oc_bs` |
+| `15-15` | 賵→muṅ [*m̥uŋs] (None); 賵→muk [*mˤuk-s] (None) | `muṅ` | `head_graph_mc_coda` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |
 | `16-02` | 羔→ku [*ku̠] (None) | `ku` | `head_graph_oc_shengfu` |
 | `16-03` | 喬→kaw [*N-kaw {*[N-k](r)aw}] (1138a) | `kaw` | `head_graph_oc_bs` |
 | `16-06` | 交→kaw [*kˤraw {*[k]ˤraw}] (1166a) | `kaw` | `head_graph_oc_bs` |
 | `16-07` | 爻→kaw [*N-kˤraw] (1167a) | `kaw` | `head_graph_oc_bs` |
+| `16-08` | 号→ku [*ku̠] (None); 號→kaw [*C.gˤaw {*[C.g]ˤaw}] (1041q); 號→qu [*ɢu̠] (None); 呺→qiw [*qʰʳiw] (None); 鴞→quaw [*ɢʷaw {*[ɢ]ʷ(r)aw}] (1041t); 𧴪→so [*sˡo̠lʔ] (None); 鎖→soy [*sˤojʔ {*[s]ˤojʔ}] (13) | `ku` | `head_graph_supported_root` |
+| `16-09` | 孝→qu [*qʰˤ<r>u-s {*qʰˤ<r>uʔ-s}] (1168a); 沙→say [*sˤraj {*[s]ˤraj}] (0016a) | `qu` | `merged_packet_primary_head` |
 | `16-10` | 夭→ʔaw [*ʔaw {*[ʔ](r)aw}] (1141a) | `ʔaw` | `head_graph_oc_bs` |
+| `16-11` | 要→ʔew [*ʔew-s] (1142a) | `ʔew` | `head_graph_oc_bs` |
+| `16-12` | 囂→ṅow [*ŋo̠w] (None) | `ṅow` | `head_graph_oc_shengfu` |
 | `16-13` | 敖→ṅow [*ŋɡo̠w] (None) | `ṅow` | `head_graph_oc_shengfu` |
 | `16-14` | 堯→ṅew [*ŋˤew {*[ŋ]ˤew}] (1164a) | `ṅew` | `head_graph_oc_bs` |
 | `16-15` | 刀→taw [*C.tˤaw] (1131a) | `taw` | `head_graph_oc_bs` |
+| `16-16` | 盜→taw [*dˤaw-s {*[d]ˤaw(k)-s}] (1133a) | `taw` | `head_graph_oc_bs` |
 | `16-20` | 兆→law [*lrawʔ {*lr[a]wʔ}] (1145a) | `law` | `head_graph_oc_bs` |
 | `16-21` | 䍃→law [*law] (1144a) | `law` | `head_graph_oc_bs` |
 | `16-24` | 𤋯→rew [*ɡ‧re̠w] (None) | `rew` | `same_character_series_root` |
