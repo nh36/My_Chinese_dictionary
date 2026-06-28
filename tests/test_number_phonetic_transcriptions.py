@@ -136,6 +136,38 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
         self.assertEqual(later_entry["resolved_series_root"]["display_root"], "ka₂")
         self.assertIn("ka₂", child["transliteration_latex"])
 
+    def test_mutable_subseries_root_occurrences_deduplicate_nested_head_children(self) -> None:
+        entry = {
+            "id": "13-01",
+            "packet_kind": "missing_series",
+            "proposed_additions": [
+                {"character": "A"},
+                {
+                    "character": "B",
+                    "hierarchy_assignment": {"status": "assigned-to-candidate-node", "parent_character": "A"},
+                    "resolved_node_root": {"root": "ka", "display_root": "ka"},
+                },
+                {
+                    "character": "C",
+                    "hierarchy_assignment": {"status": "assigned-to-candidate-node", "parent_character": "B"},
+                    "resolved_node_root": {"root": "ka", "display_root": "ka₂"},
+                },
+                {
+                    "character": "D",
+                    "hierarchy_assignment": {"status": "assigned-to-candidate-node", "parent_character": "A"},
+                },
+                {
+                    "character": "E",
+                    "hierarchy_assignment": {"status": "assigned-to-candidate-node", "parent_character": "C"},
+                },
+            ],
+        }
+        occurrences = number_phonetic_transcriptions.mutable_subseries_root_occurrences(entry)
+        self.assertEqual(
+            [occurrence["character"] for occurrence in occurrences],
+            ["B", "C"],
+        )
+
     def test_current_generated_root_labels_are_unique(self) -> None:
         entries = copy.deepcopy(number_phonetic_transcriptions.load_entries(ROOT / "data/entries/curation"))
         integrated_records = number_phonetic_transcriptions.load_integrated_records(

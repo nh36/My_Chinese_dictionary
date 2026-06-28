@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-06-28T09:01:37.244398+00:00",
+  "id": "13-02",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "13-02",
+    "rhyme_section": 13,
+    "series_number": 2,
+    "k_tokens": [
+      "1244c"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC              LHan           OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 196,
+    "source_line_number": 21,
+    "source_line_raw": "13-2   = K.1244c         Man d.        MC              LHan           OCM"
+  },
+  "coverage": {
+    "gsc_id": "13-02",
+    "rhyme_section": "13",
+    "series_number": "2",
+    "schuessler_k_tokens": "1244c",
+    "schuessler_source_page": "196",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "杲",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "杲"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1244c"
+  ],
+  "proposed_additions": [
+    {
+      "character": "杲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kawX"
+        ],
+        "mand2mc_nwh_forms": [
+          "kawX"
+        ],
+        "mand2mc_bs_forms": [
+          "kawX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9096",
+          "character": "杲",
+          "pinyin": "gao3",
+          "mc_nwh": "kawX",
+          "mc_bs": "kawX",
+          "gsr": "1244c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "3983",
+          "character": "杲",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3983",
+          "character": "杲",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        },
+        {
+          "source_row_number": "3984",
+          "character": "菒",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|日|木|t1=sun|t2=tree|ls=ic}}",
+          "positional_components": [
+            "日",
+            "木"
+          ],
+          "positional_components_raw": [
+            "日",
+            "木"
+          ],
+          "named_args": {
+            "t1": "sun",
+            "t2": "tree",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|日|木|t1=sun|t2=tree|ls=ic}}",
+            "positional_components": [
+              "日",
+              "木"
+            ],
+            "positional_components_raw": [
+              "日",
+              "木"
+            ],
+            "named_args": {
+              "t1": "sun",
+              "t2": "tree",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ku₈}},",
+      "render_latex": "杲\t%gao3\n{\\large{ku₈}},\n\\textit{kawX};\t%1244c",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "杲",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "杲"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "杲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "kawX"
+        ],
+        "mand2mc_nwh_forms": [
+          "kawX"
+        ],
+        "mand2mc_bs_forms": [
+          "kawX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9096",
+          "character": "杲",
+          "pinyin": "gao3",
+          "mc_nwh": "kawX",
+          "mc_bs": "kawX",
+          "gsr": "1244c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "3983",
+          "character": "杲",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3983",
+          "character": "杲",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        },
+        {
+          "source_row_number": "3984",
+          "character": "菒",
+          "phonetic_component": "杲",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古老",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "u̠ʔ",
+          "oc_syllable": "ku̠ʔ"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "杲",
+      "gsr": null,
+      "oc_bs": "*ku̠ʔ",
+      "root": "ku",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ku",
+    "source": "head_graph_oc_shengfu",
+    "character": "杲",
+    "oc_bs": "*ku̠ʔ",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "ku₈",
+    "base_root": "ku",
+    "ordinal": 8,
+    "numbering_source": "document_order_occurrence"
+  }
+}

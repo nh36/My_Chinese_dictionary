@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 961
-- Roots whose display label changed after document-wide renumbering: 543
-- Duplicate phonetic bases encountered in document order: 254
+- Mutable series/subseries roots inspected: 970
+- Roots whose display label changed after document-wide renumbering: 6
+- Duplicate phonetic bases encountered in document order: 255
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -639,7 +639,16 @@
 | `12-25` | `subseries-root` | 奉 | `poṅ` | 5 | `poṅ₅` | yes |
 | `12-26` | `series-root` | 尨 | `m\textoverset{a}{o}ṅ` | 1 | `m\textoverset{a}{o}ṅ` | yes |
 | `12-27` | `series-root` | 蒙 | `m\textoverset{a}{o}ṅ` | 2 | `m\textoverset{a}{o}ṅ₂` | yes |
-| `13-03` | `series-root` | 丂 | `ku` | 4 | `ku₄` | yes |
+| `13-01` | `series-root` | 皐 | `ku` | 4 | `ku₄` | yes |
+| `13-01` | `subseries-root` | 皋 | `ku` | 5 | `ku₅` | yes |
+| `13-01` | `subseries-root` | 皐 | `ku` | 6 | `ku₆` | yes |
+| `13-01` | `subseries-root` | 噑 | `ku` | 7 | `ku₇` | yes |
+| `13-02` | `series-root` | 杲 | `ku` | 8 | `ku₈` | yes |
+| `13-03` | `series-root` | 丂 | `ku` | 9 | `ku₉` | yes |
+| `13-04` | `series-root` | 昊 | `ɡu` | 2 | `ɡu₂` | yes |
+| `13-05` | `series-root` | 顥 | `ɡu` | 3 | `ɡu₃` | yes |
+| `13-06` | `series-root` | 韭 | `ku` | 10 | `ku₁₀` | yes |
+| `13-07` | `series-root` | 咎 | `ku` | 11 | `ku₁₁` | yes |
 | `13-08` | `series-root` | 丩 | `kiw` | 1 | `kiw` | yes |
 | `13-08` | `subseries-root` | 糾 | `kiw` | 2 | `kiw₂` | yes |
 | `13-16` | `series-root` | 幺 | `ʔiw` | 1 | `ʔiw` | yes |
@@ -695,7 +704,7 @@
 | `16-01` | `subseries-root` | 槀 | `k\textoverset{a}{a}w` | 2 | `k\textoverset{a}{a}w₂` | yes |
 | `16-01` | `subseries-root` | 豪 | `k\textoverset{a}{a}w` | 3 | `k\textoverset{a}{a}w₃` | yes |
 | `16-01` | `subseries-root` | 蒿 | `k\textoverset{a}{a}w` | 4 | `k\textoverset{a}{a}w₄` | yes |
-| `16-02` | `series-root` | 羔 | `ku` | 5 | `ku₅` | yes |
+| `16-02` | `series-root` | 羔 | `ku` | 12 | `ku₁₂` | yes |
 | `16-03` | `series-root` | 喬 | `k\textoverset{b}{a}w` | 1 | `k\textoverset{b}{a}w` | yes |
 | `16-06` | `series-root` | 交 | `k\textoverset{a}{a}w` | 5 | `k\textoverset{a}{a}w₅` | yes |
 | `16-06` | `subseries-root` | 效 | `k\textoverset{a}{a}w` | 6 | `k\textoverset{a}{a}w₆` | yes |

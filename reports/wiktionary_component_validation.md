@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5124
-- Pages fetched / cached successfully: 5048
-- Additions with explicit Han-compound semantic/phonetic roles: 2394
+- Proposed additions checked: 5141
+- Pages fetched / cached successfully: 5064
+- Additions with explicit Han-compound semantic/phonetic roles: 2395
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2338,6 +2338,15 @@
 | `12-27` | 濛 | yes | no |  |  |
 | `12-27` | 蠓 | yes | yes | 虫 | 蒙 |
 | `12-27` | 饛 | yes | no |  |  |
+| `13-01` | 皐 | yes | no |  |  |
+| `13-01` | 皋 | yes | no |  |  |
+| `13-01` | 槹 | yes | no |  |  |
+| `13-01` | 噑 | yes | no |  |  |
+| `13-01` | 暭 | yes | no |  |  |
+| `13-01` | 皡 | yes | no |  |  |
+| `13-01` | 皞 | yes | no |  |  |
+| `13-01` | 翶 | yes | no |  |  |
+| `13-02` | 杲 | yes | no |  |  |
 | `13-03` | 丂 | yes | no |  |  |
 | `13-03` | 考 | yes | no |  |  |
 | `13-03` | 攷 | yes | no |  |  |
@@ -2347,6 +2356,14 @@
 | `13-03` | 栲 | yes | no |  |  |
 | `13-03` | 苛 | yes | yes | 艸 | 可 |
 | `13-03` | 輢 | yes | no |  |  |
+| `13-04` | 昊 | yes | yes | 日 | 夰 |
+| `13-05` | 顥 | yes | no |  |  |
+| `13-06` | 韭 | yes | no |  |  |
+| `13-06` | 韮 | yes | no |  |  |
+| `13-07` | 咎 | yes | no |  |  |
+| `13-07` | 𣓌 | no | no |  |  |
+| `13-07` | 鼛 | yes | no |  |  |
+| `13-07` | 櫜 | yes | no |  |  |
 | `13-08` | 丩 | yes | no |  |  |
 | `13-08` | 糾 | yes | yes | 糸 | 丩 |
 | `13-08` | 糺 | yes | no |  |  |

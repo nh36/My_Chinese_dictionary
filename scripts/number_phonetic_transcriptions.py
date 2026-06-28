@@ -80,6 +80,8 @@ def split_missing_entry_candidates(entry: dict[str, Any]) -> tuple[list[dict[str
                     head_child_candidates.append(candidate)
                 else:
                     direct_candidates.append(candidate)
+                continue
+            # Deeper descendants are reached through their parent during the recursive walk.
             continue
         direct_candidates.append(candidate)
     return direct_candidates, head_child_candidates
@@ -129,6 +131,16 @@ def mutable_subseries_root_occurrences(entry: dict[str, Any]) -> list[dict[str, 
             ordered_candidates.extend(
                 iter_parent_root_candidates(grouped_by_parent.get(node.get("key_character")) or [], candidate_children)
             )
+
+    deduped_candidates: list[dict[str, Any]] = []
+    seen_characters: set[str] = set()
+    for candidate in ordered_candidates:
+        character = candidate["character"]
+        if character in seen_characters:
+            continue
+        seen_characters.add(character)
+        deduped_candidates.append(candidate)
+    ordered_candidates = deduped_candidates
 
     for candidate in ordered_candidates:
         root_data = candidate.get("resolved_node_root")
