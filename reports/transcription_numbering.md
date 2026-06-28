@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1053
-- Roots whose display label changed after document-wide renumbering: 621
-- Duplicate phonetic bases encountered in document order: 267
+- Mutable series/subseries roots inspected: 1060
+- Roots whose display label changed after document-wide renumbering: 623
+- Duplicate phonetic bases encountered in document order: 268
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -412,7 +412,7 @@
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
 | `06-11` | `series-root` | 徵 | `tyṅ` | 5 | `tyṅ₅` | yes |
 | `06-12` | `series-root` | 爯 | `tyṅ` | 6 | `tyṅ₆` | yes |
-| `06-13` | `series-root` | 㑞 | `ɡlum` | 1 | `ɡlum` | yes |
+| `06-13` | `series-root` | 朕 | `ɡlum` | 1 | `ɡlum` | yes |
 | `06-13` | `subseries-root` | 朕 | `ɡlum` | 2 | `ɡlum₂` | yes |
 | `06-14` | `series-root` | 孕 | `liṅ` | 1 | `liṅ` | yes |
 | `06-15` | `series-root` | 乘 | `lyṅ` | 1 | `lyṅ` | yes |
@@ -782,7 +782,14 @@
 | `15-07` | `series-root` | 蟲 | `luṅ` | 1 | `luṅ` | yes |
 | `15-07` | `subseries-root` | 虫 | `luṅ` | 2 | `luṅ₂` | yes |
 | `15-07` | `subseries-root` | 蟲 | `luṅ` | 3 | `luṅ₃` | yes |
+| `15-08` | `series-root` | 肜 | `ruṅ` | 1 | `ruṅ` | yes |
+| `15-08` | `subseries-root` | 彡 | `ruṅ` | 2 | `ruṅ₂` | yes |
 | `15-09` | `series-root` | 農 | `noṅ` | 3 | `noṅ₃` | yes |
+| `15-10` | `series-root` | 戎 | `nuṅ` | 1 | `nuṅ` | yes |
+| `15-11` | `series-root` | 嵩 | `suṅ` | 1 | `suṅ` | yes |
+| `15-12` | `series-root` | 宋 | `sum` | 1 | `sum` | yes |
+| `15-13` | `series-root` | 宗 | `tsuṅ` | 1 | `tsuṅ` | yes |
+| `15-14` | `series-root` | 豐 | `p\textoverset{b}{o}ṅ` | 1 | `p\textoverset{b}{o}ṅ` | yes |
 | `16-01` | `series-root` | 高 | `k\textoverset{a}{a}w` | 1 | `k\textoverset{a}{a}w` | yes |
 | `16-01` | `subseries-root` | 槀 | `k\textoverset{a}{a}w` | 2 | `k\textoverset{a}{a}w₂` | yes |
 | `16-01` | `subseries-root` | 豪 | `k\textoverset{a}{a}w` | 3 | `k\textoverset{a}{a}w₃` | yes |
@@ -1168,5 +1175,5 @@
 | `38-18` | `subseries-root` | 禁 | `rym` | 2 | `rym₂` | yes |
 | `38-25` | `series-root` | 壬 | `nym` | 1 | `nym` | yes |
 | `38-25` | `subseries-root` | 任 | `nym` | 2 | `nym₂` | yes |
-| `38-28` | `series-root` | 兓 | `sum` | 1 | `sum` | yes |
-| `38-28` | `subseries-root` | 朁 | `sum` | 2 | `sum₂` | yes |
+| `38-28` | `series-root` | 兓 | `sum` | 2 | `sum₂` | yes |
+| `38-28` | `subseries-root` | 朁 | `sum` | 3 | `sum₃` | yes |

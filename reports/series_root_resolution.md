@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 684
-- Packets with at least one root candidate: 683
-- Packets with a single resolved provisional root: 681
+- Missing-series packets inspected: 690
+- Packets with at least one root candidate: 689
+- Packets with a single resolved provisional root: 687
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -229,7 +229,7 @@
 | `06-10` | 氶→kyṅ [*kʲɯŋʔ] (None) | `kyṅ` | `head_graph_oc_shengfu` |
 | `06-11` | 徵→tyṅ [*trəŋ] (0891a) | `tyṅ` | `head_graph_oc_bs` |
 | `06-12` | 爯→tyṅ [*tʰʲɯŋ] (None) | `tyṅ` | `head_graph_oc_shengfu` |
-| `06-13` | 㑞→lum [*ɡ‧lums] (None); 㑞→ɡlum [*ɡlumʔ] (None); 朕→lym [*lrəmʔ] (0893f); 媵→qum [*ɢlʲums] (None); 塍→lyṅ [*Cə.ləŋ] (0893n); 螣→ɡlup [*ɡlu̠b] (None) | `ɡlum` | `head_graph_supported_root` |
+| `06-13` | 㑞→lum [*ɡ‧lums] (None); 朕→lym [*lrəmʔ] (0893f); 朕→ɡlum [*ɡlumʔ] (None); 媵→qum [*ɢlʲums] (None); 塍→lyṅ [*Cə.ləŋ] (0893n); 螣→ɡlup [*ɡlu̠b] (None) | `ɡlum` | `head_graph_supported_root` |
 | `06-14` | 孕→liṅ [*liŋ-s {*l[i]ŋ-s}] (0945j); 孕→lum [*b‧lums] (None) | `liṅ` | `head_graph_mc_coda` |
 | `06-15` | 乘→lyṅ [*Cə.ləŋ] (0895a) | `lyṅ` | `head_graph_oc_bs` |
 | `06-16` | 升→tyṅ [*s-təŋ] (0897a) | `tyṅ` | `head_graph_oc_bs` |
@@ -490,7 +490,13 @@
 | `15-05` | 充→tuṅ [*tʰuŋ] (1011a) | `tuṅ` | `head_graph_oc_bs` |
 | `15-06` | 中→tuṅ [*truŋ] (1007a) | `tuṅ` | `head_graph_oc_bs` |
 | `15-07` | 蟲→luṅ [*C.lruŋ] (1009a) | `luṅ` | `head_graph_oc_bs` |
+| `15-08` | 肜→ruṅ [*m.ruŋ {*m.rum} (dial. *-um > -uŋ)] (1008a) | `ruṅ` | `head_graph_oc_bs` |
 | `15-09` | 農→noṅ [*nˤoŋ {*nˤ[o]ŋ}] (1005a) | `noṅ` | `head_graph_oc_bs` |
+| `15-10` | 戎→nuṅ [*nuŋ] (1013a) | `nuṅ` | `head_graph_oc_bs` |
+| `15-11` | 嵩→suṅ [*sˡuŋ] (None) | `suṅ` | `head_graph_oc_shengfu` |
+| `15-12` | 宋→sum [*sqˡu̠ms] (None) | `sum` | `head_graph_oc_shengfu` |
+| `15-13` | 宗→tsuṅ [*tsˤuŋ {*[ts]ˤuŋ}] (1003a) | `tsuṅ` | `head_graph_oc_bs` |
+| `15-14` | 豐→poṅ [*pʰoŋ {*pʰ(r)oŋ}] (1014a) | `poṅ` | `head_graph_oc_bs` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |
 | `16-02` | 羔→ku [*ku̠] (None) | `ku` | `head_graph_oc_shengfu` |
 | `16-03` | 喬→kaw [*N-kaw {*[N-k](r)aw}] (1138a) | `kaw` | `head_graph_oc_bs` |

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 72,
+    "case_count": 73,
     "unique_component_count": 58,
     "by_classification": {
-      "new_latin_label_needed": 71,
+      "new_latin_label_needed": 72,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 44,
+      "wiktionary_component_literal_fallback": 45,
       "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 19
     }
@@ -779,6 +779,23 @@
       "render_latex": "隆\t%long2 / lóng\n{\\large{kum\\textsuperscript{·生}}},\n\\textit{liuwṅ};\t%1015f",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `生` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "15-14",
+      "character": "麷",
+      "abbreviation": "麥",
+      "semantic_component": "麥",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|麥|豐|ls=psc|c1=s|c2=p|t1=wheat}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "wheat",
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱來夂",
+      "transliteration_latex": "{\\large{\\textsuperscript{麥·}p\\textoverset{b}{o}ṅ}},",
+      "render_latex": "麷\t%feng1\n{\\large{\\textsuperscript{麥·}p\\textoverset{b}{o}ṅ}},\n\\textit{phiuwṅ};\t%1014e",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `麥` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "16-39",
@@ -2332,7 +2349,7 @@
       "template_alt_graph": null,
       "template_gloss_primary": "wheat",
       "template_gloss_secondary": null,
-      "case_count": 2,
+      "case_count": 3,
       "examples": [
         {
           "entry_id": "13-77",
@@ -2343,6 +2360,12 @@
         {
           "entry_id": "14-02",
           "character": "麴",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        },
+        {
+          "entry_id": "15-14",
+          "character": "麷",
           "position": "prefix-dot",
           "source": "wiktionary_component_literal_fallback"
         }

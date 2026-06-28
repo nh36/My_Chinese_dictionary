@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5324
-- Pages fetched / cached successfully: 5245
-- Additions with explicit Han-compound semantic/phonetic roles: 2462
+- Proposed additions checked: 5338
+- Pages fetched / cached successfully: 5259
+- Additions with explicit Han-compound semantic/phonetic roles: 2466
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2840,6 +2840,10 @@
 | `15-07` | 融 | yes | yes | 鬲 | 蟲 |
 | `15-07` | 赨 | yes | no |  |  |
 | `15-07` | 𢥞 | no | no |  |  |
+| `15-08` | 肜 | yes | no |  |  |
+| `15-08` | 彡 | yes | no |  |  |
+| `15-08` | 彤 | yes | no |  |  |
+| `15-08` | 䑣 | yes | no |  |  |
 | `15-09` | 農 | yes | no |  |  |
 | `15-09` | 辳 | yes | no |  |  |
 | `15-09` | 噥 | yes | yes | 口 | 農 |
@@ -2848,6 +2852,16 @@
 | `15-09` | 醲 | yes | yes | 酉 | 農 |
 | `15-09` | 穠 | yes | no |  |  |
 | `15-09` | 襛 | yes | no |  |  |
+| `15-10` | 戎 | yes | no |  |  |
+| `15-10` | 茙 | yes | yes | 艸 | 戎 |
+| `15-11` | 嵩 | yes | no |  |  |
+| `15-12` | 宋 | yes | no |  |  |
+| `15-13` | 宗 | yes | no |  |  |
+| `15-13` | 綜 | yes | yes | 糸 | 宗 |
+| `15-13` | 琮 | yes | no |  |  |
+| `15-13` | 崇 | yes | yes | 山 | 宗 |
+| `15-14` | 豐 | yes | no |  |  |
+| `15-14` | 麷 | yes | yes | 麥 | 豐 |
 | `16-01` | 高 | yes | no |  |  |
 | `16-01` | 薧 | yes | yes | 死 | 蒿 |
 | `16-01` | 嚆 | yes | yes | 口 | 蒿 |

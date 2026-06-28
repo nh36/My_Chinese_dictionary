@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 848
+- Generated subgroup heads inspected: 852
 - Subgroups newly marked with `a`: 106
-- Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 286
-- Mixed subgroups left unmarked: 357
+- Subgroups newly marked with `b`: 95
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 287
+- Mixed subgroups left unmarked: 359
 - Unresolved subgroups left unmarked: 5
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -526,7 +526,11 @@
 | `15-06` | 中 | `tuṅ` | `tuṅ` | `b` | no | `ṭiuwṅ, ṭiuwṅH, ḍiuwṅH, ṭhiuwṅ, ḍiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `15-07` | 蟲 | `luṅ` | `luṅ₃` | `mixed` | no | `ḍiuwṅ, dəwṅ` | the extracted forms point to both type a and type b |
 | `15-07` | 虫 | `luṅ` | `luṅ₂` | `mixed` | no | `ḍiuwṅ, dəwṅ, yuwṅ` | the extracted forms point to both type a and type b |
+| `15-08` | 彡 | `ruṅ` | `ruṅ₂` | `mixed` | no | `yuwṅ, duṅ, yuwng` | the extracted forms point to both type a and type b |
 | `15-09` | 農 | `noṅ` | `noṅ` | `mixed` | no | `nəwṅ, ṇiəwṅ, nuwṅ, ñiəwṅ` | the extracted forms point to both type a and type b |
+| `15-10` | 戎 | `nuṅ` | `nuṅ` | `b` | no | `ñiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-13` | 宗 | `tsuṅ` | `tsuṅ` | `mixed` | no | `tsəwṅ, tsəwṅH, dzəwṅ, dẓiuwṅ` | the extracted forms point to both type a and type b |
+| `15-14` | 豐 | `poṅ` | `p\textoverset{b}{o}ṅ` | `b` | yes | `phiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-01` | 高 | `kaw` | `k\textoverset{a}{a}w` | `a` | yes | `kaw, kawX, kawH, khawX, khawH, ḫawX, haw, haew, haewH, khaew, khaewH, hak, həwk, ḫaewk, haewk` | all extracted forms lack an i-medial after the onset |
 | `16-01` | 槀 | `kaw` | `k\textoverset{a}{a}w₂` | `a` | yes | `kawX, khawX` | all extracted forms lack an i-medial after the onset |
 | `16-01` | 豪 | `kaw` | `k\textoverset{a}{a}w₃` | `a` | yes | `ḫaw` | all extracted forms lack an i-medial after the onset |
@@ -856,4 +860,4 @@
 | `38-25` | 壬 | `nym` | `nym` | `b` | no | `ñim, ñimH, ṇim, ñimX, ṇimH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-25` | 任 | `nym` | `nym₂` | `b` | no | `ñimH, ṇim, ñim, ñimX, ṇimH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `38-28` | 兓 | `sum` | `sum` | `mixed` | no | `tsim, tshəmX, tsəp, tsəm, tṣim, dzəm, tṣimH, tsemH, tsiem, dziem, dziemH, dzim` | the extracted forms point to both type a and type b |
-| `38-28` | 朁 | `sum` | `sum₂` | `mixed` | no | `tshəmX, tsəp, tsəm, tṣim, dzəm, tṣimH, tsemH, tsiem, dziem, dziemH` | the extracted forms point to both type a and type b |
+| `38-28` | 朁 | `sum` | `sum₃` | `mixed` | no | `tshəmX, tsəp, tsəm, tṣim, dzəm, tṣimH, tsemH, tsiem, dziem, dziemH` | the extracted forms point to both type a and type b |

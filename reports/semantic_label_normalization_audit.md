@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T12:35:08.555974+00:00
+- Generated at: 2026-06-28T12:46:13.317527+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 21071
+- Total occurrences audited: 21103
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20844 |
+| `canonical` | 20872 |
 | `explicit_alias` | 11 |
-| `needs_review` | 216 |
+| `needs_review` | 220 |
 
 ## Blocked ambiguous aliases
 
@@ -822,6 +822,9 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `15-02` | `隆` | `生` | render_latex, transliteration_latex | `生` | `⿰阝㚅` | `隆	%long2 / lóng
 {\large{kum\textsuperscript{·生}}},
 \textit{liuwṅ};	%1015f` |
+| `curation_json` | `15-14` | `麷` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥豐` | `麷	%feng1
+{\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},
+\textit{phiuwṅ};	%1014e` |
 | `curation_json` | `16-39` | `瓢` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿰票瓜` | `瓢	%piao2 / piáo
 {\large{pew₂\textsuperscript{·瓜}}},
 \textit{byiew};	%1157k` |
@@ -1009,6 +1012,9 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `15-02` | `隆` | `生` | render_latex, transliteration_latex | `生` | `⿰阝㚅` | `隆	%long2 / lóng
 {\large{kum\textsuperscript{·生}}},
 \textit{liuwṅ};	%1015f` |
+| `integrated_series_curated_entry` | `15-14` | `麷` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥豐` | `麷	%feng1
+{\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},
+\textit{phiuwṅ};	%1014e` |
 | `integrated_series_curated_entry` | `16-39` | `瓢` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿰票瓜` | `瓢	%piao2 / piáo
 {\large{pew₂\textsuperscript{·瓜}}},
 \textit{byiew};	%1157k` |
@@ -1100,6 +1106,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk₄\textsuperscript{˸二}}},` |
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₃}},` |
 | `validation_tex` | `` | `` | `生` | line | `` | `` | `{\large{kum\textsuperscript{·生}}},` |
+| `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |
 | `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{lat\textsuperscript{˸丶}}},` |
@@ -1157,6 +1164,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk₄\textsuperscript{˸二}}},` |
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₃}},` |
 | `validation_tex` | `` | `` | `生` | line | `` | `` | `{\large{kum\textsuperscript{·生}}},` |
+| `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |
 | `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{lat\textsuperscript{˸丶}}},` |
