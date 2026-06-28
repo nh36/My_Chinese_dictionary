@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1074
-- Roots whose display label changed after document-wide renumbering: 630
+- Mutable series/subseries roots inspected: 1080
+- Roots whose display label changed after document-wide renumbering: 633
 - Duplicate phonetic bases encountered in document order: 271
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -826,12 +826,18 @@
 | `16-24` | `series-root` | 𤋯 | `rew` | 1 | `rew` | yes |
 | `16-24` | `subseries-root` | 尞 | `rew` | 2 | `rew₂` | yes |
 | `16-26` | `series-root` | 窅 | `qew` | 2 | `qew₂` | yes |
+| `16-27` | `series-root` | 擾 | `miw` | 1 | `miw` | yes |
+| `16-28` | `series-root` | 羔 | `ku` | 16 | `ku₁₆` | yes |
+| `16-29` | `series-root` | 羔 | `ku` | 17 | `ku₁₇` | yes |
 | `16-30` | `series-root` | 喿 | `s\textoverset{a}{a}w` | 1 | `s\textoverset{a}{a}w` | yes |
 | `16-30` | `subseries-root` | 澡 | `s\textoverset{a}{a}w` | 2 | `s\textoverset{a}{a}w₂` | yes |
 | `16-31` | `series-root` | 焦 | `sew` | 2 | `sew₂` | yes |
+| `16-32` | `series-root` | 巢 | `tsaw` | 1 | `tsaw` | yes |
 | `16-33` | `series-root` | 小 | `sew` | 3 | `sew₃` | yes |
 | `16-33` | `subseries-root` | 肖 | `sew` | 4 | `sew₄` | yes |
 | `16-33` | `subseries-root` | 削 | `sew` | 5 | `sew₅` | yes |
+| `16-34` | `series-root` | 笑 | `law` | 3 | `law₃` | yes |
+| `16-35` | `series-root` | 表 | `paw` | 1 | `paw` | yes |
 | `16-39` | `series-root` | 𤐫 | `pew` | 1 | `pew` | yes |
 | `16-39` | `subseries-root` | 票 | `pew` | 2 | `pew₂` | yes |
 | `16-39` | `subseries-root` | 𤐫 | `pew` | 3 | `pew₃` | yes |

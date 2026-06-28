@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5371
-- Pages fetched / cached successfully: 5292
-- Additions with explicit Han-compound semantic/phonetic roles: 2477
+- Proposed additions checked: 5406
+- Pages fetched / cached successfully: 5325
+- Additions with explicit Han-compound semantic/phonetic roles: 2489
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3099,6 +3099,32 @@
 | `16-26` | 杳 | yes | no |  |  |
 | `16-26` | 料 | yes | no |  |  |
 | `16-26` | 敹 | yes | no |  |  |
+| `16-27` | 擾 | yes | yes | 手 | 夒 |
+| `16-27` | 獶 | yes | yes | 犬 | 憂 |
+| `16-27` | 𧴪 | yes | no |  |  |
+| `16-27` | 瑣 | yes | no |  |  |
+| `16-28` | 羔 | yes | yes | 羊 | 照 |
+| `16-28` | 䅵 | yes | no |  |  |
+| `16-28` | 杲 | yes | no |  |  |
+| `16-28` | 薅 | yes | no |  |  |
+| `16-28` | 媼 | yes | no |  |  |
+| `16-28` | 腦 | yes | no |  |  |
+| `16-28` | 𠜶 | no | no |  |  |
+| `16-28` | 饕 | yes | yes | 食 | 號 |
+| `16-28` | 呶 | yes | no |  |  |
+| `16-28` | 怓 | yes | no |  |  |
+| `16-28` | 豹 | yes | yes | 豸 | 勺 |
+| `16-29` | 羔 | yes | yes | 羊 | 照 |
+| `16-29` | 䅵 | yes | no |  |  |
+| `16-29` | 杲 | yes | no |  |  |
+| `16-29` | 薅 | yes | no |  |  |
+| `16-29` | 媼 | yes | no |  |  |
+| `16-29` | 腦 | yes | no |  |  |
+| `16-29` | 𠜶 | no | no |  |  |
+| `16-29` | 饕 | yes | yes | 食 | 號 |
+| `16-29` | 呶 | yes | no |  |  |
+| `16-29` | 怓 | yes | no |  |  |
+| `16-29` | 豹 | yes | yes | 豸 | 勺 |
 | `16-30` | 喿 | yes | no |  |  |
 | `16-30` | 譟 | yes | no |  |  |
 | `16-30` | 燥 | yes | yes | 火 | 喿 |
@@ -3125,6 +3151,13 @@
 | `16-31` | 噍 | yes | no |  |  |
 | `16-31` | 穛 | yes | no |  |  |
 | `16-31` | 𥼚 | yes | no |  |  |
+| `16-32` | 巢 | yes | no |  |  |
+| `16-32` | 𠞰 | yes | no |  |  |
+| `16-32` | 勦 | yes | yes | 力 | 巢 |
+| `16-32` | 繅 | yes | no |  |  |
+| `16-32` | 薻 | yes | yes | 艸 | 漅 |
+| `16-32` | 鏁 | yes | no |  |  |
+| `16-32` | 剿 | yes | yes | 刀 | 巢 |
 | `16-33` | 小 | yes | no |  |  |
 | `16-33` | 筲 | yes | no |  |  |
 | `16-33` | 蛸 | yes | yes | 虫 | 肖 |
@@ -3149,6 +3182,8 @@
 | `16-33` | 捎 | yes | no |  |  |
 | `16-33` | 梢 | yes | yes | 木 | 肖 |
 | `16-33` | 稍 | yes | yes | 禾 | 肖 |
+| `16-34` | 笑 | yes | yes | 犬 | 艸 |
+| `16-35` | 表 | yes | no |  |  |
 | `16-39` | 𤐫 | yes | no |  |  |
 | `16-39` | 票 | yes | no | 火, 𢍱 |  |
 | `16-39` | 𤒾 | no | no |  |  |
