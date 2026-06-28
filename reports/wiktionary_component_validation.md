@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5300
-- Pages fetched / cached successfully: 5223
-- Additions with explicit Han-compound semantic/phonetic roles: 2452
+- Proposed additions checked: 5324
+- Pages fetched / cached successfully: 5245
+- Additions with explicit Han-compound semantic/phonetic roles: 2462
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2809,6 +2809,25 @@
 | `14-23` | 覆 | yes | yes | 襾 | 復 |
 | `14-24` | 目 | yes | no |  |  |
 | `14-25` | 穆 | yes | yes | 禾 | 㣎 |
+| `15-01` | 宮 | yes | no |  |  |
+| `15-01` | 躳 | yes | no |  |  |
+| `15-01` | 躬 | yes | yes | 身 | 弓 |
+| `15-01` | 竆 | yes | no |  |  |
+| `15-01` | 窮 | yes | yes | 穴 | 躬 |
+| `15-02` | 降 | yes | yes | 阜 | 夅 |
+| `15-02` | 洚 | yes | no |  |  |
+| `15-02` | 戇 | yes | yes | 心 | 贛 |
+| `15-02` | 隆 | yes | yes | 生 | 降 |
+| `15-02` | 癃 | yes | no |  |  |
+| `15-02` | 贛 | yes | yes | 貝 | 竷 |
+| `15-03` | 冬 | yes | no |  |  |
+| `15-03` | 終 | yes | yes | 糸 | 冬 |
+| `15-03` | 螽 | yes | no |  |  |
+| `15-04` | 眾 | yes | no |  |  |
+| `15-04` | 𧑄 | no | no |  |  |
+| `15-04` | 潨 | yes | yes | 水 | 衆 |
+| `15-05` | 充 | yes | no |  |  |
+| `15-05` | 統 | yes | yes | 糸 | 充 |
 | `15-06` | 中 | yes | no |  |  |
 | `15-06` | 仲 | yes | yes | 人 | 中 |
 | `15-06` | 衷 | yes | yes | 衣 | 中 |
@@ -2816,6 +2835,11 @@
 | `15-06` | 忡 | yes | no |  |  |
 | `15-06` | 盅 | yes | yes | 皿 | 中 |
 | `15-06` | 沖 | yes | yes | 水 | 中 |
+| `15-07` | 蟲 | yes | no |  |  |
+| `15-07` | 虫 | yes | no |  |  |
+| `15-07` | 融 | yes | yes | 鬲 | 蟲 |
+| `15-07` | 赨 | yes | no |  |  |
+| `15-07` | 𢥞 | no | no |  |  |
 | `15-09` | 農 | yes | no |  |  |
 | `15-09` | 辳 | yes | no |  |  |
 | `15-09` | 噥 | yes | yes | 口 | 農 |

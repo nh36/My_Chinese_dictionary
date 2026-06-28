@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 840
+- Generated subgroup heads inspected: 848
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 282
-- Mixed subgroups left unmarked: 353
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 286
+- Mixed subgroups left unmarked: 357
 - Unresolved subgroups left unmarked: 5
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -517,7 +517,15 @@
 | `14-22` | 蕭 | `sik` | `sik₂` | `a` | no | `sew` | all extracted forms lack an i-medial after the onset |
 | `14-23` | 复 | `puk` | `puk` | `b` | no | `biuwk, biuwH, phiuwH, phiuwk, piuwk, bik` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-23` | 復 | `puk` | `puk₃` | `b` | no | `biuwH, biuwk, phiuwH, phiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-01` | 躳 | `kuṅ` | `kuṅ₂` | `b` | no | `kiuwṅ, giuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-01` | 躬 | `kuṅ` | `kuṅ₃` | `b` | no | `kiuwṅ, giuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-02` | 隆 | `kum` | `kum₃` | `b` | no | `liuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-02` | 贛 | `kum` | `kum₂` | `a` | no | `komH, komX, xuwṅH` | all extracted forms lack an i-medial after the onset |
+| `15-03` | 冬 | `tuṅ` | `tuṅ` | `mixed` | no | `təwṅ, ciuwṅ` | the extracted forms point to both type a and type b |
+| `15-05` | 充 | `tuṅ` | `tuṅ` | `mixed` | no | `chiuwṅ, thəwṅH` | the extracted forms point to both type a and type b |
 | `15-06` | 中 | `tuṅ` | `tuṅ` | `b` | no | `ṭiuwṅ, ṭiuwṅH, ḍiuwṅH, ṭhiuwṅ, ḍiuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `15-07` | 蟲 | `luṅ` | `luṅ₃` | `mixed` | no | `ḍiuwṅ, dəwṅ` | the extracted forms point to both type a and type b |
+| `15-07` | 虫 | `luṅ` | `luṅ₂` | `mixed` | no | `ḍiuwṅ, dəwṅ, yuwṅ` | the extracted forms point to both type a and type b |
 | `15-09` | 農 | `noṅ` | `noṅ` | `mixed` | no | `nəwṅ, ṇiəwṅ, nuwṅ, ñiəwṅ` | the extracted forms point to both type a and type b |
 | `16-01` | 高 | `kaw` | `k\textoverset{a}{a}w` | `a` | yes | `kaw, kawX, kawH, khawX, khawH, ḫawX, haw, haew, haewH, khaew, khaewH, hak, həwk, ḫaewk, haewk` | all extracted forms lack an i-medial after the onset |
 | `16-01` | 槀 | `kaw` | `k\textoverset{a}{a}w₂` | `a` | yes | `kawX, khawX` | all extracted forms lack an i-medial after the onset |

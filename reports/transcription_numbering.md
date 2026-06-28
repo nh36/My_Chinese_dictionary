@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1041
-- Roots whose display label changed after document-wide renumbering: 612
-- Duplicate phonetic bases encountered in document order: 263
+- Mutable series/subseries roots inspected: 1053
+- Roots whose display label changed after document-wide renumbering: 621
+- Duplicate phonetic bases encountered in document order: 267
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -769,7 +769,19 @@
 | `14-23` | `subseries-root` | 復 | `puk` | 3 | `puk₃` | yes |
 | `14-24` | `series-root` | 目 | `muk` | 3 | `muk₃` | yes |
 | `14-25` | `series-root` | 穆 | `mik` | 3 | `mik₃` | yes |
-| `15-06` | `series-root` | 中 | `tuṅ` | 1 | `tuṅ` | yes |
+| `15-01` | `series-root` | 宮 | `kuṅ` | 1 | `kuṅ` | yes |
+| `15-01` | `subseries-root` | 躳 | `kuṅ` | 2 | `kuṅ₂` | yes |
+| `15-01` | `subseries-root` | 躬 | `kuṅ` | 3 | `kuṅ₃` | yes |
+| `15-02` | `series-root` | 降 | `kum` | 1 | `kum` | yes |
+| `15-02` | `subseries-root` | 贛 | `kum` | 2 | `kum₂` | yes |
+| `15-02` | `subseries-root` | 隆 | `kum` | 3 | `kum₃` | yes |
+| `15-03` | `series-root` | 冬 | `tuṅ` | 1 | `tuṅ` | yes |
+| `15-04` | `series-root` | 眾 | `tuṅ` | 2 | `tuṅ₂` | yes |
+| `15-05` | `series-root` | 充 | `tuṅ` | 3 | `tuṅ₃` | yes |
+| `15-06` | `series-root` | 中 | `tuṅ` | 4 | `tuṅ₄` | yes |
+| `15-07` | `series-root` | 蟲 | `luṅ` | 1 | `luṅ` | yes |
+| `15-07` | `subseries-root` | 虫 | `luṅ` | 2 | `luṅ₂` | yes |
+| `15-07` | `subseries-root` | 蟲 | `luṅ` | 3 | `luṅ₃` | yes |
 | `15-09` | `series-root` | 農 | `noṅ` | 3 | `noṅ₃` | yes |
 | `16-01` | `series-root` | 高 | `k\textoverset{a}{a}w` | 1 | `k\textoverset{a}{a}w` | yes |
 | `16-01` | `subseries-root` | 槀 | `k\textoverset{a}{a}w` | 2 | `k\textoverset{a}{a}w₂` | yes |

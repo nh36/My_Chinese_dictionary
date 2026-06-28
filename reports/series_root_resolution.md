@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 678
-- Packets with at least one root candidate: 677
-- Packets with a single resolved provisional root: 675
+- Missing-series packets inspected: 684
+- Packets with at least one root candidate: 683
+- Packets with a single resolved provisional root: 681
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -483,7 +483,13 @@
 | `14-23` | 复→puk [*m-puk {*m-p(r)uk}] (1034a) | `puk` | `head_graph_oc_bs` |
 | `14-24` | 目→muk [*C.muk {*C.m(r)[u]k}] (1036a) | `muk` | `head_graph_oc_bs` |
 | `14-25` | 穆→mik [*miwk {*m(r)iwk}] (1035a) | `mik` | `head_graph_oc_bs` |
+| `15-01` | 宮→kuṅ [*kuŋ {*k(r)uŋ}] (1006a) | `kuṅ` | `head_graph_oc_bs` |
+| `15-02` | 降→kum [*m-kˤruŋ (? < *-[u]m)] (1015a) | `kum` | `head_graph_oc_bs` |
+| `15-03` | 冬→tuṅ [*tˤuŋ] (1002a) | `tuṅ` | `head_graph_oc_bs` |
+| `15-04` | 眾→tuṅ [*tuŋ-s] (1010a) | `tuṅ` | `head_graph_oc_bs` |
+| `15-05` | 充→tuṅ [*tʰuŋ] (1011a) | `tuṅ` | `head_graph_oc_bs` |
 | `15-06` | 中→tuṅ [*truŋ] (1007a) | `tuṅ` | `head_graph_oc_bs` |
+| `15-07` | 蟲→luṅ [*C.lruŋ] (1009a) | `luṅ` | `head_graph_oc_bs` |
 | `15-09` | 農→noṅ [*nˤoŋ {*nˤ[o]ŋ}] (1005a) | `noṅ` | `head_graph_oc_bs` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |
 | `16-02` | 羔→ku [*ku̠] (None) | `ku` | `head_graph_oc_shengfu` |

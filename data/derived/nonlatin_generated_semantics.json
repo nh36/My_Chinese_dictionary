@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 71,
-    "unique_component_count": 57,
+    "case_count": 72,
+    "unique_component_count": 58,
     "by_classification": {
-      "new_latin_label_needed": 70,
+      "new_latin_label_needed": 71,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 43,
+      "wiktionary_component_literal_fallback": 44,
       "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 19
     }
@@ -762,6 +762,23 @@
       "render_latex": "覆\t%fu4 / fù\n{\\large{\\textsuperscript{襾˸}puk₃}},\n\\textit{phiuwH};\t%1034m\n\\textit{phiuwk};",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `襾` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "15-02",
+      "character": "隆",
+      "abbreviation": "生",
+      "semantic_component": "生",
+      "position": "suffix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|降|生|c1=p|c2=s|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "生",
+      "transliteration_latex": "{\\large{kum\\textsuperscript{·生}}},",
+      "render_latex": "隆\t%long2 / lóng\n{\\large{kum\\textsuperscript{·生}}},\n\\textit{liuwṅ};\t%1015f",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `生` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "16-39",
@@ -2042,6 +2059,27 @@
           "entry_id": "29-17",
           "character": "瓞",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "生",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `生` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "生",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "15-02",
+          "character": "隆",
+          "position": "suffix-dot",
           "source": "wiktionary_component_literal_fallback"
         }
       ]
