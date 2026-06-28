@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 984
-- Roots whose display label changed after document-wide renumbering: 564
-- Duplicate phonetic bases encountered in document order: 256
+- Mutable series/subseries roots inspected: 990
+- Roots whose display label changed after document-wide renumbering: 569
+- Duplicate phonetic bases encountered in document order: 257
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -671,13 +671,19 @@
 | `13-22` | `series-root` | 𠷎 | `ɡlu` | 1 | `ɡlu` | yes |
 | `13-22` | `subseries-root` | 𢏚 | `tu` | 5 | `tu₅` | yes |
 | `13-22` | `subseries-root` | 壽 | `tu` | 6 | `tu₆` | yes |
-| `13-26` | `baseline-series-root` | 周 | `tiw` | 1 | `tiw` | no |
+| `13-23` | `series-root` | 肘 | `ku` | 13 | `ku₁₃` | yes |
+| `13-24` | `series-root` | 盩 | `tu` | 7 | `tu₇` | yes |
+| `13-25` | `series-root` | 鳥 | `tiw` | 1 | `tiw` | yes |
+| `13-26` | `baseline-series-root` | 周 | `tiw` | 2 | `tiw` | no |
 | `13-27` | `series-root` | 舀 | `lu` | 1 | `lu` | yes |
 | `13-30` | `series-root` | 由 | `lu` | 2 | `lu₂` | yes |
+| `13-31` | `series-root` | 牖 | `lu` | 3 | `lu₃` | yes |
 | `13-32` | `series-root` | 攸 | `liw` | 1 | `liw` | yes |
 | `13-32` | `subseries-root` | 悠 | `liw` | 2 | `liw₂` | yes |
 | `13-32` | `subseries-root` | 脩 | `liw` | 3 | `liw₃` | yes |
 | `13-32` | `subseries-root` | 條 | `liw` | 4 | `liw₄` | yes |
+| `13-33` | `series-root` | 斿 | `lu` | 4 | `lu₄` | yes |
+| `13-34` | `series-root` | 卣 | `lu` | 5 | `lu₅` | yes |
 | `13-36` | `series-root` | 酉 | `ru` | 1 | `ru` | yes |
 | `13-36` | `subseries-root` | 酋 | `ru` | 2 | `ru₂` | yes |
 | `13-45` | `series-root` | 翏 | `riw` | 1 | `riw` | yes |
@@ -718,7 +724,7 @@
 | `16-01` | `subseries-root` | 槀 | `k\textoverset{a}{a}w` | 2 | `k\textoverset{a}{a}w₂` | yes |
 | `16-01` | `subseries-root` | 豪 | `k\textoverset{a}{a}w` | 3 | `k\textoverset{a}{a}w₃` | yes |
 | `16-01` | `subseries-root` | 蒿 | `k\textoverset{a}{a}w` | 4 | `k\textoverset{a}{a}w₄` | yes |
-| `16-02` | `series-root` | 羔 | `ku` | 13 | `ku₁₃` | yes |
+| `16-02` | `series-root` | 羔 | `ku` | 14 | `ku₁₄` | yes |
 | `16-03` | `series-root` | 喬 | `k\textoverset{b}{a}w` | 1 | `k\textoverset{b}{a}w` | yes |
 | `16-06` | `series-root` | 交 | `k\textoverset{a}{a}w` | 5 | `k\textoverset{a}{a}w₅` | yes |
 | `16-06` | `subseries-root` | 效 | `k\textoverset{a}{a}w` | 6 | `k\textoverset{a}{a}w₆` | yes |

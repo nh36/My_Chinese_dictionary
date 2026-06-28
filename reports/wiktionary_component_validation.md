@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5178
-- Pages fetched / cached successfully: 5101
-- Additions with explicit Han-compound semantic/phonetic roles: 2406
+- Proposed additions checked: 5194
+- Pages fetched / cached successfully: 5117
+- Additions with explicit Han-compound semantic/phonetic roles: 2414
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2436,6 +2436,15 @@
 | `13-22` | 幬 | yes | no |  |  |
 | `13-22` | 燾 | yes | yes | 火 | 壽 |
 | `13-22` | 翿 | yes | no |  |  |
+| `13-23` | 肘 | yes | yes | 肉 | 寸 |
+| `13-23` | 疛 | yes | yes | 疒 | 肘 |
+| `13-23` | 酎 | yes | yes | 酉 | 肘 |
+| `13-23` | 討 | yes | yes | 言 | 肘 |
+| `13-23` | 紂 | yes | yes | 糸 | 肘 |
+| `13-24` | 盩 | yes | no |  |  |
+| `13-25` | 鳥 | yes | no |  |  |
+| `13-25` | 蔦 | yes | no |  |  |
+| `13-25` | 島 | yes | yes | 山 | 鳥 |
 | `13-27` | 舀 | yes | no |  |  |
 | `13-27` | 慆 | yes | no |  |  |
 | `13-27` | 搯 | yes | no |  |  |
@@ -2459,6 +2468,7 @@
 | `13-30` | 褎 | yes | yes | 衣 | 𥝩 |
 | `13-30` | 軸 | yes | yes | 車 | 由 |
 | `13-30` | 迪 | yes | no |  |  |
+| `13-31` | 牖 | yes | no |  |  |
 | `13-32` | 攸 | yes | no |  |  |
 | `13-32` | 悠 | yes | yes | 心 | 攸 |
 | `13-32` | 修 | yes | yes | 彡 | 攸 |
@@ -2478,6 +2488,12 @@
 | `13-32` | 篠 | yes | yes | 竹 | 條 |
 | `13-32` | 蓧 | yes | no |  |  |
 | `13-32` | 滌 | yes | yes | 水 | 條 |
+| `13-33` | 斿 | yes | no |  |  |
+| `13-33` | 游 | yes | yes | 水 | 斿 |
+| `13-33` | 遊 | yes | yes | 辵 | 斿 |
+| `13-33` | 蝣 | yes | no |  |  |
+| `13-34` | 卣 | yes | no |  |  |
+| `13-34` | 逌 | yes | no |  |  |
 | `13-36` | 酉 | yes | no |  |  |
 | `13-36` | 蕕 | yes | no |  |  |
 | `13-36` | 庮 | yes | no |  |  |
