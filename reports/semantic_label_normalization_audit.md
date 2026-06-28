@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T07:05:37.795186+00:00
+- Generated at: 2026-06-28T07:13:10.791169+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20305
+- Total occurrences audited: 20325
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20098 |
+| `canonical` | 20118 |
 | `explicit_alias` | 11 |
 | `needs_review` | 196 |
 
@@ -129,7 +129,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}tse}},
 \textit{dzie};	%0358p` |
 | `curation_json` | `08-08` | `疫` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒殳` | `疫	%yi4 / yì
-{\large{\textsuperscript{infirm·}quek}},
+{\large{\textsuperscript{infirm·}quek₂}},
 \textit{yiek};	%0851c` |
 | `curation_json` | `08-17` | `瘠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒脊` | `瘠	%ji2
 {\large{\textsuperscript{infirm·}tsek₄}},
@@ -164,7 +164,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{kyieyH};	%0279g
 \textit{cieyH};` |
 | `curation_json` | `20-02` | `疥` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒介` | `疥	%jie4 / jiè
-{\large{\textsuperscript{infirm·}kep}},
+{\large{\textsuperscript{infirm·}kep₂}},
 \textit{keayH};	%0327f` |
 | `curation_json` | `21-25` | `㾐` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒列` | `㾐	%li4
 {\large{\textsuperscript{infirm·}ret}},
@@ -285,7 +285,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}tse}},
 \textit{dzie};	%0358p` |
 | `integrated_series_curated_entry` | `08-08` | `疫` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒殳` | `疫	%yi4 / yì
-{\large{\textsuperscript{infirm·}quek}},
+{\large{\textsuperscript{infirm·}quek₂}},
 \textit{yiek};	%0851c` |
 | `integrated_series_curated_entry` | `08-17` | `瘠` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒脊` | `瘠	%ji2
 {\large{\textsuperscript{infirm·}tsek₄}},
@@ -325,7 +325,7 @@ Watched tokens with no current heuristic match: `can`
 \textit{kyieyH};	%0279g
 \textit{cieyH};` |
 | `integrated_series_curated_entry` | `20-02` | `疥` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒介` | `疥	%jie4 / jiè
-{\large{\textsuperscript{infirm·}kep}},
+{\large{\textsuperscript{infirm·}kep₂}},
 \textit{keayH};	%0327f` |
 | `integrated_series_curated_entry` | `21-25` | `㾐` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒列` | `㾐	%li4
 {\large{\textsuperscript{infirm·}ret}},
@@ -411,7 +411,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}te}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}te}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tse}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quek}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quek₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsek₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔeṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}  *su₂}},` |
@@ -423,7 +423,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}sew₃}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}tsoy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ket₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kep}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kep₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ret}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}man}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tset}},` |
@@ -462,7 +462,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}te}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}te}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tse}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quek}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}quek₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tsek₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ʔeṅ}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}ko}},` |
@@ -478,7 +478,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}pay}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}tsoy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ket₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kep}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kep₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ret}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}man}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}tset}},` |

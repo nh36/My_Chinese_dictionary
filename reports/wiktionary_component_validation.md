@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5005
-- Pages fetched / cached successfully: 4931
-- Additions with explicit Han-compound semantic/phonetic roles: 2353
+- Proposed additions checked: 5015
+- Pages fetched / cached successfully: 4941
+- Additions with explicit Han-compound semantic/phonetic roles: 2356
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1521,6 +1521,7 @@
 | `07-14` | 湜 | yes | yes | 水 | 是 |
 | `07-15` | 卮 | yes | no |  |  |
 | `07-16` | 豸 | yes | no |  |  |
+| `07-18` | 咶 | yes | no |  |  |
 | `07-19` | 豕 | yes | no |  |  |
 | `07-20` | 爾 | yes | no |  |  |
 | `07-20` | 邇 | yes | no |  |  |
@@ -1542,6 +1543,10 @@
 | `07-21` | 釃 | yes | no |  |  |
 | `07-21` | 灑 | yes | no |  |  |
 | `07-21` | 躧 | yes | no |  |  |
+| `07-22` | 蠡 | yes | no |  |  |
+| `07-22` | 劙 | yes | yes | 刀 | 蠡 |
+| `07-22` | 攭 | yes | no |  |  |
+| `07-23` | 荔 | yes | yes | 艸 | 劦 |
 | `07-24` | 詈 | yes | no |  |  |
 | `07-25` | 此 | yes | no |  |  |
 | `07-25` | 佌 | yes | no |  |  |
@@ -1600,6 +1605,9 @@
 | `07-29` | 蜱 | yes | no |  |  |
 | `07-29` | 蠯 | yes | no |  |  |
 | `07-29` | 鞞 | yes | no |  |  |
+| `07-31` | 弭 | yes | yes | 弓 | 耳 |
+| `07-31` | 渳 | yes | no |  |  |
+| `07-31` | 麛 | yes | no |  |  |
 | `07-33` | 買 | yes | yes | 貝 | 羅 |
 | `08-01` | 毄 | yes | no |  |  |
 | `08-01` | 擊 | yes | yes | 手 | 毄 |
@@ -1626,6 +1634,7 @@
 | `08-05` | 鷁 | yes | no |  |  |
 | `08-05` | 縊 | yes | yes | 糸 | 益 |
 | `08-05` | 隘 | yes | yes | 阜 | 益 |
+| `08-07` | 砉 | yes | no |  |  |
 | `08-08` | 役 | yes | no | 彳, 殳 |  |
 | `08-08` | 垼 | yes | yes | 土 | 役 |
 | `08-08` | 疫 | yes | yes | 疒 | 役 |
@@ -1674,6 +1683,7 @@
 | `08-14` | 債 | yes | yes | 人 | 責 |
 | `08-15` | 册 | yes | no |  |  |
 | `08-15` | 栅 | yes | no |  |  |
+| `08-16` | 筴 | yes | no |  |  |
 | `08-17` | 脊 | yes | yes | 肉 | 朿 |
 | `08-17` | 蹐 | yes | no |  |  |
 | `08-17` | 瘠 | yes | yes | 疒 | 脊 |

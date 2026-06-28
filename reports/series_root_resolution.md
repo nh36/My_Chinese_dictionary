@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 558
-- Packets with at least one root candidate: 557
-- Packets with a single resolved provisional root: 553
+- Missing-series packets inspected: 564
+- Packets with at least one root candidate: 563
+- Packets with a single resolved provisional root: 559
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -256,21 +256,26 @@
 | `07-14` | 是→te [*deʔ {*[d]eʔ}] (0866a) | `te` | `head_graph_oc_bs` |
 | `07-15` | 卮→te [*tje] (None) | `te` | `same_character_series_root` |
 | `07-16` | 豸→te [*dreʔ {*[d]reʔ}] (1238b); 豸→ɡle [*ɡleʔ] (None) | `te` | `head_graph_bs_head` |
+| `07-18` | 咶→ɡot [*ɡʳo̠d] (None); 咶→kot [*kod] (None); 咶→qot [*qʰʳo̠ds] (None) | `kot` | `head_graph_supported_root` |
 | `07-19` | 豕→lay [*l̥ajʔ] (1238f); 豕→le [*l̥elʔ] (None) | `lay` | `head_graph_bs_head` |
 | `07-20` | 爾→ne [*nˤeʔ {*nˤe(j)ʔ}] (0359a) | `ne` | `head_graph_oc_bs` |
 | `07-21` | 麗→re [*rˤe-s {*[r]ˤe-s}] (0878a) | `re` | `head_graph_oc_bs` |
+| `07-22` | 蠡→re [*k‧rel] (None); 蠡→ro [*ɡ‧ro̠l] (None) | `re` | `head_graph_supported_root` |
+| `07-23` | 荔→re [*ɡ‧rels] (None) | `re` | `head_graph_oc_shengfu` |
 | `07-24` | 詈→ray [*C.raj-s] (0872a) | `ray` | `head_graph_oc_bs` |
 | `07-25` | 此→tse [*tsʰeʔ {*[tsʰ]e(j)ʔ}] (0358a) | `tse` | `head_graph_oc_bs` |
 | `07-26` | 斯→se [*se {*[s]e}] (0869a) | `se` | `head_graph_oc_bs` |
 | `07-27` | 虒→le [*s.le] (0870a) | `le` | `head_graph_oc_bs` |
 | `07-28` | 徙→say [*sajʔ {*[s]ajʔ}] (0871a) | `say` | `head_graph_oc_bs` |
 | `07-29` | 卑→pe [*pe] (0874a) | `pe` | `head_graph_oc_bs` |
+| `07-31` | 弭→me [*melʔ] (None); 弭→ny [*C.nəʔ] (None) | `me` | `packet_shengfu_majority` |
 | `07-33` | 買→may [*mˤrajʔ] (1240c); 買→me [*mʳe̠ʔ] (None); 買→ray [*C.raj-s] (None) | `` | `` |
 | `08-01` | 毄→kek [*ke̠ɡ] (None); 毄→kik [*ki̠ɡs] (None) | `kek` | `head_graph_supported_root` |
 | `08-02` | 鬲→qik [*C.qˤ<r>ik] (0855a); 鬲→rek [*k.rˤek] (0855a) | `rek` | `head_graph_supported_root` |
 | `08-03` | 覡→ɡek [*ɡe̠ɡ] (None) | `ɡek` | `head_graph_oc_shengfu` |
 | `08-04` | 厄→qik [*qˤ<r>ik {*qˤ<r>[i]k}] (0844b); 厄→qyk [*qʳɯ̠ɡ] (None) | `qik` | `head_graph_bs_head` |
 | `08-05` | 益→ek [*qik (dial. > *-ek)] (0849a) | `ek` | `head_graph_oc_bs` |
+| `08-07` | 砉→quek [*qʷʰʳe̠ɡ] (None) | `quek` | `head_graph_oc_shengfu` |
 | `08-08` | 役→quek [*ɢʷek] (0851a) | `quek` | `head_graph_oc_bs` |
 | `08-09` | 畫→kuek [*C-gʷˤrek-s] (0847a) | `kuek` | `head_graph_oc_bs` |
 | `08-10` | 狄→lek [*lˤek] (0856a) | `lek` | `head_graph_oc_bs` |
@@ -279,6 +284,7 @@
 | `08-13` | 秝→rek [*k‧re̠ɡ] (None) | `rek` | `head_graph_oc_shengfu` |
 | `08-14` | 朿→tsek [*tsʰek-s {*[tsʰ]ek-s}] (0868a) | `tsek` | `head_graph_oc_bs` |
 | `08-15` | 册→tsek [*tsʰrek {*[tsʰ](ˤ)rek}] (0845a) | `tsek` | `head_graph_oc_bs` |
+| `08-16` | 筴→sek [*sʰre̠ɡ] (None); 筴→tsek [*tsʰek-s {*[tsʰ]ek-s}] (None); 筴→kep [*kʳe̠b] (None) | `kep` | `head_graph_supported_root` |
 | `08-17` | 脊→tsek [*tsek {*[ts]ek}] (0852a) | `tsek` | `head_graph_oc_bs` |
 | `08-18` | 析→sek [*sˤek {*[s]ˤek}] (0857a) | `sek` | `head_graph_oc_bs` |
 | `08-19` | 辟→pek [*bˤek {*[b]ˤek}] (0853a) | `pek` | `head_graph_oc_bs` |
