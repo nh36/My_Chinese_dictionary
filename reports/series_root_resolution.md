@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 732
-- Packets with at least one root candidate: 731
-- Packets with a single resolved provisional root: 729
+- Missing-series packets inspected: 738
+- Packets with at least one root candidate: 737
+- Packets with a single resolved provisional root: 735
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -562,9 +562,15 @@
 | `19-02` | 果→kor [*kˤorʔ {*[k]ˤo[r]ʔ}] (0351a) | `kor` | `head_graph_oc_bs` |
 | `19-03` | 𩰬→kuay [None] (None) | `kuay` | `same_character_series_root` |
 | `19-09` | 隓→loy [*lˤojʔ] (0011a) | `loy` | `head_graph_oc_bs` |
+| `19-10` | 委→qoy [*qojʔ {*q(r)ojʔ}] (0357a); 委→qor [*qorʔ {*q(r)orʔ}] (0357a) | `qoy` | `head_graph_supported_root` |
+| `19-19` | 妥→noy [*n̥ˤojʔ] (0354a) | `noy` | `head_graph_oc_bs` |
+| `19-23` | 衰→suy [*sruj] (0355a) | `suy` | `head_graph_oc_bs` |
 | `20-01` | 㓞→ket [*kʰʳe̠d] (None) | `ket` | `head_graph_oc_shengfu` |
 | `20-02` | 介→kep [*kˤrep-s {*kˤr[e][p]-s}] (0327a) | `kep` | `head_graph_oc_bs` |
 | `20-03` | 夬→kuet [*kʷˤret-s {*[k]ʷˤret-s}] (0312a) | `kuet` | `head_graph_oc_bs` |
+| `20-04` | 軋→qyt [*qˤrət] (0280a) | `qyt` | `head_graph_oc_bs` |
+| `20-05` | 隉→ṅet [*ŋɡe̠d] (None); 隉→ṅe [*ŋe] (None) | `ṅet` | `head_graph_mc_coda` |
+| `20-06` | 帠→ṅy [None] (None) | `ṅy` | `same_character_series_root` |
 | `20-13` | 埶→ṅe [*ŋet-s I!] (0330a); 埶→ṅet [*ŋ̊et-s] (0330a) | `ṅet` | `packet_shengfu_majority` |
 | `20-16` | 敝→pet [*bet-s {*[b]e[t]-s}] (0341a) | `pet` | `head_graph_oc_bs` |
 | `20-18` | 蔑→met [*mˤet] (0311a) | `met` | `head_graph_oc_bs` |

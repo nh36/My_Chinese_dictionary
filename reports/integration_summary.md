@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 852
+- Integrated series count: 858
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 748
+- Active curated packet count: 754
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 732
+- Generated missing-series entries: 738
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -677,6 +677,7 @@
 | `19-07` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-08` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-09` | `generated_missing_series` | needs_review, generated_candidate |
+| `19-10` | `generated_missing_series` | needs_review, generated_candidate |
 | `19-11` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-12` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-13` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
@@ -685,11 +686,16 @@
 | `19-16` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-17` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `19-18` | `hand_with_generated_additions` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, needs_review, generated_with_hand_baseline |
+| `19-19` | `generated_missing_series` | needs_review, generated_candidate |
 | `19-21` | `hand_with_generated_additions` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, needs_review, generated_with_hand_baseline |
 | `19-22` | `hand_with_generated_additions` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, needs_review, generated_with_hand_baseline |
+| `19-23` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-01` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-02` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-03` | `generated_missing_series` | needs_review, generated_candidate |
+| `20-04` | `generated_missing_series` | needs_review, generated_candidate |
+| `20-05` | `generated_missing_series` | needs_review, generated_candidate |
+| `20-06` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-13` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `20-18` | `generated_missing_series` | needs_review, generated_candidate |

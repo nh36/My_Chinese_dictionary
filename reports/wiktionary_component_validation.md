@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5462
-- Pages fetched / cached successfully: 5384
-- Additions with explicit Han-compound semantic/phonetic roles: 2514
+- Proposed additions checked: 5483
+- Pages fetched / cached successfully: 5405
+- Additions with explicit Han-compound semantic/phonetic roles: 2522
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3345,8 +3345,25 @@
 | `19-09` | 鬌 | yes | no |  |  |
 | `19-09` | 媠 | yes | no |  |  |
 | `19-09` | 惰 | yes | yes | 心 | 隋 |
+| `19-10` | 委 | yes | yes | 女 | 禾 |
+| `19-10` | 倭 | yes | yes | 人 | 委 |
+| `19-10` | 痿 | yes | no |  |  |
+| `19-10` | 萎 | yes | yes | 艸 | 委 |
+| `19-10` | 逶 | yes | no |  |  |
+| `19-10` | 餧 | yes | no |  |  |
+| `19-10` | 踒 | yes | no |  |  |
+| `19-19` | 妥 | yes | no |  |  |
+| `19-19` | 餒 | yes | yes | 食 | 妥 |
+| `19-19` | 緌 | yes | yes | 糸 | 委 |
+| `19-19` | 諉 | yes | no |  |  |
+| `19-19` | 綏 | yes | yes | 糸 | 妥 |
 | `19-21` | 座 | yes | yes | 广 | 坐 |
 | `19-22` | 鎖 | yes | yes | 金 | 𧴪 |
+| `19-23` | 衰 | yes | no |  |  |
+| `19-23` | 蓑 | yes | no |  |  |
+| `19-23` | 簑 | yes | no |  |  |
+| `19-23` | 榱 | yes | no |  |  |
+| `19-23` | 縗 | yes | no |  |  |
 | `20-01` | 㓞 | yes | yes | 刀 | 丯 |
 | `20-01` | 契 | yes | yes | 大 | 㓞 |
 | `20-01` | 挈 | yes | yes | 手 | 㓞 |
@@ -3377,6 +3394,10 @@
 | `20-03` | 吷 | yes | no |  |  |
 | `20-03` | 抉 | yes | no |  |  |
 | `20-03` | 快 | yes | yes | 心 | 夬 |
+| `20-04` | 軋 | yes | yes | 車 | 乙 |
+| `20-04` | 札 | yes | yes | 木 | 乙 |
+| `20-05` | 隉 | yes | no |  |  |
+| `20-06` | 帠 | yes | no |  |  |
 | `20-13` | 埶 | yes | no |  |  |
 | `20-13` | 蓺 | yes | yes | 艸 | 埶 |
 | `20-13` | 藝 | yes | no |  |  |

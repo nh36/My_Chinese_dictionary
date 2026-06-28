@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1106
-- Roots whose display label changed after document-wide renumbering: 652
-- Duplicate phonetic bases encountered in document order: 277
+- Mutable series/subseries roots inspected: 1112
+- Roots whose display label changed after document-wide renumbering: 655
+- Duplicate phonetic bases encountered in document order: 278
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -905,24 +905,30 @@
 | `19-09` | `series-root` | 隓 | `loy` | 1 | `loy` | yes |
 | `19-09` | `subseries-root` | 隋 | `loy` | 2 | `loy₂` | yes |
 | `19-09` | `subseries-root` | 隨 | `l\textoverset{b}{o}y` | 1 | `l\textoverset{b}{o}y` | yes |
+| `19-10` | `series-root` | 委 | `qoy` | 2 | `qoy₂` | yes |
 | `19-12` | `baseline-series-root` | 危 | `koy` | 1 | `koy` | no |
 | `19-15` | `baseline-series-root` | 吹 | `th\textoverset{b}{o}y` | 1 | `th\textoverset{b}{o}y` | no |
 | `19-16` | `baseline-series-root` | 隓 | `loy` | 3 | `loy` | no |
 | `19-16` | `baseline-subseries-root` | 隋 | `loy` | 4 | `loy₂` | no |
 | `19-17` | `baseline-series-root` | 垂 | `toy` | 1 | `toy` | no |
 | `19-18` | `baseline-series-root` |  | `r\textoverset{a}{o}y` | 1 | `r\textoverset{a}{o}y` | no |
+| `19-19` | `series-root` | 妥 | `noy` | 1 | `noy` | yes |
 | `19-21` | `baseline-series-root` | 坐 | `tsoy` | 1 | `tsoy` | no |
 | `19-21` | `baseline-subseries-root` | 夎 | `tsoy` | 2 | `tsoy₂` | no |
 | `19-22` | `baseline-series-root` |  | `s\textoverset{a}{o}y` | 2 | `s\textoverset{a}{o}y` | no |
+| `19-23` | `series-root` | 衰 | `suy` | 1 | `suy` | yes |
 | `20-01` | `series-root` | 㓞 | `ket` | 1 | `ket` | yes |
 | `20-01` | `subseries-root` | 契 | `ket` | 2 | `ket₂` | yes |
 | `20-01` | `subseries-root` | 絜 | `ket` | 3 | `ket₃` | yes |
 | `20-02` | `series-root` | 介 | `kep` | 2 | `kep₂` | yes |
 | `20-03` | `series-root` | 夬 | `kuet` | 1 | `kuet` | yes |
-| `20-13` | `series-root` | 埶 | `ṅet` | 1 | `ṅet` | yes |
+| `20-04` | `series-root` | 軋 | `qyt` | 1 | `qyt` | yes |
+| `20-05` | `series-root` | 隉 | `ṅet` | 1 | `ṅet` | yes |
+| `20-06` | `series-root` | 帠 | `ṅy` | 3 | `ṅy₃` | yes |
+| `20-13` | `series-root` | 埶 | `ṅet` | 2 | `ṅet₂` | yes |
 | `20-13` | `subseries-root` | 蓺 | `ŋe` | 1 | `ŋe` | yes |
 | `20-13` | `subseries-root` | 藝 | `ŋe` | 2 | `ŋe₂` | yes |
-| `20-13` | `subseries-root` | 熱 | `ṅet` | 2 | `ṅet₂` | yes |
+| `20-13` | `subseries-root` | 熱 | `ṅet` | 3 | `ṅet₃` | yes |
 | `20-16` | `series-root` | 敝 | `pet` | 1 | `pet` | yes |
 | `20-18` | `series-root` | 蔑 | `met` | 1 | `met` | yes |
 | `21-01` | `series-root` | 匃 | `kat` | 2 | `kat₂` | yes |
