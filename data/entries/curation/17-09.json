@@ -1,0 +1,1191 @@
+{
+  "generated_at": "2026-06-28T14:46:26.174139+00:00",
+  "id": "17-09",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "17-09",
+    "rhyme_section": 17,
+    "series_number": 9,
+    "k_tokens": [
+      "1123"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.            MC             LHan       OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 233,
+    "source_line_number": 4,
+    "source_line_raw": "17-9 = K. 1123 Mand.            MC             LHan       OCM"
+  },
+  "coverage": {
+    "gsc_id": "17-09",
+    "rhyme_section": "17",
+    "series_number": "9",
+    "schuessler_k_tokens": "1123",
+    "schuessler_source_page": "233",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "6",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "弱; 蒻; 愵; 溺; 嫋",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "弱; 溺",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "弱; 蒻; 愵; 溺; 嫋"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1123"
+  ],
+  "proposed_additions": [
+    {
+      "character": "弱",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiak"
+        ],
+        "mand2mc_bs_forms": [
+          "nyak"
+        ],
+        "bs_gsr_forms": [
+          "nyak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8100",
+          "character": "弱",
+          "pinyin": "ruo4",
+          "mc_nwh": "ñiak",
+          "mc_bs": "nyak",
+          "gsr": "1123a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "弱",
+          "pinyin": "ruò",
+          "mc_bs": "nyak",
+          "mc_analyzed": "(ny- + -jak D)",
+          "oc_bs": "*newk",
+          "gloss": "weak",
+          "gsr": "1123a",
+          "unicode_utf16": "U+5F31"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11594",
+          "character": "弱",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|弓|彡|ls=ic|t1=bow|t2=hair, meaning \"decoration\" in this case}}",
+          "positional_components": [
+            "弓",
+            "彡"
+          ],
+          "positional_components_raw": [
+            "弓",
+            "彡"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "bow",
+            "t2": "hair, meaning \"decoration\" in this case"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|弓|彡|ls=ic|t1=bow|t2=hair, meaning \"decoration\" in this case}}",
+            "positional_components": [
+              "弓",
+              "彡"
+            ],
+            "positional_components_raw": [
+              "弓",
+              "彡"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "bow",
+              "t2": "hair, meaning \"decoration\" in this case"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{nek}},",
+      "render_latex": "弱\t%ruo4 / ruò\n{\\large{nek}},\n\\textit{ñiak};\t%1123a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "弱",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "弱"
+      },
+      "resolved_node_root": {
+        "root": "nek",
+        "source": "node_bs_consensus",
+        "descendant_count": 4,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "nek"
+        ],
+        "bs_node_roots": [
+          "nek"
+        ],
+        "display_root": "nek",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ñiak",
+          "nek",
+          "newH",
+          "newX"
+        ],
+        "form_analyses": [
+          {
+            "form": "ñiak",
+            "normalized": "ñiak",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "nek",
+            "normalized": "nek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "newH",
+            "normalized": "new",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "newX",
+            "normalized": "new",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "蒻",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiak"
+        ],
+        "mand2mc_bs_forms": [
+          "nyak"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8101",
+          "character": "蒻",
+          "pinyin": "ruo4",
+          "mc_nwh": "ñiak",
+          "mc_bs": "nyak",
+          "gsr": "1123b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11595",
+          "character": "蒻",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "herb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "艸",
+            "label_token": "herb(a)",
+            "abbreviation": "herb",
+            "start_line": 297
+          },
+          {
+            "graph_raw": "艸",
+            "label_token": "herb",
+            "abbreviation": "herb",
+            "learned": true,
+            "evidence_count": 24
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "艸"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}nek}},",
+      "render_latex": "蒻\t%ruo4\n{\\large{\\textsuperscript{herb˸}nek}},\n\\textit{ñiak};\t%1123b",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "弱",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "弱"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "愵",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "nek"
+        ],
+        "mand2mc_nwh_forms": [
+          "nek"
+        ],
+        "mand2mc_bs_forms": [
+          "nek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8102",
+          "character": "愵",
+          "pinyin": "ni4",
+          "mc_nwh": "nek",
+          "mc_bs": "nek",
+          "gsr": "1123c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11598",
+          "character": "愵",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴歷",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠ɡʷ",
+          "oc_syllable": "ne̠ɡʷ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cor",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 239
+          },
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "心"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}nek}},",
+      "render_latex": "愵\t%ni4\n{\\large{\\textsuperscript{cor·}nek}},\n\\textit{nek};\t%1123c",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "弱",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "弱"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "溺",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "nek",
+          "newH"
+        ],
+        "mand2mc_nwh_forms": [
+          "nek",
+          "newH"
+        ],
+        "mand2mc_bs_forms": [
+          "nek",
+          "newH"
+        ],
+        "bs_gsr_forms": [
+          "nek",
+          "newH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8103",
+          "character": "溺",
+          "pinyin": "ni4",
+          "mc_nwh": "nek",
+          "mc_bs": "nek",
+          "gsr": "1123d"
+        },
+        {
+          "source_row_number": "8104",
+          "character": "溺",
+          "pinyin": "niao4",
+          "mc_nwh": "newH",
+          "mc_bs": "newH",
+          "gsr": "1123d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "溺",
+          "pinyin": "nì",
+          "mc_bs": "nek",
+          "mc_analyzed": "(n- + -ek D)",
+          "oc_bs": "*nˤewk",
+          "gloss": "to sink",
+          "gsr": "1123d",
+          "unicode_utf16": "U+6EBA"
+        },
+        {
+          "source_page_number": "171",
+          "character": "溺",
+          "pinyin": "niào",
+          "mc_bs": "newH",
+          "mc_analyzed": "(n- + -ew C)",
+          "oc_bs": "*kə.nˤewk-s",
+          "gloss": "urine",
+          "gsr": "1123d",
+          "unicode_utf16": "U+6EBA"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11590",
+          "character": "溺",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴歷",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "ne̠ɡ"
+        },
+        {
+          "source_row_number": "11596",
+          "character": "溺",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|alt1=氵|t1=water|弱|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "水",
+            "弱"
+          ],
+          "positional_components_raw": [
+            "水",
+            "弱"
+          ],
+          "named_args": {
+            "alt1": "氵",
+            "t1": "water",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "弱"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|alt1=氵|t1=water|弱|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "水",
+              "弱"
+            ],
+            "positional_components_raw": [
+              "水",
+              "弱"
+            ],
+            "named_args": {
+              "alt1": "氵",
+              "t1": "water",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "弱"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 198
+          },
+          {
+            "graph_raw": "水",
+            "label_token": "aq",
+            "abbreviation": "aq",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "水"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}nek}},",
+      "render_latex": "溺\t%ni4 / niao4 / nì / niào\n{\\large{\\textsuperscript{aq·}nek}},\n\\textit{nek};\t%1123d\n\\textit{newH};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "弱",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "溺",
+          "semantic_component": "水",
+          "phonetic_component": "弱",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|水|alt1=氵|t1=water|弱|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "弱",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "弱"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "嫋",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "newX"
+        ],
+        "mand2mc_nwh_forms": [
+          "newX"
+        ],
+        "mand2mc_bs_forms": [
+          "newX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8105",
+          "character": "嫋",
+          "pinyin": "niao3",
+          "mc_nwh": "newX",
+          "mc_bs": "newX",
+          "gsr": "1123e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11591",
+          "character": "嫋",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴鳥",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠wʔ",
+          "oc_syllable": "ne̠wʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|女|弱|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "女",
+            "弱"
+          ],
+          "positional_components_raw": [
+            "女",
+            "弱"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "女"
+          ],
+          "phonetic_components": [
+            "弱"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|女|弱|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "女",
+              "弱"
+            ],
+            "positional_components_raw": [
+              "女",
+              "弱"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "女"
+            ],
+            "phonetic_components": [
+              "弱"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "fem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "女",
+            "label_token": "fem(ina)",
+            "abbreviation": "fem",
+            "start_line": 275
+          },
+          {
+            "graph_raw": "女",
+            "label_token": "fem",
+            "abbreviation": "fem",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "女"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}nek}},",
+      "render_latex": "嫋\t%niao3\n{\\large{\\textsuperscript{fem·}nek}},\n\\textit{newX};\t%1123e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "女",
+        "phonetic_component": "弱",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "嫋",
+          "semantic_component": "女",
+          "phonetic_component": "弱",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|女|弱|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "弱",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "弱"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "弱",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiak"
+        ],
+        "mand2mc_bs_forms": [
+          "nyak"
+        ],
+        "bs_gsr_forms": [
+          "nyak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8100",
+          "character": "弱",
+          "pinyin": "ruo4",
+          "mc_nwh": "ñiak",
+          "mc_bs": "nyak",
+          "gsr": "1123a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "弱",
+          "pinyin": "ruò",
+          "mc_bs": "nyak",
+          "mc_analyzed": "(ny- + -jak D)",
+          "oc_bs": "*newk",
+          "gloss": "weak",
+          "gsr": "1123a",
+          "unicode_utf16": "U+5F31"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11594",
+          "character": "弱",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "蒻",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiak"
+        ],
+        "mand2mc_bs_forms": [
+          "nyak"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8101",
+          "character": "蒻",
+          "pinyin": "ruo4",
+          "mc_nwh": "ñiak",
+          "mc_bs": "nyak",
+          "gsr": "1123b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11595",
+          "character": "蒻",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "愵",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "nek"
+        ],
+        "mand2mc_nwh_forms": [
+          "nek"
+        ],
+        "mand2mc_bs_forms": [
+          "nek"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8102",
+          "character": "愵",
+          "pinyin": "ni4",
+          "mc_nwh": "nek",
+          "mc_bs": "nek",
+          "gsr": "1123c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11598",
+          "character": "愵",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴歷",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠ɡʷ",
+          "oc_syllable": "ne̠ɡʷ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "溺",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "nek",
+          "newH"
+        ],
+        "mand2mc_nwh_forms": [
+          "nek",
+          "newH"
+        ],
+        "mand2mc_bs_forms": [
+          "nek",
+          "newH"
+        ],
+        "bs_gsr_forms": [
+          "nek",
+          "newH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8103",
+          "character": "溺",
+          "pinyin": "ni4",
+          "mc_nwh": "nek",
+          "mc_bs": "nek",
+          "gsr": "1123d"
+        },
+        {
+          "source_row_number": "8104",
+          "character": "溺",
+          "pinyin": "niao4",
+          "mc_nwh": "newH",
+          "mc_bs": "newH",
+          "gsr": "1123d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "溺",
+          "pinyin": "nì",
+          "mc_bs": "nek",
+          "mc_analyzed": "(n- + -ek D)",
+          "oc_bs": "*nˤewk",
+          "gloss": "to sink",
+          "gsr": "1123d",
+          "unicode_utf16": "U+6EBA"
+        },
+        {
+          "source_page_number": "171",
+          "character": "溺",
+          "pinyin": "niào",
+          "mc_bs": "newH",
+          "mc_analyzed": "(n- + -ew C)",
+          "oc_bs": "*kə.nˤewk-s",
+          "gloss": "urine",
+          "gsr": "1123d",
+          "unicode_utf16": "U+6EBA"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11590",
+          "character": "溺",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴歷",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠ɡ",
+          "oc_syllable": "ne̠ɡ"
+        },
+        {
+          "source_row_number": "11596",
+          "character": "溺",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "而灼",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "nʲeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "嫋",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "newX"
+        ],
+        "mand2mc_nwh_forms": [
+          "newX"
+        ],
+        "mand2mc_bs_forms": [
+          "newX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8105",
+          "character": "嫋",
+          "pinyin": "niao3",
+          "mc_nwh": "newX",
+          "mc_bs": "newX",
+          "gsr": "1123e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11591",
+          "character": "嫋",
+          "phonetic_component": "尿",
+          "component_level": "2",
+          "secondary_component": "弱",
+          "fanqie": "奴鳥",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "e̠wʔ",
+          "oc_syllable": "ne̠wʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "弱",
+      "gsr": "1123a",
+      "oc_bs": "*newk",
+      "root": "nek",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "nek",
+    "source": "head_graph_oc_bs",
+    "character": "弱",
+    "oc_bs": "*newk",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "nek",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ñiak",
+      "nek",
+      "newH",
+      "newX"
+    ],
+    "form_analyses": [
+      {
+        "form": "ñiak",
+        "normalized": "ñiak",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "nek",
+        "normalized": "nek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "newH",
+        "normalized": "new",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "newX",
+        "normalized": "new",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "nek",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

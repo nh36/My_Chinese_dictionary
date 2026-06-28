@@ -547,10 +547,16 @@
 | `16-41` | `missing_series` | no | 8 | 7 |
 | `16-42` | `missing_series` | no | 4 | 3 |
 | `16-43` | `missing_series` | no | 3 | 2 |
+| `16-44` | `missing_series` | no | 5 | 3 |
+| `16-45` | `missing_series` | no | 1 | 0 |
+| `17-01` | `missing_series` | no | 4 | 3 |
+| `17-02` | `missing_series` | no | 3 | 2 |
+| `17-03` | `missing_series` | no | 2 | 1 |
 | `17-05` | `missing_series` | no | 14 | 13 |
 | `17-06` | `missing_series` | no | 7 | 5 |
 | `17-07` | `missing_series` | no | 14 | 13 |
 | `17-08` | `missing_series` | no | 11 | 9 |
+| `17-09` | `missing_series` | no | 5 | 4 |
 | `18-09` | `existing_addendum` | yes | 2 | 0 |
 | `18-18` | `existing_addendum` | yes | 7 | 6 |
 | `19-01` | `existing_addendum` | yes | 1 | 0 |

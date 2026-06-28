@@ -1,0 +1,1354 @@
+{
+  "generated_at": "2026-06-28T14:46:26.171361+00:00",
+  "id": "16-44",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "16-44",
+    "rhyme_section": 16,
+    "series_number": 44,
+    "k_tokens": [
+      "1158"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "The element & is semantic, hence it is only partially phonetic.",
+    "is_cross_reference_only": false,
+    "source_page_number": 229,
+    "source_line_number": 30,
+    "source_line_raw": "16-44 = K. 1158    The element & is semantic, hence it is only partially phonetic."
+  },
+  "coverage": {
+    "gsc_id": "16-44",
+    "rhyme_section": "16",
+    "series_number": "44",
+    "schuessler_k_tokens": "1158",
+    "schuessler_source_page": "229",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "5",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "眇; 妙; 杪; 鈔; 渺",
+    "bs_gsr_row_count": "4",
+    "bs_gsr_character_count": "4",
+    "bs_gsr_characters_sample": "眇; 妙; 杪; 渺",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "眇; 妙; 杪; 鈔; 渺"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1158"
+  ],
+  "proposed_additions": [
+    {
+      "character": "眇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8473",
+          "character": "眇",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "眇",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ",
+          "gloss": "very small, minute",
+          "gsr": "1158a",
+          "unicode_utf16": "U+7707"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14322",
+          "character": "眇",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "眇",
+          "ids": "⿰目少",
+          "phonetic_component": "小",
+          "semantic_component": "目",
+          "position": "prefix-dot",
+          "abbreviation": "ocul",
+          "inventory_matches": [
+            {
+              "graph_raw": "目",
+              "label_token": "ocul(us)",
+              "abbreviation": "ocul",
+              "start_line": 341
+            },
+            {
+              "graph_raw": "目",
+              "label_token": "ocul",
+              "abbreviation": "ocul",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ocul",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "目",
+            "label_token": "ocul(us)",
+            "abbreviation": "ocul",
+            "start_line": 341
+          },
+          {
+            "graph_raw": "目",
+            "label_token": "ocul",
+            "abbreviation": "ocul",
+            "learned": true,
+            "evidence_count": 3
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "目"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}mew₂}},",
+      "render_latex": "眇\t%miao3 / miǎo\n{\\large{\\textsuperscript{ocul·}mew₂}},\n\\textit{myiewX};\t%1158a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "杪",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "杪"
+      },
+      "resolved_node_root": {
+        "root": "mew",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "mew"
+        ],
+        "bs_node_roots": [
+          "mew"
+        ],
+        "display_root": "mew₃",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "myiewX"
+        ],
+        "form_analyses": [
+          {
+            "form": "myiewX",
+            "normalized": "myiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ],
+        "base_root": "mew",
+        "ordinal": 3,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "妙",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewH"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewH"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewH"
+        ],
+        "bs_gsr_forms": [
+          "mjiewH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8474",
+          "character": "妙",
+          "pinyin": "miao4",
+          "mc_nwh": "myiewH",
+          "mc_bs": "mjiewH",
+          "gsr": "1158b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "妙",
+          "pinyin": "miào",
+          "mc_bs": "mjiewH",
+          "mc_analyzed": "(m- + -jiew C)",
+          "oc_bs": "*mew-s {*mew(ʔ)-s}",
+          "gloss": "marvelous",
+          "gsr": "1158b",
+          "unicode_utf16": "U+5999"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14342",
+          "character": "妙",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "彌𥬇",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ews",
+          "oc_syllable": "mkˡews"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|女|少|ls=psc|c1=s|c2=p|t1=woman}}",
+          "positional_components": [
+            "女",
+            "少"
+          ],
+          "positional_components_raw": [
+            "女",
+            "少"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "woman"
+          },
+          "semantic_components": [
+            "女"
+          ],
+          "phonetic_components": [
+            "少"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|女|少|ls=psc|c1=s|c2=p|t1=woman}}",
+            "positional_components": [
+              "女",
+              "少"
+            ],
+            "positional_components_raw": [
+              "女",
+              "少"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "woman"
+            },
+            "semantic_components": [
+              "女"
+            ],
+            "phonetic_components": [
+              "少"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "妙",
+          "ids": "⿰女少",
+          "phonetic_component": "小",
+          "semantic_component": "女",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "fem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "女",
+            "label_token": "fem(ina)",
+            "abbreviation": "fem",
+            "start_line": 275
+          },
+          {
+            "graph_raw": "女",
+            "label_token": "fem",
+            "abbreviation": "fem",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "女"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}mew₂}},",
+      "render_latex": "妙\t%miao4 / miào\n{\\large{\\textsuperscript{fem·}mew₂}},\n\\textit{myiewH};\t%1158b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "女",
+        "phonetic_component": "少",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "妙",
+          "semantic_component": "女",
+          "phonetic_component": "少",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|女|少|ls=psc|c1=s|c2=p|t1=woman}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "杪",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "杪"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "杪",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8475",
+          "character": "杪",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "杪",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ",
+          "gloss": "the utmost end",
+          "gsr": "1158c",
+          "unicode_utf16": "U+676A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14325",
+          "character": "杪",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "杪",
+          "ids": "⿰木少",
+          "phonetic_component": "小",
+          "semantic_component": "木",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 203
+          },
+          {
+            "graph_raw": "木",
+            "label_token": "arb",
+            "abbreviation": "arb",
+            "learned": true,
+            "evidence_count": 22
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "木"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}mew}},",
+      "render_latex": "杪\t%miao3 / miǎo\n{\\large{\\textsuperscript{arb·}mew}},\n\\textit{myiewX};\t%1158c",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "mew",
+        "source": "node_bs_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 4,
+        "bs_broad_roots": [
+          "mew"
+        ],
+        "bs_node_roots": [
+          "mew"
+        ],
+        "display_root": "mew₂",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "myiewX",
+          "myiewH"
+        ],
+        "form_analyses": [
+          {
+            "form": "myiewX",
+            "normalized": "myiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "myiewH",
+            "normalized": "myiew",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ],
+        "base_root": "mew",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "鈔",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8476",
+          "character": "鈔",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14288",
+          "character": "鈔",
+          "phonetic_component": "小",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "楚交",
+          "source": "广韵",
+          "oc_initial": "skʰr",
+          "oc_rhyme": "e̠w",
+          "oc_syllable": "skʰre̠w"
+        },
+        {
+          "source_row_number": "14321",
+          "character": "鈔",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "少",
+          "fanqie": "齒紹",
+          "source": "集韵",
+          "oc_initial": "kʰlʲ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "kʰlʲewʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|金|少|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "金",
+            "少"
+          ],
+          "positional_components_raw": [
+            "金",
+            "少"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "金"
+          ],
+          "phonetic_components": [
+            "少"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|金|少|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "金",
+              "少"
+            ],
+            "positional_components_raw": [
+              "金",
+              "少"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "金"
+            ],
+            "phonetic_components": [
+              "少"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "鈔",
+          "ids": "⿰金少",
+          "phonetic_component": "小",
+          "semantic_component": "金",
+          "position": "prefix-dot",
+          "abbreviation": "met",
+          "inventory_matches": [
+            {
+              "graph_raw": "金",
+              "label_token": "met(allum)",
+              "abbreviation": "met",
+              "start_line": 323
+            },
+            {
+              "graph_raw": "金",
+              "label_token": "met",
+              "abbreviation": "met",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "met",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "金",
+            "label_token": "met(allum)",
+            "abbreviation": "met",
+            "start_line": 323
+          },
+          {
+            "graph_raw": "金",
+            "label_token": "met",
+            "abbreviation": "met",
+            "learned": true,
+            "evidence_count": 16
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "金"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}mew}},",
+      "render_latex": "鈔\t%miao3\n{\\large{\\textsuperscript{met·}mew}},\n\\textit{myiewX};\t%1158d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "金",
+        "phonetic_component": "少",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鈔",
+          "semantic_component": "金",
+          "phonetic_component": "少",
+          "position": "prefix-dot",
+          "abbreviation": "met",
+          "inventory_matches": [
+            {
+              "graph_raw": "金",
+              "label_token": "met(allum)",
+              "abbreviation": "met",
+              "start_line": 323
+            },
+            {
+              "graph_raw": "金",
+              "label_token": "met",
+              "abbreviation": "met",
+              "learned": true,
+              "evidence_count": 16
+            }
+          ],
+          "template_raw": "{{Han compound|金|少|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    },
+    {
+      "character": "渺",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8477",
+          "character": "渺",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "渺",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ {*[m]ewʔ}",
+          "gloss": "vast (of water)",
+          "gsr": "1158e",
+          "unicode_utf16": "U+6E3A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14323",
+          "character": "渺",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|alt1=氵|眇|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "水",
+            "眇"
+          ],
+          "positional_components_raw": [
+            "水",
+            "眇"
+          ],
+          "named_args": {
+            "alt1": "氵",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "眇"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|alt1=氵|眇|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "水",
+              "眇"
+            ],
+            "positional_components_raw": [
+              "水",
+              "眇"
+            ],
+            "named_args": {
+              "alt1": "氵",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "眇"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "渺",
+          "ids": "⿰氵眇",
+          "phonetic_component": "小",
+          "semantic_component": "水",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 198
+          },
+          {
+            "graph_raw": "水",
+            "label_token": "aq",
+            "abbreviation": "aq",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "水"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}mew}},",
+      "render_latex": "渺\t%miao3 / miǎo\n{\\large{\\textsuperscript{aq·}mew}},\n\\textit{myiewX};\t%1158e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "眇",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "渺",
+          "semantic_component": "水",
+          "phonetic_component": "眇",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|水|alt1=氵|眇|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "眇",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "眇"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "眇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8473",
+          "character": "眇",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "眇",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ",
+          "gloss": "very small, minute",
+          "gsr": "1158a",
+          "unicode_utf16": "U+7707"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14322",
+          "character": "眇",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "妙",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewH"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewH"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewH"
+        ],
+        "bs_gsr_forms": [
+          "mjiewH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8474",
+          "character": "妙",
+          "pinyin": "miao4",
+          "mc_nwh": "myiewH",
+          "mc_bs": "mjiewH",
+          "gsr": "1158b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "妙",
+          "pinyin": "miào",
+          "mc_bs": "mjiewH",
+          "mc_analyzed": "(m- + -jiew C)",
+          "oc_bs": "*mew-s {*mew(ʔ)-s}",
+          "gloss": "marvelous",
+          "gsr": "1158b",
+          "unicode_utf16": "U+5999"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14342",
+          "character": "妙",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "彌𥬇",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ews",
+          "oc_syllable": "mkˡews"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "杪",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8475",
+          "character": "杪",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "杪",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ",
+          "gloss": "the utmost end",
+          "gsr": "1158c",
+          "unicode_utf16": "U+676A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14325",
+          "character": "杪",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "鈔",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8476",
+          "character": "鈔",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14288",
+          "character": "鈔",
+          "phonetic_component": "小",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "楚交",
+          "source": "广韵",
+          "oc_initial": "skʰr",
+          "oc_rhyme": "e̠w",
+          "oc_syllable": "skʰre̠w"
+        },
+        {
+          "source_row_number": "14321",
+          "character": "鈔",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "少",
+          "fanqie": "齒紹",
+          "source": "集韵",
+          "oc_initial": "kʰlʲ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "kʰlʲewʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "渺",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "myiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "myiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "mjiewX"
+        ],
+        "bs_gsr_forms": [
+          "mjiewX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8477",
+          "character": "渺",
+          "pinyin": "miao3",
+          "mc_nwh": "myiewX",
+          "mc_bs": "mjiewX",
+          "gsr": "1158e"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "176",
+          "character": "渺",
+          "pinyin": "miǎo",
+          "mc_bs": "mjiewX",
+          "mc_analyzed": "(m- + -jiew B)",
+          "oc_bs": "*mewʔ {*[m]ewʔ}",
+          "gloss": "vast (of water)",
+          "gsr": "1158e",
+          "unicode_utf16": "U+6E3A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14323",
+          "character": "渺",
+          "phonetic_component": "小",
+          "component_level": "2",
+          "secondary_component": "杪",
+          "fanqie": "亡沼",
+          "source": "广韵",
+          "oc_initial": "mkˡ",
+          "oc_rhyme": "ewʔ",
+          "oc_syllable": "mkˡewʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "眇",
+      "gsr": "1158a",
+      "oc_bs": "*mewʔ",
+      "root": "mew",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "mew",
+    "source": "head_graph_oc_bs",
+    "character": "眇",
+    "oc_bs": "*mewʔ",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "mew",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "myiewX"
+    ],
+    "form_analyses": [
+      {
+        "form": "myiewX",
+        "normalized": "myiew",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "mew",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1087
-- Roots whose display label changed after document-wide renumbering: 638
-- Duplicate phonetic bases encountered in document order: 272
+- Mutable series/subseries roots inspected: 1095
+- Roots whose display label changed after document-wide renumbering: 643
+- Duplicate phonetic bases encountered in document order: 273
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -849,12 +849,20 @@
 | `16-42` | `series-root` | 皃 | `mek` | 3 | `mek₃` | yes |
 | `16-42` | `subseries-root` | 貌 | `mek` | 4 | `mek₄` | yes |
 | `16-43` | `series-root` | 苗 | `maw` | 1 | `maw` | yes |
+| `16-44` | `series-root` | 眇 | `mew` | 1 | `mew` | yes |
+| `16-44` | `subseries-root` | 杪 | `mew` | 2 | `mew₂` | yes |
+| `16-44` | `subseries-root` | 眇 | `mew` | 3 | `mew₃` | yes |
+| `16-45` | `series-root` | 淼 | `mew` | 4 | `mew₄` | yes |
+| `17-01` | `series-root` | 隺 | `k\textoverset{a}{a}k` | 4 | `k\textoverset{a}{a}k₄` | yes |
+| `17-02` | `series-root` | 虐 | `ṅ\textoverset{b}{a}k` | 1 | `ṅ\textoverset{b}{a}k` | yes |
+| `17-03` | `series-root` | 弔 | `tek` | 5 | `tek₅` | yes |
 | `17-05` | `series-root` | 勺 | `qek` | 1 | `qek` | yes |
 | `17-05` | `subseries-root` | 約 | `qek` | 2 | `qek₂` | yes |
 | `17-06` | `series-root` | 龠 | `lek` | 3 | `lek₃` | yes |
 | `17-06` | `subseries-root` | 籥 | `lek` | 4 | `lek₄` | yes |
 | `17-07` | `series-root` | 翟 | `lek` | 5 | `lek₅` | yes |
 | `17-08` | `series-root` | 樂 | `rek` | 4 | `rek₄` | yes |
+| `17-09` | `series-root` | 弱 | `nek` | 1 | `nek` | yes |
 | `18-01` | `baseline-series-root` | 可 | `qay` | 1 | `qay` | no |
 | `18-01` | `baseline-subseries-root` | 何 | `g\textoverset{a}{a}y` | 1 | `g\textoverset{a}{a}y` | no |
 | `18-01` | `baseline-subseries-root` | 哥 | `k\textoverset{a}{a}y` | 1 | `k\textoverset{a}{a}y` | no |

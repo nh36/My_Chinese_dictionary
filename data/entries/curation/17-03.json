@@ -1,0 +1,706 @@
+{
+  "generated_at": "2026-06-28T14:46:26.173848+00:00",
+  "id": "17-03",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "17-03",
+    "rhyme_section": 17,
+    "series_number": 3,
+    "k_tokens": [
+      "1165"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.             MC            LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 231,
+    "source_line_number": 30,
+    "source_line_raw": "17-3   = K. 1165 Mand.             MC            LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "17-03",
+    "rhyme_section": "17",
+    "series_number": "3",
+    "schuessler_k_tokens": "1165",
+    "schuessler_source_page": "231",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "弔; 盄",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "弔",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "弔; 盄"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1165"
+  ],
+  "proposed_additions": [
+    {
+      "character": "弔",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tek",
+          "tewH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tek",
+          "tewH"
+        ],
+        "mand2mc_bs_forms": [
+          "tek",
+          "tewH"
+        ],
+        "bs_gsr_forms": [
+          "tek",
+          "tewH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8525",
+          "character": "弔",
+          "pinyin": "diao4",
+          "mc_nwh": "tek",
+          "mc_bs": "tek",
+          "gsr": "1165a"
+        },
+        {
+          "source_row_number": "8526",
+          "character": "弔",
+          "pinyin": "diao4",
+          "mc_nwh": "tewH",
+          "mc_bs": "tewH",
+          "gsr": "1165a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "177",
+          "character": "弔",
+          "pinyin": "diào",
+          "mc_bs": "tek",
+          "mc_analyzed": "(t- + -ek D)",
+          "oc_bs": "*tˤewk {*tˤ[e]wk}",
+          "gloss": "arrive",
+          "gsr": "1165a",
+          "unicode_utf16": "U+5F14"
+        },
+        {
+          "source_page_number": "177",
+          "character": "弔",
+          "pinyin": "diào",
+          "mc_bs": "tewH",
+          "mc_analyzed": "(t- + -ew C)",
+          "oc_bs": "*tˤewk-s {*tˤ[e]wk-s}",
+          "gloss": "grieved; condole",
+          "gsr": "1165a",
+          "unicode_utf16": "U+5F14"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2490",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2492",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2488",
+          "character": "𧘨",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都聊",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2489",
+          "character": "䘟",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丁聊",
+          "source": "集韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2490",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2491",
+          "character": "𨑩",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2492",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        },
+        {
+          "source_row_number": "2493",
+          "character": "𨑩",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        },
+        {
+          "source_row_number": "2494",
+          "character": "盄",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "止遥",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "iw",
+          "oc_syllable": "tʲiw"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tek₅}},",
+      "render_latex": "弔\t%diao4 / diào\n{\\large{tek₅}},\n\\textit{tek};\t%1165a\n\\textit{tewH};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "弔",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "弔"
+      },
+      "resolved_node_root": {
+        "root": "tek",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tek"
+        ],
+        "bs_node_roots": [
+          "tek"
+        ],
+        "display_root": "tek",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tek",
+          "tewH",
+          "ciew"
+        ],
+        "form_analyses": [
+          {
+            "form": "tek",
+            "normalized": "tek",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "tewH",
+            "normalized": "tew",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ciew",
+            "normalized": "ciew",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "盄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ciew"
+        ],
+        "mand2mc_nwh_forms": [
+          "ciew"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyew"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8527",
+          "character": "盄",
+          "pinyin": "zhao1",
+          "mc_nwh": "ciew",
+          "mc_bs": "tsyew",
+          "gsr": "1165d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2494",
+          "character": "盄",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "止遥",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "iw",
+          "oc_syllable": "tʲiw"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "盄",
+          "ids": "⿱弔皿",
+          "phonetic_component": "弔",
+          "semantic_component": "皿",
+          "position": "suffix-colon",
+          "abbreviation": "vas",
+          "inventory_matches": [
+            {
+              "graph_raw": "皿",
+              "label_token": "vas(um)",
+              "abbreviation": "vas",
+              "start_line": 429
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vas",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "皿",
+            "label_token": "vas(um)",
+            "abbreviation": "vas",
+            "start_line": 429
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "皿"
+      },
+      "transliteration_latex": "{\\large{tek₅\\textsuperscript{˸vas}}},",
+      "render_latex": "盄\t%zhao1\n{\\large{tek₅\\textsuperscript{˸vas}}},\n\\textit{ciew};\t%1165d",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "弔",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "弔"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "弔",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tek",
+          "tewH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tek",
+          "tewH"
+        ],
+        "mand2mc_bs_forms": [
+          "tek",
+          "tewH"
+        ],
+        "bs_gsr_forms": [
+          "tek",
+          "tewH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8525",
+          "character": "弔",
+          "pinyin": "diao4",
+          "mc_nwh": "tek",
+          "mc_bs": "tek",
+          "gsr": "1165a"
+        },
+        {
+          "source_row_number": "8526",
+          "character": "弔",
+          "pinyin": "diao4",
+          "mc_nwh": "tewH",
+          "mc_bs": "tewH",
+          "gsr": "1165a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "177",
+          "character": "弔",
+          "pinyin": "diào",
+          "mc_bs": "tek",
+          "mc_analyzed": "(t- + -ek D)",
+          "oc_bs": "*tˤewk {*tˤ[e]wk}",
+          "gloss": "arrive",
+          "gsr": "1165a",
+          "unicode_utf16": "U+5F14"
+        },
+        {
+          "source_page_number": "177",
+          "character": "弔",
+          "pinyin": "diào",
+          "mc_bs": "tewH",
+          "mc_analyzed": "(t- + -ew C)",
+          "oc_bs": "*tˤewk-s {*tˤ[e]wk-s}",
+          "gloss": "grieved; condole",
+          "gsr": "1165a",
+          "unicode_utf16": "U+5F14"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2490",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2492",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2488",
+          "character": "𧘨",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都聊",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2489",
+          "character": "䘟",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丁聊",
+          "source": "集韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2490",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2491",
+          "character": "𨑩",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都歷",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷ",
+          "oc_syllable": "ti̠ɡʷ"
+        },
+        {
+          "source_row_number": "2492",
+          "character": "弔",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        },
+        {
+          "source_row_number": "2493",
+          "character": "𨑩",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "多嘯",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "i̠ɡʷs",
+          "oc_syllable": "ti̠ɡʷs"
+        },
+        {
+          "source_row_number": "2494",
+          "character": "盄",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "止遥",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "iw",
+          "oc_syllable": "tʲiw"
+        }
+      ]
+    },
+    {
+      "character": "盄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ciew"
+        ],
+        "mand2mc_nwh_forms": [
+          "ciew"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyew"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8527",
+          "character": "盄",
+          "pinyin": "zhao1",
+          "mc_nwh": "ciew",
+          "mc_bs": "tsyew",
+          "gsr": "1165d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2494",
+          "character": "盄",
+          "phonetic_component": "弔",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "止遥",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "iw",
+          "oc_syllable": "tʲiw"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "弔",
+      "gsr": "1165a",
+      "oc_bs": "*tˤewk {*tˤ[e]wk}",
+      "root": "tek",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tek",
+    "source": "head_graph_oc_bs",
+    "character": "弔",
+    "oc_bs": "*tˤewk {*tˤ[e]wk}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tek₅",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tek",
+      "tewH",
+      "ciew"
+    ],
+    "form_analyses": [
+      {
+        "form": "tek",
+        "normalized": "tek",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "tewH",
+        "normalized": "tew",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ciew",
+        "normalized": "ciew",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
+    "base_root": "tek",
+    "ordinal": 5,
+    "numbering_source": "document_order_occurrence"
+  }
+}

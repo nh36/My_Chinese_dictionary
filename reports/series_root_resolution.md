@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 714
-- Packets with at least one root candidate: 713
-- Packets with a single resolved provisional root: 711
+- Missing-series packets inspected: 720
+- Packets with at least one root candidate: 719
+- Packets with a single resolved provisional root: 717
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -517,7 +517,7 @@
 | `16-19` | 鼂→tew [*dew] (None) | `tew` | `head_graph_oc_shengfu` |
 | `16-20` | 兆→law [*lrawʔ {*lr[a]wʔ}] (1145a) | `law` | `head_graph_oc_bs` |
 | `16-21` | 䍃→law [*law] (1144a) | `law` | `head_graph_oc_bs` |
-| `16-22` | 少→tew [*s-tewʔ-s {*[s-t]ewʔ-s}] (1149e); 少→qew [*qʰlewʔ] (None); 少→sew [*sewʔ {*[s]ewʔ}] (None) | `sew` | `head_graph_supported_root` |
+| `16-22` | 少→tew [*s-tewʔ-s {*[s-t]ewʔ-s}] (1149e); 少→qew [*qʰlewʔ] (None); 少→sew [*sewʔ] (1149e) | `sew` | `head_graph_supplement` |
 | `16-23` | 勞→raw [*rˤaw {*[r]ˤaw}] (1135a) | `raw` | `head_graph_oc_bs` |
 | `16-24` | 𤋯→rew [*ɡ‧re̠w] (None) | `rew` | `same_character_series_root` |
 | `16-26` | 窅→qew [*qʳe̠w] (None) | `qew` | `head_graph_oc_shengfu` |
@@ -538,10 +538,16 @@
 | `16-41` | 毛→maw [*C.mˤaw] (1137a) | `maw` | `head_graph_oc_bs` |
 | `16-42` | 皃→mek [*mʳe̠ɡʷ] (None) | `mek` | `head_graph_oc_shengfu` |
 | `16-43` | 苗→maw [*maw {*m(r)aw}] (1159a) | `maw` | `head_graph_oc_bs` |
+| `16-44` | 眇→mew [*mewʔ] (1158a) | `mew` | `head_graph_oc_bs` |
+| `16-45` | 淼→mew [*mewʔ] (None) | `mew` | `head_graph_oc_shengfu` |
+| `17-01` | 隺→kak [*gˤawk {*[g]ˤawk}] (1117a) | `kak` | `head_graph_oc_bs` |
+| `17-02` | 虐→ṅak [*ŋawk {*[ŋ](r)awk}] (1118a) | `ṅak` | `head_graph_oc_bs` |
+| `17-03` | 弔→tek [*tˤewk {*tˤ[e]wk}] (1165a) | `tek` | `head_graph_oc_bs` |
 | `17-05` | 勺→qek [*m-t-qewk] (1120a) | `qek` | `head_graph_oc_bs` |
 | `17-06` | 龠→lek [*lewk] (1119a) | `lek` | `head_graph_oc_bs` |
 | `17-07` | 翟→lek [*lˤewk] (1124a) | `lek` | `head_graph_oc_bs` |
 | `17-08` | 樂→rak [*rˤawk {*[rˤ]awk}] (1125a); 樂→ṅak [*ŋˤrawk {*[ŋ]ˤrawk}] (1125a) | `rek` | `packet_bs_majority` |
+| `17-09` | 弱→nek [*newk] (1123a) | `nek` | `head_graph_oc_bs` |
 | `19-02` | 果→kor [*kˤorʔ {*[k]ˤo[r]ʔ}] (0351a) | `kor` | `head_graph_oc_bs` |
 | `19-09` | 隓→loy [*lˤojʔ] (0011a) | `loy` | `head_graph_oc_bs` |
 | `20-01` | 㓞→ket [*kʰʳe̠d] (None) | `ket` | `head_graph_oc_shengfu` |

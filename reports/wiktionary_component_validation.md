@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5423
-- Pages fetched / cached successfully: 5342
-- Additions with explicit Han-compound semantic/phonetic roles: 2494
+- Proposed additions checked: 5443
+- Pages fetched / cached successfully: 5362
+- Additions with explicit Han-compound semantic/phonetic roles: 2502
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3221,6 +3221,21 @@
 | `16-43` | 苗 | yes | no |  |  |
 | `16-43` | 庿 | yes | yes | 广 | 苗 |
 | `16-43` | 貓 | yes | yes | 豸 | 苗 |
+| `16-44` | 眇 | yes | no |  |  |
+| `16-44` | 妙 | yes | yes | 女 | 少 |
+| `16-44` | 杪 | yes | no |  |  |
+| `16-44` | 鈔 | yes | yes | 金 | 少 |
+| `16-44` | 渺 | yes | yes | 水 | 眇 |
+| `16-45` | 淼 | yes | no |  |  |
+| `17-01` | 隺 | yes | no |  |  |
+| `17-01` | 鶴 | yes | yes | 鳥 | 寉 |
+| `17-01` | 搉 | yes | no |  |  |
+| `17-01` | 確 | yes | yes | 石 | 隺 |
+| `17-02` | 虐 | yes | no |  |  |
+| `17-02` | 瘧 | yes | yes | 病 | 虐 |
+| `17-02` | 謔 | yes | no |  |  |
+| `17-03` | 弔 | yes | no |  |  |
+| `17-03` | 盄 | yes | no |  |  |
 | `17-05` | 勺 | yes | no |  |  |
 | `17-05` | 杓 | yes | no |  |  |
 | `17-05` | 汋 | yes | no |  |  |
@@ -3267,6 +3282,11 @@
 | `17-08` | 爍 | yes | yes | 火 | 樂 |
 | `17-08` | 鑠 | yes | yes | 金 | 樂 |
 | `17-08` | 藥 | yes | yes | 艸 | 樂 |
+| `17-09` | 弱 | yes | no |  |  |
+| `17-09` | 蒻 | yes | no |  |  |
+| `17-09` | 愵 | yes | no |  |  |
+| `17-09` | 溺 | yes | yes | 水 | 弱 |
+| `17-09` | 嫋 | yes | yes | 女 | 弱 |
 | `18-09` | 𨠑 | no | no |  |  |
 | `18-09` | 舵 | yes | yes | 舟 | 它 |
 | `18-18` | 加 | yes | no |  |  |
