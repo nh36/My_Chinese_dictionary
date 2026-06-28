@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T11:19:46.440517+00:00
+- Generated at: 2026-06-28T11:42:04.153079+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20885
+- Total occurrences audited: 20929
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20672 |
+| `canonical` | 20710 |
 | `explicit_alias` | 11 |
-| `needs_review` | 202 |
+| `needs_review` | 208 |
 
 ## Blocked ambiguous aliases
 
@@ -786,6 +786,14 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `13-14` | `憂` | `夊` | render_latex, transliteration_latex | `夊` | `⿱㥑夂` | `憂	%you1
 {\large{qu₇\textsuperscript{˸夊}}},
 \textit{qiuw};	%1071a` |
+| `curation_json` | `13-71` | `髟` | `镸` | render_latex, transliteration_latex | `镸` | `⿰镸彡` | `髟	%biao1 / shan1 / shān
+{\large{\textsuperscript{镸·}sam}},
+\textit{pyiew};	%1154a
+\textit{pyiw};
+\textit{ṣaem};` |
+| `curation_json` | `13-77` | `麰` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥牟` | `麰	%mou2
+{\large{\textsuperscript{麥·}mu₁₀}},
+\textit{miuw};	%1110d` |
 | `curation_json` | `14-02` | `麴` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥匊` | `麴	%qu1
 {\large{\textsuperscript{麥·}kuk}},
 \textit{khiuwk};	%1017i` |
@@ -958,6 +966,14 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `13-14` | `憂` | `夊` | render_latex, transliteration_latex | `夊` | `⿱㥑夂` | `憂	%you1
 {\large{qu₇\textsuperscript{˸夊}}},
 \textit{qiuw};	%1071a` |
+| `integrated_series_curated_entry` | `13-71` | `髟` | `镸` | render_latex, transliteration_latex | `镸` | `⿰镸彡` | `髟	%biao1 / shan1 / shān
+{\large{\textsuperscript{镸·}sam}},
+\textit{pyiew};	%1154a
+\textit{pyiw};
+\textit{ṣaem};` |
+| `integrated_series_curated_entry` | `13-77` | `麰` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥牟` | `麰	%mou2
+{\large{\textsuperscript{麥·}mu₁₀}},
+\textit{miuw};	%1110d` |
 | `integrated_series_curated_entry` | `14-02` | `麴` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥匊` | `麴	%qu1
 {\large{\textsuperscript{麥·}kuk}},
 \textit{khiuwk};	%1017i` |
@@ -1055,6 +1071,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `丂` | line | `` | `` | `{\large{neṅ₂\textsuperscript{˸丂}}},` |
 | `validation_tex` | `` | `` | `丶` | line | `` | `` | `{\large{tseṅ₂\textsuperscript{˸丶}}},` |
 | `validation_tex` | `` | `` | `儿` | line | `` | `` | `{\large{q\textoverset{b}{o}ṅ\textsuperscript{˸儿}}},` |
+| `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}mu₁₀}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
 | `validation_tex` | `` | `` | `告` | line | `` | `` | `{\large{kuk₄\textsuperscript{˸告}}},` |
 | `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk\textsuperscript{˸二}}},` |
@@ -1109,6 +1126,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `aq.` | line | `` | `` | `\item 湅 lenH < *g.re:ns\footnote{\textit{ibid.}} = \textsuperscript{aq.}Kren` |
 | `validation_tex` | `` | `` | `ser.` | line | `` | `` | `\item 練 lenH < *r\textsuperscript{ˤ}en-s = \textsuperscript{ser.}Kren` |
 | `validation_tex` | `` | `` | `met.` | line | `` | `` | `\item 鍊 lenH < *r\textsuperscript{ˤ}en-s = \textsuperscript{met.}Kren` |
+| `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}mu₁₀}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
 | `validation_tex` | `` | `` | `告` | line | `` | `` | `{\large{kuk₄\textsuperscript{˸告}}},` |
 | `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk\textsuperscript{˸二}}},` |

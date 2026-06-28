@@ -1,11 +1,11 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 828
+- Generated subgroup heads inspected: 832
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 273
-- Mixed subgroups left unmarked: 351
-- Unresolved subgroups left unmarked: 4
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 275
+- Mixed subgroups left unmarked: 352
+- Unresolved subgroups left unmarked: 5
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -484,12 +484,16 @@
 | `13-60` | 蚤 | `su` | `su₃` | `mixed` | no | `tsawX, saw, sawX, tshawX, siuwX, tshek` | the extracted forms point to both type a and type b |
 | `13-61` | 帚 | `py` | `py` | `mixed` | no | `ciuwX, sawH, sawX` | the extracted forms point to both type a and type b |
 | `13-64` | 保 | `pu` | `pu` | `a` | no | `pawX` | all extracted forms lack an i-medial after the onset |
+| `13-69` | 缶 | `pu` | `pu` | `b` | no | `piuwX, biew` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-71` | 彪 | `` | `` | `unknown` | no | `` |  |
 | `13-72` | 包 | `pu` | `pu` | `mixed` | no | `paew, phaew, biewX, paewX, baew, baewX, baw, bawH, bawX, biuw, baewH, phaewk, baewk` | the extracted forms point to both type a and type b |
 | `13-73` | 孚 | `pu` | `pu` | `mixed` | no | `phiu, biewX, phiuw, phwəy, biuw, baew` | the extracted forms point to both type a and type b |
+| `13-74` | 冒 | `muk` | `muk` | `a` | no | `mawH, mək` | all extracted forms lack an i-medial after the onset |
 | `13-76` | 矛 | `mu` | `mu` | `mixed` | no | `miuw, muw, maew, miuH, miuX, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
-| `13-76` | 楙 | `mu` | `mu₆` | `a` | no | `maw, muwH` | all extracted forms lack an i-medial after the onset |
-| `13-76` | 敄 | `mu` | `mu₇` | `mixed` | no | `miuH, miuX, miuw, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
-| `13-76` | 務 | `mu` | `mu₈` | `b` | no | `miuH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-76` | 楙 | `mu` | `mu₇` | `a` | no | `maw, muwH` | all extracted forms lack an i-medial after the onset |
+| `13-76` | 敄 | `mu` | `mu₈` | `mixed` | no | `miuH, miuX, miuw, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
+| `13-76` | 務 | `mu` | `mu₉` | `b` | no | `miuH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-77` | 牟 | `mu` | `mu` | `mixed` | no | `miuw, muw` | the extracted forms point to both type a and type b |
 | `14-02` | 匊 | `kuk` | `kuk` | `b` | no | `kiuwk, khiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-02` | 鞠 | `kuk` | `kuk₂` | `b` | no | `kiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-02` | 鞫 | `kuk` | `kuk₃` | `b` | no | `kiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |

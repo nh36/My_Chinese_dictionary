@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1015
-- Roots whose display label changed after document-wide renumbering: 593
-- Duplicate phonetic bases encountered in document order: 259
+- Mutable series/subseries roots inspected: 1021
+- Roots whose display label changed after document-wide renumbering: 598
+- Duplicate phonetic bases encountered in document order: 260
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -722,12 +722,18 @@
 | `13-66` | `series-root` | 寶 | `pu` | 3 | `pu₃` | yes |
 | `13-67` | `series-root` | 鴇 | `pu` | 4 | `pu₄` | yes |
 | `13-68` | `series-root` | 虣 | `pok` | 2 | `pok₂` | yes |
-| `13-72` | `series-root` | 包 | `pu` | 5 | `pu₅` | yes |
-| `13-73` | `series-root` | 孚 | `pu` | 6 | `pu₆` | yes |
-| `13-76` | `series-root` | 矛 | `mu` | 5 | `mu₅` | yes |
-| `13-76` | `subseries-root` | 楙 | `mu` | 6 | `mu₆` | yes |
-| `13-76` | `subseries-root` | 敄 | `mu` | 7 | `mu₇` | yes |
-| `13-76` | `subseries-root` | 務 | `mu` | 8 | `mu₈` | yes |
+| `13-69` | `series-root` | 缶 | `pu` | 5 | `pu₅` | yes |
+| `13-70` | `series-root` | 阜 | `pu` | 6 | `pu₆` | yes |
+| `13-71` | `series-root` | 髟 | `sam` | 1 | `sam` | yes |
+| `13-72` | `series-root` | 包 | `pu` | 7 | `pu₇` | yes |
+| `13-73` | `series-root` | 孚 | `pu` | 8 | `pu₈` | yes |
+| `13-74` | `series-root` | 冒 | `muk` | 2 | `muk₂` | yes |
+| `13-75` | `series-root` | 牡 | `mu` | 5 | `mu₅` | yes |
+| `13-76` | `series-root` | 矛 | `mu` | 6 | `mu₆` | yes |
+| `13-76` | `subseries-root` | 楙 | `mu` | 7 | `mu₇` | yes |
+| `13-76` | `subseries-root` | 敄 | `mu` | 8 | `mu₈` | yes |
+| `13-76` | `subseries-root` | 務 | `mu` | 9 | `mu₉` | yes |
+| `13-77` | `series-root` | 牟 | `mu` | 10 | `mu₁₀` | yes |
 | `14-02` | `series-root` | 匊 | `kuk` | 1 | `kuk` | yes |
 | `14-02` | `subseries-root` | 鞠 | `kuk` | 2 | `kuk₂` | yes |
 | `14-02` | `subseries-root` | 鞫 | `kuk` | 3 | `kuk₃` | yes |

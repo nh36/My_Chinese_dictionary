@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5242
-- Pages fetched / cached successfully: 5164
-- Additions with explicit Han-compound semantic/phonetic roles: 2429
+- Proposed additions checked: 5258
+- Pages fetched / cached successfully: 5180
+- Additions with explicit Han-compound semantic/phonetic roles: 2434
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2632,6 +2632,12 @@
 | `13-66` | 寶 | yes | no |  |  |
 | `13-67` | 鴇 | yes | no |  |  |
 | `13-68` | 虣 | yes | no |  |  |
+| `13-69` | 缶 | yes | no |  |  |
+| `13-69` | 㯱 | yes | no |  |  |
+| `13-70` | 阜 | yes | no |  |  |
+| `13-71` | 髟 | yes | no |  |  |
+| `13-71` | 彪 | yes | no |  |  |
+| `13-71` | 滮 | yes | no |  |  |
 | `13-72` | 包 | yes | no |  |  |
 | `13-72` | 胞 | yes | yes | 肉 | 包 |
 | `13-72` | 苞 | yes | yes | 艸 | 包 |
@@ -2657,6 +2663,11 @@
 | `13-73` | 浮 | yes | yes | 水 | 孚 |
 | `13-73` | 蜉 | yes | no |  |  |
 | `13-73` | 捊 | yes | no |  |  |
+| `13-74` | 冒 | yes | yes | 目 | 冃 |
+| `13-74` | 媢 | yes | no |  |  |
+| `13-74` | 瑁 | yes | yes | 玉 | 冒 |
+| `13-74` | 帽 | yes | yes | 巾 | 冒 |
+| `13-75` | 牡 | yes | no |  |  |
 | `13-76` | 矛 | yes | no |  |  |
 | `13-76` | 茅 | yes | yes | 艸 | 矛 |
 | `13-76` | 楙 | yes | no |  |  |
@@ -2673,6 +2684,11 @@
 | `13-76` | 楘 | yes | yes | 木 | 敄 |
 | `13-76` | 鶩 | yes | yes | 鳥 | 敄 |
 | `13-76` | 霧 | yes | yes | 雨 | 務 |
+| `13-77` | 牟 | yes | no |  |  |
+| `13-77` | 恈 | yes | no |  |  |
+| `13-77` | 眸 | yes | yes | 目 | 牟 |
+| `13-77` | 麰 | yes | yes | 麥 | 牟 |
+| `13-77` | 侔 | yes | no |  |  |
 | `14-02` | 匊 | yes | no |  |  |
 | `14-02` | 掬 | yes | yes | 手 | 匊 |
 | `14-02` | 椈 | yes | no |  |  |

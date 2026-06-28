@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 68,
+    "case_count": 70,
     "unique_component_count": 56,
     "by_classification": {
-      "new_latin_label_needed": 67,
+      "new_latin_label_needed": 69,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 41,
+      "wiktionary_component_literal_fallback": 42,
       "packet_family_component_literal_fallback": 9,
-      "ids_component_literal_fallback": 18
+      "ids_component_literal_fallback": 19
     }
   },
   "cases": [
@@ -624,6 +624,40 @@
       "render_latex": "憂\t%you1\n{\\large{qu₇\\textsuperscript{˸夊}}},\n\\textit{qiuw};\t%1071a",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `夊` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "13-71",
+      "character": "髟",
+      "abbreviation": "镸",
+      "semantic_component": "镸",
+      "position": "prefix-dot",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱④𠫔",
+      "transliteration_latex": "{\\large{\\textsuperscript{镸·}sam}},",
+      "render_latex": "髟\t%biao1 / shan1 / shān\n{\\large{\\textsuperscript{镸·}sam}},\n\\textit{pyiew};\t%1154a\n\\textit{pyiw};\n\\textit{ṣaem};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `镸` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
+      "entry_id": "13-77",
+      "character": "麰",
+      "abbreviation": "麥",
+      "semantic_component": "麥",
+      "position": "prefix-dot",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|麥|牟|c1=s|c2=p|t1=wheat|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": "wheat",
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "⿱來夂",
+      "transliteration_latex": "{\\large{\\textsuperscript{麥·}mu₁₀}},",
+      "render_latex": "麰\t%mou2\n{\\large{\\textsuperscript{麥·}mu₁₀}},\n\\textit{miuw};\t%1110d",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `麥` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
       "entry_id": "14-02",
@@ -2153,8 +2187,14 @@
       "template_alt_graph": null,
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "13-71",
+          "character": "髟",
+          "position": "prefix-dot",
+          "source": "ids_component_literal_fallback"
+        },
         {
           "entry_id": "30-11",
           "character": "肆",
@@ -2214,10 +2254,16 @@
       "reason": null,
       "semantic_component_ids": "⿱來夂",
       "template_alt_graph": null,
-      "template_gloss_primary": null,
+      "template_gloss_primary": "wheat",
       "template_gloss_secondary": null,
-      "case_count": 1,
+      "case_count": 2,
       "examples": [
+        {
+          "entry_id": "13-77",
+          "character": "麰",
+          "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        },
         {
           "entry_id": "14-02",
           "character": "麴",
