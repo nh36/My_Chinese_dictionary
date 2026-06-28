@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 883
-- Subgroups newly marked with `a`: 114
-- Subgroups newly marked with `b`: 98
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 295
-- Mixed subgroups left unmarked: 372
+- Generated subgroup heads inspected: 891
+- Subgroups newly marked with `a`: 116
+- Subgroups newly marked with `b`: 99
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 297
+- Mixed subgroups left unmarked: 375
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -617,8 +617,16 @@
 | `21-02` | 害 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `hayH, hat, kaeyH, kat, ḫaet, hwat` | all extracted forms lack an i-medial after the onset |
 | `21-05` | 桀 | `krat` | `kr\textoverset{b}{a}t` | `b` | yes | `giet, kiet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-09` | 歺 | `ṅat` | `ṅ\textoverset{a}{a}t` | `a` | yes | `ṅat` | all extracted forms lack an i-medial after the onset |
+| `21-10` | 乂 | `ŋat` | `ŋat` | `mixed` | no | `ṅiəyH, ṅayH` | the extracted forms point to both type a and type b |
+| `21-11` | 辥 | `ṅet` | `ṅet` | `b` | no | `siet, ṅiet` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `21-11` | 薛 | `ṅet` | `ṅet` | `mixed` | no | `siet, sat, set` | the extracted forms point to both type a and type b |
 | `21-12` | 大 | `lat` | `lat` | `mixed` | no | `daH, dayH, thayH, that, deyH, jieyH` | the extracted forms point to both type a and type b |
 | `21-12` | 太 | `lat` | `l\textoverset{a}{a}t` | `a` | yes | `thayH, dayH, that` | all extracted forms lack an i-medial after the onset |
+| `21-14` | 𦍒 | `lat` | `l\textoverset{a}{a}t` | `a` | yes | `that, dat` | all extracted forms lack an i-medial after the onset |
+| `21-14` | 達 | `lat` | `l\textoverset{a}{a}t` | `a` | yes | `dat, that` | all extracted forms lack an i-medial after the onset |
+| `21-15` | 帶 | `tat` | `tat` | `mixed` | no | `tayH, ḍieyH, chieyH, teyH, deyH, det, jieyH` | the extracted forms point to both type a and type b |
+| `21-15` | 滯 | `tat` | `t\textoverset{b}{a}t` | `b` | yes | `ḍieyH, chieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `21-16` | 筮 | `tet` | `tet` | `b` | no | `jieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-19` | 折 | `tet` | `tet` | `mixed` | no | `dey, jiet, ciet, ṭiet, ṭhiet, cieyH, jieyH, ṭaet, tsyejH` | the extracted forms point to both type a and type b |
 | `21-23` | 世 | `lap` | `l\textoverset{b}{a}p` | `b` | yes | `śieyH, yieyH, yiet, siet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-23` | 貰 | `lap` | `l\textoverset{b}{a}p₂` | `b` | yes | `śieyH, yieyH` | all extracted forms show an i-medial or a dedicated palatal onset |

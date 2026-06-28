@@ -1,9 +1,9 @@
 # Integrated series conflicts
 
-- Integrated series records: 876
+- Integrated series records: 882
 - Hand-source raw mismatches: 9
 - Pilot-only entries: 0
-- Generated-only missing-series packets: 756
+- Generated-only missing-series packets: 762
 
 ## Hand-source mismatches
 
@@ -610,7 +610,13 @@
 | `21-07` | `missing_series` | needs_review, generated_candidate |
 | `21-08` | `missing_series` | needs_review, generated_candidate |
 | `21-09` | `missing_series` | needs_review, generated_candidate |
+| `21-10` | `missing_series` | needs_review, generated_candidate |
+| `21-11` | `missing_series` | needs_review, generated_candidate |
 | `21-12` | `missing_series` | needs_review, generated_candidate |
+| `21-13` | `missing_series` | needs_review, generated_candidate |
+| `21-14` | `missing_series` | needs_review, generated_candidate |
+| `21-15` | `missing_series` | needs_review, generated_candidate |
+| `21-16` | `missing_series` | needs_review, generated_candidate |
 | `21-19` | `missing_series` | needs_review, generated_candidate |
 | `21-23` | `missing_series` | needs_review, generated_candidate |
 | `21-24` | `missing_series` | needs_review, generated_candidate |

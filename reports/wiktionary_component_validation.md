@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5518
-- Pages fetched / cached successfully: 5439
-- Additions with explicit Han-compound semantic/phonetic roles: 2535
+- Proposed additions checked: 5544
+- Pages fetched / cached successfully: 5464
+- Additions with explicit Han-compound semantic/phonetic roles: 2544
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3487,6 +3487,17 @@
 | `21-08` | 枿 | yes | no |  |  |
 | `21-09` | 歺 | yes | no |  |  |
 | `21-09` | 歹 | yes | no |  |  |
+| `21-10` | 乂 | yes | no |  |  |
+| `21-10` | 刈 | yes | no |  |  |
+| `21-10` | 艾 | yes | yes | 艸 | 乂 |
+| `21-11` | 辥 | yes | yes | 辛 | 𡴎 |
+| `21-11` | 薛 | yes | yes | 艹 | 辥 |
+| `21-11` | 𧀼 | no | no |  |  |
+| `21-11` | 躠 | yes | no |  |  |
+| `21-11` | 孼 | yes | no |  |  |
+| `21-11` | 蠥 | yes | no |  |  |
+| `21-11` | 糱 | yes | no |  |  |
+| `21-11` | 櫱 | yes | yes | 木 | 辥 |
 | `21-12` | 大 | yes | no |  |  |
 | `21-12` | 太 | yes | no |  |  |
 | `21-12` | 汏 | yes | yes | 水 | 大 |
@@ -3495,6 +3506,21 @@
 | `21-12` | 忕 | yes | no |  |  |
 | `21-12` | 杕 | yes | no |  |  |
 | `21-12` | 釱 | yes | no |  |  |
+| `21-13` | 泰 | yes | yes | 廾, 水 | 大 |
+| `21-14` | 𦍒 | yes | no |  |  |
+| `21-14` | 達 | yes | yes | 辵 | 羍 |
+| `21-14` | 撻 | yes | no |  |  |
+| `21-14` | 闥 | yes | no |  |  |
+| `21-15` | 帶 | yes | no |  |  |
+| `21-15` | 滯 | yes | yes | 水 | 帶 |
+| `21-15` | 蔕 | yes | yes | 艸 | 帶 |
+| `21-15` | 墆 | yes | no |  |  |
+| `21-15` | 遰 | yes | no |  |  |
+| `21-15` | 懘 | yes | no |  |  |
+| `21-16` | 筮 | yes | no |  |  |
+| `21-16` | 簭 | yes | no |  |  |
+| `21-16` | 噬 | yes | yes | 口 | 筮 |
+| `21-16` | 澨 | yes | no |  |  |
 | `21-19` | 折 | yes | no |  |  |
 | `21-19` | 哲 | yes | yes | 口 | 折 |
 | `21-19` | 悊 | yes | no |  |  |

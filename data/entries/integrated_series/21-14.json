@@ -1,0 +1,974 @@
+{
+  "generated_at": "2026-06-28T19:35:32.275899+00:00",
+  "id": "21-14",
+  "schuessler": {
+    "gsc_id": "21-14",
+    "rhyme_section": 21,
+    "series_number": 14,
+    "k_tokens": [
+      "271"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC          LHan              OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 258,
+    "source_line_number": 36,
+    "source_line_raw": "21-14 = K. 271      Man d.       MC          LHan              OCM"
+  },
+  "preferred_hand_entry": null,
+  "pilot_entry": null,
+  "curated_entry": {
+    "generated_at": "2026-06-28T19:34:43.365798+00:00",
+    "id": "21-14",
+    "status": "machine-curated-pilot",
+    "packet_kind": "missing_series",
+    "schuessler": {
+      "gsc_id": "21-14",
+      "rhyme_section": 21,
+      "series_number": 14,
+      "k_tokens": [
+        "271"
+      ],
+      "has_explicit_k_range": false,
+      "source_remainder_raw": "Man d.       MC          LHan              OCM",
+      "is_cross_reference_only": false,
+      "source_page_number": 258,
+      "source_line_number": 36,
+      "source_line_raw": "21-14 = K. 271      Man d.       MC          LHan              OCM"
+    },
+    "coverage": {
+      "gsc_id": "21-14",
+      "rhyme_section": "21",
+      "series_number": "14",
+      "schuessler_k_tokens": "271",
+      "schuessler_source_page": "258",
+      "schuessler_cross_reference_only": "no",
+      "in_tex": "no",
+      "tex_character_count": "0",
+      "tex_characters_sample": null,
+      "mand2mc_row_count": "5",
+      "mand2mc_character_count": "4",
+      "mand2mc_characters_sample": "𦍒; 達; 撻; 闥",
+      "bs_gsr_row_count": "2",
+      "bs_gsr_character_count": "2",
+      "bs_gsr_characters_sample": "𦍒; 達",
+      "combined_source_character_count": "4",
+      "combined_source_characters_sample": "𦍒; 達; 撻; 闥"
+    },
+    "tex_entry": null,
+    "entry_hierarchy": null,
+    "candidate_source_strategy": "schuessler_k_tokens",
+    "candidate_source_tokens": [
+      "271"
+    ],
+    "proposed_additions": [
+      {
+        "character": "𦍒",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [
+            "that"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2088",
+            "character": "𦍒",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271a"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "46",
+            "character": "𦍒",
+            "pinyin": "tà",
+            "mc_bs": "that",
+            "mc_analyzed": "(th- + -at D)",
+            "oc_bs": "*l̥ˤat",
+            "gloss": "lam",
+            "gsr": "0271a",
+            "unicode_utf16": "U+26352"
+          }
+        ],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "transliteration_latex": "{\\large{l\\textoverset{a}{a}t}},",
+        "render_latex": "𦍒\t%ta4 / tà\n{\\large{l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271a",
+        "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
+        "hierarchy_assignment": null,
+        "resolved_node_root": {
+          "root": "lat",
+          "source": "node_bs_consensus",
+          "descendant_count": 3,
+          "bs_support_count": 2,
+          "bs_broad_roots": [
+            "lat"
+          ],
+          "bs_node_roots": [
+            "lat"
+          ],
+          "display_root": "l\\textoverset{a}{a}t",
+          "division_class": "a",
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
+          "mc_forms": [
+            "that",
+            "dat"
+          ],
+          "form_analyses": [
+            {
+              "form": "that",
+              "normalized": "that",
+              "class": "a",
+              "reason": "no_i_medial"
+            },
+            {
+              "form": "dat",
+              "normalized": "dat",
+              "class": "a",
+              "reason": "no_i_medial"
+            }
+          ]
+        }
+      },
+      {
+        "character": "達",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "dat",
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "dat",
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "dat",
+            "that"
+          ],
+          "bs_gsr_forms": [
+            "dat"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [
+            "that"
+          ],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2089",
+            "character": "達",
+            "pinyin": "da2",
+            "mc_nwh": "dat",
+            "mc_bs": "dat",
+            "gsr": "0271b"
+          },
+          {
+            "source_row_number": "2090",
+            "character": "達",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271b"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "47",
+            "character": "達",
+            "pinyin": "dá",
+            "mc_bs": "dat",
+            "mc_analyzed": "(d- + -at D)",
+            "oc_bs": "*Cə.lˤat",
+            "gloss": "arrive at",
+            "gsr": "0271b",
+            "unicode_utf16": "U+9054"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2050",
+            "character": "達",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "唐割",
+            "source": "广韵",
+            "oc_initial": "d",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "da̠d"
+          },
+          {
+            "source_row_number": "2055",
+            "character": "達",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": {
+            "template_raw": "{{Han compound|辵|羍|c1=s|c2=p|ls=psc|alt1=辶}}",
+            "positional_components": [
+              "辵",
+              "羍"
+            ],
+            "positional_components_raw": [
+              "辵",
+              "羍"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc",
+              "alt1": "辶"
+            },
+            "semantic_components": [
+              "辵"
+            ],
+            "phonetic_components": [
+              "羍"
+            ]
+          },
+          "han_compounds": [
+            {
+              "template_raw": "{{Han compound|辵|羍|c1=s|c2=p|ls=psc|alt1=辶}}",
+              "positional_components": [
+                "辵",
+                "羍"
+              ],
+              "positional_components_raw": [
+                "辵",
+                "羍"
+              ],
+              "named_args": {
+                "c1": "s",
+                "c2": "p",
+                "ls": "psc",
+                "alt1": "辶"
+              },
+              "semantic_components": [
+                "辵"
+              ],
+              "phonetic_components": [
+                "羍"
+              ]
+            }
+          ]
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "amb",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "辵",
+              "label_token": "amb(ulo)",
+              "abbreviation": "amb",
+              "start_line": 188
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "辵"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t}},",
+        "render_latex": "達\t%da2 / ta4 / dá\n{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t}},\n\\textit{dat};\t%0271b\n\\textit{that};",
+        "wiktionary_semantic_validation": {
+          "semantic_component": "辵",
+          "phonetic_component": "羍",
+          "resolved_assignment": {
+            "source": "wiktionary_han_compound",
+            "character": "達",
+            "semantic_component": "辵",
+            "phonetic_component": "羍",
+            "position": "prefix-dot",
+            "abbreviation": "amb",
+            "inventory_matches": [
+              {
+                "graph_raw": "辵",
+                "label_token": "amb(ulo)",
+                "abbreviation": "amb",
+                "start_line": 188
+              }
+            ],
+            "template_raw": "{{Han compound|辵|羍|c1=s|c2=p|ls=psc|alt1=辶}}"
+          }
+        },
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "𦍒",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "ids_parent_family_inference",
+          "phonetic_hint": "𦍒"
+        },
+        "resolved_node_root": {
+          "root": "lat",
+          "source": "node_inherit_parent",
+          "descendant_count": 2,
+          "bs_support_count": 1,
+          "bs_broad_roots": [
+            "lat"
+          ],
+          "bs_node_roots": [
+            "lat"
+          ],
+          "display_root": "l\\textoverset{a}{a}t",
+          "division_class": "a",
+          "division_note": "all extracted forms lack an i-medial after the onset",
+          "mark_required": true,
+          "mc_forms": [
+            "dat",
+            "that"
+          ],
+          "form_analyses": [
+            {
+              "form": "dat",
+              "normalized": "dat",
+              "class": "a",
+              "reason": "no_i_medial"
+            },
+            {
+              "form": "that",
+              "normalized": "that",
+              "class": "a",
+              "reason": "no_i_medial"
+            }
+          ]
+        }
+      },
+      {
+        "character": "撻",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2091",
+            "character": "撻",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271d"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2053",
+            "character": "撻",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "man",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ],
+          "source": "packet_family_ids",
+          "semantic_component": "手"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t}},",
+        "render_latex": "撻\t%ta4\n{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271d",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "達",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "ids_inferred_phonetic_parent",
+          "phonetic_hint": "達"
+        },
+        "resolved_node_root": null
+      },
+      {
+        "character": "闥",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2092",
+            "character": "闥",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271e"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2051",
+            "character": "闥",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": [],
+        "wiktionary_validation": {
+          "available": true,
+          "han_compound": null,
+          "han_compounds": []
+        },
+        "tex_occurrence_candidates": [],
+        "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "port",
+          "position": "prefix-colon",
+          "inventory_matches": [
+            {
+              "graph_raw": "門",
+              "label_token": "port(a)",
+              "abbreviation": "port",
+              "start_line": 365
+            },
+            {
+              "graph_raw": "門",
+              "label_token": "port",
+              "abbreviation": "port",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ],
+          "source": "packet_family_ids",
+          "semantic_component": "門"
+        },
+        "transliteration_latex": "{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t}},",
+        "render_latex": "闥\t%ta4\n{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271e",
+        "wiktionary_semantic_validation": null,
+        "hierarchy_assignment": {
+          "status": "assigned-to-candidate-node",
+          "parent_character": "達",
+          "parent_display_line": null,
+          "parent_rhs_snippet": null,
+          "parent_kind": "candidate",
+          "source": "ids_inferred_phonetic_parent",
+          "phonetic_hint": "達"
+        },
+        "resolved_node_root": null
+      }
+    ],
+    "all_candidates": [
+      {
+        "character": "𦍒",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 0,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [
+            "that"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2088",
+            "character": "𦍒",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271a"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "46",
+            "character": "𦍒",
+            "pinyin": "tà",
+            "mc_bs": "that",
+            "mc_analyzed": "(th- + -at D)",
+            "oc_bs": "*l̥ˤat",
+            "gloss": "lam",
+            "gsr": "0271a",
+            "unicode_utf16": "U+26352"
+          }
+        ],
+        "shengfu_character_rows": [],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "達",
+        "in_tex": false,
+        "mand2mc_count": 2,
+        "bs_gsr_count": 1,
+        "shengfu_character_count": 2,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "dat",
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "dat",
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "dat",
+            "that"
+          ],
+          "bs_gsr_forms": [
+            "dat"
+          ],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [
+            "that"
+          ],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2089",
+            "character": "達",
+            "pinyin": "da2",
+            "mc_nwh": "dat",
+            "mc_bs": "dat",
+            "gsr": "0271b"
+          },
+          {
+            "source_row_number": "2090",
+            "character": "達",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271b"
+          }
+        ],
+        "bs_gsr_rows": [
+          {
+            "source_page_number": "47",
+            "character": "達",
+            "pinyin": "dá",
+            "mc_bs": "dat",
+            "mc_analyzed": "(d- + -at D)",
+            "oc_bs": "*Cə.lˤat",
+            "gloss": "arrive at",
+            "gsr": "0271b",
+            "unicode_utf16": "U+9054"
+          }
+        ],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2050",
+            "character": "達",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "唐割",
+            "source": "广韵",
+            "oc_initial": "d",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "da̠d"
+          },
+          {
+            "source_row_number": "2055",
+            "character": "達",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "撻",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2091",
+            "character": "撻",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271d"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2053",
+            "character": "撻",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": []
+      },
+      {
+        "character": "闥",
+        "in_tex": false,
+        "mand2mc_count": 1,
+        "bs_gsr_count": 0,
+        "shengfu_character_count": 1,
+        "shengfu_component_count": 0,
+        "mand_bs_mc_disagreement": false,
+        "mc_resolution": {
+          "status": "mand2mc-authoritative",
+          "authoritative_source": "mand2mc",
+          "display_forms": [
+            "that"
+          ],
+          "mand2mc_nwh_forms": [
+            "that"
+          ],
+          "mand2mc_bs_forms": [
+            "that"
+          ],
+          "bs_gsr_forms": [],
+          "bs_not_in_mand2mc": [],
+          "mand2mc_not_in_bs_gsr": [],
+          "needs_investigation": false
+        },
+        "mand2mc_rows": [
+          {
+            "source_row_number": "2092",
+            "character": "闥",
+            "pinyin": "ta4",
+            "mc_nwh": "that",
+            "mc_bs": "that",
+            "gsr": "0271e"
+          }
+        ],
+        "bs_gsr_rows": [],
+        "shengfu_character_rows": [
+          {
+            "source_row_number": "2051",
+            "character": "闥",
+            "phonetic_component": "羍",
+            "component_level": "1",
+            "secondary_component": null,
+            "fanqie": "他達",
+            "source": "广韵",
+            "oc_initial": "tʰ",
+            "oc_rhyme": "a̠d",
+            "oc_syllable": "tʰa̠d"
+          }
+        ],
+        "shengfu_component_rows": []
+      }
+    ],
+    "notes": [
+      "Machine-promoted from a series packet; not yet hand-checked.",
+      "Use this file as the staging area for editorial decisions before any merge into main.tex."
+    ],
+    "series_root_candidates": [
+      {
+        "character": "𦍒",
+        "gsr": "0271a",
+        "oc_bs": "*l̥ˤat",
+        "root": "lat",
+        "source": "head_graph_oc_bs",
+        "support_count": 1,
+        "supporting_sources": [
+          "head_graph_oc_bs"
+        ]
+      }
+    ],
+    "resolved_series_root": {
+      "root": "lat",
+      "source": "head_graph_oc_bs",
+      "character": "𦍒",
+      "oc_bs": "*l̥ˤat",
+      "confidence": "provisional-oc",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ],
+      "display_root": "l\\textoverset{a}{a}t",
+      "division_class": "a",
+      "division_note": "all extracted forms lack an i-medial after the onset",
+      "mark_required": true,
+      "mc_forms": [
+        "that",
+        "dat"
+      ],
+      "form_analyses": [
+        {
+          "form": "that",
+          "normalized": "that",
+          "class": "a",
+          "reason": "no_i_medial"
+        },
+        {
+          "form": "dat",
+          "normalized": "dat",
+          "class": "a",
+          "reason": "no_i_medial"
+        }
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "source": "current_curation",
+      "source_path": "data/entries/curation/21-14.json",
+      "packet_kind": "missing_series",
+      "status": "machine-curated-pilot"
+    }
+  ],
+  "status_flags": [
+    "needs_review",
+    "generated_candidate"
+  ],
+  "conflicts": [],
+  "normalized_notes": [
+    {
+      "entry_id": "21-14",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Machine-promoted from a series packet; not yet hand-checked.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-14",
+      "source_layer": "curation_entry_note",
+      "visibility": "internal",
+      "anchor_kind": "entry",
+      "anchor_value": null,
+      "line_number": null,
+      "text": "Use this file as the staging area for editorial decisions before any merge into main.tex.",
+      "category": "workflow_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "series",
+      "anchor_value": "𦍒",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "𦍒",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    },
+    {
+      "entry_id": "21-14",
+      "source_layer": "curation_division_note",
+      "visibility": "internal",
+      "anchor_kind": "character",
+      "anchor_value": "達",
+      "line_number": null,
+      "text": "all extracted forms lack an i-medial after the onset",
+      "category": "structural_internal",
+      "recommended_rendering": "internal_only"
+    }
+  ],
+  "note_summary": {
+    "total": 5,
+    "by_source_layer": {
+      "curation_entry_note": 2,
+      "curation_division_note": 3
+    },
+    "by_category": {
+      "workflow_internal": 2,
+      "structural_internal": 3
+    },
+    "by_visibility": {
+      "internal": 5
+    },
+    "by_recommended_rendering": {
+      "internal_only": 5
+    }
+  },
+  "render_mode": "generated_missing_series"
+}
