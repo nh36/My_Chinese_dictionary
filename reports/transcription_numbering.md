@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 990
-- Roots whose display label changed after document-wide renumbering: 569
+- Mutable series/subseries roots inspected: 997
+- Roots whose display label changed after document-wide renumbering: 576
 - Duplicate phonetic bases encountered in document order: 257
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -684,8 +684,15 @@
 | `13-32` | `subseries-root` | 條 | `liw` | 4 | `liw₄` | yes |
 | `13-33` | `series-root` | 斿 | `lu` | 4 | `lu₄` | yes |
 | `13-34` | `series-root` | 卣 | `lu` | 5 | `lu₅` | yes |
+| `13-35` | `series-root` | 囚 | `lu` | 6 | `lu₆` | yes |
 | `13-36` | `series-root` | 酉 | `ru` | 1 | `ru` | yes |
 | `13-36` | `subseries-root` | 酋 | `ru` | 2 | `ru₂` | yes |
+| `13-37` | `series-root` | 狖 | `lu` | 7 | `lu₇` | yes |
+| `13-38` | `series-root` | 首 | `lu` | 8 | `lu₈` | yes |
+| `13-38` | `subseries-root` | 道 | `lu` | 9 | `lu₉` | yes |
+| `13-39` | `series-root` | 秀 | `lu` | 10 | `lu₁₀` | yes |
+| `13-40` | `series-root` | 守 | `tu` | 8 | `tu₈` | yes |
+| `13-41` | `series-root` | 獸 | `tu` | 9 | `tu₉` | yes |
 | `13-45` | `series-root` | 翏 | `riw` | 1 | `riw` | yes |
 | `13-47` | `series-root` | 卯 | `mu` | 1 | `mu` | yes |
 | `13-47` | `subseries-root` | 桺 | `mu` | 2 | `mu₂` | yes |

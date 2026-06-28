@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 630
-- Packets with at least one root candidate: 629
-- Packets with a single resolved provisional root: 627
+- Missing-series packets inspected: 636
+- Packets with at least one root candidate: 635
+- Packets with a single resolved provisional root: 633
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -417,7 +417,13 @@
 | `13-32` | 攸→liw [*liw] (1077a) | `liw` | `head_graph_oc_bs` |
 | `13-33` | 斿→lu [*lu] (None) | `lu` | `head_graph_oc_shengfu` |
 | `13-34` | 卣→lu [*lu] (None) | `lu` | `head_graph_oc_shengfu` |
+| `13-35` | 囚→lu [*sə.lu] (1094a) | `lu` | `head_graph_oc_bs` |
 | `13-36` | 酉→ru [*m.ruʔ {*[m].ruʔ}] (1096a) | `ru` | `head_graph_oc_bs` |
+| `13-37` | 狖→lu [*ɡ‧lus] (None) | `lu` | `head_graph_oc_shengfu` |
+| `13-38` | 首→lu [*l̥uʔ-s] (1102a) | `lu` | `head_graph_oc_bs` |
+| `13-39` | 秀→lu [*s-lu-s {*[s-l]u(ʔ)-s}] (1095a) | `lu` | `head_graph_oc_bs` |
+| `13-40` | 守→tu [*s.tuʔ-s] (1099a) | `tu` | `head_graph_oc_bs` |
+| `13-41` | 獸→tu [*s.tu-s {*s.tu(ʔ)-s}] (1100a) | `tu` | `head_graph_oc_bs` |
 | `13-45` | 翏→riw [*riw-s {*[r]iw-s}] (1069a) | `riw` | `head_graph_oc_bs` |
 | `13-47` | 卯→mu [*mˤruʔ] (1114a) | `mu` | `head_graph_oc_bs` |
 | `13-48` | 柔→nu [*nu] (1105a) | `nu` | `head_graph_oc_bs` |
@@ -631,7 +637,7 @@
 | `38-05` | 臽→kom [*gˤrom-s {*[g]ˤrom(ʔ)-s}] (0672a) | `kom` | `head_graph_oc_bs` |
 | `38-07` | 音→qym [*qəm {*[q](r)[ə]m}] (0653a) | `qym` | `head_graph_oc_bs` |
 | `38-11` | 甚→qym [*t.ɢəmʔ-s {*[t.ɢ][ə]mʔ-s}] (0658a) | `qym` | `head_graph_oc_bs` |
-| `38-14` | 冘→lum [*k‧lum] (None); 冘→lu [*ɡ‧lu] (None) | `lum` | `head_graph_mc_coda` |
+| `38-14` | 冘→lum [*k‧lum] (None); 冘→lu [*ɡ‧lus] (None) | `lum` | `head_graph_mc_coda` |
 | `38-16` | 覃→rom [*N.rˤom {*N.rˤ[o]m}] (0646a); 覃→ram [*N-r[a]mʔ] (0646a) | `lim` | `packet_bs_majority` |
 | `38-18` | 林→rym [*k.rəm {*k.r[ə]m}] (0655a) | `rym` | `head_graph_oc_bs` |
 | `38-25` | 壬→nym [*nəm {*n[ə]m}] (0667a) | `nym` | `head_graph_oc_bs` |

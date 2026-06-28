@@ -1,14 +1,14 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T09:51:26.023074+00:00
+- Generated at: 2026-06-28T10:08:26.774223+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20797
+- Total occurrences audited: 20825
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20584 |
+| `canonical` | 20612 |
 | `explicit_alias` | 11 |
 | `needs_review` | 202 |
 

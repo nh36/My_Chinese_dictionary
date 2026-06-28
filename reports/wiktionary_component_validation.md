@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5194
-- Pages fetched / cached successfully: 5117
-- Additions with explicit Han-compound semantic/phonetic roles: 2414
+- Proposed additions checked: 5207
+- Pages fetched / cached successfully: 5130
+- Additions with explicit Han-compound semantic/phonetic roles: 2420
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2494,6 +2494,8 @@
 | `13-33` | 蝣 | yes | no |  |  |
 | `13-34` | 卣 | yes | no |  |  |
 | `13-34` | 逌 | yes | no |  |  |
+| `13-35` | 囚 | yes | no |  |  |
+| `13-35` | 泅 | yes | yes | 水 | 囚 |
 | `13-36` | 酉 | yes | no |  |  |
 | `13-36` | 蕕 | yes | no |  |  |
 | `13-36` | 庮 | yes | no |  |  |
@@ -2509,6 +2511,17 @@
 | `13-36` | 猷 | yes | no |  |  |
 | `13-36` | 輶 | yes | no |  |  |
 | `13-36` | 䠓 | yes | no |  |  |
+| `13-37` | 狖 | yes | no |  |  |
+| `13-38` | 首 | yes | no |  |  |
+| `13-38` | 道 | yes | yes | 行, 止 | 首 |
+| `13-38` | 導 | yes | yes | 寸 | 道 |
+| `13-39` | 秀 | yes | no |  |  |
+| `13-39` | 琇 | yes | yes | 玉 | 秀 |
+| `13-39` | 莠 | yes | no |  |  |
+| `13-39` | 誘 | yes | yes | 言 | 秀 |
+| `13-40` | 守 | yes | no |  |  |
+| `13-40` | 狩 | yes | yes | 犬 | 守 |
+| `13-41` | 獸 | yes | no |  |  |
 | `13-45` | 翏 | yes | no |  |  |
 | `13-45` | 鏐 | yes | yes | 金 | 翏 |
 | `13-45` | 飂 | yes | no |  |  |

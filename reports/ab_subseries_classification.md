@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 816
+- Generated subgroup heads inspected: 821
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 264
-- Mixed subgroups left unmarked: 348
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 268
+- Mixed subgroups left unmarked: 349
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -460,8 +460,13 @@
 | `13-32` | 條 | `liw` | `liw₄` | `a` | no | `dew, thew, sewX, dek` | all extracted forms lack an i-medial after the onset |
 | `13-33` | 斿 | `lu` | `lu` | `b` | no | `yuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-34` | 卣 | `lu` | `lu` | `b` | no | `yuw, yuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-35` | 囚 | `lu` | `lu` | `b` | no | `ziuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-36` | 酉 | `ru` | `ru` | `b` | no | `yuwX, yuw, yuwH, tsiuwX, dziuw, tsiuw, tshiuw, tshiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-36` | 酋 | `ru` | `ru₂` | `b` | no | `dziuw, yuw, tsiuw, tshiuw, tshiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-38` | 首 | `lu` | `lu` | `mixed` | no | `śiuwH, śiuwX, dawH, dawX` | the extracted forms point to both type a and type b |
+| `13-38` | 道 | `lu` | `lu₉` | `a` | no | `dawH, dawX` | all extracted forms lack an i-medial after the onset |
+| `13-39` | 秀 | `lu` | `lu` | `b` | no | `siuwH, yuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-40` | 守 | `tsu` | `tsu` | `b` | no | `śiuwH, śiuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-45` | 翏 | `riw` | `riw` | `mixed` | no | `liewH, lyiwH, liuwH, lyiw, liuw, kyiw, gyiw, liuwk, lew, ṭhiuw, myiw, myiwH, lewX, law, kaew, kaewX, xaew` | the extracted forms point to both type a and type b |
 | `13-47` | 卯 | `mu` | `mu` | `mixed` | no | `maewX, liuwX, kaewH, phaewH, liuw, lew` | the extracted forms point to both type a and type b |
 | `13-47` | 劉 | `mu` | `mu₃` | `b` | no | `liuw, liuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
