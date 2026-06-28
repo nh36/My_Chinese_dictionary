@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5544
-- Pages fetched / cached successfully: 5464
-- Additions with explicit Han-compound semantic/phonetic roles: 2544
+- Proposed additions checked: 5560
+- Pages fetched / cached successfully: 5479
+- Additions with explicit Han-compound semantic/phonetic roles: 2553
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3521,6 +3521,11 @@
 | `21-16` | 簭 | yes | no |  |  |
 | `21-16` | 噬 | yes | yes | 口 | 筮 |
 | `21-16` | 澨 | yes | no |  |  |
+| `21-17` | 制 | yes | no |  |  |
+| `21-17` | 製 | yes | yes | 衣 | 制 |
+| `21-17` | 掣 | yes | yes | 手 | 制 |
+| `21-17` | 猘 | yes | no |  |  |
+| `21-18` | 彘 | yes | yes | 豕 | 矢 |
 | `21-19` | 折 | yes | no |  |  |
 | `21-19` | 哲 | yes | yes | 口 | 折 |
 | `21-19` | 悊 | yes | no |  |  |
@@ -3532,6 +3537,15 @@
 | `21-19` | 逝 | yes | yes | 辵 | 折 |
 | `21-19` | 哳 | yes | no |  |  |
 | `21-19` | 狾 | yes | yes | 犬 | 折 |
+| `21-20` | 撤 | yes | yes | 手 | 徹 |
+| `21-20` | 徹 | yes | no |  |  |
+| `21-20` | 澈 | yes | yes | 水 | 徹 |
+| `21-20` | 轍 | yes | yes | 車 | 徹 |
+| `21-20` | 𨅊 | no | no |  |  |
+| `21-21` | 曳 | yes | yes | 申 | 𠂆 |
+| `21-21` | 洩 | yes | yes | 水 | 曳 |
+| `21-21` | 絏 | yes | no |  |  |
+| `21-22` | 裔 | yes | yes | 衣 | 㕯 |
 | `21-23` | 世 | yes | no |  |  |
 | `21-23` | 貰 | yes | yes | 貝 | 世 |
 | `21-23` | 抴 | yes | yes | 手 | 世 |
@@ -3570,6 +3584,8 @@
 | `21-26` | 萬 | yes | no |  |  |
 | `21-26` | 勱 | yes | no |  |  |
 | `21-26` | 邁 | yes | no |  |  |
+| `21-27` | 柰 | yes | no |  |  |
+| `21-27` | 奈 | yes | no |  |  |
 | `21-28` | 祭 | yes | no |  |  |
 | `21-28` | 穄 | yes | yes | 禾 | 祭 |
 | `21-28` | 際 | yes | yes | 阜 | 祭 |

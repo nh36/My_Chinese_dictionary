@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T19:34:43.365798+00:00",
+  "generated_at": "2026-06-28T20:19:12.706963+00:00",
   "id": "21-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -102,8 +102,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{l\\textoverset{a}{a}t}},",
-      "render_latex": "𦍒\t%ta4 / tà\n{\\large{l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271a",
+      "transliteration_latex": "{\\large{l\\textoverset{a}{a}t₂}},",
+      "render_latex": "𦍒\t%ta4 / tà\n{\\large{l\\textoverset{a}{a}t₂}},\n\\textit{that};\t%0271a",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -307,8 +307,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "辵"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t}},",
-      "render_latex": "達\t%da2 / ta4 / dá\n{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t}},\n\\textit{dat};\t%0271b\n\\textit{that};",
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t₂}},",
+      "render_latex": "達\t%da2 / ta4 / dá\n{\\large{\\textsuperscript{amb·}l\\textoverset{a}{a}t₂}},\n\\textit{dat};\t%0271b\n\\textit{that};",
       "wiktionary_semantic_validation": {
         "semantic_component": "辵",
         "phonetic_component": "羍",
@@ -350,7 +350,7 @@
         "bs_node_roots": [
           "lat"
         ],
-        "display_root": "l\\textoverset{a}{a}t",
+        "display_root": "l\\textoverset{a}{a}t₃",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": true,
@@ -371,7 +371,10 @@
             "class": "a",
             "reason": "no_i_medial"
           }
-        ]
+        ],
+        "base_root": "l\\textoverset{a}{a}t",
+        "ordinal": 3,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -454,8 +457,8 @@
         "source": "packet_family_ids",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t}},",
-      "render_latex": "撻\t%ta4\n{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271d",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t₃}},",
+      "render_latex": "撻\t%ta4\n{\\large{\\textsuperscript{man·}l\\textoverset{a}{a}t₃}},\n\\textit{that};\t%0271d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -548,8 +551,8 @@
         "source": "packet_family_ids",
         "semantic_component": "門"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t}},",
-      "render_latex": "闥\t%ta4\n{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t}},\n\\textit{that};\t%0271e",
+      "transliteration_latex": "{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t₃}},",
+      "render_latex": "闥\t%ta4\n{\\large{\\textsuperscript{port˸}l\\textoverset{a}{a}t₃}},\n\\textit{that};\t%0271e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -840,7 +843,7 @@
     "supporting_sources": [
       "head_graph_oc_bs"
     ],
-    "display_root": "l\\textoverset{a}{a}t",
+    "display_root": "l\\textoverset{a}{a}t₂",
     "division_class": "a",
     "division_note": "all extracted forms lack an i-medial after the onset",
     "mark_required": true,
@@ -861,6 +864,9 @@
         "class": "a",
         "reason": "no_i_medial"
       }
-    ]
+    ],
+    "base_root": "l\\textoverset{a}{a}t",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
   }
 }

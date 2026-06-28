@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 882
+- Integrated series count: 888
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 778
+- Active curated packet count: 784
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 762
+- Generated missing-series entries: 768
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -725,11 +725,17 @@
 | `21-14` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-15` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-16` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-17` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-18` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-19` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-20` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-21` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-22` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-23` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-24` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-25` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-26` | `generated_missing_series` | needs_review, generated_candidate |
+| `21-27` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-28` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-30` | `generated_missing_series` | needs_review, generated_candidate |
 | `21-31` | `generated_missing_series` | needs_review, generated_candidate |
