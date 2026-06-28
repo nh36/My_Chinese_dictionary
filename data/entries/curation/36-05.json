@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T06:46:01.451286+00:00",
+  "generated_at": "2026-06-28T15:13:58.018164+00:00",
   "id": "36-05",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "5",
     "schuessler_k_tokens": "609",
     "schuessler_source_page": "372",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1391,6 +1392,14 @@
       "transliteration_latex": "{\\large{k\\textoverset{a}{a}m}},",
       "render_latex": "㯺\t%jian4\n{\\large{k\\textoverset{a}{a}m}},\n\\textit{ḫaemX};\t%0609f",
       "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "監",
@@ -1399,14 +1408,6 @@
         "parent_kind": "top_level",
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "監"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "generated_subseries_head",
-        "semantic_component": null
       },
       "resolved_node_root": {
         "root": "kam",
@@ -1844,9 +1845,17 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m₂\\textsuperscript{˸man}}},",
-      "render_latex": "擥\t%lan3\n{\\large{k\\textoverset{a}{a}m₂\\textsuperscript{˸man}}},\n\\textit{lamX};\t%0609i",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}m₂}},",
+      "render_latex": "擥\t%lan3\n{\\large{k\\textoverset{a}{a}m₂}},\n\\textit{lamX};\t%0609i",
       "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "㯺",
@@ -1855,28 +1864,6 @@
         "parent_kind": "candidate",
         "source": "ids_parent_family_inference",
         "phonetic_hint": "㯺"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "man",
-        "position": "suffix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "手",
-            "label_token": "man(us)",
-            "abbreviation": "man",
-            "start_line": 319
-          },
-          {
-            "graph_raw": "手",
-            "label_token": "man",
-            "abbreviation": "man",
-            "learned": true,
-            "evidence_count": 20
-          }
-        ],
-        "source": "parent_ids_semantic",
-        "semantic_component": "手"
       },
       "resolved_node_root": null
     },

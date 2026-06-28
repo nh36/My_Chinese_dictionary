@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.486818+00:00",
+  "generated_at": "2026-06-28T15:14:38.954364+00:00",
   "id": "34-23",
   "schuessler": {
     "gsc_id": "34-23",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.701633+00:00",
+    "generated_at": "2026-06-28T15:13:57.951202+00:00",
     "id": "34-23",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "23",
       "schuessler_k_tokens": "468",
       "schuessler_source_page": "363",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1937,7 +1938,7 @@
               "start_line": 382
             }
           ],
-          "source": "packet_family_component_literal_fallback",
+          "source": "packet_family_ids",
           "semantic_component": "血"
         },
         "transliteration_latex": "{\\large{\\textsuperscript{sangu·}lur₂}},",
@@ -2576,6 +2577,14 @@
         "transliteration_latex": "{\\large{lur}},",
         "render_latex": "夋\t%qun1\n{\\large{lur}},\n\\textit{tshwin};\t%0468p",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
           "parent_character": "允",
@@ -2584,14 +2593,6 @@
           "parent_kind": "top_level",
           "source": "shengfu_phonetic_component",
           "phonetic_hint": "允"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "generated_subseries_head",
-          "semantic_component": null
         },
         "resolved_node_root": {
           "root": "lur",
@@ -3016,14 +3017,14 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "兔",
+          "position": "suffix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "packet_family_component_literal_fallback",
           "semantic_component": "兔"
         },
-        "transliteration_latex": "{\\large{lur₂}},",
-        "render_latex": "㕙\t%jun4\n{\\large{lur₂}},\n\\textit{tshwin};\t%0468s\n\\textit{tswinH};",
+        "transliteration_latex": "{\\large{lur₂\\textsuperscript{·兔}}},",
+        "render_latex": "㕙\t%jun4\n{\\large{lur₂\\textsuperscript{·兔}}},\n\\textit{tshwin};\t%0468s\n\\textit{tswinH};",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

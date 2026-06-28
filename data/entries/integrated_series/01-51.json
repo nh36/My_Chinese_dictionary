@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.471396+00:00",
+  "generated_at": "2026-06-28T15:14:38.940265+00:00",
   "id": "01-51",
   "schuessler": {
     "gsc_id": "01-51",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.708450+00:00",
+    "generated_at": "2026-06-28T15:13:58.035371+00:00",
     "id": "01-51",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "51",
       "schuessler_k_tokens": "69",
       "schuessler_source_page": "81",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -168,18 +169,18 @@
             "is_head_occurrence": true
           }
         ],
-        "semantic_candidates_from_ids": [],
         "transliteration_latex": "{\\large{ra₂}},",
         "render_latex": "𧆨\t%lu2 / lú\n{\\large{ra₂}},\n\\textit{lu};\t%0069a",
-        "wiktionary_semantic_validation": null,
+        "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
           "abbreviation": null,
           "position": "none",
           "inventory_matches": [],
-          "source": "schuessler_series_head",
+          "source": "existing_tex_head",
           "semantic_component": null
         },
+        "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "慮",
@@ -338,8 +339,36 @@
             ]
           }
         ],
-        "transliteration_latex": "{\\large{ra}},",
-        "render_latex": "盧\t%lu2\n{\\large{ra}},\n\\textit{lu};\t%0069d",
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "ager",
+          "position": "suffix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "田",
+              "label_token": "ager",
+              "abbreviation": "ager",
+              "start_line": 184
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "forn(us)",
+              "abbreviation": "forn",
+              "start_line": 284
+            },
+            {
+              "graph_raw": "田",
+              "label_token": "ager",
+              "abbreviation": "ager",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "source": "ids_top_level",
+          "semantic_component": "田"
+        },
+        "transliteration_latex": "{\\large{ra\\textsuperscript{·ager}}},",
+        "render_latex": "盧\t%lu2\n{\\large{ra\\textsuperscript{·ager}}},\n\\textit{lu};\t%0069d",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -349,14 +378,6 @@
           "parent_kind": "top_level",
           "source": "shengfu_secondary_component",
           "phonetic_hint": "𧆨"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "generated_subseries_head",
-          "semantic_component": null
         },
         "resolved_node_root": {
           "root": "ra",
@@ -728,6 +749,21 @@
             ]
           }
         ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "cogit",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "思",
+              "label_token": "cogit(o)",
+              "abbreviation": "cogit",
+              "start_line": 233
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "思"
+        },
         "transliteration_latex": "{\\large{\\textsuperscript{cogit·}ra}},",
         "render_latex": "慮\t%lü4 / lǜ\n{\\large{\\textsuperscript{cogit·}ra}},\n\\textit{liəH};\t%0069f",
         "wiktionary_semantic_validation": {
@@ -750,21 +786,6 @@
             ],
             "template_raw": "{{Han compound|思|虍|ls=psc|c1=s|c2=p|t1=to think}}"
           }
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "cogit",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "思",
-              "label_token": "cogit(o)",
-              "abbreviation": "cogit",
-              "start_line": 233
-            }
-          ],
-          "source": "wiktionary_han_compound",
-          "semantic_component": "思"
         },
         "hierarchy_assignment": null,
         "resolved_node_root": {

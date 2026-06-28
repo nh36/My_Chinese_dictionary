@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.485098+00:00",
+  "generated_at": "2026-06-28T15:14:38.952663+00:00",
   "id": "25-19",
   "schuessler": {
     "gsc_id": "25-19",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.652720+00:00",
+    "generated_at": "2026-06-28T15:13:57.883476+00:00",
     "id": "25-19",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "19",
       "schuessler_k_tokens": "257",
       "schuessler_source_page": "294",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1904,7 +1905,7 @@
               "start_line": 249
             }
           ],
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "semantic_component": "刀"
         },
         "transliteration_latex": "{\\large{ṅon\\textsuperscript{·cult}}},",
@@ -2010,6 +2011,28 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "cla",
+          "position": "prefix-colon",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 230
+            },
+            {
+              "graph_raw": "囗",
+              "label_token": "cla",
+              "abbreviation": "cla",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "囗"
+        },
         "transliteration_latex": "{\\large{\\textsuperscript{cla˸}ṅon}},",
         "render_latex": "园\t%wan2\n{\\large{\\textsuperscript{cla˸}ṅon}},\n\\textit{ṅwan};\t%0257i",
         "wiktionary_semantic_validation": {
@@ -2039,28 +2062,6 @@
             ],
             "template_raw": "{{Han compound|囗|元|c1=s|c2=p|ls=psc}}"
           }
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "cla",
-          "position": "prefix-colon",
-          "inventory_matches": [
-            {
-              "graph_raw": "囗",
-              "label_token": "cla(usum)",
-              "abbreviation": "cla",
-              "start_line": 230
-            },
-            {
-              "graph_raw": "囗",
-              "label_token": "cla",
-              "abbreviation": "cla",
-              "learned": true,
-              "evidence_count": 2
-            }
-          ],
-          "source": "wiktionary_han_compound",
-          "semantic_component": "囗"
         },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2506,14 +2507,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "習",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_component_literal_fallback",
           "semantic_component": "習"
         },
-        "transliteration_latex": "{\\large{ṅon}},",
-        "render_latex": "翫\t%wan4 / wàn\n{\\large{ṅon}},\n\\textit{ṅwanH};\t%0257l",
+        "transliteration_latex": "{\\large{\\textsuperscript{習·}ṅon}},",
+        "render_latex": "翫\t%wan4 / wàn\n{\\large{\\textsuperscript{習·}ṅon}},\n\\textit{ṅwanH};\t%0257l",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

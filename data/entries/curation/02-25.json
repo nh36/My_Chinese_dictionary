@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.596313+00:00",
+  "generated_at": "2026-06-28T15:13:57.828347+00:00",
   "id": "02-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "25",
     "schuessler_k_tokens": "790",
     "schuessler_source_page": "95",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -749,6 +750,28 @@
           ]
         }
       ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cla",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "囗",
+            "label_token": "cla(usum)",
+            "abbreviation": "cla",
+            "start_line": 230
+          },
+          {
+            "graph_raw": "囗",
+            "label_token": "cla",
+            "abbreviation": "cla",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "囗"
+      },
       "transliteration_latex": "{\\large{\\textsuperscript{cla˸}lak}},",
       "render_latex": "圛\t%yi4\n{\\large{\\textsuperscript{cla˸}lak}},\n\\textit{yiek};\t%0790b",
       "wiktionary_semantic_validation": {
@@ -778,28 +801,6 @@
           ],
           "template_raw": "{{Han compound|囗|睪|c1=s|c2=p|ls=psc}}"
         }
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "cla",
-        "position": "prefix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "囗",
-            "label_token": "cla(usum)",
-            "abbreviation": "cla",
-            "start_line": 230
-          },
-          {
-            "graph_raw": "囗",
-            "label_token": "cla",
-            "abbreviation": "cla",
-            "learned": true,
-            "evidence_count": 2
-          }
-        ],
-        "source": "wiktionary_han_compound",
-        "semantic_component": "囗"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2086,7 +2087,7 @@
             "start_line": 211
           }
         ],
-        "source": "ids_component_literal_fallback",
+        "source": "ids_top_level",
         "semantic_component": "廾"
       },
       "transliteration_latex": "{\\large{lak\\textsuperscript{˸biman}}},",

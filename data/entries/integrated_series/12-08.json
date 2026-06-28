@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.479451+00:00",
+  "generated_at": "2026-06-28T15:14:38.947315+00:00",
   "id": "12-08",
   "schuessler": {
     "gsc_id": "12-08",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.628153+00:00",
+    "generated_at": "2026-06-28T15:13:57.852557+00:00",
     "id": "12-08",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "8",
       "schuessler_k_tokens": "1188",
       "schuessler_source_page": "189",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -476,7 +477,7 @@
               "start_line": 249
             }
           ],
-          "source": "packet_family_component_literal_fallback",
+          "source": "packet_family_ids",
           "semantic_component": "刀"
         },
         "transliteration_latex": "{\\large{toṅ₂\\textsuperscript{·cult}}},",
@@ -2204,6 +2205,21 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "eo",
+          "position": "prefix-dot",
+          "inventory_matches": [
+            {
+              "graph_raw": "行",
+              "label_token": "eo",
+              "abbreviation": "eo",
+              "start_line": 266
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "行"
+        },
         "transliteration_latex": "{\\large{\\textsuperscript{eo·}toṅ}},",
         "render_latex": "衝\t%chong1 / chōng\n{\\large{\\textsuperscript{eo·}toṅ}},\n\\textit{chiəwṅ};\t%1188j",
         "wiktionary_semantic_validation": {
@@ -2226,21 +2242,6 @@
             ],
             "template_raw": "{{Han compound|行|重|c1=s|c2=p|ls=psc}}"
           }
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "eo",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "行",
-              "label_token": "eo",
-              "abbreviation": "eo",
-              "start_line": 266
-            }
-          ],
-          "source": "wiktionary_han_compound",
-          "semantic_component": "行"
         },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
@@ -2323,7 +2324,7 @@
               "start_line": 231
             }
           ],
-          "source": "packet_family_component_literal_fallback",
+          "source": "packet_family_ids",
           "semantic_component": "尢"
         },
         "transliteration_latex": "{\\large{\\textsuperscript{claud·}toṅ}},",
@@ -2947,15 +2948,15 @@
         "transliteration_latex": "{\\large{toṅ}},",
         "render_latex": "童\t%tong2 / tóng\n{\\large{toṅ}},\n\\textit{duwṅ};\t%1188o",
         "wiktionary_semantic_validation": null,
-        "hierarchy_assignment": null,
         "semantic_assignment": {
           "token": null,
           "abbreviation": null,
           "position": "none",
           "inventory_matches": [],
-          "source": "generated_subseries_head",
+          "source": "same_series_variant",
           "semantic_component": null
         },
+        "hierarchy_assignment": null,
         "resolved_node_root": {
           "root": "toṅ",
           "source": "node_bs_broad_consensus",

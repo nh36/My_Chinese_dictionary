@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.696607+00:00",
+  "generated_at": "2026-06-28T15:13:57.939709+00:00",
   "id": "32-08",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "8",
     "schuessler_k_tokens": "392",
     "schuessler_source_page": "343",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -979,14 +980,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "勻",
+        "position": "suffix-dot",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "勻"
       },
-      "transliteration_latex": "{\\large{quin₃}},",
-      "render_latex": "畇\t%yun2\n{\\large{quin₃}},\n\\textit{swin};\t%0392j\n\\textit{yiwin};\n\\textit{zwin};",
+      "transliteration_latex": "{\\large{quin₃\\textsuperscript{·勻}}},",
+      "render_latex": "畇\t%yun2\n{\\large{quin₃\\textsuperscript{·勻}}},\n\\textit{swin};\t%0392j\n\\textit{yiwin};\n\\textit{zwin};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null

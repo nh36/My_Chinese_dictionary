@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 872
-- Subgroups newly marked with `a`: 109
+- Generated subgroup heads inspected: 873
+- Subgroups newly marked with `a`: 111
 - Subgroups newly marked with `b`: 97
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 293
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 292
 - Mixed subgroups left unmarked: 367
 - Unresolved subgroups left unmarked: 6
 
@@ -16,7 +16,6 @@
 | `01-46` | 兔 | `la` | `l\textoverset{a}{a}` | `a` | yes | `thuH, du` | all extracted forms lack an i-medial after the onset |
 | `01-51` | 盧 | `ra` | `ra₃` | `mixed` | no | `lu, piu, liə` | the extracted forms point to both type a and type b |
 | `01-51` | 慮 | `ra` | `ra₂` | `mixed` | no | `liəH, lu, liəX, liə, ṭhiə` | the extracted forms point to both type a and type b |
-| `01-57` | 𪓐 | `tsa` | `tsa₆` | `mixed` | no | `tṣhiəX, tṣae` | the extracted forms point to both type a and type b |
 | `02-01` | 各 | `kak` | `kak` | `mixed` | no | `kak, kaek, khaeH, khaek, khak, haek, hak, maeH, maek, ṅaek, lak, luH, ṅaeH, lek, liak` | the extracted forms point to both type a and type b |
 | `02-01` | 客 | `kak` | `k\textoverset{a}{a}k` | `a` | yes | `khaek, khak` | all extracted forms lack an i-medial after the onset |
 | `02-01` | 洛 | `kak` | `k\textoverset{a}{a}k₂` | `a` | yes | `lak` | all extracted forms lack an i-medial after the onset |
@@ -587,11 +586,13 @@
 | `17-07` | 翟 | `lek` | `lek` | `mixed` | no | `dek, thek, yak, ḍaewk, ḍaewH, yiewH, thewH, dewH` | the extracted forms point to both type a and type b |
 | `17-08` | 樂 | `rek` | `rek` | `mixed` | no | `lak, liewH, ṅaewH, ṅaewk, lek, ləwk, śiak, yak` | the extracted forms point to both type a and type b |
 | `17-09` | 弱 | `nek` | `nek` | `mixed` | no | `ñiak, nek, newH, newX` | the extracted forms point to both type a and type b |
+| `17-11` | 𥽿 | `tsak` | `ts\textoverset{a}{a}k` | `a` | yes | `tsak, dzak` | all extracted forms lack an i-medial after the onset |
+| `17-12` | 爵 | `tsek` | `tsek` | `mixed` | no | `tsiak, dziak, tṣaewk, tsiewH` | the extracted forms point to both type a and type b |
+| `17-14` | 暴 | `pak` | `p\textoverset{a}{a}k` | `a` | yes | `bawH, buwk, pak, pəwk, paewk` | all extracted forms lack an i-medial after the onset |
 | `18-18` | 加 | `kray` | `kr\textoverset{a}{a}y` | `a` | yes | `kae, kaeH, kaX, ḫaH` | all extracted forms lack an i-medial after the onset |
 | `19-02` | 果 | `kor` | `k\textoverset{a}{o}r` | `a` | yes | `khwaX, kwaX, khwaH, lwaX, ḫwaeX, ḫwanX, ḫwəyX, kwanH, qwaX` | all extracted forms lack an i-medial after the onset |
 | `19-09` | 隋 | `loy` | `loy₂` | `mixed` | no | `siweH, thwaX, hiwieH, dwaX, hiwie, dwaH` | the extracted forms point to both type a and type b |
 | `19-09` | 隨 | `loy` | `l\textoverset{b}{o}y` | `b` | yes | `ziwe, siweH` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `19-22` | 𧴪 | `s\textoverset{a}{o}y` | `s\textoverset{a}{o}y₃` | `a` | no | `swaX` | all extracted forms lack an i-medial after the onset |
 | `20-01` | 㓞 | `ket` | `ket` | `mixed` | no | `kheat, kheyH, khet, siet, kyieyH, cieyH, kheaH, set, ḫet, ket, ṅet` | the extracted forms point to both type a and type b |
 | `20-01` | 契 | `ket` | `ket₂` | `mixed` | no | `kheyH, khet, siet, kyieyH, cieyH, kheaH, set` | the extracted forms point to both type a and type b |
 | `20-01` | 絜 | `ket` | `ket₃` | `a` | no | `ḫet, ket, khet` | all extracted forms lack an i-medial after the onset |

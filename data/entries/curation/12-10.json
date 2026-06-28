@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.622198+00:00",
+  "generated_at": "2026-06-28T15:13:57.847721+00:00",
   "id": "12-10",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "10",
     "schuessler_k_tokens": "1185",
     "schuessler_source_page": "190",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -922,14 +923,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "龴",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "龴"
       },
-      "transliteration_latex": "{\\large{loṅ}},",
-      "render_latex": "甬\t%yong3\n{\\large{loṅ}},\n\\textit{yiəwṅX};\t%1185h",
+      "transliteration_latex": "{\\large{\\textsuperscript{龴˸}loṅ}},",
+      "render_latex": "甬\t%yong3\n{\\large{\\textsuperscript{龴˸}loṅ}},\n\\textit{yiəwṅX};\t%1185h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

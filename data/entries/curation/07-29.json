@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.673506+00:00",
+  "generated_at": "2026-06-28T15:13:57.913323+00:00",
   "id": "07-29",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "29",
     "schuessler_k_tokens": "874",
     "schuessler_source_page": "152",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -4055,7 +4056,7 @@
       "semantic_assignment": {
         "token": null,
         "abbreviation": "insect",
-        "position": "none",
+        "position": "suffix-dot",
         "inventory_matches": [
           {
             "graph_raw": "䖵",
@@ -4064,11 +4065,11 @@
             "start_line": 330
           }
         ],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "packet_family_ids",
         "semantic_component": "䖵"
       },
-      "transliteration_latex": "{\\large{pe₂}},",
-      "render_latex": "蠯\t%beng4\n{\\large{pe₂}},\n\\textit{beaṅX};\t%0874v\n\\textit{byie};",
+      "transliteration_latex": "{\\large{pe₂\\textsuperscript{·insect}}},",
+      "render_latex": "蠯\t%beng4\n{\\large{pe₂\\textsuperscript{·insect}}},\n\\textit{beaṅX};\t%0874v\n\\textit{byie};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

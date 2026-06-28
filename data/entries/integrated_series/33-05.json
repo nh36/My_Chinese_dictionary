@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.486419+00:00",
+  "generated_at": "2026-06-28T15:14:38.953979+00:00",
   "id": "33-05",
   "schuessler": {
     "gsc_id": "33-05",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.685630+00:00",
+    "generated_at": "2026-06-28T15:13:57.926258+00:00",
     "id": "33-05",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "5",
       "schuessler_k_tokens": "480",
       "schuessler_source_page": "352",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -128,7 +129,7 @@
           "abbreviation": null,
           "position": "none",
           "inventory_matches": [],
-          "source": "schuessler_series_head",
+          "source": "same_series_variant",
           "semantic_component": null
         },
         "hierarchy_assignment": null,
@@ -941,6 +942,14 @@
         "transliteration_latex": "{\\large{kyr₄}},",
         "render_latex": "囏\t%jian1 / jiān\n{\\large{kyr₄}},\n\\textit{kean};\t%0480j",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "堇",
@@ -949,14 +958,6 @@
           "parent_kind": "candidate",
           "source": "ids_parent_family_inference",
           "phonetic_hint": "堇"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
-          "semantic_component": "喜"
         },
         "resolved_node_root": null
       },
@@ -4828,9 +4829,10 @@
         "oc_bs": "*kˤrər {*kˤrə[r]}",
         "root": "kyr",
         "source": "head_graph_oc_bs",
-        "support_count": 2,
+        "support_count": 4,
         "supporting_sources": [
-          "head_graph_oc_bs"
+          "head_graph_oc_bs",
+          "phonetic_component_series_root"
         ]
       }
     ],
@@ -4840,9 +4842,10 @@
       "character": "𡏳",
       "oc_bs": "*kˤrər {*kˤrə[r]}",
       "confidence": "provisional-oc",
-      "support_count": 2,
+      "support_count": 4,
       "supporting_sources": [
-        "head_graph_oc_bs"
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
       ],
       "display_root": "kyr₃",
       "base_root": "kyr",

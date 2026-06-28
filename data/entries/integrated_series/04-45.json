@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.475356+00:00",
+  "generated_at": "2026-06-28T15:14:38.943489+00:00",
   "id": "04-45",
   "schuessler": {
     "gsc_id": "04-45",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-18T07:49:32.698142+00:00",
+    "generated_at": "2026-06-28T15:13:58.026182+00:00",
     "id": "04-45",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "45",
       "schuessler_k_tokens": "943",
       "schuessler_source_page": "126",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1351,14 +1352,14 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "異",
+          "position": "suffix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "packet_family_component_literal_fallback",
           "semantic_component": "異"
         },
-        "transliteration_latex": "{\\large{tsy₄}},",
-        "render_latex": "戴\t%dai4 / dài\n{\\large{tsy₄}},\n\\textit{təyH};\t%0943e'",
+        "transliteration_latex": "{\\large{tsy₄\\textsuperscript{·異}}},",
+        "render_latex": "戴\t%dai4 / dài\n{\\large{tsy₄\\textsuperscript{·異}}},\n\\textit{təyH};\t%0943e'",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

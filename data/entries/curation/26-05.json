@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:47:01.997883+00:00",
+  "generated_at": "2026-06-28T15:13:57.955648+00:00",
   "id": "26-05",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,16 +23,17 @@
     "series_number": "5",
     "schuessler_k_tokens": "1241",
     "schuessler_source_page": "301",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
-    "mand2mc_row_count": "21",
-    "mand2mc_character_count": "15",
+    "mand2mc_row_count": "14",
+    "mand2mc_character_count": "12",
     "mand2mc_characters_sample": "計; 繼; 兮; 盻; 醯; 替; 暜; 細; 隸; 盭",
     "bs_gsr_row_count": "4",
     "bs_gsr_character_count": "4",
     "bs_gsr_characters_sample": "計; 兮; 替; 細",
-    "combined_source_character_count": "15",
+    "combined_source_character_count": "12",
     "combined_source_characters_sample": "計; 繼; 兮; 盻; 醯; 替; 暜; 細; 隸; 盭"
   },
   "tex_entry": null,
@@ -1036,6 +1037,14 @@
       "transliteration_latex": "{\\large{kiy₃}},",
       "render_latex": "暜\t%ti4\n{\\large{kiy₃}},\n\\textit{theyH};\t%1241k",
       "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "替",
@@ -1044,14 +1053,6 @@
         "parent_kind": "candidate",
         "source": "ids_parent_family_inference",
         "phonetic_hint": "替"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
-        "semantic_component": "竝"
       },
       "resolved_node_root": null
     },

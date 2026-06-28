@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T07:01:45.521238+00:00",
+  "generated_at": "2026-06-28T15:13:58.020245+00:00",
   "id": "09-09",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "9",
     "schuessler_k_tokens": "843",
     "schuessler_source_page": "162",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1731,14 +1732,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "卂",
+        "position": "suffix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "卂"
       },
-      "transliteration_latex": "{\\large{queṅ}},",
-      "render_latex": "煢\t%qiong2\n{\\large{queṅ}},\n\\textit{giwieṅ};\t%0843g",
+      "transliteration_latex": "{\\large{queṅ\\textsuperscript{˸卂}}},",
+      "render_latex": "煢\t%qiong2\n{\\large{queṅ\\textsuperscript{˸卂}}},\n\\textit{giwieṅ};\t%0843g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -2772,7 +2773,7 @@
             "start_line": 214
           }
         ],
-        "source": "ids_component_literal_fallback",
+        "source": "ids_top_level",
         "semantic_component": "缶"
       },
       "transliteration_latex": "{\\large{queṅ\\textsuperscript{˸cad}}},",

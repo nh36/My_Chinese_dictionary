@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.619627+00:00",
+  "generated_at": "2026-06-28T15:13:57.845550+00:00",
   "id": "08-14",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "14",
     "schuessler_k_tokens": "868",
     "schuessler_source_page": "157",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -2547,14 +2548,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "𦣞",
+        "position": "prefix-dot",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "packet_family_component_literal_fallback",
         "semantic_component": "𦣞"
       },
-      "transliteration_latex": "{\\large{tsek₂}},",
-      "render_latex": "賾\t%ze2\n{\\large{tsek₂}},\n\\textit{dẓeak};\t%0868s",
+      "transliteration_latex": "{\\large{\\textsuperscript{𦣞·}tsek₂}},",
+      "render_latex": "賾\t%ze2\n{\\large{\\textsuperscript{𦣞·}tsek₂}},\n\\textit{dẓeak};\t%0868s",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.487316+00:00",
+  "generated_at": "2026-06-28T15:14:38.954839+00:00",
   "id": "38-03",
   "schuessler": {
     "gsc_id": "38-03",
@@ -19,7 +19,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.599606+00:00",
+    "generated_at": "2026-06-28T15:13:57.831347+00:00",
     "id": "38-03",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -44,6 +44,7 @@
       "series_number": "3",
       "schuessler_k_tokens": "651; 652",
       "schuessler_source_page": "385",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -2746,7 +2747,7 @@
               "start_line": 397
             }
           ],
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "semantic_component": "音"
         },
         "transliteration_latex": "{\\large{kym₂\\textsuperscript{·son}}},",
@@ -5579,14 +5580,14 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "云",
+          "position": "suffix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "packet_family_component_literal_fallback",
           "semantic_component": "云"
         },
-        "transliteration_latex": "{\\large{kym}},",
-        "render_latex": "侌\t%yin1\n{\\large{kym}},\n\\textit{qim};\t%0651x",
+        "transliteration_latex": "{\\large{kym\\textsuperscript{˸云}}},",
+        "render_latex": "侌\t%yin1\n{\\large{kym\\textsuperscript{˸云}}},\n\\textit{qim};\t%0651x",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -5954,7 +5955,7 @@
           "abbreviation": null,
           "position": "none",
           "inventory_matches": [],
-          "source": "schuessler_series_head",
+          "source": "same_series_variant",
           "semantic_component": null
         },
         "hierarchy_assignment": {

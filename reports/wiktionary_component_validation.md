@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5443
-- Pages fetched / cached successfully: 5362
-- Additions with explicit Han-compound semantic/phonetic roles: 2502
+- Proposed additions checked: 5453
+- Pages fetched / cached successfully: 5375
+- Additions with explicit Han-compound semantic/phonetic roles: 2509
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -30,7 +30,6 @@
 | `01-41` | 杵 | yes | yes | 木 | 午 |
 | `01-42` | 徐 | yes | yes | 彳 | 余 |
 | `01-43` | 𨑦 | no | no |  |  |
-| `01-43` | 𡐨 | yes | no |  |  |
 | `01-46` | 兔 | yes | no |  |  |
 | `01-46` | 菟 | yes | no |  |  |
 | `01-47` | 邪 | yes | yes | 邑 | 牙 |
@@ -54,8 +53,6 @@
 | `01-51` | 藘 | yes | no |  |  |
 | `01-51` | 鑢 | yes | yes | 金 | 慮 |
 | `01-51` | 攄 | yes | yes | 手 | 慮 |
-| `01-57` | 𪓐 | yes | no |  |  |
-| `01-57` | 𠭯 | no | no |  |  |
 | `01-62` | 梳 | yes | yes | 木 | 疏 |
 | `02-01` | 各 | yes | no |  |  |
 | `02-01` | 觡 | yes | no |  |  |
@@ -3287,7 +3284,22 @@
 | `17-09` | 愵 | yes | no |  |  |
 | `17-09` | 溺 | yes | yes | 水 | 弱 |
 | `17-09` | 嫋 | yes | yes | 女 | 弱 |
-| `18-09` | 𨠑 | no | no |  |  |
+| `17-11` | 鑿 | yes | yes | 金 | 𥽿 |
+| `17-11` | 𥽿 | yes | no |  |  |
+| `17-12` | 爵 | yes | no |  |  |
+| `17-12` | 爝 | yes | no |  |  |
+| `17-12` | 穱 | yes | no |  |  |
+| `17-12` | 灂 | yes | no |  |  |
+| `17-12` | 釂 | yes | no |  |  |
+| `17-13` | 雀 | yes | no |  |  |
+| `17-14` | 暴 | yes | no |  |  |
+| `17-14` | 曝 | yes | yes | 日 | 暴 |
+| `17-14` | 瀑 | yes | yes | 水 | 暴 |
+| `17-14` | 襮 | yes | yes | 衣 | 暴 |
+| `17-14` | 嚗 | yes | yes | 口 | 暴 |
+| `17-15` | 駁 | yes | yes | 馬 | 爻 |
+| `17-15` | 駮 | yes | no |  |  |
+| `17-16` | 豹 | yes | yes | 豸 | 勺 |
 | `18-09` | 舵 | yes | yes | 舟 | 它 |
 | `18-18` | 加 | yes | no |  |  |
 | `18-18` | 枷 | yes | no |  |  |
@@ -3296,7 +3308,6 @@
 | `18-18` | 嘉 | yes | yes | 壴 | 加 |
 | `18-18` | 哿 | yes | no |  |  |
 | `18-18` | 賀 | yes | yes | 貝 | 加 |
-| `19-01` | 𢦚 | no | no |  |  |
 | `19-02` | 果 | yes | no |  |  |
 | `19-02` | 蜾 | yes | no |  |  |
 | `19-02` | 裹 | yes | yes | 衣 | 果 |
@@ -3326,7 +3337,6 @@
 | `19-09` | 媠 | yes | no |  |  |
 | `19-09` | 惰 | yes | yes | 心 | 隋 |
 | `19-21` | 座 | yes | yes | 广 | 坐 |
-| `19-22` | 𧴪 | yes | no |  |  |
 | `19-22` | 鎖 | yes | yes | 金 | 𧴪 |
 | `20-01` | 㓞 | yes | yes | 刀 | 丯 |
 | `20-01` | 契 | yes | yes | 大 | 㓞 |

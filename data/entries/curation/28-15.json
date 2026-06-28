@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.658870+00:00",
+  "generated_at": "2026-06-28T15:13:57.892747+00:00",
   "id": "28-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "15",
     "schuessler_k_tokens": "577",
     "schuessler_source_page": "319",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -2296,7 +2297,7 @@
             "start_line": 214
           }
         ],
-        "source": "ids_component_literal_fallback",
+        "source": "ids_top_level",
         "semantic_component": "缶"
       },
       "transliteration_latex": "{\\large{ruy\\textsuperscript{˸cad}}},",
@@ -3056,6 +3057,14 @@
       "transliteration_latex": "{\\large{ruy}},",
       "render_latex": "累\t%lei4 / lei3 / luo3 / lěi\n{\\large{ruy}},\n\\textit{liweH};\t%0577r\n\\textit{liweX};\n\\textit{lwaX};",
       "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "畾",
@@ -3064,14 +3073,6 @@
         "parent_kind": "top_level",
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "畾"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "generated_subseries_head",
-        "semantic_component": null
       },
       "resolved_node_root": {
         "root": "roy",
@@ -5395,6 +5396,17 @@
       "support_count": 1,
       "supporting_sources": [
         "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "螺",
+      "gsr": null,
+      "oc_bs": "*rujʔ {*[r]ujʔ}",
+      "root": "ruy",
+      "source": "phonetic_component_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "phonetic_component_series_root"
       ]
     }
   ],

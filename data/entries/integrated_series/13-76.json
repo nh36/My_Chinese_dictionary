@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.480940+00:00",
+  "generated_at": "2026-06-28T15:14:38.948643+00:00",
   "id": "13-76",
   "schuessler": {
     "gsc_id": "13-76",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.691034+00:00",
+    "generated_at": "2026-06-28T15:13:57.931818+00:00",
     "id": "13-76",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "76",
       "schuessler_k_tokens": "1109",
       "schuessler_source_page": "209",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -699,6 +700,14 @@
         "transliteration_latex": "{\\large{mu₆}},",
         "render_latex": "楙\t%mao4\n{\\large{mu₆}},\n\\textit{maw};\t%1109d",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
           "parent_character": "矛",
@@ -707,14 +716,6 @@
           "parent_kind": "top_level",
           "source": "shengfu_phonetic_component",
           "phonetic_hint": "矛"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "generated_subseries_head",
-          "semantic_component": null
         },
         "resolved_node_root": {
           "root": "mu",
@@ -2511,7 +2512,7 @@
         "semantic_assignment": {
           "token": null,
           "abbreviation": "insect",
-          "position": "none",
+          "position": "suffix-colon",
           "inventory_matches": [
             {
               "graph_raw": "䖵",
@@ -2520,11 +2521,11 @@
               "start_line": 330
             }
           ],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_top_level",
           "semantic_component": "䖵"
         },
-        "transliteration_latex": "{\\large{mu₆}},",
-        "render_latex": "蟊\t%mao2\n{\\large{mu₆}},\n\\textit{miuw};\t%1109n",
+        "transliteration_latex": "{\\large{mu₆\\textsuperscript{˸insect}}},",
+        "render_latex": "蟊\t%mao2\n{\\large{mu₆\\textsuperscript{˸insect}}},\n\\textit{miuw};\t%1109n",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

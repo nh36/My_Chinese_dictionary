@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.480115+00:00",
+  "generated_at": "2026-06-28T15:14:38.947865+00:00",
   "id": "13-22",
   "schuessler": {
     "gsc_id": "13-22",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.632171+00:00",
+    "generated_at": "2026-06-28T15:13:57.856334+00:00",
     "id": "13-22",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "22",
       "schuessler_k_tokens": "1090",
       "schuessler_source_page": "199",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -290,15 +291,15 @@
         "transliteration_latex": "{\\large{ɡlu}},",
         "render_latex": "𢏚\t%chou2\n{\\large{ɡlu}},\n\\textit{ḍiuw};\t%1090b",
         "wiktionary_semantic_validation": null,
-        "hierarchy_assignment": null,
         "semantic_assignment": {
           "token": null,
           "abbreviation": null,
           "position": "none",
           "inventory_matches": [],
-          "source": "generated_subseries_head",
+          "source": "same_series_variant",
           "semantic_component": null
         },
+        "hierarchy_assignment": null,
         "resolved_node_root": {
           "root": "tu",
           "source": "node_bs_broad_consensus",
@@ -542,14 +543,14 @@
         "semantic_candidates_from_ids": [],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "叹",
+          "position": "suffix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "packet_family_component_literal_fallback",
           "semantic_component": "叹"
         },
-        "transliteration_latex": "{\\large{tu₅}},",
-        "render_latex": "𠼡\t%chou2\n{\\large{tu₅}},\n\\textit{ḍiuw};\t%1090f",
+        "transliteration_latex": "{\\large{tu₅\\textsuperscript{·叹}}},",
+        "render_latex": "𠼡\t%chou2\n{\\large{tu₅\\textsuperscript{·叹}}},\n\\textit{ḍiuw};\t%1090f",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -3725,10 +3726,9 @@
         "oc_bs": "*tu-s F!",
         "root": "tu",
         "source": "head_graph_oc_bs",
-        "support_count": 6,
+        "support_count": 5,
         "supporting_sources": [
-          "head_graph_oc_bs",
-          "same_character_series_root"
+          "head_graph_oc_bs"
         ]
       },
       {
@@ -3743,15 +3743,16 @@
         ]
       },
       {
-        "character": "𠷎",
+        "character": "鑄",
         "gsr": null,
         "oc_bs": "*ɡlu",
         "root": "ɡlu",
-        "source": "head_graph_oc_shengfu",
-        "support_count": 15,
+        "source": "phonetic_component_series_root",
+        "support_count": 41,
         "supporting_sources": [
-          "head_graph_oc_shengfu",
-          "same_character_series_root"
+          "phonetic_component_series_root",
+          "same_character_series_root",
+          "head_graph_oc_shengfu"
         ]
       },
       {
@@ -3769,13 +3770,14 @@
     "resolved_series_root": {
       "root": "ɡlu",
       "source": "head_graph_supported_root",
-      "character": "𠷎",
+      "character": "鑄",
       "oc_bs": "*ɡlu",
       "confidence": "provisional-oc",
-      "support_count": 15,
+      "support_count": 41,
       "supporting_sources": [
-        "head_graph_oc_shengfu",
-        "same_character_series_root"
+        "phonetic_component_series_root",
+        "same_character_series_root",
+        "head_graph_oc_shengfu"
       ],
       "display_root": "ɡlu",
       "base_root": "ɡlu",

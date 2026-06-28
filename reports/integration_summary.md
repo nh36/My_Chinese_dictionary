@@ -1,12 +1,12 @@
 # Integration summary
 
-- Integrated series count: 840
+- Integrated series count: 846
 - Current hand-authored series count: 120
 - Earlier pilot hand-authored series count: 120
-- Active curated packet count: 736
+- Active curated packet count: 742
 - Hand-only rendered entries: 104
 - Hand baseline + generated addenda entries: 16
-- Generated missing-series entries: 720
+- Generated missing-series entries: 726
 - Records with hand-source conflicts: 9
 
 | GSC | Render mode | Status flags |
@@ -644,6 +644,12 @@
 | `17-07` | `generated_missing_series` | needs_review, generated_candidate |
 | `17-08` | `generated_missing_series` | needs_review, generated_candidate |
 | `17-09` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-11` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-12` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-13` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-14` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-15` | `generated_missing_series` | needs_review, generated_candidate |
+| `17-16` | `generated_missing_series` | needs_review, generated_candidate |
 | `18-01` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `18-03` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |
 | `18-04` | `hand_only` | hand_authored_current_tex, imported_from_previous_pilot, present_in_both_hand_sources, hand_checked |

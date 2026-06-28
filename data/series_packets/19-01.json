@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T06:24:06.637052+00:00",
+  "generated_at": "2026-06-28T15:13:26.960551+00:00",
   "gsc_id": "19-01",
   "packet_kind": "existing_addendum",
   "candidate_source_strategy": "tex_gsr_prefixes",
@@ -26,9 +26,10 @@
     "series_number": "1",
     "schuessler_k_tokens": "7",
     "schuessler_source_page": "244",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "yes",
-    "tex_character_count": "3",
-    "tex_characters_sample": "戈; 划; 丮",
+    "tex_character_count": "4",
+    "tex_characters_sample": "戈; 划; 𢦚; 丮",
     "mand2mc_row_count": "3",
     "mand2mc_character_count": "3",
     "mand2mc_characters_sample": "戈; 划; 𢦚",
@@ -57,11 +58,12 @@
         "arg": "2"
       }
     ],
-    "start_line": 1083,
-    "end_line": 1096,
+    "start_line": 1153,
+    "end_line": 1166,
     "chinese_characters": [
       "戈",
       "划",
+      "𢦚",
       "丮"
     ],
     "commented_pinyin": [
@@ -79,7 +81,7 @@
       "0007e",
       "0007f"
     ],
-    "raw_block": "\\paragraph{\\textoversetlarge{19-01}{\\huge{戈}}}\n%ge1\t\n{\\large{kuay}},\n\\textit{kwa};\t%kwa\t0007a\n划\t%hua2\t\n{\\large{ray{\\textsuperscript{·cul}}}},\n\\textit{ḫwae};\t%hwae\t0007e\n{\\includegraphics[width=4.5mm]{U+2299A.png}}\n%hua4\t\n%⿰戈丮\n{\\large{ray{\\textsuperscript{·ten}}}},\n\\textit{ḫwaeX}.\t%hwaeX\t0007f\n\n"
+    "raw_block": "\\paragraph{\\textoversetlarge{19-01}{\\huge{戈}}}\n%ge1\t\n{\\large{kuay}},\n\\textit{kwa};\t%kwa\t0007a\n划\t%hua2\t\n{\\large{ray{\\textsuperscript{·cult}}}},\n\\textit{ḫwae};\t%hwae\t0007e\n{\\includegraphics[width=4.5mm]{U+2299A.png}}\n%hua4\t\n%⿰戈丮\n{\\large{ray{\\textsuperscript{·ten}}}},\n\\textit{ḫwaeX}.\t%hwaeX\t0007f\n\n"
   },
   "entry_hierarchy": {
     "top_level_head": "戈",
@@ -260,7 +262,7 @@
     },
     {
       "character": "𢦚",
-      "in_tex": false,
+      "in_tex": true,
       "mand2mc_rows": [
         {
           "source_row_number": "144",

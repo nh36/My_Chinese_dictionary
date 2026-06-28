@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:18:13.270930+00:00",
+  "generated_at": "2026-06-28T15:13:57.964383+00:00",
   "id": "10-37",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "37",
     "schuessler_k_tokens": "1097",
     "schuessler_source_page": "179",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -95,7 +96,7 @@
         "abbreviation": null,
         "position": "none",
         "inventory_matches": [],
-        "source": "schuessler_series_head",
+        "source": "same_series_variant",
         "semantic_component": null
       },
       "hierarchy_assignment": null,
@@ -668,9 +669,17 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{  *su\\textsuperscript{˸hom}}},",
-      "render_latex": "𡨙\t%sou3\n{\\large{  *su\\textsuperscript{˸hom}}},\n\\textit{suwX};\t%1097c",
+      "transliteration_latex": "{\\large{  *su}},",
+      "render_latex": "𡨙\t%sou3\n{\\large{  *su}},\n\\textit{suwX};\t%1097c",
       "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "叜",
@@ -679,28 +688,6 @@
         "parent_kind": "top_level",
         "source": "cycle_repair_top_level_fallback",
         "phonetic_hint": "叜"
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "hom",
-        "position": "suffix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "人",
-            "label_token": "hom(o)",
-            "abbreviation": "hom",
-            "start_line": 298
-          },
-          {
-            "graph_raw": "人",
-            "label_token": "hom",
-            "abbreviation": "hom",
-            "learned": true,
-            "evidence_count": 18
-          }
-        ],
-        "source": "parent_ids_semantic",
-        "semantic_component": "人"
       },
       "resolved_node_root": null
     },

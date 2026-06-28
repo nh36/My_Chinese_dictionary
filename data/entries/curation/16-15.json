@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.637618+00:00",
+  "generated_at": "2026-06-28T15:13:57.865734+00:00",
   "id": "16-15",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "15",
     "schuessler_k_tokens": "1131",
     "schuessler_source_page": "223",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1072,7 +1073,7 @@
             "start_line": 397
           }
         ],
-        "source": "ids_component_literal_fallback",
+        "source": "ids_top_level",
         "semantic_component": "音"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{son·}taw₂}},",
@@ -1136,14 +1137,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "殸",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "packet_family_component_literal_fallback",
         "semantic_component": "殸"
       },
-      "transliteration_latex": "{\\large{taw₂}},",
-      "render_latex": "㲈\t%shao2\n{\\large{taw₂}},\n\\textit{jiew};\t%1131b'",
+      "transliteration_latex": "{\\large{\\textsuperscript{殸˸}taw₂}},",
+      "render_latex": "㲈\t%shao2\n{\\large{\\textsuperscript{殸˸}taw₂}},\n\\textit{jiew};\t%1131b'",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

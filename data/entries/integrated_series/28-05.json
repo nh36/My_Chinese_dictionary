@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.485625+00:00",
+  "generated_at": "2026-06-28T15:14:38.953187+00:00",
   "id": "28-05",
   "schuessler": {
     "gsc_id": "28-05",
@@ -19,7 +19,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.656216+00:00",
+    "generated_at": "2026-06-28T15:13:57.889938+00:00",
     "id": "28-05",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -44,6 +44,7 @@
       "series_number": "5",
       "schuessler_k_tokens": "571; 342",
       "schuessler_source_page": "317",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1164,6 +1165,28 @@
             ]
           }
         ],
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": "cla",
+          "position": "prefix-colon",
+          "inventory_matches": [
+            {
+              "graph_raw": "囗",
+              "label_token": "cla(usum)",
+              "abbreviation": "cla",
+              "start_line": 230
+            },
+            {
+              "graph_raw": "囗",
+              "label_token": "cla",
+              "abbreviation": "cla",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "source": "wiktionary_han_compound",
+          "semantic_component": "囗"
+        },
         "transliteration_latex": "{\\large{\\textsuperscript{cla˸}quy₈}},",
         "render_latex": "圍\t%wei2 / wéi\n{\\large{\\textsuperscript{cla˸}quy₈}},\n\\textit{hiwɨy};\t%0571g",
         "wiktionary_semantic_validation": {
@@ -1193,28 +1216,6 @@
             ],
             "template_raw": "{{Han compound|囗|t1=enclosure|韋|c1=s|c2=p|ls=psc|nocap=y}}"
           }
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "cla",
-          "position": "prefix-colon",
-          "inventory_matches": [
-            {
-              "graph_raw": "囗",
-              "label_token": "cla(usum)",
-              "abbreviation": "cla",
-              "start_line": 230
-            },
-            {
-              "graph_raw": "囗",
-              "label_token": "cla",
-              "abbreviation": "cla",
-              "learned": true,
-              "evidence_count": 2
-            }
-          ],
-          "source": "wiktionary_han_compound",
-          "semantic_component": "囗"
         },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2499,14 +2500,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "是",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_component_literal_fallback",
           "semantic_component": "是"
         },
-        "transliteration_latex": "{\\large{quy₈}},",
-        "render_latex": "韙\t%wei3\n{\\large{quy₈}},\n\\textit{hiwɨyX};\t%0571p",
+        "transliteration_latex": "{\\large{\\textsuperscript{是·}quy₈}},",
+        "render_latex": "韙\t%wei3\n{\\large{\\textsuperscript{是·}quy₈}},\n\\textit{hiwɨyX};\t%0571p",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2590,14 +2591,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "華",
+          "position": "suffix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_component_literal_fallback",
           "semantic_component": "華"
         },
-        "transliteration_latex": "{\\large{quy₈}},",
-        "render_latex": "韡\t%wei3\n{\\large{quy₈}},\n\\textit{hiwɨyX};\t%0571q",
+        "transliteration_latex": "{\\large{quy₈\\textsuperscript{·華}}},",
+        "render_latex": "韡\t%wei3\n{\\large{quy₈\\textsuperscript{·華}}},\n\\textit{hiwɨyX};\t%0571q",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

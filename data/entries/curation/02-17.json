@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:46:15.645307+00:00",
+  "generated_at": "2026-06-28T15:13:57.976801+00:00",
   "id": "02-17",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "17",
     "schuessler_k_tokens": "795",
     "schuessler_source_page": "94",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1060,7 +1061,7 @@
             "start_line": 329
           }
         ],
-        "source": "ids_component_literal_fallback",
+        "source": "ids_top_level",
         "semantic_component": "鼠"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{rod·}tak₂}},",
@@ -1255,14 +1256,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "桀",
+        "position": "suffix-dot",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "桀"
       },
-      "transliteration_latex": "{\\large{tak₂}},",
-      "render_latex": "磔\t%zhe2\n{\\large{tak₂}},\n\\textit{ṭaek};\t%0795j",
+      "transliteration_latex": "{\\large{tak₂\\textsuperscript{·桀}}},",
+      "render_latex": "磔\t%zhe2\n{\\large{tak₂\\textsuperscript{·桀}}},\n\\textit{ṭaek};\t%0795j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2339,6 +2340,21 @@
           ]
         }
       ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "foll",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "𣒚",
+            "label_token": "foll(is)",
+            "abbreviation": "foll",
+            "start_line": 282
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "𣒚"
+      },
       "transliteration_latex": "{\\large{tak₂\\textsuperscript{˸foll}}},",
       "render_latex": "橐\t%tuo2 / tuó\n{\\large{tak₂\\textsuperscript{˸foll}}},\n\\textit{thak};\t%0795p",
       "wiktionary_semantic_validation": {
@@ -2361,21 +2377,6 @@
           ],
           "template_raw": "{{Han compound|ls=psc|石|𣒚|c1=p|c2=s|t2=bag with a bottom}}"
         }
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "foll",
-        "position": "suffix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "𣒚",
-            "label_token": "foll(is)",
-            "abbreviation": "foll",
-            "start_line": 282
-          }
-        ],
-        "source": "wiktionary_han_compound",
-        "semantic_component": "𣒚"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",

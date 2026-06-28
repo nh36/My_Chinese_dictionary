@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-06-28T15:13:58.305999+00:00",
+  "id": "17-13",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "17-13",
+    "rhyme_section": 17,
+    "series_number": 13,
+    "k_tokens": [
+      "1122"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.             MC             LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 233,
+    "source_line_number": 39,
+    "source_line_raw": "17-13 = K. 1122 Mand.             MC             LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "17-13",
+    "rhyme_section": "17",
+    "series_number": "13",
+    "schuessler_k_tokens": "1122",
+    "schuessler_source_page": "233",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "雀",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "雀",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "雀"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1122"
+  ],
+  "proposed_additions": [
+    {
+      "character": "雀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsiak"
+        ],
+        "mand2mc_bs_forms": [
+          "tsjak"
+        ],
+        "bs_gsr_forms": [
+          "tsjak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8099",
+          "character": "雀",
+          "pinyin": "que4",
+          "mc_nwh": "tsiak",
+          "mc_bs": "tsjak",
+          "gsr": "1122a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "雀",
+          "pinyin": "què",
+          "mc_bs": "tsjak",
+          "mc_analyzed": "(ts- + -jak D)",
+          "oc_bs": "*tsewk {*[ts]ewk}",
+          "gloss": "sparrow",
+          "gsr": "1122a",
+          "unicode_utf16": "U+96C0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11320",
+          "character": "雀",
+          "phonetic_component": "小",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即略",
+          "source": "广韵",
+          "oc_initial": "sk",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "skeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|小|隹|t1=small|t2=bird|ls=ic}}",
+          "positional_components": [
+            "小",
+            "隹"
+          ],
+          "positional_components_raw": [
+            "小",
+            "隹"
+          ],
+          "named_args": {
+            "t1": "small",
+            "t2": "bird",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|小|隹|t1=small|t2=bird|ls=ic}}",
+            "positional_components": [
+              "小",
+              "隹"
+            ],
+            "positional_components_raw": [
+              "小",
+              "隹"
+            ],
+            "named_args": {
+              "t1": "small",
+              "t2": "bird",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "雀",
+          "ids": "⿱小隹",
+          "phonetic_component": "小",
+          "semantic_component": "隹",
+          "position": "suffix-colon",
+          "abbreviation": "passer",
+          "inventory_matches": [
+            {
+              "graph_raw": "隹",
+              "label_token": "passer",
+              "abbreviation": "passer",
+              "start_line": 353
+            },
+            {
+              "graph_raw": "隹",
+              "label_token": "passer",
+              "abbreviation": "passer",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "passer",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "隹",
+            "label_token": "passer",
+            "abbreviation": "passer",
+            "start_line": 353
+          },
+          {
+            "graph_raw": "隹",
+            "label_token": "passer",
+            "abbreviation": "passer",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "隹"
+      },
+      "transliteration_latex": "{\\large{tsek\\textsuperscript{˸passer}}},",
+      "render_latex": "雀\t%que4 / què\n{\\large{tsek\\textsuperscript{˸passer}}},\n\\textit{tsiak};\t%1122a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "雀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsiak"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsiak"
+        ],
+        "mand2mc_bs_forms": [
+          "tsjak"
+        ],
+        "bs_gsr_forms": [
+          "tsjak"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8099",
+          "character": "雀",
+          "pinyin": "que4",
+          "mc_nwh": "tsiak",
+          "mc_bs": "tsjak",
+          "gsr": "1122a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "171",
+          "character": "雀",
+          "pinyin": "què",
+          "mc_bs": "tsjak",
+          "mc_analyzed": "(ts- + -jak D)",
+          "oc_bs": "*tsewk {*[ts]ewk}",
+          "gloss": "sparrow",
+          "gsr": "1122a",
+          "unicode_utf16": "U+96C0"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11320",
+          "character": "雀",
+          "phonetic_component": "小",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即略",
+          "source": "广韵",
+          "oc_initial": "sk",
+          "oc_rhyme": "eɡʷ",
+          "oc_syllable": "skeɡʷ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "雀",
+      "gsr": "1122a",
+      "oc_bs": "*tsewk {*[ts]ewk}",
+      "root": "tsek",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tsek",
+    "source": "head_graph_oc_bs",
+    "character": "雀",
+    "oc_bs": "*tsewk {*[ts]ewk}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tsek"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.479697+00:00",
+  "generated_at": "2026-06-28T15:14:38.947551+00:00",
   "id": "12-25",
   "schuessler": {
     "gsc_id": "12-25",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.629520+00:00",
+    "generated_at": "2026-06-28T15:13:57.853715+00:00",
     "id": "12-25",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "25",
       "schuessler_k_tokens": "1197",
       "schuessler_source_page": "193",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1889,6 +1890,14 @@
         "transliteration_latex": "{\\large{poṅ}},",
         "render_latex": "封\t%feng1 / fēng\n{\\large{poṅ}},\n\\textit{piəwṅ};\t%1197i",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
           "parent_character": "丰",
@@ -1897,14 +1906,6 @@
           "parent_kind": "top_level",
           "source": "wiktionary_han_compound",
           "phonetic_hint": "丰"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "generated_subseries_head",
-          "semantic_component": null
         },
         "resolved_node_root": {
           "root": "poṅ",
@@ -3330,7 +3331,7 @@
         "semantic_assignment": {
           "token": null,
           "abbreviation": "insect",
-          "position": "none",
+          "position": "suffix-colon",
           "inventory_matches": [
             {
               "graph_raw": "䖵",
@@ -3339,11 +3340,11 @@
               "start_line": 330
             }
           ],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "packet_family_ids",
           "semantic_component": "䖵"
         },
-        "transliteration_latex": "{\\large{poṅ₃}},",
-        "render_latex": "𧒒\t%feng1\n{\\large{poṅ₃}},\n\\textit{phiəwṅ};\t%1197t",
+        "transliteration_latex": "{\\large{poṅ₃\\textsuperscript{˸insect}}},",
+        "render_latex": "𧒒\t%feng1\n{\\large{poṅ₃\\textsuperscript{˸insect}}},\n\\textit{phiəwṅ};\t%1197t",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

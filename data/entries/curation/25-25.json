@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T21:44:08.418816+00:00",
+  "generated_at": "2026-06-28T15:13:57.991856+00:00",
   "id": "25-25",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "25",
     "schuessler_k_tokens": "231",
     "schuessler_source_page": "295",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -428,7 +429,7 @@
             "start_line": 249
           }
         ],
-        "source": "packet_family_component_literal_fallback",
+        "source": "packet_family_ids",
         "semantic_component": "刀"
       },
       "transliteration_latex": "{\\large{ton\\textsuperscript{·cult}}},",
@@ -1925,6 +1926,28 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cla",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "囗",
+            "label_token": "cla(usum)",
+            "abbreviation": "cla",
+            "start_line": 230
+          },
+          {
+            "graph_raw": "囗",
+            "label_token": "cla",
+            "abbreviation": "cla",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "囗"
+      },
       "transliteration_latex": "{\\large{\\textsuperscript{cla˸}ton}},",
       "render_latex": "團\t%tuan2\n{\\large{\\textsuperscript{cla˸}ton}},\n\\textit{dwan};\t%0231n",
       "wiktionary_semantic_validation": {
@@ -1964,29 +1987,7 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "專"
       },
-      "resolved_node_root": null,
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "cla",
-        "position": "prefix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "囗",
-            "label_token": "cla(usum)",
-            "abbreviation": "cla",
-            "start_line": 230
-          },
-          {
-            "graph_raw": "囗",
-            "label_token": "cla",
-            "abbreviation": "cla",
-            "learned": true,
-            "evidence_count": 2
-          }
-        ],
-        "source": "wiktionary_han_compound",
-        "semantic_component": "囗"
-      }
+      "resolved_node_root": null
     },
     {
       "character": "慱",

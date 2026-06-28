@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.485558+00:00",
+  "generated_at": "2026-06-28T15:14:38.953117+00:00",
   "id": "27-08",
   "schuessler": {
     "gsc_id": "27-08",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.644142+00:00",
+    "generated_at": "2026-06-28T15:13:57.873607+00:00",
     "id": "27-08",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "8",
       "schuessler_k_tokens": "579",
       "schuessler_source_page": "312",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -1924,14 +1925,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "文",
+          "position": "suffix-colon",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_component_literal_fallback",
           "semantic_component": "文"
         },
-        "transliteration_latex": "{\\large{py₉}},",
-        "render_latex": "斐\t%fei3\n{\\large{py₉}},\n\\textit{phiɨyX};\t%0579i",
+        "transliteration_latex": "{\\large{py₉\\textsuperscript{˸文}}},",
+        "render_latex": "斐\t%fei3\n{\\large{py₉\\textsuperscript{˸文}}},\n\\textit{phiɨyX};\t%0579i",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

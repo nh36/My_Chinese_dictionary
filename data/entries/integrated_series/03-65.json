@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.474079+00:00",
+  "generated_at": "2026-06-28T15:14:38.942739+00:00",
   "id": "03-65",
   "schuessler": {
     "gsc_id": "03-65",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.608989+00:00",
+    "generated_at": "2026-06-28T15:13:57.838292+00:00",
     "id": "03-65",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "65",
       "schuessler_k_tokens": "742",
       "schuessler_source_page": "114",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -4666,7 +4667,7 @@
         "semantic_assignment": {
           "token": null,
           "abbreviation": "insect",
-          "position": "none",
+          "position": "suffix-colon",
           "inventory_matches": [
             {
               "graph_raw": "䖵",
@@ -4675,11 +4676,11 @@
               "start_line": 330
             }
           ],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_top_level",
           "semantic_component": "䖵"
         },
-        "transliteration_latex": "{\\large{maṅ₃}},",
-        "render_latex": "蝱\t%meng2\n{\\large{maṅ₃}},\n\\textit{maeṅ};\t%0742t",
+        "transliteration_latex": "{\\large{maṅ₃\\textsuperscript{˸insect}}},",
+        "render_latex": "蝱\t%meng2\n{\\large{maṅ₃\\textsuperscript{˸insect}}},\n\\textit{maeṅ};\t%0742t",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",

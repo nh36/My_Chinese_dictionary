@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.477175+00:00",
+  "generated_at": "2026-06-28T15:14:38.945172+00:00",
   "id": "08-07",
   "schuessler": {
     "gsc_id": "08-07",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-28T07:12:33.796706+00:00",
+    "generated_at": "2026-06-28T15:13:58.245483+00:00",
     "id": "08-07",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -250,11 +250,22 @@
         "supporting_sources": [
           "head_graph_oc_shengfu"
         ]
+      },
+      {
+        "character": "砉",
+        "gsr": null,
+        "oc_bs": "*kʷˤe {*[k]ʷˤe}",
+        "root": "kue",
+        "source": "phonetic_component_series_root",
+        "support_count": 2,
+        "supporting_sources": [
+          "phonetic_component_series_root"
+        ]
       }
     ],
     "resolved_series_root": {
       "root": "quek",
-      "source": "head_graph_oc_shengfu",
+      "source": "head_graph_mc_coda",
       "character": "砉",
       "oc_bs": "*qʷʰʳe̠ɡ",
       "confidence": "provisional-oc",

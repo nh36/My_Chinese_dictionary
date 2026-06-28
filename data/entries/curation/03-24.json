@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T05:53:57.589862+00:00",
+  "generated_at": "2026-06-28T15:13:58.001526+00:00",
   "id": "03-24",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "24",
     "schuessler_k_tokens": "708",
     "schuessler_source_page": "104",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1763,14 +1764,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "几",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "几"
       },
-      "transliteration_latex": "{\\large{qu\\textoverset{a}{a}ṅ}},",
-      "render_latex": "凰\t%huang2\n{\\large{qu\\textoverset{a}{a}ṅ}},\n\\textit{ḫwaṅ};\t%0708l",
+      "transliteration_latex": "{\\large{\\textsuperscript{几˸}qu\\textoverset{a}{a}ṅ}},",
+      "render_latex": "凰\t%huang2\n{\\large{\\textsuperscript{几˸}qu\\textoverset{a}{a}ṅ}},\n\\textit{ḫwaṅ};\t%0708l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

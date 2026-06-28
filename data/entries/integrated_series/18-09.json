@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.483106+00:00",
+  "generated_at": "2026-06-28T15:14:38.950757+00:00",
   "id": "18-09",
   "schuessler": {
     "gsc_id": "18-09",
@@ -186,7 +186,7 @@
   },
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-17T06:46:01.448358+00:00",
+    "generated_at": "2026-06-28T15:13:58.015434+00:00",
     "id": "18-09",
     "status": "machine-curated-pilot",
     "packet_kind": "existing_addendum",
@@ -210,8 +210,9 @@
       "series_number": "9",
       "schuessler_k_tokens": "4",
       "schuessler_source_page": "239",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "yes",
-      "tex_character_count": "32",
+      "tex_character_count": "33",
       "tex_characters_sample": "它; 㐌; 佗; 拕; 紽; 沱; 蛇; 鉈; 匜; 也",
       "mand2mc_row_count": "42",
       "mand2mc_character_count": "32",
@@ -400,138 +401,6 @@
       "4"
     ],
     "proposed_additions": [
-      {
-        "character": "𨠑",
-        "in_tex": false,
-        "mand2mc_count": 1,
-        "bs_gsr_count": 0,
-        "shengfu_character_count": 1,
-        "shengfu_component_count": 0,
-        "mand_bs_mc_disagreement": false,
-        "mc_resolution": {
-          "status": "mand2mc-authoritative",
-          "authoritative_source": "mand2mc",
-          "display_forms": [
-            "yie"
-          ],
-          "mand2mc_nwh_forms": [
-            "yie"
-          ],
-          "mand2mc_bs_forms": [
-            "ye"
-          ],
-          "bs_gsr_forms": [],
-          "bs_not_in_mand2mc": [],
-          "mand2mc_not_in_bs_gsr": [],
-          "needs_investigation": false
-        },
-        "mand2mc_rows": [
-          {
-            "source_row_number": "102",
-            "character": "𨠑",
-            "pinyin": "yi2",
-            "mc_nwh": "yie",
-            "mc_bs": "ye",
-            "gsr": "0004k'"
-          }
-        ],
-        "bs_gsr_rows": [],
-        "shengfu_character_rows": [
-          {
-            "source_row_number": "12836",
-            "character": "𨠑",
-            "phonetic_component": "它",
-            "component_level": "1",
-            "secondary_component": null,
-            "fanqie": "商支",
-            "source": "集韵",
-            "oc_initial": "l̥",
-            "oc_rhyme": "al",
-            "oc_syllable": "l̥al"
-          }
-        ],
-        "shengfu_component_rows": [],
-        "wiktionary_validation": {
-          "available": false,
-          "han_compound": null,
-          "han_compounds": []
-        },
-        "tex_occurrence_candidates": [
-          {
-            "character": "𨠑",
-            "entry_id": "18-09",
-            "source_line_number": 916,
-            "character_line_raw": "{\\includegraphics[width=4mm]{U+28811.png}}",
-            "raw_block": "{\\includegraphics[width=4mm]{U+28811.png}}\n\t%yi2",
-            "transliteration_latex": "%yi2",
-            "semantic_assignment": null,
-            "mc_forms": [],
-            "gsr_markers": [],
-            "pinyins": []
-          }
-        ],
-        "transliteration_latex": "{\\large{\\textsuperscript{vin·}lay}},",
-        "render_latex": "𨠑\t%yi2\n{\\large{\\textsuperscript{vin·}lay}},\n\\textit{yie};\t%0004k'",
-        "semantic_candidates_from_ids": [
-          {
-            "source": "ids_top_level",
-            "character": "𨠑",
-            "ids": "⿰酉㐌",
-            "phonetic_component": "它",
-            "semantic_component": "酉",
-            "position": "prefix-dot",
-            "abbreviation": "vin",
-            "inventory_matches": [
-              {
-                "graph_raw": "酉",
-                "label_token": "vin(um)",
-                "abbreviation": "vin",
-                "start_line": 439
-              },
-              {
-                "graph_raw": "酉",
-                "label_token": "vin",
-                "abbreviation": "vin",
-                "learned": true,
-                "evidence_count": 3
-              }
-            ]
-          }
-        ],
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "vin",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "酉",
-              "label_token": "vin(um)",
-              "abbreviation": "vin",
-              "start_line": 439
-            },
-            {
-              "graph_raw": "酉",
-              "label_token": "vin",
-              "abbreviation": "vin",
-              "learned": true,
-              "evidence_count": 3
-            }
-          ],
-          "source": "ids_top_level",
-          "semantic_component": "酉"
-        },
-        "wiktionary_semantic_validation": null,
-        "hierarchy_assignment": {
-          "status": "assigned-to-top-level",
-          "parent_character": "它",
-          "parent_display_line": null,
-          "parent_rhs_snippet": null,
-          "parent_kind": "top_level",
-          "source": "shengfu_phonetic_component",
-          "phonetic_hint": "它"
-        },
-        "resolved_node_root": null
-      },
       {
         "character": "舵",
         "in_tex": false,
@@ -2715,7 +2584,7 @@
       },
       {
         "character": "𨠑",
-        "in_tex": false,
+        "in_tex": true,
         "mand2mc_count": 1,
         "bs_gsr_count": 0,
         "shengfu_character_count": 1,
@@ -3768,14 +3637,7 @@
       "Use this file as the staging area for editorial decisions before any merge into main.tex."
     ],
     "series_root_candidates": [],
-    "resolved_series_root": {
-      "root": "la",
-      "source": "packet_shengfu_majority",
-      "character": null,
-      "oc_bs": null,
-      "confidence": "provisional-oc",
-      "supporting_characters": 2
-    }
+    "resolved_series_root": null
   },
   "provenance": [
     {

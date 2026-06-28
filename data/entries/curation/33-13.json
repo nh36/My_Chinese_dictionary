@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:46:15.641845+00:00",
+  "generated_at": "2026-06-28T15:13:57.972768+00:00",
   "id": "33-13",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "13",
     "schuessler_k_tokens": "455",
     "schuessler_source_page": "353",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -958,14 +959,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "臼",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "臼"
       },
-      "transliteration_latex": "{\\large{tyr}},",
-      "render_latex": "䢅\t%chen2\n{\\large{tyr}},\n\\textit{jin};\t%0455i",
+      "transliteration_latex": "{\\large{\\textsuperscript{臼˸}tyr}},",
+      "render_latex": "䢅\t%chen2\n{\\large{\\textsuperscript{臼˸}tyr}},\n\\textit{jin};\t%0455i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

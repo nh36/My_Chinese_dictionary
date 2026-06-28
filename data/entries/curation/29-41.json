@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.659911+00:00",
+  "generated_at": "2026-06-28T15:13:57.893943+00:00",
   "id": "29-41",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "41",
     "schuessler_k_tokens": "405",
     "schuessler_source_page": "328",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -2233,14 +2234,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "比",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "比"
       },
-      "transliteration_latex": "{\\large{pit₂}},",
-      "render_latex": "毖\t%bi4 / bì\n{\\large{pit₂}},\n\\textit{piyH};\t%0405k",
+      "transliteration_latex": "{\\large{\\textsuperscript{比˸}pit₂}},",
+      "render_latex": "毖\t%bi4 / bì\n{\\large{\\textsuperscript{比˸}pit₂}},\n\\textit{piyH};\t%0405k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -5967,9 +5968,10 @@
       "oc_bs": "*pit {*pi[t]}",
       "root": "pit",
       "source": "head_graph_oc_bs",
-      "support_count": 3,
+      "support_count": 5,
       "supporting_sources": [
-        "head_graph_oc_bs"
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
       ]
     }
   ],
@@ -5979,9 +5981,10 @@
     "character": "必",
     "oc_bs": "*pit {*pi[t]}",
     "confidence": "provisional-oc",
-    "support_count": 3,
+    "support_count": 5,
     "supporting_sources": [
-      "head_graph_oc_bs"
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
     ],
     "display_root": "pit₂",
     "division_class": "mixed",

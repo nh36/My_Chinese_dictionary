@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.480316+00:00",
+  "generated_at": "2026-06-28T15:14:38.948050+00:00",
   "id": "13-30",
   "schuessler": {
     "gsc_id": "13-30",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-17T06:46:01.445945+00:00",
+    "generated_at": "2026-06-28T15:13:58.013268+00:00",
     "id": "13-30",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "30",
       "schuessler_k_tokens": "1079",
       "schuessler_source_page": "200",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -2610,31 +2611,17 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
+        "transliteration_latex": "{\\large{lu₂}},",
+        "render_latex": "褏\t%you4\n{\\large{lu₂}},\n\\textit{yuwH};\t%1079n",
+        "wiktionary_semantic_validation": null,
         "semantic_assignment": {
           "token": null,
-          "abbreviation": "vest",
-          "position": "suffix-colon",
-          "inventory_matches": [
-            {
-              "graph_raw": "衣",
-              "label_token": "vest(imentum)",
-              "abbreviation": "vest",
-              "start_line": 434
-            },
-            {
-              "graph_raw": "衣",
-              "label_token": "vest",
-              "abbreviation": "vest",
-              "learned": true,
-              "evidence_count": 7
-            }
-          ],
-          "source": "packet_family_ids",
-          "semantic_component": "衣"
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
         },
-        "transliteration_latex": "{\\large{lu₂\\textsuperscript{˸vest}}},",
-        "render_latex": "褏\t%you4\n{\\large{lu₂\\textsuperscript{˸vest}}},\n\\textit{yuwH};\t%1079n",
-        "wiktionary_semantic_validation": null,
         "hierarchy_assignment": null,
         "resolved_node_root": null
       },

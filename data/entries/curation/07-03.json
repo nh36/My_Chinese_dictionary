@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T19:42:12.019824+00:00",
+  "generated_at": "2026-06-28T15:13:57.981797+00:00",
   "id": "07-03",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "3",
     "schuessler_k_tokens": "864",
     "schuessler_source_page": "145",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1721,14 +1722,14 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "匕",
+        "position": "prefix-dot",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "ids_component_literal_fallback",
         "semantic_component": "匕"
       },
-      "transliteration_latex": "{\\large{ke}},",
-      "render_latex": "𢺵\t%qi4\n{\\large{ke}},\n\\textit{khyieH};\t%0864f",
+      "transliteration_latex": "{\\large{\\textsuperscript{匕·}ke}},",
+      "render_latex": "𢺵\t%qi4\n{\\large{\\textsuperscript{匕·}ke}},\n\\textit{khyieH};\t%0864f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

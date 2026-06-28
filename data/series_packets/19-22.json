@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T05:53:57.481859+00:00",
+  "generated_at": "2026-06-28T15:13:26.813821+00:00",
   "gsc_id": "19-22",
   "packet_kind": "existing_addendum",
   "candidate_source_strategy": "tex_gsr_prefixes",
@@ -26,17 +26,18 @@
     "series_number": "22",
     "schuessler_k_tokens": "13",
     "schuessler_source_page": "248",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "yes",
-    "tex_character_count": "1",
-    "tex_characters_sample": "瑣",
+    "tex_character_count": "2",
+    "tex_characters_sample": "𧴪; 瑣",
     "mand2mc_row_count": "3",
     "mand2mc_character_count": "2",
     "mand2mc_characters_sample": "𧴪; 瑣",
-    "bs_gsr_row_count": "3",
-    "bs_gsr_character_count": "2",
-    "bs_gsr_characters_sample": "鎖; 瑣",
-    "combined_source_character_count": "3",
-    "combined_source_characters_sample": "𧴪; 瑣; 鎖"
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "瑣",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "𧴪; 瑣"
   },
   "tex_entry": {
     "id": "19-22",
@@ -46,7 +47,9 @@
       "type": "image",
       "raw": "\\includegraphics[width=9mm]{U+27D2A.png}",
       "heading_extra_raw": "",
-      "characters": [],
+      "characters": [
+        "𧴪"
+      ],
       "image_refs": [
         "U+27D2A.png"
       ]
@@ -61,9 +64,10 @@
         "arg": "0.7"
       }
     ],
-    "start_line": 1404,
-    "end_line": 1416,
+    "start_line": 1474,
+    "end_line": 1486,
     "chinese_characters": [
+      "𧴪",
       "瑣"
     ],
     "commented_pinyin": [
@@ -86,7 +90,7 @@
   "candidate_characters": [
     {
       "character": "𧴪",
-      "in_tex": false,
+      "in_tex": true,
       "mand2mc_rows": [
         {
           "source_row_number": "182",

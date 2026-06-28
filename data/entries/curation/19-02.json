@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T21:44:08.414942+00:00",
+  "generated_at": "2026-06-28T15:13:57.986239+00:00",
   "id": "19-02",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "2",
     "schuessler_k_tokens": "351",
     "schuessler_source_page": "244",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1844,14 +1845,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "吂",
+        "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "packet_family_component_literal_fallback",
         "semantic_component": "吂"
       },
-      "transliteration_latex": "{\\large{k\\textoverset{a}{o}r}},",
-      "render_latex": "臝\t%luo3 / luǒ\n{\\large{k\\textoverset{a}{o}r}},\n\\textit{lwaX};\t%0351i",
+      "transliteration_latex": "{\\large{\\textsuperscript{吂˸}k\\textoverset{a}{o}r}},",
+      "render_latex": "臝\t%luo3 / luǒ\n{\\large{\\textsuperscript{吂˸}k\\textoverset{a}{o}r}},\n\\textit{lwaX};\t%0351i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

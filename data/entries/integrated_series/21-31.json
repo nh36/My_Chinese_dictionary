@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.484234+00:00",
+  "generated_at": "2026-06-28T15:14:38.951822+00:00",
   "id": "21-31",
   "schuessler": {
     "gsc_id": "21-31",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-17T06:46:01.449377+00:00",
+    "generated_at": "2026-06-28T15:13:58.016476+00:00",
     "id": "21-31",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "31",
       "schuessler_k_tokens": "276",
       "schuessler_source_page": "262",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -2093,14 +2094,14 @@
         ],
         "semantic_assignment": {
           "token": null,
-          "abbreviation": null,
-          "position": "none",
+          "abbreviation": "盾",
+          "position": "prefix-dot",
           "inventory_matches": [],
-          "source": "nonlatin_generated_semantic_suppressed",
+          "source": "ids_component_literal_fallback",
           "semantic_component": "盾"
         },
-        "transliteration_latex": "{\\large{pot}},",
-        "render_latex": "瞂\t%fa2\n{\\large{pot}},\n\\textit{biət};\t%0276j",
+        "transliteration_latex": "{\\large{\\textsuperscript{盾·}pot}},",
+        "render_latex": "瞂\t%fa2\n{\\large{\\textsuperscript{盾·}pot}},\n\\textit{biət};\t%0276j",
         "wiktionary_semantic_validation": null,
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
@@ -2291,7 +2292,7 @@
               "start_line": 186
             }
           ],
-          "source": "packet_family_component_literal_fallback",
+          "source": "packet_family_ids",
           "semantic_component": "韋"
         },
         "transliteration_latex": "{\\large{\\textsuperscript{alut·}pot}},",

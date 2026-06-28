@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.486957+00:00",
+  "generated_at": "2026-06-28T15:14:38.954495+00:00",
   "id": "35-21",
   "schuessler": {
     "gsc_id": "35-21",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.703967+00:00",
+    "generated_at": "2026-06-28T15:13:57.953745+00:00",
     "id": "35-21",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,17 +42,18 @@
       "series_number": "21",
       "schuessler_k_tokens": "642",
       "schuessler_source_page": "370",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
-      "mand2mc_row_count": "29",
-      "mand2mc_character_count": "21",
-      "mand2mc_characters_sample": "去; 呿; 祛; 袪; 麮; 胠; 劫; 刧; 怯; 法",
-      "bs_gsr_row_count": "6",
-      "bs_gsr_character_count": "6",
-      "bs_gsr_characters_sample": "去; 劫; 法; 灋; 盍; 蓋",
-      "combined_source_character_count": "21",
-      "combined_source_characters_sample": "去; 呿; 祛; 袪; 麮; 胠; 劫; 刧; 怯; 法"
+      "mand2mc_row_count": "19",
+      "mand2mc_character_count": "15",
+      "mand2mc_characters_sample": "劫; 刧; 怯; 法; 灋; 盍; 盇; 嗑; 蓋; 葢",
+      "bs_gsr_row_count": "5",
+      "bs_gsr_character_count": "5",
+      "bs_gsr_characters_sample": "劫; 法; 灋; 盍; 蓋",
+      "combined_source_character_count": "15",
+      "combined_source_characters_sample": "劫; 刧; 怯; 法; 灋; 盍; 盇; 嗑; 蓋; 葢"
     },
     "tex_entry": null,
     "entry_hierarchy": null,
@@ -316,9 +317,17 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{k\\textoverset{b}{a}p\\textsuperscript{·cult}}},",
-        "render_latex": "刧\t%jie2\n{\\large{k\\textoverset{b}{a}p\\textsuperscript{·cult}}},\n\\textit{kiaep};\t%0642i",
+        "transliteration_latex": "{\\large{k\\textoverset{b}{a}p}},",
+        "render_latex": "刧\t%jie2\n{\\large{k\\textoverset{b}{a}p}},\n\\textit{kiaep};\t%0642i",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "劫",
@@ -327,21 +336,6 @@
           "parent_kind": "candidate",
           "source": "ids_parent_family_inference",
           "phonetic_hint": "劫"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "cult",
-          "position": "suffix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "刀",
-              "label_token": "cult(er)",
-              "abbreviation": "cult",
-              "start_line": 249
-            }
-          ],
-          "source": "parent_ids_semantic",
-          "semantic_component": "刀"
         },
         "resolved_node_root": null
       },
@@ -403,9 +397,17 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{\\textsuperscript{cor·}kap}},",
-        "render_latex": "怯\t%qie4\n{\\large{\\textsuperscript{cor·}kap}},\n\\textit{khiaep};\t%0642j",
+        "transliteration_latex": "{\\large{kap}},",
+        "render_latex": "怯\t%qie4\n{\\large{kap}},\n\\textit{khiaep};\t%0642j",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "盍",
@@ -414,28 +416,6 @@
           "parent_kind": "candidate",
           "source": "shengfu_phonetic_component",
           "phonetic_hint": "盍"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "cor",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "心",
-              "label_token": "cor",
-              "abbreviation": "cor",
-              "start_line": 239
-            },
-            {
-              "graph_raw": "心",
-              "label_token": "cor",
-              "abbreviation": "cor",
-              "learned": true,
-              "evidence_count": 13
-            }
-          ],
-          "source": "parent_ids_semantic",
-          "semantic_component": "心"
         },
         "resolved_node_root": null
       },
@@ -577,9 +557,17 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{\\textsuperscript{aq·}kap}},",
-        "render_latex": "法\t%fa3 / fǎ\n{\\large{\\textsuperscript{aq·}kap}},\n\\textit{piəp};\t%0642k",
+        "transliteration_latex": "{\\large{kap}},",
+        "render_latex": "法\t%fa3 / fǎ\n{\\large{kap}},\n\\textit{piəp};\t%0642k",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "盍",
@@ -588,28 +576,6 @@
           "parent_kind": "candidate",
           "source": "wiktionary_han_compound",
           "phonetic_hint": "盍"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "aq",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "水",
-              "label_token": "aq(ua)",
-              "abbreviation": "aq",
-              "start_line": 198
-            },
-            {
-              "graph_raw": "水",
-              "label_token": "aq",
-              "abbreviation": "aq",
-              "learned": true,
-              "evidence_count": 14
-            }
-          ],
-          "source": "parent_ids_semantic",
-          "semantic_component": "水"
         },
         "resolved_node_root": null
       },
@@ -755,9 +721,17 @@
         },
         "tex_occurrence_candidates": [],
         "semantic_candidates_from_ids": [],
-        "transliteration_latex": "{\\large{\\textsuperscript{aq·}kap}},",
-        "render_latex": "灋\t%fa3 / fǎ\n{\\large{\\textsuperscript{aq·}kap}},\n\\textit{piəp};\t%0642l",
+        "transliteration_latex": "{\\large{kap}},",
+        "render_latex": "灋\t%fa3 / fǎ\n{\\large{kap}},\n\\textit{piəp};\t%0642l",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-candidate-node",
           "parent_character": "盍",
@@ -766,28 +740,6 @@
           "parent_kind": "candidate",
           "source": "wiktionary_han_compound",
           "phonetic_hint": "盍"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": "aq",
-          "position": "prefix-dot",
-          "inventory_matches": [
-            {
-              "graph_raw": "水",
-              "label_token": "aq(ua)",
-              "abbreviation": "aq",
-              "start_line": 198
-            },
-            {
-              "graph_raw": "水",
-              "label_token": "aq",
-              "abbreviation": "aq",
-              "learned": true,
-              "evidence_count": 14
-            }
-          ],
-          "source": "parent_ids_semantic",
-          "semantic_component": "水"
         },
         "resolved_node_root": null
       },

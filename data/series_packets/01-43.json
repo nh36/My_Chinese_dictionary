@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.459008+00:00",
+  "generated_at": "2026-06-28T15:13:28.050981+00:00",
   "gsc_id": "01-43",
   "packet_kind": "existing_addendum",
   "candidate_source_strategy": "tex_gsr_prefixes",
@@ -26,9 +26,10 @@
     "series_number": "43",
     "schuessler_k_tokens": "83",
     "schuessler_source_page": "80",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "yes",
-    "tex_character_count": "12",
-    "tex_characters_sample": "予; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野; 埜",
+    "tex_character_count": "14",
+    "tex_characters_sample": "予; 𤊂; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野",
     "mand2mc_row_count": "16",
     "mand2mc_character_count": "12",
     "mand2mc_characters_sample": "予; 𨑦; 豫; 杼; 抒; 序; 芧; 紓; 舒; 野",
@@ -57,10 +58,11 @@
         "arg": "2"
       }
     ],
-    "start_line": 2545,
-    "end_line": 2595,
+    "start_line": 2615,
+    "end_line": 2665,
     "chinese_characters": [
       "予",
+      "𤊂",
       "豫",
       "杼",
       "抒",
@@ -70,6 +72,7 @@
       "舒",
       "野",
       "埜",
+      "𡐨",
       "㮊",
       "土"
     ],
@@ -108,7 +111,7 @@
       "0083m",
       "0083n"
     ],
-    "raw_block": "\\paragraph{\\textoversetlarge{01-43}{\\huge{予}}}\t\n{\\large{la}},\n%予\t%yu2\t\n\\textit{yiə},\t%yo\t0083a\n%予\t%yu3\t\n\\textit{yiəX};\t%yoX\t0083a\n{\\includegraphics[width=4mm]{U+24282.png}}\t\n{\\large{\\textsuperscript{amb·}la}},\n\\textit{ziə},\n豫\t %yu4\t\n{\\large{la\\textsuperscript{·elephant}}},\n\\textit{yiəH};\t%yoH\t0083e\n杼\t%zhu4\n{\\large{\\textsuperscript{arb·}la}},\n\\textit{ḍiəX},\t%drjoX\t0083f\n%杼\t%shu4\t\n\\textit{jiəH},\t%dzyoH\t0083f\n%杼\t%shu4\t\n\\textit{jiəX};\t%dzyoX\t0083f\n抒\t%shu1\t\n{\\large{\\textsuperscript{man·}la}},\n\\textit{jiəX};\t%dzyoX\t0083g\n序\t%xu4\t\n{\\large{\\textsuperscript{lax·}la}},\n\\textit{ziəX};\t%zjoX\t0083h\n芧\t%xu4\t\n{\\large{\\textsuperscript{herb·}la}},\n\\textit{ziəX};\t%zjoX\t0083i\n紓\t%shu1\n{\\large{\\textsuperscript{ser·}la}},\n\\textit{śiə},\t%syo\t0083j\n%紓\t%shu1\t\n\\textit{jiəX};\t%dzyoX\t0083j\n舒\t%shu1\t\n{\\large{\\textsuperscript{dom·}la}},\n\\textit{śiə};\t%syo\t0083k\n野\\footnote{I need to look into the relationship among \n野, {\\includegraphics[width=4mm]{U+21428.png}}, and 埜.}\t%ye3\t\n{\\large{\\textsuperscript{vic·}la}},\n\\textit{yiaeX};\t%yaeX\t0083l\n{\\includegraphics[width=4mm]{U+21428.png}}\n{\\large{\\textsuperscript{xxx·}la}},\n\t%ye3\t\n%⿱㮊土\n\\textit{yiaeX};\t%yaeX\t0083m\n埜\t%ye3\t\n{\\large{\\textsuperscript{xxx·}la}},\n\\textit{yiaeX}.\t%yaeX\t0083n\n\n\n"
+    "raw_block": "\\paragraph{\\textoversetlarge{01-43}{\\huge{予}}}\t\n{\\large{la}},\n%予\t%yu2\t\n\\textit{yiə},\t%yo\t0083a\n%予\t%yu3\t\n\\textit{yiəX};\t%yoX\t0083a\n{\\includegraphics[width=4mm]{U+24282.png}}\t\n{\\large{\\textsuperscript{amb·}la}},\n\\textit{ziə},\n豫\t %yu4\t\n{\\large{la\\textsuperscript{·elephant}}},\n\\textit{yiəH};\t%yoH\t0083e\n杼\t%zhu4\n{\\large{\\textsuperscript{arb·}la}},\n\\textit{ḍiəX},\t%drjoX\t0083f\n%杼\t%shu4\t\n\\textit{jiəH},\t%dzyoH\t0083f\n%杼\t%shu4\t\n\\textit{jiəX};\t%dzyoX\t0083f\n抒\t%shu1\t\n{\\large{\\textsuperscript{man·}la}},\n\\textit{jiəX};\t%dzyoX\t0083g\n序\t%xu4\t\n{\\large{\\textsuperscript{lax·}la}},\n\\textit{ziəX};\t%zjoX\t0083h\n芧\t%xu4\t\n{\\large{\\textsuperscript{herb·}la}},\n\\textit{ziəX};\t%zjoX\t0083i\n紓\t%shu1\n{\\large{\\textsuperscript{ser·}la}},\n\\textit{śiə},\t%syo\t0083j\n%紓\t%shu1\t\n\\textit{jiəX};\t%dzyoX\t0083j\n舒\t%shu1\t\n{\\large{\\textsuperscript{dom·}la}},\n\\textit{śiə};\t%syo\t0083k\n野\\footnote{I need to look into the relationship among \n野, {\\includegraphics[width=4mm]{U+21428.png}}, and 埜.}\t%ye3\t\n{\\large{\\textsuperscript{vic·}la}},\n\\textit{yiaeX};\t%yaeX\t0083l\n{\\includegraphics[width=4mm]{U+21428.png}}\n{\\large{\\textsuperscript{vic·}la}},\n\t%ye3\t\n%⿱㮊土\n\\textit{yiaeX};\t%yaeX\t0083m\n埜\t%ye3\t\n{\\large{\\textsuperscript{vic·}la}},\n\\textit{yiaeX}.\t%yaeX\t0083n\n\n\n"
   },
   "entry_hierarchy": {
     "top_level_head": "予",
@@ -823,7 +826,7 @@
     },
     {
       "character": "𡐨",
-      "in_tex": false,
+      "in_tex": true,
       "mand2mc_rows": [
         {
           "source_row_number": "676",

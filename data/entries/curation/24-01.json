@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:46.661144+00:00",
+  "generated_at": "2026-06-28T15:13:57.895369+00:00",
   "id": "24-01",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -23,6 +23,7 @@
     "series_number": "1",
     "schuessler_k_tokens": "139",
     "schuessler_source_page": "276",
+    "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
@@ -1783,14 +1784,14 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
+        "abbreviation": "㚣",
+        "position": "prefix-dot",
         "inventory_matches": [],
-        "source": "nonlatin_generated_semantic_suppressed",
+        "source": "packet_family_component_literal_fallback",
         "semantic_component": "㚣"
       },
-      "transliteration_latex": "{\\large{kar}},",
-      "render_latex": "姧\t%gan1\n{\\large{kar}},\n\\textit{kan};\t%0139d",
+      "transliteration_latex": "{\\large{\\textsuperscript{㚣·}kar}},",
+      "render_latex": "姧\t%gan1\n{\\large{\\textsuperscript{㚣·}kar}},\n\\textit{kan};\t%0139d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4773,6 +4774,21 @@
           ]
         }
       ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "eo",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "行",
+            "label_token": "eo",
+            "abbreviation": "eo",
+            "start_line": 266
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "行"
+      },
       "transliteration_latex": "{\\large{\\textsuperscript{eo·}kar}},",
       "render_latex": "衎\t%kan4\n{\\large{\\textsuperscript{eo·}kar}},\n\\textit{khanH};\t%0139p",
       "wiktionary_semantic_validation": {
@@ -4795,21 +4811,6 @@
           ],
           "template_raw": "{{Han compound|行|干|c1=s|c2=p|ls=psc}}"
         }
-      },
-      "semantic_assignment": {
-        "token": null,
-        "abbreviation": "eo",
-        "position": "prefix-dot",
-        "inventory_matches": [
-          {
-            "graph_raw": "行",
-            "label_token": "eo",
-            "abbreviation": "eo",
-            "start_line": 266
-          }
-        ],
-        "source": "wiktionary_han_compound",
-        "semantic_component": "行"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",

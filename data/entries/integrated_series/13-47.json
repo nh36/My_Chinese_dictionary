@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:47:07.480568+00:00",
+  "generated_at": "2026-06-28T15:14:38.948286+00:00",
   "id": "13-47",
   "schuessler": {
     "gsc_id": "13-47",
@@ -18,7 +18,7 @@
   "preferred_hand_entry": null,
   "pilot_entry": null,
   "curated_entry": {
-    "generated_at": "2026-06-16T15:05:46.633138+00:00",
+    "generated_at": "2026-06-28T15:13:57.857322+00:00",
     "id": "13-47",
     "status": "machine-curated-pilot",
     "packet_kind": "missing_series",
@@ -42,6 +42,7 @@
       "series_number": "47",
       "schuessler_k_tokens": "1114",
       "schuessler_source_page": "204",
+      "schuessler_cross_reference_only": "no",
       "in_tex": "no",
       "tex_character_count": "0",
       "tex_characters_sample": null,
@@ -942,6 +943,14 @@
         "transliteration_latex": "{\\large{mu}},",
         "render_latex": "劉\t%liu2 / liú\n{\\large{mu}},\n\\textit{liuw};\t%1114a'",
         "wiktionary_semantic_validation": null,
+        "semantic_assignment": {
+          "token": null,
+          "abbreviation": null,
+          "position": "none",
+          "inventory_matches": [],
+          "source": "same_series_variant",
+          "semantic_component": null
+        },
         "hierarchy_assignment": {
           "status": "assigned-to-top-level",
           "parent_character": "卯",
@@ -950,14 +959,6 @@
           "parent_kind": "top_level",
           "source": "wiktionary_han_compound",
           "phonetic_hint": "卯"
-        },
-        "semantic_assignment": {
-          "token": null,
-          "abbreviation": null,
-          "position": "none",
-          "inventory_matches": [],
-          "source": "generated_subseries_head",
-          "semantic_component": null
         },
         "resolved_node_root": {
           "root": "mu",
