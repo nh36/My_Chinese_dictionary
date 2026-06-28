@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 594
-- Packets with at least one root candidate: 593
-- Packets with a single resolved provisional root: 591
+- Missing-series packets inspected: 600
+- Packets with at least one root candidate: 599
+- Packets with a single resolved provisional root: 597
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -370,7 +370,13 @@
 | `12-08` | 重→toṅ [*m-troŋ {*[m]-troŋ}] (1188a) | `toṅ` | `head_graph_oc_bs` |
 | `12-09` | 同→loṅ [*lˤoŋ] (1176a) | `loṅ` | `head_graph_oc_bs` |
 | `12-10` | 用→loṅ [*m.loŋ-s] (1185a) | `loṅ` | `head_graph_oc_bs` |
+| `12-11` | 容→qoṅ [*ɢoŋ {*[ɢ](r)oŋ}] (1187a) | `qoṅ` | `head_graph_oc_bs` |
+| `12-12` | 舂→toṅ [*s-toŋ] (1192a) | `toṅ` | `head_graph_oc_bs` |
+| `12-13` | 公→qoṅ [*C.qˤoŋ] (1173a) | `qoṅ` | `head_graph_oc_bs` |
+| `12-14` | 弄→roṅ [*rˤoŋ-s {*[r]ˤoŋ-s}] (1180a) | `roṅ` | `head_graph_oc_bs` |
 | `12-15` | 龍→myṅ [*mə-roŋ {*[mə]-roŋ}] (1193a); 龍→moṅ [*mˤroŋ] (1193a) | `roṅ` | `packet_bs_majority` |
+| `12-16` | 茸→noṅ [*nʲoŋ] (None) | `noṅ` | `head_graph_oc_shengfu` |
+| `12-18` | 宂→noṅ [*nʲoŋʔ] (None) | `noṅ` | `head_graph_oc_shengfu` |
 | `12-19` | 囱→soṅ [*skʰo̠ŋ] (None) | `soṅ` | `same_character_series_root` |
 | `12-22` | 从→soṅ [*zoŋ] (None) | `soṅ` | `head_graph_oc_shengfu` |
 | `12-25` | 丰→poṅ [*pʰoŋ] (None) | `poṅ` | `head_graph_oc_shengfu` |

@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 793
+- Generated subgroup heads inspected: 797
 - Subgroups newly marked with `a`: 103
-- Subgroups newly marked with `b`: 92
+- Subgroups newly marked with `b`: 94
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 250
-- Mixed subgroups left unmarked: 344
+- Mixed subgroups left unmarked: 346
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -410,6 +410,10 @@
 | `12-10` | 甬 | `loṅ` | `loṅ₂` | `mixed` | no | `yiəwṅX, ziəwṅH, thuwṅX, thuwṅH, thuwṅ, duwṅ` | the extracted forms point to both type a and type b |
 | `12-10` | 勇 | `loṅ` | `l\textoverset{b}{o}ṅ` | `b` | yes | `yiəwṅX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `12-10` | 庸 | `loṅ` | `l\textoverset{b}{o}ṅ₂` | `b` | yes | `yiəwṅ, ṭhiəwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `12-11` | 容 | `qoṅ` | `q\textoverset{b}{o}ṅ` | `b` | yes | `yiəwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `12-12` | 舂 | `toṅ` | `toṅ` | `mixed` | no | `śiəwṅ, ṭhaewṅ, ṭhiəwṅH` | the extracted forms point to both type a and type b |
+| `12-13` | 公 | `qoṅ` | `qoṅ` | `mixed` | no | `kuwṅ, quwṅH, ziəwṅ, siuwṅ, ziəwṅH` | the extracted forms point to both type a and type b |
+| `12-13` | 松 | `qoṅ` | `q\textoverset{b}{o}ṅ₄` | `b` | yes | `ziəwṅ, siuwṅ` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `12-15` | 龍 | `roṅ` | `roṅ` | `mixed` | no | `liəwṅ, maewṅ, liəwṅX, luwṅ, luwṅX, ṭhiəwṅX` | the extracted forms point to both type a and type b |
 | `12-19` | 囱 | `soṅ` | `s\textoverset{a}{o}ṅ` | `a` | yes | `tṣhaewṅ, tshuwṅ, tsuwṅX` | all extracted forms lack an i-medial after the onset |
 | `12-19` | 匆 | `soṅ` | `s\textoverset{a}{o}ṅ₂` | `a` | yes | `tṣhaewṅ, tshuwṅ, tsuwṅ, tsuwṅX` | all extracted forms lack an i-medial after the onset |

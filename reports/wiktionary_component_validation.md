@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5091
-- Pages fetched / cached successfully: 5015
-- Additions with explicit Han-compound semantic/phonetic roles: 2381
+- Proposed additions checked: 5106
+- Pages fetched / cached successfully: 5030
+- Additions with explicit Han-compound semantic/phonetic roles: 2388
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2254,6 +2254,19 @@
 | `12-10` | 庸 | yes | yes | 庚 | 同 |
 | `12-10` | 傭 | yes | no |  |  |
 | `12-10` | 墉 | yes | no |  |  |
+| `12-11` | 容 | yes | yes | 宀 | 公 |
+| `12-11` | 溶 | yes | yes | 水 | 容 |
+| `12-11` | 蓉 | yes | no |  |  |
+| `12-12` | 舂 | yes | no |  |  |
+| `12-12` | 摏 | yes | no |  |  |
+| `12-12` | 憃 | yes | no |  |  |
+| `12-13` | 公 | yes | no |  |  |
+| `12-13` | 瓮 | yes | no |  |  |
+| `12-13` | 松 | yes | yes | 木 | 公 |
+| `12-13` | 訟 | yes | yes | 言 | 公 |
+| `12-13` | 頌 | yes | yes | 頁 | 公 |
+| `12-13` | 崧 | yes | yes | 山 | 松 |
+| `12-14` | 弄 | yes | no |  |  |
 | `12-15` | 龍 | yes | no |  |  |
 | `12-15` | 壟 | yes | yes | 土 | 龍 |
 | `12-15` | 隴 | yes | yes | 阜 | 龍 |
@@ -2264,6 +2277,8 @@
 | `12-15` | 聾 | yes | yes | 耳 | 龍 |
 | `12-15` | 蠪 | yes | no |  |  |
 | `12-15` | 寵 | yes | yes | 宀 | 龍 |
+| `12-16` | 茸 | yes | yes | 艸 | 聰 |
+| `12-18` | 宂 | yes | no |  |  |
 | `12-19` | 囱 | yes | no |  |  |
 | `12-19` | 匆 | yes | yes | 心 | 囪 |
 | `12-19` | 悤 | yes | no |  |  |

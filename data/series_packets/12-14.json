@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-28T08:12:12.721052+00:00",
+  "gsc_id": "12-14",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1180"
+  ],
+  "schuessler": {
+    "gsc_id": "12-14",
+    "rhyme_section": 12,
+    "series_number": 14,
+    "k_tokens": [
+      "1180"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.                                       OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 192,
+    "source_line_number": 29,
+    "source_line_raw": "12-14   = K. 1180      Man d.                                       OCM"
+  },
+  "coverage": {
+    "gsc_id": "12-14",
+    "rhyme_section": "12",
+    "series_number": "14",
+    "schuessler_k_tokens": "1180",
+    "schuessler_source_page": "192",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "弄",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "弄",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "弄"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "弄",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8649",
+          "character": "弄",
+          "pinyin": "nong4",
+          "mc_nwh": "luwṅH",
+          "mc_bs": "luwngH",
+          "gsr": "1180a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "179",
+          "character": "弄",
+          "pinyin": "nòng",
+          "mc_bs": "luwngH",
+          "mc_analyzed": "(l- + -uwng C)",
+          "oc_bs": "*rˤoŋ-s {*[r]ˤoŋ-s}",
+          "gloss": "manipulate, play with",
+          "gsr": "1180a",
+          "unicode_utf16": "U+5F04"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "10144",
+          "character": "弄",
+          "phonetic_component": "弄1",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "盧貢",
+          "source": "广韵",
+          "oc_initial": "ɡ‧r",
+          "oc_rhyme": "o̠ŋs",
+          "oc_syllable": "ɡ‧ro̠ŋs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "luwṅH"
+        ],
+        "mand2mc_nwh_forms": [
+          "luwṅH"
+        ],
+        "mand2mc_bs_forms": [
+          "luwngH"
+        ],
+        "bs_gsr_forms": [
+          "luwngH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "8649",
+        "character": "弄",
+        "pinyin": "nong4",
+        "mc_nwh": "luwṅH",
+        "mc_bs": "luwngH",
+        "gsr": "1180a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "179",
+        "character": "弄",
+        "pinyin": "nòng",
+        "mc_bs": "luwngH",
+        "mc_analyzed": "(l- + -uwng C)",
+        "oc_bs": "*rˤoŋ-s {*[r]ˤoŋ-s}",
+        "gloss": "manipulate, play with",
+        "gsr": "1180a",
+        "unicode_utf16": "U+5F04"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
