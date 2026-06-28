@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 997
-- Roots whose display label changed after document-wide renumbering: 576
-- Duplicate phonetic bases encountered in document order: 257
+- Mutable series/subseries roots inspected: 1003
+- Roots whose display label changed after document-wide renumbering: 582
+- Duplicate phonetic bases encountered in document order: 258
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -693,14 +693,20 @@
 | `13-39` | `series-root` | 秀 | `lu` | 10 | `lu₁₀` | yes |
 | `13-40` | `series-root` | 守 | `tu` | 8 | `tu₈` | yes |
 | `13-41` | `series-root` | 獸 | `tu` | 9 | `tu₉` | yes |
+| `13-42` | `series-root` | 手 | `nu` | 1 | `nu` | yes |
+| `13-43` | `series-root` | 老 | `ru` | 3 | `ru₃` | yes |
+| `13-44` | `series-root` | 牢 | `ru` | 4 | `ru₄` | yes |
 | `13-45` | `series-root` | 翏 | `riw` | 1 | `riw` | yes |
+| `13-46` | `series-root` | 流 | `ru` | 5 | `ru₅` | yes |
 | `13-47` | `series-root` | 卯 | `mu` | 1 | `mu` | yes |
 | `13-47` | `subseries-root` | 桺 | `mu` | 2 | `mu₂` | yes |
 | `13-47` | `subseries-root` | 劉 | `mu` | 3 | `mu₃` | yes |
 | `13-47` | `subseries-root` | 留 | `mu` | 4 | `mu₄` | yes |
-| `13-48` | `series-root` | 柔 | `nu` | 1 | `nu` | yes |
-| `13-50` | `series-root` | 丑 | `nu` | 2 | `nu₂` | yes |
-| `13-55` | `series-root` | 曹 | `tsu` | 1 | `tsu` | yes |
+| `13-48` | `series-root` | 柔 | `nu` | 2 | `nu₂` | yes |
+| `13-50` | `series-root` | 丑 | `nu` | 3 | `nu₃` | yes |
+| `13-51` | `series-root` | 早 | `tsu` | 1 | `tsu` | yes |
+| `13-52` | `series-root` | 屮 | `kat` | 1 | `kat` | yes |
+| `13-55` | `series-root` | 曹 | `tsu` | 2 | `tsu₂` | yes |
 | `13-57` | `series-root` | 秋 | `tsiw` | 1 | `tsiw` | yes |
 | `13-60` | `series-root` | 㕚 | `su` | 1 | `su` | yes |
 | `13-60` | `subseries-root` | 蚤 | `su` | 2 | `su₂` | yes |
@@ -816,8 +822,8 @@
 | `20-13` | `subseries-root` | 熱 | `ṅet` | 2 | `ṅet₂` | yes |
 | `20-16` | `series-root` | 敝 | `pet` | 1 | `pet` | yes |
 | `20-18` | `series-root` | 蔑 | `met` | 1 | `met` | yes |
-| `21-01` | `series-root` | 匃 | `kat` | 1 | `kat` | yes |
-| `21-01` | `subseries-root` | 曷 | `kat` | 2 | `kat₂` | yes |
+| `21-01` | `series-root` | 匃 | `kat` | 2 | `kat₂` | yes |
+| `21-01` | `subseries-root` | 曷 | `kat` | 3 | `kat₃` | yes |
 | `21-01` | `subseries-root` | 葛 | `k\textoverset{a}{a}t` | 1 | `k\textoverset{a}{a}t` | yes |
 | `21-12` | `series-root` | 大 | `lat` | 1 | `lat` | yes |
 | `21-12` | `subseries-root` | 太 | `l\textoverset{a}{a}t` | 1 | `l\textoverset{a}{a}t` | yes |

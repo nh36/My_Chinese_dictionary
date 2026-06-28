@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5207
-- Pages fetched / cached successfully: 5130
-- Additions with explicit Han-compound semantic/phonetic roles: 2420
+- Proposed additions checked: 5217
+- Pages fetched / cached successfully: 5139
+- Additions with explicit Han-compound semantic/phonetic roles: 2423
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2522,6 +2522,9 @@
 | `13-40` | 守 | yes | no |  |  |
 | `13-40` | 狩 | yes | yes | 犬 | 守 |
 | `13-41` | 獸 | yes | no |  |  |
+| `13-42` | 手 | yes | no |  |  |
+| `13-43` | 老 | yes | no |  |  |
+| `13-44` | 牢 | yes | no |  |  |
 | `13-45` | 翏 | yes | no |  |  |
 | `13-45` | 鏐 | yes | yes | 金 | 翏 |
 | `13-45` | 飂 | yes | no |  |  |
@@ -2542,6 +2545,9 @@
 | `13-45` | 僇 | yes | yes | 人 | 翏 |
 | `13-45` | 戮 | yes | yes | 戈 | 翏 |
 | `13-45` | 穋 | yes | no |  |  |
+| `13-46` | 流 | yes | yes | 水 | 㐬 |
+| `13-46` | 𣹳 | no | no |  |  |
+| `13-46` | 旒 | yes | no |  |  |
 | `13-47` | 卯 | yes | no |  |  |
 | `13-47` | 劉 | yes | yes | 金, 刀 | 卯 |
 | `13-47` | 懰 | yes | no |  |  |
@@ -2574,6 +2580,10 @@
 | `13-50` | 紐 | yes | yes | 糸 | 丑 |
 | `13-50` | 羞 | yes | yes | 羊 | 丑 |
 | `13-50` | 忸 | yes | no |  |  |
+| `13-51` | 早 | yes | yes | 日 | 棗 |
+| `13-51` | 草 | yes | yes | 艸 | 早 |
+| `13-52` | 屮 | yes | no |  |  |
+| `13-52` | 艸 | yes | no |  |  |
 | `13-55` | 曹 | yes | no |  |  |
 | `13-55` | 螬 | yes | no |  |  |
 | `13-55` | 漕 | yes | yes | 水 | 曹 |

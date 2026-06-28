@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 821
+- Generated subgroup heads inspected: 822
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 268
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 269
 - Mixed subgroups left unmarked: 349
 - Unresolved subgroups left unmarked: 4
 
@@ -474,6 +474,7 @@
 | `13-47` | 留 | `mu` | `mu₄` | `b` | no | `liuw, liuwH, liuwX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-48` | 柔 | `nu` | `nu` | `mixed` | no | `ñiuw, ñiuwH, ñiuwX, ṇiuwH, naw` | the extracted forms point to both type a and type b |
 | `13-50` | 丑 | `nu` | `nu` | `b` | no | `ṭhiuwX, ṇiuwX, siuw, ṇiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `13-51` | 早 | `tsu` | `tsu` | `a` | no | `tsawX, tshawX` | all extracted forms lack an i-medial after the onset |
 | `13-55` | 曹 | `tsu` | `tsu` | `a` | no | `dzaw, dzawH, tsaw` | all extracted forms lack an i-medial after the onset |
 | `13-57` | 秋 | `tsiw` | `tsiw` | `mixed` | no | `tshiuw, tsiuw, tsewX, dziuw, tṣiuwH, dẓiuw, dziuwX, tshiewX` | the extracted forms point to both type a and type b |
 | `13-60` | 蚤 | `su` | `su₂` | `mixed` | no | `tsawX, saw, sawX, tshawX, siuwX, tshek` | the extracted forms point to both type a and type b |
@@ -553,7 +554,7 @@
 | `20-16` | 敝 | `pet` | `pet` | `mixed` | no | `byieyH, pyieyH, pyiet, phyiet, bet` | the extracted forms point to both type a and type b |
 | `20-18` | 蔑 | `met` | `met` | `mixed` | no | `met, miət` | the extracted forms point to both type a and type b |
 | `21-01` | 匃 | `kat` | `kat` | `mixed` | no | `kayH, kat, hat, khat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
-| `21-01` | 曷 | `kat` | `kat₂` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
+| `21-01` | 曷 | `kat` | `kat₃` | `mixed` | no | `hat, khat, kat, qayH, giet, qaeyH, qat, khiet, khiət, giət, khieyH, kiət, khaet, khayH, hiət, qiət, qieyH` | the extracted forms point to both type a and type b |
 | `21-01` | 葛 | `kat` | `k\textoverset{a}{a}t` | `a` | yes | `kat, qayH` | all extracted forms lack an i-medial after the onset |
 | `21-12` | 大 | `lat` | `lat` | `mixed` | no | `daH, dayH, thayH, that, deyH, jieyH` | the extracted forms point to both type a and type b |
 | `21-12` | 太 | `lat` | `l\textoverset{a}{a}t` | `a` | yes | `thayH, dayH, that` | all extracted forms lack an i-medial after the onset |

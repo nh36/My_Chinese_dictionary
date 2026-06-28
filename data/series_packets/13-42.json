@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-06-28T10:23:26.337442+00:00",
+  "gsc_id": "13-42",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1101"
+  ],
+  "schuessler": {
+    "gsc_id": "13-42",
+    "rhyme_section": 13,
+    "series_number": 42,
+    "k_tokens": [
+      "1101"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "The OC initial consonant is uncertain, the default here is *hj-; the word could",
+    "is_cross_reference_only": false,
+    "source_page_number": 203,
+    "source_line_number": 17,
+    "source_line_raw": "13-42 = K. 1101 The OC initial consonant is uncertain, the default here is *hj-; the word could"
+  },
+  "coverage": {
+    "gsc_id": "13-42",
+    "rhyme_section": "13",
+    "series_number": "42",
+    "schuessler_k_tokens": "1101",
+    "schuessler_source_page": "203",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "手",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "手",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "手"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "手",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7945",
+          "character": "手",
+          "pinyin": "shou3",
+          "mc_nwh": "śiuwX",
+          "mc_bs": "syuwX",
+          "gsr": "1101a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "168",
+          "character": "手",
+          "pinyin": "shǒu",
+          "mc_bs": "syuwX",
+          "mc_analyzed": "(sy- + -juw B)",
+          "oc_bs": "*n̥uʔ",
+          "gloss": "hand",
+          "gsr": "1101a",
+          "unicode_utf16": "U+624B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12347",
+          "character": "手",
+          "phonetic_component": "手",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "書九",
+          "source": "广韵",
+          "oc_initial": "ml̥ʲ",
+          "oc_rhyme": "uʔ",
+          "oc_syllable": "ml̥ʲuʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12346",
+          "character": "杽",
+          "phonetic_component": "手",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "敕九",
+          "source": "集韵",
+          "oc_initial": "ml̥",
+          "oc_rhyme": "uʔ",
+          "oc_syllable": "ml̥uʔ"
+        },
+        {
+          "source_row_number": "12347",
+          "character": "手",
+          "phonetic_component": "手",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "書九",
+          "source": "广韵",
+          "oc_initial": "ml̥ʲ",
+          "oc_rhyme": "uʔ",
+          "oc_syllable": "ml̥ʲuʔ"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "śiuwX"
+        ],
+        "mand2mc_nwh_forms": [
+          "śiuwX"
+        ],
+        "mand2mc_bs_forms": [
+          "syuwX"
+        ],
+        "bs_gsr_forms": [
+          "syuwX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "7945",
+        "character": "手",
+        "pinyin": "shou3",
+        "mc_nwh": "śiuwX",
+        "mc_bs": "syuwX",
+        "gsr": "1101a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "168",
+        "character": "手",
+        "pinyin": "shǒu",
+        "mc_bs": "syuwX",
+        "mc_analyzed": "(sy- + -juw B)",
+        "oc_bs": "*n̥uʔ",
+        "gloss": "hand",
+        "gsr": "1101a",
+        "unicode_utf16": "U+624B"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
