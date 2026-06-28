@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 568
-- Proposed additions inspected: 4985
-- Additions with reusable semantic assignment from existing TeX: 4985
-- Additions with reusable transliteration LaTeX from existing TeX: 4985
-- Additions with reusable render block from existing TeX: 4985
-- Additions with IDS-derived semantic candidates: 3301
-- Additions with explicit Wiktionary Han-compound support: 2333
+- Curated entries inspected: 574
+- Proposed additions inspected: 5005
+- Additions with reusable semantic assignment from existing TeX: 5005
+- Additions with reusable transliteration LaTeX from existing TeX: 5005
+- Additions with reusable render block from existing TeX: 5005
+- Additions with IDS-derived semantic candidates: 3312
+- Additions with explicit Wiktionary Han-compound support: 2340
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4040
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 144
+- Additions assigned under generated candidate nodes: 4053
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 146
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -235,6 +235,7 @@
 | `05-38` | 5 | 5 | 5 | 5 |
 | `05-39` | 1 | 1 | 1 | 1 |
 | `06-01` | 5 | 5 | 5 | 5 |
+| `06-02` | 2 | 2 | 2 | 2 |
 | `06-03` | 1 | 1 | 1 | 1 |
 | `06-04` | 2 | 2 | 2 | 2 |
 | `06-05` | 10 | 10 | 10 | 10 |
@@ -255,15 +256,20 @@
 | `06-22` | 1 | 1 | 1 | 1 |
 | `06-23` | 6 | 6 | 6 | 6 |
 | `06-24` | 3 | 3 | 3 | 3 |
+| `07-02` | 1 | 1 | 1 | 1 |
 | `07-03` | 13 | 13 | 13 | 13 |
+| `07-04` | 1 | 1 | 1 | 1 |
 | `07-05` | 5 | 5 | 5 | 5 |
+| `07-06` | 9 | 9 | 9 | 9 |
 | `07-07` | 5 | 5 | 5 | 5 |
 | `07-08` | 27 | 27 | 27 | 27 |
+| `07-09` | 6 | 6 | 6 | 6 |
 | `07-10` | 4 | 4 | 4 | 4 |
 | `07-11` | 13 | 13 | 13 | 13 |
 | `07-12` | 17 | 17 | 17 | 17 |
 | `07-13` | 4 | 4 | 4 | 4 |
 | `07-14` | 18 | 18 | 18 | 18 |
+| `07-15` | 1 | 1 | 1 | 1 |
 | `07-16` | 1 | 1 | 1 | 1 |
 | `07-19` | 1 | 1 | 1 | 1 |
 | `07-20` | 11 | 11 | 11 | 11 |

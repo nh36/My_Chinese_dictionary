@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 4985
-- Pages fetched / cached successfully: 4912
-- Additions with explicit Han-compound semantic/phonetic roles: 2346
+- Proposed additions checked: 5005
+- Pages fetched / cached successfully: 4931
+- Additions with explicit Han-compound semantic/phonetic roles: 2353
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -1296,6 +1296,8 @@
 | `06-01` | 絚 | yes | no |  |  |
 | `06-01` | 緪 | yes | no |  |  |
 | `06-01` | 𡍷 | no | no |  |  |
+| `06-02` | 肎 | yes | no |  |  |
+| `06-02` | 肯 | yes | no |  |  |
 | `06-03` | 兢 | yes | no |  |  |
 | `06-04` | 弓 | yes | no |  |  |
 | `06-04` | 穹 | yes | yes | 穴 | 弓 |
@@ -1394,6 +1396,7 @@
 | `06-24` | 蠅 | yes | yes | 虫 | 黽 |
 | `06-24` | 繩 | yes | yes | 糸 | 黽 |
 | `06-24` | 黽 | yes | no |  |  |
+| `07-02` | 繼 | yes | yes | 糸 | 㡭 |
 | `07-03` | 支 | yes | no |  |  |
 | `07-03` | 枝 | yes | yes | 木 | 支 |
 | `07-03` | 肢 | yes | yes | 肉 | 支 |
@@ -1407,11 +1410,21 @@
 | `07-03` | 技 | yes | yes | 手 | 支 |
 | `07-03` | 芰 | yes | no |  |  |
 | `07-03` | 頍 | yes | no |  |  |
+| `07-04` | 企 | yes | no |  |  |
 | `07-05` | 只 | yes | no |  |  |
 | `07-05` | 胑 | yes | yes | 肉 | 只 |
 | `07-05` | 軹 | yes | yes | 車 | 只 |
 | `07-05` | 咫 | yes | yes | 尺 | 只 |
 | `07-05` | 枳 | yes | no |  |  |
+| `07-06` | 氏 | yes | no |  |  |
+| `07-06` | 坁 | yes | yes | 土 | 氏 |
+| `07-06` | 扺 | yes | no |  |  |
+| `07-06` | 舐 | yes | yes | 舌 | 氏 |
+| `07-06` | 疧 | yes | no |  |  |
+| `07-06` | 疷 | yes | no |  |  |
+| `07-06` | 祇 | yes | yes | 示 | 氏 |
+| `07-06` | 軝 | yes | no |  |  |
+| `07-06` | 紙 | yes | yes | 糸 | 氏 |
 | `07-07` | 解 | yes | no |  |  |
 | `07-07` | 懈 | yes | yes | 心 | 解 |
 | `07-07` | 繲 | yes | yes | 糸 | 解 |
@@ -1444,6 +1457,12 @@
 | `07-08` | 鼃 | yes | yes | 黽 | 圭 |
 | `07-08` | 蛙 | yes | yes | 虫 | 圭 |
 | `07-08` | 鞋 | yes | yes | 革 | 圭 |
+| `07-09` | 巂 | yes | no |  |  |
+| `07-09` | 𢥘 | no | no |  |  |
+| `07-09` | 攜 | yes | yes | 手 | 巂 |
+| `07-09` | 蠵 | yes | no |  |  |
+| `07-09` | 觿 | yes | yes | 角 | 巂 |
+| `07-09` | 鑴 | yes | no |  |  |
 | `07-10` | 規 | yes | no |  |  |
 | `07-10` | 瞡 | yes | no |  |  |
 | `07-10` | 窺 | yes | yes | 穴 | 規 |
@@ -1500,6 +1519,7 @@
 | `07-14` | 鯷 | yes | no |  |  |
 | `07-14` | 寔 | yes | no |  |  |
 | `07-14` | 湜 | yes | yes | 水 | 是 |
+| `07-15` | 卮 | yes | no |  |  |
 | `07-16` | 豸 | yes | no |  |  |
 | `07-19` | 豕 | yes | no |  |  |
 | `07-20` | 爾 | yes | no |  |  |

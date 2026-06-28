@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 901
-- Roots whose display label changed after document-wide renumbering: 501
-- Duplicate phonetic bases encountered in document order: 235
+- Mutable series/subseries roots inspected: 908
+- Roots whose display label changed after document-wide renumbering: 507
+- Duplicate phonetic bases encountered in document order: 236
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -395,14 +395,16 @@
 | `05-39` | `series-root` | 牧 | `myk` | 3 | `myk₃` | yes |
 | `06-01` | `series-root` | 亙 | `kyṅ` | 1 | `kyṅ` | yes |
 | `06-01` | `subseries-root` | 恆 | `kyṅ` | 2 | `kyṅ₂` | yes |
-| `06-03` | `series-root` | 兢 | `kyṅ` | 3 | `kyṅ₃` | yes |
+| `06-02` | `series-root` | 肎 | `kyṅ` | 3 | `kyṅ₃` | yes |
+| `06-02` | `subseries-root` | 肯 | `kyṅ` | 4 | `kyṅ₄` | yes |
+| `06-03` | `series-root` | 兢 | `kyṅ` | 5 | `kyṅ₅` | yes |
 | `06-04` | `series-root` | 弓 | `kuyṅ` | 1 | `kuyṅ` | yes |
 | `06-05` | `series-root` | 𠃋 | `kuyṅ` | 2 | `kuyṅ₂` | yes |
 | `06-05` | `subseries-root` | 弘 | `kuyṅ` | 3 | `kuyṅ₃` | yes |
 | `06-06` | `series-root` | 興 | `qyṅ` | 1 | `qyṅ` | yes |
 | `06-09` | `series-root` | 豋 | `tyṅ` | 1 | `tyṅ` | yes |
 | `06-09` | `subseries-root` | 登 | `tyṅ` | 2 | `tyṅ₂` | yes |
-| `06-10` | `series-root` | 氶 | `kyṅ` | 4 | `kyṅ₄` | yes |
+| `06-10` | `series-root` | 氶 | `kyṅ` | 6 | `kyṅ₆` | yes |
 | `06-10` | `subseries-root` | 丞 | `tyṅ` | 3 | `tyṅ₃` | yes |
 | `06-10` | `subseries-root` | 烝 | `tyṅ` | 4 | `tyṅ₄` | yes |
 | `06-11` | `series-root` | 徵 | `tyṅ` | 5 | `tyṅ₅` | yes |
@@ -427,21 +429,26 @@
 | `06-23` | `subseries-root` | 夢 | `myṅ` | 3 | `myṅ₃` | yes |
 | `06-24` | `series-root` | 蠅 | `ryṅ` | 3 | `ryṅ₃` | yes |
 | `06-24` | `subseries-root` | 黽 | `myṅ` | 4 | `myṅ₄` | yes |
+| `07-02` | `series-root` | 繼 | `kek` | 1 | `kek` | yes |
 | `07-03` | `series-root` | 支 | `ke` | 1 | `ke` | yes |
-| `07-05` | `series-root` | 只 | `ke` | 2 | `ke₂` | yes |
-| `07-07` | `series-root` | 解 | `ke` | 3 | `ke₃` | yes |
+| `07-04` | `series-root` | 企 | `ke` | 2 | `ke₂` | yes |
+| `07-05` | `series-root` | 只 | `ke` | 3 | `ke₃` | yes |
+| `07-06` | `series-root` | 氏 | `te` | 1 | `te` | yes |
+| `07-07` | `series-root` | 解 | `ke` | 4 | `ke₄` | yes |
 | `07-08` | `series-root` | 圭 | `kue` | 1 | `kue` | yes |
 | `07-08` | `subseries-root` | 洼 | `kue` | 2 | `kue₂` | yes |
 | `07-08` | `subseries-root` | 厓 | `ŋr\textoverset{a}{a}r` | 1 | `ŋr\textoverset{a}{a}r` | yes |
 | `07-08` | `subseries-root` | 卦 | `kue` | 3 | `kue₃` | yes |
+| `07-09` | `series-root` | 巂 | `ɡu` | 1 | `ɡu` | yes |
 | `07-10` | `series-root` | 規 | `kue` | 4 | `kue₄` | yes |
 | `07-11` | `series-root` | 兒 | `ṅe` | 1 | `ṅe` | yes |
 | `07-12` | `series-root` | 帝 | `tek` | 1 | `tek` | yes |
 | `07-12` | `subseries-root` | 啻 | `tek` | 2 | `tek₂` | yes |
 | `07-12` | `subseries-root` | 適 | `tek` | 3 | `tek₃` | yes |
-| `07-13` | `series-root` | 知 | `te` | 1 | `te` | yes |
-| `07-14` | `series-root` | 是 | `te` | 2 | `te₂` | yes |
-| `07-16` | `series-root` | 豸 | `te` | 3 | `te₃` | yes |
+| `07-13` | `series-root` | 知 | `te` | 2 | `te₂` | yes |
+| `07-14` | `series-root` | 是 | `te` | 3 | `te₃` | yes |
+| `07-15` | `series-root` | 卮 | `te` | 4 | `te₄` | yes |
+| `07-16` | `series-root` | 豸 | `te` | 5 | `te₅` | yes |
 | `07-19` | `series-root` | 豕 | `lay` | 1 | `lay` | yes |
 | `07-20` | `series-root` | 爾 | `ne` | 1 | `ne` | yes |
 | `07-20` | `subseries-root` | 彌 | `ne` | 2 | `ne₂` | yes |
@@ -453,7 +460,7 @@
 | `07-28` | `series-root` | 徙 | `s\textoverset{b}{a}y` | 1 | `s\textoverset{b}{a}y` | yes |
 | `07-29` | `series-root` | 卑 | `pe` | 1 | `pe` | yes |
 | `07-29` | `subseries-root` | 庳 | `pe` | 2 | `pe₂` | yes |
-| `08-01` | `series-root` | 毄 | `kek` | 1 | `kek` | yes |
+| `08-01` | `series-root` | 毄 | `kek` | 2 | `kek₂` | yes |
 | `08-02` | `series-root` | 鬲 | `rek` | 1 | `rek` | yes |
 | `08-03` | `series-root` | 覡 | `ɡek` | 1 | `ɡek` | yes |
 | `08-04` | `series-root` | 厄 | `qik` | 2 | `qik₂` | yes |

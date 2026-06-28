@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 552
-- Packets with at least one root candidate: 551
-- Packets with a single resolved provisional root: 547
+- Missing-series packets inspected: 558
+- Packets with at least one root candidate: 557
+- Packets with a single resolved provisional root: 553
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -220,6 +220,7 @@
 | `05-38` | 黑→myk [*m̥ʰɯ̠ɡ] (None) | `myk` | `head_graph_oc_shengfu` |
 | `05-39` | 牧→myk [*mək] (1037a) | `myk` | `head_graph_oc_bs` |
 | `06-01` | 亙→kyṅ [*kɯ̠ŋs] (None) | `kyṅ` | `head_graph_oc_shengfu` |
+| `06-02` | 肎→kyṅ [*kʰɯ̠ŋʔ] (None) | `kyṅ` | `same_character_series_root` |
 | `06-03` | 兢→kyṅ [*kəŋ {*k(r)əŋ}] (0888a) | `kyṅ` | `head_graph_oc_bs` |
 | `06-04` | 弓→kuyṅ [*kʷəŋ] (0901a) | `kuyṅ` | `head_graph_oc_bs` |
 | `06-05` | 𠃋→kuyṅ [*kʷˤəŋ {*[k]ʷˤəŋ}] (0887a) | `kuyṅ` | `head_graph_oc_bs` |
@@ -240,15 +241,20 @@
 | `06-22` | 凭→pyṅ [*bʳɯŋ] (None) | `pyṅ` | `head_graph_oc_shengfu` |
 | `06-23` | 夢→myṅ [*C.məŋ-s] (0902a) | `myṅ` | `head_graph_oc_bs` |
 | `06-24` | 蠅→ryṅ [*m.rəŋ] (0892a) | `ryṅ` | `head_graph_oc_bs` |
+| `07-02` | 繼→kek [*ke̠ɡs] (None) | `kek` | `head_graph_oc_shengfu` |
 | `07-03` | 支→ke [*ke] (0864a) | `ke` | `head_graph_oc_bs` |
+| `07-04` | 企→ke [*kʰeʔ] (None) | `ke` | `head_graph_oc_shengfu` |
 | `07-05` | 只→ke [*kʲe] (None) | `ke` | `head_graph_oc_shengfu` |
+| `07-06` | 氏→te [*k.deʔ] (0867a) | `te` | `head_graph_oc_bs` |
 | `07-07` | 解→ke [*N.kˤreʔ {*N-kˤreʔ}] (0861a) | `ke` | `head_graph_oc_bs` |
 | `07-08` | 圭→kue [*kʷˤe {*[k]ʷˤe}] (0879a) | `kue` | `head_graph_oc_bs` |
+| `07-09` | 巂→so [*sqʰolʔ] (None); 巂→qu [*ɢu̠l] (None) | `ɡu` | `packet_shengfu_majority` |
 | `07-10` | 規→kue [*kʷe] (0875a) | `kue` | `head_graph_oc_bs` |
 | `07-11` | 兒→ṅe [*ŋe] (0873a) | `ṅe` | `head_graph_oc_bs` |
 | `07-12` | 帝→tek [*tˤek-s] (0877a) | `tek` | `head_graph_oc_bs` |
 | `07-13` | 知→te [*tre] (0863a) | `te` | `head_graph_oc_bs` |
 | `07-14` | 是→te [*deʔ {*[d]eʔ}] (0866a) | `te` | `head_graph_oc_bs` |
+| `07-15` | 卮→te [*tje] (None) | `te` | `same_character_series_root` |
 | `07-16` | 豸→te [*dreʔ {*[d]reʔ}] (1238b); 豸→ɡle [*ɡleʔ] (None) | `te` | `head_graph_bs_head` |
 | `07-19` | 豕→lay [*l̥ajʔ] (1238f); 豕→le [*l̥elʔ] (None) | `lay` | `head_graph_bs_head` |
 | `07-20` | 爾→ne [*nˤeʔ {*nˤe(j)ʔ}] (0359a) | `ne` | `head_graph_oc_bs` |
