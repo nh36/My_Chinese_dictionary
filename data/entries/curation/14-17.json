@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-06-28T12:20:11.679213+00:00",
+  "id": "14-17",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "14-17",
+    "rhyme_section": 14,
+    "series_number": 17,
+    "k_tokens": [
+      "1033"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.       MC           LHan      OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 213,
+    "source_line_number": 19,
+    "source_line_raw": "14-17 = K. 1033      Mand.       MC           LHan      OCM"
+  },
+  "coverage": {
+    "gsc_id": "14-17",
+    "rhyme_section": "14",
+    "series_number": "17",
+    "schuessler_k_tokens": "1033",
+    "schuessler_source_page": "213",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "肉",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "肉",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "肉"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1033"
+  ],
+  "proposed_additions": [
+    {
+      "character": "肉",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiuwH",
+          "ñiuwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiuwH",
+          "ñiuwk"
+        ],
+        "mand2mc_bs_forms": [
+          "nyuwH",
+          "nyuwk"
+        ],
+        "bs_gsr_forms": [
+          "nyuwk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "nyuwH"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7548",
+          "character": "肉",
+          "pinyin": "rou4",
+          "mc_nwh": "ñiuwH",
+          "mc_bs": "nyuwH",
+          "gsr": "1033a"
+        },
+        {
+          "source_row_number": "7549",
+          "character": "肉",
+          "pinyin": "rou4",
+          "mc_nwh": "ñiuwk",
+          "mc_bs": "nyuwk",
+          "gsr": "1033a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "161",
+          "character": "肉",
+          "pinyin": "ròu",
+          "mc_bs": "nyuwk",
+          "mc_analyzed": "(ny- + -juwk D)",
+          "oc_bs": "*k.nuk",
+          "gloss": "meat, flesh",
+          "gsr": "1033a",
+          "unicode_utf16": "U+8089"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11492",
+          "character": "肉",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "如六",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nʲuɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "11491",
+          "character": "朒",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "女六",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nuɡ"
+        },
+        {
+          "source_row_number": "11492",
+          "character": "肉",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "如六",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nʲuɡ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{nuk}},",
+      "render_latex": "肉\t%rou4 / ròu\n{\\large{nuk}},\n\\textit{ñiuwH};\t%1033a\n\\textit{ñiuwk};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "肉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "肉"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "肉",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiuwH",
+          "ñiuwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiuwH",
+          "ñiuwk"
+        ],
+        "mand2mc_bs_forms": [
+          "nyuwH",
+          "nyuwk"
+        ],
+        "bs_gsr_forms": [
+          "nyuwk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "nyuwH"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7548",
+          "character": "肉",
+          "pinyin": "rou4",
+          "mc_nwh": "ñiuwH",
+          "mc_bs": "nyuwH",
+          "gsr": "1033a"
+        },
+        {
+          "source_row_number": "7549",
+          "character": "肉",
+          "pinyin": "rou4",
+          "mc_nwh": "ñiuwk",
+          "mc_bs": "nyuwk",
+          "gsr": "1033a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "161",
+          "character": "肉",
+          "pinyin": "ròu",
+          "mc_bs": "nyuwk",
+          "mc_analyzed": "(ny- + -juwk D)",
+          "oc_bs": "*k.nuk",
+          "gloss": "meat, flesh",
+          "gsr": "1033a",
+          "unicode_utf16": "U+8089"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11492",
+          "character": "肉",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "如六",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nʲuɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "11491",
+          "character": "朒",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "女六",
+          "source": "广韵",
+          "oc_initial": "n",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nuɡ"
+        },
+        {
+          "source_row_number": "11492",
+          "character": "肉",
+          "phonetic_component": "肉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "如六",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "nʲuɡ"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "肉",
+      "gsr": "1033a",
+      "oc_bs": "*k.nuk",
+      "root": "nuk",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "nuk",
+    "source": "head_graph_oc_bs",
+    "character": "肉",
+    "oc_bs": "*k.nuk",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "nuk",
+    "base_root": "nuk",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

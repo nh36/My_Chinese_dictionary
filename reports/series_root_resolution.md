@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 672
-- Packets with at least one root candidate: 671
-- Packets with a single resolved provisional root: 669
+- Missing-series packets inspected: 678
+- Packets with at least one root candidate: 677
+- Packets with a single resolved provisional root: 675
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -474,9 +474,15 @@
 | `14-14` | 賣→me [*mʳe̠s] (None); 賣→ray [*C.raj-s] (None) | `me` | `head_graph_shengfu_head` |
 | `14-15` | 畜→quk [*qʰ<r>uk-s] (1018a) | `quk` | `head_graph_oc_bs` |
 | `14-16` | 六→ruk [*k.ruk] (1032a) | `ruk` | `head_graph_oc_bs` |
+| `14-17` | 肉→nuk [*k.nuk] (1033a) | `nuk` | `head_graph_oc_bs` |
 | `14-18` | 尗→tuk [*s.tuk] (1031a) | `tuk` | `head_graph_oc_bs` |
+| `14-19` | 鼀→suk [*skʰluɡ] (None) | `suk` | `head_graph_oc_shengfu` |
+| `14-20` | 宿→suk [*suk-s {*[s]uk-s}] (1029a) | `suk` | `head_graph_oc_bs` |
+| `14-21` | 夙→suk [*suk {*[s]uk}] (1030a) | `suk` | `head_graph_oc_bs` |
 | `14-22` | 肅→sik [*siwk] (1028a) | `sik` | `head_graph_oc_bs` |
 | `14-23` | 复→puk [*m-puk {*m-p(r)uk}] (1034a) | `puk` | `head_graph_oc_bs` |
+| `14-24` | 目→muk [*C.muk {*C.m(r)[u]k}] (1036a) | `muk` | `head_graph_oc_bs` |
+| `14-25` | 穆→mik [*miwk {*m(r)iwk}] (1035a) | `mik` | `head_graph_oc_bs` |
 | `15-06` | 中→tuṅ [*truŋ] (1007a) | `tuṅ` | `head_graph_oc_bs` |
 | `15-09` | 農→noṅ [*nˤoŋ {*nˤ[o]ŋ}] (1005a) | `noṅ` | `head_graph_oc_bs` |
 | `16-01` | 高→kaw [*Cə.kˤaw {*Cə.[k]ˤaw}] (1129a) | `kaw` | `head_graph_oc_bs` |

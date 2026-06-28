@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 838
+- Generated subgroup heads inspected: 840
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 280
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 282
 - Mixed subgroups left unmarked: 353
 - Unresolved subgroups left unmarked: 5
 
@@ -511,6 +511,8 @@
 | `14-18` | 尗 | `tuk` | `tuk` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew, tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |
 | `14-18` | 叔 | `tuk` | `tuk₇` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew` | the extracted forms point to both type a and type b |
 | `14-18` | 戚 | `tsik` | `tsik₂` | `mixed` | no | `tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |
+| `14-19` | 竈 | `suk` | `suk₂` | `a` | no | `tsawH` | all extracted forms lack an i-medial after the onset |
+| `14-20` | 宿 | `suk` | `suk` | `b` | no | `siuwH, siuwk, ṣiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-22` | 肅 | `sik` | `sik` | `mixed` | no | `siuwk, ṣiuw, siuwH, sewH, sew` | the extracted forms point to both type a and type b |
 | `14-22` | 蕭 | `sik` | `sik₂` | `a` | no | `sew` | all extracted forms lack an i-medial after the onset |
 | `14-23` | 复 | `puk` | `puk` | `b` | no | `biuwk, biuwH, phiuwH, phiuwk, piuwk, bik` | all extracted forms show an i-medial or a dedicated palatal onset |

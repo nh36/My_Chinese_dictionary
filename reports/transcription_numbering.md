@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1034
-- Roots whose display label changed after document-wide renumbering: 607
-- Duplicate phonetic bases encountered in document order: 262
+- Mutable series/subseries roots inspected: 1041
+- Roots whose display label changed after document-wide renumbering: 612
+- Duplicate phonetic bases encountered in document order: 263
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -755,13 +755,20 @@
 | `14-15` | `series-root` | 畜 | `quk` | 4 | `quk₄` | yes |
 | `14-16` | `series-root` | 六 | `ruk` | 1 | `ruk` | yes |
 | `14-16` | `subseries-root` | 坴 | `ruk` | 2 | `ruk₂` | yes |
+| `14-17` | `series-root` | 肉 | `nuk` | 1 | `nuk` | yes |
 | `14-18` | `series-root` | 尗 | `tuk` | 6 | `tuk₆` | yes |
 | `14-18` | `subseries-root` | 叔 | `tuk` | 7 | `tuk₇` | yes |
 | `14-18` | `subseries-root` | 戚 | `tsik` | 2 | `tsik₂` | yes |
+| `14-19` | `series-root` | 鼀 | `suk` | 1 | `suk` | yes |
+| `14-19` | `subseries-root` | 竈 | `suk` | 2 | `suk₂` | yes |
+| `14-20` | `series-root` | 宿 | `suk` | 3 | `suk₃` | yes |
+| `14-21` | `series-root` | 夙 | `suk` | 4 | `suk₄` | yes |
 | `14-22` | `series-root` | 肅 | `sik` | 1 | `sik` | yes |
 | `14-22` | `subseries-root` | 蕭 | `sik` | 2 | `sik₂` | yes |
 | `14-23` | `series-root` | 复 | `puk` | 2 | `puk₂` | yes |
 | `14-23` | `subseries-root` | 復 | `puk` | 3 | `puk₃` | yes |
+| `14-24` | `series-root` | 目 | `muk` | 3 | `muk₃` | yes |
+| `14-25` | `series-root` | 穆 | `mik` | 3 | `mik₃` | yes |
 | `15-06` | `series-root` | 中 | `tuṅ` | 1 | `tuṅ` | yes |
 | `15-09` | `series-root` | 農 | `noṅ` | 3 | `noṅ₃` | yes |
 | `16-01` | `series-root` | 高 | `k\textoverset{a}{a}w` | 1 | `k\textoverset{a}{a}w` | yes |

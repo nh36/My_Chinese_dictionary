@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5290
-- Pages fetched / cached successfully: 5213
-- Additions with explicit Han-compound semantic/phonetic roles: 2449
+- Proposed additions checked: 5300
+- Pages fetched / cached successfully: 5223
+- Additions with explicit Han-compound semantic/phonetic roles: 2452
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2762,6 +2762,7 @@
 | `14-16` | 陸 | yes | yes | 阜 | 坴 |
 | `14-16` | 稑 | yes | yes | 禾 | 坴 |
 | `14-16` | 睦 | yes | yes | 目 | 坴 |
+| `14-17` | 肉 | yes | no |  |  |
 | `14-18` | 尗 | yes | no |  |  |
 | `14-18` | 叔 | yes | yes | 又 | 尗 |
 | `14-18` | 𣢰 | no | no |  |  |
@@ -2781,6 +2782,13 @@
 | `14-18` | 顣 | yes | no |  |  |
 | `14-18` | 慼 | yes | no |  |  |
 | `14-18` | 鏚 | yes | no |  |  |
+| `14-19` | 鼀 | yes | no |  |  |
+| `14-19` | 灶 | yes | no |  |  |
+| `14-19` | 竈 | yes | no |  |  |
+| `14-20` | 宿 | yes | no |  |  |
+| `14-20` | 縮 | yes | yes | 糸 | 宿 |
+| `14-20` | 蹜 | yes | yes | 足 | 宿 |
+| `14-21` | 夙 | yes | no |  |  |
 | `14-22` | 肅 | yes | no |  |  |
 | `14-22` | 鱐 | yes | no |  |  |
 | `14-22` | 䐹 | yes | no |  |  |
@@ -2799,6 +2807,8 @@
 | `14-23` | 蝮 | yes | no |  |  |
 | `14-23` | 愎 | yes | no |  |  |
 | `14-23` | 覆 | yes | yes | 襾 | 復 |
+| `14-24` | 目 | yes | no |  |  |
+| `14-25` | 穆 | yes | yes | 禾 | 㣎 |
 | `15-06` | 中 | yes | no |  |  |
 | `15-06` | 仲 | yes | yes | 人 | 中 |
 | `15-06` | 衷 | yes | yes | 衣 | 中 |
