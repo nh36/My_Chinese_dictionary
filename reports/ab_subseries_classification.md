@@ -1,8 +1,8 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 857
+- Generated subgroup heads inspected: 858
 - Subgroups newly marked with `a`: 108
-- Subgroups newly marked with `b`: 95
+- Subgroups newly marked with `b`: 96
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 289
 - Mixed subgroups left unmarked: 360
 - Unresolved subgroups left unmarked: 5
@@ -553,6 +553,7 @@
 | `16-15` | 刀 | `taw` | `taw` | `mixed` | no | `taw, tew, thaw, ḍiewH, jiewX, jiew, dew, daw, ṭhiew, chiew, yiew, ciew, ciewX, ciewH, chiewX` | the extracted forms point to both type a and type b |
 | `16-15` | 召 | `taw` | `taw₂` | `mixed` | no | `ḍiewH, jiewX, jiew, tew, dew, daw, ṭhiew, chiew, yiew, ciew, ciewX, ciewH, chiewX` | the extracted forms point to both type a and type b |
 | `16-15` | 昭 | `taw` | `t\textoverset{b}{a}w` | `b` | yes | `jiew, ciew, ciewX, ciewH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `16-17` | 朝 | `traw` | `tr\textoverset{b}{a}w` | `b` | yes | `ḍiew, ṭiew` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-20` | 兆 | `law` | `law` | `mixed` | no | `ḍiewX, yiew, dew, thew, tshiew, thewH, dewX, thaw, daw, dawX` | the extracted forms point to both type a and type b |
 | `16-21` | 䍃 | `law` | `l\textoverset{b}{a}w` | `b` | yes | `yiew, yiewH, ḍiuwH, yuw` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-21` | 繇 | `law` | `l\textoverset{b}{a}w₂` | `b` | yes | `ḍiuwH, yiew, yuw` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -561,8 +562,8 @@
 | `16-30` | 澡 | `saw` | `s\textoverset{a}{a}w₂` | `a` | yes | `tsawX` | all extracted forms lack an i-medial after the onset |
 | `16-31` | 焦 | `sew` | `sew` | `mixed` | no | `tsiew, dziew, tsiewH, dziewH, tsiuw, tṣaewk` | the extracted forms point to both type a and type b |
 | `16-33` | 小 | `sew` | `sew` | `b` | no | `siewX, śiewH, śiewX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `16-33` | 削 | `sew` | `sew₄` | `mixed` | no | `siak, siewH, ṣaewH, sew, ṣaew, ṣaewk` | the extracted forms point to both type a and type b |
-| `16-33` | 肖 | `sew` | `sew₃` | `mixed` | no | `siew, siewH, ṣaew, siak, ṣaewH, sew, ṣaewk, tshiewH, tshiewX, dziewH, dewX, ḍiewX` | the extracted forms point to both type a and type b |
+| `16-33` | 削 | `sew` | `sew₅` | `mixed` | no | `siak, siewH, ṣaewH, sew, ṣaew, ṣaewk` | the extracted forms point to both type a and type b |
+| `16-33` | 肖 | `sew` | `sew₄` | `mixed` | no | `siew, siewH, ṣaew, siak, ṣaewH, sew, ṣaewk, tshiewH, tshiewX, dziewH, dewX, ḍiewX` | the extracted forms point to both type a and type b |
 | `16-39` | 𤐫 | `pew` | `pew₃` | `b` | no | `phyiew, phyiewH, pyiew` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `16-39` | 票 | `pew` | `pew₂` | `mixed` | no | `phyiew, phyiewH, pyiew, phyiewX, byiew, byiewX, phaew, phew` | the extracted forms point to both type a and type b |
 | `16-41` | 毛 | `maw` | `m\textoverset{a}{a}w` | `a` | yes | `maw, mawH, maewk, mak, hawH` | all extracted forms lack an i-medial after the onset |

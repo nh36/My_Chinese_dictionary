@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1068
-- Roots whose display label changed after document-wide renumbering: 626
-- Duplicate phonetic bases encountered in document order: 268
+- Mutable series/subseries roots inspected: 1074
+- Roots whose display label changed after document-wide renumbering: 630
+- Duplicate phonetic bases encountered in document order: 271
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -815,17 +815,23 @@
 | `16-15` | `subseries-root` | 召 | `taw` | 2 | `taw₂` | yes |
 | `16-15` | `subseries-root` | 昭 | `t\textoverset{b}{a}w` | 1 | `t\textoverset{b}{a}w` | yes |
 | `16-16` | `series-root` | 盜 | `taw` | 3 | `taw₃` | yes |
-| `16-20` | `series-root` | 兆 | `law` | 1 | `law` | yes |
+| `16-17` | `series-root` | 朝 | `t\textoverset{b}{a}w` | 2 | `t\textoverset{b}{a}w₂` | yes |
+| `16-18` | `series-root` | 肇 | `law` | 1 | `law` | yes |
+| `16-19` | `series-root` | 鼂 | `tew` | 1 | `tew` | yes |
+| `16-20` | `series-root` | 兆 | `law` | 2 | `law₂` | yes |
 | `16-21` | `series-root` | 䍃 | `l\textoverset{b}{a}w` | 1 | `l\textoverset{b}{a}w` | yes |
 | `16-21` | `subseries-root` | 繇 | `l\textoverset{b}{a}w` | 2 | `l\textoverset{b}{a}w₂` | yes |
+| `16-22` | `series-root` | 少 | `sew` | 1 | `sew` | yes |
+| `16-23` | `series-root` | 勞 | `raw` | 1 | `raw` | yes |
 | `16-24` | `series-root` | 𤋯 | `rew` | 1 | `rew` | yes |
 | `16-24` | `subseries-root` | 尞 | `rew` | 2 | `rew₂` | yes |
+| `16-26` | `series-root` | 窅 | `qew` | 2 | `qew₂` | yes |
 | `16-30` | `series-root` | 喿 | `s\textoverset{a}{a}w` | 1 | `s\textoverset{a}{a}w` | yes |
 | `16-30` | `subseries-root` | 澡 | `s\textoverset{a}{a}w` | 2 | `s\textoverset{a}{a}w₂` | yes |
-| `16-31` | `series-root` | 焦 | `sew` | 1 | `sew` | yes |
-| `16-33` | `series-root` | 小 | `sew` | 2 | `sew₂` | yes |
-| `16-33` | `subseries-root` | 肖 | `sew` | 3 | `sew₃` | yes |
-| `16-33` | `subseries-root` | 削 | `sew` | 4 | `sew₄` | yes |
+| `16-31` | `series-root` | 焦 | `sew` | 2 | `sew₂` | yes |
+| `16-33` | `series-root` | 小 | `sew` | 3 | `sew₃` | yes |
+| `16-33` | `subseries-root` | 肖 | `sew` | 4 | `sew₄` | yes |
+| `16-33` | `subseries-root` | 削 | `sew` | 5 | `sew₅` | yes |
 | `16-39` | `series-root` | 𤐫 | `pew` | 1 | `pew` | yes |
 | `16-39` | `subseries-root` | 票 | `pew` | 2 | `pew₂` | yes |
 | `16-39` | `subseries-root` | 𤐫 | `pew` | 3 | `pew₃` | yes |

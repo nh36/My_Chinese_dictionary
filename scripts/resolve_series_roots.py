@@ -676,6 +676,11 @@ def resolve_root(
         )
     if not candidates:
         return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
+    supplement_candidates = [
+        candidate for candidate in candidates if candidate.get("source") == "head_graph_supplement"
+    ]
+    if len(supplement_candidates) == 1:
+        return resolved_root_from_candidate(supplement_candidates[0], source="head_graph_supplement")
     if len(candidates) == 1:
         return resolved_root_from_candidate(candidates[0])
     schuessler_tokens = [

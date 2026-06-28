@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5359
-- Pages fetched / cached successfully: 5280
-- Additions with explicit Han-compound semantic/phonetic roles: 2474
+- Proposed additions checked: 5371
+- Pages fetched / cached successfully: 5292
+- Additions with explicit Han-compound semantic/phonetic roles: 2477
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3032,6 +3032,10 @@
 | `16-15` | 卲 | yes | no |  |  |
 | `16-15` | 紹 | yes | yes | 糸 | 召 |
 | `16-16` | 盜 | yes | no |  | 㳄 |
+| `16-17` | 朝 | yes | no |  |  |
+| `16-17` | 潮 | yes | yes | 水 | 朝 |
+| `16-18` | 肇 | yes | yes | 攴 | 肁 |
+| `16-19` | 鼂 | yes | no |  |  |
 | `16-20` | 兆 | yes | no |  |  |
 | `16-20` | 垗 | yes | no |  |  |
 | `16-20` | 旐 | yes | yes | 㫃 | 兆 |
@@ -3070,6 +3074,10 @@
 | `16-21` | 鷂 | yes | yes | 鳥 | 䍃 |
 | `16-21` | 繇 | yes | yes | 系 | 䍃 |
 | `16-21` | 櫾 | yes | no |  |  |
+| `16-22` | 少 | yes | no |  |  |
+| `16-22` | 箾 | yes | no |  |  |
+| `16-23` | 勞 | yes | no |  |  |
+| `16-23` | 膋 | yes | yes | 肉 | 勞 |
 | `16-24` | 𤋯 | no | no |  |  |
 | `16-24` | 尞 | yes | no |  |  |
 | `16-24` | 燎 | yes | yes | 火 | 尞 |
@@ -3087,6 +3095,10 @@
 | `16-24` | 簝 | yes | yes | 竹 | 尞 |
 | `16-24` | 潦 | yes | yes | 水 | 尞 |
 | `16-24` | 䕩 | yes | no |  |  |
+| `16-26` | 窅 | yes | no |  |  |
+| `16-26` | 杳 | yes | no |  |  |
+| `16-26` | 料 | yes | no |  |  |
+| `16-26` | 敹 | yes | no |  |  |
 | `16-30` | 喿 | yes | no |  |  |
 | `16-30` | 譟 | yes | no |  |  |
 | `16-30` | 燥 | yes | yes | 火 | 喿 |

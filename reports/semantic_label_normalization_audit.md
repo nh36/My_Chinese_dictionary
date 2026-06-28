@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T13:03:29.767588+00:00
+- Generated at: 2026-06-28T13:34:04.117457+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 21159
+- Total occurrences audited: 21171
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20928 |
+| `canonical` | 20938 |
 | `explicit_alias` | 11 |
-| `needs_review` | 220 |
+| `needs_review` | 222 |
 
 ## Blocked ambiguous aliases
 
@@ -166,7 +166,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}rew₂}},
 \textit{liewH};	%1151f` |
 | `curation_json` | `16-33` | `痟` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒肖` | `痟	%xiao1
-{\large{\textsuperscript{infirm·}sew₃}},
+{\large{\textsuperscript{infirm·}sew₄}},
 \textit{siew};	%1149k` |
 | `curation_json` | `20-01` | `瘈` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒契` | `瘈	%ji4 / zhi4 / jì / zhì
 {\large{\textsuperscript{infirm·}ket₂}},
@@ -332,7 +332,7 @@ Watched tokens with no current heuristic match: `can`
 {\large{\textsuperscript{infirm·}rew₂}},
 \textit{liewH};	%1151f` |
 | `integrated_series_curated_entry` | `16-33` | `痟` | `infirm` | render_latex, transliteration_latex | `疒` | `⿸疒肖` | `痟	%xiao1
-{\large{\textsuperscript{infirm·}sew₃}},
+{\large{\textsuperscript{infirm·}sew₄}},
 \textit{siew};	%1149k` |
 | `integrated_series_hand_entry` | `18-08` | `痑` | `infirm` | raw_block | `疒` | `⿸疒多` | `{{\textsuperscript{infirm·}}\large{lay}},` |
 | `integrated_series_hand_entry` | `18-13` | `瘥` | `infirm` | raw_block | `疒` | `⿸疒差` | `{\large{{\textsuperscript{infirm·}}tsay₂}},` |
@@ -441,7 +441,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kum₃}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}rew₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}sew₃}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}sew₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}tsoy}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}ket₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kep₂}},` |
@@ -496,7 +496,7 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}riw}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}kum₃}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}rew₂}},` |
-| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}sew₃}},` |
+| `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}sew₄}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{{\textsuperscript{infirm·}}\large{lay}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{{\textsuperscript{infirm·}}tsay₂}},` |
 | `validation_tex` | `` | `` | `infirm` | line | `` | `` | `{\large{\textsuperscript{infirm·}pay}},` |
@@ -825,6 +825,10 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `15-14` | `麷` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥豐` | `麷	%feng1
 {\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},
 \textit{phiuwṅ};	%1014e` |
+| `curation_json` | `16-22` | `少` | `丿` | render_latex, transliteration_latex | `丿` | `⿱小丿` | `少	%shao4 / shao3 / shào / shǎo
+{\large{sew\textsuperscript{˸丿}}},
+\textit{śiewH};	%1149e
+\textit{śiewX};` |
 | `curation_json` | `16-39` | `瓢` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿰票瓜` | `瓢	%piao2 / piáo
 {\large{pew₂\textsuperscript{·瓜}}},
 \textit{byiew};	%1157k` |
@@ -1015,6 +1019,10 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `15-14` | `麷` | `麥` | render_latex, transliteration_latex | `麥` | `⿰麥豐` | `麷	%feng1
 {\large{\textsuperscript{麥·}p\textoverset{b}{o}ṅ}},
 \textit{phiuwṅ};	%1014e` |
+| `integrated_series_curated_entry` | `16-22` | `少` | `丿` | render_latex, transliteration_latex | `丿` | `⿱小丿` | `少	%shao4 / shao3 / shào / shǎo
+{\large{sew\textsuperscript{˸丿}}},
+\textit{śiewH};	%1149e
+\textit{śiewX};` |
 | `integrated_series_curated_entry` | `16-39` | `瓢` | `瓜` | render_latex, transliteration_latex | `瓜` | `⿰票瓜` | `瓢	%piao2 / piáo
 {\large{pew₂\textsuperscript{·瓜}}},
 \textit{byiew};	%1157k` |

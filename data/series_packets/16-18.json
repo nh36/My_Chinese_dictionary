@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-06-28T13:22:44.903613+00:00",
+  "gsc_id": "16-18",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1146"
+  ],
+  "schuessler": {
+    "gsc_id": "16-18",
+    "rhyme_section": 16,
+    "series_number": 18,
+    "k_tokens": [
+      "1146"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.          MC            LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 224,
+    "source_line_number": 12,
+    "source_line_raw": "16-18 = K. 1146      Mand.          MC            LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "16-18",
+    "rhyme_section": "16",
+    "series_number": "18",
+    "schuessler_k_tokens": "1146",
+    "schuessler_source_page": "224",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "肇",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "肇"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "肇",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "8367",
+          "character": "肇",
+          "pinyin": "zhao4",
+          "mc_nwh": "ḍiewX",
+          "mc_bs": "drjewX",
+          "gsr": "1146a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍiewX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍiewX"
+        ],
+        "mand2mc_bs_forms": [
+          "drjewX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "8367",
+        "character": "肇",
+        "pinyin": "zhao4",
+        "mc_nwh": "ḍiewX",
+        "mc_bs": "drjewX",
+        "gsr": "1146a"
+      }
+    ],
+    "bs_gsr": []
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

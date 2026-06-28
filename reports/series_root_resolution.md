@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 696
-- Packets with at least one root candidate: 695
-- Packets with a single resolved provisional root: 693
+- Missing-series packets inspected: 702
+- Packets with at least one root candidate: 701
+- Packets with a single resolved provisional root: 699
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -512,9 +512,15 @@
 | `16-14` | 堯→ṅew [*ŋˤew {*[ŋ]ˤew}] (1164a) | `ṅew` | `head_graph_oc_bs` |
 | `16-15` | 刀→taw [*C.tˤaw] (1131a) | `taw` | `head_graph_oc_bs` |
 | `16-16` | 盜→taw [*dˤaw-s {*[d]ˤaw(k)-s}] (1133a) | `taw` | `head_graph_oc_bs` |
+| `16-17` | 朝→taw [*m-t<r>aw {*[m]-t<r>aw}] (1143a) | `taw` | `head_graph_oc_bs` |
+| `16-18` | 肇→law [*lrawʔ] (None) | `law` | `same_character_series_root` |
+| `16-19` | 鼂→tew [*dew] (None) | `tew` | `head_graph_oc_shengfu` |
 | `16-20` | 兆→law [*lrawʔ {*lr[a]wʔ}] (1145a) | `law` | `head_graph_oc_bs` |
 | `16-21` | 䍃→law [*law] (1144a) | `law` | `head_graph_oc_bs` |
+| `16-22` | 少→tew [*s-tewʔ-s {*[s-t]ewʔ-s}] (1149e); 少→qew [*qʰlewʔ] (None); 少→sew [*sewʔ {*[s]ewʔ}] (None) | `sew` | `head_graph_supported_root` |
+| `16-23` | 勞→raw [*rˤaw {*[r]ˤaw}] (1135a) | `raw` | `head_graph_oc_bs` |
 | `16-24` | 𤋯→rew [*ɡ‧re̠w] (None) | `rew` | `same_character_series_root` |
+| `16-26` | 窅→qew [*qʳe̠w] (None) | `qew` | `head_graph_oc_shengfu` |
 | `16-30` | 喿→saw [*sˡa̠ws] (None) | `saw` | `head_graph_oc_shengfu` |
 | `16-31` | 焦→sew [*skew] (None) | `sew` | `head_graph_oc_shengfu` |
 | `16-33` | 小→sew [*sewʔ {*[s]ewʔ}] (1149a) | `sew` | `head_graph_oc_bs` |

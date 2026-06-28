@@ -1,15 +1,15 @@
 {
   "summary": {
-    "case_count": 73,
-    "unique_component_count": 58,
+    "case_count": 74,
+    "unique_component_count": 59,
     "by_classification": {
-      "new_latin_label_needed": 72,
+      "new_latin_label_needed": 73,
       "template_alt_graph": 1
     },
     "by_source": {
       "wiktionary_component_literal_fallback": 45,
       "packet_family_component_literal_fallback": 9,
-      "ids_component_literal_fallback": 19
+      "ids_component_literal_fallback": 20
     }
   },
   "cases": [
@@ -798,6 +798,23 @@
       "proposal": "Keep `麥` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "16-22",
+      "character": "少",
+      "abbreviation": "丿",
+      "semantic_component": "丿",
+      "position": "suffix-colon",
+      "source": "ids_component_literal_fallback",
+      "template_raw": null,
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "semantic_component_ids": "丿",
+      "transliteration_latex": "{\\large{sew\\textsuperscript{˸丿}}},",
+      "render_latex": "少\t%shao4 / shao3 / shào / shǎo\n{\\large{sew\\textsuperscript{˸丿}}},\n\\textit{śiewH};\t%1149e\n\\textit{śiewX};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丿` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "16-39",
       "character": "瓢",
       "abbreviation": "瓜",
@@ -1424,6 +1441,27 @@
         {
           "entry_id": "21-12",
           "character": "太",
+          "position": "suffix-colon",
+          "source": "ids_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "丿",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `丿` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "丿",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": null,
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "16-22",
+          "character": "少",
           "position": "suffix-colon",
           "source": "ids_component_literal_fallback"
         }
