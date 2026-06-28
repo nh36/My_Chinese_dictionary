@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 832
+- Generated subgroup heads inspected: 835
 - Subgroups newly marked with `a`: 106
 - Subgroups newly marked with `b`: 94
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 275
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 278
 - Mixed subgroups left unmarked: 352
 - Unresolved subgroups left unmarked: 5
 
@@ -494,16 +494,19 @@
 | `13-76` | 敄 | `mu` | `mu₈` | `mixed` | no | `miuH, miuX, miuw, maewk, muwH, muwk` | the extracted forms point to both type a and type b |
 | `13-76` | 務 | `mu` | `mu₉` | `b` | no | `miuH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `13-77` | 牟 | `mu` | `mu` | `mixed` | no | `miuw, muw` | the extracted forms point to both type a and type b |
+| `13-78` | 戊 | `mu` | `mu` | `a` | no | `muwH` | all extracted forms lack an i-medial after the onset |
 | `14-02` | 匊 | `kuk` | `kuk` | `b` | no | `kiuwk, khiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-02` | 鞠 | `kuk` | `kuk₂` | `b` | no | `kiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-02` | 鞫 | `kuk` | `kuk₃` | `b` | no | `kiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-03` | 學 | `kuk` | `kuk` | `a` | no | `haewk, haewH` | all extracted forms lack an i-medial after the onset |
 | `14-03` | 覺 | `kuk` | `kuk₅` | `a` | no | `kaewH, kaewk, kaewX` | all extracted forms lack an i-medial after the onset |
+| `14-05` | 毒 | `tuk` | `tuk` | `a` | no | `dəwk, dawH` | all extracted forms lack an i-medial after the onset |
+| `14-07` | 孰 | `tuk` | `tuk` | `b` | no | `jiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-08` | 竹 | `tuk` | `tuk` | `mixed` | no | `ṭiuwk, təwk` | the extracted forms point to both type a and type b |
-| `14-08` | 筑 | `tuk` | `tuk₂` | `b` | no | `ṭiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `14-08` | 筑 | `tuk` | `tuk₅` | `b` | no | `ṭiuwk` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `14-14` | 賣 | `lok` | `lok` | `mixed` | no | `yuwk, dek, duwk, duwH, jiəwk, ziəwk` | the extracted forms point to both type a and type b |
 | `14-18` | 尗 | `tuk` | `tuk` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew, tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |
-| `14-18` | 叔 | `tuk` | `tuk₄` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew` | the extracted forms point to both type a and type b |
+| `14-18` | 叔 | `tuk` | `tuk₇` | `mixed` | no | `śiuwk, chiuwk, dzek, təwk, səwk, nek, tsew, tsiew` | the extracted forms point to both type a and type b |
 | `14-18` | 戚 | `tsik` | `tsik₂` | `mixed` | no | `tshek, tsiuwk, dek` | the extracted forms point to both type a and type b |
 | `14-22` | 肅 | `sik` | `sik` | `mixed` | no | `siuwk, ṣiuw, siuwH, sewH, sew` | the extracted forms point to both type a and type b |
 | `14-22` | 蕭 | `sik` | `sik₂` | `a` | no | `sew` | all extracted forms lack an i-medial after the onset |

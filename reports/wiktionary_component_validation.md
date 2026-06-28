@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5258
-- Pages fetched / cached successfully: 5180
-- Additions with explicit Han-compound semantic/phonetic roles: 2434
+- Proposed additions checked: 5273
+- Pages fetched / cached successfully: 5195
+- Additions with explicit Han-compound semantic/phonetic roles: 2443
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -2689,6 +2689,8 @@
 | `13-77` | 眸 | yes | yes | 目 | 牟 |
 | `13-77` | 麰 | yes | yes | 麥 | 牟 |
 | `13-77` | 侔 | yes | no |  |  |
+| `13-78` | 戊 | yes | no |  |  |
+| `13-78` | 茂 | yes | yes | 艸 | 戊 |
 | `14-02` | 匊 | yes | no |  |  |
 | `14-02` | 掬 | yes | yes | 手 | 匊 |
 | `14-02` | 椈 | yes | no |  |  |
@@ -2705,12 +2707,25 @@
 | `14-03` | 嚳 | yes | yes | 告 | 學 |
 | `14-03` | 鷽 | yes | no |  |  |
 | `14-03` | 攪 | yes | yes | 手 | 覺 |
+| `14-04` | 奧 | yes | yes | 宀 | 𢍏 |
+| `14-04` | 澳 | yes | yes | 水 | 奧 |
+| `14-04` | 隩 | yes | no |  |  |
+| `14-04` | 燠 | yes | no |  |  |
+| `14-04` | 薁 | yes | no |  |  |
+| `14-05` | 毒 | yes | yes | 屮 | 毐 |
+| `14-05` | 纛 | yes | yes | 縣 | 毒 |
+| `14-06` | 祝 | yes | no |  |  |
+| `14-06` | 柷 | yes | no |  |  |
+| `14-07` | 孰 | yes | yes | 丮 | 𦎫 |
+| `14-07` | 熟 | yes | yes | 火 | 孰 |
+| `14-07` | 塾 | yes | yes | 土 | 孰 |
 | `14-08` | 竹 | yes | no |  |  |
 | `14-08` | 筑 | yes | no |  | 竹 |
 | `14-08` | 築 | yes | yes | 木 | 筑 |
 | `14-08` | 𥲒 | no | no |  |  |
 | `14-08` | 竺 | yes | yes | 二 | 竹 |
 | `14-08` | 篤 | yes | yes | 馬 | 竹 |
+| `14-09` | 晝 | yes | yes | 日 | 聿 |
 | `14-14` | 賣 | yes | yes | 出 | 買 |
 | `14-14` | 儥 | yes | yes | 人 | 𧶠 |
 | `14-14` | 覿 | yes | no |  |  |

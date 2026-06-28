@@ -1,16 +1,16 @@
 # Semantic label normalization audit
 
-- Generated at: 2026-06-28T11:42:04.153079+00:00
+- Generated at: 2026-06-28T11:54:21.537069+00:00
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Total occurrences audited: 20929
+- Total occurrences audited: 20957
 
 ## Classification summary
 
 | Classification | Count |
 | --- | --- |
-| `canonical` | 20710 |
+| `canonical` | 20734 |
 | `explicit_alias` | 11 |
-| `needs_review` | 208 |
+| `needs_review` | 212 |
 
 ## Blocked ambiguous aliases
 
@@ -800,8 +800,12 @@ Watched tokens with no current heuristic match: `can`
 | `curation_json` | `14-03` | `嚳` | `告` | render_latex, transliteration_latex | `告` | `⿱𦥯告` | `嚳	%ku4
 {\large{kuk₄\textsuperscript{˸告}}},
 \textit{khəwk};	%1038g` |
+| `curation_json` | `14-05` | `纛` | `縣` | render_latex, transliteration_latex | `縣` | `⿱毒縣` | `纛	%dao4 / du2
+{\large{tuk\textsuperscript{˸縣}}},
+\textit{dawH};	%1016b
+\textit{dəwk};` |
 | `curation_json` | `14-08` | `竺` | `二` | render_latex, transliteration_latex | `二` | `⿱竹二` | `竺	%du3
-{\large{tuk\textsuperscript{˸二}}},
+{\large{tuk₄\textsuperscript{˸二}}},
 \textit{təwk};	%1019f` |
 | `curation_json` | `14-23` | `覆` | `襾` | render_latex, transliteration_latex | `襾` | `⿱覀復` | `覆	%fu4 / fù
 {\large{\textsuperscript{襾˸}puk₃}},
@@ -980,8 +984,12 @@ Watched tokens with no current heuristic match: `can`
 | `integrated_series_curated_entry` | `14-03` | `嚳` | `告` | render_latex, transliteration_latex | `告` | `⿱𦥯告` | `嚳	%ku4
 {\large{kuk₄\textsuperscript{˸告}}},
 \textit{khəwk};	%1038g` |
+| `integrated_series_curated_entry` | `14-05` | `纛` | `縣` | render_latex, transliteration_latex | `縣` | `⿱毒縣` | `纛	%dao4 / du2
+{\large{tuk\textsuperscript{˸縣}}},
+\textit{dawH};	%1016b
+\textit{dəwk};` |
 | `integrated_series_curated_entry` | `14-08` | `竺` | `二` | render_latex, transliteration_latex | `二` | `⿱竹二` | `竺	%du3
-{\large{tuk\textsuperscript{˸二}}},
+{\large{tuk₄\textsuperscript{˸二}}},
 \textit{təwk};	%1019f` |
 | `integrated_series_curated_entry` | `14-23` | `覆` | `襾` | render_latex, transliteration_latex | `襾` | `⿱覀復` | `覆	%fu4 / fù
 {\large{\textsuperscript{襾˸}puk₃}},
@@ -1074,7 +1082,8 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}mu₁₀}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
 | `validation_tex` | `` | `` | `告` | line | `` | `` | `{\large{kuk₄\textsuperscript{˸告}}},` |
-| `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk\textsuperscript{˸二}}},` |
+| `validation_tex` | `` | `` | `縣` | line | `` | `` | `{\large{tuk\textsuperscript{˸縣}}},` |
+| `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk₄\textsuperscript{˸二}}},` |
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₃}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |
@@ -1129,7 +1138,8 @@ Watched tokens with no current heuristic match: `can`
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}mu₁₀}},` |
 | `validation_tex` | `` | `` | `麥` | line | `` | `` | `{\large{\textsuperscript{麥·}kuk}},` |
 | `validation_tex` | `` | `` | `告` | line | `` | `` | `{\large{kuk₄\textsuperscript{˸告}}},` |
-| `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk\textsuperscript{˸二}}},` |
+| `validation_tex` | `` | `` | `縣` | line | `` | `` | `{\large{tuk\textsuperscript{˸縣}}},` |
+| `validation_tex` | `` | `` | `二` | line | `` | `` | `{\large{tuk₄\textsuperscript{˸二}}},` |
 | `validation_tex` | `` | `` | `襾` | line | `` | `` | `{\large{\textsuperscript{襾˸}puk₃}},` |
 | `validation_tex` | `` | `` | `瓜` | line | `` | `` | `{\large{pew₂\textsuperscript{·瓜}}},` |
 | `validation_tex` | `` | `` | `云` | line | `` | `` | `{\large{ŋe\textsuperscript{˸云}}},` |

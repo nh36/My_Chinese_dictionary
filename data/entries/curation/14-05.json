@@ -1,0 +1,906 @@
+{
+  "generated_at": "2026-06-28T11:53:42.231013+00:00",
+  "id": "14-05",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "14-05",
+    "rhyme_section": 14,
+    "series_number": 5,
+    "k_tokens": [
+      "1016"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC           LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 211,
+    "source_line_number": 20,
+    "source_line_raw": "14-5   = K. 1016     Mand.         MC           LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "14-05",
+    "rhyme_section": "14",
+    "series_number": "5",
+    "schuessler_k_tokens": "1016",
+    "schuessler_source_page": "211",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "毒; 纛",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "毒",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "毒; 纛"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1016"
+  ],
+  "proposed_additions": [
+    {
+      "character": "毒",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 11,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "dəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "dowk"
+        ],
+        "bs_gsr_forms": [
+          "dowk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7435",
+          "character": "毒",
+          "pinyin": "du2",
+          "mc_nwh": "dəwk",
+          "mc_bs": "dowk",
+          "gsr": "1016a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "158",
+          "character": "毒",
+          "pinyin": "dú",
+          "mc_bs": "dowk",
+          "mc_analyzed": "(d- + -owk D)",
+          "oc_bs": "*dˤuk {*[d]ˤuk}",
+          "gloss": "poison (n.)",
+          "gsr": "1016a",
+          "unicode_utf16": "U+6BD2"
+        },
+        {
+          "source_page_number": "158",
+          "character": "毒",
+          "pinyin": "dú",
+          "mc_bs": "dowk",
+          "mc_analyzed": "(d- + -owk D)",
+          "oc_bs": "*m-dˤuk-s {*m-[d]ˤuk-s}",
+          "gloss": "to poison (v.)",
+          "gsr": "1016a",
+          "unicode_utf16": "U+6BD2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2685",
+          "character": "毒",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "ɡlu̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2679",
+          "character": "𦺇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2680",
+          "character": "蝳",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2681",
+          "character": "瑇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2682",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2683",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2684",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒谷",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2685",
+          "character": "毒",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "ɡlu̠ɡ"
+        },
+        {
+          "source_row_number": "2686",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "直六",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "duɡ"
+        },
+        {
+          "source_row_number": "2687",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒到",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "du̠ɡs"
+        },
+        {
+          "source_row_number": "2688",
+          "character": "𧛔",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都導",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "tu̠ɡs"
+        },
+        {
+          "source_row_number": "2689",
+          "character": "瑇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒耐",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "dɯ̠ɡs"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|屮|毐|c1=s|c2=p|t1=vegetation|ls=psc|nocap=y}}",
+          "positional_components": [
+            "屮",
+            "毐"
+          ],
+          "positional_components_raw": [
+            "屮",
+            "毐"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "vegetation",
+            "ls": "psc",
+            "nocap": "y"
+          },
+          "semantic_components": [
+            "屮"
+          ],
+          "phonetic_components": [
+            "毐"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|屮|毐|c1=s|c2=p|t1=vegetation|ls=psc|nocap=y}}",
+            "positional_components": [
+              "屮",
+              "毐"
+            ],
+            "positional_components_raw": [
+              "屮",
+              "毐"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "vegetation",
+              "ls": "psc",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "屮"
+            ],
+            "phonetic_components": [
+              "毐"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "germ",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "屮",
+            "label_token": "germ(en)",
+            "abbreviation": "germ",
+            "start_line": 289
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "屮"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{germ˸}tuk}},",
+      "render_latex": "毒\t%du2 / dú\n{\\large{\\textsuperscript{germ˸}tuk}},\n\\textit{dəwk};\t%1016a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "屮",
+        "phonetic_component": "毐",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "毒",
+          "semantic_component": "屮",
+          "phonetic_component": "毐",
+          "position": "prefix-colon",
+          "abbreviation": "germ",
+          "inventory_matches": [
+            {
+              "graph_raw": "屮",
+              "label_token": "germ(en)",
+              "abbreviation": "germ",
+              "start_line": 289
+            }
+          ],
+          "template_raw": "{{Han compound|屮|毐|c1=s|c2=p|t1=vegetation|ls=psc|nocap=y}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "毒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "毒"
+      },
+      "resolved_node_root": {
+        "root": "tuk",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tuk"
+        ],
+        "bs_node_roots": [
+          "tuk"
+        ],
+        "display_root": "tuk",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "dəwk",
+          "dawH"
+        ],
+        "form_analyses": [
+          {
+            "form": "dəwk",
+            "normalized": "dəwk",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "dawH",
+            "normalized": "daw",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "纛",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dawH",
+          "dəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "dawH",
+          "dəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "dawH",
+          "dowk"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7436",
+          "character": "纛",
+          "pinyin": "dao4",
+          "mc_nwh": "dawH",
+          "mc_bs": "dawH",
+          "gsr": "1016b"
+        },
+        {
+          "source_row_number": "7437",
+          "character": "纛",
+          "pinyin": "du2",
+          "mc_nwh": "dəwk",
+          "mc_bs": "dowk",
+          "gsr": "1016b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2682",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2687",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒到",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "du̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|毒|縣|c1=p|c2=s|t2=to hang|ls=psc}}",
+          "positional_components": [
+            "毒",
+            "縣"
+          ],
+          "positional_components_raw": [
+            "毒",
+            "縣"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "to hang",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "縣"
+          ],
+          "phonetic_components": [
+            "毒"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|毒|縣|c1=p|c2=s|t2=to hang|ls=psc}}",
+            "positional_components": [
+              "毒",
+              "縣"
+            ],
+            "positional_components_raw": [
+              "毒",
+              "縣"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "to hang",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "縣"
+            ],
+            "phonetic_components": [
+              "毒"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "纛",
+          "ids": "⿱毒縣",
+          "phonetic_component": "毒",
+          "semantic_component": "縣",
+          "position": "suffix-colon",
+          "abbreviation": "縣",
+          "inventory_matches": []
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "縣",
+        "position": "suffix-colon",
+        "inventory_matches": [],
+        "source": "wiktionary_component_literal_fallback",
+        "semantic_component": "縣"
+      },
+      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸縣}}},",
+      "render_latex": "纛\t%dao4 / du2\n{\\large{tuk\\textsuperscript{˸縣}}},\n\\textit{dawH};\t%1016b\n\\textit{dəwk};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "縣",
+        "phonetic_component": "毒",
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "纛",
+          "semantic_component": "縣",
+          "phonetic_component": "毒",
+          "position": "suffix-colon",
+          "abbreviation": "縣",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|毒|縣|c1=p|c2=s|t2=to hang|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "毒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "毒"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "毒",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 11,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "dəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "dowk"
+        ],
+        "bs_gsr_forms": [
+          "dowk"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7435",
+          "character": "毒",
+          "pinyin": "du2",
+          "mc_nwh": "dəwk",
+          "mc_bs": "dowk",
+          "gsr": "1016a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "158",
+          "character": "毒",
+          "pinyin": "dú",
+          "mc_bs": "dowk",
+          "mc_analyzed": "(d- + -owk D)",
+          "oc_bs": "*dˤuk {*[d]ˤuk}",
+          "gloss": "poison (n.)",
+          "gsr": "1016a",
+          "unicode_utf16": "U+6BD2"
+        },
+        {
+          "source_page_number": "158",
+          "character": "毒",
+          "pinyin": "dú",
+          "mc_bs": "dowk",
+          "mc_analyzed": "(d- + -owk D)",
+          "oc_bs": "*m-dˤuk-s {*m-[d]ˤuk-s}",
+          "gloss": "to poison (v.)",
+          "gsr": "1016a",
+          "unicode_utf16": "U+6BD2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2685",
+          "character": "毒",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "ɡlu̠ɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2679",
+          "character": "𦺇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2680",
+          "character": "蝳",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2681",
+          "character": "瑇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2682",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2683",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2684",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒谷",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2685",
+          "character": "毒",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "ɡlu̠ɡ"
+        },
+        {
+          "source_row_number": "2686",
+          "character": "碡",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "直六",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "uɡ",
+          "oc_syllable": "duɡ"
+        },
+        {
+          "source_row_number": "2687",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒到",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "du̠ɡs"
+        },
+        {
+          "source_row_number": "2688",
+          "character": "𧛔",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都導",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "tu̠ɡs"
+        },
+        {
+          "source_row_number": "2689",
+          "character": "瑇",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒耐",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "ɯ̠ɡs",
+          "oc_syllable": "dɯ̠ɡs"
+        }
+      ]
+    },
+    {
+      "character": "纛",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dawH",
+          "dəwk"
+        ],
+        "mand2mc_nwh_forms": [
+          "dawH",
+          "dəwk"
+        ],
+        "mand2mc_bs_forms": [
+          "dawH",
+          "dowk"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "7436",
+          "character": "纛",
+          "pinyin": "dao4",
+          "mc_nwh": "dawH",
+          "mc_bs": "dawH",
+          "gsr": "1016b"
+        },
+        {
+          "source_row_number": "7437",
+          "character": "纛",
+          "pinyin": "du2",
+          "mc_nwh": "dəwk",
+          "mc_bs": "dowk",
+          "gsr": "1016b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2682",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒沃",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡ",
+          "oc_syllable": "du̠ɡ"
+        },
+        {
+          "source_row_number": "2687",
+          "character": "纛",
+          "phonetic_component": "毒",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒到",
+          "source": "广韵",
+          "oc_initial": "d",
+          "oc_rhyme": "u̠ɡs",
+          "oc_syllable": "du̠ɡs"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "毒",
+      "gsr": "1016a",
+      "oc_bs": "*dˤuk {*[d]ˤuk}",
+      "root": "tuk",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tuk",
+    "source": "head_graph_oc_bs",
+    "character": "毒",
+    "oc_bs": "*dˤuk {*[d]ˤuk}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tuk",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": false,
+    "mc_forms": [
+      "dəwk",
+      "dawH"
+    ],
+    "form_analyses": [
+      {
+        "form": "dəwk",
+        "normalized": "dəwk",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "dawH",
+        "normalized": "daw",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "tuk",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "case_count": 70,
-    "unique_component_count": 56,
+    "case_count": 71,
+    "unique_component_count": 57,
     "by_classification": {
-      "new_latin_label_needed": 69,
+      "new_latin_label_needed": 70,
       "template_alt_graph": 1
     },
     "by_source": {
-      "wiktionary_component_literal_fallback": 42,
+      "wiktionary_component_literal_fallback": 43,
       "packet_family_component_literal_fallback": 9,
       "ids_component_literal_fallback": 19
     }
@@ -694,6 +694,23 @@
       "proposal": "Keep `告` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
     {
+      "entry_id": "14-05",
+      "character": "纛",
+      "abbreviation": "縣",
+      "semantic_component": "縣",
+      "position": "suffix-colon",
+      "source": "wiktionary_component_literal_fallback",
+      "template_raw": "{{Han compound|毒|縣|c1=p|c2=s|t2=to hang|ls=psc}}",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "to hang",
+      "semantic_component_ids": "⿰⿱⿴且一小系",
+      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸縣}}},",
+      "render_latex": "纛\t%dao4 / du2\n{\\large{tuk\\textsuperscript{˸縣}}},\n\\textit{dawH};\t%1016b\n\\textit{dəwk};",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `縣` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
+    },
+    {
       "entry_id": "14-08",
       "character": "筑",
       "abbreviation": "𢀜",
@@ -705,8 +722,8 @@
       "template_gloss_primary": "bamboo",
       "template_gloss_secondary": "to hold",
       "semantic_component_ids": "⿰工丮",
-      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸𢀜}}},",
-      "render_latex": "筑\t%zhu2\n{\\large{tuk\\textsuperscript{˸𢀜}}},\n\\textit{ṭiuwk};\t%1019c",
+      "transliteration_latex": "{\\large{tuk₄\\textsuperscript{˸𢀜}}},",
+      "render_latex": "筑\t%zhu2\n{\\large{tuk₄\\textsuperscript{˸𢀜}}},\n\\textit{ṭiuwk};\t%1019c",
       "classification": "new_latin_label_needed",
       "proposal": "Keep `𢀜` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed."
     },
@@ -722,8 +739,8 @@
       "template_gloss_primary": null,
       "template_gloss_secondary": null,
       "semantic_component_ids": "⿱一一",
-      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸二}}},",
-      "render_latex": "竺\t%du3\n{\\large{tuk\\textsuperscript{˸二}}},\n\\textit{təwk};\t%1019f",
+      "transliteration_latex": "{\\large{tuk₄\\textsuperscript{˸二}}},",
+      "render_latex": "竺\t%du3\n{\\large{tuk₄\\textsuperscript{˸二}}},\n\\textit{təwk};\t%1019f",
       "classification": "template_alt_graph",
       "proposal": "Prefer template alt graph `𥫗` over gloss-like token `二`; it then still needs a new Latin label.",
       "target_graph": "𥫗",
@@ -2025,6 +2042,27 @@
           "entry_id": "29-17",
           "character": "瓞",
           "position": "prefix-dot",
+          "source": "wiktionary_component_literal_fallback"
+        }
+      ]
+    },
+    {
+      "semantic_component": "縣",
+      "classification": "new_latin_label_needed",
+      "proposal": "Keep `縣` visible for now and add a new canonical Latin label for this graph once the inventory decision is reviewed.",
+      "target_graph": null,
+      "target_abbreviation": null,
+      "reason": null,
+      "semantic_component_ids": "⿰⿱⿴且一小系",
+      "template_alt_graph": null,
+      "template_gloss_primary": null,
+      "template_gloss_secondary": "to hang",
+      "case_count": 1,
+      "examples": [
+        {
+          "entry_id": "14-05",
+          "character": "纛",
+          "position": "suffix-colon",
           "source": "wiktionary_component_literal_fallback"
         }
       ]

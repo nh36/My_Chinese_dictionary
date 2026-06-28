@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1021
-- Roots whose display label changed after document-wide renumbering: 598
+- Mutable series/subseries roots inspected: 1027
+- Roots whose display label changed after document-wide renumbering: 603
 - Duplicate phonetic bases encountered in document order: 260
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -734,16 +734,22 @@
 | `13-76` | `subseries-root` | 敄 | `mu` | 8 | `mu₈` | yes |
 | `13-76` | `subseries-root` | 務 | `mu` | 9 | `mu₉` | yes |
 | `13-77` | `series-root` | 牟 | `mu` | 10 | `mu₁₀` | yes |
+| `13-78` | `series-root` | 戊 | `mu` | 11 | `mu₁₁` | yes |
 | `14-02` | `series-root` | 匊 | `kuk` | 1 | `kuk` | yes |
 | `14-02` | `subseries-root` | 鞠 | `kuk` | 2 | `kuk₂` | yes |
 | `14-02` | `subseries-root` | 鞫 | `kuk` | 3 | `kuk₃` | yes |
 | `14-03` | `series-root` | 學 | `kuk` | 4 | `kuk₄` | yes |
 | `14-03` | `subseries-root` | 覺 | `kuk` | 5 | `kuk₅` | yes |
-| `14-08` | `series-root` | 竹 | `tuk` | 1 | `tuk` | yes |
-| `14-08` | `subseries-root` | 筑 | `tuk` | 2 | `tuk₂` | yes |
+| `14-04` | `series-root` | 奧 | `ʔuk` | 1 | `ʔuk` | yes |
+| `14-05` | `series-root` | 毒 | `tuk` | 1 | `tuk` | yes |
+| `14-06` | `series-root` | 祝 | `tuk` | 2 | `tuk₂` | yes |
+| `14-07` | `series-root` | 孰 | `tuk` | 3 | `tuk₃` | yes |
+| `14-08` | `series-root` | 竹 | `tuk` | 4 | `tuk₄` | yes |
+| `14-08` | `subseries-root` | 筑 | `tuk` | 5 | `tuk₅` | yes |
+| `14-09` | `series-root` | 晝 | `tu` | 10 | `tu₁₀` | yes |
 | `14-14` | `series-root` | 賣 | `me` | 2 | `me₂` | yes |
-| `14-18` | `series-root` | 尗 | `tuk` | 3 | `tuk₃` | yes |
-| `14-18` | `subseries-root` | 叔 | `tuk` | 4 | `tuk₄` | yes |
+| `14-18` | `series-root` | 尗 | `tuk` | 6 | `tuk₆` | yes |
+| `14-18` | `subseries-root` | 叔 | `tuk` | 7 | `tuk₇` | yes |
 | `14-18` | `subseries-root` | 戚 | `tsik` | 2 | `tsik₂` | yes |
 | `14-22` | `series-root` | 肅 | `sik` | 1 | `sik` | yes |
 | `14-22` | `subseries-root` | 蕭 | `sik` | 2 | `sik₂` | yes |
