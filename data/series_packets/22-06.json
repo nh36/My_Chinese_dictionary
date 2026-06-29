@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-29T07:46:58.548810+00:00",
+  "gsc_id": "22-06",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "305"
+  ],
+  "schuessler": {
+    "gsc_id": "22-06",
+    "rhyme_section": 22,
+    "series_number": 6,
+    "k_tokens": [
+      "305"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d .",
+    "is_cross_reference_only": false,
+    "source_page_number": 266,
+    "source_line_number": 23,
+    "source_line_raw": "22-6 = K. 305 Man d ."
+  },
+  "coverage": {
+    "gsc_id": "22-06",
+    "rhyme_section": "22",
+    "series_number": "6",
+    "schuessler_k_tokens": "305",
+    "schuessler_source_page": "266",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "粵",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "粵",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "粵"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "粵",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2287",
+          "character": "粵",
+          "pinyin": "yue4",
+          "mc_nwh": "hiwət",
+          "mc_bs": "hjwot",
+          "gsr": "0305a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "50",
+          "character": "粵",
+          "pinyin": "yuè",
+          "mc_bs": "hjwot",
+          "mc_analyzed": "(h- + -jwot D)",
+          "oc_bs": "*ɢʷat {*[ɢ]ʷat}",
+          "gloss": "generous, favorable",
+          "gsr": "0305a",
+          "unicode_utf16": "U+7CB5"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16310",
+          "character": "粵",
+          "phonetic_component": "于",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "王伐",
+          "source": "广韵",
+          "oc_initial": "ɢʳʷ",
+          "oc_rhyme": "ad",
+          "oc_syllable": "ɢʳʷad"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwot"
+        ],
+        "bs_gsr_forms": [
+          "hjwot"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2287",
+        "character": "粵",
+        "pinyin": "yue4",
+        "mc_nwh": "hiwət",
+        "mc_bs": "hjwot",
+        "gsr": "0305a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "50",
+        "character": "粵",
+        "pinyin": "yuè",
+        "mc_bs": "hjwot",
+        "mc_analyzed": "(h- + -jwot D)",
+        "oc_bs": "*ɢʷat {*[ɢ]ʷat}",
+        "gloss": "generous, favorable",
+        "gsr": "0305a",
+        "unicode_utf16": "U+7CB5"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1148
-- Roots whose display label changed after document-wide renumbering: 680
-- Duplicate phonetic bases encountered in document order: 289
+- Mutable series/subseries roots inspected: 1155
+- Roots whose display label changed after document-wide renumbering: 684
+- Duplicate phonetic bases encountered in document order: 290
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -982,10 +982,17 @@
 | `21-26` | `subseries-root` | 厲 | `rat` | 1 | `rat` | yes |
 | `21-27` | `series-root` | 柰 | `nat` | 1 | `nat` | yes |
 | `21-28` | `series-root` | 祭 | `tset` | 2 | `tset₂` | yes |
+| `21-29` | `series-root` | 杀 | `sat` | 1 | `sat` | yes |
+| `21-29` | `subseries-root` | 殺 | `sat` | 2 | `sat₂` | yes |
 | `21-30` | `series-root` | 癶 | `pat` | 1 | `pat` | yes |
 | `21-30` | `subseries-root` | 癹 | `pat` | 2 | `pat₂` | yes |
 | `21-30` | `subseries-root` | 發 | `pat` | 3 | `pat₃` | yes |
 | `21-31` | `series-root` | 犮 | `pot` | 2 | `pot₂` | yes |
+| `21-33` | `series-root` | 伐 | `pat` | 4 | `pat₄` | yes |
+| `21-34` | `series-root` | 罰 | `pat` | 5 | `pat₅` | yes |
+| `21-35` | `series-root` | 貝 | `p\textoverset{a}{a}t` | 1 | `p\textoverset{a}{a}t` | yes |
+| `21-36` | `series-root` | 吠 | `pot` | 3 | `pot₃` | yes |
+| `21-37` | `series-root` | 末 | `m\textoverset{a}{a}t` | 1 | `m\textoverset{a}{a}t` | yes |
 | `22-01` | `series-root` | 氒 | `kot` | 2 | `kot₂` | yes |
 | `22-01` | `subseries-root` | 舌 | `k\textoverset{a}{o}t` | 1 | `k\textoverset{a}{o}t` | yes |
 | `22-01` | `subseries-root` | 活 | `k\textoverset{a}{o}t` | 2 | `k\textoverset{a}{o}t₂` | yes |

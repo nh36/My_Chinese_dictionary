@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:27:13.358921+00:00",
+  "generated_at": "2026-06-29T07:46:59.318144+00:00",
   "id": "21-29",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
@@ -561,7 +561,7 @@
           "srat",
           "sat"
         ],
-        "display_root": "sat",
+        "display_root": "sat₂",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -596,7 +596,10 @@
             "class": "a",
             "reason": "no_i_medial"
           }
-        ]
+        ],
+        "base_root": "sat",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -665,8 +668,8 @@
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "閃"
       },
-      "transliteration_latex": "{\\large{sat\\textsuperscript{·閃}}},",
-      "render_latex": "閷\t%sha1\n{\\large{sat\\textsuperscript{·閃}}},\n\\textit{ṣeat};\t%0319e",
+      "transliteration_latex": "{\\large{sat₂\\textsuperscript{·閃}}},",
+      "render_latex": "閷\t%sha1\n{\\large{sat₂\\textsuperscript{·閃}}},\n\\textit{ṣeat};\t%0319e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -795,8 +798,8 @@
         "source": "ids_top_level",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}sat}},",
-      "render_latex": "樧\t%sha1\n{\\large{\\textsuperscript{arb·}sat}},\n\\textit{ṣeat};\t%0319f\n\\textit{ṣiet};",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}sat₂}},",
+      "render_latex": "樧\t%sha1\n{\\large{\\textsuperscript{arb·}sat₂}},\n\\textit{ṣeat};\t%0319f\n\\textit{ṣiet};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -928,8 +931,8 @@
         "source": "ids_top_level",
         "semantic_component": "手"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{man·}sat}},",
-      "render_latex": "摋\t%sa4 / sà\n{\\large{\\textsuperscript{man·}sat}},\n\\textit{sat};\t%0319g",
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}sat₂}},",
+      "render_latex": "摋\t%sa4 / sà\n{\\large{\\textsuperscript{man·}sat₂}},\n\\textit{sat};\t%0319g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1492,6 +1495,9 @@
         "class": "a",
         "reason": "no_i_medial"
       }
-    ]
+    ],
+    "base_root": "sat",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
   }
 }

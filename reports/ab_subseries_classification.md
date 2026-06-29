@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 899
-- Subgroups newly marked with `a`: 118
+- Generated subgroup heads inspected: 902
+- Subgroups newly marked with `a`: 119
 - Subgroups newly marked with `b`: 99
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 300
-- Mixed subgroups left unmarked: 378
+- Mixed subgroups left unmarked: 380
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -639,7 +639,7 @@
 | `21-26` | 萬 | `man` | `man` | `mixed` | no | `miənH, ṭhaeyH, lieyH, layH, lat, maeyH` | the extracted forms point to both type a and type b |
 | `21-28` | 祭 | `tset` | `tset` | `mixed` | no | `tsieyH, tṣeayH, ṭhieyH, tshayH, tṣheat` | the extracted forms point to both type a and type b |
 | `21-29` | 杀 | `sat` | `sat` | `mixed` | no | `tshayH, ṣeayH, ṣeat, ṣiet, sat` | the extracted forms point to both type a and type b |
-| `21-29` | 殺 | `sat` | `sat` | `mixed` | no | `ṣeayH, ṣeat, ṣiet, sat` | the extracted forms point to both type a and type b |
+| `21-29` | 殺 | `sat` | `sat₂` | `mixed` | no | `ṣeayH, ṣeat, ṣiet, sat` | the extracted forms point to both type a and type b |
 | `21-30` | 癹 | `pat` | `pat₂` | `mixed` | no | `bat, pat, piət, piəyH` | the extracted forms point to both type a and type b |
 | `21-30` | 發 | `pat` | `pat₃` | `mixed` | no | `pat, piət, piəyH` | the extracted forms point to both type a and type b |
 | `21-31` | 犮 | `pot` | `pot` | `mixed` | no | `bat, biət, bayH, pat, beat, piət, piut, phiut, piəyH` | the extracted forms point to both type a and type b |
@@ -651,8 +651,11 @@
 | `22-02` | 欮 | `kot` | `k\textoverset{b}{o}t` | `b` | yes | `kiwət, giwət, kiweyH, khiwət` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `22-02` | 厥 | `kot` | `k\textoverset{b}{o}t₂` | `b` | yes | `kiwət, giwət, kiweyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `22-03` | 會 | `kop` | `k\textoverset{a}{o}p` | `a` | yes | `hwayH, kwayH, kwat, khwaeyH, hwat, qwayH` | all extracted forms lack an i-medial after the onset |
+| `22-04` | 曰 | `quat` | `quat` | `mixed` | no | `ḫiwət, ḫwət, ḫwit, kwət` | the extracted forms point to both type a and type b |
 | `22-05` | 戉 | `gat` | `gat` | `mixed` | no | `hiwət, hwat` | the extracted forms point to both type a and type b |
 | `22-05` | 歲 | `quat` | `quat₂` | `mixed` | no | `siweyH, hiwəyH, hwayH, qiwəyH, hwat, qiwet, qiwət, kiweyH` | the extracted forms point to both type a and type b |
+| `22-07` | 𥄗 | `qot` | `q\textoverset{a}{o}t` | `a` | yes | `qwat, qwanH` | all extracted forms lack an i-medial after the onset |
+| `22-08` | 月 | `ṅat` | `ṅat` | `mixed` | no | `ṅiwət, ṅwaet` | the extracted forms point to both type a and type b |
 | `22-10` | 叕 | `tot` | `tot` | `mixed` | no | `ṭiweyH, ṭiwet, jiweyH, chiwet, twat, ṭwaet, teyH` | the extracted forms point to both type a and type b |
 | `22-13` | 兌 | `lot` | `lot` | `mixed` | no | `dwayH, thwayH, śiweyH, thwaH, yiwet, yiweyH, tshiweyH, dwat, thwat, ciwet, śiwet` | the extracted forms point to both type a and type b |
 | `23-03` | 幵 | `ker` | `ker` | `a` | no | `ken, ṅen` | all extracted forms lack an i-medial after the onset |

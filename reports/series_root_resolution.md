@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 774
-- Packets with at least one root candidate: 773
-- Packets with a single resolved provisional root: 771
+- Missing-series packets inspected: 780
+- Packets with at least one root candidate: 778
+- Packets with a single resolved provisional root: 776
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -620,10 +620,16 @@
 | `21-35` | 貝→pat [*pa̠ds] (None) | `pat` | `head_graph_oc_shengfu` |
 | `21-36` | 吠→pot [*Cə.bot-s {*Cə.[b]o[t]-s}] (0348a) | `pot` | `head_graph_oc_bs` |
 | `21-37` | 末→mat [*mˤat] (0277a) | `mat` | `head_graph_oc_bs` |
+| `21-38` |  | `` | `` |
 | `22-01` | 氒→kot [*kod] (None) | `kot` | `head_graph_oc_shengfu` |
 | `22-02` | 欮→kot [*kod] (None) | `kot` | `head_graph_oc_shengfu` |
 | `22-03` | 會→kop [*m-kˤop-s] (0321a) | `kop` | `head_graph_oc_bs` |
+| `22-04` | 曰→quat [*ɢʷat {*[ɢ]ʷat}] (0304a) | `quat` | `head_graph_oc_bs` |
 | `22-05` | 戉→quat [*ɢʷat {*[ɢ]ʷat}] (0303a) | `quat` | `head_graph_oc_bs` |
+| `22-06` | 粵→quat [*ɢʷat {*[ɢ]ʷat}] (0305a) | `quat` | `head_graph_oc_bs` |
+| `22-07` | 𥄗→qot [*qo̠d] (None) | `qot` | `head_graph_oc_shengfu` |
+| `22-08` | 月→ṅat [*ŋʷat {*[ŋ]ʷat}] (0306a) | `ṅat` | `head_graph_oc_bs` |
+| `22-09` | 奪→lot [*Cə.lˤot] (0274a) | `lot` | `head_graph_oc_bs` |
 | `22-10` | 叕→tot [*trot-s] (0295a) | `tot` | `head_graph_oc_bs` |
 | `22-13` | 兌→lot [*lˤot-s] (0324a) | `lot` | `head_graph_oc_bs` |
 | `23-03` | 幵→ker [*kˤer {*[k]ˤer}] (0239a) | `ker` | `head_graph_oc_bs` |

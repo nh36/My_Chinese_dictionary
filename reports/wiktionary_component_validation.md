@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5575
-- Pages fetched / cached successfully: 5493
-- Additions with explicit Han-compound semantic/phonetic roles: 2556
+- Proposed additions checked: 5588
+- Pages fetched / cached successfully: 5503
+- Additions with explicit Han-compound semantic/phonetic roles: 2561
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3664,6 +3664,10 @@
 | `22-03` | 噲 | yes | yes | 口 | 會 |
 | `22-03` | 鬠 | yes | yes | 髟 | 會 |
 | `22-03` | 薈 | yes | no |  |  |
+| `22-04` | 曰 | yes | no |  |  |
+| `22-04` | 𢪏 | no | no |  |  |
+| `22-04` | 汩 | yes | yes | 水 | 曰 |
+| `22-04` | 汨 | yes | yes | 水 | 日 |
 | `22-05` | 戉 | yes | no |  |  |
 | `22-05` | 鉞 | yes | yes | 金 | 戉 |
 | `22-05` | 越 | yes | yes | 走 | 戉 |
@@ -3675,6 +3679,15 @@
 | `22-05` | 穢 | yes | yes | 禾 | 歲 |
 | `22-05` | 噦 | yes | no |  |  |
 | `22-05` | 劌 | yes | no |  |  |
+| `22-06` | 粵 | yes | no |  |  |
+| `22-07` | 𥄗 | no | no |  |  |
+| `22-07` | 𢯲 | no | no |  |  |
+| `22-08` | 月 | yes | no |  |  |
+| `22-08` | 抈 | yes | no |  |  |
+| `22-08` | 刖 | yes | yes | 刀 | 月 |
+| `22-08` | 跀 | yes | yes | 足 | 月 |
+| `22-08` | 外 | yes | yes | 卜 | 月 |
+| `22-09` | 奪 | yes | no |  |  |
 | `22-10` | 叕 | yes | no |  |  |
 | `22-10` | 綴 | yes | yes | 糸 | 叕 |
 | `22-10` | 啜 | yes | yes | 口 | 叕 |

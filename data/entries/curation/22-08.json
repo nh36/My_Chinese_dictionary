@@ -1,0 +1,1562 @@
+{
+  "generated_at": "2026-06-29T07:46:59.326298+00:00",
+  "id": "22-08",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "22-08",
+    "rhyme_section": 22,
+    "series_number": 8,
+    "k_tokens": [
+      "306",
+      "322"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 266,
+    "source_line_number": 42,
+    "source_line_raw": "22-8 = K. 306, 322              MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "22-08",
+    "rhyme_section": "22",
+    "series_number": "8",
+    "schuessler_k_tokens": "306; 322",
+    "schuessler_source_page": "266",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "6",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "月; 抈; 刖; 跀; 外",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "3",
+    "bs_gsr_characters_sample": "月; 刖; 外",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "月; 抈; 刖; 跀; 外"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "306",
+    "322"
+  ],
+  "proposed_additions": [
+    {
+      "character": "月",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 11,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [
+          "ngjwot"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2288",
+          "character": "月",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "50",
+          "character": "月",
+          "pinyin": "yuè",
+          "mc_bs": "ngjwot",
+          "mc_analyzed": "(ng- + -jwot D)",
+          "oc_bs": "*ŋʷat {*[ŋ]ʷat}",
+          "gloss": "moon, month",
+          "gsr": "0306a",
+          "unicode_utf16": "U+6708"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16858",
+          "character": "月",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "16852",
+          "character": "𦨉",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16853",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16854",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16855",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五活",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋo̠d"
+        },
+        {
+          "source_row_number": "16856",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16857",
+          "character": "䎳",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16858",
+          "character": "月",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16859",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16860",
+          "character": "抈",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16861",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16862",
+          "character": "外",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五會",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠ds",
+          "oc_syllable": "ŋo̠ds"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ṅat}},",
+      "render_latex": "月\t%yue4 / yuè\n{\\large{ṅat}},\n\\textit{ṅiwət};\t%0306a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "月",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "月"
+      },
+      "resolved_node_root": {
+        "root": "ṅat",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ṅat"
+        ],
+        "bs_node_roots": [
+          "ŋat",
+          "ŋrat"
+        ],
+        "display_root": "ṅat",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ṅiwət",
+          "ṅwaet"
+        ],
+        "form_analyses": [
+          {
+            "form": "ṅiwət",
+            "normalized": "ṅiwət",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ṅwaet",
+            "normalized": "ṅwaet",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "抈",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2289",
+          "character": "抈",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16860",
+          "character": "抈",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "抈",
+          "ids": "⿰扌月",
+          "phonetic_component": "月",
+          "semantic_component": "手",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "man",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "手",
+            "label_token": "man(us)",
+            "abbreviation": "man",
+            "start_line": 319
+          },
+          {
+            "graph_raw": "手",
+            "label_token": "man",
+            "abbreviation": "man",
+            "learned": true,
+            "evidence_count": 20
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "手"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{man·}ṅat}},",
+      "render_latex": "抈\t%yue4\n{\\large{\\textsuperscript{man·}ṅat}},\n\\textit{ṅiwət};\t%0306g",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "月",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "月"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "刖",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət",
+          "ṅwaet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət",
+          "ṅwaet"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot",
+          "ngwaet"
+        ],
+        "bs_gsr_forms": [
+          "ngwaet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "ngjwot"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2290",
+          "character": "刖",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306h"
+        },
+        {
+          "source_row_number": "2291",
+          "character": "刖",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅwaet",
+          "mc_bs": "ngwaet",
+          "gsr": "0306h"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "50",
+          "character": "刖",
+          "pinyin": "yuè",
+          "mc_bs": "ngwaet",
+          "mc_analyzed": "(ng- + -waet D)",
+          "oc_bs": "*ŋʷˤ<r>at {*[ŋ]ʷˤ<r>at}",
+          "gloss": "amputate a foot",
+          "gsr": "0306h",
+          "unicode_utf16": "U+5216"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16853",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16856",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16859",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|月|刀|alt2=刂|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "月",
+            "刀"
+          ],
+          "positional_components_raw": [
+            "月",
+            "刀"
+          ],
+          "named_args": {
+            "alt2": "刂",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "刀"
+          ],
+          "phonetic_components": [
+            "月"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|月|刀|alt2=刂|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "月",
+              "刀"
+            ],
+            "positional_components_raw": [
+              "月",
+              "刀"
+            ],
+            "named_args": {
+              "alt2": "刂",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "刀"
+            ],
+            "phonetic_components": [
+              "月"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "刖",
+          "ids": "⿰月刂",
+          "phonetic_component": "月",
+          "semantic_component": "刀",
+          "position": "suffix-dot",
+          "abbreviation": "cult",
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 249
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cult",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "刀",
+            "label_token": "cult(er)",
+            "abbreviation": "cult",
+            "start_line": 249
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "刀"
+      },
+      "transliteration_latex": "{\\large{ṅat\\textsuperscript{·cult}}},",
+      "render_latex": "刖\t%yue4 / yuè\n{\\large{ṅat\\textsuperscript{·cult}}},\n\\textit{ṅiwət};\t%0306h\n\\textit{ṅwaet};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "刀",
+        "phonetic_component": "月",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "刖",
+          "semantic_component": "刀",
+          "phonetic_component": "月",
+          "position": "suffix-dot",
+          "abbreviation": "cult",
+          "inventory_matches": [
+            {
+              "graph_raw": "刀",
+              "label_token": "cult(er)",
+              "abbreviation": "cult",
+              "start_line": 249
+            }
+          ],
+          "template_raw": "{{Han compound|月|刀|alt2=刂|ls=psc|c1=p|c2=s}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "月",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "月"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "跀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2292",
+          "character": "跀",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306j"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16854",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16855",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五活",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋo̠d"
+        },
+        {
+          "source_row_number": "16861",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|足|alt1=𧾷|月|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "足",
+            "月"
+          ],
+          "positional_components_raw": [
+            "足",
+            "月"
+          ],
+          "named_args": {
+            "alt1": "𧾷",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "足"
+          ],
+          "phonetic_components": [
+            "月"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|足|alt1=𧾷|月|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "足",
+              "月"
+            ],
+            "positional_components_raw": [
+              "足",
+              "月"
+            ],
+            "named_args": {
+              "alt1": "𧾷",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "足"
+            ],
+            "phonetic_components": [
+              "月"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "跀",
+          "ids": "⿰𧾷月",
+          "phonetic_component": "月",
+          "semantic_component": "𧾷",
+          "position": "prefix-dot",
+          "abbreviation": "ped",
+          "inventory_matches": [
+            {
+              "graph_raw": "𧾷",
+              "label_token": "ped",
+              "abbreviation": "ped",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ped",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "足",
+            "label_token": "(pes,) ped(is)",
+            "abbreviation": "ped",
+            "start_line": 354
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "足"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}ṅat}},",
+      "render_latex": "跀\t%yue4\n{\\large{\\textsuperscript{ped·}ṅat}},\n\\textit{ṅiwət};\t%0306j",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "足",
+        "phonetic_component": "月",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "跀",
+          "semantic_component": "足",
+          "phonetic_component": "月",
+          "position": "prefix-dot",
+          "abbreviation": "ped",
+          "inventory_matches": [
+            {
+              "graph_raw": "足",
+              "label_token": "(pes,) ped(is)",
+              "abbreviation": "ped",
+              "start_line": 354
+            }
+          ],
+          "template_raw": "{{Han compound|足|alt1=𧾷|月|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "月",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "月"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "外",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅwayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅwayH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngwajH"
+        ],
+        "bs_gsr_forms": [
+          "ngwajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2422",
+          "character": "外",
+          "pinyin": "wai4",
+          "mc_nwh": "ṅwayH",
+          "mc_bs": "ngwajH",
+          "gsr": "0322a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "52",
+          "character": "外",
+          "pinyin": "wài",
+          "mc_bs": "ngwajH",
+          "mc_analyzed": "(ng- + -waj C)",
+          "oc_bs": "*ŋʷˤat-s {*[ŋ]ʷˤa[t]-s}",
+          "gloss": "outside",
+          "gsr": "0322a",
+          "unicode_utf16": "U+5916"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16862",
+          "character": "外",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五會",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠ds",
+          "oc_syllable": "ŋo̠ds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|卜|月|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "卜",
+            "月"
+          ],
+          "positional_components_raw": [
+            "卜",
+            "月"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "卜"
+          ],
+          "phonetic_components": [
+            "月"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|卜|月|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "卜",
+              "月"
+            ],
+            "positional_components_raw": [
+              "卜",
+              "月"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "卜"
+            ],
+            "phonetic_components": [
+              "月"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{prognosc·}ṅat}},",
+      "render_latex": "外\t%wai4 / wài\n{\\large{\\textsuperscript{prognosc·}ṅat}},\n\\textit{ṅwayH};\t%0322a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "卜",
+        "phonetic_component": "月",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "外",
+          "semantic_component": "卜",
+          "phonetic_component": "月",
+          "position": "prefix-dot",
+          "abbreviation": "prognosc",
+          "inventory_matches": [
+            {
+              "graph_raw": "卜",
+              "label_token": "prognosc(ere)",
+              "abbreviation": "prognosc",
+              "start_line": 369
+            }
+          ],
+          "template_raw": "{{Han compound|卜|月|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "prognosc",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "卜",
+            "label_token": "prognosc(ere)",
+            "abbreviation": "prognosc",
+            "start_line": 369
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "卜"
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "月",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "月"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "月",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 11,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [
+          "ngjwot"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2288",
+          "character": "月",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "50",
+          "character": "月",
+          "pinyin": "yuè",
+          "mc_bs": "ngjwot",
+          "mc_analyzed": "(ng- + -jwot D)",
+          "oc_bs": "*ŋʷat {*[ŋ]ʷat}",
+          "gloss": "moon, month",
+          "gsr": "0306a",
+          "unicode_utf16": "U+6708"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16858",
+          "character": "月",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "16852",
+          "character": "𦨉",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16853",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16854",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16855",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五活",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋo̠d"
+        },
+        {
+          "source_row_number": "16856",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16857",
+          "character": "䎳",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16858",
+          "character": "月",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16859",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16860",
+          "character": "抈",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16861",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        },
+        {
+          "source_row_number": "16862",
+          "character": "外",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五會",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠ds",
+          "oc_syllable": "ŋo̠ds"
+        }
+      ]
+    },
+    {
+      "character": "抈",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2289",
+          "character": "抈",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16860",
+          "character": "抈",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "刖",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət",
+          "ṅwaet"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət",
+          "ṅwaet"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot",
+          "ngwaet"
+        ],
+        "bs_gsr_forms": [
+          "ngwaet"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "ngjwot"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2290",
+          "character": "刖",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306h"
+        },
+        {
+          "source_row_number": "2291",
+          "character": "刖",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅwaet",
+          "mc_bs": "ngwaet",
+          "gsr": "0306h"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "50",
+          "character": "刖",
+          "pinyin": "yuè",
+          "mc_bs": "ngwaet",
+          "mc_analyzed": "(ng- + -waet D)",
+          "oc_bs": "*ŋʷˤ<r>at {*[ŋ]ʷˤ<r>at}",
+          "gloss": "amputate a foot",
+          "gsr": "0306h",
+          "unicode_utf16": "U+5216"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16853",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16856",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五刮",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋʳo̠d"
+        },
+        {
+          "source_row_number": "16859",
+          "character": "刖",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "跀",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅiwət"
+        ],
+        "mand2mc_bs_forms": [
+          "ngjwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2292",
+          "character": "跀",
+          "pinyin": "yue4",
+          "mc_nwh": "ṅiwət",
+          "mc_bs": "ngjwot",
+          "gsr": "0306j"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16854",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五忽",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "ŋu̠d"
+        },
+        {
+          "source_row_number": "16855",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五活",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ŋo̠d"
+        },
+        {
+          "source_row_number": "16861",
+          "character": "跀",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "魚厥",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "od",
+          "oc_syllable": "ŋod"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "外",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅwayH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅwayH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngwajH"
+        ],
+        "bs_gsr_forms": [
+          "ngwajH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2422",
+          "character": "外",
+          "pinyin": "wai4",
+          "mc_nwh": "ṅwayH",
+          "mc_bs": "ngwajH",
+          "gsr": "0322a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "52",
+          "character": "外",
+          "pinyin": "wài",
+          "mc_bs": "ngwajH",
+          "mc_analyzed": "(ng- + -waj C)",
+          "oc_bs": "*ŋʷˤat-s {*[ŋ]ʷˤa[t]-s}",
+          "gloss": "outside",
+          "gsr": "0322a",
+          "unicode_utf16": "U+5916"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "16862",
+          "character": "外",
+          "phonetic_component": "月",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五會",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "o̠ds",
+          "oc_syllable": "ŋo̠ds"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "月",
+      "gsr": "0306a",
+      "oc_bs": "*ŋʷat {*[ŋ]ʷat}",
+      "root": "ṅat",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ṅat",
+    "source": "head_graph_oc_bs",
+    "character": "月",
+    "oc_bs": "*ŋʷat {*[ŋ]ʷat}",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "ṅat",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "ṅiwət",
+      "ṅwaet"
+    ],
+    "form_analyses": [
+      {
+        "form": "ṅiwət",
+        "normalized": "ṅiwət",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "ṅwaet",
+        "normalized": "ṅwaet",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ]
+  }
+}

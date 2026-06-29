@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-06-29T07:46:58.596462+00:00",
+  "gsc_id": "22-09",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "274"
+  ],
+  "schuessler": {
+    "gsc_id": "22-09",
+    "rhyme_section": 22,
+    "series_number": 9,
+    "k_tokens": [
+      "274"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC              LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 266,
+    "source_line_number": 51,
+    "source_line_raw": "22-9 = K. 274 Mand.           MC              LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "22-09",
+    "rhyme_section": "22",
+    "series_number": "9",
+    "schuessler_k_tokens": "274",
+    "schuessler_source_page": "266",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "奪",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "奪",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "奪"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "奪",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2103",
+          "character": "奪",
+          "pinyin": "duo2",
+          "mc_nwh": "dwayH",
+          "mc_bs": "dwajH",
+          "gsr": "0274a"
+        },
+        {
+          "source_row_number": "2104",
+          "character": "奪",
+          "pinyin": "duo2",
+          "mc_nwh": "dwat",
+          "mc_bs": "dwat",
+          "gsr": "0274a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "47",
+          "character": "奪",
+          "pinyin": "duó",
+          "mc_bs": "dwat",
+          "mc_analyzed": "(d- + -wat D)",
+          "oc_bs": "*Cə.lˤot",
+          "gloss": "seize",
+          "gsr": "0274a",
+          "unicode_utf16": "U+596A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2869",
+          "character": "奪",
+          "phonetic_component": "奪",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒活",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ɡlo̠d"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2869",
+          "character": "奪",
+          "phonetic_component": "奪",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "徒活",
+          "source": "广韵",
+          "oc_initial": "ɡl",
+          "oc_rhyme": "o̠d",
+          "oc_syllable": "ɡlo̠d"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dwayH",
+          "dwat"
+        ],
+        "mand2mc_nwh_forms": [
+          "dwayH",
+          "dwat"
+        ],
+        "mand2mc_bs_forms": [
+          "dwajH",
+          "dwat"
+        ],
+        "bs_gsr_forms": [
+          "dwat"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "dwajH"
+        ],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2103",
+        "character": "奪",
+        "pinyin": "duo2",
+        "mc_nwh": "dwayH",
+        "mc_bs": "dwajH",
+        "gsr": "0274a"
+      },
+      {
+        "source_row_number": "2104",
+        "character": "奪",
+        "pinyin": "duo2",
+        "mc_nwh": "dwat",
+        "mc_bs": "dwat",
+        "gsr": "0274a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "47",
+        "character": "奪",
+        "pinyin": "duó",
+        "mc_bs": "dwat",
+        "mc_analyzed": "(d- + -wat D)",
+        "oc_bs": "*Cə.lˤot",
+        "gloss": "seize",
+        "gsr": "0274a",
+        "unicode_utf16": "U+596A"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
