@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5560
-- Pages fetched / cached successfully: 5479
-- Additions with explicit Han-compound semantic/phonetic roles: 2553
+- Proposed additions checked: 5575
+- Pages fetched / cached successfully: 5493
+- Additions with explicit Han-compound semantic/phonetic roles: 2556
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3593,6 +3593,11 @@
 | `21-28` | 瘵 | yes | no |  |  |
 | `21-28` | 蔡 | yes | yes | 艸 | 祭 |
 | `21-28` | 察 | yes | yes | 宀 | 祭 |
+| `21-29` | 杀 | yes | no |  |  |
+| `21-29` | 殺 | yes | yes | 殳 | 𣏂 |
+| `21-29` | 閷 | yes | no |  |  |
+| `21-29` | 樧 | yes | no |  |  |
+| `21-29` | 摋 | yes | no |  |  |
 | `21-30` | 癶 | yes | no |  |  |
 | `21-30` | 癹 | yes | no |  | 癶 |
 | `21-30` | 發 | yes | no |  |  |
@@ -3614,6 +3619,16 @@
 | `21-31` | 黻 | yes | no |  |  |
 | `21-31` | 帗 | yes | no |  |  |
 | `21-31` | 祓 | yes | no |  |  |
+| `21-33` | 伐 | yes | no |  |  |
+| `21-33` | 茷 | yes | no |  |  |
+| `21-34` | 罰 | yes | no | 詈, 刀 |  |
+| `21-35` | 貝 | yes | no |  |  |
+| `21-35` | 敗 | yes | yes | 攴 | 貝 |
+| `21-35` | 𣀕 | no | no |  |  |
+| `21-36` | 吠 | yes | no |  |  |
+| `21-37` | 末 | yes | no |  |  |
+| `21-37` | 沫 | yes | yes | 水 | 末 |
+| `21-37` | 秣 | yes | no |  |  |
 | `22-01` | 氒 | yes | no |  |  |
 | `22-01` | 舌 | yes | no |  |  |
 | `22-01` | 括 | yes | yes | 手 | 𠯑 |

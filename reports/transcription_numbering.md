@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1141
-- Roots whose display label changed after document-wide renumbering: 675
-- Duplicate phonetic bases encountered in document order: 288
+- Mutable series/subseries roots inspected: 1148
+- Roots whose display label changed after document-wide renumbering: 680
+- Duplicate phonetic bases encountered in document order: 289
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -965,7 +965,13 @@
 | `21-15` | `series-root` | 帶 | `tat` | 1 | `tat` | yes |
 | `21-15` | `subseries-root` | 滯 | `t\textoverset{b}{a}t` | 1 | `t\textoverset{b}{a}t` | yes |
 | `21-16` | `series-root` | 筮 | `tet` | 1 | `tet` | yes |
-| `21-19` | `series-root` | 折 | `tet` | 2 | `tet₂` | yes |
+| `21-17` | `series-root` | 制 | `tet` | 2 | `tet₂` | yes |
+| `21-18` | `series-root` | 彘 | `lat` | 4 | `lat₄` | yes |
+| `21-19` | `series-root` | 折 | `tet` | 3 | `tet₃` | yes |
+| `21-20` | `series-root` | 撤 | `tet` | 4 | `tet₄` | yes |
+| `21-20` | `subseries-root` | 徹 | `tet` | 5 | `tet₅` | yes |
+| `21-21` | `series-root` | 曳 | `let` | 1 | `let` | yes |
+| `21-22` | `series-root` | 裔 | `let` | 2 | `let₂` | yes |
 | `21-23` | `series-root` | 世 | `l\textoverset{b}{a}p` | 1 | `l\textoverset{b}{a}p` | yes |
 | `21-23` | `subseries-root` | 貰 | `l\textoverset{b}{a}p` | 2 | `l\textoverset{b}{a}p₂` | yes |
 | `21-24` | `series-root` | 剌 | `ra` | 5 | `ra₅` | yes |
@@ -974,6 +980,7 @@
 | `21-26` | `series-root` | 蠆 | `myt` | 1 | `myt` | yes |
 | `21-26` | `subseries-root` | 萬 | `man` | 1 | `man` | yes |
 | `21-26` | `subseries-root` | 厲 | `rat` | 1 | `rat` | yes |
+| `21-27` | `series-root` | 柰 | `nat` | 1 | `nat` | yes |
 | `21-28` | `series-root` | 祭 | `tset` | 2 | `tset₂` | yes |
 | `21-30` | `series-root` | 癶 | `pat` | 1 | `pat` | yes |
 | `21-30` | `subseries-root` | 癹 | `pat` | 2 | `pat₂` | yes |

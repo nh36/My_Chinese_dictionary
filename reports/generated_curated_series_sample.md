@@ -629,8 +629,14 @@
 | `21-26` | `missing_series` | no | 11 | 10 |
 | `21-27` | `missing_series` | no | 2 | 0 |
 | `21-28` | `missing_series` | no | 7 | 6 |
+| `21-29` | `missing_series` | no | 5 | 4 |
 | `21-30` | `missing_series` | no | 6 | 4 |
 | `21-31` | `missing_series` | no | 15 | 14 |
+| `21-33` | `missing_series` | no | 2 | 1 |
+| `21-34` | `missing_series` | no | 1 | 0 |
+| `21-35` | `missing_series` | no | 3 | 2 |
+| `21-36` | `missing_series` | no | 1 | 0 |
+| `21-37` | `missing_series` | no | 3 | 2 |
 | `22-01` | `missing_series` | no | 12 | 9 |
 | `22-02` | `missing_series` | no | 11 | 10 |
 | `22-03` | `missing_series` | no | 12 | 11 |

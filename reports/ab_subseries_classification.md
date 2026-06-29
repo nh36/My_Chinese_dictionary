@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 894
-- Subgroups newly marked with `a`: 116
+- Generated subgroup heads inspected: 899
+- Subgroups newly marked with `a`: 118
 - Subgroups newly marked with `b`: 99
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 300
-- Mixed subgroups left unmarked: 375
+- Mixed subgroups left unmarked: 378
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -629,7 +629,7 @@
 | `21-16` | 筮 | `tet` | `tet` | `b` | no | `jieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-17` | 制 | `tet` | `tet` | `b` | no | `cieyH, chieyH, chiet, kieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-19` | 折 | `tet` | `tet` | `mixed` | no | `dey, jiet, ciet, ṭiet, ṭhiet, cieyH, jieyH, ṭaet, tsyejH` | the extracted forms point to both type a and type b |
-| `21-20` | 徹 | `tet` | `tet` | `b` | no | `ḍiet, ṭhiet` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `21-20` | 徹 | `tet` | `tet₅` | `b` | no | `ḍiet, ṭhiet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-21` | 曳 | `let` | `let` | `b` | no | `yieyH, siet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-23` | 世 | `lap` | `l\textoverset{b}{a}p` | `b` | yes | `śieyH, yieyH, yiet, siet` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `21-23` | 貰 | `lap` | `l\textoverset{b}{a}p₂` | `b` | yes | `śieyH, yieyH` | all extracted forms show an i-medial or a dedicated palatal onset |
@@ -638,9 +638,14 @@
 | `21-26` | 厲 | `rat` | `rat` | `mixed` | no | `lieyH, layH, lat` | the extracted forms point to both type a and type b |
 | `21-26` | 萬 | `man` | `man` | `mixed` | no | `miənH, ṭhaeyH, lieyH, layH, lat, maeyH` | the extracted forms point to both type a and type b |
 | `21-28` | 祭 | `tset` | `tset` | `mixed` | no | `tsieyH, tṣeayH, ṭhieyH, tshayH, tṣheat` | the extracted forms point to both type a and type b |
+| `21-29` | 杀 | `sat` | `sat` | `mixed` | no | `tshayH, ṣeayH, ṣeat, ṣiet, sat` | the extracted forms point to both type a and type b |
+| `21-29` | 殺 | `sat` | `sat` | `mixed` | no | `ṣeayH, ṣeat, ṣiet, sat` | the extracted forms point to both type a and type b |
 | `21-30` | 癹 | `pat` | `pat₂` | `mixed` | no | `bat, pat, piət, piəyH` | the extracted forms point to both type a and type b |
 | `21-30` | 發 | `pat` | `pat₃` | `mixed` | no | `pat, piət, piəyH` | the extracted forms point to both type a and type b |
 | `21-31` | 犮 | `pot` | `pot` | `mixed` | no | `bat, biət, bayH, pat, beat, piət, piut, phiut, piəyH` | the extracted forms point to both type a and type b |
+| `21-33` | 伐 | `pat` | `pat` | `mixed` | no | `biət, bayH` | the extracted forms point to both type a and type b |
+| `21-35` | 貝 | `pat` | `p\textoverset{a}{a}t` | `a` | yes | `payH, baeyH, paeyH` | all extracted forms lack an i-medial after the onset |
+| `21-37` | 末 | `mat` | `m\textoverset{a}{a}t` | `a` | yes | `mat, mayH` | all extracted forms lack an i-medial after the onset |
 | `22-01` | 舌 | `kot` | `k\textoverset{a}{o}t` | `a` | yes | `kwat, hwat, khwat, kwaet, hwaeyH` | all extracted forms lack an i-medial after the onset |
 | `22-01` | 活 | `kot` | `k\textoverset{a}{o}t₂` | `a` | yes | `hwat, kwat, khwat` | all extracted forms lack an i-medial after the onset |
 | `22-02` | 欮 | `kot` | `k\textoverset{b}{o}t` | `b` | yes | `kiwət, giwət, kiweyH, khiwət` | all extracted forms show an i-medial or a dedicated palatal onset |

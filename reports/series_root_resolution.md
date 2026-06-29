@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 768
-- Packets with at least one root candidate: 767
-- Packets with a single resolved provisional root: 765
+- Missing-series packets inspected: 774
+- Packets with at least one root candidate: 773
+- Packets with a single resolved provisional root: 771
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -612,8 +612,14 @@
 | `21-26` | 蠆→myt [*mə-r̥ˤat-s {*mə-r̥ˤa[t]-s}] (0326a); 厲→rat [*rat-s {*[r]at-s}] (0340a); 萬→man [*C.man-s {*C.ma[n]-s}] (0267a) | `myt` | `merged_packet_primary_head` |
 | `21-27` | 柰→nat [*na̠ds] (None) | `nat` | `head_graph_oc_shengfu` |
 | `21-28` | 祭→tset [*tset-s {*[ts]et-s}] (0337a) | `tset` | `head_graph_oc_bs` |
+| `21-29` | 杀→sat [*s<r>at-s] (None) | `sat` | `same_character_series_root` |
 | `21-30` | 癶→pat [*pa̠d] (None) | `pat` | `head_graph_oc_shengfu` |
 | `21-31` | 犮→pot [*bo̠d] (None) | `pot` | `head_graph_oc_shengfu` |
+| `21-33` | 伐→pat [*m-pat] (0307a) | `pat` | `head_graph_oc_bs` |
+| `21-34` | 罰→pat [*bat {*[b][a]t}] (0308a) | `pat` | `head_graph_oc_bs` |
+| `21-35` | 貝→pat [*pa̠ds] (None) | `pat` | `head_graph_oc_shengfu` |
+| `21-36` | 吠→pot [*Cə.bot-s {*Cə.[b]o[t]-s}] (0348a) | `pot` | `head_graph_oc_bs` |
+| `21-37` | 末→mat [*mˤat] (0277a) | `mat` | `head_graph_oc_bs` |
 | `22-01` | 氒→kot [*kod] (None) | `kot` | `head_graph_oc_shengfu` |
 | `22-02` | 欮→kot [*kod] (None) | `kot` | `head_graph_oc_shengfu` |
 | `22-03` | 會→kop [*m-kˤop-s] (0321a) | `kop` | `head_graph_oc_bs` |
