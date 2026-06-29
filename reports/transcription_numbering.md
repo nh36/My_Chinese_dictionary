@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1155
-- Roots whose display label changed after document-wide renumbering: 684
-- Duplicate phonetic bases encountered in document order: 290
+- Mutable series/subseries roots inspected: 1160
+- Roots whose display label changed after document-wide renumbering: 688
+- Duplicate phonetic bases encountered in document order: 291
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -999,10 +999,15 @@
 | `22-02` | `series-root` | 欮 | `k\textoverset{b}{o}t` | 1 | `k\textoverset{b}{o}t` | yes |
 | `22-02` | `subseries-root` | 厥 | `k\textoverset{b}{o}t` | 2 | `k\textoverset{b}{o}t₂` | yes |
 | `22-03` | `series-root` | 會 | `k\textoverset{a}{o}p` | 1 | `k\textoverset{a}{o}p` | yes |
-| `22-05` | `series-root` | 戉 | `quat` | 1 | `quat` | yes |
-| `22-05` | `subseries-root` | 歲 | `quat` | 2 | `quat₂` | yes |
+| `22-04` | `series-root` | 曰 | `quat` | 1 | `quat` | yes |
+| `22-05` | `series-root` | 戉 | `quat` | 2 | `quat₂` | yes |
+| `22-05` | `subseries-root` | 歲 | `quat` | 3 | `quat₃` | yes |
+| `22-06` | `series-root` | 粵 | `quat` | 4 | `quat₄` | yes |
+| `22-07` | `series-root` | 𥄗 | `q\textoverset{a}{o}t` | 1 | `q\textoverset{a}{o}t` | yes |
+| `22-08` | `series-root` | 月 | `ṅat` | 3 | `ṅat₃` | yes |
+| `22-09` | `series-root` | 奪 | `lot` | 1 | `lot` | yes |
 | `22-10` | `series-root` | 叕 | `tot` | 1 | `tot` | yes |
-| `22-13` | `series-root` | 兌 | `lot` | 1 | `lot` | yes |
+| `22-13` | `series-root` | 兌 | `lot` | 2 | `lot₂` | yes |
 | `23-03` | `series-root` | 幵 | `ker` | 1 | `ker` | yes |
 | `23-05` | `series-root` | 閒 | `ken` | 1 | `ken` | yes |
 | `23-05` | `subseries-root` | 間 | `ken` | 2 | `ken₂` | yes |
@@ -1098,7 +1103,7 @@
 | `28-01` | `subseries-root` | 魏 | `qhuy` | 1 | `qhuy` | yes |
 | `28-04` | `series-root` | 回 | `quy` | 7 | `quy₇` | yes |
 | `28-05` | `series-root` | 韋 | `quy` | 8 | `quy₈` | yes |
-| `28-05` | `subseries-root` | 衛 | `quat` | 3 | `quat₃` | yes |
+| `28-05` | `subseries-root` | 衛 | `quat` | 5 | `quat₅` | yes |
 | `28-11` | `series-root` | 隹 | `tur` | 1 | `tur` | yes |
 | `28-11` | `subseries-root` | 推 | `tur` | 2 | `tur₂` | yes |
 | `28-11` | `subseries-root` | 崔 | `tsuy` | 1 | `tsuy` | yes |

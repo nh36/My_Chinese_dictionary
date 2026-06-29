@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5588
-- Pages fetched / cached successfully: 5503
-- Additions with explicit Han-compound semantic/phonetic roles: 2561
+- Proposed additions checked: 5602
+- Pages fetched / cached successfully: 5517
+- Additions with explicit Han-compound semantic/phonetic roles: 2566
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3699,6 +3699,8 @@
 | `22-10` | 歠 | yes | yes | 㱃 | 叕 |
 | `22-10` | 錣 | yes | no |  |  |
 | `22-10` | 蝃 | yes | no |  |  |
+| `22-11` | 贅 | yes | no |  |  |
+| `22-12` | 叡 | yes | no |  |  |
 | `22-13` | 兌 | yes | yes | 儿 | 㕣 |
 | `22-13` | 駾 | yes | no |  |  |
 | `22-13` | 蛻 | yes | no |  |  |
@@ -3713,6 +3715,18 @@
 | `22-13` | 悅 | yes | yes | 心 | 兌 |
 | `22-13` | 閱 | yes | yes | 門 | 兌 |
 | `22-13` | 說 | yes | yes | 言 | 兌 |
+| `22-14` | 寽 | yes | yes | 𠬪 | 一 |
+| `22-14` | 鋝 | yes | no |  |  |
+| `22-14` | 埒 | yes | yes | 土 | 寽 |
+| `22-14` | 捋 | yes | no |  |  |
+| `22-16` | 絕 | yes | yes | 糸, 刀 | 卪 |
+| `22-16` | 蕝 | yes | no |  |  |
+| `22-16` | 脃 | yes | no |  |  |
+| `22-16` | 脆 | yes | yes | 肉 | 絕 |
+| `22-17` | 毳 | yes | no |  |  |
+| `22-17` | 竁 | yes | no |  |  |
+| `22-17` | 膬 | yes | no |  |  |
+| `22-18` | 雪 | yes | yes | 雨 | 彗 |
 | `23-03` | 幵 | yes | no |  |  |
 | `23-03` | 豣 | yes | no |  |  |
 | `23-03` | 趼 | yes | no |  |  |

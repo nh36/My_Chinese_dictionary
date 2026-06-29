@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 780
-- Packets with at least one root candidate: 778
-- Packets with a single resolved provisional root: 776
+- Missing-series packets inspected: 786
+- Packets with at least one root candidate: 784
+- Packets with a single resolved provisional root: 782
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -631,7 +631,13 @@
 | `22-08` | 月→ṅat [*ŋʷat {*[ŋ]ʷat}] (0306a) | `ṅat` | `head_graph_oc_bs` |
 | `22-09` | 奪→lot [*Cə.lˤot] (0274a) | `lot` | `head_graph_oc_bs` |
 | `22-10` | 叕→tot [*trot-s] (0295a) | `tot` | `head_graph_oc_bs` |
+| `22-11` | 贅→kot [*klʲods] (None); 贅→tot [*trot-s] (None) | `kot` | `head_graph_shengfu_head` |
+| `22-12` | 叡→qot [*ɢods] (None) | `qot` | `head_graph_oc_shengfu` |
 | `22-13` | 兌→lot [*lˤot-s] (0324a) | `lot` | `head_graph_oc_bs` |
+| `22-14` | 寽→rut [*rud] (None) | `rut` | `head_graph_oc_shengfu` |
+| `22-16` | 絕→tsot [*dzot {*[dz]ot}] (0296a) | `tsot` | `head_graph_oc_bs` |
+| `22-17` | 毳→tsop [*tsʰop-s {*[tsʰ]op-s}] (0345a) | `tsop` | `head_graph_oc_bs` |
+| `22-18` | 雪→sot [*sot {*[s]ot}] (0297a) | `sot` | `head_graph_oc_bs` |
 | `23-03` | 幵→ker [*kˤer {*[k]ˤer}] (0239a) | `ker` | `head_graph_oc_bs` |
 | `23-05` | 閒→ken [*kʳe̠n] (None) | `ken` | `head_graph_oc_shengfu` |
 | `23-07` | 柬→kan [*kˤranʔ {*kˤr[a]nʔ}] (0185a) | `kan` | `head_graph_oc_bs` |
