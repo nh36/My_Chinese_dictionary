@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-06-30T10:11:40.007613+00:00",
+  "id": "26-30",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "26-30",
+    "rhyme_section": 26,
+    "series_number": 30,
+    "k_tokens": [
+      "1237m"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.             MC            LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 308,
+    "source_line_number": 4,
+    "source_line_raw": "26-30 = K. 1237m Mand.             MC            LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "26-30",
+    "rhyme_section": "26",
+    "series_number": "30",
+    "schuessler_k_tokens": "1237m",
+    "schuessler_source_page": "308",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "自",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "自",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "自"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1237m"
+  ],
+  "proposed_additions": [
+    {
+      "character": "自",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dziyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "dziyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzijH"
+        ],
+        "bs_gsr_forms": [
+          "dzijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9041",
+          "character": "自",
+          "pinyin": "zi4",
+          "mc_nwh": "dziyH",
+          "mc_bs": "dzijH",
+          "gsr": "1237m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "自",
+          "pinyin": "zì",
+          "mc_bs": "dzijH",
+          "mc_analyzed": "(dz- + -ij C)",
+          "oc_bs": "*N-tsit-s {*N-tsi[t]-s}",
+          "gloss": "self (adv.)",
+          "gsr": "1237m",
+          "unicode_utf16": "U+81EA"
+        },
+        {
+          "source_page_number": "186",
+          "character": "自",
+          "pinyin": "zì",
+          "mc_bs": "dzijH",
+          "mc_analyzed": "(dz- + -ij C)",
+          "oc_bs": "*S.bit-s {*S.[b]i[t]-s}",
+          "gloss": "to follow; from",
+          "gsr": "1237m",
+          "unicode_utf16": "U+81EA"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "18387",
+          "character": "自",
+          "phonetic_component": "自",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "疾二",
+          "source": "广韵",
+          "oc_initial": "sbl",
+          "oc_rhyme": "ids",
+          "oc_syllable": "sblids"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "18387",
+          "character": "自",
+          "phonetic_component": "自",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "疾二",
+          "source": "广韵",
+          "oc_initial": "sbl",
+          "oc_rhyme": "ids",
+          "oc_syllable": "sblids"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tsit}},",
+      "render_latex": "自\t%zi4 / zì\n{\\large{tsit}},\n\\textit{dziyH};\t%1237m",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "自",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "自"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "自",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "dziyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "dziyH"
+        ],
+        "mand2mc_bs_forms": [
+          "dzijH"
+        ],
+        "bs_gsr_forms": [
+          "dzijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9041",
+          "character": "自",
+          "pinyin": "zi4",
+          "mc_nwh": "dziyH",
+          "mc_bs": "dzijH",
+          "gsr": "1237m"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "自",
+          "pinyin": "zì",
+          "mc_bs": "dzijH",
+          "mc_analyzed": "(dz- + -ij C)",
+          "oc_bs": "*N-tsit-s {*N-tsi[t]-s}",
+          "gloss": "self (adv.)",
+          "gsr": "1237m",
+          "unicode_utf16": "U+81EA"
+        },
+        {
+          "source_page_number": "186",
+          "character": "自",
+          "pinyin": "zì",
+          "mc_bs": "dzijH",
+          "mc_analyzed": "(dz- + -ij C)",
+          "oc_bs": "*S.bit-s {*S.[b]i[t]-s}",
+          "gloss": "to follow; from",
+          "gsr": "1237m",
+          "unicode_utf16": "U+81EA"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "18387",
+          "character": "自",
+          "phonetic_component": "自",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "疾二",
+          "source": "广韵",
+          "oc_initial": "sbl",
+          "oc_rhyme": "ids",
+          "oc_syllable": "sblids"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "18387",
+          "character": "自",
+          "phonetic_component": "自",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "疾二",
+          "source": "广韵",
+          "oc_initial": "sbl",
+          "oc_rhyme": "ids",
+          "oc_syllable": "sblids"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "自",
+      "gsr": "1237m",
+      "oc_bs": "*N-tsit-s {*N-tsi[t]-s}",
+      "root": "tsit",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "自",
+      "gsr": "1237m",
+      "oc_bs": "*S.bit-s {*S.[b]i[t]-s}",
+      "root": "pit",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "自",
+      "gsr": null,
+      "oc_bs": "*sblids",
+      "root": "sit",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tsit",
+    "source": "head_graph_mc_onset",
+    "character": "自",
+    "oc_bs": "*N-tsit-s {*N-tsi[t]-s}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tsit",
+    "base_root": "tsit",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

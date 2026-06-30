@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5902
-- Pages fetched / cached successfully: 5801
-- Additions with explicit Han-compound semantic/phonetic roles: 2681
+- Proposed additions checked: 5918
+- Pages fetched / cached successfully: 5820
+- Additions with explicit Han-compound semantic/phonetic roles: 2690
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4528,7 +4528,7 @@
 | `26-12` | 殹 | yes | no |  |  |
 | `26-12` | 繄 | yes | no |  |  |
 | `26-12` | 翳 | yes | yes | 羽 | 殹 |
-| `26-12` | 鷖 | no | no |  |  |
+| `26-12` | 鷖 | yes | no |  |  |
 | `26-13` | 伊 | yes | yes | 人 | 尹 |
 | `26-13` | 咿 | yes | yes | 口 | 伊 |
 | `26-14` | 氐 | yes | no |  |  |
@@ -4561,7 +4561,7 @@
 | `26-15` | 梯 | yes | yes | 木 | 弟 |
 | `26-15` | 涕 | yes | yes | 水 | 弟 |
 | `26-15` | 豒 | yes | no |  |  |
-| `26-16` | 屖 | no | no |  |  |
+| `26-16` | 屖 | yes | no |  |  |
 | `26-16` | 遟 | no | no |  |  |
 | `26-16` | 稺 | yes | yes | 禾 | 屖 |
 | `26-16` | 𦃘 | yes | yes | 糸 | 屖 |
@@ -4577,7 +4577,7 @@
 | `26-17` | 䧅 | yes | no |  |  |
 | `26-17` | 桋 | yes | no |  |  |
 | `26-17` | 荑 | yes | no |  |  |
-| `26-18` | 彝 | no | no |  |  |
+| `26-18` | 彝 | yes | yes | 米, 糸, 廾 | 彑 |
 | `26-19` | 矢 | yes | no |  |  |
 | `26-19` | 屎 | yes | yes | 米 | 尸 |
 | `26-19` | 雉 | yes | no |  |  |
@@ -4589,9 +4589,9 @@
 | `26-20` | 屍 | no | no |  |  |
 | `26-20` | 鳲 | yes | no |  |  |
 | `26-20` | 屎 | yes | yes | 米 | 尸 |
-| `26-21` | 兕 | no | no |  |  |
+| `26-21` | 兕 | yes | no |  |  |
 | `26-22` | 履 | yes | no |  |  |
-| `26-23` | 豊 | no | no |  |  |
+| `26-23` | 豊 | yes | no |  |  |
 | `26-23` | 禮 | yes | yes | 示 | 豊 |
 | `26-23` | 醴 | yes | no |  |  |
 | `26-23` | 鱧 | yes | no |  |  |
@@ -4612,7 +4612,7 @@
 | `26-25` | 旎 | yes | no |  |  |
 | `26-25` | 昵 | yes | no |  |  |
 | `26-26` | 妻 | yes | no |  |  |
-| `26-26` | 悽 | no | no |  |  |
+| `26-26` | 悽 | yes | no |  |  |
 | `26-26` | 淒 | yes | no |  |  |
 | `26-26` | 萋 | no | no |  |  |
 | `26-26` | 緀 | yes | no |  |  |
@@ -4657,6 +4657,22 @@
 | `26-29` | 諮 | yes | yes | 言 | 咨 |
 | `26-29` | 䆅 | yes | no |  |  |
 | `26-29` | 薋 | yes | no |  |  |
+| `26-30` | 自 | yes | no |  |  |
+| `26-31` | 西 | no | no |  |  |
+| `26-31` | 栖 | yes | yes | 木 | 西 |
+| `26-31` | 洒 | no | no |  |  |
+| `26-31` | 哂 | yes | yes | 口 | 西 |
+| `26-32` | 屖 | yes | no |  |  |
+| `26-32` | 遟 | yes | no |  |  |
+| `26-32` | 稺 | yes | yes | 禾 | 屖 |
+| `26-32` | 𦃘 | yes | yes | 糸 | 屖 |
+| `26-33` | 犀 | yes | yes | 牛 | 尾 |
+| `26-33` | 墀 | yes | no |  |  |
+| `26-33` | 遲 | yes | yes | 辵 | 犀 |
+| `26-33` | 穉 | yes | no |  |  |
+| `26-34` | 厶 | no | no |  |  |
+| `26-34` | 私 | yes | yes | 禾 | 厶 |
+| `26-35` | 死 | yes | yes | 歺 | 尸 |
 | `26-38` | 匕 | yes | no |  |  |
 | `26-38` | 批 | yes | yes | 手 | 比 |
 | `26-38` | 梐 | yes | no |  |  |

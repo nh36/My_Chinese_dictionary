@@ -1,0 +1,354 @@
+{
+  "generated_at": "2026-06-30T10:11:40.009622+00:00",
+  "id": "26-35",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "26-35",
+    "rhyme_section": 26,
+    "series_number": 35,
+    "k_tokens": [
+      "558"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.     MC            LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 308,
+    "source_line_number": 41,
+    "source_line_raw": "26-35 = K. 558          Man d.     MC            LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "26-35",
+    "rhyme_section": "26",
+    "series_number": "35",
+    "schuessler_k_tokens": "558",
+    "schuessler_source_page": "308",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "死",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "死",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "死"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "558"
+  ],
+  "proposed_additions": [
+    {
+      "character": "死",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "siyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "siyX"
+        ],
+        "mand2mc_bs_forms": [
+          "sijX"
+        ],
+        "bs_gsr_forms": [
+          "sijX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3984",
+          "character": "死",
+          "pinyin": "si3",
+          "mc_nwh": "siyX",
+          "mc_bs": "sijX",
+          "gsr": "0558a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "84",
+          "character": "死",
+          "pinyin": "sǐ",
+          "mc_bs": "sijX",
+          "mc_analyzed": "(s- + -ij B)",
+          "oc_bs": "*sijʔ",
+          "gloss": "die (v.)",
+          "gsr": "0558a",
+          "unicode_utf16": "U+6B7B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12639",
+          "character": "死",
+          "phonetic_component": "死",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "息姊",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "iʔ",
+          "oc_syllable": "l̥ʲiʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12639",
+          "character": "死",
+          "phonetic_component": "死",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "息姊",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "iʔ",
+          "oc_syllable": "l̥ʲiʔ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|歺|尸|ls=psc|c1=s|c2=p|nocap=y}}",
+          "positional_components": [
+            "歺",
+            "尸"
+          ],
+          "positional_components_raw": [
+            "歺",
+            "尸"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "nocap": "y"
+          },
+          "semantic_components": [
+            "歺"
+          ],
+          "phonetic_components": [
+            "尸"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|歺|尸|ls=psc|c1=s|c2=p|nocap=y}}",
+            "positional_components": [
+              "歺",
+              "尸"
+            ],
+            "positional_components_raw": [
+              "歺",
+              "尸"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "歺"
+            ],
+            "phonetic_components": [
+              "尸"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "mal",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "歹",
+            "label_token": "mal(us)",
+            "abbreviation": "mal",
+            "start_line": 318
+          },
+          {
+            "graph_raw": "歹",
+            "label_token": "mal",
+            "abbreviation": "mal",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "歹"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{mal·}siy}},",
+      "render_latex": "死\t%si3 / sǐ\n{\\large{\\textsuperscript{mal·}siy}},\n\\textit{siyX};\t%0558a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "歹",
+        "phonetic_component": "尸",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "死",
+          "semantic_component": "歹",
+          "phonetic_component": "尸",
+          "position": "prefix-dot",
+          "abbreviation": "mal",
+          "inventory_matches": [
+            {
+              "graph_raw": "歹",
+              "label_token": "mal(us)",
+              "abbreviation": "mal",
+              "start_line": 318
+            },
+            {
+              "graph_raw": "歹",
+              "label_token": "mal",
+              "abbreviation": "mal",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|歺|尸|ls=psc|c1=s|c2=p|nocap=y}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "死",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "死"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "死",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 1,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "siyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "siyX"
+        ],
+        "mand2mc_bs_forms": [
+          "sijX"
+        ],
+        "bs_gsr_forms": [
+          "sijX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3984",
+          "character": "死",
+          "pinyin": "si3",
+          "mc_nwh": "siyX",
+          "mc_bs": "sijX",
+          "gsr": "0558a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "84",
+          "character": "死",
+          "pinyin": "sǐ",
+          "mc_bs": "sijX",
+          "mc_analyzed": "(s- + -ij B)",
+          "oc_bs": "*sijʔ",
+          "gloss": "die (v.)",
+          "gsr": "0558a",
+          "unicode_utf16": "U+6B7B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12639",
+          "character": "死",
+          "phonetic_component": "死",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "息姊",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "iʔ",
+          "oc_syllable": "l̥ʲiʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12639",
+          "character": "死",
+          "phonetic_component": "死",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "息姊",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "iʔ",
+          "oc_syllable": "l̥ʲiʔ"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "死",
+      "gsr": "0558a",
+      "oc_bs": "*sijʔ",
+      "root": "siy",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "siy",
+    "source": "head_graph_oc_bs",
+    "character": "死",
+    "oc_bs": "*sijʔ",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "siy",
+    "base_root": "siy",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}
