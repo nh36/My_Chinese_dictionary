@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1512
-- Roots whose display label changed after document-wide renumbering: 926
-- Duplicate phonetic bases encountered in document order: 356
+- Mutable series/subseries roots inspected: 1521
+- Roots whose display label changed after document-wide renumbering: 932
+- Duplicate phonetic bases encountered in document order: 359
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1312,11 +1312,11 @@
 | `23-29` | `subseries-root` | 緜 | `men` | 4 | `men₄` | yes |
 | `23-31` | `series-root` | 面 | `men` | 5 | `men₅` | yes |
 | `23-32` | `series-root` | 丏 | `men` | 6 | `men₆` | yes |
-| `24-03` | `series-root` | 𩱡 | `qan` | 1 | `qan` | yes |
-| `24-07` | `series-root` | 虔 | `kan` | 4 | `kan₄` | yes |
-| `24-09` | `series-root` | 姦 | `kan` | 5 | `kan₅` | yes |
+| `24-03` | `series-root` | 侃 | `kan` | 4 | `kan₄` | yes |
+| `24-07` | `series-root` | 虔 | `kan` | 5 | `kan₅` | yes |
+| `24-09` | `series-root` | 姦 | `kan` | 6 | `kan₆` | yes |
 | `24-10` | `series-root` | 暵 | `qar` | 1 | `qar` | yes |
-| `24-13` | `series-root` | 㫃 | `qan` | 2 | `qan₂` | yes |
+| `24-13` | `series-root` | 㫃 | `qan` | 1 | `qan` | yes |
 | `24-14` | `series-root` | 焉 | `ʔ\textoverset{b}{a}n` | 1 | `ʔ\textoverset{b}{a}n` | yes |
 | `24-15` | `series-root` | 厂 | `ṅ\textoverset{a}{a}r` | 1 | `ṅ\textoverset{a}{a}r` | yes |
 | `24-16` | `series-root` | 言 | `ṅ\textoverset{b}{a}n` | 1 | `ṅ\textoverset{b}{a}n` | yes |
@@ -1329,7 +1329,7 @@
 | `24-27` | `series-root` | 蕆 | `tan` | 4 | `tan₄` | yes |
 | `24-28` | `series-root` | 廛 | `t\textoverset{b}{a}n` | 1 | `t\textoverset{b}{a}n` | yes |
 | `24-29` | `series-root` | 衍 | `q\textoverset{b}{a}n` | 2 | `q\textoverset{b}{a}n₂` | yes |
-| `24-31` | `series-root` | 羨 | `qar` | 2 | `qar₂` | yes |
+| `24-31` | `series-root` | 羨 | `qan` | 2 | `qan₂` | yes |
 | `24-32` | `series-root` | 僆 | `ran` | 1 | `ran` | yes |
 | `24-33` | `series-root` | 聯 | `ron` | 2 | `ron₂` | yes |
 | `24-34` | `series-root` | 輦 | `ran` | 2 | `ran₂` | yes |
@@ -1629,3 +1629,12 @@
 | `36-23` | `series-root` | 毚 | `s\textoverset{a}{o}m` | 1 | `s\textoverset{a}{o}m` | yes |
 | `36-24` | `series-root` | 髟 | `sam` | 3 | `sam₃` | yes |
 | `36-25` | `series-root` | 芟 | `som` | 1 | `som` | yes |
+| `36-27` | `series-root` | 犯 | `pom` | 2 | `pom₂` | yes |
+| `36-27` | `subseries-root` | 氾 | `p\textoverset{b}{o}m` | 1 | `p\textoverset{b}{o}m` | yes |
+| `36-27` | `subseries-root` | 𨊠 | `p\textoverset{b}{o}m` | 2 | `p\textoverset{b}{o}m₂` | yes |
+| `37-03` | `series-root` | 十 | `kyp` | 1 | `kyp` | yes |
+| `37-04` | `series-root` | 燁 | `qip` | 1 | `qip` | yes |
+| `37-05` | `series-root` | 邑 | `qyp` | 5 | `qyp₅` | yes |
+| `37-06` | `series-root` | 答 | `typ` | 2 | `typ₂` | yes |
+| `37-06` | `subseries-root` | 荅 | `typ` | 3 | `typ₃` | yes |
+| `37-07` | `series-root` | 馽 | `tip` | 2 | `tip₂` | yes |

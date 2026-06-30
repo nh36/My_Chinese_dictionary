@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6379
-- Pages fetched / cached successfully: 6280
-- Additions with explicit Han-compound semantic/phonetic roles: 2858
+- Proposed additions checked: 6398
+- Pages fetched / cached successfully: 6291
+- Additions with explicit Han-compound semantic/phonetic roles: 2862
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -6155,13 +6155,13 @@
 | `36-22` | 漸 | yes | yes | 水 | 斬 |
 | `36-22` | 塹 | yes | yes | 土 | 斬 |
 | `36-22` | 蔪 | yes | no |  |  |
-| `36-23` | 毚 | no | no |  |  |
+| `36-23` | 毚 | yes | no |  |  |
 | `36-23` | 欃 | yes | no |  |  |
 | `36-23` | 儳 | no | no |  |  |
 | `36-23` | 讒 | yes | yes | 言 | 毚 |
 | `36-23` | 鑱 | yes | no |  |  |
 | `36-24` | 髟 | yes | no |  |  |
-| `36-25` | 芟 | no | no |  |  |
+| `36-25` | 芟 | yes | no |  |  |
 | `36-26` | 凡 | yes | no |  |  |
 | `36-26` | 芃 | yes | no |  |  |
 | `36-26` | 帆 | yes | yes | 巾 | 凡 |
@@ -6173,6 +6173,11 @@
 | `36-26` | 楓 | yes | yes | 木 | 風 |
 | `36-26` | 諷 | yes | yes | 言 | 風 |
 | `36-26` | 渢 | yes | no |  |  |
+| `36-27` | 犯 | yes | yes | 犬 | 𢎘 |
+| `36-27` | 𨊠 | no | no |  |  |
+| `36-27` | 氾 | no | no |  |  |
+| `36-27` | 範 | yes | yes | 車 | 笵 |
+| `36-27` | 范 | no | no |  |  |
 | `37-01` | 合 | yes | no |  |  |
 | `37-01` | 䢔 | yes | no |  |  |
 | `37-01` | 蛤 | yes | yes | 虫 | 合 |
@@ -6200,6 +6205,20 @@
 | `37-02` | 岌 | yes | yes | 山 | 及 |
 | `37-02` | 极 | yes | yes | 木 | 及 |
 | `37-02` | 笈 | yes | yes | 竹 | 及 |
+| `37-03` | 十 | yes | no |  |  |
+| `37-03` | 什 | no | no |  |  |
+| `37-03` | 汁 | yes | yes | 水 | 十 |
+| `37-04` | 燁 | no | no |  |  |
+| `37-04` | 爗 | yes | no |  |  |
+| `37-05` | 邑 | no | no |  |  |
+| `37-05` | 悒 | yes | no |  |  |
+| `37-05` | 挹 | no | no |  |  |
+| `37-05` | 浥 | no | no |  |  |
+| `37-05` | 唈 | yes | no |  |  |
+| `37-06` | 答 | no | no |  |  |
+| `37-06` | 荅 | yes | yes | 艸 | 合 |
+| `37-06` | 嗒 | no | no |  |  |
+| `37-07` | 馽 | yes | no |  |  |
 | `37-08` | 執 | yes | no |  |  |
 | `37-08` | 縶 | yes | yes | 糸 | 執 |
 | `37-08` | 蟄 | yes | yes | 虫 | 執 |
