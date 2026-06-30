@@ -270,6 +270,32 @@ def iter_integrated_document_root_occurrences(
     return occurrences
 
 
+def iter_uncovered_mutable_root_occurrences(
+    entries: list[dict[str, Any]],
+    integrated_occurrences: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    # Integrated records can omit generated entries (or omit their mutable roots via render mode).
+    # Continue numbering those mutable roots so display labels stay globally unique.
+    seen_root_data_ids = {
+        id(occurrence["root_data"])
+        for occurrence in integrated_occurrences
+        if occurrence.get("mutable") and occurrence.get("root_data") is not None
+    }
+    uncovered: list[dict[str, Any]] = []
+    for occurrence in iter_document_root_occurrences(entries):
+        if not occurrence.get("mutable"):
+            continue
+        root_data = occurrence.get("root_data")
+        if root_data is None:
+            continue
+        marker = id(root_data)
+        if marker in seen_root_data_ids:
+            continue
+        seen_root_data_ids.add(marker)
+        uncovered.append(occurrence)
+    return uncovered
+
+
 def apply_numbering(
     entries: list[dict[str, Any]],
     integrated_records: list[dict[str, Any]] | None = None,
@@ -283,6 +309,7 @@ def apply_numbering(
 
     if integrated_records:
         occurrences = iter_integrated_document_root_occurrences(entries, integrated_records)
+        occurrences.extend(iter_uncovered_mutable_root_occurrences(entries, occurrences))
         order_source = "integrated_render_order"
     else:
         occurrences = iter_document_root_occurrences(entries)

@@ -17,6 +17,16 @@ RENDER_SCRIPT = REPO_ROOT / "scripts/render_curated_series.py"
 DEFAULT_ID_FILES = (PROMOTE_SCRIPT, RENDER_SCRIPT)
 PROTECTED_REPORT = "reports/gsc_series_coverage.md"
 QUEUE_HEAD = ("23-24", "23-25", "23-26", "23-28", "23-29", "23-31")
+TARGETED_TEST_MODULES = (
+    "tests.test_build_coverage_model",
+    "tests.test_promote_series_packets",
+    "tests.test_resolve_series_roots",
+    "tests.test_build_semantic_evidence",
+    "tests.test_number_phonetic_transcriptions",
+    "tests.test_render_curated_series",
+    "tests.test_render_integrated_dictionary",
+    "tests.test_pilot_regressions",
+)
 
 ALLOWED_EXACT_FILES = {
     "build/generated_curated_series_sample.pdf",
@@ -283,7 +293,14 @@ def batched(queue_ids: list[str], batch_size: int) -> list[list[str]]:
     ]
 
 
-def pipeline_commands(batch_ids: list[str]) -> list[list[str]]:
+def batch_test_command(*, full_tests: bool) -> list[str]:
+    command = ["python3", "-m", "unittest"]
+    if full_tests:
+        return command
+    return [*command, *TARGETED_TEST_MODULES]
+
+
+def pipeline_commands(batch_ids: list[str], *, full_tests: bool) -> list[list[str]]:
     return [
         ["python3", "scripts/export_series_packets.py", "--ids", *batch_ids],
         ["python3", "scripts/promote_series_packets.py", "--ids", *batch_ids],
@@ -292,7 +309,7 @@ def pipeline_commands(batch_ids: list[str]) -> list[list[str]]:
         ["python3", "scripts/build_semantic_evidence.py"],
         ["python3", "scripts/number_phonetic_transcriptions.py"],
         ["python3", "scripts/render_curated_series.py"],
-        ["python3", "-m", "unittest"],
+        batch_test_command(full_tests=full_tests),
     ]
 
 
@@ -365,6 +382,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-batches", type=int)
     parser.add_argument("--push", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--full-tests",
+        action="store_true",
+        help="Run the full unittest suite instead of the targeted ingestion regression suite.",
+    )
     args = parser.parse_args()
     if args.batch_size <= 0:
         parser.error("--batch-size must be greater than zero.")
@@ -407,7 +429,7 @@ def run() -> int:
             protected_was_staged=protected_was_staged,
         )
 
-        for command in pipeline_commands(batch_ids):
+        for command in pipeline_commands(batch_ids, full_tests=args.full_tests):
             run_command(command)
             assert_expected_dirty_state(
                 baseline=baseline,

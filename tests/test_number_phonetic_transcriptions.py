@@ -117,6 +117,21 @@ class NumberPhoneticTranscriptionsTests(unittest.TestCase):
         self.assertEqual(generated["resolved_series_root"]["display_root"], "tak₂")
         self.assertEqual(summary["order_source"], "integrated_render_order")
 
+    def test_integrated_order_still_numbers_mutables_missing_from_integrated_records(self) -> None:
+        covered = self.make_entry("23-27", "pen")
+        uncovered = self.make_entry("23-24", "pen")
+        integrated_records = [
+            self.make_integrated_record("23-27", render_mode="generated_missing_series"),
+        ]
+
+        number_phonetic_transcriptions.apply_numbering(
+            [uncovered, covered],
+            integrated_records=integrated_records,
+        )
+
+        self.assertEqual(covered["resolved_series_root"]["display_root"], "pen")
+        self.assertEqual(uncovered["resolved_series_root"]["display_root"], "pen₂")
+
     def test_numbering_updates_descendant_transliteration_from_numbered_parent(self) -> None:
         entry = self.make_entry("02-01", "ka")
         child = {
