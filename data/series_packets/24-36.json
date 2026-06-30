@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-06-30T09:19:07.843152+00:00",
+  "gsc_id": "24-36",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "217"
+  ],
+  "schuessler": {
+    "gsc_id": "24-36",
+    "rhyme_section": 24,
+    "series_number": 36,
+    "k_tokens": [
+      "217"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.           MC              LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 283,
+    "source_line_number": 44,
+    "source_line_raw": "24-36 = K. 217         Mand.           MC              LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-36",
+    "rhyme_section": "24",
+    "series_number": "36",
+    "schuessler_k_tokens": "217",
+    "schuessler_source_page": "283",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "然; 燃",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "然; 燃",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "然; 燃"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "然",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1681",
+          "character": "然",
+          "pinyin": "ran2",
+          "mc_nwh": "ñien",
+          "mc_bs": "nyen",
+          "gsr": "0217a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "39",
+          "character": "然",
+          "pinyin": "rán",
+          "mc_bs": "nyen",
+          "mc_analyzed": "(ny- + -jen A)",
+          "oc_bs": "*nan {*[n]a[n]}",
+          "gloss": "so, thus; (adv suffix)",
+          "gsr": "0217a",
+          "unicode_utf16": "U+7136"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "11369",
+          "character": "然",
+          "phonetic_component": "肰",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "如延",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "en",
+          "oc_syllable": "nʲen"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñien"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñien"
+        ],
+        "mand2mc_bs_forms": [
+          "nyen"
+        ],
+        "bs_gsr_forms": [
+          "nyen"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "燃",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1682",
+          "character": "燃",
+          "pinyin": "ran2",
+          "mc_nwh": "ñien",
+          "mc_bs": "nyen",
+          "gsr": "0217b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "39",
+          "character": "燃",
+          "pinyin": "rán",
+          "mc_bs": "nyen",
+          "mc_analyzed": "(ny- + -jen A)",
+          "oc_bs": "*C.nan {*C.na[n]}",
+          "gloss": "burn",
+          "gsr": "0217b",
+          "unicode_utf16": "U+71C3"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñien"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñien"
+        ],
+        "mand2mc_bs_forms": [
+          "nyen"
+        ],
+        "bs_gsr_forms": [
+          "nyen"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "1681",
+        "character": "然",
+        "pinyin": "ran2",
+        "mc_nwh": "ñien",
+        "mc_bs": "nyen",
+        "gsr": "0217a"
+      },
+      {
+        "source_row_number": "1682",
+        "character": "燃",
+        "pinyin": "ran2",
+        "mc_nwh": "ñien",
+        "mc_bs": "nyen",
+        "gsr": "0217b"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "39",
+        "character": "然",
+        "pinyin": "rán",
+        "mc_bs": "nyen",
+        "mc_analyzed": "(ny- + -jen A)",
+        "oc_bs": "*nan {*[n]a[n]}",
+        "gloss": "so, thus; (adv suffix)",
+        "gsr": "0217a",
+        "unicode_utf16": "U+7136"
+      },
+      {
+        "source_page_number": "39",
+        "character": "燃",
+        "pinyin": "rán",
+        "mc_bs": "nyen",
+        "mc_analyzed": "(ny- + -jen A)",
+        "oc_bs": "*C.nan {*C.na[n]}",
+        "gloss": "burn",
+        "gsr": "0217b",
+        "unicode_utf16": "U+71C3"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5710
-- Pages fetched / cached successfully: 5624
-- Additions with explicit Han-compound semantic/phonetic roles: 2611
+- Proposed additions checked: 5723
+- Pages fetched / cached successfully: 5637
+- Additions with explicit Han-compound semantic/phonetic roles: 2616
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4046,6 +4046,15 @@
 | `24-30` | 埏 | yes | no |  |  |
 | `24-30` | 挻 | yes | no |  |  |
 | `24-30` | 誕 | yes | yes | 言 | 延 |
+| `24-31` | 羡 | yes | no |  |  |
+| `24-31` | 羨 | yes | no |  |  |
+| `24-32` | 連 | yes | no |  |  |
+| `24-32` | 漣 | yes | yes | 水 | 連 |
+| `24-32` | 璉 | yes | no |  |  |
+| `24-32` | 蓮 | yes | yes | 艸 | 連 |
+| `24-32` | 僆 | yes | no |  |  |
+| `24-33` | 聯 | yes | no |  |  |
+| `24-34` | 輦 | yes | no |  |  |
 | `24-35` | 嘆 | yes | yes | 口 | 歎 |
 | `24-35` | 歎 | yes | no |  |  |
 | `24-35` | 難 | yes | yes | 隹 | 暵 |
@@ -4055,6 +4064,10 @@
 | `24-35` | 儺 | yes | yes | 人 | 難 |
 | `24-35` | 臡 | yes | no |  |  |
 | `24-35` | 灘 | yes | yes | 水 | 難 |
+| `24-36` | 然 | yes | yes | 火 | 肰 |
+| `24-36` | 燃 | yes | yes | 火 | 然 |
+| `24-37` | 㞋 | yes | no |  |  |
+| `24-37` | 赧 | yes | yes | 赤 | 𡰫 |
 | `24-39` | 贊 | yes | yes | 貝 | 兟 |
 | `24-39` | 賛 | yes | no |  |  |
 | `24-39` | 讚 | yes | yes | 言 | 贊 |

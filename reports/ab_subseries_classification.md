@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 931
+- Generated subgroup heads inspected: 932
 - Subgroups newly marked with `a`: 121
 - Subgroups newly marked with `b`: 105
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 312
-- Mixed subgroups left unmarked: 389
+- Mixed subgroups left unmarked: 390
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -712,6 +712,7 @@
 | `24-28` | 廛 | `tran` | `tr\textoverset{b}{a}n` | `b` | yes | `ḍien` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-29` | 衍 | `qan` | `q\textoverset{b}{a}n` | `b` | yes | `yienH, yienX, khien` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-30` | 延 | `lan` | `lan` | `mixed` | no | `yien, yan, ṭhien, śien, danX` | the extracted forms point to both type a and type b |
+| `24-32` | 連 | `ran` | `ran` | `mixed` | no | `lien, lienX, ljenH` | the extracted forms point to both type a and type b |
 | `24-35` | 嘆 | `nar` | `n\textoverset{a}{a}r` | `a` | yes | `than, thanH, nanH` | all extracted forms lack an i-medial after the onset |
 | `24-35` | 難 | `nar` | `nar` | `mixed` | no | `nanH, ṇaenX, ñien, na, naX, ney, than` | the extracted forms point to both type a and type b |
 | `24-39` | 贊 | `tsar` | `ts\textoverset{a}{a}r` | `a` | yes | `tsanH, dzanX, tswanX, tswan, tswanH, dzwan, dzwanH` | all extracted forms lack an i-medial after the onset |
