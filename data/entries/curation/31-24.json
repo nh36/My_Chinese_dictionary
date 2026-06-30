@@ -1,0 +1,470 @@
+{
+  "generated_at": "2026-06-30T11:55:11.070021+00:00",
+  "id": "31-24",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "31-24",
+    "rhyme_section": 31,
+    "series_number": 24,
+    "k_tokens": [
+      "499"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.            MC              LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 340,
+    "source_line_number": 48,
+    "source_line_raw": "31-24 = K.499 Man d.            MC              LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "31-24",
+    "rhyme_section": "31",
+    "series_number": "24",
+    "schuessler_k_tokens": "499",
+    "schuessler_source_page": "340",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "帥",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "帥",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "帥"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "499"
+  ],
+  "proposed_additions": [
+    {
+      "character": "帥",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣwiyH",
+          "ṣwit"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣwiyH",
+          "ṣwit"
+        ],
+        "mand2mc_bs_forms": [
+          "srwijH",
+          "srwit"
+        ],
+        "bs_gsr_forms": [
+          "srwijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "srwit"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3631",
+          "character": "帥",
+          "pinyin": "shuai4",
+          "mc_nwh": "ṣwiyH",
+          "mc_bs": "srwijH",
+          "gsr": "0499a"
+        },
+        {
+          "source_row_number": "3632",
+          "character": "帥",
+          "pinyin": "shuai4",
+          "mc_nwh": "ṣwit",
+          "mc_bs": "srwit",
+          "gsr": "0499a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "76",
+          "character": "帥",
+          "pinyin": "shuài",
+          "mc_bs": "srwijH",
+          "mc_analyzed": "(sr- + -wij C)",
+          "oc_bs": "*s-rut-s",
+          "gloss": "leader (of an army)",
+          "gsr": "0499a",
+          "unicode_utf16": "U+5E25"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12543",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所律",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "sʳud"
+        },
+        {
+          "source_row_number": "12545",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所類",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "sʳuds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12543",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所律",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "sʳud"
+        },
+        {
+          "source_row_number": "12544",
+          "character": "𦝭",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "力遂",
+          "source": "广韵",
+          "oc_initial": "r",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ruds"
+        },
+        {
+          "source_row_number": "12545",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所類",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "sʳuds"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=psc|𠂤|巾|c1=p|c2=s|tr1=*C.tˤuj}}",
+          "positional_components": [
+            "𠂤",
+            "巾"
+          ],
+          "positional_components_raw": [
+            "𠂤",
+            "巾"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "tr1": "*C.tˤuj"
+          },
+          "semantic_components": [
+            "巾"
+          ],
+          "phonetic_components": [
+            "𠂤"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=ic|寻|巾|t1=two hands|t2=scarf}}",
+            "positional_components": [
+              "寻",
+              "巾"
+            ],
+            "positional_components_raw": [
+              "寻",
+              "巾"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "two hands",
+              "t2": "scarf"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|ls=psc|𠂤|巾|c1=p|c2=s|tr1=*C.tˤuj}}",
+            "positional_components": [
+              "𠂤",
+              "巾"
+            ],
+            "positional_components_raw": [
+              "𠂤",
+              "巾"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "tr1": "*C.tˤuj"
+            },
+            "semantic_components": [
+              "巾"
+            ],
+            "phonetic_components": [
+              "𠂤"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "lint",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "巾",
+            "label_token": "lint(eum)",
+            "abbreviation": "lint",
+            "start_line": 314
+          },
+          {
+            "graph_raw": "巾",
+            "label_token": "lint",
+            "abbreviation": "lint",
+            "learned": true,
+            "evidence_count": 4
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "巾"
+      },
+      "transliteration_latex": "{\\large{rut₅\\textsuperscript{·lint}}},",
+      "render_latex": "帥\t%shuai4 / shuài\n{\\large{rut₅\\textsuperscript{·lint}}},\n\\textit{ṣwiyH};\t%0499a\n\\textit{ṣwit};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "巾",
+        "phonetic_component": "𠂤",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "帥",
+          "semantic_component": "巾",
+          "phonetic_component": "𠂤",
+          "position": "suffix-dot",
+          "abbreviation": "lint",
+          "inventory_matches": [
+            {
+              "graph_raw": "巾",
+              "label_token": "lint(eum)",
+              "abbreviation": "lint",
+              "start_line": 314
+            },
+            {
+              "graph_raw": "巾",
+              "label_token": "lint",
+              "abbreviation": "lint",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ],
+          "template_raw": "{{Han compound|ls=psc|𠂤|巾|c1=p|c2=s|tr1=*C.tˤuj}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "帥",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "帥"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "帥",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣwiyH",
+          "ṣwit"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣwiyH",
+          "ṣwit"
+        ],
+        "mand2mc_bs_forms": [
+          "srwijH",
+          "srwit"
+        ],
+        "bs_gsr_forms": [
+          "srwijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "srwit"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3631",
+          "character": "帥",
+          "pinyin": "shuai4",
+          "mc_nwh": "ṣwiyH",
+          "mc_bs": "srwijH",
+          "gsr": "0499a"
+        },
+        {
+          "source_row_number": "3632",
+          "character": "帥",
+          "pinyin": "shuai4",
+          "mc_nwh": "ṣwit",
+          "mc_bs": "srwit",
+          "gsr": "0499a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "76",
+          "character": "帥",
+          "pinyin": "shuài",
+          "mc_bs": "srwijH",
+          "mc_analyzed": "(sr- + -wij C)",
+          "oc_bs": "*s-rut-s",
+          "gloss": "leader (of an army)",
+          "gsr": "0499a",
+          "unicode_utf16": "U+5E25"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12543",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所律",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "sʳud"
+        },
+        {
+          "source_row_number": "12545",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所類",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "sʳuds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12543",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所律",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "sʳud"
+        },
+        {
+          "source_row_number": "12544",
+          "character": "𦝭",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "力遂",
+          "source": "广韵",
+          "oc_initial": "r",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ruds"
+        },
+        {
+          "source_row_number": "12545",
+          "character": "帥",
+          "phonetic_component": "帥",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所類",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "sʳuds"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "帥",
+      "gsr": "0499a",
+      "oc_bs": "*s-rut-s",
+      "root": "rut",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "rut",
+    "source": "head_graph_oc_bs",
+    "character": "帥",
+    "oc_bs": "*s-rut-s",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "rut₅",
+    "base_root": "rut",
+    "ordinal": 5,
+    "numbering_source": "document_order_occurrence"
+  }
+}

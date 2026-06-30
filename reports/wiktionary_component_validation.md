@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6150
-- Pages fetched / cached successfully: 6056
-- Additions with explicit Han-compound semantic/phonetic roles: 2773
+- Proposed additions checked: 6160
+- Pages fetched / cached successfully: 6062
+- Additions with explicit Han-compound semantic/phonetic roles: 2777
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5292,7 +5292,7 @@
 | `31-18` | 聿 | yes | no |  |  |
 | `31-18` | 律 | no | no |  |  |
 | `31-18` | 筆 | yes | yes | 竹 | 聿 |
-| `31-19` | 類 | no | no |  |  |
+| `31-19` | 類 | yes | yes | 犬 | 頪 |
 | `31-19` | 纇 | yes | yes | 糸 | 頪 |
 | `31-20` | 卒 | yes | no |  |  |
 | `31-20` | 捽 | yes | yes | 手 | 卒 |
@@ -5313,6 +5313,11 @@
 | `31-20` | 誶 | yes | no |  |  |
 | `31-21` | 祟 | no | no |  |  |
 | `31-22` | 戌 | yes | no |  |  |
+| `31-23` | 率 | yes | no |  |  |
+| `31-23` | 䢦 | no | no |  |  |
+| `31-23` | 蟀 | yes | yes | 虫 | 率 |
+| `31-23` | 膟 | no | no |  |  |
+| `31-24` | 帥 | yes | yes | 巾 | 𠂤 |
 | `32-01` | 臤 | yes | no |  |  |
 | `32-01` | 堅 | yes | yes | 土 | 臤 |
 | `32-01` | 掔 | yes | yes | 手 | 臤 |
@@ -5321,6 +5326,10 @@
 | `32-01` | 腎 | yes | yes | 肉 | 臤 |
 | `32-01` | 臣 | yes | no |  |  |
 | `32-01` | 挋 | yes | no |  |  |
+| `32-02` | 繭 | no | no |  |  |
+| `32-03` | 矜 | yes | yes | 矛 | 令 |
+| `32-04` | 犬 | no | no |  |  |
+| `32-04` | 畎 | no | no |  |  |
 | `32-05` | 玄 | yes | no |  |  |
 | `32-05` | 泫 | yes | no |  |  |
 | `32-05` | 眩 | yes | yes | 目 | 玄 |
@@ -5333,6 +5342,7 @@
 | `32-05` | 牽 | yes | yes | 牛 | 玄 |
 | `32-05` | 鮌 | yes | no |  |  |
 | `32-05` | 誸 | yes | no |  |  |
+| `32-06` | 贙 | yes | no |  |  |
 | `32-07` | 勻 | yes | yes | 呂 | 螾 |
 | `32-07` | 均 | yes | yes | 土 | 匀 |
 | `32-07` | 袀 | yes | no |  |  |
