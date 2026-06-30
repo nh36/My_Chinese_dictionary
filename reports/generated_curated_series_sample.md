@@ -778,7 +778,13 @@
 | `25-34` | `missing_series` | no | 1 | 0 |
 | `25-35` | `missing_series` | no | 11 | 7 |
 | `25-36` | `missing_series` | no | 1 | 0 |
+| `25-37` | `missing_series` | no | 1 | 0 |
 | `25-38` | `missing_series` | no | 8 | 7 |
+| `25-39` | `missing_series` | no | 4 | 3 |
+| `25-40` | `missing_series` | no | 2 | 1 |
+| `25-41` | `missing_series` | no | 1 | 0 |
+| `25-42` | `missing_series` | no | 1 | 0 |
+| `25-43` | `missing_series` | no | 5 | 1 |
 | `26-05` | `missing_series` | no | 12 | 2 |
 | `26-06` | `missing_series` | no | 12 | 10 |
 | `26-09` | `missing_series` | no | 8 | 7 |

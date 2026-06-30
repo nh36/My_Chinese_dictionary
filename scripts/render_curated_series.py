@@ -897,6 +897,12 @@ DEFAULT_IDS = [
     "25-34",
     "25-35",
     "25-36",
+    "25-37",
+    "25-39",
+    "25-40",
+    "25-41",
+    "25-42",
+    "25-43",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"

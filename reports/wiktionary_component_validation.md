@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5829
-- Pages fetched / cached successfully: 5742
-- Additions with explicit Han-compound semantic/phonetic roles: 2661
+- Proposed additions checked: 5843
+- Pages fetched / cached successfully: 5750
+- Additions with explicit Han-compound semantic/phonetic roles: 2662
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4445,6 +4445,7 @@
 | `25-35` | 㨎 | yes | no |  |  |
 | `25-35` | 擩 | yes | no |  |  |
 | `25-36` | 竄 | yes | no |  |  |
+| `25-37` | 爨 | no | no |  |  |
 | `25-38` | 全 | yes | no |  |  |
 | `25-38` | 仝 | yes | no |  |  |
 | `25-38` | 牷 | yes | no |  |  |
@@ -4453,6 +4454,19 @@
 | `25-38` | 荃 | yes | yes | 艸 | 全 |
 | `25-38` | 銓 | yes | no |  |  |
 | `25-38` | 輇 | yes | no |  |  |
+| `25-39` | 雋 | yes | no |  |  |
+| `25-39` | 臇 | yes | no |  |  |
+| `25-39` | 鐫 | yes | no |  |  |
+| `25-39` | 儁 | no | no |  |  |
+| `25-40` | 泉 | yes | no |  |  |
+| `25-40` | 線 | yes | yes | 糸 | 泉 |
+| `25-41` | 縓 | no | no |  |  |
+| `25-42` | 筭 | yes | no |  |  |
+| `25-43` | 算 | no | no |  |  |
+| `25-43` | 匴 | yes | no |  |  |
+| `25-43` | 篹 | no | no |  |  |
+| `25-43` | 纂 | yes | no |  |  |
+| `25-43` | 篡 | no | no |  |  |
 | `26-05` | 計 | yes | no |  |  |
 | `26-05` | 繼 | yes | yes | 糸 | 㡭 |
 | `26-05` | 兮 | yes | no |  |  |
