@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-06-30T10:08:36.775485+00:00",
+  "id": "26-01",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "26-01",
+    "rhyme_section": 26,
+    "series_number": 1,
+    "k_tokens": [
+      "586"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.     MC           LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 301,
+    "source_line_number": 4,
+    "source_line_raw": "26-1 = K. 586      Man d.     MC           LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "26-01",
+    "rhyme_section": "26",
+    "series_number": "1",
+    "schuessler_k_tokens": "586",
+    "schuessler_source_page": "301",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "笄",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "笄",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "笄"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "586"
+  ],
+  "proposed_additions": [
+    {
+      "character": "笄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "key"
+        ],
+        "mand2mc_nwh_forms": [
+          "key"
+        ],
+        "mand2mc_bs_forms": [
+          "kej"
+        ],
+        "bs_gsr_forms": [
+          "kej"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4211",
+          "character": "笄",
+          "pinyin": "ji1",
+          "mc_nwh": "key",
+          "mc_bs": "kej",
+          "gsr": "0586a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "88",
+          "character": "笄",
+          "pinyin": "jī",
+          "mc_bs": "kej",
+          "mc_analyzed": "(k- + -ej A)",
+          "oc_bs": "*kˤer {*[k]ˤe[r]} (dial. *-r > *-j)",
+          "gloss": "hairpin",
+          "gsr": "0586a",
+          "unicode_utf16": "U+7B04"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6406",
+          "character": "笄",
+          "phonetic_component": "幵",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古奚",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "e̠",
+          "oc_syllable": "ke̠"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|竹|幵|ls=psc|c1=s|t1=bamboo|c2=p}}",
+          "positional_components": [
+            "竹",
+            "幵"
+          ],
+          "positional_components_raw": [
+            "竹",
+            "幵"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "t1": "bamboo",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "竹"
+          ],
+          "phonetic_components": [
+            "幵"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|竹|幵|ls=psc|c1=s|t1=bamboo|c2=p}}",
+            "positional_components": [
+              "竹",
+              "幵"
+            ],
+            "positional_components_raw": [
+              "竹",
+              "幵"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "t1": "bamboo",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "竹"
+            ],
+            "phonetic_components": [
+              "幵"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}ker₂}},",
+      "render_latex": "笄\t%ji1 / jī\n{\\large{\\textsuperscript{bamb˸}ker₂}},\n\\textit{key};\t%0586a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "竹",
+        "phonetic_component": "幵",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "笄",
+          "semantic_component": "竹",
+          "phonetic_component": "幵",
+          "position": "prefix-colon",
+          "abbreviation": "bamb",
+          "inventory_matches": [
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb(us)",
+              "abbreviation": "bamb",
+              "start_line": 206
+            },
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb",
+              "abbreviation": "bamb",
+              "learned": true,
+              "evidence_count": 12
+            }
+          ],
+          "template_raw": "{{Han compound|竹|幵|ls=psc|c1=s|t1=bamboo|c2=p}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "bamb",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "竹",
+            "label_token": "bamb(us)",
+            "abbreviation": "bamb",
+            "start_line": 206
+          },
+          {
+            "graph_raw": "竹",
+            "label_token": "bamb",
+            "abbreviation": "bamb",
+            "learned": true,
+            "evidence_count": 12
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "竹"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "笄",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "key"
+        ],
+        "mand2mc_nwh_forms": [
+          "key"
+        ],
+        "mand2mc_bs_forms": [
+          "kej"
+        ],
+        "bs_gsr_forms": [
+          "kej"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4211",
+          "character": "笄",
+          "pinyin": "ji1",
+          "mc_nwh": "key",
+          "mc_bs": "kej",
+          "gsr": "0586a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "88",
+          "character": "笄",
+          "pinyin": "jī",
+          "mc_bs": "kej",
+          "mc_analyzed": "(k- + -ej A)",
+          "oc_bs": "*kˤer {*[k]ˤe[r]} (dial. *-r > *-j)",
+          "gloss": "hairpin",
+          "gsr": "0586a",
+          "unicode_utf16": "U+7B04"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6406",
+          "character": "笄",
+          "phonetic_component": "幵",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古奚",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "e̠",
+          "oc_syllable": "ke̠"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "笄",
+      "gsr": "0586a",
+      "oc_bs": "*kˤer {*[k]ˤe[r]} (dial. *-r > *-j)",
+      "root": "ker",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ker",
+    "source": "head_graph_oc_bs",
+    "character": "笄",
+    "oc_bs": "*kˤer {*[k]ˤe[r]} (dial. *-r > *-j)",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "ker₂",
+    "base_root": "ker",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

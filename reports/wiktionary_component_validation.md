@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5843
-- Pages fetched / cached successfully: 5750
-- Additions with explicit Han-compound semantic/phonetic roles: 2662
+- Proposed additions checked: 5855
+- Pages fetched / cached successfully: 5768
+- Additions with explicit Han-compound semantic/phonetic roles: 2667
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4445,7 +4445,7 @@
 | `25-35` | 㨎 | yes | no |  |  |
 | `25-35` | 擩 | yes | no |  |  |
 | `25-36` | 竄 | yes | no |  |  |
-| `25-37` | 爨 | no | no |  |  |
+| `25-37` | 爨 | yes | no |  |  |
 | `25-38` | 全 | yes | no |  |  |
 | `25-38` | 仝 | yes | no |  |  |
 | `25-38` | 牷 | yes | no |  |  |
@@ -4457,16 +4457,25 @@
 | `25-39` | 雋 | yes | no |  |  |
 | `25-39` | 臇 | yes | no |  |  |
 | `25-39` | 鐫 | yes | no |  |  |
-| `25-39` | 儁 | no | no |  |  |
+| `25-39` | 儁 | yes | no |  |  |
 | `25-40` | 泉 | yes | no |  |  |
 | `25-40` | 線 | yes | yes | 糸 | 泉 |
-| `25-41` | 縓 | no | no |  |  |
+| `25-41` | 縓 | yes | no |  |  |
 | `25-42` | 筭 | yes | no |  |  |
-| `25-43` | 算 | no | no |  |  |
+| `25-43` | 算 | yes | no |  |  |
 | `25-43` | 匴 | yes | no |  |  |
-| `25-43` | 篹 | no | no |  |  |
+| `25-43` | 篹 | yes | no |  |  |
 | `25-43` | 纂 | yes | no |  |  |
-| `25-43` | 篡 | no | no |  |  |
+| `25-43` | 篡 | yes | no |  |  |
+| `25-44` | 祘 | yes | no |  |  |
+| `25-44` | 蒜 | yes | no |  |  |
+| `26-01` | 笄 | yes | yes | 竹 | 幵 |
+| `26-02` | 卟 | yes | yes | 口 | 卜 |
+| `26-03` | 計 | yes | no |  |  |
+| `26-04` | 启 | yes | no |  |  |
+| `26-04` | 啟 | yes | no |  |  |
+| `26-04` | 綮 | yes | yes | 糸 | 𢼄 |
+| `26-04` | 晵 | yes | no |  |  |
 | `26-05` | 計 | yes | no |  |  |
 | `26-05` | 繼 | yes | yes | 糸 | 㡭 |
 | `26-05` | 兮 | yes | no |  |  |
@@ -4491,6 +4500,9 @@
 | `26-06` | 稽 | yes | yes | 頁 | 旨 |
 | `26-06` | 嗜 | yes | no |  |  |
 | `26-06` | 蓍 | yes | no |  |  |
+| `26-07` | 示 | yes | no |  |  |
+| `26-07` | 視 | yes | yes | 見 | 示 |
+| `26-07` | 祁 | yes | yes | 邑 | 示 |
 | `26-09` | 皆 | yes | yes | 虍, 口 | 几 |
 | `26-09` | 偕 | yes | yes | 人 | 皆 |
 | `26-09` | 喈 | yes | no |  |  |

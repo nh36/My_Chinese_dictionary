@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-06-30T10:08:36.775940+00:00",
+  "id": "26-03",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "26-03",
+    "rhyme_section": 26,
+    "series_number": 3,
+    "k_tokens": [
+      "1241a"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d. MC               LHan           OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 301,
+    "source_line_number": 10,
+    "source_line_raw": "26-3 = K.1241a Man d. MC               LHan           OCM"
+  },
+  "coverage": {
+    "gsc_id": "26-03",
+    "rhyme_section": "26",
+    "series_number": "3",
+    "schuessler_k_tokens": "1241a",
+    "schuessler_source_page": "301",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "計",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "計",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "計"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1241a"
+  ],
+  "proposed_additions": [
+    {
+      "character": "計",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keyH"
+        ],
+        "mand2mc_bs_forms": [
+          "kejH"
+        ],
+        "bs_gsr_forms": [
+          "kejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9067",
+          "character": "計",
+          "pinyin": "ji4",
+          "mc_nwh": "keyH",
+          "mc_bs": "kejH",
+          "gsr": "1241a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "計",
+          "pinyin": "jì",
+          "mc_bs": "kejH",
+          "mc_analyzed": "(k- + -ej C)",
+          "oc_bs": "*kˤij-s",
+          "gloss": "calculate",
+          "gsr": "1241a",
+          "unicode_utf16": "U+8A08"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12118",
+          "character": "計",
+          "phonetic_component": "十",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古詣",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "ki̠ds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|十|t1=say|t2=all|ls=ic}}",
+          "positional_components": [
+            "言",
+            "十"
+          ],
+          "positional_components_raw": [
+            "言",
+            "十"
+          ],
+          "named_args": {
+            "t1": "say",
+            "t2": "all",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|十|t1=say|t2=all|ls=ic}}",
+            "positional_components": [
+              "言",
+              "十"
+            ],
+            "positional_components_raw": [
+              "言",
+              "十"
+            ],
+            "named_args": {
+              "t1": "say",
+              "t2": "all",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "計",
+          "ids": "⿰言十",
+          "phonetic_component": "十",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 256
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 19
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}kiy₇}},",
+      "render_latex": "計\t%ji4 / jì\n{\\large{\\textsuperscript{dic·}kiy₇}},\n\\textit{keyH};\t%1241a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "計",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "keyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "keyH"
+        ],
+        "mand2mc_bs_forms": [
+          "kejH"
+        ],
+        "bs_gsr_forms": [
+          "kejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9067",
+          "character": "計",
+          "pinyin": "ji4",
+          "mc_nwh": "keyH",
+          "mc_bs": "kejH",
+          "gsr": "1241a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "計",
+          "pinyin": "jì",
+          "mc_bs": "kejH",
+          "mc_analyzed": "(k- + -ej C)",
+          "oc_bs": "*kˤij-s",
+          "gloss": "calculate",
+          "gsr": "1241a",
+          "unicode_utf16": "U+8A08"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12118",
+          "character": "計",
+          "phonetic_component": "十",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "古詣",
+          "source": "广韵",
+          "oc_initial": "k",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "ki̠ds"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "計",
+      "gsr": "1241a",
+      "oc_bs": "*kˤij-s",
+      "root": "kiy",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "kiy",
+    "source": "head_graph_oc_bs",
+    "character": "計",
+    "oc_bs": "*kˤij-s",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "kiy₇",
+    "base_root": "kiy",
+    "ordinal": 7,
+    "numbering_source": "document_order_occurrence"
+  }
+}

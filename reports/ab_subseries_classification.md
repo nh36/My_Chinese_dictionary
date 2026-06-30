@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 959
-- Subgroups newly marked with `a`: 132
+- Generated subgroup heads inspected: 962
+- Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 312
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 314
 - Mixed subgroups left unmarked: 399
 - Unresolved subgroups left unmarked: 4
 
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -772,6 +772,9 @@
 | `25-39` | 雋 | `son` | `s\textoverset{b}{o}n` | `b` | yes | `dziwenX, tsiwenX, tsiwen, tswinH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `25-40` | 泉 | `qua` | `qu\textoverset{b}{a}` | `b` | yes | `dziwen, sienH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `25-43` | 算 | `son` | `s\textoverset{a}{o}n` | `a` | yes | `swanH, swanX` | all extracted forms lack an i-medial after the onset |
+| `25-44` | 祘 | `son` | `s\textoverset{a}{o}n` | `a` | yes | `swanH` | all extracted forms lack an i-medial after the onset |
+| `26-04` | 启 | `kiy` | `kiy` | `a` | no | `kheyX` | all extracted forms lack an i-medial after the onset |
+| `26-04` | 啟 | `kiy` | `kiy₉` | `a` | no | `kheyX` | all extracted forms lack an i-medial after the onset |
 | `26-05` | 兮 | `kiy` | `kiy₂` | `a` | no | `ḫey, ḫeyH, ṅeyH` | all extracted forms lack an i-medial after the onset |
 | `26-05` | 替 | `kiy` | `kiy₃` | `a` | no | `theyH` | all extracted forms lack an i-medial after the onset |
 | `26-06` | 旨 | `kiy` | `kiy` | `mixed` | no | `ciyX, ciy, giy, kheyX, ṅeyH, key` | the extracted forms point to both type a and type b |
