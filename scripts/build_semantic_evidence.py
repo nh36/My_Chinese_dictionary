@@ -570,20 +570,42 @@ def resolve_semantic_from_wiktionary_template(
     phonetic_components: list[str] = []
     for index, component in enumerate(positional, start=1):
         role = named_args.get(f"c{index}")
+        if not normalize_component_graph(component):
+            continue
         if role == "s":
             semantic_components.append(component)
         elif role == "p":
             phonetic_components.append(component)
     if not semantic_components:
-        semantic_components = [replacement_map.get(component, component) for component in (han_compound.get("semantic_components") or [])]
+        semantic_components = [
+            replacement_map.get(component, component)
+            for component in (han_compound.get("semantic_components") or [])
+            if normalize_component_graph(replacement_map.get(component, component))
+        ]
     if not phonetic_components:
-        phonetic_components = [replacement_map.get(component, component) for component in (han_compound.get("phonetic_components") or [])]
+        phonetic_components = [
+            replacement_map.get(component, component)
+            for component in (han_compound.get("phonetic_components") or [])
+            if normalize_component_graph(replacement_map.get(component, component))
+        ]
     if not semantic_components and len(phonetic_components) == 1 and len(positional) == 2:
-        other = [component for component in positional if normalize_component_graph(component) != normalize_component_graph(phonetic_components[0])]
+        other = [
+            component
+            for component in positional
+            if normalize_component_graph(component)
+            and normalize_component_graph(component)
+            != normalize_component_graph(phonetic_components[0])
+        ]
         if len(other) == 1:
             semantic_components = [other[0]]
     if not phonetic_components and len(semantic_components) == 1 and len(positional) == 2:
-        other = [component for component in positional if normalize_component_graph(component) != normalize_component_graph(semantic_components[0])]
+        other = [
+            component
+            for component in positional
+            if normalize_component_graph(component)
+            and normalize_component_graph(component)
+            != normalize_component_graph(semantic_components[0])
+        ]
         if len(other) == 1:
             phonetic_components = [other[0]]
     if len(semantic_components) != 1 or len(phonetic_components) != 1:
@@ -591,6 +613,8 @@ def resolve_semantic_from_wiktionary_template(
 
     semantic_component = normalize_component_graph(semantic_components[0])
     phonetic_component = normalize_component_graph(phonetic_components[0])
+    if not semantic_component or not phonetic_component:
+        return None
     semantic_index = None
     phonetic_index = None
     for index, component in enumerate(positional):
@@ -632,7 +656,10 @@ def resolve_semantic_from_wiktionary_template(
             position = "suffix-dot" if semantic_index > phonetic_index else "prefix-dot"
 
     inventory_matches = graph_lookup.get(semantic_component, [])
-    abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
+    abbreviation = (
+        (inventory_matches[0].get("abbreviation") if inventory_matches else None)
+        or semantic_component
+    )
     if not position:
         return None
 
@@ -1779,8 +1806,12 @@ def enrich_curated_entry_with_ids(
     for candidate in entry.get("proposed_additions", []):
         candidate.pop("semantic_assignment_review", None)
         existing_assignment = candidate.get("semantic_assignment") or {}
+        existing_semantic_component = normalize_component_graph(
+            existing_assignment.get("semantic_component")
+        )
         if (
-            existing_assignment.get("abbreviation") is None
+            not existing_assignment.get("abbreviation")
+            and not existing_semantic_component
             and existing_assignment.get("position") not in {None, "none"}
         ):
             candidate["semantic_assignment"] = None
