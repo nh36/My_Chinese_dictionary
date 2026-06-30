@@ -44,5 +44,5 @@ The checked-in PNG glyph assets are currently stored in `hard-character-images/`
 ## Current repository-state notes
 
 - `main.tex` is the current source of truth.
-- `My_Chinese_dictionary.pdf` is present as a prebuilt artifact/reference, but the attempted local build target is `main.tex`.
+- `My_Chinese_dictionary.pdf` is a legacy prebuilt artifact/reference; the generated review PDF to inspect for rhyme-section breaks is `build/generated_curated_series_sample.pdf` (or open it with `python3 scripts/open_review_pdf.py`).
 - The spreadsheet inputs are now present under `key references/`, and the import/comparison scripts have been run against them.

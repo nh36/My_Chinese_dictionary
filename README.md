@@ -26,6 +26,15 @@ python3 scripts/build_review_pdfs.py
 
 This helper compiles the generated review TeX from the repository root and then syncs the fresh PDFs back into `build/`, so `build/generated_curated_series_sample.pdf` and `build/generated_integrated_dictionary.pdf` do not go stale.
 
+Open the generated review PDFs with:
+
+```sh
+python3 scripts/open_review_pdf.py
+python3 scripts/open_review_pdf.py --kind integrated
+```
+
+The tracked `My_Chinese_dictionary.pdf` file is a legacy prebuilt artifact/reference; it is not the current review PDF for chapter-break checks.
+
 Clean generated LaTeX build artifacts with:
 
 ```sh

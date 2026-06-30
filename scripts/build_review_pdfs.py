@@ -6,10 +6,17 @@ import subprocess
 from pathlib import Path
 
 
-DEFAULT_TEX_PATHS = [
-    "build/generated_curated_series_sample.tex",
-    "build/generated_integrated_dictionary.tex",
-]
+REVIEW_PDF_TARGETS = {
+    "curated": (
+        "build/generated_curated_series_sample.tex",
+        "build/generated_curated_series_sample.pdf",
+    ),
+    "integrated": (
+        "build/generated_integrated_dictionary.tex",
+        "build/generated_integrated_dictionary.pdf",
+    ),
+}
+DEFAULT_TEX_PATHS = [tex_path for tex_path, _ in REVIEW_PDF_TARGETS.values()]
 ROOT_ARTIFACT_SUFFIXES = [
     ".aux",
     ".bbl",
