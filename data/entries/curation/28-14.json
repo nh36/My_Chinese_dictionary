@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-06-30T10:30:59.639744+00:00",
+  "id": "28-14",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "28-14",
+    "rhyme_section": 28,
+    "series_number": 14,
+    "k_tokens": [
+      "576"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC              LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 319,
+    "source_line_number": 19,
+    "source_line_raw": "28-14 = K. 576        Man d.        MC              LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "28-14",
+    "rhyme_section": "28",
+    "series_number": "14",
+    "schuessler_k_tokens": "576",
+    "schuessler_source_page": "319",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "水",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "水",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "水"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "576"
+  ],
+  "proposed_additions": [
+    {
+      "character": "水",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "śiwiyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "śiwiyX"
+        ],
+        "mand2mc_bs_forms": [
+          "sywijX"
+        ],
+        "bs_gsr_forms": [
+          "sywijX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4144",
+          "character": "水",
+          "pinyin": "shui3",
+          "mc_nwh": "śiwiyX",
+          "mc_bs": "sywijX",
+          "gsr": "0576a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "87",
+          "character": "水",
+          "pinyin": "shuǐ",
+          "mc_bs": "sywijX",
+          "mc_analyzed": "(sy- + -wij B)",
+          "oc_bs": "*s.turʔ (E dialect *-r > *-j)",
+          "gloss": "water; river",
+          "gsr": "0576a",
+          "unicode_utf16": "U+6C34"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12556",
+          "character": "水",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式軌",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "qʰlulʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12556",
+          "character": "水",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式軌",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "qʰlulʔ"
+        },
+        {
+          "source_row_number": "12557",
+          "character": "𡬄",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "其季",
+          "source": "广韵",
+          "oc_initial": "ɡʷˡ",
+          "oc_rhyme": "uls",
+          "oc_syllable": "ɡʷˡuls"
+        },
+        {
+          "source_row_number": "12558",
+          "character": "㽷",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "釋類",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "uls",
+          "oc_syllable": "qʰluls"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tay}},",
+      "render_latex": "水\t%shui3 / shuǐ\n{\\large{tay}},\n\\textit{śiwiyX};\t%0576a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "水",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "水"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "水",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "śiwiyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "śiwiyX"
+        ],
+        "mand2mc_bs_forms": [
+          "sywijX"
+        ],
+        "bs_gsr_forms": [
+          "sywijX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4144",
+          "character": "水",
+          "pinyin": "shui3",
+          "mc_nwh": "śiwiyX",
+          "mc_bs": "sywijX",
+          "gsr": "0576a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "87",
+          "character": "水",
+          "pinyin": "shuǐ",
+          "mc_bs": "sywijX",
+          "mc_analyzed": "(sy- + -wij B)",
+          "oc_bs": "*s.turʔ (E dialect *-r > *-j)",
+          "gloss": "water; river",
+          "gsr": "0576a",
+          "unicode_utf16": "U+6C34"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12556",
+          "character": "水",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式軌",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "qʰlulʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12556",
+          "character": "水",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "式軌",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "qʰlulʔ"
+        },
+        {
+          "source_row_number": "12557",
+          "character": "𡬄",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "其季",
+          "source": "广韵",
+          "oc_initial": "ɡʷˡ",
+          "oc_rhyme": "uls",
+          "oc_syllable": "ɡʷˡuls"
+        },
+        {
+          "source_row_number": "12558",
+          "character": "㽷",
+          "phonetic_component": "水",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "釋類",
+          "source": "广韵",
+          "oc_initial": "qʰl",
+          "oc_rhyme": "uls",
+          "oc_syllable": "qʰluls"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "水",
+      "gsr": "0576a",
+      "oc_bs": "*s.turʔ (E dialect *-r > *-j)",
+      "root": "tay",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tay",
+    "source": "head_graph_oc_bs",
+    "character": "水",
+    "oc_bs": "*s.turʔ (E dialect *-r > *-j)",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tay",
+    "base_root": "tay",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

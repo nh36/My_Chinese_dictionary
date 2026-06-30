@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5973
-- Pages fetched / cached successfully: 5882
-- Additions with explicit Han-compound semantic/phonetic roles: 2715
+- Proposed additions checked: 5985
+- Pages fetched / cached successfully: 5892
+- Additions with explicit Han-compound semantic/phonetic roles: 2717
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4847,6 +4847,8 @@
 | `28-09` | 煨 | yes | yes | 火 | 畏 |
 | `28-09` | 猥 | yes | yes | 犬 | 畏 |
 | `28-09` | 隈 | no | no |  |  |
+| `28-10` | 威 | yes | no |  |  |
+| `28-10` | 崴 | yes | no |  |  |
 | `28-11` | 隹 | yes | no |  |  |
 | `28-11` | 推 | yes | yes | 手 | 隹 |
 | `28-11` | 陮 | yes | no |  |  |
@@ -4873,6 +4875,13 @@
 | `28-11` | 雖 | yes | yes | 虫 | 唯 |
 | `28-11` | 稚 | yes | yes | 禾 | 屖 |
 | `28-11` | 堆 | yes | yes | 土 | 隹 |
+| `28-12` | 追 | yes | yes | 辵 | 𠂤 |
+| `28-12` | 縋 | no | no |  |  |
+| `28-12` | 膇 | yes | no |  |  |
+| `28-12` | 𠂤 | no | no |  |  |
+| `28-13` | 隤 | yes | no |  |  |
+| `28-13` | 穨 | yes | no |  |  |
+| `28-14` | 水 | yes | no |  |  |
 | `28-15` | 畾 | yes | no |  |  |
 | `28-15` | 壘 | yes | yes | 土 | 畾 |
 | `28-15` | 櫐 | yes | no |  |  |
@@ -4891,6 +4900,9 @@
 | `28-15` | 縲 | yes | no |  |  |
 | `28-15` | 騾 | yes | yes | 馬 | 累 |
 | `28-15` | 螺 | yes | yes | 虫 | 累 |
+| `28-16` | 磊 | yes | no |  |  |
+| `28-17` | 耒 | yes | no |  |  |
+| `28-17` | 誄 | yes | yes | 言 | 耒 |
 | `29-01` | 吉 | yes | no |  |  |
 | `29-01` | 蛣 | yes | no |  |  |
 | `29-01` | 詰 | yes | yes | 言 | 吉 |

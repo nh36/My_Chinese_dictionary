@@ -854,8 +854,14 @@
 | `28-07` | `missing_series` | no | 1 | 0 |
 | `28-08` | `missing_series` | no | 1 | 0 |
 | `28-09` | `missing_series` | no | 6 | 5 |
+| `28-10` | `missing_series` | no | 2 | 1 |
 | `28-11` | `missing_series` | no | 26 | 25 |
+| `28-12` | `missing_series` | no | 4 | 3 |
+| `28-13` | `missing_series` | no | 2 | 0 |
+| `28-14` | `missing_series` | no | 1 | 0 |
 | `28-15` | `missing_series` | no | 18 | 15 |
+| `28-16` | `missing_series` | no | 1 | 0 |
+| `28-17` | `missing_series` | no | 2 | 1 |
 | `29-01` | `missing_series` | no | 16 | 15 |
 | `29-08` | `missing_series` | no | 7 | 6 |
 | `29-09` | `missing_series` | no | 12 | 11 |

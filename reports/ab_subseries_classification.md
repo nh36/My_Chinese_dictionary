@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 988
+- Generated subgroup heads inspected: 992
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 330
-- Mixed subgroups left unmarked: 409
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 331
+- Mixed subgroups left unmarked: 412
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -836,14 +836,18 @@
 | `28-05` | 衛 | `quat` | `quat₅` | `mixed` | no | `ḫiweyH, hwaeyH` | the extracted forms point to both type a and type b |
 | `28-06` | 褱 | `ɡu` | `ɡu` | `a` | no | `hweay, hweayH, hwəyX, kweayH, kwəy` | all extracted forms lack an i-medial after the onset |
 | `28-09` | 畏 | `quy` | `quy` | `mixed` | no | `qiwɨyH, qiwɨyX, qwəyX, qwəy` | the extracted forms point to both type a and type b |
+| `28-10` | 威 | `ʔuy` | `ʔuy` | `mixed` | no | `qiwɨy, qweay` | the extracted forms point to both type a and type b |
 | `28-11` | 隹 | `tur` | `tur` | `mixed` | no | `ciwiy, thwəy, chiwiy, dwəyX, dzwəy, tshwəy, tshwəyX, tshwiyX, yiwiy, yiwiyX, yiwiyH, hwiy, swiy, lwiyX, ḍwiy, jiwiy, ḍiyH, twəy` | the extracted forms point to both type a and type b |
 | `28-11` | 推 | `tur` | `tur₂` | `mixed` | no | `thwəy, chiwiy` | the extracted forms point to both type a and type b |
 | `28-11` | 崔 | `tsuy` | `tsuy` | `a` | no | `dzwəy, tshwəy, tshwəyX` | all extracted forms lack an i-medial after the onset |
 | `28-11` | 鷕 | `quiy` | `quiy₂` | `b` | no | `yiwiyX, yiwiyH, hwiy, yiwiy` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `28-11` | 唯 | `quiy` | `quiy` | `b` | no | `tshwiyX, yiwiy, yiwiyX, yiwiyH, hwiy, swiy` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `28-12` | 追 | `tuy` | `tuy₃` | `b` | no | `ṭwiy, ḍiweH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `28-12` | 𠂤 | `tuy` | `tuy₂` | `mixed` | no | `twoj, ṭwiy, ḍiweH` | the extracted forms point to both type a and type b |
 | `28-15` | 畾 | `ruy` | `ruy` | `mixed` | no | `lwiyX, lwəy, lwiy, lwəyH, lwa, lwəyX` | the extracted forms point to both type a and type b |
 | `28-15` | 纍 | `ruy` | `ruy₂` | `mixed` | no | `lwiy, lwiyX, lwəyH, lwa` | the extracted forms point to both type a and type b |
 | `28-15` | 累 | `roy` | `roy` | `mixed` | no | `liweH, liweX, lwaX, lwiy, lwa` | the extracted forms point to both type a and type b |
+| `28-17` | 耒 | `ru` | `ru` | `mixed` | no | `lwiyX, lwəyH` | the extracted forms point to both type a and type b |
 | `29-01` | 吉 | `kit` | `kit` | `mixed` | no | `kyit, khyit, git, ket, keat, ḫet, keyH, ḫeat, kheat` | the extracted forms point to both type a and type b |
 | `29-01` | 頡 | `kit` | `kit₂` | `a` | no | `ḫet` | all extracted forms lack an i-medial after the onset |
 | `29-08` | 惠 | `quiy` | `quiy₅` | `mixed` | no | `hweyH, zwiyH, siweyH` | the extracted forms point to both type a and type b |

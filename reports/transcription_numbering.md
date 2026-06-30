@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1322
-- Roots whose display label changed after document-wide renumbering: 786
-- Duplicate phonetic bases encountered in document order: 319
+- Mutable series/subseries roots inspected: 1330
+- Roots whose display label changed after document-wide renumbering: 792
+- Duplicate phonetic bases encountered in document order: 320
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1439,3 +1439,11 @@
 | `28-07` | `series-root` | 乖 | `kuy` | 10 | `kuy₁₀` | yes |
 | `28-08` | `series-root` | 卉 | `mu` | 12 | `mu₁₂` | yes |
 | `28-09` | `series-root` | 畏 | `ʔuy` | 2 | `ʔuy₂` | yes |
+| `28-10` | `series-root` | 威 | `ʔuy` | 3 | `ʔuy₃` | yes |
+| `28-12` | `series-root` | 𠂤 | `tuy` | 1 | `tuy` | yes |
+| `28-12` | `subseries-root` | 𠂤 | `tuy` | 2 | `tuy₂` | yes |
+| `28-12` | `subseries-root` | 追 | `tuy` | 3 | `tuy₃` | yes |
+| `28-13` | `series-root` | 隤 | `ruy` | 4 | `ruy₄` | yes |
+| `28-14` | `series-root` | 水 | `tay` | 1 | `tay` | yes |
+| `28-16` | `series-root` | 磊 | `ruy` | 5 | `ruy₅` | yes |
+| `28-17` | `series-root` | 耒 | `ru` | 6 | `ru₆` | yes |

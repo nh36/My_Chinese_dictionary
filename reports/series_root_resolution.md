@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 924
-- Packets with at least one root candidate: 922
-- Packets with a single resolved provisional root: 920
+- Missing-series packets inspected: 930
+- Packets with at least one root candidate: 928
+- Packets with a single resolved provisional root: 926
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -837,8 +837,14 @@
 | `28-07` | 乖→kuy [*kʷˤrəj] (1240h); 乖→kui [*kʷʳi̠l] (None) | `kuy` | `head_graph_bs_head` |
 | `28-08` | 卉→mu [*m̥ʰulʔ] (None) | `mu` | `head_graph_oc_shengfu` |
 | `28-09` | 畏→ʔuy [*ʔuj-s] (0573a) | `ʔuy` | `head_graph_oc_bs` |
+| `28-10` | 威→ʔuy [*ʔuj] (0574a) | `ʔuy` | `head_graph_oc_bs` |
 | `28-11` | 隹→tur [*tur] (0575a) | `tur` | `head_graph_oc_bs` |
+| `28-12` | 𠂤→tuy [*C.tˤuj] (0543a) | `tuy` | `head_graph_oc_bs` |
+| `28-13` | 隤→ruy [*N-rˤuj] (0544a) | `ruy` | `head_graph_oc_bs` |
+| `28-14` | 水→tay [*s.turʔ (E dialect *-r > *-j)] (0576a) | `tay` | `head_graph_oc_bs` |
 | `28-15` | 畾→ru [*ru̠l] (None); 螺→roy [*k.rˤoj] (577); 螺→ro [*ro̠l] (None); 螺→ruy [*rujʔ {*[r]ujʔ}] (None) | `ruy` | `packet_bs_majority` |
+| `28-16` | 磊→ruy [*rujʔ {*[r]ujʔ}] (None) | `ruy` | `same_character_series_root` |
+| `28-17` | 耒→ru [*rulʔ] (None) | `ru` | `head_graph_oc_shengfu` |
 | `29-01` | 吉→kit [*kid] (None) | `kit` | `head_graph_oc_shengfu` |
 | `29-08` | 惠→quiy [*ɢʷˤij-s {*[ɢ]ʷˤi[j]-s}] (0533a) | `quiy` | `head_graph_oc_bs` |
 | `29-09` | 㒸→sut [*sɡˡuds] (None) | `sut` | `head_graph_oc_shengfu` |
