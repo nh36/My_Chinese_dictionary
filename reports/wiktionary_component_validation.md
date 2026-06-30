@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6219
-- Pages fetched / cached successfully: 6127
-- Additions with explicit Han-compound semantic/phonetic roles: 2800
+- Proposed additions checked: 6232
+- Pages fetched / cached successfully: 6134
+- Additions with explicit Han-compound semantic/phonetic roles: 2802
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5582,6 +5582,10 @@
 | `33-10` | 檃 | yes | no |  |  |
 | `33-11` | 典 | yes | no |  |  |
 | `33-11` | 腆 | yes | no |  |  |
+| `33-12` | 𡱂 | yes | no |  |  |
+| `33-12` | 臋 | no | no |  |  |
+| `33-12` | 臀 | yes | yes | 肉 | 殿 |
+| `33-12` | 殿 | no | no |  |  |
 | `33-13` | 辰 | yes | no |  |  |
 | `33-13` | 晨 | yes | yes | 日 | 辰 |
 | `33-13` | 䢅 | yes | no |  |  |
@@ -5596,6 +5600,7 @@
 | `33-13` | 辴 | yes | no |  |  |
 | `33-13` | 脣 | yes | yes | 肉 | 辰 |
 | `33-13` | 漘 | yes | yes | 水 | 脣 |
+| `33-14` | 憖 | yes | no |  |  |
 | `33-15` | 㐱 | yes | no |  |  |
 | `33-15` | 眕 | yes | no |  |  |
 | `33-15` | 畛 | yes | no |  |  |
@@ -5608,6 +5613,14 @@
 | `33-15` | 診 | yes | yes | 言 | 㐱 |
 | `33-15` | 餮 | yes | yes | 食 | 殄 |
 | `33-15` | 跈 | yes | no |  |  |
+| `33-16` | 疢 | yes | no |  |  |
+| `33-17` | 塵 | no | no |  |  |
+| `33-18` | 胤 | yes | no |  |  |
+| `33-18` | 酳 | no | no |  |  |
+| `33-19` | 寅 | no | no |  |  |
+| `33-19` | 夤 | yes | no |  |  |
+| `33-19` | 螾 | yes | yes | 虫 | 寅 |
+| `33-19` | 演 | no | no |  |  |
 | `33-20` | 刃 | yes | no |  |  |
 | `33-20` | 仞 | yes | yes | 人 | 刃 |
 | `33-20` | 忍 | yes | yes | 心 | 刃 |

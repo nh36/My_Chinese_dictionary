@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1044
+- Generated subgroup heads inspected: 1046
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 361
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 363
 - Mixed subgroups left unmarked: 434
 - Unresolved subgroups left unmarked: 4
 
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -965,10 +965,12 @@
 | `33-09` | 殷 | `ʔyr` | `ʔyr` | `mixed` | no | `qean, qiɨn, qiɨnX` | the extracted forms point to both type a and type b |
 | `33-10` | 隱 | `ʔyn` | `ʔyn` | `b` | no | `qiɨnH, qiɨnX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-11` | 典 | `tyr` | `tyr` | `a` | no | `tenX, thenX` | all extracted forms lack an i-medial after the onset |
+| `33-12` | 殿 | `tyn` | `tyn₅` | `a` | no | `denH, tenH, dwən` | all extracted forms lack an i-medial after the onset |
 | `33-13` | 辰 | `tyr` | `tyr` | `b` | no | `jin, jinX, cinH, cin, śin, ṭhiy, ṭhinX, źiwin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-13` | 脣 | `tyr` | `tyr₂` | `b` | no | `źiwin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-15` | 㐱 | `tyn` | `tyn` | `mixed` | no | `cinX, cin, cinH, ḍienX, jienX, ṭienX, ṭin, ṭhinH, denX, thet, ḍinH, nenX` | the extracted forms point to both type a and type b |
 | `33-15` | 殄 | `tyn` | `tyn₃` | `a` | no | `denX, thet` | all extracted forms lack an i-medial after the onset |
+| `33-19` | 寅 | `qyr` | `qyr` | `b` | no | `yiy, yin, yinX, yienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-20` | 刃 | `nyn` | `nyn` | `b` | no | `ñinH, ñinX, ṇin, ñin, nrit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-20` | 忍 | `nyn` | `nyn₂` | `b` | no | `ñinX, ñinH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `33-25` | 先 | `syr` | `syr` | `mixed` | no | `sen, senH, senX, seyX, ṣin` | the extracted forms point to both type a and type b |
