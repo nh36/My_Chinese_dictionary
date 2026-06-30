@@ -314,9 +314,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|𣦼|米|ls=psc|c1=p|c2=s|t2=rice}}",
+          "positional_components": [
+            "𣦼",
+            "米"
+          ],
+          "positional_components_raw": [
+            "𣦼",
+            "米"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "rice"
+          },
+          "semantic_components": [
+            "米"
+          ],
+          "phonetic_components": [
+            "𣦼"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|𣦼|米|ls=psc|c1=p|c2=s|t2=rice}}",
+            "positional_components": [
+              "𣦼",
+              "米"
+            ],
+            "positional_components_raw": [
+              "𣦼",
+              "米"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "rice"
+            },
+            "semantic_components": [
+              "米"
+            ],
+            "phonetic_components": [
+              "𣦼"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -364,12 +410,39 @@
             "evidence_count": 3
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "米"
       },
       "transliteration_latex": "{\\large{s\\textoverset{a}{a}n\\textsuperscript{˸oryz}}},",
       "render_latex": "粲\t%can4 / càn\n{\\large{s\\textoverset{a}{a}n\\textsuperscript{˸oryz}}},\n\\textit{tshanH};\t%0154b",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "米",
+        "phonetic_component": "𣦼",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "粲",
+          "semantic_component": "米",
+          "phonetic_component": "𣦼",
+          "position": "suffix-colon",
+          "abbreviation": "oryz",
+          "inventory_matches": [
+            {
+              "graph_raw": "米",
+              "label_token": "oryz(a)",
+              "abbreviation": "oryz",
+              "start_line": 343
+            },
+            {
+              "graph_raw": "米",
+              "label_token": "oryz",
+              "abbreviation": "oryz",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ],
+          "template_raw": "{{Han compound|𣦼|米|ls=psc|c1=p|c2=s|t2=rice}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "𣦼",

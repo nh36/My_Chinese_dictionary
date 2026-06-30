@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-30T09:21:07.835492+00:00",
+  "gsc_id": "24-46",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "194"
+  ],
+  "schuessler": {
+    "gsc_id": "24-46",
+    "rhyme_section": 24,
+    "series_number": 46,
+    "k_tokens": [
+      "194"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC               LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 286,
+    "source_line_number": 4,
+    "source_line_raw": "24-46 = K. 194      Man d.        MC               LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-46",
+    "rhyme_section": "24",
+    "series_number": "46",
+    "schuessler_k_tokens": "194",
+    "schuessler_source_page": "286",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "產",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "產",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "產"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "產",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1595",
+          "character": "產",
+          "pinyin": "chan3",
+          "mc_nwh": "ṣeanX",
+          "mc_bs": "sreanX",
+          "gsr": "0194a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "37",
+          "character": "產",
+          "pinyin": "chǎn",
+          "mc_bs": "sreanX",
+          "mc_analyzed": "(sr- + -ean B)",
+          "oc_bs": "*s-ŋrarʔ",
+          "gloss": "bear (v.), produce",
+          "gsr": "0194a",
+          "unicode_utf16": "U+7522"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1362",
+          "character": "產",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣeanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣeanX"
+        ],
+        "mand2mc_bs_forms": [
+          "sreanX"
+        ],
+        "bs_gsr_forms": [
+          "sreanX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "1595",
+        "character": "產",
+        "pinyin": "chan3",
+        "mc_nwh": "ṣeanX",
+        "mc_bs": "sreanX",
+        "gsr": "0194a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "37",
+        "character": "產",
+        "pinyin": "chǎn",
+        "mc_bs": "sreanX",
+        "mc_analyzed": "(sr- + -ean B)",
+        "oc_bs": "*s-ŋrarʔ",
+        "gloss": "bear (v.), produce",
+        "gsr": "0194a",
+        "unicode_utf16": "U+7522"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "generated_at": "2026-06-30T09:21:08.119941+00:00",
+  "id": "24-51",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "24-51",
+    "rhyme_section": 24,
+    "series_number": 51,
+    "k_tokens": [
+      "264"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 287,
+    "source_line_number": 6,
+    "source_line_raw": "24-51 = K. 264      Man d.        MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-51",
+    "rhyme_section": "24",
+    "series_number": "51",
+    "schuessler_k_tokens": "264",
+    "schuessler_source_page": "287",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "煩; 𨆌",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "煩",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "煩; 𨆌"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "264"
+  ],
+  "proposed_additions": [
+    {
+      "character": "煩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biən"
+        ],
+        "mand2mc_nwh_forms": [
+          "biən"
+        ],
+        "mand2mc_bs_forms": [
+          "bjon"
+        ],
+        "bs_gsr_forms": [
+          "bjon"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2059",
+          "character": "煩",
+          "pinyin": "fan2",
+          "mc_nwh": "biən",
+          "mc_bs": "bjon",
+          "gsr": "0264a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "46",
+          "character": "煩",
+          "pinyin": "fán",
+          "mc_bs": "bjon",
+          "mc_analyzed": "(b- + -jon A)",
+          "oc_bs": "*ban {*[b]a[n]}",
+          "gloss": "troubled",
+          "gsr": "0264a",
+          "unicode_utf16": "U+7169"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "3076",
+          "character": "煩",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3076",
+          "character": "煩",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        },
+        {
+          "source_row_number": "3077",
+          "character": "薠",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{p\\textoverset{b}{a}n}},",
+      "render_latex": "煩\t%fan2 / fán\n{\\large{p\\textoverset{b}{a}n}},\n\\textit{biən};\t%0264a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "煩",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "煩"
+      },
+      "resolved_node_root": {
+        "root": "pan",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "pan"
+        ],
+        "bs_node_roots": [
+          "pan"
+        ],
+        "display_root": "p\\textoverset{b}{a}n",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "biən"
+        ],
+        "form_analyses": [
+          {
+            "form": "biən",
+            "normalized": "biən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "𨆌",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biən"
+        ],
+        "mand2mc_nwh_forms": [
+          "biən"
+        ],
+        "mand2mc_bs_forms": [
+          "bjon"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2060",
+          "character": "𨆌",
+          "pinyin": "fan2",
+          "mc_nwh": "biən",
+          "mc_bs": "bjon",
+          "gsr": "0264b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ped",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "𧾷",
+            "label_token": "ped",
+            "abbreviation": "ped",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "𧾷"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}p\\textoverset{b}{a}n}},",
+      "render_latex": "𨆌\t%fan2\n{\\large{\\textsuperscript{ped·}p\\textoverset{b}{a}n}},\n\\textit{biən};\t%0264b",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "煩",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "煩"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "煩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biən"
+        ],
+        "mand2mc_nwh_forms": [
+          "biən"
+        ],
+        "mand2mc_bs_forms": [
+          "bjon"
+        ],
+        "bs_gsr_forms": [
+          "bjon"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2059",
+          "character": "煩",
+          "pinyin": "fan2",
+          "mc_nwh": "biən",
+          "mc_bs": "bjon",
+          "gsr": "0264a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "46",
+          "character": "煩",
+          "pinyin": "fán",
+          "mc_bs": "bjon",
+          "mc_analyzed": "(b- + -jon A)",
+          "oc_bs": "*ban {*[b]a[n]}",
+          "gloss": "troubled",
+          "gsr": "0264a",
+          "unicode_utf16": "U+7169"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "3076",
+          "character": "煩",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3076",
+          "character": "煩",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        },
+        {
+          "source_row_number": "3077",
+          "character": "薠",
+          "phonetic_component": "煩",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "附袁",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "an",
+          "oc_syllable": "ban"
+        }
+      ]
+    },
+    {
+      "character": "𨆌",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biən"
+        ],
+        "mand2mc_nwh_forms": [
+          "biən"
+        ],
+        "mand2mc_bs_forms": [
+          "bjon"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2060",
+          "character": "𨆌",
+          "pinyin": "fan2",
+          "mc_nwh": "biən",
+          "mc_bs": "bjon",
+          "gsr": "0264b"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "煩",
+      "gsr": "0264a",
+      "oc_bs": "*ban {*[b]a[n]}",
+      "root": "pan",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "pan",
+    "source": "head_graph_oc_bs",
+    "character": "煩",
+    "oc_bs": "*ban {*[b]a[n]}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "p\\textoverset{b}{a}n",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "biən"
+    ],
+    "form_analyses": [
+      {
+        "form": "biən",
+        "normalized": "biən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "p\\textoverset{b}{a}n",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

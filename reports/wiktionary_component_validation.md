@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5743
-- Pages fetched / cached successfully: 5647
-- Additions with explicit Han-compound semantic/phonetic roles: 2622
+- Proposed additions checked: 5760
+- Pages fetched / cached successfully: 5663
+- Additions with explicit Han-compound semantic/phonetic roles: 2628
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4068,7 +4068,7 @@
 | `24-36` | 燃 | yes | yes | 火 | 然 |
 | `24-37` | 㞋 | yes | no |  |  |
 | `24-37` | 赧 | yes | yes | 赤 | 𡰫 |
-| `24-38` | 扇 | no | no |  |  |
+| `24-38` | 扇 | yes | no |  |  |
 | `24-38` | 傓 | yes | no |  |  |
 | `24-38` | 煽 | no | no |  |  |
 | `24-39` | 贊 | yes | yes | 貝 | 兟 |
@@ -4083,7 +4083,7 @@
 | `24-39` | 櫕 | yes | no |  |  |
 | `24-39` | 攢 | yes | no |  |  |
 | `24-40` | 𣦼 | yes | no |  |  |
-| `24-40` | 粲 | no | no |  |  |
+| `24-40` | 粲 | yes | yes | 米 | 𣦼 |
 | `24-40` | 餐 | yes | yes | 食 | 𣦼 |
 | `24-41` | 戔 | yes | no |  |  |
 | `24-41` | 殘 | yes | yes | 歹 | 戔 |
@@ -4102,20 +4102,21 @@
 | `24-41` | 帴 | yes | no |  |  |
 | `24-41` | 綫 | yes | no |  |  |
 | `24-41` | 濺 | yes | yes | 水 | 賤 |
-| `24-42` | 𠨧 | no | no |  |  |
+| `24-42` | 𠨧 | yes | no |  |  |
 | `24-42` | 僊 | yes | yes | 人 | 遷 |
 | `24-42` | 遷 | no | no |  |  |
 | `24-43` | 孱 | yes | no |  |  |
-| `24-43` | 潺 | no | no |  |  |
+| `24-43` | 潺 | yes | no |  |  |
 | `24-43` | 僝 | yes | yes | 人 | 孱 |
-| `24-43` | 轏 | no | no |  |  |
+| `24-43` | 轏 | yes | no |  |  |
 | `24-44` | 散 | yes | yes | 肉 | 𢽳 |
 | `24-44` | 潸 | no | no |  |  |
 | `24-44` | 霰 | yes | no |  |  |
-| `24-45` | 山 | no | no |  |  |
+| `24-45` | 山 | yes | no |  |  |
 | `24-45` | 汕 | yes | yes | 水 | 山 |
-| `24-45` | 訕 | no | no |  |  |
+| `24-45` | 訕 | yes | yes | 言 | 山 |
 | `24-45` | 仙 | yes | yes | 人 | 山 |
+| `24-46` | 產 | no | no |  |  |
 | `24-47` | 半 | yes | no |  |  |
 | `24-47` | 靽 | yes | no |  |  |
 | `24-47` | 伴 | yes | yes | 人 | 半 |
@@ -4129,6 +4130,12 @@
 | `24-47` | 畔 | yes | yes | 田 | 半 |
 | `24-47` | 叛 | yes | yes | 反 | 半 |
 | `24-47` | 袢 | yes | no |  |  |
+| `24-48` | 般 | yes | no |  |  |
+| `24-48` | 槃 | yes | yes | 木 | 般 |
+| `24-48` | 盤 | no | no |  |  |
+| `24-48` | 磐 | yes | yes | 石 | 般 |
+| `24-48` | 縏 | no | no |  |  |
+| `24-48` | 鞶 | yes | no |  |  |
 | `24-49` | 反 | yes | yes | 又 | 厂 |
 | `24-49` | 返 | yes | yes | 辵 | 反 |
 | `24-49` | 販 | yes | yes | 貝 | 反 |
@@ -4139,6 +4146,16 @@
 | `24-49` | 鈑 | yes | no |  |  |
 | `24-49` | 扳 | yes | no |  |  |
 | `24-49` | 昄 | yes | no |  |  |
+| `24-50` | 棥 | yes | no |  |  |
+| `24-50` | 樊 | no | no |  |  |
+| `24-50` | 攀 | yes | yes | 手 | 樊 |
+| `24-51` | 煩 | no | no |  |  |
+| `24-51` | 𨆌 | no | no |  |  |
+| `24-52` | 緐 | no | no |  |  |
+| `24-52` | 繁 | yes | yes | 糸 | 敏 |
+| `24-52` | 蘩 | no | no |  |  |
+| `24-53` | 班 | yes | no |  |  |
+| `24-53` | 斑 | yes | no |  |  |
 | `24-54` | 釆 | yes | no |  |  |
 | `24-54` | 番 | yes | yes | 田 | 釆 |
 | `24-54` | 幡 | yes | yes | 巾 | 番 |
