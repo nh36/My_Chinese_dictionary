@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6433
-- Pages fetched / cached successfully: 6332
-- Additions with explicit Han-compound semantic/phonetic roles: 2880
+- Proposed additions checked: 6445
+- Pages fetched / cached successfully: 6341
+- Additions with explicit Han-compound semantic/phonetic roles: 2884
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -6349,7 +6349,7 @@
 | `38-05` | 壛 | yes | no |  |  |
 | `38-05` | 爓 | yes | no |  |  |
 | `38-05` | 讇 | yes | no |  |  |
-| `38-06` | 熊 | no | no |  |  |
+| `38-06` | 熊 | yes | yes | 能 | 炎 |
 | `38-07` | 音 | yes | no |  |  |
 | `38-07` | 愔 | yes | no |  |  |
 | `38-07` | 喑 | yes | no |  |  |
@@ -6359,7 +6359,7 @@
 | `38-07` | 闇 | yes | yes | 門 | 音 |
 | `38-07` | 歆 | yes | no |  |  |
 | `38-08` | 飲 | yes | yes | 欠 | 酓 |
-| `38-09` | 儑 | no | no |  |  |
+| `38-09` | 儑 | yes | yes | 人 | 㬎 |
 | `38-10` | 碞 | no | no |  |  |
 | `38-11` | 甚 | yes | no |  |  |
 | `38-11` | 煁 | yes | no |  |  |
@@ -6377,7 +6377,7 @@
 | `38-11` | 戡 | yes | yes | 戈 | 甚 |
 | `38-11` | 嵁 | yes | no |  |  |
 | `38-12` | 闖 | yes | no |  |  |
-| `38-13` | 審 | no | no |  |  |
+| `38-13` | 審 | yes | no |  |  |
 | `38-13` | 瀋 | yes | yes | 水 | 審 |
 | `38-13` | 嬸 | no | no |  |  |
 | `38-14` | 冘 | yes | no |  |  |
@@ -6406,6 +6406,7 @@
 | `38-16` | 鱏 | yes | no |  |  |
 | `38-16` | 簟 | yes | no |  |  |
 | `38-16` | 驔 | yes | no |  |  |
+| `38-17` | 尋 | yes | no |  |  |
 | `38-18` | 林 | yes | no |  |  |
 | `38-18` | 淋 | yes | yes | 水 | 林 |
 | `38-18` | 霖 | yes | no |  |  |
@@ -6415,6 +6416,17 @@
 | `38-18` | 禁 | yes | yes | 示 | 林 |
 | `38-18` | 襟 | yes | yes | 衣 | 禁 |
 | `38-18` | 噤 | yes | no |  |  |
+| `38-19` | 稟 | no | no |  |  |
+| `38-19` | 禀 | no | no |  |  |
+| `38-19` | 廩 | yes | yes | 广, 禾 | 㐭 |
+| `38-19` | 懍 | no | no |  |  |
+| `38-19` | 凜 | yes | no |  |  |
+| `38-20` | 品 | no | no |  |  |
+| `38-20` | 臨 | yes | yes | 臣, 人 | 品 |
+| `38-21` | 貪 | no | no |  |  |
+| `38-21` | 嗿 | yes | no |  |  |
+| `38-22` | 男 | no | no |  |  |
+| `38-23` | 南 | yes | no |  |  |
 | `38-25` | 壬 | yes | no |  |  |
 | `38-25` | 任 | yes | yes | 人 | 壬 |
 | `38-25` | 妊 | yes | yes | 女 | 壬 |

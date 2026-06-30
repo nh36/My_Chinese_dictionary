@@ -1136,6 +1136,12 @@
 | `38-14` | `missing_series` | no | 13 | 12 |
 | `38-15` | `missing_series` | no | 2 | 1 |
 | `38-16` | `missing_series` | no | 11 | 10 |
+| `38-17` | `missing_series` | no | 1 | 0 |
 | `38-18` | `missing_series` | no | 9 | 8 |
+| `38-19` | `missing_series` | no | 5 | 4 |
+| `38-20` | `missing_series` | no | 2 | 1 |
+| `38-21` | `missing_series` | no | 2 | 1 |
+| `38-22` | `missing_series` | no | 1 | 0 |
+| `38-23` | `missing_series` | no | 1 | 0 |
 | `38-25` | `missing_series` | no | 12 | 11 |
 | `38-28` | `missing_series` | no | 12 | 11 |

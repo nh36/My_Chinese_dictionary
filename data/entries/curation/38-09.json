@@ -107,22 +107,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|alt1=亻|㬎|ls=psc|c1=s|t1=human|c2=p}}",
+          "positional_components": [
+            "人",
+            "㬎"
+          ],
+          "positional_components_raw": [
+            "人",
+            "㬎"
+          ],
+          "named_args": {
+            "alt1": "亻",
+            "ls": "psc",
+            "c1": "s",
+            "t1": "human",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "㬎"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|alt1=亻|㬎|ls=psc|c1=s|t1=human|c2=p}}",
+            "positional_components": [
+              "人",
+              "㬎"
+            ],
+            "positional_components_raw": [
+              "人",
+              "㬎"
+            ],
+            "named_args": {
+              "alt1": "亻",
+              "ls": "psc",
+              "c1": "s",
+              "t1": "human",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "㬎"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ṅum}},",
-      "render_latex": "儑\t%an2\n{\\large{ṅum}},\n\\textit{ṅəm};\t%0644a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ṅum}},",
+      "render_latex": "儑\t%an2\n{\\large{\\textsuperscript{hom·}ṅum}},\n\\textit{ṅəm};\t%0644a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "人",
+        "phonetic_component": "㬎",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "儑",
+          "semantic_component": "人",
+          "phonetic_component": "㬎",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|人|alt1=亻|㬎|ls=psc|c1=s|t1=human|c2=p}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 298
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "人"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": null
