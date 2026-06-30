@@ -2637,27 +2637,36 @@
       "oc_bs": "*pin {*pi[n]}",
       "root": "pin",
       "source": "same_character_series_root",
-      "support_count": 4,
+      "support_count": 3,
       "supporting_sources": [
         "same_character_series_root",
         "head_graph_oc_bs",
-        "head_graph_oc_shengfu",
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "賓",
+      "gsr": null,
+      "oc_bs": "*mbe̠nʔ",
+      "root": "men",
+      "source": "phonetic_component_series_root",
+      "support_count": 1,
+      "supporting_sources": [
         "phonetic_component_series_root"
       ]
     }
   ],
   "resolved_series_root": {
     "root": "pin",
-    "source": "same_character_series_root",
+    "source": "head_graph_supported_root",
     "character": "賔",
     "oc_bs": "*pin {*pi[n]}",
     "confidence": "provisional-oc",
-    "support_count": 4,
+    "support_count": 3,
     "supporting_sources": [
       "same_character_series_root",
       "head_graph_oc_bs",
-      "head_graph_oc_shengfu",
-      "phonetic_component_series_root"
+      "head_graph_oc_shengfu"
     ],
     "display_root": "pin",
     "base_root": "pin",

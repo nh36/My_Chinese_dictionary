@@ -1,0 +1,279 @@
+{
+  "generated_at": "2026-06-30T09:15:01.120112+00:00",
+  "gsc_id": "24-03",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "141"
+  ],
+  "schuessler": {
+    "gsc_id": "24-03",
+    "rhyme_section": 24,
+    "series_number": 3,
+    "k_tokens": [
+      "141"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.            MC                  LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 277,
+    "source_line_number": 31,
+    "source_line_raw": "24-3 = K. 141          Man d.            MC                  LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-03",
+    "rhyme_section": "24",
+    "series_number": "3",
+    "schuessler_k_tokens": "141",
+    "schuessler_source_page": "277",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "4",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "侃; 諐",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "𩱡",
+    "combined_source_character_count": "3",
+    "combined_source_characters_sample": "侃; 諐; 𩱡"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "侃",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1211",
+          "character": "侃",
+          "pinyin": "kan3",
+          "mc_nwh": "khanH",
+          "mc_bs": "khanH",
+          "gsr": "0141a"
+        },
+        {
+          "source_row_number": "1212",
+          "character": "侃",
+          "pinyin": "kan3",
+          "mc_nwh": "khanX",
+          "mc_bs": "khanX",
+          "gsr": "0141a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14915",
+          "character": "侃",
+          "phonetic_component": "衍",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "空旱",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "kʰa̠nʔ"
+        },
+        {
+          "source_row_number": "14919",
+          "character": "侃",
+          "phonetic_component": "衍",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦旰",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʰa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khanH",
+          "khanX"
+        ],
+        "mand2mc_nwh_forms": [
+          "khanH",
+          "khanX"
+        ],
+        "mand2mc_bs_forms": [
+          "khanH",
+          "khanX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "諐",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1213",
+          "character": "諐",
+          "pinyin": "qian1",
+          "mc_nwh": "khien",
+          "mc_bs": "khjen",
+          "gsr": "0141d"
+        },
+        {
+          "source_row_number": "1214",
+          "character": "諐",
+          "pinyin": "qian1",
+          "mc_nwh": "khienH",
+          "mc_bs": "khjenH",
+          "gsr": "0141d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khien",
+          "khienH"
+        ],
+        "mand2mc_nwh_forms": [
+          "khien",
+          "khienH"
+        ],
+        "mand2mc_bs_forms": [
+          "khjen",
+          "khjenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "𩱡",
+      "in_tex": false,
+      "mand2mc_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "30",
+          "character": "𩱡",
+          "pinyin": "jiān",
+          "mc_bs": "kjon",
+          "mc_analyzed": "(k- + -jon A)",
+          "oc_bs": "*C.qan {*C.qa[n]}",
+          "gloss": "gruel",
+          "gsr": "141",
+          "unicode_utf16": "U+29C61"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14911",
+          "character": "𩱡",
+          "phonetic_component": "衍",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "居言",
+          "source": "集韵",
+          "oc_initial": "k",
+          "oc_rhyme": "an",
+          "oc_syllable": "kan"
+        },
+        {
+          "source_row_number": "14914",
+          "character": "𩱡",
+          "phonetic_component": "衍",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "集韵",
+          "oc_initial": "kʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "kʲan"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "bs_gsr",
+        "display_forms": [
+          "kjon"
+        ],
+        "mand2mc_nwh_forms": [],
+        "mand2mc_bs_forms": [],
+        "bs_gsr_forms": [
+          "kjon"
+        ],
+        "bs_not_in_mand2mc": [
+          "kjon"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "1211",
+        "character": "侃",
+        "pinyin": "kan3",
+        "mc_nwh": "khanH",
+        "mc_bs": "khanH",
+        "gsr": "0141a"
+      },
+      {
+        "source_row_number": "1212",
+        "character": "侃",
+        "pinyin": "kan3",
+        "mc_nwh": "khanX",
+        "mc_bs": "khanX",
+        "gsr": "0141a"
+      },
+      {
+        "source_row_number": "1213",
+        "character": "諐",
+        "pinyin": "qian1",
+        "mc_nwh": "khien",
+        "mc_bs": "khjen",
+        "gsr": "0141d"
+      },
+      {
+        "source_row_number": "1214",
+        "character": "諐",
+        "pinyin": "qian1",
+        "mc_nwh": "khienH",
+        "mc_bs": "khjenH",
+        "gsr": "0141d"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "30",
+        "character": "𩱡",
+        "pinyin": "jiān",
+        "mc_bs": "kjon",
+        "mc_analyzed": "(k- + -jon A)",
+        "oc_bs": "*C.qan {*C.qa[n]}",
+        "gloss": "gruel",
+        "gsr": "141",
+        "unicode_utf16": "U+29C61"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

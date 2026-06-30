@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5667
-- Pages fetched / cached successfully: 5581
-- Additions with explicit Han-compound semantic/phonetic roles: 2592
+- Proposed additions checked: 5679
+- Pages fetched / cached successfully: 5593
+- Additions with explicit Han-compound semantic/phonetic roles: 2594
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3864,6 +3864,9 @@
 | `23-31` | 偭 | yes | no |  |  |
 | `23-31` | 湎 | yes | yes | 水 | 面 |
 | `23-31` | 緬 | yes | yes | 糸 | 面 |
+| `23-32` | 丏 | yes | no |  |  |
+| `23-32` | 眄 | yes | no |  |  |
+| `23-32` | 沔 | yes | yes | 水 | 丏 |
 | `24-01` | 干 | yes | no |  |  |
 | `24-01` | 馯 | yes | no |  |  |
 | `24-01` | 奸 | yes | yes | 女 | 干 |
@@ -3906,6 +3909,9 @@
 | `24-02` | 簳 | yes | yes | 竹 | 幹 |
 | `24-02` | 斡 | yes | yes | 斗 | 倝 |
 | `24-02` | 澣 | yes | no |  |  |
+| `24-03` | 侃 | yes | no |  |  |
+| `24-03` | 諐 | yes | no |  |  |
+| `24-03` | 𩱡 | yes | no |  |  |
 | `24-05` | 寒 | yes | no |  |  |
 | `24-05` | 搴 | yes | no |  |  |
 | `24-05` | 謇 | yes | no |  |  |
@@ -3913,6 +3919,7 @@
 | `24-05` | 褰 | yes | no |  |  |
 | `24-05` | 騫 | yes | no |  |  |
 | `24-05` | 攓 | yes | no |  |  |
+| `24-07` | 虔 | yes | yes | 虍 | 文 |
 | `24-08` | 建 | yes | no |  |  |
 | `24-08` | 揵 | yes | no |  |  |
 | `24-08` | 鞬 | yes | yes | 革 | 建 |
@@ -3921,6 +3928,10 @@
 | `24-08` | 健 | yes | yes | 人 | 建 |
 | `24-08` | 楗 | yes | yes | 木 | 建 |
 | `24-08` | 鍵 | yes | yes | 金 | 建 |
+| `24-09` | 姦 | yes | no |  |  |
+| `24-10` | 暵 | yes | no |  |  |
+| `24-10` | 熯 | yes | no |  |  |
+| `24-10` | 漢 | yes | no |  |  |
 | `24-11` | 安 | yes | yes | 宀 | 女<sub>2</sub> |
 | `24-11` | 按 | yes | yes | 手 | 安 |
 | `24-11` | 案 | yes | yes | 木 | 安 |
@@ -3938,6 +3949,7 @@
 | `24-12` | 鰋 | yes | no |  |  |
 | `24-12` | 蝘 | yes | yes | 虫 | 匽 |
 | `24-12` | 揠 | yes | yes | 手 | 匽 |
+| `24-13` | 㫃 | yes | no |  |  |
 | `24-17` | 鬳 | yes | yes | 鬲 | 虍 |
 | `24-17` | 甗 | yes | yes | 瓦 | 鬳 |
 | `24-17` | 獻 | yes | yes | 犬 | 鬳 |
