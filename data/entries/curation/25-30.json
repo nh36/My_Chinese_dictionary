@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-06-30T10:06:13.928810+00:00",
+  "id": "25-30",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "25-30",
+    "rhyme_section": 25,
+    "series_number": 30,
+    "k_tokens": [
+      "230"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC             LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 297,
+    "source_line_number": 15,
+    "source_line_raw": "25-30 = K. 230      Man d.        MC             LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "25-30",
+    "rhyme_section": "25",
+    "series_number": "30",
+    "schuessler_k_tokens": "230",
+    "schuessler_source_page": "297",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "鳶",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "鳶"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "230"
+  ],
+  "proposed_additions": [
+    {
+      "character": "鳶",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiwen"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiwen"
+        ],
+        "mand2mc_bs_forms": [
+          "ywen"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1783",
+          "character": "鳶",
+          "pinyin": "yuan1",
+          "mc_nwh": "yiwen",
+          "mc_bs": "ywen",
+          "gsr": "0230a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "4023",
+          "character": "鳶",
+          "phonetic_component": "戈",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "與專",
+          "source": "广韵",
+          "oc_initial": "ɢ",
+          "oc_rhyme": "on",
+          "oc_syllable": "ɢon"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|鳥|戈|c1=s|c2=p|t1=bird|ls=psc|nocap=y}}",
+          "positional_components": [
+            "鳥",
+            "戈"
+          ],
+          "positional_components_raw": [
+            "鳥",
+            "戈"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "bird",
+            "ls": "psc",
+            "nocap": "y"
+          },
+          "semantic_components": [
+            "鳥"
+          ],
+          "phonetic_components": [
+            "戈"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|鳥|戈|c1=s|c2=p|t1=bird|ls=psc|nocap=y}}",
+            "positional_components": [
+              "鳥",
+              "戈"
+            ],
+            "positional_components_raw": [
+              "鳥",
+              "戈"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "bird",
+              "ls": "psc",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "鳥"
+            ],
+            "phonetic_components": [
+              "戈"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{av˸}qon₄}},",
+      "render_latex": "鳶\t%yuan1\n{\\large{\\textsuperscript{av˸}qon₄}},\n\\textit{yiwen};\t%0230a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "鳥",
+        "phonetic_component": "戈",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "鳶",
+          "semantic_component": "鳥",
+          "phonetic_component": "戈",
+          "position": "prefix-colon",
+          "abbreviation": "av",
+          "inventory_matches": [
+            {
+              "graph_raw": "鳥",
+              "label_token": "av(is)",
+              "abbreviation": "av",
+              "start_line": 205
+            },
+            {
+              "graph_raw": "鳥",
+              "label_token": "av",
+              "abbreviation": "av",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ],
+          "template_raw": "{{Han compound|鳥|戈|c1=s|c2=p|t1=bird|ls=psc|nocap=y}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "av",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "鳥",
+            "label_token": "av(is)",
+            "abbreviation": "av",
+            "start_line": 205
+          },
+          {
+            "graph_raw": "鳥",
+            "label_token": "av",
+            "abbreviation": "av",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "鳥"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "鳶",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiwen"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiwen"
+        ],
+        "mand2mc_bs_forms": [
+          "ywen"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1783",
+          "character": "鳶",
+          "pinyin": "yuan1",
+          "mc_nwh": "yiwen",
+          "mc_bs": "ywen",
+          "gsr": "0230a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "4023",
+          "character": "鳶",
+          "phonetic_component": "戈",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "與專",
+          "source": "广韵",
+          "oc_initial": "ɢ",
+          "oc_rhyme": "on",
+          "oc_syllable": "ɢon"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "鳶",
+      "gsr": null,
+      "oc_bs": "*ɢon",
+      "root": "qon",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "qon",
+    "source": "head_graph_oc_shengfu",
+    "character": "鳶",
+    "oc_bs": "*ɢon",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_shengfu",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "qon₄",
+    "base_root": "qon",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}

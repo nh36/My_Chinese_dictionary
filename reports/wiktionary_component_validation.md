@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5812
-- Pages fetched / cached successfully: 5725
-- Additions with explicit Han-compound semantic/phonetic roles: 2655
+- Proposed additions checked: 5829
+- Pages fetched / cached successfully: 5742
+- Additions with explicit Han-compound semantic/phonetic roles: 2661
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4415,6 +4415,7 @@
 | `25-29` | 鉛 | yes | yes | 金 | 㕣 |
 | `25-29` | 兗 | yes | no |  |  |
 | `25-29` | 船 | yes | yes | 舟 | 㕣 |
+| `25-30` | 鳶 | yes | yes | 鳥 | 戈 |
 | `25-31` | 䜌 | yes | no |  |  |
 | `25-31` | 巒 | yes | yes | 山 | 䜌 |
 | `25-31` | 欒 | yes | yes | 木 | 䜌 |
@@ -4428,6 +4429,22 @@
 | `25-31` | 變 | yes | yes | 攴 | 䜌 |
 | `25-31` | 蠻 | yes | yes | 虫 | 䜌 |
 | `25-31` | 孿 | yes | no |  |  |
+| `25-32` | 卵 | yes | no |  |  |
+| `25-33` | 𤔔 | yes | no |  |  |
+| `25-33` | 亂 | yes | yes | 乙 | 𤔔 |
+| `25-34` | 奻 | yes | no |  |  |
+| `25-35` | 耎 | yes | no |  |  |
+| `25-35` | 輭 | yes | yes | 車 | 耎 |
+| `25-35` | 蝡 | yes | yes | 虫 | 耎 |
+| `25-35` | 蠕 | yes | yes | 虫 | 需 |
+| `25-35` | 瑌 | yes | no |  |  |
+| `25-35` | 瓀 | yes | no |  |  |
+| `25-35` | 偄 | yes | yes | 人 | 耎 |
+| `25-35` | 渜 | yes | no |  |  |
+| `25-35` | 煗 | yes | no |  |  |
+| `25-35` | 㨎 | yes | no |  |  |
+| `25-35` | 擩 | yes | no |  |  |
+| `25-36` | 竄 | yes | no |  |  |
 | `25-38` | 全 | yes | no |  |  |
 | `25-38` | 仝 | yes | no |  |  |
 | `25-38` | 牷 | yes | no |  |  |
