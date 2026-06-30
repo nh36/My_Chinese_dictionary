@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 792
-- Packets with at least one root candidate: 790
-- Packets with a single resolved provisional root: 788
+- Missing-series packets inspected: 798
+- Packets with at least one root candidate: 796
+- Packets with a single resolved provisional root: 794
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -647,7 +647,13 @@
 | `23-06` | 閑→kan [*gˤran {*[g]ˤra[n]}] (0192a); 閑→ken [*N-kˤren {*N-kˤre[n]}] (0192a) | `kan` | `head_graph_supported_root` |
 | `23-07` | 柬→kan [*kˤranʔ {*kˤr[a]nʔ}] (0185a) | `kan` | `head_graph_oc_bs` |
 | `23-08` | 蠲→kuiṅ [*kʷi̠ŋ] (None); 蠲→mik [*m̥ik {*m̥(r)ik}] (None) | `kuiṅ` | `head_graph_shengfu_head` |
+| `23-09` | 縣→kuen [*gʷˤen {*[g]ʷˤe[n]}] (0248a) | `kuen` | `head_graph_oc_bs` |
 | `23-10` | 員→quyn [*ɢʷən {*[ɢ]ʷə[n]}] (0227a); 員→quen [*ɢʷren {*[ɢ]ʷre[n]}] (0227a) | `qun` | `packet_shengfu_majority` |
+| `23-11` | 瞏→kueṅ [*gʷeŋ {*[g]ʷeŋ}] (0829a) | `kueṅ` | `head_graph_oc_bs` |
+| `23-12` | 奐→qon [*qʰo̠ns] (None) | `qon` | `head_graph_oc_shengfu` |
+| `23-13` | 幻→ɡin [*ɡʷʳi̠n] (None) | `ɡin` | `head_graph_oc_shengfu` |
+| `23-14` | 旋→quen [*s-ɢʷen {*s-[ɢ]ʷe[n]}] (0236a) | `quen` | `head_graph_oc_bs` |
+| `23-15` | 燕→ʔen [*ʔˤen-s {*ʔˤe[n]-s}] (0243a) | `ʔen` | `head_graph_oc_bs` |
 | `23-17` | 肙→quen [*qʷˤen] (0228a) | `quen` | `head_graph_oc_bs` |
 | `23-20` | 前→tsen [*dzˤen ~ *m-dzˤen] (0245a) | `tsen` | `head_graph_oc_bs` |
 | `23-27` | 扁→pen [*pˤenʔ {*pˤe[n]ʔ}] (0246a) | `pen` | `head_graph_oc_bs` |

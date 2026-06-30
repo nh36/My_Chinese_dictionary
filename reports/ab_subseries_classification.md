@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 907
-- Subgroups newly marked with `a`: 119
+- Generated subgroup heads inspected: 913
+- Subgroups newly marked with `a`: 120
 - Subgroups newly marked with `b`: 100
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 303
-- Mixed subgroups left unmarked: 381
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 306
+- Mixed subgroups left unmarked: 383
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -665,11 +665,17 @@
 | `23-03` | 幵 | `ker` | `ker` | `a` | no | `ken, ṅen` | all extracted forms lack an i-medial after the onset |
 | `23-04` | 遣 | `ken` | `ken` | `b` | no | `khienH, khienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `23-05` | 閒 | `ken` | `ken` | `a` | no | `ḫean, kean, keanH, keanX, hean, kaenH, heanX, ḫaenX` | all extracted forms lack an i-medial after the onset |
-| `23-05` | 間 | `ken` | `ken₂` | `a` | no | `kean, keanH, keanX, hean, kaenH` | all extracted forms lack an i-medial after the onset |
+| `23-05` | 間 | `ken` | `ken₅` | `a` | no | `kean, keanH, keanX, hean, kaenH` | all extracted forms lack an i-medial after the onset |
 | `23-07` | 柬 | `kan` | `k\textoverset{a}{a}n` | `a` | yes | `keanX, kaenH, lan, lanH, lanX, lenH` | all extracted forms lack an i-medial after the onset |
 | `23-07` | 闌 | `ran` | `r\textoverset{a}{a}n` | `a` | yes | `lan, lanH, lanX, lenH` | all extracted forms lack an i-medial after the onset |
 | `23-07` | 蘭 | `ran` | `r\textoverset{a}{a}n₂` | `a` | yes | `lan, lanH` | all extracted forms lack an i-medial after the onset |
+| `23-09` | 縣 | `kuen` | `kuen` | `a` | no | `ḫwen, ḫwenH` | all extracted forms lack an i-medial after the onset |
 | `23-10` | 員 | `qun` | `qun` | `b` | no | `ḫiun, ḫiwen, hiwən, hwinX, hwin, hiun` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `23-11` | 睘 | `quen` | `quen` | `mixed` | no | `giwieṅ, hwaen` | the extracted forms point to both type a and type b |
+| `23-12` | 奐 | `qon` | `q\textoverset{a}{o}n` | `a` | yes | `hwanH, ḫwan, ḫwanH` | all extracted forms lack an i-medial after the onset |
+| `23-12` | 敻 | `qon` | `qon` | `mixed` | no | `hyiweṅH, hwenH, gyiweṅ` | the extracted forms point to both type a and type b |
+| `23-14` | 旋 | `quen` | `quen` | `b` | no | `ziwen` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `23-15` | 燕 | `ʔen` | `ʔen` | `a` | no | `qen, qenH` | all extracted forms lack an i-medial after the onset |
 | `23-17` | 肙 | `quen` | `quen` | `mixed` | no | `qwen, qiwienX, giwienX, qiwien, kiwienH, yiwen, kwen, kwenH, ḫwenX, hwen, hwenH, zjwen` | the extracted forms point to both type a and type b |
 | `23-20` | 前 | `tsen` | `tsen` | `mixed` | no | `dzen, tsienX, tsien, tsienH` | the extracted forms point to both type a and type b |
 | `23-27` | 扁 | `pen` | `pen` | `mixed` | no | `penX, penH, ben, benX, pen, pyien, pyienX, phyien, phyienH, byienH, byienX` | the extracted forms point to both type a and type b |

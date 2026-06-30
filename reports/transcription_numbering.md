@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1166
-- Roots whose display label changed after document-wide renumbering: 689
-- Duplicate phonetic bases encountered in document order: 291
+- Mutable series/subseries roots inspected: 1172
+- Roots whose display label changed after document-wide renumbering: 694
+- Duplicate phonetic bases encountered in document order: 292
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1014,21 +1014,27 @@
 | `22-16` | `series-root` | 絕 | `tsot` | 1 | `tsot` | yes |
 | `22-17` | `series-root` | 毳 | `ts\textoverset{b}{o}p` | 1 | `ts\textoverset{b}{o}p` | yes |
 | `22-18` | `series-root` | 雪 | `sot` | 1 | `sot` | yes |
+| `22-19` | `series-root` | 刷 | `sot` | 2 | `sot₂` | yes |
+| `23-01` | `series-root` | 肩 | `ken` | 1 | `ken` | yes |
+| `23-02` | `series-root` | 見 | `ken` | 2 | `ken₂` | yes |
 | `23-03` | `series-root` | 幵 | `ker` | 1 | `ker` | yes |
-| `23-05` | `series-root` | 閒 | `ken` | 1 | `ken` | yes |
-| `23-05` | `subseries-root` | 間 | `ken` | 2 | `ken₂` | yes |
+| `23-04` | `series-root` | 遣 | `ken` | 3 | `ken₃` | yes |
+| `23-05` | `series-root` | 閒 | `ken` | 4 | `ken₄` | yes |
+| `23-05` | `subseries-root` | 間 | `ken` | 5 | `ken₅` | yes |
+| `23-06` | `series-root` | 閑 | `kan` | 1 | `kan` | yes |
 | `23-07` | `series-root` | 柬 | `k\textoverset{a}{a}n` | 1 | `k\textoverset{a}{a}n` | yes |
 | `23-07` | `subseries-root` | 闌 | `r\textoverset{a}{a}n` | 1 | `r\textoverset{a}{a}n` | yes |
 | `23-07` | `subseries-root` | 蘭 | `r\textoverset{a}{a}n` | 2 | `r\textoverset{a}{a}n₂` | yes |
+| `23-08` | `series-root` | 蠲 | `kuiṅ` | 1 | `kuiṅ` | yes |
 | `23-10` | `series-root` | 員 | `qun` | 1 | `qun` | yes |
 | `23-17` | `series-root` | 肙 | `quen` | 1 | `quen` | yes |
 | `23-20` | `series-root` | 前 | `tsen` | 1 | `tsen` | yes |
 | `23-27` | `series-root` | 扁 | `pen` | 1 | `pen` | yes |
 | `24-01` | `series-root` | 干 | `kar` | 2 | `kar₂` | yes |
 | `24-01` | `subseries-root` | 旱 | `k\textoverset{a}{a}r` | 1 | `k\textoverset{a}{a}r` | yes |
-| `24-02` | `series-root` | 倝 | `kan` | 1 | `kan` | yes |
+| `24-02` | `series-root` | 倝 | `kan` | 2 | `kan₂` | yes |
 | `24-02` | `subseries-root` | 幹 | `k\textoverset{a}{a}n` | 2 | `k\textoverset{a}{a}n₂` | yes |
-| `24-05` | `series-root` | 寒 | `kan` | 2 | `kan₂` | yes |
+| `24-05` | `series-root` | 寒 | `kan` | 3 | `kan₃` | yes |
 | `24-05` | `subseries-root` | 蹇 | `k\textoverset{b}{a}n` | 1 | `k\textoverset{b}{a}n` | yes |
 | `24-08` | `series-root` | 建 | `k\textoverset{b}{a}n` | 2 | `k\textoverset{b}{a}n₂` | yes |
 | `24-11` | `series-root` | 安 | `ʔ\textoverset{a}{a}n` | 1 | `ʔ\textoverset{a}{a}n` | yes |

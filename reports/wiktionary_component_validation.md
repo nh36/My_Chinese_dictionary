@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5618
-- Pages fetched / cached successfully: 5532
-- Additions with explicit Han-compound semantic/phonetic roles: 2571
+- Proposed additions checked: 5640
+- Pages fetched / cached successfully: 5554
+- Additions with explicit Han-compound semantic/phonetic roles: 2580
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3773,6 +3773,8 @@
 | `23-07` | 讕 | yes | yes | 言 | 闌 |
 | `23-07` | 欄 | yes | yes | 木 | 闌 |
 | `23-08` | 蠲 | yes | yes | 蜀 | 益 |
+| `23-09` | 縣 | yes | no |  |  |
+| `23-09` | 懸 | yes | yes | 心 | 縣 |
 | `23-10` | 員 | yes | no |  |  |
 | `23-10` | 圓 | yes | yes | 囗 | 員 |
 | `23-10` | 塤 | yes | yes | 土 | 員 |
@@ -3782,6 +3784,26 @@
 | `23-10` | 磒 | yes | yes | 石 | 員 |
 | `23-10` | 霣 | yes | no |  |  |
 | `23-10` | 㜏 | yes | no |  |  |
+| `23-11` | 瞏 | yes | no |  |  |
+| `23-11` | 嬛 | yes | yes | 女 | 睘 |
+| `23-11` | 睘 | yes | yes | 目 | 袁 |
+| `23-12` | 奐 | yes | yes | 廾 | 夐 |
+| `23-12` | 渙 | yes | no |  |  |
+| `23-12` | 煥 | yes | yes | 火 | 奐 |
+| `23-12` | 寏 | yes | no |  |  |
+| `23-12` | 換 | yes | yes | 手 | 奐 |
+| `23-12` | 敻 | yes | no |  |  |
+| `23-12` | 讂 | yes | no |  |  |
+| `23-12` | 瓊 | yes | yes | 玉 | 夐 |
+| `23-13` | 幻 | yes | no |  |  |
+| `23-14` | 旋 | yes | no |  |  |
+| `23-14` | 嫙 | yes | no |  |  |
+| `23-14` | 璇 | yes | yes | 玉 | 旋 |
+| `23-14` | 琁 | yes | no |  |  |
+| `23-15` | 燕 | yes | no |  |  |
+| `23-15` | 嚥 | yes | yes | 口 | 燕 |
+| `23-15` | 㬫 | yes | no |  |  |
+| `23-15` | 讌 | yes | no |  |  |
 | `23-17` | 肙 | yes | no |  |  |
 | `23-17` | 蜎 | yes | yes | 虫 | 肙 |
 | `23-17` | 悁 | yes | no |  |  |
