@@ -109,22 +109,115 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=psc|肉|妃|c1=s|c2=p|abb2=yes|nocap=yes}}",
+          "positional_components": [
+            "肉",
+            "妃"
+          ],
+          "positional_components_raw": [
+            "肉",
+            "妃"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "abb2": "yes",
+            "nocap": "yes"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "妃"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=ic|肉|卪|t1=meat|t2=person kneeling}}",
+            "positional_components": [
+              "肉",
+              "卪"
+            ],
+            "positional_components_raw": [
+              "肉",
+              "卪"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "meat",
+              "t2": "person kneeling"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|ls=psc|肉|妃|c1=s|c2=p|abb2=yes|nocap=yes}}",
+            "positional_components": [
+              "肉",
+              "妃"
+            ],
+            "positional_components_raw": [
+              "肉",
+              "妃"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "abb2": "yes",
+              "nocap": "yes"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "妃"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{pyr₂}},",
-      "render_latex": "肥\t%fei2 / féi\n{\\large{pyr₂}},\n\\textit{biɨy};\t%0582a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}pyr₂}},",
+      "render_latex": "肥\t%fei2 / féi\n{\\large{\\textsuperscript{carn·}pyr₂}},\n\\textit{biɨy};\t%0582a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "肉",
+        "phonetic_component": "妃",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "肥",
+          "semantic_component": "肉",
+          "phonetic_component": "妃",
+          "position": "prefix-dot",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 220
+            }
+          ],
+          "template_raw": "{{Han compound|ls=psc|肉|妃|c1=s|c2=p|abb2=yes|nocap=yes}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "carn",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "肉",
+            "label_token": "carn(is)",
+            "abbreviation": "carn",
+            "start_line": 220
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "肉"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",

@@ -939,6 +939,12 @@ DEFAULT_IDS = [
     "27-12",
     "27-13",
     "27-14",
+    "27-15",
+    "27-16",
+    "27-17",
+    "27-18",
+    "27-19",
+    "27-20",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"

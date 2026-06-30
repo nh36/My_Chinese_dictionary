@@ -1,0 +1,486 @@
+{
+  "generated_at": "2026-06-30T10:28:42.497155+00:00",
+  "id": "27-19",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "27-19",
+    "rhyme_section": 27,
+    "series_number": 19,
+    "k_tokens": [
+      "572"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.     MC            LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 314,
+    "source_line_number": 24,
+    "source_line_raw": "27-19 = K. 572         Man d.     MC            LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "27-19",
+    "rhyme_section": "27",
+    "series_number": "19",
+    "schuessler_k_tokens": "572",
+    "schuessler_source_page": "314",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "虺",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "虺",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "虺"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "572"
+  ],
+  "proposed_additions": [
+    {
+      "character": "虺",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyX",
+          "xweay",
+          "hwəy"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyX",
+          "xweay",
+          "hwəy"
+        ],
+        "mand2mc_bs_forms": [
+          "xjwɨjX",
+          "xweaj",
+          "xwoj"
+        ],
+        "bs_gsr_forms": [
+          "xjw+jX",
+          "xwoj"
+        ],
+        "bs_not_in_mand2mc": [
+          "xjw+jX"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "xjwɨjX",
+          "xweaj"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4101",
+          "character": "虺",
+          "pinyin": "hui3",
+          "mc_nwh": "hiwɨyX",
+          "mc_bs": "xjwɨjX",
+          "gsr": "0572a"
+        },
+        {
+          "source_row_number": "4102",
+          "character": "虺",
+          "pinyin": "hui1",
+          "mc_nwh": "xweay",
+          "mc_bs": "xweaj",
+          "gsr": "0572a"
+        },
+        {
+          "source_row_number": "4103",
+          "character": "虺",
+          "pinyin": "hui1",
+          "mc_nwh": "hwəy",
+          "mc_bs": "xwoj",
+          "gsr": "0572a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "87",
+          "character": "虺",
+          "pinyin": "huǐ",
+          "mc_bs": "xjw+jX",
+          "mc_analyzed": "(x- + -jw+j B)",
+          "oc_bs": "*r̥ujʔ {*[r̥]u[j]ʔ} (dial. *r̥- > x-)",
+          "gloss": "snake-brood",
+          "gsr": "0572a",
+          "unicode_utf16": "U+867A"
+        },
+        {
+          "source_page_number": "87",
+          "character": "虺",
+          "pinyin": "huī",
+          "mc_bs": "xwoj",
+          "mc_analyzed": "(x- + -woj A)",
+          "oc_bs": "*r̥ˤuj {*[r̥]ˤu[j]} (dial. *r̥- > x-)",
+          "gloss": "exhausted, weary",
+          "gsr": "0572a",
+          "unicode_utf16": "U+867A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13763",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許委",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰʳ",
+          "oc_rhyme": "ol",
+          "oc_syllable": "ŋ̊ʰʳol"
+        },
+        {
+          "source_row_number": "13765",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼恢",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "u̠l",
+          "oc_syllable": "ŋ̊ʰu̠l"
+        },
+        {
+          "source_row_number": "13766",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼懐",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰʳ",
+          "oc_rhyme": "u̠l",
+          "oc_syllable": "ŋ̊ʰʳu̠l"
+        },
+        {
+          "source_row_number": "13767",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許偉",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "ŋ̊ʰulʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|兀|虫|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "兀",
+            "虫"
+          ],
+          "positional_components_raw": [
+            "兀",
+            "虫"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "虫"
+          ],
+          "phonetic_components": [
+            "兀"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|兀|虫|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "兀",
+              "虫"
+            ],
+            "positional_components_raw": [
+              "兀",
+              "虫"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "虫"
+            ],
+            "phonetic_components": [
+              "兀"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "虺",
+          "ids": "⿺兀虫",
+          "phonetic_component": "虫",
+          "semantic_component": "兀",
+          "position": "prefix-dot",
+          "abbreviation": "calv",
+          "inventory_matches": [
+            {
+              "graph_raw": "兀",
+              "label_token": "calv(us)",
+              "abbreviation": "calv",
+              "start_line": 216
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "serp",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "虫",
+            "label_token": "serp(ens)",
+            "abbreviation": "serp",
+            "start_line": 388
+          },
+          {
+            "graph_raw": "虫",
+            "label_token": "serp",
+            "abbreviation": "serp",
+            "learned": true,
+            "evidence_count": 9
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "虫"
+      },
+      "transliteration_latex": "{\\large{ruy₃\\textsuperscript{·serp}}},",
+      "render_latex": "虺\t%hui3 / hui1 / huǐ / huī\n{\\large{ruy₃\\textsuperscript{·serp}}},\n\\textit{hiwɨyX};\t%0572a\n\\textit{xweay};\n\\textit{hwəy};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "虫",
+        "phonetic_component": "兀",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "虺",
+          "semantic_component": "虫",
+          "phonetic_component": "兀",
+          "position": "suffix-dot",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 388
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ],
+          "template_raw": "{{Han compound|兀|虫|ls=psc|c1=p|c2=s}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "虺",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyX",
+          "xweay",
+          "hwəy"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyX",
+          "xweay",
+          "hwəy"
+        ],
+        "mand2mc_bs_forms": [
+          "xjwɨjX",
+          "xweaj",
+          "xwoj"
+        ],
+        "bs_gsr_forms": [
+          "xjw+jX",
+          "xwoj"
+        ],
+        "bs_not_in_mand2mc": [
+          "xjw+jX"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "xjwɨjX",
+          "xweaj"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4101",
+          "character": "虺",
+          "pinyin": "hui3",
+          "mc_nwh": "hiwɨyX",
+          "mc_bs": "xjwɨjX",
+          "gsr": "0572a"
+        },
+        {
+          "source_row_number": "4102",
+          "character": "虺",
+          "pinyin": "hui1",
+          "mc_nwh": "xweay",
+          "mc_bs": "xweaj",
+          "gsr": "0572a"
+        },
+        {
+          "source_row_number": "4103",
+          "character": "虺",
+          "pinyin": "hui1",
+          "mc_nwh": "hwəy",
+          "mc_bs": "xwoj",
+          "gsr": "0572a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "87",
+          "character": "虺",
+          "pinyin": "huǐ",
+          "mc_bs": "xjw+jX",
+          "mc_analyzed": "(x- + -jw+j B)",
+          "oc_bs": "*r̥ujʔ {*[r̥]u[j]ʔ} (dial. *r̥- > x-)",
+          "gloss": "snake-brood",
+          "gsr": "0572a",
+          "unicode_utf16": "U+867A"
+        },
+        {
+          "source_page_number": "87",
+          "character": "虺",
+          "pinyin": "huī",
+          "mc_bs": "xwoj",
+          "mc_analyzed": "(x- + -woj A)",
+          "oc_bs": "*r̥ˤuj {*[r̥]ˤu[j]} (dial. *r̥- > x-)",
+          "gloss": "exhausted, weary",
+          "gsr": "0572a",
+          "unicode_utf16": "U+867A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13763",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許委",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰʳ",
+          "oc_rhyme": "ol",
+          "oc_syllable": "ŋ̊ʰʳol"
+        },
+        {
+          "source_row_number": "13765",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼恢",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "u̠l",
+          "oc_syllable": "ŋ̊ʰu̠l"
+        },
+        {
+          "source_row_number": "13766",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼懐",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰʳ",
+          "oc_rhyme": "u̠l",
+          "oc_syllable": "ŋ̊ʰʳu̠l"
+        },
+        {
+          "source_row_number": "13767",
+          "character": "虺",
+          "phonetic_component": "虫",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "許偉",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "ulʔ",
+          "oc_syllable": "ŋ̊ʰulʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "虺",
+      "gsr": "0572a",
+      "oc_bs": "*r̥ujʔ {*[r̥]u[j]ʔ} (dial. *r̥- > x-)",
+      "root": "ruy",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ruy",
+    "source": "head_graph_oc_bs",
+    "character": "虺",
+    "oc_bs": "*r̥ujʔ {*[r̥]u[j]ʔ} (dial. *r̥- > x-)",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "ruy₃",
+    "base_root": "ruy",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

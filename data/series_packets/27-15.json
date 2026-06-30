@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-06-30T10:28:42.222276+00:00",
+  "gsc_id": "27-15",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "585"
+  ],
+  "schuessler": {
+    "gsc_id": "27-15",
+    "rhyme_section": 27,
+    "series_number": 15,
+    "k_tokens": [
+      "585"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.      MC           LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 313,
+    "source_line_number": 45,
+    "source_line_raw": "27-15 = K. 585      Man d.      MC           LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "27-15",
+    "rhyme_section": "27",
+    "series_number": "15",
+    "schuessler_k_tokens": "585",
+    "schuessler_source_page": "313",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "亹",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "亹",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "亹"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "亹",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4210",
+          "character": "亹",
+          "pinyin": "men2",
+          "mc_nwh": "mwən",
+          "mc_bs": "mwon",
+          "gsr": "0585a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "88",
+          "character": "亹",
+          "pinyin": "wěi",
+          "mc_bs": "mj+jX",
+          "mc_analyzed": "(m- + -j+j B)",
+          "oc_bs": "*mərʔ",
+          "gloss": "diligent",
+          "gsr": "0585a",
+          "unicode_utf16": "U+4EB9"
+        },
+        {
+          "source_page_number": "88",
+          "character": "亹",
+          "pinyin": "mén",
+          "mc_bs": "mwon",
+          "mc_analyzed": "(m- + -won A)",
+          "oc_bs": "*mˤər",
+          "gloss": "river-gorge",
+          "gsr": "0585a",
+          "unicode_utf16": "U+4EB9"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14414",
+          "character": "亹",
+          "phonetic_component": "釁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "無匪",
+          "source": "广韵",
+          "oc_initial": "m",
+          "oc_rhyme": "ɯlʔ",
+          "oc_syllable": "mɯlʔ"
+        },
+        {
+          "source_row_number": "14417",
+          "character": "亹",
+          "phonetic_component": "釁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "莫奔",
+          "source": "广韵",
+          "oc_initial": "m",
+          "oc_rhyme": "ɯ̠n",
+          "oc_syllable": "mɯ̠n"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "mwən"
+        ],
+        "mand2mc_nwh_forms": [
+          "mwən"
+        ],
+        "mand2mc_bs_forms": [
+          "mwon"
+        ],
+        "bs_gsr_forms": [
+          "mj+jX",
+          "mwon"
+        ],
+        "bs_not_in_mand2mc": [
+          "mj+jX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "4210",
+        "character": "亹",
+        "pinyin": "men2",
+        "mc_nwh": "mwən",
+        "mc_bs": "mwon",
+        "gsr": "0585a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "88",
+        "character": "亹",
+        "pinyin": "wěi",
+        "mc_bs": "mj+jX",
+        "mc_analyzed": "(m- + -j+j B)",
+        "oc_bs": "*mərʔ",
+        "gloss": "diligent",
+        "gsr": "0585a",
+        "unicode_utf16": "U+4EB9"
+      },
+      {
+        "source_page_number": "88",
+        "character": "亹",
+        "pinyin": "mén",
+        "mc_bs": "mwon",
+        "mc_analyzed": "(m- + -won A)",
+        "oc_bs": "*mˤər",
+        "gloss": "river-gorge",
+        "gsr": "0585a",
+        "unicode_utf16": "U+4EB9"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

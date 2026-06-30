@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5941
-- Pages fetched / cached successfully: 5848
-- Additions with explicit Han-compound semantic/phonetic roles: 2699
+- Proposed additions checked: 5958
+- Pages fetched / cached successfully: 5868
+- Additions with explicit Han-compound semantic/phonetic roles: 2707
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4767,16 +4767,33 @@
 | `27-08` | 悲 | yes | yes | 心 | 非 |
 | `27-08` | 俳 | yes | yes | 人 | 非 |
 | `27-08` | 排 | yes | yes | 手 | 非 |
-| `27-09` | 飛 | no | no |  |  |
+| `27-09` | 飛 | yes | no |  |  |
 | `27-10` | 妃 | yes | no |  |  |
-| `27-11` | 肥 | no | no |  |  |
+| `27-11` | 肥 | yes | yes | 肉 | 妃 |
 | `27-12` | 火 | yes | no |  |  |
 | `27-13` | 枚 | yes | yes | 木 | 文 |
-| `27-13` | 玫 | no | no |  |  |
+| `27-13` | 玫 | yes | yes | 玉 | 文 |
 | `27-14` | 眉 | yes | no |  |  |
 | `27-14` | 媚 | yes | yes | 女 | 眉 |
 | `27-14` | 楣 | yes | no |  |  |
-| `27-14` | 湄 | no | no |  |  |
+| `27-14` | 湄 | yes | no |  |  |
+| `27-15` | 亹 | yes | no |  |  |
+| `27-16` | 美 | yes | no |  |  |
+| `27-17` | 尾 | yes | no |  |  |
+| `27-17` | 娓 | yes | no |  |  |
+| `27-17` | 浘 | yes | no |  |  |
+| `27-17` | 𤈦 | yes | yes | 火 | 尾 |
+| `27-18` | 𢼸 | yes | no |  |  |
+| `27-18` | 微 | yes | yes | 攴 | 美 |
+| `27-18` | 薇 | yes | yes | 艸 | 微 |
+| `27-18` | 媺 | yes | no |  |  |
+| `27-18` | 徽 | yes | yes | 糸 | 微 |
+| `27-19` | 虺 | yes | yes | 虫 | 兀 |
+| `27-20` | 蟲 | yes | no |  |  |
+| `27-20` | 虫 | yes | no |  |  |
+| `27-20` | 融 | yes | yes | 鬲 | 蟲 |
+| `27-20` | 赨 | yes | no |  |  |
+| `27-20` | 𢥞 | no | no |  |  |
 | `28-01` | 鬼 | yes | no |  |  |
 | `28-01` | 傀 | yes | yes | 人 | 鬼 |
 | `28-01` | 瑰 | yes | yes | 玉 | 鬼 |

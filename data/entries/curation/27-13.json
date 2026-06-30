@@ -296,22 +296,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|玉|文|alt1=𤣩|t1=jade|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "玉",
+            "文"
+          ],
+          "positional_components_raw": [
+            "玉",
+            "文"
+          ],
+          "named_args": {
+            "alt1": "𤣩",
+            "t1": "jade",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "玉"
+          ],
+          "phonetic_components": [
+            "文"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|玉|文|alt1=𤣩|t1=jade|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "玉",
+              "文"
+            ],
+            "positional_components_raw": [
+              "玉",
+              "文"
+            ],
+            "named_args": {
+              "alt1": "𤣩",
+              "t1": "jade",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "玉"
+            ],
+            "phonetic_components": [
+              "文"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{my₃}},",
-      "render_latex": "玫\t%mei2\n{\\large{my₃}},\n\\textit{mwəy};\t%0546b",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{gem·}my₃}},",
+      "render_latex": "玫\t%mei2\n{\\large{\\textsuperscript{gem·}my₃}},\n\\textit{mwəy};\t%0546b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "玉",
+        "phonetic_component": "文",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "玫",
+          "semantic_component": "玉",
+          "phonetic_component": "文",
+          "position": "prefix-dot",
+          "abbreviation": "gem",
+          "inventory_matches": [
+            {
+              "graph_raw": "玉",
+              "label_token": "gem(ma)",
+              "abbreviation": "gem",
+              "start_line": 288
+            },
+            {
+              "graph_raw": "玉",
+              "label_token": "gem",
+              "abbreviation": "gem",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ],
+          "template_raw": "{{Han compound|玉|文|alt1=𤣩|t1=jade|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "gem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "玉",
+            "label_token": "gem(ma)",
+            "abbreviation": "gem",
+            "start_line": 288
+          },
+          {
+            "graph_raw": "玉",
+            "label_token": "gem",
+            "abbreviation": "gem",
+            "learned": true,
+            "evidence_count": 7
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "玉"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": null
