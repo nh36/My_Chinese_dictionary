@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5782
-- Pages fetched / cached successfully: 5682
-- Additions with explicit Han-compound semantic/phonetic roles: 2638
+- Proposed additions checked: 5800
+- Pages fetched / cached successfully: 5713
+- Additions with explicit Han-compound semantic/phonetic roles: 2650
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4104,7 +4104,7 @@
 | `24-41` | 濺 | yes | yes | 水 | 賤 |
 | `24-42` | 𠨧 | yes | no |  |  |
 | `24-42` | 僊 | yes | yes | 人 | 遷 |
-| `24-42` | 遷 | no | no |  |  |
+| `24-42` | 遷 | yes | yes | 辵 | 䙴 |
 | `24-43` | 孱 | yes | no |  |  |
 | `24-43` | 潺 | yes | no |  |  |
 | `24-43` | 僝 | yes | yes | 人 | 孱 |
@@ -4132,7 +4132,7 @@
 | `24-47` | 袢 | yes | no |  |  |
 | `24-48` | 般 | yes | no |  |  |
 | `24-48` | 槃 | yes | yes | 木 | 般 |
-| `24-48` | 盤 | no | no |  |  |
+| `24-48` | 盤 | yes | yes | 攴, 皿 | 凡 |
 | `24-48` | 磐 | yes | yes | 石 | 般 |
 | `24-48` | 縏 | yes | no |  |  |
 | `24-48` | 鞶 | yes | no |  |  |
@@ -4147,7 +4147,7 @@
 | `24-49` | 扳 | yes | no |  |  |
 | `24-49` | 昄 | yes | no |  |  |
 | `24-50` | 棥 | yes | no |  |  |
-| `24-50` | 樊 | no | no |  |  |
+| `24-50` | 樊 | yes | yes | 𠬜 | 棥 |
 | `24-50` | 攀 | yes | yes | 手 | 樊 |
 | `24-51` | 煩 | yes | yes | 頁 | 焚 |
 | `24-51` | 𨆌 | no | no |  |  |
@@ -4173,12 +4173,12 @@
 | `24-54` | 譒 | yes | no |  |  |
 | `24-54` | 皤 | yes | no |  |  |
 | `24-54` | 藩 | yes | yes | 艸 | 潘 |
-| `24-55` | 弁 | no | no |  |  |
+| `24-55` | 弁 | yes | no |  |  |
 | `24-55` | 卞 | yes | no |  |  |
-| `24-55` | 抃 | no | no |  |  |
+| `24-55` | 抃 | yes | yes | 手 | 卞 |
 | `24-55` | 拚 | yes | yes | 手 | 弁 |
 | `24-55` | 犿 | yes | no |  |  |
-| `24-55` | 笲 | no | no |  |  |
+| `24-55` | 笲 | yes | no |  |  |
 | `24-56` | 曼 | yes | no |  |  |
 | `24-56` | 蔓 | yes | yes | 艸 | 曼 |
 | `24-56` | 嫚 | yes | no |  |  |
@@ -4191,9 +4191,9 @@
 | `24-56` | 漫 | yes | yes | 水 | 曼 |
 | `24-56` | 謾 | yes | no |  |  |
 | `24-57` | 㒼 | yes | no |  |  |
-| `24-57` | 滿 | no | no |  |  |
+| `24-57` | 滿 | yes | yes | 水 | 㒼 |
 | `24-57` | 瞞 | yes | yes | 目 | 㒼 |
-| `24-57` | 樠 | no | no |  |  |
+| `24-57` | 樠 | yes | no |  |  |
 | `24-57` | 璊 | yes | no |  |  |
 | `24-57` | 懣 | yes | no |  |  |
 | `24-58` | 免 | yes | no |  |  |
@@ -4235,16 +4235,20 @@
 | `25-02` | 䟒 | yes | yes | 走 | 雚 |
 | `25-02` | 勸 | yes | yes | 力 | 雚 |
 | `25-02` | 吅 | yes | no |  |  |
-| `25-03` | 貫 | no | no |  |  |
+| `25-03` | 貫 | yes | no |  |  |
 | `25-03` | 摜 | yes | yes | 手 | 貫 |
 | `25-03` | 慣 | yes | yes | 心 | 貫 |
-| `25-03` | 串 | no | no |  |  |
+| `25-03` | 串 | yes | no |  |  |
 | `25-03` | 患 | yes | yes | 心 | 串 |
-| `25-05` | 盥 | no | no |  |  |
+| `25-05` | 盥 | yes | no |  |  |
 | `25-06` | 款 | yes | yes | 欠 | 柰 |
-| `25-06` | 窾 | no | no |  |  |
+| `25-06` | 窾 | yes | no |  |  |
 | `25-07` | 萈 | yes | yes |  | 𥄕 |
-| `25-07` | 寬 | no | no |  |  |
+| `25-07` | 寬 | yes | yes | 宀 | 萈 |
+| `25-08` | 萑 | yes | yes | 艸 | 隹 |
+| `25-09` | 丱 | yes | no |  |  |
+| `25-09` | 關 | yes | yes | 門 | 𢇅 |
+| `25-10` | 宦 | yes | no |  |  |
 | `25-11` | 卷 | yes | yes | 卩 | 𢍏 |
 | `25-11` | 睠 | yes | yes | 目 | 卷 |
 | `25-11` | 眷 | yes | yes | 目 | 龹 |
@@ -4275,6 +4279,14 @@
 | `25-12` | 喧 | yes | yes | 口 | 宣 |
 | `25-12` | 愃 | yes | no |  |  |
 | `25-12` | 諠 | yes | yes | 言 | 宣 |
+| `25-13` | 奐 | yes | yes | 廾 | 夐 |
+| `25-13` | 渙 | yes | no |  |  |
+| `25-13` | 煥 | yes | yes | 火 | 奐 |
+| `25-13` | 寏 | yes | no |  |  |
+| `25-13` | 換 | yes | yes | 手 | 奐 |
+| `25-13` | 敻 | yes | no |  |  |
+| `25-13` | 讂 | yes | no |  |  |
+| `25-13` | 瓊 | yes | yes | 玉 | 夐 |
 | `25-14` | 爰 | yes | no |  |  |
 | `25-14` | 猨 | yes | no |  |  |
 | `25-14` | 援 | yes | yes | 手 | 爰 |
@@ -4306,6 +4318,11 @@
 | `25-15` | 懁 | yes | yes | 心 | 睘 |
 | `25-15` | 圜 | yes | yes | 囗 | 睘 |
 | `25-15` | 儇 | yes | no |  |  |
+| `25-16` | 丸 | yes | no |  |  |
+| `25-16` | 𤴯 | yes | no |  |  |
+| `25-16` | 紈 | yes | no |  |  |
+| `25-16` | 芄 | yes | no |  |  |
+| `25-16` | 骫 | yes | no |  |  |
 | `25-17` | 宛 | yes | yes | 宀 | 夗 |
 | `25-17` | 怨 | yes | yes | 心 | 夗 |
 | `25-17` | 苑 | yes | yes | 艸 | 夗 |
@@ -4324,6 +4341,7 @@
 | `25-17` | 菀 | yes | no |  |  |
 | `25-17` | 𩜌 | no | no |  |  |
 | `25-17` | 夗 | yes | no |  |  |
+| `25-18` | 冤 | yes | no |  |  |
 | `25-19` | 元 | yes | no |  |  |
 | `25-19` | 芫 | yes | yes | 艸 | 元 |
 | `25-19` | 黿 | yes | yes | 黽 | 元 |

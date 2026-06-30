@@ -231,13 +231,13 @@
         "phonetic_hint": "棥"
       },
       "resolved_node_root": {
-        "root": "pan₃",
+        "root": "pan",
         "source": "node_transliteration_fallback",
         "descendant_count": 2,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "pan₃",
+        "display_root": "pan",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -313,9 +313,59 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|棥|𠬜|ls=ic|ls2=psc|c1=p|c2=s|t1=fence|t2=two hands}}",
+          "positional_components": [
+            "棥",
+            "𠬜"
+          ],
+          "positional_components_raw": [
+            "棥",
+            "𠬜"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "ls2": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t1": "fence",
+            "t2": "two hands"
+          },
+          "semantic_components": [
+            "𠬜"
+          ],
+          "phonetic_components": [
+            "棥"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|棥|𠬜|ls=ic|ls2=psc|c1=p|c2=s|t1=fence|t2=two hands}}",
+            "positional_components": [
+              "棥",
+              "𠬜"
+            ],
+            "positional_components_raw": [
+              "棥",
+              "𠬜"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "ls2": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t1": "fence",
+              "t2": "two hands"
+            },
+            "semantic_components": [
+              "𠬜"
+            ],
+            "phonetic_components": [
+              "棥"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -346,29 +396,28 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "magn",
+        "abbreviation": "𠬜",
         "position": "suffix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "大",
-            "label_token": "magn(us)",
-            "abbreviation": "magn",
-            "start_line": 317
-          },
-          {
-            "graph_raw": "大",
-            "label_token": "magn",
-            "abbreviation": "magn",
-            "learned": true,
-            "evidence_count": 3
-          }
-        ],
-        "source": "ids_top_level",
-        "semantic_component": "大"
+        "inventory_matches": [],
+        "source": "wiktionary_component_literal_fallback",
+        "semantic_component": "𠬜"
       },
-      "transliteration_latex": "{\\large{pan₃\\textsuperscript{˸magn}}},",
-      "render_latex": "樊\t%fan2\n{\\large{pan₃\\textsuperscript{˸magn}}},\n\\textit{biən};\t%0263b",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{pan₃\\textsuperscript{˸𠬜}}},",
+      "render_latex": "樊\t%fan2\n{\\large{pan₃\\textsuperscript{˸𠬜}}},\n\\textit{biən};\t%0263b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "𠬜",
+        "phonetic_component": "棥",
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "樊",
+          "semantic_component": "𠬜",
+          "phonetic_component": "棥",
+          "position": "suffix-colon",
+          "abbreviation": "𠬜",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|棥|𠬜|ls=ic|ls2=psc|c1=p|c2=s|t1=fence|t2=two hands}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "棥",
@@ -379,7 +428,7 @@
         "phonetic_hint": "棥"
       },
       "resolved_node_root": {
-        "root": "pan₃",
+        "root": "pan",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,

@@ -426,9 +426,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|㒼|ls=psc|c1=s|c2=p|t1=water}}",
+          "positional_components": [
+            "水",
+            "㒼"
+          ],
+          "positional_components_raw": [
+            "水",
+            "㒼"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "water"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "㒼"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|㒼|ls=psc|c1=s|c2=p|t1=water}}",
+            "positional_components": [
+              "水",
+              "㒼"
+            ],
+            "positional_components_raw": [
+              "水",
+              "㒼"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "water"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "㒼"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -476,12 +522,39 @@
             "evidence_count": 14
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{aq·}man₃}},",
       "render_latex": "滿\t%man3\n{\\large{\\textsuperscript{aq·}man₃}},\n\\textit{manX};\t%0183c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "㒼",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "滿",
+          "semantic_component": "水",
+          "phonetic_component": "㒼",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|水|㒼|ls=psc|c1=s|c2=p|t1=water}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "㒼",
@@ -492,7 +565,7 @@
         "phonetic_hint": "㒼"
       },
       "resolved_node_root": {
-        "root": "man₃",
+        "root": "man",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
@@ -851,7 +924,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

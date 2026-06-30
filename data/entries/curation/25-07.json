@@ -331,9 +331,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|宀|萈|c1=s|c2=p|t1=house|t2=goat|ls=psc}}",
+          "positional_components": [
+            "宀",
+            "萈"
+          ],
+          "positional_components_raw": [
+            "宀",
+            "萈"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "house",
+            "t2": "goat",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "宀"
+          ],
+          "phonetic_components": [
+            "萈"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|宀|萈|c1=s|c2=p|t1=house|t2=goat|ls=psc}}",
+            "positional_components": [
+              "宀",
+              "萈"
+            ],
+            "positional_components_raw": [
+              "宀",
+              "萈"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "house",
+              "t2": "goat",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "宀"
+            ],
+            "phonetic_components": [
+              "萈"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -381,12 +429,39 @@
             "evidence_count": 2
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "宀"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{tect˸}ɡ\\textoverset{a}{o}n}},",
       "render_latex": "寬\t%kuan1 / kuān\n{\\large{\\textsuperscript{tect˸}ɡ\\textoverset{a}{o}n}},\n\\textit{khwan};\t%0165b",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "宀",
+        "phonetic_component": "萈",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "寬",
+          "semantic_component": "宀",
+          "phonetic_component": "萈",
+          "position": "prefix-colon",
+          "abbreviation": "tect",
+          "inventory_matches": [
+            {
+              "graph_raw": "宀",
+              "label_token": "tect(um)",
+              "abbreviation": "tect",
+              "start_line": 401
+            },
+            {
+              "graph_raw": "宀",
+              "label_token": "tect",
+              "abbreviation": "tect",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|宀|萈|c1=s|c2=p|t1=house|t2=goat|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "萈",

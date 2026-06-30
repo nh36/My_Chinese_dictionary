@@ -410,9 +410,41 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=ic|厶|廾}}",
+          "positional_components": [
+            "厶",
+            "廾"
+          ],
+          "positional_components_raw": [
+            "厶",
+            "廾"
+          ],
+          "named_args": {
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=ic|厶|廾}}",
+            "positional_components": [
+              "厶",
+              "廾"
+            ],
+            "positional_components_raw": [
+              "厶",
+              "廾"
+            ],
+            "named_args": {
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -654,9 +686,55 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|alt1=扌|卞|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "手",
+            "卞"
+          ],
+          "positional_components_raw": [
+            "手",
+            "卞"
+          ],
+          "named_args": {
+            "alt1": "扌",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "卞"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|手|alt1=扌|卞|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "手",
+              "卞"
+            ],
+            "positional_components_raw": [
+              "手",
+              "卞"
+            ],
+            "named_args": {
+              "alt1": "扌",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "卞"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -679,19 +757,46 @@
             "evidence_count": 20
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{man·}p\\textoverset{b}{o}n₂}},",
       "render_latex": "抃\t%bian4\n{\\large{\\textsuperscript{man·}p\\textoverset{b}{o}n₂}},\n\\textit{bienH};\t%0220c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "卞",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "抃",
+          "semantic_component": "手",
+          "phonetic_component": "卞",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ],
+          "template_raw": "{{Han compound|手|alt1=扌|卞|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "卞",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "卞"
       },
       "resolved_node_root": null
@@ -1100,7 +1205,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

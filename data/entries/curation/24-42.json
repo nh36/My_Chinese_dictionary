@@ -365,22 +365,97 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|辵|alt1=辶|䙴|ls=psc|c1=s|c2=p|t1=movement}}",
+          "positional_components": [
+            "辵",
+            "䙴"
+          ],
+          "positional_components_raw": [
+            "辵",
+            "䙴"
+          ],
+          "named_args": {
+            "alt1": "辶",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "movement"
+          },
+          "semantic_components": [
+            "辵"
+          ],
+          "phonetic_components": [
+            "䙴"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|辵|alt1=辶|䙴|ls=psc|c1=s|c2=p|t1=movement}}",
+            "positional_components": [
+              "辵",
+              "䙴"
+            ],
+            "positional_components_raw": [
+              "辵",
+              "䙴"
+            ],
+            "named_args": {
+              "alt1": "辶",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "movement"
+            },
+            "semantic_components": [
+              "辵"
+            ],
+            "phonetic_components": [
+              "䙴"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tsar}},",
-      "render_latex": "遷\t%qian1 / qiān\n{\\large{tsar}},\n\\textit{tshien};\t%0206c",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}tsar}},",
+      "render_latex": "遷\t%qian1 / qiān\n{\\large{\\textsuperscript{amb·}tsar}},\n\\textit{tshien};\t%0206c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "辵",
+        "phonetic_component": "䙴",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "遷",
+          "semantic_component": "辵",
+          "phonetic_component": "䙴",
+          "position": "prefix-dot",
+          "abbreviation": "amb",
+          "inventory_matches": [
+            {
+              "graph_raw": "辵",
+              "label_token": "amb(ulo)",
+              "abbreviation": "amb",
+              "start_line": 188
+            }
+          ],
+          "template_raw": "{{Han compound|辵|alt1=辶|䙴|ls=psc|c1=s|c2=p|t1=movement}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "amb",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "辵",
+            "label_token": "amb(ulo)",
+            "abbreviation": "amb",
+            "start_line": 188
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "辵"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
