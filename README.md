@@ -35,6 +35,8 @@ python3 scripts/open_review_pdf.py --kind integrated
 
 The tracked `My_Chinese_dictionary.pdf` file is a legacy prebuilt artifact/reference; it is not the current review PDF for chapter-break checks.
 
+The curated renderer also writes `reports/rhyme_section_headings.md` with the section-label evidence table.
+
 Clean generated LaTeX build artifacts with:
 
 ```sh

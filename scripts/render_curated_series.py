@@ -2,11 +2,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import subprocess
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
 import hierarchy_utils
 import mc_resolution
+import resolve_series_roots
 
 
 DEFAULT_INPUT_DIR = "data/entries/curation"
@@ -1162,6 +1166,7 @@ DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
+DEFAULT_HEADING_REPORT = "reports/rhyme_section_headings.md"
 BOOK_TITLE = "A Chinese Historical Phonology Dictionary"
 BOOK_SUBTITLE = "Curated Schuessler Series with Old Chinese Reconstructions"
 BOOK_AUTHOR = "Nathan W. Hill"
@@ -1170,6 +1175,65 @@ BOOK_FRONTMATTER_VERSION = r"\today"
 SEMANTIC_COMPONENTS_TITLE = "Semantic Component Abbreviations"
 DICTIONARY_SECTION_TITLE = "Schuessler Series"
 RHYME_LABEL_FALLBACK = "label unavailable"
+RHYME_SECTION_SOURCE_PDFS = [
+    Path("key references/Schuessler, Axel 2009/Schuessler 2009.pdf"),
+    Path("key references/Schuessler, Axel 2009/Schuessler, Axel 2009 OCM+&LaterHanChin.pdf"),
+]
+RHYME_SECTION_FINAL_LABELS = {
+    1: "*a",
+    2: "*ak",
+    3: "*aṅ",
+    4: "*y",
+    5: "*yk",
+    6: "*yṅ",
+    7: "*e",
+    8: "*ek",
+    9: "*eṅ",
+    10: "*o",
+    11: "*ok",
+    12: "*oṅ",
+    13: "*u",
+    14: "*uk",
+    15: "*uṅ",
+    16: "*aw",
+    17: "*ek",
+    18: "*ay",
+    19: "*oy",
+    20: "*et",
+    21: "*at",
+    22: "*ot",
+    23: "*en",
+    24: "*an",
+    25: "*on",
+    26: "*iy",
+    27: "*y",
+    28: "*uy",
+    29: "*it",
+    30: "*ut",
+    31: "*ut",
+    32: "*in",
+    33: "*yn",
+    34: "*un",
+    35: "*ap",
+    36: "*am",
+    37: "*yp",
+    38: "*ym",
+}
+RHYME_SECTION_LABEL_NOTES = {
+    4: "Schuessler OCR is garbled here; the section-wide OC evidence favors *y.",
+    5: "Source OCR is noisy; the active section data cluster around *yk rather than the legacy hint.",
+    6: "Source OCR is noisy; the active section data favor the *yṅ family.",
+    16: "Schuessler's source heading is the *au family; the active section data lean toward Nathan-style *aw.",
+    17: "The source page is noisy and broader than the active section data; OC evidence supports *ek more strongly than the old *auk hint.",
+    19: "The hand-edited subsection hint `-ay` was rejected because the section-wide evidence points to *oy.",
+    26: "The section is a mixed i/ai family; the broad Nathan-style label is *iy.",
+    30: "Source OCR is unreliable here; the section-wide OC evidence favors *ut.",
+    33: "The section splits between *yn and *yr; the source page and dominant evidence slightly favor *yn.",
+    35: "The source family is ap/ep; the primary Nathan-style label is *ap.",
+    36: "The source family is am/em; the primary Nathan-style label is *am.",
+    37: "The source family is ap/ip; the primary Nathan-style label is *yp.",
+    38: "The source family is am/im; the primary Nathan-style label is *ym.",
+}
 SCHUESSLER_RHYME_LABEL_HINTS = {
     1: "*-a",
     2: "*-ak",
@@ -1246,7 +1310,123 @@ def extract_preamble(main_tex_path: Path) -> str:
     marker = "\\begin{document}"
     if marker not in source:
         raise ValueError(f"{main_tex_path} does not contain \\begin{{document}}.")
-    return source.split(marker, 1)[0].rstrip() + "\n"
+    return ensure_twoside_documentclass(source.split(marker, 1)[0].rstrip()) + "\n"
+
+
+def ensure_twoside_documentclass(preamble: str) -> str:
+    pattern = re.compile(r"\\documentclass(?:\[(?P<options>[^\]]*)\])?\{(?P<class>[^}]+)\}")
+
+    def replace(match: re.Match[str]) -> str:
+        options = [option.strip() for option in (match.group("options") or "").split(",") if option.strip()]
+        if any(option == "twoside" or option.startswith("twoside=") for option in options):
+            return match.group(0)
+        options.insert(0, "twoside")
+        option_block = "[" + ", ".join(options) + "]"
+        return f"\\documentclass{option_block}{{{match.group('class')}}}"
+
+    return pattern.sub(replace, preamble, count=1)
+
+
+def read_pdf_page_text(pdf_path: Path, page_number: int) -> str:
+    try:
+        completed = subprocess.run(
+            ["pdftotext", "-f", str(page_number), "-l", str(page_number), str(pdf_path), "-"],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return ""
+    return completed.stdout
+
+
+def extract_source_label_fragment(page_text: str) -> str | None:
+    for raw_line in page_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if "*" not in line:
+            continue
+        if not re.search(r"(?i)\b(?:OCM|oeM|OeM)\b", line) and "rime" not in line and "GSR" not in line:
+            continue
+        fragments = [
+            fragment.rstrip(".,;")
+            for fragment in re.findall(r"\*[^,\s;(){}\[\]]+", line)
+            if re.fullmatch(r"\*[-A-Za-zəɨɯŋṅʷ()]+", fragment.rstrip(".,;"))
+        ]
+        if fragments:
+            return ", ".join(fragments)
+    return None
+
+
+def extract_section_source_label(entries: list[dict[str, Any]]) -> tuple[str, str, str]:
+    pages: list[int] = []
+    for entry in entries:
+        value = (entry.get("schuessler") or {}).get("source_page_number")
+        if value is None:
+            continue
+        try:
+            pages.append(int(value))
+        except (TypeError, ValueError):
+            continue
+    if not pages:
+        return RHYME_LABEL_FALLBACK, "unavailable", "source page unavailable"
+    page_number = min(pages)
+    for pdf_path in RHYME_SECTION_SOURCE_PDFS:
+        page_text = read_pdf_page_text(pdf_path, page_number)
+        source_label = extract_source_label_fragment(page_text)
+        if source_label:
+            source_label = re.sub(r"\s+", " ", source_label).strip()
+            confidence = "high"
+            if any(ch in source_label for ch in ";:~?()[]{}") or "," in source_label or "/" in source_label:
+                confidence = "medium"
+            if any(ch in source_label for ch in "~;:?") or source_label == RHYME_LABEL_FALLBACK:
+                confidence = "low"
+            return source_label, confidence, pdf_path.name
+    return RHYME_LABEL_FALLBACK, "unavailable", "source label unavailable"
+
+
+def nathan_rhyme_pattern_from_oc(oc_bs: str | None) -> str | None:
+    primary = resolve_series_roots.extract_primary_oc_form(oc_bs)
+    if primary is None:
+        return None
+    stripped = resolve_series_roots.strip_oc_prefixes(primary, mode="broad")
+    parts = resolve_series_roots.split_onset_rhyme(stripped)
+    if parts is None:
+        return None
+    _, rhyme = parts
+    vowel, coda = resolve_series_roots.normalize_rhyme(rhyme, mode="broad")
+    if not vowel and not coda:
+        return None
+    return f"*{vowel}{coda}"
+
+
+def dominant_oc_rhyme_patterns(entries: list[dict[str, Any]]) -> tuple[list[tuple[str, int]], int]:
+    counts: Counter[str] = Counter()
+    for entry in entries:
+        for candidate in entry.get("proposed_additions", []):
+            candidate_values: list[str] = []
+            for row in candidate.get("bs_gsr_rows", []) or []:
+                oc_bs = row.get("oc_bs")
+                if oc_bs:
+                    candidate_values.append(oc_bs)
+            if not candidate_values:
+                node_root = candidate.get("resolved_node_root") or {}
+                if node_root.get("oc_bs"):
+                    candidate_values.append(node_root["oc_bs"])
+            for oc_bs in dedupe_preserve(candidate_values):
+                pattern = nathan_rhyme_pattern_from_oc(oc_bs)
+                if pattern:
+                    counts[pattern] += 1
+    ranked = counts.most_common()
+    total = sum(counts.values())
+    return ranked, total
+
+
+def heading_notes_for_section(section: int | None) -> str:
+    if section is None:
+        return ""
+    return RHYME_SECTION_LABEL_NOTES.get(section, "")
 
 
 def dedupe_preserve(values: list[str]) -> list[str]:
@@ -1357,7 +1537,13 @@ def resolve_rhyme_label(
     return RHYME_LABEL_FALLBACK, "fallback_unavailable"
 
 
-def format_rhyme_section_heading(
+def resolve_final_rhyme_label(section: int | None) -> str:
+    if section is None:
+        return RHYME_LABEL_FALLBACK
+    return RHYME_SECTION_FINAL_LABELS.get(section, RHYME_LABEL_FALLBACK)
+
+
+def format_legacy_rhyme_section_heading(
     section: int | None,
     entries: list[dict[str, Any]],
     *,
@@ -1367,6 +1553,17 @@ def format_rhyme_section_heading(
     if subsection_hints is None:
         subsection_hints = section_subsection_hints_by_section(entries)
     rhyme_label, _ = resolve_rhyme_label(section, subsection_hints=subsection_hints)
+    return f"{section_label}. {rhyme_label}"
+
+
+def format_rhyme_section_heading(
+    section: int | None,
+    entries: list[dict[str, Any]],
+    *,
+    subsection_hints: dict[int, str] | None = None,
+) -> str:
+    section_label = "Unnumbered" if section is None else f"{section:02d}"
+    rhyme_label = resolve_final_rhyme_label(section)
     return f"{section_label}. {rhyme_label}"
 
 
@@ -1384,7 +1581,9 @@ def render_right_hand_page_break() -> list[str]:
 
 def render_centered_section_heading(title: str, *, mark_text: str | None = None) -> list[str]:
     return [
-        rf"\section*{{\centering {title}}}",
+        r"\begin{center}",
+        rf"{{\Large\bfseries {title}\par}}",
+        r"\end{center}",
         rf"\markright{{{mark_text or title}}}",
         "",
     ]
@@ -1394,9 +1593,9 @@ def render_running_header_setup() -> list[str]:
     return [
         r"\clearpairofpagestyles",
         rf"\lehead{{\small {BOOK_SHORT_TITLE}}}",
+        r"\lohead{}",
+        r"\rehead{}",
         rf"\rohead{{\small \rightmark}}",
-        rf"\rehead{{\small \rightmark}}",
-        rf"\lohead{{\small {BOOK_SHORT_TITLE}}}",
         r"\cfoot{\pagemark}",
         r"\pagestyle{scrheadings}",
         "",
@@ -1423,7 +1622,9 @@ def render_title_page() -> list[str]:
 def render_introduction_placeholder() -> list[str]:
     return [
         r"\clearpage",
-        r"\section*{\centering Introduction}",
+        r"\begin{center}",
+        r"{\Large\bfseries Introduction\par}",
+        r"\end{center}",
         r"\markright{Introduction}",
         "% Introduction placeholder.",
         "Introduction placeholder.",
@@ -1766,7 +1967,6 @@ def render_document(
     semantic_data: dict[str, Any] | None = None,
 ) -> str:
     rhyme_groups = group_entries_by_rhyme_section(entries)
-    subsection_hints = section_subsection_hints_by_section(entries)
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
@@ -1791,11 +1991,7 @@ def render_document(
         )
     )
     for section, group_entries in rhyme_groups:
-        heading_text = format_rhyme_section_heading(
-            section,
-            group_entries,
-            subsection_hints=subsection_hints,
-        )
+        heading_text = format_rhyme_section_heading(section, group_entries)
         body.extend(render_right_hand_page_break())
         body.extend(render_centered_section_heading(heading_text, mark_text=heading_text))
         body.extend(
@@ -1832,20 +2028,16 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "- Entries are grouped by Schuessler rhyme section in render order.",
         f"- Sections with direct `tex_entry.subsection` hints in the active dataset: {hinted_sections_text}.",
-        "- Rhyme heading labels use direct `tex_entry.subsection` hints when present; otherwise they use Schuessler OCM heading hints by section number.",
-        f"- If neither source has a usable label, headings use `{RHYME_LABEL_FALLBACK}`.",
+        "- Rhyme heading labels now use the curated Nathan-style section labels; see `reports/rhyme_section_headings.md` for the source-vs-evidence comparison.",
+        f"- If a section lacks a curated label, headings use `{RHYME_LABEL_FALLBACK}`.",
         r"- Every rhyme section starts with `\clearpage` plus an odd-page check so section headings open on right-hand pages.",
         "",
-        "| Rhyme section | Heading | Entries | Rhyme label | Label source |",
+        "| Rhyme section | Final heading | Entries | Legacy label | Label source |",
         "| --- | --- | ---: | --- | --- |",
     ]
     for section, group_entries in rhyme_groups:
         section_label = "unnumbered" if section is None else f"{section:02d}"
-        heading = format_rhyme_section_heading(
-            section,
-            group_entries,
-            subsection_hints=subsection_hints,
-        )
+        heading = format_rhyme_section_heading(section, group_entries)
         rhyme_label, source = resolve_rhyme_label(section, subsection_hints=subsection_hints)
         lines.append(
             f"| `{section_label}` | `{heading}` | {len(group_entries)} | `{rhyme_label}` | `{source}` |"
@@ -1871,6 +2063,60 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
     return "\n".join(lines) + "\n"
 
 
+def render_rhyme_section_heading_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
+    entries = sort_entries(entries)
+    rhyme_groups = group_entries_by_rhyme_section(entries)
+    subsection_hints = section_subsection_hints_by_section(entries)
+    lines = [
+        "# Rhyme-section heading evidence",
+        "",
+        f"- Generated TeX file: `{tex_path}`",
+        "- Legacy generated labels are shown for comparison; the printed headings use the curated Nathan-style labels below.",
+        "- Source labels are extracted from Schuessler's section-heading pages and treated cautiously when OCR is noisy.",
+        "- Dominant OC patterns are counted from the section's imported OC evidence and compared against the source heading.",
+        "",
+        "| Section | Current generated label (legacy rule) | Schuessler/source label | Confidence | Notes |",
+        "| --- | --- | --- | --- | --- |",
+    ]
+    for section, group_entries in rhyme_groups:
+        section_label = "unnumbered" if section is None else f"{section:02d}"
+        legacy_heading = format_legacy_rhyme_section_heading(
+            section,
+            group_entries,
+            subsection_hints=subsection_hints,
+        )
+        source_label, confidence, source_source = extract_section_source_label(group_entries)
+        notes = heading_notes_for_section(section)
+        if source_source and source_source != "source label unavailable":
+            notes = f"{notes} Source: {source_source}.".strip()
+        lines.append(
+            f"| `{section_label}` | `{legacy_heading}` | `{source_label}` | `{confidence}` | {notes or ''} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "| Section | Dominant OC rhyme pattern(s) | Proposed Nathan-style label | Evidence count | Exceptions / notes |",
+            "| --- | --- | --- | ---: | --- |",
+        ]
+    )
+    for section, group_entries in rhyme_groups:
+        section_label = "unnumbered" if section is None else f"{section:02d}"
+        ranked_patterns, evidence_count = dominant_oc_rhyme_patterns(group_entries)
+        dominant_text = "; ".join(
+            f"`{pattern}` ({count})" for pattern, count in ranked_patterns[:3]
+        ) if ranked_patterns else RHYME_LABEL_FALLBACK
+        final_label = format_rhyme_section_heading(section, group_entries)
+        final_label = final_label.split(". ", 1)[1] if ". " in final_label else final_label
+        notes = heading_notes_for_section(section)
+        if section == 19:
+            notes = (notes + " Legacy tex subsection hint `-ay` is not used in the final heading.").strip()
+        lines.append(
+            f"| `{section_label}` | {dominant_text} | `{final_label}` | {evidence_count} | {notes or ''} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
 def write_output(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
@@ -1883,6 +2129,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--semantic-json", default=DEFAULT_SEMANTIC_JSON)
     parser.add_argument("--output", default=DEFAULT_OUTPUT)
     parser.add_argument("--report-out", default=DEFAULT_REPORT)
+    parser.add_argument("--heading-report-out", default=DEFAULT_HEADING_REPORT)
     parser.add_argument("--ids", nargs="+", default=DEFAULT_IDS)
     return parser
 
@@ -1896,6 +2143,10 @@ def main() -> int:
     semantic_data = load_semantic_items(Path(args.semantic_json))
     write_output(Path(args.output), render_document(entries, Path(args.main_tex), semantic_data))
     write_output(Path(args.report_out), render_report(entries, Path(args.output)))
+    write_output(
+        Path(args.heading_report_out),
+        render_rhyme_section_heading_report(entries, Path(args.output)),
+    )
     return 0
 
 

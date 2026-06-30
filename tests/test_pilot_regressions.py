@@ -157,18 +157,25 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertIn("A Chinese Historical Phonology Dictionary", rendered)
         self.assertIn("Curated Schuessler Series with Old Chinese Reconstructions", rendered)
-        self.assertIn(r"\section*{\centering Introduction}", rendered)
-        self.assertIn(r"\section*{\centering Semantic Component Abbreviations}", rendered)
-        self.assertIn(r"\section*{\centering Schuessler Series}", rendered)
+        self.assertIn(r"\begin{center}", rendered)
+        self.assertIn(r"{\Large\bfseries Introduction\par}", rendered)
+        self.assertIn(r"{\Large\bfseries Semantic Component Abbreviations\par}", rendered)
+        self.assertIn(r"{\Large\bfseries Schuessler Series\par}", rendered)
         self.assertNotIn(r"\section*{Curated pilot series in comparable format}", rendered)
         self.assertIn(r"\lehead{\small Chinese Historical Phonology Dictionary}", rendered)
         self.assertIn(r"\rohead{\small \rightmark}", rendered)
+        self.assertIn(r"\lohead{}", rendered)
+        self.assertIn(r"\rehead{}", rendered)
+        self.assertIn(r"\documentclass[twoside, xetex, svgnames, 12pt]{scrartcl}", rendered)
+        self.assertIn(r"\markright{01. *a}", rendered)
+        self.assertIn(r"\markright{19. *oy}", rendered)
+        self.assertNotIn(r"\section*{\centering", rendered)
         self.assertLess(
-            rendered.index(r"\section*{\centering Semantic Component Abbreviations}"),
-            rendered.index(r"\section*{\centering Schuessler Series}"),
+            rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"),
+            rendered.index(r"{\Large\bfseries Schuessler Series\par}"),
         )
         self.assertLess(
-            rendered.index(r"\section*{\centering Semantic Component Abbreviations}"),
+            rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"),
             rendered.index(r"\paragraph{\textoversetlarge{"),
         )
         self.assertNotIn("entry aliases:", rendered)
@@ -183,9 +190,17 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         entries = self.load_active_entries()
         groups = render_curated_series.group_entries_by_rhyme_section(entries)
-        headings = re.findall(r"\\section\*\{\\centering (\d{2}\. [^}]*)\}", rendered)
+        headings = re.findall(
+            r"\\begin\{center\}\s*\{\\Large\\bfseries (\d{2}\. \*[^\n]+?)\\par\}\s*\\end\{center\}",
+            rendered,
+        )
         self.assertEqual(len(headings), len(groups))
+        self.assertIn("01. *a", headings)
+        self.assertIn("17. *ek", headings)
+        self.assertIn("19. *oy", headings)
+        self.assertIn("30. *ut", headings)
         self.assertFalse(re.search(r"\\section\*\{\\centering \d{2}\}", rendered))
+        self.assertNotIn(r"\section*{\centering", rendered)
 
     def test_generated_sample_preserves_labialized_codas_and_top_level_division_marks(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
