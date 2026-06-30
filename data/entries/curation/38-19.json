@@ -143,9 +143,45 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|㐭|禾|ls=ic|t1=granary|t2=grain}}",
+          "positional_components": [
+            "㐭",
+            "禾"
+          ],
+          "positional_components_raw": [
+            "㐭",
+            "禾"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "granary",
+            "t2": "grain"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|㐭|禾|ls=ic|t1=granary|t2=grain}}",
+            "positional_components": [
+              "㐭",
+              "禾"
+            ],
+            "positional_components_raw": [
+              "㐭",
+              "禾"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "granary",
+              "t2": "grain"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -315,7 +351,7 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -601,9 +637,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|心|稟|alt1=忄|ls=psc|c1=s|c2=p|t1=heart, emotions}}",
+          "positional_components": [
+            "心",
+            "稟"
+          ],
+          "positional_components_raw": [
+            "心",
+            "稟"
+          ],
+          "named_args": {
+            "alt1": "忄",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "heart, emotions"
+          },
+          "semantic_components": [
+            "心"
+          ],
+          "phonetic_components": [
+            "稟"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|心|稟|alt1=忄|ls=psc|c1=s|c2=p|t1=heart, emotions}}",
+            "positional_components": [
+              "心",
+              "稟"
+            ],
+            "positional_components_raw": [
+              "心",
+              "稟"
+            ],
+            "named_args": {
+              "alt1": "忄",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "heart, emotions"
+            },
+            "semantic_components": [
+              "心"
+            ],
+            "phonetic_components": [
+              "稟"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -651,12 +735,39 @@
             "evidence_count": 13
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{cor·}  *pim}},",
       "render_latex": "懍\t%lin3\n{\\large{\\textsuperscript{cor·}  *pim}},\n\\textit{limX};\t%0668d",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "心",
+        "phonetic_component": "稟",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "懍",
+          "semantic_component": "心",
+          "phonetic_component": "稟",
+          "position": "prefix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 239
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ],
+          "template_raw": "{{Han compound|心|稟|alt1=忄|ls=psc|c1=s|c2=p|t1=heart, emotions}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "稟",

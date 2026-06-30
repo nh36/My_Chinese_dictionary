@@ -134,23 +134,116 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|今|貝|ls=psc|ls2=ic|c1=p|c2=s|t1=open mouth|t2=money|no_och2=1}}",
+          "positional_components": [
+            "今",
+            "貝"
+          ],
+          "positional_components_raw": [
+            "今",
+            "貝"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "ls2": "ic",
+            "c1": "p",
+            "c2": "s",
+            "t1": "open mouth",
+            "t2": "money",
+            "no_och2": "1"
+          },
+          "semantic_components": [
+            "貝"
+          ],
+          "phonetic_components": [
+            "今"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|今|貝|ls=psc|ls2=ic|c1=p|c2=s|t1=open mouth|t2=money|no_och2=1}}",
+            "positional_components": [
+              "今",
+              "貝"
+            ],
+            "positional_components_raw": [
+              "今",
+              "貝"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "ls2": "ic",
+              "c1": "p",
+              "c2": "s",
+              "t1": "open mouth",
+              "t2": "money",
+              "no_och2": "1"
+            },
+            "semantic_components": [
+              "貝"
+            ],
+            "phonetic_components": [
+              "今"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
+        "abbreviation": "conch",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "貝",
+            "label_token": "conch(a)",
+            "abbreviation": "conch",
+            "start_line": 238
+          },
+          {
+            "graph_raw": "貝",
+            "label_token": "conch",
+            "abbreviation": "conch",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "貝"
       },
-      "transliteration_latex": "{\\large{rym₄}},",
-      "render_latex": "貪\t%tan1 / tān\n{\\large{rym₄}},\n\\textit{thəm};\t%0645a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{rym₄\\textsuperscript{˸conch}}},",
+      "render_latex": "貪\t%tan1 / tān\n{\\large{rym₄\\textsuperscript{˸conch}}},\n\\textit{thəm};\t%0645a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "貝",
+        "phonetic_component": "今",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "貪",
+          "semantic_component": "貝",
+          "phonetic_component": "今",
+          "position": "suffix-colon",
+          "abbreviation": "conch",
+          "inventory_matches": [
+            {
+              "graph_raw": "貝",
+              "label_token": "conch(a)",
+              "abbreviation": "conch",
+              "start_line": 238
+            },
+            {
+              "graph_raw": "貝",
+              "label_token": "conch",
+              "abbreviation": "conch",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ],
+          "template_raw": "{{Han compound|今|貝|ls=psc|ls2=ic|c1=p|c2=s|t1=open mouth|t2=money|no_och2=1}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "貪",

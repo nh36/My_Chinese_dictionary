@@ -491,9 +491,55 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|女|審|ls=psc|c1=s|c2=p|t1=woman}}",
+          "positional_components": [
+            "女",
+            "審"
+          ],
+          "positional_components_raw": [
+            "女",
+            "審"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "woman"
+          },
+          "semantic_components": [
+            "女"
+          ],
+          "phonetic_components": [
+            "審"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|女|審|ls=psc|c1=s|c2=p|t1=woman}}",
+            "positional_components": [
+              "女",
+              "審"
+            ],
+            "positional_components_raw": [
+              "女",
+              "審"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "woman"
+            },
+            "semantic_components": [
+              "女"
+            ],
+            "phonetic_components": [
+              "審"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -516,12 +562,39 @@
             "evidence_count": 14
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "女"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{fem·}tym₂}},",
       "render_latex": "嬸\t%shěn\n{\\large{\\textsuperscript{fem·}tym₂}},\n\\textit{syimX};\t%665",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "女",
+        "phonetic_component": "審",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "嬸",
+          "semantic_component": "女",
+          "phonetic_component": "審",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|女|審|ls=psc|c1=s|c2=p|t1=woman}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "審",

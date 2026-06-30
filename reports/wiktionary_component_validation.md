@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6445
-- Pages fetched / cached successfully: 6341
-- Additions with explicit Han-compound semantic/phonetic roles: 2884
+- Proposed additions checked: 6472
+- Pages fetched / cached successfully: 6374
+- Additions with explicit Han-compound semantic/phonetic roles: 2897
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -6283,7 +6283,7 @@
 | `37-20` | 集 | yes | no |  |  |
 | `37-20` | 雜 | yes | yes | 衣 | 集 |
 | `37-21` | 颯 | yes | no |  |  |
-| `38-02` | 圅 | no | no |  |  |
+| `38-02` | 圅 | yes | no |  |  |
 | `38-02` | 函 | yes | no |  |  |
 | `38-02` | 涵 | yes | yes | 水 | 函 |
 | `38-02` | 菡 | yes | yes | 艸 | 函 |
@@ -6360,7 +6360,7 @@
 | `38-07` | 歆 | yes | no |  |  |
 | `38-08` | 飲 | yes | yes | 欠 | 酓 |
 | `38-09` | 儑 | yes | yes | 人 | 㬎 |
-| `38-10` | 碞 | no | no |  |  |
+| `38-10` | 碞 | yes | no |  |  |
 | `38-11` | 甚 | yes | no |  |  |
 | `38-11` | 煁 | yes | no |  |  |
 | `38-11` | 諶 | yes | yes | 言 | 甚 |
@@ -6379,7 +6379,7 @@
 | `38-12` | 闖 | yes | no |  |  |
 | `38-13` | 審 | yes | no |  |  |
 | `38-13` | 瀋 | yes | yes | 水 | 審 |
-| `38-13` | 嬸 | no | no |  |  |
+| `38-13` | 嬸 | yes | yes | 女 | 審 |
 | `38-14` | 冘 | yes | no |  |  |
 | `38-14` | 沈 | yes | yes | 水 | 冘 |
 | `38-14` | 酖 | yes | no |  |  |
@@ -6416,17 +6416,23 @@
 | `38-18` | 禁 | yes | yes | 示 | 林 |
 | `38-18` | 襟 | yes | yes | 衣 | 禁 |
 | `38-18` | 噤 | yes | no |  |  |
-| `38-19` | 稟 | no | no |  |  |
-| `38-19` | 禀 | no | no |  |  |
+| `38-19` | 稟 | yes | no |  |  |
+| `38-19` | 禀 | yes | no |  |  |
 | `38-19` | 廩 | yes | yes | 广, 禾 | 㐭 |
-| `38-19` | 懍 | no | no |  |  |
+| `38-19` | 懍 | yes | yes | 心 | 稟 |
 | `38-19` | 凜 | yes | no |  |  |
-| `38-20` | 品 | no | no |  |  |
+| `38-20` | 品 | yes | no |  |  |
 | `38-20` | 臨 | yes | yes | 臣, 人 | 品 |
-| `38-21` | 貪 | no | no |  |  |
+| `38-21` | 貪 | yes | yes | 貝 | 今 |
 | `38-21` | 嗿 | yes | no |  |  |
-| `38-22` | 男 | no | no |  |  |
+| `38-22` | 男 | yes | no |  |  |
 | `38-23` | 南 | yes | no |  |  |
+| `38-24` | 念 | yes | no |  |  |
+| `38-24` | 稔 | yes | yes | 禾 | 念 |
+| `38-24` | 腍 | yes | yes | 肉 | 念 |
+| `38-24` | 淰 | yes | yes | 水 | 念 |
+| `38-24` | 諗 | yes | no |  |  |
+| `38-24` | 敜 | yes | yes | 攴 | 念 |
 | `38-25` | 壬 | yes | no |  |  |
 | `38-25` | 任 | yes | yes | 人 | 壬 |
 | `38-25` | 妊 | yes | yes | 女 | 壬 |
@@ -6439,6 +6445,19 @@
 | `38-25` | 恁 | yes | yes | 心 | 任 |
 | `38-25` | 荏 | yes | yes | 艸 | 任 |
 | `38-25` | 賃 | yes | yes | 貝 | 任 |
+| `38-26` | 穼 | yes | no |  |  |
+| `38-26` | 深 | yes | yes | 水 | 𥥍 |
+| `38-26` | 琛 | yes | no |  |  |
+| `38-26` | 探 | yes | yes | 手 | 𥥍 |
+| `38-27` | 𠎶 | yes | no |  |  |
+| `38-27` | 侵 | yes | no |  |  |
+| `38-27` | 綅 | yes | no |  |  |
+| `38-27` | 寢 | yes | yes | 宀, 爿 | 𠬶 |
+| `38-27` | 鋟 | yes | no |  |  |
+| `38-27` | 駸 | yes | no |  |  |
+| `38-27` | 浸 | yes | yes | 水 | 𡩠 |
+| `38-27` | 祲 | yes | no |  |  |
+| `38-27` | 寖 | yes | no |  |  |
 | `38-28` | 兓 | yes | no |  |  |
 | `38-28` | 朁 | yes | yes | 口 | 兓 |
 | `38-28` | 憯 | yes | no |  |  |
@@ -6451,3 +6470,11 @@
 | `38-28` | 僭 | yes | no |  |  |
 | `38-28` | 熸 | yes | no |  |  |
 | `38-28` | 潛 | yes | yes | 水 | 朁 |
+| `38-29` | 參 | yes | yes | 晶 | 㐱 |
+| `38-29` | 驂 | yes | no |  |  |
+| `38-29` | 慘 | yes | yes | 心 | 參 |
+| `38-29` | 糝 | no | no |  |  |
+| `38-29` | 槮 | yes | no |  |  |
+| `38-29` | 摻 | no | no |  |  |
+| `38-30` | 三 | yes | no |  |  |
+| `38-31` | 心 | no | no |  |  |
