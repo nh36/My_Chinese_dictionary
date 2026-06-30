@@ -1231,6 +1231,70 @@ def sort_entries(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(entries, key=entry_sort_key)
 
 
+def entry_rhyme_section(entry: dict[str, Any]) -> int | None:
+    schuessler = entry.get("schuessler") or {}
+    value = schuessler.get("rhyme_section")
+    if value is None:
+        coverage = entry.get("coverage") or {}
+        value = coverage.get("rhyme_section")
+    if value is None:
+        left, _, _ = entry["id"].partition("-")
+        value = left
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def group_entries_by_rhyme_section(
+    entries: list[dict[str, Any]],
+) -> list[tuple[int | None, list[dict[str, Any]]]]:
+    groups: list[tuple[int | None, list[dict[str, Any]]]] = []
+    for entry in sort_entries(entries):
+        key = entry_rhyme_section(entry)
+        if groups and groups[-1][0] == key:
+            groups[-1][1].append(entry)
+            continue
+        groups.append((key, [entry]))
+    return groups
+
+
+def section_subsection_hint(entries: list[dict[str, Any]]) -> str | None:
+    counts: dict[str, int] = {}
+    for entry in entries:
+        tex_entry = entry.get("tex_entry") or {}
+        subsection = tex_entry.get("subsection")
+        if not isinstance(subsection, str):
+            continue
+        normalized = subsection.strip()
+        if not normalized:
+            continue
+        counts[normalized] = counts.get(normalized, 0) + 1
+    if not counts:
+        return None
+    return sorted(counts.items(), key=lambda item: (-item[1], item[0]))[0][0]
+
+
+def format_rhyme_section_heading(section: int | None, entries: list[dict[str, Any]]) -> str:
+    section_label = "Unnumbered" if section is None else f"{section:02d}"
+    subsection_hint = section_subsection_hint(entries)
+    if subsection_hint:
+        return f"{section_label}. {subsection_hint}"
+    return section_label
+
+
+def render_right_hand_page_break() -> list[str]:
+    return [
+        r"\clearpage",
+        r"\ifodd\value{page}\else",
+        r"  \thispagestyle{empty}",
+        r"  \null",
+        r"  \clearpage",
+        r"\fi",
+        "",
+    ]
+
+
 def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
     items = semantic_data.get("items") or []
     if not items:
@@ -1567,7 +1631,7 @@ def render_document(
     main_tex_path: Path,
     semantic_data: dict[str, Any] | None = None,
 ) -> str:
-    entries = sort_entries(entries)
+    rhyme_groups = group_entries_by_rhyme_section(entries)
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
@@ -1582,7 +1646,10 @@ def render_document(
             "",
         ]
     )
-    if entries:
+    for section, group_entries in rhyme_groups:
+        body.extend(render_right_hand_page_break())
+        body.append(rf"\section*{{{format_rhyme_section_heading(section, group_entries)}}}")
+        body.append("")
         body.extend(
             [
                 r"\begin{multicols*}{2}",
@@ -1590,20 +1657,21 @@ def render_document(
                 r"\begin{spacing}{0.7}",
             ]
         )
-        body.extend(render_entry_blocks(entries))
+        body.extend(render_entry_blocks(group_entries))
         body.extend(
             [
                 r"\end{spacing}",
                 r"\end{multicols*}",
+                "",
             ]
         )
-        body.append("")
     body.append("\\end{document}")
     return extract_preamble(main_tex_path) + "\n".join(body) + "\n"
 
 
 def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
     entries = sort_entries(entries)
+    rhyme_groups = group_entries_by_rhyme_section(entries)
     lines = [
         "# Generated curated series sample",
         "",
@@ -1611,10 +1679,27 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "- This file is a review document, not final dictionary output.",
         "- Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.",
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
+        "- Entries are grouped by Schuessler rhyme section in render order.",
+        "- Rhyme heading labels use `NN. <subsection>` when a section has `tex_entry.subsection` hints; otherwise they use `NN`.",
+        r"- Every rhyme section starts with `\clearpage` plus an odd-page check so section headings open on right-hand pages.",
+        "",
+        "| Rhyme section | Heading | Entries | Subsection hint used |",
+        "| --- | --- | ---: | --- |",
+    ]
+    for section, group_entries in rhyme_groups:
+        section_label = "unnumbered" if section is None else f"{section:02d}"
+        heading = format_rhyme_section_heading(section, group_entries)
+        subsection_hint = section_subsection_hint(group_entries) or "none"
+        lines.append(
+            f"| `{section_label}` | `{heading}` | {len(group_entries)} | `{subsection_hint}` |"
+        )
+    lines.extend(
+        [
         "",
         "| GSC | Packet kind | Existing TeX baseline | Proposed additions | Hierarchy-linked additions |",
         "| --- | --- | --- | ---: | ---: |",
-    ]
+        ]
+    )
     for entry in entries:
         hierarchy_linked = sum(
             1
