@@ -157,8 +157,10 @@ class PilotRegressionTests(unittest.TestCase):
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
         self.assertIn("A Chinese Historical Phonology Dictionary", rendered)
         self.assertIn("Curated Schuessler Series with Old Chinese Reconstructions", rendered)
-        self.assertIn(r"\begin{center}", rendered)
-        self.assertIn(r"{\Large\bfseries Introduction\par}", rendered)
+        self.assertIn(r"\section*{Introduction}", rendered)
+        self.assertIn(r"\parencite{schuessler-2009}", rendered)
+        self.assertIn(r"\printbibliography[heading=none]", rendered)
+        self.assertIn(r"\addbibresource{asia.bib}", rendered)
         self.assertIn(r"{\Large\bfseries Semantic Component Abbreviations\par}", rendered)
         self.assertIn(r"{\Large\bfseries Schuessler Series\par}", rendered)
         self.assertNotIn(r"\section*{Curated pilot series in comparable format}", rendered)
@@ -169,15 +171,22 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertIn(r"\documentclass[twoside, xetex, svgnames, 12pt]{scrartcl}", rendered)
         self.assertIn(r"\markright{01. *a}", rendered)
         self.assertIn(r"\markright{19. *oy}", rendered)
+        self.assertIn(r"\markright{Introduction}", rendered)
+        self.assertIn(r"\markright{Bibliography}", rendered)
         self.assertNotIn(r"\section*{\centering", rendered)
+        self.assertLess(
+            rendered.index(r"\section*{Introduction}"),
+            rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"),
+        )
+        self.assertLess(
+            rendered.index(r"{\Large\bfseries Schuessler Series\par}"),
+            rendered.index(r"\printbibliography[heading=none]"),
+        )
         self.assertLess(
             rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"),
             rendered.index(r"{\Large\bfseries Schuessler Series\par}"),
         )
-        self.assertLess(
-            rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"),
-            rendered.index(r"\paragraph{\textoversetlarge{"),
-        )
+        self.assertLess(rendered.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"), rendered.index(r"\paragraph{\textoversetlarge{"))
         self.assertNotIn("entry aliases:", rendered)
         self.assertNotIn("(shàng)", rendered)
         self.assertNotIn("(still, yet, even, still more)", rendered)
@@ -185,6 +194,8 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertNotIn("(leather, to reform, to revolutionize)", rendered)
         self.assertNotIn("Chapter", rendered)
         self.assertNotIn(r"\chapter", rendered)
+        self.assertNotIn("Introduction placeholder.", rendered)
+        self.assertNotIn("References for this introduction", rendered)
 
     def test_generated_sample_rhyme_headings_are_centered_and_all_labeled(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")

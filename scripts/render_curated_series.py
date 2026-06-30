@@ -1163,6 +1163,8 @@ DEFAULT_IDS = [
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"
+DEFAULT_INTRODUCTION_SOURCE = "content/introduction.md"
+DEFAULT_INTRODUCTION_OUTPUT = "build/generated_introduction.tex"
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
@@ -1310,7 +1312,8 @@ def extract_preamble(main_tex_path: Path) -> str:
     marker = "\\begin{document}"
     if marker not in source:
         raise ValueError(f"{main_tex_path} does not contain \\begin{{document}}.")
-    return ensure_twoside_documentclass(source.split(marker, 1)[0].rstrip()) + "\n"
+    preamble = ensure_twoside_documentclass(source.split(marker, 1)[0].rstrip())
+    return ensure_biblatex_resource(preamble) + "\n"
 
 
 def ensure_twoside_documentclass(preamble: str) -> str:
@@ -1325,6 +1328,52 @@ def ensure_twoside_documentclass(preamble: str) -> str:
         return f"\\documentclass{option_block}{{{match.group('class')}}}"
 
     return pattern.sub(replace, preamble, count=1)
+
+
+def ensure_biblatex_resource(preamble: str) -> str:
+    addbibresource = r"\addbibresource{asia.bib}"
+    if addbibresource in preamble:
+        return preamble
+
+    bibliography_pattern = re.compile(r"\\bibliography\{(?P<resource>asia(?:\.bib)?)\}")
+    if bibliography_pattern.search(preamble):
+        return bibliography_pattern.sub(lambda _: addbibresource, preamble, count=1)
+
+    return preamble.rstrip() + "\n" + addbibresource
+
+
+def render_markdown_to_latex(source_path: Path) -> str:
+    if not source_path.exists():
+        raise FileNotFoundError(f"Introduction Markdown file not found: {source_path}")
+
+    filter_path = Path(__file__).with_name("pandoc_unnumbered_headers.lua")
+    if not filter_path.exists():
+        raise FileNotFoundError(f"Pandoc header filter missing: {filter_path}")
+
+    try:
+        completed = subprocess.run(
+            [
+                "pandoc",
+                "-f",
+                "markdown+raw_tex",
+                "-t",
+                "latex",
+                "--lua-filter",
+                str(filter_path),
+                "--wrap=none",
+                str(source_path),
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except FileNotFoundError as exc:
+        raise FileNotFoundError("pandoc is required to render the introduction Markdown.") from exc
+    except subprocess.CalledProcessError as exc:
+        stderr = (exc.stderr or "").strip()
+        raise RuntimeError(f"pandoc failed while rendering {source_path}: {stderr}") from exc
+
+    return completed.stdout.rstrip() + "\n"
 
 
 def read_pdf_page_text(pdf_path: Path, page_number: int) -> str:
@@ -1619,15 +1668,28 @@ def render_title_page() -> list[str]:
     ]
 
 
-def render_introduction_placeholder() -> list[str]:
+def render_introduction(
+    introduction_source: Path,
+    introduction_output: Path,
+) -> list[str]:
+    latex = render_markdown_to_latex(introduction_source)
+    write_output(introduction_output, latex)
     return [
-        r"\clearpage",
-        r"\begin{center}",
-        r"{\Large\bfseries Introduction\par}",
-        r"\end{center}",
+        *render_right_hand_page_break(),
         r"\markright{Introduction}",
-        "% Introduction placeholder.",
-        "Introduction placeholder.",
+        *latex.splitlines(),
+        "",
+    ]
+
+
+def render_bibliography() -> list[str]:
+    return [
+        *render_right_hand_page_break(),
+        r"\markright{Bibliography}",
+        r"\begin{center}",
+        r"{\Large\bfseries Bibliography\par}",
+        r"\end{center}",
+        r"\printbibliography[heading=none]",
         "",
     ]
 
@@ -1965,6 +2027,8 @@ def render_document(
     entries: list[dict[str, Any]],
     main_tex_path: Path,
     semantic_data: dict[str, Any] | None = None,
+    introduction_source_path: Path = Path(DEFAULT_INTRODUCTION_SOURCE),
+    introduction_output_path: Path = Path(DEFAULT_INTRODUCTION_OUTPUT),
 ) -> str:
     rhyme_groups = group_entries_by_rhyme_section(entries)
     body = [
@@ -1975,7 +2039,7 @@ def render_document(
     body.append("")
     body.extend(render_running_header_setup())
     body.extend(render_title_page())
-    body.extend(render_introduction_placeholder())
+    body.extend(render_introduction(introduction_source_path, introduction_output_path))
     if semantic_data:
         body.extend(
             render_centered_section_heading(
@@ -2009,6 +2073,7 @@ def render_document(
                 "",
             ]
         )
+    body.extend(render_bibliography())
     body.append("\\end{document}")
     return extract_preamble(main_tex_path) + "\n".join(body) + "\n"
 
@@ -2024,6 +2089,8 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "",
         f"- Generated TeX file: `{tex_path}`",
         "- This file is a review document, not final dictionary output.",
+        f"- The introduction is rendered from `{DEFAULT_INTRODUCTION_SOURCE}` via pandoc and cached to `{DEFAULT_INTRODUCTION_OUTPUT}`.",
+        "- The bibliography is printed with biblatex at the end of the book.",
         "- Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.",
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "- Entries are grouped by Schuessler rhyme section in render order.",

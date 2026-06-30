@@ -103,6 +103,36 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         self.assertIn("% Proposed additions from imported sources for 01-42", rendered)
         self.assertIn("敘\t%xu4", rendered)
 
+    def test_render_markdown_to_latex_changes_with_source(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            intro_md = Path(temp_dir) / "intro.md"
+            intro_md.write_text("# Intro\n\nFirst version.\n", encoding="utf-8")
+            first = render_curated_series.render_markdown_to_latex(intro_md)
+
+            intro_md.write_text("# Intro\n\nSecond version with \\parencite{foo}.\n", encoding="utf-8")
+            second = render_curated_series.render_markdown_to_latex(intro_md)
+
+            self.assertIn(r"\section*{Intro}", first)
+            self.assertIn("First version.", first)
+            self.assertIn("Second version", second)
+            self.assertIn(r"\parencite{foo}", second)
+            self.assertNotEqual(first, second)
+
+    def test_introduction_citations_are_defined_in_asia_bib(self) -> None:
+        intro_source = (ROOT / "content/introduction.md").read_text(encoding="utf-8")
+        cited_keys = []
+        for chunk in re.findall(r"\\(?:parencite|textcite)\{([^}]+)\}", intro_source):
+            cited_keys.extend(key.strip() for key in chunk.split(",") if key.strip())
+        self.assertTrue(cited_keys)
+
+        bib_text = (ROOT / "asia.bib").read_text(encoding="utf-8")
+        missing = [
+            key
+            for key in sorted(set(cited_keys))
+            if not re.search(rf"@\w+\{{{re.escape(key)}\b", bib_text)
+        ]
+        self.assertFalse(missing, msg=f"Missing bibliography entries for: {', '.join(missing)}")
+
     def test_group_entries_by_rhyme_section_follows_schuessler_order(self) -> None:
         entries = [
             self.make_missing_entry("02-03", heading_character="乙"),
@@ -142,6 +172,7 @@ class RenderCuratedSeriesTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             main_tex = Path(temp_dir) / "main.tex"
             main_tex.write_text("\\documentclass{article}\n\\begin{document}\n\\end{document}\n", encoding="utf-8")
+            intro_output = Path(temp_dir) / "generated_intro.tex"
             semantic_data = {
                 "items": [
                     {
@@ -162,6 +193,8 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                 entries,
                 main_tex,
                 semantic_data,
+                ROOT / "content/introduction.md",
+                intro_output,
             )
             self.assertIn(r"\item 木 \textbf{arb} arb(or) --- (only in test)", doc)
             self.assertNotIn("(mù)", doc)
@@ -170,14 +203,19 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             self.assertIn(r"\begin{titlepage}", doc)
             self.assertIn("A Chinese Historical Phonology Dictionary", doc)
             self.assertIn("Curated Schuessler Series with Old Chinese Reconstructions", doc)
-            self.assertIn(r"\begin{center}", doc)
-            self.assertIn(r"{\Large\bfseries Introduction\par}", doc)
+            self.assertIn(r"\section*{Introduction}", doc)
+            self.assertIn(r"\parencite{schuessler-2009}", doc)
+            self.assertIn(r"\parencite{hill-2015-transcription}", doc)
+            self.assertIn(r"\printbibliography[heading=none]", doc)
+            self.assertIn(r"\addbibresource{asia.bib}", doc)
             self.assertIn(r"{\Large\bfseries Semantic Component Abbreviations\par}", doc)
             self.assertIn(r"{\Large\bfseries Schuessler Series\par}", doc)
             self.assertIn(r"{\Large\bfseries 01. *a\par}", doc)
             self.assertIn(r"{\Large\bfseries 02. *ak\par}", doc)
             self.assertIn(r"\markright{01. *a}", doc)
             self.assertIn(r"\markright{02. *ak}", doc)
+            self.assertIn(r"\markright{Introduction}", doc)
+            self.assertIn(r"\markright{Bibliography}", doc)
             self.assertNotIn("Chapter", doc)
             self.assertNotIn(r"\chapter", doc)
             self.assertNotIn(r"\section*{\centering", doc)
@@ -187,13 +225,14 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             self.assertIn(r"\lohead{}", doc)
             self.assertIn(r"\rehead{}", doc)
             self.assertIn(r"\documentclass[twoside]{article}", doc)
-            self.assertEqual(doc.count(r"\ifodd\value{page}\else"), 2)
+            self.assertEqual(doc.count(r"\ifodd\value{page}\else"), 4)
             self.assertEqual(doc.count(r"\begin{multicols*}{2}"), 3)
             self.assertEqual(doc.count(r"\end{multicols*}"), 3)
+            self.assertEqual(intro_output.read_text(encoding="utf-8").splitlines()[0], r"\section*{Introduction}")
             self.assertRegex(
                 doc,
                 re.compile(
-                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\begin\{center\}\s+\{\\Large\\bfseries 01\. \*a\\par\}\s+\\end\{center\}",
+                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\markright\{Introduction\}\s+\\section\*\{Introduction\}",
                     re.MULTILINE,
                 ),
             )
@@ -206,6 +245,10 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             )
             self.assertLess(doc.index(r"{\Large\bfseries 01. *a\par}"), doc.index(r"{\Large\bfseries 02. *ak\par}"))
             self.assertNotRegex(doc, r"\\section\*\{\\centering \d{2}")
+            self.assertLess(doc.index(r"\section*{Introduction}"), doc.index(r"{\Large\bfseries Semantic Component Abbreviations\par}"))
+            self.assertLess(doc.index(r"{\Large\bfseries Schuessler Series\par}"), doc.index(r"\printbibliography[heading=none]"))
+            self.assertNotIn("Introduction placeholder.", doc)
+            self.assertNotIn("References for this introduction", doc)
             self.assertIn("\\end{document}", doc)
 
     def test_render_document_preserves_global_root_numbering_across_sections(self) -> None:

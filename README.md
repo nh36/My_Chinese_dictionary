@@ -26,6 +26,8 @@ python3 scripts/build_review_pdfs.py
 
 This helper compiles the generated review TeX from the repository root and then syncs the fresh PDFs back into `build/`, so `build/generated_curated_series_sample.pdf` and `build/generated_integrated_dictionary.pdf` do not go stale.
 
+The curated review renderer also converts `content/introduction.md` with Pandoc into `build/generated_introduction.tex` before embedding the introduction into the generated book.
+
 Open the generated review PDFs with:
 
 ```sh
@@ -47,6 +49,7 @@ latexmk -c
 
 - `latexmk`
 - `xelatex`
+- `pandoc`
 - `BabelStone Han`
 - `FreeSerif`
 - `FreeSans`

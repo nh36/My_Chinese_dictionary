@@ -2,6 +2,8 @@
 
 - Generated TeX file: `build/generated_curated_series_sample.tex`
 - This file is a review document, not final dictionary output.
+- The introduction is rendered from `content/introduction.md` via pandoc and cached to `build/generated_introduction.tex`.
+- The bibliography is printed with biblatex at the end of the book.
 - Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.
 - Existing-series packets show the original TeX baseline followed by a comparable-format additions block.
 - Entries are grouped by Schuessler rhyme section in render order.
