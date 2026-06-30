@@ -242,9 +242,45 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|囗|卪|t1=enclosure; city wall|t2=kneeling person|ls=ic}}",
+          "positional_components": [
+            "囗",
+            "卪"
+          ],
+          "positional_components_raw": [
+            "囗",
+            "卪"
+          ],
+          "named_args": {
+            "t1": "enclosure; city wall",
+            "t2": "kneeling person",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|囗|卪|t1=enclosure; city wall|t2=kneeling person|ls=ic}}",
+            "positional_components": [
+              "囗",
+              "卪"
+            ],
+            "positional_components_raw": [
+              "囗",
+              "卪"
+            ],
+            "named_args": {
+              "t1": "enclosure; city wall",
+              "t2": "kneeling person",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -513,9 +549,59 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|邑|t1=hand|c1=s|c2=p|ls=psc|}}",
+          "positional_components": [
+            "手",
+            "邑",
+            ""
+          ],
+          "positional_components_raw": [
+            "手",
+            "邑",
+            ""
+          ],
+          "named_args": {
+            "t1": "hand",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "邑"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|手|邑|t1=hand|c1=s|c2=p|ls=psc|}}",
+            "positional_components": [
+              "手",
+              "邑",
+              ""
+            ],
+            "positional_components_raw": [
+              "手",
+              "邑",
+              ""
+            ],
+            "named_args": {
+              "t1": "hand",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "邑"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -563,12 +649,39 @@
             "evidence_count": 20
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{man·}qyp₅}},",
       "render_latex": "挹\t%yi4 / yì\n{\\large{\\textsuperscript{man·}qyp₅}},\n\\textit{qyip};\t%0683g",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "邑",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "挹",
+          "semantic_component": "手",
+          "phonetic_component": "邑",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ],
+          "template_raw": "{{Han compound|手|邑|t1=hand|c1=s|c2=p|ls=psc|}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "邑",

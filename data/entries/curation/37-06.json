@@ -109,9 +109,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|竹|合|ls=psc|c1=s|c2=p|t1=bamboo}}",
+          "positional_components": [
+            "竹",
+            "合"
+          ],
+          "positional_components_raw": [
+            "竹",
+            "合"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "bamboo"
+          },
+          "semantic_components": [
+            "竹"
+          ],
+          "phonetic_components": [
+            "合"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|竹|合|ls=psc|c1=s|c2=p|t1=bamboo}}",
+            "positional_components": [
+              "竹",
+              "合"
+            ],
+            "positional_components_raw": [
+              "竹",
+              "合"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "bamboo"
+            },
+            "semantic_components": [
+              "竹"
+            ],
+            "phonetic_components": [
+              "合"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -159,12 +205,39 @@
             "evidence_count": 12
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "竹"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}typ₂}},",
       "render_latex": "答\t%da2 / dá\n{\\large{\\textsuperscript{bamb˸}typ₂}},\n\\textit{təp};\t%0676a",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "竹",
+        "phonetic_component": "合",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "答",
+          "semantic_component": "竹",
+          "phonetic_component": "合",
+          "position": "prefix-colon",
+          "abbreviation": "bamb",
+          "inventory_matches": [
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb(us)",
+              "abbreviation": "bamb",
+              "start_line": 206
+            },
+            {
+              "graph_raw": "竹",
+              "label_token": "bamb",
+              "abbreviation": "bamb",
+              "learned": true,
+              "evidence_count": 12
+            }
+          ],
+          "template_raw": "{{Han compound|竹|合|ls=psc|c1=s|c2=p|t1=bamboo}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "答",
@@ -492,7 +565,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

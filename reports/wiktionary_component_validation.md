@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6398
-- Pages fetched / cached successfully: 6291
-- Additions with explicit Han-compound semantic/phonetic roles: 2862
+- Proposed additions checked: 6413
+- Pages fetched / cached successfully: 6307
+- Additions with explicit Han-compound semantic/phonetic roles: 2869
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -6145,7 +6145,7 @@
 | `36-21` | 孅 | yes | no |  |  |
 | `36-21` | 纖 | yes | yes | 糸 | 韱 |
 | `36-21` | 殲 | yes | yes | 歹 | 韱 |
-| `36-21` | 瀸 | no | no |  |  |
+| `36-21` | 瀸 | yes | no |  |  |
 | `36-21` | 攕 | yes | no |  |  |
 | `36-22` | 斬 | yes | no | 斤, 車 |  |
 | `36-22` | 摲 | yes | no |  |  |
@@ -6174,8 +6174,8 @@
 | `36-26` | 諷 | yes | yes | 言 | 風 |
 | `36-26` | 渢 | yes | no |  |  |
 | `36-27` | 犯 | yes | yes | 犬 | 𢎘 |
-| `36-27` | 𨊠 | no | no |  |  |
-| `36-27` | 氾 | no | no |  |  |
+| `36-27` | 𨊠 | yes | no |  |  |
+| `36-27` | 氾 | yes | yes | 水 | 𢎘 |
 | `36-27` | 範 | yes | yes | 車 | 笵 |
 | `36-27` | 范 | no | no |  |  |
 | `37-01` | 合 | yes | no |  |  |
@@ -6206,18 +6206,18 @@
 | `37-02` | 极 | yes | yes | 木 | 及 |
 | `37-02` | 笈 | yes | yes | 竹 | 及 |
 | `37-03` | 十 | yes | no |  |  |
-| `37-03` | 什 | no | no |  |  |
+| `37-03` | 什 | yes | no |  |  |
 | `37-03` | 汁 | yes | yes | 水 | 十 |
 | `37-04` | 燁 | no | no |  |  |
 | `37-04` | 爗 | yes | no |  |  |
-| `37-05` | 邑 | no | no |  |  |
+| `37-05` | 邑 | yes | no |  |  |
 | `37-05` | 悒 | yes | no |  |  |
-| `37-05` | 挹 | no | no |  |  |
+| `37-05` | 挹 | yes | yes | 手 | 邑 |
 | `37-05` | 浥 | no | no |  |  |
 | `37-05` | 唈 | yes | no |  |  |
-| `37-06` | 答 | no | no |  |  |
+| `37-06` | 答 | yes | yes | 竹 | 合 |
 | `37-06` | 荅 | yes | yes | 艸 | 合 |
-| `37-06` | 嗒 | no | no |  |  |
+| `37-06` | 嗒 | yes | no |  |  |
 | `37-07` | 馽 | yes | no |  |  |
 | `37-08` | 執 | yes | no |  |  |
 | `37-08` | 縶 | yes | yes | 糸 | 執 |
@@ -6229,6 +6229,21 @@
 | `37-08` | 贄 | yes | yes | 貝 | 執 |
 | `37-08` | 鷙 | yes | yes | 鳥 | 執 |
 | `37-08` | 墊 | yes | yes | 土 | 執 |
+| `37-09` | 沓 | yes | no |  |  |
+| `37-09` | 誻 | no | no |  |  |
+| `37-10` | 眔 | no | no |  |  |
+| `37-10` | 遝 | yes | yes | 辵 | 眔 |
+| `37-10` | 嚃 | no | no |  |  |
+| `37-11` | 襲 | yes | yes | 衣 | 龖 |
+| `37-12` | 習 | no | no |  |  |
+| `37-12` | 謵 | no | no |  |  |
+| `37-12` | 槢 | yes | no |  |  |
+| `37-12` | 熠 | yes | yes | 火 | 習 |
+| `37-12` | 褶 | no | no |  |  |
+| `37-12` | 慴 | yes | no |  |  |
+| `37-13` | 濕 | yes | yes | 水 | 㬎 |
+| `37-13` | 隰 | no | no |  |  |
+| `37-14` | 溼 | yes | no |  |  |
 | `37-15` | 立 | yes | no |  |  |
 | `37-15` | 笠 | yes | yes | 竹 | 立 |
 | `37-15` | 粒 | yes | yes | 米 | 立 |

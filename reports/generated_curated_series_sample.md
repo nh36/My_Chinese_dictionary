@@ -1108,6 +1108,12 @@
 | `37-06` | `missing_series` | no | 3 | 1 |
 | `37-07` | `missing_series` | no | 1 | 0 |
 | `37-08` | `missing_series` | no | 10 | 9 |
+| `37-09` | `missing_series` | no | 2 | 1 |
+| `37-10` | `missing_series` | no | 3 | 2 |
+| `37-11` | `missing_series` | no | 1 | 0 |
+| `37-12` | `missing_series` | no | 6 | 5 |
+| `37-13` | `missing_series` | no | 2 | 0 |
+| `37-14` | `missing_series` | no | 1 | 0 |
 | `37-15` | `missing_series` | no | 11 | 7 |
 | `37-16` | `missing_series` | no | 13 | 11 |
 | `37-19` | `missing_series` | no | 9 | 8 |
