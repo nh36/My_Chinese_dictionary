@@ -354,9 +354,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|存|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "艸",
+            "存"
+          ],
+          "positional_components_raw": [
+            "艸",
+            "存"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "存"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|存|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "艸",
+              "存"
+            ],
+            "positional_components_raw": [
+              "艸",
+              "存"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "存"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -379,12 +423,39 @@
             "evidence_count": 24
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}tsyn}},",
       "render_latex": "荐\t%jian4 / jiàn\n{\\large{\\textsuperscript{herb˸}tsyn}},\n\\textit{dzenH};\t%0432b\n\\textit{dzwənH};",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "存",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "荐",
+          "semantic_component": "艸",
+          "phonetic_component": "存",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 297
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ],
+          "template_raw": "{{Han compound|艸|存|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "存",

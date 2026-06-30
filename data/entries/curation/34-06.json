@@ -380,9 +380,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|川|ls=psc|c1=s|c2=p|t1=speech}}",
+          "positional_components": [
+            "言",
+            "川"
+          ],
+          "positional_components_raw": [
+            "言",
+            "川"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "speech"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "川"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|川|ls=psc|c1=s|c2=p|t1=speech}}",
+            "positional_components": [
+              "言",
+              "川"
+            ],
+            "positional_components_raw": [
+              "言",
+              "川"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "speech"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "川"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -430,12 +476,39 @@
             "evidence_count": 19
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "言"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}tun₄}},",
       "render_latex": "訓\t%xun4 / xùn\n{\\large{\\textsuperscript{dic·}tun₄}},\n\\textit{hiunH};\t%0422d",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "川",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "訓",
+          "semantic_component": "言",
+          "phonetic_component": "川",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "template_raw": "{{Han compound|言|川|ls=psc|c1=s|c2=p|t1=speech}}"
+        }
+      },
       "hierarchy_assignment": null,
       "resolved_node_root": null
     }

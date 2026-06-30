@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 1056
-- Packets with at least one root candidate: 1052
-- Packets with a single resolved provisional root: 1050
+- Missing-series packets inspected: 1062
+- Packets with at least one root candidate: 1058
+- Packets with a single resolved provisional root: 1056
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
+| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -1026,11 +1026,17 @@
 | `34-16` | 𥁕→ʔun [*ʔˤun] (0426a) | `ʔun` | `head_graph_oc_bs` |
 | `34-17` | 屯→tun [*dˤun {*[d]ˤun}] (0427a) | `tun` | `head_graph_oc_bs` |
 | `34-18` | 𦎧→tun [*dʲun] (None) | `tun` | `same_character_series_root` |
+| `34-19` | 春→tun [*tʰun] (0463a) | `tun` | `head_graph_oc_bs` |
 | `34-20` | 川→lun [*t.l̥un {*t.l̥u[n]} (MC -jwen is irregular)] (0462a) | `lun` | `head_graph_oc_bs` |
 | `34-21` | 盾→lun [*lˤunʔ {*lˤu[n]ʔ}] (0465a) | `lun` | `head_graph_oc_bs` |
+| `34-22` | 豚→lun [*lˤun {*lˤu[n]}] (0428a) | `lun` | `head_graph_oc_bs` |
 | `34-23` | 允→lur [*lurʔ {*[l]u[r]ʔ}] (0468a) | `lur` | `head_graph_oc_bs` |
 | `34-24` | 侖→run [*k‧run] (None) | `run` | `head_graph_oc_shengfu` |
+| `34-25` | 閏→nun [*nʲuns] (None) | `nun` | `head_graph_oc_shengfu` |
 | `34-26` | 尊→tsun [*tsˤun {*[ts]ˤu[n]}] (0430a) | `tsun` | `head_graph_oc_bs` |
+| `34-27` | 寸→tsun [*tsʰˤun-s {*[tsʰ]ˤu[n]-s}] (0431a) | `tsun` | `head_graph_oc_bs` |
+| `34-28` | 孫→sun [*sˤun {*[s]ˤu[n]}] (0434a) | `sun` | `head_graph_oc_bs` |
+| `34-29` | 飧→sun [*sˡu̠n] (None) | `sun` | `head_graph_oc_shengfu` |
 | `34-30` | 巽→sun [*skˡu̠ns] (None) | `sun` | `head_graph_oc_shengfu` |
 | `35-03` | 夾→kep [*C.kˤ<r>ep] (0630a) | `kep` | `head_graph_oc_bs` |
 | `35-10` | 枼→lep [*ɡ‧leb] (None); 枼→lap [*l̥ap-s {*l̥[a]p-s}] (None) | `lep` | `head_graph_shengfu_head` |

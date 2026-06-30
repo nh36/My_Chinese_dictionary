@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6269
-- Pages fetched / cached successfully: 6164
-- Additions with explicit Han-compound semantic/phonetic roles: 2810
+- Proposed additions checked: 6286
+- Pages fetched / cached successfully: 6186
+- Additions with explicit Han-compound semantic/phonetic roles: 2816
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5583,7 +5583,7 @@
 | `33-11` | 典 | yes | no |  |  |
 | `33-11` | 腆 | yes | no |  |  |
 | `33-12` | 𡱂 | yes | no |  |  |
-| `33-12` | 臋 | no | no |  |  |
+| `33-12` | 臋 | yes | no |  |  |
 | `33-12` | 臀 | yes | yes | 肉 | 殿 |
 | `33-12` | 殿 | yes | yes | 殳 | 臀 |
 | `33-13` | 辰 | yes | no |  |  |
@@ -5632,7 +5632,7 @@
 | `33-20` | 認 | yes | yes | 言 | 忍 |
 | `33-20` | 䵑 | yes | no |  |  |
 | `33-22` | 存 | yes | yes | 子 | 才 |
-| `33-22` | 荐 | no | no |  |  |
+| `33-22` | 荐 | yes | yes | 艸 | 存 |
 | `33-22` | 栫 | yes | no |  |  |
 | `33-22` | 洊 | yes | no |  |  |
 | `33-23` | 薦 | yes | no |  |  |
@@ -5650,7 +5650,7 @@
 | `33-26` | 畚 | yes | no |  |  |
 | `33-27` | 本 | yes | no |  |  |
 | `33-28` | 奔 | yes | no |  |  |
-| `33-28` | 犇 | no | no |  |  |
+| `33-28` | 犇 | yes | no |  |  |
 | `33-28` | 餴 | yes | yes | 食 | 奔 |
 | `33-28` | 鼖 | yes | no |  |  |
 | `33-29` | 賁 | yes | yes | 貝 | 卉 |
@@ -5690,9 +5690,9 @@
 | `33-30` | 盼 | yes | yes | 目 | 分 |
 | `33-30` | 肦 | yes | no |  |  |
 | `33-32` | 糞 | yes | no |  |  |
-| `33-33` | 奮 | no | no |  |  |
+| `33-33` | 奮 | yes | no |  |  |
 | `33-34` | 焚 | yes | no |  |  |
-| `33-34` | 彬 | no | no |  |  |
+| `33-34` | 彬 | yes | yes | 彡 | 焚 |
 | `33-35` | 門 | yes | no |  |  |
 | `33-35` | 悶 | yes | yes | 心 | 門 |
 | `33-35` | 捫 | yes | yes | 手 | 門 |
@@ -5725,22 +5725,22 @@
 | `34-02` | 衮 | yes | no |  |  |
 | `34-02` | 袞 | yes | yes | 衣 | 公 |
 | `34-02` | 蔉 | yes | yes | 艸 | 袞 |
-| `34-03` | 鯀 | no | no |  |  |
+| `34-03` | 鯀 | yes | no |  |  |
 | `34-04` | 鰥 | yes | no |  |  |
 | `34-04` | 瘝 | yes | no |  |  |
-| `34-05` | 坤 | no | no |  |  |
+| `34-05` | 坤 | yes | no |  |  |
 | `34-06` | 巛 | yes | no |  |  |
 | `34-06` | 𤰕 | no | no |  |  |
 | `34-06` | 甽 | yes | no |  |  |
-| `34-06` | 訓 | no | no |  |  |
+| `34-06` | 訓 | yes | yes | 言 | 川 |
 | `34-07` | 髡 | yes | no |  |  |
-| `34-08` | 壼 | no | no |  |  |
+| `34-08` | 壼 | yes | no |  |  |
 | `34-09` | 困 | yes | no |  |  |
-| `34-09` | 悃 | no | no |  |  |
+| `34-09` | 悃 | yes | no |  |  |
 | `34-09` | 捆 | yes | yes | 手 | 困 |
-| `34-09` | 梱 | no | no |  |  |
+| `34-09` | 梱 | yes | no |  |  |
 | `34-09` | 稇 | yes | no |  |  |
-| `34-10` | 圂 | no | no |  |  |
+| `34-10` | 圂 | yes | no |  |  |
 | `34-10` | 慁 | yes | no |  |  |
 | `34-10` | 溷 | yes | no |  |  |
 | `34-11` | 囷 | yes | no |  |  |
@@ -5824,6 +5824,11 @@
 | `34-18` | 啍 | yes | no |  |  |
 | `34-18` | 憝 | yes | no |  |  |
 | `34-18` | 譈 | yes | no |  |  |
+| `34-19` | 春 | yes | yes | 艸, 日 | 屯 |
+| `34-19` | 惷 | yes | no |  |  |
+| `34-19` | 蠢 | yes | yes | 䖵 | 春 |
+| `34-19` | 椿 | yes | no |  |  |
+| `34-19` | 鬊 | yes | no |  |  |
 | `34-20` | 川 | yes | no |  |  |
 | `34-20` | 䡅 | yes | no |  |  |
 | `34-20` | 順 | yes | yes | 頁 | 川 |
@@ -5837,6 +5842,9 @@
 | `34-21` | 遁 | yes | yes | 辵 | 盾 |
 | `34-21` | 循 | yes | yes | 彳 | 盾 |
 | `34-21` | 腯 | yes | no |  |  |
+| `34-22` | 豚 | no | no |  |  |
+| `34-22` | 𢄉 | no | no |  |  |
+| `34-22` | 遯 | no | no |  |  |
 | `34-23` | 允 | yes | no |  |  |
 | `34-23` | 浚 | yes | yes | 水 | 夋 |
 | `34-23` | 踆 | yes | no |  |  |
@@ -5872,6 +5880,7 @@
 | `34-24` | 崙 | yes | yes | 山 | 侖 |
 | `34-24` | 崘 | yes | no |  |  |
 | `34-24` | 掄 | yes | yes | 手 | 侖 |
+| `34-25` | 閏 | no | no |  |  |
 | `34-26` | 尊 | yes | no |  |  |
 | `34-26` | 樽 | yes | yes | 木 | 尊 |
 | `34-26` | 僔 | yes | yes | 人 | 尊 |
@@ -5882,6 +5891,14 @@
 | `34-26` | 鐏 | yes | yes | 金 | 尊 |
 | `34-26` | 鱒 | yes | yes | 魚 | 尊 |
 | `34-26` | 遵 | yes | yes | 辵 | 尊 |
+| `34-27` | 寸 | yes | no |  |  |
+| `34-27` | 刌 | yes | no |  |  |
+| `34-27` | 忖 | no | no |  |  |
+| `34-28` | 孫 | yes | no |  |  |
+| `34-28` | 蓀 | no | no |  |  |
+| `34-28` | 遜 | yes | yes | 辵 | 孫 |
+| `34-28` | 愻 | no | no |  |  |
+| `34-29` | 飧 | yes | no |  |  |
 | `34-30` | 巽 | yes | no |  |  |
 | `34-30` | 簨 | yes | no |  |  |
 | `34-30` | 僎 | yes | yes | 人 | 巽 |

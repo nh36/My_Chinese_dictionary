@@ -273,24 +273,146 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|焚|彡|c1=p|c2=s|t2=|abb1=y|ls=psc}}",
+          "positional_components": [
+            "焚",
+            "彡"
+          ],
+          "positional_components_raw": [
+            "焚",
+            "彡"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "",
+            "abb1": "y",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "彡"
+          ],
+          "phonetic_components": [
+            "焚"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|焚|彡|c1=p|c2=s|t2=|abb1=y|ls=psc}}",
+            "positional_components": [
+              "焚",
+              "彡"
+            ],
+            "positional_components_raw": [
+              "焚",
+              "彡"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "",
+              "abb1": "y",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "彡"
+            ],
+            "phonetic_components": [
+              "焚"
+            ]
+          },
+          {
+            "template_raw": "{{Han compound|棼|彡|c1=p|c2=s|t2=|abb1=y|ls=psc|nocap=y}}",
+            "positional_components": [
+              "棼",
+              "彡"
+            ],
+            "positional_components_raw": [
+              "棼",
+              "彡"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "",
+              "abb1": "y",
+              "ls": "psc",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "彡"
+            ],
+            "phonetic_components": [
+              "棼"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
+        "abbreviation": "crin",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "髟",
+            "label_token": "crin(is)",
+            "abbreviation": "crin",
+            "start_line": 248
+          },
+          {
+            "graph_raw": "髟",
+            "label_token": "crin",
+            "abbreviation": "crin",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "髟"
       },
-      "transliteration_latex": "{\\large{pyn₄}},",
-      "render_latex": "彬\t%bin1\n{\\large{pyn₄}},\n\\textit{pin};\t%0474c",
-      "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "transliteration_latex": "{\\large{pyn₄\\textsuperscript{·crin}}},",
+      "render_latex": "彬\t%bin1\n{\\large{pyn₄\\textsuperscript{·crin}}},\n\\textit{pin};\t%0474c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "髟",
+        "phonetic_component": "焚",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "彬",
+          "semantic_component": "髟",
+          "phonetic_component": "焚",
+          "position": "suffix-dot",
+          "abbreviation": "crin",
+          "inventory_matches": [
+            {
+              "graph_raw": "髟",
+              "label_token": "crin(is)",
+              "abbreviation": "crin",
+              "start_line": 248
+            },
+            {
+              "graph_raw": "髟",
+              "label_token": "crin",
+              "abbreviation": "crin",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|焚|彡|c1=p|c2=s|t2=|abb1=y|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "焚",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "焚"
+      },
       "resolved_node_root": null
     }
   ],
