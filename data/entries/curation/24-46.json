@@ -109,9 +109,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|彥|生|ls=psc|c1=p|c2=s|abb1=y|t2=to be born}}",
+          "positional_components": [
+            "彥",
+            "生"
+          ],
+          "positional_components_raw": [
+            "彥",
+            "生"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "abb1": "y",
+            "t2": "to be born"
+          },
+          "semantic_components": [
+            "生"
+          ],
+          "phonetic_components": [
+            "彥"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|彥|生|ls=psc|c1=p|c2=s|abb1=y|t2=to be born}}",
+            "positional_components": [
+              "彥",
+              "生"
+            ],
+            "positional_components_raw": [
+              "彥",
+              "生"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "abb1": "y",
+              "t2": "to be born"
+            },
+            "semantic_components": [
+              "生"
+            ],
+            "phonetic_components": [
+              "彥"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -128,15 +176,28 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "文",
-        "position": "prefix-colon",
+        "abbreviation": "生",
+        "position": "suffix-colon",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "文"
+        "source": "wiktionary_component_literal_fallback",
+        "semantic_component": "生"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{文˸}ṅar₅}},",
-      "render_latex": "產\t%chan3 / chǎn\n{\\large{\\textsuperscript{文˸}ṅar₅}},\n\\textit{ṣeanX};\t%0194a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{ṅar₅\\textsuperscript{˸生}}},",
+      "render_latex": "產\t%chan3 / chǎn\n{\\large{ṅar₅\\textsuperscript{˸生}}},\n\\textit{ṣeanX};\t%0194a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "生",
+        "phonetic_component": "彥",
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "產",
+          "semantic_component": "生",
+          "phonetic_component": "彥",
+          "position": "suffix-colon",
+          "abbreviation": "生",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|彥|生|ls=psc|c1=p|c2=s|abb1=y|t2=to be born}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "產",

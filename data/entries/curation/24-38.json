@@ -467,9 +467,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|火|扇|ls=psc|c1=s|t1=fire|c2=p}}",
+          "positional_components": [
+            "火",
+            "扇"
+          ],
+          "positional_components_raw": [
+            "火",
+            "扇"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "t1": "fire",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "火"
+          ],
+          "phonetic_components": [
+            "扇"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|火|扇|ls=psc|c1=s|t1=fire|c2=p}}",
+            "positional_components": [
+              "火",
+              "扇"
+            ],
+            "positional_components_raw": [
+              "火",
+              "扇"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "t1": "fire",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "火"
+            ],
+            "phonetic_components": [
+              "扇"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -517,12 +563,39 @@
             "evidence_count": 1
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "火"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{ign·}l\\textoverset{b}{a}n}},",
       "render_latex": "煽\t%shan4\n{\\large{\\textsuperscript{ign·}l\\textoverset{b}{a}n}},\n\\textit{śienH};\t%0212c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "火",
+        "phonetic_component": "扇",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "煽",
+          "semantic_component": "火",
+          "phonetic_component": "扇",
+          "position": "prefix-dot",
+          "abbreviation": "ign",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 300
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|火|扇|ls=psc|c1=s|t1=fire|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "扇",

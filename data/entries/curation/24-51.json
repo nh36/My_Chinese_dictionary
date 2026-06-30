@@ -134,23 +134,130 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|焚|頁|ls=psc|c1=p|c2=s|nocap=yes|abb1=y}}",
+          "positional_components": [
+            "焚",
+            "頁"
+          ],
+          "positional_components_raw": [
+            "焚",
+            "頁"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "nocap": "yes",
+            "abb1": "y"
+          },
+          "semantic_components": [
+            "頁"
+          ],
+          "phonetic_components": [
+            "焚"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|火|頁|ls=ic|t1=fire|t2=head}}",
+            "positional_components": [
+              "火",
+              "頁"
+            ],
+            "positional_components_raw": [
+              "火",
+              "頁"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "fire",
+              "t2": "head"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|焚|頁|ls=psc|c1=p|c2=s|nocap=yes|abb1=y}}",
+            "positional_components": [
+              "焚",
+              "頁"
+            ],
+            "positional_components_raw": [
+              "焚",
+              "頁"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "nocap": "yes",
+              "abb1": "y"
+            },
+            "semantic_components": [
+              "頁"
+            ],
+            "phonetic_components": [
+              "焚"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
+        "abbreviation": "fac",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "頁",
+            "label_token": "fac(ies)",
+            "abbreviation": "fac",
+            "start_line": 273
+          },
+          {
+            "graph_raw": "頁",
+            "label_token": "fac",
+            "abbreviation": "fac",
+            "learned": true,
+            "evidence_count": 4
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "頁"
       },
-      "transliteration_latex": "{\\large{p\\textoverset{b}{a}n}},",
-      "render_latex": "煩\t%fan2 / fán\n{\\large{p\\textoverset{b}{a}n}},\n\\textit{biən};\t%0264a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{p\\textoverset{b}{a}n\\textsuperscript{·fac}}},",
+      "render_latex": "煩\t%fan2 / fán\n{\\large{p\\textoverset{b}{a}n\\textsuperscript{·fac}}},\n\\textit{biən};\t%0264a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "頁",
+        "phonetic_component": "焚",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "煩",
+          "semantic_component": "頁",
+          "phonetic_component": "焚",
+          "position": "suffix-dot",
+          "abbreviation": "fac",
+          "inventory_matches": [
+            {
+              "graph_raw": "頁",
+              "label_token": "fac(ies)",
+              "abbreviation": "fac",
+              "start_line": 273
+            },
+            {
+              "graph_raw": "頁",
+              "label_token": "fac",
+              "abbreviation": "fac",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ],
+          "template_raw": "{{Han compound|焚|頁|ls=psc|c1=p|c2=s|nocap=yes|abb1=y}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "煩",

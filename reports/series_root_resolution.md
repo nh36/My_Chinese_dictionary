@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 846
-- Packets with at least one root candidate: 844
-- Packets with a single resolved provisional root: 842
+- Missing-series packets inspected: 852
+- Packets with at least one root candidate: 850
+- Packets with a single resolved provisional root: 848
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
+| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -722,10 +722,16 @@
 | `24-52` | 緐→pan [*ban] (None) | `pan` | `head_graph_oc_shengfu` |
 | `24-53` | 班→pan [*pʳa̠n] (None) | `pan` | `head_graph_oc_shengfu` |
 | `24-54` | 釆→per [*bˤrer-s {*[b]ˤre[r]-s}] (0195a) | `per` | `head_graph_oc_bs` |
+| `24-55` | 弁→pon [*C.bron-s {*C.[b]ro[n]-s}] (0220a) | `pon` | `head_graph_oc_bs` |
 | `24-56` | 曼→man [*mˤan-s {*mˤa[n]-s}] (0266a) | `man` | `head_graph_oc_bs` |
+| `24-57` | 㒼→man [*ma̠n] (None) | `man` | `head_graph_oc_shengfu` |
 | `24-58` | 免→mor [*mrorʔ {*mr[o][r]ʔ}] (0222a) | `mor` | `head_graph_oc_bs` |
 | `25-01` | 官→kuan [*kʷˤan {*kʷˤa[n]}] (0157a) | `kuan` | `head_graph_oc_bs` |
 | `25-02` | 雚→quar [*C.qʷˤar-s] (0158a) | `quar` | `head_graph_oc_bs` |
+| `25-03` | 貫→kon [*kˤon {*kˤo[n]}] (0159a) | `kon` | `head_graph_oc_bs` |
+| `25-05` | 盥→kon [*ko̠nʔ] (None) | `kon` | `head_graph_oc_shengfu` |
+| `25-06` | 款→kon [*kʰo̠nʔ] (None) | `kon` | `head_graph_oc_shengfu` |
+| `25-07` | 萈→ɡon [*ɡo̠n] (None) | `ɡon` | `head_graph_oc_shengfu` |
 | `25-11` | 卷→kuen [*gʷren {*[g]ʷren}] (0226a); 卷→kor [*krorʔ {*[k]rorʔ}] (0226a) | `kuen` | `head_graph_mc_coda` |
 | `25-12` | 亘→quar [*ɢʷˤar {*[ɢ]ʷˤar}] (0164a) | `quar` | `head_graph_oc_bs` |
 | `25-14` | 爰→quan [*ɢʷan {*ɢʷa[n]}] (0255a) | `quan` | `head_graph_oc_bs` |
