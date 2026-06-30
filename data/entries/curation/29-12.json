@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-06-30T09:15:01.379959+00:00",
-  "id": "24-13",
+  "generated_at": "2026-06-30T10:44:07.158339+00:00",
+  "id": "29-12",
   "status": "machine-curated-pilot",
   "packet_kind": "missing_series",
   "schuessler": {
-    "gsc_id": "24-13",
-    "rhyme_section": 24,
-    "series_number": 13,
+    "gsc_id": "29-12",
+    "rhyme_section": 29,
+    "series_number": 12,
     "k_tokens": [
-      "254"
+      "394"
     ],
     "has_explicit_k_range": false,
-    "source_remainder_raw": "Man d.        MC                LHan            OCM",
+    "source_remainder_raw": "Mand.      MC            LHan            OCM",
     "is_cross_reference_only": false,
-    "source_page_number": 279,
-    "source_line_number": 14,
-    "source_line_raw": "24-13 = K. 254         Man d.        MC                LHan            OCM"
+    "source_page_number": 323,
+    "source_line_number": 46,
+    "source_line_raw": "29-12 = K. 394      Mand.      MC            LHan            OCM"
   },
   "coverage": {
-    "gsc_id": "24-13",
-    "rhyme_section": "24",
-    "series_number": "13",
-    "schuessler_k_tokens": "254",
-    "schuessler_source_page": "279",
+    "gsc_id": "29-12",
+    "rhyme_section": "29",
+    "series_number": "12",
+    "schuessler_k_tokens": "394",
+    "schuessler_source_page": "323",
     "schuessler_cross_reference_only": "no",
     "in_tex": "no",
     "tex_character_count": "0",
     "tex_characters_sample": null,
     "mand2mc_row_count": "1",
     "mand2mc_character_count": "1",
-    "mand2mc_characters_sample": "㫃",
-    "bs_gsr_row_count": "0",
-    "bs_gsr_character_count": "0",
-    "bs_gsr_characters_sample": null,
+    "mand2mc_characters_sample": "一",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "一",
     "combined_source_character_count": "1",
-    "combined_source_characters_sample": "㫃"
+    "combined_source_characters_sample": "一"
   },
   "tex_entry": null,
   "entry_hierarchy": null,
   "candidate_source_strategy": "schuessler_k_tokens",
   "candidate_source_tokens": [
-    "254"
+    "394"
   ],
   "proposed_additions": [
     {
-      "character": "㫃",
+      "character": "一",
       "in_tex": false,
       "mand2mc_count": 1,
-      "bs_gsr_count": 0,
+      "bs_gsr_count": 1,
       "shengfu_character_count": 1,
       "shengfu_component_count": 1,
       "mand_bs_mc_disagreement": false,
@@ -55,56 +55,70 @@
         "status": "mand2mc-authoritative",
         "authoritative_source": "mand2mc",
         "display_forms": [
-          "qiənX"
+          "qyit"
         ],
         "mand2mc_nwh_forms": [
-          "qiənX"
+          "qyit"
         ],
         "mand2mc_bs_forms": [
-          "'jonX"
+          "'jit"
         ],
-        "bs_gsr_forms": [],
+        "bs_gsr_forms": [
+          "'jit"
+        ],
         "bs_not_in_mand2mc": [],
         "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
         {
-          "source_row_number": "1946",
-          "character": "㫃",
-          "pinyin": "yan3",
-          "mc_nwh": "qiənX",
-          "mc_bs": "'jonX",
-          "gsr": "0254a"
+          "source_row_number": "2897",
+          "character": "一",
+          "pinyin": "yi1",
+          "mc_nwh": "qyit",
+          "mc_bs": "'jit",
+          "gsr": "0394a"
         }
       ],
-      "bs_gsr_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "一",
+          "pinyin": "yī",
+          "mc_bs": "'jit",
+          "mc_analyzed": "('- + -jit D)",
+          "oc_bs": "*ʔit {*ʔi[t]}",
+          "gloss": "one",
+          "gsr": "0394a",
+          "unicode_utf16": "U+4E00"
+        }
+      ],
       "shengfu_character_rows": [
         {
-          "source_row_number": "14872",
-          "character": "㫃",
-          "phonetic_component": "㫃",
+          "source_row_number": "15307",
+          "character": "一",
+          "phonetic_component": "一",
           "component_level": "1",
           "secondary_component": null,
-          "fanqie": "於幰",
+          "fanqie": "於悉",
           "source": "广韵",
-          "oc_initial": "q",
-          "oc_rhyme": "anʔ",
-          "oc_syllable": "qanʔ"
+          "oc_initial": "qˡ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "qiɡ"
         }
       ],
       "shengfu_component_rows": [
         {
-          "source_row_number": "14872",
-          "character": "㫃",
-          "phonetic_component": "㫃",
+          "source_row_number": "15307",
+          "character": "一",
+          "phonetic_component": "一",
           "component_level": "1",
           "secondary_component": null,
-          "fanqie": "於幰",
+          "fanqie": "於悉",
           "source": "广韵",
-          "oc_initial": "q",
-          "oc_rhyme": "anʔ",
-          "oc_syllable": "qanʔ"
+          "oc_initial": "qˡ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "qiɡ"
         }
       ],
       "wiktionary_validation": {
@@ -122,27 +136,27 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{qan}},",
-      "render_latex": "㫃\t%yan3\n{\\large{qan}},\n\\textit{qiənX};\t%0254a",
+      "transliteration_latex": "{\\large{ʔit₂}},",
+      "render_latex": "一\t%yi1 / yī\n{\\large{ʔit₂}},\n\\textit{qyit};\t%0394a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
-        "parent_character": "㫃",
+        "parent_character": "一",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "top_level",
         "source": "shengfu_phonetic_component",
-        "phonetic_hint": "㫃"
+        "phonetic_hint": "一"
       },
       "resolved_node_root": null
     }
   ],
   "all_candidates": [
     {
-      "character": "㫃",
+      "character": "一",
       "in_tex": false,
       "mand2mc_count": 1,
-      "bs_gsr_count": 0,
+      "bs_gsr_count": 1,
       "shengfu_character_count": 1,
       "shengfu_component_count": 1,
       "mand_bs_mc_disagreement": false,
@@ -150,56 +164,70 @@
         "status": "mand2mc-authoritative",
         "authoritative_source": "mand2mc",
         "display_forms": [
-          "qiənX"
+          "qyit"
         ],
         "mand2mc_nwh_forms": [
-          "qiənX"
+          "qyit"
         ],
         "mand2mc_bs_forms": [
-          "'jonX"
+          "'jit"
         ],
-        "bs_gsr_forms": [],
+        "bs_gsr_forms": [
+          "'jit"
+        ],
         "bs_not_in_mand2mc": [],
         "mand2mc_not_in_bs_gsr": [],
         "needs_investigation": false
       },
       "mand2mc_rows": [
         {
-          "source_row_number": "1946",
-          "character": "㫃",
-          "pinyin": "yan3",
-          "mc_nwh": "qiənX",
-          "mc_bs": "'jonX",
-          "gsr": "0254a"
+          "source_row_number": "2897",
+          "character": "一",
+          "pinyin": "yi1",
+          "mc_nwh": "qyit",
+          "mc_bs": "'jit",
+          "gsr": "0394a"
         }
       ],
-      "bs_gsr_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "一",
+          "pinyin": "yī",
+          "mc_bs": "'jit",
+          "mc_analyzed": "('- + -jit D)",
+          "oc_bs": "*ʔit {*ʔi[t]}",
+          "gloss": "one",
+          "gsr": "0394a",
+          "unicode_utf16": "U+4E00"
+        }
+      ],
       "shengfu_character_rows": [
         {
-          "source_row_number": "14872",
-          "character": "㫃",
-          "phonetic_component": "㫃",
+          "source_row_number": "15307",
+          "character": "一",
+          "phonetic_component": "一",
           "component_level": "1",
           "secondary_component": null,
-          "fanqie": "於幰",
+          "fanqie": "於悉",
           "source": "广韵",
-          "oc_initial": "q",
-          "oc_rhyme": "anʔ",
-          "oc_syllable": "qanʔ"
+          "oc_initial": "qˡ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "qiɡ"
         }
       ],
       "shengfu_component_rows": [
         {
-          "source_row_number": "14872",
-          "character": "㫃",
-          "phonetic_component": "㫃",
+          "source_row_number": "15307",
+          "character": "一",
+          "phonetic_component": "一",
           "component_level": "1",
           "secondary_component": null,
-          "fanqie": "於幰",
+          "fanqie": "於悉",
           "source": "广韵",
-          "oc_initial": "q",
-          "oc_rhyme": "anʔ",
-          "oc_syllable": "qanʔ"
+          "oc_initial": "qˡ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "qiɡ"
         }
       ]
     }
@@ -210,30 +238,30 @@
   ],
   "series_root_candidates": [
     {
-      "character": "㫃",
-      "gsr": null,
-      "oc_bs": "*qanʔ",
-      "root": "qan",
-      "source": "head_graph_oc_shengfu",
+      "character": "一",
+      "gsr": "0394a",
+      "oc_bs": "*ʔit {*ʔi[t]}",
+      "root": "ʔit",
+      "source": "head_graph_oc_bs",
       "support_count": 1,
       "supporting_sources": [
-        "head_graph_oc_shengfu"
+        "head_graph_oc_bs"
       ]
     }
   ],
   "resolved_series_root": {
-    "root": "qan",
-    "source": "head_graph_oc_shengfu",
-    "character": "㫃",
-    "oc_bs": "*qanʔ",
+    "root": "ʔit",
+    "source": "head_graph_oc_bs",
+    "character": "一",
+    "oc_bs": "*ʔit {*ʔi[t]}",
     "confidence": "provisional-oc",
     "support_count": 1,
     "supporting_sources": [
-      "head_graph_oc_shengfu"
+      "head_graph_oc_bs"
     ],
-    "display_root": "qan",
-    "base_root": "qan",
-    "ordinal": 1,
+    "display_root": "ʔit₂",
+    "base_root": "ʔit",
+    "ordinal": 2,
     "numbering_source": "document_order_occurrence"
   }
 }

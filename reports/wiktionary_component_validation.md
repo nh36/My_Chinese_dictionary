@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5992
-- Pages fetched / cached successfully: 5902
-- Additions with explicit Han-compound semantic/phonetic roles: 2719
+- Proposed additions checked: 6008
+- Pages fetched / cached successfully: 5918
+- Additions with explicit Han-compound semantic/phonetic roles: 2722
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4926,6 +4926,12 @@
 | `29-02` | 鞂 | yes | no |  |  |
 | `29-03` | 棄 | yes | no |  |  |
 | `29-04` | 屆 | yes | yes | 尸 | 凷 |
+| `29-06` | 穴 | yes | no |  |  |
+| `29-06` | 泬 | yes | no |  |  |
+| `29-06` | 鴥 | yes | no |  |  |
+| `29-07` | 血 | yes | no |  |  |
+| `29-07` | 恤 | yes | yes | 心 | 血 |
+| `29-07` | 卹 | yes | no |  |  |
 | `29-08` | 惠 | yes | yes | 心 | 叀 |
 | `29-08` | 叀 | yes | no |  |  |
 | `29-08` | 蟪 | yes | no |  |  |
@@ -4945,6 +4951,11 @@
 | `29-09` | 隧 | yes | no |  |  |
 | `29-09` | 旞 | yes | yes | 㫃 | 遂 |
 | `29-09` | 邃 | yes | yes | 穴 | 遂 |
+| `29-10` | 彗 | yes | no |  |  |
+| `29-10` | 篲 | yes | no |  |  |
+| `29-10` | 嘒 | yes | no |  |  |
+| `29-10` | 慧 | yes | yes | 心 | 彗 |
+| `29-10` | 譿 | yes | no |  |  |
 | `29-11` | 矞 | yes | no |  |  |
 | `29-11` | 遹 | yes | no |  |  |
 | `29-11` | 驈 | yes | no |  |  |
@@ -4959,6 +4970,7 @@
 | `29-11` | 鐍 | yes | no |  |  |
 | `29-11` | 潏 | yes | no |  |  |
 | `29-11` | 瞲 | yes | no |  |  |
+| `29-12` | 一 | yes | no |  |  |
 | `29-13` | 壹 | yes | yes | 壺 | 吉 |
 | `29-13` | 噎 | yes | yes | 口 | 壹 |
 | `29-13` | 㦤 | yes | no |  |  |
@@ -4967,6 +4979,7 @@
 | `29-13` | 曀 | yes | no |  |  |
 | `29-13` | 㙪 | yes | no |  |  |
 | `29-13` | 殪 | yes | no |  |  |
+| `29-14` | 替 | yes | no |  |  |
 | `29-15` | 至 | yes | no |  |  |
 | `29-15` | 致 | yes | yes | 攴 | 至 |
 | `29-15` | 輊 | yes | no |  |  |
@@ -4980,6 +4993,9 @@
 | `29-15` | 姪 | yes | yes | 女 | 至 |
 | `29-15` | 絰 | yes | no |  |  |
 | `29-15` | 耊 | yes | no |  |  |
+| `29-16` | 疐 | yes | no |  |  |
+| `29-16` | 懥 | yes | no |  |  |
+| `29-16` | 嚏 | yes | yes | 口 | 疐 |
 | `29-17` | 失 | yes | no |  |  |
 | `29-17` | 佚 | yes | yes | 人 | 失 |
 | `29-17` | 泆 | yes | yes | 水 | 失 |

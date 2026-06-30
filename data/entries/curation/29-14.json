@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-06-30T10:44:07.158568+00:00",
+  "id": "29-14",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "29-14",
+    "rhyme_section": 29,
+    "series_number": 14,
+    "k_tokens": [
+      "1241j"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC             LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 324,
+    "source_line_number": 12,
+    "source_line_raw": "29-14 = K. 1241j Man d.        MC             LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "29-14",
+    "rhyme_section": "29",
+    "series_number": "14",
+    "schuessler_k_tokens": "1241j",
+    "schuessler_source_page": "324",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "替",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "替",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "替"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1241j"
+  ],
+  "proposed_additions": [
+    {
+      "character": "替",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "theyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "theyH"
+        ],
+        "mand2mc_bs_forms": [
+          "thejH"
+        ],
+        "bs_gsr_forms": [
+          "thejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9073",
+          "character": "替",
+          "pinyin": "ti4",
+          "mc_nwh": "theyH",
+          "mc_bs": "thejH",
+          "gsr": "1241j"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "替",
+          "pinyin": "tì",
+          "mc_bs": "thejH",
+          "mc_analyzed": "(th- + -ej C)",
+          "oc_bs": "*n̥ˤit-s {*n̥ˤi[t]-s}",
+          "gloss": "discard",
+          "gsr": "1241j",
+          "unicode_utf16": "U+66FF"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12937",
+          "character": "替",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他計",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "l̥i̠ds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12936",
+          "character": "僣",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他結",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠d",
+          "oc_syllable": "l̥i̠d"
+        },
+        {
+          "source_row_number": "12937",
+          "character": "替",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他計",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "l̥i̠ds"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|竝|曰|ls=ic}}",
+          "positional_components": [
+            "竝",
+            "曰"
+          ],
+          "positional_components_raw": [
+            "竝",
+            "曰"
+          ],
+          "named_args": {
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|竝|曰|ls=ic}}",
+            "positional_components": [
+              "竝",
+              "曰"
+            ],
+            "positional_components_raw": [
+              "竝",
+              "曰"
+            ],
+            "named_args": {
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{nit₃}},",
+      "render_latex": "替\t%ti4 / tì\n{\\large{nit₃}},\n\\textit{theyH};\t%1241j",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "替",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "替"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "替",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 2,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "theyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "theyH"
+        ],
+        "mand2mc_bs_forms": [
+          "thejH"
+        ],
+        "bs_gsr_forms": [
+          "thejH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9073",
+          "character": "替",
+          "pinyin": "ti4",
+          "mc_nwh": "theyH",
+          "mc_bs": "thejH",
+          "gsr": "1241j"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "186",
+          "character": "替",
+          "pinyin": "tì",
+          "mc_bs": "thejH",
+          "mc_analyzed": "(th- + -ej C)",
+          "oc_bs": "*n̥ˤit-s {*n̥ˤi[t]-s}",
+          "gloss": "discard",
+          "gsr": "1241j",
+          "unicode_utf16": "U+66FF"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12937",
+          "character": "替",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他計",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "l̥i̠ds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12936",
+          "character": "僣",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他結",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠d",
+          "oc_syllable": "l̥i̠d"
+        },
+        {
+          "source_row_number": "12937",
+          "character": "替",
+          "phonetic_component": "替",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "他計",
+          "source": "广韵",
+          "oc_initial": "l̥",
+          "oc_rhyme": "i̠ds",
+          "oc_syllable": "l̥i̠ds"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "替",
+      "gsr": "1241j",
+      "oc_bs": "*n̥ˤit-s {*n̥ˤi[t]-s}",
+      "root": "nit",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    },
+    {
+      "character": "替",
+      "gsr": null,
+      "oc_bs": "*l̥i̠ds",
+      "root": "lit",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "nit",
+    "source": "head_graph_bs_head",
+    "character": "替",
+    "oc_bs": "*n̥ˤit-s {*n̥ˤi[t]-s}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "nit₃",
+    "base_root": "nit",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

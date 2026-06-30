@@ -963,6 +963,12 @@ DEFAULT_IDS = [
     "29-02",
     "29-03",
     "29-04",
+    "29-06",
+    "29-07",
+    "29-10",
+    "29-12",
+    "29-14",
+    "29-16",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"
