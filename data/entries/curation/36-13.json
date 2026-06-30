@@ -1,0 +1,183 @@
+{
+  "generated_at": "2026-06-30T13:12:51.148380+00:00",
+  "id": "36-13",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "36-13",
+    "rhyme_section": 36,
+    "series_number": 13,
+    "k_tokens": [
+      "1247a"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.              MC                LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 375,
+    "source_line_number": 27,
+    "source_line_raw": "36-13 = K. 1247a Mand.              MC                LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "36-13",
+    "rhyme_section": "36",
+    "series_number": "13",
+    "schuessler_k_tokens": "1247a",
+    "schuessler_source_page": "375",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "豓",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "豓"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1247a"
+  ],
+  "proposed_additions": [
+    {
+      "character": "豓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "yemH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9113",
+          "character": "豓",
+          "pinyin": "yan4",
+          "mc_nwh": "yiemH",
+          "mc_bs": "yemH",
+          "gsr": "1247a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{lim₂}},",
+      "render_latex": "豓\t%yan4\n{\\large{lim₂}},\n\\textit{yiemH};\t%1247a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "豓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "yemH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9113",
+          "character": "豓",
+          "pinyin": "yan4",
+          "mc_nwh": "yiemH",
+          "mc_bs": "yemH",
+          "gsr": "1247a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "豓",
+      "gsr": null,
+      "oc_bs": "*l̥ˤimʔ-s {*l̥ˤ[i]mʔ-s}",
+      "root": "lim",
+      "source": "same_character_series_root",
+      "support_count": 2,
+      "supporting_sources": [
+        "same_character_series_root",
+        "head_graph_supplement"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "lim",
+    "source": "same_character_series_root",
+    "character": "豓",
+    "oc_bs": "*l̥ˤimʔ-s {*l̥ˤ[i]mʔ-s}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "same_character_series_root",
+      "head_graph_supplement"
+    ],
+    "head_gloss": "K.1247 head graph with MC yiemH",
+    "head_note": "This packet has only Mand2MC 1247a and no BS-GSR/shengfu rows, while the local Wiktionary cache for 豓 has no extractable wikitext. We therefore use the attested K.1247 OC family root (from 1247c) so 豓 remains renderable without conflating it with separate 艷/艶/豔 variant handling.",
+    "display_root": "lim₂",
+    "base_root": "lim",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1498
-- Roots whose display label changed after document-wide renumbering: 916
-- Duplicate phonetic bases encountered in document order: 350
+- Mutable series/subseries roots inspected: 1505
+- Roots whose display label changed after document-wide renumbering: 922
+- Duplicate phonetic bases encountered in document order: 354
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1615,3 +1615,10 @@
 | `36-02` | `subseries-root` | 闞 | `k\textoverset{a}{a}m` | 4 | `k\textoverset{a}{a}m₄` | yes |
 | `36-02` | `subseries-root` | 𠪚 | `kam` | 3 | `kam₃` | yes |
 | `36-02` | `subseries-root` | 嚴 | `ŋram` | 1 | `ŋram` | yes |
+| `36-03` | `series-root` | 銜 | `kam` | 4 | `kam₄` | yes |
+| `36-04` | `series-root` | 欠 | `kom` | 2 | `kom₂` | yes |
+| `36-09` | `series-root` | 弇 | `kop` | 2 | `kop₂` | yes |
+| `36-10` | `series-root` | 猒 | `ʔem` | 1 | `ʔem` | yes |
+| `36-10` | `subseries-root` | 厭 | `ʔem` | 2 | `ʔem₂` | yes |
+| `36-13` | `series-root` | 豓 | `lim` | 2 | `lim₂` | yes |
+| `36-16` | `series-root` | 銛 | `kot` | 4 | `kot₄` | yes |

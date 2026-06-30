@@ -1263,9 +1263,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=psc|山|嚴|c1=s|c2=p|t1=mountain}}",
+          "positional_components": [
+            "山",
+            "嚴"
+          ],
+          "positional_components_raw": [
+            "山",
+            "嚴"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "mountain"
+          },
+          "semantic_components": [
+            "山"
+          ],
+          "phonetic_components": [
+            "嚴"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=psc|山|嚴|c1=s|c2=p|t1=mountain}}",
+            "positional_components": [
+              "山",
+              "嚴"
+            ],
+            "positional_components_raw": [
+              "山",
+              "嚴"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "mountain"
+            },
+            "semantic_components": [
+              "山"
+            ],
+            "phonetic_components": [
+              "嚴"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -1313,19 +1359,46 @@
             "evidence_count": 4
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "山"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{mon˸}ŋram}},",
       "render_latex": "巖\t%yan2 / yán\n{\\large{\\textsuperscript{mon˸}ŋram}},\n\\textit{ṅaem};\t%0607l",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "山",
+        "phonetic_component": "嚴",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "巖",
+          "semantic_component": "山",
+          "phonetic_component": "嚴",
+          "position": "prefix-colon",
+          "abbreviation": "mon",
+          "inventory_matches": [
+            {
+              "graph_raw": "山",
+              "label_token": "mon(s)",
+              "abbreviation": "mon",
+              "start_line": 327
+            },
+            {
+              "graph_raw": "山",
+              "label_token": "mon",
+              "abbreviation": "mon",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ],
+          "template_raw": "{{Han compound|ls=psc|山|嚴|c1=s|c2=p|t1=mountain}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "嚴",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "shengfu_secondary_component",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "嚴"
       },
       "resolved_node_root": null

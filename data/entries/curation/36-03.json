@@ -1,0 +1,304 @@
+{
+  "generated_at": "2026-06-30T13:12:51.146794+00:00",
+  "id": "36-03",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "36-03",
+    "rhyme_section": 36,
+    "series_number": 3,
+    "k_tokens": [
+      "608"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC               LHan                        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 372,
+    "source_line_number": 4,
+    "source_line_raw": "36-3 = K. 608    Mand.        MC               LHan                        OCM"
+  },
+  "coverage": {
+    "gsc_id": "36-03",
+    "rhyme_section": "36",
+    "series_number": "3",
+    "schuessler_k_tokens": "608",
+    "schuessler_source_page": "372",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "銜",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "銜",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "銜"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "608"
+  ],
+  "proposed_additions": [
+    {
+      "character": "銜",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫaem"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫaem"
+        ],
+        "mand2mc_bs_forms": [
+          "haem"
+        ],
+        "bs_gsr_forms": [
+          "haem"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4383",
+          "character": "銜",
+          "pinyin": "xian2",
+          "mc_nwh": "ḫaem",
+          "mc_bs": "haem",
+          "gsr": "0608a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "92",
+          "character": "銜",
+          "pinyin": "xián",
+          "mc_bs": "haem",
+          "mc_analyzed": "(h- + -aem A)",
+          "oc_bs": "*Cə.gˤram {*Cə.[g]ˤr[a]m}",
+          "gloss": "a bit; hold in the mouth",
+          "gsr": "0608a",
+          "unicode_utf16": "U+929C"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7187",
+          "character": "銜",
+          "phonetic_component": "今",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "户監",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "a̠m",
+          "oc_syllable": "ɡʳa̠m"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|行|金|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "行",
+            "金"
+          ],
+          "positional_components_raw": [
+            "行",
+            "金"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "行"
+          ],
+          "phonetic_components": [
+            "金"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|行|金|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "行",
+              "金"
+            ],
+            "positional_components_raw": [
+              "行",
+              "金"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "行"
+            ],
+            "phonetic_components": [
+              "金"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{eo·}kam₄}},",
+      "render_latex": "銜\t%xian2 / xián\n{\\large{\\textsuperscript{eo·}kam₄}},\n\\textit{ḫaem};\t%0608a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "行",
+        "phonetic_component": "金",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "銜",
+          "semantic_component": "行",
+          "phonetic_component": "金",
+          "position": "prefix-dot",
+          "abbreviation": "eo",
+          "inventory_matches": [
+            {
+              "graph_raw": "行",
+              "label_token": "eo",
+              "abbreviation": "eo",
+              "start_line": 266
+            }
+          ],
+          "template_raw": "{{Han compound|行|金|c1=s|c2=p|ls=psc}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "eo",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "行",
+            "label_token": "eo",
+            "abbreviation": "eo",
+            "start_line": 266
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "行"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "銜",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫaem"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫaem"
+        ],
+        "mand2mc_bs_forms": [
+          "haem"
+        ],
+        "bs_gsr_forms": [
+          "haem"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4383",
+          "character": "銜",
+          "pinyin": "xian2",
+          "mc_nwh": "ḫaem",
+          "mc_bs": "haem",
+          "gsr": "0608a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "92",
+          "character": "銜",
+          "pinyin": "xián",
+          "mc_bs": "haem",
+          "mc_analyzed": "(h- + -aem A)",
+          "oc_bs": "*Cə.gˤram {*Cə.[g]ˤr[a]m}",
+          "gloss": "a bit; hold in the mouth",
+          "gsr": "0608a",
+          "unicode_utf16": "U+929C"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7187",
+          "character": "銜",
+          "phonetic_component": "今",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "户監",
+          "source": "广韵",
+          "oc_initial": "ɡʳ",
+          "oc_rhyme": "a̠m",
+          "oc_syllable": "ɡʳa̠m"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "銜",
+      "gsr": "0608a",
+      "oc_bs": "*Cə.gˤram {*Cə.[g]ˤr[a]m}",
+      "root": "kam",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "kam",
+    "source": "head_graph_oc_bs",
+    "character": "銜",
+    "oc_bs": "*Cə.gˤram {*Cə.[g]ˤr[a]m}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "kam₄",
+    "base_root": "kam",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}

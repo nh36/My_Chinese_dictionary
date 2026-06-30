@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1070
+- Generated subgroup heads inspected: 1074
 - Subgroups newly marked with `a`: 137
 - Subgroups newly marked with `b`: 113
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 374
-- Mixed subgroups left unmarked: 442
+- Mixed subgroups left unmarked: 446
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -1030,12 +1030,16 @@
 | `36-02` | 嚴 | `ŋram` | `ŋram` | `mixed` | no | `ṅiaem, ṅiaemX, ṅaem, xiemX` | the extracted forms point to both type a and type b |
 | `36-02` | 夏 | `gra` | `gr\textoverset{a}{a}` | `a` | yes | `ḫaeH, ḫaeX` | all extracted forms lack an i-medial after the onset |
 | `36-02` | 𠪚 | `kam` | `kam₃` | `mixed` | no | `ngim, ṅiaem, ṅiaemX, ṅaem, xiemX` | the extracted forms point to both type a and type b |
+| `36-04` | 欠 | `khom` | `khom` | `mixed` | no | `khiaemH, khiəmH, giaemH, giemH, giemX, khəmX` | the extracted forms point to both type a and type b |
 | `36-05` | 監 | `kam` | `k\textoverset{a}{a}m` | `a` | yes | `kaem, kaemH, ḫaemH, ḫaemX, ḫamX, lamH, ḫamH, lamX, lam, hamX` | all extracted forms lack an i-medial after the onset |
 | `36-05` | 㯺 | `kam` | `k\textoverset{a}{a}m₂` | `a` | yes | `ḫaemX, lamX` | all extracted forms lack an i-medial after the onset |
 | `36-05` | 覽 | `kam` | `k\textoverset{a}{a}m₃` | `a` | yes | `lamX` | all extracted forms lack an i-medial after the onset |
 | `36-06` | 僉 | `som` | `s\textoverset{b}{o}m` | `b` | yes | `tshiem, siem, tshiemX, kiemX, giemX, hiaemX, hiemX, ṅiemH, kiaemH, kiəmH, liem, liemH, liemX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `36-06` | 斂 | `ram` | `r\textoverset{b}{a}m` | `b` | yes | `liemH, liemX, liem` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `36-07` | 兼 | `kem` | `kem` | `mixed` | no | `kem, kemH, hemX, khemX, khep, kheamH, kheamX, khem, lem, ṇiem, liem, hem` | the extracted forms point to both type a and type b |
+| `36-09` | 弇 | `kop` | `kop` | `mixed` | no | `kəm, qiemX, qiaemX, qamX` | the extracted forms point to both type a and type b |
+| `36-10` | 猒 | `ʔem` | `ʔem` | `mixed` | no | `qyiem, qyiemH, qeamX, qyiep, qiemH, qyiemX, qaep` | the extracted forms point to both type a and type b |
+| `36-10` | 厭 | `ʔem` | `ʔem₂` | `mixed` | no | `qeamX, qyiem, qyiep, qiemH, qyiemX, qaep` | the extracted forms point to both type a and type b |
 | `36-11` | 詹 | `tam` | `tam₃` | `mixed` | no | `ciem, chiem, chiemH, jiemH, yiem, tam, jiem, tamH, tamX, damH, damX` | the extracted forms point to both type a and type b |
 | `36-11` | 厃 | `tam` | `tam₂` | `mixed` | no | `tsyem, ciem, chiem, chiemH, jiemH, yiem, tam, jiem, tamH, tamX, damH, damX` | the extracted forms point to both type a and type b |
 | `36-12` | 占 | `tem` | `tem` | `mixed` | no | `ciem, ṭiem, yiem, ṭhiem, ṭhiemH, thep, chiem, śiem, śiemH, temH, temX, nem` | the extracted forms point to both type a and type b |

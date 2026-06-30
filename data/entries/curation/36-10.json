@@ -1,0 +1,1970 @@
+{
+  "generated_at": "2026-06-30T13:12:51.148048+00:00",
+  "id": "36-10",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "36-10",
+    "rhyme_section": 36,
+    "series_number": 10,
+    "k_tokens": [
+      "616"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC               LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 374,
+    "source_line_number": 18,
+    "source_line_raw": "36-10 = K. 616      Man d.       MC               LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "36-10",
+    "rhyme_section": "36",
+    "series_number": "10",
+    "schuessler_k_tokens": "616",
+    "schuessler_source_page": "374",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "9",
+    "mand2mc_character_count": "6",
+    "mand2mc_characters_sample": "猒; 厭; 饜; 檿; 擪; 壓",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "厭; 饜",
+    "combined_source_character_count": "6",
+    "combined_source_characters_sample": "猒; 厭; 饜; 檿; 擪; 壓"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "616"
+  ],
+  "proposed_additions": [
+    {
+      "character": "猒",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiem",
+          "qyiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiem",
+          "qyiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiem",
+          "'jiemH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4459",
+          "character": "猒",
+          "pinyin": "yan1",
+          "mc_nwh": "qyiem",
+          "mc_bs": "'jiem",
+          "gsr": "0616a"
+        },
+        {
+          "source_row_number": "4460",
+          "character": "猒",
+          "pinyin": "yan4",
+          "mc_nwh": "qyiemH",
+          "mc_bs": "'jiemH",
+          "gsr": "0616a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{ʔem}},",
+      "render_latex": "猒\t%yan1 / yan4\n{\\large{ʔem}},\n\\textit{qyiem};\t%0616a\n\\textit{qyiemH};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "ʔem",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 5,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ʔem"
+        ],
+        "bs_node_roots": [
+          "qem",
+          "qrem"
+        ],
+        "display_root": "ʔem",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "qyiem",
+          "qyiemH",
+          "qeamX",
+          "qyiep",
+          "qiemH",
+          "qyiemX",
+          "qaep"
+        ],
+        "form_analyses": [
+          {
+            "form": "qyiem",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qyiemH",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qeamX",
+            "normalized": "qeam",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qyiep",
+            "normalized": "qyiep",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiemH",
+            "normalized": "qiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qyiemX",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qaep",
+            "normalized": "qaep",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "厭",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 15,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qeamX",
+          "qyiem",
+          "qyiep"
+        ],
+        "mand2mc_nwh_forms": [
+          "qeamX",
+          "qyiem",
+          "qyiep"
+        ],
+        "mand2mc_bs_forms": [
+          "'eamX",
+          "'jiem",
+          "'jiep"
+        ],
+        "bs_gsr_forms": [
+          "'jiem"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "'eamX",
+          "'jiep"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4461",
+          "character": "厭",
+          "pinyin": "yan3",
+          "mc_nwh": "qeamX",
+          "mc_bs": "'eamX",
+          "gsr": "0616c"
+        },
+        {
+          "source_row_number": "4462",
+          "character": "厭",
+          "pinyin": "yan1",
+          "mc_nwh": "qyiem",
+          "mc_bs": "'jiem",
+          "gsr": "0616c"
+        },
+        {
+          "source_row_number": "4463",
+          "character": "厭",
+          "pinyin": "ya1",
+          "mc_nwh": "qyiep",
+          "mc_bs": "'jiep",
+          "gsr": "0616c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "93",
+          "character": "厭",
+          "pinyin": "yān",
+          "mc_bs": "'jiem",
+          "mc_analyzed": "('- + -jiem A)",
+          "oc_bs": "*ʔem",
+          "gloss": "contented (adj.)",
+          "gsr": "0616c",
+          "unicode_utf16": "U+53AD"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14948",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14951",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14955",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14957",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "14944",
+          "character": "壓",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "烏甲",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qʳe̠b"
+        },
+        {
+          "source_row_number": "14945",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14946",
+          "character": "靨",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14947",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14948",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14949",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一牒",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qe̠b"
+        },
+        {
+          "source_row_number": "14950",
+          "character": "懕",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14951",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14952",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14953",
+          "character": "黶",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14954",
+          "character": "檿",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14955",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14956",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14957",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        },
+        {
+          "source_row_number": "14958",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "caut",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "厂",
+            "label_token": "caut(es)",
+            "abbreviation": "caut",
+            "start_line": 221
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "厂"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{caut·}ʔem}},",
+      "render_latex": "厭\t%yan3 / yan1 / ya1 / yān\n{\\large{\\textsuperscript{caut·}ʔem}},\n\\textit{qeamX};\t%0616c\n\\textit{qyiem};\n\\textit{qyiep};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "猒",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "猒"
+      },
+      "resolved_node_root": {
+        "root": "ʔem",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 4,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ʔem"
+        ],
+        "bs_node_roots": [
+          "qem",
+          "qrem"
+        ],
+        "display_root": "ʔem₂",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "qeamX",
+          "qyiem",
+          "qyiep",
+          "qiemH",
+          "qyiemX",
+          "qaep"
+        ],
+        "form_analyses": [
+          {
+            "form": "qeamX",
+            "normalized": "qeam",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "qyiem",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qyiep",
+            "normalized": "qyiep",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qiemH",
+            "normalized": "qiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qyiemX",
+            "normalized": "qyiem",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "qaep",
+            "normalized": "qaep",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "ʔem",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
+    },
+    {
+      "character": "饜",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "qiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "'jemH"
+        ],
+        "bs_gsr_forms": [
+          "'jemH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4464",
+          "character": "饜",
+          "pinyin": "yan4",
+          "mc_nwh": "qiemH",
+          "mc_bs": "'jemH",
+          "gsr": "0616d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "93",
+          "character": "饜",
+          "pinyin": "yàn",
+          "mc_bs": "'jemH",
+          "mc_analyzed": "('- + -jem C)",
+          "oc_bs": "*ʔ<r>em-s",
+          "gloss": "satiated",
+          "gsr": "0616d",
+          "unicode_utf16": "U+995C"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厭|食|c1=p|c2=s|t2=food|ls=psc}}",
+          "positional_components": [
+            "厭",
+            "食"
+          ],
+          "positional_components_raw": [
+            "厭",
+            "食"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "food",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "食"
+          ],
+          "phonetic_components": [
+            "厭"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厭|食|c1=p|c2=s|t2=food|ls=psc}}",
+            "positional_components": [
+              "厭",
+              "食"
+            ],
+            "positional_components_raw": [
+              "厭",
+              "食"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "food",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "食"
+            ],
+            "phonetic_components": [
+              "厭"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ed",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "食",
+            "label_token": "ed(o)",
+            "abbreviation": "ed",
+            "start_line": 265
+          },
+          {
+            "graph_raw": "食",
+            "label_token": "ed",
+            "abbreviation": "ed",
+            "learned": true,
+            "evidence_count": 6
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "食"
+      },
+      "transliteration_latex": "{\\large{ʔem₂\\textsuperscript{·ed}}},",
+      "render_latex": "饜\t%yan4 / yàn\n{\\large{ʔem₂\\textsuperscript{·ed}}},\n\\textit{qiemH};\t%0616d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "食",
+        "phonetic_component": "厭",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "饜",
+          "semantic_component": "食",
+          "phonetic_component": "厭",
+          "position": "suffix-dot",
+          "abbreviation": "ed",
+          "inventory_matches": [
+            {
+              "graph_raw": "食",
+              "label_token": "ed(o)",
+              "abbreviation": "ed",
+              "start_line": 265
+            },
+            {
+              "graph_raw": "食",
+              "label_token": "ed",
+              "abbreviation": "ed",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ],
+          "template_raw": "{{Han compound|厭|食|c1=p|c2=s|t2=food|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "厭"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "檿",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiemX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4465",
+          "character": "檿",
+          "pinyin": "yan3",
+          "mc_nwh": "qyiemX",
+          "mc_bs": "'jiemX",
+          "gsr": "0616f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14954",
+          "character": "檿",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "檿",
+          "ids": "⿸厭木",
+          "phonetic_component": "厭",
+          "semantic_component": "木",
+          "position": "suffix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "arb",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "木",
+            "label_token": "arb(or)",
+            "abbreviation": "arb",
+            "start_line": 203
+          },
+          {
+            "graph_raw": "木",
+            "label_token": "arb",
+            "abbreviation": "arb",
+            "learned": true,
+            "evidence_count": 22
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "木"
+      },
+      "transliteration_latex": "{\\large{ʔem₂\\textsuperscript{·arb}}},",
+      "render_latex": "檿\t%yan3\n{\\large{ʔem₂\\textsuperscript{·arb}}},\n\\textit{qyiemX};\t%0616f",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "厭"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "擪",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiemX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4466",
+          "character": "擪",
+          "pinyin": "ye4",
+          "mc_nwh": "qyiemX",
+          "mc_bs": "'jiemX",
+          "gsr": "0616g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14945",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14949",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一牒",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qe̠b"
+        },
+        {
+          "source_row_number": "14956",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厭|手|c1=p|c2=s|t2=hand|ls=psc}}",
+          "positional_components": [
+            "厭",
+            "手"
+          ],
+          "positional_components_raw": [
+            "厭",
+            "手"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "hand",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "厭"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厭|手|c1=p|c2=s|t2=hand|ls=psc}}",
+            "positional_components": [
+              "厭",
+              "手"
+            ],
+            "positional_components_raw": [
+              "厭",
+              "手"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "hand",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "厭"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "擪",
+          "ids": "⿸厭手",
+          "phonetic_component": "厭",
+          "semantic_component": "手",
+          "position": "suffix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "man",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "手",
+            "label_token": "man(us)",
+            "abbreviation": "man",
+            "start_line": 319
+          },
+          {
+            "graph_raw": "手",
+            "label_token": "man",
+            "abbreviation": "man",
+            "learned": true,
+            "evidence_count": 20
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "手"
+      },
+      "transliteration_latex": "{\\large{ʔem₂\\textsuperscript{·man}}},",
+      "render_latex": "擪\t%ye4\n{\\large{ʔem₂\\textsuperscript{·man}}},\n\\textit{qyiemX};\t%0616g",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "厭",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "擪",
+          "semantic_component": "手",
+          "phonetic_component": "厭",
+          "position": "suffix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ],
+          "template_raw": "{{Han compound|厭|手|c1=p|c2=s|t2=hand|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "厭"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "壓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qaep"
+        ],
+        "mand2mc_nwh_forms": [
+          "qaep"
+        ],
+        "mand2mc_bs_forms": [
+          "'aep"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4467",
+          "character": "壓",
+          "pinyin": "ya1",
+          "mc_nwh": "qaep",
+          "mc_bs": "'aep",
+          "gsr": "0616h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14944",
+          "character": "壓",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "烏甲",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qʳe̠b"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厭|土|c1=p|c2=s|t2=dust|ls=psc}}",
+          "positional_components": [
+            "厭",
+            "土"
+          ],
+          "positional_components_raw": [
+            "厭",
+            "土"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "dust",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "土"
+          ],
+          "phonetic_components": [
+            "厭"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厭|土|c1=p|c2=s|t2=dust|ls=psc}}",
+            "positional_components": [
+              "厭",
+              "土"
+            ],
+            "positional_components_raw": [
+              "厭",
+              "土"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "dust",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "土"
+            ],
+            "phonetic_components": [
+              "厭"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "壓",
+          "ids": "⿱厭土",
+          "phonetic_component": "厭",
+          "semantic_component": "土",
+          "position": "suffix-colon",
+          "abbreviation": "terr",
+          "inventory_matches": [
+            {
+              "graph_raw": "土",
+              "label_token": "terr(a)",
+              "abbreviation": "terr",
+              "start_line": 406
+            },
+            {
+              "graph_raw": "土",
+              "label_token": "terr",
+              "abbreviation": "terr",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "terr",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "土",
+            "label_token": "terr(a)",
+            "abbreviation": "terr",
+            "start_line": 406
+          },
+          {
+            "graph_raw": "土",
+            "label_token": "terr",
+            "abbreviation": "terr",
+            "learned": true,
+            "evidence_count": 6
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "土"
+      },
+      "transliteration_latex": "{\\large{ʔem₂\\textsuperscript{˸terr}}},",
+      "render_latex": "壓\t%ya1\n{\\large{ʔem₂\\textsuperscript{˸terr}}},\n\\textit{qaep};\t%0616h",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "土",
+        "phonetic_component": "厭",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "壓",
+          "semantic_component": "土",
+          "phonetic_component": "厭",
+          "position": "suffix-colon",
+          "abbreviation": "terr",
+          "inventory_matches": [
+            {
+              "graph_raw": "土",
+              "label_token": "terr(a)",
+              "abbreviation": "terr",
+              "start_line": 406
+            },
+            {
+              "graph_raw": "土",
+              "label_token": "terr",
+              "abbreviation": "terr",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ],
+          "template_raw": "{{Han compound|厭|土|c1=p|c2=s|t2=dust|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厭",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "厭"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "猒",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiem",
+          "qyiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiem",
+          "qyiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiem",
+          "'jiemH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4459",
+          "character": "猒",
+          "pinyin": "yan1",
+          "mc_nwh": "qyiem",
+          "mc_bs": "'jiem",
+          "gsr": "0616a"
+        },
+        {
+          "source_row_number": "4460",
+          "character": "猒",
+          "pinyin": "yan4",
+          "mc_nwh": "qyiemH",
+          "mc_bs": "'jiemH",
+          "gsr": "0616a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "厭",
+      "in_tex": false,
+      "mand2mc_count": 3,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 4,
+      "shengfu_component_count": 15,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qeamX",
+          "qyiem",
+          "qyiep"
+        ],
+        "mand2mc_nwh_forms": [
+          "qeamX",
+          "qyiem",
+          "qyiep"
+        ],
+        "mand2mc_bs_forms": [
+          "'eamX",
+          "'jiem",
+          "'jiep"
+        ],
+        "bs_gsr_forms": [
+          "'jiem"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "'eamX",
+          "'jiep"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4461",
+          "character": "厭",
+          "pinyin": "yan3",
+          "mc_nwh": "qeamX",
+          "mc_bs": "'eamX",
+          "gsr": "0616c"
+        },
+        {
+          "source_row_number": "4462",
+          "character": "厭",
+          "pinyin": "yan1",
+          "mc_nwh": "qyiem",
+          "mc_bs": "'jiem",
+          "gsr": "0616c"
+        },
+        {
+          "source_row_number": "4463",
+          "character": "厭",
+          "pinyin": "ya1",
+          "mc_nwh": "qyiep",
+          "mc_bs": "'jiep",
+          "gsr": "0616c"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "93",
+          "character": "厭",
+          "pinyin": "yān",
+          "mc_bs": "'jiem",
+          "mc_analyzed": "('- + -jiem A)",
+          "oc_bs": "*ʔem",
+          "gloss": "contented (adj.)",
+          "gsr": "0616c",
+          "unicode_utf16": "U+53AD"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14948",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14951",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14955",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14957",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "14944",
+          "character": "壓",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "烏甲",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qʳe̠b"
+        },
+        {
+          "source_row_number": "14945",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14946",
+          "character": "靨",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14947",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14948",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14949",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一牒",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qe̠b"
+        },
+        {
+          "source_row_number": "14950",
+          "character": "懕",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14951",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14952",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一鹽",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "em",
+          "oc_syllable": "qem"
+        },
+        {
+          "source_row_number": "14953",
+          "character": "黶",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14954",
+          "character": "檿",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14955",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14956",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        },
+        {
+          "source_row_number": "14957",
+          "character": "厭",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        },
+        {
+          "source_row_number": "14958",
+          "character": "嬮",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於豔",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ems",
+          "oc_syllable": "qems"
+        }
+      ]
+    },
+    {
+      "character": "饜",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qiemH"
+        ],
+        "mand2mc_nwh_forms": [
+          "qiemH"
+        ],
+        "mand2mc_bs_forms": [
+          "'jemH"
+        ],
+        "bs_gsr_forms": [
+          "'jemH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4464",
+          "character": "饜",
+          "pinyin": "yan4",
+          "mc_nwh": "qiemH",
+          "mc_bs": "'jemH",
+          "gsr": "0616d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "93",
+          "character": "饜",
+          "pinyin": "yàn",
+          "mc_bs": "'jemH",
+          "mc_analyzed": "('- + -jem C)",
+          "oc_bs": "*ʔ<r>em-s",
+          "gloss": "satiated",
+          "gsr": "0616d",
+          "unicode_utf16": "U+995C"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "檿",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiemX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4465",
+          "character": "檿",
+          "pinyin": "yan3",
+          "mc_nwh": "qyiemX",
+          "mc_bs": "'jiemX",
+          "gsr": "0616f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14954",
+          "character": "檿",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "擪",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "'jiemX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4466",
+          "character": "擪",
+          "pinyin": "ye4",
+          "mc_nwh": "qyiemX",
+          "mc_bs": "'jiemX",
+          "gsr": "0616g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14945",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於葉",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "eb",
+          "oc_syllable": "qeb"
+        },
+        {
+          "source_row_number": "14949",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "一牒",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qe̠b"
+        },
+        {
+          "source_row_number": "14956",
+          "character": "擪",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於琰",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "emʔ",
+          "oc_syllable": "qemʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "壓",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qaep"
+        ],
+        "mand2mc_nwh_forms": [
+          "qaep"
+        ],
+        "mand2mc_bs_forms": [
+          "'aep"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4467",
+          "character": "壓",
+          "pinyin": "ya1",
+          "mc_nwh": "qaep",
+          "mc_bs": "'aep",
+          "gsr": "0616h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14944",
+          "character": "壓",
+          "phonetic_component": "厭",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "烏甲",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "e̠b",
+          "oc_syllable": "qʳe̠b"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "猒",
+      "gsr": null,
+      "oc_bs": "*qem",
+      "root": "ʔem",
+      "source": "same_character_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "same_character_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ʔem",
+    "source": "same_character_series_root",
+    "character": "猒",
+    "oc_bs": "*qem",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "same_character_series_root"
+    ],
+    "display_root": "ʔem",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "qyiem",
+      "qyiemH",
+      "qeamX",
+      "qyiep",
+      "qiemH",
+      "qyiemX",
+      "qaep"
+    ],
+    "form_analyses": [
+      {
+        "form": "qyiem",
+        "normalized": "qyiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qyiemH",
+        "normalized": "qyiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qeamX",
+        "normalized": "qeam",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "qyiep",
+        "normalized": "qyiep",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qiemH",
+        "normalized": "qiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qyiemX",
+        "normalized": "qyiem",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "qaep",
+        "normalized": "qaep",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "ʔem",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

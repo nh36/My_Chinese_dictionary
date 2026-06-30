@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6346
-- Pages fetched / cached successfully: 6240
-- Additions with explicit Han-compound semantic/phonetic roles: 2838
+- Proposed additions checked: 6363
+- Pages fetched / cached successfully: 6254
+- Additions with explicit Han-compound semantic/phonetic roles: 2846
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5977,16 +5977,16 @@
 | `35-15` | 接 | yes | yes | 手 | 妾 |
 | `35-15` | 椄 | yes | no |  |  |
 | `35-15` | 翣 | yes | no |  |  |
-| `35-16` | 疌 | no | no |  |  |
+| `35-16` | 疌 | yes | yes | 又, 止 | 屮 |
 | `35-16` | 捷 | yes | yes | 手 | 疌 |
 | `35-16` | 寁 | no | no |  |  |
 | `35-16` | 睫 | yes | yes | 目 | 疌 |
 | `35-17` | 臿 | yes | no |  |  |
-| `35-17` | 插 | no | no |  |  |
+| `35-17` | 插 | yes | no |  |  |
 | `35-17` | 歃 | yes | yes | 欠 | 臿 |
 | `35-18` | 扱 | no | no |  |  |
 | `35-19` | 燮 | yes | no |  |  |
-| `35-20` | 乏 | no | no |  |  |
+| `35-20` | 乏 | yes | no |  |  |
 | `35-20` | 泛 | yes | yes | 水 | 乏 |
 | `35-20` | 窆 | no | no |  |  |
 | `35-20` | 貶 | yes | yes | 貝 | 乏 |
@@ -6020,12 +6020,16 @@
 | `36-02` | 矙 | yes | no |  |  |
 | `36-02` | 嚴 | no | no |  |  |
 | `36-02` | 儼 | yes | yes | 人 | 嚴 |
-| `36-02` | 巖 | no | no |  |  |
+| `36-02` | 巖 | yes | yes | 山 | 嚴 |
 | `36-02` | 玁 | yes | no |  |  |
 | `36-02` | 夏 | no | no |  |  |
 | `36-02` | 廈 | yes | yes | 广 | 夏 |
 | `36-02` | 厦 | no | no |  |  |
 | `36-02` | 𠪚 | yes | no |  |  |
+| `36-03` | 銜 | yes | yes | 行 | 金 |
+| `36-04` | 欠 | yes | no |  |  |
+| `36-04` | 芡 | no | no |  |  |
+| `36-04` | 坎 | yes | yes | 土 | 欠 |
 | `36-05` | 監 | yes | no |  |  |
 | `36-05` | 鑑 | yes | yes | 金 | 監 |
 | `36-05` | 礛 | yes | no |  |  |
@@ -6065,6 +6069,16 @@
 | `36-07` | 廉 | yes | yes | 广 | 兼 |
 | `36-07` | 磏 | yes | no |  |  |
 | `36-07` | 鎌 | yes | yes | 金 | 兼 |
+| `36-09` | 弇 | no | no |  |  |
+| `36-09` | 揜 | yes | no |  |  |
+| `36-09` | 渰 | no | no |  |  |
+| `36-09` | 黭 | yes | no |  |  |
+| `36-10` | 猒 | yes | no |  |  |
+| `36-10` | 厭 | no | no |  |  |
+| `36-10` | 饜 | yes | yes | 食 | 厭 |
+| `36-10` | 檿 | no | no |  |  |
+| `36-10` | 擪 | yes | yes | 手 | 厭 |
+| `36-10` | 壓 | yes | yes | 土 | 厭 |
 | `36-11` | 詹 | yes | no |  |  |
 | `36-11` | 噡 | yes | no |  |  |
 | `36-11` | 瞻 | yes | yes | 目 | 詹 |
@@ -6095,6 +6109,7 @@
 | `36-12` | 拈 | yes | no |  |  |
 | `36-12` | 呫 | yes | no |  |  |
 | `36-12` | 帖 | yes | yes | 巾 | 占 |
+| `36-13` | 豓 | no | no |  |  |
 | `36-14` | 炎 | yes | no |  |  |
 | `36-14` | 燄 | yes | yes | 炎 | 臽 |
 | `36-14` | 剡 | yes | yes | 刀 | 炎 |
@@ -6110,6 +6125,8 @@
 | `36-14` | 啖 | yes | no |  |  |
 | `36-14` | 淡 | yes | yes | 水 | 炎 |
 | `36-14` | 餤 | yes | no |  |  |
+| `36-16` | 銛 | yes | yes | 金 | 甜 |
+| `36-16` | 恬 | no | no |  |  |
 | `36-18` | 冄 | yes | no |  |  |
 | `36-18` | 冉 | yes | no |  |  |
 | `36-18` | 呥 | yes | no |  |  |

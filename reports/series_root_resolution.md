@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 1080
-- Packets with at least one root candidate: 1076
-- Packets with a single resolved provisional root: 1074
+- Missing-series packets inspected: 1086
+- Packets with at least one root candidate: 1082
+- Packets with a single resolved provisional root: 1080
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -1061,12 +1061,18 @@
 | `35-21` | 劫→kap [*kap {*k(r)ap}] (0642h); 劫→kop [*kob] (None); 法→pap [*pkab] (None); 盍→ɡap [*ɡa̠b] (None); 磕→kat [*kʰa̠d] (None); 饁→qap [*ɢʳab] (None) | `kap` | `head_graph_supported_root` |
 | `36-01` | 甘→kam [*kˤam {*[k]ˤ[a]m}] (0606a) | `kam` | `head_graph_oc_bs` |
 | `36-02` | 敢→kam [*kˤamʔ {*[k]ˤamʔ}] (0607a); 夏→ka [*gˤraʔ {*[g]ˤraʔ} ~ [g]ˤraʔ-s] (0036a); 夏→qa [*ɢˤraʔ {*[ɢ]ˤraʔ}] (0036a) | `kam` | `merged_packet_primary_head` |
+| `36-03` | 銜→kam [*Cə.gˤram {*Cə.[g]ˤr[a]m}] (0608a) | `kam` | `head_graph_oc_bs` |
+| `36-04` | 欠→kom [*kʰom-s {*[k]ʰ(r)om-s}] (0624a) | `kom` | `head_graph_oc_bs` |
 | `36-05` | 監→kam [*kˤram {*[k]ˤram}] (0609a) | `kam` | `head_graph_oc_bs` |
 | `36-06` | 僉→som [*skʰlom] (None) | `som` | `head_graph_oc_shengfu` |
 | `36-07` | 兼→kem [*kˤem {*[k]ˤem}] (0627a) | `kem` | `head_graph_oc_bs` |
+| `36-09` | 弇→kom [*ko̠m] (None); 弇→kop [*m-kˤop] (None); 弇→qom [*qʳomʔ] (None) | `kop` | `head_graph_supported_root` |
+| `36-10` | 猒→ʔem [*qem] (None) | `ʔem` | `same_character_series_root` |
 | `36-11` | 詹→tam [*tam {*[t]am}] (0619a) | `tam` | `head_graph_oc_bs` |
 | `36-12` | 占→tem [*tem] (0618a) | `tem` | `head_graph_oc_bs` |
+| `36-13` | 豓→lim [*l̥ˤimʔ-s {*l̥ˤ[i]mʔ-s}] (None) | `lim` | `same_character_series_root` |
 | `36-14` | 炎→qam [*ɢʳam] (None) | `qam` | `head_graph_oc_shengfu` |
+| `36-16` | 銛→kot [*ko̠d] (None); 銛→sem [*skˡem] (None); 銛→kem [*kʰle̠mʔ] (None) | `kot` | `head_graph_supported_root` |
 | `36-18` | 冄→nam [*nʲam] (None) | `nam` | `same_character_series_root` |
 | `36-22` | 斬→tsam [*tsramʔ {*[ts]ramʔ}] (0611a) | `tsam` | `head_graph_oc_bs` |
 | `36-26` | 凡→pom [*brom {*[b]rom}] (0625a) | `pom` | `head_graph_oc_bs` |
