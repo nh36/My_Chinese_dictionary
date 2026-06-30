@@ -109,22 +109,107 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|才|子|c1=p|c2=s|ls=psc}}",
+          "positional_components": [
+            "才",
+            "子"
+          ],
+          "positional_components_raw": [
+            "才",
+            "子"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "子"
+          ],
+          "phonetic_components": [
+            "才"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|才|子|c1=p|c2=s|ls=psc}}",
+            "positional_components": [
+              "才",
+              "子"
+            ],
+            "positional_components_raw": [
+              "才",
+              "子"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "子"
+            ],
+            "phonetic_components": [
+              "才"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tsyn}},",
-      "render_latex": "存\t%cun2 / cún\n{\\large{tsyn}},\n\\textit{dzwən};\t%0432a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{tsyn\\textsuperscript{·fili}}},",
+      "render_latex": "存\t%cun2 / cún\n{\\large{tsyn\\textsuperscript{·fili}}},\n\\textit{dzwən};\t%0432a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "子",
+        "phonetic_component": "才",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "存",
+          "semantic_component": "子",
+          "phonetic_component": "才",
+          "position": "suffix-dot",
+          "abbreviation": "fili",
+          "inventory_matches": [
+            {
+              "graph_raw": "子",
+              "label_token": "fili(us)",
+              "abbreviation": "fili",
+              "start_line": 278
+            },
+            {
+              "graph_raw": "子",
+              "label_token": "fili",
+              "abbreviation": "fili",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|才|子|c1=p|c2=s|ls=psc}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "fili",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "子",
+            "label_token": "fili(us)",
+            "abbreviation": "fili",
+            "start_line": 278
+          },
+          {
+            "graph_raw": "子",
+            "label_token": "fili",
+            "abbreviation": "fili",
+            "learned": true,
+            "evidence_count": 2
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "子"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
