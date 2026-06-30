@@ -421,9 +421,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|糸|追|c1=s|c2=p|t1=silk|ls=psc}}",
+          "positional_components": [
+            "糸",
+            "追"
+          ],
+          "positional_components_raw": [
+            "糸",
+            "追"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "silk",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "糸"
+          ],
+          "phonetic_components": [
+            "追"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|糸|追|c1=s|c2=p|t1=silk|ls=psc}}",
+            "positional_components": [
+              "糸",
+              "追"
+            ],
+            "positional_components_raw": [
+              "糸",
+              "追"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "silk",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "糸"
+            ],
+            "phonetic_components": [
+              "追"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -452,19 +498,52 @@
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "糹",
+            "graph_raw": "糸",
+            "label_token": "ser(icum)",
+            "abbreviation": "ser",
+            "start_line": 387
+          },
+          {
+            "graph_raw": "糸",
             "label_token": "ser",
             "abbreviation": "ser",
             "learned": true,
-            "evidence_count": 8
+            "evidence_count": 1
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "糹"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "糸"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{ser·}tuy}},",
       "render_latex": "縋\t%zhui4\n{\\large{\\textsuperscript{ser·}tuy}},\n\\textit{ḍiweH};\t%0543h",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "糸",
+        "phonetic_component": "追",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "縋",
+          "semantic_component": "糸",
+          "phonetic_component": "追",
+          "position": "prefix-dot",
+          "abbreviation": "ser",
+          "inventory_matches": [
+            {
+              "graph_raw": "糸",
+              "label_token": "ser(icum)",
+              "abbreviation": "ser",
+              "start_line": 387
+            },
+            {
+              "graph_raw": "糸",
+              "label_token": "ser",
+              "abbreviation": "ser",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|糸|追|c1=s|c2=p|t1=silk|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "追",
@@ -650,7 +729,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
