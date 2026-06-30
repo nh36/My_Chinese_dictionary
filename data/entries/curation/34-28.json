@@ -307,9 +307,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|艸|孫|ls=psc|c1=s|c2=p|t1=grass}}",
+          "positional_components": [
+            "艸",
+            "孫"
+          ],
+          "positional_components_raw": [
+            "艸",
+            "孫"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "grass"
+          },
+          "semantic_components": [
+            "艸"
+          ],
+          "phonetic_components": [
+            "孫"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|艸|孫|ls=psc|c1=s|c2=p|t1=grass}}",
+            "positional_components": [
+              "艸",
+              "孫"
+            ],
+            "positional_components_raw": [
+              "艸",
+              "孫"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "grass"
+            },
+            "semantic_components": [
+              "艸"
+            ],
+            "phonetic_components": [
+              "孫"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -357,12 +403,39 @@
             "evidence_count": 24
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{herb˸}sun₂}},",
       "render_latex": "蓀\t%sun1\n{\\large{\\textsuperscript{herb˸}sun₂}},\n\\textit{swən};\t%0434d",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "艸",
+        "phonetic_component": "孫",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蓀",
+          "semantic_component": "艸",
+          "phonetic_component": "孫",
+          "position": "prefix-colon",
+          "abbreviation": "herb",
+          "inventory_matches": [
+            {
+              "graph_raw": "艸",
+              "label_token": "herb(a)",
+              "abbreviation": "herb",
+              "start_line": 297
+            },
+            {
+              "graph_raw": "艸",
+              "label_token": "herb",
+              "abbreviation": "herb",
+              "learned": true,
+              "evidence_count": 24
+            }
+          ],
+          "template_raw": "{{Han compound|艸|孫|ls=psc|c1=s|c2=p|t1=grass}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "孫",

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6286
-- Pages fetched / cached successfully: 6186
-- Additions with explicit Han-compound semantic/phonetic roles: 2816
+- Proposed additions checked: 6305
+- Pages fetched / cached successfully: 6198
+- Additions with explicit Han-compound semantic/phonetic roles: 2821
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5844,7 +5844,7 @@
 | `34-21` | 腯 | yes | no |  |  |
 | `34-22` | 豚 | no | no |  |  |
 | `34-22` | 𢄉 | no | no |  |  |
-| `34-22` | 遯 | no | no |  |  |
+| `34-22` | 遯 | yes | yes | 辵 | 豚 |
 | `34-23` | 允 | yes | no |  |  |
 | `34-23` | 浚 | yes | yes | 水 | 夋 |
 | `34-23` | 踆 | yes | no |  |  |
@@ -5880,7 +5880,7 @@
 | `34-24` | 崙 | yes | yes | 山 | 侖 |
 | `34-24` | 崘 | yes | no |  |  |
 | `34-24` | 掄 | yes | yes | 手 | 侖 |
-| `34-25` | 閏 | no | no |  |  |
+| `34-25` | 閏 | yes | no |  |  |
 | `34-26` | 尊 | yes | no |  |  |
 | `34-26` | 樽 | yes | yes | 木 | 尊 |
 | `34-26` | 僔 | yes | yes | 人 | 尊 |
@@ -5895,7 +5895,7 @@
 | `34-27` | 刌 | yes | no |  |  |
 | `34-27` | 忖 | no | no |  |  |
 | `34-28` | 孫 | yes | no |  |  |
-| `34-28` | 蓀 | no | no |  |  |
+| `34-28` | 蓀 | yes | yes | 艸 | 孫 |
 | `34-28` | 遜 | yes | yes | 辵 | 孫 |
 | `34-28` | 愻 | no | no |  |  |
 | `34-29` | 飧 | yes | no |  |  |
@@ -5907,6 +5907,17 @@
 | `34-30` | 撰 | yes | yes | 手 | 巽 |
 | `34-30` | 饌 | yes | yes | 食 | 巽 |
 | `34-30` | 譔 | yes | no |  |  |
+| `34-31` | 隼 | yes | no |  |  |
+| `34-31` | 𣯍 | no | no |  |  |
+| `34-31` | 準 | yes | yes | 水 | 隼 |
+| `34-32` | 䜭 | no | no |  |  |
+| `34-32` | 濬 | yes | no |  |  |
+| `34-32` | 璿 | no | no |  |  |
+| `35-02` | 甲 | no | no |  |  |
+| `35-02` | 匣 | yes | yes | 匚 | 甲 |
+| `35-02` | 柙 | yes | no |  |  |
+| `35-02` | 狎 | no | no |  |  |
+| `35-02` | 押 | yes | yes | 手 | 甲 |
 | `35-03` | 夾 | yes | no |  |  |
 | `35-03` | 郟 | yes | no |  |  |
 | `35-03` | 狹 | yes | yes | 犬 | 夾 |
@@ -5920,6 +5931,14 @@
 | `35-03` | 浹 | yes | no |  |  |
 | `35-03` | 愜 | yes | yes | 心 | 匧 |
 | `35-03` | 篋 | yes | yes | 竹 | 匧 |
+| `35-04` | 劦 | no | no |  |  |
+| `35-04` | 協 | yes | no |  | 十, 劦 |
+| `35-04` | 叶 | no | no |  |  |
+| `35-04` | 拹 | yes | no |  |  |
+| `35-04` | 脅 | no | no |  |  |
+| `35-04` | 嗋 | yes | no |  |  |
+| `35-05` | 業 | no | no |  |  |
+| `35-06` | 涉 | no | no |  |  |
 | `35-10` | 枼 | yes | no |  |  |
 | `35-10` | 葉 | yes | yes | 艸 | 枼 |
 | `35-10` | 鍱 | yes | no |  |  |
