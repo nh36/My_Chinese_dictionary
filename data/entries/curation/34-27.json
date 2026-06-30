@@ -337,9 +337,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|心|alt1=忄|寸|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "心",
+            "寸"
+          ],
+          "positional_components_raw": [
+            "心",
+            "寸"
+          ],
+          "named_args": {
+            "alt1": "忄",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "心"
+          ],
+          "phonetic_components": [
+            "寸"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|心|alt1=忄|寸|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "心",
+              "寸"
+            ],
+            "positional_components_raw": [
+              "心",
+              "寸"
+            ],
+            "named_args": {
+              "alt1": "忄",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "心"
+            ],
+            "phonetic_components": [
+              "寸"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -362,12 +408,39 @@
             "evidence_count": 13
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "心"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{cor·}tsun₂}},",
       "render_latex": "忖\t%cun3 / cǔn\n{\\large{\\textsuperscript{cor·}tsun₂}},\n\\textit{tshwənX};\t%0431d",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "心",
+        "phonetic_component": "寸",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "忖",
+          "semantic_component": "心",
+          "phonetic_component": "寸",
+          "position": "prefix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 239
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ],
+          "template_raw": "{{Han compound|心|alt1=忄|寸|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "寸",

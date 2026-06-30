@@ -276,7 +276,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -524,22 +524,107 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|十|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "口",
+            "十"
+          ],
+          "positional_components_raw": [
+            "口",
+            "十"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "十"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|口|十|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "口",
+              "十"
+            ],
+            "positional_components_raw": [
+              "口",
+              "十"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "十"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ɡyp}},",
-      "render_latex": "叶\t%xie2\n{\\large{ɡyp}},\n\\textit{hep};\t%0639c",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}ɡyp}},",
+      "render_latex": "叶\t%xie2\n{\\large{\\textsuperscript{or·}ɡyp}},\n\\textit{hep};\t%0639c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "十",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "叶",
+          "semantic_component": "口",
+          "phonetic_component": "十",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 344
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|口|十|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "or",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,) or(is)",
+            "abbreviation": "or",
+            "start_line": 344
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "口"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -737,9 +822,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|劦|肉|c1=p|c2=s|ls=psc}}",
+          "positional_components": [
+            "劦",
+            "肉"
+          ],
+          "positional_components_raw": [
+            "劦",
+            "肉"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "劦"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|劦|肉|c1=p|c2=s|ls=psc}}",
+            "positional_components": [
+              "劦",
+              "肉"
+            ],
+            "positional_components_raw": [
+              "劦",
+              "肉"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "劦"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -770,29 +899,42 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "luna",
+        "abbreviation": "carn",
         "position": "suffix-colon",
         "inventory_matches": [
           {
-            "graph_raw": "月",
-            "label_token": "luna",
-            "abbreviation": "luna",
-            "start_line": 315
-          },
-          {
-            "graph_raw": "月",
-            "label_token": "carn",
+            "graph_raw": "肉",
+            "label_token": "carn(is)",
             "abbreviation": "carn",
-            "learned": true,
-            "evidence_count": 5
+            "start_line": 220
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "月"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{ɡyp\\textsuperscript{˸luna}}},",
-      "render_latex": "脅\t%xie2 / xié\n{\\large{ɡyp\\textsuperscript{˸luna}}},\n\\textit{xiaep};\t%0639e",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{ɡyp\\textsuperscript{˸carn}}},",
+      "render_latex": "脅\t%xie2 / xié\n{\\large{ɡyp\\textsuperscript{˸carn}}},\n\\textit{xiaep};\t%0639e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "肉",
+        "phonetic_component": "劦",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "脅",
+          "semantic_component": "肉",
+          "phonetic_component": "劦",
+          "position": "suffix-colon",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 220
+            }
+          ],
+          "template_raw": "{{Han compound|劦|肉|c1=p|c2=s|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "劦",

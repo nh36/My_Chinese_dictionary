@@ -734,7 +734,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -1187,9 +1187,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|犬|甲|c1=s|c2=p|t1=dog|ls=psc}}",
+          "positional_components": [
+            "犬",
+            "甲"
+          ],
+          "positional_components_raw": [
+            "犬",
+            "甲"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "dog",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "犬"
+          ],
+          "phonetic_components": [
+            "甲"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|犬|甲|c1=s|c2=p|t1=dog|ls=psc}}",
+            "positional_components": [
+              "犬",
+              "甲"
+            ],
+            "positional_components_raw": [
+              "犬",
+              "甲"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "dog",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "犬"
+            ],
+            "phonetic_components": [
+              "甲"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -1218,19 +1264,38 @@
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "犭",
-            "label_token": "can",
+            "graph_raw": "犬",
+            "label_token": "can(is)",
             "abbreviation": "can",
-            "learned": true,
-            "evidence_count": 5
+            "start_line": 217
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "犭"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "犬"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{can·}k\\textoverset{a}{a}p₂}},",
       "render_latex": "狎\t%xia2 / xiá\n{\\large{\\textsuperscript{can·}k\\textoverset{a}{a}p₂}},\n\\textit{ḫaep};\t%0629g",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "犬",
+        "phonetic_component": "甲",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "狎",
+          "semantic_component": "犬",
+          "phonetic_component": "甲",
+          "position": "prefix-dot",
+          "abbreviation": "can",
+          "inventory_matches": [
+            {
+              "graph_raw": "犬",
+              "label_token": "can(is)",
+              "abbreviation": "can",
+              "start_line": 217
+            }
+          ],
+          "template_raw": "{{Han compound|犬|甲|c1=s|c2=p|t1=dog|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "甲",
