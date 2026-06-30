@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 798
-- Packets with at least one root candidate: 796
-- Packets with a single resolved provisional root: 794
+- Missing-series packets inspected: 804
+- Packets with at least one root candidate: 802
+- Packets with a single resolved provisional root: 800
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -654,8 +654,14 @@
 | `23-13` | 幻→ɡin [*ɡʷʳi̠n] (None) | `ɡin` | `head_graph_oc_shengfu` |
 | `23-14` | 旋→quen [*s-ɢʷen {*s-[ɢ]ʷe[n]}] (0236a) | `quen` | `head_graph_oc_bs` |
 | `23-15` | 燕→ʔen [*ʔˤen-s {*ʔˤe[n]-s}] (0243a) | `ʔen` | `head_graph_oc_bs` |
+| `23-16` | 顯→qen [*qʰˤenʔ] (0242a) | `qen` | `head_graph_oc_bs` |
 | `23-17` | 肙→quen [*qʷˤen] (0228a) | `quen` | `head_graph_oc_bs` |
+| `23-18` | 靦→tyn [*tʰɯ̠nʔ] (None) | `tyn` | `head_graph_oc_shengfu` |
+| `23-19` | 晛→ɡen [*ɡe̠nʔ] (None); 晛→ken [*N-kˤen-s {*N-[k]ˤen-s}] (None); 晛→men [*mɡle̠ns] (None) | `ken` | `head_graph_supported_root` |
 | `23-20` | 前→tsen [*dzˤen ~ *m-dzˤen] (0245a) | `tsen` | `head_graph_oc_bs` |
+| `23-21` | 鮮→ser [*ser {*[s][e]r}] (0209a) | `ser` | `head_graph_oc_bs` |
+| `23-22` | 鱻→len [*l̥ʲen] (None) | `len` | `head_graph_oc_shengfu` |
+| `23-23` | 尟→sen [*sˡenʔ] (None) | `sen` | `head_graph_oc_shengfu` |
 | `23-27` | 扁→pen [*pˤenʔ {*pˤe[n]ʔ}] (0246a) | `pen` | `head_graph_oc_bs` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |

@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1172
-- Roots whose display label changed after document-wide renumbering: 694
-- Duplicate phonetic bases encountered in document order: 292
+- Mutable series/subseries roots inspected: 1180
+- Roots whose display label changed after document-wide renumbering: 699
+- Duplicate phonetic bases encountered in document order: 294
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1026,8 +1026,16 @@
 | `23-07` | `subseries-root` | 闌 | `r\textoverset{a}{a}n` | 1 | `r\textoverset{a}{a}n` | yes |
 | `23-07` | `subseries-root` | 蘭 | `r\textoverset{a}{a}n` | 2 | `r\textoverset{a}{a}n₂` | yes |
 | `23-08` | `series-root` | 蠲 | `kuiṅ` | 1 | `kuiṅ` | yes |
+| `23-09` | `series-root` | 縣 | `kuen` | 1 | `kuen` | yes |
 | `23-10` | `series-root` | 員 | `qun` | 1 | `qun` | yes |
-| `23-17` | `series-root` | 肙 | `quen` | 1 | `quen` | yes |
+| `23-11` | `series-root` | 瞏 | `kueṅ` | 2 | `kueṅ₂` | yes |
+| `23-11` | `subseries-root` | 睘 | `quen` | 1 | `quen` | yes |
+| `23-12` | `series-root` | 奐 | `q\textoverset{a}{o}n` | 1 | `q\textoverset{a}{o}n` | yes |
+| `23-12` | `subseries-root` | 敻 | `qon` | 1 | `qon` | yes |
+| `23-13` | `series-root` | 幻 | `ɡin` | 2 | `ɡin₂` | yes |
+| `23-14` | `series-root` | 旋 | `quen` | 2 | `quen₂` | yes |
+| `23-15` | `series-root` | 燕 | `ʔen` | 1 | `ʔen` | yes |
+| `23-17` | `series-root` | 肙 | `quen` | 3 | `quen₃` | yes |
 | `23-20` | `series-root` | 前 | `tsen` | 1 | `tsen` | yes |
 | `23-27` | `series-root` | 扁 | `pen` | 1 | `pen` | yes |
 | `24-01` | `series-root` | 干 | `kar` | 2 | `kar₂` | yes |
@@ -1062,13 +1070,13 @@
 | `24-58` | `series-root` | 免 | `mor` | 1 | `mor` | yes |
 | `25-01` | `series-root` | 官 | `ku\textoverset{a}{a}n` | 1 | `ku\textoverset{a}{a}n` | yes |
 | `25-02` | `series-root` | 雚 | `quar` | 1 | `quar` | yes |
-| `25-11` | `series-root` | 卷 | `kuen` | 1 | `kuen` | yes |
-| `25-11` | `subseries-root` | 豢 | `kuen` | 2 | `kuen₂` | yes |
+| `25-11` | `series-root` | 卷 | `kuen` | 2 | `kuen₂` | yes |
+| `25-11` | `subseries-root` | 豢 | `kuen` | 3 | `kuen₃` | yes |
 | `25-12` | `series-root` | 亘 | `quar` | 2 | `quar₂` | yes |
 | `25-12` | `subseries-root` | 宣 | `qu\textoverset{b}{a}r` | 1 | `qu\textoverset{b}{a}r` | yes |
 | `25-14` | `series-root` | 爰 | `quan` | 1 | `quan` | yes |
 | `25-15` | `series-root` | 袁 | `qu\textoverset{b}{a}n` | 1 | `qu\textoverset{b}{a}n` | yes |
-| `25-15` | `subseries-root` | 睘 | `quen` | 2 | `quen₂` | yes |
+| `25-15` | `subseries-root` | 睘 | `quen` | 4 | `quen₄` | yes |
 | `25-17` | `series-root` | 夗 | `ʔor` | 1 | `ʔor` | yes |
 | `25-17` | `subseries-root` | 夗 | `qor` | 1 | `qor` | yes |
 | `25-17` | `subseries-root` | 宛 | `qor` | 2 | `qor₂` | yes |

@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 913
+- Generated subgroup heads inspected: 914
 - Subgroups newly marked with `a`: 120
 - Subgroups newly marked with `b`: 100
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 306
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 307
 - Mixed subgroups left unmarked: 383
 - Unresolved subgroups left unmarked: 4
 
@@ -678,6 +678,7 @@
 | `23-15` | 燕 | `ʔen` | `ʔen` | `a` | no | `qen, qenH` | all extracted forms lack an i-medial after the onset |
 | `23-17` | 肙 | `quen` | `quen` | `mixed` | no | `qwen, qiwienX, giwienX, qiwien, kiwienH, yiwen, kwen, kwenH, ḫwenX, hwen, hwenH, zjwen` | the extracted forms point to both type a and type b |
 | `23-20` | 前 | `tsen` | `tsen` | `mixed` | no | `dzen, tsienX, tsien, tsienH` | the extracted forms point to both type a and type b |
+| `23-21` | 鮮 | `ser` | `ser` | `b` | no | `sien, sienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `23-27` | 扁 | `pen` | `pen` | `mixed` | no | `penX, penH, ben, benX, pen, pyien, pyienX, phyien, phyienH, byienH, byienX` | the extracted forms point to both type a and type b |
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
@@ -710,12 +711,12 @@
 | `25-01` | 官 | `kuan` | `ku\textoverset{a}{a}n` | `a` | yes | `kwan, kwanH, kwanX, kwaenH, hwanH, kaen` | all extracted forms lack an i-medial after the onset |
 | `25-02` | 雚 | `quar` | `quar` | `mixed` | no | `kwanH, kwan, hwan, hwanH, giwen, khiwənH` | the extracted forms point to both type a and type b |
 | `25-11` | 卷 | `kuen` | `kuen` | `b` | no | `giwen, kiwenX, kiwenH, khiwen, giwenH, giwenX, giwənH, khiwənX, kiwənX, khiwənH, qiwənX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `25-11` | 豢 | `kuen` | `kuen₂` | `a` | no | `ḫwaenH, ḫwanH` | all extracted forms lack an i-medial after the onset |
+| `25-11` | 豢 | `kuen` | `kuen₃` | `a` | no | `ḫwaenH, ḫwanH` | all extracted forms lack an i-medial after the onset |
 | `25-12` | 亘 | `quar` | `quar` | `mixed` | no | `hwan, kəṅH, siwen, ḫwan, hiwən, ḫiwən, hiwənX, hiweX` | the extracted forms point to both type a and type b |
 | `25-12` | 宣 | `quar` | `qu\textoverset{b}{a}r` | `b` | yes | `siwen, hiwənX, hiwən` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `25-14` | 爰 | `quan` | `quan` | `mixed` | no | `ḫiwən, ḫiwenH, ḫiwənH, ḫiwen, hiwən, hiwənX, ḫwanX, ḫwaen` | the extracted forms point to both type a and type b |
 | `25-15` | 袁 | `gan` | `g\textoverset{b}{a}n` | `b` | yes | `ḫiwən, ḫiwen, ḫiwənH, ḫiwənX` | all extracted forms show an i-medial or a dedicated palatal onset |
-| `25-15` | 睘 | `quen` | `quen₂` | `mixed` | no | `giwieṅ, hwaen, hyiwen, kwenH, qwenH, ziwen, hwenX, hwaenH, ḫwaen, hiwien, hwenH, ḫiwen` | the extracted forms point to both type a and type b |
+| `25-15` | 睘 | `quen` | `quen₄` | `mixed` | no | `giwieṅ, hwaen, hyiwen, kwenH, qwenH, ziwen, hwenX, hwaenH, ḫwaen, hiwien, hwenH, ḫiwen` | the extracted forms point to both type a and type b |
 | `25-17` | 宛 | `qor` | `qor₂` | `mixed` | no | `qiwənX, qwanH, qwanX` | the extracted forms point to both type a and type b |
 | `25-17` | 夗 | `qor` | `qor` | `mixed` | no | `'jwonX, qiwənX, qwanH, qwanX, qiwən, qiwənH, qiut, hiunX, qwan, qiun` | the extracted forms point to both type a and type b |
 | `25-19` | 元 | `ṅon` | `ṅon` | `mixed` | no | `ṅiwən, ṅwan, ṅwaen, ṅwean, ṅwanH, hwan, hwanX, hwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | the extracted forms point to both type a and type b |

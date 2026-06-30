@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5640
-- Pages fetched / cached successfully: 5554
-- Additions with explicit Han-compound semantic/phonetic roles: 2580
+- Proposed additions checked: 5648
+- Pages fetched / cached successfully: 5562
+- Additions with explicit Han-compound semantic/phonetic roles: 2582
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3804,6 +3804,8 @@
 | `23-15` | 嚥 | yes | yes | 口 | 燕 |
 | `23-15` | 㬫 | yes | no |  |  |
 | `23-15` | 讌 | yes | no |  |  |
+| `23-16` | 顯 | yes | no |  |  |
+| `23-16` | 韅 | yes | no |  |  |
 | `23-17` | 肙 | yes | no |  |  |
 | `23-17` | 蜎 | yes | yes | 虫 | 肙 |
 | `23-17` | 悁 | yes | no |  |  |
@@ -3816,6 +3818,8 @@
 | `23-17` | 鞙 | yes | no |  |  |
 | `23-17` | 駽 | yes | no |  |  |
 | `23-17` | 㘣 | yes | no |  |  |
+| `23-18` | 靦 | yes | no |  |  |
+| `23-19` | 晛 | yes | no |  |  |
 | `23-20` | 前 | yes | no |  |  |
 | `23-20` | 揃 | yes | yes | 手 | 前 |
 | `23-20` | 湔 | yes | no |  |  |
@@ -3824,6 +3828,10 @@
 | `23-20` | 翦 | yes | no |  |  |
 | `23-20` | 剪 | yes | yes | 刀 | 歬 |
 | `23-20` | 鬋 | yes | no |  |  |
+| `23-21` | 鮮 | yes | yes | 魚 | 羴 |
+| `23-21` | 癬 | yes | yes | 病 | 鮮 |
+| `23-22` | 鱻 | yes | no |  |  |
+| `23-23` | 尟 | yes | no |  |  |
 | `23-27` | 扁 | yes | no |  |  |
 | `23-27` | 徧 | yes | no |  |  |
 | `23-27` | 遍 | yes | yes | 辵 | 扁 |

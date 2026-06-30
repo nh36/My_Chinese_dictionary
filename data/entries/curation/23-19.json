@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-06-30T07:39:40.258939+00:00",
+  "id": "23-19",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "23-19",
+    "rhyme_section": 23,
+    "series_number": 19,
+    "k_tokens": [
+      "1250e"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC            LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 273,
+    "source_line_number": 20,
+    "source_line_raw": "23-19 = K. 1250e Mand.        MC            LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "23-19",
+    "rhyme_section": "23",
+    "series_number": "19",
+    "schuessler_k_tokens": "1250e",
+    "schuessler_source_page": "273",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "晛",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "晛"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "1250e"
+  ],
+  "proposed_additions": [
+    {
+      "character": "晛",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫenH",
+          "nenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫenH",
+          "nenH"
+        ],
+        "mand2mc_bs_forms": [
+          "henH",
+          "nenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9126",
+          "character": "晛",
+          "pinyin": "xian4",
+          "mc_nwh": "ḫenH",
+          "mc_bs": "henH",
+          "gsr": "1250e"
+        },
+        {
+          "source_row_number": "9127",
+          "character": "晛",
+          "pinyin": "xian4",
+          "mc_nwh": "nenH",
+          "mc_bs": "nenH",
+          "gsr": "1250e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6658",
+          "character": "晛",
+          "phonetic_component": "見",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡典",
+          "source": "广韵",
+          "oc_initial": "ɡ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "ɡe̠nʔ"
+        },
+        {
+          "source_row_number": "6674",
+          "character": "晛",
+          "phonetic_component": "見",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "奴甸",
+          "source": "广韵",
+          "oc_initial": "mɡl",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "mɡle̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "晛",
+          "ids": "⿰日見",
+          "phonetic_component": "見",
+          "semantic_component": "日",
+          "position": "prefix-dot",
+          "abbreviation": "sol",
+          "inventory_matches": [
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "start_line": 391
+            },
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "sol",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "start_line": 391
+          },
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "日"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{sol·}ken}},",
+      "render_latex": "晛\t%xian4\n{\\large{\\textsuperscript{sol·}ken}},\n\\textit{ḫenH};\t%1250e\n\\textit{nenH};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "晛",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḫenH",
+          "nenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḫenH",
+          "nenH"
+        ],
+        "mand2mc_bs_forms": [
+          "henH",
+          "nenH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "9126",
+          "character": "晛",
+          "pinyin": "xian4",
+          "mc_nwh": "ḫenH",
+          "mc_bs": "henH",
+          "gsr": "1250e"
+        },
+        {
+          "source_row_number": "9127",
+          "character": "晛",
+          "pinyin": "xian4",
+          "mc_nwh": "nenH",
+          "mc_bs": "nenH",
+          "gsr": "1250e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6658",
+          "character": "晛",
+          "phonetic_component": "見",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "胡典",
+          "source": "广韵",
+          "oc_initial": "ɡ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "ɡe̠nʔ"
+        },
+        {
+          "source_row_number": "6674",
+          "character": "晛",
+          "phonetic_component": "見",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "奴甸",
+          "source": "广韵",
+          "oc_initial": "mɡl",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "mɡle̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "晛",
+      "gsr": null,
+      "oc_bs": "*ɡe̠nʔ",
+      "root": "ɡen",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "晛",
+      "gsr": null,
+      "oc_bs": "*N-kˤen-s {*N-[k]ˤen-s}",
+      "root": "ken",
+      "source": "phonetic_component_series_root",
+      "support_count": 2,
+      "supporting_sources": [
+        "phonetic_component_series_root"
+      ]
+    },
+    {
+      "character": "晛",
+      "gsr": null,
+      "oc_bs": "*mɡle̠ns",
+      "root": "men",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ken",
+    "source": "head_graph_supported_root",
+    "character": "晛",
+    "oc_bs": "*N-kˤen-s {*N-[k]ˤen-s}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "phonetic_component_series_root"
+    ],
+    "display_root": "ken"
+  }
+}
