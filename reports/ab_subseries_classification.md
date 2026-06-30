@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1032
+- Generated subgroup heads inspected: 1037
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 352
-- Mixed subgroups left unmarked: 431
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 355
+- Mixed subgroups left unmarked: 433
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -936,7 +936,12 @@
 | `32-15` | 天 | `lin` | `lin` | `a` | no | `then, thən` | all extracted forms lack an i-medial after the onset |
 | `32-16` | 真 | `tin` | `tin` | `mixed` | no | `cin, denH, cinX, ṭin, ṭinH, ṭinX, chin, jinH, ten, den, thenH, denX, cieH` | the extracted forms point to both type a and type b |
 | `32-16` | 顛 | `tin` | `tin₂` | `a` | no | `den, ten` | all extracted forms lack an i-medial after the onset |
+| `32-18` | 陳 | `lin` | `lin` | `b` | no | `ḍin, ḍinH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `32-19` | 田 | `liṅ` | `liṅ` | `mixed` | no | `den, denH, jiṅH` | the extracted forms point to both type a and type b |
+| `32-20` | 引 | `lin` | `lin` | `b` | no | `yinX, yinH, ḍinX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-22` | 申 | `lin` | `lin` | `b` | no | `śin, jin, yinH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `32-23` | 身 | `niṅ` | `niṅ` | `mixed` | no | `śin, den` | the extracted forms point to both type a and type b |
+| `32-24` | 舜 | `qun` | `qun` | `b` | no | `śiwinH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-26` | 粦 | `ryn` | `ryn` | `mixed` | no | `lin, linH, len` | the extracted forms point to both type a and type b |
 | `32-31` | 秦 | `tsin` | `tsin` | `b` | no | `dzin, tṣin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-32` | 盡 | `tsin` | `tsin` | `b` | no | `dzinX, tsinX, dzinH` | all extracted forms show an i-medial or a dedicated palatal onset |

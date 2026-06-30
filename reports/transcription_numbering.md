@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1420
-- Roots whose display label changed after document-wide renumbering: 864
-- Duplicate phonetic bases encountered in document order: 336
+- Mutable series/subseries roots inspected: 1426
+- Roots whose display label changed after document-wide renumbering: 869
+- Duplicate phonetic bases encountered in document order: 337
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1537,3 +1537,9 @@
 | `32-14` | `series-root` | 憖 | `ṅyṅ` | 1 | `ṅyṅ` | yes |
 | `32-15` | `series-root` | 天 | `lin` | 2 | `lin₂` | yes |
 | `32-17` | `series-root` | 眘 | `tin` | 3 | `tin₃` | yes |
+| `32-18` | `series-root` | 陳 | `lin` | 3 | `lin₃` | yes |
+| `32-19` | `series-root` | 田 | `liṅ` | 2 | `liṅ₂` | yes |
+| `32-20` | `series-root` | 引 | `lin` | 4 | `lin₄` | yes |
+| `32-21` | `series-root` | 絼 | `lin` | 5 | `lin₅` | yes |
+| `32-23` | `series-root` | 身 | `niṅ` | 1 | `niṅ` | yes |
+| `32-24` | `series-root` | 舜 | `qun` | 4 | `qun₄` | yes |

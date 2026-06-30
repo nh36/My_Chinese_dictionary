@@ -1,0 +1,183 @@
+{
+  "generated_at": "2026-06-30T11:57:42.328311+00:00",
+  "id": "32-21",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "32-21",
+    "rhyme_section": 32,
+    "series_number": 21,
+    "k_tokens": [
+      "372"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.               MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 346,
+    "source_line_number": 6,
+    "source_line_raw": "32-21 = K. 372 Mand.               MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "32-21",
+    "rhyme_section": "32",
+    "series_number": "21",
+    "schuessler_k_tokens": "372",
+    "schuessler_source_page": "346",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "絼",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "絼"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "372"
+  ],
+  "proposed_additions": [
+    {
+      "character": "絼",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍinX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍinX"
+        ],
+        "mand2mc_bs_forms": [
+          "drinX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2727",
+          "character": "絼",
+          "pinyin": "zhen4",
+          "mc_nwh": "ḍinX",
+          "mc_bs": "drinX",
+          "gsr": "0372a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{lin₅}},",
+      "render_latex": "絼\t%zhen4\n{\\large{lin₅}},\n\\textit{ḍinX};\t%0372a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "絼",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ḍinX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ḍinX"
+        ],
+        "mand2mc_bs_forms": [
+          "drinX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2727",
+          "character": "絼",
+          "pinyin": "zhen4",
+          "mc_nwh": "ḍinX",
+          "mc_bs": "drinX",
+          "gsr": "0372a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "絼",
+      "gsr": null,
+      "oc_bs": "*linʔ",
+      "root": "lin",
+      "source": "same_character_series_root",
+      "support_count": 2,
+      "supporting_sources": [
+        "same_character_series_root",
+        "head_graph_supplement"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "lin",
+    "source": "same_character_series_root",
+    "character": "絼",
+    "oc_bs": "*linʔ",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "same_character_series_root",
+      "head_graph_supplement"
+    ],
+    "head_gloss": "textile graph in Schuessler K.372 series",
+    "head_note": "This packet has one Mand2MC row and no BS-GSR/shengfu evidence, and its Wiktionary cache has no extractable wikitext. The surrounding Schuessler sequence (K.371/K.373) is already resolved to lin, so we inherit that family root to keep the same-series variant renderable.",
+    "display_root": "lin₅",
+    "base_root": "lin",
+    "ordinal": 5,
+    "numbering_source": "document_order_occurrence"
+  }
+}

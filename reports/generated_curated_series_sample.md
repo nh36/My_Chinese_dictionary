@@ -968,7 +968,13 @@
 | `32-15` | `missing_series` | no | 2 | 1 |
 | `32-16` | `missing_series` | no | 23 | 22 |
 | `32-17` | `missing_series` | no | 1 | 0 |
+| `32-18` | `missing_series` | no | 4 | 3 |
+| `32-19` | `missing_series` | no | 4 | 3 |
+| `32-20` | `missing_series` | no | 4 | 3 |
+| `32-21` | `missing_series` | no | 1 | 0 |
 | `32-22` | `missing_series` | no | 7 | 5 |
+| `32-23` | `missing_series` | no | 2 | 1 |
+| `32-24` | `missing_series` | no | 4 | 2 |
 | `32-26` | `missing_series` | no | 12 | 11 |
 | `32-31` | `missing_series` | no | 6 | 5 |
 | `32-32` | `missing_series` | no | 6 | 3 |

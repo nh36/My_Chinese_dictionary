@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 1008
-- Packets with at least one root candidate: 1006
-- Packets with a single resolved provisional root: 1004
+- Missing-series packets inspected: 1014
+- Packets with at least one root candidate: 1012
+- Packets with a single resolved provisional root: 1010
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -951,7 +951,13 @@
 | `32-15` | 天→lin [*l̥ˤin {*l̥ˤi[n]}] (0361a) | `lin` | `head_graph_oc_bs` |
 | `32-16` | 真→tin [*tin {*ti[n]}] (0375a) | `tin` | `head_graph_oc_bs` |
 | `32-17` | 眘→tin [*tin {*ti[n]}] (None) | `tin` | `same_character_series_root` |
+| `32-18` | 陳→lin [*lrin {*lri[n]}] (0373a) | `lin` | `head_graph_oc_bs` |
+| `32-19` | 田→liṅ [*lˤiŋ] (0362a) | `liṅ` | `head_graph_oc_bs` |
+| `32-20` | 引→lin [*linʔ-s {*li[n]ʔ-s}] (0371a) | `lin` | `head_graph_oc_bs` |
+| `32-21` | 絼→lin [*linʔ] (None) | `lin` | `same_character_series_root` |
 | `32-22` | 申→lin [*l̥in {*l̥i[n]}] (0385a) | `lin` | `head_graph_oc_bs` |
+| `32-23` | 身→niṅ [*n̥iŋ {*n̥i[ŋ]}] (0386a) | `niṅ` | `head_graph_oc_bs` |
+| `32-24` | 舜→qun [*qʰuns] (None); 舜→lon [*ɡ‧lonʔ] (None) | `qun` | `head_graph_shengfu_head` |
 | `32-26` | 粦→ryn [*rən {*[r]ə[n]}] (0387a) | `ryn` | `head_graph_oc_bs` |
 | `32-31` | 秦→tsin [*dzin {*[dz]i[n]}] (0380a) | `tsin` | `head_graph_oc_bs` |
 | `32-32` | 盡→tsin [*Cə.dzinʔ {*Cə.[dz]i[n]ʔ}] (0381a) | `tsin` | `head_graph_oc_bs` |
