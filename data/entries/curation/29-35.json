@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-06-30T11:05:06.584885+00:00",
+  "id": "29-35",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "29-35",
+    "rhyme_section": 29,
+    "series_number": 35,
+    "k_tokens": [
+      "506"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.         MC           LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 328,
+    "source_line_number": 4,
+    "source_line_raw": "29-35 = K. 506         Mand.         MC           LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "29-35",
+    "rhyme_section": "29",
+    "series_number": "35",
+    "schuessler_k_tokens": "506",
+    "schuessler_source_page": "328",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "蝨",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "蝨",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "蝨"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "506"
+  ],
+  "proposed_additions": [
+    {
+      "character": "蝨",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣit"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣit"
+        ],
+        "mand2mc_bs_forms": [
+          "srit"
+        ],
+        "bs_gsr_forms": [
+          "srit"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3681",
+          "character": "蝨",
+          "pinyin": "shi1",
+          "mc_nwh": "ṣit",
+          "mc_bs": "srit",
+          "gsr": "0506a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "77",
+          "character": "蝨",
+          "pinyin": "shī",
+          "mc_bs": "srit",
+          "mc_analyzed": "(sr- + -it D)",
+          "oc_bs": "*srit {*sri[t]}",
+          "gloss": "louse",
+          "gsr": "0506a",
+          "unicode_utf16": "U+8768"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14698",
+          "character": "蝨",
+          "phonetic_component": "卂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所櫛",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "id",
+          "oc_syllable": "sʳid"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|卂|䖵|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "卂",
+            "䖵"
+          ],
+          "positional_components_raw": [
+            "卂",
+            "䖵"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "䖵"
+          ],
+          "phonetic_components": [
+            "卂"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|卂|䖵|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "卂",
+              "䖵"
+            ],
+            "positional_components_raw": [
+              "卂",
+              "䖵"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "䖵"
+            ],
+            "phonetic_components": [
+              "卂"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "蝨",
+          "ids": "⿱卂䖵",
+          "phonetic_component": "卂",
+          "semantic_component": "䖵",
+          "position": "suffix-colon",
+          "abbreviation": "insect",
+          "inventory_matches": [
+            {
+              "graph_raw": "䖵",
+              "label_token": "insect(a)",
+              "abbreviation": "insect",
+              "start_line": 330
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "insect",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "䖵",
+            "label_token": "insect(a)",
+            "abbreviation": "insect",
+            "start_line": 330
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "䖵"
+      },
+      "transliteration_latex": "{\\large{sit\\textsuperscript{˸insect}}},",
+      "render_latex": "蝨\t%shi1 / shī\n{\\large{sit\\textsuperscript{˸insect}}},\n\\textit{ṣit};\t%0506a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "䖵",
+        "phonetic_component": "卂",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蝨",
+          "semantic_component": "䖵",
+          "phonetic_component": "卂",
+          "position": "suffix-colon",
+          "abbreviation": "insect",
+          "inventory_matches": [
+            {
+              "graph_raw": "䖵",
+              "label_token": "insect(a)",
+              "abbreviation": "insect",
+              "start_line": 330
+            }
+          ],
+          "template_raw": "{{Han compound|卂|䖵|ls=psc|c1=p|c2=s}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "蝨",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṣit"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṣit"
+        ],
+        "mand2mc_bs_forms": [
+          "srit"
+        ],
+        "bs_gsr_forms": [
+          "srit"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3681",
+          "character": "蝨",
+          "pinyin": "shi1",
+          "mc_nwh": "ṣit",
+          "mc_bs": "srit",
+          "gsr": "0506a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "77",
+          "character": "蝨",
+          "pinyin": "shī",
+          "mc_bs": "srit",
+          "mc_analyzed": "(sr- + -it D)",
+          "oc_bs": "*srit {*sri[t]}",
+          "gloss": "louse",
+          "gsr": "0506a",
+          "unicode_utf16": "U+8768"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "14698",
+          "character": "蝨",
+          "phonetic_component": "卂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "所櫛",
+          "source": "广韵",
+          "oc_initial": "sʳ",
+          "oc_rhyme": "id",
+          "oc_syllable": "sʳid"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "蝨",
+      "gsr": "0506a",
+      "oc_bs": "*srit {*sri[t]}",
+      "root": "sit",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "sit",
+    "source": "head_graph_oc_bs",
+    "character": "蝨",
+    "oc_bs": "*srit {*sri[t]}",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "sit",
+    "base_root": "sit",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

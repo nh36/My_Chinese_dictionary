@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6038
-- Pages fetched / cached successfully: 5948
-- Additions with explicit Han-compound semantic/phonetic roles: 2731
+- Proposed additions checked: 6051
+- Pages fetched / cached successfully: 5961
+- Additions with explicit Han-compound semantic/phonetic roles: 2738
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5044,6 +5044,12 @@
 | `29-30` | 堲 | yes | no |  |  |
 | `29-30` | 䳭 | yes | no |  |  |
 | `29-30` | 卪 | yes | no |  |  |
+| `29-31` | 七 | yes | no |  |  |
+| `29-31` | 叱 | yes | yes | 口 | 七 |
+| `29-31` | 切 | yes | yes | 刀 | 七 |
+| `29-32` | 桼 | yes | no |  |  |
+| `29-32` | 漆 | yes | yes | 水 | 桼 |
+| `29-32` | 膝 | yes | yes | 肉 | 桼 |
 | `29-33` | 溢 | yes | yes | 水 | 益 |
 | `29-33` | 鎰 | yes | no |  |  |
 | `29-33` | 欥 | yes | no |  |  |
@@ -5053,6 +5059,13 @@
 | `29-33` | 觱 | yes | yes | 角 | 𢨋 |
 | `29-33` | 戌 | yes | no |  |  |
 | `29-33` | 怴 | yes | no |  |  |
+| `29-34` | 四 | yes | no |  |  |
+| `29-34` | 駟 | yes | no |  |  |
+| `29-34` | 柶 | yes | no |  |  |
+| `29-34` | 泗 | yes | yes | 水 | 四 |
+| `29-35` | 蝨 | yes | yes | 䖵 | 卂 |
+| `29-36` | 瑟 | yes | yes | 珡 | 必 |
+| `29-37` | 閉 | yes | no |  |  |
 | `29-41` | 必 | yes | no |  |  |
 | `29-41` | 珌 | yes | no |  |  |
 | `29-41` | 怭 | yes | no |  |  |

@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 954
-- Packets with at least one root candidate: 952
-- Packets with a single resolved provisional root: 950
+- Missing-series packets inspected: 960
+- Packets with at least one root candidate: 958
+- Packets with a single resolved provisional root: 956
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
+| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -877,7 +877,13 @@
 | `29-28` | 二→niy [*nij-s {*ni[j]-s}] (0564a) | `niy` | `head_graph_oc_bs` |
 | `29-29` | 疾→tsit [*dzit {*[dz]i[t]}] (0494a) | `tsit` | `head_graph_oc_bs` |
 | `29-30` | 卽→tsik [*tsik {*[ts]ik}] (None); 即→syk [*sɯɡ] (None); 卪→sik [*si̠ɡ] (None) | `tsik` | `head_graph_supported_root` |
+| `29-31` | 七→tsit [*tsʰit {*[tsʰ]i[t]}] (0400a) | `tsit` | `head_graph_oc_bs` |
+| `29-32` | 桼→tsit [*tsʰit {*[tsʰ]i[t]}] (0401a) | `tsit` | `head_graph_oc_bs` |
 | `29-33` | 溢→qik [*N-qik {*N-q(r)ik}] (1257a) | `qik` | `head_graph_oc_bs` |
+| `29-34` | 四→liy [*s.lij-s {*s.li[j]-s}] (0518a) | `liy` | `head_graph_oc_bs` |
+| `29-35` | 蝨→sit [*srit {*sri[t]}] (0506a) | `sit` | `head_graph_oc_bs` |
+| `29-36` | 瑟→mit [*s.mrit {*[s.m]ri[t]}] (0411a) | `mit` | `head_graph_oc_bs` |
+| `29-37` | 閉→pit [*pˤit-s {*pˤi[t]-s}] (0412a) | `pit` | `head_graph_oc_bs` |
 | `29-41` | 必→pit [*pit {*pi[t]}] (0405a) | `pit` | `head_graph_oc_bs` |
 | `29-42` | 畢→pit [*pit {*pi[t]}] (0407a) | `pit` | `head_graph_oc_bs` |
 | `30-01` | 气→qyp [*C.qʰəp-s] (0517a) | `qyp` | `head_graph_oc_bs` |
