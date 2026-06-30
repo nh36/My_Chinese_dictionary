@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6127
-- Pages fetched / cached successfully: 6026
-- Additions with explicit Han-compound semantic/phonetic roles: 2763
+- Proposed additions checked: 6139
+- Pages fetched / cached successfully: 6049
+- Additions with explicit Han-compound semantic/phonetic roles: 2770
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5153,7 +5153,7 @@
 | `30-11` | 殔 | yes | no |  |  |
 | `30-12` | 配 | yes | no |  |  |
 | `30-13` | 孛 | yes | no |  |  |
-| `30-13` | 勃 | no | no |  |  |
+| `30-13` | 勃 | yes | yes | 力 | 孛 |
 | `30-13` | 浡 | yes | no |  |  |
 | `30-13` | 悖 | yes | yes | 心 | 孛 |
 | `30-13` | 誖 | yes | no |  |  |
@@ -5177,17 +5177,17 @@
 | `30-16` | 巿 | yes | no |  |  |
 | `30-16` | 芾 | yes | no |  |  |
 | `30-16` | 旆 | yes | yes | 㫃 | 𣎵 |
-| `30-16` | 㤄 | no | no |  |  |
+| `30-16` | 㤄 | yes | no |  |  |
 | `30-16` | 沛 | yes | yes | 水 | 巿 |
 | `30-16` | 肺 | yes | yes | 肉 | 巿 |
 | `30-17` | 胐 | yes | yes | 肉 | 出 |
 | `30-17` | 朏 | yes | no |  |  |
 | `30-18` | 𠬛 | yes | no |  |  |
 | `30-18` | 沒 | yes | yes | 水 | 𠬛 |
-| `30-18` | 歿 | no | no |  |  |
+| `30-18` | 歿 | yes | yes | 歹 | 沒 |
 | `30-18` | 𤣻 | yes | no |  |  |
 | `30-19` | 勿 | yes | no |  |  |
-| `30-19` | 物 | no | no |  |  |
+| `30-19` | 物 | yes | yes | 牛 | 勿 |
 | `30-19` | 芴 | yes | no |  |  |
 | `30-19` | 歾 | yes | no |  |  |
 | `30-19` | 忽 | yes | yes | 心 | 勿 |
@@ -5195,7 +5195,7 @@
 | `30-19` | 刎 | yes | yes | 刀 | 勿 |
 | `30-19` | 吻 | yes | yes | 口 | 勿 |
 | `30-19` | 惚 | yes | yes | 心 | 忽 |
-| `30-19` | 脗 | no | no |  |  |
+| `30-19` | 脗 | yes | no |  |  |
 | `30-20` | 勿 | yes | no |  |  |
 | `30-20` | 物 | yes | yes | 牛 | 勿 |
 | `30-20` | 芴 | yes | no |  |  |
@@ -5216,10 +5216,10 @@
 | `30-21` | 𩎟 | no | no |  |  |
 | `30-22` | 鬽 | yes | no |  |  |
 | `31-01` | 骨 | yes | yes | 肉 | 冎 |
-| `31-01` | 鶻 | no | no |  |  |
+| `31-01` | 鶻 | yes | no |  |  |
 | `31-01` | 搰 | yes | no |  |  |
 | `31-01` | 猾 | yes | no |  |  |
-| `31-01` | 滑 | no | no |  |  |
+| `31-01` | 滑 | yes | yes | 水 | 骨 |
 | `31-02` | 㬰 | yes | no |  |  |
 | `31-02` | 貴 | yes | yes | 貝 | 臾 |
 | `31-02` | 憒 | yes | no |  |  |
@@ -5237,13 +5237,17 @@
 | `31-02` | 聵 | yes | yes | 耳 | 貴 |
 | `31-02` | 壝 | yes | no |  |  |
 | `31-03` | 凷 | yes | no |  |  |
-| `31-04` | 㕟 | no | no |  |  |
+| `31-04` | 㕟 | yes | no |  |  |
 | `31-04` | 蒯 | yes | no |  |  |
-| `31-05` | 胃 | no | no |  |  |
+| `31-05` | 胃 | yes | no |  |  |
 | `31-05` | 媦 | yes | yes | 女 | 胃 |
-| `31-05` | 謂 | no | no |  |  |
+| `31-05` | 謂 | yes | yes | 言 | 胃 |
 | `31-05` | 蝟 | yes | yes | 虫 | 胃 |
-| `31-05` | 喟 | no | no |  |  |
+| `31-05` | 喟 | yes | no |  |  |
+| `31-06` | 彙 | yes | yes | 㣇 | 胃 |
+| `31-07` | 位 | yes | yes | 人 | 立 |
+| `31-08` | 𩰪 | yes | no |  |  |
+| `31-08` | 鬱 | yes | no |  |  |
 | `31-09` | 㷉 | yes | no |  |  |
 | `31-09` | 尉 | yes | no |  |  |
 | `31-09` | 熨 | yes | no |  |  |
@@ -5251,6 +5255,14 @@
 | `31-09` | 罻 | yes | no |  |  |
 | `31-09` | 蔚 | yes | yes | 艸 | 尉 |
 | `31-09` | 褽 | yes | no |  |  |
+| `31-10` | 兀 | yes | no |  |  |
+| `31-10` | 扤 | yes | no |  |  |
+| `31-10` | 杌 | yes | no |  |  |
+| `31-10` | 阢 | yes | no |  |  |
+| `31-10` | 卼 | yes | no |  |  |
+| `31-10` | 軏 | yes | no |  |  |
+| `31-11` | 𠫓 | yes | no |  |  |
+| `31-12` | 突 | yes | no |  |  |
 | `31-16` | 出 | yes | no |  |  |
 | `31-16` | 黜 | yes | yes | 黑 | 出 |
 | `31-16` | 絀 | yes | no |  |  |

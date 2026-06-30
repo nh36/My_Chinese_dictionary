@@ -373,7 +373,36 @@
         "source": "wiktionary_semantic_validation",
         "phonetic_hint": "𠬛"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "mut",
+        "source": "node_inherit_parent",
+        "descendant_count": 2,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "mut"
+        ],
+        "bs_node_roots": [
+          "mut"
+        ],
+        "display_root": "mut₂",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": false,
+        "mc_forms": [
+          "mwət"
+        ],
+        "form_analyses": [
+          {
+            "form": "mwət",
+            "normalized": "mwət",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "mut",
+        "ordinal": 2,
+        "numbering_source": "document_order_occurrence"
+      }
     },
     {
       "character": "歿",
@@ -441,31 +470,120 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|歹|沒|c1=s|c2=p|t1=death|ls=psc|abb2=y}}",
+          "positional_components": [
+            "歹",
+            "沒"
+          ],
+          "positional_components_raw": [
+            "歹",
+            "沒"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "death",
+            "ls": "psc",
+            "abb2": "y"
+          },
+          "semantic_components": [
+            "歹"
+          ],
+          "phonetic_components": [
+            "沒"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|歹|沒|c1=s|c2=p|t1=death|ls=psc|abb2=y}}",
+            "positional_components": [
+              "歹",
+              "沒"
+            ],
+            "positional_components_raw": [
+              "歹",
+              "沒"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "death",
+              "ls": "psc",
+              "abb2": "y"
+            },
+            "semantic_components": [
+              "歹"
+            ],
+            "phonetic_components": [
+              "沒"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{mut}},",
-      "render_latex": "歿\t%mo4 / mò\n{\\large{mut}},\n\\textit{mwət};\t%0492c",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{mal·}mut₂}},",
+      "render_latex": "歿\t%mo4 / mò\n{\\large{\\textsuperscript{mal·}mut₂}},\n\\textit{mwət};\t%0492c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "歹",
+        "phonetic_component": "沒",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "歿",
+          "semantic_component": "歹",
+          "phonetic_component": "沒",
+          "position": "prefix-dot",
+          "abbreviation": "mal",
+          "inventory_matches": [
+            {
+              "graph_raw": "歹",
+              "label_token": "mal(us)",
+              "abbreviation": "mal",
+              "start_line": 318
+            },
+            {
+              "graph_raw": "歹",
+              "label_token": "mal",
+              "abbreviation": "mal",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|歹|沒|c1=s|c2=p|t1=death|ls=psc|abb2=y}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "mal",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "歹",
+            "label_token": "mal(us)",
+            "abbreviation": "mal",
+            "start_line": 318
+          },
+          {
+            "graph_raw": "歹",
+            "label_token": "mal",
+            "abbreviation": "mal",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "歹"
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "𠬛",
+        "status": "assigned-to-candidate-node",
+        "parent_character": "沒",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
-        "phonetic_hint": "𠬛"
+        "parent_kind": "candidate",
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "沒"
       },
       "resolved_node_root": {
         "root": "mut",
@@ -478,7 +596,7 @@
         "bs_node_roots": [
           "mut"
         ],
-        "display_root": "mut₂",
+        "display_root": "mut₃",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
@@ -494,7 +612,7 @@
           }
         ],
         "base_root": "mut",
-        "ordinal": 2,
+        "ordinal": 3,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -543,8 +661,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{mut₂}},",
-      "render_latex": "𤣻\t%mo4\n{\\large{mut₂}},\n\\textit{mwət};\t%0492d",
+      "transliteration_latex": "{\\large{mut₃}},",
+      "render_latex": "𤣻\t%mo4\n{\\large{mut₃}},\n\\textit{mwət};\t%0492d",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,

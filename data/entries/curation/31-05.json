@@ -294,7 +294,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -624,9 +624,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|言|胃|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "言",
+            "胃"
+          ],
+          "positional_components_raw": [
+            "言",
+            "胃"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "言"
+          ],
+          "phonetic_components": [
+            "胃"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|言|胃|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "言",
+              "胃"
+            ],
+            "positional_components_raw": [
+              "言",
+              "胃"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "言"
+            ],
+            "phonetic_components": [
+              "胃"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -674,12 +718,39 @@
             "evidence_count": 19
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "言"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{dic·}quyt}},",
       "render_latex": "謂\t%wei4 / wèi\n{\\large{\\textsuperscript{dic·}quyt}},\n\\textit{hiwɨyH};\t%0523d",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "言",
+        "phonetic_component": "胃",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "謂",
+          "semantic_component": "言",
+          "phonetic_component": "胃",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ],
+          "template_raw": "{{Han compound|言|胃|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "胃",
@@ -936,7 +1007,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

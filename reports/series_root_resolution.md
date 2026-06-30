@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 984
-- Packets with at least one root candidate: 982
-- Packets with a single resolved provisional root: 980
+- Missing-series packets inspected: 990
+- Packets with at least one root candidate: 988
+- Packets with a single resolved provisional root: 986
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
+| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -916,7 +916,13 @@
 | `31-03` | 凷→kyt [*kʰɯ̠ds] (None) | `kyt` | `head_graph_oc_shengfu` |
 | `31-04` | 㕟→kut [*kʰʳu̠ds] (None) | `kut` | `head_graph_oc_shengfu` |
 | `31-05` | 胃→quyt [*ɢʷət-s {*[ɢ]ʷə[t]-s}] (0523a) | `quyt` | `head_graph_oc_bs` |
+| `31-06` | 彙→qut [*ɢʳuds] (None); 彙→quyt [*ɢʷət-s {*[ɢ]ʷə[t]-s}] (None) | `qut` | `head_graph_shengfu_head` |
+| `31-07` | 位→quyp [*ɢʷrəp-s {*[ɢ]ʷrəp-s} < *ɢʷəʔ-rəp-s ?] (0539a) | `quyp` | `head_graph_oc_bs` |
+| `31-08` | 𩰪→qut [*qut] (None) | `qut` | `same_character_series_root` |
 | `31-09` | 㷉→ʔut [*ʔut-s] (0525a) | `ʔut` | `head_graph_oc_bs` |
+| `31-10` | 兀→ṅut [*ŋu̠d] (None); 兀→ṅon [*ŋon {*[ŋ]o[n]} (< nasal + uvular)] (None) | `ṅut` | `head_graph_mc_coda` |
+| `31-11` | 𠫓→tut [*tʰu̠d] (None) | `tut` | `head_graph_oc_shengfu` |
+| `31-12` | 突→tut [*m-tʰˤut] (0489a) | `tut` | `head_graph_oc_bs` |
 | `31-16` | 出→kut [*t.kʰut-s] (0496a) | `kut` | `head_graph_oc_bs` |
 | `31-17` | 朮→lut [*mə.lut ~ *m.lut] (0497a) | `lut` | `head_graph_oc_bs` |
 | `31-20` | 卒→tsut [*tsut {*[ts]ut}] (0490a) | `tsut` | `head_graph_oc_bs` |

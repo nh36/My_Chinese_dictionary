@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1024
+- Generated subgroup heads inspected: 1026
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 347
-- Mixed subgroups left unmarked: 428
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 348
+- Mixed subgroups left unmarked: 429
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -900,11 +900,12 @@
 | `30-13` | 孛 | `put` | `put` | `mixed` | no | `bwəyH, bwət, piut` | the extracted forms point to both type a and type b |
 | `30-14` | 弗 | `put` | `put` | `mixed` | no | `biut, piut, phiut, biɨyH, bwət, piɨyH, phiɨyH` | the extracted forms point to both type a and type b |
 | `30-16` | 巿 | `put` | `put` | `mixed` | no | `piut, payH, piɨyH, bayH, phayH, phiəyH` | the extracted forms point to both type a and type b |
-| `30-18` | 歿 | `mut` | `mut₂` | `a` | no | `mwət` | all extracted forms lack an i-medial after the onset |
+| `30-18` | 沒 | `mut` | `mut₂` | `a` | no | `mwət` | all extracted forms lack an i-medial after the onset |
+| `30-18` | 歿 | `mut` | `mut₃` | `a` | no | `mwət` | all extracted forms lack an i-medial after the onset |
 | `30-19` | 勿 | `mut` | `mut` | `mixed` | no | `miut, hwət, mwət, miunX` | the extracted forms point to both type a and type b |
-| `30-19` | 忽 | `mut` | `mut₄` | `a` | no | `hwət` | all extracted forms lack an i-medial after the onset |
+| `30-19` | 忽 | `mut` | `mut₅` | `a` | no | `hwət` | all extracted forms lack an i-medial after the onset |
 | `30-20` | 勿 | `mut` | `mut` | `mixed` | no | `miut, hwət, mwət, miunX` | the extracted forms point to both type a and type b |
-| `30-20` | 忽 | `mut` | `mut₆` | `a` | no | `hwət` | all extracted forms lack an i-medial after the onset |
+| `30-20` | 忽 | `mut` | `mut₇` | `a` | no | `hwət` | all extracted forms lack an i-medial after the onset |
 | `30-21` | 未 | `myt` | `myt` | `mixed` | no | `miɨyH, miyH, myiyH, mwəyH, meayH` | the extracted forms point to both type a and type b |
 | `31-01` | 骨 | `kut` | `kut` | `a` | no | `kwət, hweat, hwət, khwət` | all extracted forms lack an i-medial after the onset |
 | `31-02` | 貴 | `kuy` | `kuy₈` | `mixed` | no | `kiwɨyH, kwəyH, hwəyH, gwiyH, khweayH, yiwiy, yiwiyH, yiwiyX, xweayH, ṅweayH` | the extracted forms point to both type a and type b |
@@ -912,6 +913,7 @@
 | `31-02` | 遺 | `guy` | `guy` | `b` | no | `yiwiy, yiwiyH, yiwiyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `31-05` | 胃 | `gyt` | `gyt` | `mixed` | no | `hiwɨyH, khweayH, khwiyH` | the extracted forms point to both type a and type b |
 | `31-09` | 尉 | `qut` | `qut₂` | `b` | no | `qiwɨyH, qiut, qiwɨy` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `31-10` | 兀 | `ṅut` | `ṅut` | `mixed` | no | `ṅwət, ṅiwət` | the extracted forms point to both type a and type b |
 | `31-16` | 出 | `kut` | `kut` | `mixed` | no | `chiwiyH, chiwit, ṭhwit, ṭwit, twət, ciwet, tṣiwet, tṣweat, khiut, hwət, kwət, khwət, giut, giwət` | the extracted forms point to both type a and type b |
 | `31-16` | 屈 | `kut` | `kut₃` | `mixed` | no | `khiut, hwət, kwət, khwət, giut, giwət` | the extracted forms point to both type a and type b |
 | `31-20` | 卒 | `tsut` | `tsut` | `mixed` | no | `tshwət, tswit, tswət, dzwət, dzwit, tshwəyH, tswiyH, tshwiyH, dzwiyH, swəyH, swiyH` | the extracted forms point to both type a and type b |

@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-06-30T11:53:18.125159+00:00",
+  "id": "31-07",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "31-07",
+    "rhyme_section": 31,
+    "series_number": 7,
+    "k_tokens": [
+      "539"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.",
+    "is_cross_reference_only": false,
+    "source_page_number": 338,
+    "source_line_number": 8,
+    "source_line_raw": "31-7 =K. 539 Man d."
+  },
+  "coverage": {
+    "gsc_id": "31-07",
+    "rhyme_section": "31",
+    "series_number": "7",
+    "schuessler_k_tokens": "539",
+    "schuessler_source_page": "338",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "位",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "位",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "位"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "539"
+  ],
+  "proposed_additions": [
+    {
+      "character": "位",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hwiyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hwiyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hwijH"
+        ],
+        "bs_gsr_forms": [
+          "hwijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3855",
+          "character": "位",
+          "pinyin": "wei4",
+          "mc_nwh": "hwiyH",
+          "mc_bs": "hwijH",
+          "gsr": "0539a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "81",
+          "character": "位",
+          "pinyin": "wèi",
+          "mc_bs": "hwijH",
+          "mc_analyzed": "(h- + -wij C)",
+          "oc_bs": "*ɢʷrəp-s {*[ɢ]ʷrəp-s} < *ɢʷəʔ-rəp-s ?",
+          "gloss": "standing, position",
+          "gsr": "0539a",
+          "unicode_utf16": "U+4F4D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "8373",
+          "character": "位",
+          "phonetic_component": "立",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于愧",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "ɯbs",
+          "oc_syllable": "ɢʳɯbs"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|立|ls=psc|c1=s|c2=p|t1=man|t2=stand}}",
+          "positional_components": [
+            "人",
+            "立"
+          ],
+          "positional_components_raw": [
+            "人",
+            "立"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "man",
+            "t2": "stand"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "立"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|立|ls=psc|c1=s|c2=p|t1=man|t2=stand}}",
+            "positional_components": [
+              "人",
+              "立"
+            ],
+            "positional_components_raw": [
+              "人",
+              "立"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "man",
+              "t2": "stand"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "立"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "位",
+          "ids": "⿰亻立",
+          "phonetic_component": "立",
+          "semantic_component": "人",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 298
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "人"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}quyp}},",
+      "render_latex": "位\t%wei4 / wèi\n{\\large{\\textsuperscript{hom·}quyp}},\n\\textit{hwiyH};\t%0539a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "人",
+        "phonetic_component": "立",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "位",
+          "semantic_component": "人",
+          "phonetic_component": "立",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|人|立|ls=psc|c1=s|c2=p|t1=man|t2=stand}}"
+        }
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "位",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hwiyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hwiyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hwijH"
+        ],
+        "bs_gsr_forms": [
+          "hwijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3855",
+          "character": "位",
+          "pinyin": "wei4",
+          "mc_nwh": "hwiyH",
+          "mc_bs": "hwijH",
+          "gsr": "0539a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "81",
+          "character": "位",
+          "pinyin": "wèi",
+          "mc_bs": "hwijH",
+          "mc_analyzed": "(h- + -wij C)",
+          "oc_bs": "*ɢʷrəp-s {*[ɢ]ʷrəp-s} < *ɢʷəʔ-rəp-s ?",
+          "gloss": "standing, position",
+          "gsr": "0539a",
+          "unicode_utf16": "U+4F4D"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "8373",
+          "character": "位",
+          "phonetic_component": "立",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于愧",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "ɯbs",
+          "oc_syllable": "ɢʳɯbs"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "位",
+      "gsr": "0539a",
+      "oc_bs": "*ɢʷrəp-s {*[ɢ]ʷrəp-s} < *ɢʷəʔ-rəp-s ?",
+      "root": "quyp",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "quyp",
+    "source": "head_graph_oc_bs",
+    "character": "位",
+    "oc_bs": "*ɢʷrəp-s {*[ɢ]ʷrəp-s} < *ɢʷəʔ-rəp-s ?",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "quyp",
+    "base_root": "quyp",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

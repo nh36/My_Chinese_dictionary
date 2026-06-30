@@ -543,9 +543,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|孛|力|ls=psc|c1=p|c2=s|t2=power}}",
+          "positional_components": [
+            "孛",
+            "力"
+          ],
+          "positional_components_raw": [
+            "孛",
+            "力"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "power"
+          },
+          "semantic_components": [
+            "力"
+          ],
+          "phonetic_components": [
+            "孛"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|孛|力|ls=psc|c1=p|c2=s|t2=power}}",
+            "positional_components": [
+              "孛",
+              "力"
+            ],
+            "positional_components_raw": [
+              "孛",
+              "力"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "power"
+            },
+            "semantic_components": [
+              "力"
+            ],
+            "phonetic_components": [
+              "孛"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -593,12 +639,39 @@
             "evidence_count": 2
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "力"
       },
       "transliteration_latex": "{\\large{put₂\\textsuperscript{·virt}}},",
       "render_latex": "勃\t%bo2\n{\\large{put₂\\textsuperscript{·virt}}},\n\\textit{bwət};\t%0491b",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "力",
+        "phonetic_component": "孛",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "勃",
+          "semantic_component": "力",
+          "phonetic_component": "孛",
+          "position": "suffix-dot",
+          "abbreviation": "virt",
+          "inventory_matches": [
+            {
+              "graph_raw": "力",
+              "label_token": "virt(us)",
+              "abbreviation": "virt",
+              "start_line": 441
+            },
+            {
+              "graph_raw": "力",
+              "label_token": "virt",
+              "abbreviation": "virt",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|孛|力|ls=psc|c1=p|c2=s|t2=power}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "孛",
