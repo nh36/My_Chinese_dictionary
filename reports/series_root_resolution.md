@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 906
-- Packets with at least one root candidate: 904
-- Packets with a single resolved provisional root: 902
+- Missing-series packets inspected: 912
+- Packets with at least one root candidate: 910
+- Packets with a single resolved provisional root: 908
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
+| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -816,6 +816,12 @@
 | `27-06` | 希→qy [*qʰəj] (0549a) | `qy` | `head_graph_oc_bs` |
 | `27-07` | 黹→ti [*tiʔ] (None) | `ti` | `head_graph_oc_shengfu` |
 | `27-08` | 非→py [*pəj] (0579a) | `py` | `head_graph_oc_bs` |
+| `27-09` | 飛→pyr [*Cə.pər {*Cə.pə[r]} (dial. *-r > *-j)] (0580a) | `pyr` | `head_graph_oc_bs` |
+| `27-10` | 妃→py [*pʰəj] (0581a) | `py` | `head_graph_oc_bs` |
+| `27-11` | 肥→pyr [*bər {*[b][ə]r}] (0582a) | `pyr` | `head_graph_oc_bs` |
+| `27-12` | 火→quy [*qʷʰˤəjʔ {*[qʷʰ]ˤəjʔ}] (0353a) | `quy` | `head_graph_oc_bs` |
+| `27-13` | 枚→my [*mɯ̠l] (None) | `my` | `head_graph_oc_shengfu` |
+| `27-14` | 眉→myr [*mrər] (0567a) | `myr` | `head_graph_oc_bs` |
 | `28-01` | 鬼→ʔuy [*k-ʔujʔ] (0569a) | `ʔuy` | `head_graph_oc_bs` |
 | `28-04` | 回→quy [*ɢʷˤəj {*[ɢ]ʷˤəj}] (0542a) | `quy` | `head_graph_oc_bs` |
 | `28-05` | 韋→quy [*ɢʷəj {*[ɢ]ʷə[j]}] (0571a); 衛→quat [*ɢʷat-s {*[ɢ]ʷ(r)a[t]-s}] (0342a) | `quy` | `merged_packet_primary_head` |

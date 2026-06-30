@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5931
-- Pages fetched / cached successfully: 5842
-- Additions with explicit Han-compound semantic/phonetic roles: 2697
+- Proposed additions checked: 5941
+- Pages fetched / cached successfully: 5848
+- Additions with explicit Han-compound semantic/phonetic roles: 2699
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4767,6 +4767,16 @@
 | `27-08` | 悲 | yes | yes | 心 | 非 |
 | `27-08` | 俳 | yes | yes | 人 | 非 |
 | `27-08` | 排 | yes | yes | 手 | 非 |
+| `27-09` | 飛 | no | no |  |  |
+| `27-10` | 妃 | yes | no |  |  |
+| `27-11` | 肥 | no | no |  |  |
+| `27-12` | 火 | yes | no |  |  |
+| `27-13` | 枚 | yes | yes | 木 | 文 |
+| `27-13` | 玫 | no | no |  |  |
+| `27-14` | 眉 | yes | no |  |  |
+| `27-14` | 媚 | yes | yes | 女 | 眉 |
+| `27-14` | 楣 | yes | no |  |  |
+| `27-14` | 湄 | no | no |  |  |
 | `28-01` | 鬼 | yes | no |  |  |
 | `28-01` | 傀 | yes | yes | 人 | 鬼 |
 | `28-01` | 瑰 | yes | yes | 玉 | 鬼 |
