@@ -1,8 +1,8 @@
 # GSC series coverage
 
-- Total GSC series headers extracted from Schuessler PDF: 1244
+- Total GSC series headers extracted from Schuessler PDF: 1246
 - Series represented in `main.tex`: 114
-- Missing series: 1130
+- Missing series: 1132
 
 ## Coverage by rhyme section
 
@@ -15,7 +15,7 @@
 | 05 | 38 | 0 | 38 |
 | 06 | 22 | 0 | 22 |
 | 07 | 29 | 0 | 29 |
-| 08 | 20 | 0 | 20 |
+| 08 | 21 | 0 | 21 |
 | 09 | 33 | 0 | 33 |
 | 10 | 40 | 22 | 18 |
 | 11 | 20 | 0 | 20 |
@@ -40,7 +40,7 @@
 | 30 | 21 | 0 | 21 |
 | 31 | 23 | 0 | 23 |
 | 32 | 40 | 0 | 40 |
-| 33 | 33 | 0 | 33 |
+| 33 | 34 | 0 | 34 |
 | 34 | 32 | 0 | 32 |
 | 35 | 20 | 0 | 20 |
 | 36 | 24 | 0 | 24 |
