@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 918
-- Packets with at least one root candidate: 916
-- Packets with a single resolved provisional root: 914
+- Missing-series packets inspected: 924
+- Packets with at least one root candidate: 922
+- Packets with a single resolved provisional root: 920
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
+| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -829,8 +829,14 @@
 | `27-19` | 虺→ruy [*r̥ujʔ {*[r̥]u[j]ʔ} (dial. *r̥- > x-)] (0572a) | `ruy` | `head_graph_oc_bs` |
 | `27-20` | 蟲→luṅ [*C.lruŋ] (1009a) | `luṅ` | `head_graph_oc_bs` |
 | `28-01` | 鬼→ʔuy [*k-ʔujʔ] (0569a) | `ʔuy` | `head_graph_oc_bs` |
+| `28-02` | 歸→kuy [*kʷəj {*[k]ʷəj}] (0570a) | `kuy` | `head_graph_oc_bs` |
+| `28-03` | 夔→ɡu [*ɡʳul] (None) | `ɡu` | `head_graph_oc_shengfu` |
 | `28-04` | 回→quy [*ɢʷˤəj {*[ɢ]ʷˤəj}] (0542a) | `quy` | `head_graph_oc_bs` |
 | `28-05` | 韋→quy [*ɢʷəj {*[ɢ]ʷə[j]}] (0571a); 衛→quat [*ɢʷat-s {*[ɢ]ʷ(r)a[t]-s}] (0342a) | `quy` | `merged_packet_primary_head` |
+| `28-06` | 褱→ɡu [*ɡʳu̠l] (None) | `ɡu` | `head_graph_oc_shengfu` |
+| `28-07` | 乖→kuy [*kʷˤrəj] (1240h); 乖→kui [*kʷʳi̠l] (None) | `kuy` | `head_graph_bs_head` |
+| `28-08` | 卉→mu [*m̥ʰulʔ] (None) | `mu` | `head_graph_oc_shengfu` |
+| `28-09` | 畏→ʔuy [*ʔuj-s] (0573a) | `ʔuy` | `head_graph_oc_bs` |
 | `28-11` | 隹→tur [*tur] (0575a) | `tur` | `head_graph_oc_bs` |
 | `28-15` | 畾→ru [*ru̠l] (None); 螺→roy [*k.rˤoj] (577); 螺→ro [*ro̠l] (None); 螺→ruy [*rujʔ {*[r]ujʔ}] (None) | `ruy` | `packet_bs_majority` |
 | `29-01` | 吉→kit [*kid] (None) | `kit` | `head_graph_oc_shengfu` |

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5958
-- Pages fetched / cached successfully: 5868
-- Additions with explicit Han-compound semantic/phonetic roles: 2707
+- Proposed additions checked: 5973
+- Pages fetched / cached successfully: 5882
+- Additions with explicit Han-compound semantic/phonetic roles: 2715
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4808,6 +4808,9 @@
 | `28-01` | 螝 | yes | no |  |  |
 | `28-01` | 餽 | yes | no |  |  |
 | `28-01` | 巍 | yes | no |  |  |
+| `28-02` | 歸 | yes | no |  |  |
+| `28-02` | 巋 | yes | no |  |  |
+| `28-03` | 夔 | yes | no |  |  |
 | `28-04` | 回 | yes | no |  |  |
 | `28-04` | 廻 | yes | no |  |  |
 | `28-04` | 迴 | yes | yes | 辵 | 回 |
@@ -4832,6 +4835,18 @@
 | `28-05` | 衛 | yes | yes | 行 | 韋 |
 | `28-05` | 讆 | yes | no |  |  |
 | `28-05` | 躗 | yes | no |  |  |
+| `28-06` | 褱 | yes | yes | 衣 | 眔 |
+| `28-06` | 懷 | yes | yes | 心 | 褱 |
+| `28-06` | 壞 | yes | yes | 土 | 褱 |
+| `28-06` | 瓌 | yes | yes | 玉 | 褱 |
+| `28-07` | 乖 | yes | no |  |  |
+| `28-08` | 卉 | yes | no |  |  |
+| `28-09` | 畏 | yes | yes | 卜 | 鬼 |
+| `28-09` | 㟪 | yes | no |  |  |
+| `28-09` | 偎 | yes | yes | 人 | 畏 |
+| `28-09` | 煨 | yes | yes | 火 | 畏 |
+| `28-09` | 猥 | yes | yes | 犬 | 畏 |
+| `28-09` | 隈 | no | no |  |  |
 | `28-11` | 隹 | yes | no |  |  |
 | `28-11` | 推 | yes | yes | 手 | 隹 |
 | `28-11` | 陮 | yes | no |  |  |
