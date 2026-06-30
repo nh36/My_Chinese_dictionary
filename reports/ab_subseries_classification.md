@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1039
+- Generated subgroup heads inspected: 1041
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 357
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 359
 - Mixed subgroups left unmarked: 433
 - Unresolved subgroups left unmarked: 4
 
@@ -950,7 +950,9 @@
 | `32-33` | 辛 | `sin` | `sin` | `b` | no | `sin, ṣin, tṣin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-33` | 新 | `sin` | `sin₂` | `b` | no | `sin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-33` | 親 | `sin` | `sin₃` | `b` | no | `tshin, tṣhinH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `32-35` | 卂 | `syn` | `syn` | `b` | no | `sinH, swinH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-38` | 賓 | `pin` | `pin₂` | `mixed` | no | `pjin, pyin, pyinH, phin, byin, ben, byinX, binX` | the extracted forms point to both type a and type b |
+| `32-39` | 頻 | `pin` | `pin` | `b` | no | `byin, bin` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-40` | 民 | `miṅ` | `miṅ` | `mixed` | no | `min, minX, men, menX, hwən` | the extracted forms point to both type a and type b |
 | `32-40` | 敃 | `miṅ` | `miṅ₃` | `b` | no | `minX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `32-40` | 昬 | `miṅ` | `miṅ₄` | `mixed` | no | `hwən, min` | the extracted forms point to both type a and type b |

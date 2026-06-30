@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 1020
-- Packets with at least one root candidate: 1016
-- Packets with a single resolved provisional root: 1014
+- Missing-series packets inspected: 1026
+- Packets with at least one root candidate: 1022
+- Packets with a single resolved provisional root: 1020
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -968,10 +968,16 @@
 | `32-32` | 盡→tsin [*Cə.dzinʔ {*Cə.[dz]i[n]ʔ}] (0381a) | `tsin` | `head_graph_oc_bs` |
 | `32-33` | 辛→sin [*sin {*[s]i[n]}] (0382a) | `sin` | `head_graph_oc_bs` |
 | `32-34` |  | `` | `` |
+| `32-35` | 卂→syn [*sˡɯns] (None) | `syn` | `head_graph_oc_shengfu` |
+| `32-36` | 信→niṅ [*s-niŋ-s {*s-ni[ŋ]-s}] (0384a) | `niṅ` | `head_graph_oc_bs` |
+| `32-37` | 甡→sin [*sʳin] (None) | `sin` | `head_graph_oc_shengfu` |
 | `32-38` | 賔→pin [*pin {*pi[n]}] (None); 賓→men [*mbe̠nʔ] (None) | `pin` | `head_graph_supported_root` |
+| `32-39` | 頻→pin [*bin {*[b]i[n]}] (0390a) | `pin` | `head_graph_oc_bs` |
 | `32-40` | 民→miṅ [*miŋ {*mi[ŋ]}] (0457a) | `miṅ` | `head_graph_oc_bs` |
 | `33-01` | 艮→kyn [*kɯ̠ns] (None) | `kyn` | `head_graph_oc_shengfu` |
 | `33-02` | 斤→kyr [*kər {*[k]ər}] (0443a) | `kyr` | `head_graph_oc_bs` |
+| `33-03` | 筋→kyn [*C.kən {*C.[k]ə[n]}] (0445a) | `kyn` | `head_graph_oc_bs` |
+| `33-04` | 𢀷→kyn [*kɯnʔ] (None) | `kyn` | `same_character_series_root` |
 | `33-05` | 𡏳→kyr [*kˤrər {*kˤrə[r]}] (0480a) | `kyr` | `head_graph_oc_bs` |
 | `33-13` | 辰→tyr [*dər {*[d]ər}] (0455a) | `tyr` | `head_graph_oc_bs` |
 | `33-15` | 㐱→tyn [*tənʔ {*t[ə][n]ʔ}] (0453a) | `tyn` | `head_graph_oc_bs` |

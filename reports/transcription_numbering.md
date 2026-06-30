@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1431
-- Roots whose display label changed after document-wide renumbering: 874
-- Duplicate phonetic bases encountered in document order: 339
+- Mutable series/subseries roots inspected: 1437
+- Roots whose display label changed after document-wide renumbering: 879
+- Duplicate phonetic bases encountered in document order: 340
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1548,3 +1548,9 @@
 | `32-28` | `subseries-root` | 千 | `niṅ` | 3 | `niṅ₃` | yes |
 | `32-29` | `series-root` | 晉 | `tsin` | 3 | `tsin₃` | yes |
 | `32-30` | `series-root` | 進 | `tsin` | 4 | `tsin₄` | yes |
+| `32-35` | `series-root` | 卂 | `syn` | 1 | `syn` | yes |
+| `32-36` | `series-root` | 信 | `niṅ` | 4 | `niṅ₄` | yes |
+| `32-37` | `series-root` | 甡 | `sin` | 4 | `sin₄` | yes |
+| `32-39` | `series-root` | 頻 | `pin` | 3 | `pin₃` | yes |
+| `33-03` | `series-root` | 筋 | `kyn` | 2 | `kyn₂` | yes |
+| `33-04` | `series-root` | 𢀷 | `kyn` | 3 | `kyn₃` | yes |
