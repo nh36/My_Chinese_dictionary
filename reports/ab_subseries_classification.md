@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 976
+- Generated subgroup heads inspected: 980
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 322
-- Mixed subgroups left unmarked: 405
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 325
+- Mixed subgroups left unmarked: 406
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -808,6 +808,7 @@
 | `26-32` | 屖 | `ly` | `ly` | `mixed` | no | `sey, ḍiy, ḍiyH` | the extracted forms point to both type a and type b |
 | `26-33` | 犀 | `ly` | `ly` | `mixed` | no | `sey, ḍiy, ḍiyH` | the extracted forms point to both type a and type b |
 | `26-34` | 厶 | `si` | `si` | `b` | no | `siy` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `26-37` | 匕 | `piy` | `piy` | `b` | no | `pyiyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `26-38` | 匕 | `piy` | `piy` | `b` | no | `pyiyH, byiyX, byinX, phyieX, phyiyX, pyiyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `26-38` | 𣬉 | `piy` | `piy₃` | `b` | no | `byiy` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `26-38` | 比 | `piy` | `piy₂` | `mixed` | no | `byiy, byiyH, pyiyH, pyiyX, bet, phey, beyX, phyieX, bey, pyiy, biyX, phyiyX, byie, pey, phyie, phyiy` | the extracted forms point to both type a and type b |
@@ -815,7 +816,10 @@
 | `26-39` | 米 | `miy` | `miy` | `mixed` | no | `meyX, mey, miy, myieX, myie` | the extracted forms point to both type a and type b |
 | `26-39` | 麋 | `miy` | `miy₂` | `b` | no | `miy` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `27-02` | 豈 | `qy` | `qy` | `mixed` | no | `khiɨyX, khəyX, khəyH, khəy, həy, ṅiɨyX, kiyH` | the extracted forms point to both type a and type b |
+| `27-03` | 冀 | `kyk` | `kyk` | `b` | no | `kiyH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `27-04` | 幾 | `ky` | `ky` | `b` | no | `giɨy, kiɨy, kiɨyX, kiɨyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `27-05` | 衣 | `ʔy` | `ʔy` | `b` | no | `qiɨy, qiɨyH, qiɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `27-05` | 哀 | `qy` | `qy₁₃` | `mixed` | no | `qəy, qiɨyX` | the extracted forms point to both type a and type b |
 | `27-06` | 希 | `qhy` | `qhy` | `b` | no | `xiɨy, xiɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `27-08` | 非 | `py` | `py` | `mixed` | no | `piɨy, piɨyX, piɨyH, phiɨyX, phiɨy, biɨyH, biɨy, biɨyX, bwəy, piy, beay` | the extracted forms point to both type a and type b |
 | `27-08` | 匪 | `py` | `py₁₀` | `b` | no | `piɨyX` | all extracted forms show an i-medial or a dedicated palatal onset |

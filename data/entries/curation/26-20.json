@@ -546,9 +546,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|尸|死|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "尸",
+            "死"
+          ],
+          "positional_components_raw": [
+            "尸",
+            "死"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "死"
+          ],
+          "phonetic_components": [
+            "尸"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|尸|死|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "尸",
+              "死"
+            ],
+            "positional_components_raw": [
+              "尸",
+              "死"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "死"
+            ],
+            "phonetic_components": [
+              "尸"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -582,12 +626,32 @@
             "start_line": 328
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "死"
       },
       "transliteration_latex": "{\\large{ly₁₄\\textsuperscript{·mort}}},",
       "render_latex": "屍\t%shi1 / shī\n{\\large{ly₁₄\\textsuperscript{·mort}}},\n\\textit{śiy};\t%0561c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "死",
+        "phonetic_component": "尸",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "屍",
+          "semantic_component": "死",
+          "phonetic_component": "尸",
+          "position": "suffix-dot",
+          "abbreviation": "mort",
+          "inventory_matches": [
+            {
+              "graph_raw": "死",
+              "label_token": "mort(uus)",
+              "abbreviation": "mort",
+              "start_line": 328
+            }
+          ],
+          "template_raw": "{{Han compound|尸|死|ls=psc|c1=p|c2=s}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "尸",

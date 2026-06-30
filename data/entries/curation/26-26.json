@@ -749,7 +749,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -1087,9 +1087,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|木|妻|t1=tree|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "木",
+            "妻"
+          ],
+          "positional_components_raw": [
+            "木",
+            "妻"
+          ],
+          "named_args": {
+            "t1": "tree",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "妻"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|木|妻|t1=tree|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "木",
+              "妻"
+            ],
+            "positional_components_raw": [
+              "木",
+              "妻"
+            ],
+            "named_args": {
+              "t1": "tree",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "妻"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -1137,12 +1183,39 @@
             "evidence_count": 22
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{arb·}tsy₁₀}},",
       "render_latex": "棲\t%qi1 / qī\n{\\large{\\textsuperscript{arb·}tsy₁₀}},\n\\textit{sey};\t%0592l",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "木",
+        "phonetic_component": "妻",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "棲",
+          "semantic_component": "木",
+          "phonetic_component": "妻",
+          "position": "prefix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "template_raw": "{{Han compound|木|妻|t1=tree|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "妻",

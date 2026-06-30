@@ -787,9 +787,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|骨|豊|c1=s|c2=p|t1=bone|ls=psc}}",
+          "positional_components": [
+            "骨",
+            "豊"
+          ],
+          "positional_components_raw": [
+            "骨",
+            "豊"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "bone",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "骨"
+          ],
+          "phonetic_components": [
+            "豊"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|骨|豊|c1=s|c2=p|t1=bone|ls=psc}}",
+            "positional_components": [
+              "骨",
+              "豊"
+            ],
+            "positional_components_raw": [
+              "骨",
+              "豊"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "bone",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "骨"
+            ],
+            "phonetic_components": [
+              "豊"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -837,12 +883,39 @@
             "evidence_count": 1
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "骨"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{oss·}ri}},",
       "render_latex": "體\t%chi3? / tǐ\n{\\large{\\textsuperscript{oss·}ri}},\n\\textit{ṭheyX};\t%0597i",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "骨",
+        "phonetic_component": "豊",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "體",
+          "semantic_component": "骨",
+          "phonetic_component": "豊",
+          "position": "prefix-dot",
+          "abbreviation": "oss",
+          "inventory_matches": [
+            {
+              "graph_raw": "骨",
+              "label_token": "(os,) oss(is)",
+              "abbreviation": "oss",
+              "start_line": 345
+            },
+            {
+              "graph_raw": "骨",
+              "label_token": "oss",
+              "abbreviation": "oss",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|骨|豊|c1=s|c2=p|t1=bone|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "豊",

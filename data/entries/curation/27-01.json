@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-06-30T10:22:21.151835+00:00",
+  "id": "27-01",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "27-01",
+    "rhyme_section": 27,
+    "series_number": 1,
+    "k_tokens": [
+      "541"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.      MC             LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 311,
+    "source_line_number": 18,
+    "source_line_raw": "27-1 = K. 541           Man d.      MC             LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "27-01",
+    "rhyme_section": "27",
+    "series_number": "1",
+    "schuessler_k_tokens": "541",
+    "schuessler_source_page": "311",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "開",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "開",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "開"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "541"
+  ],
+  "proposed_additions": [
+    {
+      "character": "開",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khəy",
+          "khəyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "khəy",
+          "khəyX"
+        ],
+        "mand2mc_bs_forms": [
+          "khoj",
+          "khojX"
+        ],
+        "bs_gsr_forms": [
+          "khoj"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "khojX"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3874",
+          "character": "開",
+          "pinyin": "kai1",
+          "mc_nwh": "khəy",
+          "mc_bs": "khoj",
+          "gsr": "0541a"
+        },
+        {
+          "source_row_number": "3875",
+          "character": "開",
+          "pinyin": "kai1",
+          "mc_nwh": "khəyX",
+          "mc_bs": "khojX",
+          "gsr": "0541a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "81",
+          "character": "開",
+          "pinyin": "kāi",
+          "mc_bs": "khoj",
+          "mc_analyzed": "(kh- + -oj A)",
+          "oc_bs": "*kʰˤəj {*[k]ʰˤəj}",
+          "gloss": "to open (v.t.)",
+          "gsr": "0541a",
+          "unicode_utf16": "U+958B"
+        },
+        {
+          "source_page_number": "81",
+          "character": "開",
+          "pinyin": "kāi",
+          "mc_bs": "khoj",
+          "mc_analyzed": "(kh- + -oj A)",
+          "oc_bs": "*Nə-kʰˤəj {*Nə-[k]ʰˤə[j]}",
+          "gloss": "to open (v.i)",
+          "gsr": "0541a",
+          "unicode_utf16": "U+958B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6409",
+          "character": "開",
+          "phonetic_component": "幵",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦哀",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "ɯ̠l",
+          "oc_syllable": "kʰɯ̠l"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|門|一|廾|t1=door|t2=latch and/or wooden pole that shuts a door|t3=a pair of hands|ls=ic}}",
+          "positional_components": [
+            "門",
+            "一",
+            "廾"
+          ],
+          "positional_components_raw": [
+            "門",
+            "一",
+            "廾"
+          ],
+          "named_args": {
+            "t1": "door",
+            "t2": "latch and/or wooden pole that shuts a door",
+            "t3": "a pair of hands",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|門|一|廾|t1=door|t2=latch and/or wooden pole that shuts a door|t3=a pair of hands|ls=ic}}",
+            "positional_components": [
+              "門",
+              "一",
+              "廾"
+            ],
+            "positional_components_raw": [
+              "門",
+              "一",
+              "廾"
+            ],
+            "named_args": {
+              "t1": "door",
+              "t2": "latch and/or wooden pole that shuts a door",
+              "t3": "a pair of hands",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{ky₉}},",
+      "render_latex": "開\t%kai1 / kāi\n{\\large{ky₉}},\n\\textit{khəy};\t%0541a\n\\textit{khəyX};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "開",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khəy",
+          "khəyX"
+        ],
+        "mand2mc_nwh_forms": [
+          "khəy",
+          "khəyX"
+        ],
+        "mand2mc_bs_forms": [
+          "khoj",
+          "khojX"
+        ],
+        "bs_gsr_forms": [
+          "khoj"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "khojX"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3874",
+          "character": "開",
+          "pinyin": "kai1",
+          "mc_nwh": "khəy",
+          "mc_bs": "khoj",
+          "gsr": "0541a"
+        },
+        {
+          "source_row_number": "3875",
+          "character": "開",
+          "pinyin": "kai1",
+          "mc_nwh": "khəyX",
+          "mc_bs": "khojX",
+          "gsr": "0541a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "81",
+          "character": "開",
+          "pinyin": "kāi",
+          "mc_bs": "khoj",
+          "mc_analyzed": "(kh- + -oj A)",
+          "oc_bs": "*kʰˤəj {*[k]ʰˤəj}",
+          "gloss": "to open (v.t.)",
+          "gsr": "0541a",
+          "unicode_utf16": "U+958B"
+        },
+        {
+          "source_page_number": "81",
+          "character": "開",
+          "pinyin": "kāi",
+          "mc_bs": "khoj",
+          "mc_analyzed": "(kh- + -oj A)",
+          "oc_bs": "*Nə-kʰˤəj {*Nə-[k]ʰˤə[j]}",
+          "gloss": "to open (v.i)",
+          "gsr": "0541a",
+          "unicode_utf16": "U+958B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "6409",
+          "character": "開",
+          "phonetic_component": "幵",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦哀",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "ɯ̠l",
+          "oc_syllable": "kʰɯ̠l"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "開",
+      "gsr": "0541a",
+      "oc_bs": "*kʰˤəj {*[k]ʰˤəj}",
+      "root": "ky",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "開",
+      "gsr": "0541a",
+      "oc_bs": "*Nə-kʰˤəj {*Nə-[k]ʰˤə[j]}",
+      "root": "y",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ky",
+    "source": "head_graph_supported_root",
+    "character": "開",
+    "oc_bs": "*kʰˤəj {*[k]ʰˤəj}",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "ky₉",
+    "base_root": "ky",
+    "ordinal": 9,
+    "numbering_source": "document_order_occurrence"
+  }
+}
