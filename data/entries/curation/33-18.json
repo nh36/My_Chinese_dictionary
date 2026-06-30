@@ -256,22 +256,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|酉|胤|abb2=y|c1=s|c2=p|t1=alcohol|ls=psc}}",
+          "positional_components": [
+            "酉",
+            "胤"
+          ],
+          "positional_components_raw": [
+            "酉",
+            "胤"
+          ],
+          "named_args": {
+            "abb2": "y",
+            "c1": "s",
+            "c2": "p",
+            "t1": "alcohol",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "酉"
+          ],
+          "phonetic_components": [
+            "胤"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|酉|胤|abb2=y|c1=s|c2=p|t1=alcohol|ls=psc}}",
+            "positional_components": [
+              "酉",
+              "胤"
+            ],
+            "positional_components_raw": [
+              "酉",
+              "胤"
+            ],
+            "named_args": {
+              "abb2": "y",
+              "c1": "s",
+              "c2": "p",
+              "t1": "alcohol",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "酉"
+            ],
+            "phonetic_components": [
+              "胤"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{qyr}},",
-      "render_latex": "酳\t%yin4\n{\\large{qyr}},\n\\textit{yinH};\t%0451c",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{vin·}qyr}},",
+      "render_latex": "酳\t%yin4\n{\\large{\\textsuperscript{vin·}qyr}},\n\\textit{yinH};\t%0451c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "酉",
+        "phonetic_component": "胤",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "酳",
+          "semantic_component": "酉",
+          "phonetic_component": "胤",
+          "position": "prefix-dot",
+          "abbreviation": "vin",
+          "inventory_matches": [
+            {
+              "graph_raw": "酉",
+              "label_token": "vin(um)",
+              "abbreviation": "vin",
+              "start_line": 439
+            },
+            {
+              "graph_raw": "酉",
+              "label_token": "vin",
+              "abbreviation": "vin",
+              "learned": true,
+              "evidence_count": 3
+            }
+          ],
+          "template_raw": "{{Han compound|酉|胤|abb2=y|c1=s|c2=p|t1=alcohol|ls=psc}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "vin",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "酉",
+            "label_token": "vin(um)",
+            "abbreviation": "vin",
+            "start_line": 439
+          },
+          {
+            "graph_raw": "酉",
+            "label_token": "vin",
+            "abbreviation": "vin",
+            "learned": true,
+            "evidence_count": 3
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "酉"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -279,7 +368,7 @@
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "胤"
       },
       "resolved_node_root": null

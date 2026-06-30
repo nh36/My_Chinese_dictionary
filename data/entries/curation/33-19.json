@@ -852,9 +852,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|alt1=氵|寅|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "水",
+            "寅"
+          ],
+          "positional_components_raw": [
+            "水",
+            "寅"
+          ],
+          "named_args": {
+            "alt1": "氵",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "寅"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|alt1=氵|寅|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "水",
+              "寅"
+            ],
+            "positional_components_raw": [
+              "水",
+              "寅"
+            ],
+            "named_args": {
+              "alt1": "氵",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "寅"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -902,12 +948,39 @@
             "evidence_count": 14
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{aq·}qyr₂}},",
       "render_latex": "演\t%yan3 / yǎn\n{\\large{\\textsuperscript{aq·}qyr₂}},\n\\textit{yienX};\t%0450k",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "寅",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "演",
+          "semantic_component": "水",
+          "phonetic_component": "寅",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|水|alt1=氵|寅|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "寅",

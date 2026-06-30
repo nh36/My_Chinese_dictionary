@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6232
-- Pages fetched / cached successfully: 6134
-- Additions with explicit Han-compound semantic/phonetic roles: 2802
+- Proposed additions checked: 6244
+- Pages fetched / cached successfully: 6141
+- Additions with explicit Han-compound semantic/phonetic roles: 2806
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5585,7 +5585,7 @@
 | `33-12` | 𡱂 | yes | no |  |  |
 | `33-12` | 臋 | no | no |  |  |
 | `33-12` | 臀 | yes | yes | 肉 | 殿 |
-| `33-12` | 殿 | no | no |  |  |
+| `33-12` | 殿 | yes | yes | 殳 | 臀 |
 | `33-13` | 辰 | yes | no |  |  |
 | `33-13` | 晨 | yes | yes | 日 | 辰 |
 | `33-13` | 䢅 | yes | no |  |  |
@@ -5616,11 +5616,11 @@
 | `33-16` | 疢 | yes | no |  |  |
 | `33-17` | 塵 | no | no |  |  |
 | `33-18` | 胤 | yes | no |  |  |
-| `33-18` | 酳 | no | no |  |  |
+| `33-18` | 酳 | yes | yes | 酉 | 胤 |
 | `33-19` | 寅 | no | no |  |  |
 | `33-19` | 夤 | yes | no |  |  |
 | `33-19` | 螾 | yes | yes | 虫 | 寅 |
-| `33-19` | 演 | no | no |  |  |
+| `33-19` | 演 | yes | yes | 水 | 寅 |
 | `33-20` | 刃 | yes | no |  |  |
 | `33-20` | 仞 | yes | yes | 人 | 刃 |
 | `33-20` | 忍 | yes | yes | 心 | 刃 |
@@ -5631,6 +5631,12 @@
 | `33-20` | 紉 | yes | no |  |  |
 | `33-20` | 認 | yes | yes | 言 | 忍 |
 | `33-20` | 䵑 | yes | no |  |  |
+| `33-22` | 存 | no | no |  |  |
+| `33-22` | 荐 | no | no |  |  |
+| `33-22` | 栫 | yes | no |  |  |
+| `33-22` | 洊 | no | no |  |  |
+| `33-23` | 薦 | yes | no |  |  |
+| `33-24` | 齔 | no | no |  |  |
 | `33-25` | 先 | yes | no |  |  |
 | `33-25` | 毨 | yes | no |  |  |
 | `33-25` | 跣 | yes | yes | 足 | 先 |
@@ -5641,6 +5647,12 @@
 | `33-25` | 𢓠 | no | no |  |  |
 | `33-25` | 詵 | yes | yes | 言 | 先 |
 | `33-25` | 駪 | yes | no |  |  |
+| `33-26` | 畚 | no | no |  |  |
+| `33-27` | 本 | no | no |  |  |
+| `33-28` | 奔 | yes | no |  |  |
+| `33-28` | 犇 | no | no |  |  |
+| `33-28` | 餴 | yes | yes | 食 | 奔 |
+| `33-28` | 鼖 | no | no |  |  |
 | `33-29` | 賁 | yes | yes | 貝 | 卉 |
 | `33-29` | 噴 | yes | yes | 口 | 賁 |
 | `33-29` | 歕 | yes | yes | 欠 | 賁 |

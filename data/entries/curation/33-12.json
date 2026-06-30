@@ -562,22 +562,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|臀|alt1=𡱂|殳|ls=psc|c1=p|c2=s|t2=hand holding a weapon}}",
+          "positional_components": [
+            "臀",
+            "殳"
+          ],
+          "positional_components_raw": [
+            "臀",
+            "殳"
+          ],
+          "named_args": {
+            "alt1": "𡱂",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s",
+            "t2": "hand holding a weapon"
+          },
+          "semantic_components": [
+            "殳"
+          ],
+          "phonetic_components": [
+            "臀"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|臀|alt1=𡱂|殳|ls=psc|c1=p|c2=s|t2=hand holding a weapon}}",
+            "positional_components": [
+              "臀",
+              "殳"
+            ],
+            "positional_components_raw": [
+              "臀",
+              "殳"
+            ],
+            "named_args": {
+              "alt1": "𡱂",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s",
+              "t2": "hand holding a weapon"
+            },
+            "semantic_components": [
+              "殳"
+            ],
+            "phonetic_components": [
+              "臀"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{tyn₄}},",
-      "render_latex": "殿\t%dian4 / diàn\n{\\large{tyn₄}},\n\\textit{denH};\t%0429d\n\\textit{tenH};",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{tyn₄\\textsuperscript{·hast}}},",
+      "render_latex": "殿\t%dian4 / diàn\n{\\large{tyn₄\\textsuperscript{·hast}}},\n\\textit{denH};\t%0429d\n\\textit{tenH};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "殳",
+        "phonetic_component": "𡱂",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "殿",
+          "semantic_component": "殳",
+          "phonetic_component": "𡱂",
+          "position": "suffix-dot",
+          "abbreviation": "hast",
+          "inventory_matches": [
+            {
+              "graph_raw": "殳",
+              "label_token": "hast(a)",
+              "abbreviation": "hast",
+              "start_line": 296
+            },
+            {
+              "graph_raw": "殳",
+              "label_token": "hast",
+              "abbreviation": "hast",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ],
+          "template_raw": "{{Han compound|臀|alt1=𡱂|殳|ls=psc|c1=p|c2=s|t2=hand holding a weapon}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "hast",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "殳",
+            "label_token": "hast(a)",
+            "abbreviation": "hast",
+            "start_line": 296
+          },
+          {
+            "graph_raw": "殳",
+            "label_token": "hast",
+            "abbreviation": "hast",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "殳"
       },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -585,7 +674,7 @@
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "top_level",
-        "source": "shengfu_phonetic_component",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "𡱂"
       },
       "resolved_node_root": {

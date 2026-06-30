@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-06-30T12:56:23.413782+00:00",
+  "id": "33-28",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "33-28",
+    "rhyme_section": 33,
+    "series_number": 28,
+    "k_tokens": [
+      "438"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 355,
+    "source_line_number": 33,
+    "source_line_raw": "33-28 = K. 438       Mand.        MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "33-28",
+    "rhyme_section": "33",
+    "series_number": "28",
+    "schuessler_k_tokens": "438",
+    "schuessler_source_page": "355",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "4",
+    "mand2mc_character_count": "4",
+    "mand2mc_characters_sample": "奔; 犇; 餴; 鼖",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "奔",
+    "combined_source_character_count": "4",
+    "combined_source_characters_sample": "奔; 犇; 餴; 鼖"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "438"
+  ],
+  "proposed_additions": [
+    {
+      "character": "奔",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pwən"
+        ],
+        "mand2mc_nwh_forms": [
+          "pwən"
+        ],
+        "mand2mc_bs_forms": [
+          "pwon"
+        ],
+        "bs_gsr_forms": [
+          "pwon"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3157",
+          "character": "奔",
+          "pinyin": "ben1",
+          "mc_nwh": "pwən",
+          "mc_bs": "pwon",
+          "gsr": "0438a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "66",
+          "character": "奔",
+          "pinyin": "bēn",
+          "mc_bs": "pwon",
+          "mc_analyzed": "(p- + -won A)",
+          "oc_bs": "*pˤur",
+          "gloss": "run (v.)",
+          "gsr": "0438a",
+          "unicode_utf16": "U+5954"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "496",
+          "character": "奔",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博昆",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠n",
+          "oc_syllable": "pɯ̠n"
+        },
+        {
+          "source_row_number": "522",
+          "character": "奔",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "甫悶",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠ns",
+          "oc_syllable": "pɯ̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|止|ls=ic|t1=person|t2=foot}}",
+          "positional_components": [
+            "人",
+            "止"
+          ],
+          "positional_components_raw": [
+            "人",
+            "止"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "person",
+            "t2": "foot"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|止|ls=ic|t1=person|t2=foot}}",
+            "positional_components": [
+              "人",
+              "止"
+            ],
+            "positional_components_raw": [
+              "人",
+              "止"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "person",
+              "t2": "foot"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{pur₂}},",
+      "render_latex": "奔\t%ben1 / bēn\n{\\large{pur₂}},\n\\textit{pwən};\t%0438a",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "pur",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "pur"
+        ],
+        "bs_node_roots": [
+          "pur"
+        ],
+        "display_root": "pur",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "pwən",
+          "piun"
+        ],
+        "form_analyses": [
+          {
+            "form": "pwən",
+            "normalized": "pwən",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "piun",
+            "normalized": "piun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "犇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pwən"
+        ],
+        "mand2mc_nwh_forms": [
+          "pwən"
+        ],
+        "mand2mc_bs_forms": [
+          "pwon"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3158",
+          "character": "犇",
+          "pinyin": "ben1",
+          "mc_nwh": "pwən",
+          "mc_bs": "pwon",
+          "gsr": "0438d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "499",
+          "character": "犇",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博昆",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠n",
+          "oc_syllable": "pɯ̠n"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{pur₂}},",
+      "render_latex": "犇\t%ben1\n{\\large{pur₂}},\n\\textit{pwən};\t%0438d",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    },
+    {
+      "character": "餴",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "piun"
+        ],
+        "mand2mc_nwh_forms": [
+          "piun"
+        ],
+        "mand2mc_bs_forms": [
+          "pjun"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3159",
+          "character": "餴",
+          "pinyin": "fen1",
+          "mc_nwh": "piun",
+          "mc_bs": "pjun",
+          "gsr": "0438e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|食|奔|c1=s|c2=p|t1=food|ls=psc}}",
+          "positional_components": [
+            "食",
+            "奔"
+          ],
+          "positional_components_raw": [
+            "食",
+            "奔"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "food",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "食"
+          ],
+          "phonetic_components": [
+            "奔"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|食|奔|c1=s|c2=p|t1=food|ls=psc}}",
+            "positional_components": [
+              "食",
+              "奔"
+            ],
+            "positional_components_raw": [
+              "食",
+              "奔"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "food",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "食"
+            ],
+            "phonetic_components": [
+              "奔"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "ed",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "食",
+            "label_token": "ed(o)",
+            "abbreviation": "ed",
+            "start_line": 265
+          },
+          {
+            "graph_raw": "食",
+            "label_token": "ed",
+            "abbreviation": "ed",
+            "learned": true,
+            "evidence_count": 6
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "食"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{ed·}pur₂}},",
+      "render_latex": "餴\t%fen1\n{\\large{\\textsuperscript{ed·}pur₂}},\n\\textit{piun};\t%0438e",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "食",
+        "phonetic_component": "奔",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "餴",
+          "semantic_component": "食",
+          "phonetic_component": "奔",
+          "position": "prefix-dot",
+          "abbreviation": "ed",
+          "inventory_matches": [
+            {
+              "graph_raw": "食",
+              "label_token": "ed(o)",
+              "abbreviation": "ed",
+              "start_line": 265
+            },
+            {
+              "graph_raw": "食",
+              "label_token": "ed",
+              "abbreviation": "ed",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ],
+          "template_raw": "{{Han compound|食|奔|c1=s|c2=p|t1=food|ls=psc}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "奔",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "奔"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "鼖",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biun"
+        ],
+        "mand2mc_nwh_forms": [
+          "biun"
+        ],
+        "mand2mc_bs_forms": [
+          "bjun"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3160",
+          "character": "鼖",
+          "pinyin": "fen2",
+          "mc_nwh": "biun",
+          "mc_bs": "bjun",
+          "gsr": "0438f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "503",
+          "character": "鼖",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "符分",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "ɯn",
+          "oc_syllable": "bɯn"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{pur₂}},",
+      "render_latex": "鼖\t%fen2\n{\\large{pur₂}},\n\\textit{biun};\t%0438f",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "奔",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pwən"
+        ],
+        "mand2mc_nwh_forms": [
+          "pwən"
+        ],
+        "mand2mc_bs_forms": [
+          "pwon"
+        ],
+        "bs_gsr_forms": [
+          "pwon"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3157",
+          "character": "奔",
+          "pinyin": "ben1",
+          "mc_nwh": "pwən",
+          "mc_bs": "pwon",
+          "gsr": "0438a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "66",
+          "character": "奔",
+          "pinyin": "bēn",
+          "mc_bs": "pwon",
+          "mc_analyzed": "(p- + -won A)",
+          "oc_bs": "*pˤur",
+          "gloss": "run (v.)",
+          "gsr": "0438a",
+          "unicode_utf16": "U+5954"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "496",
+          "character": "奔",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博昆",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠n",
+          "oc_syllable": "pɯ̠n"
+        },
+        {
+          "source_row_number": "522",
+          "character": "奔",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "甫悶",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠ns",
+          "oc_syllable": "pɯ̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "犇",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "pwən"
+        ],
+        "mand2mc_nwh_forms": [
+          "pwən"
+        ],
+        "mand2mc_bs_forms": [
+          "pwon"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3158",
+          "character": "犇",
+          "pinyin": "ben1",
+          "mc_nwh": "pwən",
+          "mc_bs": "pwon",
+          "gsr": "0438d"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "499",
+          "character": "犇",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "博昆",
+          "source": "广韵",
+          "oc_initial": "p",
+          "oc_rhyme": "ɯ̠n",
+          "oc_syllable": "pɯ̠n"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "餴",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "piun"
+        ],
+        "mand2mc_nwh_forms": [
+          "piun"
+        ],
+        "mand2mc_bs_forms": [
+          "pjun"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3159",
+          "character": "餴",
+          "pinyin": "fen1",
+          "mc_nwh": "piun",
+          "mc_bs": "pjun",
+          "gsr": "0438e"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "鼖",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "biun"
+        ],
+        "mand2mc_nwh_forms": [
+          "biun"
+        ],
+        "mand2mc_bs_forms": [
+          "bjun"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3160",
+          "character": "鼖",
+          "pinyin": "fen2",
+          "mc_nwh": "biun",
+          "mc_bs": "bjun",
+          "gsr": "0438f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "503",
+          "character": "鼖",
+          "phonetic_component": "賁",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "符分",
+          "source": "广韵",
+          "oc_initial": "b",
+          "oc_rhyme": "ɯn",
+          "oc_syllable": "bɯn"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "奔",
+      "gsr": "0438a",
+      "oc_bs": "*pˤur",
+      "root": "pur",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "pur",
+    "source": "head_graph_oc_bs",
+    "character": "奔",
+    "oc_bs": "*pˤur",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "pur₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "pwən",
+      "piun"
+    ],
+    "form_analyses": [
+      {
+        "form": "pwən",
+        "normalized": "pwən",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "piun",
+        "normalized": "piun",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "pur",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}
