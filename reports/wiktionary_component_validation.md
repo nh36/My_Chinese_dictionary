@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6139
-- Pages fetched / cached successfully: 6049
-- Additions with explicit Han-compound semantic/phonetic roles: 2770
+- Proposed additions checked: 6150
+- Pages fetched / cached successfully: 6056
+- Additions with explicit Han-compound semantic/phonetic roles: 2773
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5263,6 +5263,10 @@
 | `31-10` | 軏 | yes | no |  |  |
 | `31-11` | 𠫓 | yes | no |  |  |
 | `31-12` | 突 | yes | no |  |  |
+| `31-14` | 對 | no | no |  |  |
+| `31-14` | 轛 | yes | no |  |  |
+| `31-14` | 懟 | yes | yes | 心 | 對 |
+| `31-15` | 退 | yes | no |  |  |
 | `31-16` | 出 | yes | no |  |  |
 | `31-16` | 黜 | yes | yes | 黑 | 出 |
 | `31-16` | 絀 | yes | no |  |  |
@@ -5285,6 +5289,11 @@
 | `31-17` | 鉥 | yes | yes | 金 | 朮 |
 | `31-17` | 怵 | yes | yes | 心 | 朮 |
 | `31-17` | 訹 | yes | yes | 言 | 朮 |
+| `31-18` | 聿 | yes | no |  |  |
+| `31-18` | 律 | no | no |  |  |
+| `31-18` | 筆 | yes | yes | 竹 | 聿 |
+| `31-19` | 類 | no | no |  |  |
+| `31-19` | 纇 | yes | yes | 糸 | 頪 |
 | `31-20` | 卒 | yes | no |  |  |
 | `31-20` | 捽 | yes | yes | 手 | 卒 |
 | `31-20` | 崒 | yes | no |  |  |
@@ -5302,6 +5311,8 @@
 | `31-20` | 睟 | yes | no |  |  |
 | `31-20` | 粹 | yes | yes | 米 | 卒 |
 | `31-20` | 誶 | yes | no |  |  |
+| `31-21` | 祟 | no | no |  |  |
+| `31-22` | 戌 | yes | no |  |  |
 | `32-01` | 臤 | yes | no |  |  |
 | `32-01` | 堅 | yes | yes | 土 | 臤 |
 | `32-01` | 掔 | yes | yes | 手 | 臤 |
