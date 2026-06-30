@@ -1,7 +1,7 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 953
-- Subgroups newly marked with `a`: 129
+- Generated subgroup heads inspected: 954
+- Subgroups newly marked with `a`: 130
 - Subgroups newly marked with `b`: 110
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 312
 - Mixed subgroups left unmarked: 398
@@ -761,6 +761,7 @@
 | `25-19` | 元 | `ṅon` | `ṅon` | `mixed` | no | `ṅiwən, ṅwan, ṅwaen, ṅwean, ṅwanH, hwan, hwanX, hwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | the extracted forms point to both type a and type b |
 | `25-19` | 完 | `ṅon` | `ṅon₂` | `mixed` | no | `hwan, hwanX, hwanH, ṅwanH, ṅwanX, kwan, kwanX, khwanX, hwaenX, ḫiwenH` | the extracted forms point to both type a and type b |
 | `25-20` | 原 | `ṅar` | `ṅar` | `mixed` | no | `ṅiwən, ṅiwənH, hwan` | the extracted forms point to both type a and type b |
+| `25-23` | 段 | `ton` | `t\textoverset{a}{o}n` | `a` | yes | `dwanH, thwanH, twanH` | all extracted forms lack an i-medial after the onset |
 | `25-24` | 耑 | `tor` | `tor` | `mixed` | no | `twan, ciwenX, thwan, chiwenX, jiwen, chiwenH, ciweH, jiweH, tṣhiweX, twaX` | the extracted forms point to both type a and type b |
 | `25-25` | 專 | `ton` | `ton` | `mixed` | no | `ciwen, dwan, ṭiwenX, ḍiwen, ḍiwenH, ṭiwenH, ḍiwenX, jiwen, jiwenX, jiwin, ciwinX, ciwenX, twan` | the extracted forms point to both type a and type b |
 | `25-28` | 彖 | `lon` | `lon` | `mixed` | no | `thwanH, yiwen, yiwenH, ḍiwen, ḍiwenX, ṭhiwenX, chiweyH` | the extracted forms point to both type a and type b |

@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-06-30T09:44:29.774087+00:00",
+  "gsc_id": "25-27",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "233"
+  ],
+  "schuessler": {
+    "gsc_id": "25-27",
+    "rhyme_section": 25,
+    "series_number": 27,
+    "k_tokens": [
+      "233"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.                       LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 296,
+    "source_line_number": 40,
+    "source_line_raw": "25-27 = K. 233       Man d.                       LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "25-27",
+    "rhyme_section": "25",
+    "series_number": "27",
+    "schuessler_k_tokens": "233",
+    "schuessler_source_page": "296",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "舛",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "舛",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "舛"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "舛",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1806",
+          "character": "舛",
+          "pinyin": "chuan3",
+          "mc_nwh": "chiwenX",
+          "mc_bs": "tsyhwenX",
+          "gsr": "0233a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "42",
+          "character": "舛",
+          "pinyin": "chuǎn",
+          "mc_bs": "tsyhwenX",
+          "mc_analyzed": "(tsyh- + -jwen B)",
+          "oc_bs": "*tʰonʔ {*[tʰ]o[n]ʔ}",
+          "gloss": "oppose, contrary",
+          "gsr": "0233a",
+          "unicode_utf16": "U+821B"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1764",
+          "character": "舛",
+          "phonetic_component": "舛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "昌兖",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "onʔ",
+          "oc_syllable": "l̥ʲonʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "1764",
+          "character": "舛",
+          "phonetic_component": "舛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "昌兖",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "onʔ",
+          "oc_syllable": "l̥ʲonʔ"
+        },
+        {
+          "source_row_number": "1765",
+          "character": "荈",
+          "phonetic_component": "舛",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "昌兖",
+          "source": "广韵",
+          "oc_initial": "l̥ʲ",
+          "oc_rhyme": "onʔ",
+          "oc_syllable": "l̥ʲonʔ"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "chiwenX"
+        ],
+        "mand2mc_nwh_forms": [
+          "chiwenX"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyhwenX"
+        ],
+        "bs_gsr_forms": [
+          "tsyhwenX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "1806",
+        "character": "舛",
+        "pinyin": "chuan3",
+        "mc_nwh": "chiwenX",
+        "mc_bs": "tsyhwenX",
+        "gsr": "0233a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "42",
+        "character": "舛",
+        "pinyin": "chuǎn",
+        "mc_bs": "tsyhwenX",
+        "mc_analyzed": "(tsyh- + -jwen B)",
+        "oc_bs": "*tʰonʔ {*[tʰ]o[n]ʔ}",
+        "gloss": "oppose, contrary",
+        "gsr": "0233a",
+        "unicode_utf16": "U+821B"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

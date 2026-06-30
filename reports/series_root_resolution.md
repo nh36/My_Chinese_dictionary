@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 858
-- Packets with at least one root candidate: 856
-- Packets with a single resolved provisional root: 854
+- Missing-series packets inspected: 864
+- Packets with at least one root candidate: 862
+- Packets with a single resolved provisional root: 860
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -745,9 +745,15 @@
 | `25-18` | 冤→qon [*qon] (None) | `qon` | `head_graph_oc_shengfu` |
 | `25-19` | 元→ṅon [*ŋon {*[ŋ]o[n]} (< nasal + uvular)] (0257a) | `ṅon` | `head_graph_oc_bs` |
 | `25-20` | 原→ṅar [*ŋʷar {*[ŋ]ʷar} (< uvular)] (0258a) | `ṅar` | `head_graph_oc_bs` |
+| `25-21` | 邍→ṅar [*ŋʷar {*[ŋ]ʷar} (< uvular)] (None) | `ṅar` | `same_character_series_root` |
+| `25-22` | 斷→ton [*N-tˤonʔ {*N-tˤo[n]ʔ}] (0170a) | `ton` | `head_graph_oc_bs` |
+| `25-23` | 段→ton [*tˤon-s {*tˤo[n]-s}] (0172a) | `ton` | `head_graph_oc_bs` |
 | `25-24` | 耑→tor [*tˤor] (0168a) | `tor` | `head_graph_oc_bs` |
 | `25-25` | 專→ton [*ton] (0231a) | `ton` | `head_graph_oc_bs` |
+| `25-26` | 穿→ton [*tʰon {*tʰo[n]}] (0232a) | `ton` | `head_graph_oc_bs` |
+| `25-27` | 舛→ton [*tʰonʔ {*[tʰ]o[n]ʔ}] (0233a) | `ton` | `head_graph_oc_bs` |
 | `25-28` | 彖→lon [*l̥ˤon-s {*l̥ˤo[n]-s}] (0171a) | `lon` | `head_graph_oc_bs` |
+| `25-29` | 㕣→lon [*ɡ‧lonʔ] (None) | `lon` | `head_graph_oc_shengfu` |
 | `25-31` | 䜌→ron [*mə.rˤon {*mə.rˤo[n]}] (0178a) | `ron` | `head_graph_oc_bs` |
 | `25-38` | 全→tson [*dzon {*[dz]o[n]}] (0234a) | `tson` | `head_graph_oc_bs` |
 | `26-05` | 計→kiy [*kˤij-s] (1241a) | `kiy` | `head_graph_oc_bs` |

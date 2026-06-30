@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1249
-- Roots whose display label changed after document-wide renumbering: 738
-- Duplicate phonetic bases encountered in document order: 308
+- Mutable series/subseries roots inspected: 1255
+- Roots whose display label changed after document-wide renumbering: 743
+- Duplicate phonetic bases encountered in document order: 310
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1366,3 +1366,9 @@
 | `25-13` | `subseries-root` | 敻 | `qon` | 2 | `qon₂` | yes |
 | `25-16` | `series-root` | 丸 | `quar` | 3 | `quar₃` | yes |
 | `25-18` | `series-root` | 冤 | `qon` | 3 | `qon₃` | yes |
+| `25-21` | `series-root` | 邍 | `ṅar` | 6 | `ṅar₆` | yes |
+| `25-22` | `series-root` | 斷 | `ton` | 2 | `ton₂` | yes |
+| `25-23` | `series-root` | 段 | `t\textoverset{a}{o}n` | 1 | `t\textoverset{a}{o}n` | yes |
+| `25-26` | `series-root` | 穿 | `ton` | 3 | `ton₃` | yes |
+| `25-27` | `series-root` | 舛 | `ton` | 4 | `ton₄` | yes |
+| `25-29` | `series-root` | 㕣 | `lon` | 2 | `lon₂` | yes |

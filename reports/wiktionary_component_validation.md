@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5800
-- Pages fetched / cached successfully: 5713
-- Additions with explicit Han-compound semantic/phonetic roles: 2650
+- Proposed additions checked: 5812
+- Pages fetched / cached successfully: 5725
+- Additions with explicit Han-compound semantic/phonetic roles: 2655
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4368,6 +4368,11 @@
 | `25-20` | 願 | yes | yes | 頁 | 原 |
 | `25-20` | 騵 | yes | no |  |  |
 | `25-20` | 豲 | yes | no |  |  |
+| `25-21` | 邍 | yes | no |  |  |
+| `25-22` | 斷 | yes | no |  |  |
+| `25-23` | 段 | yes | yes | 殳 | 厂 |
+| `25-23` | 鍛 | yes | yes | 金 | 段 |
+| `25-23` | 腶 | yes | no |  |  |
 | `25-24` | 耑 | yes | no |  |  |
 | `25-24` | 端 | yes | yes | 立 | 耑 |
 | `25-24` | 剬 | yes | yes | 刀 | 耑 |
@@ -4394,6 +4399,8 @@
 | `25-25` | 慱 | yes | no |  |  |
 | `25-25` | 摶 | yes | yes | 手 | 專 |
 | `25-25` | 漙 | yes | yes | 水 | 專 |
+| `25-26` | 穿 | yes | no |  |  |
+| `25-27` | 舛 | yes | no |  |  |
 | `25-28` | 彖 | yes | no |  |  |
 | `25-28` | 褖 | yes | no |  |  |
 | `25-28` | 蝝 | yes | no |  |  |
@@ -4403,6 +4410,11 @@
 | `25-28` | 篆 | yes | no |  |  |
 | `25-28` | 腞 | yes | no |  |  |
 | `25-28` | 喙 | yes | yes | 口 | 彖 |
+| `25-29` | 㕣 | yes | no |  |  |
+| `25-29` | 沿 | yes | yes | 水 | 㕣 |
+| `25-29` | 鉛 | yes | yes | 金 | 㕣 |
+| `25-29` | 兗 | yes | no |  |  |
+| `25-29` | 船 | yes | yes | 舟 | 㕣 |
 | `25-31` | 䜌 | yes | no |  |  |
 | `25-31` | 巒 | yes | yes | 山 | 䜌 |
 | `25-31` | 欒 | yes | yes | 木 | 䜌 |
