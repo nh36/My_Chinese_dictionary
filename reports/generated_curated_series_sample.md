@@ -722,8 +722,14 @@
 | `24-35` | `missing_series` | no | 9 | 6 |
 | `24-36` | `missing_series` | no | 2 | 0 |
 | `24-37` | `missing_series` | no | 2 | 0 |
+| `24-38` | `missing_series` | no | 3 | 2 |
 | `24-39` | `missing_series` | no | 11 | 9 |
+| `24-40` | `missing_series` | no | 3 | 2 |
 | `24-41` | `missing_series` | no | 17 | 16 |
+| `24-42` | `missing_series` | no | 3 | 1 |
+| `24-43` | `missing_series` | no | 4 | 3 |
+| `24-44` | `missing_series` | no | 3 | 1 |
+| `24-45` | `missing_series` | no | 4 | 3 |
 | `24-47` | `missing_series` | no | 13 | 12 |
 | `24-49` | `missing_series` | no | 10 | 9 |
 | `24-54` | `missing_series` | no | 17 | 16 |

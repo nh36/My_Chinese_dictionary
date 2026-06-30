@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5723
-- Pages fetched / cached successfully: 5637
-- Additions with explicit Han-compound semantic/phonetic roles: 2616
+- Proposed additions checked: 5743
+- Pages fetched / cached successfully: 5647
+- Additions with explicit Han-compound semantic/phonetic roles: 2622
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4068,6 +4068,9 @@
 | `24-36` | 燃 | yes | yes | 火 | 然 |
 | `24-37` | 㞋 | yes | no |  |  |
 | `24-37` | 赧 | yes | yes | 赤 | 𡰫 |
+| `24-38` | 扇 | no | no |  |  |
+| `24-38` | 傓 | yes | no |  |  |
+| `24-38` | 煽 | no | no |  |  |
 | `24-39` | 贊 | yes | yes | 貝 | 兟 |
 | `24-39` | 賛 | yes | no |  |  |
 | `24-39` | 讚 | yes | yes | 言 | 贊 |
@@ -4079,6 +4082,9 @@
 | `24-39` | 欑 | yes | no |  |  |
 | `24-39` | 櫕 | yes | no |  |  |
 | `24-39` | 攢 | yes | no |  |  |
+| `24-40` | 𣦼 | yes | no |  |  |
+| `24-40` | 粲 | no | no |  |  |
+| `24-40` | 餐 | yes | yes | 食 | 𣦼 |
 | `24-41` | 戔 | yes | no |  |  |
 | `24-41` | 殘 | yes | yes | 歹 | 戔 |
 | `24-41` | 棧 | yes | yes | 木 | 戔 |
@@ -4096,6 +4102,20 @@
 | `24-41` | 帴 | yes | no |  |  |
 | `24-41` | 綫 | yes | no |  |  |
 | `24-41` | 濺 | yes | yes | 水 | 賤 |
+| `24-42` | 𠨧 | no | no |  |  |
+| `24-42` | 僊 | yes | yes | 人 | 遷 |
+| `24-42` | 遷 | no | no |  |  |
+| `24-43` | 孱 | yes | no |  |  |
+| `24-43` | 潺 | no | no |  |  |
+| `24-43` | 僝 | yes | yes | 人 | 孱 |
+| `24-43` | 轏 | no | no |  |  |
+| `24-44` | 散 | yes | yes | 肉 | 𢽳 |
+| `24-44` | 潸 | no | no |  |  |
+| `24-44` | 霰 | yes | no |  |  |
+| `24-45` | 山 | no | no |  |  |
+| `24-45` | 汕 | yes | yes | 水 | 山 |
+| `24-45` | 訕 | no | no |  |  |
+| `24-45` | 仙 | yes | yes | 人 | 山 |
 | `24-47` | 半 | yes | no |  |  |
 | `24-47` | 靽 | yes | no |  |  |
 | `24-47` | 伴 | yes | yes | 人 | 半 |

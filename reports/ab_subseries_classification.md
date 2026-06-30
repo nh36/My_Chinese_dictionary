@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 932
-- Subgroups newly marked with `a`: 121
-- Subgroups newly marked with `b`: 105
+- Generated subgroup heads inspected: 938
+- Subgroups newly marked with `a`: 123
+- Subgroups newly marked with `b`: 107
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 312
-- Mixed subgroups left unmarked: 390
+- Mixed subgroups left unmarked: 392
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -715,10 +715,16 @@
 | `24-32` | 連 | `ran` | `ran` | `mixed` | no | `lien, lienX, ljenH` | the extracted forms point to both type a and type b |
 | `24-35` | 嘆 | `nar` | `n\textoverset{a}{a}r` | `a` | yes | `than, thanH, nanH` | all extracted forms lack an i-medial after the onset |
 | `24-35` | 難 | `nar` | `nar` | `mixed` | no | `nanH, ṇaenX, ñien, na, naX, ney, than` | the extracted forms point to both type a and type b |
+| `24-38` | 扇 | `lan` | `l\textoverset{b}{a}n` | `b` | yes | `śienH` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-39` | 贊 | `tsar` | `ts\textoverset{a}{a}r` | `a` | yes | `tsanH, dzanX, tswanX, tswan, tswanH, dzwan, dzwanH` | all extracted forms lack an i-medial after the onset |
 | `24-39` | 賛 | `tsar` | `ts\textoverset{a}{a}r₂` | `a` | yes | `tsanH, dzanX, dzwan` | all extracted forms lack an i-medial after the onset |
+| `24-40` | 𣦼 | `san` | `s\textoverset{a}{a}n` | `a` | yes | `dzan, tshanH, tshan` | all extracted forms lack an i-medial after the onset |
 | `24-41` | 戔 | `tsan` | `tsan` | `mixed` | no | `dzan, dzen, dẓaenH, dẓaenX, dẓeanX, tṣeanX, tṣienX, tṣheanX, dzien, tsienX, tsen, tshienX, dzienX, dzienH, tsienH, tsien, sienH` | the extracted forms point to both type a and type b |
 | `24-41` | 賤 | `tsan` | `tsan₂` | `mixed` | no | `dzienH, tsen, tsienH` | the extracted forms point to both type a and type b |
+| `24-42` | 遷 | `tsar` | `ts\textoverset{b}{a}r` | `b` | yes | `tshien, sien` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `24-43` | 孱 | `san` | `san` | `mixed` | no | `dẓean, dẓien, dẓeanX, dẓiwenH, dẓaenX` | the extracted forms point to both type a and type b |
+| `24-44` | 散 | `san` | `s\textoverset{a}{a}n` | `a` | yes | `sanH, sanX, senH` | all extracted forms lack an i-medial after the onset |
+| `24-45` | 山 | `ṅar` | `ṅar` | `mixed` | no | `ṣean, ṣaenH, ṣaen, sien` | the extracted forms point to both type a and type b |
 | `24-47` | 半 | `pan` | `pan` | `mixed` | no | `panH, banX, phanH, phan, ban, banH, biən` | the extracted forms point to both type a and type b |
 | `24-49` | 反 | `pan` | `pan` | `mixed` | no | `piənX, piənH, baenX, biənH, biənX, paenX, paen` | the extracted forms point to both type a and type b |
 | `24-54` | 釆 | `per` | `per` | `mixed` | no | `beanH, ben, pa, phiən, piən, biən, phan, ban, paH, ba` | the extracted forms point to both type a and type b |
