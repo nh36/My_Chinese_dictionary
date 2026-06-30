@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 1090
-- Proposed additions inspected: 6322
-- Additions with reusable semantic assignment from existing TeX: 6322
-- Additions with reusable transliteration LaTeX from existing TeX: 6322
-- Additions with reusable render block from existing TeX: 6322
-- Additions with IDS-derived semantic candidates: 3863
-- Additions with explicit Wiktionary Han-compound support: 2809
+- Curated entries inspected: 1096
+- Proposed additions inspected: 6346
+- Additions with reusable semantic assignment from existing TeX: 6346
+- Additions with reusable transliteration LaTeX from existing TeX: 6346
+- Additions with reusable render block from existing TeX: 6346
+- Additions with IDS-derived semantic candidates: 3879
+- Additions with explicit Wiktionary Han-compound support: 2816
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4699
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 200
+- Additions assigned under generated candidate nodes: 4716
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 201
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -1076,8 +1076,14 @@
 | `35-13` | 5 | 5 | 5 | 5 |
 | `35-14` | 1 | 1 | 1 | 1 |
 | `35-15` | 5 | 5 | 5 | 5 |
+| `35-16` | 4 | 4 | 4 | 4 |
+| `35-17` | 3 | 3 | 3 | 3 |
+| `35-18` | 1 | 1 | 1 | 1 |
+| `35-19` | 1 | 1 | 1 | 1 |
+| `35-20` | 4 | 4 | 4 | 4 |
 | `35-21` | 15 | 15 | 15 | 15 |
 | `36-01` | 10 | 10 | 10 | 10 |
+| `36-02` | 11 | 11 | 11 | 11 |
 | `36-05` | 14 | 14 | 14 | 14 |
 | `36-06` | 12 | 12 | 12 | 12 |
 | `36-07` | 13 | 13 | 13 | 13 |

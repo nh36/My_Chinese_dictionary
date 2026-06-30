@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6322
-- Pages fetched / cached successfully: 6227
-- Additions with explicit Han-compound semantic/phonetic roles: 2831
+- Proposed additions checked: 6346
+- Pages fetched / cached successfully: 6240
+- Additions with explicit Han-compound semantic/phonetic roles: 2838
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5977,6 +5977,19 @@
 | `35-15` | 接 | yes | yes | 手 | 妾 |
 | `35-15` | 椄 | yes | no |  |  |
 | `35-15` | 翣 | yes | no |  |  |
+| `35-16` | 疌 | no | no |  |  |
+| `35-16` | 捷 | yes | yes | 手 | 疌 |
+| `35-16` | 寁 | no | no |  |  |
+| `35-16` | 睫 | yes | yes | 目 | 疌 |
+| `35-17` | 臿 | yes | no |  |  |
+| `35-17` | 插 | no | no |  |  |
+| `35-17` | 歃 | yes | yes | 欠 | 臿 |
+| `35-18` | 扱 | no | no |  |  |
+| `35-19` | 燮 | yes | no |  |  |
+| `35-20` | 乏 | no | no |  |  |
+| `35-20` | 泛 | yes | yes | 水 | 乏 |
+| `35-20` | 窆 | no | no |  |  |
+| `35-20` | 貶 | yes | yes | 貝 | 乏 |
 | `35-21` | 劫 | yes | yes | 力 | 去 |
 | `35-21` | 刧 | yes | no |  |  |
 | `35-21` | 怯 | yes | no |  |  |
@@ -6002,6 +6015,17 @@
 | `36-01` | 紺 | yes | yes | 糸 | 甘 |
 | `36-01` | 箝 | yes | yes | 竹 | 拑 |
 | `36-01` | 邯 | yes | yes | 邑 | 甘 |
+| `36-02` | 敢 | yes | no |  |  |
+| `36-02` | 闞 | no | no |  |  |
+| `36-02` | 矙 | yes | no |  |  |
+| `36-02` | 嚴 | no | no |  |  |
+| `36-02` | 儼 | yes | yes | 人 | 嚴 |
+| `36-02` | 巖 | no | no |  |  |
+| `36-02` | 玁 | yes | no |  |  |
+| `36-02` | 夏 | no | no |  |  |
+| `36-02` | 廈 | yes | yes | 广 | 夏 |
+| `36-02` | 厦 | no | no |  |  |
+| `36-02` | 𠪚 | yes | no |  |  |
 | `36-05` | 監 | yes | no |  |  |
 | `36-05` | 鑑 | yes | yes | 金 | 監 |
 | `36-05` | 礛 | yes | no |  |  |

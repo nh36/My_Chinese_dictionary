@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 1062
-- Subgroups newly marked with `a`: 135
-- Subgroups newly marked with `b`: 112
+- Generated subgroup heads inspected: 1070
+- Subgroups newly marked with `a`: 137
+- Subgroups newly marked with `b`: 113
 - Uniform subgroups left unmarked because the root already signals the quality clearly: 374
-- Mixed subgroups left unmarked: 437
+- Mixed subgroups left unmarked: 442
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -1017,11 +1017,19 @@
 | `35-12` | 巤 | `rap` | `rap` | `mixed` | no | `liep, lap` | the extracted forms point to both type a and type b |
 | `35-13` | 聶 | `nep` | `nep` | `b` | no | `ṇiep, ciep, ñiep, śiep` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `35-15` | 妾 | `tsap` | `tsap` | `mixed` | no | `tshiep, tsiep, ṣaep` | the extracted forms point to both type a and type b |
+| `35-16` | 疌 | `tsap` | `ts\textoverset{b}{a}p` | `b` | yes | `dziep, tsiep` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `35-17` | 臿 | `tsop` | `tsop` | `mixed` | no | `tṣheap, ṣeap, ṣiep` | the extracted forms point to both type a and type b |
+| `35-20` | 乏 | `pop` | `pop` | `mixed` | no | `biəp, phiəmH, piemH, pəṅH, piaemX, piemX` | the extracted forms point to both type a and type b |
 | `35-21` | 劫 | `kap` | `k\textoverset{b}{a}p₂` | `b` | yes | `kiaep` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `35-21` | 盍 | `kap` | `kap` | `mixed` | no | `hap, kiaep, khiaep, piəp, kayH, xaep, khap, khəp, khaeyH, hiep` | the extracted forms point to both type a and type b |
 | `35-21` | 盇 | `kap` | `k\textoverset{a}{a}p` | `a` | yes | `hap, kayH` | all extracted forms lack an i-medial after the onset |
 | `36-01` | 甘 | `kam` | `kam` | `mixed` | no | `kam, ham, giem, kəm, han` | the extracted forms point to both type a and type b |
 | `36-01` | 拑 | `kam` | `k\textoverset{b}{a}m` | `b` | yes | `giem` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `36-02` | 敢 | `kam` | `kam` | `mixed` | no | `kamX, khamH, xaemX, xamX, xeamX, ngim, ṅiaem, ṅiaemX, ṅaem, xiemX` | the extracted forms point to both type a and type b |
+| `36-02` | 闞 | `kam` | `k\textoverset{a}{a}m₄` | `a` | yes | `khamH, xaemX, xamX, xeamX` | all extracted forms lack an i-medial after the onset |
+| `36-02` | 嚴 | `ŋram` | `ŋram` | `mixed` | no | `ṅiaem, ṅiaemX, ṅaem, xiemX` | the extracted forms point to both type a and type b |
+| `36-02` | 夏 | `gra` | `gr\textoverset{a}{a}` | `a` | yes | `ḫaeH, ḫaeX` | all extracted forms lack an i-medial after the onset |
+| `36-02` | 𠪚 | `kam` | `kam₃` | `mixed` | no | `ngim, ṅiaem, ṅiaemX, ṅaem, xiemX` | the extracted forms point to both type a and type b |
 | `36-05` | 監 | `kam` | `k\textoverset{a}{a}m` | `a` | yes | `kaem, kaemH, ḫaemH, ḫaemX, ḫamX, lamH, ḫamH, lamX, lam, hamX` | all extracted forms lack an i-medial after the onset |
 | `36-05` | 㯺 | `kam` | `k\textoverset{a}{a}m₂` | `a` | yes | `ḫaemX, lamX` | all extracted forms lack an i-medial after the onset |
 | `36-05` | 覽 | `kam` | `k\textoverset{a}{a}m₃` | `a` | yes | `lamX` | all extracted forms lack an i-medial after the onset |
