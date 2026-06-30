@@ -1,7 +1,7 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6472
-- Pages fetched / cached successfully: 6374
+- Proposed additions checked: 6473
+- Pages fetched / cached successfully: 6376
 - Additions with explicit Han-compound semantic/phonetic roles: 2897
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
@@ -6477,4 +6477,5 @@
 | `38-29` | 槮 | yes | no |  |  |
 | `38-29` | 摻 | no | no |  |  |
 | `38-30` | 三 | yes | no |  |  |
-| `38-31` | 心 | no | no |  |  |
+| `38-31` | 心 | yes | no |  |  |
+| `38-32` | 森 | yes | no |  |  |

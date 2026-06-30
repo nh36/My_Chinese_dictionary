@@ -1,10 +1,10 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 1144
-- Proposed additions inspected: 6472
-- Additions with reusable semantic assignment from existing TeX: 6472
-- Additions with reusable transliteration LaTeX from existing TeX: 6472
-- Additions with reusable render block from existing TeX: 6472
+- Curated entries inspected: 1145
+- Proposed additions inspected: 6473
+- Additions with reusable semantic assignment from existing TeX: 6473
+- Additions with reusable transliteration LaTeX from existing TeX: 6473
+- Additions with reusable render block from existing TeX: 6473
 - Additions with IDS-derived semantic candidates: 3944
 - Additions with explicit Wiktionary Han-compound support: 2872
 - Additions assigned to inherited hierarchy nodes: 3
@@ -1157,3 +1157,4 @@
 | `38-29` | 6 | 6 | 6 | 6 |
 | `38-30` | 1 | 1 | 1 | 1 |
 | `38-31` | 1 | 1 | 1 | 1 |
+| `38-32` | 1 | 1 | 1 | 1 |

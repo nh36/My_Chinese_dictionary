@@ -1151,3 +1151,4 @@
 | `38-29` | `missing_series` | no | 6 | 5 |
 | `38-30` | `missing_series` | no | 1 | 0 |
 | `38-31` | `missing_series` | no | 1 | 0 |
+| `38-32` | `missing_series` | no | 1 | 0 |
