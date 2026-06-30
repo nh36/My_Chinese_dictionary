@@ -215,6 +215,16 @@ python3 scripts/number_phonetic_transcriptions.py
 python3 scripts/render_curated_series.py
 ```
 
+Run autonomous six-series ingestion from `data/series_ingest_queue.txt`:
+
+```sh
+python3 scripts/ingest_series_batches.py --dry-run --max-batches 1
+python3 scripts/ingest_series_batches.py --max-batches 1 --push
+python3 scripts/ingest_series_batches.py --push
+```
+
+The batch driver stops immediately on command failures, test failures, commit/push failures, merge conflicts, or unexpected dirty files. `data/series_ingest_queue.txt` records the remaining series IDs.
+
 Analyze MC-source conflicts and hierarchy coverage for the current pilot:
 
 ```sh
