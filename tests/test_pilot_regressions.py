@@ -35,12 +35,51 @@ class PilotRegressionTests(unittest.TestCase):
 
     def test_current_curated_entries_have_full_semantic_and_transliteration_coverage(self) -> None:
         entries = self.load_active_entries()
-        proposed = [c for e in entries for c in e.get("proposed_additions", [])]
+        proposed = [
+            (e["id"], c)
+            for e in entries
+            for c in e.get("proposed_additions", [])
+        ]
         self.assertTrue(proposed)
-        self.assertTrue(all(c.get("semantic_assignment") for c in proposed))
-        self.assertTrue(all(c.get("transliteration_latex") for c in proposed))
-        self.assertTrue(all(c.get("render_latex") for c in proposed))
-        self.assertTrue(all(c.get("mc_resolution") for c in proposed))
+        missing_semantic = [
+            f"{entry_id}:{candidate.get('character')}"
+            for entry_id, candidate in proposed
+            if not candidate.get("semantic_assignment")
+        ]
+        self.assertFalse(
+            missing_semantic,
+            msg=f"Missing semantic_assignment for: {', '.join(missing_semantic)}",
+        )
+        missing_transliteration = [
+            f"{entry_id}:{candidate.get('character')}"
+            for entry_id, candidate in proposed
+            if not candidate.get("transliteration_latex")
+        ]
+        self.assertFalse(
+            missing_transliteration,
+            msg=(
+                "Missing transliteration_latex for: "
+                + ", ".join(missing_transliteration)
+            ),
+        )
+        missing_render = [
+            f"{entry_id}:{candidate.get('character')}"
+            for entry_id, candidate in proposed
+            if not candidate.get("render_latex")
+        ]
+        self.assertFalse(
+            missing_render,
+            msg=f"Missing render_latex for: {', '.join(missing_render)}",
+        )
+        missing_mc = [
+            f"{entry_id}:{candidate.get('character')}"
+            for entry_id, candidate in proposed
+            if not candidate.get("mc_resolution")
+        ]
+        self.assertFalse(
+            missing_mc,
+            msg=f"Missing mc_resolution for: {', '.join(missing_mc)}",
+        )
 
     def test_26_28_missing_head_packet_is_fully_resolved(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/26-28.json").read_text(encoding="utf-8"))

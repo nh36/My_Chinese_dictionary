@@ -17,6 +17,7 @@ WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 VOWEL_RE = re.compile(r"[aeiouəɨɯ]")
+MC_VOWEL_RE = re.compile(r"[aeiouyəɨɛɔ]")
 OC_ALT_RE = re.compile(r"\s*\{.*$")
 OC_CLEAN_RE = re.compile(r"[\[\]\(\)<>]")
 OC_BRACED_ALT_RE = re.compile(r"\{([^}]*)\}")
@@ -260,6 +261,81 @@ def extract_mc_coda(form: str | None) -> str:
     return ""
 
 
+def extract_root_onset(root: str | None) -> str:
+    if not root:
+        return ""
+    match = VOWEL_RE.search(root)
+    if match is None:
+        return root
+    return root[: match.start()]
+
+
+def normalize_root_onset(onset: str) -> str:
+    if not onset:
+        return ""
+    if onset.startswith("ts"):
+        return "ts"
+    if onset.startswith("ṅ"):
+        return "ṅ"
+    if onset.startswith("q"):
+        return "q"
+    if onset.startswith("k"):
+        return "k"
+    if onset.startswith("t"):
+        return "t"
+    if onset.startswith("n"):
+        return "n"
+    if onset.startswith("m"):
+        return "m"
+    if onset.startswith("p"):
+        return "p"
+    if onset.startswith("s"):
+        return "s"
+    if onset.startswith("l"):
+        return "l"
+    if onset.startswith("r"):
+        return "r"
+    return onset[0]
+
+
+def extract_mc_onset(form: str | None) -> str:
+    if not form:
+        return ""
+    normalized = ab_division.normalize_mc_form(form)
+    match = MC_VOWEL_RE.search(normalized)
+    if match is None:
+        return normalized
+    return normalized[: match.start()]
+
+
+def normalize_mc_onset(onset: str) -> str:
+    if not onset:
+        return ""
+    if onset.startswith(("dz", "ts", "tś", "dź")):
+        return "ts"
+    if onset.startswith(("q", "ɢ")):
+        return "q"
+    if onset.startswith(("k", "g", "ɡ", "x", "h", "ḫ")):
+        return "k"
+    if onset.startswith(("d", "t")):
+        return "t"
+    if onset.startswith(("z", "s", "ś", "ź", "ṣ", "ẓ")):
+        return "s"
+    if onset.startswith(("b", "p")):
+        return "p"
+    if onset.startswith("m"):
+        return "m"
+    if onset.startswith("n"):
+        return "n"
+    if onset.startswith(("ŋ", "ṅ")):
+        return "ṅ"
+    if onset.startswith("l"):
+        return "l"
+    if onset.startswith("r"):
+        return "r"
+    return onset[0]
+
+
 def derive_head_mc_coda_hints(entry: dict[str, Any], candidates: list[dict[str, Any]]) -> set[str]:
     characters = {candidate.get("character") for candidate in candidates if candidate.get("character")}
     if len(characters) != 1:
@@ -274,6 +350,22 @@ def derive_head_mc_coda_hints(entry: dict[str, Any], candidates: list[dict[str, 
     resolution = proposed.get("mc_resolution") or mc_resolution.resolve_candidate_mc(proposed)
     codas = {extract_mc_coda(form) for form in resolution.get("display_forms") or []}
     return {coda for coda in codas if coda}
+
+
+def derive_head_mc_onset_hints(entry: dict[str, Any], candidates: list[dict[str, Any]]) -> set[str]:
+    characters = {candidate.get("character") for candidate in candidates if candidate.get("character")}
+    if len(characters) != 1:
+        return set()
+    character = next(iter(characters))
+    proposed = next(
+        (candidate for candidate in entry.get("proposed_additions", []) if candidate.get("character") == character),
+        None,
+    )
+    if proposed is None:
+        return set()
+    resolution = proposed.get("mc_resolution") or mc_resolution.resolve_candidate_mc(proposed)
+    onsets = {normalize_mc_onset(extract_mc_onset(form)) for form in resolution.get("display_forms") or []}
+    return {onset for onset in onsets if onset}
 
 
 def load_head_supplement(path: Path) -> dict[str, Any]:
@@ -826,6 +918,16 @@ def resolve_root(
     next_support = ranked[1].get("support_count", 1) if len(ranked) > 1 else 0
     if top_support > 1 and top_support > next_support:
         return resolved_root_from_candidate(ranked[0], source="head_graph_supported_root")
+    if len({candidate.get("character") for candidate in candidates if candidate.get("character")}) == 1:
+        mc_onset_hints = derive_head_mc_onset_hints(entry, candidates)
+        if mc_onset_hints:
+            onset_matched = [
+                candidate
+                for candidate in candidates
+                if normalize_root_onset(extract_root_onset(candidate.get("root"))) in mc_onset_hints
+            ]
+            if len(onset_matched) == 1:
+                return resolved_root_from_candidate(onset_matched[0], source="head_graph_mc_onset")
     return derive_packet_root_consensus(entry) or derive_packet_shengfu_consensus(entry)
 
 
