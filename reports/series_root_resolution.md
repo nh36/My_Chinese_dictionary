@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 948
-- Packets with at least one root candidate: 946
-- Packets with a single resolved provisional root: 944
+- Missing-series packets inspected: 954
+- Packets with at least one root candidate: 952
+- Packets with a single resolved provisional root: 950
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -870,7 +870,13 @@
 | `29-21` | 佾→rit [*N.rit {*[N.]r[i]t}] (0397a) | `rit` | `head_graph_oc_bs` |
 | `29-22` | 欥→qut [*ɢud] (None); 欥→quat [*ɢʷat {*[ɢ]ʷat}] (None) | `qut` | `head_graph_shengfu_head` |
 | `29-23` | 栗→rit [*rit {*[r]i[t]}] (0403a) | `rit` | `head_graph_oc_bs` |
+| `29-24` | 盭→ryt [*rɯ̠d] (None) | `ryt` | `head_graph_oc_shengfu` |
+| `29-25` | 戾→ret [*rˤet-s {*[r]ˤe[t]-s}] (0532a) | `ret` | `head_graph_oc_bs` |
 | `29-26` | 日→nit [*C.nit {*C.ni[t]}] (0404a) | `nit` | `head_graph_oc_bs` |
+| `29-27` | 臸→tit [*tit-s {*ti[t]-s}] (0414a) | `tit` | `head_graph_supplement` |
+| `29-28` | 二→niy [*nij-s {*ni[j]-s}] (0564a) | `niy` | `head_graph_oc_bs` |
+| `29-29` | 疾→tsit [*dzit {*[dz]i[t]}] (0494a) | `tsit` | `head_graph_oc_bs` |
+| `29-30` | 卽→tsik [*tsik {*[ts]ik}] (None); 即→syk [*sɯɡ] (None); 卪→sik [*si̠ɡ] (None) | `tsik` | `head_graph_supported_root` |
 | `29-33` | 溢→qik [*N-qik {*N-q(r)ik}] (1257a) | `qik` | `head_graph_oc_bs` |
 | `29-41` | 必→pit [*pit {*pi[t]}] (0405a) | `pit` | `head_graph_oc_bs` |
 | `29-42` | 畢→pit [*pit {*pi[t]}] (0407a) | `pit` | `head_graph_oc_bs` |

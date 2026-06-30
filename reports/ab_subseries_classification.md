@@ -1,10 +1,10 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 999
+- Generated subgroup heads inspected: 1007
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 334
-- Mixed subgroups left unmarked: 416
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 338
+- Mixed subgroups left unmarked: 420
 - Unresolved subgroups left unmarked: 4
 
 | GSC | Head | Plain root | Display root | Class | Added mark | MC forms | Note |
@@ -866,8 +866,16 @@
 | `29-16` | 疐 | `lit` | `lit` | `mixed` | no | `teyH, ṭiyH, ṭhiyH, ciyH` | the extracted forms point to both type a and type b |
 | `29-17` | 失 | `lit` | `lit` | `mixed` | no | `śit, yit, det, ṭhit, ḍit` | the extracted forms point to both type a and type b |
 | `29-23` | 栗 | `rit` | `rit` | `b` | no | `lit` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `29-25` | 戾 | `ret` | `ret` | `mixed` | no | `leyH, let, lwiyH` | the extracted forms point to both type a and type b |
 | `29-26` | 日 | `nit` | `nit` | `mixed` | no | `ñit, ṇit, net` | the extracted forms point to both type a and type b |
 | `29-26` | 圼 | `nit` | `nit₂` | `a` | no | `net` | all extracted forms lack an i-medial after the onset |
+| `29-28` | 二 | `niy` | `niy` | `b` | no | `ñiyH, ṇiyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `29-28` | 弍 | `niy` | `niy₄` | `b` | no | `ñiyH, ṇiyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `29-28` | 貳 | `niy` | `niy₅` | `b` | no | `ñiyH, ṇiyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `29-29` | 疾 | `tsit` | `tsit` | `b` | no | `dzit, dziyH` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `29-30` | 節 | `tsik` | `tsik₅` | `mixed` | no | `dzet, tset, tṣit` | the extracted forms point to both type a and type b |
+| `29-30` | 即 | `tsik` | `tsik₄` | `mixed` | no | `tsik, tṣit, dzet, tset, tsit, tsiek` | the extracted forms point to both type a and type b |
+| `29-30` | 卪 | `tsik` | `tsik₆` | `mixed` | no | `tset, tsik, tsit` | the extracted forms point to both type a and type b |
 | `29-33` | 悉 | `qik` | `qik₄` | `b` | no | `sit, ṣit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `29-41` | 必 | `pit` | `pit` | `mixed` | no | `pyit, bit, bet, byit, piyH, pit, mit, myit, bjit` | the extracted forms point to both type a and type b |
 | `29-41` | 宓 | `mit` | `mit` | `b` | no | `mit, myit` | all extracted forms show an i-medial or a dedicated palatal onset |

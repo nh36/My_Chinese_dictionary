@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 964
-- Proposed additions inspected: 6016
-- Additions with reusable semantic assignment from existing TeX: 6016
-- Additions with reusable transliteration LaTeX from existing TeX: 6016
-- Additions with reusable render block from existing TeX: 6016
-- Additions with IDS-derived semantic candidates: 3740
-- Additions with explicit Wiktionary Han-compound support: 2703
+- Curated entries inspected: 970
+- Proposed additions inspected: 6038
+- Additions with reusable semantic assignment from existing TeX: 6038
+- Additions with reusable transliteration LaTeX from existing TeX: 6038
+- Additions with reusable render block from existing TeX: 6038
+- Additions with IDS-derived semantic candidates: 3752
+- Additions with explicit Wiktionary Han-compound support: 2710
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4550
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 191
+- Additions assigned under generated candidate nodes: 4566
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 192
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -893,7 +893,13 @@
 | `29-21` | 1 | 1 | 1 | 1 |
 | `29-22` | 1 | 1 | 1 | 1 |
 | `29-23` | 3 | 3 | 3 | 3 |
+| `29-24` | 1 | 1 | 1 | 1 |
+| `29-25` | 3 | 3 | 3 | 3 |
 | `29-26` | 6 | 6 | 6 | 6 |
+| `29-27` | 1 | 1 | 1 | 1 |
+| `29-28` | 5 | 5 | 5 | 5 |
+| `29-29` | 3 | 3 | 3 | 3 |
+| `29-30` | 9 | 9 | 9 | 9 |
 | `29-33` | 9 | 9 | 9 | 9 |
 | `29-41` | 19 | 19 | 19 | 19 |
 | `29-42` | 8 | 8 | 8 | 8 |

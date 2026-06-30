@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6016
-- Pages fetched / cached successfully: 5926
-- Additions with explicit Han-compound semantic/phonetic roles: 2724
+- Proposed additions checked: 6038
+- Pages fetched / cached successfully: 5948
+- Additions with explicit Han-compound semantic/phonetic roles: 2731
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5016,12 +5016,34 @@
 | `29-23` | 栗 | yes | no |  |  |
 | `29-23` | 慄 | yes | yes | 心 | 栗 |
 | `29-23` | 瑮 | yes | no |  |  |
+| `29-24` | 盭 | yes | no |  |  |
+| `29-25` | 戾 | yes | no |  |  |
+| `29-25` | 悷 | yes | no |  |  |
+| `29-25` | 淚 | yes | yes | 水 | 戾 |
 | `29-26` | 日 | yes | no |  |  |
 | `29-26` | 衵 | yes | no |  |  |
 | `29-26` | 馹 | yes | no |  |  |
 | `29-26` | 䵒 | yes | no |  |  |
 | `29-26` | 圼 | yes | no |  |  |
 | `29-26` | 涅 | yes | yes | 水, 土 | 日 |
+| `29-27` | 臸 | yes | no |  |  |
+| `29-28` | 二 | yes | no |  |  |
+| `29-28` | 弍 | yes | no |  |  |
+| `29-28` | 貳 | yes | yes | 貝 | 弍 |
+| `29-28` | 樲 | yes | no |  |  |
+| `29-28` | 膩 | yes | yes | 肉 | 貳 |
+| `29-29` | 疾 | yes | no |  | 疒, 疾 |
+| `29-29` | 蒺 | yes | no |  |  |
+| `29-29` | 嫉 | yes | yes | 女 | 疾 |
+| `29-30` | 卽 | yes | yes | 皀 | 卪 |
+| `29-30` | 楖 | yes | no |  |  |
+| `29-30` | 節 | yes | yes | 竹 | 即 |
+| `29-30` | 櫛 | yes | yes | 木 | 節 |
+| `29-30` | 即 | yes | no |  |  |
+| `29-30` | 蝍 | yes | no |  |  |
+| `29-30` | 堲 | yes | no |  |  |
+| `29-30` | 䳭 | yes | no |  |  |
+| `29-30` | 卪 | yes | no |  |  |
 | `29-33` | 溢 | yes | yes | 水 | 益 |
 | `29-33` | 鎰 | yes | no |  |  |
 | `29-33` | 欥 | yes | no |  |  |

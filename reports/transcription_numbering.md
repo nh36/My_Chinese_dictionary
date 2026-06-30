@@ -1,9 +1,9 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1350
-- Roots whose display label changed after document-wide renumbering: 810
-- Duplicate phonetic bases encountered in document order: 325
+- Mutable series/subseries roots inspected: 1361
+- Roots whose display label changed after document-wide renumbering: 820
+- Duplicate phonetic bases encountered in document order: 328
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -1467,3 +1467,14 @@
 | `29-21` | `series-root` | 佾 | `rit` | 4 | `rit₄` | yes |
 | `29-22` | `series-root` | 欥 | `qut` | 3 | `qut₃` | yes |
 | `29-23` | `series-root` | 栗 | `rit` | 5 | `rit₅` | yes |
+| `29-24` | `series-root` | 盭 | `ryt` | 1 | `ryt` | yes |
+| `29-25` | `series-root` | 戾 | `ret` | 2 | `ret₂` | yes |
+| `29-27` | `series-root` | 臸 | `tit` | 2 | `tit₂` | yes |
+| `29-28` | `series-root` | 二 | `niy` | 3 | `niy₃` | yes |
+| `29-28` | `subseries-root` | 弍 | `niy` | 4 | `niy₄` | yes |
+| `29-28` | `subseries-root` | 貳 | `niy` | 5 | `niy₅` | yes |
+| `29-29` | `series-root` | 疾 | `tsit` | 2 | `tsit₂` | yes |
+| `29-30` | `series-root` | 卽 | `tsik` | 3 | `tsik₃` | yes |
+| `29-30` | `subseries-root` | 即 | `tsik` | 4 | `tsik₄` | yes |
+| `29-30` | `subseries-root` | 節 | `tsik` | 5 | `tsik₅` | yes |
+| `29-30` | `subseries-root` | 卪 | `tsik` | 6 | `tsik₆` | yes |
