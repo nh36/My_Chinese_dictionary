@@ -1,0 +1,568 @@
+{
+  "generated_at": "2026-06-30T11:42:57.840605+00:00",
+  "id": "30-17",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "30-17",
+    "rhyme_section": 30,
+    "series_number": 17,
+    "k_tokens": [
+      "530"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.            MC              LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 333,
+    "source_line_number": 48,
+    "source_line_raw": "30-17 = K. 530        Mand.            MC              LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "30-17",
+    "rhyme_section": "30",
+    "series_number": "17",
+    "schuessler_k_tokens": "530",
+    "schuessler_source_page": "333",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "胐",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "朏",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "胐; 朏"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "530"
+  ],
+  "proposed_additions": [
+    {
+      "character": "胐",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "phiɨyX",
+          "phwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "phiɨyX",
+          "phwət"
+        ],
+        "mand2mc_bs_forms": [
+          "phj+jX",
+          "phwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3826",
+          "character": "胐",
+          "pinyin": "fei3",
+          "mc_nwh": "phiɨyX",
+          "mc_bs": "phj+jX",
+          "gsr": "0530a"
+        },
+        {
+          "source_row_number": "3827",
+          "character": "胐",
+          "pinyin": "pu2?",
+          "mc_nwh": "phwət",
+          "mc_bs": "phwot",
+          "gsr": "0530a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{py₁₂}},",
+      "render_latex": "胐\t%fei3 / pu2?\n{\\large{py₁₂}},\n\\textit{phiɨyX};\t%0530a\n\\textit{phwət};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    },
+    {
+      "character": "朏",
+      "in_tex": false,
+      "mand2mc_count": 0,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 4,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "bs_gsr",
+        "display_forms": [
+          "phj+jX"
+        ],
+        "mand2mc_nwh_forms": [],
+        "mand2mc_bs_forms": [],
+        "bs_gsr_forms": [
+          "phj+jX"
+        ],
+        "bs_not_in_mand2mc": [
+          "phj+jX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "80",
+          "character": "朏",
+          "pinyin": "fěi",
+          "mc_bs": "phj+jX",
+          "mc_analyzed": "(ph- + -j+j B)",
+          "oc_bs": "*pʰəjʔ {*pʰ[ə]jʔ}",
+          "gloss": "new light of the moon",
+          "gsr": "0530a",
+          "unicode_utf16": "U+670F"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1660",
+          "character": "朏",
+          "phonetic_component": "出",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦骨",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "kʰu̠d"
+        },
+        {
+          "source_row_number": "3240",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "敷尾",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯlʔ",
+          "oc_syllable": "pʰɯlʔ"
+        },
+        {
+          "source_row_number": "3243",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普乃",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "pʰɯ̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3240",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "敷尾",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯlʔ",
+          "oc_syllable": "pʰɯlʔ"
+        },
+        {
+          "source_row_number": "3241",
+          "character": "昢",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "滂佩",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ls",
+          "oc_syllable": "pʰɯ̠ls"
+        },
+        {
+          "source_row_number": "3242",
+          "character": "昢",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普沒",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠d",
+          "oc_syllable": "pʰɯ̠d"
+        },
+        {
+          "source_row_number": "3243",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普乃",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "pʰɯ̠ʔ"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|月|出|ls=ic|t1=moon|t2=to come out; to appear}}",
+          "positional_components": [
+            "月",
+            "出"
+          ],
+          "positional_components_raw": [
+            "月",
+            "出"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "moon",
+            "t2": "to come out; to appear"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|月|出|ls=ic|t1=moon|t2=to come out; to appear}}",
+            "positional_components": [
+              "月",
+              "出"
+            ],
+            "positional_components_raw": [
+              "月",
+              "出"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "moon",
+              "t2": "to come out; to appear"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "朏",
+          "ids": "⿰月出",
+          "phonetic_component": "出",
+          "semantic_component": "月",
+          "position": "prefix-dot",
+          "abbreviation": "luna",
+          "inventory_matches": [
+            {
+              "graph_raw": "月",
+              "label_token": "luna",
+              "abbreviation": "luna",
+              "start_line": 315
+            },
+            {
+              "graph_raw": "月",
+              "label_token": "carn",
+              "abbreviation": "carn",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "luna",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "月",
+            "label_token": "luna",
+            "abbreviation": "luna",
+            "start_line": 315
+          },
+          {
+            "graph_raw": "月",
+            "label_token": "carn",
+            "abbreviation": "carn",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "月"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{luna·}py₁₂}},",
+      "render_latex": "朏\t%fěi\n{\\large{\\textsuperscript{luna·}py₁₂}},\n\\textit{phj+jX};\t%0530a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "胐",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "phiɨyX",
+          "phwət"
+        ],
+        "mand2mc_nwh_forms": [
+          "phiɨyX",
+          "phwət"
+        ],
+        "mand2mc_bs_forms": [
+          "phj+jX",
+          "phwot"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3826",
+          "character": "胐",
+          "pinyin": "fei3",
+          "mc_nwh": "phiɨyX",
+          "mc_bs": "phj+jX",
+          "gsr": "0530a"
+        },
+        {
+          "source_row_number": "3827",
+          "character": "胐",
+          "pinyin": "pu2?",
+          "mc_nwh": "phwət",
+          "mc_bs": "phwot",
+          "gsr": "0530a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "朏",
+      "in_tex": false,
+      "mand2mc_count": 0,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 3,
+      "shengfu_component_count": 4,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "bs_gsr",
+        "display_forms": [
+          "phj+jX"
+        ],
+        "mand2mc_nwh_forms": [],
+        "mand2mc_bs_forms": [],
+        "bs_gsr_forms": [
+          "phj+jX"
+        ],
+        "bs_not_in_mand2mc": [
+          "phj+jX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "80",
+          "character": "朏",
+          "pinyin": "fěi",
+          "mc_bs": "phj+jX",
+          "mc_analyzed": "(ph- + -j+j B)",
+          "oc_bs": "*pʰəjʔ {*pʰ[ə]jʔ}",
+          "gloss": "new light of the moon",
+          "gsr": "0530a",
+          "unicode_utf16": "U+670F"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1660",
+          "character": "朏",
+          "phonetic_component": "出",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦骨",
+          "source": "广韵",
+          "oc_initial": "kʰ",
+          "oc_rhyme": "u̠d",
+          "oc_syllable": "kʰu̠d"
+        },
+        {
+          "source_row_number": "3240",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "敷尾",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯlʔ",
+          "oc_syllable": "pʰɯlʔ"
+        },
+        {
+          "source_row_number": "3243",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普乃",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "pʰɯ̠ʔ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "3240",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "敷尾",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯlʔ",
+          "oc_syllable": "pʰɯlʔ"
+        },
+        {
+          "source_row_number": "3241",
+          "character": "昢",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "滂佩",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ls",
+          "oc_syllable": "pʰɯ̠ls"
+        },
+        {
+          "source_row_number": "3242",
+          "character": "昢",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普沒",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠d",
+          "oc_syllable": "pʰɯ̠d"
+        },
+        {
+          "source_row_number": "3243",
+          "character": "朏",
+          "phonetic_component": "朏",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "普乃",
+          "source": "广韵",
+          "oc_initial": "pʰ",
+          "oc_rhyme": "ɯ̠ʔ",
+          "oc_syllable": "pʰɯ̠ʔ"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "胐",
+      "gsr": null,
+      "oc_bs": "*pʰəjʔ {*pʰ[ə]jʔ}",
+      "root": "py",
+      "source": "same_character_series_root",
+      "support_count": 4,
+      "supporting_sources": [
+        "same_character_series_root",
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "朏",
+      "gsr": null,
+      "oc_bs": "*kʰu̠d",
+      "root": "kut",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "py",
+    "source": "head_graph_supported_root",
+    "character": "胐",
+    "oc_bs": "*pʰəjʔ {*pʰ[ə]jʔ}",
+    "confidence": "provisional-oc",
+    "support_count": 4,
+    "supporting_sources": [
+      "same_character_series_root",
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "py₁₂",
+    "base_root": "py",
+    "ordinal": 12,
+    "numbering_source": "document_order_occurrence"
+  }
+}

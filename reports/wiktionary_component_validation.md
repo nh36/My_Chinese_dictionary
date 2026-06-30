@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6074
-- Pages fetched / cached successfully: 5984
-- Additions with explicit Han-compound semantic/phonetic roles: 2745
+- Proposed additions checked: 6103
+- Pages fetched / cached successfully: 6003
+- Additions with explicit Han-compound semantic/phonetic roles: 2754
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5151,6 +5151,13 @@
 | `30-11` | 蕼 | yes | no |  |  |
 | `30-11` | 肂 | yes | no |  |  |
 | `30-11` | 殔 | yes | no |  |  |
+| `30-12` | 配 | no | no |  |  |
+| `30-13` | 孛 | yes | no |  |  |
+| `30-13` | 勃 | no | no |  |  |
+| `30-13` | 浡 | yes | no |  |  |
+| `30-13` | 悖 | yes | yes | 心 | 孛 |
+| `30-13` | 誖 | yes | no |  |  |
+| `30-13` | 綍 | yes | no |  |  |
 | `30-14` | 弗 | yes | no |  |  |
 | `30-14` | 笰 | yes | no |  |  |
 | `30-14` | 紼 | yes | no |  |  |
@@ -5167,6 +5174,28 @@
 | `30-14` | 沸 | yes | yes | 水 | 弗 |
 | `30-14` | 昲 | yes | no |  |  |
 | `30-14` | 費 | yes | yes | 貝 | 弗 |
+| `30-16` | 巿 | yes | no |  |  |
+| `30-16` | 芾 | no | no |  |  |
+| `30-16` | 旆 | yes | yes | 㫃 | 𣎵 |
+| `30-16` | 㤄 | no | no |  |  |
+| `30-16` | 沛 | yes | yes | 水 | 巿 |
+| `30-16` | 肺 | yes | yes | 肉 | 巿 |
+| `30-17` | 胐 | no | no |  |  |
+| `30-17` | 朏 | yes | no |  |  |
+| `30-18` | 𠬛 | yes | no |  |  |
+| `30-18` | 沒 | yes | yes | 水 | 𠬛 |
+| `30-18` | 歿 | no | no |  |  |
+| `30-18` | 𤣻 | yes | no |  |  |
+| `30-19` | 勿 | no | no |  |  |
+| `30-19` | 物 | no | no |  |  |
+| `30-19` | 芴 | yes | no |  |  |
+| `30-19` | 歾 | no | no |  |  |
+| `30-19` | 忽 | yes | yes | 心 | 勿 |
+| `30-19` | 笏 | yes | no |  |  |
+| `30-19` | 刎 | yes | yes | 刀 | 勿 |
+| `30-19` | 吻 | yes | yes | 口 | 勿 |
+| `30-19` | 惚 | yes | yes | 心 | 忽 |
+| `30-19` | 脗 | no | no |  |  |
 | `30-21` | 未 | yes | no |  |  |
 | `30-21` | 味 | yes | yes | 口 | 未 |
 | `30-21` | 魅 | yes | yes | 鬼 | 未 |
