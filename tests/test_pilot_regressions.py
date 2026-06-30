@@ -153,15 +153,22 @@ class PilotRegressionTests(unittest.TestCase):
         expected_ids = [entry["id"] for entry in render_curated_series.sort_entries(entries)]
         self.assertEqual(actual_ids, expected_ids)
 
-    def test_generated_sample_starts_with_integrated_semantic_components(self) -> None:
+    def test_generated_sample_includes_front_matter_and_book_section_titles(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
-        self.assertIn(r"\section*{Integrated semantic components}", rendered)
+        self.assertIn("A Chinese Historical Phonology Dictionary", rendered)
+        self.assertIn("Curated Schuessler Series with Old Chinese Reconstructions", rendered)
+        self.assertIn(r"\section*{\centering Introduction}", rendered)
+        self.assertIn(r"\section*{\centering Semantic Component Abbreviations}", rendered)
+        self.assertIn(r"\section*{\centering Schuessler Series}", rendered)
+        self.assertNotIn(r"\section*{Curated pilot series in comparable format}", rendered)
+        self.assertIn(r"\lehead{\small Chinese Historical Phonology Dictionary}", rendered)
+        self.assertIn(r"\rohead{\small \rightmark}", rendered)
         self.assertLess(
-            rendered.index(r"\section*{Integrated semantic components}"),
-            rendered.index(r"\section*{Curated pilot series in comparable format}"),
+            rendered.index(r"\section*{\centering Semantic Component Abbreviations}"),
+            rendered.index(r"\section*{\centering Schuessler Series}"),
         )
         self.assertLess(
-            rendered.index(r"\section*{Integrated semantic components}"),
+            rendered.index(r"\section*{\centering Semantic Component Abbreviations}"),
             rendered.index(r"\paragraph{\textoversetlarge{"),
         )
         self.assertNotIn("entry aliases:", rendered)
@@ -169,6 +176,16 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertNotIn("(still, yet, even, still more)", rendered)
         self.assertNotIn("(gé)", rendered)
         self.assertNotIn("(leather, to reform, to revolutionize)", rendered)
+        self.assertNotIn("Chapter", rendered)
+        self.assertNotIn(r"\chapter", rendered)
+
+    def test_generated_sample_rhyme_headings_are_centered_and_all_labeled(self) -> None:
+        rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")
+        entries = self.load_active_entries()
+        groups = render_curated_series.group_entries_by_rhyme_section(entries)
+        headings = re.findall(r"\\section\*\{\\centering (\d{2}\. [^}]*)\}", rendered)
+        self.assertEqual(len(headings), len(groups))
+        self.assertFalse(re.search(r"\\section\*\{\\centering \d{2}\}", rendered))
 
     def test_generated_sample_preserves_labialized_codas_and_top_level_division_marks(self) -> None:
         rendered = (ROOT / "build/generated_curated_series_sample.tex").read_text(encoding="utf-8")

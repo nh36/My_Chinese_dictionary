@@ -5,49 +5,51 @@
 - Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.
 - Existing-series packets show the original TeX baseline followed by a comparable-format additions block.
 - Entries are grouped by Schuessler rhyme section in render order.
-- Rhyme heading labels use `NN. <subsection>` when a section has `tex_entry.subsection` hints; otherwise they use `NN`.
+- Sections with direct `tex_entry.subsection` hints in the active dataset: 01, 18, 19.
+- Rhyme heading labels use direct `tex_entry.subsection` hints when present; otherwise they use Schuessler OCM heading hints by section number.
+- If neither source has a usable label, headings use `label unavailable`.
 - Every rhyme section starts with `\clearpage` plus an odd-page check so section headings open on right-hand pages.
 
-| Rhyme section | Heading | Entries | Subsection hint used |
-| --- | --- | ---: | --- |
-| `01` | `01. -a` | 15 | `-a` |
-| `02` | `02` | 38 | `none` |
-| `03` | `03` | 67 | `none` |
-| `04` | `04` | 63 | `none` |
-| `05` | `05` | 38 | `none` |
-| `06` | `06` | 22 | `none` |
-| `07` | `07` | 29 | `none` |
-| `08` | `08` | 21 | `none` |
-| `09` | `09` | 33 | `none` |
-| `10` | `10` | 18 | `none` |
-| `11` | `11` | 20 | `none` |
-| `12` | `12` | 24 | `none` |
-| `13` | `13` | 73 | `none` |
-| `14` | `14` | 24 | `none` |
-| `15` | `15` | 15 | `none` |
-| `16` | `16` | 42 | `none` |
-| `17` | `17` | 14 | `none` |
-| `18` | `18. -ay` | 7 | `-ay` |
-| `19` | `19. -ay` | 12 | `-ay` |
-| `20` | `20` | 19 | `none` |
-| `21` | `21` | 37 | `none` |
-| `22` | `22` | 18 | `none` |
-| `23` | `23` | 31 | `none` |
-| `24` | `24` | 56 | `none` |
-| `25` | `25` | 43 | `none` |
-| `26` | `26` | 39 | `none` |
-| `27` | `27` | 20 | `none` |
-| `28` | `28` | 20 | `none` |
-| `29` | `29` | 42 | `none` |
-| `30` | `30` | 21 | `none` |
-| `31` | `31` | 23 | `none` |
-| `32` | `32` | 40 | `none` |
-| `33` | `33` | 34 | `none` |
-| `34` | `34` | 32 | `none` |
-| `35` | `35` | 19 | `none` |
-| `36` | `36` | 24 | `none` |
-| `37` | `37` | 21 | `none` |
-| `38` | `38` | 31 | `none` |
+| Rhyme section | Heading | Entries | Rhyme label | Label source |
+| --- | --- | ---: | --- | --- |
+| `01` | `01. -a` | 15 | `-a` | `tex_subsection` |
+| `02` | `02. *-ak` | 38 | `*-ak` | `schuessler_heading_hint` |
+| `03` | `03. *-aiJ` | 67 | `*-aiJ` | `schuessler_heading_hint` |
+| `04` | `04. *-ə` | 63 | `*-ə` | `schuessler_heading_hint` |
+| `05` | `05. *-gk` | 38 | `*-gk` | `schuessler_heading_hint` |
+| `06` | `06. label unavailable` | 22 | `label unavailable` | `fallback_unavailable` |
+| `07` | `07. *-e` | 29 | `*-e` | `schuessler_heading_hint` |
+| `08` | `08. *-ek` | 21 | `*-ek` | `schuessler_heading_hint` |
+| `09` | `09. *-eiJ` | 33 | `*-eiJ` | `schuessler_heading_hint` |
+| `10` | `10. *-o` | 18 | `*-o` | `schuessler_heading_hint` |
+| `11` | `11. *-oiJ *-ok *-o` | 20 | `*-oiJ *-ok *-o` | `schuessler_heading_hint` |
+| `12` | `12. *-oŋ` | 24 | `*-oŋ` | `schuessler_heading_hint` |
+| `13` | `13. *-u` | 73 | `*-u` | `schuessler_heading_hint` |
+| `14` | `14. *-uk` | 24 | `*-uk` | `schuessler_heading_hint` |
+| `15` | `15. *-uŋ` | 15 | `*-uŋ` | `schuessler_heading_hint` |
+| `16` | `16. *-auk *-uk` | 42 | `*-auk *-uk` | `schuessler_heading_hint` |
+| `17` | `17. *-auk` | 14 | `*-auk` | `schuessler_heading_hint` |
+| `18` | `18. -ay` | 7 | `-ay` | `tex_subsection` |
+| `19` | `19. -ay` | 12 | `-ay` | `tex_subsection` |
+| `20` | `20. *-et *-e(t)s` | 19 | `*-et *-e(t)s` | `schuessler_heading_hint` |
+| `21` | `21. *-at *-a(t)s` | 37 | `*-at *-a(t)s` | `schuessler_heading_hint` |
+| `22` | `22. *-on/*-wan *-ot/*-wat` | 18 | `*-on/*-wan *-ot/*-wat` | `schuessler_heading_hint` |
+| `23` | `23. *-en *-et` | 31 | `*-en *-et` | `schuessler_heading_hint` |
+| `24` | `24. *-an *-at` | 56 | `*-an *-at` | `schuessler_heading_hint` |
+| `25` | `25. *-on *-wan` | 43 | `*-on *-wan` | `schuessler_heading_hint` |
+| `26` | `26. *-i *-ai` | 39 | `*-i *-ai` | `schuessler_heading_hint` |
+| `27` | `27. *-i` | 20 | `*-i` | `schuessler_heading_hint` |
+| `28` | `28. *-ui *-wai` | 20 | `*-ui *-wai` | `schuessler_heading_hint` |
+| `29` | `29. *-it *-its *-is` | 42 | `*-it *-its *-is` | `schuessler_heading_hint` |
+| `30` | `30. *-əm *-ət *-ə(t)s *-əi` | 21 | `*-əm *-ət *-ə(t)s *-əi` | `schuessler_heading_hint` |
+| `31` | `31. *-ut *-u(t)s` | 23 | `*-ut *-u(t)s` | `schuessler_heading_hint` |
+| `32` | `32. *-in *-ən *-it *-ət` | 40 | `*-in *-ən *-it *-ət` | `schuessler_heading_hint` |
+| `33` | `33. *-an *-at *-a(t)s *-əi` | 34 | `*-an *-at *-a(t)s *-əi` | `schuessler_heading_hint` |
+| `34` | `34. *-un *-wən` | 32 | `*-un *-wən` | `schuessler_heading_hint` |
+| `35` | `35. *-ap *-op` | 19 | `*-ap *-op` | `schuessler_heading_hint` |
+| `36` | `36. *-am *-om` | 24 | `*-am *-om` | `schuessler_heading_hint` |
+| `37` | `37. *-əp *-ip` | 21 | `*-əp *-ip` | `schuessler_heading_hint` |
+| `38` | `38. *-əm *-im` | 31 | `*-əm *-im` | `schuessler_heading_hint` |
 
 | GSC | Packet kind | Existing TeX baseline | Proposed additions | Hierarchy-linked additions |
 | --- | --- | --- | ---: | ---: |

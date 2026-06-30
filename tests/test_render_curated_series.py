@@ -119,13 +119,12 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             ],
         )
         self.assertEqual(heading, "01. -a")
-        self.assertEqual(
-            render_curated_series.format_rhyme_section_heading(
-                2,
-                [self.make_missing_entry("02-01", heading_character="丁")],
-            ),
-            "02",
+        section_two_heading = render_curated_series.format_rhyme_section_heading(
+            2,
+            [self.make_missing_entry("02-01", heading_character="丁")],
         )
+        self.assertRegex(section_two_heading, r"^02\. .+")
+        self.assertNotEqual(section_two_heading, "02")
 
     def test_render_document(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -152,34 +151,42 @@ class RenderCuratedSeriesTests(unittest.TestCase):
                 main_tex,
                 semantic_data,
             )
-            self.assertIn("\\section*{Integrated semantic components}", doc)
             self.assertIn(r"\item 木 \textbf{arb} arb(or) --- (only in test)", doc)
             self.assertNotIn("(mù)", doc)
             self.assertNotIn("(tree)", doc)
             self.assertNotIn("entry aliases", doc)
-            self.assertIn("\\section*{Curated pilot series in comparable format}", doc)
-            self.assertIn("\\section*{01. -a}", doc)
-            self.assertIn("\\section*{02}", doc)
+            self.assertIn(r"\begin{titlepage}", doc)
+            self.assertIn("A Chinese Historical Phonology Dictionary", doc)
+            self.assertIn("Curated Schuessler Series with Old Chinese Reconstructions", doc)
+            self.assertIn(r"\section*{\centering Introduction}", doc)
+            self.assertIn(r"\section*{\centering Semantic Component Abbreviations}", doc)
+            self.assertIn(r"\section*{\centering Schuessler Series}", doc)
+            self.assertIn(r"\section*{\centering 01. -a}", doc)
+            self.assertRegex(doc, r"\\section\*\{\\centering 02\. .+\}")
             self.assertNotIn("Chapter", doc)
             self.assertNotIn(r"\chapter", doc)
+            self.assertNotIn(r"\section*{Curated pilot series in comparable format}", doc)
+            self.assertIn(r"\lehead{\small Chinese Historical Phonology Dictionary}", doc)
+            self.assertIn(r"\rohead{\small \rightmark}", doc)
             self.assertEqual(doc.count(r"\ifodd\value{page}\else"), 2)
             self.assertEqual(doc.count(r"\begin{multicols*}{2}"), 3)
             self.assertEqual(doc.count(r"\end{multicols*}"), 3)
             self.assertRegex(
                 doc,
                 re.compile(
-                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\section\*\{01\. -a\}",
+                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\section\*\{\\centering 01\. -a\}",
                     re.MULTILINE,
                 ),
             )
             self.assertRegex(
                 doc,
                 re.compile(
-                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\section\*\{02\}",
+                    r"\\ifodd\\value\{page\}\\else\s+\\thispagestyle\{empty\}\s+\\null\s+\\clearpage\s+\\fi\s+\\section\*\{\\centering 02\. .+\}",
                     re.MULTILINE,
                 ),
             )
-            self.assertLess(doc.index("\\section*{01. -a}"), doc.index("\\section*{02}"))
+            self.assertLess(doc.index(r"\section*{\centering 01. -a}"), doc.index(r"\section*{\centering 02. "))
+            self.assertNotRegex(doc, r"\\section\*\{\\centering \d{2}\}")
             self.assertIn("\\end{document}", doc)
 
     def test_render_document_preserves_global_root_numbering_across_sections(self) -> None:
@@ -212,9 +219,9 @@ class RenderCuratedSeriesTests(unittest.TestCase):
             self.make_missing_entry("02-01", heading_character="乙"),
         ]
         report = render_curated_series.render_report(entries, Path("build/generated_curated_series_sample.tex"))
-        self.assertIn("Rhyme heading labels use `NN. <subsection>`", report)
-        self.assertIn("| `01` | `01. -a` | 1 | `-a` |", report)
-        self.assertIn("| `02` | `02` | 1 | `none` |", report)
+        self.assertIn("Sections with direct `tex_entry.subsection` hints", report)
+        self.assertIn("| `01` | `01. -a` | 1 | `-a` | `tex_subsection` |", report)
+        self.assertRegex(report, r"\| `02` \| `02\. .+` \| 1 \| `.+` \| `schuessler_heading_hint` \|")
 
     def test_default_ids_are_unique(self) -> None:
         self.assertEqual(len(render_curated_series.DEFAULT_IDS), len(set(render_curated_series.DEFAULT_IDS)))

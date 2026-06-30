@@ -1162,6 +1162,51 @@ DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components
 DEFAULT_OUTPUT = "build/generated_curated_series_sample.tex"
 DEFAULT_PDF_OUTPUT = "build/generated_curated_series_sample.pdf"
 DEFAULT_REPORT = "reports/generated_curated_series_sample.md"
+BOOK_TITLE = "A Chinese Historical Phonology Dictionary"
+BOOK_SUBTITLE = "Curated Schuessler Series with Old Chinese Reconstructions"
+BOOK_AUTHOR = "Nathan W. Hill"
+BOOK_SHORT_TITLE = "Chinese Historical Phonology Dictionary"
+BOOK_FRONTMATTER_VERSION = r"\today"
+SEMANTIC_COMPONENTS_TITLE = "Semantic Component Abbreviations"
+DICTIONARY_SECTION_TITLE = "Schuessler Series"
+RHYME_LABEL_FALLBACK = "label unavailable"
+SCHUESSLER_RHYME_LABEL_HINTS = {
+    1: "*-a",
+    2: "*-ak",
+    3: "*-aiJ",
+    4: "*-\u0259",
+    5: "*-gk",
+    7: "*-e",
+    8: "*-ek",
+    9: "*-eiJ",
+    10: "*-o",
+    11: "*-oiJ *-ok *-o",
+    12: "*-o\u014b",
+    13: "*-u",
+    14: "*-uk",
+    15: "*-u\u014b",
+    16: "*-auk *-uk",
+    17: "*-auk",
+    20: "*-et *-e(t)s",
+    21: "*-at *-a(t)s",
+    22: "*-on/*-wan *-ot/*-wat",
+    23: "*-en *-et",
+    24: "*-an *-at",
+    25: "*-on *-wan",
+    26: "*-i *-ai",
+    27: "*-i",
+    28: "*-ui *-wai",
+    29: "*-it *-its *-is",
+    30: "*-\u0259m *-\u0259t *-\u0259(t)s *-\u0259i",
+    31: "*-ut *-u(t)s",
+    32: "*-in *-\u0259n *-it *-\u0259t",
+    33: "*-an *-at *-a(t)s *-\u0259i",
+    34: "*-un *-w\u0259n",
+    35: "*-ap *-op",
+    36: "*-am *-om",
+    37: "*-\u0259p *-ip",
+    38: "*-\u0259m *-im",
+}
 COLUMN_GUARDRAIL_MACROS = [
     r"\newsavebox{\pilotentrybox}",
     r"\newlength{\pilotentrygap}",
@@ -1259,6 +1304,27 @@ def group_entries_by_rhyme_section(
     return groups
 
 
+def section_subsection_hints_by_section(entries: list[dict[str, Any]]) -> dict[int, str]:
+    counts_by_section: dict[int, dict[str, int]] = {}
+    for entry in entries:
+        section = entry_rhyme_section(entry)
+        if section is None:
+            continue
+        subsection = (entry.get("tex_entry") or {}).get("subsection")
+        if not isinstance(subsection, str):
+            continue
+        normalized = subsection.strip()
+        if not normalized:
+            continue
+        section_counts = counts_by_section.setdefault(section, {})
+        section_counts[normalized] = section_counts.get(normalized, 0) + 1
+    return {
+        section: sorted(counts.items(), key=lambda item: (-item[1], item[0]))[0][0]
+        for section, counts in counts_by_section.items()
+        if counts
+    }
+
+
 def section_subsection_hint(entries: list[dict[str, Any]]) -> str | None:
     counts: dict[str, int] = {}
     for entry in entries:
@@ -1275,12 +1341,33 @@ def section_subsection_hint(entries: list[dict[str, Any]]) -> str | None:
     return sorted(counts.items(), key=lambda item: (-item[1], item[0]))[0][0]
 
 
-def format_rhyme_section_heading(section: int | None, entries: list[dict[str, Any]]) -> str:
-    section_label = "Unnumbered" if section is None else f"{section:02d}"
-    subsection_hint = section_subsection_hint(entries)
+def resolve_rhyme_label(
+    section: int | None,
+    *,
+    subsection_hints: dict[int, str],
+) -> tuple[str, str]:
+    if section is None:
+        return RHYME_LABEL_FALLBACK, "fallback_unavailable"
+    subsection_hint = subsection_hints.get(section)
     if subsection_hint:
-        return f"{section_label}. {subsection_hint}"
-    return section_label
+        return subsection_hint, "tex_subsection"
+    schuessler_hint = SCHUESSLER_RHYME_LABEL_HINTS.get(section)
+    if schuessler_hint:
+        return schuessler_hint, "schuessler_heading_hint"
+    return RHYME_LABEL_FALLBACK, "fallback_unavailable"
+
+
+def format_rhyme_section_heading(
+    section: int | None,
+    entries: list[dict[str, Any]],
+    *,
+    subsection_hints: dict[int, str] | None = None,
+) -> str:
+    section_label = "Unnumbered" if section is None else f"{section:02d}"
+    if subsection_hints is None:
+        subsection_hints = section_subsection_hints_by_section(entries)
+    rhyme_label, _ = resolve_rhyme_label(section, subsection_hints=subsection_hints)
+    return f"{section_label}. {rhyme_label}"
 
 
 def render_right_hand_page_break() -> list[str]:
@@ -1295,13 +1382,60 @@ def render_right_hand_page_break() -> list[str]:
     ]
 
 
+def render_centered_section_heading(title: str, *, mark_text: str | None = None) -> list[str]:
+    return [
+        rf"\section*{{\centering {title}}}",
+        rf"\markright{{{mark_text or title}}}",
+        "",
+    ]
+
+
+def render_running_header_setup() -> list[str]:
+    return [
+        r"\clearpairofpagestyles",
+        rf"\lehead{{\small {BOOK_SHORT_TITLE}}}",
+        rf"\rohead{{\small \rightmark}}",
+        rf"\rehead{{\small \rightmark}}",
+        rf"\lohead{{\small {BOOK_SHORT_TITLE}}}",
+        r"\cfoot{\pagemark}",
+        r"\pagestyle{scrheadings}",
+        "",
+    ]
+
+
+def render_title_page() -> list[str]:
+    return [
+        r"\begin{titlepage}",
+        r"\thispagestyle{empty}",
+        r"\centering",
+        r"\vspace*{0.16\textheight}",
+        rf"{{\Huge\bfseries {BOOK_TITLE}\par}}",
+        r"\vspace{1.4em}",
+        rf"{{\Large {BOOK_SUBTITLE}\par}}",
+        r"\vfill",
+        rf"{{\Large {BOOK_AUTHOR}\par}}",
+        rf"{{\large {BOOK_FRONTMATTER_VERSION}\par}}",
+        r"\end{titlepage}",
+        "",
+    ]
+
+
+def render_introduction_placeholder() -> list[str]:
+    return [
+        r"\clearpage",
+        r"\section*{\centering Introduction}",
+        r"\markright{Introduction}",
+        "% Introduction placeholder.",
+        "Introduction placeholder.",
+        "",
+    ]
+
+
 def render_semantic_section(semantic_data: dict[str, Any]) -> list[str]:
     items = semantic_data.get("items") or []
     if not items:
         return []
     lines = [
-        r"\section*{Integrated semantic components}",
-        "",
         r"\begin{multicols*}{2}",
         r"\raggedcolumns",
         r"\begin{spacing}{0.8}",
@@ -1632,24 +1766,38 @@ def render_document(
     semantic_data: dict[str, Any] | None = None,
 ) -> str:
     rhyme_groups = group_entries_by_rhyme_section(entries)
+    subsection_hints = section_subsection_hints_by_section(entries)
     body = [
         "\\begin{document}",
         "% GENERATED FILE - DO NOT EDIT BY HAND.",
     ]
     body.extend(COLUMN_GUARDRAIL_MACROS)
     body.append("")
+    body.extend(render_running_header_setup())
+    body.extend(render_title_page())
+    body.extend(render_introduction_placeholder())
     if semantic_data:
+        body.extend(
+            render_centered_section_heading(
+                SEMANTIC_COMPONENTS_TITLE,
+                mark_text=SEMANTIC_COMPONENTS_TITLE,
+            )
+        )
         body.extend(render_semantic_section(semantic_data))
     body.extend(
-        [
-            "\\section*{Curated pilot series in comparable format}",
-            "",
-        ]
+        render_centered_section_heading(
+            DICTIONARY_SECTION_TITLE,
+            mark_text=DICTIONARY_SECTION_TITLE,
+        )
     )
     for section, group_entries in rhyme_groups:
+        heading_text = format_rhyme_section_heading(
+            section,
+            group_entries,
+            subsection_hints=subsection_hints,
+        )
         body.extend(render_right_hand_page_break())
-        body.append(rf"\section*{{{format_rhyme_section_heading(section, group_entries)}}}")
-        body.append("")
+        body.extend(render_centered_section_heading(heading_text, mark_text=heading_text))
         body.extend(
             [
                 r"\begin{multicols*}{2}",
@@ -1672,6 +1820,9 @@ def render_document(
 def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
     entries = sort_entries(entries)
     rhyme_groups = group_entries_by_rhyme_section(entries)
+    subsection_hints = section_subsection_hints_by_section(entries)
+    hinted_sections = sorted(subsection_hints)
+    hinted_sections_text = ", ".join(f"{section:02d}" for section in hinted_sections) if hinted_sections else "none"
     lines = [
         "# Generated curated series sample",
         "",
@@ -1680,18 +1831,24 @@ def render_report(entries: list[dict[str, Any]], tex_path: Path) -> str:
         "- Missing-series packets are rendered as provisional dictionary-style draft entries with a resolved packet root line when available.",
         "- Existing-series packets show the original TeX baseline followed by a comparable-format additions block.",
         "- Entries are grouped by Schuessler rhyme section in render order.",
-        "- Rhyme heading labels use `NN. <subsection>` when a section has `tex_entry.subsection` hints; otherwise they use `NN`.",
+        f"- Sections with direct `tex_entry.subsection` hints in the active dataset: {hinted_sections_text}.",
+        "- Rhyme heading labels use direct `tex_entry.subsection` hints when present; otherwise they use Schuessler OCM heading hints by section number.",
+        f"- If neither source has a usable label, headings use `{RHYME_LABEL_FALLBACK}`.",
         r"- Every rhyme section starts with `\clearpage` plus an odd-page check so section headings open on right-hand pages.",
         "",
-        "| Rhyme section | Heading | Entries | Subsection hint used |",
-        "| --- | --- | ---: | --- |",
+        "| Rhyme section | Heading | Entries | Rhyme label | Label source |",
+        "| --- | --- | ---: | --- | --- |",
     ]
     for section, group_entries in rhyme_groups:
         section_label = "unnumbered" if section is None else f"{section:02d}"
-        heading = format_rhyme_section_heading(section, group_entries)
-        subsection_hint = section_subsection_hint(group_entries) or "none"
+        heading = format_rhyme_section_heading(
+            section,
+            group_entries,
+            subsection_hints=subsection_hints,
+        )
+        rhyme_label, source = resolve_rhyme_label(section, subsection_hints=subsection_hints)
         lines.append(
-            f"| `{section_label}` | `{heading}` | {len(group_entries)} | `{subsection_hint}` |"
+            f"| `{section_label}` | `{heading}` | {len(group_entries)} | `{rhyme_label}` | `{source}` |"
         )
     lines.extend(
         [
