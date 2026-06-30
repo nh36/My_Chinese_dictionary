@@ -303,22 +303,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|心|甜|ls=psc|c1=s|c2=p|t1=heart|abb2=y}}",
+          "positional_components": [
+            "心",
+            "甜"
+          ],
+          "positional_components_raw": [
+            "心",
+            "甜"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "heart",
+            "abb2": "y"
+          },
+          "semantic_components": [
+            "心"
+          ],
+          "phonetic_components": [
+            "甜"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|心|甜|ls=psc|c1=s|c2=p|t1=heart|abb2=y}}",
+            "positional_components": [
+              "心",
+              "甜"
+            ],
+            "positional_components_raw": [
+              "心",
+              "甜"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "heart",
+              "abb2": "y"
+            },
+            "semantic_components": [
+              "心"
+            ],
+            "phonetic_components": [
+              "甜"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kot₄}},",
-      "render_latex": "恬\t%tian2\n{\\large{kot₄}},\n\\textit{dem};\t%0621b",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{cor·}kot₄}},",
+      "render_latex": "恬\t%tian2\n{\\large{\\textsuperscript{cor·}kot₄}},\n\\textit{dem};\t%0621b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "心",
+        "phonetic_component": "甜",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "恬",
+          "semantic_component": "心",
+          "phonetic_component": "甜",
+          "position": "prefix-dot",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 239
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ],
+          "template_raw": "{{Han compound|心|甜|ls=psc|c1=s|c2=p|t1=heart|abb2=y}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "cor",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 239
+          },
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "心"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": null

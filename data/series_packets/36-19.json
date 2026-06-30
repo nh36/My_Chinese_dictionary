@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-06-30T13:23:53.837027+00:00",
+  "gsc_id": "36-19",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "623"
+  ],
+  "schuessler": {
+    "gsc_id": "36-19",
+    "rhyme_section": 36,
+    "series_number": 19,
+    "k_tokens": [
+      "623"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.          MC               LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 376,
+    "source_line_number": 44,
+    "source_line_raw": "36-19 = K. 623      Man d.          MC               LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "36-19",
+    "rhyme_section": "36",
+    "series_number": "19",
+    "schuessler_k_tokens": "623",
+    "schuessler_source_page": "376",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "染",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "染",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "染"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "染",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4558",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemH",
+          "mc_bs": "nyemH",
+          "gsr": "0623a"
+        },
+        {
+          "source_row_number": "4559",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemX",
+          "mc_bs": "nyemX",
+          "gsr": "0623a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "94",
+          "character": "染",
+          "pinyin": "rǎn",
+          "mc_bs": "nyemX",
+          "mc_analyzed": "(ny- + -jem B)",
+          "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+          "gloss": "to dye",
+          "gsr": "0623a",
+          "unicode_utf16": "U+67D3"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2874",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而琰",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "omʔ",
+          "oc_syllable": "nʲomʔ"
+        },
+        {
+          "source_row_number": "2876",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而豔",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "oms",
+          "oc_syllable": "nʲoms"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "nyemH",
+          "nyemX"
+        ],
+        "bs_gsr_forms": [
+          "nyemX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "nyemH"
+        ],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "4558",
+        "character": "染",
+        "pinyin": "ran3",
+        "mc_nwh": "ñiemH",
+        "mc_bs": "nyemH",
+        "gsr": "0623a"
+      },
+      {
+        "source_row_number": "4559",
+        "character": "染",
+        "pinyin": "ran3",
+        "mc_nwh": "ñiemX",
+        "mc_bs": "nyemX",
+        "gsr": "0623a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "94",
+        "character": "染",
+        "pinyin": "rǎn",
+        "mc_bs": "nyemX",
+        "mc_analyzed": "(ny- + -jem B)",
+        "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+        "gloss": "to dye",
+        "gsr": "0623a",
+        "unicode_utf16": "U+67D3"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

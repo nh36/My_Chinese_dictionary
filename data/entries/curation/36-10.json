@@ -490,9 +490,53 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厂|猒|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "厂",
+            "猒"
+          ],
+          "positional_components_raw": [
+            "厂",
+            "猒"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "厂"
+          ],
+          "phonetic_components": [
+            "猒"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厂|猒|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "厂",
+              "猒"
+            ],
+            "positional_components_raw": [
+              "厂",
+              "猒"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "厂"
+            ],
+            "phonetic_components": [
+              "猒"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
@@ -508,12 +552,32 @@
             "start_line": 221
           }
         ],
-        "source": "packet_family_ids",
+        "source": "wiktionary_han_compound",
         "semantic_component": "厂"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{caut·}ʔem}},",
       "render_latex": "厭\t%yan3 / yan1 / ya1 / yān\n{\\large{\\textsuperscript{caut·}ʔem}},\n\\textit{qeamX};\t%0616c\n\\textit{qyiem};\n\\textit{qyiep};",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "厂",
+        "phonetic_component": "猒",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "厭",
+          "semantic_component": "厂",
+          "phonetic_component": "猒",
+          "position": "prefix-dot",
+          "abbreviation": "caut",
+          "inventory_matches": [
+            {
+              "graph_raw": "厂",
+              "label_token": "caut(es)",
+              "abbreviation": "caut",
+              "start_line": 221
+            }
+          ],
+          "template_raw": "{{Han compound|厂|猒|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "猒",
@@ -810,9 +874,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厭|木|c1=p|c2=s|t2=tree|ls=psc}}",
+          "positional_components": [
+            "厭",
+            "木"
+          ],
+          "positional_components_raw": [
+            "厭",
+            "木"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "tree",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "木"
+          ],
+          "phonetic_components": [
+            "厭"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厭|木|c1=p|c2=s|t2=tree|ls=psc}}",
+            "positional_components": [
+              "厭",
+              "木"
+            ],
+            "positional_components_raw": [
+              "厭",
+              "木"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "tree",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "木"
+            ],
+            "phonetic_components": [
+              "厭"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -860,19 +970,46 @@
             "evidence_count": 22
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
       "transliteration_latex": "{\\large{ʔem₂\\textsuperscript{·arb}}},",
       "render_latex": "檿\t%yan3\n{\\large{ʔem₂\\textsuperscript{·arb}}},\n\\textit{qyiemX};\t%0616f",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "木",
+        "phonetic_component": "厭",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "檿",
+          "semantic_component": "木",
+          "phonetic_component": "厭",
+          "position": "suffix-dot",
+          "abbreviation": "arb",
+          "inventory_matches": [
+            {
+              "graph_raw": "木",
+              "label_token": "arb(or)",
+              "abbreviation": "arb",
+              "start_line": 203
+            },
+            {
+              "graph_raw": "木",
+              "label_token": "arb",
+              "abbreviation": "arb",
+              "learned": true,
+              "evidence_count": 22
+            }
+          ],
+          "template_raw": "{{Han compound|厭|木|c1=p|c2=s|t2=tree|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "厭",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "shengfu_phonetic_component",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "厭"
       },
       "resolved_node_root": null

@@ -95,9 +95,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|手|alt1=⺘|及|ls=psc|c1=s|c2=p|t1=hand}}",
+          "positional_components": [
+            "手",
+            "及"
+          ],
+          "positional_components_raw": [
+            "手",
+            "及"
+          ],
+          "named_args": {
+            "alt1": "⺘",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "hand"
+          },
+          "semantic_components": [
+            "手"
+          ],
+          "phonetic_components": [
+            "及"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|手|alt1=⺘|及|ls=psc|c1=s|c2=p|t1=hand}}",
+            "positional_components": [
+              "手",
+              "及"
+            ],
+            "positional_components_raw": [
+              "手",
+              "及"
+            ],
+            "named_args": {
+              "alt1": "⺘",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "hand"
+            },
+            "semantic_components": [
+              "手"
+            ],
+            "phonetic_components": [
+              "及"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -145,12 +193,39 @@
             "evidence_count": 20
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "手"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{man·}syp}},",
       "render_latex": "扱\t%cha1\n{\\large{\\textsuperscript{man·}syp}},\n\\textit{tṣheap};\t%1254b",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "手",
+        "phonetic_component": "及",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "扱",
+          "semantic_component": "手",
+          "phonetic_component": "及",
+          "position": "prefix-dot",
+          "abbreviation": "man",
+          "inventory_matches": [
+            {
+              "graph_raw": "手",
+              "label_token": "man(us)",
+              "abbreviation": "man",
+              "start_line": 319
+            },
+            {
+              "graph_raw": "手",
+              "label_token": "man",
+              "abbreviation": "man",
+              "learned": true,
+              "evidence_count": 20
+            }
+          ],
+          "template_raw": "{{Han compound|手|alt1=⺘|及|ls=psc|c1=s|c2=p|t1=hand}}"
+        }
+      },
       "hierarchy_assignment": null,
       "resolved_node_root": null
     }

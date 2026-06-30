@@ -642,7 +642,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -902,9 +902,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|喦|敢|c1=s|c2=p|t1=talkative|ls=psc|t2=daring}}",
+          "positional_components": [
+            "喦",
+            "敢"
+          ],
+          "positional_components_raw": [
+            "喦",
+            "敢"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "talkative",
+            "ls": "psc",
+            "t2": "daring"
+          },
+          "semantic_components": [
+            "喦"
+          ],
+          "phonetic_components": [
+            "敢"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|喦|敢|c1=s|c2=p|t1=talkative|ls=psc|t2=daring}}",
+            "positional_components": [
+              "喦",
+              "敢"
+            ],
+            "positional_components_raw": [
+              "喦",
+              "敢"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "talkative",
+              "ls": "psc",
+              "t2": "daring"
+            },
+            "semantic_components": [
+              "喦"
+            ],
+            "phonetic_components": [
+              "敢"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -921,22 +969,35 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "吅",
+        "abbreviation": "喦",
         "position": "prefix-colon",
         "inventory_matches": [],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "吅"
+        "source": "wiktionary_component_literal_fallback",
+        "semantic_component": "喦"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{吅˸}kam₃}},",
-      "render_latex": "嚴\t%yan2 / yán\n{\\large{\\textsuperscript{吅˸}kam₃}},\n\\textit{ṅiaem};\t%0607h",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{喦˸}kam₃}},",
+      "render_latex": "嚴\t%yan2 / yán\n{\\large{\\textsuperscript{喦˸}kam₃}},\n\\textit{ṅiaem};\t%0607h",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "喦",
+        "phonetic_component": "敢",
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "嚴",
+          "semantic_component": "喦",
+          "phonetic_component": "敢",
+          "position": "prefix-colon",
+          "abbreviation": "喦",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|喦|敢|c1=s|c2=p|t1=talkative|ls=psc|t2=daring}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "𠪚",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
+        "source": "ids_parent_family_inference",
         "phonetic_hint": "𠪚"
       },
       "resolved_node_root": {
@@ -1708,9 +1769,63 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|日|頁|ls=ic|t1=sun|t2=head; man|nocap=1}}",
+          "positional_components": [
+            "日",
+            "頁"
+          ],
+          "positional_components_raw": [
+            "日",
+            "頁"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "sun",
+            "t2": "head; man",
+            "nocap": "1"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|日|頁|ls=ic|t1=sun|t2=head; man|nocap=1}}",
+            "positional_components": [
+              "日",
+              "頁"
+            ],
+            "positional_components_raw": [
+              "日",
+              "頁"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "sun",
+              "t2": "head; man",
+              "nocap": "1"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|日|止|頁}}",
+            "positional_components": [
+              "日",
+              "止",
+              "頁"
+            ],
+            "positional_components_raw": [
+              "日",
+              "止",
+              "頁"
+            ],
+            "named_args": {},
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
       },
       "tex_occurrence_candidates": [
         {
@@ -2100,7 +2215,7 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

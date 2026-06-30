@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6363
-- Pages fetched / cached successfully: 6254
-- Additions with explicit Han-compound semantic/phonetic roles: 2846
+- Proposed additions checked: 6379
+- Pages fetched / cached successfully: 6280
+- Additions with explicit Han-compound semantic/phonetic roles: 2858
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5979,16 +5979,16 @@
 | `35-15` | 翣 | yes | no |  |  |
 | `35-16` | 疌 | yes | yes | 又, 止 | 屮 |
 | `35-16` | 捷 | yes | yes | 手 | 疌 |
-| `35-16` | 寁 | no | no |  |  |
+| `35-16` | 寁 | yes | no |  |  |
 | `35-16` | 睫 | yes | yes | 目 | 疌 |
 | `35-17` | 臿 | yes | no |  |  |
 | `35-17` | 插 | yes | no |  |  |
 | `35-17` | 歃 | yes | yes | 欠 | 臿 |
-| `35-18` | 扱 | no | no |  |  |
+| `35-18` | 扱 | yes | yes | 手 | 及 |
 | `35-19` | 燮 | yes | no |  |  |
 | `35-20` | 乏 | yes | no |  |  |
 | `35-20` | 泛 | yes | yes | 水 | 乏 |
-| `35-20` | 窆 | no | no |  |  |
+| `35-20` | 窆 | yes | no |  |  |
 | `35-20` | 貶 | yes | yes | 貝 | 乏 |
 | `35-21` | 劫 | yes | yes | 力 | 去 |
 | `35-21` | 刧 | yes | no |  |  |
@@ -6016,19 +6016,19 @@
 | `36-01` | 箝 | yes | yes | 竹 | 拑 |
 | `36-01` | 邯 | yes | yes | 邑 | 甘 |
 | `36-02` | 敢 | yes | no |  |  |
-| `36-02` | 闞 | no | no |  |  |
+| `36-02` | 闞 | yes | no |  |  |
 | `36-02` | 矙 | yes | no |  |  |
-| `36-02` | 嚴 | no | no |  |  |
+| `36-02` | 嚴 | yes | yes | 喦 | 敢 |
 | `36-02` | 儼 | yes | yes | 人 | 嚴 |
 | `36-02` | 巖 | yes | yes | 山 | 嚴 |
 | `36-02` | 玁 | yes | no |  |  |
-| `36-02` | 夏 | no | no |  |  |
+| `36-02` | 夏 | yes | no |  |  |
 | `36-02` | 廈 | yes | yes | 广 | 夏 |
-| `36-02` | 厦 | no | no |  |  |
+| `36-02` | 厦 | yes | no |  |  |
 | `36-02` | 𠪚 | yes | no |  |  |
 | `36-03` | 銜 | yes | yes | 行 | 金 |
 | `36-04` | 欠 | yes | no |  |  |
-| `36-04` | 芡 | no | no |  |  |
+| `36-04` | 芡 | yes | yes | 艸 | 欠 |
 | `36-04` | 坎 | yes | yes | 土 | 欠 |
 | `36-05` | 監 | yes | no |  |  |
 | `36-05` | 鑑 | yes | yes | 金 | 監 |
@@ -6069,14 +6069,14 @@
 | `36-07` | 廉 | yes | yes | 广 | 兼 |
 | `36-07` | 磏 | yes | no |  |  |
 | `36-07` | 鎌 | yes | yes | 金 | 兼 |
-| `36-09` | 弇 | no | no |  |  |
+| `36-09` | 弇 | yes | no |  |  |
 | `36-09` | 揜 | yes | no |  |  |
-| `36-09` | 渰 | no | no |  |  |
+| `36-09` | 渰 | yes | yes | 水 | 弇 |
 | `36-09` | 黭 | yes | no |  |  |
 | `36-10` | 猒 | yes | no |  |  |
-| `36-10` | 厭 | no | no |  |  |
+| `36-10` | 厭 | yes | yes | 厂 | 猒 |
 | `36-10` | 饜 | yes | yes | 食 | 厭 |
-| `36-10` | 檿 | no | no |  |  |
+| `36-10` | 檿 | yes | yes | 木 | 厭 |
 | `36-10` | 擪 | yes | yes | 手 | 厭 |
 | `36-10` | 壓 | yes | yes | 土 | 厭 |
 | `36-11` | 詹 | yes | no |  |  |
@@ -6109,7 +6109,7 @@
 | `36-12` | 拈 | yes | no |  |  |
 | `36-12` | 呫 | yes | no |  |  |
 | `36-12` | 帖 | yes | yes | 巾 | 占 |
-| `36-13` | 豓 | no | no |  |  |
+| `36-13` | 豓 | yes | no |  |  |
 | `36-14` | 炎 | yes | no |  |  |
 | `36-14` | 燄 | yes | yes | 炎 | 臽 |
 | `36-14` | 剡 | yes | yes | 刀 | 炎 |
@@ -6126,7 +6126,8 @@
 | `36-14` | 淡 | yes | yes | 水 | 炎 |
 | `36-14` | 餤 | yes | no |  |  |
 | `36-16` | 銛 | yes | yes | 金 | 甜 |
-| `36-16` | 恬 | no | no |  |  |
+| `36-16` | 恬 | yes | yes | 心 | 甜 |
+| `36-17` | 忝 | yes | yes | 心 | 天 |
 | `36-18` | 冄 | yes | no |  |  |
 | `36-18` | 冉 | yes | no |  |  |
 | `36-18` | 呥 | yes | no |  |  |
@@ -6138,6 +6139,14 @@
 | `36-18` | 枏 | yes | no |  |  |
 | `36-18` | 聃 | yes | no |  |  |
 | `36-18` | 耼 | yes | no |  |  |
+| `36-19` | 染 | yes | no |  |  |
+| `36-21` | 㦰 | yes | no |  |  |
+| `36-21` | 韱 | yes | yes | 韭 | 㦰 |
+| `36-21` | 孅 | yes | no |  |  |
+| `36-21` | 纖 | yes | yes | 糸 | 韱 |
+| `36-21` | 殲 | yes | yes | 歹 | 韱 |
+| `36-21` | 瀸 | no | no |  |  |
+| `36-21` | 攕 | yes | no |  |  |
 | `36-22` | 斬 | yes | no | 斤, 車 |  |
 | `36-22` | 摲 | yes | no |  |  |
 | `36-22` | 慙 | yes | no |  |  |
@@ -6146,6 +6155,13 @@
 | `36-22` | 漸 | yes | yes | 水 | 斬 |
 | `36-22` | 塹 | yes | yes | 土 | 斬 |
 | `36-22` | 蔪 | yes | no |  |  |
+| `36-23` | 毚 | no | no |  |  |
+| `36-23` | 欃 | yes | no |  |  |
+| `36-23` | 儳 | no | no |  |  |
+| `36-23` | 讒 | yes | yes | 言 | 毚 |
+| `36-23` | 鑱 | yes | no |  |  |
+| `36-24` | 髟 | yes | no |  |  |
+| `36-25` | 芟 | no | no |  |  |
 | `36-26` | 凡 | yes | no |  |  |
 | `36-26` | 芃 | yes | no |  |  |
 | `36-26` | 帆 | yes | yes | 巾 | 凡 |

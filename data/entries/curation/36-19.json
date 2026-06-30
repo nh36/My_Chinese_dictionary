@@ -1,0 +1,353 @@
+{
+  "generated_at": "2026-06-30T13:23:54.146790+00:00",
+  "id": "36-19",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "36-19",
+    "rhyme_section": 36,
+    "series_number": 19,
+    "k_tokens": [
+      "623"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.          MC               LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 376,
+    "source_line_number": 44,
+    "source_line_raw": "36-19 = K. 623      Man d.          MC               LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "36-19",
+    "rhyme_section": "36",
+    "series_number": "19",
+    "schuessler_k_tokens": "623",
+    "schuessler_source_page": "376",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "染",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "染",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "染"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "623"
+  ],
+  "proposed_additions": [
+    {
+      "character": "染",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "nyemH",
+          "nyemX"
+        ],
+        "bs_gsr_forms": [
+          "nyemX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "nyemH"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4558",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemH",
+          "mc_bs": "nyemH",
+          "gsr": "0623a"
+        },
+        {
+          "source_row_number": "4559",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemX",
+          "mc_bs": "nyemX",
+          "gsr": "0623a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "94",
+          "character": "染",
+          "pinyin": "rǎn",
+          "mc_bs": "nyemX",
+          "mc_analyzed": "(ny- + -jem B)",
+          "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+          "gloss": "to dye",
+          "gsr": "0623a",
+          "unicode_utf16": "U+67D3"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2874",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而琰",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "omʔ",
+          "oc_syllable": "nʲomʔ"
+        },
+        {
+          "source_row_number": "2876",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而豔",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "oms",
+          "oc_syllable": "nʲoms"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|alt1=氵|t1=water|九|t2=hook|木|t3=tree|ls=ic}}",
+          "positional_components": [
+            "水",
+            "九",
+            "木"
+          ],
+          "positional_components_raw": [
+            "水",
+            "九",
+            "木"
+          ],
+          "named_args": {
+            "alt1": "氵",
+            "t1": "water",
+            "t2": "hook",
+            "t3": "tree",
+            "ls": "ic"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|alt1=氵|t1=water|九|t2=hook|木|t3=tree|ls=ic}}",
+            "positional_components": [
+              "水",
+              "九",
+              "木"
+            ],
+            "positional_components_raw": [
+              "水",
+              "九",
+              "木"
+            ],
+            "named_args": {
+              "alt1": "氵",
+              "t1": "water",
+              "t2": "hook",
+              "t3": "tree",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|水|杂|alt1=氵}}",
+            "positional_components": [
+              "水",
+              "杂"
+            ],
+            "positional_components_raw": [
+              "水",
+              "杂"
+            ],
+            "named_args": {
+              "alt1": "氵"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{nam₃}},",
+      "render_latex": "染\t%ran3 / rǎn\n{\\large{nam₃}},\n\\textit{ñiemH};\t%0623a\n\\textit{ñiemX};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "染",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_secondary_component",
+        "phonetic_hint": "染"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "染",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_nwh_forms": [
+          "ñiemH",
+          "ñiemX"
+        ],
+        "mand2mc_bs_forms": [
+          "nyemH",
+          "nyemX"
+        ],
+        "bs_gsr_forms": [
+          "nyemX"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [
+          "nyemH"
+        ],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4558",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemH",
+          "mc_bs": "nyemH",
+          "gsr": "0623a"
+        },
+        {
+          "source_row_number": "4559",
+          "character": "染",
+          "pinyin": "ran3",
+          "mc_nwh": "ñiemX",
+          "mc_bs": "nyemX",
+          "gsr": "0623a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "94",
+          "character": "染",
+          "pinyin": "rǎn",
+          "mc_bs": "nyemX",
+          "mc_analyzed": "(ny- + -jem B)",
+          "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+          "gloss": "to dye",
+          "gsr": "0623a",
+          "unicode_utf16": "U+67D3"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2874",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而琰",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "omʔ",
+          "oc_syllable": "nʲomʔ"
+        },
+        {
+          "source_row_number": "2876",
+          "character": "染",
+          "phonetic_component": "朶",
+          "component_level": "2",
+          "secondary_component": "染",
+          "fanqie": "而豔",
+          "source": "广韵",
+          "oc_initial": "nʲ",
+          "oc_rhyme": "oms",
+          "oc_syllable": "nʲoms"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "染",
+      "gsr": "0623a",
+      "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+      "root": "nam",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "nam",
+    "source": "head_graph_oc_bs",
+    "character": "染",
+    "oc_bs": "*C.namʔ {*C.n[a]mʔ}",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
+    ],
+    "display_root": "nam₃",
+    "base_root": "nam",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}
