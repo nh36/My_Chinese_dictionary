@@ -448,7 +448,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -747,9 +747,57 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|肉|率|alt1=⺼|t1=meat|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "肉",
+            "率"
+          ],
+          "positional_components_raw": [
+            "肉",
+            "率"
+          ],
+          "named_args": {
+            "alt1": "⺼",
+            "t1": "meat",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "率"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|肉|率|alt1=⺼|t1=meat|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "肉",
+              "率"
+            ],
+            "positional_components_raw": [
+              "肉",
+              "率"
+            ],
+            "named_args": {
+              "alt1": "⺼",
+              "t1": "meat",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "率"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -780,29 +828,42 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "luna",
+        "abbreviation": "carn",
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "月",
-            "label_token": "luna",
-            "abbreviation": "luna",
-            "start_line": 315
-          },
-          {
-            "graph_raw": "月",
-            "label_token": "carn",
+            "graph_raw": "肉",
+            "label_token": "carn(is)",
             "abbreviation": "carn",
-            "learned": true,
-            "evidence_count": 5
+            "start_line": 220
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "月"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{luna·}rut₄}},",
-      "render_latex": "膟\t%lü4\n{\\large{\\textsuperscript{luna·}rut₄}},\n\\textit{lwit};\t%0498h",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}rut₄}},",
+      "render_latex": "膟\t%lü4\n{\\large{\\textsuperscript{carn·}rut₄}},\n\\textit{lwit};\t%0498h",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "肉",
+        "phonetic_component": "率",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "膟",
+          "semantic_component": "肉",
+          "phonetic_component": "率",
+          "position": "prefix-dot",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 220
+            }
+          ],
+          "template_raw": "{{Han compound|肉|率|alt1=⺼|t1=meat|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "率",

@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6160
-- Pages fetched / cached successfully: 6062
-- Additions with explicit Han-compound semantic/phonetic roles: 2777
+- Proposed additions checked: 6168
+- Pages fetched / cached successfully: 6078
+- Additions with explicit Han-compound semantic/phonetic roles: 2782
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5263,7 +5263,7 @@
 | `31-10` | 軏 | yes | no |  |  |
 | `31-11` | 𠫓 | yes | no |  |  |
 | `31-12` | 突 | yes | no |  |  |
-| `31-14` | 對 | no | no |  |  |
+| `31-14` | 對 | yes | no |  |  |
 | `31-14` | 轛 | yes | no |  |  |
 | `31-14` | 懟 | yes | yes | 心 | 對 |
 | `31-15` | 退 | yes | no |  |  |
@@ -5290,7 +5290,7 @@
 | `31-17` | 怵 | yes | yes | 心 | 朮 |
 | `31-17` | 訹 | yes | yes | 言 | 朮 |
 | `31-18` | 聿 | yes | no |  |  |
-| `31-18` | 律 | no | no |  |  |
+| `31-18` | 律 | yes | yes | 彳 | 聿 |
 | `31-18` | 筆 | yes | yes | 竹 | 聿 |
 | `31-19` | 類 | yes | yes | 犬 | 頪 |
 | `31-19` | 纇 | yes | yes | 糸 | 頪 |
@@ -5311,12 +5311,12 @@
 | `31-20` | 睟 | yes | no |  |  |
 | `31-20` | 粹 | yes | yes | 米 | 卒 |
 | `31-20` | 誶 | yes | no |  |  |
-| `31-21` | 祟 | no | no |  |  |
+| `31-21` | 祟 | yes | yes | 示 | 出 |
 | `31-22` | 戌 | yes | no |  |  |
 | `31-23` | 率 | yes | no |  |  |
-| `31-23` | 䢦 | no | no |  |  |
+| `31-23` | 䢦 | yes | no |  |  |
 | `31-23` | 蟀 | yes | yes | 虫 | 率 |
-| `31-23` | 膟 | no | no |  |  |
+| `31-23` | 膟 | yes | yes | 肉 | 率 |
 | `31-24` | 帥 | yes | yes | 巾 | 𠂤 |
 | `32-01` | 臤 | yes | no |  |  |
 | `32-01` | 堅 | yes | yes | 土 | 臤 |
@@ -5326,10 +5326,10 @@
 | `32-01` | 腎 | yes | yes | 肉 | 臤 |
 | `32-01` | 臣 | yes | no |  |  |
 | `32-01` | 挋 | yes | no |  |  |
-| `32-02` | 繭 | no | no |  |  |
+| `32-02` | 繭 | yes | no |  |  |
 | `32-03` | 矜 | yes | yes | 矛 | 令 |
-| `32-04` | 犬 | no | no |  |  |
-| `32-04` | 畎 | no | no |  |  |
+| `32-04` | 犬 | yes | no |  |  |
+| `32-04` | 畎 | yes | no |  |  |
 | `32-05` | 玄 | yes | no |  |  |
 | `32-05` | 泫 | yes | no |  |  |
 | `32-05` | 眩 | yes | yes | 目 | 玄 |
@@ -5382,6 +5382,13 @@
 | `32-10` | 闉 | yes | no |  |  |
 | `32-10` | 禋 | yes | no |  |  |
 | `32-10` | 煙 | yes | yes | 火 | 垔 |
+| `32-11` | 覦 | yes | yes | 見 | 俞 |
+| `32-12` | 淵 | yes | no |  |  |
+| `32-12` | 婣 | yes | no |  |  |
+| `32-13` | 嚚 | yes | no |  |  |
+| `32-14` | 憖 | yes | no |  |  |
+| `32-15` | 天 | yes | yes | 大 | 丁 |
+| `32-15` | 吞 | yes | no |  |  |
 | `32-16` | 真 | yes | yes | 貝 | 𠂈 |
 | `32-16` | 稹 | yes | no |  |  |
 | `32-16` | 縝 | yes | yes | 糸 | 真 |
@@ -5405,6 +5412,7 @@
 | `32-16` | 填 | yes | yes | 土 | 真 |
 | `32-16` | 嵮 | yes | no |  |  |
 | `32-16` | 寘 | yes | no |  |  |
+| `32-17` | 眘 | yes | no |  |  |
 | `32-22` | 申 | yes | no |  |  |
 | `32-22` | 伸 | yes | yes | 人 | 申 |
 | `32-22` | 呻 | yes | no |  |  |

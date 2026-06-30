@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 1002
-- Packets with at least one root candidate: 1000
-- Packets with a single resolved provisional root: 998
+- Missing-series packets inspected: 1008
+- Packets with at least one root candidate: 1006
+- Packets with a single resolved provisional root: 1004
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
+| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -944,7 +944,13 @@
 | `32-08` | 旬→quin [*s-ɢʷin {*s-[ɢ]ʷi[n]}] (0392a) | `quin` | `head_graph_oc_bs` |
 | `32-09` | 因→ʔin [*ʔin {*ʔi[n]}] (0370a) | `ʔin` | `head_graph_oc_bs` |
 | `32-10` | 垔→qin [*qin {*[q]i[n]}] (0483a) | `qin` | `head_graph_oc_bs` |
+| `32-11` | 覦→lo [*ɡ‧lo] (None) | `lo` | `head_graph_oc_shengfu` |
+| `32-12` | 淵→ʔin [*ʔʷˤin {*[ʔ]ʷˤi[n]}] (0367a) | `ʔin` | `head_graph_oc_bs` |
+| `32-13` | 嚚→ṅiṅ [*ŋɡʳiŋ] (None); 嚚→kin [*gin {*[g]i[n]}] (None) | `kin` | `head_graph_mc_coda` |
+| `32-14` | 憖→ṅyṅ [*ŋɡʳɯŋs] (None) | `ṅyṅ` | `head_graph_oc_shengfu` |
+| `32-15` | 天→lin [*l̥ˤin {*l̥ˤi[n]}] (0361a) | `lin` | `head_graph_oc_bs` |
 | `32-16` | 真→tin [*tin {*ti[n]}] (0375a) | `tin` | `head_graph_oc_bs` |
+| `32-17` | 眘→tin [*tin {*ti[n]}] (None) | `tin` | `same_character_series_root` |
 | `32-22` | 申→lin [*l̥in {*l̥i[n]}] (0385a) | `lin` | `head_graph_oc_bs` |
 | `32-26` | 粦→ryn [*rən {*[r]ə[n]}] (0387a) | `ryn` | `head_graph_oc_bs` |
 | `32-31` | 秦→tsin [*dzin {*[dz]i[n]}] (0380a) | `tsin` | `head_graph_oc_bs` |

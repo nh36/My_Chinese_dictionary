@@ -711,9 +711,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|彳|聿|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "彳",
+            "聿"
+          ],
+          "positional_components_raw": [
+            "彳",
+            "聿"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "彳"
+          ],
+          "phonetic_components": [
+            "聿"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|彳|聿|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "彳",
+              "聿"
+            ],
+            "positional_components_raw": [
+              "彳",
+              "聿"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "彳"
+            ],
+            "phonetic_components": [
+              "聿"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -749,12 +793,33 @@
             "evidence_count": 2
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "彳"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{eo·}rut₂}},",
       "render_latex": "律\t%lü4 / lǜ\n{\\large{\\textsuperscript{eo·}rut₂}},\n\\textit{lwit};\t%0502c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "彳",
+        "phonetic_component": "聿",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "律",
+          "semantic_component": "彳",
+          "phonetic_component": "聿",
+          "position": "prefix-dot",
+          "abbreviation": "eo",
+          "inventory_matches": [
+            {
+              "graph_raw": "彳",
+              "label_token": "eo",
+              "abbreviation": "eo",
+              "learned": true,
+              "evidence_count": 2
+            }
+          ],
+          "template_raw": "{{Han compound|彳|聿|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "聿",

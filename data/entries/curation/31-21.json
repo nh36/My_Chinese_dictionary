@@ -230,23 +230,131 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|出|示|c1=p|c2=s|t2=altar|ls=psc|nocap=y}}",
+          "positional_components": [
+            "出",
+            "示"
+          ],
+          "positional_components_raw": [
+            "出",
+            "示"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "altar",
+            "ls": "psc",
+            "nocap": "y"
+          },
+          "semantic_components": [
+            "示"
+          ],
+          "phonetic_components": [
+            "出"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=ic|木|示|t1=wood|t2=altar|nocap=y}}",
+            "positional_components": [
+              "木",
+              "示"
+            ],
+            "positional_components_raw": [
+              "木",
+              "示"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "wood",
+              "t2": "altar",
+              "nocap": "y"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|出|示|c1=p|c2=s|t2=altar|ls=psc|nocap=y}}",
+            "positional_components": [
+              "出",
+              "示"
+            ],
+            "positional_components_raw": [
+              "出",
+              "示"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "altar",
+              "ls": "psc",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "示"
+            ],
+            "phonetic_components": [
+              "出"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
+        "abbreviation": "spirit",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "示",
+            "label_token": "spirit(us)",
+            "abbreviation": "spirit",
+            "start_line": 398
+          },
+          {
+            "graph_raw": "示",
+            "label_token": "spirit",
+            "abbreviation": "spirit",
+            "learned": true,
+            "evidence_count": 4
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "示"
       },
-      "transliteration_latex": "{\\large{lut₃}},",
-      "render_latex": "祟\t%sui4 / suì\n{\\large{lut₃}},\n\\textit{swiyH};\t%0528a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{lut₃\\textsuperscript{˸spirit}}},",
+      "render_latex": "祟\t%sui4 / suì\n{\\large{lut₃\\textsuperscript{˸spirit}}},\n\\textit{swiyH};\t%0528a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "示",
+        "phonetic_component": "出",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "祟",
+          "semantic_component": "示",
+          "phonetic_component": "出",
+          "position": "suffix-colon",
+          "abbreviation": "spirit",
+          "inventory_matches": [
+            {
+              "graph_raw": "示",
+              "label_token": "spirit(us)",
+              "abbreviation": "spirit",
+              "start_line": 398
+            },
+            {
+              "graph_raw": "示",
+              "label_token": "spirit",
+              "abbreviation": "spirit",
+              "learned": true,
+              "evidence_count": 4
+            }
+          ],
+          "template_raw": "{{Han compound|出|示|c1=p|c2=s|t2=altar|ls=psc|nocap=y}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "祟",
