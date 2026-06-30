@@ -154,22 +154,111 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|衣|公|alt2=㕣|c1=s|c2=p|t1=clothes|ls=psc}}",
+          "positional_components": [
+            "衣",
+            "公"
+          ],
+          "positional_components_raw": [
+            "衣",
+            "公"
+          ],
+          "named_args": {
+            "alt2": "㕣",
+            "c1": "s",
+            "c2": "p",
+            "t1": "clothes",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "衣"
+          ],
+          "phonetic_components": [
+            "公"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|衣|公|alt2=㕣|c1=s|c2=p|t1=clothes|ls=psc}}",
+            "positional_components": [
+              "衣",
+              "公"
+            ],
+            "positional_components_raw": [
+              "衣",
+              "公"
+            ],
+            "named_args": {
+              "alt2": "㕣",
+              "c1": "s",
+              "c2": "p",
+              "t1": "clothes",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "衣"
+            ],
+            "phonetic_components": [
+              "公"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kun₄}},",
-      "render_latex": "袞\t%gun3\n{\\large{kun₄}},\n\\textit{kwənX};\t%0418b",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{vest˸}kun₄}},",
+      "render_latex": "袞\t%gun3\n{\\large{\\textsuperscript{vest˸}kun₄}},\n\\textit{kwənX};\t%0418b",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "衣",
+        "phonetic_component": "㕣",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "袞",
+          "semantic_component": "衣",
+          "phonetic_component": "㕣",
+          "position": "prefix-colon",
+          "abbreviation": "vest",
+          "inventory_matches": [
+            {
+              "graph_raw": "衣",
+              "label_token": "vest(imentum)",
+              "abbreviation": "vest",
+              "start_line": 434
+            },
+            {
+              "graph_raw": "衣",
+              "label_token": "vest",
+              "abbreviation": "vest",
+              "learned": true,
+              "evidence_count": 7
+            }
+          ],
+          "template_raw": "{{Han compound|衣|公|alt2=㕣|c1=s|c2=p|t1=clothes|ls=psc}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "vest",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "衣",
+            "label_token": "vest(imentum)",
+            "abbreviation": "vest",
+            "start_line": 434
+          },
+          {
+            "graph_raw": "衣",
+            "label_token": "vest",
+            "abbreviation": "vest",
+            "learned": true,
+            "evidence_count": 7
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "衣"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
