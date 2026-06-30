@@ -710,22 +710,95 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|尾|牛|c1=p|c2=s|t2=ox|ls=psc}}",
+          "positional_components": [
+            "尾",
+            "牛"
+          ],
+          "positional_components_raw": [
+            "尾",
+            "牛"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "ox",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "牛"
+          ],
+          "phonetic_components": [
+            "尾"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|尾|牛|c1=p|c2=s|t2=ox|ls=psc}}",
+            "positional_components": [
+              "尾",
+              "牛"
+            ],
+            "positional_components_raw": [
+              "尾",
+              "牛"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "ox",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "牛"
+            ],
+            "phonetic_components": [
+              "尾"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{ly₁₁}},",
-      "render_latex": "犀\t%xi1 / xī\n{\\large{ly₁₁}},\n\\textit{sey};\t%0596a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{ly₁₁\\textsuperscript{·bos}}},",
+      "render_latex": "犀\t%xi1 / xī\n{\\large{ly₁₁\\textsuperscript{·bos}}},\n\\textit{sey};\t%0596a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "牛",
+        "phonetic_component": "尾",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "犀",
+          "semantic_component": "牛",
+          "phonetic_component": "尾",
+          "position": "suffix-dot",
+          "abbreviation": "bos",
+          "inventory_matches": [
+            {
+              "graph_raw": "牛",
+              "label_token": "bos",
+              "abbreviation": "bos",
+              "start_line": 212
+            }
+          ],
+          "template_raw": "{{Han compound|尾|牛|c1=p|c2=s|t2=ox|ls=psc}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "bos",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "牛",
+            "label_token": "bos",
+            "abbreviation": "bos",
+            "start_line": 212
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "牛"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
@@ -1704,9 +1777,10 @@
       "oc_bs": "*s-lˤəj",
       "root": "ly",
       "source": "head_graph_oc_bs",
-      "support_count": 2,
+      "support_count": 5,
       "supporting_sources": [
-        "head_graph_oc_bs"
+        "head_graph_oc_bs",
+        "phonetic_component_series_root"
       ]
     }
   ],
@@ -1716,9 +1790,10 @@
     "character": "屖",
     "oc_bs": "*s-lˤəj",
     "confidence": "provisional-oc",
-    "support_count": 2,
+    "support_count": 5,
     "supporting_sources": [
-      "head_graph_oc_bs"
+      "head_graph_oc_bs",
+      "phonetic_component_series_root"
     ],
     "display_root": "ly₁₁",
     "division_class": "mixed",

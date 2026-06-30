@@ -563,7 +563,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -1126,9 +1126,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|䀠|癸|c1=s|c2=p|t1=two eyes|ls=psc}}",
+          "positional_components": [
+            "䀠",
+            "癸"
+          ],
+          "positional_components_raw": [
+            "䀠",
+            "癸"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "t1": "two eyes",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "䀠"
+          ],
+          "phonetic_components": [
+            "癸"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|䀠|癸|c1=s|c2=p|t1=two eyes|ls=psc}}",
+            "positional_components": [
+              "䀠",
+              "癸"
+            ],
+            "positional_components_raw": [
+              "䀠",
+              "癸"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "t1": "two eyes",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "䀠"
+            ],
+            "phonetic_components": [
+              "癸"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -1159,29 +1205,28 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "ocul",
+        "abbreviation": "䀠",
         "position": "prefix-dot",
-        "inventory_matches": [
-          {
-            "graph_raw": "目",
-            "label_token": "ocul(us)",
-            "abbreviation": "ocul",
-            "start_line": 341
-          },
-          {
-            "graph_raw": "目",
-            "label_token": "ocul",
-            "abbreviation": "ocul",
-            "learned": true,
-            "evidence_count": 3
-          }
-        ],
-        "source": "ids_top_level",
-        "semantic_component": "目"
+        "inventory_matches": [],
+        "source": "wiktionary_component_literal_fallback",
+        "semantic_component": "䀠"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}kuiy}},",
-      "render_latex": "睽\t%kui2\n{\\large{\\textsuperscript{ocul·}kuiy}},\n\\textit{khwey};\t%0605i",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{䀠·}kuiy}},",
+      "render_latex": "睽\t%kui2\n{\\large{\\textsuperscript{䀠·}kuiy}},\n\\textit{khwey};\t%0605i",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "䀠",
+        "phonetic_component": "癸",
+        "resolved_assignment": {
+          "source": "wiktionary_component_literal_fallback",
+          "character": "睽",
+          "semantic_component": "䀠",
+          "phonetic_component": "癸",
+          "position": "prefix-dot",
+          "abbreviation": "䀠",
+          "inventory_matches": [],
+          "template_raw": "{{Han compound|䀠|癸|c1=s|c2=p|t1=two eyes|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "癸",

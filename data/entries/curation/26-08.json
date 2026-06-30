@@ -230,7 +230,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -575,9 +575,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|肉|alt1=⺼|几|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "肉",
+            "几"
+          ],
+          "positional_components_raw": [
+            "肉",
+            "几"
+          ],
+          "named_args": {
+            "alt1": "⺼",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "几"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|肉|alt1=⺼|几|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "肉",
+              "几"
+            ],
+            "positional_components_raw": [
+              "肉",
+              "几"
+            ],
+            "named_args": {
+              "alt1": "⺼",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "几"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -608,29 +654,42 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "luna",
+        "abbreviation": "carn",
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "月",
-            "label_token": "luna",
-            "abbreviation": "luna",
-            "start_line": 315
-          },
-          {
-            "graph_raw": "月",
-            "label_token": "carn",
+            "graph_raw": "肉",
+            "label_token": "carn(is)",
             "abbreviation": "carn",
-            "learned": true,
-            "evidence_count": 5
+            "start_line": 220
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "月"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{luna·}ky₈}},",
-      "render_latex": "肌\t%ji1 / jī\n{\\large{\\textsuperscript{luna·}ky₈}},\n\\textit{kiy};\t%0602d",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}ky₈}},",
+      "render_latex": "肌\t%ji1 / jī\n{\\large{\\textsuperscript{carn·}ky₈}},\n\\textit{kiy};\t%0602d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "肉",
+        "phonetic_component": "几",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "肌",
+          "semantic_component": "肉",
+          "phonetic_component": "几",
+          "position": "prefix-dot",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 220
+            }
+          ],
+          "template_raw": "{{Han compound|肉|alt1=⺼|几|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "几",
@@ -789,9 +848,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|食|几|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "食",
+            "几"
+          ],
+          "positional_components_raw": [
+            "食",
+            "几"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "食"
+          ],
+          "phonetic_components": [
+            "几"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|食|几|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "食",
+              "几"
+            ],
+            "positional_components_raw": [
+              "食",
+              "几"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "食"
+            ],
+            "phonetic_components": [
+              "几"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -839,12 +942,39 @@
             "evidence_count": 6
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "食"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{ed·}ky₈}},",
       "render_latex": "飢\t%ji1 / jī\n{\\large{\\textsuperscript{ed·}ky₈}},\n\\textit{kiy};\t%0602f",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "食",
+        "phonetic_component": "几",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "飢",
+          "semantic_component": "食",
+          "phonetic_component": "几",
+          "position": "prefix-dot",
+          "abbreviation": "ed",
+          "inventory_matches": [
+            {
+              "graph_raw": "食",
+              "label_token": "ed(o)",
+              "abbreviation": "ed",
+              "start_line": 265
+            },
+            {
+              "graph_raw": "食",
+              "label_token": "ed",
+              "abbreviation": "ed",
+              "learned": true,
+              "evidence_count": 6
+            }
+          ],
+          "template_raw": "{{Han compound|食|几|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "几",
