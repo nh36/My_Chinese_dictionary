@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6051
-- Pages fetched / cached successfully: 5961
-- Additions with explicit Han-compound semantic/phonetic roles: 2738
+- Proposed additions checked: 6060
+- Pages fetched / cached successfully: 5970
+- Additions with explicit Han-compound semantic/phonetic roles: 2742
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5066,6 +5066,10 @@
 | `29-35` | 蝨 | yes | yes | 䖵 | 卂 |
 | `29-36` | 瑟 | yes | yes | 珡 | 必 |
 | `29-37` | 閉 | yes | no |  |  |
+| `29-38` | 匹 | yes | yes | 石 | 乙 |
+| `29-39` | 畀 | yes | yes | 丌 | 甶 |
+| `29-39` | 鼻 | yes | yes | 自 | 畀 |
+| `29-39` | 淠 | yes | no |  |  |
 | `29-41` | 必 | yes | no |  |  |
 | `29-41` | 珌 | yes | no |  |  |
 | `29-41` | 怭 | yes | no |  |  |
@@ -5093,6 +5097,9 @@
 | `29-42` | 縪 | yes | no |  |  |
 | `29-42` | 蹕 | yes | no |  |  |
 | `29-42` | 韠 | yes | no |  |  |
+| `29-43` | 觱 | yes | yes | 角 | 𢨋 |
+| `29-44` | 弜 | yes | no |  |  |
+| `29-44` | 弼 | yes | no |  |  |
 | `30-01` | 气 | yes | no |  |  |
 | `30-01` | 氣 | yes | yes | 米 | 气 |
 | `30-01` | 愾 | yes | no |  |  |
@@ -5118,6 +5125,8 @@
 | `30-02` | 嘅 | yes | no |  |  |
 | `30-02` | 慨 | yes | yes | 心 | 既 |
 | `30-02` | 暨 | yes | yes | 旦 | 既 |
+| `30-03` | 器 | yes | no |  |  |
+| `30-04` | 洎 | yes | no |  |  |
 | `30-11` | 隶 | yes | no |  |  |
 | `30-11` | 逮 | yes | yes | 辵 | 隶 |
 | `30-11` | 曃 | yes | no |  |  |

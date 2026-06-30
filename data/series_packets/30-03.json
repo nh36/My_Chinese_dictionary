@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-06-30T11:10:28.673888+00:00",
+  "gsc_id": "30-03",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "536"
+  ],
+  "schuessler": {
+    "gsc_id": "30-03",
+    "rhyme_section": 30,
+    "series_number": 3,
+    "k_tokens": [
+      "536"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.         MC               LHan        OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 331,
+    "source_line_number": 20,
+    "source_line_raw": "30-3 =K. 536          Man d.         MC               LHan        OCM"
+  },
+  "coverage": {
+    "gsc_id": "30-03",
+    "rhyme_section": "30",
+    "series_number": "3",
+    "schuessler_k_tokens": "536",
+    "schuessler_source_page": "331",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "器",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "器",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "器"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "器",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3851",
+          "character": "器",
+          "pinyin": "qi4",
+          "mc_nwh": "khiyH",
+          "mc_bs": "khijH",
+          "gsr": "0536a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "81",
+          "character": "器",
+          "pinyin": "qì",
+          "mc_bs": "khijH",
+          "mc_analyzed": "(kh- + -ij C)",
+          "oc_bs": "*kʰrət-s {*[kʰ]r[ə][t]-s}",
+          "gloss": "vessel; instrument",
+          "gsr": "0536a",
+          "unicode_utf16": "U+5668"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "10757",
+          "character": "器",
+          "phonetic_component": "器",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "去冀",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "ɯds",
+          "oc_syllable": "kʰʳɯds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "10757",
+          "character": "器",
+          "phonetic_component": "器",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "去冀",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "ɯds",
+          "oc_syllable": "kʰʳɯds"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khiyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "khiyH"
+        ],
+        "mand2mc_bs_forms": [
+          "khijH"
+        ],
+        "bs_gsr_forms": [
+          "khijH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "3851",
+        "character": "器",
+        "pinyin": "qi4",
+        "mc_nwh": "khiyH",
+        "mc_bs": "khijH",
+        "gsr": "0536a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "81",
+        "character": "器",
+        "pinyin": "qì",
+        "mc_bs": "khijH",
+        "mc_analyzed": "(kh- + -ij C)",
+        "oc_bs": "*kʰrət-s {*[kʰ]r[ə][t]-s}",
+        "gloss": "vessel; instrument",
+        "gsr": "0536a",
+        "unicode_utf16": "U+5668"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
