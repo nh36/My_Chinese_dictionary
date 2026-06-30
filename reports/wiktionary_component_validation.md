@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5648
-- Pages fetched / cached successfully: 5562
-- Additions with explicit Han-compound semantic/phonetic roles: 2582
+- Proposed additions checked: 5667
+- Pages fetched / cached successfully: 5581
+- Additions with explicit Han-compound semantic/phonetic roles: 2592
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3832,6 +3832,14 @@
 | `23-21` | 癬 | yes | yes | 病 | 鮮 |
 | `23-22` | 鱻 | yes | no |  |  |
 | `23-23` | 尟 | yes | no |  |  |
+| `23-24` | 片 | yes | no |  |  |
+| `23-25` | 便 | yes | no |  |  |
+| `23-25` | 楩 | yes | no |  |  |
+| `23-25` | 鞭 | yes | yes | 革 | 便 |
+| `23-26` | 臱 | yes | yes | 自 | 丙 |
+| `23-26` | 櫋 | yes | no |  |  |
+| `23-26` | 邊 | yes | yes | 辵 | 臱 |
+| `23-26` | 籩 | yes | yes | 竹 | 邊 |
 | `23-27` | 扁 | yes | no |  |  |
 | `23-27` | 徧 | yes | no |  |  |
 | `23-27` | 遍 | yes | yes | 辵 | 扁 |
@@ -3845,6 +3853,17 @@
 | `23-27` | 翩 | yes | no |  |  |
 | `23-27` | 萹 | yes | yes | 艸 | 扁 |
 | `23-27` | 諞 | yes | yes | 言 | 扁 |
+| `23-28` | 辡 | yes | no |  |  |
+| `23-28` | 辨 | yes | yes | 刀 | 辡 |
+| `23-28` | 辧 | yes | yes | 刀 | 辡 |
+| `23-28` | 辯 | yes | yes | 言 | 辡 |
+| `23-28` | 辦 | yes | yes | 力 | 辡 |
+| `23-29` | 綿 | yes | no |  |  |
+| `23-29` | 緜 | yes | no |  |  |
+| `23-31` | 面 | yes | no |  |  |
+| `23-31` | 偭 | yes | no |  |  |
+| `23-31` | 湎 | yes | yes | 水 | 面 |
+| `23-31` | 緬 | yes | yes | 糸 | 面 |
 | `24-01` | 干 | yes | no |  |  |
 | `24-01` | 馯 | yes | no |  |  |
 | `24-01` | 奸 | yes | yes | 女 | 干 |

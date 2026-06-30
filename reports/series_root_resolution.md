@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 804
-- Packets with at least one root candidate: 802
-- Packets with a single resolved provisional root: 800
+- Missing-series packets inspected: 810
+- Packets with at least one root candidate: 808
+- Packets with a single resolved provisional root: 806
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -662,7 +662,13 @@
 | `23-21` | 鮮→ser [*ser {*[s][e]r}] (0209a) | `ser` | `head_graph_oc_bs` |
 | `23-22` | 鱻→len [*l̥ʲen] (None) | `len` | `head_graph_oc_shengfu` |
 | `23-23` | 尟→sen [*sˡenʔ] (None) | `sen` | `head_graph_oc_shengfu` |
+| `23-24` | 片→pen [*pʰˤen-s {*pʰˤe[n]-s}] (0218a) | `pen` | `head_graph_oc_bs` |
+| `23-25` | 便→pen [*ben {*[b]e[n]}] (0221a) | `pen` | `head_graph_oc_bs` |
+| `23-26` | 臱→men [*mben] (None) | `men` | `head_graph_oc_shengfu` |
 | `23-27` | 扁→pen [*pˤenʔ {*pˤe[n]ʔ}] (0246a) | `pen` | `head_graph_oc_bs` |
+| `23-28` | 辡→pen [*bʳenʔ] (None) | `pen` | `head_graph_oc_shengfu` |
+| `23-29` | 綿→men [*men] (None) | `men` | `same_character_series_root` |
+| `23-31` | 面→men [*C.men-s {*C.me[n]-s}] (0223a) | `men` | `head_graph_oc_bs` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
