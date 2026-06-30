@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1274
-- Roots whose display label changed after document-wide renumbering: 753
+- Mutable series/subseries roots inspected: 1282
+- Roots whose display label changed after document-wide renumbering: 757
 - Duplicate phonetic bases encountered in document order: 314
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -1312,11 +1312,11 @@
 | `23-29` | `subseries-root` | 緜 | `men` | 4 | `men₄` | yes |
 | `23-31` | `series-root` | 面 | `men` | 5 | `men₅` | yes |
 | `23-32` | `series-root` | 丏 | `men` | 6 | `men₆` | yes |
-| `24-03` | `series-root` | 𩱡 | `qan` | 1 | `qan` | yes |
-| `24-07` | `series-root` | 虔 | `kan` | 4 | `kan₄` | yes |
-| `24-09` | `series-root` | 姦 | `kan` | 5 | `kan₅` | yes |
+| `24-03` | `series-root` | 侃 | `kan` | 4 | `kan₄` | yes |
+| `24-07` | `series-root` | 虔 | `kan` | 5 | `kan₅` | yes |
+| `24-09` | `series-root` | 姦 | `kan` | 6 | `kan₆` | yes |
 | `24-10` | `series-root` | 暵 | `qar` | 1 | `qar` | yes |
-| `24-13` | `series-root` | 㫃 | `qan` | 2 | `qan₂` | yes |
+| `24-13` | `series-root` | 㫃 | `qan` | 1 | `qan` | yes |
 | `24-14` | `series-root` | 焉 | `ʔ\textoverset{b}{a}n` | 1 | `ʔ\textoverset{b}{a}n` | yes |
 | `24-15` | `series-root` | 厂 | `ṅ\textoverset{a}{a}r` | 1 | `ṅ\textoverset{a}{a}r` | yes |
 | `24-16` | `series-root` | 言 | `ṅ\textoverset{b}{a}n` | 1 | `ṅ\textoverset{b}{a}n` | yes |
@@ -1329,7 +1329,7 @@
 | `24-27` | `series-root` | 蕆 | `tan` | 4 | `tan₄` | yes |
 | `24-28` | `series-root` | 廛 | `t\textoverset{b}{a}n` | 1 | `t\textoverset{b}{a}n` | yes |
 | `24-29` | `series-root` | 衍 | `q\textoverset{b}{a}n` | 2 | `q\textoverset{b}{a}n₂` | yes |
-| `24-31` | `series-root` | 羨 | `qar` | 2 | `qar₂` | yes |
+| `24-31` | `series-root` | 羨 | `qan` | 2 | `qan₂` | yes |
 | `24-32` | `series-root` | 僆 | `ran` | 1 | `ran` | yes |
 | `24-33` | `series-root` | 聯 | `ron` | 2 | `ron₂` | yes |
 | `24-34` | `series-root` | 輦 | `ran` | 2 | `ran₂` | yes |
@@ -1391,3 +1391,11 @@
 | `26-04` | `series-root` | 启 | `kiy` | 8 | `kiy₈` | yes |
 | `26-04` | `subseries-root` | 啟 | `kiy` | 9 | `kiy₉` | yes |
 | `26-07` | `series-root` | 示 | `kiy` | 10 | `kiy₁₀` | yes |
+| `26-08` | `series-root` | 几 | `ky` | 8 | `ky₈` | yes |
+| `26-10` | `series-root` | 癸 | `kuiy` | 1 | `kuiy` | yes |
+| `26-11` | `series-root` | 醯 | `qe` | 1 | `qe` | yes |
+| `26-12` | `series-root` | 医 | `qi` | 1 | `qi` | yes |
+| `26-12` | `subseries-root` | 殹 | `qi` | 2 | `qi₂` | yes |
+| `26-13` | `series-root` | 伊 | `ʔiy` | 1 | `ʔiy` | yes |
+| `26-16` | `series-root` | 屖 | `ly` | 11 | `ly₁₁` | yes |
+| `26-16` | `subseries-root` | 犀 | `ly` | 12 | `ly₁₂` | yes |

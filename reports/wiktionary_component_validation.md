@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5855
-- Pages fetched / cached successfully: 5768
-- Additions with explicit Han-compound semantic/phonetic roles: 2667
+- Proposed additions checked: 5883
+- Pages fetched / cached successfully: 5784
+- Additions with explicit Han-compound semantic/phonetic roles: 2675
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4503,6 +4503,11 @@
 | `26-07` | 示 | yes | no |  |  |
 | `26-07` | 視 | yes | yes | 見 | 示 |
 | `26-07` | 祁 | yes | yes | 邑 | 示 |
+| `26-08` | 几 | no | no |  |  |
+| `26-08` | 机 | yes | yes | 木 | 几 |
+| `26-08` | 肌 | no | no |  |  |
+| `26-08` | 𩨒 | no | no |  |  |
+| `26-08` | 飢 | no | no |  |  |
 | `26-09` | 皆 | yes | yes | 虍, 口 | 几 |
 | `26-09` | 偕 | yes | yes | 人 | 皆 |
 | `26-09` | 喈 | yes | no |  |  |
@@ -4511,6 +4516,21 @@
 | `26-09` | 湝 | yes | no |  |  |
 | `26-09` | 諧 | yes | yes | 言 | 皆 |
 | `26-09` | 揩 | yes | no |  |  |
+| `26-10` | 癸 | yes | no |  |  |
+| `26-10` | 揆 | no | no |  |  |
+| `26-10` | 戣 | yes | no |  |  |
+| `26-10` | 葵 | yes | yes | 艸 | 癸 |
+| `26-10` | 騤 | yes | no |  |  |
+| `26-10` | 睽 | no | no |  |  |
+| `26-10` | 闋 | yes | no |  |  |
+| `26-11` | 醯 | yes | no |  |  |
+| `26-12` | 医 | no | no |  |  |
+| `26-12` | 殹 | yes | no |  |  |
+| `26-12` | 繄 | no | no |  |  |
+| `26-12` | 翳 | yes | yes | 羽 | 殹 |
+| `26-12` | 鷖 | no | no |  |  |
+| `26-13` | 伊 | yes | yes | 人 | 尹 |
+| `26-13` | 咿 | yes | yes | 口 | 伊 |
 | `26-14` | 氐 | yes | no |  |  |
 | `26-14` | 底 | yes | yes | 广 | 氐 |
 | `26-14` | 柢 | yes | no |  |  |
@@ -4541,6 +4561,14 @@
 | `26-15` | 梯 | yes | yes | 木 | 弟 |
 | `26-15` | 涕 | yes | yes | 水 | 弟 |
 | `26-15` | 豒 | yes | no |  |  |
+| `26-16` | 屖 | no | no |  |  |
+| `26-16` | 遟 | no | no |  |  |
+| `26-16` | 稺 | yes | yes | 禾 | 屖 |
+| `26-16` | 𦃘 | yes | yes | 糸 | 屖 |
+| `26-16` | 犀 | no | no |  |  |
+| `26-16` | 墀 | yes | no |  |  |
+| `26-16` | 遲 | yes | yes | 辵 | 犀 |
+| `26-16` | 穉 | yes | no |  |  |
 | `26-17` | 夷 | yes | no |  |  |
 | `26-17` | 侇 | yes | no |  |  |
 | `26-17` | 姨 | yes | yes | 女 | 夷 |

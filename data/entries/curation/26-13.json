@@ -1,0 +1,609 @@
+{
+  "generated_at": "2026-06-30T10:09:40.219832+00:00",
+  "id": "26-13",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "26-13",
+    "rhyme_section": 26,
+    "series_number": 13,
+    "k_tokens": [
+      "604"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand. MC                  LHan          OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 303,
+    "source_line_number": 14,
+    "source_line_raw": "26-13 = K. 604          Mand. MC                  LHan          OCM"
+  },
+  "coverage": {
+    "gsc_id": "26-13",
+    "rhyme_section": "26",
+    "series_number": "13",
+    "schuessler_k_tokens": "604",
+    "schuessler_source_page": "303",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "伊; 咿",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "2",
+    "bs_gsr_characters_sample": "伊; 咿",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "伊; 咿"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "604"
+  ],
+  "proposed_additions": [
+    {
+      "character": "伊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiy"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiy"
+        ],
+        "mand2mc_bs_forms": [
+          "'jij"
+        ],
+        "bs_gsr_forms": [
+          "'jij"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4355",
+          "character": "伊",
+          "pinyin": "yi1",
+          "mc_nwh": "qyiy",
+          "mc_bs": "'jij",
+          "gsr": "0604a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "91",
+          "character": "伊",
+          "pinyin": "yī",
+          "mc_bs": "'jij",
+          "mc_analyzed": "('- + -jij A)",
+          "oc_bs": "*ʔij",
+          "gloss": "this",
+          "gsr": "0604a",
+          "unicode_utf16": "U+4F0A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "15842",
+          "character": "伊",
+          "phonetic_component": "尸",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於脂",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ul",
+          "oc_syllable": "qul"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|人|alt1=亻|尹|ls=psc|c1=s|t1=person|c2=p}}",
+          "positional_components": [
+            "人",
+            "尹"
+          ],
+          "positional_components_raw": [
+            "人",
+            "尹"
+          ],
+          "named_args": {
+            "alt1": "亻",
+            "ls": "psc",
+            "c1": "s",
+            "t1": "person",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "人"
+          ],
+          "phonetic_components": [
+            "尹"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|人|alt1=亻|尹|ls=psc|c1=s|t1=person|c2=p}}",
+            "positional_components": [
+              "人",
+              "尹"
+            ],
+            "positional_components_raw": [
+              "人",
+              "尹"
+            ],
+            "named_args": {
+              "alt1": "亻",
+              "ls": "psc",
+              "c1": "s",
+              "t1": "person",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "人"
+            ],
+            "phonetic_components": [
+              "尹"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}ʔiy}},",
+      "render_latex": "伊\t%yi1 / yī\n{\\large{\\textsuperscript{hom·}ʔiy}},\n\\textit{qyiy};\t%0604a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "人",
+        "phonetic_component": "尹",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "伊",
+          "semantic_component": "人",
+          "phonetic_component": "尹",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|人|alt1=亻|尹|ls=psc|c1=s|t1=person|c2=p}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 298
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "人"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "qiy",
+        "source": "node_bs_consensus",
+        "descendant_count": 1,
+        "bs_support_count": 2,
+        "bs_broad_roots": [
+          "ʔiy"
+        ],
+        "bs_node_roots": [
+          "qiy"
+        ],
+        "display_root": "qiy",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "qyiy"
+        ],
+        "form_analyses": [
+          {
+            "form": "qyiy",
+            "normalized": "qyiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "咿",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiy"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiy"
+        ],
+        "mand2mc_bs_forms": [
+          "'jij"
+        ],
+        "bs_gsr_forms": [
+          "'jij"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4356",
+          "character": "咿",
+          "pinyin": "yi1",
+          "mc_nwh": "qyiy",
+          "mc_bs": "'jij",
+          "gsr": "0604d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "91",
+          "character": "咿",
+          "pinyin": "yī",
+          "mc_bs": "'jij",
+          "mc_analyzed": "('- + -jij A)",
+          "oc_bs": "*ʔij",
+          "gloss": "forced laugh",
+          "gsr": "0604d",
+          "unicode_utf16": "U+54BF"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "15843",
+          "character": "咿",
+          "phonetic_component": "尸",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於脂",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ul",
+          "oc_syllable": "qul"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|伊|ls=psc|c1=s|c2=p|t1=mouth}}",
+          "positional_components": [
+            "口",
+            "伊"
+          ],
+          "positional_components_raw": [
+            "口",
+            "伊"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "mouth"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "伊"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|口|伊|ls=psc|c1=s|c2=p|t1=mouth}}",
+            "positional_components": [
+              "口",
+              "伊"
+            ],
+            "positional_components_raw": [
+              "口",
+              "伊"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "mouth"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "伊"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "or",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,) or(is)",
+            "abbreviation": "or",
+            "start_line": 344
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "口"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}ʔiy}},",
+      "render_latex": "咿\t%yi1 / yī\n{\\large{\\textsuperscript{or·}ʔiy}},\n\\textit{qyiy};\t%0604d",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "伊",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "咿",
+          "semantic_component": "口",
+          "phonetic_component": "伊",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 344
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|口|伊|ls=psc|c1=s|c2=p|t1=mouth}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "伊",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "伊"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "伊",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiy"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiy"
+        ],
+        "mand2mc_bs_forms": [
+          "'jij"
+        ],
+        "bs_gsr_forms": [
+          "'jij"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4355",
+          "character": "伊",
+          "pinyin": "yi1",
+          "mc_nwh": "qyiy",
+          "mc_bs": "'jij",
+          "gsr": "0604a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "91",
+          "character": "伊",
+          "pinyin": "yī",
+          "mc_bs": "'jij",
+          "mc_analyzed": "('- + -jij A)",
+          "oc_bs": "*ʔij",
+          "gloss": "this",
+          "gsr": "0604a",
+          "unicode_utf16": "U+4F0A"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "15842",
+          "character": "伊",
+          "phonetic_component": "尸",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於脂",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ul",
+          "oc_syllable": "qul"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "咿",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qyiy"
+        ],
+        "mand2mc_nwh_forms": [
+          "qyiy"
+        ],
+        "mand2mc_bs_forms": [
+          "'jij"
+        ],
+        "bs_gsr_forms": [
+          "'jij"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4356",
+          "character": "咿",
+          "pinyin": "yi1",
+          "mc_nwh": "qyiy",
+          "mc_bs": "'jij",
+          "gsr": "0604d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "91",
+          "character": "咿",
+          "pinyin": "yī",
+          "mc_bs": "'jij",
+          "mc_analyzed": "('- + -jij A)",
+          "oc_bs": "*ʔij",
+          "gloss": "forced laugh",
+          "gsr": "0604d",
+          "unicode_utf16": "U+54BF"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "15843",
+          "character": "咿",
+          "phonetic_component": "尸",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於脂",
+          "source": "广韵",
+          "oc_initial": "q",
+          "oc_rhyme": "ul",
+          "oc_syllable": "qul"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "伊",
+      "gsr": "0604a",
+      "oc_bs": "*ʔij",
+      "root": "ʔiy",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ʔiy",
+    "source": "head_graph_oc_bs",
+    "character": "伊",
+    "oc_bs": "*ʔij",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "ʔiy",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "qyiy"
+    ],
+    "form_analyses": [
+      {
+        "form": "qyiy",
+        "normalized": "qyiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "ʔiy",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}
