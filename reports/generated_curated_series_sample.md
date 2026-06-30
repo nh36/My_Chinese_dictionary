@@ -708,6 +708,12 @@
 | `24-21` | `missing_series` | no | 26 | 24 |
 | `24-22` | `missing_series` | no | 6 | 5 |
 | `24-23` | `missing_series` | no | 20 | 18 |
+| `24-24` | `missing_series` | no | 1 | 0 |
+| `24-25` | `missing_series` | no | 3 | 2 |
+| `24-26` | `missing_series` | no | 3 | 2 |
+| `24-27` | `missing_series` | no | 1 | 0 |
+| `24-28` | `missing_series` | no | 3 | 2 |
+| `24-29` | `missing_series` | no | 3 | 2 |
 | `24-30` | `missing_series` | no | 7 | 6 |
 | `24-35` | `missing_series` | no | 9 | 6 |
 | `24-39` | `missing_series` | no | 11 | 9 |

@@ -124,8 +124,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kan₄}},",
-      "render_latex": "侃\t%kan3\n{\\large{kan₄}},\n\\textit{khanH};\t%0141a\n\\textit{khanX};",
+      "transliteration_latex": "{\\large{qan}},",
+      "render_latex": "侃\t%kan3\n{\\large{qan}},\n\\textit{khanH};\t%0141a\n\\textit{khanX};",
       "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
@@ -137,7 +137,7 @@
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
-        "root": "kan",
+        "root": "qan",
         "source": "node_inherit_parent",
         "descendant_count": 2,
         "bs_support_count": 1,
@@ -147,7 +147,7 @@
         "bs_node_roots": [
           "qan"
         ],
-        "display_root": "kan",
+        "display_root": "qan",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -270,8 +270,8 @@
         "source": "packet_family_ids",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{kan₄\\textsuperscript{˸dic}}},",
-      "render_latex": "諐\t%qian1\n{\\large{kan₄\\textsuperscript{˸dic}}},\n\\textit{khien};\t%0141d\n\\textit{khienH};",
+      "transliteration_latex": "{\\large{qan\\textsuperscript{˸dic}}},",
+      "render_latex": "諐\t%qian1\n{\\large{qan\\textsuperscript{˸dic}}},\n\\textit{khien};\t%0141d\n\\textit{khienH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -372,8 +372,8 @@
         "source": "packet_family_ids",
         "semantic_component": "鬲"
       },
-      "transliteration_latex": "{\\large{kan₄\\textsuperscript{˸olla}}},",
-      "render_latex": "𩱡\t%jiān\n{\\large{kan₄\\textsuperscript{˸olla}}},\n\\textit{kjon};\t%141",
+      "transliteration_latex": "{\\large{qan\\textsuperscript{˸olla}}},",
+      "render_latex": "𩱡\t%jiān\n{\\large{qan\\textsuperscript{˸olla}}},\n\\textit{kjon};\t%141",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -592,35 +592,35 @@
       "oc_bs": "*kʰa̠nʔ",
       "root": "kan",
       "source": "head_graph_oc_shengfu",
-      "support_count": 4,
+      "support_count": 8,
       "supporting_sources": [
-        "head_graph_oc_shengfu"
+        "head_graph_oc_shengfu",
+        "phonetic_component_series_root"
       ]
     },
     {
-      "character": "侃",
-      "gsr": null,
+      "character": "𩱡",
+      "gsr": "141",
       "oc_bs": "*C.qan {*C.qa[n]}",
       "root": "qan",
-      "source": "phonetic_component_series_root",
-      "support_count": 5,
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
       "supporting_sources": [
-        "phonetic_component_series_root",
         "head_graph_oc_bs"
       ]
     }
   ],
   "resolved_series_root": {
-    "root": "kan",
-    "source": "head_graph_shengfu_head",
-    "character": "侃",
-    "oc_bs": "*kʰa̠nʔ",
+    "root": "qan",
+    "source": "head_graph_bs_head",
+    "character": "𩱡",
+    "oc_bs": "*C.qan {*C.qa[n]}",
     "confidence": "provisional-oc",
-    "support_count": 4,
+    "support_count": 1,
     "supporting_sources": [
-      "head_graph_oc_shengfu"
+      "head_graph_oc_bs"
     ],
-    "display_root": "kan₄",
+    "display_root": "qan",
     "division_class": "mixed",
     "division_note": "the extracted forms point to both type a and type b",
     "mark_required": false,
@@ -663,8 +663,8 @@
         "reason": "no_i_medial"
       }
     ],
-    "base_root": "kan",
-    "ordinal": 4,
+    "base_root": "qan",
+    "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }
 }

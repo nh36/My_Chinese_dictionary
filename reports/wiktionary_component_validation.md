@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5696
-- Pages fetched / cached successfully: 5610
-- Additions with explicit Han-compound semantic/phonetic roles: 2604
+- Proposed additions checked: 5710
+- Pages fetched / cached successfully: 5624
+- Additions with explicit Han-compound semantic/phonetic roles: 2611
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -4025,6 +4025,20 @@
 | `24-23` | 膻 | yes | yes | 肉 | 亶 |
 | `24-23` | 顫 | yes | yes | 頁 | 亶 |
 | `24-23` | 羴 | yes | no |  |  |
+| `24-24` | 炭 | yes | yes | 火 | 岸 |
+| `24-25` | 善 | yes | no |  |  |
+| `24-25` | 膳 | yes | yes | 肉 | 善 |
+| `24-25` | 繕 | yes | yes | 糸 | 善 |
+| `24-26` | 展 | yes | yes | 尸 | 𧝑 |
+| `24-26` | 輾 | yes | yes | 車 | 㞋 |
+| `24-26` | 蹍 | yes | no |  |  |
+| `24-27` | 蕆 | yes | no |  |  |
+| `24-28` | 廛 | yes | no |  |  |
+| `24-28` | 躔 | yes | no |  |  |
+| `24-28` | 纏 | yes | yes | 糸 | 廛 |
+| `24-29` | 衍 | yes | no |  |  |
+| `24-29` | 愆 | yes | yes | 心 | 衍 |
+| `24-29` | 餰 | yes | no |  |  |
 | `24-30` | 延 | yes | yes | 㢟 | 丿 |
 | `24-30` | 筵 | yes | yes | 竹 | 延 |
 | `24-30` | 綖 | yes | no |  |  |
