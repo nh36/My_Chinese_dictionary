@@ -13,12 +13,15 @@ import mc_resolution
 DEFAULT_INPUT_DIR = "data/entries/curation"
 DEFAULT_REPORT_OUT = "reports/series_root_resolution.md"
 DEFAULT_HEAD_SUPPLEMENT = "data/series_root_head_supplement.json"
+WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 VOWEL_RE = re.compile(r"[aeiouəɨɯ]")
 OC_ALT_RE = re.compile(r"\s*\{.*$")
 OC_CLEAN_RE = re.compile(r"[\[\]\(\)<>]")
 OC_BRACED_ALT_RE = re.compile(r"\{([^}]*)\}")
+ZH_SEE_RE = re.compile(r"\{\{zh-see\|([^}|]+)")
+HAN_CHAR_RE = re.compile(r"[\u3400-\u4DBF\u4E00-\u9FFF\U00020000-\U0003134A]")
 
 
 def split_gsr(value: str | None) -> tuple[int, str] | None:
@@ -28,6 +31,16 @@ def split_gsr(value: str | None) -> tuple[int, str] | None:
     if not match:
         return None
     return int(match.group(1)), (match.group(2) or "").lower()
+
+
+def dedupe_preserve(values: list[str]) -> list[str]:
+    result: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        if value and value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
 
 
 def extract_primary_oc_form(oc_bs: str | None) -> str | None:
@@ -343,6 +356,71 @@ def build_head_supplement_candidate(head_data: dict[str, Any] | None) -> dict[st
     }
 
 
+def load_wiktionary_wikitext(character: str | None) -> str | None:
+    if not character:
+        return None
+    cache_path = WIKTIONARY_CACHE_DIR / f"{ord(character):05X}.json"
+    if not cache_path.exists():
+        return None
+    payload = json.loads(cache_path.read_text(encoding="utf-8"))
+    return payload.get("wikitext")
+
+
+def extract_wiktionary_variant_targets(wikitext: str | None) -> list[str]:
+    if not wikitext:
+        return []
+    targets: list[str] = []
+    for raw_target in ZH_SEE_RE.findall(wikitext):
+        targets.extend(HAN_CHAR_RE.findall(raw_target))
+    return dedupe_preserve(targets)
+
+
+def derive_variant_root_candidate(
+    entry: dict[str, Any],
+    *,
+    component_root_index: dict[str, dict[str, Any]] | None,
+) -> dict[str, Any] | None:
+    if not component_root_index:
+        return None
+    proposed = entry.get("proposed_additions", [])
+    if len(proposed) != 1:
+        return None
+    head_character = proposed[0].get("character")
+    wikitext = load_wiktionary_wikitext(head_character)
+    targets = extract_wiktionary_variant_targets(wikitext)
+    if not targets:
+        return None
+    hinted_targets = []
+    for target in targets:
+        hinted = component_root_index.get(target)
+        if not hinted or not hinted.get("root"):
+            continue
+        hinted_targets.append((target, hinted))
+    if not hinted_targets:
+        return None
+    ranked = sorted(
+        hinted_targets,
+        key=lambda item: (-(item[1].get("support_count") or 1), item[0]),
+    )
+    chosen_target, chosen_hint = ranked[0]
+    chosen_support = chosen_hint.get("support_count") or 1
+    chosen_root = chosen_hint.get("root")
+    for target, hint in ranked[1:]:
+        support = hint.get("support_count") or 1
+        if support != chosen_support:
+            break
+        if hint.get("root") != chosen_root:
+            return None
+    return {
+        "character": head_character,
+        "gsr": None,
+        "oc_bs": chosen_hint.get("oc_bs"),
+        "root": chosen_root,
+        "source": "wiktionary_variant_series_root",
+        "variant_reference": chosen_target,
+    }
+
+
 def build_component_root_index(entries: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     hinted_roots: dict[str, list[dict[str, Any]]] = {}
 
@@ -546,6 +624,14 @@ def derive_root_candidates(
                     "source": "same_character_series_root",
                 }
             )
+
+    if not preferred_candidates and not fallback_candidates:
+        variant_candidate = derive_variant_root_candidate(
+            entry,
+            component_root_index=component_root_index,
+        )
+        if variant_candidate is not None:
+            preferred_candidates.append(variant_candidate)
 
     supplement_candidate = build_head_supplement_candidate(get_head_supplement(entry, head_supplement))
     if supplement_candidate is not None:

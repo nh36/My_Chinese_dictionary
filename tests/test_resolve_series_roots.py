@@ -295,6 +295,17 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("root"), "kuu")
         self.assertEqual(resolved.get("source"), "same_character_series_root")
 
+    def test_25_21_wiktionary_variant_reuses_referenced_root(self) -> None:
+        referenced_entry = json.loads((ROOT / "data/entries/curation/25-20.json").read_text(encoding="utf-8"))
+        component_root_index = resolve_series_roots.build_component_root_index([referenced_entry])
+        entry = json.loads((ROOT / "data/entries/curation/25-21.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, component_root_index=component_root_index)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "邍")
+        self.assertEqual(resolved.get("root"), "ṅar")
+        self.assertEqual(resolved.get("source"), "wiktionary_variant_series_root")
+
     def test_01_40_explicit_b_header_uses_head_shengfu(self) -> None:
         entry = json.loads((ROOT / "data/entries/curation/01-40.json").read_text(encoding="utf-8"))
         entry = resolve_series_roots.apply_root_resolution(entry)
