@@ -93,22 +93,95 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|肉|出|ls=psc|c1=s|c2=p|t1=flesh; meat}}",
+          "positional_components": [
+            "肉",
+            "出"
+          ],
+          "positional_components_raw": [
+            "肉",
+            "出"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "flesh; meat"
+          },
+          "semantic_components": [
+            "肉"
+          ],
+          "phonetic_components": [
+            "出"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|肉|出|ls=psc|c1=s|c2=p|t1=flesh; meat}}",
+            "positional_components": [
+              "肉",
+              "出"
+            ],
+            "positional_components_raw": [
+              "肉",
+              "出"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "flesh; meat"
+            },
+            "semantic_components": [
+              "肉"
+            ],
+            "phonetic_components": [
+              "出"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{py₁₂}},",
-      "render_latex": "胐\t%fei3 / pu2?\n{\\large{py₁₂}},\n\\textit{phiɨyX};\t%0530a\n\\textit{phwət};",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}py₁₂}},",
+      "render_latex": "胐\t%fei3 / pu2?\n{\\large{\\textsuperscript{carn·}py₁₂}},\n\\textit{phiɨyX};\t%0530a\n\\textit{phwət};",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "肉",
+        "phonetic_component": "出",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "胐",
+          "semantic_component": "肉",
+          "phonetic_component": "出",
+          "position": "prefix-dot",
+          "abbreviation": "carn",
+          "inventory_matches": [
+            {
+              "graph_raw": "肉",
+              "label_token": "carn(is)",
+              "abbreviation": "carn",
+              "start_line": 220
+            }
+          ],
+          "template_raw": "{{Han compound|肉|出|ls=psc|c1=s|c2=p|t1=flesh; meat}}"
+        }
+      },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "same_series_variant",
-        "semantic_component": null
+        "abbreviation": "carn",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "肉",
+            "label_token": "carn(is)",
+            "abbreviation": "carn",
+            "start_line": 220
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "肉"
       },
       "hierarchy_assignment": null,
       "resolved_node_root": null

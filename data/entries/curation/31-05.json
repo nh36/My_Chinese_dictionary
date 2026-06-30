@@ -1,0 +1,1574 @@
+{
+  "generated_at": "2026-06-30T11:44:01.408321+00:00",
+  "id": "31-05",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "31-05",
+    "rhyme_section": 31,
+    "series_number": 5,
+    "k_tokens": [
+      "523"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.     MC             LHan                    OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 337,
+    "source_line_number": 41,
+    "source_line_raw": "31-5 =K. 523      Man d.     MC             LHan                    OCM"
+  },
+  "coverage": {
+    "gsc_id": "31-05",
+    "rhyme_section": "31",
+    "series_number": "5",
+    "schuessler_k_tokens": "523",
+    "schuessler_source_page": "337",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "6",
+    "mand2mc_character_count": "5",
+    "mand2mc_characters_sample": "胃; 媦; 謂; 蝟; 喟",
+    "bs_gsr_row_count": "3",
+    "bs_gsr_character_count": "3",
+    "bs_gsr_characters_sample": "胃; 謂; 蝟",
+    "combined_source_character_count": "5",
+    "combined_source_characters_sample": "胃; 媦; 謂; 蝟; 喟"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "523"
+  ],
+  "proposed_additions": [
+    {
+      "character": "胃",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 15,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3786",
+          "character": "胃",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "胃",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "stomach",
+          "gsr": "0523a",
+          "unicode_utf16": "U+80C3"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13494",
+          "character": "胃",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "13492",
+          "character": "䬑",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "王勿",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "ɢʳud"
+        },
+        {
+          "source_row_number": "13493",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦怪",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "u̠ds",
+          "oc_syllable": "kʰʳu̠ds"
+        },
+        {
+          "source_row_number": "13494",
+          "character": "胃",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13495",
+          "character": "謂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13496",
+          "character": "㥜",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13497",
+          "character": "媦",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13498",
+          "character": "彙",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13499",
+          "character": "渭",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13500",
+          "character": "煟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13501",
+          "character": "𩹂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13502",
+          "character": "緭",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13503",
+          "character": "𢍚",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13504",
+          "character": "䬑",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13505",
+          "character": "猬",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "集韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13506",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丘愧",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "kʰʳuds"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{quyt}},",
+      "render_latex": "胃\t%wei4 / wèi\n{\\large{quyt}},\n\\textit{hiwɨyH};\t%0523a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "胃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "胃"
+      },
+      "resolved_node_root": {
+        "root": "gyt",
+        "source": "node_bs_consensus",
+        "descendant_count": 4,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "quyt"
+        ],
+        "bs_node_roots": [
+          "gyt"
+        ],
+        "display_root": "gyt",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "hiwɨyH",
+          "khweayH",
+          "khwiyH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hiwɨyH",
+            "normalized": "hiwɨy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "khweayH",
+            "normalized": "khweay",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "khwiyH",
+            "normalized": "khwiy",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "媦",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3787",
+          "character": "媦",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13497",
+          "character": "媦",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|女|胃|c1=s|c2=p|ls=psc|t1=woman}}",
+          "positional_components": [
+            "女",
+            "胃"
+          ],
+          "positional_components_raw": [
+            "女",
+            "胃"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc",
+            "t1": "woman"
+          },
+          "semantic_components": [
+            "女"
+          ],
+          "phonetic_components": [
+            "胃"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|女|胃|c1=s|c2=p|ls=psc|t1=woman}}",
+            "positional_components": [
+              "女",
+              "胃"
+            ],
+            "positional_components_raw": [
+              "女",
+              "胃"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc",
+              "t1": "woman"
+            },
+            "semantic_components": [
+              "女"
+            ],
+            "phonetic_components": [
+              "胃"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "媦",
+          "ids": "⿰女胃",
+          "phonetic_component": "胃",
+          "semantic_component": "女",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "fem",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "女",
+            "label_token": "fem(ina)",
+            "abbreviation": "fem",
+            "start_line": 275
+          },
+          {
+            "graph_raw": "女",
+            "label_token": "fem",
+            "abbreviation": "fem",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "女"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}quyt}},",
+      "render_latex": "媦\t%wei4\n{\\large{\\textsuperscript{fem·}quyt}},\n\\textit{hiwɨyH};\t%0523c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "女",
+        "phonetic_component": "胃",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "媦",
+          "semantic_component": "女",
+          "phonetic_component": "胃",
+          "position": "prefix-dot",
+          "abbreviation": "fem",
+          "inventory_matches": [
+            {
+              "graph_raw": "女",
+              "label_token": "fem(ina)",
+              "abbreviation": "fem",
+              "start_line": 275
+            },
+            {
+              "graph_raw": "女",
+              "label_token": "fem",
+              "abbreviation": "fem",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|女|胃|c1=s|c2=p|ls=psc|t1=woman}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "胃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "胃"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "謂",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3788",
+          "character": "謂",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "謂",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "say, tell, call",
+          "gsr": "0523d",
+          "unicode_utf16": "U+8B02"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13495",
+          "character": "謂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "謂",
+          "ids": "⿰言胃",
+          "phonetic_component": "胃",
+          "semantic_component": "言",
+          "position": "prefix-dot",
+          "abbreviation": "dic",
+          "inventory_matches": [
+            {
+              "graph_raw": "言",
+              "label_token": "dic(o)",
+              "abbreviation": "dic",
+              "start_line": 256
+            },
+            {
+              "graph_raw": "言",
+              "label_token": "dic",
+              "abbreviation": "dic",
+              "learned": true,
+              "evidence_count": 19
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "dic",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "言",
+            "label_token": "dic(o)",
+            "abbreviation": "dic",
+            "start_line": 256
+          },
+          {
+            "graph_raw": "言",
+            "label_token": "dic",
+            "abbreviation": "dic",
+            "learned": true,
+            "evidence_count": 19
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "言"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}quyt}},",
+      "render_latex": "謂\t%wei4 / wèi\n{\\large{\\textsuperscript{dic·}quyt}},\n\\textit{hiwɨyH};\t%0523d",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "胃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "胃"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "蝟",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3789",
+          "character": "蝟",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523f"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "蝟",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "porcupine",
+          "gsr": "0523f",
+          "unicode_utf16": "U+875F"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|虫|胃|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "虫",
+            "胃"
+          ],
+          "positional_components_raw": [
+            "虫",
+            "胃"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "虫"
+          ],
+          "phonetic_components": [
+            "胃"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|虫|胃|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "虫",
+              "胃"
+            ],
+            "positional_components_raw": [
+              "虫",
+              "胃"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "虫"
+            ],
+            "phonetic_components": [
+              "胃"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "serp",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "虫",
+            "label_token": "serp(ens)",
+            "abbreviation": "serp",
+            "start_line": 388
+          },
+          {
+            "graph_raw": "虫",
+            "label_token": "serp",
+            "abbreviation": "serp",
+            "learned": true,
+            "evidence_count": 9
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "虫"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{serp·}quyt}},",
+      "render_latex": "蝟\t%wei4 / wèi\n{\\large{\\textsuperscript{serp·}quyt}},\n\\textit{hiwɨyH};\t%0523f",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "虫",
+        "phonetic_component": "胃",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蝟",
+          "semantic_component": "虫",
+          "phonetic_component": "胃",
+          "position": "prefix-dot",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 388
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ],
+          "template_raw": "{{Han compound|虫|胃|ls=psc|c1=s|c2=p}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "胃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "胃"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "喟",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khweayH",
+          "khwiyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "khweayH",
+          "khwiyH"
+        ],
+        "mand2mc_bs_forms": [
+          "khweajH",
+          "khwijH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3790",
+          "character": "喟",
+          "pinyin": "kui4",
+          "mc_nwh": "khweayH",
+          "mc_bs": "khweajH",
+          "gsr": "0523g"
+        },
+        {
+          "source_row_number": "3791",
+          "character": "喟",
+          "pinyin": "kui4",
+          "mc_nwh": "khwiyH",
+          "mc_bs": "khwijH",
+          "gsr": "0523g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13493",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦怪",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "u̠ds",
+          "oc_syllable": "kʰʳu̠ds"
+        },
+        {
+          "source_row_number": "13506",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丘愧",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "kʰʳuds"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": false,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "喟",
+          "ids": "⿰口胃",
+          "phonetic_component": "胃",
+          "semantic_component": "口",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 344
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "or",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "口",
+            "label_token": "(os,) or(is)",
+            "abbreviation": "or",
+            "start_line": 344
+          },
+          {
+            "graph_raw": "口",
+            "label_token": "or",
+            "abbreviation": "or",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "口"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{or·}quyt}},",
+      "render_latex": "喟\t%kui4\n{\\large{\\textsuperscript{or·}quyt}},\n\\textit{khweayH};\t%0523g\n\\textit{khwiyH};",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "胃",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "胃"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "胃",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 15,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3786",
+          "character": "胃",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "胃",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "stomach",
+          "gsr": "0523a",
+          "unicode_utf16": "U+80C3"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13494",
+          "character": "胃",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "13492",
+          "character": "䬑",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "王勿",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "ud",
+          "oc_syllable": "ɢʳud"
+        },
+        {
+          "source_row_number": "13493",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦怪",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "u̠ds",
+          "oc_syllable": "kʰʳu̠ds"
+        },
+        {
+          "source_row_number": "13494",
+          "character": "胃",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13495",
+          "character": "謂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13496",
+          "character": "㥜",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13497",
+          "character": "媦",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13498",
+          "character": "彙",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13499",
+          "character": "渭",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13500",
+          "character": "煟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13501",
+          "character": "𩹂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13502",
+          "character": "緭",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13503",
+          "character": "𢍚",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13504",
+          "character": "䬑",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13505",
+          "character": "猬",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "集韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        },
+        {
+          "source_row_number": "13506",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丘愧",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "kʰʳuds"
+        }
+      ]
+    },
+    {
+      "character": "媦",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3787",
+          "character": "媦",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13497",
+          "character": "媦",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "謂",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3788",
+          "character": "謂",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523d"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "謂",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "say, tell, call",
+          "gsr": "0523d",
+          "unicode_utf16": "U+8B02"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13495",
+          "character": "謂",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "于貴",
+          "source": "广韵",
+          "oc_initial": "ɢʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "ɢʳuds"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "蝟",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiwɨyH"
+        ],
+        "mand2mc_bs_forms": [
+          "hjwɨjH"
+        ],
+        "bs_gsr_forms": [
+          "hjw+jH"
+        ],
+        "bs_not_in_mand2mc": [
+          "hjw+jH"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "hjwɨjH"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3789",
+          "character": "蝟",
+          "pinyin": "wei4",
+          "mc_nwh": "hiwɨyH",
+          "mc_bs": "hjwɨjH",
+          "gsr": "0523f"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "79",
+          "character": "蝟",
+          "pinyin": "wèi",
+          "mc_bs": "hjw+jH",
+          "mc_analyzed": "(h- + -jw+j C)",
+          "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+          "gloss": "porcupine",
+          "gsr": "0523f",
+          "unicode_utf16": "U+875F"
+        }
+      ],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "喟",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "khweayH",
+          "khwiyH"
+        ],
+        "mand2mc_nwh_forms": [
+          "khweayH",
+          "khwiyH"
+        ],
+        "mand2mc_bs_forms": [
+          "khweajH",
+          "khwijH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3790",
+          "character": "喟",
+          "pinyin": "kui4",
+          "mc_nwh": "khweayH",
+          "mc_bs": "khweajH",
+          "gsr": "0523g"
+        },
+        {
+          "source_row_number": "3791",
+          "character": "喟",
+          "pinyin": "kui4",
+          "mc_nwh": "khwiyH",
+          "mc_bs": "khwijH",
+          "gsr": "0523g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "13493",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "苦怪",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "u̠ds",
+          "oc_syllable": "kʰʳu̠ds"
+        },
+        {
+          "source_row_number": "13506",
+          "character": "喟",
+          "phonetic_component": "胃",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "丘愧",
+          "source": "广韵",
+          "oc_initial": "kʰʳ",
+          "oc_rhyme": "uds",
+          "oc_syllable": "kʰʳuds"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "胃",
+      "gsr": "0523a",
+      "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+      "root": "quyt",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "quyt",
+    "source": "head_graph_oc_bs",
+    "character": "胃",
+    "oc_bs": "*ɢʷət-s {*[ɢ]ʷə[t]-s}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "quyt",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "hiwɨyH",
+      "khweayH",
+      "khwiyH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hiwɨyH",
+        "normalized": "hiwɨy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "khweayH",
+        "normalized": "khweay",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "khwiyH",
+        "normalized": "khwiy",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "quyt",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

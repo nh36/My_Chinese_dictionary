@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 978
-- Packets with at least one root candidate: 976
-- Packets with a single resolved provisional root: 974
+- Missing-series packets inspected: 984
+- Packets with at least one root candidate: 982
+- Packets with a single resolved provisional root: 980
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*kʰa̠nʔ] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -698,7 +698,7 @@
 | `24-28` | 廛→tan [*dran {*[d]ra[n]}] (0204a) | `tan` | `head_graph_oc_bs` |
 | `24-29` | 衍→qan [*N-qanʔ {*N-q(r)anʔ}] (0197a) | `qan` | `head_graph_oc_bs` |
 | `24-30` | 延→lan [*lan {*la[n]}] (0203a) | `lan` | `head_graph_oc_bs` |
-| `24-31` | 羨→qar [*s-N-qar-s {*s-N-[q]a[r]-s}] (0207a) | `qar` | `head_graph_oc_bs` |
+| `24-31` | 羨→qan [*s-ɢan-s {*s-[ɢ]a[n]-s}] (0207a) | `qan` | `head_graph_oc_bs` |
 | `24-32` | 連→ren [*k‧ren] (None); 僆→ran [*k.ran-s {*k.r[a]n-s}] (213) | `ran` | `head_graph_bs_head` |
 | `24-33` | 聯→ron [*k‧ron] (None) | `ron` | `head_graph_oc_shengfu` |
 | `24-34` | 輦→ran [*ranʔ {*[r][a][n]ʔ}] (0215a) | `ran` | `head_graph_oc_bs` |
@@ -908,8 +908,14 @@
 | `30-17` | 胐→py [*pʰəjʔ {*pʰ[ə]jʔ}] (None); 朏→kut [*kʰu̠d] (None) | `py` | `head_graph_supported_root` |
 | `30-18` | 𠬛→mut [*mu̠d] (None) | `mut` | `head_graph_oc_shengfu` |
 | `30-19` | 勿→mut [*mut] (0503a) | `mut` | `head_graph_oc_bs` |
+| `30-20` | 勿→mut [*mut] (0503a) | `mut` | `head_graph_oc_bs` |
 | `30-21` | 未→myt [*mət-s {*m[ə]t-s}] (0531a) | `myt` | `head_graph_oc_bs` |
+| `30-22` | 鬽→myt [*mət-s {*m[ə]t-s}] (None) | `myt` | `same_character_series_root` |
+| `31-01` | 骨→kut [*kˤut] (0486a) | `kut` | `head_graph_oc_bs` |
 | `31-02` | 㬰→kuy [*gruj-s {*[g]ruj-s}] (0540a) | `kuy` | `head_graph_oc_bs` |
+| `31-03` | 凷→kyt [*kʰɯ̠ds] (None) | `kyt` | `head_graph_oc_shengfu` |
+| `31-04` | 㕟→kut [*kʰʳu̠ds] (None) | `kut` | `head_graph_oc_shengfu` |
+| `31-05` | 胃→quyt [*ɢʷət-s {*[ɢ]ʷə[t]-s}] (0523a) | `quyt` | `head_graph_oc_bs` |
 | `31-09` | 㷉→ʔut [*ʔut-s] (0525a) | `ʔut` | `head_graph_oc_bs` |
 | `31-16` | 出→kut [*t.kʰut-s] (0496a) | `kut` | `head_graph_oc_bs` |
 | `31-17` | 朮→lut [*mə.lut ~ *m.lut] (0497a) | `lut` | `head_graph_oc_bs` |

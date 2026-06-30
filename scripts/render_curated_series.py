@@ -1005,6 +1005,12 @@ DEFAULT_IDS = [
     "30-17",
     "30-18",
     "30-19",
+    "30-20",
+    "30-22",
+    "31-01",
+    "31-03",
+    "31-04",
+    "31-05",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"
