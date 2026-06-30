@@ -312,23 +312,147 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|彗|日|c1=p|c2=s|t2=sun|ls=psc|nocap=y}}",
+          "positional_components": [
+            "彗",
+            "日"
+          ],
+          "positional_components_raw": [
+            "彗",
+            "日"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "t2": "sun",
+            "ls": "psc",
+            "nocap": "y"
+          },
+          "semantic_components": [
+            "日"
+          ],
+          "phonetic_components": [
+            "彗"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|羽|t1=wings|日|t2=sun|ls=ic}}",
+            "positional_components": [
+              "羽",
+              "日"
+            ],
+            "positional_components_raw": [
+              "羽",
+              "日"
+            ],
+            "named_args": {
+              "t1": "wings",
+              "t2": "sun",
+              "ls": "ic"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|羽|t1=wings|白|t2=white}}",
+            "positional_components": [
+              "羽",
+              "白"
+            ],
+            "positional_components_raw": [
+              "羽",
+              "白"
+            ],
+            "named_args": {
+              "t1": "wings",
+              "t2": "white"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          },
+          {
+            "template_raw": "{{Han compound|彗|日|c1=p|c2=s|t2=sun|ls=psc|nocap=y}}",
+            "positional_components": [
+              "彗",
+              "日"
+            ],
+            "positional_components_raw": [
+              "彗",
+              "日"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "t2": "sun",
+              "ls": "psc",
+              "nocap": "y"
+            },
+            "semantic_components": [
+              "日"
+            ],
+            "phonetic_components": [
+              "彗"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": null,
-        "position": "none",
-        "inventory_matches": [],
-        "source": "self_phonetic_base",
-        "semantic_component": null
+        "abbreviation": "sol",
+        "position": "suffix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "start_line": 391
+          },
+          {
+            "graph_raw": "日",
+            "label_token": "sol",
+            "abbreviation": "sol",
+            "learned": true,
+            "evidence_count": 5
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "日"
       },
-      "transliteration_latex": "{\\large{syp₂}},",
-      "render_latex": "習\t%xi2\n{\\large{syp₂}},\n\\textit{zip};\t%0690a",
-      "wiktionary_semantic_validation": null,
+      "transliteration_latex": "{\\large{syp₂\\textsuperscript{˸sol}}},",
+      "render_latex": "習\t%xi2\n{\\large{syp₂\\textsuperscript{˸sol}}},\n\\textit{zip};\t%0690a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "日",
+        "phonetic_component": "彗",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "習",
+          "semantic_component": "日",
+          "phonetic_component": "彗",
+          "position": "suffix-colon",
+          "abbreviation": "sol",
+          "inventory_matches": [
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "start_line": 391
+            },
+            {
+              "graph_raw": "日",
+              "label_token": "sol",
+              "abbreviation": "sol",
+              "learned": true,
+              "evidence_count": 5
+            }
+          ],
+          "template_raw": "{{Han compound|彗|日|c1=p|c2=s|t2=sun|ls=psc|nocap=y}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
         "parent_character": "習",
@@ -435,7 +559,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -901,7 +1025,7 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

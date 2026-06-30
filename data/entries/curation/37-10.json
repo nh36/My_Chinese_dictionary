@@ -290,7 +290,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -627,9 +627,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|遝|c1=s|c2=p|ls=psc|t1=mouth}}",
+          "positional_components": [
+            "口",
+            "遝"
+          ],
+          "positional_components_raw": [
+            "口",
+            "遝"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc",
+            "t1": "mouth"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "遝"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|口|遝|c1=s|c2=p|ls=psc|t1=mouth}}",
+            "positional_components": [
+              "口",
+              "遝"
+            ],
+            "positional_components_raw": [
+              "口",
+              "遝"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc",
+              "t1": "mouth"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "遝"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -677,19 +723,46 @@
             "evidence_count": 18
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "口"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{or·}ryp₉}},",
       "render_latex": "嚃\t%ta1\n{\\large{\\textsuperscript{or·}ryp₉}},\n\\textit{thəp};\t%0678f",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "遝",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "嚃",
+          "semantic_component": "口",
+          "phonetic_component": "遝",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 344
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|口|遝|c1=s|c2=p|ls=psc|t1=mouth}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "遝",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "遝"
       },
       "resolved_node_root": null

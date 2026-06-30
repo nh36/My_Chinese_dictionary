@@ -783,9 +783,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|水|邑|t1=water|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "水",
+            "邑"
+          ],
+          "positional_components_raw": [
+            "水",
+            "邑"
+          ],
+          "named_args": {
+            "t1": "water",
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "水"
+          ],
+          "phonetic_components": [
+            "邑"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|水|邑|t1=water|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "水",
+              "邑"
+            ],
+            "positional_components_raw": [
+              "水",
+              "邑"
+            ],
+            "named_args": {
+              "t1": "water",
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "水"
+            ],
+            "phonetic_components": [
+              "邑"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -833,12 +879,39 @@
             "evidence_count": 14
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{aq·}qyp₅}},",
       "render_latex": "浥\t%yi4 / yì\n{\\large{\\textsuperscript{aq·}qyp₅}},\n\\textit{qip};\t%0683h",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "水",
+        "phonetic_component": "邑",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "浥",
+          "semantic_component": "水",
+          "phonetic_component": "邑",
+          "position": "prefix-dot",
+          "abbreviation": "aq",
+          "inventory_matches": [
+            {
+              "graph_raw": "水",
+              "label_token": "aq(ua)",
+              "abbreviation": "aq",
+              "start_line": 198
+            },
+            {
+              "graph_raw": "水",
+              "label_token": "aq",
+              "abbreviation": "aq",
+              "learned": true,
+              "evidence_count": 14
+            }
+          ],
+          "template_raw": "{{Han compound|水|邑|t1=water|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "邑",

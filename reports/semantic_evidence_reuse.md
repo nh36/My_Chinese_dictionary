@@ -1,14 +1,14 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 1120
-- Proposed additions inspected: 6413
-- Additions with reusable semantic assignment from existing TeX: 6413
-- Additions with reusable transliteration LaTeX from existing TeX: 6413
-- Additions with reusable render block from existing TeX: 6413
-- Additions with IDS-derived semantic candidates: 3921
-- Additions with explicit Wiktionary Han-compound support: 2846
+- Curated entries inspected: 1126
+- Proposed additions inspected: 6424
+- Additions with reusable semantic assignment from existing TeX: 6424
+- Additions with reusable transliteration LaTeX from existing TeX: 6424
+- Additions with reusable render block from existing TeX: 6424
+- Additions with IDS-derived semantic candidates: 3924
+- Additions with explicit Wiktionary Han-compound support: 2853
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4753
+- Additions assigned under generated candidate nodes: 4756
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 201
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
@@ -1122,10 +1122,16 @@
 | `37-14` | 1 | 1 | 1 | 1 |
 | `37-15` | 11 | 11 | 11 | 11 |
 | `37-16` | 13 | 13 | 13 | 13 |
+| `37-17` | 1 | 1 | 1 | 1 |
+| `37-18` | 2 | 2 | 2 | 2 |
 | `37-19` | 9 | 9 | 9 | 9 |
+| `37-20` | 2 | 2 | 2 | 2 |
+| `37-21` | 1 | 1 | 1 | 1 |
+| `38-02` | 4 | 4 | 4 | 4 |
 | `38-03` | 37 | 37 | 37 | 37 |
 | `38-04` | 11 | 11 | 11 | 11 |
 | `38-05` | 14 | 14 | 14 | 14 |
+| `38-06` | 1 | 1 | 1 | 1 |
 | `38-07` | 8 | 8 | 8 | 8 |
 | `38-11` | 15 | 15 | 15 | 15 |
 | `38-14` | 13 | 13 | 13 | 13 |
