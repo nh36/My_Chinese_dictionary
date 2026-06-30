@@ -320,6 +320,18 @@ class ResolveSeriesRootsTests(unittest.TestCase):
         self.assertEqual(resolved.get("root"), "pit")
         self.assertEqual(resolved.get("source"), "head_graph_supplement")
 
+    def test_32_21_head_supplement_supplies_zhen_root(self) -> None:
+        supplement = resolve_series_roots.load_head_supplement(
+            ROOT / "data/series_root_head_supplement.json"
+        )
+        entry = json.loads((ROOT / "data/entries/curation/32-21.json").read_text(encoding="utf-8"))
+        entry = resolve_series_roots.apply_root_resolution(entry, head_supplement=supplement)
+
+        resolved = entry.get("resolved_series_root") or {}
+        self.assertEqual(resolved.get("character"), "絼")
+        self.assertEqual(resolved.get("root"), "lin")
+        self.assertEqual(resolved.get("source"), "head_graph_supplement")
+
     def test_04_08_reuses_resolved_phonetic_component_family_root(self) -> None:
         component_entry = json.loads((ROOT / "data/entries/curation/04-07.json").read_text(encoding="utf-8"))
         component_root_index = resolve_series_roots.build_component_root_index([component_entry])
