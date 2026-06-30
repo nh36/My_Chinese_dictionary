@@ -1,0 +1,936 @@
+{
+  "generated_at": "2026-06-30T12:32:09.489472+00:00",
+  "id": "32-29",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "32-29",
+    "rhyme_section": 32,
+    "series_number": 29,
+    "k_tokens": [
+      "378"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.               MC              LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 347,
+    "source_line_number": 11,
+    "source_line_raw": "32-29 = K. 378 Man d.               MC              LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "32-29",
+    "rhyme_section": "32",
+    "series_number": "29",
+    "schuessler_k_tokens": "378",
+    "schuessler_source_page": "347",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "4",
+    "mand2mc_character_count": "4",
+    "mand2mc_characters_sample": "晉; 搢; 縉; 戩",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "晉",
+    "combined_source_character_count": "4",
+    "combined_source_characters_sample": "晉; 搢; 縉; 戩"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "378"
+  ],
+  "proposed_additions": [
+    {
+      "character": "晉",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [
+          "tsinH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2769",
+          "character": "晉",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "60",
+          "character": "晉",
+          "pinyin": "jìn",
+          "mc_bs": "tsinH",
+          "mc_analyzed": "(ts- + -in C)",
+          "oc_bs": "*tsin-s {*tsi[n]-s}",
+          "gloss": "Jìn (place name)",
+          "gsr": "0378a",
+          "unicode_utf16": "U+6649"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7282",
+          "character": "晉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "7279",
+          "character": "鄑",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即移",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "el",
+          "oc_syllable": "sel"
+        },
+        {
+          "source_row_number": "7280",
+          "character": "戩",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即淺",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "senʔ"
+        },
+        {
+          "source_row_number": "7281",
+          "character": "榗",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "子賤",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ens",
+          "oc_syllable": "sens"
+        },
+        {
+          "source_row_number": "7282",
+          "character": "晉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7283",
+          "character": "搢",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7284",
+          "character": "縉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7285",
+          "character": "瑨",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|ls=ic|臸|日|t1=to arrive|t2=sun}}",
+          "positional_components": [
+            "臸",
+            "日"
+          ],
+          "positional_components_raw": [
+            "臸",
+            "日"
+          ],
+          "named_args": {
+            "ls": "ic",
+            "t1": "to arrive",
+            "t2": "sun"
+          },
+          "semantic_components": [],
+          "phonetic_components": []
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|ls=ic|臸|日|t1=to arrive|t2=sun}}",
+            "positional_components": [
+              "臸",
+              "日"
+            ],
+            "positional_components_raw": [
+              "臸",
+              "日"
+            ],
+            "named_args": {
+              "ls": "ic",
+              "t1": "to arrive",
+              "t2": "sun"
+            },
+            "semantic_components": [],
+            "phonetic_components": []
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tsin₃}},",
+      "render_latex": "晉\t%jin4 / jìn\n{\\large{tsin₃}},\n\\textit{tsinH};\t%0378a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "晉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "晉"
+      },
+      "resolved_node_root": {
+        "root": "tsin",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tsin"
+        ],
+        "bs_node_roots": [
+          "tsin"
+        ],
+        "display_root": "tsin",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": false,
+        "mc_forms": [
+          "tsinH",
+          "tsinX"
+        ],
+        "form_analyses": [
+          {
+            "form": "tsinH",
+            "normalized": "tsin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "tsinX",
+            "normalized": "tsin",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "搢",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2770",
+          "character": "搢",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7283",
+          "character": "搢",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{tsin₃}},",
+      "render_latex": "搢\t%jin4\n{\\large{tsin₃}},\n\\textit{tsinH};\t%0378f",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "晉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "晉"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "縉",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2771",
+          "character": "縉",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7284",
+          "character": "縉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{tsin₃}},",
+      "render_latex": "縉\t%jin4\n{\\large{tsin₃}},\n\\textit{tsinH};\t%0378g",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "晉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "晉"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "戩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinX"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinX"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2772",
+          "character": "戩",
+          "pinyin": "jian3",
+          "mc_nwh": "tsinX",
+          "mc_bs": "tsinX",
+          "gsr": "0378h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7280",
+          "character": "戩",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即淺",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "senʔ"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "戩",
+          "ids": "⿰晉戈",
+          "phonetic_component": "晉",
+          "semantic_component": "戈",
+          "position": "suffix-dot",
+          "abbreviation": "hallebard",
+          "inventory_matches": [
+            {
+              "graph_raw": "戈",
+              "label_token": "hallebard(a)",
+              "abbreviation": "hallebard",
+              "start_line": 295
+            },
+            {
+              "graph_raw": "戈",
+              "label_token": "hallebard",
+              "abbreviation": "hallebard",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hallebard",
+        "position": "suffix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "戈",
+            "label_token": "hallebard(a)",
+            "abbreviation": "hallebard",
+            "start_line": 295
+          },
+          {
+            "graph_raw": "戈",
+            "label_token": "hallebard",
+            "abbreviation": "hallebard",
+            "learned": true,
+            "evidence_count": 1
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "戈"
+      },
+      "transliteration_latex": "{\\large{tsin₃\\textsuperscript{·hallebard}}},",
+      "render_latex": "戩\t%jian3\n{\\large{tsin₃\\textsuperscript{·hallebard}}},\n\\textit{tsinX};\t%0378h",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "晉",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "晉"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "晉",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 7,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [
+          "tsinH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2769",
+          "character": "晉",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "60",
+          "character": "晉",
+          "pinyin": "jìn",
+          "mc_bs": "tsinH",
+          "mc_analyzed": "(ts- + -in C)",
+          "oc_bs": "*tsin-s {*tsi[n]-s}",
+          "gloss": "Jìn (place name)",
+          "gsr": "0378a",
+          "unicode_utf16": "U+6649"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7282",
+          "character": "晉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "7279",
+          "character": "鄑",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即移",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "el",
+          "oc_syllable": "sel"
+        },
+        {
+          "source_row_number": "7280",
+          "character": "戩",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即淺",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "senʔ"
+        },
+        {
+          "source_row_number": "7281",
+          "character": "榗",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "子賤",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ens",
+          "oc_syllable": "sens"
+        },
+        {
+          "source_row_number": "7282",
+          "character": "晉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7283",
+          "character": "搢",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7284",
+          "character": "縉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        },
+        {
+          "source_row_number": "7285",
+          "character": "瑨",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ]
+    },
+    {
+      "character": "搢",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2770",
+          "character": "搢",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378f"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7283",
+          "character": "搢",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "縉",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinH"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinH"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2771",
+          "character": "縉",
+          "pinyin": "jin4",
+          "mc_nwh": "tsinH",
+          "mc_bs": "tsinH",
+          "gsr": "0378g"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7284",
+          "character": "縉",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即刃",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "ins",
+          "oc_syllable": "sins"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "戩",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tsinX"
+        ],
+        "mand2mc_nwh_forms": [
+          "tsinX"
+        ],
+        "mand2mc_bs_forms": [
+          "tsinX"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2772",
+          "character": "戩",
+          "pinyin": "jian3",
+          "mc_nwh": "tsinX",
+          "mc_bs": "tsinX",
+          "gsr": "0378h"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7280",
+          "character": "戩",
+          "phonetic_component": "晉",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "即淺",
+          "source": "广韵",
+          "oc_initial": "s",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "senʔ"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "晉",
+      "gsr": "0378a",
+      "oc_bs": "*tsin-s {*tsi[n]-s}",
+      "root": "tsin",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tsin",
+    "source": "head_graph_oc_bs",
+    "character": "晉",
+    "oc_bs": "*tsin-s {*tsi[n]-s}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "tsin₃",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": false,
+    "mc_forms": [
+      "tsinH",
+      "tsinX"
+    ],
+    "form_analyses": [
+      {
+        "form": "tsinH",
+        "normalized": "tsin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      },
+      {
+        "form": "tsinX",
+        "normalized": "tsin",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "tsin",
+    "ordinal": 3,
+    "numbering_source": "document_order_occurrence"
+  }
+}

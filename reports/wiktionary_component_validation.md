@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6187
-- Pages fetched / cached successfully: 6088
-- Additions with explicit Han-compound semantic/phonetic roles: 2785
+- Proposed additions checked: 6199
+- Pages fetched / cached successfully: 6108
+- Additions with explicit Han-compound semantic/phonetic roles: 2794
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5415,17 +5415,17 @@
 | `32-17` | 眘 | yes | no |  |  |
 | `32-18` | 陳 | yes | yes | 阜 | 東 |
 | `32-18` | 敶 | yes | no |  |  |
-| `32-18` | 陣 | no | no |  |  |
+| `32-18` | 陣 | yes | no |  |  |
 | `32-18` | 螴 | yes | no |  |  |
-| `32-19` | 田 | no | no |  |  |
+| `32-19` | 田 | yes | no |  |  |
 | `32-19` | 佃 | yes | no |  |  |
-| `32-19` | 畋 | no | no |  |  |
+| `32-19` | 畋 | yes | yes | 攴 | 田 |
 | `32-19` | 甸 | yes | yes | 人 | 田 |
 | `32-20` | 引 | yes | no |  |  |
 | `32-20` | 靷 | yes | no |  |  |
-| `32-20` | 蚓 | no | no |  |  |
+| `32-20` | 蚓 | yes | yes | 虫 | 引 |
 | `32-20` | 紖 | yes | no |  |  |
-| `32-21` | 絼 | no | no |  |  |
+| `32-21` | 絼 | yes | no |  |  |
 | `32-22` | 申 | yes | no |  |  |
 | `32-22` | 伸 | yes | yes | 人 | 申 |
 | `32-22` | 呻 | yes | no |  |  |
@@ -5433,12 +5433,12 @@
 | `32-22` | 神 | yes | yes | 示 | 申 |
 | `32-22` | 𣍃 | no | no |  |  |
 | `32-22` | 電 | yes | yes | 雨 | 申 |
-| `32-23` | 身 | no | no |  |  |
+| `32-23` | 身 | yes | no |  |  |
 | `32-23` | 𨌈 | no | no |  |  |
 | `32-24` | 舜 | yes | no |  |  |
-| `32-24` | 蕣 | no | no |  |  |
+| `32-24` | 蕣 | yes | no |  |  |
 | `32-24` | 瞬 | yes | yes | 目 | 舜 |
-| `32-24` | 瞚 | no | no |  |  |
+| `32-24` | 瞚 | yes | no |  |  |
 | `32-26` | 粦 | yes | no |  |  |
 | `32-26` | 燐 | yes | no |  |  |
 | `32-26` | 粼 | yes | yes | 巜 | 粦 |
@@ -5451,6 +5451,18 @@
 | `32-26` | 麟 | yes | yes | 鹿 | 粦 |
 | `32-26` | 鱗 | yes | yes | 魚 | 粦 |
 | `32-26` | 憐 | yes | yes | 心 | 粦 |
+| `32-27` | 覦 | yes | yes | 見 | 俞 |
+| `32-28` | 人 | yes | no |  |  |
+| `32-28` | 仁 | yes | yes | 二 | 人 |
+| `32-28` | 年 | yes | yes | 禾 | 人 |
+| `32-28` | 千 | yes | yes | 一 | 人 |
+| `32-28` | 阡 | yes | yes | 阜 | 千 |
+| `32-28` | 芊 | yes | yes | 艸 | 千 |
+| `32-29` | 晉 | yes | no |  |  |
+| `32-29` | 搢 | yes | no |  |  |
+| `32-29` | 縉 | yes | no |  |  |
+| `32-29` | 戩 | yes | no |  |  |
+| `32-30` | 進 | yes | yes | 辵 | 閵 |
 | `32-31` | 秦 | yes | no |  |  |
 | `32-31` | 螓 | yes | yes | 虫 | 秦 |
 | `32-31` | 榛 | yes | yes | 木 | 秦 |

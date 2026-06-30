@@ -255,7 +255,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -599,9 +599,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|田|攴|alt2=攵|ls=psc|c1=p|c2=s}}",
+          "positional_components": [
+            "田",
+            "攴"
+          ],
+          "positional_components_raw": [
+            "田",
+            "攴"
+          ],
+          "named_args": {
+            "alt2": "攵",
+            "ls": "psc",
+            "c1": "p",
+            "c2": "s"
+          },
+          "semantic_components": [
+            "攴"
+          ],
+          "phonetic_components": [
+            "田"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|田|攴|alt2=攵|ls=psc|c1=p|c2=s}}",
+            "positional_components": [
+              "田",
+              "攴"
+            ],
+            "positional_components_raw": [
+              "田",
+              "攴"
+            ],
+            "named_args": {
+              "alt2": "攵",
+              "ls": "psc",
+              "c1": "p",
+              "c2": "s"
+            },
+            "semantic_components": [
+              "攴"
+            ],
+            "phonetic_components": [
+              "田"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -630,19 +676,38 @@
         "position": "suffix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "攵",
-            "label_token": "fer",
+            "graph_raw": "攴",
+            "label_token": "fer(io)",
             "abbreviation": "fer",
-            "learned": true,
-            "evidence_count": 5
+            "start_line": 276
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "攵"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "攴"
       },
       "transliteration_latex": "{\\large{liṅ₂\\textsuperscript{·fer}}},",
       "render_latex": "畋\t%tian2 / dian4 / tián / diàn\n{\\large{liṅ₂\\textsuperscript{·fer}}},\n\\textit{den};\t%0362e\n\\textit{denH};",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "攴",
+        "phonetic_component": "田",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "畋",
+          "semantic_component": "攴",
+          "phonetic_component": "田",
+          "position": "suffix-dot",
+          "abbreviation": "fer",
+          "inventory_matches": [
+            {
+              "graph_raw": "攴",
+              "label_token": "fer(io)",
+              "abbreviation": "fer",
+              "start_line": 276
+            }
+          ],
+          "template_raw": "{{Han compound|田|攴|alt2=攵|ls=psc|c1=p|c2=s}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "田",

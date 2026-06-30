@@ -631,9 +631,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|虫|引|ls=psc|c1=s|c2=p|t1=insect; worm}}",
+          "positional_components": [
+            "虫",
+            "引"
+          ],
+          "positional_components_raw": [
+            "虫",
+            "引"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "insect; worm"
+          },
+          "semantic_components": [
+            "虫"
+          ],
+          "phonetic_components": [
+            "引"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|虫|引|ls=psc|c1=s|c2=p|t1=insect; worm}}",
+            "positional_components": [
+              "虫",
+              "引"
+            ],
+            "positional_components_raw": [
+              "虫",
+              "引"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "insect; worm"
+            },
+            "semantic_components": [
+              "虫"
+            ],
+            "phonetic_components": [
+              "引"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -681,12 +727,39 @@
             "evidence_count": 9
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "虫"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{serp·}lin₄}},",
       "render_latex": "蚓\t%yin3 / yǐn\n{\\large{\\textsuperscript{serp·}lin₄}},\n\\textit{yinX};\t%0371c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "虫",
+        "phonetic_component": "引",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "蚓",
+          "semantic_component": "虫",
+          "phonetic_component": "引",
+          "position": "prefix-dot",
+          "abbreviation": "serp",
+          "inventory_matches": [
+            {
+              "graph_raw": "虫",
+              "label_token": "serp(ens)",
+              "abbreviation": "serp",
+              "start_line": 388
+            },
+            {
+              "graph_raw": "虫",
+              "label_token": "serp",
+              "abbreviation": "serp",
+              "learned": true,
+              "evidence_count": 9
+            }
+          ],
+          "template_raw": "{{Han compound|虫|引|ls=psc|c1=s|c2=p|t1=insect; worm}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "引",
