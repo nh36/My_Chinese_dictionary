@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 904
+- Generated subgroup heads inspected: 907
 - Subgroups newly marked with `a`: 119
 - Subgroups newly marked with `b`: 100
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 300
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 303
 - Mixed subgroups left unmarked: 381
 - Unresolved subgroups left unmarked: 4
 
@@ -660,7 +660,10 @@
 | `22-13` | 兌 | `lot` | `lot` | `mixed` | no | `dwayH, thwayH, śiweyH, thwaH, yiwet, yiweyH, tshiweyH, dwat, thwat, ciwet, śiwet` | the extracted forms point to both type a and type b |
 | `22-14` | 寽 | `rut` | `rut` | `mixed` | no | `lwit, liwet, lwat` | the extracted forms point to both type a and type b |
 | `22-17` | 毳 | `tsop` | `ts\textoverset{b}{o}p` | `b` | yes | `tshiweyH, tṣhiweyH, chiweyH, chiwenH, tshiwet` | all extracted forms show an i-medial or a dedicated palatal onset |
+| `23-01` | 肩 | `ken` | `ken` | `a` | no | `ḫen, ḫən, ken, khaen, khen` | all extracted forms lack an i-medial after the onset |
+| `23-02` | 見 | `ken` | `ken` | `a` | no | `ḫenH, keanH, kenH, ḫenX, khenH, ḫeanH, ḫwaenX, ngenH` | all extracted forms lack an i-medial after the onset |
 | `23-03` | 幵 | `ker` | `ker` | `a` | no | `ken, ṅen` | all extracted forms lack an i-medial after the onset |
+| `23-04` | 遣 | `ken` | `ken` | `b` | no | `khienH, khienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `23-05` | 閒 | `ken` | `ken` | `a` | no | `ḫean, kean, keanH, keanX, hean, kaenH, heanX, ḫaenX` | all extracted forms lack an i-medial after the onset |
 | `23-05` | 間 | `ken` | `ken₂` | `a` | no | `kean, keanH, keanX, hean, kaenH` | all extracted forms lack an i-medial after the onset |
 | `23-07` | 柬 | `kan` | `k\textoverset{a}{a}n` | `a` | yes | `keanX, kaenH, lan, lanH, lanX, lenH` | all extracted forms lack an i-medial after the onset |

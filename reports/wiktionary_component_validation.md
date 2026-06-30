@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5602
-- Pages fetched / cached successfully: 5517
-- Additions with explicit Han-compound semantic/phonetic roles: 2566
+- Proposed additions checked: 5618
+- Pages fetched / cached successfully: 5532
+- Additions with explicit Han-compound semantic/phonetic roles: 2571
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3727,6 +3727,17 @@
 | `22-17` | 竁 | yes | no |  |  |
 | `22-17` | 膬 | yes | no |  |  |
 | `22-18` | 雪 | yes | yes | 雨 | 彗 |
+| `22-19` | 刷 | yes | yes | 刀 | 𡰯 |
+| `23-01` | 肩 | yes | no |  |  |
+| `23-01` | 𧱚 | no | no |  |  |
+| `23-01` | 猏 | yes | no |  |  |
+| `23-01` | 顅 | yes | no |  |  |
+| `23-02` | 見 | yes | no |  |  |
+| `23-02` | 現 | yes | yes | 玉 | 見 |
+| `23-02` | 俔 | yes | yes | 人 | 見 |
+| `23-02` | 睍 | yes | no |  |  |
+| `23-02` | 莧 | yes | no |  |  |
+| `23-02` | 硯 | yes | no |  |  |
 | `23-03` | 幵 | yes | no |  |  |
 | `23-03` | 豣 | yes | no |  |  |
 | `23-03` | 趼 | yes | no |  |  |
@@ -3736,6 +3747,9 @@
 | `23-03` | 研 | yes | yes | 石 | 幵 |
 | `23-03` | 枅 | yes | yes | 木 | 幵 |
 | `23-03` | 妍 | yes | yes | 女 | 幵 |
+| `23-04` | 遣 | yes | no |  |  |
+| `23-04` | 繾 | yes | no |  |  |
+| `23-04` | 譴 | yes | yes | 言 | 遣 |
 | `23-05` | 閒 | yes | no |  |  |
 | `23-05` | 間 | yes | no |  |  |
 | `23-05` | 簡 | yes | yes | 竹 | 閒 |
@@ -3744,6 +3758,7 @@
 | `23-05` | 瞷 | yes | no |  |  |
 | `23-05` | 澗 | yes | yes | 水 | 閒 |
 | `23-05` | 撊 | yes | no |  |  |
+| `23-06` | 閑 | yes | no |  |  |
 | `23-07` | 柬 | yes | no |  |  |
 | `23-07` | 諫 | yes | yes | 言 | 柬 |
 | `23-07` | 揀 | yes | yes | 手 | 柬 |
@@ -3757,6 +3772,7 @@
 | `23-07` | 蘭 | yes | yes | 艸 | 闌 |
 | `23-07` | 讕 | yes | yes | 言 | 闌 |
 | `23-07` | 欄 | yes | yes | 木 | 闌 |
+| `23-08` | 蠲 | yes | yes | 蜀 | 益 |
 | `23-10` | 員 | yes | no |  |  |
 | `23-10` | 圓 | yes | yes | 囗 | 員 |
 | `23-10` | 塤 | yes | yes | 土 | 員 |

@@ -1,8 +1,8 @@
 # Transcription numbering
 
 - Ordering source: integrated_render_order
-- Mutable series/subseries roots inspected: 1160
-- Roots whose display label changed after document-wide renumbering: 688
+- Mutable series/subseries roots inspected: 1166
+- Roots whose display label changed after document-wide renumbering: 689
 - Duplicate phonetic bases encountered in document order: 291
 
 | GSC | Kind | Character | Base root | Ordinal | Display root | Mutable |
@@ -1007,7 +1007,13 @@
 | `22-08` | `series-root` | 月 | `ṅat` | 3 | `ṅat₃` | yes |
 | `22-09` | `series-root` | 奪 | `lot` | 1 | `lot` | yes |
 | `22-10` | `series-root` | 叕 | `tot` | 1 | `tot` | yes |
+| `22-11` | `series-root` | 贅 | `kot` | 3 | `kot₃` | yes |
+| `22-12` | `series-root` | 叡 | `qot` | 1 | `qot` | yes |
 | `22-13` | `series-root` | 兌 | `lot` | 2 | `lot₂` | yes |
+| `22-14` | `series-root` | 寽 | `rut` | 1 | `rut` | yes |
+| `22-16` | `series-root` | 絕 | `tsot` | 1 | `tsot` | yes |
+| `22-17` | `series-root` | 毳 | `ts\textoverset{b}{o}p` | 1 | `ts\textoverset{b}{o}p` | yes |
+| `22-18` | `series-root` | 雪 | `sot` | 1 | `sot` | yes |
 | `23-03` | `series-root` | 幵 | `ker` | 1 | `ker` | yes |
 | `23-05` | `series-root` | 閒 | `ken` | 1 | `ken` | yes |
 | `23-05` | `subseries-root` | 間 | `ken` | 2 | `ken₂` | yes |
