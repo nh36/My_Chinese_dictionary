@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6210
-- Pages fetched / cached successfully: 6112
-- Additions with explicit Han-compound semantic/phonetic roles: 2796
+- Proposed additions checked: 6219
+- Pages fetched / cached successfully: 6127
+- Additions with explicit Han-compound semantic/phonetic roles: 2800
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5484,12 +5484,12 @@
 | `32-33` | 親 | yes | yes | 見 | 辛 |
 | `32-33` | 寴 | yes | yes | 宀 | 親 |
 | `32-33` | 櫬 | yes | no |  |  |
-| `32-35` | 卂 | no | no |  |  |
-| `32-35` | 迅 | no | no |  |  |
+| `32-35` | 卂 | yes | no |  |  |
+| `32-35` | 迅 | yes | yes | 辵 | 卂 |
 | `32-35` | 訊 | yes | yes | 言 | 卂 |
-| `32-35` | 䒖 | no | no |  |  |
+| `32-35` | 䒖 | yes | no |  |  |
 | `32-36` | 信 | yes | yes | 言 | 人 |
-| `32-37` | 甡 | no | no |  |  |
+| `32-37` | 甡 | yes | no |  |  |
 | `32-38` | 賔 | yes | no |  |  |
 | `32-38` | 儐 | yes | no |  |  |
 | `32-38` | 擯 | yes | yes | 手 | 賓 |
@@ -5504,7 +5504,7 @@
 | `32-38` | 臏 | yes | no |  |  |
 | `32-38` | 賓 | yes | yes | 貝 | 𡧍 |
 | `32-39` | 頻 | yes | no |  |  |
-| `32-39` | 嚬 | no | no |  |  |
+| `32-39` | 嚬 | yes | yes | 口 | 頻 |
 | `32-39` | 蘋 | yes | no |  |  |
 | `32-40` | 民 | yes | no |  |  |
 | `32-40` | 泯 | yes | no |  |  |
@@ -5554,7 +5554,7 @@
 | `33-02` | 蘄 | yes | yes | 艸 | 𰕣 |
 | `33-02` | 焮 | yes | no |  |  |
 | `33-02` | 掀 | yes | yes | 手 | 欣 |
-| `33-03` | 筋 | no | no |  |  |
+| `33-03` | 筋 | yes | no |  |  |
 | `33-04` | 𢀷 | no | no |  |  |
 | `33-05` | 𡏳 | yes | no |  |  |
 | `33-05` | 艱 | yes | yes | 𦰩 | 艮 |
@@ -5573,6 +5573,15 @@
 | `33-05` | 懃 | yes | yes | 心 | 勤 |
 | `33-05` | 㢙 | yes | no |  |  |
 | `33-05` | 螼 | yes | no |  |  |
+| `33-06` | 巾 | yes | no |  |  |
+| `33-07` | 釁 | yes | no |  |  |
+| `33-08` | 衅 | yes | no |  |  |
+| `33-09` | 殷 | yes | no |  |  |
+| `33-09` | 慇 | yes | yes | 心 | 殷 |
+| `33-10` | 隱 | yes | yes | 阜 | 㥯 |
+| `33-10` | 檃 | yes | no |  |  |
+| `33-11` | 典 | yes | no |  |  |
+| `33-11` | 腆 | yes | no |  |  |
 | `33-13` | 辰 | yes | no |  |  |
 | `33-13` | 晨 | yes | yes | 日 | 辰 |
 | `33-13` | 䢅 | yes | no |  |  |

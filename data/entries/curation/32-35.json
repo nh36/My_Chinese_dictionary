@@ -252,7 +252,7 @@
         }
       ],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },
@@ -377,9 +377,55 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|辵|卂|alt1=辶|ls=psc|c1=s|c2=p}}",
+          "positional_components": [
+            "辵",
+            "卂"
+          ],
+          "positional_components_raw": [
+            "辵",
+            "卂"
+          ],
+          "named_args": {
+            "alt1": "辶",
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p"
+          },
+          "semantic_components": [
+            "辵"
+          ],
+          "phonetic_components": [
+            "卂"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|辵|卂|alt1=辶|ls=psc|c1=s|c2=p}}",
+            "positional_components": [
+              "辵",
+              "卂"
+            ],
+            "positional_components_raw": [
+              "辵",
+              "卂"
+            ],
+            "named_args": {
+              "alt1": "辶",
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p"
+            },
+            "semantic_components": [
+              "辵"
+            ],
+            "phonetic_components": [
+              "卂"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -408,19 +454,38 @@
         "position": "prefix-dot",
         "inventory_matches": [
           {
-            "graph_raw": "辶",
-            "label_token": "amb",
+            "graph_raw": "辵",
+            "label_token": "amb(ulo)",
             "abbreviation": "amb",
-            "learned": true,
-            "evidence_count": 8
+            "start_line": 188
           }
         ],
-        "source": "ids_top_level",
-        "semantic_component": "辶"
+        "source": "wiktionary_han_compound",
+        "semantic_component": "辵"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{amb·}syn}},",
       "render_latex": "迅\t%xun4\n{\\large{\\textsuperscript{amb·}syn}},\n\\textit{swinH};\t%0383b",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "辵",
+        "phonetic_component": "卂",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "迅",
+          "semantic_component": "辵",
+          "phonetic_component": "卂",
+          "position": "prefix-dot",
+          "abbreviation": "amb",
+          "inventory_matches": [
+            {
+              "graph_raw": "辵",
+              "label_token": "amb(ulo)",
+              "abbreviation": "amb",
+              "start_line": 188
+            }
+          ],
+          "template_raw": "{{Han compound|辵|卂|alt1=辶|ls=psc|c1=s|c2=p}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "卂",
@@ -675,7 +740,7 @@
       "shengfu_character_rows": [],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
+        "available": true,
         "han_compound": null,
         "han_compounds": []
       },

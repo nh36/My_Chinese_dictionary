@@ -1053,6 +1053,12 @@ DEFAULT_IDS = [
     "32-39",
     "33-03",
     "33-04",
+    "33-06",
+    "33-07",
+    "33-08",
+    "33-09",
+    "33-10",
+    "33-11",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"

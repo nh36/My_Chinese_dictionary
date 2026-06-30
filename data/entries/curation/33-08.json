@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-06-30T12:54:35.191770+00:00",
+  "id": "33-08",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "33-08",
+    "rhyme_section": 33,
+    "series_number": 8,
+    "k_tokens": [
+      "447"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "",
+    "is_cross_reference_only": false,
+    "source_page_number": 352,
+    "source_line_number": 33,
+    "source_line_raw": "33-8 =K. 447"
+  },
+  "coverage": {
+    "gsc_id": "33-08",
+    "rhyme_section": "33",
+    "series_number": "8",
+    "schuessler_k_tokens": "447",
+    "schuessler_source_page": "352",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "衅",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "衅"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "447"
+  ],
+  "proposed_additions": [
+    {
+      "character": "衅",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hinH",
+          "hiɨnH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hinH",
+          "hiɨnH"
+        ],
+        "mand2mc_bs_forms": [
+          "xinH",
+          "xj+nH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3196",
+          "character": "衅",
+          "pinyin": "xin4",
+          "mc_nwh": "hinH",
+          "mc_bs": "xinH",
+          "gsr": "0447a"
+        },
+        {
+          "source_row_number": "3197",
+          "character": "衅",
+          "pinyin": "xin4",
+          "mc_nwh": "hiɨnH",
+          "mc_bs": "xj+nH",
+          "gsr": "0447a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{myr₄}},",
+      "render_latex": "衅\t%xin4\n{\\large{myr₄}},\n\\textit{hinH};\t%0447a\n\\textit{hiɨnH};",
+      "wiktionary_semantic_validation": null,
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "same_series_variant",
+        "semantic_component": null
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "衅",
+      "in_tex": false,
+      "mand2mc_count": 2,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 0,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hinH",
+          "hiɨnH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hinH",
+          "hiɨnH"
+        ],
+        "mand2mc_bs_forms": [
+          "xinH",
+          "xj+nH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "3196",
+          "character": "衅",
+          "pinyin": "xin4",
+          "mc_nwh": "hinH",
+          "mc_bs": "xinH",
+          "gsr": "0447a"
+        },
+        {
+          "source_row_number": "3197",
+          "character": "衅",
+          "pinyin": "xin4",
+          "mc_nwh": "hiɨnH",
+          "mc_bs": "xj+nH",
+          "gsr": "0447a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "衅",
+      "gsr": null,
+      "oc_bs": "*m̥rər-s",
+      "root": "myr",
+      "source": "same_character_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "same_character_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "myr",
+    "source": "same_character_series_root",
+    "character": "衅",
+    "oc_bs": "*m̥rər-s",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "same_character_series_root"
+    ],
+    "display_root": "myr₄",
+    "base_root": "myr",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}

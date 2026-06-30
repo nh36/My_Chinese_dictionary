@@ -306,9 +306,53 @@
       ],
       "shengfu_component_rows": [],
       "wiktionary_validation": {
-        "available": false,
-        "han_compound": null,
-        "han_compounds": []
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|口|頻|c1=s|c2=p|ls=psc}}",
+          "positional_components": [
+            "口",
+            "頻"
+          ],
+          "positional_components_raw": [
+            "口",
+            "頻"
+          ],
+          "named_args": {
+            "c1": "s",
+            "c2": "p",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "口"
+          ],
+          "phonetic_components": [
+            "頻"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|口|頻|c1=s|c2=p|ls=psc}}",
+            "positional_components": [
+              "口",
+              "頻"
+            ],
+            "positional_components_raw": [
+              "口",
+              "頻"
+            ],
+            "named_args": {
+              "c1": "s",
+              "c2": "p",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "口"
+            ],
+            "phonetic_components": [
+              "頻"
+            ]
+          }
+        ]
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
@@ -356,12 +400,39 @@
             "evidence_count": 18
           }
         ],
-        "source": "ids_top_level",
+        "source": "wiktionary_han_compound",
         "semantic_component": "口"
       },
       "transliteration_latex": "{\\large{\\textsuperscript{or·}pin₃}},",
       "render_latex": "嚬\t%pin2\n{\\large{\\textsuperscript{or·}pin₃}},\n\\textit{bin};\t%0390c",
-      "wiktionary_semantic_validation": null,
+      "wiktionary_semantic_validation": {
+        "semantic_component": "口",
+        "phonetic_component": "頻",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "嚬",
+          "semantic_component": "口",
+          "phonetic_component": "頻",
+          "position": "prefix-dot",
+          "abbreviation": "or",
+          "inventory_matches": [
+            {
+              "graph_raw": "口",
+              "label_token": "(os,) or(is)",
+              "abbreviation": "or",
+              "start_line": 344
+            },
+            {
+              "graph_raw": "口",
+              "label_token": "or",
+              "abbreviation": "or",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ],
+          "template_raw": "{{Han compound|口|頻|c1=s|c2=p|ls=psc}}"
+        }
+      },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
         "parent_character": "頻",
