@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-06-30T14:09:06.805269+00:00",
+  "gsc_id": "38-08",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "654"
+  ],
+  "schuessler": {
+    "gsc_id": "38-08",
+    "rhyme_section": 38,
+    "series_number": 8,
+    "k_tokens": [
+      "654"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.        MC                    LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 387,
+    "source_line_number": 28,
+    "source_line_raw": "38-8 = K. 654 Mand.        MC                    LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "38-08",
+    "rhyme_section": "38",
+    "series_number": "8",
+    "schuessler_k_tokens": "654",
+    "schuessler_source_page": "387",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "飲",
+    "bs_gsr_row_count": "2",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "飲",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "飲"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "飲",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "4812",
+          "character": "飲",
+          "pinyin": "yin4",
+          "mc_nwh": "qimH",
+          "mc_bs": "'imH",
+          "gsr": "0654a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "99",
+          "character": "飲",
+          "pinyin": "yìn",
+          "mc_bs": "'imH",
+          "mc_analyzed": "('- + -im C)",
+          "oc_bs": "*qəmʔ-s {*q(r)[ə]mʔ-s}",
+          "gloss": "give to drink",
+          "gsr": "0654a",
+          "unicode_utf16": "U+98F2"
+        },
+        {
+          "source_page_number": "99",
+          "character": "飲",
+          "pinyin": "yǐn",
+          "mc_bs": "'imX",
+          "mc_analyzed": "('- + -im B)",
+          "oc_bs": "*qəmʔ {*q(r)[ə]mʔ}",
+          "gloss": "drink (v.)",
+          "gsr": "0654a",
+          "unicode_utf16": "U+98F2"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "7182",
+          "character": "飲",
+          "phonetic_component": "今",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "於禁",
+          "source": "广韵",
+          "oc_initial": "qʳ",
+          "oc_rhyme": "ɯms",
+          "oc_syllable": "qʳɯms"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "qimH"
+        ],
+        "mand2mc_nwh_forms": [
+          "qimH"
+        ],
+        "mand2mc_bs_forms": [
+          "'imH"
+        ],
+        "bs_gsr_forms": [
+          "'imH",
+          "'imX"
+        ],
+        "bs_not_in_mand2mc": [
+          "'imX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "4812",
+        "character": "飲",
+        "pinyin": "yin4",
+        "mc_nwh": "qimH",
+        "mc_bs": "'imH",
+        "gsr": "0654a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "99",
+        "character": "飲",
+        "pinyin": "yìn",
+        "mc_bs": "'imH",
+        "mc_analyzed": "('- + -im C)",
+        "oc_bs": "*qəmʔ-s {*q(r)[ə]mʔ-s}",
+        "gloss": "give to drink",
+        "gsr": "0654a",
+        "unicode_utf16": "U+98F2"
+      },
+      {
+        "source_page_number": "99",
+        "character": "飲",
+        "pinyin": "yǐn",
+        "mc_bs": "'imX",
+        "mc_analyzed": "('- + -im B)",
+        "oc_bs": "*qəmʔ {*q(r)[ə]mʔ}",
+        "gloss": "drink (v.)",
+        "gsr": "0654a",
+        "unicode_utf16": "U+98F2"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

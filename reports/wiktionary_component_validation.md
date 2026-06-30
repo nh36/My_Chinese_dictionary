@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6424
-- Pages fetched / cached successfully: 6326
-- Additions with explicit Han-compound semantic/phonetic roles: 2876
+- Proposed additions checked: 6433
+- Pages fetched / cached successfully: 6332
+- Additions with explicit Han-compound semantic/phonetic roles: 2880
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -6285,7 +6285,7 @@
 | `37-21` | 颯 | yes | no |  |  |
 | `38-02` | 圅 | no | no |  |  |
 | `38-02` | 函 | yes | no |  |  |
-| `38-02` | 涵 | no | no |  |  |
+| `38-02` | 涵 | yes | yes | 水 | 函 |
 | `38-02` | 菡 | yes | yes | 艸 | 函 |
 | `38-03` | 今 | yes | no |  |  |
 | `38-03` | 𩃬 | yes | yes | 雲 | 今 |
@@ -6358,6 +6358,9 @@
 | `38-07` | 暗 | yes | yes | 日 | 音 |
 | `38-07` | 闇 | yes | yes | 門 | 音 |
 | `38-07` | 歆 | yes | no |  |  |
+| `38-08` | 飲 | yes | yes | 欠 | 酓 |
+| `38-09` | 儑 | no | no |  |  |
+| `38-10` | 碞 | no | no |  |  |
 | `38-11` | 甚 | yes | no |  |  |
 | `38-11` | 煁 | yes | no |  |  |
 | `38-11` | 諶 | yes | yes | 言 | 甚 |
@@ -6373,6 +6376,10 @@
 | `38-11` | 堪 | yes | yes | 土 | 甚 |
 | `38-11` | 戡 | yes | yes | 戈 | 甚 |
 | `38-11` | 嵁 | yes | no |  |  |
+| `38-12` | 闖 | yes | no |  |  |
+| `38-13` | 審 | no | no |  |  |
+| `38-13` | 瀋 | yes | yes | 水 | 審 |
+| `38-13` | 嬸 | no | no |  |  |
 | `38-14` | 冘 | yes | no |  |  |
 | `38-14` | 沈 | yes | yes | 水 | 冘 |
 | `38-14` | 酖 | yes | no |  |  |
@@ -6386,6 +6393,8 @@
 | `38-14` | 髧 | yes | no |  |  |
 | `38-14` | 黕 | yes | no |  |  |
 | `38-14` | 醓 | yes | no |  |  |
+| `38-15` | 㸒 | yes | no |  |  |
+| `38-15` | 淫 | yes | yes | 水 | 㸒 |
 | `38-16` | 覃 | yes | no |  |  |
 | `38-16` | 潭 | yes | yes | 水 | 覃 |
 | `38-16` | 譚 | yes | no |  |  |

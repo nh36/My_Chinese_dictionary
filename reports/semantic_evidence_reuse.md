@@ -1,15 +1,15 @@
 # Semantic evidence reuse
 
-- Curated entries inspected: 1126
-- Proposed additions inspected: 6424
-- Additions with reusable semantic assignment from existing TeX: 6424
-- Additions with reusable transliteration LaTeX from existing TeX: 6424
-- Additions with reusable render block from existing TeX: 6424
-- Additions with IDS-derived semantic candidates: 3924
-- Additions with explicit Wiktionary Han-compound support: 2853
+- Curated entries inspected: 1132
+- Proposed additions inspected: 6433
+- Additions with reusable semantic assignment from existing TeX: 6433
+- Additions with reusable transliteration LaTeX from existing TeX: 6433
+- Additions with reusable render block from existing TeX: 6433
+- Additions with IDS-derived semantic candidates: 3926
+- Additions with explicit Wiktionary Han-compound support: 2857
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4756
-- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 201
+- Additions assigned under generated candidate nodes: 4759
+- Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 203
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |
 | --- | ---: | ---: | ---: | ---: |
@@ -1133,8 +1133,14 @@
 | `38-05` | 14 | 14 | 14 | 14 |
 | `38-06` | 1 | 1 | 1 | 1 |
 | `38-07` | 8 | 8 | 8 | 8 |
+| `38-08` | 1 | 1 | 1 | 1 |
+| `38-09` | 1 | 1 | 1 | 1 |
+| `38-10` | 1 | 1 | 1 | 1 |
 | `38-11` | 15 | 15 | 15 | 15 |
+| `38-12` | 1 | 1 | 1 | 1 |
+| `38-13` | 3 | 3 | 3 | 3 |
 | `38-14` | 13 | 13 | 13 | 13 |
+| `38-15` | 2 | 2 | 2 | 2 |
 | `38-16` | 11 | 11 | 11 | 11 |
 | `38-18` | 9 | 9 | 9 | 9 |
 | `38-25` | 12 | 12 | 12 | 12 |
