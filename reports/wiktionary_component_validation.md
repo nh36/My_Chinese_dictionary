@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6060
-- Pages fetched / cached successfully: 5970
-- Additions with explicit Han-compound semantic/phonetic roles: 2742
+- Proposed additions checked: 6074
+- Pages fetched / cached successfully: 5984
+- Additions with explicit Han-compound semantic/phonetic roles: 2745
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5127,6 +5127,20 @@
 | `30-02` | 暨 | yes | yes | 旦 | 既 |
 | `30-03` | 器 | yes | no |  |  |
 | `30-04` | 洎 | yes | no |  |  |
+| `30-05` | 戛 | yes | no |  |  |
+| `30-06` | 愛 | yes | yes | 心 | 旡 |
+| `30-06` | 曖 | yes | yes | 日 | 愛 |
+| `30-06` | 薆 | yes | no |  |  |
+| `30-06` | 僾 | yes | no |  |  |
+| `30-07` | 乙 | yes | no |  |  |
+| `30-08` | 劓 | yes | no |  |  |
+| `30-09` | 豙 | yes | no |  |  |
+| `30-09` | 毅 | yes | yes | 殳 | 豙 |
+| `30-09` | 藙 | yes | no |  |  |
+| `30-10` | 質 | yes | no |  |  |
+| `30-10` | 鑕 | yes | no |  |  |
+| `30-10` | 躓 | yes | no |  |  |
+| `30-10` | 懫 | yes | no |  |  |
 | `30-11` | 隶 | yes | no |  |  |
 | `30-11` | 逮 | yes | yes | 辵 | 隶 |
 | `30-11` | 曃 | yes | no |  |  |
