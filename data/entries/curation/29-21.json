@@ -1,0 +1,280 @@
+{
+  "generated_at": "2026-06-30T10:45:35.706093+00:00",
+  "id": "29-21",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "29-21",
+    "rhyme_section": 29,
+    "series_number": 21,
+    "k_tokens": [
+      "397"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC            LHan           OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 325,
+    "source_line_number": 44,
+    "source_line_raw": "29-21 = K. 397       Man d.       MC            LHan           OCM"
+  },
+  "coverage": {
+    "gsc_id": "29-21",
+    "rhyme_section": "29",
+    "series_number": "21",
+    "schuessler_k_tokens": "397",
+    "schuessler_source_page": "325",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "佾",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "佾",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "佾"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "397"
+  ],
+  "proposed_additions": [
+    {
+      "character": "佾",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiet"
+        ],
+        "mand2mc_bs_forms": [
+          "yet"
+        ],
+        "bs_gsr_forms": [
+          "yit"
+        ],
+        "bs_not_in_mand2mc": [
+          "yit"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "yet"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2907",
+          "character": "佾",
+          "pinyin": "yi4",
+          "mc_nwh": "yiet",
+          "mc_bs": "yet",
+          "gsr": "0397a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "佾",
+          "pinyin": "yì",
+          "mc_bs": "yit",
+          "mc_analyzed": "(y- + -it D)",
+          "oc_bs": "*N.rit {*[N.]r[i]t}",
+          "gloss": "row of dancers",
+          "gsr": "0397a",
+          "unicode_utf16": "U+4F7E"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "10732",
+          "character": "佾",
+          "phonetic_component": "䏌",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "夷質",
+          "source": "广韵",
+          "oc_initial": "l",
+          "oc_rhyme": "ɯd",
+          "oc_syllable": "lɯd"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "佾",
+          "ids": "⿰亻䏌",
+          "phonetic_component": "䏌",
+          "semantic_component": "人",
+          "position": "prefix-dot",
+          "abbreviation": "hom",
+          "inventory_matches": [
+            {
+              "graph_raw": "人",
+              "label_token": "hom(o)",
+              "abbreviation": "hom",
+              "start_line": 298
+            },
+            {
+              "graph_raw": "人",
+              "label_token": "hom",
+              "abbreviation": "hom",
+              "learned": true,
+              "evidence_count": 18
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "hom",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "人",
+            "label_token": "hom(o)",
+            "abbreviation": "hom",
+            "start_line": 298
+          },
+          {
+            "graph_raw": "人",
+            "label_token": "hom",
+            "abbreviation": "hom",
+            "learned": true,
+            "evidence_count": 18
+          }
+        ],
+        "source": "ids_top_level",
+        "semantic_component": "人"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}rit₄}},",
+      "render_latex": "佾\t%yi4 / yì\n{\\large{\\textsuperscript{hom·}rit₄}},\n\\textit{yiet};\t%0397a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": null,
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "佾",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiet"
+        ],
+        "mand2mc_bs_forms": [
+          "yet"
+        ],
+        "bs_gsr_forms": [
+          "yit"
+        ],
+        "bs_not_in_mand2mc": [
+          "yit"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "yet"
+        ],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2907",
+          "character": "佾",
+          "pinyin": "yi4",
+          "mc_nwh": "yiet",
+          "mc_bs": "yet",
+          "gsr": "0397a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "佾",
+          "pinyin": "yì",
+          "mc_bs": "yit",
+          "mc_analyzed": "(y- + -it D)",
+          "oc_bs": "*N.rit {*[N.]r[i]t}",
+          "gloss": "row of dancers",
+          "gsr": "0397a",
+          "unicode_utf16": "U+4F7E"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "10732",
+          "character": "佾",
+          "phonetic_component": "䏌",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "夷質",
+          "source": "广韵",
+          "oc_initial": "l",
+          "oc_rhyme": "ɯd",
+          "oc_syllable": "lɯd"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "佾",
+      "gsr": "0397a",
+      "oc_bs": "*N.rit {*[N.]r[i]t}",
+      "root": "rit",
+      "source": "head_graph_oc_bs",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "rit",
+    "source": "head_graph_oc_bs",
+    "character": "佾",
+    "oc_bs": "*N.rit {*[N.]r[i]t}",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "rit₄",
+    "base_root": "rit",
+    "ordinal": 4,
+    "numbering_source": "document_order_occurrence"
+  }
+}

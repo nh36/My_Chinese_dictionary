@@ -1,9 +1,9 @@
 # a/b subseries classification
 
-- Generated subgroup heads inspected: 998
+- Generated subgroup heads inspected: 999
 - Subgroups newly marked with `a`: 133
 - Subgroups newly marked with `b`: 112
-- Uniform subgroups left unmarked because the root already signals the quality clearly: 333
+- Uniform subgroups left unmarked because the root already signals the quality clearly: 334
 - Mixed subgroups left unmarked: 416
 - Unresolved subgroups left unmarked: 4
 
@@ -689,7 +689,7 @@
 | `24-01` | 干 | `kar` | `kar` | `mixed` | no | `kan, hanH, ṅanH, kanH, hanX, hiən, kanX, kiən, khan, ḫanH, hwaenX, han` | the extracted forms point to both type a and type b |
 | `24-01` | 旱 | `kar` | `k\textoverset{a}{a}r` | `a` | yes | `hanX, ḫanH, hanH, hwaenX` | all extracted forms lack an i-medial after the onset |
 | `24-02` | 幹 | `kan` | `k\textoverset{a}{a}n₂` | `a` | yes | `kanH, kanX, hwanX` | all extracted forms lack an i-medial after the onset |
-| `24-03` | 侃 | `kan` | `kan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
+| `24-03` | 侃 | `qan` | `qan` | `mixed` | no | `khanH, khanX, khien, khienH, kjon` | the extracted forms point to both type a and type b |
 | `24-05` | 蹇 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kienX, kiənX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-08` | 建 | `kan` | `k\textoverset{b}{a}n` | `b` | yes | `kiənH, giənX, kiənX, kiən, gien, giənH, gienX` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `24-11` | 安 | `ʔan` | `ʔ\textoverset{a}{a}n` | `a` | yes | `qan, qanH, qaenH, qenH, qat, 'an` | all extracted forms lack an i-medial after the onset |
@@ -865,6 +865,7 @@
 | `29-15` | 至 | `tit` | `tit` | `mixed` | no | `ciyH, ṭiyH, ṭit, det, tet, cit, śit, ḍit` | the extracted forms point to both type a and type b |
 | `29-16` | 疐 | `lit` | `lit` | `mixed` | no | `teyH, ṭiyH, ṭhiyH, ciyH` | the extracted forms point to both type a and type b |
 | `29-17` | 失 | `lit` | `lit` | `mixed` | no | `śit, yit, det, ṭhit, ḍit` | the extracted forms point to both type a and type b |
+| `29-23` | 栗 | `rit` | `rit` | `b` | no | `lit` | all extracted forms show an i-medial or a dedicated palatal onset |
 | `29-26` | 日 | `nit` | `nit` | `mixed` | no | `ñit, ṇit, net` | the extracted forms point to both type a and type b |
 | `29-26` | 圼 | `nit` | `nit₂` | `a` | no | `net` | all extracted forms lack an i-medial after the onset |
 | `29-33` | 悉 | `qik` | `qik₄` | `b` | no | `sit, ṣit` | all extracted forms show an i-medial or a dedicated palatal onset |

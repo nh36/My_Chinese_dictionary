@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-06-30T10:45:35.445849+00:00",
+  "gsc_id": "29-21",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "397"
+  ],
+  "schuessler": {
+    "gsc_id": "29-21",
+    "rhyme_section": 29,
+    "series_number": 21,
+    "k_tokens": [
+      "397"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.       MC            LHan           OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 325,
+    "source_line_number": 44,
+    "source_line_raw": "29-21 = K. 397       Man d.       MC            LHan           OCM"
+  },
+  "coverage": {
+    "gsc_id": "29-21",
+    "rhyme_section": "29",
+    "series_number": "21",
+    "schuessler_k_tokens": "397",
+    "schuessler_source_page": "325",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "佾",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "佾",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "佾"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "佾",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2907",
+          "character": "佾",
+          "pinyin": "yi4",
+          "mc_nwh": "yiet",
+          "mc_bs": "yet",
+          "gsr": "0397a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "佾",
+          "pinyin": "yì",
+          "mc_bs": "yit",
+          "mc_analyzed": "(y- + -it D)",
+          "oc_bs": "*N.rit {*[N.]r[i]t}",
+          "gloss": "row of dancers",
+          "gsr": "0397a",
+          "unicode_utf16": "U+4F7E"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "10732",
+          "character": "佾",
+          "phonetic_component": "䏌",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "夷質",
+          "source": "广韵",
+          "oc_initial": "l",
+          "oc_rhyme": "ɯd",
+          "oc_syllable": "lɯd"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "yiet"
+        ],
+        "mand2mc_nwh_forms": [
+          "yiet"
+        ],
+        "mand2mc_bs_forms": [
+          "yet"
+        ],
+        "bs_gsr_forms": [
+          "yit"
+        ],
+        "bs_not_in_mand2mc": [
+          "yit"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "yet"
+        ],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2907",
+        "character": "佾",
+        "pinyin": "yi4",
+        "mc_nwh": "yiet",
+        "mc_bs": "yet",
+        "gsr": "0397a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "62",
+        "character": "佾",
+        "pinyin": "yì",
+        "mc_bs": "yit",
+        "mc_analyzed": "(y- + -it D)",
+        "oc_bs": "*N.rit {*[N.]r[i]t}",
+        "gloss": "row of dancers",
+        "gsr": "0397a",
+        "unicode_utf16": "U+4F7E"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

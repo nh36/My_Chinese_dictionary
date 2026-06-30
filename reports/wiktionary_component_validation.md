@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 6008
-- Pages fetched / cached successfully: 5918
-- Additions with explicit Han-compound semantic/phonetic roles: 2722
+- Proposed additions checked: 6016
+- Pages fetched / cached successfully: 5926
+- Additions with explicit Han-compound semantic/phonetic roles: 2724
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -5008,6 +5008,14 @@
 | `29-17` | 跌 | yes | yes | 足 | 失 |
 | `29-17` | 迭 | yes | yes | 辵 | 失 |
 | `29-17` | 眣 | yes | no |  |  |
+| `29-18` | 實 | yes | no |  |  |
+| `29-19` | 逸 | yes | no |  |  |
+| `29-20` | 溢 | yes | yes | 水 | 益 |
+| `29-21` | 佾 | yes | no |  |  |
+| `29-22` | 欥 | yes | no |  |  |
+| `29-23` | 栗 | yes | no |  |  |
+| `29-23` | 慄 | yes | yes | 心 | 栗 |
+| `29-23` | 瑮 | yes | no |  |  |
 | `29-26` | 日 | yes | no |  |  |
 | `29-26` | 衵 | yes | no |  |  |
 | `29-26` | 馹 | yes | no |  |  |

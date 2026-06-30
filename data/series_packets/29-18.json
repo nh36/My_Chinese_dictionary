@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-06-30T10:45:35.408001+00:00",
+  "gsc_id": "29-18",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "398"
+  ],
+  "schuessler": {
+    "gsc_id": "29-18",
+    "rhyme_section": 29,
+    "series_number": 18,
+    "k_tokens": [
+      "398"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Mand.       MC             LHan         OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 325,
+    "source_line_number": 28,
+    "source_line_raw": "29-18 = K. 398        Mand.       MC             LHan         OCM"
+  },
+  "coverage": {
+    "gsc_id": "29-18",
+    "rhyme_section": "29",
+    "series_number": "18",
+    "schuessler_k_tokens": "398",
+    "schuessler_source_page": "325",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "1",
+    "mand2mc_character_count": "1",
+    "mand2mc_characters_sample": "實",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "實",
+    "combined_source_character_count": "1",
+    "combined_source_characters_sample": "實"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "實",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "2908",
+          "character": "實",
+          "pinyin": "shi2",
+          "mc_nwh": "jit",
+          "mc_bs": "dzyit",
+          "gsr": "0398a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "62",
+          "character": "實",
+          "pinyin": "shí",
+          "mc_bs": "zyit",
+          "mc_analyzed": "(zy- + -it D)",
+          "oc_bs": "*mə.lit {*mə.li[t]}",
+          "gloss": "fruit; full",
+          "gsr": "0398a",
+          "unicode_utf16": "U+5BE6"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "12162",
+          "character": "實",
+          "phonetic_component": "實",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神質",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "ɢlʲiɡ"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "12162",
+          "character": "實",
+          "phonetic_component": "實",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "神質",
+          "source": "广韵",
+          "oc_initial": "ɢlʲ",
+          "oc_rhyme": "iɡ",
+          "oc_syllable": "ɢlʲiɡ"
+        }
+      ],
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "jit"
+        ],
+        "mand2mc_nwh_forms": [
+          "jit"
+        ],
+        "mand2mc_bs_forms": [
+          "dzyit"
+        ],
+        "bs_gsr_forms": [
+          "zyit"
+        ],
+        "bs_not_in_mand2mc": [
+          "zyit"
+        ],
+        "mand2mc_not_in_bs_gsr": [
+          "dzyit"
+        ],
+        "needs_investigation": true
+      },
+      "mand_bs_mc_disagreement": true
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "2908",
+        "character": "實",
+        "pinyin": "shi2",
+        "mc_nwh": "jit",
+        "mc_bs": "dzyit",
+        "gsr": "0398a"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "62",
+        "character": "實",
+        "pinyin": "shí",
+        "mc_bs": "zyit",
+        "mc_analyzed": "(zy- + -it D)",
+        "oc_bs": "*mə.lit {*mə.li[t]}",
+        "gloss": "fruit; full",
+        "gsr": "0398a",
+        "unicode_utf16": "U+5BE6"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}
