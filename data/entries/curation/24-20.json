@@ -1,0 +1,594 @@
+{
+  "generated_at": "2026-06-30T09:16:42.621653+00:00",
+  "id": "24-20",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "24-20",
+    "rhyme_section": 24,
+    "series_number": 20,
+    "k_tokens": [
+      "150"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC            LHan                    OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 280,
+    "source_line_number": 13,
+    "source_line_raw": "24-20 = K. 150     Man d.        MC            LHan                    OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-20",
+    "rhyme_section": "24",
+    "series_number": "20",
+    "schuessler_k_tokens": "150",
+    "schuessler_source_page": "280",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "丹; 旃",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "丹",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "丹; 旃"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "150"
+  ],
+  "proposed_additions": [
+    {
+      "character": "丹",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tan"
+        ],
+        "mand2mc_nwh_forms": [
+          "tan"
+        ],
+        "mand2mc_bs_forms": [
+          "tan"
+        ],
+        "bs_gsr_forms": [
+          "tan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1309",
+          "character": "丹",
+          "pinyin": "dan1",
+          "mc_nwh": "tan",
+          "mc_bs": "tan",
+          "gsr": "0150a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "32",
+          "character": "丹",
+          "pinyin": "dān",
+          "mc_bs": "tan",
+          "mc_analyzed": "(t- + -an A)",
+          "oc_bs": "*tˤan",
+          "gloss": "cinnabar",
+          "gsr": "0150a",
+          "unicode_utf16": "U+4E39"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        },
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        },
+        {
+          "source_row_number": "2128",
+          "character": "𩔣",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{tan₂}},",
+      "render_latex": "丹\t%dan1 / dān\n{\\large{tan₂}},\n\\textit{tan};\t%0150a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "丹",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "丹"
+      },
+      "resolved_node_root": {
+        "root": "tan",
+        "source": "node_inherit_parent",
+        "descendant_count": 1,
+        "bs_support_count": 1,
+        "bs_broad_roots": [
+          "tan"
+        ],
+        "bs_node_roots": [
+          "tan"
+        ],
+        "display_root": "tan",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "tan",
+          "cien"
+        ],
+        "form_analyses": [
+          {
+            "form": "tan",
+            "normalized": "tan",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "cien",
+            "normalized": "cien",
+            "class": "b",
+            "reason": "palatal_initial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "旃",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cien"
+        ],
+        "mand2mc_nwh_forms": [
+          "cien"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyen"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1310",
+          "character": "旃",
+          "pinyin": "zhan1",
+          "mc_nwh": "cien",
+          "mc_bs": "tsyen",
+          "gsr": "0150c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|㫃|丹|ls=psc|c1=s|c2=p|t1=flags flying}}",
+          "positional_components": [
+            "㫃",
+            "丹"
+          ],
+          "positional_components_raw": [
+            "㫃",
+            "丹"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "c1": "s",
+            "c2": "p",
+            "t1": "flags flying"
+          },
+          "semantic_components": [
+            "㫃"
+          ],
+          "phonetic_components": [
+            "丹"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|㫃|丹|ls=psc|c1=s|c2=p|t1=flags flying}}",
+            "positional_components": [
+              "㫃",
+              "丹"
+            ],
+            "positional_components_raw": [
+              "㫃",
+              "丹"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "c1": "s",
+              "c2": "p",
+              "t1": "flags flying"
+            },
+            "semantic_components": [
+              "㫃"
+            ],
+            "phonetic_components": [
+              "丹"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "旃",
+          "ids": "⿰方⿱𠂉丹",
+          "phonetic_component": "丹",
+          "semantic_component": "方",
+          "position": "prefix-dot",
+          "abbreviation": "quadr",
+          "inventory_matches": [
+            {
+              "graph_raw": "方",
+              "label_token": "quadr(us)",
+              "abbreviation": "quadr",
+              "start_line": 374
+            }
+          ]
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "vex",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "㫃",
+            "label_token": "vex(illum)",
+            "abbreviation": "vex",
+            "start_line": 436
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "㫃"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{vex·}tan₂}},",
+      "render_latex": "旃\t%zhan1\n{\\large{\\textsuperscript{vex·}tan₂}},\n\\textit{cien};\t%0150c",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "㫃",
+        "phonetic_component": "丹",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "旃",
+          "semantic_component": "㫃",
+          "phonetic_component": "丹",
+          "position": "prefix-dot",
+          "abbreviation": "vex",
+          "inventory_matches": [
+            {
+              "graph_raw": "㫃",
+              "label_token": "vex(illum)",
+              "abbreviation": "vex",
+              "start_line": 436
+            }
+          ],
+          "template_raw": "{{Han compound|㫃|丹|ls=psc|c1=s|c2=p|t1=flags flying}}"
+        }
+      },
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "丹",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "丹"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "丹",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 3,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tan"
+        ],
+        "mand2mc_nwh_forms": [
+          "tan"
+        ],
+        "mand2mc_bs_forms": [
+          "tan"
+        ],
+        "bs_gsr_forms": [
+          "tan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1309",
+          "character": "丹",
+          "pinyin": "dan1",
+          "mc_nwh": "tan",
+          "mc_bs": "tan",
+          "gsr": "0150a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "32",
+          "character": "丹",
+          "pinyin": "dān",
+          "mc_bs": "tan",
+          "mc_analyzed": "(t- + -an A)",
+          "oc_bs": "*tˤan",
+          "gloss": "cinnabar",
+          "gsr": "0150a",
+          "unicode_utf16": "U+4E39"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        },
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        },
+        {
+          "source_row_number": "2128",
+          "character": "𩔣",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ]
+    },
+    {
+      "character": "旃",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cien"
+        ],
+        "mand2mc_nwh_forms": [
+          "cien"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyen"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1310",
+          "character": "旃",
+          "pinyin": "zhan1",
+          "mc_nwh": "cien",
+          "mc_bs": "tsyen",
+          "gsr": "0150c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "丹",
+      "gsr": "0150a",
+      "oc_bs": "*tˤan",
+      "root": "tan",
+      "source": "head_graph_oc_bs",
+      "support_count": 2,
+      "supporting_sources": [
+        "head_graph_oc_bs",
+        "head_graph_oc_shengfu"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "tan",
+    "source": "head_graph_oc_bs",
+    "character": "丹",
+    "oc_bs": "*tˤan",
+    "confidence": "provisional-oc",
+    "support_count": 2,
+    "supporting_sources": [
+      "head_graph_oc_bs",
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "tan₂",
+    "division_class": "mixed",
+    "division_note": "the extracted forms point to both type a and type b",
+    "mark_required": false,
+    "mc_forms": [
+      "tan",
+      "cien"
+    ],
+    "form_analyses": [
+      {
+        "form": "tan",
+        "normalized": "tan",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "cien",
+        "normalized": "cien",
+        "class": "b",
+        "reason": "palatal_initial"
+      }
+    ],
+    "base_root": "tan",
+    "ordinal": 2,
+    "numbering_source": "document_order_occurrence"
+  }
+}

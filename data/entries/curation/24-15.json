@@ -1,0 +1,1352 @@
+{
+  "generated_at": "2026-06-30T09:16:42.620379+00:00",
+  "id": "24-15",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "24-15",
+    "rhyme_section": 24,
+    "series_number": 15,
+    "k_tokens": [
+      "145",
+      "186"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "MC               LHan            OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 279,
+    "source_line_number": 24,
+    "source_line_raw": "24-15 = K. 145, 186                  MC               LHan            OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-15",
+    "rhyme_section": "24",
+    "series_number": "15",
+    "schuessler_k_tokens": "145; 186",
+    "schuessler_source_page": "279",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "3",
+    "mand2mc_character_count": "3",
+    "mand2mc_characters_sample": "厂; 鴈; 雁",
+    "bs_gsr_row_count": "4",
+    "bs_gsr_character_count": "3",
+    "bs_gsr_characters_sample": "厂; 鴈; 雁",
+    "combined_source_character_count": "3",
+    "combined_source_characters_sample": "厂; 鴈; 雁"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "145",
+    "186"
+  ],
+  "proposed_additions": [
+    {
+      "character": "厂",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 23,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hanH"
+        ],
+        "mand2mc_bs_forms": [
+          "xanH"
+        ],
+        "bs_gsr_forms": [
+          "xanH",
+          "xanX"
+        ],
+        "bs_not_in_mand2mc": [
+          "xanX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1231",
+          "character": "厂",
+          "pinyin": "han4",
+          "mc_nwh": "hanH",
+          "mc_bs": "xanH",
+          "gsr": "0145a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "30",
+          "character": "厂",
+          "pinyin": "hàn",
+          "mc_bs": "xanH",
+          "mc_analyzed": "(x- + -an C)",
+          "oc_bs": "*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}",
+          "gloss": "cliff",
+          "gsr": "0145a",
+          "unicode_utf16": "U+5382"
+        },
+        {
+          "source_page_number": "30",
+          "character": "厂",
+          "pinyin": "hàn",
+          "mc_bs": "xanX",
+          "mc_analyzed": "(x- + -an B)",
+          "oc_bs": "*ŋ̊ˤarʔ",
+          "gloss": "cliff",
+          "gsr": "0145a",
+          "unicode_utf16": "U+5382"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1352",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旱",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "ŋ̊ʰa̠nʔ"
+        },
+        {
+          "source_row_number": "1357",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旰",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋ̊ʰa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "1352",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旱",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "ŋ̊ʰa̠nʔ"
+        },
+        {
+          "source_row_number": "1353",
+          "character": "屵",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "語偃",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "anʔ",
+          "oc_syllable": "ŋanʔ"
+        },
+        {
+          "source_row_number": "1354",
+          "character": "㷳",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五旰",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1355",
+          "character": "喭",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "五旰",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1356",
+          "character": "諺",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚旰",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1357",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旰",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋ̊ʰa̠ns"
+        },
+        {
+          "source_row_number": "1358",
+          "character": "鴈",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        },
+        {
+          "source_row_number": "1359",
+          "character": "雁",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        },
+        {
+          "source_row_number": "1360",
+          "character": "顏",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "五姦",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "e̠n",
+          "oc_syllable": "ŋʳe̠n"
+        },
+        {
+          "source_row_number": "1361",
+          "character": "㘖",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "牛姦",
+          "source": "集韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "e̠n",
+          "oc_syllable": "ŋʳe̠n"
+        },
+        {
+          "source_row_number": "1362",
+          "character": "產",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1363",
+          "character": "㹌",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1364",
+          "character": "嵼",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1365",
+          "character": "滻",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1366",
+          "character": "鏟",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "初限",
+          "source": "广韵",
+          "oc_initial": "sŋ̊r",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋ̊re̠nʔ"
+        },
+        {
+          "source_row_number": "1367",
+          "character": "齴",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1368",
+          "character": "遃",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1369",
+          "character": "嵃",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1370",
+          "character": "鏟",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "初鴈",
+          "source": "广韵",
+          "oc_initial": "sŋ̊r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "sŋ̊re̠ns"
+        },
+        {
+          "source_row_number": "1371",
+          "character": "彥",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚變",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "ens",
+          "oc_syllable": "ŋʳens"
+        },
+        {
+          "source_row_number": "1372",
+          "character": "諺",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚戰",
+          "source": "集韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "ens",
+          "oc_syllable": "ŋʳens"
+        },
+        {
+          "source_row_number": "1373",
+          "character": "屵",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五割",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠d",
+          "oc_syllable": "ŋa̠d"
+        },
+        {
+          "source_row_number": "3838",
+          "character": "炭",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "他旦",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʰla̠ns"
+        }
+      ],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "self_phonetic_base",
+        "semantic_component": null
+      },
+      "transliteration_latex": "{\\large{ṅ\\textoverset{a}{a}r}},",
+      "render_latex": "厂\t%han4 / hàn\n{\\large{ṅ\\textoverset{a}{a}r}},\n\\textit{hanH};\t%0145a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-top-level",
+        "parent_character": "厂",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "厂"
+      },
+      "resolved_node_root": {
+        "root": "ṅar",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 2,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "ṅar"
+        ],
+        "bs_node_roots": [
+          "ŋar",
+          "ŋrar"
+        ],
+        "display_root": "ṅ\\textoverset{a}{a}r",
+        "division_class": "a",
+        "division_note": "all extracted forms lack an i-medial after the onset",
+        "mark_required": true,
+        "mc_forms": [
+          "hanH",
+          "ṅaenH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hanH",
+            "normalized": "han",
+            "class": "a",
+            "reason": "no_i_medial"
+          },
+          {
+            "form": "ṅaenH",
+            "normalized": "ṅaen",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "鴈",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaenH"
+        ],
+        "bs_gsr_forms": [
+          "ngaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1570",
+          "character": "鴈",
+          "pinyin": "yan4",
+          "mc_nwh": "ṅaenH",
+          "mc_bs": "ngaenH",
+          "gsr": "0186a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "37",
+          "character": "鴈",
+          "pinyin": "yàn",
+          "mc_bs": "ngaenH",
+          "mc_analyzed": "(ng- + -aen C)",
+          "oc_bs": "*ŋˤrar-s",
+          "gloss": "wild goose",
+          "gsr": "0186a",
+          "unicode_utf16": "U+9D08"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1358",
+          "character": "鴈",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厂|人|鳥|c1=p|c2=s|c3=s|ls=psc|t3=bird}}",
+          "positional_components": [
+            "厂",
+            "人",
+            "鳥"
+          ],
+          "positional_components_raw": [
+            "厂",
+            "人",
+            "鳥"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "c3": "s",
+            "ls": "psc",
+            "t3": "bird"
+          },
+          "semantic_components": [
+            "人",
+            "鳥"
+          ],
+          "phonetic_components": [
+            "厂"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厂|人|鳥|c1=p|c2=s|c3=s|ls=psc|t3=bird}}",
+            "positional_components": [
+              "厂",
+              "人",
+              "鳥"
+            ],
+            "positional_components_raw": [
+              "厂",
+              "人",
+              "鳥"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "c3": "s",
+              "ls": "psc",
+              "t3": "bird"
+            },
+            "semantic_components": [
+              "人",
+              "鳥"
+            ],
+            "phonetic_components": [
+              "厂"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "鴈",
+          "ids": "⿸厂𠌵",
+          "phonetic_component": "厂",
+          "semantic_component": "𠌵",
+          "position": "suffix-dot",
+          "abbreviation": "𠌵",
+          "inventory_matches": []
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "𠌵",
+        "position": "suffix-dot",
+        "inventory_matches": [],
+        "source": "ids_component_literal_fallback",
+        "semantic_component": "𠌵"
+      },
+      "transliteration_latex": "{\\large{ṅ\\textoverset{a}{a}r\\textsuperscript{·𠌵}}},",
+      "render_latex": "鴈\t%yan4 / yàn\n{\\large{ṅ\\textoverset{a}{a}r\\textsuperscript{·𠌵}}},\n\\textit{ṅaenH};\t%0186a",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厂",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "厂"
+      },
+      "resolved_node_root": null
+    },
+    {
+      "character": "雁",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaenH"
+        ],
+        "bs_gsr_forms": [
+          "ngaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1571",
+          "character": "雁",
+          "pinyin": "yan4",
+          "mc_nwh": "ṅaenH",
+          "mc_bs": "ngaenH",
+          "gsr": "0186b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "37",
+          "character": "雁",
+          "pinyin": "yàn",
+          "mc_bs": "ngaenH",
+          "mc_analyzed": "(ng- + -aen C)",
+          "oc_bs": "*C.ŋˤrar-s {*C.[ŋ]ˤrar-s}",
+          "gloss": "kind of wild goose",
+          "gsr": "0186b",
+          "unicode_utf16": "U+96C1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1359",
+          "character": "雁",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|厂|人|隹|c1=p|c2=s|c3=s|ls=psc}}",
+          "positional_components": [
+            "厂",
+            "人",
+            "隹"
+          ],
+          "positional_components_raw": [
+            "厂",
+            "人",
+            "隹"
+          ],
+          "named_args": {
+            "c1": "p",
+            "c2": "s",
+            "c3": "s",
+            "ls": "psc"
+          },
+          "semantic_components": [
+            "人",
+            "隹"
+          ],
+          "phonetic_components": [
+            "厂"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|厂|人|隹|c1=p|c2=s|c3=s|ls=psc}}",
+            "positional_components": [
+              "厂",
+              "人",
+              "隹"
+            ],
+            "positional_components_raw": [
+              "厂",
+              "人",
+              "隹"
+            ],
+            "named_args": {
+              "c1": "p",
+              "c2": "s",
+              "c3": "s",
+              "ls": "psc"
+            },
+            "semantic_components": [
+              "人",
+              "隹"
+            ],
+            "phonetic_components": [
+              "厂"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_component_literal_fallback",
+          "character": "雁",
+          "ids": "⿸厂倠",
+          "phonetic_component": "厂",
+          "semantic_component": "倠",
+          "position": "suffix-dot",
+          "abbreviation": "倠",
+          "inventory_matches": []
+        }
+      ],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "倠",
+        "position": "suffix-dot",
+        "inventory_matches": [],
+        "source": "ids_component_literal_fallback",
+        "semantic_component": "倠"
+      },
+      "transliteration_latex": "{\\large{ṅ\\textoverset{a}{a}r\\textsuperscript{·倠}}},",
+      "render_latex": "雁\t%yan4 / yàn\n{\\large{ṅ\\textoverset{a}{a}r\\textsuperscript{·倠}}},\n\\textit{ṅaenH};\t%0186b",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "厂",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "厂"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "厂",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 2,
+      "shengfu_character_count": 2,
+      "shengfu_component_count": 23,
+      "mand_bs_mc_disagreement": true,
+      "mc_resolution": {
+        "status": "investigate-bs-not-in-mand2mc",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hanH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hanH"
+        ],
+        "mand2mc_bs_forms": [
+          "xanH"
+        ],
+        "bs_gsr_forms": [
+          "xanH",
+          "xanX"
+        ],
+        "bs_not_in_mand2mc": [
+          "xanX"
+        ],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": true
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1231",
+          "character": "厂",
+          "pinyin": "han4",
+          "mc_nwh": "hanH",
+          "mc_bs": "xanH",
+          "gsr": "0145a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "30",
+          "character": "厂",
+          "pinyin": "hàn",
+          "mc_bs": "xanH",
+          "mc_analyzed": "(x- + -an C)",
+          "oc_bs": "*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}",
+          "gloss": "cliff",
+          "gsr": "0145a",
+          "unicode_utf16": "U+5382"
+        },
+        {
+          "source_page_number": "30",
+          "character": "厂",
+          "pinyin": "hàn",
+          "mc_bs": "xanX",
+          "mc_analyzed": "(x- + -an B)",
+          "oc_bs": "*ŋ̊ˤarʔ",
+          "gloss": "cliff",
+          "gsr": "0145a",
+          "unicode_utf16": "U+5382"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1352",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旱",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "ŋ̊ʰa̠nʔ"
+        },
+        {
+          "source_row_number": "1357",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旰",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋ̊ʰa̠ns"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "1352",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旱",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠nʔ",
+          "oc_syllable": "ŋ̊ʰa̠nʔ"
+        },
+        {
+          "source_row_number": "1353",
+          "character": "屵",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "語偃",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "anʔ",
+          "oc_syllable": "ŋanʔ"
+        },
+        {
+          "source_row_number": "1354",
+          "character": "㷳",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五旰",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1355",
+          "character": "喭",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "五旰",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1356",
+          "character": "諺",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚旰",
+          "source": "集韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋa̠ns"
+        },
+        {
+          "source_row_number": "1357",
+          "character": "厂",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "呼旰",
+          "source": "广韵",
+          "oc_initial": "ŋ̊ʰ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋ̊ʰa̠ns"
+        },
+        {
+          "source_row_number": "1358",
+          "character": "鴈",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        },
+        {
+          "source_row_number": "1359",
+          "character": "雁",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        },
+        {
+          "source_row_number": "1360",
+          "character": "顏",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "五姦",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "e̠n",
+          "oc_syllable": "ŋʳe̠n"
+        },
+        {
+          "source_row_number": "1361",
+          "character": "㘖",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "牛姦",
+          "source": "集韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "e̠n",
+          "oc_syllable": "ŋʳe̠n"
+        },
+        {
+          "source_row_number": "1362",
+          "character": "產",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1363",
+          "character": "㹌",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1364",
+          "character": "嵼",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1365",
+          "character": "滻",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "所𥳑",
+          "source": "广韵",
+          "oc_initial": "sŋʳ",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋʳe̠nʔ"
+        },
+        {
+          "source_row_number": "1366",
+          "character": "鏟",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "初限",
+          "source": "广韵",
+          "oc_initial": "sŋ̊r",
+          "oc_rhyme": "e̠nʔ",
+          "oc_syllable": "sŋ̊re̠nʔ"
+        },
+        {
+          "source_row_number": "1367",
+          "character": "齴",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1368",
+          "character": "遃",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1369",
+          "character": "嵃",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚蹇",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "enʔ",
+          "oc_syllable": "ŋʳenʔ"
+        },
+        {
+          "source_row_number": "1370",
+          "character": "鏟",
+          "phonetic_component": "厂",
+          "component_level": "3",
+          "secondary_component": "產",
+          "fanqie": "初鴈",
+          "source": "广韵",
+          "oc_initial": "sŋ̊r",
+          "oc_rhyme": "e̠ns",
+          "oc_syllable": "sŋ̊re̠ns"
+        },
+        {
+          "source_row_number": "1371",
+          "character": "彥",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚變",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "ens",
+          "oc_syllable": "ŋʳens"
+        },
+        {
+          "source_row_number": "1372",
+          "character": "諺",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "魚戰",
+          "source": "集韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "ens",
+          "oc_syllable": "ŋʳens"
+        },
+        {
+          "source_row_number": "1373",
+          "character": "屵",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五割",
+          "source": "广韵",
+          "oc_initial": "ŋ",
+          "oc_rhyme": "a̠d",
+          "oc_syllable": "ŋa̠d"
+        },
+        {
+          "source_row_number": "3838",
+          "character": "炭",
+          "phonetic_component": "厂",
+          "component_level": "2",
+          "secondary_component": "产（彥）",
+          "fanqie": "他旦",
+          "source": "广韵",
+          "oc_initial": "kʰl",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "kʰla̠ns"
+        }
+      ]
+    },
+    {
+      "character": "鴈",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaenH"
+        ],
+        "bs_gsr_forms": [
+          "ngaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1570",
+          "character": "鴈",
+          "pinyin": "yan4",
+          "mc_nwh": "ṅaenH",
+          "mc_bs": "ngaenH",
+          "gsr": "0186a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "37",
+          "character": "鴈",
+          "pinyin": "yàn",
+          "mc_bs": "ngaenH",
+          "mc_analyzed": "(ng- + -aen C)",
+          "oc_bs": "*ŋˤrar-s",
+          "gloss": "wild goose",
+          "gsr": "0186a",
+          "unicode_utf16": "U+9D08"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1358",
+          "character": "鴈",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "雁",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 1,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_nwh_forms": [
+          "ṅaenH"
+        ],
+        "mand2mc_bs_forms": [
+          "ngaenH"
+        ],
+        "bs_gsr_forms": [
+          "ngaenH"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1571",
+          "character": "雁",
+          "pinyin": "yan4",
+          "mc_nwh": "ṅaenH",
+          "mc_bs": "ngaenH",
+          "gsr": "0186b"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "37",
+          "character": "雁",
+          "pinyin": "yàn",
+          "mc_bs": "ngaenH",
+          "mc_analyzed": "(ng- + -aen C)",
+          "oc_bs": "*C.ŋˤrar-s {*C.[ŋ]ˤrar-s}",
+          "gloss": "kind of wild goose",
+          "gsr": "0186b",
+          "unicode_utf16": "U+96C1"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "1359",
+          "character": "雁",
+          "phonetic_component": "厂",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "五晏",
+          "source": "广韵",
+          "oc_initial": "ŋʳ",
+          "oc_rhyme": "a̠ns",
+          "oc_syllable": "ŋʳa̠ns"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "厂",
+      "gsr": "0145a",
+      "oc_bs": "*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}",
+      "root": "ṅar",
+      "source": "head_graph_oc_bs",
+      "support_count": 3,
+      "supporting_sources": [
+        "head_graph_oc_bs"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "ṅar",
+    "source": "head_graph_oc_bs",
+    "character": "厂",
+    "oc_bs": "*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}",
+    "confidence": "provisional-oc",
+    "support_count": 3,
+    "supporting_sources": [
+      "head_graph_oc_bs"
+    ],
+    "display_root": "ṅ\\textoverset{a}{a}r",
+    "division_class": "a",
+    "division_note": "all extracted forms lack an i-medial after the onset",
+    "mark_required": true,
+    "mc_forms": [
+      "hanH",
+      "ṅaenH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hanH",
+        "normalized": "han",
+        "class": "a",
+        "reason": "no_i_medial"
+      },
+      {
+        "form": "ṅaenH",
+        "normalized": "ṅaen",
+        "class": "a",
+        "reason": "no_i_medial"
+      }
+    ],
+    "base_root": "ṅ\\textoverset{a}{a}r",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

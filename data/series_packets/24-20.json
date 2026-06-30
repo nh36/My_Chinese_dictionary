@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-06-30T09:16:42.419967+00:00",
+  "gsc_id": "24-20",
+  "packet_kind": "missing_series",
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "150"
+  ],
+  "schuessler": {
+    "gsc_id": "24-20",
+    "rhyme_section": 24,
+    "series_number": 20,
+    "k_tokens": [
+      "150"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.        MC            LHan                    OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 280,
+    "source_line_number": 13,
+    "source_line_raw": "24-20 = K. 150     Man d.        MC            LHan                    OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-20",
+    "rhyme_section": "24",
+    "series_number": "20",
+    "schuessler_k_tokens": "150",
+    "schuessler_source_page": "280",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "丹; 旃",
+    "bs_gsr_row_count": "1",
+    "bs_gsr_character_count": "1",
+    "bs_gsr_characters_sample": "丹",
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "丹; 旃"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_characters": [
+    {
+      "character": "丹",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1309",
+          "character": "丹",
+          "pinyin": "dan1",
+          "mc_nwh": "tan",
+          "mc_bs": "tan",
+          "gsr": "0150a"
+        }
+      ],
+      "bs_gsr_rows": [
+        {
+          "source_page_number": "32",
+          "character": "丹",
+          "pinyin": "dān",
+          "mc_bs": "tan",
+          "mc_analyzed": "(t- + -an A)",
+          "oc_bs": "*tˤan",
+          "gloss": "cinnabar",
+          "gsr": "0150a",
+          "unicode_utf16": "U+4E39"
+        }
+      ],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        }
+      ],
+      "shengfu_component_rows": [
+        {
+          "source_row_number": "2126",
+          "character": "丹",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "都寒",
+          "source": "广韵",
+          "oc_initial": "t",
+          "oc_rhyme": "a̠n",
+          "oc_syllable": "ta̠n"
+        },
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        },
+        {
+          "source_row_number": "2128",
+          "character": "𩔣",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "tan"
+        ],
+        "mand2mc_nwh_forms": [
+          "tan"
+        ],
+        "mand2mc_bs_forms": [
+          "tan"
+        ],
+        "bs_gsr_forms": [
+          "tan"
+        ],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    },
+    {
+      "character": "旃",
+      "in_tex": false,
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1310",
+          "character": "旃",
+          "pinyin": "zhan1",
+          "mc_nwh": "cien",
+          "mc_bs": "tsyen",
+          "gsr": "0150c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "2127",
+          "character": "旃",
+          "phonetic_component": "丹",
+          "component_level": "1",
+          "secondary_component": null,
+          "fanqie": "諸延",
+          "source": "广韵",
+          "oc_initial": "tʲ",
+          "oc_rhyme": "an",
+          "oc_syllable": "tʲan"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "cien"
+        ],
+        "mand2mc_nwh_forms": [
+          "cien"
+        ],
+        "mand2mc_bs_forms": [
+          "tsyen"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand_bs_mc_disagreement": false
+    }
+  ],
+  "source_rows": {
+    "mand2mc": [
+      {
+        "source_row_number": "1309",
+        "character": "丹",
+        "pinyin": "dan1",
+        "mc_nwh": "tan",
+        "mc_bs": "tan",
+        "gsr": "0150a"
+      },
+      {
+        "source_row_number": "1310",
+        "character": "旃",
+        "pinyin": "zhan1",
+        "mc_nwh": "cien",
+        "mc_bs": "tsyen",
+        "gsr": "0150c"
+      }
+    ],
+    "bs_gsr": [
+      {
+        "source_page_number": "32",
+        "character": "丹",
+        "pinyin": "dān",
+        "mc_bs": "tan",
+        "mc_analyzed": "(t- + -an A)",
+        "oc_bs": "*tˤan",
+        "gloss": "cinnabar",
+        "gsr": "0150a",
+        "unicode_utf16": "U+4E39"
+      }
+    ]
+  },
+  "notes": [
+    "Machine-assembled curation packet; preserve all evidence and review before merging into main.tex.",
+    "Do not treat candidate character lists or source matches as settled editorial decisions."
+  ]
+}

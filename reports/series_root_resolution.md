@@ -1,8 +1,8 @@
 # Series root resolution
 
-- Missing-series packets inspected: 816
-- Packets with at least one root candidate: 814
-- Packets with a single resolved provisional root: 812
+- Missing-series packets inspected: 822
+- Packets with at least one root candidate: 820
+- Packets with a single resolved provisional root: 818
 
 | GSC | Root candidates | Resolved root | Source |
 | --- | --- | --- | --- |
@@ -672,7 +672,7 @@
 | `23-32` | 丏→men [*mbe̠nʔ] (None) | `men` | `head_graph_oc_shengfu` |
 | `24-01` | 干→kar [*kˤar {*kˤa[r]}] (0139a) | `kar` | `head_graph_oc_bs` |
 | `24-02` | 倝→kan [*ka̠ns] (None) | `kan` | `head_graph_oc_shengfu` |
-| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 𩱡→qan [*C.qan {*C.qa[n]}] (141) | `qan` | `head_graph_bs_head` |
+| `24-03` | 侃→kan [*kʰa̠nʔ] (None); 侃→qan [*C.qan {*C.qa[n]}] (None) | `kan` | `head_graph_shengfu_head` |
 | `24-05` | 寒→kan [*Cə.gˤan {*Cə.[g]ˤa[n]}] (0143a) | `kan` | `head_graph_oc_bs` |
 | `24-07` | 虔→kan [*gran {*[g]ra[n]}] (0198a) | `kan` | `head_graph_oc_bs` |
 | `24-08` | 建→kan [*kan-s {*[k]a[n]-s}] (0249a) | `kan` | `head_graph_oc_bs` |
@@ -681,7 +681,13 @@
 | `24-11` | 安→ʔan [*ʔˤan {*[ʔ]ˤa[n]}] (0146a) | `ʔan` | `head_graph_oc_bs` |
 | `24-12` | 妟→qan [*qʳa̠ns] (None); 妟→qen [*qe̠nʔ] (None) | `qen` | `head_graph_supported_root` |
 | `24-13` | 㫃→qan [*qanʔ] (None) | `qan` | `head_graph_oc_shengfu` |
+| `24-14` | 焉→ʔan [*ʔan {*ʔa[n]}] (0200a) | `ʔan` | `head_graph_oc_bs` |
+| `24-15` | 厂→ṅar [*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}] (0145a) | `ṅar` | `head_graph_oc_bs` |
+| `24-16` | 言→ṅan [*ŋan {*ŋa[n]}] (0251a) | `ṅan` | `head_graph_oc_bs` |
 | `24-17` | 鬳→ṅar [*ŋar-s] (0252a) | `ṅar` | `head_graph_oc_bs` |
+| `24-18` | 憲→qan [*qʰans] (None); 憲→kat [*N-kˤat-s] (None) | `qan` | `head_graph_mc_coda` |
+| `24-19` | 彥→ṅen [*ŋʳens] (None); 彥→ṅar [*ŋ̊ˤar-s {*ŋ̊ˤar(ʔ)-s}] (None) | `ṅen` | `head_graph_mc_coda` |
+| `24-20` | 丹→tan [*tˤan] (0150a) | `tan` | `head_graph_oc_bs` |
 | `24-21` | 單→tar [*dˤar {*[d]ˤar}] (0147a) | `tar` | `head_graph_oc_bs` |
 | `24-22` | 旦→tan [*tˤan-s {*tˤa[n]-s}] (0149a) | `tan` | `head_graph_oc_bs` |
 | `24-23` | 亶→tan [*tˤanʔ {*tˤa[n]ʔ}] (0148a) | `tan` | `head_graph_oc_bs` |

@@ -843,6 +843,12 @@ DEFAULT_IDS = [
     "24-09",
     "24-10",
     "24-13",
+    "24-14",
+    "24-15",
+    "24-16",
+    "24-18",
+    "24-19",
+    "24-20",
 ]
 DEFAULT_MAIN_TEX = "main.tex"
 DEFAULT_SEMANTIC_JSON = "data/semantic_components/integrated_semantic_components.json"

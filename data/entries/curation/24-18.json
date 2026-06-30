@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-06-30T09:16:42.621137+00:00",
+  "id": "24-18",
+  "status": "machine-curated-pilot",
+  "packet_kind": "missing_series",
+  "schuessler": {
+    "gsc_id": "24-18",
+    "rhyme_section": 24,
+    "series_number": 18,
+    "k_tokens": [
+      "250"
+    ],
+    "has_explicit_k_range": false,
+    "source_remainder_raw": "Man d.             MC               LHan             OCM",
+    "is_cross_reference_only": false,
+    "source_page_number": 280,
+    "source_line_number": 3,
+    "source_line_raw": "24-18 = K. 250    Man d.             MC               LHan             OCM"
+  },
+  "coverage": {
+    "gsc_id": "24-18",
+    "rhyme_section": "24",
+    "series_number": "18",
+    "schuessler_k_tokens": "250",
+    "schuessler_source_page": "280",
+    "schuessler_cross_reference_only": "no",
+    "in_tex": "no",
+    "tex_character_count": "0",
+    "tex_characters_sample": null,
+    "mand2mc_row_count": "2",
+    "mand2mc_character_count": "2",
+    "mand2mc_characters_sample": "憲; 瀗",
+    "bs_gsr_row_count": "0",
+    "bs_gsr_character_count": "0",
+    "bs_gsr_characters_sample": null,
+    "combined_source_character_count": "2",
+    "combined_source_characters_sample": "憲; 瀗"
+  },
+  "tex_entry": null,
+  "entry_hierarchy": null,
+  "candidate_source_strategy": "schuessler_k_tokens",
+  "candidate_source_tokens": [
+    "250"
+  ],
+  "proposed_additions": [
+    {
+      "character": "憲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiənH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiənH"
+        ],
+        "mand2mc_bs_forms": [
+          "xjonH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1921",
+          "character": "憲",
+          "pinyin": "xian4",
+          "mc_nwh": "hiənH",
+          "mc_bs": "xjonH",
+          "gsr": "0250a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5116",
+          "character": "憲",
+          "phonetic_component": "害",
+          "component_level": "2",
+          "secondary_component": "𡩜",
+          "fanqie": "許建",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "ans",
+          "oc_syllable": "qʰans"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": {
+          "template_raw": "{{Han compound|心|𡩜|ls=psc|ls2=ic|c1=s|c2=p|t1=heart|t2=a form of punishment involving tattooing the eyes}}",
+          "positional_components": [
+            "心",
+            "𡩜"
+          ],
+          "positional_components_raw": [
+            "心",
+            "𡩜"
+          ],
+          "named_args": {
+            "ls": "psc",
+            "ls2": "ic",
+            "c1": "s",
+            "c2": "p",
+            "t1": "heart",
+            "t2": "a form of punishment involving tattooing the eyes"
+          },
+          "semantic_components": [
+            "心"
+          ],
+          "phonetic_components": [
+            "𡩜"
+          ]
+        },
+        "han_compounds": [
+          {
+            "template_raw": "{{Han compound|心|𡩜|ls=psc|ls2=ic|c1=s|c2=p|t1=heart|t2=a form of punishment involving tattooing the eyes}}",
+            "positional_components": [
+              "心",
+              "𡩜"
+            ],
+            "positional_components_raw": [
+              "心",
+              "𡩜"
+            ],
+            "named_args": {
+              "ls": "psc",
+              "ls2": "ic",
+              "c1": "s",
+              "c2": "p",
+              "t1": "heart",
+              "t2": "a form of punishment involving tattooing the eyes"
+            },
+            "semantic_components": [
+              "心"
+            ],
+            "phonetic_components": [
+              "𡩜"
+            ]
+          }
+        ]
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "transliteration_latex": "{\\large{\\textsuperscript{cor˸}q\\textoverset{b}{a}n}},",
+      "render_latex": "憲\t%xian4\n{\\large{\\textsuperscript{cor˸}q\\textoverset{b}{a}n}},\n\\textit{hiənH};\t%0250a",
+      "wiktionary_semantic_validation": {
+        "semantic_component": "心",
+        "phonetic_component": "𡩜",
+        "resolved_assignment": {
+          "source": "wiktionary_han_compound",
+          "character": "憲",
+          "semantic_component": "心",
+          "phonetic_component": "𡩜",
+          "position": "prefix-colon",
+          "abbreviation": "cor",
+          "inventory_matches": [
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "start_line": 239
+            },
+            {
+              "graph_raw": "心",
+              "label_token": "cor",
+              "abbreviation": "cor",
+              "learned": true,
+              "evidence_count": 13
+            }
+          ],
+          "template_raw": "{{Han compound|心|𡩜|ls=psc|ls2=ic|c1=s|c2=p|t1=heart|t2=a form of punishment involving tattooing the eyes}}"
+        }
+      },
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "cor",
+        "position": "prefix-colon",
+        "inventory_matches": [
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "start_line": 239
+          },
+          {
+            "graph_raw": "心",
+            "label_token": "cor",
+            "abbreviation": "cor",
+            "learned": true,
+            "evidence_count": 13
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "心"
+      },
+      "hierarchy_assignment": null,
+      "resolved_node_root": {
+        "root": "qan",
+        "source": "node_transliteration_fallback",
+        "descendant_count": 1,
+        "bs_support_count": 0,
+        "bs_broad_roots": [],
+        "bs_node_roots": [],
+        "display_root": "q\\textoverset{b}{a}n",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
+        "mc_forms": [
+          "hiənH"
+        ],
+        "form_analyses": [
+          {
+            "form": "hiənH",
+            "normalized": "hiən",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          }
+        ]
+      }
+    },
+    {
+      "character": "瀗",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiənH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiənH"
+        ],
+        "mand2mc_bs_forms": [
+          "xjonH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1922",
+          "character": "瀗",
+          "pinyin": "xian4",
+          "mc_nwh": "hiənH",
+          "mc_bs": "xjonH",
+          "gsr": "0250c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5118",
+          "character": "瀗",
+          "phonetic_component": "害",
+          "component_level": "2",
+          "secondary_component": "𡩜",
+          "fanqie": "許建",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "ans",
+          "oc_syllable": "qʰans"
+        }
+      ],
+      "shengfu_component_rows": [],
+      "wiktionary_validation": {
+        "available": true,
+        "han_compound": null,
+        "han_compounds": []
+      },
+      "tex_occurrence_candidates": [],
+      "semantic_candidates_from_ids": [],
+      "semantic_assignment": {
+        "token": null,
+        "abbreviation": "aq",
+        "position": "prefix-dot",
+        "inventory_matches": [
+          {
+            "graph_raw": "水",
+            "label_token": "aq(ua)",
+            "abbreviation": "aq",
+            "start_line": 198
+          },
+          {
+            "graph_raw": "水",
+            "label_token": "aq",
+            "abbreviation": "aq",
+            "learned": true,
+            "evidence_count": 14
+          }
+        ],
+        "source": "packet_family_ids",
+        "semantic_component": "水"
+      },
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}q\\textoverset{b}{a}n}},",
+      "render_latex": "瀗\t%xian4\n{\\large{\\textsuperscript{aq·}q\\textoverset{b}{a}n}},\n\\textit{hiənH};\t%0250c",
+      "wiktionary_semantic_validation": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "憲",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "ids_parent_family_inference",
+        "phonetic_hint": "憲"
+      },
+      "resolved_node_root": null
+    }
+  ],
+  "all_candidates": [
+    {
+      "character": "憲",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiənH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiənH"
+        ],
+        "mand2mc_bs_forms": [
+          "xjonH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1921",
+          "character": "憲",
+          "pinyin": "xian4",
+          "mc_nwh": "hiənH",
+          "mc_bs": "xjonH",
+          "gsr": "0250a"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5116",
+          "character": "憲",
+          "phonetic_component": "害",
+          "component_level": "2",
+          "secondary_component": "𡩜",
+          "fanqie": "許建",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "ans",
+          "oc_syllable": "qʰans"
+        }
+      ],
+      "shengfu_component_rows": []
+    },
+    {
+      "character": "瀗",
+      "in_tex": false,
+      "mand2mc_count": 1,
+      "bs_gsr_count": 0,
+      "shengfu_character_count": 1,
+      "shengfu_component_count": 0,
+      "mand_bs_mc_disagreement": false,
+      "mc_resolution": {
+        "status": "mand2mc-authoritative",
+        "authoritative_source": "mand2mc",
+        "display_forms": [
+          "hiənH"
+        ],
+        "mand2mc_nwh_forms": [
+          "hiənH"
+        ],
+        "mand2mc_bs_forms": [
+          "xjonH"
+        ],
+        "bs_gsr_forms": [],
+        "bs_not_in_mand2mc": [],
+        "mand2mc_not_in_bs_gsr": [],
+        "needs_investigation": false
+      },
+      "mand2mc_rows": [
+        {
+          "source_row_number": "1922",
+          "character": "瀗",
+          "pinyin": "xian4",
+          "mc_nwh": "hiənH",
+          "mc_bs": "xjonH",
+          "gsr": "0250c"
+        }
+      ],
+      "bs_gsr_rows": [],
+      "shengfu_character_rows": [
+        {
+          "source_row_number": "5118",
+          "character": "瀗",
+          "phonetic_component": "害",
+          "component_level": "2",
+          "secondary_component": "𡩜",
+          "fanqie": "許建",
+          "source": "广韵",
+          "oc_initial": "qʰ",
+          "oc_rhyme": "ans",
+          "oc_syllable": "qʰans"
+        }
+      ],
+      "shengfu_component_rows": []
+    }
+  ],
+  "notes": [
+    "Machine-promoted from a series packet; not yet hand-checked.",
+    "Use this file as the staging area for editorial decisions before any merge into main.tex."
+  ],
+  "series_root_candidates": [
+    {
+      "character": "憲",
+      "gsr": null,
+      "oc_bs": "*qʰans",
+      "root": "qan",
+      "source": "head_graph_oc_shengfu",
+      "support_count": 1,
+      "supporting_sources": [
+        "head_graph_oc_shengfu"
+      ]
+    },
+    {
+      "character": "憲",
+      "gsr": null,
+      "oc_bs": "*N-kˤat-s",
+      "root": "kat",
+      "source": "phonetic_component_series_root",
+      "support_count": 1,
+      "supporting_sources": [
+        "phonetic_component_series_root"
+      ]
+    }
+  ],
+  "resolved_series_root": {
+    "root": "qan",
+    "source": "head_graph_mc_coda",
+    "character": "憲",
+    "oc_bs": "*qʰans",
+    "confidence": "provisional-oc",
+    "support_count": 1,
+    "supporting_sources": [
+      "head_graph_oc_shengfu"
+    ],
+    "display_root": "q\\textoverset{b}{a}n",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
+    "mc_forms": [
+      "hiənH"
+    ],
+    "form_analyses": [
+      {
+        "form": "hiənH",
+        "normalized": "hiən",
+        "class": "b",
+        "reason": "explicit_i_medial"
+      }
+    ],
+    "base_root": "q\\textoverset{b}{a}n",
+    "ordinal": 1,
+    "numbering_source": "document_order_occurrence"
+  }
+}

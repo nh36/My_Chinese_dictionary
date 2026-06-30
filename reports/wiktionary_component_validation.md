@@ -1,8 +1,8 @@
 # Wiktionary component validation
 
-- Proposed additions checked: 5679
-- Pages fetched / cached successfully: 5593
-- Additions with explicit Han-compound semantic/phonetic roles: 2594
+- Proposed additions checked: 5696
+- Pages fetched / cached successfully: 5610
+- Additions with explicit Han-compound semantic/phonetic roles: 2604
 
 | GSC | Character | Wiktionary page | Explicit semantic/phonetic roles | Semantic components | Phonetic components |
 | --- | --- | --- | --- | --- | --- |
@@ -3950,12 +3950,29 @@
 | `24-12` | 蝘 | yes | yes | 虫 | 匽 |
 | `24-12` | 揠 | yes | yes | 手 | 匽 |
 | `24-13` | 㫃 | yes | no |  |  |
+| `24-14` | 焉 | yes | yes | 正 | 於 |
+| `24-14` | 嘕 | yes | yes | 口 | 焉 |
+| `24-15` | 厂 | yes | no |  |  |
+| `24-15` | 鴈 | yes | yes | 人, 鳥 | 厂 |
+| `24-15` | 雁 | yes | yes | 人, 隹 | 厂 |
+| `24-16` | 言 | yes | no |  |  |
+| `24-16` | 唁 | yes | yes | 口 | 言 |
+| `24-16` | 誾 | yes | no |  |  |
+| `24-16` | 狺 | yes | yes | 犬 | 言 |
 | `24-17` | 鬳 | yes | yes | 鬲 | 虍 |
 | `24-17` | 甗 | yes | yes | 瓦 | 鬳 |
 | `24-17` | 獻 | yes | yes | 犬 | 鬳 |
 | `24-17` | 巘 | yes | yes | 山 | 獻 |
 | `24-17` | 讞 | yes | yes | 言 | 獻 |
 | `24-17` | 𣡌 | yes | no |  |  |
+| `24-18` | 憲 | yes | yes | 心 | 𡩜 |
+| `24-18` | 瀗 | yes | no |  |  |
+| `24-19` | 彥 | yes | yes | 彣 | 厂 |
+| `24-19` | 諺 | yes | no |  |  |
+| `24-19` | 顏 | yes | yes | 頁 | 彥 |
+| `24-19` | 喭 | yes | no |  |  |
+| `24-20` | 丹 | yes | no |  |  |
+| `24-20` | 旃 | yes | yes | 㫃 | 丹 |
 | `24-21` | 單 | yes | no |  |  |
 | `24-21` | 墠 | yes | no |  |  |
 | `24-21` | 禪 | yes | yes | 示 | 單 |
