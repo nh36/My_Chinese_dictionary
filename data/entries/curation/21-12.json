@@ -413,8 +413,8 @@
       "resolved_node_root": {
         "root": "lat",
         "source": "node_inherit_parent",
-        "descendant_count": 7,
-        "bs_support_count": 4,
+        "descendant_count": 5,
+        "bs_support_count": 2,
         "bs_broad_roots": [
           "la",
           "lat",
@@ -548,29 +548,10 @@
         "han_compounds": []
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "太",
-          "ids": "⿵大丶",
-          "phonetic_component": "大",
-          "semantic_component": "丶",
-          "position": "suffix-colon",
-          "abbreviation": "punct",
-          "inventory_matches": [
-            {
-              "graph_raw": "丶",
-              "label_token": "punct(um)",
-              "abbreviation": "punct",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "punct",
+        "abbreviation": "discr",
         "position": "suffix-colon",
         "inventory_matches": [
           {
@@ -581,19 +562,20 @@
             "source": "semantic_label_supplement"
           }
         ],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "丶"
+        "source": "approved_differentiating_mark",
+        "semantic_component": "丶",
+        "research_note": "Treat the added dot as a differentiating mark distinguishing 太 from 大."
       },
-      "transliteration_latex": "{\\large{lat₂\\textsuperscript{˸punct}}},",
-      "render_latex": "太\t%tai4 / tài\n{\\large{lat₂\\textsuperscript{˸punct}}},\n\\textit{thayH};\t%0317d",
+      "transliteration_latex": "{\\large{lat₂\\textsuperscript{˸discr}}},",
+      "render_latex": "太\t%tai4 / tài\n{\\large{lat₂\\textsuperscript{˸discr}}},\n\\textit{thayH};\t%0317d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
+        "status": "assigned-to-top-level",
         "parent_character": "大",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
         "phonetic_hint": "大"
       },
       "resolved_node_root": {

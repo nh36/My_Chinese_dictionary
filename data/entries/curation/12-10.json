@@ -520,8 +520,8 @@
         "source": "self_phonetic_base",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{loṅ}},",
-      "render_latex": "用\t%yong4 / yòng\n{\\large{loṅ}},\n\\textit{yiəwṅH};\t%1185a",
+      "transliteration_latex": "{\\large{l\\textoverset{b}{o}ṅ}},",
+      "render_latex": "用\t%yong4 / yòng\n{\\large{l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅH};\t%1185a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -535,28 +535,21 @@
       "resolved_node_root": {
         "root": "loṅ",
         "source": "node_inherit_parent",
-        "descendant_count": 13,
-        "bs_support_count": 7,
+        "descendant_count": 1,
+        "bs_support_count": 1,
         "bs_broad_roots": [
-          "loṅ",
-          "syṅ"
+          "loṅ"
         ],
         "bs_node_roots": [
-          "loṅ",
-          "syṅ"
+          "loṅ"
         ],
-        "display_root": "loṅ",
-        "division_class": "mixed",
-        "division_note": "the extracted forms point to both type a and type b",
-        "mark_required": false,
+        "display_root": "l\\textoverset{b}{o}ṅ",
+        "division_class": "b",
+        "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+        "mark_required": true,
         "mc_forms": [
           "yiəwṅH",
-          "yiəwṅX",
-          "ziəwṅH",
-          "thuwṅX",
-          "thuwṅH",
-          "thuwṅ",
-          "duwṅ"
+          "yiəwṅX"
         ],
         "form_analyses": [
           {
@@ -570,36 +563,6 @@
             "normalized": "yiəwṅ",
             "class": "b",
             "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ziəwṅH",
-            "normalized": "ziəwṅ",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "thuwṅX",
-            "normalized": "thuwṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "thuwṅH",
-            "normalized": "thuwṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "thuwṅ",
-            "normalized": "thuwṅ",
-            "class": "a",
-            "reason": "no_i_medial"
-          },
-          {
-            "form": "duwṅ",
-            "normalized": "duwṅ",
-            "class": "a",
-            "reason": "no_i_medial"
           }
         ]
       }
@@ -731,8 +694,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "金"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{met·}l\\textoverset{b}{o}ṅ₂}},",
-      "render_latex": "鏞\t%yong1\n{\\large{\\textsuperscript{met·}l\\textoverset{b}{o}ṅ₂}},\n\\textit{yiəwṅ};\t%1185a'",
+      "transliteration_latex": "{\\large{\\textsuperscript{met·}l\\textoverset{b}{o}ṅ₃}},",
+      "render_latex": "鏞\t%yong1\n{\\large{\\textsuperscript{met·}l\\textoverset{b}{o}ṅ₃}},\n\\textit{yiəwṅ};\t%1185a'",
       "wiktionary_semantic_validation": {
         "semantic_component": "金",
         "phonetic_component": "庸",
@@ -841,8 +804,8 @@
         "source": "packet_family_ids",
         "semantic_component": "戈"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hallebard·}loṅ}},",
-      "render_latex": "𢦨\t%yong3\n{\\large{\\textsuperscript{hallebard·}loṅ}},\n\\textit{yiəwṅX};\t%1185f",
+      "transliteration_latex": "{\\large{\\textsuperscript{hallebard·}l\\textoverset{b}{o}ṅ}},",
+      "render_latex": "𢦨\t%yong3\n{\\large{\\textsuperscript{hallebard·}l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅX};\t%1185f",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -912,52 +875,26 @@
         "han_compounds": []
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "甬",
-          "ids": "⿱龴用",
-          "phonetic_component": "用",
-          "semantic_component": "龴",
-          "position": "prefix-colon",
-          "abbreviation": "curv",
-          "inventory_matches": [
-            {
-              "graph_raw": "龴",
-              "label_token": "curv(us)",
-              "abbreviation": "curv",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "curv",
-        "position": "prefix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "龴",
-            "label_token": "curv(us)",
-            "abbreviation": "curv",
-            "start_line": null,
-            "source": "semantic_label_supplement"
-          }
-        ],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "龴"
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "approved_nonsemantic_stroke_component",
+        "semantic_component": null,
+        "research_note": "Do not treat 龴 as a productive semantic determinative in 甬."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{curv˸}loṅ}},",
-      "render_latex": "甬\t%yong3\n{\\large{\\textsuperscript{curv˸}loṅ}},\n\\textit{yiəwṅX};\t%1185h",
+      "transliteration_latex": "{\\large{l\\textoverset{b}{o}ṅ}},",
+      "render_latex": "甬\t%yong3\n{\\large{l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅX};\t%1185h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
+        "status": "assigned-to-top-level",
         "parent_character": "用",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
+        "parent_kind": "top_level",
+        "source": "shengfu_phonetic_component",
         "phonetic_hint": "用"
       },
       "resolved_node_root": {
@@ -973,7 +910,7 @@
           "loṅ",
           "syṅ"
         ],
-        "display_root": "loṅ₂",
+        "display_root": "loṅ",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -1024,7 +961,7 @@
           }
         ],
         "base_root": "loṅ",
-        "ordinal": 2,
+        "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -1207,8 +1144,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}loṅ₂}},",
-      "render_latex": "俑\t%yong3 / yǒng\n{\\large{\\textsuperscript{hom·}loṅ₂}},\n\\textit{yiəwṅX};\t%1185j",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}loṅ}},",
+      "render_latex": "俑\t%yong3 / yǒng\n{\\large{\\textsuperscript{hom·}loṅ}},\n\\textit{yiəwṅX};\t%1185j",
       "wiktionary_semantic_validation": {
         "semantic_component": "人",
         "phonetic_component": "用",
@@ -1416,8 +1353,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "力"
       },
-      "transliteration_latex": "{\\large{loṅ₂\\textsuperscript{˸virt}}},",
-      "render_latex": "勇\t%yong3 / yǒng\n{\\large{loṅ₂\\textsuperscript{˸virt}}},\n\\textit{yiəwṅX};\t%1185k",
+      "transliteration_latex": "{\\large{loṅ\\textsuperscript{˸virt}}},",
+      "render_latex": "勇\t%yong3 / yǒng\n{\\large{loṅ\\textsuperscript{˸virt}}},\n\\textit{yiəwṅX};\t%1185k",
       "wiktionary_semantic_validation": {
         "semantic_component": "力",
         "phonetic_component": "甬",
@@ -1467,7 +1404,7 @@
         "bs_node_roots": [
           "loṅ"
         ],
-        "display_root": "l\\textoverset{b}{o}ṅ",
+        "display_root": "l\\textoverset{b}{o}ṅ₂",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": true,
@@ -1483,7 +1420,7 @@
           }
         ],
         "base_root": "l\\textoverset{b}{o}ṅ",
-        "ordinal": 1,
+        "ordinal": 2,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -1594,8 +1531,8 @@
         "source": "ids_top_level",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}loṅ₂}},",
-      "render_latex": "涌\t%yong3\n{\\large{\\textsuperscript{aq·}loṅ₂}},\n\\textit{yiəwṅX};\t%1185l",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}loṅ}},",
+      "render_latex": "涌\t%yong3\n{\\large{\\textsuperscript{aq·}loṅ}},\n\\textit{yiəwṅX};\t%1185l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1715,8 +1652,8 @@
         "source": "ids_top_level",
         "semantic_component": "虫"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{serp·}loṅ₂}},",
-      "render_latex": "蛹\t%yong3\n{\\large{\\textsuperscript{serp·}loṅ₂}},\n\\textit{yiəwṅX};\t%1185m",
+      "transliteration_latex": "{\\large{\\textsuperscript{serp·}loṅ}},",
+      "render_latex": "蛹\t%yong3\n{\\large{\\textsuperscript{serp·}loṅ}},\n\\textit{yiəwṅX};\t%1185m",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1884,8 +1821,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "足"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ped·}loṅ₂}},",
-      "render_latex": "踊\t%yong3 / yǒng\n{\\large{\\textsuperscript{ped·}loṅ₂}},\n\\textit{yiəwṅX};\t%1185n",
+      "transliteration_latex": "{\\large{\\textsuperscript{ped·}loṅ}},",
+      "render_latex": "踊\t%yong3 / yǒng\n{\\large{\\textsuperscript{ped·}loṅ}},\n\\textit{yiəwṅX};\t%1185n",
       "wiktionary_semantic_validation": {
         "semantic_component": "足",
         "phonetic_component": "甬",
@@ -2084,8 +2021,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "言"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{dic·}loṅ₂}},",
-      "render_latex": "誦\t%song4 / sòng\n{\\large{\\textsuperscript{dic·}loṅ₂}},\n\\textit{ziəwṅH};\t%1185o",
+      "transliteration_latex": "{\\large{\\textsuperscript{dic·}loṅ}},",
+      "render_latex": "誦\t%song4 / sòng\n{\\large{\\textsuperscript{dic·}loṅ}},\n\\textit{ziəwṅH};\t%1185o",
       "wiktionary_semantic_validation": {
         "semantic_component": "言",
         "phonetic_component": "甬",
@@ -2291,8 +2228,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "木"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{arb·}loṅ₂}},",
-      "render_latex": "桶\t%tong3\n{\\large{\\textsuperscript{arb·}loṅ₂}},\n\\textit{thuwṅX};\t%1185p",
+      "transliteration_latex": "{\\large{\\textsuperscript{arb·}loṅ}},",
+      "render_latex": "桶\t%tong3\n{\\large{\\textsuperscript{arb·}loṅ}},\n\\textit{thuwṅX};\t%1185p",
       "wiktionary_semantic_validation": {
         "semantic_component": "木",
         "phonetic_component": "甬",
@@ -2500,8 +2437,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "疒"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{infirm·}loṅ₂}},",
-      "render_latex": "痛\t%tong4 / tòng\n{\\large{\\textsuperscript{infirm·}loṅ₂}},\n\\textit{thuwṅH};\t%1185q",
+      "transliteration_latex": "{\\large{\\textsuperscript{infirm·}loṅ}},",
+      "render_latex": "痛\t%tong4 / tòng\n{\\large{\\textsuperscript{infirm·}loṅ}},\n\\textit{thuwṅH};\t%1185q",
       "wiktionary_semantic_validation": {
         "semantic_component": "疒",
         "phonetic_component": "甬",
@@ -2695,8 +2632,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "辵"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{amb·}loṅ₂}},",
-      "render_latex": "通\t%tong1 / tōng\n{\\large{\\textsuperscript{amb·}loṅ₂}},\n\\textit{thuwṅ};\t%1185r",
+      "transliteration_latex": "{\\large{\\textsuperscript{amb·}loṅ}},",
+      "render_latex": "通\t%tong1 / tōng\n{\\large{\\textsuperscript{amb·}loṅ}},\n\\textit{thuwṅ};\t%1185r",
       "wiktionary_semantic_validation": {
         "semantic_component": "辵",
         "phonetic_component": "甬",
@@ -2837,8 +2774,8 @@
         "source": "ids_top_level",
         "semantic_component": "竹"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}loṅ₂}},",
-      "render_latex": "筩\t%tong2\n{\\large{\\textsuperscript{bamb˸}loṅ₂}},\n\\textit{duwṅ};\t%1185t",
+      "transliteration_latex": "{\\large{\\textsuperscript{bamb˸}loṅ}},",
+      "render_latex": "筩\t%tong2\n{\\large{\\textsuperscript{bamb˸}loṅ}},\n\\textit{duwṅ};\t%1185t",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2965,8 +2902,8 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}l\\textoverset{b}{o}ṅ}},",
-      "render_latex": "湧\t%yong3\n{\\large{\\textsuperscript{aq·}l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅX};\t%1185u",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}l\\textoverset{b}{o}ṅ₂}},",
+      "render_latex": "湧\t%yong3\n{\\large{\\textsuperscript{aq·}l\\textoverset{b}{o}ṅ₂}},\n\\textit{yiəwṅX};\t%1185u",
       "wiktionary_semantic_validation": {
         "semantic_component": "水",
         "phonetic_component": "勇",
@@ -3115,8 +3052,8 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{flagell·}loṅ}},",
-      "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{flagell·}loṅ}},\n\\textit{yiəwṅ};\t%1185x",
+      "transliteration_latex": "{\\large{\\textsuperscript{flagell·}l\\textoverset{b}{o}ṅ}},",
+      "render_latex": "庸\t%yong1\n{\\large{\\textsuperscript{flagell·}l\\textoverset{b}{o}ṅ}},\n\\textit{yiəwṅ};\t%1185x",
       "wiktionary_semantic_validation": {
         "semantic_component": "庚",
         "phonetic_component": "同",
@@ -3175,7 +3112,7 @@
         "bs_node_roots": [
           "loṅ"
         ],
-        "display_root": "l\\textoverset{b}{o}ṅ₂",
+        "display_root": "l\\textoverset{b}{o}ṅ₃",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": true,
@@ -3198,7 +3135,7 @@
           }
         ],
         "base_root": "l\\textoverset{b}{o}ṅ",
-        "ordinal": 2,
+        "ordinal": 3,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -3322,8 +3259,8 @@
         "source": "packet_family_ids",
         "semantic_component": "人"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{hom·}l\\textoverset{b}{o}ṅ₂}},",
-      "render_latex": "傭\t%chong1 / yong1 / yōng\n{\\large{\\textsuperscript{hom·}l\\textoverset{b}{o}ṅ₂}},\n\\textit{ṭhiəwṅ};\t%1185y\n\\textit{yiəwṅ};",
+      "transliteration_latex": "{\\large{\\textsuperscript{hom·}l\\textoverset{b}{o}ṅ₃}},",
+      "render_latex": "傭\t%chong1 / yong1 / yōng\n{\\large{\\textsuperscript{hom·}l\\textoverset{b}{o}ṅ₃}},\n\\textit{ṭhiəwṅ};\t%1185y\n\\textit{yiəwṅ};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -3417,8 +3354,8 @@
         "source": "packet_family_ids",
         "semantic_component": "土"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{terr·}l\\textoverset{b}{o}ṅ₂}},",
-      "render_latex": "墉\t%yong1\n{\\large{\\textsuperscript{terr·}l\\textoverset{b}{o}ṅ₂}},\n\\textit{yiəwṅ};\t%1185z",
+      "transliteration_latex": "{\\large{\\textsuperscript{terr·}l\\textoverset{b}{o}ṅ₃}},",
+      "render_latex": "墉\t%yong1\n{\\large{\\textsuperscript{terr·}l\\textoverset{b}{o}ṅ₃}},\n\\textit{yiəwṅ};\t%1185z",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -4931,18 +4868,13 @@
       "head_graph_oc_bs",
       "head_graph_oc_shengfu"
     ],
-    "display_root": "loṅ",
-    "division_class": "mixed",
-    "division_note": "the extracted forms point to both type a and type b",
-    "mark_required": false,
+    "display_root": "l\\textoverset{b}{o}ṅ",
+    "division_class": "b",
+    "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
+    "mark_required": true,
     "mc_forms": [
       "yiəwṅH",
-      "yiəwṅX",
-      "ziəwṅH",
-      "thuwṅX",
-      "thuwṅH",
-      "thuwṅ",
-      "duwṅ"
+      "yiəwṅX"
     ],
     "form_analyses": [
       {
@@ -4956,39 +4888,9 @@
         "normalized": "yiəwṅ",
         "class": "b",
         "reason": "explicit_i_medial"
-      },
-      {
-        "form": "ziəwṅH",
-        "normalized": "ziəwṅ",
-        "class": "b",
-        "reason": "explicit_i_medial"
-      },
-      {
-        "form": "thuwṅX",
-        "normalized": "thuwṅ",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "thuwṅH",
-        "normalized": "thuwṅ",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "thuwṅ",
-        "normalized": "thuwṅ",
-        "class": "a",
-        "reason": "no_i_medial"
-      },
-      {
-        "form": "duwṅ",
-        "normalized": "duwṅ",
-        "class": "a",
-        "reason": "no_i_medial"
       }
     ],
-    "base_root": "loṅ",
+    "base_root": "l\\textoverset{b}{o}ṅ",
     "ordinal": 1,
     "numbering_source": "document_order_occurrence"
   }

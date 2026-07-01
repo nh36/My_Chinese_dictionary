@@ -110,6 +110,36 @@ class PilotRegressionTests(unittest.TestCase):
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}(?:q|r)am(?:[₀₁₂₃₄₅₆₇₈₉]+)?\}\},"))
         self.assertRegex(rendered, re.compile(r"\{\\large\{\\textsuperscript\{prior·\}kyr[₀₁₂₃₄₅₆₇₈₉]*\}\},"))
 
+    def test_stroke_component_cases_follow_historical_overrides(self) -> None:
+        expected_none = (
+            ("03-06", "羌"),
+            ("12-10", "甬"),
+            ("16-22", "少"),
+            ("16-33", "少"),
+            ("09-22", "丼"),
+            ("04-61", "㕻"),
+        )
+        for entry_id, character in expected_none:
+            entry = json.loads((ROOT / "data/entries/curation" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            candidate = next(item for item in entry["proposed_additions"] if item["character"] == character)
+            assignment = candidate.get("semantic_assignment") or {}
+            self.assertEqual(assignment.get("position"), "none")
+            self.assertIsNone(assignment.get("abbreviation"))
+            self.assertNotIn(r"\textsuperscript", candidate.get("transliteration_latex") or "")
+
+        for entry_id, character, position in (("21-12", "太", "suffix-colon"), ("11-09", "玉", "suffix-dot")):
+            entry = json.loads((ROOT / "data/entries/curation" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            candidate = next(item for item in entry["proposed_additions"] if item["character"] == character)
+            assignment = candidate.get("semantic_assignment") or {}
+            self.assertEqual(assignment.get("abbreviation"), "discr")
+            self.assertEqual(assignment.get("position"), position)
+            self.assertIn("discr", candidate.get("transliteration_latex") or "")
+
+        unresolved = json.loads((ROOT / "data/entries/curation/04-52.json").read_text(encoding="utf-8"))
+        unresolved_candidate = next(item for item in unresolved["proposed_additions"] if item["character"] == "𣬔")
+        unresolved_assignment = unresolved_candidate.get("semantic_assignment") or {}
+        self.assertEqual(unresolved_assignment.get("abbreviation"), "𭯍")
+
     def test_generated_override_footnotes_anchor_to_first_transliteration_line(self) -> None:
         active_entries = self.load_active_entries()
         seen: list[str] = []

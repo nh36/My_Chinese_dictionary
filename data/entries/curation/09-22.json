@@ -256,10 +256,18 @@
         "source": "simple_graph",
         "semantic_component": null
       },
-      "transliteration_latex": "{\\large{tseṅ₂}},",
-      "render_latex": "井\t%jing3 / jǐng\n{\\large{tseṅ₂}},\n\\textit{tsieṅX};\t%0819a",
+      "transliteration_latex": "{\\large{tseṅ₃}},",
+      "render_latex": "井\t%jing3 / jǐng\n{\\large{tseṅ₃}},\n\\textit{tsieṅX};\t%0819a",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": null,
+      "hierarchy_assignment": {
+        "status": "assigned-to-candidate-node",
+        "parent_character": "丼",
+        "parent_display_line": null,
+        "parent_rhs_snippet": null,
+        "parent_kind": "candidate",
+        "source": "shengfu_phonetic_component",
+        "phonetic_hint": "丼"
+      },
       "resolved_node_root": {
         "root": "tseṅ",
         "source": "node_inherit_parent",
@@ -271,7 +279,7 @@
         "bs_node_roots": [
           "tseṅ"
         ],
-        "display_root": "tseṅ",
+        "display_root": "tseṅ₄",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
@@ -292,7 +300,10 @@
             "class": "b",
             "reason": "explicit_i_medial"
           }
-        ]
+        ],
+        "base_root": "tseṅ",
+        "ordinal": 4,
+        "numbering_source": "document_order_occurrence"
       }
     },
     {
@@ -429,37 +440,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "punct",
-        "position": "suffix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "丶",
-            "label_token": "punct(um)",
-            "abbreviation": "punct",
-            "start_line": null,
-            "source": "semantic_label_supplement"
-          }
-        ],
-        "source": "packet_family_component_literal_fallback",
-        "semantic_component": "丶"
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "approved_nonsemantic_stroke_component",
+        "semantic_component": null,
+        "research_note": "Treat 丼 as a graph-level variant development of 井, not as a dot-semantic formation."
       },
-      "transliteration_latex": "{\\large{tseṅ₂\\textsuperscript{˸punct}}},",
-      "render_latex": "丼\t%jing3 / jǐng\n{\\large{tseṅ₂\\textsuperscript{˸punct}}},\n\\textit{tsieṅX};\t%0819e",
+      "transliteration_latex": "{\\large{tseṅ₂}},",
+      "render_latex": "丼\t%jing3 / jǐng\n{\\large{tseṅ₂}},\n\\textit{tsieṅX};\t%0819e",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-top-level",
-        "parent_character": "井",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "top_level",
-        "source": "cycle_repair_top_level_fallback",
-        "phonetic_hint": "井"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": {
         "root": "tseṅ",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
+        "source": "node_bs_consensus",
+        "descendant_count": 4,
+        "bs_support_count": 2,
         "bs_broad_roots": [
           "tseṅ"
         ],

@@ -1400,7 +1400,7 @@
       "resolved_node_root": {
         "root": "py",
         "source": "node_inherit_parent",
-        "descendant_count": 21,
+        "descendant_count": 20,
         "bs_support_count": 5,
         "bs_broad_roots": [
           "py",
@@ -2299,7 +2299,7 @@
       "resolved_node_root": {
         "root": "py",
         "source": "node_inherit_parent",
-        "descendant_count": 13,
+        "descendant_count": 12,
         "bs_support_count": 3,
         "bs_broad_roots": [
           "py",
@@ -4679,32 +4679,17 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "punct",
-        "position": "prefix-colon",
-        "inventory_matches": [
-          {
-            "graph_raw": "丶",
-            "label_token": "punct(um)",
-            "abbreviation": "punct",
-            "start_line": null,
-            "source": "semantic_label_supplement"
-          }
-        ],
-        "source": "packet_family_component_literal_fallback",
-        "semantic_component": "丶"
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "approved_nonsemantic_stroke_component",
+        "semantic_component": null,
+        "research_note": "Treat 㕻 as aligned with 咅-family usage, not as a dot-semantic formation."
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{punct˸}py₃}},",
-      "render_latex": "㕻\t%pou3\n{\\large{\\textsuperscript{punct˸}py₃}},\n\\textit{phuwH};\t%0999t",
+      "transliteration_latex": "{\\large{py₂}},",
+      "render_latex": "㕻\t%pou3\n{\\large{py₂}},\n\\textit{phuwH};\t%0999t",
       "wiktionary_semantic_validation": null,
-      "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
-        "parent_character": "否",
-        "parent_display_line": null,
-        "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_inferred_phonetic_parent",
-        "phonetic_hint": "否"
-      },
+      "hierarchy_assignment": null,
       "resolved_node_root": null
     },
     {
@@ -4811,28 +4796,7 @@
       "semantic_candidates_from_ids": [],
       "transliteration_latex": "{\\large{py₃}},",
       "render_latex": "咅\t%pou3\n{\\large{py₃}},\n\\textit{phuwH};\t%0999u",
-      "wiktionary_semantic_validation": {
-        "semantic_component": "丶",
-        "phonetic_component": "否",
-        "resolved_assignment": {
-          "source": "wiktionary_han_compound",
-          "character": "咅",
-          "semantic_component": "丶",
-          "phonetic_component": "否",
-          "position": "prefix-colon",
-          "abbreviation": "punct",
-          "inventory_matches": [
-            {
-              "graph_raw": "丶",
-              "label_token": "punct(um)",
-              "abbreviation": "punct",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ],
-          "template_raw": "{{Han compound|丶|否|ls=psc|c1=s|c2=p}}"
-        }
-      },
+      "wiktionary_semantic_validation": null,
       "semantic_assignment": {
         "token": null,
         "abbreviation": null,
@@ -4848,7 +4812,7 @@
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "wiktionary_semantic_validation",
+        "source": "wiktionary_han_compound",
         "phonetic_hint": "否"
       },
       "resolved_node_root": {

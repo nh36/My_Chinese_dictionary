@@ -88,6 +88,7 @@ WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 SUPERSCRIPT_RELATION_COLON = "˸"
 SEMANTIC_GLYPH_IMAGE_DIR = Path("hard-character-images")
+NONPRODUCTIVE_STROKE_SEMANTIC_COMPONENTS = {"丿", "乚", "龴", "丶"}
 
 
 def iter_semantic_inventory_items(semantic_inventory: dict[str, Any]) -> list[dict[str, Any]]:
@@ -232,6 +233,55 @@ APPROVED_SEMANTIC_OVERRIDES = {
         "semantic_component": None,
         "source": "approved_nonsemantic_corrupted_component",
         "note": "Do not treat the upper dot in 咅 as a stable semantic component.",
+    },
+    "羌": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_stroke_component",
+        "note": "Do not treat 乚 as an independent semantic determinative in 羌.",
+    },
+    "少": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_stroke_component",
+        "note": "Do not treat 丿 as a productive semantic determinative in 少.",
+    },
+    "甬": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_stroke_component",
+        "note": "Do not treat 龴 as a productive semantic determinative in 甬.",
+    },
+    "太": {
+        "abbreviation": "discr",
+        "position": "suffix-colon",
+        "semantic_component": "丶",
+        "source": "approved_differentiating_mark",
+        "note": "Treat the added dot as a differentiating mark distinguishing 太 from 大.",
+    },
+    "玉": {
+        "abbreviation": "discr",
+        "position": "suffix-dot",
+        "semantic_component": "丶",
+        "source": "approved_differentiating_mark",
+        "note": "Treat the added dot as a differentiating mark distinguishing 玉 from 王.",
+    },
+    "丼": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_stroke_component",
+        "note": "Treat 丼 as a graph-level variant development of 井, not as a dot-semantic formation.",
+    },
+    "㕻": {
+        "abbreviation": None,
+        "position": "none",
+        "semantic_component": None,
+        "source": "approved_nonsemantic_stroke_component",
+        "note": "Treat 㕻 as aligned with 咅-family usage, not as a dot-semantic formation.",
     },
     "兌": {
         "abbreviation": "hom",
@@ -442,6 +492,11 @@ def normalize_component_graph(component: str) -> str:
     return COMPONENT_ALIASES.get(component, component)
 
 
+def auto_semantic_component_is_blocked(component: str | None) -> bool:
+    normalized = normalize_component_graph(component)
+    return normalized in NONPRODUCTIVE_STROKE_SEMANTIC_COMPONENTS
+
+
 def split_gsr_base(value: str | None) -> tuple[int, str] | None:
     if not value:
         return None
@@ -570,6 +625,8 @@ def resolve_semantic_from_ids(
 
     if semantic_component is None or position is None:
         return None
+    if auto_semantic_component_is_blocked(semantic_component):
+        return None
 
     inventory_matches = graph_lookup.get(semantic_component, [])
     resolved_abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
@@ -654,6 +711,8 @@ def resolve_semantic_from_wiktionary_template(
     semantic_component = normalize_component_graph(semantic_components[0])
     phonetic_component = normalize_component_graph(phonetic_components[0])
     if not semantic_component or not phonetic_component:
+        return None
+    if auto_semantic_component_is_blocked(semantic_component):
         return None
     semantic_index = None
     phonetic_index = None
@@ -841,6 +900,8 @@ def resolve_semantic_from_packet_family(
     if len(chosen_candidates) != 1:
         return None
     semantic_index, semantic_component = chosen_candidates[0]
+    if auto_semantic_component_is_blocked(semantic_component):
+        return None
     inventory_matches = graph_lookup.get(semantic_component, [])
     abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
 
@@ -969,6 +1030,8 @@ def resolve_semantic_from_parent_ids(
         return None
 
     semantic_component = subtree_head(right if left_match else left)
+    if auto_semantic_component_is_blocked(semantic_component):
+        return None
     inventory_matches = graph_lookup.get(semantic_component, [])
     abbreviation = inventory_matches[0].get("abbreviation") if inventory_matches else semantic_component
     operator = tree["op"]

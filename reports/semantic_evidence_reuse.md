@@ -5,10 +5,10 @@
 - Additions with reusable semantic assignment from existing TeX: 6473
 - Additions with reusable transliteration LaTeX from existing TeX: 6473
 - Additions with reusable render block from existing TeX: 6473
-- Additions with IDS-derived semantic candidates: 3944
-- Additions with explicit Wiktionary Han-compound support: 2872
+- Additions with IDS-derived semantic candidates: 3937
+- Additions with explicit Wiktionary Han-compound support: 2871
 - Additions assigned to inherited hierarchy nodes: 3
-- Additions assigned under generated candidate nodes: 4782
+- Additions assigned under generated candidate nodes: 4777
 - Additions requiring MC investigation because BS/GSR has a reading absent from Mand2MC: 205
 
 | GSC | Proposed additions | Semantic reuse | Transliteration reuse | Render-block reuse |

@@ -187,29 +187,10 @@
         "han_compounds": []
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "玉",
-          "ids": "⿷王丶",
-          "phonetic_component": "玉",
-          "semantic_component": "丶",
-          "position": "suffix-dot",
-          "abbreviation": "punct",
-          "inventory_matches": [
-            {
-              "graph_raw": "丶",
-              "label_token": "punct(um)",
-              "abbreviation": "punct",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "punct",
+        "abbreviation": "discr",
         "position": "suffix-dot",
         "inventory_matches": [
           {
@@ -220,11 +201,12 @@
             "source": "semantic_label_supplement"
           }
         ],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "丶"
+        "source": "approved_differentiating_mark",
+        "semantic_component": "丶",
+        "research_note": "Treat the added dot as a differentiating mark distinguishing 玉 from 王."
       },
-      "transliteration_latex": "{\\large{ṅok₂\\textsuperscript{·punct}}},",
-      "render_latex": "玉\t%yu4 / yù\n{\\large{ṅok₂\\textsuperscript{·punct}}},\n\\textit{ṅiəwk};\t%1216a",
+      "transliteration_latex": "{\\large{ṅok₂\\textsuperscript{·discr}}},",
+      "render_latex": "玉\t%yu4 / yù\n{\\large{ṅok₂\\textsuperscript{·discr}}},\n\\textit{ṅiəwk};\t%1216a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",

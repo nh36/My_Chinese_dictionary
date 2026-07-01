@@ -125,44 +125,18 @@
         "han_compounds": []
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "羌",
-          "ids": "⿸羊乚",
-          "phonetic_component": "羊",
-          "semantic_component": "乚",
-          "position": "suffix-dot",
-          "abbreviation": "unc",
-          "inventory_matches": [
-            {
-              "graph_raw": "乚",
-              "label_token": "unc(us)",
-              "abbreviation": "unc",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "unc",
-        "position": "suffix-dot",
-        "inventory_matches": [
-          {
-            "graph_raw": "乚",
-            "label_token": "unc(us)",
-            "abbreviation": "unc",
-            "start_line": null,
-            "source": "semantic_label_supplement"
-          }
-        ],
-        "source": "ids_component_literal_fallback",
-        "semantic_component": "乚"
+        "abbreviation": null,
+        "position": "none",
+        "inventory_matches": [],
+        "source": "approved_nonsemantic_stroke_component",
+        "semantic_component": null,
+        "research_note": "Do not treat 乚 as an independent semantic determinative in 羌."
       },
-      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ\\textsuperscript{·unc}}},",
-      "render_latex": "羌\t%qiang1 / qiāng\n{\\large{q\\textoverset{b}{a}ṅ\\textsuperscript{·unc}}},\n\\textit{khiaṅ};\t%0712a",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ}},",
+      "render_latex": "羌\t%qiang1 / qiāng\n{\\large{q\\textoverset{b}{a}ṅ}},\n\\textit{khiaṅ};\t%0712a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": {

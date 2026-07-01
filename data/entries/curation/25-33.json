@@ -272,33 +272,7 @@
         "source": "shengfu_phonetic_component",
         "phonetic_hint": "𤔔"
       },
-      "resolved_node_root": {
-        "root": "ron",
-        "source": "node_inherit_parent",
-        "descendant_count": 1,
-        "bs_support_count": 1,
-        "bs_broad_roots": [
-          "ron"
-        ],
-        "bs_node_roots": [
-          "ron"
-        ],
-        "display_root": "r\\textoverset{a}{o}n",
-        "division_class": "a",
-        "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
-        "mc_forms": [
-          "lwanH"
-        ],
-        "form_analyses": [
-          {
-            "form": "lwanH",
-            "normalized": "lwan",
-            "class": "a",
-            "reason": "no_i_medial"
-          }
-        ]
-      }
+      "resolved_node_root": null
     },
     {
       "character": "亂",
@@ -419,26 +393,7 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "亂",
-          "ids": "⿰𤔔乚",
-          "phonetic_component": "𤔔",
-          "semantic_component": "乚",
-          "position": "suffix-dot",
-          "abbreviation": "unc",
-          "inventory_matches": [
-            {
-              "graph_raw": "乚",
-              "label_token": "unc(us)",
-              "abbreviation": "unc",
-              "start_line": null,
-              "source": "semantic_label_supplement"
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "uncin",
@@ -480,12 +435,12 @@
         }
       },
       "hierarchy_assignment": {
-        "status": "assigned-to-candidate-node",
+        "status": "assigned-to-top-level",
         "parent_character": "𤔔",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
-        "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
+        "parent_kind": "top_level",
+        "source": "wiktionary_semantic_validation",
         "phonetic_hint": "𤔔"
       },
       "resolved_node_root": null

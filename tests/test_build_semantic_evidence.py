@@ -171,6 +171,32 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(trinary["position"], "suffix-colon")
         self.assertEqual(trinary["abbreviation"], "vest")
 
+    def test_resolve_semantic_from_ids_skips_nonproductive_stroke_components(self) -> None:
+        ids_map = {"少": "⿱小丿"}
+        graph_lookup = {
+            "丿": [{"graph_raw": "丿", "label_token": "obliq(uus)", "abbreviation": "obliq"}],
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_ids(
+            character="少",
+            phonetic_component="小",
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+        )
+        self.assertIsNone(resolved)
+
+    def test_resolve_semantic_from_packet_family_skips_nonproductive_stroke_components(self) -> None:
+        ids_map = {"丼": "⿴井丶"}
+        graph_lookup = {
+            "丶": [{"graph_raw": "丶", "label_token": "punct(um)", "abbreviation": "punct"}],
+        }
+        resolved = build_semantic_evidence.resolve_semantic_from_packet_family(
+            character="丼",
+            ids_map=ids_map,
+            graph_lookup=graph_lookup,
+            packet_family={"井"},
+        )
+        self.assertIsNone(resolved)
+
     def test_apply_research_backed_semantic_for_xi_and_mi_packets(self) -> None:
         graph_lookup = {
             "巫": [{"graph_raw": "巫", "label_token": "mag(us)", "abbreviation": "mag"}],
@@ -292,6 +318,29 @@ class BuildSemanticEvidenceTests(unittest.TestCase):
         self.assertEqual(reduced["abbreviation"], "hom")
         self.assertEqual(reduced["semantic_component"], "人")
         self.assertEqual(reduced["position"], "suffix-colon")
+
+    def test_apply_approved_semantic_override_applies_stroke_review_decisions(self) -> None:
+        graph_lookup = {
+            "丶": [{"graph_raw": "丶", "label_token": "punct(um)", "abbreviation": "punct"}],
+        }
+        removed = build_semantic_evidence.apply_approved_semantic_override(
+            {"character": "少"},
+            graph_lookup,
+        )
+        discriminating = build_semantic_evidence.apply_approved_semantic_override(
+            {"character": "太"},
+            graph_lookup,
+        )
+
+        self.assertIsNotNone(removed)
+        self.assertEqual(removed["abbreviation"], None)
+        self.assertEqual(removed["position"], "none")
+        self.assertIsNone(removed["semantic_component"])
+
+        self.assertIsNotNone(discriminating)
+        self.assertEqual(discriminating["abbreviation"], "discr")
+        self.assertEqual(discriminating["position"], "suffix-colon")
+        self.assertEqual(discriminating["semantic_component"], "丶")
 
     def test_resolve_semantic_from_packet_family(self) -> None:
         ids_map = {"眙": "⿰目台", "褏": "⿳亠⿰③由𧘇"}
