@@ -26,6 +26,47 @@ def load_inventory(source_path: Path) -> dict[str, Any]:
     return extract_semantic_components.build_inventory(source_text, str(source_path))
 
 
+def supplement_item_to_inventory_item(item: dict[str, Any], supplement_path: str) -> dict[str, Any]:
+    abbreviation = item.get("abbreviation")
+    graph_raw = item.get("graph_raw")
+    return {
+        "graph_raw": graph_raw,
+        "abbreviation": abbreviation,
+        "expanded_latin": item.get("label_token") or abbreviation,
+        "notes": item.get("notes"),
+        "scope": item.get("scope", "general"),
+        "only_in": list(item.get("only_in") or []),
+        "duplicate_graph_status": item.get("duplicate_graph_status"),
+        "note": item.get("note"),
+        "comments": list(item.get("comments") or []),
+        "sources": [
+            {
+                "source": "semantic_label_supplement",
+                "source_path": supplement_path,
+                "start_line": None,
+                "end_line": None,
+                "label_token": item.get("label_token"),
+                "label_notes": item.get("label_notes"),
+                "scope": item.get("scope", "general"),
+                "only_in": list(item.get("only_in") or []),
+                "duplicate_graph_status": item.get("duplicate_graph_status"),
+                "note": item.get("note"),
+                "comments": list(item.get("comments") or []),
+                "raw_latex": None,
+            }
+        ],
+        "used_abbreviations_current_tex": [],
+        "used_abbreviations_curated_series": [],
+        "used_abbreviation_aliases": [],
+        "used_in_current_tex": False,
+        "used_in_curated_series": False,
+        "used_in_integrated_dictionary": False,
+        "listed_only_in_inventory": True,
+        "classification": "canonical",
+        "conflicts": [],
+    }
+
+
 def semantic_key(item: dict[str, Any]) -> tuple[str, str]:
     return ((item.get("graph_raw") or "").strip(), item.get("abbreviation") or "")
 
@@ -187,6 +228,14 @@ def merge_inventories(
                     "raw_latex": item.get("raw_latex"),
                 }
             )
+
+    supplement = semantic_label_normalization.load_semantic_label_supplement()
+    for item in supplement["items"]:
+        key = semantic_key(item)
+        if key in merged:
+            continue
+        merged[key] = supplement_item_to_inventory_item(item, supplement["path"])
+        ordered_keys.append(key)
 
     items: list[dict[str, Any]] = []
     for key in ordered_keys:

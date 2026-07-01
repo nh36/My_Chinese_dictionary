@@ -198,25 +198,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "北",
+        "abbreviation": "dors",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "北",
+            "label_token": "dors(um)",
+            "abbreviation": "dors",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "北"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{北˸}kyk₇}},",
-      "render_latex": "冀\t%ji4 / jì\n{\\large{\\textsuperscript{北˸}kyk₇}},\n\\textit{kiyH};\t%0603a",
+      "transliteration_latex": "{\\large{\\textsuperscript{dors˸}kyk₇}},",
+      "render_latex": "冀\t%ji4 / jì\n{\\large{\\textsuperscript{dors˸}kyk₇}},\n\\textit{kiyH};\t%0603a",
       "wiktionary_semantic_validation": {
         "semantic_component": "北",
         "phonetic_component": "異",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "冀",
           "semantic_component": "北",
           "phonetic_component": "異",
           "position": "prefix-colon",
-          "abbreviation": "北",
-          "inventory_matches": [],
+          "abbreviation": "dors",
+          "inventory_matches": [
+            {
+              "graph_raw": "北",
+              "label_token": "dors(um)",
+              "abbreviation": "dors",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|北|異|c1=s|c2=p|ls=psc}}"
         }
       },
@@ -395,7 +411,8 @@
               "graph_raw": "馬",
               "label_token": "equ(us)",
               "abbreviation": "equ",
-              "start_line": 270
+              "start_line": 270,
+              "source": null
             },
             {
               "graph_raw": "馬",
@@ -416,7 +433,8 @@
             "graph_raw": "馬",
             "label_token": "equ(us)",
             "abbreviation": "equ",
-            "start_line": 270
+            "start_line": 270,
+            "source": null
           },
           {
             "graph_raw": "馬",

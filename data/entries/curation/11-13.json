@@ -484,7 +484,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -505,7 +506,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -535,7 +537,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -630,7 +633,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -651,7 +655,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -732,7 +737,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -830,7 +836,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -851,7 +858,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -997,7 +1005,8 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 288
+              "start_line": 288,
+              "source": null
             },
             {
               "graph_raw": "玉",
@@ -1018,7 +1027,8 @@
             "graph_raw": "玉",
             "label_token": "gem(ma)",
             "abbreviation": "gem",
-            "start_line": 288
+            "start_line": 288,
+            "source": null
           },
           {
             "graph_raw": "玉",
@@ -1048,7 +1058,8 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 288
+              "start_line": 288,
+              "source": null
             },
             {
               "graph_raw": "玉",
@@ -1143,7 +1154,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1164,7 +1176,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1310,14 +1323,22 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "冢",
           "ids": "⿱冖豖",
           "phonetic_component": "豖",
           "semantic_component": "冖",
           "position": "prefix-colon",
-          "abbreviation": "冖",
-          "inventory_matches": []
+          "abbreviation": "velum",
+          "inventory_matches": [
+            {
+              "graph_raw": "冖",
+              "label_token": "velum",
+              "abbreviation": "velum",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
@@ -1329,7 +1350,8 @@
             "graph_raw": "勹",
             "label_token": "flect(o)",
             "abbreviation": "flect",
-            "start_line": 277
+            "start_line": 277,
+            "source": null
           },
           {
             "graph_raw": "勹",
@@ -1359,7 +1381,8 @@
               "graph_raw": "勹",
               "label_token": "flect(o)",
               "abbreviation": "flect",
-              "start_line": 277
+              "start_line": 277,
+              "source": null
             },
             {
               "graph_raw": "勹",
@@ -1457,7 +1480,8 @@
               "graph_raw": "疒",
               "label_token": "infirm(itas)",
               "abbreviation": "infirm",
-              "start_line": 301
+              "start_line": 301,
+              "source": null
             },
             {
               "graph_raw": "疒",
@@ -1478,7 +1502,8 @@
             "graph_raw": "疒",
             "label_token": "infirm(itas)",
             "abbreviation": "infirm",
-            "start_line": 301
+            "start_line": 301,
+            "source": null
           },
           {
             "graph_raw": "疒",

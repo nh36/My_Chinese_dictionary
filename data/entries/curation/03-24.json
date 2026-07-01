@@ -510,7 +510,8 @@
             "graph_raw": "𤼽",
             "label_token": "coron(a)",
             "abbreviation": "coron",
-            "start_line": 240
+            "start_line": 240,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -533,7 +534,8 @@
               "graph_raw": "𤼽",
               "label_token": "coron(a)",
               "abbreviation": "coron",
-              "start_line": 240
+              "start_line": 240,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|𤼽|王|ls=psc|c1=s|c2=p|nocap=y|tr=*wˤaŋ|tr2=*waŋ}}"
@@ -789,7 +791,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -810,7 +813,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -908,7 +912,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -929,7 +934,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1087,7 +1093,8 @@
               "graph_raw": "火",
               "label_token": "ign(is)",
               "abbreviation": "ign",
-              "start_line": 300
+              "start_line": 300,
+              "source": null
             },
             {
               "graph_raw": "火",
@@ -1108,7 +1115,8 @@
             "graph_raw": "火",
             "label_token": "ign(is)",
             "abbreviation": "ign",
-            "start_line": 300
+            "start_line": 300,
+            "source": null
           },
           {
             "graph_raw": "火",
@@ -1138,7 +1146,8 @@
               "graph_raw": "火",
               "label_token": "ign(is)",
               "abbreviation": "ign",
-              "start_line": 300
+              "start_line": 300,
+              "source": null
             },
             {
               "graph_raw": "火",
@@ -1233,7 +1242,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",
@@ -1254,7 +1264,8 @@
             "graph_raw": "竹",
             "label_token": "bamb(us)",
             "abbreviation": "bamb",
-            "start_line": 206
+            "start_line": 206,
+            "source": null
           },
           {
             "graph_raw": "竹",
@@ -1534,7 +1545,8 @@
             "graph_raw": "阜",
             "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "start_line": 421
+            "start_line": 421,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1557,7 +1569,8 @@
               "graph_raw": "阜",
               "label_token": "tum(ulus)",
               "abbreviation": "tum",
-              "start_line": 421
+              "start_line": 421,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|阜|alt1=阝|皇|ls=psc|c1=s|c2=p}}"
@@ -1645,7 +1658,8 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 265
+              "start_line": 265,
+              "source": null
             },
             {
               "graph_raw": "食",
@@ -1666,7 +1680,8 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 265
+            "start_line": 265,
+            "source": null
           },
           {
             "graph_raw": "食",
@@ -1752,26 +1767,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "凰",
           "ids": "⿵几皇",
           "phonetic_component": "皇",
           "semantic_component": "几",
           "position": "prefix-colon",
-          "abbreviation": "几",
-          "inventory_matches": []
+          "abbreviation": "sell",
+          "inventory_matches": [
+            {
+              "graph_raw": "几",
+              "label_token": "sell(a)",
+              "abbreviation": "sell",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "几",
+        "abbreviation": "sell",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "几",
+            "label_token": "sell(a)",
+            "abbreviation": "sell",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "几"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{几˸}qu\\textoverset{a}{a}ṅ}},",
-      "render_latex": "凰\t%huang2\n{\\large{\\textsuperscript{几˸}qu\\textoverset{a}{a}ṅ}},\n\\textit{ḫwaṅ};\t%0708l",
+      "transliteration_latex": "{\\large{\\textsuperscript{sell˸}qu\\textoverset{a}{a}ṅ}},",
+      "render_latex": "凰\t%huang2\n{\\large{\\textsuperscript{sell˸}qu\\textoverset{a}{a}ṅ}},\n\\textit{ḫwaṅ};\t%0708l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1950,7 +1981,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1971,7 +2003,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -2001,7 +2034,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -2119,7 +2153,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -2140,7 +2175,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",

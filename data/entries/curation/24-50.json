@@ -231,13 +231,13 @@
         "phonetic_hint": "棥"
       },
       "resolved_node_root": {
-        "root": "pan",
+        "root": "pan₃",
         "source": "node_transliteration_fallback",
         "descendant_count": 2,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "pan",
+        "display_root": "pan₃",
         "division_class": "mixed",
         "division_note": "the extracted forms point to both type a and type b",
         "mark_required": false,
@@ -382,7 +382,8 @@
               "graph_raw": "大",
               "label_token": "magn(us)",
               "abbreviation": "magn",
-              "start_line": 317
+              "start_line": 317,
+              "source": null
             },
             {
               "graph_raw": "大",
@@ -396,25 +397,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𠬜",
+        "abbreviation": "preh",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "𠬜",
+            "label_token": "preh(endere)",
+            "abbreviation": "preh",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "𠬜"
       },
-      "transliteration_latex": "{\\large{pan₃\\textsuperscript{˸𠬜}}},",
-      "render_latex": "樊\t%fan2\n{\\large{pan₃\\textsuperscript{˸𠬜}}},\n\\textit{biən};\t%0263b",
+      "transliteration_latex": "{\\large{pan₃\\textsuperscript{˸preh}}},",
+      "render_latex": "樊\t%fan2\n{\\large{pan₃\\textsuperscript{˸preh}}},\n\\textit{biən};\t%0263b",
       "wiktionary_semantic_validation": {
         "semantic_component": "𠬜",
         "phonetic_component": "棥",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "樊",
           "semantic_component": "𠬜",
           "phonetic_component": "棥",
           "position": "suffix-colon",
-          "abbreviation": "𠬜",
-          "inventory_matches": [],
+          "abbreviation": "preh",
+          "inventory_matches": [
+            {
+              "graph_raw": "𠬜",
+              "label_token": "preh(endere)",
+              "abbreviation": "preh",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|棥|𠬜|ls=ic|ls2=psc|c1=p|c2=s|t1=fence|t2=two hands}}"
         }
       },
@@ -428,7 +445,7 @@
         "phonetic_hint": "棥"
       },
       "resolved_node_root": {
-        "root": "pan",
+        "root": "pan₃",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
@@ -578,7 +595,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -599,7 +617,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -629,7 +648,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",

@@ -429,14 +429,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丶",
+        "abbreviation": "punct",
         "position": "suffix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "丶",
+            "label_token": "punct(um)",
+            "abbreviation": "punct",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "丶"
       },
-      "transliteration_latex": "{\\large{tseṅ₂\\textsuperscript{˸丶}}},",
-      "render_latex": "丼\t%jing3 / jǐng\n{\\large{tseṅ₂\\textsuperscript{˸丶}}},\n\\textit{tsieṅX};\t%0819e",
+      "transliteration_latex": "{\\large{tseṅ₂\\textsuperscript{˸punct}}},",
+      "render_latex": "丼\t%jing3 / jǐng\n{\\large{tseṅ₂\\textsuperscript{˸punct}}},\n\\textit{tsieṅX};\t%0819e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -598,7 +606,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -628,7 +637,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -719,7 +729,8 @@
             "graph_raw": "穴",
             "label_token": "cav(us)",
             "abbreviation": "cav",
-            "start_line": 222
+            "start_line": 222,
+            "source": null
           }
         ],
         "source": "packet_family_ids",
@@ -858,7 +869,8 @@
             "graph_raw": "阜",
             "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "start_line": 421
+            "start_line": 421,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -881,7 +893,8 @@
               "graph_raw": "阜",
               "label_token": "tum(ulus)",
               "abbreviation": "tum",
-              "start_line": 421
+              "start_line": 421,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|阜|井|c1=s|c2=p|alt1=阝|t1=mound|t2=well|ls=psc|ls2=ic}}"

@@ -114,13 +114,13 @@
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
-        "root": "sun",
+        "root": "sun₄",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "sun",
+        "display_root": "sun₄",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
         "mark_required": false,
@@ -211,7 +211,8 @@
             "graph_raw": "毛",
             "label_token": "pil(us)",
             "abbreviation": "pil",
-            "start_line": 356
+            "start_line": 356,
+            "source": null
           },
           {
             "graph_raw": "毛",
@@ -357,14 +358,22 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "準",
           "ids": "⿱淮十",
           "phonetic_component": "隹",
           "semantic_component": "十",
           "position": "suffix-colon",
-          "abbreviation": "十",
-          "inventory_matches": []
+          "abbreviation": "iung",
+          "inventory_matches": [
+            {
+              "graph_raw": "十",
+              "label_token": "iung(o)",
+              "abbreviation": "iung",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
@@ -376,7 +385,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -406,7 +416,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",

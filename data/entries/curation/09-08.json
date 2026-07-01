@@ -398,7 +398,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -419,7 +420,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -532,26 +534,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "扃",
           "ids": "⿸户冋",
           "phonetic_component": "冋",
-          "semantic_component": "户",
+          "semantic_component": "戶",
           "position": "prefix-dot",
-          "abbreviation": "户",
-          "inventory_matches": []
+          "abbreviation": "ost",
+          "inventory_matches": [
+            {
+              "graph_raw": "戶",
+              "label_token": "ost(ium)",
+              "abbreviation": "ost",
+              "start_line": 346,
+              "source": null
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "户",
+        "abbreviation": "ost",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "戶",
+            "label_token": "ost(ium)",
+            "abbreviation": "ost",
+            "start_line": 346,
+            "source": null
+          }
+        ],
         "source": "ids_component_literal_fallback",
-        "semantic_component": "户"
+        "semantic_component": "戶"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{户·}ɡeṅ}},",
-      "render_latex": "扃\t%jiong1 / jiong3 / jiōng\n{\\large{\\textsuperscript{户·}ɡeṅ}},\n\\textit{kweṅ};\t%0842d\n\\textit{kweṅX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{ost·}ɡeṅ}},",
+      "render_latex": "扃\t%jiong1 / jiong3 / jiōng\n{\\large{\\textsuperscript{ost·}ɡeṅ}},\n\\textit{kweṅ};\t%0842d\n\\textit{kweṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -635,7 +653,8 @@
               "graph_raw": "馬",
               "label_token": "equ(us)",
               "abbreviation": "equ",
-              "start_line": 270
+              "start_line": 270,
+              "source": null
             },
             {
               "graph_raw": "馬",
@@ -656,7 +675,8 @@
             "graph_raw": "馬",
             "label_token": "equ(us)",
             "abbreviation": "equ",
-            "start_line": 270
+            "start_line": 270,
+            "source": null
           },
           {
             "graph_raw": "馬",
@@ -873,7 +893,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -894,7 +915,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",

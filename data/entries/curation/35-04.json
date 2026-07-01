@@ -440,26 +440,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "協",
           "ids": "⿰十劦",
           "phonetic_component": "劦",
           "semantic_component": "十",
           "position": "prefix-dot",
-          "abbreviation": "十",
-          "inventory_matches": []
+          "abbreviation": "iung",
+          "inventory_matches": [
+            {
+              "graph_raw": "十",
+              "label_token": "iung(o)",
+              "abbreviation": "iung",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "十",
+        "abbreviation": "iung",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "十",
+            "label_token": "iung(o)",
+            "abbreviation": "iung",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "十"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{十·}ɡyp}},",
-      "render_latex": "協\t%xie2\n{\\large{\\textsuperscript{十·}ɡyp}},\n\\textit{hep};\t%0639b",
+      "transliteration_latex": "{\\large{\\textsuperscript{iung·}ɡyp}},",
+      "render_latex": "協\t%xie2\n{\\large{\\textsuperscript{iung·}ɡyp}},\n\\textit{hep};\t%0639b",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -591,7 +607,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -613,7 +630,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -708,7 +726,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -729,7 +748,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -885,7 +905,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -906,7 +927,8 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -929,7 +951,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|劦|肉|c1=p|c2=s|ls=psc}}"
@@ -1046,7 +1069,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1067,7 +1091,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",

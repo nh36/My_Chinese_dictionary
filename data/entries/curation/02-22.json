@@ -939,7 +939,8 @@
               "graph_raw": "宀",
               "label_token": "tect(um)",
               "abbreviation": "tect",
-              "start_line": 401
+              "start_line": 401,
+              "source": null
             },
             {
               "graph_raw": "宀",
@@ -960,7 +961,8 @@
             "graph_raw": "宀",
             "label_token": "tect(um)",
             "abbreviation": "tect",
-            "start_line": 401
+            "start_line": 401,
+            "source": null
           },
           {
             "graph_raw": "宀",
@@ -990,7 +992,8 @@
               "graph_raw": "宀",
               "label_token": "tect(um)",
               "abbreviation": "tect",
-              "start_line": 401
+              "start_line": 401,
+              "source": null
             },
             {
               "graph_raw": "宀",
@@ -1186,7 +1189,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1207,7 +1211,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1237,7 +1242,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1407,7 +1413,8 @@
               "graph_raw": "禾",
               "label_token": "gran(um)",
               "abbreviation": "gran",
-              "start_line": 291
+              "start_line": 291,
+              "source": null
             },
             {
               "graph_raw": "禾",
@@ -1428,7 +1435,8 @@
             "graph_raw": "禾",
             "label_token": "gran(um)",
             "abbreviation": "gran",
-            "start_line": 291
+            "start_line": 291,
+            "source": null
           },
           {
             "graph_raw": "禾",
@@ -1538,7 +1546,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1559,7 +1568,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1657,7 +1667,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1678,7 +1689,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1788,7 +1800,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1809,7 +1822,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1907,26 +1921,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "㓃",
           "ids": "⿱冖託",
           "phonetic_component": "乇",
           "semantic_component": "冖",
           "position": "prefix-colon",
-          "abbreviation": "冖",
-          "inventory_matches": []
+          "abbreviation": "velum",
+          "inventory_matches": [
+            {
+              "graph_raw": "冖",
+              "label_token": "velum",
+              "abbreviation": "velum",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "冖",
+        "abbreviation": "velum",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "冖",
+            "label_token": "velum",
+            "abbreviation": "velum",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "冖"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{冖˸}t\\textoverset{a}{a}k₅}},",
-      "render_latex": "㓃\t%du4\n{\\large{\\textsuperscript{冖˸}t\\textoverset{a}{a}k₅}},\n\\textit{tuH};\t%0780j",
+      "transliteration_latex": "{\\large{\\textsuperscript{velum˸}t\\textoverset{a}{a}k₅}},",
+      "render_latex": "㓃\t%du4\n{\\large{\\textsuperscript{velum˸}t\\textoverset{a}{a}k₅}},\n\\textit{tuH};\t%0780j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

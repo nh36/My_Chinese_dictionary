@@ -164,37 +164,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "產",
           "ids": "⿱文⿸厂生",
           "phonetic_component": "厂",
           "semantic_component": "文",
           "position": "prefix-colon",
-          "abbreviation": "文",
-          "inventory_matches": []
+          "abbreviation": "script",
+          "inventory_matches": [
+            {
+              "graph_raw": "文",
+              "label_token": "script(um)",
+              "abbreviation": "script",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "生",
+        "abbreviation": "nasc",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "生",
+            "label_token": "nasc(i)",
+            "abbreviation": "nasc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "生"
       },
-      "transliteration_latex": "{\\large{ṅar₅\\textsuperscript{˸生}}},",
-      "render_latex": "產\t%chan3 / chǎn\n{\\large{ṅar₅\\textsuperscript{˸生}}},\n\\textit{ṣeanX};\t%0194a",
+      "transliteration_latex": "{\\large{ṅar₅\\textsuperscript{˸nasc}}},",
+      "render_latex": "產\t%chan3 / chǎn\n{\\large{ṅar₅\\textsuperscript{˸nasc}}},\n\\textit{ṣeanX};\t%0194a",
       "wiktionary_semantic_validation": {
         "semantic_component": "生",
         "phonetic_component": "彥",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "產",
           "semantic_component": "生",
           "phonetic_component": "彥",
           "position": "suffix-colon",
-          "abbreviation": "生",
-          "inventory_matches": [],
+          "abbreviation": "nasc",
+          "inventory_matches": [
+            {
+              "graph_raw": "生",
+              "label_token": "nasc(i)",
+              "abbreviation": "nasc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|彥|生|ls=psc|c1=p|c2=s|abb1=y|t2=to be born}}"
         }
       },

@@ -671,26 +671,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "既",
           "ids": "⿰⑤旡",
           "phonetic_component": "旡",
-          "semantic_component": "⑤",
+          "semantic_component": "皀",
           "position": "prefix-dot",
-          "abbreviation": "⑤",
-          "inventory_matches": []
+          "abbreviation": "cib",
+          "inventory_matches": [
+            {
+              "graph_raw": "皀",
+              "label_token": "cib(us)",
+              "abbreviation": "cib",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "⑤",
+        "abbreviation": "cib",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "皀",
+            "label_token": "cib(us)",
+            "abbreviation": "cib",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
-        "semantic_component": "⑤"
+        "semantic_component": "皀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{⑤·}kyt}},",
-      "render_latex": "既\t%ji4 / jì\n{\\large{\\textsuperscript{⑤·}kyt}},\n\\textit{kiɨyH};\t%0515c",
+      "transliteration_latex": "{\\large{\\textsuperscript{cib·}kyt}},",
+      "render_latex": "既\t%ji4 / jì\n{\\large{\\textsuperscript{cib·}kyt}},\n\\textit{kiɨyH};\t%0515c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -855,7 +871,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -876,7 +893,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1036,7 +1054,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1057,7 +1076,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -1178,7 +1198,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1199,7 +1220,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -1273,14 +1295,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "朩",
+        "abbreviation": "lign",
         "position": "suffix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "朩",
+            "label_token": "lign(um)",
+            "abbreviation": "lign",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "朩"
       },
-      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸朩}}},",
-      "render_latex": "㮣\t%gai4\n{\\large{kyt₂\\textsuperscript{˸朩}}},\n\\textit{kəyH};\t%0515j",
+      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸lign}}},",
+      "render_latex": "㮣\t%gai4\n{\\large{kyt₂\\textsuperscript{˸lign}}},\n\\textit{kəyH};\t%0515j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1407,7 +1437,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1437,7 +1468,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1558,7 +1590,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1579,7 +1612,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1677,7 +1711,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1698,7 +1733,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1856,7 +1892,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -1877,7 +1914,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -1907,7 +1945,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -2086,37 +2125,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "暨",
           "ids": "⿱既旦",
           "phonetic_component": "旡",
           "semantic_component": "旦",
           "position": "suffix-colon",
-          "abbreviation": "旦",
-          "inventory_matches": []
+          "abbreviation": "auror",
+          "inventory_matches": [
+            {
+              "graph_raw": "旦",
+              "label_token": "auror(a)",
+              "abbreviation": "auror",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "旦",
+        "abbreviation": "auror",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "旦",
+            "label_token": "auror(a)",
+            "abbreviation": "auror",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "旦"
       },
-      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸旦}}},",
-      "render_latex": "暨\t%ji4 / jì\n{\\large{kyt₂\\textsuperscript{˸旦}}},\n\\textit{giyH};\t%0515o",
+      "transliteration_latex": "{\\large{kyt₂\\textsuperscript{˸auror}}},",
+      "render_latex": "暨\t%ji4 / jì\n{\\large{kyt₂\\textsuperscript{˸auror}}},\n\\textit{giyH};\t%0515o",
       "wiktionary_semantic_validation": {
         "semantic_component": "旦",
         "phonetic_component": "既",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "暨",
           "semantic_component": "旦",
           "phonetic_component": "既",
           "position": "suffix-colon",
-          "abbreviation": "旦",
-          "inventory_matches": [],
+          "abbreviation": "auror",
+          "inventory_matches": [
+            {
+              "graph_raw": "旦",
+              "label_token": "auror(a)",
+              "abbreviation": "auror",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|既|旦|c1=p|c2=s|t2=sunrise|ls=psc}}"
         }
       },

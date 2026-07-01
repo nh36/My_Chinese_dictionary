@@ -749,7 +749,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -770,7 +771,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -891,7 +893,8 @@
               "graph_raw": "广",
               "label_token": "lax(us)",
               "abbreviation": "lax",
-              "start_line": 310
+              "start_line": 310,
+              "source": null
             },
             {
               "graph_raw": "广",
@@ -912,7 +915,8 @@
             "graph_raw": "广",
             "label_token": "lax(us)",
             "abbreviation": "lax",
-            "start_line": 310
+            "start_line": 310,
+            "source": null
           },
           {
             "graph_raw": "广",
@@ -1058,7 +1062,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1088,7 +1093,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1206,7 +1212,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1227,7 +1234,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1383,7 +1391,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1404,7 +1413,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1434,7 +1444,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1531,26 +1542,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "酋",
           "ids": "⿱丷酉",
           "phonetic_component": "酉",
           "semantic_component": "丷",
           "position": "prefix-colon",
-          "abbreviation": "丷",
-          "inventory_matches": []
+          "abbreviation": "furc",
+          "inventory_matches": [
+            {
+              "graph_raw": "丷",
+              "label_token": "furc(a)",
+              "abbreviation": "furc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丷",
+        "abbreviation": "furc",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "丷",
+            "label_token": "furc(a)",
+            "abbreviation": "furc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "丷"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{丷˸}ru}},",
-      "render_latex": "酋\t%qiu2 / qiú\n{\\large{\\textsuperscript{丷˸}ru}},\n\\textit{dziuw};\t%1096l",
+      "transliteration_latex": "{\\large{\\textsuperscript{furc˸}ru}},",
+      "render_latex": "酋\t%qiu2 / qiú\n{\\large{\\textsuperscript{furc˸}ru}},\n\\textit{dziuw};\t%1096l",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1720,7 +1747,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1741,7 +1769,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -2047,7 +2076,8 @@
             "graph_raw": "糸",
             "label_token": "ser(icum)",
             "abbreviation": "ser",
-            "start_line": 387
+            "start_line": 387,
+            "source": null
           },
           {
             "graph_raw": "糸",
@@ -2077,7 +2107,8 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 387
+              "start_line": 387,
+              "source": null
             },
             {
               "graph_raw": "糸",
@@ -2172,7 +2203,8 @@
               "graph_raw": "魚",
               "label_token": "pis(cis)",
               "abbreviation": "pis",
-              "start_line": 359
+              "start_line": 359,
+              "source": null
             },
             {
               "graph_raw": "魚",
@@ -2193,7 +2225,8 @@
             "graph_raw": "魚",
             "label_token": "pis(cis)",
             "abbreviation": "pis",
-            "start_line": 359
+            "start_line": 359,
+            "source": null
           },
           {
             "graph_raw": "魚",
@@ -2401,7 +2434,8 @@
             "graph_raw": "犬",
             "label_token": "can(is)",
             "abbreviation": "can",
-            "start_line": 217
+            "start_line": 217,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2424,7 +2458,8 @@
               "graph_raw": "犬",
               "label_token": "can(is)",
               "abbreviation": "can",
-              "start_line": 217
+              "start_line": 217,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|犬|酋|ls=psc|c1=s|c2=p|t1=dog}}"
@@ -2512,7 +2547,8 @@
               "graph_raw": "犬",
               "label_token": "can(is)",
               "abbreviation": "can",
-              "start_line": 217
+              "start_line": 217,
+              "source": null
             }
           ]
         }
@@ -2526,7 +2562,8 @@
             "graph_raw": "犬",
             "label_token": "can(is)",
             "abbreviation": "can",
-            "start_line": 217
+            "start_line": 217,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -2641,7 +2678,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -2662,7 +2700,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",

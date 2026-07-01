@@ -460,25 +460,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "比",
+        "abbreviation": "comp",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "比",
+            "label_token": "comp(ar)",
+            "abbreviation": "comp",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "比"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{比˸}kiy₆}},",
-      "render_latex": "皆\t%jie1 / jiē\n{\\large{\\textsuperscript{比˸}kiy₆}},\n\\textit{keay};\t%0599a",
+      "transliteration_latex": "{\\large{\\textsuperscript{comp˸}kiy₆}},",
+      "render_latex": "皆\t%jie1 / jiē\n{\\large{\\textsuperscript{comp˸}kiy₆}},\n\\textit{keay};\t%0599a",
       "wiktionary_semantic_validation": {
         "semantic_component": "比",
         "phonetic_component": "甘",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "皆",
           "semantic_component": "比",
           "phonetic_component": "甘",
           "position": "prefix-colon",
-          "abbreviation": "比",
-          "inventory_matches": [],
+          "abbreviation": "comp",
+          "inventory_matches": [
+            {
+              "graph_raw": "比",
+              "label_token": "comp(ar)",
+              "abbreviation": "comp",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|比|甘|c1=s|c2=p|ls=psc}}"
         }
       },
@@ -673,7 +689,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -694,7 +711,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -724,7 +742,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -833,7 +852,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -854,7 +874,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1027,7 +1048,8 @@
             "graph_raw": "阜",
             "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "start_line": 421
+            "start_line": 421,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1050,7 +1072,8 @@
               "graph_raw": "阜",
               "label_token": "tum(ulus)",
               "abbreviation": "tum",
-              "start_line": 421
+              "start_line": 421,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|阜|alt1=阝|皆|ls=psc|c1=s|c2=p}}"
@@ -1196,7 +1219,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1217,7 +1241,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1247,7 +1272,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1354,7 +1380,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1375,7 +1402,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1519,7 +1547,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1540,7 +1569,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1570,7 +1600,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1677,7 +1708,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1698,7 +1730,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",

@@ -488,7 +488,8 @@
               "graph_raw": "目",
               "label_token": "ocul(us)",
               "abbreviation": "ocul",
-              "start_line": 341
+              "start_line": 341,
+              "source": null
             },
             {
               "graph_raw": "目",
@@ -509,7 +510,8 @@
             "graph_raw": "目",
             "label_token": "ocul(us)",
             "abbreviation": "ocul",
-            "start_line": 341
+            "start_line": 341,
+            "source": null
           },
           {
             "graph_raw": "目",
@@ -539,7 +541,8 @@
               "graph_raw": "目",
               "label_token": "ocul(us)",
               "abbreviation": "ocul",
-              "start_line": 341
+              "start_line": 341,
+              "source": null
             },
             {
               "graph_raw": "目",
@@ -709,7 +712,8 @@
             "graph_raw": "辵",
             "label_token": "amb(ulo)",
             "abbreviation": "amb",
-            "start_line": 188
+            "start_line": 188,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -732,7 +736,8 @@
               "graph_raw": "辵",
               "label_token": "amb(ulo)",
               "abbreviation": "amb",
-              "start_line": 188
+              "start_line": 188,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|辵|米|c1=s|c2=p|t1=walk|ls=psc}}"
@@ -820,7 +825,8 @@
               "graph_raw": "鹿",
               "label_token": "cerv(us)",
               "abbreviation": "cerv",
-              "start_line": 223
+              "start_line": 223,
+              "source": null
             }
           ]
         }
@@ -834,7 +840,8 @@
             "graph_raw": "鹿",
             "label_token": "cerv(us)",
             "abbreviation": "cerv",
-            "start_line": 223
+            "start_line": 223,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -1040,7 +1047,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1140,26 +1148,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "冞",
           "ids": "⿱冖米",
           "phonetic_component": "米",
           "semantic_component": "冖",
           "position": "prefix-colon",
-          "abbreviation": "冖",
-          "inventory_matches": []
+          "abbreviation": "velum",
+          "inventory_matches": [
+            {
+              "graph_raw": "冖",
+              "label_token": "velum",
+              "abbreviation": "velum",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "冖",
+        "abbreviation": "velum",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "冖",
+            "label_token": "velum",
+            "abbreviation": "velum",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "冖"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{冖˸}miy}},",
-      "render_latex": "冞\t%mi2 / mí\n{\\large{\\textsuperscript{冖˸}miy}},\n\\textit{myie};\t%0598k",
+      "transliteration_latex": "{\\large{\\textsuperscript{velum˸}miy}},",
+      "render_latex": "冞\t%mi2 / mí\n{\\large{\\textsuperscript{velum˸}miy}},\n\\textit{myie};\t%0598k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1240,7 +1264,8 @@
             "graph_raw": "网",
             "label_token": "nass(a)",
             "abbreviation": "nass",
-            "start_line": 332
+            "start_line": 332,
+            "source": null
           }
         ],
         "source": "packet_family_ids",
@@ -1331,7 +1356,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1352,7 +1378,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",

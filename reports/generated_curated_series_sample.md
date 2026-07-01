@@ -182,7 +182,7 @@
 | `04-05` | `missing_series` | no | 12 | 10 |
 | `04-06` | `missing_series` | no | 1 | 0 |
 | `04-07` | `missing_series` | no | 1 | 0 |
-| `04-08` | `missing_series` | no | 3 | 1 |
+| `04-08` | `missing_series` | no | 3 | 0 |
 | `04-09` | `missing_series` | no | 2 | 0 |
 | `04-10` | `missing_series` | no | 1 | 0 |
 | `04-11` | `missing_series` | no | 1 | 0 |

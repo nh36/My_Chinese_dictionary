@@ -145,28 +145,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{蜀·}kuiṅ}},",
-      "render_latex": "蠲\t%juan1\n{\\large{\\textsuperscript{蜀·}kuiṅ}},\n\\textit{kiwen};\t%1250f",
+      "transliteration_latex": "{\\large{\\textsuperscript{bombyx·}kuiṅ}},",
+      "render_latex": "蠲\t%juan1\n{\\large{\\textsuperscript{bombyx·}kuiṅ}},\n\\textit{kiwen};\t%1250f",
       "wiktionary_semantic_validation": {
         "semantic_component": "蜀",
         "phonetic_component": "益",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "蠲",
           "semantic_component": "蜀",
           "phonetic_component": "益",
           "position": "prefix-dot",
-          "abbreviation": "蜀",
-          "inventory_matches": [],
+          "abbreviation": "bombyx",
+          "inventory_matches": [
+            {
+              "graph_raw": "蜀",
+              "label_token": "bombyx",
+              "abbreviation": "bombyx",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|蜀|益|ls=psc|c1=s|c2=p}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "蜀",
+        "abbreviation": "bombyx",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "蜀",
+            "label_token": "bombyx",
+            "abbreviation": "bombyx",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "蜀"
       },
       "hierarchy_assignment": null,

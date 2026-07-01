@@ -177,28 +177,70 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [],
+      "semantic_candidates_from_ids": [
+        {
+          "source": "ids_top_level",
+          "character": "熊",
+          "ids": "⿱能灬",
+          "phonetic_component": "熊",
+          "semantic_component": "火",
+          "position": "suffix-colon",
+          "abbreviation": "ign",
+          "inventory_matches": [
+            {
+              "graph_raw": "火",
+              "label_token": "ign(is)",
+              "abbreviation": "ign",
+              "start_line": 300,
+              "source": null
+            },
+            {
+              "graph_raw": "火",
+              "label_token": "ign",
+              "abbreviation": "ign",
+              "learned": true,
+              "evidence_count": 1
+            }
+          ]
+        }
+      ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "能",
+        "abbreviation": "urs",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "能"
+        "inventory_matches": [
+          {
+            "graph_raw": "熊",
+            "label_token": "urs(us)",
+            "abbreviation": "urs",
+            "start_line": 426,
+            "source": null
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "熊"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{能˸}quym}},",
-      "render_latex": "熊\t%hiəng2 / xióng\n{\\large{\\textsuperscript{能˸}quym}},\n\\textit{hiuwṅ};\t%0674a",
+      "transliteration_latex": "{\\large{\\textsuperscript{urs˸}quym}},",
+      "render_latex": "熊\t%hiəng2 / xióng\n{\\large{\\textsuperscript{urs˸}quym}},\n\\textit{hiuwṅ};\t%0674a",
       "wiktionary_semantic_validation": {
-        "semantic_component": "能",
+        "semantic_component": "熊",
         "phonetic_component": "炎",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "熊",
-          "semantic_component": "能",
+          "semantic_component": "熊",
           "phonetic_component": "炎",
           "position": "prefix-colon",
-          "abbreviation": "能",
-          "inventory_matches": [],
+          "abbreviation": "urs",
+          "inventory_matches": [
+            {
+              "graph_raw": "熊",
+              "label_token": "urs(us)",
+              "abbreviation": "urs",
+              "start_line": 426,
+              "source": null
+            }
+          ],
           "template_raw": "{{Han compound|能|炎|c1=s|c2=p|t1=bear|ls=psc|abb2=y|nocap=1}}"
         }
       },

@@ -721,7 +721,8 @@
               "graph_raw": "示",
               "label_token": "spirit(us)",
               "abbreviation": "spirit",
-              "start_line": 398
+              "start_line": 398,
+              "source": null
             },
             {
               "graph_raw": "示",
@@ -742,7 +743,8 @@
             "graph_raw": "示",
             "label_token": "spirit(us)",
             "abbreviation": "spirit",
-            "start_line": 398
+            "start_line": 398,
+            "source": null
           },
           {
             "graph_raw": "示",
@@ -898,14 +900,15 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 273
+              "start_line": 273,
+              "source": null
             },
             {
               "graph_raw": "頁",
               "label_token": "fac",
               "abbreviation": "fac",
               "learned": true,
-              "evidence_count": 4
+              "evidence_count": 5
             }
           ]
         }
@@ -919,14 +922,15 @@
             "graph_raw": "頁",
             "label_token": "fac(ies)",
             "abbreviation": "fac",
-            "start_line": 273
+            "start_line": 273,
+            "source": null
           },
           {
             "graph_raw": "頁",
             "label_token": "fac",
             "abbreviation": "fac",
             "learned": true,
-            "evidence_count": 4
+            "evidence_count": 5
           }
         ],
         "source": "wiktionary_han_compound",
@@ -949,14 +953,15 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 273
+              "start_line": 273,
+              "source": null
             },
             {
               "graph_raw": "頁",
               "label_token": "fac",
               "abbreviation": "fac",
               "learned": true,
-              "evidence_count": 4
+              "evidence_count": 5
             }
           ],
           "template_raw": "{{Han compound|石|頁|ls=psc|c1=p|c2=s}}"
@@ -1044,7 +1049,8 @@
               "graph_raw": "鼠",
               "label_token": "rod(entia)",
               "abbreviation": "rod",
-              "start_line": 329
+              "start_line": 329,
+              "source": null
             }
           ]
         }
@@ -1058,7 +1064,8 @@
             "graph_raw": "鼠",
             "label_token": "rod(entia)",
             "abbreviation": "rod",
-            "start_line": 329
+            "start_line": 329,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -1244,26 +1251,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "磔",
           "ids": "⿰石桀",
           "phonetic_component": "石",
           "semantic_component": "桀",
           "position": "suffix-dot",
-          "abbreviation": "桀",
-          "inventory_matches": []
+          "abbreviation": "hero",
+          "inventory_matches": [
+            {
+              "graph_raw": "桀",
+              "label_token": "heros",
+              "abbreviation": "hero",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "桀",
+        "abbreviation": "hero",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "桀",
+            "label_token": "heros",
+            "abbreviation": "hero",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "桀"
       },
-      "transliteration_latex": "{\\large{tak₂\\textsuperscript{·桀}}},",
-      "render_latex": "磔\t%zhe2\n{\\large{tak₂\\textsuperscript{·桀}}},\n\\textit{ṭaek};\t%0795j",
+      "transliteration_latex": "{\\large{tak₂\\textsuperscript{·hero}}},",
+      "render_latex": "磔\t%zhe2\n{\\large{tak₂\\textsuperscript{·hero}}},\n\\textit{ṭaek};\t%0795j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1361,7 +1384,8 @@
               "graph_raw": "斤",
               "label_token": "libra",
               "abbreviation": "libra",
-              "start_line": 311
+              "start_line": 311,
+              "source": null
             },
             {
               "graph_raw": "斤",
@@ -1382,7 +1406,8 @@
             "graph_raw": "斤",
             "label_token": "libra",
             "abbreviation": "libra",
-            "start_line": 311
+            "start_line": 311,
+            "source": null
           },
           {
             "graph_raw": "斤",
@@ -1540,7 +1565,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1561,7 +1587,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1591,7 +1618,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1734,7 +1762,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1755,7 +1784,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -1785,7 +1815,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1938,7 +1969,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -1959,7 +1991,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -1989,7 +2022,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -2158,7 +2192,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -2180,7 +2215,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -2321,25 +2357,7 @@
         ]
       },
       "tex_occurrence_candidates": [],
-      "semantic_candidates_from_ids": [
-        {
-          "source": "ids_top_level",
-          "character": "橐",
-          "ids": "⿳⿻一中冖䂞",
-          "phonetic_component": "石",
-          "semantic_component": "一",
-          "position": "prefix-colon",
-          "abbreviation": "discr",
-          "inventory_matches": [
-            {
-              "graph_raw": "一",
-              "label_token": "discr(imen)",
-              "abbreviation": "discr",
-              "start_line": 257
-            }
-          ]
-        }
-      ],
+      "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
         "abbreviation": "foll",
@@ -2349,7 +2367,8 @@
             "graph_raw": "𣒚",
             "label_token": "foll(is)",
             "abbreviation": "foll",
-            "start_line": 282
+            "start_line": 282,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2372,7 +2391,8 @@
               "graph_raw": "𣒚",
               "label_token": "foll(is)",
               "abbreviation": "foll",
-              "start_line": 282
+              "start_line": 282,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|ls=psc|石|𣒚|c1=p|c2=s|t2=bag with a bottom}}"
@@ -2557,7 +2577,8 @@
               "graph_raw": "䖵",
               "label_token": "insect(a)",
               "abbreviation": "insect",
-              "start_line": 330
+              "start_line": 330,
+              "source": null
             }
           ]
         }
@@ -2571,7 +2592,8 @@
             "graph_raw": "䖵",
             "label_token": "insect(a)",
             "abbreviation": "insect",
-            "start_line": 330
+            "start_line": 330,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2594,7 +2616,8 @@
               "graph_raw": "䖵",
               "label_token": "insect(a)",
               "abbreviation": "insect",
-              "start_line": 330
+              "start_line": 330,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|ls=psc|橐|䖵|c1=p|c2=s|t2=insect}}"

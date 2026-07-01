@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 import unittest
 
@@ -151,6 +152,34 @@ class BuildIntegratedSemanticComponentsTests(unittest.TestCase):
         self.assertNotIn("bos", merged["blocked_used_abbreviations"])
         self.assertEqual(merged["summary"]["duplicate_graph_conflict_count"], 0)
         self.assertEqual(merged["summary"]["intentional_scoped_duplicate_graph_count"], 1)
+
+    def test_merge_inventories_includes_semantic_label_supplement_rows(self) -> None:
+        current_inventory = {"source_path": "main.tex", "summary": {"item_count": 0}, "items": []}
+        pilot_inventory = {"source_path": "pilot.tex", "summary": {"item_count": 0}, "items": []}
+        normalization_config = semantic_label_normalization.load_normalization_config(
+            ROOT / "data/semantic_components/semantic_aliases.json"
+        )
+        supplement = json.loads(
+            (ROOT / "data/semantic_components/semantic_label_supplement.json").read_text(encoding="utf-8")
+        )
+
+        merged = build_integrated_semantic_components.merge_inventories(
+            current_inventory,
+            pilot_inventory,
+            [],
+            [],
+            normalization_config,
+        )
+
+        by_abbreviation = {
+            item.get("abbreviation"): item for item in merged["items"] if item.get("abbreviation")
+        }
+        for item in supplement["items"]:
+            abbreviation = item["abbreviation"]
+            self.assertIn(abbreviation, by_abbreviation)
+            self.assertEqual(by_abbreviation[abbreviation]["graph_raw"], item["graph_raw"])
+            self.assertEqual(by_abbreviation[abbreviation]["sources"][0]["source"], "semantic_label_supplement")
+            self.assertTrue(by_abbreviation[abbreviation]["listed_only_in_inventory"])
 
 
 if __name__ == "__main__":

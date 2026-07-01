@@ -448,7 +448,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -462,25 +463,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "凡",
+        "abbreviation": "lanx",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "凡",
+            "label_token": "lanx",
+            "abbreviation": "lanx",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "凡"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{凡·}pyk₆}},",
-      "render_latex": "服\t%fu2 / gu2 / fu4 / fù / fú\n{\\large{\\textsuperscript{凡·}pyk₆}},\n\\textit{biuwk};\t%0934d\n\\textit{biuwX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{lanx·}pyk₆}},",
+      "render_latex": "服\t%fu2 / gu2 / fu4 / fù / fú\n{\\large{\\textsuperscript{lanx·}pyk₆}},\n\\textit{biuwk};\t%0934d\n\\textit{biuwX};",
       "wiktionary_semantic_validation": {
         "semantic_component": "凡",
         "phonetic_component": "𠬝",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "服",
           "semantic_component": "凡",
           "phonetic_component": "𠬝",
           "position": "prefix-dot",
-          "abbreviation": "凡",
-          "inventory_matches": [],
+          "abbreviation": "lanx",
+          "inventory_matches": [
+            {
+              "graph_raw": "凡",
+              "label_token": "lanx",
+              "abbreviation": "lanx",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|凡|𠬝|ls=psc|t1=tray|t2=to subdue|c1=s|c2=p|tr2=*[b]ək}}"
         }
       },
@@ -668,7 +685,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",
@@ -689,7 +707,8 @@
             "graph_raw": "竹",
             "label_token": "bamb(us)",
             "abbreviation": "bamb",
-            "start_line": 206
+            "start_line": 206,
+            "source": null
           },
           {
             "graph_raw": "竹",
@@ -719,7 +738,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",

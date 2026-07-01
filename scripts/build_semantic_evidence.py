@@ -12,6 +12,7 @@ import hierarchy_utils
 import inventory_tex
 import mc_resolution
 import resolve_series_roots
+import semantic_label_normalization
 
 
 DEFAULT_CURRENT_SOURCE = "main.tex"
@@ -70,14 +71,43 @@ COMPONENT_ALIASES = {
     "飠": "食",
     "饣": "食",
     "訁": "言",
+    "⑤": "皀",
+    "云": "雲",
+    "襾": "覀",
+    "夊": "夂",
+    "自": "鼻",
+    "能": "熊",
+    "户": "戶",
     "虎": "虍",
     "歺": "歹",
+    "𨸏": "阜",
     "疒": "疒",
 }
+SYMBOL_GRAPH_RE = re.compile(r'^\\symbol\{"([0-9A-F]{4,6})\}$', re.IGNORECASE)
 WIKTIONARY_CACHE_DIR = Path("data/raw/wiktionary")
 GSR_BASE_RE = re.compile(r"^0*(\d+)([a-z]?(?:')?)?$", re.IGNORECASE)
 SUPERSCRIPT_RELATION_COLON = "˸"
 SEMANTIC_GLYPH_IMAGE_DIR = Path("hard-character-images")
+
+
+def iter_semantic_inventory_items(semantic_inventory: dict[str, Any]) -> list[dict[str, Any]]:
+    items = list(semantic_inventory["items"])
+    supplement = semantic_label_normalization.load_semantic_label_supplement()
+    for item in supplement["items"]:
+        abbreviation = item.get("abbreviation")
+        graph_raw = item.get("graph_raw")
+        if not abbreviation or not graph_raw:
+            continue
+        items.append(
+            {
+                "graph_raw": graph_raw,
+                "label_token": item.get("label_token") or abbreviation,
+                "abbreviation": abbreviation,
+                "start_line": item.get("start_line"),
+                "source": "semantic_label_supplement",
+            }
+        )
+    return items
 RESEARCH_BACKED_SEMANTICS = {
     "甞": {
         "semantic_component": "甘",
@@ -360,7 +390,7 @@ def parse_occurrence_block(
 
 def build_inventory_lookup(semantic_inventory: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     lookup: dict[str, list[dict[str, Any]]] = {}
-    for item in semantic_inventory["items"]:
+    for item in iter_semantic_inventory_items(semantic_inventory):
         abbreviation = item.get("abbreviation")
         if not abbreviation:
             continue
@@ -369,6 +399,7 @@ def build_inventory_lookup(semantic_inventory: dict[str, Any]) -> dict[str, list
                 "graph_raw": item.get("graph_raw"),
                 "label_token": item.get("label_token"),
                 "start_line": item.get("start_line"),
+                "source": item.get("source"),
             }
         )
     return lookup
@@ -376,16 +407,17 @@ def build_inventory_lookup(semantic_inventory: dict[str, Any]) -> dict[str, list
 
 def build_inventory_graph_lookup(semantic_inventory: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     lookup: dict[str, list[dict[str, Any]]] = {}
-    for item in semantic_inventory["items"]:
+    for item in iter_semantic_inventory_items(semantic_inventory):
         graph_raw = item.get("graph_raw")
         if not graph_raw:
             continue
-        lookup.setdefault(graph_raw, []).append(
+        lookup.setdefault(normalize_component_graph(graph_raw), []).append(
             {
                 "graph_raw": graph_raw,
                 "label_token": item.get("label_token"),
                 "abbreviation": item.get("abbreviation"),
                 "start_line": item.get("start_line"),
+                "source": item.get("source"),
             }
         )
     return lookup
@@ -399,6 +431,14 @@ def load_csv_records(path: Path) -> list[dict[str, Any]]:
 
 
 def normalize_component_graph(component: str) -> str:
+    if not component:
+        return component
+    match = SYMBOL_GRAPH_RE.fullmatch(component)
+    if match:
+        try:
+            component = chr(int(match.group(1), 16))
+        except ValueError:
+            pass
     return COMPONENT_ALIASES.get(component, component)
 
 

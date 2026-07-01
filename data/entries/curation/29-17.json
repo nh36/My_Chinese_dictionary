@@ -736,7 +736,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -757,7 +758,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -787,7 +789,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -980,7 +983,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1001,7 +1005,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1031,7 +1036,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1193,7 +1199,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1214,7 +1221,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -1244,7 +1252,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1397,7 +1406,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1418,7 +1428,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -1448,7 +1459,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1589,7 +1601,8 @@
               "graph_raw": "禾",
               "label_token": "gran(um)",
               "abbreviation": "gran",
-              "start_line": 291
+              "start_line": 291,
+              "source": null
             },
             {
               "graph_raw": "禾",
@@ -1610,7 +1623,8 @@
             "graph_raw": "禾",
             "label_token": "gran(um)",
             "abbreviation": "gran",
-            "start_line": 291
+            "start_line": 291,
+            "source": null
           },
           {
             "graph_raw": "禾",
@@ -1640,7 +1654,8 @@
               "graph_raw": "禾",
               "label_token": "gran(um)",
               "abbreviation": "gran",
-              "start_line": 291
+              "start_line": 291,
+              "source": null
             },
             {
               "graph_raw": "禾",
@@ -1794,7 +1809,8 @@
               "graph_raw": "羽",
               "label_token": "plum(a)",
               "abbreviation": "plum",
-              "start_line": 361
+              "start_line": 361,
+              "source": null
             },
             {
               "graph_raw": "羽",
@@ -1815,7 +1831,8 @@
             "graph_raw": "羽",
             "label_token": "plum(a)",
             "abbreviation": "plum",
-            "start_line": 361
+            "start_line": 361,
+            "source": null
           },
           {
             "graph_raw": "羽",
@@ -1947,37 +1964,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "瓞",
           "ids": "⿺瓜失",
           "phonetic_component": "失",
           "semantic_component": "瓜",
           "position": "prefix-dot",
-          "abbreviation": "瓜",
-          "inventory_matches": []
+          "abbreviation": "cucur",
+          "inventory_matches": [
+            {
+              "graph_raw": "瓜",
+              "label_token": "cucur(bita)",
+              "abbreviation": "cucur",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "瓜",
+        "abbreviation": "cucur",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "瓜",
+            "label_token": "cucur(bita)",
+            "abbreviation": "cucur",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "瓜"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{瓜·}lit}},",
-      "render_latex": "瓞\t%die2\n{\\large{\\textsuperscript{瓜·}lit}},\n\\textit{det};\t%0402i",
+      "transliteration_latex": "{\\large{\\textsuperscript{cucur·}lit}},",
+      "render_latex": "瓞\t%die2\n{\\large{\\textsuperscript{cucur·}lit}},\n\\textit{det};\t%0402i",
       "wiktionary_semantic_validation": {
         "semantic_component": "瓜",
         "phonetic_component": "失",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "瓞",
           "semantic_component": "瓜",
           "phonetic_component": "失",
           "position": "prefix-dot",
-          "abbreviation": "瓜",
-          "inventory_matches": [],
+          "abbreviation": "cucur",
+          "inventory_matches": [
+            {
+              "graph_raw": "瓜",
+              "label_token": "cucur(bita)",
+              "abbreviation": "cucur",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|瓜|失|ls=psc|c1=s|t1=melon|c2=p}}"
         }
       },
@@ -2138,7 +2179,8 @@
             "graph_raw": "足",
             "label_token": "(pes,) ped(is)",
             "abbreviation": "ped",
-            "start_line": 354
+            "start_line": 354,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2161,7 +2203,8 @@
               "graph_raw": "足",
               "label_token": "(pes,) ped(is)",
               "abbreviation": "ped",
-              "start_line": 354
+              "start_line": 354,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|足|失|ls=psc|c1=s|t1=foot|c2=p}}"
@@ -2324,7 +2367,8 @@
             "graph_raw": "辵",
             "label_token": "amb(ulo)",
             "abbreviation": "amb",
-            "start_line": 188
+            "start_line": 188,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2347,7 +2391,8 @@
               "graph_raw": "辵",
               "label_token": "amb(ulo)",
               "abbreviation": "amb",
-              "start_line": 188
+              "start_line": 188,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|辵|失|alt1=辶|ls=psc|c1=s|c2=p}}"
@@ -2458,7 +2503,8 @@
               "graph_raw": "目",
               "label_token": "ocul(us)",
               "abbreviation": "ocul",
-              "start_line": 341
+              "start_line": 341,
+              "source": null
             },
             {
               "graph_raw": "目",
@@ -2479,7 +2525,8 @@
             "graph_raw": "目",
             "label_token": "ocul(us)",
             "abbreviation": "ocul",
-            "start_line": 341
+            "start_line": 341,
+            "source": null
           },
           {
             "graph_raw": "目",

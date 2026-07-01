@@ -550,26 +550,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "太",
           "ids": "⿵大丶",
           "phonetic_component": "大",
           "semantic_component": "丶",
           "position": "suffix-colon",
-          "abbreviation": "丶",
-          "inventory_matches": []
+          "abbreviation": "punct",
+          "inventory_matches": [
+            {
+              "graph_raw": "丶",
+              "label_token": "punct(um)",
+              "abbreviation": "punct",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丶",
+        "abbreviation": "punct",
         "position": "suffix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "丶",
+            "label_token": "punct(um)",
+            "abbreviation": "punct",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "丶"
       },
-      "transliteration_latex": "{\\large{lat₂\\textsuperscript{˸丶}}},",
-      "render_latex": "太\t%tai4 / tài\n{\\large{lat₂\\textsuperscript{˸丶}}},\n\\textit{thayH};\t%0317d",
+      "transliteration_latex": "{\\large{lat₂\\textsuperscript{˸punct}}},",
+      "render_latex": "太\t%tai4 / tài\n{\\large{lat₂\\textsuperscript{˸punct}}},\n\\textit{thayH};\t%0317d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -797,7 +813,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -818,7 +835,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -848,7 +866,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1030,7 +1049,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1051,7 +1071,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1081,7 +1102,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1199,7 +1221,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1220,7 +1243,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -1342,7 +1366,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -1363,7 +1388,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -1475,7 +1501,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1496,7 +1523,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1617,7 +1645,8 @@
               "graph_raw": "金",
               "label_token": "met(allum)",
               "abbreviation": "met",
-              "start_line": 323
+              "start_line": 323,
+              "source": null
             },
             {
               "graph_raw": "金",
@@ -1638,7 +1667,8 @@
             "graph_raw": "金",
             "label_token": "met(allum)",
             "abbreviation": "met",
-            "start_line": 323
+            "start_line": 323,
+            "source": null
           },
           {
             "graph_raw": "金",

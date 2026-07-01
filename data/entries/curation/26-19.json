@@ -412,7 +412,8 @@
               "graph_raw": "米",
               "label_token": "oryz(a)",
               "abbreviation": "oryz",
-              "start_line": 343
+              "start_line": 343,
+              "source": null
             },
             {
               "graph_raw": "米",
@@ -433,7 +434,8 @@
             "graph_raw": "米",
             "label_token": "oryz(a)",
             "abbreviation": "oryz",
-            "start_line": 343
+            "start_line": 343,
+            "source": null
           },
           {
             "graph_raw": "米",
@@ -463,7 +465,8 @@
               "graph_raw": "米",
               "label_token": "oryz(a)",
               "abbreviation": "oryz",
-              "start_line": 343
+              "start_line": 343,
+              "source": null
             },
             {
               "graph_raw": "米",
@@ -550,7 +553,8 @@
               "graph_raw": "隹",
               "label_token": "passer",
               "abbreviation": "passer",
-              "start_line": 353
+              "start_line": 353,
+              "source": null
             },
             {
               "graph_raw": "隹",
@@ -571,7 +575,8 @@
             "graph_raw": "隹",
             "label_token": "passer",
             "abbreviation": "passer",
-            "start_line": 353
+            "start_line": 353,
+            "source": null
           },
           {
             "graph_raw": "隹",
@@ -688,14 +693,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "引",
+        "abbreviation": "tract",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "引",
+            "label_token": "tract(us)",
+            "abbreviation": "tract",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "引"
       },
-      "transliteration_latex": "{\\large{liy\\textsuperscript{·引}}},",
-      "render_latex": "矧\t%shen3\n{\\large{liy\\textsuperscript{·引}}},\n\\textit{śinX};\t%0560i",
+      "transliteration_latex": "{\\large{liy\\textsuperscript{·tract}}},",
+      "render_latex": "矧\t%shen3\n{\\large{liy\\textsuperscript{·tract}}},\n\\textit{śinX};\t%0560i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -775,7 +788,8 @@
             "graph_raw": "弓",
             "label_token": "arc(us)",
             "abbreviation": "arc",
-            "start_line": 194
+            "start_line": 194,
+            "source": null
           },
           {
             "graph_raw": "弓",
@@ -856,7 +870,8 @@
             "graph_raw": "目",
             "label_token": "ocul(us)",
             "abbreviation": "ocul",
-            "start_line": 341
+            "start_line": 341,
+            "source": null
           },
           {
             "graph_raw": "目",
@@ -1017,7 +1032,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1038,7 +1054,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",

@@ -234,13 +234,13 @@
       },
       "hierarchy_assignment": null,
       "resolved_node_root": {
-        "root": "qik",
+        "root": "qik₂",
         "source": "node_transliteration_fallback",
         "descendant_count": 2,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "qik",
+        "display_root": "qik₂",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": false,
@@ -384,28 +384,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{qik₂\\textsuperscript{·卪}}},",
-      "render_latex": "厄\t%e4 / è\n{\\large{qik₂\\textsuperscript{·卪}}},\n\\textit{qeak};\t%0844b",
+      "transliteration_latex": "{\\large{qik₂\\textsuperscript{·nod}}},",
+      "render_latex": "厄\t%e4 / è\n{\\large{qik₂\\textsuperscript{·nod}}},\n\\textit{qeak};\t%0844b",
       "wiktionary_semantic_validation": {
         "semantic_component": "卪",
         "phonetic_component": "厂",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "厄",
           "semantic_component": "卪",
           "phonetic_component": "厂",
           "position": "suffix-dot",
-          "abbreviation": "卪",
-          "inventory_matches": [],
+          "abbreviation": "nod",
+          "inventory_matches": [
+            {
+              "graph_raw": "卪",
+              "label_token": "nod(us)",
+              "abbreviation": "nod",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|厂|卪|ls=psc|c1=p|c2=s|t2=joint; node|nocap=yes}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "卪",
+        "abbreviation": "nod",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "卪",
+            "label_token": "nod(us)",
+            "abbreviation": "nod",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "卪"
       },
       "hierarchy_assignment": {
@@ -509,7 +525,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -669,7 +686,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -699,7 +717,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -827,7 +846,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -857,7 +877,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",

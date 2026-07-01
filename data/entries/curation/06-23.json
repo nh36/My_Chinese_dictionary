@@ -186,28 +186,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{myṅ₂\\textsuperscript{˸夕}}},",
-      "render_latex": "夢\t%meng4 / meng2 / mèng\n{\\large{myṅ₂\\textsuperscript{˸夕}}},\n\\textit{miuwṅH};\t%0902a\n\\textit{muwṅ};",
+      "transliteration_latex": "{\\large{myṅ₂\\textsuperscript{˸nox}}},",
+      "render_latex": "夢\t%meng4 / meng2 / mèng\n{\\large{myṅ₂\\textsuperscript{˸nox}}},\n\\textit{miuwṅH};\t%0902a\n\\textit{muwṅ};",
       "wiktionary_semantic_validation": {
         "semantic_component": "夕",
         "phonetic_component": "瞢",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "夢",
           "semantic_component": "夕",
           "phonetic_component": "瞢",
           "position": "suffix-colon",
-          "abbreviation": "夕",
-          "inventory_matches": [],
+          "abbreviation": "nox",
+          "inventory_matches": [
+            {
+              "graph_raw": "夕",
+              "label_token": "nox",
+              "abbreviation": "nox",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|瞢|夕|ls=psc|c1=p|c2=s|nocap=y}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "夕",
+        "abbreviation": "nox",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "夕",
+            "label_token": "nox",
+            "abbreviation": "nox",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "夕"
       },
       "hierarchy_assignment": {
@@ -318,7 +334,8 @@
             "graph_raw": "宀",
             "label_token": "tect(um)",
             "abbreviation": "tect",
-            "start_line": 401
+            "start_line": 401,
+            "source": null
           },
           {
             "graph_raw": "宀",
@@ -874,7 +891,8 @@
               "graph_raw": "瓦",
               "label_token": "teg(ula)",
               "abbreviation": "teg",
-              "start_line": 402
+              "start_line": 402,
+              "source": null
             },
             {
               "graph_raw": "瓦",
@@ -896,7 +914,8 @@
             "graph_raw": "瓦",
             "label_token": "teg(ula)",
             "abbreviation": "teg",
-            "start_line": 402
+            "start_line": 402,
+            "source": null
           },
           {
             "graph_raw": "瓦",
@@ -1137,7 +1156,8 @@
               "graph_raw": "死",
               "label_token": "mort(uus)",
               "abbreviation": "mort",
-              "start_line": 328
+              "start_line": 328,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|死|瞢|c1=s|c2=p|t1=to die|ls=psc|abb2=y}}"
@@ -1152,7 +1172,8 @@
             "graph_raw": "死",
             "label_token": "mort(uus)",
             "abbreviation": "mort",
-            "start_line": 328
+            "start_line": 328,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",

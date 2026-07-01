@@ -356,7 +356,8 @@
             "graph_raw": "門",
             "label_token": "port(a)",
             "abbreviation": "port",
-            "start_line": 365
+            "start_line": 365,
+            "source": null
           },
           {
             "graph_raw": "門",
@@ -386,7 +387,8 @@
               "graph_raw": "門",
               "label_token": "port(a)",
               "abbreviation": "port",
-              "start_line": 365
+              "start_line": 365,
+              "source": null
             },
             {
               "graph_raw": "門",
@@ -470,14 +472,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "危",
+        "abbreviation": "peril",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "危",
+            "label_token": "peril(um)",
+            "abbreviation": "peril",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "危"
       },
-      "transliteration_latex": "{\\large{ṅet₂\\textsuperscript{·危}}},",
-      "render_latex": "臲\t%nie4\n{\\large{ṅet₂\\textsuperscript{·危}}},\n\\textit{ṅet};\t%0285d",
+      "transliteration_latex": "{\\large{ṅet₂\\textsuperscript{·peril}}},",
+      "render_latex": "臲\t%nie4\n{\\large{ṅet₂\\textsuperscript{·peril}}},\n\\textit{ṅet};\t%0285d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -571,7 +581,8 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 249
+            "start_line": 249,
+            "source": null
           }
         ],
         "source": "packet_family_ids",

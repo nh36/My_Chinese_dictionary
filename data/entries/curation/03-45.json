@@ -254,25 +254,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "重",
+        "abbreviation": "grav",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "重",
+            "label_token": "grav(is)",
+            "abbreviation": "grav",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "重"
       },
-      "transliteration_latex": "{\\large{r\\textoverset{b}{a}ṅ₂\\textsuperscript{˸重}}},",
-      "render_latex": "量\t%liang2 / liang4 / liáng / liàng\n{\\large{r\\textoverset{b}{a}ṅ₂\\textsuperscript{˸重}}},\n\\textit{liaṅ};\t%0737a\n\\textit{liaṅH};",
+      "transliteration_latex": "{\\large{r\\textoverset{b}{a}ṅ₂\\textsuperscript{˸grav}}},",
+      "render_latex": "量\t%liang2 / liang4 / liáng / liàng\n{\\large{r\\textoverset{b}{a}ṅ₂\\textsuperscript{˸grav}}},\n\\textit{liaṅ};\t%0737a\n\\textit{liaṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "重",
         "phonetic_component": "曏",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "量",
           "semantic_component": "重",
           "phonetic_component": "曏",
           "position": "suffix-colon",
-          "abbreviation": "重",
-          "inventory_matches": [],
+          "abbreviation": "grav",
+          "inventory_matches": [
+            {
+              "graph_raw": "重",
+              "label_token": "grav(is)",
+              "abbreviation": "grav",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|曏|重|ls=psc|c1=p|c2=s|t2=weight; heavy|nocap=1}}"
         }
       },
@@ -449,7 +465,8 @@
               "graph_raw": "米",
               "label_token": "oryz(a)",
               "abbreviation": "oryz",
-              "start_line": 343
+              "start_line": 343,
+              "source": null
             },
             {
               "graph_raw": "米",
@@ -470,7 +487,8 @@
             "graph_raw": "米",
             "label_token": "oryz(a)",
             "abbreviation": "oryz",
-            "start_line": 343
+            "start_line": 343,
+            "source": null
           },
           {
             "graph_raw": "米",
@@ -500,7 +518,8 @@
               "graph_raw": "米",
               "label_token": "oryz(a)",
               "abbreviation": "oryz",
-              "start_line": 343
+              "start_line": 343,
+              "source": null
             },
             {
               "graph_raw": "米",

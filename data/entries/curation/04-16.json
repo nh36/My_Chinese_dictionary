@@ -378,7 +378,8 @@
               "graph_raw": "男",
               "label_token": "masc(ulus)",
               "abbreviation": "masc",
-              "start_line": 320
+              "start_line": 320,
+              "source": null
             },
             {
               "graph_raw": "男",
@@ -399,7 +400,8 @@
             "graph_raw": "男",
             "label_token": "masc(ulus)",
             "abbreviation": "masc",
-            "start_line": 320
+            "start_line": 320,
+            "source": null
           },
           {
             "graph_raw": "男",
@@ -429,7 +431,8 @@
               "graph_raw": "男",
               "label_token": "masc(ulus)",
               "abbreviation": "masc",
-              "start_line": 320
+              "start_line": 320,
+              "source": null
             },
             {
               "graph_raw": "男",
@@ -584,25 +587,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "雈",
+        "abbreviation": "strix",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "雈",
+            "label_token": "strix",
+            "abbreviation": "strix",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "雈"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{雈˸}kuy₅}},",
-      "render_latex": "舊\t%jiu4 / jiù\n{\\large{\\textsuperscript{雈˸}kuy₅}},\n\\textit{giuwH};\t%1067c",
+      "transliteration_latex": "{\\large{\\textsuperscript{strix˸}kuy₅}},",
+      "render_latex": "舊\t%jiu4 / jiù\n{\\large{\\textsuperscript{strix˸}kuy₅}},\n\\textit{giuwH};\t%1067c",
       "wiktionary_semantic_validation": {
         "semantic_component": "雈",
         "phonetic_component": "臼",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "舊",
           "semantic_component": "雈",
           "phonetic_component": "臼",
           "position": "prefix-colon",
-          "abbreviation": "雈",
-          "inventory_matches": [],
+          "abbreviation": "strix",
+          "inventory_matches": [
+            {
+              "graph_raw": "雈",
+              "label_token": "strix",
+              "abbreviation": "strix",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|雈|臼|c1=s|c2=p|t1=owl|ls=psc}}"
         }
       },
@@ -700,7 +719,8 @@
             "graph_raw": "匚",
             "label_token": "caps(a)",
             "abbreviation": "caps",
-            "start_line": 219
+            "start_line": 219,
+            "source": null
           }
         ],
         "source": "packet_family_ids",

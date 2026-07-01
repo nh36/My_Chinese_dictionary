@@ -278,14 +278,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "弋",
+        "abbreviation": "clav",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "弋",
+            "label_token": "clav(us)",
+            "abbreviation": "clav",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "弋"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{弋·}niy₃}},",
-      "render_latex": "弍\t%er4\n{\\large{\\textsuperscript{弋·}niy₃}},\n\\textit{ñiyH};\t%0564e",
+      "transliteration_latex": "{\\large{\\textsuperscript{clav·}niy₃}},",
+      "render_latex": "弍\t%er4\n{\\large{\\textsuperscript{clav·}niy₃}},\n\\textit{ñiyH};\t%0564e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -453,14 +461,22 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "貳",
           "ids": "⿹弋⿱二貝",
           "phonetic_component": "二",
           "semantic_component": "弋",
           "position": "prefix-dot",
-          "abbreviation": "弋",
-          "inventory_matches": []
+          "abbreviation": "clav",
+          "inventory_matches": [
+            {
+              "graph_raw": "弋",
+              "label_token": "clav(us)",
+              "abbreviation": "clav",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
@@ -472,14 +488,15 @@
             "graph_raw": "貝",
             "label_token": "conch(a)",
             "abbreviation": "conch",
-            "start_line": 238
+            "start_line": 238,
+            "source": null
           },
           {
             "graph_raw": "貝",
             "label_token": "conch",
             "abbreviation": "conch",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -502,14 +519,15 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 238
+              "start_line": 238,
+              "source": null
             },
             {
               "graph_raw": "貝",
               "label_token": "conch",
               "abbreviation": "conch",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|貝|弍|c1=s|c2=p|t2=two|ls=psc}}"
@@ -633,7 +651,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -654,7 +673,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -812,7 +832,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -833,7 +854,8 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -856,7 +878,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|肉|貳|ls=psc|c1=s|c2=p|t1=meat}}"

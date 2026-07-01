@@ -487,37 +487,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "仁",
           "ids": "⿰亻二",
           "phonetic_component": "人",
           "semantic_component": "二",
           "position": "suffix-dot",
-          "abbreviation": "二",
-          "inventory_matches": []
+          "abbreviation": "duo",
+          "inventory_matches": [
+            {
+              "graph_raw": "二",
+              "label_token": "duo",
+              "abbreviation": "duo",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "二",
+        "abbreviation": "duo",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "二",
+            "label_token": "duo",
+            "abbreviation": "duo",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "二"
       },
-      "transliteration_latex": "{\\large{niṅ₂\\textsuperscript{·二}}},",
-      "render_latex": "仁\t%ren2 / rén\n{\\large{niṅ₂\\textsuperscript{·二}}},\n\\textit{ñin};\t%0388f",
+      "transliteration_latex": "{\\large{niṅ₂\\textsuperscript{·duo}}},",
+      "render_latex": "仁\t%ren2 / rén\n{\\large{niṅ₂\\textsuperscript{·duo}}},\n\\textit{ñin};\t%0388f",
       "wiktionary_semantic_validation": {
         "semantic_component": "二",
         "phonetic_component": "人",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "仁",
           "semantic_component": "二",
           "phonetic_component": "人",
           "position": "suffix-dot",
-          "abbreviation": "二",
-          "inventory_matches": [],
+          "abbreviation": "duo",
+          "inventory_matches": [
+            {
+              "graph_raw": "二",
+              "label_token": "duo",
+              "abbreviation": "duo",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|人|二|ls=psc|c1=p|c2=s}}"
         }
       },
@@ -659,7 +683,8 @@
             "graph_raw": "禾",
             "label_token": "gran(um)",
             "abbreviation": "gran",
-            "start_line": 291
+            "start_line": 291,
+            "source": null
           },
           {
             "graph_raw": "禾",
@@ -689,7 +714,8 @@
               "graph_raw": "禾",
               "label_token": "gran(um)",
               "abbreviation": "gran",
-              "start_line": 291
+              "start_line": 291,
+              "source": null
             },
             {
               "graph_raw": "禾",
@@ -848,7 +874,8 @@
               "graph_raw": "一",
               "label_token": "discr(imen)",
               "abbreviation": "discr",
-              "start_line": 257
+              "start_line": 257,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|一|人|c1=s|c2=p|ls=psc|t1=one, signifying a number}}"
@@ -863,7 +890,8 @@
             "graph_raw": "一",
             "label_token": "discr(imen)",
             "abbreviation": "discr",
-            "start_line": 257
+            "start_line": 257,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1022,7 +1050,8 @@
             "graph_raw": "阜",
             "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "start_line": 421
+            "start_line": 421,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1045,7 +1074,8 @@
               "graph_raw": "阜",
               "label_token": "tum(ulus)",
               "abbreviation": "tum",
-              "start_line": 421
+              "start_line": 421,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|阜|千|ls=psc|c1=s|c2=p|t1=[[soil]] [[mountain]]}}"
@@ -1185,7 +1215,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1215,7 +1246,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",

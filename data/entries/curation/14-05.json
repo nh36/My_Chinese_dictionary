@@ -316,7 +316,8 @@
             "graph_raw": "屮",
             "label_token": "germ(en)",
             "abbreviation": "germ",
-            "start_line": 289
+            "start_line": 289,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -339,7 +340,8 @@
               "graph_raw": "屮",
               "label_token": "germ(en)",
               "abbreviation": "germ",
-              "start_line": 289
+              "start_line": 289,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|屮|毐|c1=s|c2=p|t1=vegetation|ls=psc|nocap=y}}"
@@ -517,37 +519,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "纛",
           "ids": "⿱毒縣",
           "phonetic_component": "毒",
           "semantic_component": "縣",
           "position": "suffix-colon",
-          "abbreviation": "縣",
-          "inventory_matches": []
+          "abbreviation": "susp",
+          "inventory_matches": [
+            {
+              "graph_raw": "縣",
+              "label_token": "susp(ensus)",
+              "abbreviation": "susp",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "縣",
+        "abbreviation": "susp",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "縣",
+            "label_token": "susp(ensus)",
+            "abbreviation": "susp",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "縣"
       },
-      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸縣}}},",
-      "render_latex": "纛\t%dao4 / du2\n{\\large{tuk\\textsuperscript{˸縣}}},\n\\textit{dawH};\t%1016b\n\\textit{dəwk};",
+      "transliteration_latex": "{\\large{tuk\\textsuperscript{˸susp}}},",
+      "render_latex": "纛\t%dao4 / du2\n{\\large{tuk\\textsuperscript{˸susp}}},\n\\textit{dawH};\t%1016b\n\\textit{dəwk};",
       "wiktionary_semantic_validation": {
         "semantic_component": "縣",
         "phonetic_component": "毒",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "纛",
           "semantic_component": "縣",
           "phonetic_component": "毒",
           "position": "suffix-colon",
-          "abbreviation": "縣",
-          "inventory_matches": [],
+          "abbreviation": "susp",
+          "inventory_matches": [
+            {
+              "graph_raw": "縣",
+              "label_token": "susp(ensus)",
+              "abbreviation": "susp",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|毒|縣|c1=p|c2=s|t2=to hang|ls=psc}}"
         }
       },

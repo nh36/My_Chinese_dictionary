@@ -195,25 +195,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丂",
+        "abbreviation": "halit",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "丂",
+            "label_token": "halit(us)",
+            "abbreviation": "halit",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "丂"
       },
-      "transliteration_latex": "{\\large{neṅ₂\\textsuperscript{˸丂}}},",
-      "render_latex": "寧\t%ning2 / níng\n{\\large{neṅ₂\\textsuperscript{˸丂}}},\n\\textit{neṅ};\t%0837a",
+      "transliteration_latex": "{\\large{neṅ₂\\textsuperscript{˸halit}}},",
+      "render_latex": "寧\t%ning2 / níng\n{\\large{neṅ₂\\textsuperscript{˸halit}}},\n\\textit{neṅ};\t%0837a",
       "wiktionary_semantic_validation": {
         "semantic_component": "丂",
         "phonetic_component": "寍",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "寧",
           "semantic_component": "丂",
           "phonetic_component": "寍",
           "position": "suffix-colon",
-          "abbreviation": "丂",
-          "inventory_matches": [],
+          "abbreviation": "halit",
+          "inventory_matches": [
+            {
+              "graph_raw": "丂",
+              "label_token": "halit(us)",
+              "abbreviation": "halit",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|寍|丂|ls=psc|c1=p|c2=s|t2=speech (?)}}"
         }
       },
@@ -690,7 +706,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -711,7 +728,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -838,7 +856,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -868,7 +887,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",

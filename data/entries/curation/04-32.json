@@ -542,7 +542,8 @@
               "graph_raw": "示",
               "label_token": "spirit(us)",
               "abbreviation": "spirit",
-              "start_line": 398
+              "start_line": 398,
+              "source": null
             },
             {
               "graph_raw": "示",
@@ -563,7 +564,8 @@
             "graph_raw": "示",
             "label_token": "spirit(us)",
             "abbreviation": "spirit",
-            "start_line": 398
+            "start_line": 398,
+            "source": null
           },
           {
             "graph_raw": "示",
@@ -593,7 +595,8 @@
               "graph_raw": "示",
               "label_token": "spirit(us)",
               "abbreviation": "spirit",
-              "start_line": 398
+              "start_line": 398,
+              "source": null
             },
             {
               "graph_raw": "示",
@@ -688,7 +691,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -709,7 +713,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -795,26 +800,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "戺",
           "ids": "⿰户巳",
           "phonetic_component": "巳",
-          "semantic_component": "户",
+          "semantic_component": "戶",
           "position": "prefix-dot",
-          "abbreviation": "户",
-          "inventory_matches": []
+          "abbreviation": "ost",
+          "inventory_matches": [
+            {
+              "graph_raw": "戶",
+              "label_token": "ost(ium)",
+              "abbreviation": "ost",
+              "start_line": 346,
+              "source": null
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "户",
+        "abbreviation": "ost",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "戶",
+            "label_token": "ost(ium)",
+            "abbreviation": "ost",
+            "start_line": 346,
+            "source": null
+          }
+        ],
         "source": "ids_component_literal_fallback",
-        "semantic_component": "户"
+        "semantic_component": "戶"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{户·}qy₆}},",
-      "render_latex": "戺\t%shi4\n{\\large{\\textsuperscript{户·}qy₆}},\n\\textit{dẓiX};\t%0967k",
+      "transliteration_latex": "{\\large{\\textsuperscript{ost·}qy₆}},",
+      "render_latex": "戺\t%shi4\n{\\large{\\textsuperscript{ost·}qy₆}},\n\\textit{dẓiX};\t%0967k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

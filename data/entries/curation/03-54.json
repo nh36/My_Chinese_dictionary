@@ -226,28 +226,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{maṅ\\textsuperscript{˸㗊}}},",
-      "render_latex": "喪\t%sang1 / sang4 / sāng / sàng\n{\\large{maṅ\\textsuperscript{˸㗊}}},\n\\textit{saṅ};\t%0705a\n\\textit{saṅH};",
+      "transliteration_latex": "{\\large{maṅ\\textsuperscript{˸clam}}},",
+      "render_latex": "喪\t%sang1 / sang4 / sāng / sàng\n{\\large{maṅ\\textsuperscript{˸clam}}},\n\\textit{saṅ};\t%0705a\n\\textit{saṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "㗊",
         "phonetic_component": "桑",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "喪",
           "semantic_component": "㗊",
           "phonetic_component": "桑",
           "position": "suffix-colon",
-          "abbreviation": "㗊",
-          "inventory_matches": [],
+          "abbreviation": "clam",
+          "inventory_matches": [
+            {
+              "graph_raw": "㗊",
+              "label_token": "clam(or)",
+              "abbreviation": "clam",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|桑|㗊|c1=p|c2=s|t1=mulberry tree|t2=many mouths|ls=psc|nocap=y}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "㗊",
+        "abbreviation": "clam",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "㗊",
+            "label_token": "clam(or)",
+            "abbreviation": "clam",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "㗊"
       },
       "hierarchy_assignment": null,

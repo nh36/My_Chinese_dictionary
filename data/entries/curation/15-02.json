@@ -404,7 +404,8 @@
             "graph_raw": "阜",
             "label_token": "tum(ulus)",
             "abbreviation": "tum",
-            "start_line": 421
+            "start_line": 421,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -427,7 +428,8 @@
               "graph_raw": "阜",
               "label_token": "tum(ulus)",
               "abbreviation": "tum",
-              "start_line": 421
+              "start_line": 421,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|阜|alt1=阝|t1=hill, wall|夅|t2=to descend|ls=psc|ls2=ic|c1=s|c2=p}}"
@@ -716,7 +718,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -746,7 +749,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -897,28 +901,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{kum\\textsuperscript{·生}}},",
-      "render_latex": "隆\t%long2 / lóng\n{\\large{kum\\textsuperscript{·生}}},\n\\textit{liuwṅ};\t%1015f",
+      "transliteration_latex": "{\\large{kum\\textsuperscript{·nasc}}},",
+      "render_latex": "隆\t%long2 / lóng\n{\\large{kum\\textsuperscript{·nasc}}},\n\\textit{liuwṅ};\t%1015f",
       "wiktionary_semantic_validation": {
         "semantic_component": "生",
         "phonetic_component": "降",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "隆",
           "semantic_component": "生",
           "phonetic_component": "降",
           "position": "suffix-dot",
-          "abbreviation": "生",
-          "inventory_matches": [],
+          "abbreviation": "nasc",
+          "inventory_matches": [
+            {
+              "graph_raw": "生",
+              "label_token": "nasc(i)",
+              "abbreviation": "nasc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|降|生|c1=p|c2=s|ls=psc}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "生",
+        "abbreviation": "nasc",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "生",
+            "label_token": "nasc(i)",
+            "abbreviation": "nasc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "生"
       },
       "hierarchy_assignment": {
@@ -1028,7 +1048,8 @@
             "graph_raw": "疒",
             "label_token": "infirm(itas)",
             "abbreviation": "infirm",
-            "start_line": 301
+            "start_line": 301,
+            "source": null
           },
           {
             "graph_raw": "疒",
@@ -1240,14 +1261,15 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 238
+              "start_line": 238,
+              "source": null
             },
             {
               "graph_raw": "貝",
               "label_token": "conch",
               "abbreviation": "conch",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|竷|貝|ls=psc|c1=p|c2=s|t2=shell; money|abb1=y|nocap=1}}"
@@ -1262,14 +1284,15 @@
             "graph_raw": "貝",
             "label_token": "conch(a)",
             "abbreviation": "conch",
-            "start_line": 238
+            "start_line": 238,
+            "source": null
           },
           {
             "graph_raw": "貝",
             "label_token": "conch",
             "abbreviation": "conch",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",

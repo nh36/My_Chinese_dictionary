@@ -308,25 +308,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "自",
+        "abbreviation": "nas",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "自"
+        "inventory_matches": [
+          {
+            "graph_raw": "鼻",
+            "label_token": "nas(um)",
+            "abbreviation": "nas",
+            "start_line": 331,
+            "source": null
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "鼻"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{自˸}men}},",
-      "render_latex": "臱\t%mian2\n{\\large{\\textsuperscript{自˸}men}},\n\\textit{myien};\t%0224a",
+      "transliteration_latex": "{\\large{\\textsuperscript{nas˸}men}},",
+      "render_latex": "臱\t%mian2\n{\\large{\\textsuperscript{nas˸}men}},\n\\textit{myien};\t%0224a",
       "wiktionary_semantic_validation": {
-        "semantic_component": "自",
+        "semantic_component": "鼻",
         "phonetic_component": "丙",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "臱",
-          "semantic_component": "自",
+          "semantic_component": "鼻",
           "phonetic_component": "丙",
           "position": "prefix-colon",
-          "abbreviation": "自",
-          "inventory_matches": [],
+          "abbreviation": "nas",
+          "inventory_matches": [
+            {
+              "graph_raw": "鼻",
+              "label_token": "nas(um)",
+              "abbreviation": "nas",
+              "start_line": 331,
+              "source": null
+            }
+          ],
           "template_raw": "{{Han compound|ls=psc|自|丙|c1=s|c2=p|t1=since; from|nocap=yes}}"
         }
       },
@@ -452,7 +468,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -473,7 +490,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -648,7 +666,8 @@
             "graph_raw": "辵",
             "label_token": "amb(ulo)",
             "abbreviation": "amb",
-            "start_line": 188
+            "start_line": 188,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -671,7 +690,8 @@
               "graph_raw": "辵",
               "label_token": "amb(ulo)",
               "abbreviation": "amb",
-              "start_line": 188
+              "start_line": 188,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|辵|臱|alt1=辶|ls=psc|c1=s|c2=p|t1=walking; movement}}"
@@ -843,7 +863,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",
@@ -864,7 +885,8 @@
             "graph_raw": "竹",
             "label_token": "bamb(us)",
             "abbreviation": "bamb",
-            "start_line": 206
+            "start_line": 206,
+            "source": null
           },
           {
             "graph_raw": "竹",
@@ -894,7 +916,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",

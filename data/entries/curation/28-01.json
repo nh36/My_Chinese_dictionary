@@ -1073,7 +1073,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1094,7 +1095,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1124,7 +1126,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1293,7 +1296,8 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 288
+              "start_line": 288,
+              "source": null
             },
             {
               "graph_raw": "玉",
@@ -1314,7 +1318,8 @@
             "graph_raw": "玉",
             "label_token": "gem(ma)",
             "abbreviation": "gem",
-            "start_line": 288
+            "start_line": 288,
+            "source": null
           },
           {
             "graph_raw": "玉",
@@ -1344,7 +1349,8 @@
               "graph_raw": "玉",
               "label_token": "gem(ma)",
               "abbreviation": "gem",
-              "start_line": 288
+              "start_line": 288,
+              "source": null
             },
             {
               "graph_raw": "玉",
@@ -1521,7 +1527,8 @@
               "graph_raw": "斗",
               "label_token": "trull(a)",
               "abbreviation": "trull",
-              "start_line": 413
+              "start_line": 413,
+              "source": null
             },
             {
               "graph_raw": "斗",
@@ -1542,7 +1549,8 @@
             "graph_raw": "斗",
             "label_token": "trull(a)",
             "abbreviation": "trull",
-            "start_line": 413
+            "start_line": 413,
+            "source": null
           },
           {
             "graph_raw": "斗",
@@ -1572,7 +1580,8 @@
               "graph_raw": "斗",
               "label_token": "trull(a)",
               "abbreviation": "trull",
-              "start_line": 413
+              "start_line": 413,
+              "source": null
             },
             {
               "graph_raw": "斗",
@@ -1750,7 +1759,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1771,7 +1781,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -1801,7 +1812,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1896,7 +1908,8 @@
               "graph_raw": "疒",
               "label_token": "infirm(itas)",
               "abbreviation": "infirm",
-              "start_line": 301
+              "start_line": 301,
+              "source": null
             },
             {
               "graph_raw": "疒",
@@ -1917,7 +1930,8 @@
             "graph_raw": "疒",
             "label_token": "infirm(itas)",
             "abbreviation": "infirm",
-            "start_line": 301
+            "start_line": 301,
+            "source": null
           },
           {
             "graph_raw": "疒",
@@ -2064,7 +2078,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -2085,7 +2100,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -2232,7 +2248,8 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 327
+              "start_line": 327,
+              "source": null
             },
             {
               "graph_raw": "山",
@@ -2253,7 +2270,8 @@
             "graph_raw": "山",
             "label_token": "mon(s)",
             "abbreviation": "mon",
-            "start_line": 327
+            "start_line": 327,
+            "source": null
           },
           {
             "graph_raw": "山",
@@ -2424,26 +2442,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "魏",
           "ids": "⿰委鬼",
           "phonetic_component": "鬼",
           "semantic_component": "委",
           "position": "prefix-dot",
-          "abbreviation": "委",
-          "inventory_matches": []
+          "abbreviation": "genuf",
+          "inventory_matches": [
+            {
+              "graph_raw": "委",
+              "label_token": "genuf(lectere)",
+              "abbreviation": "genuf",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "委",
+        "abbreviation": "genuf",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "委",
+            "label_token": "genuf(lectere)",
+            "abbreviation": "genuf",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "委"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{委·}ʔuy}},",
-      "render_latex": "魏\t%wei2 / wei4 / wéi / wèi\n{\\large{\\textsuperscript{委·}ʔuy}},\n\\textit{ṅiwɨy};\t%0569k\n\\textit{ṅiwɨyH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{genuf·}ʔuy}},",
+      "render_latex": "魏\t%wei2 / wei4 / wéi / wèi\n{\\large{\\textsuperscript{genuf·}ʔuy}},\n\\textit{ṅiwɨy};\t%0569k\n\\textit{ṅiwɨyH};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2645,7 +2679,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -2666,7 +2701,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -2696,7 +2732,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -2791,7 +2828,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -2812,7 +2850,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -2944,7 +2983,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -2965,7 +3005,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -3089,7 +3130,8 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 265
+              "start_line": 265,
+              "source": null
             },
             {
               "graph_raw": "食",
@@ -3110,7 +3152,8 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 265
+            "start_line": 265,
+            "source": null
           },
           {
             "graph_raw": "食",
@@ -3226,7 +3269,8 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 327
+              "start_line": 327,
+              "source": null
             },
             {
               "graph_raw": "山",
@@ -3247,7 +3291,8 @@
             "graph_raw": "山",
             "label_token": "mon(s)",
             "abbreviation": "mon",
-            "start_line": 327
+            "start_line": 327,
+            "source": null
           },
           {
             "graph_raw": "山",

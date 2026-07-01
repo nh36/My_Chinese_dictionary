@@ -657,7 +657,8 @@
             "graph_raw": "糸",
             "label_token": "ser(icum)",
             "abbreviation": "ser",
-            "start_line": 387
+            "start_line": 387,
+            "source": null
           },
           {
             "graph_raw": "糸",
@@ -687,7 +688,8 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 387
+              "start_line": 387,
+              "source": null
             },
             {
               "graph_raw": "糸",
@@ -885,7 +887,8 @@
               "graph_raw": "走",
               "label_token": "curr(o)",
               "abbreviation": "curr",
-              "start_line": 250
+              "start_line": 250,
+              "source": null
             },
             {
               "graph_raw": "走",
@@ -906,7 +909,8 @@
             "graph_raw": "走",
             "label_token": "curr(o)",
             "abbreviation": "curr",
-            "start_line": 250
+            "start_line": 250,
+            "source": null
           },
           {
             "graph_raw": "走",
@@ -1071,7 +1075,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1092,7 +1097,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -1122,7 +1128,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1217,7 +1224,8 @@
               "graph_raw": "角",
               "label_token": "corn(u)",
               "abbreviation": "corn",
-              "start_line": 245
+              "start_line": 245,
+              "source": null
             },
             {
               "graph_raw": "角",
@@ -1238,7 +1246,8 @@
             "graph_raw": "角",
             "label_token": "corn(u)",
             "abbreviation": "corn",
-            "start_line": 245
+            "start_line": 245,
+            "source": null
           },
           {
             "graph_raw": "角",
@@ -1396,7 +1405,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1417,7 +1427,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1447,7 +1458,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1542,7 +1554,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -1563,7 +1576,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1692,28 +1706,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{㗊·}kiw}},",
-      "render_latex": "嘂\t%jiao4\n{\\large{\\textsuperscript{㗊·}kiw}},\n\\textit{kewH};\t%1064i",
+      "transliteration_latex": "{\\large{\\textsuperscript{clam·}kiw}},",
+      "render_latex": "嘂\t%jiao4\n{\\large{\\textsuperscript{clam·}kiw}},\n\\textit{kewH};\t%1064i",
       "wiktionary_semantic_validation": {
         "semantic_component": "㗊",
         "phonetic_component": "丩",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "嘂",
           "semantic_component": "㗊",
           "phonetic_component": "丩",
           "position": "prefix-dot",
-          "abbreviation": "㗊",
-          "inventory_matches": [],
+          "abbreviation": "clam",
+          "inventory_matches": [
+            {
+              "graph_raw": "㗊",
+              "label_token": "clam(or)",
+              "abbreviation": "clam",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|㗊|丩|ls=psc|c1=s|c2=p}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "㗊",
+        "abbreviation": "clam",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "㗊",
+            "label_token": "clam(or)",
+            "abbreviation": "clam",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "㗊"
       },
       "hierarchy_assignment": {

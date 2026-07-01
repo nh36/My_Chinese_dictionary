@@ -372,19 +372,13 @@
         "mark_required": false,
         "mc_forms": [
           "ḫiun",
-          "ḫiunX",
           "ḫiunH",
-          "ḫwən"
+          "ḫwən",
+          "ḫiunX"
         ],
         "form_analyses": [
           {
             "form": "ḫiun",
-            "normalized": "ḫiun",
-            "class": "b",
-            "reason": "explicit_i_medial"
-          },
-          {
-            "form": "ḫiunX",
             "normalized": "ḫiun",
             "class": "b",
             "reason": "explicit_i_medial"
@@ -400,6 +394,12 @@
             "normalized": "ḫwən",
             "class": "a",
             "reason": "no_i_medial"
+          },
+          {
+            "form": "ḫiunX",
+            "normalized": "ḫiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
           }
         ]
       }
@@ -539,7 +539,8 @@
               "graph_raw": "雨",
               "label_token": "pluv(ia)",
               "abbreviation": "pluv",
-              "start_line": 362
+              "start_line": 362,
+              "source": null
             },
             {
               "graph_raw": "雨",
@@ -560,7 +561,8 @@
             "graph_raw": "雨",
             "label_token": "pluv(ia)",
             "abbreviation": "pluv",
-            "start_line": 362
+            "start_line": 362,
+            "source": null
           },
           {
             "graph_raw": "雨",
@@ -577,12 +579,12 @@
       "render_latex": "雲\t%yun2 / yún\n{\\large{\\textsuperscript{pluv˸}quyr}},\n\\textit{ḫiun};\t%0460b",
       "wiktionary_semantic_validation": {
         "semantic_component": "雨",
-        "phonetic_component": "云",
+        "phonetic_component": "雲",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "雲",
           "semantic_component": "雨",
-          "phonetic_component": "云",
+          "phonetic_component": "雲",
           "position": "prefix-colon",
           "abbreviation": "pluv",
           "inventory_matches": [
@@ -590,7 +592,8 @@
               "graph_raw": "雨",
               "label_token": "pluv(ia)",
               "abbreviation": "pluv",
-              "start_line": 362
+              "start_line": 362,
+              "source": null
             },
             {
               "graph_raw": "雨",
@@ -612,7 +615,51 @@
         "source": "ids_parent_family_inference",
         "phonetic_hint": "云"
       },
-      "resolved_node_root": null
+      "resolved_node_root": {
+        "root": "quyn",
+        "source": "node_bs_broad_consensus",
+        "descendant_count": 3,
+        "bs_support_count": 3,
+        "bs_broad_roots": [
+          "quyn"
+        ],
+        "bs_node_roots": [
+          "gyn",
+          "quyn"
+        ],
+        "display_root": "quyn",
+        "division_class": "mixed",
+        "division_note": "the extracted forms point to both type a and type b",
+        "mark_required": false,
+        "mc_forms": [
+          "ḫiun",
+          "ḫiunH",
+          "ḫwən"
+        ],
+        "form_analyses": [
+          {
+            "form": "ḫiun",
+            "normalized": "ḫiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḫiunH",
+            "normalized": "ḫiun",
+            "class": "b",
+            "reason": "explicit_i_medial"
+          },
+          {
+            "form": "ḫwən",
+            "normalized": "ḫwən",
+            "class": "a",
+            "reason": "no_i_medial"
+          }
+        ],
+        "base_root": "quyn",
+        "ordinal": 1,
+        "numbering_source": "document_order_occurrence"
+      }
     },
     {
       "character": "妘",
@@ -731,7 +778,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -752,7 +800,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -765,16 +814,16 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "女"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{fem·}quyr}},",
-      "render_latex": "妘\t%yun2\n{\\large{\\textsuperscript{fem·}quyr}},\n\\textit{ḫiun};\t%0460c",
+      "transliteration_latex": "{\\large{\\textsuperscript{fem·}quyn}},",
+      "render_latex": "妘\t%yun2\n{\\large{\\textsuperscript{fem·}quyn}},\n\\textit{ḫiun};\t%0460c",
       "wiktionary_semantic_validation": {
         "semantic_component": "女",
-        "phonetic_component": "云",
+        "phonetic_component": "雲",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "妘",
           "semantic_component": "女",
-          "phonetic_component": "云",
+          "phonetic_component": "雲",
           "position": "prefix-dot",
           "abbreviation": "fem",
           "inventory_matches": [
@@ -782,7 +831,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -797,12 +847,12 @@
       },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
-        "parent_character": "云",
+        "parent_character": "雲",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "云"
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "雲"
       },
       "resolved_node_root": null
     },
@@ -877,7 +927,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -898,7 +949,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -996,7 +1048,8 @@
               "graph_raw": "耒",
               "label_token": "aratr(um)",
               "abbreviation": "aratr",
-              "start_line": 199
+              "start_line": 199,
+              "source": null
             },
             {
               "graph_raw": "耒",
@@ -1017,7 +1070,8 @@
             "graph_raw": "耒",
             "label_token": "aratr(um)",
             "abbreviation": "aratr",
-            "start_line": 199
+            "start_line": 199,
+            "source": null
           },
           {
             "graph_raw": "耒",
@@ -1186,7 +1240,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1207,7 +1262,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1220,16 +1276,16 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "艸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}quyr}},",
-      "render_latex": "芸\t%yun2 / yun4 / yún\n{\\large{\\textsuperscript{herb˸}quyr}},\n\\textit{ḫiun};\t%0460f\n\\textit{ḫiunH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{herb˸}quyn}},",
+      "render_latex": "芸\t%yun2 / yun4 / yún\n{\\large{\\textsuperscript{herb˸}quyn}},\n\\textit{ḫiun};\t%0460f\n\\textit{ḫiunH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "艸",
-        "phonetic_component": "云",
+        "phonetic_component": "雲",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "芸",
           "semantic_component": "艸",
-          "phonetic_component": "云",
+          "phonetic_component": "雲",
           "position": "prefix-colon",
           "abbreviation": "herb",
           "inventory_matches": [
@@ -1237,7 +1293,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1252,12 +1309,12 @@
       },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
-        "parent_character": "云",
+        "parent_character": "雲",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "云"
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "雲"
       },
       "resolved_node_root": null
     },
@@ -1390,7 +1447,8 @@
               "graph_raw": "鬼",
               "label_token": "daemon",
               "abbreviation": "daemon",
-              "start_line": 251
+              "start_line": 251,
+              "source": null
             },
             {
               "graph_raw": "鬼",
@@ -1411,7 +1469,8 @@
             "graph_raw": "鬼",
             "label_token": "daemon",
             "abbreviation": "daemon",
-            "start_line": 251
+            "start_line": 251,
+            "source": null
           },
           {
             "graph_raw": "鬼",
@@ -1424,16 +1483,16 @@
         "source": "wiktionary_han_compound",
         "semantic_component": "鬼"
       },
-      "transliteration_latex": "{\\large{quyr\\textsuperscript{·daemon}}},",
-      "render_latex": "魂\t%hun2 / hún\n{\\large{quyr\\textsuperscript{·daemon}}},\n\\textit{ḫwən};\t%0460g",
+      "transliteration_latex": "{\\large{quyn\\textsuperscript{·daemon}}},",
+      "render_latex": "魂\t%hun2 / hún\n{\\large{quyn\\textsuperscript{·daemon}}},\n\\textit{ḫwən};\t%0460g",
       "wiktionary_semantic_validation": {
         "semantic_component": "鬼",
-        "phonetic_component": "云",
+        "phonetic_component": "雲",
         "resolved_assignment": {
           "source": "wiktionary_han_compound",
           "character": "魂",
           "semantic_component": "鬼",
-          "phonetic_component": "云",
+          "phonetic_component": "雲",
           "position": "suffix-dot",
           "abbreviation": "daemon",
           "inventory_matches": [
@@ -1441,7 +1500,8 @@
               "graph_raw": "鬼",
               "label_token": "daemon",
               "abbreviation": "daemon",
-              "start_line": 251
+              "start_line": 251,
+              "source": null
             },
             {
               "graph_raw": "鬼",
@@ -1456,12 +1516,12 @@
       },
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
-        "parent_character": "云",
+        "parent_character": "雲",
         "parent_display_line": null,
         "parent_rhs_snippet": null,
         "parent_kind": "candidate",
-        "source": "ids_parent_family_inference",
-        "phonetic_hint": "云"
+        "source": "wiktionary_semantic_validation",
+        "phonetic_hint": "雲"
       },
       "resolved_node_root": null
     }
@@ -2151,19 +2211,13 @@
     "mark_required": false,
     "mc_forms": [
       "ḫiun",
-      "ḫiunX",
       "ḫiunH",
-      "ḫwən"
+      "ḫwən",
+      "ḫiunX"
     ],
     "form_analyses": [
       {
         "form": "ḫiun",
-        "normalized": "ḫiun",
-        "class": "b",
-        "reason": "explicit_i_medial"
-      },
-      {
-        "form": "ḫiunX",
         "normalized": "ḫiun",
         "class": "b",
         "reason": "explicit_i_medial"
@@ -2179,6 +2233,12 @@
         "normalized": "ḫwən",
         "class": "a",
         "reason": "no_i_medial"
+      },
+      {
+        "form": "ḫiunX",
+        "normalized": "ḫiun",
+        "class": "b",
+        "reason": "explicit_i_medial"
       }
     ],
     "base_root": "quyr",

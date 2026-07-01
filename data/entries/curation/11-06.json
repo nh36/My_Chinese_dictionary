@@ -146,28 +146,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{q\\textoverset{a}{o}k\\textsuperscript{·室}}},",
-      "render_latex": "屋\t%wu1\n{\\large{q\\textoverset{a}{o}k\\textsuperscript{·室}}},\n\\textit{quwk};\t%1204a",
+      "transliteration_latex": "{\\large{q\\textoverset{a}{o}k\\textsuperscript{·cella}}},",
+      "render_latex": "屋\t%wu1\n{\\large{q\\textoverset{a}{o}k\\textsuperscript{·cella}}},\n\\textit{quwk};\t%1204a",
       "wiktionary_semantic_validation": {
         "semantic_component": "室",
         "phonetic_component": "𡉉",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "屋",
           "semantic_component": "室",
           "phonetic_component": "𡉉",
           "position": "suffix-dot",
-          "abbreviation": "室",
-          "inventory_matches": [],
+          "abbreviation": "cella",
+          "inventory_matches": [
+            {
+              "graph_raw": "室",
+              "label_token": "cella",
+              "abbreviation": "cella",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|𡉉|室|c1=p|c2=s|t2=room|ls=psc}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "室",
+        "abbreviation": "cella",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "室",
+            "label_token": "cella",
+            "abbreviation": "cella",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "室"
       },
       "hierarchy_assignment": {
@@ -180,16 +196,16 @@
         "phonetic_hint": "屋"
       },
       "resolved_node_root": {
-        "root": "qok",
+        "root": "q\\textoverset{a}{o}k\\textsuperscript{·cella}",
         "source": "node_transliteration_fallback",
         "descendant_count": 7,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "q\\textoverset{a}{o}k",
+        "display_root": "q\\textoverset{a}{o}k\\textsuperscript{·cella}",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
-        "mark_required": true,
+        "mark_required": false,
         "mc_forms": [
           "quwk",
           "qaewk",
@@ -296,7 +312,8 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 249
+            "start_line": 249,
+            "source": null
           }
         ],
         "source": "packet_family_ids",
@@ -383,7 +400,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -523,7 +541,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -553,7 +572,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -644,7 +664,8 @@
             "graph_raw": "巾",
             "label_token": "lint(eum)",
             "abbreviation": "lint",
-            "start_line": 314
+            "start_line": 314,
+            "source": null
           },
           {
             "graph_raw": "巾",
@@ -786,7 +807,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -816,7 +838,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -964,7 +987,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -994,7 +1018,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1125,7 +1150,8 @@
             "graph_raw": "月",
             "label_token": "luna",
             "abbreviation": "luna",
-            "start_line": 315
+            "start_line": 315,
+            "source": null
           },
           {
             "graph_raw": "月",

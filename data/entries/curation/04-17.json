@@ -694,7 +694,8 @@
               {
                 "graph_raw": "又",
                 "label_token": "dextr(a)",
-                "start_line": 255
+                "start_line": 255,
+                "source": null
               }
             ]
           },
@@ -717,7 +718,8 @@
           {
             "graph_raw": "又",
             "label_token": "dextr(a)",
-            "start_line": 255
+            "start_line": 255,
+            "source": null
           }
         ]
       },
@@ -894,7 +896,15 @@
             "graph_raw": "邑",
             "label_token": "urb(s)",
             "abbreviation": "urb",
-            "start_line": 425
+            "start_line": 425,
+            "source": null
+          },
+          {
+            "graph_raw": "邑",
+            "label_token": "urb",
+            "abbreviation": "urb",
+            "learned": true,
+            "evidence_count": 1
           }
         ],
         "source": "wiktionary_han_compound",
@@ -917,7 +927,15 @@
               "graph_raw": "邑",
               "label_token": "urb(s)",
               "abbreviation": "urb",
-              "start_line": 425
+              "start_line": 425,
+              "source": null
+            },
+            {
+              "graph_raw": "邑",
+              "label_token": "urb",
+              "abbreviation": "urb",
+              "learned": true,
+              "evidence_count": 1
             }
           ],
           "template_raw": "{{Han compound|有|邑|c1=p|c2=s|ls=psc}}"
@@ -1049,26 +1067,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "友",
           "ids": "⿸𠂇又",
           "phonetic_component": "又",
           "semantic_component": "𠂇",
           "position": "prefix-dot",
-          "abbreviation": "𠂇",
-          "inventory_matches": []
+          "abbreviation": "laev",
+          "inventory_matches": [
+            {
+              "graph_raw": "𠂇",
+              "label_token": "laev(us)",
+              "abbreviation": "laev",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𠂇",
+        "abbreviation": "laev",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "𠂇",
+            "label_token": "laev(us)",
+            "abbreviation": "laev",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "𠂇"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{𠂇·}quy}},",
-      "render_latex": "友\t%you3 / yǒu\n{\\large{\\textsuperscript{𠂇·}quy}},\n\\textit{ḫiuwX};\t%0995e",
+      "transliteration_latex": "{\\large{\\textsuperscript{laev·}quy}},",
+      "render_latex": "友\t%you3 / yǒu\n{\\large{\\textsuperscript{laev·}quy}},\n\\textit{ḫiuwX};\t%0995e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1249,7 +1283,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1271,7 +1306,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1459,7 +1495,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1489,7 +1526,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1655,7 +1693,8 @@
             "graph_raw": "示",
             "label_token": "spirit(us)",
             "abbreviation": "spirit",
-            "start_line": 398
+            "start_line": 398,
+            "source": null
           },
           {
             "graph_raw": "示",
@@ -1685,7 +1724,8 @@
               "graph_raw": "示",
               "label_token": "spirit(us)",
               "abbreviation": "spirit",
-              "start_line": 398
+              "start_line": 398,
+              "source": null
             },
             {
               "graph_raw": "示",
@@ -1776,7 +1816,8 @@
             "graph_raw": "酉",
             "label_token": "vin(um)",
             "abbreviation": "vin",
-            "start_line": 439
+            "start_line": 439,
+            "source": null
           },
           {
             "graph_raw": "酉",
@@ -1962,7 +2003,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|又|肉|t2=meat|ls=psc|c1=p|c2=s}}"
@@ -1977,7 +2019,8 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2129,7 +2172,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -2223,7 +2267,8 @@
             "graph_raw": "宀",
             "label_token": "tect(um)",
             "abbreviation": "tect",
-            "start_line": 401
+            "start_line": 401,
+            "source": null
           },
           {
             "graph_raw": "宀",
@@ -2366,7 +2411,8 @@
             "graph_raw": "囗",
             "label_token": "cla(usum)",
             "abbreviation": "cla",
-            "start_line": 230
+            "start_line": 230,
+            "source": null
           },
           {
             "graph_raw": "囗",
@@ -2460,7 +2506,8 @@
             "graph_raw": "疒",
             "label_token": "infirm(itas)",
             "abbreviation": "infirm",
-            "start_line": 301
+            "start_line": 301,
+            "source": null
           },
           {
             "graph_raw": "疒",
@@ -2554,7 +2601,8 @@
             "graph_raw": "魚",
             "label_token": "pis(cis)",
             "abbreviation": "pis",
-            "start_line": 359
+            "start_line": 359,
+            "source": null
           },
           {
             "graph_raw": "魚",
@@ -2708,14 +2756,15 @@
             "graph_raw": "貝",
             "label_token": "conch(a)",
             "abbreviation": "conch",
-            "start_line": 238
+            "start_line": 238,
+            "source": null
           },
           {
             "graph_raw": "貝",
             "label_token": "conch",
             "abbreviation": "conch",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -2738,14 +2787,15 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 238
+              "start_line": 238,
+              "source": null
             },
             {
               "graph_raw": "貝",
               "label_token": "conch",
               "abbreviation": "conch",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|貝|有|ls=psc|c1=s|c2=p|t1=cowry; money}}"

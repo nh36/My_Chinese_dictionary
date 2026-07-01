@@ -466,7 +466,8 @@
               "graph_raw": "石",
               "label_token": "lap(is)",
               "abbreviation": "lap",
-              "start_line": 308
+              "start_line": 308,
+              "source": null
             },
             {
               "graph_raw": "石",
@@ -487,7 +488,8 @@
             "graph_raw": "石",
             "label_token": "lap(is)",
             "abbreviation": "lap",
-            "start_line": 308
+            "start_line": 308,
+            "source": null
           },
           {
             "graph_raw": "石",
@@ -645,7 +647,8 @@
               "graph_raw": "缶",
               "label_token": "cad(us)",
               "abbreviation": "cad",
-              "start_line": 214
+              "start_line": 214,
+              "source": null
             }
           ]
         }
@@ -659,7 +662,8 @@
             "graph_raw": "缶",
             "label_token": "cad(us)",
             "abbreviation": "cad",
-            "start_line": 214
+            "start_line": 214,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -682,7 +686,8 @@
               "graph_raw": "缶",
               "label_token": "cad(us)",
               "abbreviation": "cad",
-              "start_line": 214
+              "start_line": 214,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|殸|缶|c1=p|c2=s|t2=pottery|ls=psc}}"
@@ -784,7 +789,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -805,7 +811,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -951,37 +958,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "馨",
           "ids": "⿱殸香",
           "phonetic_component": "殸",
           "semantic_component": "香",
           "position": "suffix-colon",
-          "abbreviation": "香",
-          "inventory_matches": []
+          "abbreviation": "fragr",
+          "inventory_matches": [
+            {
+              "graph_raw": "香",
+              "label_token": "fragr(ans)",
+              "abbreviation": "fragr",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "香",
+        "abbreviation": "fragr",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "香",
+            "label_token": "fragr(ans)",
+            "abbreviation": "fragr",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "香"
       },
-      "transliteration_latex": "{\\large{qeṅ\\textsuperscript{˸香}}},",
-      "render_latex": "馨\t%xin1 / xīn\n{\\large{qeṅ\\textsuperscript{˸香}}},\n\\textit{heṅ};\t%0832f",
+      "transliteration_latex": "{\\large{qeṅ\\textsuperscript{˸fragr}}},",
+      "render_latex": "馨\t%xin1 / xīn\n{\\large{qeṅ\\textsuperscript{˸fragr}}},\n\\textit{heṅ};\t%0832f",
       "wiktionary_semantic_validation": {
         "semantic_component": "香",
         "phonetic_component": "殸",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "馨",
           "semantic_component": "香",
           "phonetic_component": "殸",
           "position": "suffix-colon",
-          "abbreviation": "香",
-          "inventory_matches": [],
+          "abbreviation": "fragr",
+          "inventory_matches": [
+            {
+              "graph_raw": "香",
+              "label_token": "fragr(ans)",
+              "abbreviation": "fragr",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|殸|香|c1=p|c2=s|t2=sweet|ls=psc}}"
         }
       },
@@ -1162,7 +1193,8 @@
               "graph_raw": "耳",
               "label_token": "aur(is)",
               "abbreviation": "aur",
-              "start_line": 204
+              "start_line": 204,
+              "source": null
             }
           ]
         }
@@ -1176,7 +1208,8 @@
             "graph_raw": "耳",
             "label_token": "aur(is)",
             "abbreviation": "aur",
-            "start_line": 204
+            "start_line": 204,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1199,7 +1232,8 @@
               "graph_raw": "耳",
               "label_token": "aur(is)",
               "abbreviation": "aur",
-              "start_line": 204
+              "start_line": 204,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|殸|耳|c1=p|c2=s|t2=ear|ls=psc}}"

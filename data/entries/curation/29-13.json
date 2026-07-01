@@ -377,25 +377,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "壺",
+        "abbreviation": "urn",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "壺",
+            "label_token": "urn(a)",
+            "abbreviation": "urn",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "壺"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{壺˸}ʔit}},",
-      "render_latex": "壹\t%yi1 / yī\n{\\large{\\textsuperscript{壺˸}ʔit}},\n\\textit{qyit};\t%0395a",
+      "transliteration_latex": "{\\large{\\textsuperscript{urn˸}ʔit}},",
+      "render_latex": "壹\t%yi1 / yī\n{\\large{\\textsuperscript{urn˸}ʔit}},\n\\textit{qyit};\t%0395a",
       "wiktionary_semantic_validation": {
         "semantic_component": "壺",
         "phonetic_component": "吉",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "壹",
           "semantic_component": "壺",
           "phonetic_component": "吉",
           "position": "prefix-colon",
-          "abbreviation": "壺",
-          "inventory_matches": [],
+          "abbreviation": "urn",
+          "inventory_matches": [
+            {
+              "graph_raw": "壺",
+              "label_token": "urn(a)",
+              "abbreviation": "urn",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|壺|吉|ls=psc|c1=s|c2=p}}"
         }
       },
@@ -590,7 +606,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -611,7 +628,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -641,7 +659,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -737,14 +756,22 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𬅟",
+        "abbreviation": "desid",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "𬅟",
+            "label_token": "desid(erium)",
+            "abbreviation": "desid",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "packet_family_component_literal_fallback",
         "semantic_component": "𬅟"
       },
-      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·𬅟}}},",
-      "render_latex": "㦤\t%yi4 / yì\n{\\large{ʔit\\textsuperscript{·𬅟}}},\n\\textit{qiyH};\t%0395c",
+      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·desid}}},",
+      "render_latex": "㦤\t%yi4 / yì\n{\\large{ʔit\\textsuperscript{·desid}}},\n\\textit{qiyH};\t%0395c",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -816,26 +843,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "懿",
           "ids": "⿰壹恣",
           "phonetic_component": "壹",
           "semantic_component": "恣",
           "position": "suffix-dot",
-          "abbreviation": "恣",
-          "inventory_matches": []
+          "abbreviation": "cupi",
+          "inventory_matches": [
+            {
+              "graph_raw": "恣",
+              "label_token": "cupi(dus)",
+              "abbreviation": "cupi",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "恣",
+        "abbreviation": "cupi",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "恣",
+            "label_token": "cupi(dus)",
+            "abbreviation": "cupi",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "恣"
       },
-      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·恣}}},",
-      "render_latex": "懿\t%yi4\n{\\large{ʔit\\textsuperscript{·恣}}},\n\\textit{qiyH};\t%0395d",
+      "transliteration_latex": "{\\large{ʔit\\textsuperscript{·cupi}}},",
+      "render_latex": "懿\t%yi4\n{\\large{ʔit\\textsuperscript{·cupi}}},\n\\textit{qiyH};\t%0395d",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -965,7 +1008,8 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 265
+              "start_line": 265,
+              "source": null
             },
             {
               "graph_raw": "食",
@@ -986,7 +1030,8 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 265
+            "start_line": 265,
+            "source": null
           },
           {
             "graph_raw": "食",
@@ -1016,7 +1061,8 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 265
+              "start_line": 265,
+              "source": null
             },
             {
               "graph_raw": "食",
@@ -1111,7 +1157,8 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 391
+              "start_line": 391,
+              "source": null
             },
             {
               "graph_raw": "日",
@@ -1132,7 +1179,8 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 391
+            "start_line": 391,
+            "source": null
           },
           {
             "graph_raw": "日",
@@ -1242,7 +1290,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1263,7 +1312,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -1361,7 +1411,8 @@
               "graph_raw": "歹",
               "label_token": "mal(us)",
               "abbreviation": "mal",
-              "start_line": 318
+              "start_line": 318,
+              "source": null
             },
             {
               "graph_raw": "歹",
@@ -1382,7 +1433,8 @@
             "graph_raw": "歹",
             "label_token": "mal(us)",
             "abbreviation": "mal",
-            "start_line": 318
+            "start_line": 318,
+            "source": null
           },
           {
             "graph_raw": "歹",

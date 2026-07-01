@@ -7,6 +7,7 @@ from typing import Any
 
 
 DEFAULT_CONFIG_PATH = Path("data/semantic_components/semantic_aliases.json")
+DEFAULT_SUPPLEMENT_PATH = Path("data/semantic_components/semantic_label_supplement.json")
 TEXTSUP_RE = re.compile(r"\\textsuperscript\{([^}]*)\}")
 LATIN_WORD_RE = re.compile(r"[A-Za-z]+")
 ASCII_LABEL_RE = re.compile(r"^[A-Za-z]+$")
@@ -52,6 +53,20 @@ def load_normalization_config(path: Path | None = None) -> dict[str, Any]:
         "placeholder_labels": {label.lower() for label in data.get("placeholder_labels", ["xxx"])},
         "audit_watch_tokens": {label.lower() for label in data.get("audit_watch_tokens", [])},
         "intentional_scoped_duplicate_graphs": intentional_scoped_duplicates,
+    }
+
+
+def load_semantic_label_supplement(path: Path | None = None) -> dict[str, Any]:
+    supplement_path = path or DEFAULT_SUPPLEMENT_PATH
+    if not supplement_path.exists():
+        return {"path": str(supplement_path), "items": []}
+
+    data = json.loads(supplement_path.read_text(encoding="utf-8"))
+    items = data.get("items") or []
+    return {
+        "path": str(supplement_path),
+        "generated_at": data.get("generated_at"),
+        "items": items,
     }
 
 

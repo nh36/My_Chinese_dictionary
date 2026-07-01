@@ -434,26 +434,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "兇",
           "ids": "⿱凶儿",
           "phonetic_component": "凶",
           "semantic_component": "儿",
           "position": "suffix-colon",
-          "abbreviation": "儿",
-          "inventory_matches": []
+          "abbreviation": "crur",
+          "inventory_matches": [
+            {
+              "graph_raw": "儿",
+              "label_token": "crur(a)",
+              "abbreviation": "crur",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "儿",
+        "abbreviation": "crur",
         "position": "suffix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "儿",
+            "label_token": "crur(a)",
+            "abbreviation": "crur",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "儿"
       },
-      "transliteration_latex": "{\\large{q\\textoverset{b}{o}ṅ\\textsuperscript{˸儿}}},",
-      "render_latex": "兇\t%xiong1\n{\\large{q\\textoverset{b}{o}ṅ\\textsuperscript{˸儿}}},\n\\textit{hiəwṅ};\t%1183b",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{o}ṅ\\textsuperscript{˸crur}}},",
+      "render_latex": "兇\t%xiong1\n{\\large{q\\textoverset{b}{o}ṅ\\textsuperscript{˸crur}}},\n\\textit{hiəwṅ};\t%1183b",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -551,7 +567,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -572,7 +589,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -714,7 +732,8 @@
               "graph_raw": "勹",
               "label_token": "flect(o)",
               "abbreviation": "flect",
-              "start_line": 277
+              "start_line": 277,
+              "source": null
             },
             {
               "graph_raw": "勹",
@@ -735,7 +754,8 @@
             "graph_raw": "勹",
             "label_token": "flect(o)",
             "abbreviation": "flect",
-            "start_line": 277
+            "start_line": 277,
+            "source": null
           },
           {
             "graph_raw": "勹",
@@ -765,7 +785,8 @@
               "graph_raw": "勹",
               "label_token": "flect(o)",
               "abbreviation": "flect",
-              "start_line": 277
+              "start_line": 277,
+              "source": null
             },
             {
               "graph_raw": "勹",
@@ -788,16 +809,16 @@
         "phonetic_hint": "凶"
       },
       "resolved_node_root": {
-        "root": "qoṅ",
+        "root": "\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ",
         "source": "node_transliteration_fallback",
         "descendant_count": 3,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "q\\textoverset{b}{o}ṅ₂",
+        "display_root": "\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ",
         "division_class": "b",
         "division_note": "all extracted forms show an i-medial or a dedicated palatal onset",
-        "mark_required": true,
+        "mark_required": false,
         "mc_forms": [
           "hiəwṅ",
           "hiəwṅX"
@@ -816,8 +837,8 @@
             "reason": "explicit_i_medial"
           }
         ],
-        "base_root": "q\\textoverset{b}{o}ṅ",
-        "ordinal": 2,
+        "base_root": "\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ",
+        "ordinal": 1,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -875,7 +896,8 @@
             "graph_raw": "月",
             "label_token": "luna",
             "abbreviation": "luna",
-            "start_line": 315
+            "start_line": 315,
+            "source": null
           },
           {
             "graph_raw": "月",
@@ -888,8 +910,8 @@
         "source": "packet_family_ids",
         "semantic_component": "月"
       },
-      "transliteration_latex": "{\\large{q\\textoverset{b}{o}ṅ₂\\textsuperscript{˸luna}}},",
-      "render_latex": "胷\t%xiong1\n{\\large{q\\textoverset{b}{o}ṅ₂\\textsuperscript{˸luna}}},\n\\textit{hiəwṅ};\t%1183e",
+      "transliteration_latex": "{\\large{\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ\\textsuperscript{˸luna}}},",
+      "render_latex": "胷\t%xiong1\n{\\large{\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ\\textsuperscript{˸luna}}},\n\\textit{hiəwṅ};\t%1183e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -1019,7 +1041,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -1040,14 +1063,15 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
         "semantic_component": "肉"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{carn·}q\\textoverset{b}{o}ṅ₂}},",
-      "render_latex": "胸\t%xiong1\n{\\large{\\textsuperscript{carn·}q\\textoverset{b}{o}ṅ₂}},\n\\textit{hiəwṅ};\t%1183f",
+      "transliteration_latex": "{\\large{\\textsuperscript{carn·}\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ}},",
+      "render_latex": "胸\t%xiong1\n{\\large{\\textsuperscript{carn·}\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ}},\n\\textit{hiəwṅ};\t%1183f",
       "wiktionary_semantic_validation": {
         "semantic_component": "肉",
         "phonetic_component": "匈",
@@ -1063,7 +1087,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|肉|匈|c1=s|c2=p|t1=meat|ls=psc}}"
@@ -1174,7 +1199,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1195,7 +1221,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1208,8 +1235,8 @@
         "source": "ids_top_level",
         "semantic_component": "水"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{aq·}q\\textoverset{b}{o}ṅ₂}},",
-      "render_latex": "洶\t%xiong1\n{\\large{\\textsuperscript{aq·}q\\textoverset{b}{o}ṅ₂}},\n\\textit{hiəwṅ};\t%1183g\n\\textit{hiəwṅX};",
+      "transliteration_latex": "{\\large{\\textsuperscript{aq·}\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ}},",
+      "render_latex": "洶\t%xiong1\n{\\large{\\textsuperscript{aq·}\\textsuperscript{flect·}q\\textoverset{b}{o}ṅ}},\n\\textit{hiəwṅ};\t%1183g\n\\textit{hiəwṅX};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

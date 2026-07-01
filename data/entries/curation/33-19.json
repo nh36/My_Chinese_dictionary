@@ -524,26 +524,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "夤",
           "ids": "⿱夕寅",
           "phonetic_component": "寅",
           "semantic_component": "夕",
           "position": "prefix-colon",
-          "abbreviation": "夕",
-          "inventory_matches": []
+          "abbreviation": "nox",
+          "inventory_matches": [
+            {
+              "graph_raw": "夕",
+              "label_token": "nox",
+              "abbreviation": "nox",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "夕",
+        "abbreviation": "nox",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "夕",
+            "label_token": "nox",
+            "abbreviation": "nox",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "夕"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{夕˸}qyr₂}},",
-      "render_latex": "夤\t%yin2 / yín\n{\\large{\\textsuperscript{夕˸}qyr₂}},\n\\textit{yin};\t%0450h",
+      "transliteration_latex": "{\\large{\\textsuperscript{nox˸}qyr₂}},",
+      "render_latex": "夤\t%yin2 / yín\n{\\large{\\textsuperscript{nox˸}qyr₂}},\n\\textit{yin};\t%0450h",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -711,7 +727,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -732,7 +749,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -762,7 +780,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -917,7 +936,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -938,7 +958,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -968,7 +989,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",

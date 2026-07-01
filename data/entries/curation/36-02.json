@@ -661,7 +661,8 @@
               "graph_raw": "門",
               "label_token": "port(a)",
               "abbreviation": "port",
-              "start_line": 365
+              "start_line": 365,
+              "source": null
             },
             {
               "graph_raw": "門",
@@ -682,7 +683,8 @@
             "graph_raw": "門",
             "label_token": "port(a)",
             "abbreviation": "port",
-            "start_line": 365
+            "start_line": 365,
+            "source": null
           },
           {
             "graph_raw": "門",
@@ -708,13 +710,13 @@
         "phonetic_hint": "敢"
       },
       "resolved_node_root": {
-        "root": "kam",
+        "root": "kam₂",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
         "bs_broad_roots": [],
         "bs_node_roots": [],
-        "display_root": "k\\textoverset{a}{a}m₄",
+        "display_root": "k\\textoverset{a}{a}m₃",
         "division_class": "a",
         "division_note": "all extracted forms lack an i-medial after the onset",
         "mark_required": true,
@@ -751,7 +753,7 @@
           }
         ],
         "base_root": "k\\textoverset{a}{a}m",
-        "ordinal": 4,
+        "ordinal": 3,
         "numbering_source": "document_order_occurrence"
       }
     },
@@ -809,7 +811,8 @@
             "graph_raw": "目",
             "label_token": "ocul(us)",
             "abbreviation": "ocul",
-            "start_line": 341
+            "start_line": 341,
+            "source": null
           },
           {
             "graph_raw": "目",
@@ -822,8 +825,8 @@
         "source": "packet_family_ids",
         "semantic_component": "目"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}m₄}},",
-      "render_latex": "矙\t%kan4\n{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}m₄}},\n\\textit{khamH};\t%0607e",
+      "transliteration_latex": "{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}m₃}},",
+      "render_latex": "矙\t%kan4\n{\\large{\\textsuperscript{ocul·}k\\textoverset{a}{a}m₃}},\n\\textit{khamH};\t%0607e",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -957,37 +960,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "嚴",
           "ids": "⿱吅𠪚",
           "phonetic_component": "敢",
           "semantic_component": "吅",
           "position": "prefix-colon",
-          "abbreviation": "吅",
-          "inventory_matches": []
+          "abbreviation": "bivoc",
+          "inventory_matches": [
+            {
+              "graph_raw": "吅",
+              "label_token": "bivoc(is)",
+              "abbreviation": "bivoc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "喦",
+        "abbreviation": "sax",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "喦",
+            "label_token": "sax(um)",
+            "abbreviation": "sax",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "喦"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{喦˸}kam₃}},",
-      "render_latex": "嚴\t%yan2 / yán\n{\\large{\\textsuperscript{喦˸}kam₃}},\n\\textit{ṅiaem};\t%0607h",
+      "transliteration_latex": "{\\large{\\textsuperscript{sax˸}kam₃}},",
+      "render_latex": "嚴\t%yan2 / yán\n{\\large{\\textsuperscript{sax˸}kam₃}},\n\\textit{ṅiaem};\t%0607h",
       "wiktionary_semantic_validation": {
         "semantic_component": "喦",
         "phonetic_component": "敢",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "嚴",
           "semantic_component": "喦",
           "phonetic_component": "敢",
           "position": "prefix-colon",
-          "abbreviation": "喦",
-          "inventory_matches": [],
+          "abbreviation": "sax",
+          "inventory_matches": [
+            {
+              "graph_raw": "喦",
+              "label_token": "sax(um)",
+              "abbreviation": "sax",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|喦|敢|c1=s|c2=p|t1=talkative|ls=psc|t2=daring}}"
         }
       },
@@ -1183,7 +1210,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1204,7 +1232,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1234,7 +1263,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1389,7 +1419,8 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 327
+              "start_line": 327,
+              "source": null
             },
             {
               "graph_raw": "山",
@@ -1410,7 +1441,8 @@
             "graph_raw": "山",
             "label_token": "mon(s)",
             "abbreviation": "mon",
-            "start_line": 327
+            "start_line": 327,
+            "source": null
           },
           {
             "graph_raw": "山",
@@ -1440,7 +1472,8 @@
               "graph_raw": "山",
               "label_token": "mon(s)",
               "abbreviation": "mon",
-              "start_line": 327
+              "start_line": 327,
+              "source": null
             },
             {
               "graph_raw": "山",
@@ -2088,7 +2121,8 @@
               "graph_raw": "广",
               "label_token": "lax(us)",
               "abbreviation": "lax",
-              "start_line": 310
+              "start_line": 310,
+              "source": null
             },
             {
               "graph_raw": "广",
@@ -2109,7 +2143,8 @@
             "graph_raw": "广",
             "label_token": "lax(us)",
             "abbreviation": "lax",
-            "start_line": 310
+            "start_line": 310,
+            "source": null
           },
           {
             "graph_raw": "广",
@@ -2138,7 +2173,8 @@
               "graph_raw": "广",
               "label_token": "lax(us)",
               "abbreviation": "lax",
-              "start_line": 310
+              "start_line": 310,
+              "source": null
             },
             {
               "graph_raw": "广",
@@ -2250,7 +2286,8 @@
             "graph_raw": "厂",
             "label_token": "caut(es)",
             "abbreviation": "caut",
-            "start_line": 221
+            "start_line": 221,
+            "source": null
           }
         ],
         "source": "packet_family_ids",
@@ -2367,7 +2404,8 @@
               "graph_raw": "厂",
               "label_token": "caut(es)",
               "abbreviation": "caut",
-              "start_line": 221
+              "start_line": 221,
+              "source": null
             }
           ]
         }
@@ -2381,7 +2419,8 @@
             "graph_raw": "厂",
             "label_token": "caut(es)",
             "abbreviation": "caut",
-            "start_line": 221
+            "start_line": 221,
+            "source": null
           }
         ],
         "source": "ids_top_level",

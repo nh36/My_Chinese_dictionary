@@ -128,7 +128,8 @@
               "graph_raw": "羽",
               "label_token": "plum(a)",
               "abbreviation": "plum",
-              "start_line": 361
+              "start_line": 361,
+              "source": null
             },
             {
               "graph_raw": "羽",
@@ -149,7 +150,8 @@
             "graph_raw": "羽",
             "label_token": "plum(a)",
             "abbreviation": "plum",
-            "start_line": 361
+            "start_line": 361,
+            "source": null
           },
           {
             "graph_raw": "羽",
@@ -308,7 +310,8 @@
               "graph_raw": "羽",
               "label_token": "plum(a)",
               "abbreviation": "plum",
-              "start_line": 361
+              "start_line": 361,
+              "source": null
             },
             {
               "graph_raw": "羽",
@@ -322,25 +325,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "昱",
+        "abbreviation": "luc",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "昱",
+            "label_token": "luc(em)",
+            "abbreviation": "luc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "昱"
       },
-      "transliteration_latex": "{\\large{ryk\\textsuperscript{˸昱}}},",
-      "render_latex": "翌\t%yi4 / yì\n{\\large{ryk\\textsuperscript{˸昱}}},\n\\textit{yik};\t%0912b",
+      "transliteration_latex": "{\\large{ryk\\textsuperscript{˸luc}}},",
+      "render_latex": "翌\t%yi4 / yì\n{\\large{ryk\\textsuperscript{˸luc}}},\n\\textit{yik};\t%0912b",
       "wiktionary_semantic_validation": {
         "semantic_component": "昱",
         "phonetic_component": "羽",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "翌",
           "semantic_component": "昱",
           "phonetic_component": "羽",
           "position": "suffix-colon",
-          "abbreviation": "昱",
-          "inventory_matches": [],
+          "abbreviation": "luc",
+          "inventory_matches": [
+            {
+              "graph_raw": "昱",
+              "label_token": "luc(em)",
+              "abbreviation": "luc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|羽|昱|c1=p|c2=s|ls=psc}}"
         }
       },

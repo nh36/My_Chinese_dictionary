@@ -146,37 +146,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "叢",
           "ids": "⿱丵取",
           "phonetic_component": "取",
           "semantic_component": "丵",
           "position": "prefix-colon",
-          "abbreviation": "丵",
-          "inventory_matches": []
+          "abbreviation": "caesp",
+          "inventory_matches": [
+            {
+              "graph_raw": "丵",
+              "label_token": "caesp(es)",
+              "abbreviation": "caesp",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丵",
+        "abbreviation": "caesp",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "丵",
+            "label_token": "caesp(es)",
+            "abbreviation": "caesp",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "丵"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{丵˸}soṅ}},",
-      "render_latex": "叢\t%cong2\n{\\large{\\textsuperscript{丵˸}soṅ}},\n\\textit{dzuwṅ};\t%1178a",
+      "transliteration_latex": "{\\large{\\textsuperscript{caesp˸}soṅ}},",
+      "render_latex": "叢\t%cong2\n{\\large{\\textsuperscript{caesp˸}soṅ}},\n\\textit{dzuwṅ};\t%1178a",
       "wiktionary_semantic_validation": {
         "semantic_component": "丵",
         "phonetic_component": "取",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "叢",
           "semantic_component": "丵",
           "phonetic_component": "取",
           "position": "prefix-colon",
-          "abbreviation": "丵",
-          "inventory_matches": [],
+          "abbreviation": "caesp",
+          "inventory_matches": [
+            {
+              "graph_raw": "丵",
+              "label_token": "caesp(es)",
+              "abbreviation": "caesp",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|丵|取|c1=s|c2=p|ls=psc}}"
         }
       },

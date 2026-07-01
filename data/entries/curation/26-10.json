@@ -582,7 +582,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -603,7 +604,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -701,7 +703,8 @@
               "graph_raw": "戈",
               "label_token": "hallebard(a)",
               "abbreviation": "hallebard",
-              "start_line": 295
+              "start_line": 295,
+              "source": null
             },
             {
               "graph_raw": "戈",
@@ -722,7 +725,8 @@
             "graph_raw": "戈",
             "label_token": "hallebard(a)",
             "abbreviation": "hallebard",
-            "start_line": 295
+            "start_line": 295,
+            "source": null
           },
           {
             "graph_raw": "戈",
@@ -868,7 +872,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -889,7 +894,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -919,7 +925,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1026,7 +1033,8 @@
               "graph_raw": "馬",
               "label_token": "equ(us)",
               "abbreviation": "equ",
-              "start_line": 270
+              "start_line": 270,
+              "source": null
             },
             {
               "graph_raw": "馬",
@@ -1047,7 +1055,8 @@
             "graph_raw": "馬",
             "label_token": "equ(us)",
             "abbreviation": "equ",
-            "start_line": 270
+            "start_line": 270,
+            "source": null
           },
           {
             "graph_raw": "馬",
@@ -1191,7 +1200,8 @@
               "graph_raw": "目",
               "label_token": "ocul(us)",
               "abbreviation": "ocul",
-              "start_line": 341
+              "start_line": 341,
+              "source": null
             },
             {
               "graph_raw": "目",
@@ -1205,25 +1215,41 @@
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "䀠",
+        "abbreviation": "binoc",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "䀠",
+            "label_token": "binoc(ulus)",
+            "abbreviation": "binoc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "䀠"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{䀠·}kuiy}},",
-      "render_latex": "睽\t%kui2\n{\\large{\\textsuperscript{䀠·}kuiy}},\n\\textit{khwey};\t%0605i",
+      "transliteration_latex": "{\\large{\\textsuperscript{binoc·}kuiy}},",
+      "render_latex": "睽\t%kui2\n{\\large{\\textsuperscript{binoc·}kuiy}},\n\\textit{khwey};\t%0605i",
       "wiktionary_semantic_validation": {
         "semantic_component": "䀠",
         "phonetic_component": "癸",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "睽",
           "semantic_component": "䀠",
           "phonetic_component": "癸",
           "position": "prefix-dot",
-          "abbreviation": "䀠",
-          "inventory_matches": [],
+          "abbreviation": "binoc",
+          "inventory_matches": [
+            {
+              "graph_raw": "䀠",
+              "label_token": "binoc(ulus)",
+              "abbreviation": "binoc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|䀠|癸|c1=s|c2=p|t1=two eyes|ls=psc}}"
         }
       },
@@ -1309,7 +1335,8 @@
               "graph_raw": "門",
               "label_token": "port(a)",
               "abbreviation": "port",
-              "start_line": 365
+              "start_line": 365,
+              "source": null
             },
             {
               "graph_raw": "門",
@@ -1330,7 +1357,8 @@
             "graph_raw": "門",
             "label_token": "port(a)",
             "abbreviation": "port",
-            "start_line": 365
+            "start_line": 365,
+            "source": null
           },
           {
             "graph_raw": "門",

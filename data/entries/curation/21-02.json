@@ -652,7 +652,8 @@
               "graph_raw": "牛",
               "label_token": "bos",
               "abbreviation": "bos",
-              "start_line": 212
+              "start_line": 212,
+              "source": null
             }
           ]
         }
@@ -666,7 +667,8 @@
             "graph_raw": "牛",
             "label_token": "bos",
             "abbreviation": "bos",
-            "start_line": 212
+            "start_line": 212,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -817,7 +819,8 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 249
+              "start_line": 249,
+              "source": null
             }
           ]
         }
@@ -831,7 +834,8 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 249
+            "start_line": 249,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -854,7 +858,8 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 249
+              "start_line": 249,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|害|刀|alt2=刂|c1=p|c2=s|ls=psc}}"
@@ -1014,7 +1019,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1035,7 +1041,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -1065,7 +1072,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1148,26 +1156,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "豁",
           "ids": "⿰害谷",
           "phonetic_component": "害",
           "semantic_component": "谷",
           "position": "suffix-dot",
-          "abbreviation": "谷",
-          "inventory_matches": []
+          "abbreviation": "vall",
+          "inventory_matches": [
+            {
+              "graph_raw": "谷",
+              "label_token": "vall(is)",
+              "abbreviation": "vall",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "谷",
+        "abbreviation": "vall",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "谷",
+            "label_token": "vall(is)",
+            "abbreviation": "vall",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "谷"
       },
-      "transliteration_latex": "{\\large{k\\textoverset{a}{a}t₂\\textsuperscript{·谷}}},",
-      "render_latex": "豁\t%huo4\n{\\large{k\\textoverset{a}{a}t₂\\textsuperscript{·谷}}},\n\\textit{hwat};\t%0314g",
+      "transliteration_latex": "{\\large{k\\textoverset{a}{a}t₂\\textsuperscript{·vall}}},",
+      "render_latex": "豁\t%huo4\n{\\large{k\\textoverset{a}{a}t₂\\textsuperscript{·vall}}},\n\\textit{hwat};\t%0314g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",

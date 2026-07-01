@@ -695,25 +695,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "豈",
+        "abbreviation": "perc",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "豈",
+            "label_token": "perc(ussio)",
+            "abbreviation": "perc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "豈"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{豈·}qy₁₁}},",
-      "render_latex": "凱\t%kai3 / kǎi\n{\\large{\\textsuperscript{豈·}qy₁₁}},\n\\textit{khəyX};\t%0548b",
+      "transliteration_latex": "{\\large{\\textsuperscript{perc·}qy₁₁}},",
+      "render_latex": "凱\t%kai3 / kǎi\n{\\large{\\textsuperscript{perc·}qy₁₁}},\n\\textit{khəyX};\t%0548b",
       "wiktionary_semantic_validation": {
         "semantic_component": "豈",
         "phonetic_component": "几",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "凱",
           "semantic_component": "豈",
           "phonetic_component": "几",
           "position": "prefix-dot",
-          "abbreviation": "豈",
-          "inventory_matches": [],
+          "abbreviation": "perc",
+          "inventory_matches": [
+            {
+              "graph_raw": "豈",
+              "label_token": "perc(ussio)",
+              "abbreviation": "perc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|豈|几|c1=s|c2=p|t1=drum|ls=psc}}"
         }
       },
@@ -863,7 +879,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -884,7 +901,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -914,7 +932,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -1067,7 +1086,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1088,7 +1108,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -1118,7 +1139,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1306,7 +1328,8 @@
               "graph_raw": "金",
               "label_token": "met(allum)",
               "abbreviation": "met",
-              "start_line": 323
+              "start_line": 323,
+              "source": null
             },
             {
               "graph_raw": "金",
@@ -1327,7 +1350,8 @@
             "graph_raw": "金",
             "label_token": "met(allum)",
             "abbreviation": "met",
-            "start_line": 323
+            "start_line": 323,
+            "source": null
           },
           {
             "graph_raw": "金",
@@ -1357,7 +1381,8 @@
               "graph_raw": "金",
               "label_token": "met(allum)",
               "abbreviation": "met",
-              "start_line": 323
+              "start_line": 323,
+              "source": null
             },
             {
               "graph_raw": "金",
@@ -1487,7 +1512,8 @@
               "graph_raw": "門",
               "label_token": "port(a)",
               "abbreviation": "port",
-              "start_line": 365
+              "start_line": 365,
+              "source": null
             },
             {
               "graph_raw": "門",
@@ -1508,7 +1534,8 @@
             "graph_raw": "門",
             "label_token": "port(a)",
             "abbreviation": "port",
-            "start_line": 365
+            "start_line": 365,
+            "source": null
           },
           {
             "graph_raw": "門",
@@ -1589,7 +1616,8 @@
             "graph_raw": "走",
             "label_token": "curr(o)",
             "abbreviation": "curr",
-            "start_line": 250
+            "start_line": 250,
+            "source": null
           },
           {
             "graph_raw": "走",
@@ -1773,7 +1801,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1794,7 +1823,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -1824,7 +1854,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1965,7 +1996,8 @@
               "graph_raw": "見",
               "label_token": "vid(eo)",
               "abbreviation": "vid",
-              "start_line": 438
+              "start_line": 438,
+              "source": null
             },
             {
               "graph_raw": "見",
@@ -1986,7 +2018,8 @@
             "graph_raw": "見",
             "label_token": "vid(eo)",
             "abbreviation": "vid",
-            "start_line": 438
+            "start_line": 438,
+            "source": null
           },
           {
             "graph_raw": "見",
@@ -2016,7 +2049,8 @@
               "graph_raw": "見",
               "label_token": "vid(eo)",
               "abbreviation": "vid",
-              "start_line": 438
+              "start_line": 438,
+              "source": null
             },
             {
               "graph_raw": "見",

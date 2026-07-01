@@ -38,6 +38,16 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
         self.assertEqual(result["classification"], "template_alt_graph")
         self.assertEqual(result["target_graph"], "冃")
 
+    def test_classify_case_marks_obscure_phonetic_component_for_human_review(self) -> None:
+        result = audit_generated_nonlatin_semantics.classify_case(
+            {
+                "semantic_component": "𭯍",
+                "template_alt_graph": None,
+            },
+            {},
+        )
+        self.assertEqual(result["classification"], "needs_human_review")
+
     def test_current_unresolved_generated_semantics_match_approved_hold_set(self) -> None:
         inventory = json.loads(
             (ROOT / "data/derived/nonlatin_generated_semantics.json").read_text(encoding="utf-8")
@@ -45,6 +55,7 @@ class AuditGeneratedNonLatinSemanticsTests(unittest.TestCase):
         components = {row["semantic_component"] for row in inventory["components"]}
         self.assertFalse({"一", "同", "坴", "𦰩"} & components)
         self.assertTrue(components)
+        self.assertIn("𭯍", components)
         self.assertTrue(
             {
                 "八",

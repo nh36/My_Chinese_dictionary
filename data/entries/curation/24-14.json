@@ -451,25 +451,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "正",
+        "abbreviation": "rect",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "正",
+            "label_token": "rect(us)",
+            "abbreviation": "rect",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "正"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{正˸}ʔ\\textoverset{b}{a}n}},",
-      "render_latex": "焉\t%yan1 / yān\n{\\large{\\textsuperscript{正˸}ʔ\\textoverset{b}{a}n}},\n\\textit{qien};\t%0200a\n\\textit{hien};",
+      "transliteration_latex": "{\\large{\\textsuperscript{rect˸}ʔ\\textoverset{b}{a}n}},",
+      "render_latex": "焉\t%yan1 / yān\n{\\large{\\textsuperscript{rect˸}ʔ\\textoverset{b}{a}n}},\n\\textit{qien};\t%0200a\n\\textit{hien};",
       "wiktionary_semantic_validation": {
         "semantic_component": "正",
         "phonetic_component": "於",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "焉",
           "semantic_component": "正",
           "phonetic_component": "於",
           "position": "prefix-colon",
-          "abbreviation": "正",
-          "inventory_matches": [],
+          "abbreviation": "rect",
+          "inventory_matches": [
+            {
+              "graph_raw": "正",
+              "label_token": "rect(us)",
+              "abbreviation": "rect",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|正|於|ls=psc|c1=s|c2=p|nocap=y}}"
         }
       },
@@ -634,7 +650,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -655,7 +672,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -685,7 +703,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",

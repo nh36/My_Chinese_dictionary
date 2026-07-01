@@ -114,7 +114,8 @@
               "graph_raw": "又",
               "label_token": "dextr(a)",
               "abbreviation": "dextr",
-              "start_line": 255
+              "start_line": 255,
+              "source": null
             },
             {
               "graph_raw": "又",
@@ -135,7 +136,8 @@
             "graph_raw": "又",
             "label_token": "dextr(a)",
             "abbreviation": "dextr",
-            "start_line": 255
+            "start_line": 255,
+            "source": null
           },
           {
             "graph_raw": "又",
@@ -271,7 +273,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -292,7 +295,8 @@
             "graph_raw": "女",
             "label_token": "fem(ina)",
             "abbreviation": "fem",
-            "start_line": 275
+            "start_line": 275,
+            "source": null
           },
           {
             "graph_raw": "女",
@@ -322,7 +326,8 @@
               "graph_raw": "女",
               "label_token": "fem(ina)",
               "abbreviation": "fem",
-              "start_line": 275
+              "start_line": 275,
+              "source": null
             },
             {
               "graph_raw": "女",
@@ -409,7 +414,8 @@
               "graph_raw": "子",
               "label_token": "fili(us)",
               "abbreviation": "fili",
-              "start_line": 278
+              "start_line": 278,
+              "source": null
             },
             {
               "graph_raw": "子",
@@ -430,7 +436,8 @@
             "graph_raw": "子",
             "label_token": "fili(us)",
             "abbreviation": "fili",
-            "start_line": 278
+            "start_line": 278,
+            "source": null
           },
           {
             "graph_raw": "子",
@@ -520,26 +527,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "氂",
           "ids": "⿸𠩺毛",
           "phonetic_component": "毛",
           "semantic_component": "𠩺",
           "position": "prefix-dot",
-          "abbreviation": "𠩺",
-          "inventory_matches": []
+          "abbreviation": "fiss",
+          "inventory_matches": [
+            {
+              "graph_raw": "𠩺",
+              "label_token": "fiss(ura)",
+              "abbreviation": "fiss",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𠩺",
+        "abbreviation": "fiss",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "𠩺",
+            "label_token": "fiss(ura)",
+            "abbreviation": "fiss",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "𠩺"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{𠩺·}ry₃}},",
-      "render_latex": "氂\t%li2\n{\\large{\\textsuperscript{𠩺·}ry₃}},\n\\textit{li};\t%0979i",
+      "transliteration_latex": "{\\large{\\textsuperscript{fiss·}ry₃}},",
+      "render_latex": "氂\t%li2\n{\\large{\\textsuperscript{fiss·}ry₃}},\n\\textit{li};\t%0979i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null
@@ -639,7 +662,8 @@
               "graph_raw": "牛",
               "label_token": "bos",
               "abbreviation": "bos",
-              "start_line": 212
+              "start_line": 212,
+              "source": null
             }
           ]
         }
@@ -653,7 +677,8 @@
             "graph_raw": "牛",
             "label_token": "bos",
             "abbreviation": "bos",
-            "start_line": 212
+            "start_line": 212,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -736,26 +761,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "斄",
           "ids": "⿸𠩺來",
           "phonetic_component": "來",
           "semantic_component": "𠩺",
           "position": "prefix-dot",
-          "abbreviation": "𠩺",
-          "inventory_matches": []
+          "abbreviation": "fiss",
+          "inventory_matches": [
+            {
+              "graph_raw": "𠩺",
+              "label_token": "fiss(ura)",
+              "abbreviation": "fiss",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𠩺",
+        "abbreviation": "fiss",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "𠩺",
+            "label_token": "fiss(ura)",
+            "abbreviation": "fiss",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "𠩺"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{𠩺·}ry₃}},",
-      "render_latex": "斄\t%li2\n{\\large{\\textsuperscript{𠩺·}ry₃}},\n\\textit{li};\t%0979k",
+      "transliteration_latex": "{\\large{\\textsuperscript{fiss·}ry₃}},",
+      "render_latex": "斄\t%li2\n{\\large{\\textsuperscript{fiss·}ry₃}},\n\\textit{li};\t%0979k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null
@@ -875,7 +916,8 @@
               "graph_raw": "里",
               "label_token": "vic(us)",
               "abbreviation": "vic",
-              "start_line": 437
+              "start_line": 437,
+              "source": null
             }
           ]
         }
@@ -889,7 +931,8 @@
             "graph_raw": "里",
             "label_token": "vic(us)",
             "abbreviation": "vic",
-            "start_line": 437
+            "start_line": 437,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -912,7 +955,8 @@
               "graph_raw": "里",
               "label_token": "vic(us)",
               "abbreviation": "vic",
-              "start_line": 437
+              "start_line": 437,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|𠩺|里|c1=p|c2=s|ls=psc}}"

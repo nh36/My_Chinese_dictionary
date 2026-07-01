@@ -759,26 +759,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "嚮",
           "ids": "⿱鄉向",
           "phonetic_component": "鄉",
           "semantic_component": "向",
           "position": "suffix-colon",
-          "abbreviation": "向",
-          "inventory_matches": []
+          "abbreviation": "echo",
+          "inventory_matches": [
+            {
+              "graph_raw": "向",
+              "label_token": "echo",
+              "abbreviation": "echo",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "向",
+        "abbreviation": "echo",
         "position": "suffix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "向",
+            "label_token": "echo",
+            "abbreviation": "echo",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "向"
       },
-      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ₂\\textsuperscript{˸向}}},",
-      "render_latex": "嚮\t%xiang4 / xiàng\n{\\large{q\\textoverset{b}{a}ṅ₂\\textsuperscript{˸向}}},\n\\textit{xiaṅH};\t%0714i",
+      "transliteration_latex": "{\\large{q\\textoverset{b}{a}ṅ₂\\textsuperscript{˸echo}}},",
+      "render_latex": "嚮\t%xiang4 / xiàng\n{\\large{q\\textoverset{b}{a}ṅ₂\\textsuperscript{˸echo}}},\n\\textit{xiaṅH};\t%0714i",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -876,7 +892,8 @@
               "graph_raw": "食",
               "label_token": "ed(o)",
               "abbreviation": "ed",
-              "start_line": 265
+              "start_line": 265,
+              "source": null
             },
             {
               "graph_raw": "食",
@@ -897,7 +914,8 @@
             "graph_raw": "食",
             "label_token": "ed(o)",
             "abbreviation": "ed",
-            "start_line": 265
+            "start_line": 265,
+            "source": null
           },
           {
             "graph_raw": "食",
@@ -1158,7 +1176,8 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 391
+              "start_line": 391,
+              "source": null
             },
             {
               "graph_raw": "日",
@@ -1179,7 +1198,8 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 391
+            "start_line": 391,
+            "source": null
           },
           {
             "graph_raw": "日",
@@ -1209,7 +1229,8 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 391
+              "start_line": 391,
+              "source": null
             },
             {
               "graph_raw": "日",
@@ -1318,7 +1339,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -1339,7 +1361,8 @@
             "graph_raw": "月",
             "label_token": "luna",
             "abbreviation": "luna",
-            "start_line": 315
+            "start_line": 315,
+            "source": null
           },
           {
             "graph_raw": "月",
@@ -1451,7 +1474,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1472,7 +1496,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1630,13 +1655,15 @@
               "graph_raw": "音",
               "label_token": "son(us)",
               "abbreviation": "son",
-              "start_line": 259
+              "start_line": 259,
+              "source": null
             },
             {
               "graph_raw": "音",
               "label_token": "son(us)",
               "abbreviation": "son",
-              "start_line": 397
+              "start_line": 397,
+              "source": null
             }
           ]
         }
@@ -1650,13 +1677,15 @@
             "graph_raw": "音",
             "label_token": "son(us)",
             "abbreviation": "son",
-            "start_line": 259
+            "start_line": 259,
+            "source": null
           },
           {
             "graph_raw": "音",
             "label_token": "son(us)",
             "abbreviation": "son",
-            "start_line": 397
+            "start_line": 397,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1679,13 +1708,15 @@
               "graph_raw": "音",
               "label_token": "son(us)",
               "abbreviation": "son",
-              "start_line": 259
+              "start_line": 259,
+              "source": null
             },
             {
               "graph_raw": "音",
               "label_token": "son(us)",
               "abbreviation": "son",
-              "start_line": 397
+              "start_line": 397,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|鄉|音|t2=sound|ls=psc|c1=p|c2=s}}"
@@ -1824,28 +1855,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{𠨍·}qaṅ₂}},",
-      "render_latex": "卿\t%qing1 / qīng\n{\\large{\\textsuperscript{𠨍·}qaṅ₂}},\n\\textit{khiaeṅ};\t%0714o",
+      "transliteration_latex": "{\\large{\\textsuperscript{coram·}qaṅ₂}},",
+      "render_latex": "卿\t%qing1 / qīng\n{\\large{\\textsuperscript{coram·}qaṅ₂}},\n\\textit{khiaeṅ};\t%0714o",
       "wiktionary_semantic_validation": {
         "semantic_component": "𠨍",
         "phonetic_component": "皀",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "卿",
           "semantic_component": "𠨍",
           "phonetic_component": "皀",
           "position": "prefix-dot",
-          "abbreviation": "𠨍",
-          "inventory_matches": [],
+          "abbreviation": "coram",
+          "inventory_matches": [
+            {
+              "graph_raw": "𠨍",
+              "label_token": "coram",
+              "abbreviation": "coram",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|ls=ic|ls2=psc|𠨍|皀|t1=two men facing each other|t2=food vessel with a stand|c1=s|c2=p}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "𠨍",
+        "abbreviation": "coram",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "𠨍",
+            "label_token": "coram",
+            "abbreviation": "coram",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "𠨍"
       },
       "hierarchy_assignment": {

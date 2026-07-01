@@ -274,7 +274,8 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -297,7 +298,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|肉|只|ls=psc|c1=s|c2=p|t1=flesh}}"
@@ -427,7 +429,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -457,7 +460,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -601,25 +605,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "尺",
+        "abbreviation": "regul",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "尺",
+            "label_token": "regul(a)",
+            "abbreviation": "regul",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "尺"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{尺·}ke₃}},",
-      "render_latex": "咫\t%zhi3 / zhǐ\n{\\large{\\textsuperscript{尺·}ke₃}},\n\\textit{cieX};\t%0865d",
+      "transliteration_latex": "{\\large{\\textsuperscript{regul·}ke₃}},",
+      "render_latex": "咫\t%zhi3 / zhǐ\n{\\large{\\textsuperscript{regul·}ke₃}},\n\\textit{cieX};\t%0865d",
       "wiktionary_semantic_validation": {
         "semantic_component": "尺",
         "phonetic_component": "只",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "咫",
           "semantic_component": "尺",
           "phonetic_component": "只",
           "position": "prefix-dot",
-          "abbreviation": "尺",
-          "inventory_matches": [],
+          "abbreviation": "regul",
+          "inventory_matches": [
+            {
+              "graph_raw": "尺",
+              "label_token": "regul(a)",
+              "abbreviation": "regul",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|尺|只|c1=s|c2=p|t1=ruler; measuring stick|ls=psc}}"
         }
       },
@@ -977,7 +997,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",

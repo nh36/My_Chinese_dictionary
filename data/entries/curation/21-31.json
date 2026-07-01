@@ -822,7 +822,8 @@
             "graph_raw": "足",
             "label_token": "(pes,) ped(is)",
             "abbreviation": "ped",
-            "start_line": 354
+            "start_line": 354,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -845,7 +846,8 @@
               "graph_raw": "足",
               "label_token": "(pes,) ped(is)",
               "abbreviation": "ped",
-              "start_line": 354
+              "start_line": 354,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|足|犮|ls=psc|c1=s|c2=p|t1=foot}}"
@@ -933,7 +935,8 @@
               "graph_raw": "鬼",
               "label_token": "daemon",
               "abbreviation": "daemon",
-              "start_line": 251
+              "start_line": 251,
+              "source": null
             },
             {
               "graph_raw": "鬼",
@@ -954,7 +957,8 @@
             "graph_raw": "鬼",
             "label_token": "daemon",
             "abbreviation": "daemon",
-            "start_line": 251
+            "start_line": 251,
+            "source": null
           },
           {
             "graph_raw": "鬼",
@@ -1075,7 +1079,8 @@
               "graph_raw": "土",
               "label_token": "terr(a)",
               "abbreviation": "terr",
-              "start_line": 406
+              "start_line": 406,
+              "source": null
             },
             {
               "graph_raw": "土",
@@ -1096,7 +1101,8 @@
             "graph_raw": "土",
             "label_token": "terr(a)",
             "abbreviation": "terr",
-            "start_line": 406
+            "start_line": 406,
+            "source": null
           },
           {
             "graph_raw": "土",
@@ -1229,7 +1235,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -1250,7 +1257,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -1348,7 +1356,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -1369,7 +1378,8 @@
             "graph_raw": "月",
             "label_token": "luna",
             "abbreviation": "luna",
-            "start_line": 315
+            "start_line": 315,
+            "source": null
           },
           {
             "graph_raw": "月",
@@ -1507,7 +1517,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1528,7 +1539,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1737,7 +1749,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1758,7 +1771,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -1788,7 +1802,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1929,7 +1944,8 @@
               "graph_raw": "髟",
               "label_token": "crin(is)",
               "abbreviation": "crin",
-              "start_line": 248
+              "start_line": 248,
+              "source": null
             },
             {
               "graph_raw": "髟",
@@ -1950,7 +1966,8 @@
             "graph_raw": "髟",
             "label_token": "crin(is)",
             "abbreviation": "crin",
-            "start_line": 248
+            "start_line": 248,
+            "source": null
           },
           {
             "graph_raw": "髟",
@@ -1980,7 +1997,8 @@
               "graph_raw": "髟",
               "label_token": "crin(is)",
               "abbreviation": "crin",
-              "start_line": 248
+              "start_line": 248,
+              "source": null
             },
             {
               "graph_raw": "髟",
@@ -2063,26 +2081,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "瞂",
           "ids": "⿰盾犮",
           "phonetic_component": "犮",
           "semantic_component": "盾",
           "position": "prefix-dot",
-          "abbreviation": "盾",
-          "inventory_matches": []
+          "abbreviation": "scut",
+          "inventory_matches": [
+            {
+              "graph_raw": "盾",
+              "label_token": "scut(um)",
+              "abbreviation": "scut",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "盾",
+        "abbreviation": "scut",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "盾",
+            "label_token": "scut(um)",
+            "abbreviation": "scut",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "盾"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{盾·}pot₂}},",
-      "render_latex": "瞂\t%fa2\n{\\large{\\textsuperscript{盾·}pot₂}},\n\\textit{biət};\t%0276j",
+      "transliteration_latex": "{\\large{\\textsuperscript{scut·}pot₂}},",
+      "render_latex": "瞂\t%fa2\n{\\large{\\textsuperscript{scut·}pot₂}},\n\\textit{biət};\t%0276j",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2270,7 +2304,8 @@
             "graph_raw": "韋",
             "label_token": "alut(a)",
             "abbreviation": "alut",
-            "start_line": 186
+            "start_line": 186,
+            "source": null
           }
         ],
         "source": "packet_family_ids",
@@ -2361,7 +2396,8 @@
               "graph_raw": "黹",
               "label_token": "acu(laria)",
               "abbreviation": "acu",
-              "start_line": 177
+              "start_line": 177,
+              "source": null
             },
             {
               "graph_raw": "黹",
@@ -2382,7 +2418,8 @@
             "graph_raw": "黹",
             "label_token": "acu(laria)",
             "abbreviation": "acu",
-            "start_line": 177
+            "start_line": 177,
+            "source": null
           },
           {
             "graph_raw": "黹",
@@ -2492,7 +2529,8 @@
               "graph_raw": "巾",
               "label_token": "lint(eum)",
               "abbreviation": "lint",
-              "start_line": 314
+              "start_line": 314,
+              "source": null
             },
             {
               "graph_raw": "巾",
@@ -2513,7 +2551,8 @@
             "graph_raw": "巾",
             "label_token": "lint(eum)",
             "abbreviation": "lint",
-            "start_line": 314
+            "start_line": 314,
+            "source": null
           },
           {
             "graph_raw": "巾",
@@ -2651,7 +2690,8 @@
               "graph_raw": "示",
               "label_token": "spirit(us)",
               "abbreviation": "spirit",
-              "start_line": 398
+              "start_line": 398,
+              "source": null
             },
             {
               "graph_raw": "示",
@@ -2672,7 +2712,8 @@
             "graph_raw": "示",
             "label_token": "spirit(us)",
             "abbreviation": "spirit",
-            "start_line": 398
+            "start_line": 398,
+            "source": null
           },
           {
             "graph_raw": "示",

@@ -247,6 +247,34 @@ class SemanticLabelNormalizationAcceptanceTests(unittest.TestCase):
         for abbreviation, hits in usage.items():
             self.assertTrue(hits, msg=f"{abbreviation} is listed in the inventory but unused in curation data")
 
+    def test_semantic_label_supplement_rows_are_used_in_live_entries(self) -> None:
+        integrated = json.loads(
+            (ROOT / "data/semantic_components/integrated_semantic_components.json").read_text(encoding="utf-8")
+        )
+        supplement = json.loads(
+            (ROOT / "data/semantic_components/semantic_label_supplement.json").read_text(encoding="utf-8")
+        )
+        by_abbreviation = {
+            item.get("abbreviation"): item for item in integrated["items"] if item.get("abbreviation")
+        }
+
+        usage = {item["abbreviation"]: [] for item in supplement["items"] if item.get("abbreviation")}
+        for item in supplement["items"]:
+            abbreviation = item["abbreviation"]
+            self.assertIn(abbreviation, by_abbreviation)
+            self.assertEqual(by_abbreviation[abbreviation]["graph_raw"], item["graph_raw"])
+            self.assertTrue(by_abbreviation[abbreviation]["used_in_integrated_dictionary"])
+
+        for path in (ROOT / "data/entries/curation").glob("*.json"):
+            entry = json.loads(path.read_text(encoding="utf-8"))
+            for candidate in entry.get("proposed_additions", []):
+                abbreviation = (candidate.get("semantic_assignment") or {}).get("abbreviation")
+                if abbreviation in usage:
+                    usage[abbreviation].append((entry["id"], candidate["character"]))
+
+        for abbreviation, hits in usage.items():
+            self.assertTrue(hits, msg=f"{abbreviation} is listed in the supplement but unused in curation data")
+
     def test_audit_output_confirms_bos_review_and_no_live_blocked_or_placeholder_usage(self) -> None:
         audit = json.loads(
             (ROOT / "data/semantic_components/semantic_label_normalization_audit.json").read_text(encoding="utf-8")

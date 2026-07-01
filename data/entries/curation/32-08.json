@@ -192,7 +192,8 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 391
+              "start_line": 391,
+              "source": null
             },
             {
               "graph_raw": "日",
@@ -214,7 +215,8 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 391
+            "start_line": 391,
+            "source": null
           },
           {
             "graph_raw": "日",
@@ -703,7 +705,8 @@
             "graph_raw": "歹",
             "label_token": "mal(us)",
             "abbreviation": "mal",
-            "start_line": 318
+            "start_line": 318,
+            "source": null
           },
           {
             "graph_raw": "歹",
@@ -733,7 +736,8 @@
               "graph_raw": "歹",
               "label_token": "mal(us)",
               "abbreviation": "mal",
-              "start_line": 318
+              "start_line": 318,
+              "source": null
             },
             {
               "graph_raw": "歹",
@@ -824,7 +828,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -968,26 +973,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "畇",
           "ids": "⿰田勻",
           "phonetic_component": "田",
           "semantic_component": "勻",
           "position": "suffix-dot",
-          "abbreviation": "勻",
-          "inventory_matches": []
+          "abbreviation": "aequ",
+          "inventory_matches": [
+            {
+              "graph_raw": "勻",
+              "label_token": "aequ(us)",
+              "abbreviation": "aequ",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "勻",
+        "abbreviation": "aequ",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "勻",
+            "label_token": "aequ(us)",
+            "abbreviation": "aequ",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "勻"
       },
-      "transliteration_latex": "{\\large{quin₃\\textsuperscript{·勻}}},",
-      "render_latex": "畇\t%yun2\n{\\large{quin₃\\textsuperscript{·勻}}},\n\\textit{swin};\t%0392j\n\\textit{yiwin};\n\\textit{zwin};",
+      "transliteration_latex": "{\\large{quin₃\\textsuperscript{·aequ}}},",
+      "render_latex": "畇\t%yun2\n{\\large{quin₃\\textsuperscript{·aequ}}},\n\\textit{swin};\t%0392j\n\\textit{yiwin};\n\\textit{zwin};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null
@@ -1070,7 +1091,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -1235,7 +1257,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1265,7 +1288,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1402,7 +1426,8 @@
             "graph_raw": "目",
             "label_token": "ocul(us)",
             "abbreviation": "ocul",
-            "start_line": 341
+            "start_line": 341,
+            "source": null
           },
           {
             "graph_raw": "目",
@@ -1556,7 +1581,8 @@
             "graph_raw": "竹",
             "label_token": "bamb(us)",
             "abbreviation": "bamb",
-            "start_line": 206
+            "start_line": 206,
+            "source": null
           },
           {
             "graph_raw": "竹",
@@ -1586,7 +1612,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",
@@ -1734,7 +1761,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1872,7 +1900,8 @@
             "graph_raw": "言",
             "label_token": "dic(o)",
             "abbreviation": "dic",
-            "start_line": 256
+            "start_line": 256,
+            "source": null
           },
           {
             "graph_raw": "言",
@@ -1902,7 +1931,8 @@
               "graph_raw": "言",
               "label_token": "dic(o)",
               "abbreviation": "dic",
-              "start_line": 256
+              "start_line": 256,
+              "source": null
             },
             {
               "graph_raw": "言",
@@ -2159,7 +2189,8 @@
             "graph_raw": "糸",
             "label_token": "ser(icum)",
             "abbreviation": "ser",
-            "start_line": 387
+            "start_line": 387,
+            "source": null
           },
           {
             "graph_raw": "糸",
@@ -2189,7 +2220,8 @@
               "graph_raw": "糸",
               "label_token": "ser(icum)",
               "abbreviation": "ser",
-              "start_line": 387
+              "start_line": 387,
+              "source": null
             },
             {
               "graph_raw": "糸",
@@ -2267,7 +2299,8 @@
             "graph_raw": "子",
             "label_token": "fili(us)",
             "abbreviation": "fili",
-            "start_line": 278
+            "start_line": 278,
+            "source": null
           },
           {
             "graph_raw": "子",
@@ -2372,7 +2405,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",

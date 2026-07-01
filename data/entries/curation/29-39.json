@@ -322,25 +322,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丌",
+        "abbreviation": "pedest",
         "position": "suffix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "丌",
+            "label_token": "pedest(al)",
+            "abbreviation": "pedest",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "丌"
       },
-      "transliteration_latex": "{\\large{pik\\textsuperscript{˸丌}}},",
-      "render_latex": "畀\t%bi4 / bì\n{\\large{pik\\textsuperscript{˸丌}}},\n\\textit{pyiyH};\t%0521a",
+      "transliteration_latex": "{\\large{pik\\textsuperscript{˸pedest}}},",
+      "render_latex": "畀\t%bi4 / bì\n{\\large{pik\\textsuperscript{˸pedest}}},\n\\textit{pyiyH};\t%0521a",
       "wiktionary_semantic_validation": {
         "semantic_component": "丌",
         "phonetic_component": "甶",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "畀",
           "semantic_component": "丌",
           "phonetic_component": "甶",
           "position": "suffix-colon",
-          "abbreviation": "丌",
-          "inventory_matches": [],
+          "abbreviation": "pedest",
+          "inventory_matches": [
+            {
+              "graph_raw": "丌",
+              "label_token": "pedest(al)",
+              "abbreviation": "pedest",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|甶|丌|ls=psc|c1=p|c2=s|t2=pedestal|nocap=1}}"
         }
       },
@@ -536,37 +552,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "鼻",
           "ids": "⿱自畀",
           "phonetic_component": "畀",
-          "semantic_component": "自",
+          "semantic_component": "鼻",
           "position": "prefix-colon",
-          "abbreviation": "自",
-          "inventory_matches": []
+          "abbreviation": "nas",
+          "inventory_matches": [
+            {
+              "graph_raw": "鼻",
+              "label_token": "nas(um)",
+              "abbreviation": "nas",
+              "start_line": 331,
+              "source": null
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "自",
+        "abbreviation": "nas",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "自"
+        "inventory_matches": [
+          {
+            "graph_raw": "鼻",
+            "label_token": "nas(um)",
+            "abbreviation": "nas",
+            "start_line": 331,
+            "source": null
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "鼻"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{自˸}pik}},",
-      "render_latex": "鼻\t%bi2 / bí\n{\\large{\\textsuperscript{自˸}pik}},\n\\textit{byiyH};\t%0521c",
+      "transliteration_latex": "{\\large{\\textsuperscript{nas˸}pik}},",
+      "render_latex": "鼻\t%bi2 / bí\n{\\large{\\textsuperscript{nas˸}pik}},\n\\textit{byiyH};\t%0521c",
       "wiktionary_semantic_validation": {
-        "semantic_component": "自",
+        "semantic_component": "鼻",
         "phonetic_component": "畀",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "鼻",
-          "semantic_component": "自",
+          "semantic_component": "鼻",
           "phonetic_component": "畀",
           "position": "prefix-colon",
-          "abbreviation": "自",
-          "inventory_matches": [],
+          "abbreviation": "nas",
+          "inventory_matches": [
+            {
+              "graph_raw": "鼻",
+              "label_token": "nas(um)",
+              "abbreviation": "nas",
+              "start_line": 331,
+              "source": null
+            }
+          ],
           "template_raw": "{{Han compound|自|t1=nose|畀|ls=psc|c1=s|c2=p|no_och1=y}}"
         }
       },
@@ -675,7 +715,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -696,7 +737,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",

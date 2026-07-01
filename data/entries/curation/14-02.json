@@ -595,7 +595,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -616,7 +617,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -646,7 +648,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -741,7 +744,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -762,7 +766,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -906,7 +911,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -927,7 +933,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -957,7 +964,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1052,7 +1060,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1073,7 +1082,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1358,7 +1368,8 @@
               "graph_raw": "革",
               "label_token": "cori(um)",
               "abbreviation": "cori",
-              "start_line": 241
+              "start_line": 241,
+              "source": null
             },
             {
               "graph_raw": "革",
@@ -1379,7 +1390,8 @@
             "graph_raw": "米",
             "label_token": "oryz(a)",
             "abbreviation": "oryz",
-            "start_line": 343
+            "start_line": 343,
+            "source": null
           },
           {
             "graph_raw": "米",
@@ -1409,7 +1421,8 @@
               "graph_raw": "米",
               "label_token": "oryz(a)",
               "abbreviation": "oryz",
-              "start_line": 343
+              "start_line": 343,
+              "source": null
             },
             {
               "graph_raw": "米",
@@ -1561,37 +1574,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "麴",
           "ids": "⿰麥匊",
           "phonetic_component": "匊",
           "semantic_component": "麥",
           "position": "prefix-dot",
-          "abbreviation": "麥",
-          "inventory_matches": []
+          "abbreviation": "trit",
+          "inventory_matches": [
+            {
+              "graph_raw": "麥",
+              "label_token": "trit(icum)",
+              "abbreviation": "trit",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "麥",
+        "abbreviation": "trit",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "麥",
+            "label_token": "trit(icum)",
+            "abbreviation": "trit",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "麥"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{麥·}kuk}},",
-      "render_latex": "麴\t%qu1\n{\\large{\\textsuperscript{麥·}kuk}},\n\\textit{khiuwk};\t%1017i",
+      "transliteration_latex": "{\\large{\\textsuperscript{trit·}kuk}},",
+      "render_latex": "麴\t%qu1\n{\\large{\\textsuperscript{trit·}kuk}},\n\\textit{khiuwk};\t%1017i",
       "wiktionary_semantic_validation": {
         "semantic_component": "麥",
         "phonetic_component": "匊",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "麴",
           "semantic_component": "麥",
           "phonetic_component": "匊",
           "position": "prefix-dot",
-          "abbreviation": "麥",
-          "inventory_matches": [],
+          "abbreviation": "trit",
+          "inventory_matches": [
+            {
+              "graph_raw": "麥",
+              "label_token": "trit(icum)",
+              "abbreviation": "trit",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|麥|匊|ls=psc|c1=s|c2=p}}"
         }
       },

@@ -189,26 +189,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "玉",
           "ids": "⿷王丶",
           "phonetic_component": "玉",
           "semantic_component": "丶",
           "position": "suffix-dot",
-          "abbreviation": "丶",
-          "inventory_matches": []
+          "abbreviation": "punct",
+          "inventory_matches": [
+            {
+              "graph_raw": "丶",
+              "label_token": "punct(um)",
+              "abbreviation": "punct",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "丶",
+        "abbreviation": "punct",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "丶",
+            "label_token": "punct(um)",
+            "abbreviation": "punct",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "丶"
       },
-      "transliteration_latex": "{\\large{ṅok₂\\textsuperscript{·丶}}},",
-      "render_latex": "玉\t%yu4 / yù\n{\\large{ṅok₂\\textsuperscript{·丶}}},\n\\textit{ṅiəwk};\t%1216a",
+      "transliteration_latex": "{\\large{ṅok₂\\textsuperscript{·punct}}},",
+      "render_latex": "玉\t%yu4 / yù\n{\\large{ṅok₂\\textsuperscript{·punct}}},\n\\textit{ṅiəwk};\t%1216a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -318,14 +334,15 @@
               "graph_raw": "頁",
               "label_token": "fac(ies)",
               "abbreviation": "fac",
-              "start_line": 273
+              "start_line": 273,
+              "source": null
             },
             {
               "graph_raw": "頁",
               "label_token": "fac",
               "abbreviation": "fac",
               "learned": true,
-              "evidence_count": 4
+              "evidence_count": 5
             }
           ]
         }
@@ -339,14 +356,15 @@
             "graph_raw": "頁",
             "label_token": "fac(ies)",
             "abbreviation": "fac",
-            "start_line": 273
+            "start_line": 273,
+            "source": null
           },
           {
             "graph_raw": "頁",
             "label_token": "fac",
             "abbreviation": "fac",
             "learned": true,
-            "evidence_count": 4
+            "evidence_count": 5
           }
         ],
         "source": "ids_top_level",

@@ -326,7 +326,8 @@
               "graph_raw": "亠",
               "label_token": "pav(ilio)",
               "abbreviation": "pav",
-              "start_line": 351
+              "start_line": 351,
+              "source": null
             }
           ]
         }
@@ -340,7 +341,8 @@
             "graph_raw": "亠",
             "label_token": "pav(ilio)",
             "abbreviation": "pav",
-            "start_line": 351
+            "start_line": 351,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -546,7 +548,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -567,7 +570,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -597,7 +601,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -680,26 +685,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "扆",
           "ids": "⿸户衣",
           "phonetic_component": "衣",
-          "semantic_component": "户",
+          "semantic_component": "戶",
           "position": "prefix-dot",
-          "abbreviation": "户",
-          "inventory_matches": []
+          "abbreviation": "ost",
+          "inventory_matches": [
+            {
+              "graph_raw": "戶",
+              "label_token": "ost(ium)",
+              "abbreviation": "ost",
+              "start_line": 346,
+              "source": null
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "户",
+        "abbreviation": "ost",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "戶",
+            "label_token": "ost(ium)",
+            "abbreviation": "ost",
+            "start_line": 346,
+            "source": null
+          }
+        ],
         "source": "ids_component_literal_fallback",
-        "semantic_component": "户"
+        "semantic_component": "戶"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{户·}ʔy}},",
-      "render_latex": "扆\t%yi3\n{\\large{\\textsuperscript{户·}ʔy}},\n\\textit{qiɨyX};\t%0550g",
+      "transliteration_latex": "{\\large{\\textsuperscript{ost·}ʔy}},",
+      "render_latex": "扆\t%yi3\n{\\large{\\textsuperscript{ost·}ʔy}},\n\\textit{qiɨyX};\t%0550g",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -847,7 +868,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -869,7 +891,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1014,7 +1037,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1035,7 +1059,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",

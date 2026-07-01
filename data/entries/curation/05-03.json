@@ -116,26 +116,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "覈",
           "ids": "⿱覀敫",
           "phonetic_component": "敫",
           "semantic_component": "覀",
           "position": "prefix-colon",
-          "abbreviation": "覀",
-          "inventory_matches": []
+          "abbreviation": "velam",
+          "inventory_matches": [
+            {
+              "graph_raw": "覀",
+              "label_token": "velam(en)",
+              "abbreviation": "velam",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "覀",
+        "abbreviation": "velam",
         "position": "prefix-colon",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "覀",
+            "label_token": "velam(en)",
+            "abbreviation": "velam",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "覀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{覀˸}kyk₄}},",
-      "render_latex": "覈\t%he2 / hé\n{\\large{\\textsuperscript{覀˸}kyk₄}},\n\\textit{ḫeak};\t%1260a",
+      "transliteration_latex": "{\\large{\\textsuperscript{velam˸}kyk₄}},",
+      "render_latex": "覈\t%he2 / hé\n{\\large{\\textsuperscript{velam˸}kyk₄}},\n\\textit{ḫeak};\t%1260a",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": null,
       "resolved_node_root": null

@@ -922,7 +922,8 @@
               "graph_raw": "車",
               "label_token": "vehic(ulum)",
               "abbreviation": "vehic",
-              "start_line": 430
+              "start_line": 430,
+              "source": null
             },
             {
               "graph_raw": "車",
@@ -943,7 +944,8 @@
             "graph_raw": "車",
             "label_token": "vehic(ulum)",
             "abbreviation": "vehic",
-            "start_line": 430
+            "start_line": 430,
+            "source": null
           },
           {
             "graph_raw": "車",
@@ -1101,7 +1103,8 @@
               "graph_raw": "月",
               "label_token": "luna",
               "abbreviation": "luna",
-              "start_line": 315
+              "start_line": 315,
+              "source": null
             },
             {
               "graph_raw": "月",
@@ -1122,7 +1125,8 @@
             "graph_raw": "肉",
             "label_token": "carn(is)",
             "abbreviation": "carn",
-            "start_line": 220
+            "start_line": 220,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1145,7 +1149,8 @@
               "graph_raw": "肉",
               "label_token": "carn(is)",
               "abbreviation": "carn",
-              "start_line": 220
+              "start_line": 220,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|肉|t1=meat; flesh|复|ls=psc|c1=s|c2=p}}"
@@ -1307,7 +1312,8 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 434
+              "start_line": 434,
+              "source": null
             },
             {
               "graph_raw": "衣",
@@ -1328,7 +1334,8 @@
             "graph_raw": "衣",
             "label_token": "vest(imentum)",
             "abbreviation": "vest",
-            "start_line": 434
+            "start_line": 434,
+            "source": null
           },
           {
             "graph_raw": "衣",
@@ -1358,7 +1365,8 @@
               "graph_raw": "衣",
               "label_token": "vest(imentum)",
               "abbreviation": "vest",
-              "start_line": 434
+              "start_line": 434,
+              "source": null
             },
             {
               "graph_raw": "衣",
@@ -1453,7 +1461,8 @@
               "graph_raw": "虫",
               "label_token": "serp(ens)",
               "abbreviation": "serp",
-              "start_line": 388
+              "start_line": 388,
+              "source": null
             },
             {
               "graph_raw": "虫",
@@ -1474,7 +1483,8 @@
             "graph_raw": "虫",
             "label_token": "serp(ens)",
             "abbreviation": "serp",
-            "start_line": 388
+            "start_line": 388,
+            "source": null
           },
           {
             "graph_raw": "虫",
@@ -1572,7 +1582,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -1593,7 +1604,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -1786,37 +1798,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "覆",
           "ids": "⿱覀復",
           "phonetic_component": "复",
           "semantic_component": "覀",
           "position": "prefix-colon",
-          "abbreviation": "覀",
-          "inventory_matches": []
+          "abbreviation": "velam",
+          "inventory_matches": [
+            {
+              "graph_raw": "覀",
+              "label_token": "velam(en)",
+              "abbreviation": "velam",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "襾",
+        "abbreviation": "velam",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
-        "semantic_component": "襾"
+        "inventory_matches": [
+          {
+            "graph_raw": "覀",
+            "label_token": "velam(en)",
+            "abbreviation": "velam",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
+        "semantic_component": "覀"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{襾˸}puk₃}},",
-      "render_latex": "覆\t%fu4 / fù\n{\\large{\\textsuperscript{襾˸}puk₃}},\n\\textit{phiuwH};\t%1034m\n\\textit{phiuwk};",
+      "transliteration_latex": "{\\large{\\textsuperscript{velam˸}puk₃}},",
+      "render_latex": "覆\t%fu4 / fù\n{\\large{\\textsuperscript{velam˸}puk₃}},\n\\textit{phiuwH};\t%1034m\n\\textit{phiuwk};",
       "wiktionary_semantic_validation": {
-        "semantic_component": "襾",
+        "semantic_component": "覀",
         "phonetic_component": "復",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "覆",
-          "semantic_component": "襾",
+          "semantic_component": "覀",
           "phonetic_component": "復",
           "position": "prefix-colon",
-          "abbreviation": "襾",
-          "inventory_matches": [],
+          "abbreviation": "velam",
+          "inventory_matches": [
+            {
+              "graph_raw": "覀",
+              "label_token": "velam(en)",
+              "abbreviation": "velam",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|襾|復|c1=s|c2=p|ls=psc}}"
         }
       },

@@ -247,25 +247,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "舁",
+        "abbreviation": "elev",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "舁",
+            "label_token": "elev(are)",
+            "abbreviation": "elev",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "舁"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{舁˸}qyṅ}},",
-      "render_latex": "興\t%xing1 / xing4 / xīng\n{\\large{\\textsuperscript{舁˸}qyṅ}},\n\\textit{xiṅ};\t%0889a\n\\textit{xiṅH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{elev˸}qyṅ}},",
+      "render_latex": "興\t%xing1 / xing4 / xīng\n{\\large{\\textsuperscript{elev˸}qyṅ}},\n\\textit{xiṅ};\t%0889a\n\\textit{xiṅH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "舁",
         "phonetic_component": "型",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "興",
           "semantic_component": "舁",
           "phonetic_component": "型",
           "position": "prefix-colon",
-          "abbreviation": "舁",
-          "inventory_matches": [],
+          "abbreviation": "elev",
+          "inventory_matches": [
+            {
+              "graph_raw": "舁",
+              "label_token": "elev(are)",
+              "abbreviation": "elev",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|舁|型|ls=psc|c1=s|c2=p}}"
         }
       },

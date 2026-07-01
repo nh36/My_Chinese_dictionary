@@ -413,37 +413,61 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "麷",
           "ids": "⿰麥豐",
           "phonetic_component": "豐",
           "semantic_component": "麥",
           "position": "prefix-dot",
-          "abbreviation": "麥",
-          "inventory_matches": []
+          "abbreviation": "trit",
+          "inventory_matches": [
+            {
+              "graph_raw": "麥",
+              "label_token": "trit(icum)",
+              "abbreviation": "trit",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "麥",
+        "abbreviation": "trit",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "麥",
+            "label_token": "trit(icum)",
+            "abbreviation": "trit",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "麥"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{麥·}p\\textoverset{b}{o}ṅ}},",
-      "render_latex": "麷\t%feng1\n{\\large{\\textsuperscript{麥·}p\\textoverset{b}{o}ṅ}},\n\\textit{phiuwṅ};\t%1014e",
+      "transliteration_latex": "{\\large{\\textsuperscript{trit·}p\\textoverset{b}{o}ṅ}},",
+      "render_latex": "麷\t%feng1\n{\\large{\\textsuperscript{trit·}p\\textoverset{b}{o}ṅ}},\n\\textit{phiuwṅ};\t%1014e",
       "wiktionary_semantic_validation": {
         "semantic_component": "麥",
         "phonetic_component": "豐",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "麷",
           "semantic_component": "麥",
           "phonetic_component": "豐",
           "position": "prefix-dot",
-          "abbreviation": "麥",
-          "inventory_matches": [],
+          "abbreviation": "trit",
+          "inventory_matches": [
+            {
+              "graph_raw": "麥",
+              "label_token": "trit(icum)",
+              "abbreviation": "trit",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|麥|豐|ls=psc|c1=s|c2=p|t1=wheat}}"
         }
       },

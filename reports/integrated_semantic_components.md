@@ -3,7 +3,7 @@
 - Current semantic source: `main.tex`
 - Earlier pilot semantic source: `key references/My_Chinese_dictionary/main.tex`
 - Normalization config: `data/semantic_components/semantic_aliases.json`
-- Integrated items: 229
+- Integrated items: 328
 - Items present in both sources: 194
 - Current-only items: 35
 - Pilot-only items: 0
@@ -64,7 +64,7 @@
 | `鳥` | `av` | `av(is)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `竹` | `bamb` | `bamb(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `須` | `barb` | `barb(a)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
-| `\symbol{"268DE}` | `barbil` | `barbil(ia)` |  | general |  |  |  |  | no | current_main_tex, earlier_pilot |
+| `\symbol{"268DE}` | `barbil` | `barbil(ia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `豸` | `best` | `best(ia)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `廾` | `biman` | `biman(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `牛` | `bos` | `bos` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -132,7 +132,7 @@
 | `𣒚` | `foll` | `foll(is)` |  | general |  |  |  |  | yes | current_main_tex |
 | `嗇` | `frug` | `frug(is)` |  | general |  |  |  |  | yes | current_main_tex |
 | `田` | `forn` | `forn(us)` | (only in 盧) | only_in | 盧 | intentional_scoped_duplicate | Same visible graph as 田/ager, but different semantic label and restricted use. |  | no | current_main_tex, earlier_pilot |
-| `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  | no | current_main_tex, earlier_pilot |
+| `\symbol{"2201C}` | `fov` | `fov(ere)` | (only in 筑) | only_in | 筑 |  |  |  | yes | current_main_tex, earlier_pilot |
 | `黃` | `galb` | `galb(inus)` | (only in 黈?) | only_in | 黈? |  |  |  | no | current_main_tex, earlier_pilot |
 | `仌` | `glac` | `glac(ies)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `玉` | `gem` | `gem(ma)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
@@ -273,3 +273,102 @@
 | `士` | `vir` | `vir` |  | general |  |  |  |  | yes | current_main_tex |
 | `力` | `virt` | `virt(us)` |  | general |  |  |  |  | yes | current_main_tex, earlier_pilot |
 | `面` | `vult` | `vult(us)` |  | general |  |  |  |  | yes | current_main_tex |
+| `㗊` | `clam` | `clam(or)` |  | general |  |  | Many mouths; outcry or shout. |  | yes | semantic_label_supplement |
+| `㢟` | `extens` | `extens(us)` |  | general |  |  | Old form of 延; extend/travel far. |  | yes | semantic_label_supplement |
+| `㱃` | `bib` | `bib(it)` |  | general |  |  | To drink. |  | yes | semantic_label_supplement |
+| `丂` | `halit` | `halit(us)` |  | general |  |  | Breath/exhalation. |  | yes | semantic_label_supplement |
+| `丌` | `pedest` | `pedest(al)` |  | general |  |  | Pedestal. |  | yes | semantic_label_supplement |
+| `丵` | `caesp` | `caesp(es)` |  | general |  |  | Tufted grass; clustered growth. |  | yes | semantic_label_supplement |
+| `凡` | `lanx` | `lanx` |  | general |  |  | Tray or flat dish. |  | yes | semantic_label_supplement |
+| `䀠` | `binoc` | `binoc(ulus)` |  | general |  |  | Two eyes. |  | yes | semantic_label_supplement |
+| `䇂` | `falx` | `falx` |  | general |  |  | Sickle. |  | yes | semantic_label_supplement |
+| `厶` | `priv` | `priv(atus)` |  | general |  |  | Private/self. |  | yes | semantic_label_supplement |
+| `匕` | `cyath` | `cyath(us)` |  | general |  |  | Spoon or ladle. |  | yes | semantic_label_supplement |
+| `兔` | `lepus` | `lepus` |  | general |  |  | Rabbit/hare. |  | yes | semantic_label_supplement |
+| `二` | `duo` | `duo` |  | general |  |  | Two equal lines. |  | yes | semantic_label_supplement |
+| `十` | `iung` | `iung(o)` |  | general |  |  | Knotted-cord / joining form. |  | yes | semantic_label_supplement |
+| `𠨍` | `coram` | `coram` |  | general |  |  | Two people facing each other. |  | yes | semantic_label_supplement |
+| `𠩺` | `fiss` | `fiss(ura)` |  | general |  |  | To split or rive. |  | yes | semantic_label_supplement |
+| `𭚧` | `emiss` | `emiss(io)` |  | general |  |  | Bow-firing / discharge / launch. |  | yes | semantic_label_supplement |
+| `覀` | `velam` | `velam(en)` |  | general |  |  | Cover/veil. |  | yes | semantic_label_supplement |
+| `豈` | `perc` | `perc(ussio)` |  | general |  |  | Drum / percussion. |  | yes | semantic_label_supplement |
+| `告` | `nunt` | `nunt(io)` |  | general |  |  | To tell, announce. |  | yes | semantic_label_supplement |
+| `囧` | `fenestr` | `fenestr(a)` |  | general |  |  | Window-like form. |  | yes | semantic_label_supplement |
+| `壺` | `urn` | `urn(a)` |  | general |  |  | Urn or pot. |  | yes | semantic_label_supplement |
+| `几` | `sell` | `sell(a)` |  | general |  |  | Small stool. |  | yes | semantic_label_supplement |
+| `勻` | `aequ` | `aequ(us)` |  | general |  |  | Equal / even / balanced. |  | yes | semantic_label_supplement |
+| `北` | `dors` | `dors(um)` |  | general |  |  | Back; back-to-back. |  | yes | semantic_label_supplement |
+| `卪` | `nod` | `nod(us)` |  | general |  |  | Joint or node. |  | yes | semantic_label_supplement |
+| `危` | `peril` | `peril(um)` |  | general |  |  | Danger; peril. |  | yes | semantic_label_supplement |
+| `冖` | `velum` | `velum` |  | general |  |  | Covering or canopy. |  | yes | semantic_label_supplement |
+| `向` | `echo` | `echo` |  | general |  |  | Echo / resonance. |  | yes | semantic_label_supplement |
+| `文` | `script` | `script(um)` |  | general |  |  | Patterned / written / tattooed form. |  | yes | semantic_label_supplement |
+| `彣` | `vari` | `vari(us)` |  | general |  |  | Variegated / literary. |  | yes | semantic_label_supplement |
+| `昱` | `luc` | `luc(em)` |  | general |  |  | Bright / shining. |  | yes | semantic_label_supplement |
+| `旦` | `auror` | `auror(a)` |  | general |  |  | Sunrise / dawn. |  | yes | semantic_label_supplement |
+| `夕` | `nox` | `nox` |  | general |  |  | Night / evening. |  | yes | semantic_label_supplement |
+| `朩` | `lign` | `lign(um)` |  | general |  |  | Wood / timber. |  | yes | semantic_label_supplement |
+| `谷` | `vall` | `vall(is)` |  | general |  |  | Valley. |  | yes | semantic_label_supplement |
+| `皀` | `cib` | `cib(us)` |  | general |  |  | Bowl of rice / food. |  | yes | semantic_label_supplement |
+| `香` | `fragr` | `fragr(ans)` |  | general |  |  | Fragrant / sweet-smelling. |  | yes | semantic_label_supplement |
+| `正` | `rect` | `rect(us)` |  | general |  |  | Straight / correct. |  | yes | semantic_label_supplement |
+| `比` | `comp` | `comp(ar)` |  | general |  |  | Compare / juxtapose. |  | yes | semantic_label_supplement |
+| `瓜` | `cucur` | `cucur(bita)` |  | general |  |  | Gourd. |  | yes | semantic_label_supplement |
+| `柬` | `leg` | `leg(o)` |  | general |  |  | Select / choose. |  | yes | semantic_label_supplement |
+| `殸` | `cymb` | `cymb(alum)` |  | general |  |  | Stone chime / percussion instrument. |  | yes | semantic_label_supplement |
+| `爿` | `lect` | `lect(us)` |  | general |  |  | Bed / bedboard. |  | yes | semantic_label_supplement |
+| `異` | `divers` | `divers(us)` |  | general |  |  | Different / unusual. |  | yes | semantic_label_supplement |
+| `盾` | `scut` | `scut(um)` |  | general |  |  | Shield. |  | yes | semantic_label_supplement |
+| `習` | `exerc` | `exerc(itium)` |  | general |  |  | Practice / learn. |  | yes | semantic_label_supplement |
+| `舁` | `elev` | `elev(are)` |  | general |  |  | Raise / carry. |  | yes | semantic_label_supplement |
+| `色` | `color` | `color` |  | general |  |  | Color / complexion. |  | yes | semantic_label_supplement |
+| `生` | `nasc` | `nasc(i)` |  | general |  |  | Life / birth / sprouting. |  | yes | semantic_label_supplement |
+| `臼` | `mortar` | `mortar(ium)` |  | general |  |  | Mortar. |  | yes | semantic_label_supplement |
+| `閃` | `fulg` | `fulg(or)` |  | general |  |  | Flash / sparkle. |  | yes | semantic_label_supplement |
+| `華` | `flor` | `flor` |  | general |  |  | Flower / blossoming brilliance. |  | yes | semantic_label_supplement |
+| `雈` | `strix` | `strix` |  | general |  |  | Owl. |  | yes | semantic_label_supplement |
+| `麥` | `trit` | `trit(icum)` |  | general |  |  | Wheat. |  | yes | semantic_label_supplement |
+| `麻` | `cann` | `cann(abis)` |  | general |  |  | Hemp. |  | yes | semantic_label_supplement |
+| `㕣` | `palud` | `palud(is)` |  | general |  |  | Marsh or wetland between mountains. |  | yes | semantic_label_supplement |
+| `㣇` | `fasc` | `fasc(is)` |  | general |  |  | Bundle / gathered mass. |  | yes | semantic_label_supplement |
+| `丷` | `furc` | `furc(a)` |  | general |  |  | Forked, split-open upper form. |  | yes | semantic_label_supplement |
+| `丿` | `obliq` | `obliq(uus)` |  | general |  |  | Left-falling oblique stroke. |  | yes | semantic_label_supplement |
+| `乚` | `unc` | `unc(us)` |  | general |  |  | Hooked terminal stroke. |  | yes | semantic_label_supplement |
+| `乙` | `uncin` | `uncin(us)` |  | general |  |  | Hooked / curving terminal graph. |  | yes | semantic_label_supplement |
+| `倠` | `avis` | `avis` |  | general |  |  | Bird-like component in 雁. |  | yes | semantic_label_supplement |
+| `儿` | `crur` | `crur(a)` |  | general |  |  | Leg-like human base / knees. |  | yes | semantic_label_supplement |
+| `共` | `commun` | `commun(is)` |  | general |  |  | Together / common / held-up object with two hands. |  | yes | semantic_label_supplement |
+| `卂` | `celer` | `celer(is)` |  | general |  |  | Swift / flying component in 迅. |  | yes | semantic_label_supplement |
+| `吅` | `bivoc` | `bivoc(is)` |  | general |  |  | Two mouths / outcry. |  | yes | semantic_label_supplement |
+| `呂` | `spina` | `spina` |  | general |  |  | Spine / vertebral pair. |  | yes | semantic_label_supplement |
+| `喦` | `sax` | `sax(um)` |  | general |  |  | Rocky / craggy mass. |  | yes | semantic_label_supplement |
+| `夸` | `glor` | `glor(ia)` |  | general |  |  | Boast / magnified form. |  | yes | semantic_label_supplement |
+| `委` | `genuf` | `genuf(lectere)` |  | general |  |  | Kneeling woman / bent posture. |  | yes | semantic_label_supplement |
+| `室` | `cella` | `cella` |  | general |  |  | Room / chamber / house. |  | yes | semantic_label_supplement |
+| `尋` | `brach` | `brach(ium)` |  | general |  |  | Armspan / measure. |  | yes | semantic_label_supplement |
+| `尺` | `regul` | `regul(a)` |  | general |  |  | Ruler / measuring rod. |  | yes | semantic_label_supplement |
+| `巜` | `riv` | `riv(us)` |  | general |  |  | Stream / channel. |  | yes | semantic_label_supplement |
+| `弋` | `clav` | `clav(us)` |  | general |  |  | Peg / sharp stake. |  | yes | semantic_label_supplement |
+| `引` | `tract` | `tract(us)` |  | general |  |  | Draw / pull. |  | yes | semantic_label_supplement |
+| `恣` | `cupi` | `cupi(dus)` |  | general |  |  | Desire / indulge oneself. |  | yes | semantic_label_supplement |
+| `是` | `ver` | `ver(us)` |  | general |  |  | Right / true / correct. |  | yes | semantic_label_supplement |
+| `桀` | `hero` | `heros` |  | general |  |  | Outstanding hero / valiant figure. |  | yes | semantic_label_supplement |
+| `皃` | `spec` | `spec(ies)` |  | general |  |  | Appearance / visage. |  | yes | semantic_label_supplement |
+| `縣` | `susp` | `susp(ensus)` |  | general |  |  | Hang / suspend. |  | yes | semantic_label_supplement |
+| `臥` | `procumb` | `procumb(ere)` |  | general |  |  | Lie down / recline. |  | yes | semantic_label_supplement |
+| `至` | `adven` | `adven(ire)` |  | general |  |  | Arrive / reach. |  | yes | semantic_label_supplement |
+| `蜀` | `bombyx` | `bombyx` |  | general |  |  | Silkworm / insect graph. |  | yes | semantic_label_supplement |
+| `豐` | `abund` | `abund(ans)` |  | general |  |  | Abundance / fullness. |  | yes | semantic_label_supplement |
+| `重` | `grav` | `grav(is)` |  | general |  |  | Heavy / weight. |  | yes | semantic_label_supplement |
+| `镸` | `long` | `long(us)` |  | general |  |  | Long / extended form. |  | yes | semantic_label_supplement |
+| `龴` | `curv` | `curv(us)` |  | general |  |  | Curved top / hooked upper element. |  | yes | semantic_label_supplement |
+| `𠂇` | `laev` | `laev(us)` |  | general |  |  | Left-hand / left-side element. |  | yes | semantic_label_supplement |
+| `𠌵` | `anser` | `anser` |  | general |  |  | Goose / bird component in 鴈. |  | yes | semantic_label_supplement |
+| `𠚕` | `odont` | `odont(us)` |  | general |  |  | Tooth row / dental graph. |  | yes | semantic_label_supplement |
+| `𠬜` | `preh` | `preh(endere)` |  | general |  |  | Grasp / seize / entangle. |  | yes | semantic_label_supplement |
+| `𠬪` | `carp` | `carp(ere)` |  | general |  |  | Pluck / pick by hand. |  | yes | semantic_label_supplement |
+| `𬅟` | `desid` | `desid(erium)` |  | general |  |  | Desire / wishing heart. |  | yes | semantic_label_supplement |
+| `㚣` | `mulier` | `mulier(es)` |  | general |  |  | Women / female cluster. |  | yes | semantic_label_supplement |
+| `丶` | `punct` | `punct(um)` |  | general |  |  | Dot / point / marked dot. |  | yes | semantic_label_supplement |
+| `叹` | `suspir` | `suspir(are)` |  | general |  |  | Sigh / exclaiming mouth. |  | yes | semantic_label_supplement |
+| `吂` | `vict` | `vict(or)` |  | general |  |  | Victory / winning-abundance family. |  | yes | semantic_label_supplement |

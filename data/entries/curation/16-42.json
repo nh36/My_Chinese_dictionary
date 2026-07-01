@@ -386,32 +386,49 @@
               "graph_raw": "豸",
               "label_token": "best(ia)",
               "abbreviation": "best",
-              "start_line": 210
+              "start_line": 210,
+              "source": null
             }
           ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "皃",
+        "abbreviation": "spec",
         "position": "suffix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "皃",
+            "label_token": "spec(ies)",
+            "abbreviation": "spec",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "皃"
       },
-      "transliteration_latex": "{\\large{mek₃\\textsuperscript{·皃}}},",
-      "render_latex": "貌\t%mao4 / mào\n{\\large{mek₃\\textsuperscript{·皃}}},\n\\textit{maewH};\t%1171b",
+      "transliteration_latex": "{\\large{mek₃\\textsuperscript{·spec}}},",
+      "render_latex": "貌\t%mao4 / mào\n{\\large{mek₃\\textsuperscript{·spec}}},\n\\textit{maewH};\t%1171b",
       "wiktionary_semantic_validation": {
         "semantic_component": "皃",
         "phonetic_component": "豹",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "貌",
           "semantic_component": "皃",
           "phonetic_component": "豹",
           "position": "suffix-dot",
-          "abbreviation": "皃",
-          "inventory_matches": [],
+          "abbreviation": "spec",
+          "inventory_matches": [
+            {
+              "graph_raw": "皃",
+              "label_token": "spec(ies)",
+              "abbreviation": "spec",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|豹|皃|c1=p|abb1=y|c2=s|t2=looks|ls=psc}}"
         }
       },
@@ -593,7 +610,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -614,7 +632,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -644,7 +663,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -800,7 +820,8 @@
             "graph_raw": "辵",
             "label_token": "amb(ulo)",
             "abbreviation": "amb",
-            "start_line": 188
+            "start_line": 188,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -823,7 +844,8 @@
               "graph_raw": "辵",
               "label_token": "amb(ulo)",
               "abbreviation": "amb",
-              "start_line": 188
+              "start_line": 188,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|辵|alt1=辶|貌|ls=psc|c1=s|c2=p}}"

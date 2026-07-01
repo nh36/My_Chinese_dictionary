@@ -192,26 +192,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "髟",
           "ids": "⿰镸彡",
           "phonetic_component": "髟",
           "semantic_component": "镸",
           "position": "prefix-dot",
-          "abbreviation": "镸",
-          "inventory_matches": []
+          "abbreviation": "long",
+          "inventory_matches": [
+            {
+              "graph_raw": "镸",
+              "label_token": "long(us)",
+              "abbreviation": "long",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "镸",
+        "abbreviation": "long",
         "position": "prefix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "镸",
+            "label_token": "long(us)",
+            "abbreviation": "long",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "镸"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{镸·}sam}},",
-      "render_latex": "髟\t%biao1 / shan1 / shān\n{\\large{\\textsuperscript{镸·}sam}},\n\\textit{pyiew};\t%1154a\n\\textit{pyiw};\n\\textit{ṣaem};",
+      "transliteration_latex": "{\\large{\\textsuperscript{long·}sam}},",
+      "render_latex": "髟\t%biao1 / shan1 / shān\n{\\large{\\textsuperscript{long·}sam}},\n\\textit{pyiew};\t%1154a\n\\textit{pyiw};\n\\textit{ṣaem};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-top-level",
@@ -328,7 +344,8 @@
             "graph_raw": "虍",
             "label_token": "tigr(is)",
             "abbreviation": "tigr",
-            "start_line": 408
+            "start_line": 408,
+            "source": null
           },
           {
             "graph_raw": "虍",
@@ -429,7 +446,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -450,7 +468,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",

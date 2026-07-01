@@ -132,7 +132,7 @@
         "phonetic_hint": "票"
       },
       "resolved_node_root": {
-        "root": "pew",
+        "root": "pew₂",
         "source": "node_transliteration_fallback",
         "descendant_count": 1,
         "bs_support_count": 0,
@@ -990,7 +990,8 @@
             "graph_raw": "火",
             "label_token": "ign(is)",
             "abbreviation": "ign",
-            "start_line": 300
+            "start_line": 300,
+            "source": null
           },
           {
             "graph_raw": "火",
@@ -1144,7 +1145,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1165,7 +1167,8 @@
             "graph_raw": "木",
             "label_token": "arb(or)",
             "abbreviation": "arb",
-            "start_line": 203
+            "start_line": 203,
+            "source": null
           },
           {
             "graph_raw": "木",
@@ -1195,7 +1198,8 @@
               "graph_raw": "木",
               "label_token": "arb(or)",
               "abbreviation": "arb",
-              "start_line": 203
+              "start_line": 203,
+              "source": null
             },
             {
               "graph_raw": "木",
@@ -1348,7 +1352,8 @@
               "graph_raw": "風",
               "label_token": "vent(us)",
               "abbreviation": "vent",
-              "start_line": 433
+              "start_line": 433,
+              "source": null
             }
           ]
         }
@@ -1362,7 +1367,8 @@
             "graph_raw": "風",
             "label_token": "vent(us)",
             "abbreviation": "vent",
-            "start_line": 433
+            "start_line": 433,
+            "source": null
           }
         ],
         "source": "wiktionary_han_compound",
@@ -1385,7 +1391,8 @@
               "graph_raw": "風",
               "label_token": "vent(us)",
               "abbreviation": "vent",
-              "start_line": 433
+              "start_line": 433,
+              "source": null
             }
           ],
           "template_raw": "{{Han compound|票|風|c1=p|c2=s|t2=wind|ls=psc}}"
@@ -1496,7 +1503,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1517,7 +1525,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1649,7 +1658,8 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 249
+              "start_line": 249,
+              "source": null
             }
           ]
         }
@@ -1663,7 +1673,8 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 249
+            "start_line": 249,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -1754,7 +1765,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -1775,7 +1787,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -1933,7 +1946,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -1954,7 +1968,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -1984,7 +1999,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -2188,26 +2204,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "瓢",
           "ids": "⿰票瓜",
           "phonetic_component": "票",
           "semantic_component": "瓜",
           "position": "suffix-dot",
-          "abbreviation": "瓜",
-          "inventory_matches": []
+          "abbreviation": "cucur",
+          "inventory_matches": [
+            {
+              "graph_raw": "瓜",
+              "label_token": "cucur(bita)",
+              "abbreviation": "cucur",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "瓜",
+        "abbreviation": "cucur",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "瓜",
+            "label_token": "cucur(bita)",
+            "abbreviation": "cucur",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "瓜"
       },
-      "transliteration_latex": "{\\large{pew₃\\textsuperscript{·瓜}}},",
-      "render_latex": "瓢\t%piao2 / piáo\n{\\large{pew₃\\textsuperscript{·瓜}}},\n\\textit{byiew};\t%1157k",
+      "transliteration_latex": "{\\large{pew₃\\textsuperscript{·cucur}}},",
+      "render_latex": "瓢\t%piao2 / piáo\n{\\large{pew₃\\textsuperscript{·cucur}}},\n\\textit{byiew};\t%1157k",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2359,7 +2391,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -2380,7 +2413,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",

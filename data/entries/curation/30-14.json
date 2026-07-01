@@ -832,7 +832,8 @@
               "graph_raw": "竹",
               "label_token": "bamb(us)",
               "abbreviation": "bamb",
-              "start_line": 206
+              "start_line": 206,
+              "source": null
             },
             {
               "graph_raw": "竹",
@@ -853,7 +854,8 @@
             "graph_raw": "竹",
             "label_token": "bamb(us)",
             "abbreviation": "bamb",
-            "start_line": 206
+            "start_line": 206,
+            "source": null
           },
           {
             "graph_raw": "竹",
@@ -1096,7 +1098,8 @@
               "graph_raw": "刀",
               "label_token": "cult(er)",
               "abbreviation": "cult",
-              "start_line": 249
+              "start_line": 249,
+              "source": null
             }
           ]
         }
@@ -1110,7 +1113,8 @@
             "graph_raw": "刀",
             "label_token": "cult(er)",
             "abbreviation": "cult",
-            "start_line": 249
+            "start_line": 249,
+            "source": null
           }
         ],
         "source": "ids_top_level",
@@ -1263,7 +1267,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1284,7 +1289,8 @@
             "graph_raw": "手",
             "label_token": "man(us)",
             "abbreviation": "man",
-            "start_line": 319
+            "start_line": 319,
+            "source": null
           },
           {
             "graph_raw": "手",
@@ -1314,7 +1320,8 @@
               "graph_raw": "手",
               "label_token": "man(us)",
               "abbreviation": "man",
-              "start_line": 319
+              "start_line": 319,
+              "source": null
             },
             {
               "graph_raw": "手",
@@ -1554,7 +1561,8 @@
               "graph_raw": "髟",
               "label_token": "crin(is)",
               "abbreviation": "crin",
-              "start_line": 248
+              "start_line": 248,
+              "source": null
             },
             {
               "graph_raw": "髟",
@@ -1575,7 +1583,8 @@
             "graph_raw": "髟",
             "label_token": "crin(is)",
             "abbreviation": "crin",
-            "start_line": 248
+            "start_line": 248,
+            "source": null
           },
           {
             "graph_raw": "髟",
@@ -1710,7 +1719,8 @@
               "graph_raw": "艸",
               "label_token": "herb(a)",
               "abbreviation": "herb",
-              "start_line": 297
+              "start_line": 297,
+              "source": null
             },
             {
               "graph_raw": "艸",
@@ -1731,7 +1741,8 @@
             "graph_raw": "艸",
             "label_token": "herb(a)",
             "abbreviation": "herb",
-            "start_line": 297
+            "start_line": 297,
+            "source": null
           },
           {
             "graph_raw": "艸",
@@ -1895,7 +1906,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -1916,7 +1928,8 @@
             "graph_raw": "人",
             "label_token": "hom(o)",
             "abbreviation": "hom",
-            "start_line": 298
+            "start_line": 298,
+            "source": null
           },
           {
             "graph_raw": "人",
@@ -1946,7 +1959,8 @@
               "graph_raw": "人",
               "label_token": "hom(o)",
               "abbreviation": "hom",
-              "start_line": 298
+              "start_line": 298,
+              "source": null
             },
             {
               "graph_raw": "人",
@@ -2055,7 +2069,8 @@
               "graph_raw": "口",
               "label_token": "(os,) or(is)",
               "abbreviation": "or",
-              "start_line": 344
+              "start_line": 344,
+              "source": null
             },
             {
               "graph_raw": "口",
@@ -2076,7 +2091,8 @@
             "graph_raw": "口",
             "label_token": "(os,) or(is)",
             "abbreviation": "or",
-            "start_line": 344
+            "start_line": 344,
+            "source": null
           },
           {
             "graph_raw": "口",
@@ -2157,7 +2173,8 @@
             "graph_raw": "山",
             "label_token": "mon(s)",
             "abbreviation": "mon",
-            "start_line": 327
+            "start_line": 327,
+            "source": null
           },
           {
             "graph_raw": "山",
@@ -2304,7 +2321,8 @@
               "graph_raw": "心",
               "label_token": "cor",
               "abbreviation": "cor",
-              "start_line": 239
+              "start_line": 239,
+              "source": null
             },
             {
               "graph_raw": "心",
@@ -2325,7 +2343,8 @@
             "graph_raw": "心",
             "label_token": "cor",
             "abbreviation": "cor",
-            "start_line": 239
+            "start_line": 239,
+            "source": null
           },
           {
             "graph_raw": "心",
@@ -2460,26 +2479,42 @@
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [
         {
-          "source": "ids_component_literal_fallback",
+          "source": "ids_top_level",
           "character": "艴",
           "ids": "⿰弗色",
           "phonetic_component": "弗",
           "semantic_component": "色",
           "position": "suffix-dot",
-          "abbreviation": "色",
-          "inventory_matches": []
+          "abbreviation": "color",
+          "inventory_matches": [
+            {
+              "graph_raw": "色",
+              "label_token": "color",
+              "abbreviation": "color",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ]
         }
       ],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "色",
+        "abbreviation": "color",
         "position": "suffix-dot",
-        "inventory_matches": [],
+        "inventory_matches": [
+          {
+            "graph_raw": "色",
+            "label_token": "color",
+            "abbreviation": "color",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
         "source": "ids_component_literal_fallback",
         "semantic_component": "色"
       },
-      "transliteration_latex": "{\\large{put\\textsuperscript{·色}}},",
-      "render_latex": "艴\t%bo2 / fu2 / bó / fú\n{\\large{put\\textsuperscript{·色}}},\n\\textit{bwət};\t%0500p\n\\textit{phiut};",
+      "transliteration_latex": "{\\large{put\\textsuperscript{·color}}},",
+      "render_latex": "艴\t%bo2 / fu2 / bó / fú\n{\\large{put\\textsuperscript{·color}}},\n\\textit{bwət};\t%0500p\n\\textit{phiut};",
       "wiktionary_semantic_validation": null,
       "hierarchy_assignment": {
         "status": "assigned-to-candidate-node",
@@ -2638,7 +2673,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -2659,7 +2695,8 @@
             "graph_raw": "水",
             "label_token": "aq(ua)",
             "abbreviation": "aq",
-            "start_line": 198
+            "start_line": 198,
+            "source": null
           },
           {
             "graph_raw": "水",
@@ -2689,7 +2726,8 @@
               "graph_raw": "水",
               "label_token": "aq(ua)",
               "abbreviation": "aq",
-              "start_line": 198
+              "start_line": 198,
+              "source": null
             },
             {
               "graph_raw": "水",
@@ -2798,7 +2836,8 @@
               "graph_raw": "日",
               "label_token": "sol",
               "abbreviation": "sol",
-              "start_line": 391
+              "start_line": 391,
+              "source": null
             },
             {
               "graph_raw": "日",
@@ -2819,7 +2858,8 @@
             "graph_raw": "日",
             "label_token": "sol",
             "abbreviation": "sol",
-            "start_line": 391
+            "start_line": 391,
+            "source": null
           },
           {
             "graph_raw": "日",
@@ -2989,14 +3029,15 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 238
+              "start_line": 238,
+              "source": null
             },
             {
               "graph_raw": "貝",
               "label_token": "conch",
               "abbreviation": "conch",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ]
         }
@@ -3010,14 +3051,15 @@
             "graph_raw": "貝",
             "label_token": "conch(a)",
             "abbreviation": "conch",
-            "start_line": 238
+            "start_line": 238,
+            "source": null
           },
           {
             "graph_raw": "貝",
             "label_token": "conch",
             "abbreviation": "conch",
             "learned": true,
-            "evidence_count": 5
+            "evidence_count": 6
           }
         ],
         "source": "wiktionary_han_compound",
@@ -3040,14 +3082,15 @@
               "graph_raw": "貝",
               "label_token": "conch(a)",
               "abbreviation": "conch",
-              "start_line": 238
+              "start_line": 238,
+              "source": null
             },
             {
               "graph_raw": "貝",
               "label_token": "conch",
               "abbreviation": "conch",
               "learned": true,
-              "evidence_count": 5
+              "evidence_count": 6
             }
           ],
           "template_raw": "{{Han compound|弗|貝|ls=psc|c1=p|c2=s|t2=[[cowry]]}}"

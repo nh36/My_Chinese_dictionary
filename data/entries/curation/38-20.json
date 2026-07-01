@@ -395,25 +395,41 @@
       "semantic_candidates_from_ids": [],
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "臥",
+        "abbreviation": "procumb",
         "position": "prefix-dot",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "臥",
+            "label_token": "procumb(ere)",
+            "abbreviation": "procumb",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "臥"
       },
-      "transliteration_latex": "{\\large{\\textsuperscript{臥·}pum}},",
-      "render_latex": "臨\t%lin2 / lin4 / lín\n{\\large{\\textsuperscript{臥·}pum}},\n\\textit{lim};\t%0669e\n\\textit{limH};",
+      "transliteration_latex": "{\\large{\\textsuperscript{procumb·}pum}},",
+      "render_latex": "臨\t%lin2 / lin4 / lín\n{\\large{\\textsuperscript{procumb·}pum}},\n\\textit{lim};\t%0669e\n\\textit{limH};",
       "wiktionary_semantic_validation": {
         "semantic_component": "臥",
         "phonetic_component": "品",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "臨",
           "semantic_component": "臥",
           "phonetic_component": "品",
           "position": "prefix-dot",
-          "abbreviation": "臥",
-          "inventory_matches": [],
+          "abbreviation": "procumb",
+          "inventory_matches": [
+            {
+              "graph_raw": "臥",
+              "label_token": "procumb(ere)",
+              "abbreviation": "procumb",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|臥|品|c1=s|c2=p|ls=psc|nocap=yes}}"
         }
       },

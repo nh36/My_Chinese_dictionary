@@ -36,6 +36,10 @@ RESEARCH_HEAVY_GRAPHS = {
     "𦰩",
 }
 
+NEEDS_HUMAN_REVIEW_GRAPHS = {
+    "𭯍",
+}
+
 
 def classify_case(
     row: dict[str, Any],
@@ -91,6 +95,15 @@ def classify_case(
             "proposal": (
                 f"Investigate whether `{component}` should stay a distinct semantic graph or be reduced "
                 "to one of its subcomponents before assigning a Latin label."
+            ),
+        }
+
+    if component in NEEDS_HUMAN_REVIEW_GRAPHS:
+        return {
+            "classification": "needs_human_review",
+            "proposal": (
+                f"Keep `{component}` out of the canonical semantic inventory until a scholar can confirm "
+                "whether it is semantic at all; current evidence suggests a rare phonetic component."
             ),
         }
 
@@ -227,6 +240,7 @@ def render_report(inventory: dict[str, Any]) -> str:
     sections = [
         "existing_inventory_variant",
         "template_alt_graph",
+        "needs_human_review",
         "new_latin_label_needed",
         "research_compound_graph",
     ]

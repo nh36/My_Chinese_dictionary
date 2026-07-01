@@ -147,28 +147,44 @@
       },
       "tex_occurrence_candidates": [],
       "semantic_candidates_from_ids": [],
-      "transliteration_latex": "{\\large{\\textsuperscript{㣇˸}qut₄}},",
-      "render_latex": "彙\t%hui4\n{\\large{\\textsuperscript{㣇˸}qut₄}},\n\\textit{hiwɨyH};\t%0524a",
+      "transliteration_latex": "{\\large{\\textsuperscript{fasc˸}qut₄}},",
+      "render_latex": "彙\t%hui4\n{\\large{\\textsuperscript{fasc˸}qut₄}},\n\\textit{hiwɨyH};\t%0524a",
       "wiktionary_semantic_validation": {
         "semantic_component": "㣇",
         "phonetic_component": "胃",
         "resolved_assignment": {
-          "source": "wiktionary_component_literal_fallback",
+          "source": "wiktionary_han_compound",
           "character": "彙",
           "semantic_component": "㣇",
           "phonetic_component": "胃",
           "position": "prefix-colon",
-          "abbreviation": "㣇",
-          "inventory_matches": [],
+          "abbreviation": "fasc",
+          "inventory_matches": [
+            {
+              "graph_raw": "㣇",
+              "label_token": "fasc(is)",
+              "abbreviation": "fasc",
+              "start_line": null,
+              "source": "semantic_label_supplement"
+            }
+          ],
           "template_raw": "{{Han compound|㣇|胃|ls=psc|c1=s|c2=p|abb2=y}}"
         }
       },
       "semantic_assignment": {
         "token": null,
-        "abbreviation": "㣇",
+        "abbreviation": "fasc",
         "position": "prefix-colon",
-        "inventory_matches": [],
-        "source": "wiktionary_component_literal_fallback",
+        "inventory_matches": [
+          {
+            "graph_raw": "㣇",
+            "label_token": "fasc(is)",
+            "abbreviation": "fasc",
+            "start_line": null,
+            "source": "semantic_label_supplement"
+          }
+        ],
+        "source": "wiktionary_han_compound",
         "semantic_component": "㣇"
       },
       "hierarchy_assignment": null,
